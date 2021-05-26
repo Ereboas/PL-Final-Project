@@ -6,7 +6,7 @@ main files:
 * dependency/RTClosure.v: definitions and properties of reflexive transitive closure, from the course
 * AuxiliaryTac.v: some tactics for automation in VST, from Instructor
 * Tacs.v: some simple ltacs, for the convenience of proof
-* definitions2.v: basic definitions, properties, equivalent forms and related lemmas of necessary predicates 必要的定义, 谓词的定义\性质\等价形式\相关引理
+* definitions2.v: basic definitions, properties, equivalent forms and related lemmas of necessary predicates
 * api_spec2.v: proof of called functions of "insert" or "insert_balance"
 * verif_insert_balance.v: proof of "insert_balance"
 * verif_insert.v: proof of "insert"
