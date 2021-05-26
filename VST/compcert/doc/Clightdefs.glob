@@ -1,0 +1,143 @@
+DIGEST NO
+Fcompcert.exportclight.Clightdefs
+R1135:1140 Coq.Strings.String <> <> lib
+R1158:1161 Coq.Lists.List <> <> lib
+R1179:1184 Coq.ZArith.ZArith <> <> lib
+R1202:1209 compcert.lib.Integers <> <> lib
+R1227:1232 compcert.lib.Floats <> <> lib
+R1250:1252 compcert.common.AST <> <> lib
+R1270:1275 compcert.cfrontend.Ctypes <> <> lib
+R1293:1295 compcert.cfrontend.Cop <> <> lib
+R1313:1318 compcert.cfrontend.Clight <> <> lib
+R1336:1339 compcert.lib.Maps <> <> lib
+R1357:1362 compcert.common.Errors <> <> lib
+def 1377:1381 <> tvoid
+R1386:1390 compcert.cfrontend.Ctypes <> Tvoid constr
+def 1404:1409 <> tschar
+R1414:1417 compcert.cfrontend.Ctypes <> Tint constr
+R1429:1434 compcert.cfrontend.Ctypes <> noattr def
+R1422:1427 compcert.cfrontend.Ctypes <> Signed constr
+R1419:1420 compcert.cfrontend.Ctypes <> I8 constr
+def 1448:1453 <> tuchar
+R1458:1461 compcert.cfrontend.Ctypes <> Tint constr
+R1475:1480 compcert.cfrontend.Ctypes <> noattr def
+R1466:1473 compcert.cfrontend.Ctypes <> Unsigned constr
+R1463:1464 compcert.cfrontend.Ctypes <> I8 constr
+def 1494:1499 <> tshort
+R1504:1507 compcert.cfrontend.Ctypes <> Tint constr
+R1520:1525 compcert.cfrontend.Ctypes <> noattr def
+R1513:1518 compcert.cfrontend.Ctypes <> Signed constr
+R1509:1511 compcert.cfrontend.Ctypes <> I16 constr
+def 1539:1545 <> tushort
+R1550:1553 compcert.cfrontend.Ctypes <> Tint constr
+R1568:1573 compcert.cfrontend.Ctypes <> noattr def
+R1559:1566 compcert.cfrontend.Ctypes <> Unsigned constr
+R1555:1557 compcert.cfrontend.Ctypes <> I16 constr
+def 1587:1590 <> tint
+R1595:1598 compcert.cfrontend.Ctypes <> Tint constr
+R1611:1616 compcert.cfrontend.Ctypes <> noattr def
+R1604:1609 compcert.cfrontend.Ctypes <> Signed constr
+R1600:1602 compcert.cfrontend.Ctypes <> I32 constr
+def 1630:1634 <> tuint
+R1639:1642 compcert.cfrontend.Ctypes <> Tint constr
+R1657:1662 compcert.cfrontend.Ctypes <> noattr def
+R1648:1655 compcert.cfrontend.Ctypes <> Unsigned constr
+R1644:1646 compcert.cfrontend.Ctypes <> I32 constr
+def 1676:1680 <> tbool
+R1685:1688 compcert.cfrontend.Ctypes <> Tint constr
+R1705:1710 compcert.cfrontend.Ctypes <> noattr def
+R1696:1703 compcert.cfrontend.Ctypes <> Unsigned constr
+R1690:1694 compcert.cfrontend.Ctypes <> IBool constr
+def 1724:1728 <> tlong
+R1733:1737 compcert.cfrontend.Ctypes <> Tlong constr
+R1746:1751 compcert.cfrontend.Ctypes <> noattr def
+R1739:1744 compcert.cfrontend.Ctypes <> Signed constr
+def 1765:1770 <> tulong
+R1775:1779 compcert.cfrontend.Ctypes <> Tlong constr
+R1790:1795 compcert.cfrontend.Ctypes <> noattr def
+R1781:1788 compcert.cfrontend.Ctypes <> Unsigned constr
+def 1809:1814 <> tfloat
+R1819:1824 compcert.cfrontend.Ctypes <> Tfloat constr
+R1830:1835 compcert.cfrontend.Ctypes <> noattr def
+R1826:1828 compcert.cfrontend.Ctypes <> F32 constr
+def 1849:1855 <> tdouble
+R1860:1865 compcert.cfrontend.Ctypes <> Tfloat constr
+R1871:1876 compcert.cfrontend.Ctypes <> noattr def
+R1867:1869 compcert.cfrontend.Ctypes <> F64 constr
+def 1890:1893 <> tptr
+R1899:1902 compcert.cfrontend.Ctypes <> type ind
+R1908:1915 compcert.cfrontend.Ctypes <> Tpointer constr
+R1919:1924 compcert.cfrontend.Ctypes <> noattr def
+R1917:1917 compcert.exportclight.Clightdefs <> t var
+def 1938:1943 <> tarray
+R1949:1952 compcert.cfrontend.Ctypes <> type ind
+R1960:1960 Coq.Numbers.BinNums <> Z ind
+R1966:1971 compcert.cfrontend.Ctypes <> Tarray constr
+R1978:1983 compcert.cfrontend.Ctypes <> noattr def
+R1975:1976 compcert.exportclight.Clightdefs <> sz var
+R1973:1973 compcert.exportclight.Clightdefs <> t var
+def 1998:2010 <> volatile_attr
+R2018:2060 compcert.cfrontend.Ctypes <> mk_attr constr
+R2057:2060 Coq.Init.Datatypes <> None constr
+R2035:2038 Coq.Init.Datatypes <> true constr
+def 2078:2082 <> tattr
+R2088:2091 compcert.cfrontend.Ctypes <> attr rec
+R2099:2102 compcert.cfrontend.Ctypes <> type ind
+R2116:2117 compcert.exportclight.Clightdefs <> ty var
+R2128:2132 compcert.cfrontend.Ctypes <> Tvoid constr
+R2137:2141 compcert.cfrontend.Ctypes <> Tvoid constr
+R2147:2150 compcert.cfrontend.Ctypes <> Tint constr
+R2163:2166 compcert.cfrontend.Ctypes <> Tint constr
+R2174:2174 compcert.exportclight.Clightdefs <> a var
+R2180:2184 compcert.cfrontend.Ctypes <> Tlong constr
+R2194:2198 compcert.cfrontend.Ctypes <> Tlong constr
+R2203:2203 compcert.exportclight.Clightdefs <> a var
+R2209:2214 compcert.cfrontend.Ctypes <> Tfloat constr
+R2224:2229 compcert.cfrontend.Ctypes <> Tfloat constr
+R2234:2234 compcert.exportclight.Clightdefs <> a var
+R2240:2247 compcert.cfrontend.Ctypes <> Tpointer constr
+R2258:2265 compcert.cfrontend.Ctypes <> Tpointer constr
+R2271:2271 compcert.exportclight.Clightdefs <> a var
+R2277:2282 compcert.cfrontend.Ctypes <> Tarray constr
+R2296:2301 compcert.cfrontend.Ctypes <> Tarray constr
+R2310:2310 compcert.exportclight.Clightdefs <> a var
+R2316:2324 compcert.cfrontend.Ctypes <> Tfunction constr
+R2341:2349 compcert.cfrontend.Ctypes <> Tfunction constr
+R2367:2373 compcert.cfrontend.Ctypes <> Tstruct constr
+R2383:2389 compcert.cfrontend.Ctypes <> Tstruct constr
+R2394:2394 compcert.exportclight.Clightdefs <> a var
+R2400:2405 compcert.cfrontend.Ctypes <> Tunion constr
+R2416:2421 compcert.cfrontend.Ctypes <> Tunion constr
+R2426:2426 compcert.exportclight.Clightdefs <> a var
+def 2447:2455 <> tvolatile
+R2462:2465 compcert.cfrontend.Ctypes <> type ind
+R2471:2475 compcert.exportclight.Clightdefs <> tattr def
+R2491:2492 compcert.exportclight.Clightdefs <> ty var
+R2477:2489 compcert.exportclight.Clightdefs <> volatile_attr def
+def 2507:2514 <> talignas
+R2520:2520 Coq.Numbers.BinNums <> N ind
+R2528:2531 compcert.cfrontend.Ctypes <> type ind
+R2539:2543 compcert.exportclight.Clightdefs <> tattr def
+R2598:2599 compcert.exportclight.Clightdefs <> ty var
+R2548:2593 compcert.cfrontend.Ctypes <> mk_attr constr
+R2588:2591 Coq.Init.Datatypes <> Some constr
+R2593:2593 compcert.exportclight.Clightdefs <> n var
+R2565:2569 Coq.Init.Datatypes <> false constr
+def 2614:2630 <> tvolatile_alignas
+R2636:2636 Coq.Numbers.BinNums <> N ind
+R2644:2647 compcert.cfrontend.Ctypes <> type ind
+R2655:2659 compcert.exportclight.Clightdefs <> tattr def
+R2713:2714 compcert.exportclight.Clightdefs <> ty var
+R2664:2708 compcert.cfrontend.Ctypes <> mk_attr constr
+R2703:2706 Coq.Init.Datatypes <> Some constr
+R2708:2708 compcert.exportclight.Clightdefs <> n var
+R2681:2684 Coq.Init.Datatypes <> true constr
+def 2729:2746 <> make_composite_env
+R2756:2759 Coq.Init.Datatypes <> list ind
+R2761:2780 compcert.cfrontend.Ctypes <> composite_definition ind
+R2784:2796 compcert.cfrontend.Ctypes <> composite_env def
+R2809:2827 compcert.cfrontend.Ctypes <> build_composite_env def
+R2829:2833 compcert.exportclight.Clightdefs <> comps var
+R2844:2845 compcert.common.Errors <> OK constr
+R2858:2862 compcert.common.Errors <> Error constr
+R2869:2879 compcert.lib.Maps PTree empty def

@@ -1,0 +1,2762 @@
+DIGEST 4ce69b35d9538ebec98b8fb9d3ffec76
+FVST.floyd.freezer
+R15:29 VST.floyd.base2 <> <> lib
+R47:61 VST.floyd.canon <> <> lib
+R79:96 VST.floyd.entailer <> <> lib
+R114:127 Coq.Lists.List <> <> lib
+R167:189 VST.floyd.client_lemmas <> <> lib
+R235:252 Coq.Structures.Orders TotalLeBool <> mod
+mod 225:230 <> ZOrder
+def 268:268 ZOrder t
+R273:273 Coq.Numbers.BinNums <> Z ind
+def 289:291 ZOrder leb
+R296:300 Coq.ZArith.BinInt Z leb def
+prf 313:321 ZOrder leb_total
+binder 332:333 <> a1:1
+binder 335:336 <> a2:2
+R357:360 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R350:352 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R339:343 Coq.ZArith.BinInt Z leb def
+R348:349 VST.floyd.freezer <> a2:2 var
+R345:346 VST.floyd.freezer <> a1:1 var
+R353:356 Coq.Init.Datatypes <> true constr
+R372:374 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R361:365 Coq.ZArith.BinInt Z leb def
+R370:371 VST.floyd.freezer <> a1:1 var
+R367:368 VST.floyd.freezer <> a2:2 var
+R375:378 Coq.Init.Datatypes <> true constr
+R409:422 Coq.ZArith.Zbool <> Zle_bool_total def
+R409:422 Coq.ZArith.Zbool <> Zle_bool_total def
+R448:453 VST.floyd.freezer ZOrder <> mod
+R472:485 Coq.Sorting.Mergesort Sort <> modtype
+R487:492 VST.floyd.freezer ZOrder <> modtype
+mod 463:467 <> SortZ
+R516:533 Coq.Structures.Orders TotalLeBool <> mod
+mod 504:511 <> NatOrder
+def 549:549 NatOrder t
+R554:556 Coq.Init.Datatypes <> nat ind
+def 572:574 NatOrder leb
+R579:585 Coq.Arith.PeanoNat Nat leb def
+prf 598:606 NatOrder leb_total
+binder 617:618 <> a1:3
+binder 620:621 <> a2:4
+R644:647 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R637:639 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R624:630 Coq.Arith.PeanoNat Nat leb def
+R635:636 VST.floyd.freezer <> a2:4 var
+R632:633 VST.floyd.freezer <> a1:3 var
+R640:643 Coq.Init.Datatypes <> true constr
+R661:663 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R648:654 Coq.Arith.PeanoNat Nat leb def
+R659:660 VST.floyd.freezer <> a1:3 var
+R656:657 VST.floyd.freezer <> a2:4 var
+R664:667 Coq.Init.Datatypes <> true constr
+R705:716 Coq.Arith.PeanoNat Nat leb_spec thm
+R705:716 Coq.Arith.PeanoNat Nat leb_spec thm
+R742:753 Coq.Arith.PeanoNat Nat leb_spec thm
+R742:753 Coq.Arith.PeanoNat Nat leb_spec thm
+R804:811 VST.floyd.freezer NatOrder <> mod
+R832:845 Coq.Sorting.Mergesort Sort <> modtype
+R847:854 VST.floyd.freezer NatOrder <> modtype
+mod 821:827 <> SortNat
+modtype 871:877 <> FREEZER
+ax 890:892 FREEZER FRZ
+R901:904 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R905:909 VST.veric.mpred <> mpred def
+R896:900 VST.veric.mpred <> mpred def
+ax 922:925 FREEZER FRZ1
+binder 935:935 <> p:6
+R939:943 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R938:938 VST.floyd.freezer <> p:6 var
+R944:946 VST.floyd.freezer FREEZER FRZ defax
+R948:948 VST.floyd.freezer <> p:6 var
+ax 961:964 FREEZER FRZ2
+binder 974:974 <> p:8
+R982:986 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R977:979 VST.floyd.freezer FREEZER FRZ defax
+R981:981 VST.floyd.freezer <> p:8 var
+R987:987 VST.floyd.freezer <> p:8 var
+ax 1001:1004 FREEZER FRZL
+R1018:1021 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1022:1026 VST.veric.mpred <> mpred def
+R1008:1011 Coq.Init.Datatypes <> list ind
+R1013:1017 VST.veric.mpred <> mpred def
+ax 1039:1043 FREEZER FRZL1
+binder 1053:1054 <> ps:11
+R1081:1085 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1057:1066 Coq.Lists.List <> fold_right def
+R1079:1080 VST.floyd.freezer <> ps:11 var
+R1075:1077 VST.msl.seplog <> emp meth
+R1068:1073 VST.msl.seplog <> sepcon meth
+R1086:1089 VST.floyd.freezer FREEZER FRZL defax
+R1091:1092 VST.floyd.freezer <> ps:11 var
+ax 1105:1109 FREEZER FRZL2
+binder 1119:1120 <> ps:13
+R1130:1134 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1123:1126 VST.floyd.freezer FREEZER FRZL defax
+R1128:1129 VST.floyd.freezer <> ps:13 var
+R1135:1144 Coq.Lists.List <> fold_right def
+R1157:1158 VST.floyd.freezer <> ps:13 var
+R1153:1155 VST.msl.seplog <> emp meth
+R1146:1151 VST.msl.seplog <> sepcon meth
+ax 1172:1176 FREEZER FRZRw
+R1190:1193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1204:1207 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1194:1197 Coq.Init.Datatypes <> list ind
+R1199:1203 VST.veric.mpred <> mpred def
+R1180:1183 Coq.Init.Datatypes <> list ind
+R1185:1189 VST.veric.mpred <> mpred def
+ax 1224:1235 FREEZER FRZRw_constr
+R1254:1257 Coq.Init.Datatypes <> list ind
+R1259:1263 VST.veric.mpred <> mpred def
+binder 1247:1248 <> L1:16
+binder 1250:1251 <> G1:17
+R1270:1274 VST.veric.mpred <> mpred def
+binder 1267:1267 <> F:18
+R1341:1344 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1345:1349 VST.floyd.freezer FREEZER FRZRw defax
+R1354:1355 VST.floyd.freezer <> G1:17 var
+R1351:1352 VST.floyd.freezer <> L1:16 var
+R1282:1282 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1307:1312 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1283:1292 Coq.Lists.List <> fold_right def
+R1305:1306 VST.floyd.freezer <> G1:17 var
+R1301:1303 VST.msl.seplog <> emp meth
+R1294:1299 VST.msl.seplog <> sepcon meth
+R1337:1339 VST.msl.seplog <> ::logic:x_'*'_x not
+R1313:1322 Coq.Lists.List <> fold_right def
+R1335:1336 VST.floyd.freezer <> L1:16 var
+R1331:1333 VST.msl.seplog <> emp meth
+R1324:1329 VST.msl.seplog <> sepcon meth
+R1340:1340 VST.floyd.freezer <> F:18 var
+ax 1368:1371 FREEZER FRZR
+binder 1382:1383 <> L1:20
+binder 1385:1386 <> G1:21
+R1392:1396 VST.floyd.freezer FREEZER FRZRw defax
+R1401:1402 VST.floyd.freezer <> G1:21 var
+R1398:1399 VST.floyd.freezer <> L1:20 var
+binder 1389:1389 <> w:22
+R1406:1410 VST.veric.mpred <> mpred def
+ax 1423:1427 FREEZER FRZR1
+binder 1437:1438 <> L1:24
+binder 1440:1441 <> G1:25
+R1447:1451 VST.floyd.freezer FREEZER FRZRw defax
+R1456:1457 VST.floyd.freezer <> G1:25 var
+R1453:1454 VST.floyd.freezer <> L1:24 var
+binder 1444:1444 <> w:26
+R1485:1489 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1461:1470 Coq.Lists.List <> fold_right def
+R1483:1484 VST.floyd.freezer <> G1:25 var
+R1479:1481 VST.msl.seplog <> emp meth
+R1472:1477 VST.msl.seplog <> sepcon meth
+R1514:1516 VST.msl.seplog <> ::logic:x_'*'_x not
+R1490:1499 Coq.Lists.List <> fold_right def
+R1512:1513 VST.floyd.freezer <> L1:24 var
+R1508:1510 VST.msl.seplog <> emp meth
+R1501:1506 VST.msl.seplog <> sepcon meth
+R1518:1521 VST.floyd.freezer FREEZER FRZR defax
+R1529:1529 VST.floyd.freezer <> w:26 var
+R1526:1527 VST.floyd.freezer <> G1:25 var
+R1523:1524 VST.floyd.freezer <> L1:24 var
+ax 1542:1546 FREEZER FRZR2
+binder 1556:1557 <> L1:28
+binder 1559:1560 <> G1:29
+binder 1562:1563 <> L2:30
+binder 1565:1566 <> G2:31
+binder 1568:1568 <> F:32
+binder 1570:1570 <> H:33
+R1631:1634 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1700:1704 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1659:1662 VST.msl.seplog <> ::logic:x_'*'_x not
+R1635:1644 Coq.Lists.List <> fold_right def
+R1657:1658 VST.floyd.freezer <> L2:30 var
+R1653:1655 VST.msl.seplog <> emp meth
+R1646:1651 VST.msl.seplog <> sepcon meth
+R1664:1667 VST.floyd.freezer FREEZER FRZR defax
+R1677:1688 VST.floyd.freezer FREEZER FRZRw_constr defax
+R1698:1698 VST.floyd.freezer <> H:33 var
+R1696:1696 VST.floyd.freezer <> F:32 var
+R1693:1694 VST.floyd.freezer <> G1:29 var
+R1690:1691 VST.floyd.freezer <> L1:28 var
+R1672:1673 VST.floyd.freezer <> G1:29 var
+R1669:1670 VST.floyd.freezer <> L1:28 var
+R1705:1714 Coq.Lists.List <> fold_right def
+R1727:1728 VST.floyd.freezer <> G2:31 var
+R1723:1725 VST.msl.seplog <> emp meth
+R1716:1721 VST.msl.seplog <> sepcon meth
+R1574:1578 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1573:1573 VST.floyd.freezer <> F:32 var
+R1603:1606 VST.msl.seplog <> ::logic:x_'-*'_x not
+R1579:1588 Coq.Lists.List <> fold_right def
+R1601:1602 VST.floyd.freezer <> L2:30 var
+R1597:1599 VST.msl.seplog <> emp meth
+R1590:1595 VST.msl.seplog <> sepcon meth
+R1607:1616 Coq.Lists.List <> fold_right def
+R1629:1630 VST.floyd.freezer <> G2:31 var
+R1625:1627 VST.msl.seplog <> emp meth
+R1618:1623 VST.msl.seplog <> sepcon meth
+R1736:1742 VST.floyd.freezer FREEZER <> modtype
+R1763:1769 VST.floyd.freezer FREEZER <> mod
+mod 1753:1759 <> Freezer
+def 1783:1785 Freezer FRZ
+R1791:1795 VST.veric.mpred <> mpred def
+binder 1788:1788 <> p:35
+R1801:1801 VST.floyd.freezer <> p:35 var
+prf 1810:1813 Freezer FRZ1
+binder 1815:1815 <> p:36
+R1819:1823 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1818:1818 VST.floyd.freezer <> p:36 var
+R1824:1826 VST.floyd.freezer Freezer FRZ def
+R1828:1828 VST.floyd.freezer <> p:36 var
+R1837:1848 VST.msl.seplog <> derives_refl meth
+R1837:1848 VST.msl.seplog <> derives_refl meth
+prf 1862:1865 Freezer FRZ2
+binder 1867:1867 <> p:37
+R1875:1879 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1870:1872 VST.floyd.freezer Freezer FRZ def
+R1874:1874 VST.floyd.freezer <> p:37 var
+R1880:1880 VST.floyd.freezer <> p:37 var
+R1889:1900 VST.msl.seplog <> derives_refl meth
+R1889:1900 VST.msl.seplog <> derives_refl meth
+def 1920:1923 Freezer FRZL
+R1929:1932 Coq.Init.Datatypes <> list ind
+R1934:1938 VST.veric.mpred <> mpred def
+binder 1926:1927 <> ps:38
+R1942:1946 VST.veric.mpred <> mpred def
+R1951:1960 Coq.Lists.List <> fold_right def
+R1973:1974 VST.floyd.freezer <> ps:38 var
+R1969:1971 VST.msl.seplog <> emp meth
+R1962:1967 VST.msl.seplog <> sepcon meth
+prf 1983:1987 Freezer FRZL1
+binder 1989:1990 <> ps:39
+R1993:1993 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2014:2019 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1994:2010 VST.floyd.base <> fold_right_sepcon def
+R2012:2013 VST.floyd.freezer <> ps:39 var
+R2020:2023 VST.floyd.freezer Freezer FRZL def
+R2025:2026 VST.floyd.freezer <> ps:39 var
+R2035:2046 VST.msl.seplog <> derives_refl meth
+R2035:2046 VST.msl.seplog <> derives_refl meth
+prf 2060:2064 Freezer FRZL2
+binder 2066:2067 <> ps:40
+R2077:2081 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2070:2073 VST.floyd.freezer Freezer FRZL def
+R2075:2076 VST.floyd.freezer <> ps:40 var
+R2082:2098 VST.floyd.base <> fold_right_sepcon def
+R2100:2101 VST.floyd.freezer <> ps:40 var
+R2110:2121 VST.msl.seplog <> derives_refl meth
+R2110:2121 VST.msl.seplog <> derives_refl meth
+ind 2140:2145 Freezer FRZRw'
+constr 2178:2190 Freezer FRZRw'_constr
+R2155:2158 Coq.Init.Datatypes <> list ind
+R2160:2164 VST.veric.mpred <> mpred def
+binder 2148:2149 <> L1:41
+binder 2151:2152 <> G1:42
+R2203:2207 VST.veric.mpred <> mpred def
+binder 2200:2200 <> F:45
+R2273:2276 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2277:2282 VST.floyd.freezer <> FRZRw':43 ind
+R2287:2288 VST.floyd.freezer <> G1:42 var
+R2284:2285 VST.floyd.freezer <> L1:41 var
+R2214:2214 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2239:2244 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2215:2224 Coq.Lists.List <> fold_right def
+R2237:2238 VST.floyd.freezer <> G1:42 var
+R2233:2235 VST.msl.seplog <> emp meth
+R2226:2231 VST.msl.seplog <> sepcon meth
+R2269:2271 VST.msl.seplog <> ::logic:x_'*'_x not
+R2245:2254 Coq.Lists.List <> fold_right def
+R2267:2268 VST.floyd.freezer <> L1:41 var
+R2263:2265 VST.msl.seplog <> emp meth
+R2256:2261 VST.msl.seplog <> sepcon meth
+R2272:2272 VST.floyd.freezer <> F:45 var
+def 2303:2307 Freezer FRZRw
+R2312:2317 VST.floyd.freezer Freezer FRZRw' ind
+def 2331:2342 Freezer FRZRw_constr
+R2346:2358 VST.floyd.freezer Freezer FRZRw'_constr constr
+def 2373:2376 Freezer FRZR
+R2386:2389 Coq.Init.Datatypes <> list ind
+R2391:2395 VST.veric.mpred <> mpred def
+binder 2379:2380 <> L1:46
+binder 2382:2383 <> G1:47
+R2402:2406 VST.floyd.freezer Freezer FRZRw def
+R2411:2412 VST.floyd.freezer <> G1:47 var
+R2408:2409 VST.floyd.freezer <> L1:46 var
+binder 2399:2399 <> w:48
+R2416:2420 VST.veric.mpred <> mpred def
+R2434:2434 VST.floyd.freezer <> w:48 var
+R2445:2457 VST.floyd.freezer Freezer FRZRw'_constr constr
+prf 2482:2486 Freezer FRZR1
+binder 2496:2497 <> L1:50
+binder 2499:2500 <> G1:51
+R2506:2510 VST.floyd.freezer Freezer FRZRw def
+R2515:2516 VST.floyd.freezer <> G1:51 var
+R2512:2513 VST.floyd.freezer <> L1:50 var
+binder 2503:2503 <> w:52
+R2544:2548 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2520:2529 Coq.Lists.List <> fold_right def
+R2542:2543 VST.floyd.freezer <> G1:51 var
+R2538:2540 VST.msl.seplog <> emp meth
+R2531:2536 VST.msl.seplog <> sepcon meth
+R2573:2575 VST.msl.seplog <> ::logic:x_'*'_x not
+R2549:2558 Coq.Lists.List <> fold_right def
+R2571:2572 VST.floyd.freezer <> L1:50 var
+R2567:2569 VST.msl.seplog <> emp meth
+R2560:2565 VST.msl.seplog <> sepcon meth
+R2577:2580 VST.floyd.freezer Freezer FRZR def
+R2588:2588 VST.floyd.freezer <> w:52 var
+R2585:2586 VST.floyd.freezer <> G1:51 var
+R2582:2583 VST.floyd.freezer <> L1:50 var
+prf 2634:2638 Freezer FRZR2
+binder 2648:2649 <> L1:53
+binder 2651:2652 <> G1:54
+binder 2654:2655 <> L2:55
+binder 2657:2658 <> G2:56
+binder 2660:2660 <> F:57
+binder 2662:2662 <> H:58
+R2723:2726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2791:2795 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2751:2753 VST.msl.seplog <> ::logic:x_'*'_x not
+R2727:2736 Coq.Lists.List <> fold_right def
+R2749:2750 VST.floyd.freezer <> L2:55 var
+R2745:2747 VST.msl.seplog <> emp meth
+R2738:2743 VST.msl.seplog <> sepcon meth
+R2755:2758 VST.floyd.freezer Freezer FRZR def
+R2768:2779 VST.floyd.freezer Freezer FRZRw_constr def
+R2789:2789 VST.floyd.freezer <> H:58 var
+R2787:2787 VST.floyd.freezer <> F:57 var
+R2784:2785 VST.floyd.freezer <> G1:54 var
+R2781:2782 VST.floyd.freezer <> L1:53 var
+R2763:2764 VST.floyd.freezer <> G1:54 var
+R2760:2761 VST.floyd.freezer <> L1:53 var
+R2796:2805 Coq.Lists.List <> fold_right def
+R2818:2819 VST.floyd.freezer <> G2:56 var
+R2814:2816 VST.msl.seplog <> emp meth
+R2807:2812 VST.msl.seplog <> sepcon meth
+R2666:2670 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2665:2665 VST.floyd.freezer <> F:57 var
+R2695:2698 VST.msl.seplog <> ::logic:x_'-*'_x not
+R2671:2680 Coq.Lists.List <> fold_right def
+R2693:2694 VST.floyd.freezer <> L2:55 var
+R2689:2691 VST.msl.seplog <> emp meth
+R2682:2687 VST.msl.seplog <> sepcon meth
+R2699:2708 Coq.Lists.List <> fold_right def
+R2721:2722 VST.floyd.freezer <> G2:56 var
+R2717:2719 VST.msl.seplog <> emp meth
+R2710:2715 VST.msl.seplog <> sepcon meth
+R2859:2869 VST.msl.seplog <> sepcon_comm meth
+R2859:2869 VST.msl.seplog <> sepcon_comm meth
+R2859:2869 VST.msl.seplog <> sepcon_comm meth
+R2878:2896 VST.msl.seplog <> wand_sepcon_adjoint meth
+R2878:2896 VST.msl.seplog <> wand_sepcon_adjoint meth
+R2915:2921 VST.floyd.freezer Freezer <> mod
+syndef 2934:2936 <> FRZ
+R2941:2951 VST.floyd.freezer <> FRZ defax
+syndef 2963:2966 <> FRZL
+R2971:2982 VST.floyd.freezer <> FRZL defax
+syndef 2994:2997 <> FRZR
+R3002:3013 VST.floyd.freezer <> FRZR defax
+syndef 3025:3029 <> FRZRw
+R3034:3046 VST.floyd.freezer <> FRZRw defax
+prf 3132:3137 <> FRZ_ax
+binder 3146:3146 <> p:59
+R3154:3156 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3149:3151 VST.floyd.freezer <> FRZ syndef
+R3153:3153 VST.floyd.freezer <> p:59 var
+R3157:3157 VST.floyd.freezer <> p:59 var
+R3181:3188 VST.msl.seplog <> pred_ext meth
+R3181:3188 VST.msl.seplog <> pred_ext meth
+R3197:3208 VST.floyd.freezer <> FRZ2 defax
+R3197:3208 VST.floyd.freezer <> FRZ2 defax
+R3217:3228 VST.floyd.freezer <> FRZ1 defax
+R3217:3228 VST.floyd.freezer <> FRZ1 defax
+def 3246:3255 <> freeze_nth
+R3261:3263 Coq.Init.Datatypes <> nat ind
+binder 3258:3258 <> n:60
+R3271:3274 Coq.Init.Datatypes <> list ind
+R3276:3280 VST.veric.mpred <> mpred def
+binder 3267:3268 <> al:61
+R3295:3298 Coq.Init.Datatypes <> list ind
+R3300:3304 VST.veric.mpred <> mpred def
+R3319:3320 VST.floyd.freezer <> al:61 var
+R3316:3316 VST.floyd.freezer <> n:60 var
+R3330:3330 Coq.Init.Datatypes <> O constr
+R3335:3336 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3343:3343 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3349:3352 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3344:3346 VST.floyd.freezer <> FRZ syndef
+R3353:3354 VST.floyd.freezer <> al:61 var
+R3359:3359 Coq.Init.Datatypes <> S constr
+R3366:3367 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3376:3379 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3380:3389 VST.floyd.freezer <> freeze_nth:62 def
+R3404:3406 Coq.Init.Datatypes <> nil constr
+R3411:3413 Coq.Init.Datatypes <> nil constr
+prf 3428:3439 <> freeze1_SEP'
+binder 3450:3450 <> n:65
+binder 3452:3456 <> Espec:66
+R3463:3471 VST.veric.mpred <> compspecs class
+binder 3459:3460 <> cs:67
+binder 3474:3478 <> Delta:68
+binder 3480:3480 <> P:69
+binder 3482:3482 <> Q:70
+binder 3484:3484 <> R:71
+binder 3486:3486 <> c:72
+binder 3488:3491 <> Post:73
+R3568:3572 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3574:3578 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R3627:3630 VST.floyd.freezer <> Post:73 var
+R3625:3625 VST.floyd.freezer <> c:72 var
+R3596:3600 VST.floyd.canon <> PROPx def
+R3605:3610 VST.floyd.canon <> LOCALx def
+R3615:3618 VST.floyd.canon <> SEPx def
+R3620:3620 VST.floyd.freezer <> R:71 var
+R3612:3612 VST.floyd.freezer <> Q:70 var
+R3602:3602 VST.floyd.freezer <> P:69 var
+R3589:3593 VST.floyd.freezer <> Delta:68 var
+R3583:3587 VST.floyd.freezer <> Espec:66 var
+R3580:3581 VST.floyd.freezer <> cs:67 var
+R3496:3500 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R3564:3567 VST.floyd.freezer <> Post:73 var
+R3562:3562 VST.floyd.freezer <> c:72 var
+R3518:3522 VST.floyd.canon <> PROPx def
+R3527:3532 VST.floyd.canon <> LOCALx def
+R3537:3540 VST.floyd.canon <> SEPx def
+R3543:3552 VST.floyd.freezer <> freeze_nth def
+R3556:3556 VST.floyd.freezer <> R:71 var
+R3554:3554 VST.floyd.freezer <> n:65 var
+R3534:3534 VST.floyd.freezer <> Q:70 var
+R3524:3524 VST.floyd.freezer <> P:69 var
+R3511:3515 VST.floyd.freezer <> Delta:68 var
+R3505:3509 VST.floyd.freezer <> Espec:66 var
+R3502:3503 VST.floyd.freezer <> cs:67 var
+R3662:3670 VST.floyd.canon <> semax_pre thm
+R3662:3670 VST.floyd.canon <> semax_pre thm
+R3692:3701 VST.msl.seplog <> andp_left2 meth
+R3692:3701 VST.msl.seplog <> andp_left2 meth
+R3804:3815 VST.floyd.freezer <> FRZ1 defax
+R3804:3815 VST.floyd.freezer <> FRZ1 defax
+R3876:3887 VST.floyd.freezer <> freeze1_SEP' thm
+R3890:3897 Coq.ZArith.BinInt Z to_nat def
+R3981:3982 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3984:3985 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3986:3988 Coq.Init.Datatypes <> nil constr
+R4001:4012 VST.floyd.freezer <> freeze1_SEP' thm
+R4015:4022 Coq.ZArith.BinInt Z to_nat def
+R4117:4118 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4120:4121 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4123:4124 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4125:4127 Coq.Init.Datatypes <> nil constr
+R4140:4151 VST.floyd.freezer <> freeze1_SEP' thm
+R4154:4161 Coq.ZArith.BinInt Z to_nat def
+R4266:4267 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4269:4270 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4272:4273 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4275:4276 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4277:4279 Coq.Init.Datatypes <> nil constr
+R4292:4303 VST.floyd.freezer <> freeze1_SEP' thm
+R4306:4313 Coq.ZArith.BinInt Z to_nat def
+R4427:4428 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4430:4431 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4433:4434 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4436:4437 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4439:4440 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4441:4443 Coq.Init.Datatypes <> nil constr
+R4456:4467 VST.floyd.freezer <> freeze1_SEP' thm
+R4470:4477 Coq.ZArith.BinInt Z to_nat def
+def 4580:4590 <> delete_list
+binder 4593:4593 <> A:74
+R4607:4610 Coq.Init.Datatypes <> list ind
+R4612:4614 Coq.Init.Datatypes <> nat ind
+binder 4603:4604 <> ns:75
+R4622:4625 Coq.Init.Datatypes <> list ind
+R4627:4627 VST.floyd.freezer <> A:74 var
+binder 4618:4619 <> xs:76
+R4632:4635 Coq.Init.Datatypes <> list ind
+R4637:4637 VST.floyd.freezer <> A:74 var
+R4682:4683 VST.floyd.freezer <> ns:75 var
+R4693:4695 Coq.Init.Datatypes <> nil constr
+R4700:4701 VST.floyd.freezer <> xs:76 var
+R4707:4708 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4716:4725 VST.floyd.find_nth_tactic <> delete_nth def
+R4730:4740 VST.floyd.freezer <> delete_list:77 def
+R4746:4747 VST.floyd.freezer <> xs:76 var
+def 4768:4781 <> freezelist_nth
+R4788:4791 Coq.Init.Datatypes <> list ind
+R4793:4795 Coq.Init.Datatypes <> nat ind
+binder 4784:4785 <> ns:79
+R4803:4806 Coq.Init.Datatypes <> list ind
+R4808:4812 VST.veric.mpred <> mpred def
+binder 4799:4800 <> al:80
+R4827:4829 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4817:4820 Coq.Init.Datatypes <> list ind
+R4822:4826 VST.veric.mpred <> mpred def
+R4830:4833 Coq.Init.Datatypes <> list ind
+R4835:4839 VST.veric.mpred <> mpred def
+R4846:4846 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4880:4884 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4917:4917 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4847:4849 Coq.Lists.List <> map def
+R4878:4879 VST.floyd.freezer <> ns:79 var
+binder 4856:4856 <> i:81
+R4861:4866 VST.floyd.canon <> my_nth def
+R4873:4875 VST.msl.seplog <> emp meth
+R4870:4871 VST.floyd.freezer <> al:80 var
+R4868:4868 VST.floyd.freezer <> i:81 var
+R4885:4895 VST.floyd.freezer <> delete_list def
+R4915:4916 VST.floyd.freezer <> al:80 var
+R4898:4909 VST.floyd.freezer <> sort def
+R4911:4912 VST.floyd.freezer <> ns:79 var
+prf 4927:4955 <> my_nth_delete_nth_permutation
+binder 4968:4969 <> al:82
+binder 4971:4971 <> a:83
+R4997:5000 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5001:5011 Coq.Sorting.Permutation <> Permutation ind
+R5032:5035 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5017:5022 VST.floyd.canon <> my_nth def
+R5029:5031 VST.msl.seplog <> emp meth
+R5026:5027 VST.floyd.freezer <> al:82 var
+R5024:5024 VST.floyd.freezer <> a:83 var
+R5036:5045 VST.floyd.find_nth_tactic <> delete_nth def
+R5049:5050 VST.floyd.freezer <> al:82 var
+R5047:5047 VST.floyd.freezer <> a:83 var
+R5013:5014 VST.floyd.freezer <> al:82 var
+R4980:4982 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R4979:4979 VST.floyd.freezer <> a:83 var
+R4983:4988 Coq.Lists.List <> length syndef
+R4990:4991 VST.floyd.freezer <> al:82 var
+R5121:5136 Coq.Sorting.Permutation <> Permutation_refl thm
+R5121:5136 Coq.Sorting.Permutation <> Permutation_refl thm
+R5146:5162 Coq.Sorting.Permutation <> Permutation_trans thm
+R5175:5183 Coq.Sorting.Permutation <> perm_swap constr
+R5146:5162 Coq.Sorting.Permutation <> Permutation_trans thm
+R5175:5183 Coq.Sorting.Permutation <> perm_swap constr
+R5193:5201 Coq.Sorting.Permutation <> perm_skip constr
+R5193:5201 Coq.Sorting.Permutation <> perm_skip constr
+R5255:5258 Coq.Init.Datatypes <> list ind
+R5260:5262 Coq.Init.Datatypes <> nat ind
+binder 5251:5252 <> ns:84
+R5272:5274 Coq.Init.Datatypes <> nat ind
+binder 5266:5269 <> last:85
+R5298:5301 Coq.Init.Datatypes <> bool ind
+R5314:5315 VST.floyd.freezer <> ns:84 var
+R5325:5327 Coq.Init.Datatypes <> nil constr
+R5332:5335 Coq.Init.Datatypes <> true constr
+R5341:5342 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5343:5345 Coq.Init.Datatypes <> nil constr
+R5350:5356 Coq.Arith.PeanoNat Nat ltb def
+R5360:5363 VST.floyd.freezer <> last:85 var
+R5369:5370 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5372:5373 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5381:5384 Coq.Init.Datatypes <> andb def
+R5401:5413 VST.floyd.freezer <> is_increasing:86 def
+R5424:5427 VST.floyd.freezer <> last:85 var
+R5417:5418 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5387:5393 Coq.Arith.PeanoNat Nat ltb def
+binder 5251:5252 <> ns:88
+binder 5266:5269 <> last:89
+binder 5251:5252 <> ns:90
+binder 5266:5269 <> last:91
+binder 5251:5252 <> ns:93
+binder 5266:5269 <> last:94
+R5314:5315 VST.floyd.freezer <> ns:93 var
+R5325:5327 Coq.Init.Datatypes <> nil constr
+R5332:5335 Coq.Init.Datatypes <> true constr
+R5341:5342 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5343:5345 Coq.Init.Datatypes <> nil constr
+R5350:5356 Coq.Arith.PeanoNat Nat ltb def
+R5360:5363 VST.floyd.freezer <> last:94 var
+R5369:5370 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5372:5373 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5381:5384 Coq.Init.Datatypes <> andb def
+R5401:5413 VST.floyd.freezer <> is_increasing:92 def
+R5424:5427 VST.floyd.freezer <> last:94 var
+R5417:5418 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5387:5393 Coq.Arith.PeanoNat Nat ltb def
+binder 5251:5252 <> ns:96
+binder 5266:5269 <> last:97
+binder 5251:5252 <> ns:98
+binder 5266:5269 <> last:99
+R5314:5315 VST.floyd.freezer <> ns:98 var
+R5325:5327 Coq.Init.Datatypes <> nil constr
+R5332:5335 Coq.Init.Datatypes <> true constr
+R5341:5342 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5343:5345 Coq.Init.Datatypes <> nil constr
+R5350:5356 Coq.Arith.PeanoNat Nat ltb def
+R5360:5363 VST.floyd.freezer <> last:99 var
+R5369:5370 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5372:5373 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5381:5384 Coq.Init.Datatypes <> andb def
+R5401:5413 VST.floyd.freezer <> is_increasing:92 def
+R5424:5427 VST.floyd.freezer <> last:99 var
+R5417:5418 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5387:5393 Coq.Arith.PeanoNat Nat ltb def
+R5286:5291 Coq.Lists.List <> length syndef
+prf 5714:5730 <> delete_nth_length
+binder 5744:5744 <> A:119
+binder 5747:5747 <> i:120
+R5754:5757 Coq.Init.Datatypes <> list ind
+R5759:5759 VST.floyd.freezer <> A:119 var
+binder 5750:5751 <> al:121
+R5782:5790 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5820:5822 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5792:5792 Coq.Init.Datatypes <> S constr
+R5795:5800 Coq.Lists.List <> length syndef
+R5803:5812 VST.floyd.find_nth_tactic <> delete_nth def
+R5816:5817 VST.floyd.freezer <> al:121 var
+R5814:5814 VST.floyd.freezer <> i:120 var
+R5823:5828 Coq.Lists.List <> length syndef
+R5830:5831 VST.floyd.freezer <> al:121 var
+R5765:5767 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R5764:5764 VST.floyd.freezer <> i:120 var
+R5768:5773 Coq.Lists.List <> length syndef
+R5775:5776 VST.floyd.freezer <> al:121 var
+R5902:5908 Coq.Init.Logic <> f_equal thm
+R5902:5908 Coq.Init.Logic <> f_equal thm
+prf 5939:5964 <> freezelist_nth_permutation
+binder 5974:5975 <> ns:122
+binder 5977:5978 <> al:123
+R6033:6038 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6039:6049 Coq.Sorting.Permutation <> Permutation ind
+R6081:6084 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6055:6057 Coq.Init.Datatypes <> fst def
+R6060:6073 VST.floyd.freezer <> freezelist_nth def
+R6078:6079 VST.floyd.freezer <> al:123 var
+R6075:6076 VST.floyd.freezer <> ns:122 var
+R6085:6087 Coq.Init.Datatypes <> snd def
+R6090:6103 VST.floyd.freezer <> freezelist_nth def
+R6108:6109 VST.floyd.freezer <> al:123 var
+R6105:6106 VST.floyd.freezer <> ns:122 var
+R6051:6052 VST.floyd.freezer <> al:123 var
+R6026:6028 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5983:5995 VST.floyd.freezer <> is_increasing thm
+R6016:6021 Coq.Lists.List <> length syndef
+R6023:6024 VST.floyd.freezer <> al:123 var
+R5998:6009 VST.floyd.freezer <> sort def
+R6011:6012 VST.floyd.freezer <> ns:122 var
+R6029:6032 Coq.Init.Datatypes <> true constr
+R6128:6141 VST.floyd.freezer <> freezelist_nth def
+R6246:6252 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6192:6194 Coq.Lists.List <> map def
+R6230:6241 VST.floyd.freezer <> sort def
+R6205:6207 Coq.Init.Datatypes <> nat ind
+binder 6201:6201 <> i:124
+R6212:6217 VST.floyd.canon <> my_nth def
+R6224:6226 VST.msl.seplog <> emp meth
+R6219:6219 VST.floyd.freezer <> i:124 var
+R6253:6263 VST.floyd.freezer <> delete_list def
+R6266:6277 VST.floyd.freezer <> sort def
+R6165:6181 Coq.Sorting.Permutation <> Permutation_trans thm
+R6246:6252 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6192:6194 Coq.Lists.List <> map def
+R6230:6241 VST.floyd.freezer <> sort def
+R6205:6207 Coq.Init.Datatypes <> nat ind
+binder 6201:6201 <> i:125
+R6212:6217 VST.floyd.canon <> my_nth def
+R6224:6226 VST.msl.seplog <> emp meth
+R6219:6219 VST.floyd.freezer <> i:125 var
+R6253:6263 VST.floyd.freezer <> delete_list def
+R6266:6277 VST.floyd.freezer <> sort def
+R6165:6181 Coq.Sorting.Permutation <> Permutation_trans thm
+R6298:6317 Coq.Sorting.Permutation <> Permutation_app_tail thm
+R6298:6317 Coq.Sorting.Permutation <> Permutation_app_tail thm
+R6331:6345 Coq.Sorting.Permutation <> Permutation_map thm
+R6331:6345 Coq.Sorting.Permutation <> Permutation_map thm
+R6359:6373 Coq.Sorting.Permutation <> Permutation_sym thm
+R6359:6373 Coq.Sorting.Permutation <> Permutation_sym thm
+R6387:6407 VST.floyd.freezer <> Permuted_sort thm
+R6387:6407 VST.floyd.freezer <> Permuted_sort thm
+R6421:6432 VST.floyd.freezer <> sort def
+R6421:6432 VST.floyd.freezer <> sort def
+R6526:6541 Coq.Sorting.Permutation <> Permutation_refl thm
+R6526:6541 Coq.Sorting.Permutation <> Permutation_refl thm
+R6554:6559 VST.floyd.canon <> my_nth def
+R6566:6568 VST.msl.seplog <> emp meth
+R6577:6582 VST.floyd.canon <> my_nth def
+R6606:6608 VST.msl.seplog <> emp meth
+R6587:6597 VST.floyd.freezer <> delete_list def
+R6554:6559 VST.floyd.canon <> my_nth def
+R6566:6568 VST.msl.seplog <> emp meth
+R6577:6582 VST.floyd.canon <> my_nth def
+R6606:6608 VST.msl.seplog <> emp meth
+R6587:6597 VST.floyd.freezer <> delete_list def
+R6622:6638 Coq.Sorting.Permutation <> Permutation_trans thm
+R6651:6665 Coq.Sorting.Permutation <> Permutation_sym thm
+R6674:6691 Coq.Sorting.Permutation <> Permutation_middle thm
+R6622:6638 Coq.Sorting.Permutation <> Permutation_trans thm
+R6651:6665 Coq.Sorting.Permutation <> Permutation_sym thm
+R6674:6691 Coq.Sorting.Permutation <> Permutation_middle thm
+R6703:6719 Coq.Sorting.Permutation <> Permutation_trans thm
+R6732:6751 Coq.Sorting.Permutation <> Permutation_app_head thm
+R6760:6788 VST.floyd.freezer <> my_nth_delete_nth_permutation thm
+R6703:6719 Coq.Sorting.Permutation <> Permutation_trans thm
+R6732:6751 Coq.Sorting.Permutation <> Permutation_app_head thm
+R6760:6788 VST.floyd.freezer <> my_nth_delete_nth_permutation thm
+R6817:6838 VST.floyd.freezer <> is_increasing_equation thm
+R6817:6838 VST.floyd.freezer <> is_increasing_equation thm
+R6817:6838 VST.floyd.freezer <> is_increasing_equation thm
+R6882:6894 Coq.Bool.Bool <> andb_true_iff thm
+R6882:6894 Coq.Bool.Bool <> andb_true_iff thm
+R6882:6894 Coq.Bool.Bool <> andb_true_iff thm
+R6930:6951 VST.floyd.freezer <> is_increasing_equation thm
+R6930:6951 VST.floyd.freezer <> is_increasing_equation thm
+R6930:6951 VST.floyd.freezer <> is_increasing_equation thm
+R6994:7003 Coq.Arith.PeanoNat Nat ltb_lt thm
+R6994:7003 Coq.Arith.PeanoNat Nat ltb_lt thm
+R7022:7034 Coq.Bool.Bool <> andb_true_iff thm
+R7022:7034 Coq.Bool.Bool <> andb_true_iff thm
+R7022:7034 Coq.Bool.Bool <> andb_true_iff thm
+R7068:7077 Coq.Arith.PeanoNat Nat ltb_lt thm
+R7068:7077 Coq.Arith.PeanoNat Nat ltb_lt thm
+R7111:7120 VST.floyd.find_nth_tactic <> delete_nth def
+R7125:7135 VST.floyd.freezer <> delete_list def
+R7151:7161 VST.floyd.freezer <> delete_list def
+R7165:7166 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7111:7120 VST.floyd.find_nth_tactic <> delete_nth def
+R7125:7135 VST.floyd.freezer <> delete_list def
+R7151:7161 VST.floyd.freezer <> delete_list def
+R7165:7166 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7230:7251 VST.floyd.freezer <> is_increasing_equation thm
+R7230:7251 VST.floyd.freezer <> is_increasing_equation thm
+R7230:7251 VST.floyd.freezer <> is_increasing_equation thm
+R7230:7251 VST.floyd.freezer <> is_increasing_equation thm
+R7230:7251 VST.floyd.freezer <> is_increasing_equation thm
+R7277:7286 Coq.Arith.PeanoNat Nat ltb_lt thm
+R7277:7286 Coq.Arith.PeanoNat Nat ltb_lt thm
+R7309:7325 VST.floyd.freezer <> delete_nth_length thm
+R7309:7325 VST.floyd.freezer <> delete_nth_length thm
+R7351:7361 VST.floyd.freezer <> delete_list def
+R7365:7368 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7370:7373 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7392:7401 VST.floyd.find_nth_tactic <> delete_nth def
+R7406:7416 VST.floyd.freezer <> delete_list def
+R7421:7424 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7351:7361 VST.floyd.freezer <> delete_list def
+R7365:7368 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7370:7373 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7392:7401 VST.floyd.find_nth_tactic <> delete_nth def
+R7406:7416 VST.floyd.freezer <> delete_list def
+R7421:7424 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7449:7461 Coq.Bool.Bool <> andb_true_iff thm
+R7449:7461 Coq.Bool.Bool <> andb_true_iff thm
+R7449:7461 Coq.Bool.Bool <> andb_true_iff thm
+R7497:7506 Coq.Arith.PeanoNat Nat ltb_lt thm
+R7497:7506 Coq.Arith.PeanoNat Nat ltb_lt thm
+R7597:7613 VST.floyd.freezer <> delete_nth_length thm
+R7618:7628 VST.floyd.freezer <> delete_list def
+R7632:7633 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7597:7613 VST.floyd.freezer <> delete_nth_length thm
+R7618:7628 VST.floyd.freezer <> delete_list def
+R7632:7633 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7660:7663 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7664:7664 Coq.Init.Datatypes <> S constr
+R7667:7682 Coq.Init.Datatypes <> length def
+R7688:7697 VST.floyd.find_nth_tactic <> delete_nth def
+R7702:7712 VST.floyd.freezer <> delete_list def
+R7716:7719 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7660:7663 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7664:7664 Coq.Init.Datatypes <> S constr
+R7667:7682 Coq.Init.Datatypes <> length def
+R7688:7697 VST.floyd.find_nth_tactic <> delete_nth def
+R7702:7712 VST.floyd.freezer <> delete_list def
+R7716:7719 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7855:7860 VST.floyd.canon <> my_nth def
+R7885:7887 VST.msl.seplog <> emp meth
+R7866:7876 VST.floyd.freezer <> delete_list def
+R7855:7860 VST.floyd.canon <> my_nth def
+R7885:7887 VST.msl.seplog <> emp meth
+R7866:7876 VST.floyd.freezer <> delete_list def
+R7904:7925 VST.floyd.freezer <> is_increasing_equation thm
+R7904:7925 VST.floyd.freezer <> is_increasing_equation thm
+R7904:7925 VST.floyd.freezer <> is_increasing_equation thm
+R7943:7955 Coq.Bool.Bool <> andb_true_iff thm
+R7943:7955 Coq.Bool.Bool <> andb_true_iff thm
+R7943:7955 Coq.Bool.Bool <> andb_true_iff thm
+R7983:7992 Coq.Arith.PeanoNat Nat ltb_lt thm
+R7983:7992 Coq.Arith.PeanoNat Nat ltb_lt thm
+R8010:8020 VST.floyd.freezer <> delete_list def
+R8010:8020 VST.floyd.freezer <> delete_list def
+R8185:8206 VST.floyd.freezer <> is_increasing_equation thm
+R8185:8206 VST.floyd.freezer <> is_increasing_equation thm
+R8185:8206 VST.floyd.freezer <> is_increasing_equation thm
+R8224:8236 Coq.Bool.Bool <> andb_true_iff thm
+R8224:8236 Coq.Bool.Bool <> andb_true_iff thm
+R8224:8236 Coq.Bool.Bool <> andb_true_iff thm
+R8264:8273 Coq.Arith.PeanoNat Nat ltb_lt thm
+R8264:8273 Coq.Arith.PeanoNat Nat ltb_lt thm
+R8291:8312 VST.floyd.freezer <> is_increasing_equation thm
+R8291:8312 VST.floyd.freezer <> is_increasing_equation thm
+R8291:8312 VST.floyd.freezer <> is_increasing_equation thm
+R8331:8352 VST.floyd.freezer <> is_increasing_equation thm
+R8331:8352 VST.floyd.freezer <> is_increasing_equation thm
+R8331:8352 VST.floyd.freezer <> is_increasing_equation thm
+R8378:8387 Coq.Arith.PeanoNat Nat ltb_lt thm
+R8378:8387 Coq.Arith.PeanoNat Nat ltb_lt thm
+R8404:8413 Coq.Arith.PeanoNat Nat ltb_lt thm
+R8404:8413 Coq.Arith.PeanoNat Nat ltb_lt thm
+R8431:8443 Coq.Bool.Bool <> andb_true_iff thm
+R8431:8443 Coq.Bool.Bool <> andb_true_iff thm
+R8431:8443 Coq.Bool.Bool <> andb_true_iff thm
+R8475:8487 Coq.Bool.Bool <> andb_true_iff thm
+R8475:8487 Coq.Bool.Bool <> andb_true_iff thm
+R8475:8487 Coq.Bool.Bool <> andb_true_iff thm
+R8511:8520 Coq.Arith.PeanoNat Nat ltb_lt thm
+R8511:8520 Coq.Arith.PeanoNat Nat ltb_lt thm
+R8537:8546 Coq.Arith.PeanoNat Nat ltb_lt thm
+R8537:8546 Coq.Arith.PeanoNat Nat ltb_lt thm
+prf 8883:8889 <> FRZL_ax
+binder 8891:8892 <> ps:126
+R8902:8904 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8895:8898 VST.floyd.freezer <> FRZL syndef
+R8900:8901 VST.floyd.freezer <> ps:126 var
+R8905:8921 VST.floyd.base <> fold_right_sepcon def
+R8923:8924 VST.floyd.freezer <> ps:126 var
+R8948:8955 VST.msl.seplog <> pred_ext meth
+R8948:8955 VST.msl.seplog <> pred_ext meth
+R8964:8976 VST.floyd.freezer <> FRZL2 defax
+R8964:8976 VST.floyd.freezer <> FRZL2 defax
+R8985:8997 VST.floyd.freezer <> FRZL1 defax
+R8985:8997 VST.floyd.freezer <> FRZL1 defax
+prf 9012:9038 <> fold_right_sepcon_deletenth
+binder 9048:9048 <> n:127
+R9054:9057 Coq.Init.Datatypes <> list ind
+R9059:9063 VST.veric.mpred <> mpred def
+binder 9051:9051 <> l:128
+R9088:9090 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9069:9085 VST.floyd.base <> fold_right_sepcon def
+R9087:9087 VST.floyd.freezer <> l:128 var
+R9102:9104 VST.msl.seplog <> ::logic:x_'*'_x not
+R9091:9093 Coq.Lists.List <> nth def
+R9099:9101 VST.msl.seplog <> emp meth
+R9097:9097 VST.floyd.freezer <> l:128 var
+R9095:9095 VST.floyd.freezer <> n:127 var
+R9105:9121 VST.floyd.base <> fold_right_sepcon def
+R9124:9133 VST.floyd.find_nth_tactic <> delete_nth def
+R9137:9137 VST.floyd.freezer <> l:128 var
+R9135:9135 VST.floyd.freezer <> n:127 var
+R9190:9199 VST.msl.seplog <> sepcon_emp meth
+R9190:9199 VST.msl.seplog <> sepcon_emp meth
+R9190:9199 VST.msl.seplog <> sepcon_emp meth
+R9236:9245 VST.msl.seplog <> sepcon_emp meth
+R9236:9245 VST.msl.seplog <> sepcon_emp meth
+R9236:9245 VST.msl.seplog <> sepcon_emp meth
+R9290:9301 VST.msl.seplog <> sepcon_assoc meth
+R9290:9301 VST.msl.seplog <> sepcon_assoc meth
+R9290:9301 VST.msl.seplog <> sepcon_assoc meth
+R9290:9301 VST.msl.seplog <> sepcon_assoc meth
+R9290:9301 VST.msl.seplog <> sepcon_assoc meth
+R9313:9323 VST.msl.seplog <> sepcon_comm meth
+R9313:9323 VST.msl.seplog <> sepcon_comm meth
+R9313:9323 VST.msl.seplog <> sepcon_comm meth
+prf 9349:9376 <> fold_right_sepcon_deletenth'
+binder 9386:9386 <> n:129
+R9391:9394 Coq.Init.Datatypes <> list ind
+R9397:9407 VST.veric.mpred <> LiftEnviron canonstruc
+R9409:9413 VST.veric.mpred <> mpred def
+binder 9389:9389 <> l:130
+R9482:9486 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9421:9430 Coq.Lists.List <> fold_right def
+R9481:9481 VST.floyd.freezer <> l:130 var
+R9477:9479 VST.msl.seplog <> emp meth
+R9470:9475 VST.msl.seplog <> sepcon meth
+R9459:9462 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9463:9467 VST.veric.mpred <> mpred def
+R9452:9458 VST.veric.mpred <> environ ind
+R9440:9443 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9444:9448 VST.veric.mpred <> mpred def
+R9433:9439 VST.veric.mpred <> environ ind
+R9498:9500 VST.msl.seplog <> ::logic:x_'*'_x not
+R9487:9489 Coq.Lists.List <> nth def
+R9495:9497 VST.msl.seplog <> emp meth
+R9493:9493 VST.floyd.freezer <> l:130 var
+R9491:9491 VST.floyd.freezer <> n:129 var
+R9501:9510 Coq.Lists.List <> fold_right def
+R9524:9533 VST.floyd.find_nth_tactic <> delete_nth def
+R9537:9537 VST.floyd.freezer <> l:130 var
+R9535:9535 VST.floyd.freezer <> n:129 var
+R9519:9521 VST.msl.seplog <> emp meth
+R9512:9517 VST.msl.seplog <> sepcon meth
+R9590:9599 VST.msl.seplog <> sepcon_emp meth
+R9590:9599 VST.msl.seplog <> sepcon_emp meth
+R9590:9599 VST.msl.seplog <> sepcon_emp meth
+R9636:9645 VST.msl.seplog <> sepcon_emp meth
+R9636:9645 VST.msl.seplog <> sepcon_emp meth
+R9636:9645 VST.msl.seplog <> sepcon_emp meth
+R9724:9735 VST.msl.seplog <> sepcon_assoc meth
+R9724:9735 VST.msl.seplog <> sepcon_assoc meth
+R9724:9735 VST.msl.seplog <> sepcon_assoc meth
+R9724:9735 VST.msl.seplog <> sepcon_assoc meth
+R9724:9735 VST.msl.seplog <> sepcon_assoc meth
+R9747:9757 VST.msl.seplog <> sepcon_comm meth
+R9747:9757 VST.msl.seplog <> sepcon_comm meth
+R9747:9757 VST.msl.seplog <> sepcon_comm meth
+prf 9788:9816 <> fold_right_sepcon_permutation
+binder 9827:9828 <> al:131
+binder 9830:9831 <> bl:132
+R9851:9854 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9875:9877 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9855:9871 VST.floyd.base <> fold_right_sepcon def
+R9873:9874 VST.floyd.freezer <> al:131 var
+R9878:9894 VST.floyd.base <> fold_right_sepcon def
+R9896:9897 VST.floyd.freezer <> bl:132 var
+R9834:9844 Coq.Sorting.Permutation <> Permutation ind
+R9849:9850 VST.floyd.freezer <> bl:132 var
+R9846:9847 VST.floyd.freezer <> al:131 var
+R9966:9977 VST.msl.seplog <> sepcon_assoc meth
+R9966:9977 VST.msl.seplog <> sepcon_assoc meth
+R9966:9977 VST.msl.seplog <> sepcon_assoc meth
+R9966:9977 VST.msl.seplog <> sepcon_assoc meth
+R9966:9977 VST.msl.seplog <> sepcon_assoc meth
+R9989:9999 VST.msl.seplog <> sepcon_comm meth
+R9989:9999 VST.msl.seplog <> sepcon_comm meth
+R9989:9999 VST.msl.seplog <> sepcon_comm meth
+prf 10035:10045 <> freeze_SEP'
+binder 10056:10056 <> l:133
+binder 10058:10062 <> Espec:134
+R10069:10077 VST.veric.mpred <> compspecs class
+binder 10065:10066 <> cs:135
+binder 10080:10084 <> Delta:136
+binder 10086:10086 <> P:137
+binder 10088:10088 <> Q:138
+binder 10091:10091 <> R:139
+binder 10093:10093 <> c:140
+binder 10095:10098 <> Post:141
+binder 10100:10101 <> xs:142
+binder 10103:10104 <> ys:143
+R10157:10161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10191:10195 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10267:10271 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10273:10277 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R10326:10329 VST.floyd.freezer <> Post:141 var
+R10324:10324 VST.floyd.freezer <> c:140 var
+R10295:10299 VST.floyd.canon <> PROPx def
+R10304:10309 VST.floyd.canon <> LOCALx def
+R10314:10317 VST.floyd.canon <> SEPx def
+R10319:10319 VST.floyd.freezer <> R:139 var
+R10311:10311 VST.floyd.freezer <> Q:138 var
+R10301:10301 VST.floyd.freezer <> P:137 var
+R10288:10292 VST.floyd.freezer <> Delta:136 var
+R10282:10286 VST.floyd.freezer <> Espec:134 var
+R10279:10280 VST.floyd.freezer <> cs:135 var
+R10197:10201 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R10263:10266 VST.floyd.freezer <> Post:141 var
+R10261:10261 VST.floyd.freezer <> c:140 var
+R10219:10223 VST.floyd.canon <> PROPx def
+R10228:10233 VST.floyd.canon <> LOCALx def
+R10238:10241 VST.floyd.canon <> SEPx def
+R10251:10253 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10244:10247 VST.floyd.freezer <> FRZL syndef
+R10249:10250 VST.floyd.freezer <> xs:142 var
+R10254:10255 VST.floyd.freezer <> ys:143 var
+R10235:10235 VST.floyd.freezer <> Q:138 var
+R10225:10225 VST.floyd.freezer <> P:137 var
+R10212:10216 VST.floyd.freezer <> Delta:136 var
+R10206:10210 VST.floyd.freezer <> Espec:134 var
+R10203:10204 VST.floyd.freezer <> cs:135 var
+R10170:10172 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10162:10162 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10165:10166 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10169:10169 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10163:10164 VST.floyd.freezer <> xs:142 var
+R10167:10168 VST.floyd.freezer <> ys:143 var
+R10173:10186 VST.floyd.freezer <> freezelist_nth def
+R10190:10190 VST.floyd.freezer <> R:139 var
+R10188:10188 VST.floyd.freezer <> l:133 var
+R10150:10152 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10109:10121 VST.floyd.freezer <> is_increasing thm
+R10141:10146 Coq.Lists.List <> length syndef
+R10148:10148 VST.floyd.freezer <> R:139 var
+R10124:10135 VST.floyd.freezer <> sort def
+R10137:10137 VST.floyd.freezer <> l:133 var
+R10153:10156 Coq.Init.Datatypes <> true constr
+R10382:10390 VST.floyd.canon <> semax_pre thm
+R10382:10390 VST.floyd.canon <> semax_pre thm
+R10416:10425 VST.msl.seplog <> andp_left2 meth
+R10416:10425 VST.msl.seplog <> andp_left2 meth
+R10435:10439 VST.floyd.canon <> PROPx def
+R10459:10470 VST.msl.log_normalize <> andp_derives thm
+R10459:10470 VST.msl.log_normalize <> andp_derives thm
+R10491:10516 VST.floyd.freezer <> freezelist_nth_permutation thm
+R10491:10516 VST.floyd.freezer <> freezelist_nth_permutation thm
+R10580:10583 VST.floyd.canon <> SEPx def
+R10605:10633 VST.floyd.freezer <> fold_right_sepcon_permutation thm
+R10605:10633 VST.floyd.freezer <> fold_right_sepcon_permutation thm
+R10605:10633 VST.floyd.freezer <> fold_right_sepcon_permutation thm
+R10652:10658 VST.floyd.freezer <> FRZL_ax thm
+R10652:10658 VST.floyd.freezer <> FRZL_ax thm
+R10652:10658 VST.floyd.freezer <> FRZL_ax thm
+R10697:10706 VST.msl.log_normalize <> emp_sepcon thm
+R10697:10706 VST.msl.log_normalize <> emp_sepcon thm
+R10697:10706 VST.msl.log_normalize <> emp_sepcon thm
+R10723:10734 VST.msl.seplog <> sepcon_assoc meth
+R10723:10734 VST.msl.seplog <> sepcon_assoc meth
+R10723:10734 VST.msl.seplog <> sepcon_assoc meth
+R10743:10756 VST.msl.seplog <> sepcon_derives meth
+R10743:10756 VST.msl.seplog <> sepcon_derives meth
+prf 10777:10793 <> freeze_SEP'entail
+binder 10804:10804 <> l:144
+binder 10806:10810 <> Delta:145
+binder 10812:10812 <> P:146
+binder 10814:10814 <> Q:147
+binder 10817:10817 <> R:148
+binder 10819:10822 <> Post:149
+binder 10824:10825 <> xs:150
+binder 10827:10828 <> ys:151
+R10881:10885 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10915:10919 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10985:10989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10990:10996 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R11002:11004 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R11032:11037 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R10997:11001 VST.floyd.freezer <> Delta:145 var
+R11005:11009 VST.floyd.canon <> PROPx def
+R11014:11019 VST.floyd.canon <> LOCALx def
+R11024:11027 VST.floyd.canon <> SEPx def
+R11029:11029 VST.floyd.freezer <> R:148 var
+R11021:11021 VST.floyd.freezer <> Q:147 var
+R11011:11011 VST.floyd.freezer <> P:146 var
+R11038:11041 VST.floyd.freezer <> Post:149 var
+R10920:10926 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R10932:10934 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R10975:10980 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R10927:10931 VST.floyd.freezer <> Delta:145 var
+R10935:10939 VST.floyd.canon <> PROPx def
+R10944:10949 VST.floyd.canon <> LOCALx def
+R10954:10957 VST.floyd.canon <> SEPx def
+R10967:10969 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10960:10963 VST.floyd.freezer <> FRZL syndef
+R10965:10966 VST.floyd.freezer <> xs:150 var
+R10970:10971 VST.floyd.freezer <> ys:151 var
+R10951:10951 VST.floyd.freezer <> Q:147 var
+R10941:10941 VST.floyd.freezer <> P:146 var
+R10981:10984 VST.floyd.freezer <> Post:149 var
+R10894:10896 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10886:10886 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10889:10890 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10893:10893 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10887:10888 VST.floyd.freezer <> xs:150 var
+R10891:10892 VST.floyd.freezer <> ys:151 var
+R10897:10910 VST.floyd.freezer <> freezelist_nth def
+R10914:10914 VST.floyd.freezer <> R:148 var
+R10912:10912 VST.floyd.freezer <> l:144 var
+R10874:10876 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10833:10845 VST.floyd.freezer <> is_increasing thm
+R10865:10870 Coq.Lists.List <> length syndef
+R10872:10872 VST.floyd.freezer <> R:148 var
+R10848:10859 VST.floyd.freezer <> sort def
+R10861:10861 VST.floyd.freezer <> l:144 var
+R10877:10880 Coq.Init.Datatypes <> true constr
+R11094:11106 VST.msl.seplog <> derives_trans meth
+R11094:11106 VST.msl.seplog <> derives_trans meth
+R11130:11134 VST.floyd.canon <> PROPx def
+R11154:11165 VST.msl.log_normalize <> andp_derives thm
+R11154:11165 VST.msl.log_normalize <> andp_derives thm
+R11186:11211 VST.floyd.freezer <> freezelist_nth_permutation thm
+R11186:11211 VST.floyd.freezer <> freezelist_nth_permutation thm
+R11274:11285 VST.msl.log_normalize <> andp_derives thm
+R11274:11285 VST.msl.log_normalize <> andp_derives thm
+R11301:11304 VST.floyd.canon <> SEPx def
+R11326:11354 VST.floyd.freezer <> fold_right_sepcon_permutation thm
+R11326:11354 VST.floyd.freezer <> fold_right_sepcon_permutation thm
+R11326:11354 VST.floyd.freezer <> fold_right_sepcon_permutation thm
+R11373:11379 VST.floyd.freezer <> FRZL_ax thm
+R11373:11379 VST.floyd.freezer <> FRZL_ax thm
+R11373:11379 VST.floyd.freezer <> FRZL_ax thm
+R11418:11427 VST.msl.log_normalize <> emp_sepcon thm
+R11418:11427 VST.msl.log_normalize <> emp_sepcon thm
+R11418:11427 VST.msl.log_normalize <> emp_sepcon thm
+R11444:11455 VST.msl.seplog <> sepcon_assoc meth
+R11444:11455 VST.msl.seplog <> sepcon_assoc meth
+R11444:11455 VST.msl.seplog <> sepcon_assoc meth
+R11464:11477 VST.msl.seplog <> sepcon_derives meth
+R11464:11477 VST.msl.seplog <> sepcon_derives meth
+prf 11498:11511 <> map_delete_nth
+binder 11514:11514 <> A:152
+binder 11516:11516 <> B:153
+R11523:11524 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11525:11525 VST.floyd.freezer <> B:153 var
+R11522:11522 VST.floyd.freezer <> A:152 var
+binder 11520:11520 <> f:154
+binder 11536:11536 <> n:155
+binder 11538:11538 <> l:156
+R11563:11565 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11541:11550 VST.floyd.find_nth_tactic <> delete_nth def
+R11555:11557 Coq.Lists.List <> map def
+R11561:11561 VST.floyd.freezer <> l:156 var
+R11559:11559 VST.floyd.freezer <> f:154 var
+R11552:11552 VST.floyd.freezer <> n:155 var
+R11566:11568 Coq.Lists.List <> map def
+R11573:11582 VST.floyd.find_nth_tactic <> delete_nth def
+R11586:11586 VST.floyd.freezer <> l:156 var
+R11584:11584 VST.floyd.freezer <> n:155 var
+R11570:11570 VST.floyd.freezer <> f:154 var
+def 11687:11692 <> my_nth
+binder 11695:11695 <> A:157
+R11703:11705 Coq.Init.Datatypes <> nat ind
+binder 11699:11699 <> n:158
+R11713:11716 Coq.Init.Datatypes <> list ind
+R11718:11718 VST.floyd.freezer <> A:157 var
+binder 11709:11709 <> l:159
+R11732:11732 VST.floyd.freezer <> A:157 var
+binder 11722:11728 <> default:160
+R11748:11748 VST.floyd.freezer <> A:157 var
+R11761:11761 VST.floyd.freezer <> n:158 var
+R11787:11787 VST.floyd.freezer <> l:159 var
+R11809:11810 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R11815:11821 VST.floyd.freezer <> default:160 var
+R11839:11842 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11871:11871 Coq.Init.Datatypes <> S constr
+R11884:11884 VST.floyd.freezer <> l:159 var
+R11904:11905 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R11910:11916 VST.floyd.freezer <> default:160 var
+R11932:11935 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11941:11946 VST.floyd.freezer <> my_nth:161 def
+R11952:11958 VST.floyd.freezer <> default:160 var
+prf 11989:11998 <> my_nth_nth
+binder 12001:12001 <> A:165
+binder 12012:12012 <> n:166
+binder 12014:12014 <> l:167
+R12019:12019 VST.floyd.freezer <> A:165 var
+binder 12017:12017 <> d:168
+R12035:12037 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12023:12028 VST.floyd.freezer <> my_nth def
+R12034:12034 VST.floyd.freezer <> d:168 var
+R12032:12032 VST.floyd.freezer <> l:167 var
+R12030:12030 VST.floyd.freezer <> n:166 var
+R12038:12040 Coq.Lists.List <> nth def
+R12046:12046 VST.floyd.freezer <> d:168 var
+R12044:12044 VST.floyd.freezer <> l:167 var
+R12042:12042 VST.floyd.freezer <> n:166 var
+def 12122:12134 <> my_delete_nth
+binder 12137:12137 <> A:169
+R12143:12145 Coq.Init.Datatypes <> nat ind
+binder 12141:12141 <> n:170
+R12152:12155 Coq.Init.Datatypes <> list ind
+R12157:12157 VST.floyd.freezer <> A:169 var
+binder 12149:12150 <> xs:171
+R12162:12165 Coq.Init.Datatypes <> list ind
+R12167:12167 VST.floyd.freezer <> A:169 var
+R12179:12179 VST.floyd.freezer <> n:170 var
+R12205:12206 VST.floyd.freezer <> xs:171 var
+R12228:12229 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R12234:12235 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R12253:12256 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12287:12287 Coq.Init.Datatypes <> S constr
+R12301:12302 VST.floyd.freezer <> xs:171 var
+R12323:12324 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R12329:12330 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R12347:12350 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12358:12361 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12362:12374 VST.floyd.freezer <> my_delete_nth:172 def
+prf 12412:12435 <> my_delete_nth_delete_nth
+binder 12438:12438 <> A:176
+binder 12449:12449 <> n:177
+R12454:12457 Coq.Init.Datatypes <> list ind
+R12459:12459 VST.floyd.freezer <> A:176 var
+binder 12452:12452 <> l:178
+R12480:12482 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12463:12475 VST.floyd.freezer <> my_delete_nth def
+R12479:12479 VST.floyd.freezer <> l:178 var
+R12477:12477 VST.floyd.freezer <> n:177 var
+R12483:12492 VST.floyd.find_nth_tactic <> delete_nth def
+R12496:12496 VST.floyd.freezer <> l:178 var
+R12494:12494 VST.floyd.freezer <> n:177 var
+def 12570:12583 <> my_delete_list
+binder 12586:12586 <> A:179
+R12600:12603 Coq.Init.Datatypes <> list ind
+R12605:12607 Coq.Init.Datatypes <> nat ind
+binder 12596:12597 <> ns:180
+R12615:12618 Coq.Init.Datatypes <> list ind
+R12620:12620 VST.floyd.freezer <> A:179 var
+binder 12611:12612 <> xs:181
+R12625:12628 Coq.Init.Datatypes <> list ind
+R12630:12630 VST.floyd.freezer <> A:179 var
+R12675:12676 VST.floyd.freezer <> ns:180 var
+R12686:12688 Coq.Init.Datatypes <> nil constr
+R12693:12694 VST.floyd.freezer <> xs:181 var
+R12700:12701 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12709:12721 VST.floyd.freezer <> my_delete_nth def
+R12726:12739 VST.floyd.freezer <> my_delete_list:182 def
+R12745:12746 VST.floyd.freezer <> xs:181 var
+def 12767:12783 <> my_freezelist_nth
+R12790:12793 Coq.Init.Datatypes <> list ind
+R12795:12797 Coq.Init.Datatypes <> nat ind
+binder 12786:12787 <> ns:184
+R12805:12808 Coq.Init.Datatypes <> list ind
+R12810:12814 VST.veric.mpred <> mpred def
+binder 12801:12802 <> al:185
+R12829:12831 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R12819:12822 Coq.Init.Datatypes <> list ind
+R12824:12828 VST.veric.mpred <> mpred def
+R12832:12835 Coq.Init.Datatypes <> list ind
+R12837:12841 VST.veric.mpred <> mpred def
+R12848:12848 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12882:12886 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12922:12922 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12849:12851 Coq.Lists.List <> map def
+R12880:12881 VST.floyd.freezer <> ns:184 var
+binder 12858:12858 <> i:186
+R12863:12868 VST.floyd.freezer <> my_nth def
+R12875:12877 VST.msl.seplog <> emp meth
+R12872:12873 VST.floyd.freezer <> al:185 var
+R12870:12870 VST.floyd.freezer <> i:186 var
+R12887:12900 VST.floyd.freezer <> my_delete_list def
+R12920:12921 VST.floyd.freezer <> al:185 var
+R12903:12914 VST.floyd.freezer <> sort def
+R12916:12917 VST.floyd.freezer <> ns:184 var
+prf 12932:12963 <> my_freezelist_nth_freezelist_nth
+binder 12973:12973 <> l:187
+binder 12975:12976 <> al:188
+R13003:13005 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12981:12997 VST.floyd.freezer <> my_freezelist_nth def
+R13001:13002 VST.floyd.freezer <> al:188 var
+R12999:12999 VST.floyd.freezer <> l:187 var
+R13006:13019 VST.floyd.freezer <> freezelist_nth def
+R13023:13024 VST.floyd.freezer <> al:188 var
+R13021:13021 VST.floyd.freezer <> l:187 var
+R13097:13113 VST.floyd.freezer <> my_freezelist_nth def
+R13116:13129 VST.floyd.freezer <> freezelist_nth def
+prf 13564:13575 <> freeze_SEP''
+binder 13586:13586 <> l:189
+binder 13588:13592 <> Espec:190
+R13599:13607 VST.veric.mpred <> compspecs class
+binder 13595:13596 <> cs:191
+binder 13610:13614 <> Delta:192
+binder 13616:13616 <> P:193
+binder 13618:13618 <> Q:194
+binder 13621:13621 <> R:195
+binder 13623:13623 <> c:196
+binder 13625:13628 <> Post:197
+binder 13630:13631 <> xs:198
+binder 13633:13634 <> ys:199
+R13687:13691 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13724:13728 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13800:13804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13806:13810 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R13859:13862 VST.floyd.freezer <> Post:197 var
+R13857:13857 VST.floyd.freezer <> c:196 var
+R13828:13832 VST.floyd.canon <> PROPx def
+R13837:13842 VST.floyd.canon <> LOCALx def
+R13847:13850 VST.floyd.canon <> SEPx def
+R13852:13852 VST.floyd.freezer <> R:195 var
+R13844:13844 VST.floyd.freezer <> Q:194 var
+R13834:13834 VST.floyd.freezer <> P:193 var
+R13821:13825 VST.floyd.freezer <> Delta:192 var
+R13815:13819 VST.floyd.freezer <> Espec:190 var
+R13812:13813 VST.floyd.freezer <> cs:191 var
+R13730:13734 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R13796:13799 VST.floyd.freezer <> Post:197 var
+R13794:13794 VST.floyd.freezer <> c:196 var
+R13752:13756 VST.floyd.canon <> PROPx def
+R13761:13766 VST.floyd.canon <> LOCALx def
+R13771:13774 VST.floyd.canon <> SEPx def
+R13784:13786 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13777:13780 VST.floyd.freezer <> FRZL syndef
+R13782:13783 VST.floyd.freezer <> xs:198 var
+R13787:13788 VST.floyd.freezer <> ys:199 var
+R13768:13768 VST.floyd.freezer <> Q:194 var
+R13758:13758 VST.floyd.freezer <> P:193 var
+R13745:13749 VST.floyd.freezer <> Delta:192 var
+R13739:13743 VST.floyd.freezer <> Espec:190 var
+R13736:13737 VST.floyd.freezer <> cs:191 var
+R13700:13702 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13692:13692 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13695:13696 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13699:13699 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13693:13694 VST.floyd.freezer <> xs:198 var
+R13697:13698 VST.floyd.freezer <> ys:199 var
+R13703:13719 VST.floyd.freezer <> my_freezelist_nth def
+R13723:13723 VST.floyd.freezer <> R:195 var
+R13721:13721 VST.floyd.freezer <> l:189 var
+R13680:13682 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13639:13651 VST.floyd.freezer <> is_increasing thm
+R13671:13676 Coq.Lists.List <> length syndef
+R13678:13678 VST.floyd.freezer <> R:195 var
+R13654:13665 VST.floyd.freezer <> sort def
+R13667:13667 VST.floyd.freezer <> l:189 var
+R13683:13686 Coq.Init.Datatypes <> true constr
+R13888:13919 VST.floyd.freezer <> my_freezelist_nth_freezelist_nth thm
+R13888:13919 VST.floyd.freezer <> my_freezelist_nth_freezelist_nth thm
+R13888:13919 VST.floyd.freezer <> my_freezelist_nth_freezelist_nth thm
+R13937:13947 VST.floyd.freezer <> freeze_SEP' thm
+R13937:13947 VST.floyd.freezer <> freeze_SEP' thm
+prf 13976:13993 <> freeze_SEP''entail
+binder 14004:14004 <> l:200
+binder 14006:14010 <> Delta:201
+binder 14012:14012 <> P:202
+binder 14014:14014 <> Q:203
+binder 14017:14017 <> R:204
+binder 14019:14022 <> Post:205
+binder 14024:14025 <> xs:206
+binder 14027:14028 <> ys:207
+R14081:14085 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14118:14122 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14188:14192 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14193:14199 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R14205:14207 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R14235:14240 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R14200:14204 VST.floyd.freezer <> Delta:201 var
+R14208:14212 VST.floyd.canon <> PROPx def
+R14217:14222 VST.floyd.canon <> LOCALx def
+R14227:14230 VST.floyd.canon <> SEPx def
+R14232:14232 VST.floyd.freezer <> R:204 var
+R14224:14224 VST.floyd.freezer <> Q:203 var
+R14214:14214 VST.floyd.freezer <> P:202 var
+R14241:14244 VST.floyd.freezer <> Post:205 var
+R14123:14129 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R14135:14137 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R14178:14183 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R14130:14134 VST.floyd.freezer <> Delta:201 var
+R14138:14142 VST.floyd.canon <> PROPx def
+R14147:14152 VST.floyd.canon <> LOCALx def
+R14157:14160 VST.floyd.canon <> SEPx def
+R14170:14172 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14163:14166 VST.floyd.freezer <> FRZL syndef
+R14168:14169 VST.floyd.freezer <> xs:206 var
+R14173:14174 VST.floyd.freezer <> ys:207 var
+R14154:14154 VST.floyd.freezer <> Q:203 var
+R14144:14144 VST.floyd.freezer <> P:202 var
+R14184:14187 VST.floyd.freezer <> Post:205 var
+R14094:14096 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14086:14086 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14089:14090 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14093:14093 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14087:14088 VST.floyd.freezer <> xs:206 var
+R14091:14092 VST.floyd.freezer <> ys:207 var
+R14097:14113 VST.floyd.freezer <> my_freezelist_nth def
+R14117:14117 VST.floyd.freezer <> R:204 var
+R14115:14115 VST.floyd.freezer <> l:200 var
+R14074:14076 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14033:14045 VST.floyd.freezer <> is_increasing thm
+R14065:14070 Coq.Lists.List <> length syndef
+R14072:14072 VST.floyd.freezer <> R:204 var
+R14048:14059 VST.floyd.freezer <> sort def
+R14061:14061 VST.floyd.freezer <> l:200 var
+R14077:14080 Coq.Init.Datatypes <> true constr
+R14270:14301 VST.floyd.freezer <> my_freezelist_nth_freezelist_nth thm
+R14270:14301 VST.floyd.freezer <> my_freezelist_nth_freezelist_nth thm
+R14270:14301 VST.floyd.freezer <> my_freezelist_nth_freezelist_nth thm
+R14319:14335 VST.floyd.freezer <> freeze_SEP'entail thm
+R14319:14335 VST.floyd.freezer <> freeze_SEP'entail thm
+R14458:14460 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14424:14436 VST.floyd.freezer <> is_increasing thm
+R14439:14450 VST.floyd.freezer <> sort def
+R14461:14464 Coq.Init.Datatypes <> true constr
+R14458:14460 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14424:14436 VST.floyd.freezer <> is_increasing thm
+R14439:14450 VST.floyd.freezer <> sort def
+R14461:14464 Coq.Init.Datatypes <> true constr
+R14548:14560 VST.floyd.freezer <> is_increasing thm
+R14566:14566 Coq.Init.Datatypes <> S constr
+R14569:14583 Coq.Lists.List <> fold_right def
+R14593:14593 Coq.Init.Datatypes <> O constr
+R14585:14591 Coq.Arith.PeanoNat Nat max def
+R14601:14605 Coq.Init.Datatypes <> false constr
+R14814:14825 VST.floyd.freezer <> freeze_SEP'' thm
+R14828:14830 Coq.Lists.List <> map def
+R14832:14839 Coq.ZArith.BinInt Z to_nat def
+R14923:14927 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R14932:14936 VST.floyd.canon <> PROPx def
+R14941:14946 VST.floyd.canon <> LOCALx def
+R14951:14954 VST.floyd.canon <> SEPx def
+R14957:14957 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14966:14970 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14958:14961 VST.floyd.freezer <> FRZL syndef
+R14971:14984 VST.floyd.freezer <> my_delete_list def
+R14923:14927 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R14932:14936 VST.floyd.canon <> PROPx def
+R14941:14946 VST.floyd.canon <> LOCALx def
+R14951:14954 VST.floyd.canon <> SEPx def
+R14957:14957 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14966:14970 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14958:14961 VST.floyd.freezer <> FRZL syndef
+R14971:14984 VST.floyd.freezer <> my_delete_list def
+R15088:15097 VST.floyd.client_lemmas <> abbreviate def
+R15100:15103 Coq.Init.Datatypes <> list ind
+R15105:15109 VST.veric.mpred <> mpred def
+R15224:15237 VST.floyd.freezer <> my_delete_list def
+R15240:15252 VST.floyd.freezer <> my_delete_nth def
+R15313:15330 VST.floyd.freezer <> freeze_SEP''entail thm
+R15333:15335 Coq.Lists.List <> map def
+R15337:15344 Coq.ZArith.BinInt Z to_nat def
+R15428:15434 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R15436:15438 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R15500:15505 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R15439:15443 VST.floyd.canon <> PROPx def
+R15448:15453 VST.floyd.canon <> LOCALx def
+R15458:15461 VST.floyd.canon <> SEPx def
+R15464:15464 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15473:15477 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15465:15468 VST.floyd.freezer <> FRZL syndef
+R15478:15491 VST.floyd.freezer <> my_delete_list def
+R15428:15434 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R15436:15438 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R15500:15505 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R15439:15443 VST.floyd.canon <> PROPx def
+R15448:15453 VST.floyd.canon <> LOCALx def
+R15458:15461 VST.floyd.canon <> SEPx def
+R15464:15464 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15473:15477 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15465:15468 VST.floyd.freezer <> FRZL syndef
+R15478:15491 VST.floyd.freezer <> my_delete_list def
+R15622:15631 VST.floyd.client_lemmas <> abbreviate def
+R15634:15637 Coq.Init.Datatypes <> list ind
+R15639:15643 VST.veric.mpred <> mpred def
+R15758:15771 VST.floyd.freezer <> my_delete_list def
+R15774:15786 VST.floyd.freezer <> my_delete_nth def
+R15836:15836 Coq.Numbers.BinNums <> Z ind
+binder 15833:15833 <> i:208
+R15843:15845 Coq.Init.Datatypes <> nat ind
+binder 15840:15840 <> n:209
+R15853:15856 Coq.Init.Datatypes <> list ind
+R15858:15858 Coq.Numbers.BinNums <> Z ind
+binder 15849:15850 <> bl:210
+R15863:15866 Coq.Init.Datatypes <> list ind
+R15868:15868 Coq.Numbers.BinNums <> Z ind
+R15880:15880 VST.floyd.freezer <> n:209 var
+R15887:15887 Coq.Init.Datatypes <> O constr
+R15892:15894 Coq.Init.Datatypes <> nil constr
+R15899:15899 Coq.Init.Datatypes <> S constr
+R15916:15917 VST.floyd.freezer <> bl:210 var
+R15929:15931 Coq.Init.Datatypes <> nil constr
+R15937:15940 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15936:15936 VST.floyd.freezer <> i:208 var
+R15941:15957 VST.floyd.freezer <> Zlist_complement':211 def
+R15973:15974 VST.floyd.freezer <> bl:210 var
+R15960:15965 Coq.ZArith.BinInt Z succ def
+R15967:15967 VST.floyd.freezer <> i:208 var
+R15982:15983 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15994:15998 Coq.ZArith.BinInt Z ltb def
+R16000:16000 VST.floyd.freezer <> i:208 var
+R16074:16090 VST.floyd.freezer <> Zlist_complement':211 def
+R16093:16098 Coq.ZArith.BinInt Z succ def
+R16100:16100 VST.floyd.freezer <> i:208 var
+R16010:16013 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16009:16009 VST.floyd.freezer <> i:208 var
+R16014:16030 VST.floyd.freezer <> Zlist_complement':211 def
+R16046:16047 VST.floyd.freezer <> bl:210 var
+R16033:16038 Coq.ZArith.BinInt Z succ def
+R16040:16040 VST.floyd.freezer <> i:208 var
+binder 15833:15833 <> i:214
+binder 15840:15840 <> n:215
+binder 15849:15850 <> bl:216
+binder 15833:15833 <> i:217
+binder 15840:15840 <> n:218
+binder 15849:15850 <> bl:219
+binder 15833:15833 <> i:221
+binder 15840:15840 <> n:222
+binder 15849:15850 <> bl:223
+R15880:15880 VST.floyd.freezer <> n:222 var
+R15887:15887 Coq.Init.Datatypes <> O constr
+R15892:15894 Coq.Init.Datatypes <> nil constr
+R15899:15899 Coq.Init.Datatypes <> S constr
+R15916:15917 VST.floyd.freezer <> bl:223 var
+R15929:15931 Coq.Init.Datatypes <> nil constr
+R15937:15940 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15936:15936 VST.floyd.freezer <> i:221 var
+R15941:15957 VST.floyd.freezer <> Zlist_complement':220 def
+R15973:15974 VST.floyd.freezer <> bl:223 var
+R15960:15965 Coq.ZArith.BinInt Z succ def
+R15967:15967 VST.floyd.freezer <> i:221 var
+R15982:15983 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15994:15998 Coq.ZArith.BinInt Z ltb def
+R16000:16000 VST.floyd.freezer <> i:221 var
+R16074:16090 VST.floyd.freezer <> Zlist_complement':220 def
+R16093:16098 Coq.ZArith.BinInt Z succ def
+R16100:16100 VST.floyd.freezer <> i:221 var
+R16010:16013 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16009:16009 VST.floyd.freezer <> i:221 var
+R16014:16030 VST.floyd.freezer <> Zlist_complement':220 def
+R16046:16047 VST.floyd.freezer <> bl:223 var
+R16033:16038 Coq.ZArith.BinInt Z succ def
+R16040:16040 VST.floyd.freezer <> i:221 var
+binder 15833:15833 <> i:226
+binder 15840:15840 <> n:227
+binder 15849:15850 <> bl:228
+R15880:15880 VST.floyd.freezer <> n:227 var
+R15887:15887 Coq.Init.Datatypes <> O constr
+R15892:15894 Coq.Init.Datatypes <> nil constr
+R15899:15899 Coq.Init.Datatypes <> S constr
+R15916:15917 VST.floyd.freezer <> bl:228 var
+R15929:15931 Coq.Init.Datatypes <> nil constr
+R15937:15940 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15936:15936 VST.floyd.freezer <> i:226 var
+R15941:15957 VST.floyd.freezer <> Zlist_complement':229 def
+R15973:15974 VST.floyd.freezer <> bl:228 var
+R15960:15965 Coq.ZArith.BinInt Z succ def
+R15967:15967 VST.floyd.freezer <> i:226 var
+R15982:15983 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15994:15998 Coq.ZArith.BinInt Z ltb def
+R16000:16000 VST.floyd.freezer <> i:226 var
+R16074:16090 VST.floyd.freezer <> Zlist_complement':229 def
+R16093:16098 Coq.ZArith.BinInt Z succ def
+R16100:16100 VST.floyd.freezer <> i:226 var
+R16010:16013 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16009:16009 VST.floyd.freezer <> i:226 var
+R16014:16030 VST.floyd.freezer <> Zlist_complement':229 def
+R16046:16047 VST.floyd.freezer <> bl:228 var
+R16033:16038 Coq.ZArith.BinInt Z succ def
+R16040:16040 VST.floyd.freezer <> i:226 var
+def 16135:16150 <> Zlist_complement
+R16156:16158 Coq.Init.Datatypes <> nat ind
+binder 16153:16153 <> n:262
+R16166:16169 Coq.Init.Datatypes <> list ind
+R16171:16171 Coq.Numbers.BinNums <> Z ind
+binder 16162:16163 <> al:263
+R16176:16179 Coq.Init.Datatypes <> list ind
+R16181:16181 Coq.Numbers.BinNums <> Z ind
+R16198:16207 VST.floyd.freezer <> sort def
+R16209:16210 VST.floyd.freezer <> al:263 var
+binder 16192:16193 <> bl:264
+R16217:16233 VST.floyd.freezer <> Zlist_complement' def
+R16239:16240 VST.floyd.freezer <> bl:264 var
+R16237:16237 VST.floyd.freezer <> n:262 var
+R16347:16356 VST.floyd.client_lemmas <> abbreviate def
+R16358:16362 VST.veric.mpred <> mpred def
+R16347:16356 VST.floyd.client_lemmas <> abbreviate def
+R16358:16362 VST.veric.mpred <> mpred def
+R16369:16373 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R16378:16382 VST.floyd.canon <> PROPx def
+R16387:16392 VST.floyd.canon <> LOCALx def
+R16397:16400 VST.floyd.canon <> SEPx def
+R16369:16373 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R16378:16382 VST.floyd.canon <> PROPx def
+R16387:16392 VST.floyd.canon <> LOCALx def
+R16397:16400 VST.floyd.canon <> SEPx def
+R16655:16659 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R16664:16668 VST.floyd.canon <> PROPx def
+R16673:16678 VST.floyd.canon <> LOCALx def
+R16683:16686 VST.floyd.canon <> SEPx def
+R16655:16659 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R16664:16668 VST.floyd.canon <> PROPx def
+R16673:16678 VST.floyd.canon <> LOCALx def
+R16683:16686 VST.floyd.canon <> SEPx def
+R16906:16915 VST.floyd.client_lemmas <> abbreviate def
+R16917:16921 VST.veric.mpred <> mpred def
+R16906:16915 VST.floyd.client_lemmas <> abbreviate def
+R16917:16921 VST.veric.mpred <> mpred def
+R16928:16934 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R16936:16938 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R16967:16972 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R16939:16943 VST.floyd.canon <> PROPx def
+R16948:16953 VST.floyd.canon <> LOCALx def
+R16958:16961 VST.floyd.canon <> SEPx def
+R16928:16934 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R16936:16938 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R16967:16972 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R16939:16943 VST.floyd.canon <> PROPx def
+R16948:16953 VST.floyd.canon <> LOCALx def
+R16958:16961 VST.floyd.canon <> SEPx def
+R17218:17224 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R17226:17228 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R17257:17262 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R17229:17233 VST.floyd.canon <> PROPx def
+R17238:17243 VST.floyd.canon <> LOCALx def
+R17248:17251 VST.floyd.canon <> SEPx def
+R17218:17224 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R17226:17228 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R17257:17262 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R17229:17233 VST.floyd.canon <> PROPx def
+R17238:17243 VST.floyd.canon <> LOCALx def
+R17248:17251 VST.floyd.canon <> SEPx def
+R17312:17327 VST.floyd.freezer <> Zlist_complement def
+R17330:17335 Coq.Lists.List <> length syndef
+R17004:17007 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R17004:17007 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R17046:17049 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17069:17069 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17037:17043 Coq.ZArith.Zcomplements <> Zlength def
+R17050:17055 Coq.ZArith.BinInt Z succ def
+R17058:17064 Coq.ZArith.Zcomplements <> Zlength def
+R17131:17132 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R17154:17163 VST.floyd.client_lemmas <> abbreviate def
+R16745:16760 VST.floyd.freezer <> Zlist_complement def
+R16763:16768 Coq.Lists.List <> length syndef
+R16441:16444 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16441:16444 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16483:16486 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R16506:16506 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R16474:16480 Coq.ZArith.Zcomplements <> Zlength def
+R16487:16492 Coq.ZArith.BinInt Z succ def
+R16495:16501 Coq.ZArith.Zcomplements <> Zlength def
+R16568:16569 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16591:16600 VST.floyd.client_lemmas <> abbreviate def
+R17519:17521 Coq.Init.Datatypes <> nil constr
+R17523:17523 Coq.Numbers.BinNums <> Z ind
+R17578:17580 Coq.Init.Datatypes <> nil constr
+R17582:17582 Coq.Numbers.BinNums <> Z ind
+prf 21697:21718 <> flatten_emp_in_mpreds'
+binder 21721:21721 <> A:265
+binder 21734:21734 <> n:266
+R21740:21743 Coq.Init.Datatypes <> list ind
+R21745:21749 VST.veric.mpred <> mpred def
+binder 21737:21737 <> R:267
+R21780:21786 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21796:21798 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21788:21791 VST.floyd.canon <> SEPx def
+R21795:21795 VST.floyd.freezer <> R:267 var
+R21793:21793 VST.floyd.freezer <> A:265 var
+R21799:21802 VST.floyd.canon <> SEPx def
+R21815:21818 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R21805:21810 Coq.Lists.List <> firstn def
+R21814:21814 VST.floyd.freezer <> R:267 var
+R21812:21812 VST.floyd.freezer <> n:266 var
+R21819:21823 Coq.Lists.List <> skipn def
+R21831:21831 VST.floyd.freezer <> R:267 var
+R21826:21826 Coq.Init.Datatypes <> S constr
+R21828:21828 VST.floyd.freezer <> n:266 var
+R21769:21771 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21756:21764 Coq.Lists.List <> nth_error def
+R21768:21768 VST.floyd.freezer <> n:266 var
+R21766:21766 VST.floyd.freezer <> R:267 var
+R21772:21775 Coq.Init.Datatypes <> Some constr
+R21777:21779 VST.msl.seplog <> emp meth
+R21849:21852 VST.floyd.canon <> SEPx def
+R21988:21997 VST.msl.log_normalize <> emp_sepcon thm
+R21988:21997 VST.msl.log_normalize <> emp_sepcon thm
+R22084:22087 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22088:22093 Coq.Lists.List <> firstn def
+R22106:22108 Coq.Init.Datatypes <> app def
+R22120:22125 Coq.Lists.List <> firstn def
+R22112:22113 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22114:22116 Coq.Init.Datatypes <> nil constr
+R22084:22087 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22088:22093 Coq.Lists.List <> firstn def
+R22106:22108 Coq.Init.Datatypes <> app def
+R22120:22125 Coq.Lists.List <> firstn def
+R22112:22113 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22114:22116 Coq.Init.Datatypes <> nil constr
+R22144:22150 Coq.Lists.List <> app_ass syndef
+R22144:22150 Coq.Lists.List <> app_ass syndef
+R22144:22150 Coq.Lists.List <> app_ass syndef
+R22160:22162 Coq.Init.Datatypes <> app def
+prf 22206:22224 <> flatten_emp_in_SEP'
+binder 22236:22236 <> n:268
+binder 22238:22238 <> P:269
+binder 22240:22240 <> Q:270
+R22246:22249 Coq.Init.Datatypes <> list ind
+R22251:22255 VST.veric.mpred <> mpred def
+binder 22243:22243 <> R:271
+binder 22258:22259 <> R':272
+R22289:22295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22328:22334 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22362:22364 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22335:22339 VST.floyd.canon <> PROPx def
+R22344:22349 VST.floyd.canon <> LOCALx def
+R22354:22357 VST.floyd.canon <> SEPx def
+R22359:22359 VST.floyd.freezer <> R:271 var
+R22351:22351 VST.floyd.freezer <> Q:270 var
+R22341:22341 VST.floyd.freezer <> P:269 var
+R22365:22369 VST.floyd.canon <> PROPx def
+R22374:22379 VST.floyd.canon <> LOCALx def
+R22384:22387 VST.floyd.canon <> SEPx def
+R22389:22390 VST.floyd.freezer <> R':272 var
+R22381:22381 VST.floyd.freezer <> Q:270 var
+R22371:22371 VST.floyd.freezer <> P:269 var
+R22298:22300 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22296:22297 VST.floyd.freezer <> R':272 var
+R22311:22314 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R22301:22306 Coq.Lists.List <> firstn def
+R22310:22310 VST.floyd.freezer <> R:271 var
+R22308:22308 VST.floyd.freezer <> n:268 var
+R22315:22319 Coq.Lists.List <> skipn def
+R22327:22327 VST.floyd.freezer <> R:271 var
+R22322:22322 Coq.Init.Datatypes <> S constr
+R22324:22324 VST.floyd.freezer <> n:268 var
+R22278:22280 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22265:22273 Coq.Lists.List <> nth_error def
+R22277:22277 VST.floyd.freezer <> n:268 var
+R22275:22275 VST.floyd.freezer <> R:271 var
+R22281:22284 Coq.Init.Datatypes <> Some constr
+R22286:22288 VST.msl.seplog <> emp meth
+R22445:22466 VST.floyd.freezer <> flatten_emp_in_mpreds' thm
+R22445:22466 VST.floyd.freezer <> flatten_emp_in_mpreds' thm
+R23192:23196 VST.floyd.canon <> PROPx def
+R23202:23207 VST.floyd.canon <> LOCALx def
+R23213:23216 VST.floyd.canon <> SEPx def
+R23192:23196 VST.floyd.canon <> PROPx def
+R23202:23207 VST.floyd.canon <> LOCALx def
+R23213:23216 VST.floyd.canon <> SEPx def
+R23256:23259 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23253:23255 VST.msl.seplog <> emp meth
+R23256:23259 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23253:23255 VST.msl.seplog <> emp meth
+R23300:23302 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R23292:23297 Coq.Lists.List <> length syndef
+R23303:23313 Coq.Init.Datatypes <> S constr
+R23316:23321 Coq.Lists.List <> length syndef
+R23407:23425 VST.floyd.freezer <> flatten_emp_in_SEP' thm
+R23439:23445 Coq.Init.Logic <> eq_refl constr
+R23524:23529 Coq.Lists.List <> firstn def
+R23532:23534 Coq.Init.Datatypes <> app def
+R23537:23541 Coq.Lists.List <> skipn def
+R23583:23589 Coq.Init.Logic <> eq_refl constr
+R23658:23662 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R23658:23662 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R23713:23717 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R23713:23717 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R23922:23928 VST.floyd.freezer <> FRZL_ax thm
+R23944:23947 VST.floyd.client_lemmas <> name def
+R23950:23959 VST.floyd.client_lemmas <> abbreviate def
+R24223:24239 VST.floyd.base <> fold_right_sepcon def
+R24242:24244 Coq.Lists.List <> map def
+R24223:24239 VST.floyd.base <> fold_right_sepcon def
+R24242:24244 Coq.Lists.List <> map def
+R24348:24364 VST.floyd.base <> fold_right_sepcon def
+R24348:24364 VST.floyd.base <> fold_right_sepcon def
+R24384:24400 VST.floyd.base <> fold_right_sepcon def
+R24416:24432 VST.floyd.base <> fold_right_sepcon def
+R24268:24284 VST.floyd.base <> fold_right_sepcon def
+R24287:24289 Coq.Lists.List <> map def
+R24520:24531 VST.msl.seplog <> sepcon_assoc meth
+R24534:24543 VST.msl.seplog <> sepcon_emp meth
+R24588:24601 VST.floyd.freezer <> my_delete_list def
+R24604:24616 VST.floyd.freezer <> my_delete_nth def
+R24619:24624 VST.floyd.freezer <> my_nth def
+R24627:24643 VST.floyd.base <> fold_right_sepcon def
+ind 24775:24790 <> split_FRZ_in_SEP
+constr 24845:24864 <> split_FRZ_in_SEP_nil
+constr 24898:24917 <> split_FRZ_in_SEP_FRZ
+constr 25015:25035 <> split_FRZ_in_SEP_FRZL
+constr 25135:25155 <> split_FRZ_in_SEP_FRZR
+constr 25269:25290 <> split_FRZ_in_SEP_other
+R24803:24806 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24817:24820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24831:24834 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24821:24824 Coq.Init.Datatypes <> list ind
+R24826:24830 VST.veric.mpred <> mpred def
+R24807:24810 Coq.Init.Datatypes <> list ind
+R24812:24816 VST.veric.mpred <> mpred def
+R24793:24796 Coq.Init.Datatypes <> list ind
+R24798:24802 VST.veric.mpred <> mpred def
+R24867:24882 VST.floyd.freezer <> split_FRZ_in_SEP:273 ind
+R24892:24894 Coq.Init.Datatypes <> nil constr
+R24888:24890 Coq.Init.Datatypes <> nil constr
+R24884:24886 Coq.Init.Datatypes <> nil constr
+binder 24927:24927 <> R:275
+binder 24929:24930 <> R':276
+binder 24932:24933 <> RF:277
+binder 24935:24935 <> F:278
+R24962:24965 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24966:24981 VST.floyd.freezer <> split_FRZ_in_SEP:273 ind
+R25005:25008 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25000:25002 VST.floyd.freezer <> FRZ syndef
+R25004:25004 VST.floyd.freezer <> F:278 var
+R25009:25010 VST.floyd.freezer <> RF:277 var
+R24996:24997 VST.floyd.freezer <> R':276 var
+R24989:24992 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24984:24986 VST.floyd.freezer <> FRZ syndef
+R24988:24988 VST.floyd.freezer <> F:278 var
+R24993:24993 VST.floyd.freezer <> R:275 var
+R24938:24953 VST.floyd.freezer <> split_FRZ_in_SEP:273 ind
+R24960:24961 VST.floyd.freezer <> RF:277 var
+R24957:24958 VST.floyd.freezer <> R':276 var
+R24955:24955 VST.floyd.freezer <> R:275 var
+binder 25045:25045 <> R:279
+binder 25047:25048 <> R':280
+binder 25050:25051 <> RF:281
+binder 25053:25053 <> F:282
+R25080:25083 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25084:25099 VST.floyd.freezer <> split_FRZ_in_SEP:273 ind
+R25125:25128 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25119:25122 VST.floyd.freezer <> FRZL syndef
+R25124:25124 VST.floyd.freezer <> F:282 var
+R25129:25130 VST.floyd.freezer <> RF:281 var
+R25115:25116 VST.floyd.freezer <> R':280 var
+R25108:25111 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25102:25105 VST.floyd.freezer <> FRZL syndef
+R25107:25107 VST.floyd.freezer <> F:282 var
+R25112:25112 VST.floyd.freezer <> R:279 var
+R25056:25071 VST.floyd.freezer <> split_FRZ_in_SEP:273 ind
+R25078:25079 VST.floyd.freezer <> RF:281 var
+R25075:25076 VST.floyd.freezer <> R':280 var
+R25073:25073 VST.floyd.freezer <> R:279 var
+binder 25165:25165 <> R:283
+binder 25167:25168 <> R':284
+binder 25170:25171 <> RF:285
+binder 25173:25173 <> L:286
+binder 25175:25175 <> G:287
+binder 25177:25177 <> w:288
+R25204:25207 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25208:25223 VST.floyd.freezer <> split_FRZ_in_SEP:273 ind
+R25259:25262 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25249:25252 VST.floyd.freezer <> FRZR syndef
+R25258:25258 VST.floyd.freezer <> w:288 var
+R25256:25256 VST.floyd.freezer <> G:287 var
+R25254:25254 VST.floyd.freezer <> L:286 var
+R25263:25264 VST.floyd.freezer <> RF:285 var
+R25244:25245 VST.floyd.freezer <> R':284 var
+R25237:25240 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25227:25230 VST.floyd.freezer <> FRZR syndef
+R25236:25236 VST.floyd.freezer <> w:288 var
+R25234:25234 VST.floyd.freezer <> G:287 var
+R25232:25232 VST.floyd.freezer <> L:286 var
+R25241:25241 VST.floyd.freezer <> R:283 var
+R25180:25195 VST.floyd.freezer <> split_FRZ_in_SEP:273 ind
+R25202:25203 VST.floyd.freezer <> RF:285 var
+R25199:25200 VST.floyd.freezer <> R':284 var
+R25197:25197 VST.floyd.freezer <> R:283 var
+binder 25300:25300 <> R:289
+binder 25302:25303 <> R':290
+binder 25305:25306 <> RF:291
+binder 25308:25309 <> R0:292
+R25336:25339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25340:25355 VST.floyd.freezer <> split_FRZ_in_SEP:273 ind
+R25378:25379 VST.floyd.freezer <> RF:291 var
+R25370:25373 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25368:25369 VST.floyd.freezer <> R0:292 var
+R25374:25375 VST.floyd.freezer <> R':290 var
+R25360:25363 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25358:25359 VST.floyd.freezer <> R0:292 var
+R25364:25364 VST.floyd.freezer <> R:289 var
+R25312:25327 VST.floyd.freezer <> split_FRZ_in_SEP:273 ind
+R25334:25335 VST.floyd.freezer <> RF:291 var
+R25331:25332 VST.floyd.freezer <> R':290 var
+R25329:25329 VST.floyd.freezer <> R:289 var
+R25460:25479 VST.floyd.freezer <> split_FRZ_in_SEP_nil constr
+R25500:25519 VST.floyd.freezer <> split_FRZ_in_SEP_FRZ constr
+R25540:25560 VST.floyd.freezer <> split_FRZ_in_SEP_FRZL constr
+R25581:25601 VST.floyd.freezer <> split_FRZ_in_SEP_FRZR constr
+R25622:25643 VST.floyd.freezer <> split_FRZ_in_SEP_other constr
+prf 25655:25675 <> split_FRZ_in_SEP_spec
+binder 25685:25685 <> R:293
+binder 25687:25688 <> R':294
+binder 25690:25691 <> RF:295
+R25720:25725 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25745:25747 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25726:25742 VST.floyd.base <> fold_right_sepcon def
+R25744:25744 VST.floyd.freezer <> R:293 var
+R25768:25770 VST.msl.seplog <> ::logic:x_'*'_x not
+R25748:25764 VST.floyd.base <> fold_right_sepcon def
+R25766:25767 VST.floyd.freezer <> R':294 var
+R25771:25787 VST.floyd.base <> fold_right_sepcon def
+R25789:25790 VST.floyd.freezer <> RF:295 var
+R25696:25711 VST.floyd.freezer <> split_FRZ_in_SEP ind
+R25718:25719 VST.floyd.freezer <> RF:295 var
+R25715:25716 VST.floyd.freezer <> R':294 var
+R25713:25713 VST.floyd.freezer <> R:293 var
+R25848:25857 VST.msl.seplog <> sepcon_emp meth
+R25848:25857 VST.msl.seplog <> sepcon_emp meth
+R25848:25857 VST.msl.seplog <> sepcon_emp meth
+R25919:25926 VST.msl.seplog <> pred_ext meth
+R25919:25926 VST.msl.seplog <> pred_ext meth
+R25990:25997 VST.msl.seplog <> pred_ext meth
+R25990:25997 VST.msl.seplog <> pred_ext meth
+R26061:26068 VST.msl.seplog <> pred_ext meth
+R26061:26068 VST.msl.seplog <> pred_ext meth
+R26132:26139 VST.msl.seplog <> pred_ext meth
+R26132:26139 VST.msl.seplog <> pred_ext meth
+prf 26162:26169 <> localize
+binder 26179:26181 <> R_L:296
+binder 26183:26187 <> Espec:297
+R26194:26202 VST.veric.mpred <> compspecs class
+binder 26190:26191 <> cs:298
+binder 26205:26209 <> Delta:299
+binder 26211:26211 <> P:300
+binder 26213:26213 <> Q:301
+binder 26215:26215 <> R:302
+binder 26217:26220 <> R_FR:303
+binder 26222:26224 <> R_G:304
+binder 26226:26226 <> c:305
+binder 26228:26231 <> Post:306
+R26263:26268 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26269:26269 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26465:26471 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26473:26477 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R26526:26529 VST.floyd.freezer <> Post:306 var
+R26524:26524 VST.floyd.freezer <> c:305 var
+R26495:26499 VST.floyd.canon <> PROPx def
+R26504:26509 VST.floyd.canon <> LOCALx def
+R26514:26517 VST.floyd.canon <> SEPx def
+R26519:26519 VST.floyd.freezer <> R:302 var
+R26511:26511 VST.floyd.freezer <> Q:301 var
+R26501:26501 VST.floyd.freezer <> P:300 var
+R26488:26492 VST.floyd.freezer <> Delta:299 var
+R26482:26486 VST.floyd.freezer <> Espec:297 var
+R26479:26480 VST.floyd.freezer <> cs:298 var
+R26283:26292 VST.floyd.client_lemmas <> abbreviate def
+R26296:26298 VST.floyd.freezer <> R_L:296 var
+binder 26274:26277 <> FR_L:307
+R26319:26328 VST.floyd.client_lemmas <> abbreviate def
+R26332:26334 VST.floyd.freezer <> R_G:304 var
+binder 26310:26313 <> FR_G:308
+R26342:26350 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R26369:26373 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R26354:26358 VST.floyd.freezer <> FRZRw syndef
+R26365:26368 VST.floyd.freezer <> FR_G:308 var
+R26360:26363 VST.floyd.freezer <> FR_L:307 var
+binder 26351:26351 <> w:309
+R26375:26379 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R26461:26464 VST.floyd.freezer <> Post:306 var
+R26459:26459 VST.floyd.freezer <> c:305 var
+R26397:26401 VST.floyd.canon <> PROPx def
+R26406:26411 VST.floyd.canon <> LOCALx def
+R26416:26419 VST.floyd.canon <> SEPx def
+R26425:26428 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R26422:26424 VST.floyd.freezer <> R_L:296 var
+R26446:26449 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26430:26433 VST.floyd.freezer <> FRZR syndef
+R26445:26445 VST.floyd.freezer <> w:309 var
+R26440:26443 VST.floyd.freezer <> FR_G:308 var
+R26435:26438 VST.floyd.freezer <> FR_L:307 var
+R26450:26453 VST.floyd.freezer <> R_FR:303 var
+R26413:26413 VST.floyd.freezer <> Q:301 var
+R26403:26403 VST.floyd.freezer <> P:300 var
+R26390:26394 VST.floyd.freezer <> Delta:299 var
+R26384:26388 VST.floyd.freezer <> Espec:297 var
+R26381:26382 VST.floyd.freezer <> cs:298 var
+R26236:26251 VST.floyd.freezer <> split_FRZ_in_SEP ind
+R26259:26262 VST.floyd.freezer <> R_FR:303 var
+R26255:26257 VST.floyd.freezer <> R_G:304 var
+R26253:26253 VST.floyd.freezer <> R:302 var
+R26582:26590 VST.floyd.canon <> semax_pre thm
+R26582:26590 VST.floyd.canon <> semax_pre thm
+R26624:26644 VST.floyd.freezer <> split_FRZ_in_SEP_spec thm
+R26624:26644 VST.floyd.freezer <> split_FRZ_in_SEP_spec thm
+R26660:26669 VST.msl.seplog <> andp_left2 meth
+R26660:26669 VST.msl.seplog <> andp_left2 meth
+R26680:26691 VST.msl.log_normalize <> andp_derives thm
+R26680:26691 VST.msl.log_normalize <> andp_derives thm
+R26708:26719 VST.msl.log_normalize <> andp_derives thm
+R26708:26719 VST.msl.log_normalize <> andp_derives thm
+R26737:26740 VST.floyd.canon <> SEPx def
+R26773:26793 VST.floyd.canon <> fold_right_sepcon_app thm
+R26773:26793 VST.floyd.canon <> fold_right_sepcon_app thm
+R26773:26793 VST.floyd.canon <> fold_right_sepcon_app thm
+R26823:26835 VST.floyd.freezer <> FRZR1 defax
+R26823:26835 VST.floyd.freezer <> FRZR1 defax
+R26872:26874 Coq.Init.Datatypes <> app def
+R26876:26880 VST.veric.mpred <> mpred def
+R26872:26874 Coq.Init.Datatypes <> app def
+R26876:26880 VST.veric.mpred <> mpred def
+R26906:26909 Coq.Init.Datatypes <> list ind
+R26911:26915 VST.veric.mpred <> mpred def
+binder 26900:26900 <> l:310
+binder 26902:26902 <> m:311
+R26931:26934 Coq.Init.Datatypes <> list ind
+R26936:26940 VST.veric.mpred <> mpred def
+R26953:26953 VST.floyd.freezer <> l:310 var
+R26964:26966 Coq.Init.Datatypes <> nil constr
+R26971:26971 VST.floyd.freezer <> m:311 var
+R26977:26980 Coq.Init.Datatypes <> cons constr
+R26990:26993 Coq.Init.Datatypes <> cons constr
+R26998:27000 VST.floyd.freezer <> app:312 var
+R27005:27005 VST.floyd.freezer <> m:311 var
+R27025:27027 Coq.Init.Datatypes <> app def
+R27025:27027 Coq.Init.Datatypes <> app def
+R27058:27061 Coq.Init.Datatypes <> list ind
+binder 27052:27052 <> l:314
+binder 27054:27054 <> m:315
+R27082:27085 Coq.Init.Datatypes <> list ind
+R27103:27103 VST.floyd.freezer <> l:314 var
+R27114:27116 Coq.Init.Datatypes <> nil constr
+R27121:27121 VST.floyd.freezer <> m:315 var
+R27127:27130 Coq.Init.Datatypes <> cons constr
+R27140:27143 Coq.Init.Datatypes <> cons constr
+R27148:27150 VST.floyd.freezer <> app:316 var
+R27155:27155 VST.floyd.freezer <> m:315 var
+R27213:27220 VST.floyd.freezer <> localize thm
+prf 27368:27381 <> unlocalize_aux
+binder 27391:27394 <> R_G2:318
+binder 27396:27396 <> R:319
+binder 27398:27401 <> R_FR:320
+binder 27403:27406 <> R_L1:321
+binder 27408:27411 <> R_G1:322
+binder 27413:27416 <> R_L2:323
+binder 27418:27418 <> F:324
+binder 27420:27420 <> w:325
+R27476:27481 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27482:27482 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27585:27591 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27646:27651 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27671:27675 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R27652:27668 VST.floyd.base <> fold_right_sepcon def
+R27670:27670 VST.floyd.freezer <> R:319 var
+R27676:27692 VST.floyd.base <> fold_right_sepcon def
+R27699:27702 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R27695:27698 VST.floyd.freezer <> R_G2:318 var
+R27703:27706 VST.floyd.freezer <> R_FR:320 var
+R27593:27597 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R27592:27592 VST.floyd.freezer <> F:324 var
+R27620:27623 VST.msl.seplog <> ::logic:x_'-*'_x not
+R27598:27614 VST.floyd.base <> fold_right_sepcon def
+R27616:27619 VST.floyd.freezer <> R_L2:323 var
+R27624:27640 VST.floyd.base <> fold_right_sepcon def
+R27642:27645 VST.floyd.freezer <> R_G2:318 var
+R27483:27490 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R27549:27551 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R27494:27494 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R27517:27522 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R27495:27511 VST.floyd.base <> fold_right_sepcon def
+R27513:27516 VST.floyd.freezer <> R_G1:322 var
+R27545:27547 VST.msl.seplog <> ::logic:x_'*'_x not
+R27523:27539 VST.floyd.base <> fold_right_sepcon def
+R27541:27544 VST.floyd.freezer <> R_L1:321 var
+R27548:27548 VST.floyd.freezer <> F:324 var
+binder 27491:27491 <> H:326
+R27553:27555 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27552:27552 VST.floyd.freezer <> w:325 var
+R27557:27576 VST.floyd.freezer <> FRZRw_constr defax
+R27584:27584 VST.floyd.freezer <> H:326 var
+R27425:27440 VST.floyd.freezer <> split_FRZ_in_SEP ind
+R27467:27470 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27451:27454 VST.floyd.freezer <> FRZR syndef
+R27466:27466 VST.floyd.freezer <> w:325 var
+R27461:27464 VST.floyd.freezer <> R_G1:322 var
+R27456:27459 VST.floyd.freezer <> R_L1:321 var
+R27471:27474 VST.floyd.freezer <> R_FR:320 var
+R27444:27447 VST.floyd.freezer <> R_L2:323 var
+R27442:27442 VST.floyd.freezer <> R:319 var
+R27735:27755 VST.floyd.freezer <> split_FRZ_in_SEP_spec thm
+R27735:27755 VST.floyd.freezer <> split_FRZ_in_SEP_spec thm
+R27786:27806 VST.floyd.canon <> fold_right_sepcon_app thm
+R27786:27806 VST.floyd.canon <> fold_right_sepcon_app thm
+R27786:27806 VST.floyd.canon <> fold_right_sepcon_app thm
+R27867:27879 VST.floyd.freezer <> FRZR2 defax
+R27867:27879 VST.floyd.freezer <> FRZR2 defax
+prf 27902:27918 <> unlocalize_triple
+binder 27928:27931 <> R_G2:327
+binder 27933:27937 <> Espec:328
+R27944:27952 VST.veric.mpred <> compspecs class
+binder 27940:27941 <> cs:329
+binder 27955:27959 <> Delta:330
+binder 27961:27961 <> P:331
+binder 27963:27963 <> Q:332
+binder 27965:27965 <> R:333
+binder 27967:27970 <> R_FR:334
+binder 27972:27975 <> R_L1:335
+binder 27977:27980 <> R_G1:336
+binder 27982:27985 <> R_L2:337
+binder 27987:27987 <> c:338
+binder 27989:27992 <> Post:339
+binder 27994:27994 <> w:340
+R28050:28055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28056:28056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28206:28212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28213:28213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28330:28336 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28338:28342 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R28391:28394 VST.floyd.freezer <> Post:339 var
+R28389:28389 VST.floyd.freezer <> c:338 var
+R28360:28364 VST.floyd.canon <> PROPx def
+R28369:28374 VST.floyd.canon <> LOCALx def
+R28379:28382 VST.floyd.canon <> SEPx def
+R28384:28384 VST.floyd.freezer <> R:333 var
+R28376:28376 VST.floyd.freezer <> Q:332 var
+R28366:28366 VST.floyd.freezer <> P:331 var
+R28353:28357 VST.floyd.freezer <> Delta:330 var
+R28347:28351 VST.floyd.freezer <> Espec:328 var
+R28344:28345 VST.floyd.freezer <> cs:329 var
+R28255:28258 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28260:28264 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R28326:28329 VST.floyd.freezer <> Post:339 var
+R28324:28324 VST.floyd.freezer <> c:338 var
+R28282:28286 VST.floyd.canon <> PROPx def
+R28291:28296 VST.floyd.canon <> LOCALx def
+R28301:28304 VST.floyd.canon <> SEPx def
+R28311:28314 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R28307:28310 VST.floyd.freezer <> R_G2:327 var
+R28315:28318 VST.floyd.freezer <> R_FR:334 var
+R28298:28298 VST.floyd.freezer <> Q:332 var
+R28288:28288 VST.floyd.freezer <> P:331 var
+R28275:28279 VST.floyd.freezer <> Delta:330 var
+R28269:28273 VST.floyd.freezer <> Espec:328 var
+R28266:28267 VST.floyd.freezer <> cs:329 var
+R28215:28224 VST.floyd.client_lemmas <> abbreviate def
+R28251:28254 VST.floyd.freezer <> R_G1:336 var
+R28246:28249 VST.floyd.freezer <> R_L1:335 var
+R28240:28243 Coq.Init.Logic <> True ind
+R28057:28064 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R28170:28172 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R28090:28094 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R28068:28084 VST.floyd.base <> fold_right_sepcon def
+R28086:28089 VST.floyd.freezer <> R_G1:336 var
+R28117:28120 VST.msl.seplog <> ::logic:x_'*'_x not
+R28169:28169 VST.msl.seplog <> ::logic:x_'*'_x not
+R28095:28111 VST.floyd.base <> fold_right_sepcon def
+R28113:28116 VST.floyd.freezer <> R_L1:335 var
+R28143:28146 VST.msl.seplog <> ::logic:x_'-*'_x not
+R28121:28137 VST.floyd.base <> fold_right_sepcon def
+R28139:28142 VST.floyd.freezer <> R_L2:337 var
+R28147:28163 VST.floyd.base <> fold_right_sepcon def
+R28165:28168 VST.floyd.freezer <> R_G2:327 var
+binder 28065:28065 <> H:341
+R28174:28176 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28173:28173 VST.floyd.freezer <> w:340 var
+R28178:28197 VST.floyd.freezer <> FRZRw_constr defax
+R28205:28205 VST.floyd.freezer <> H:341 var
+R27999:28014 VST.floyd.freezer <> split_FRZ_in_SEP ind
+R28041:28044 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R28025:28028 VST.floyd.freezer <> FRZR syndef
+R28040:28040 VST.floyd.freezer <> w:340 var
+R28035:28038 VST.floyd.freezer <> R_G1:336 var
+R28030:28033 VST.floyd.freezer <> R_L1:335 var
+R28045:28048 VST.floyd.freezer <> R_FR:334 var
+R28018:28021 VST.floyd.freezer <> R_L2:337 var
+R28016:28016 VST.floyd.freezer <> R:333 var
+R28423:28431 VST.floyd.canon <> semax_pre thm
+R28456:28456 Coq.Init.Logic <> I constr
+R28423:28431 VST.floyd.canon <> semax_pre thm
+R28456:28456 Coq.Init.Logic <> I constr
+R28469:28478 VST.msl.seplog <> andp_left2 meth
+R28469:28478 VST.msl.seplog <> andp_left2 meth
+R28489:28500 VST.msl.log_normalize <> andp_derives thm
+R28489:28500 VST.msl.log_normalize <> andp_derives thm
+R28517:28528 VST.msl.log_normalize <> andp_derives thm
+R28517:28528 VST.msl.log_normalize <> andp_derives thm
+R28546:28549 VST.floyd.canon <> SEPx def
+R28568:28581 VST.floyd.freezer <> unlocalize_aux thm
+R28568:28581 VST.floyd.freezer <> unlocalize_aux thm
+prf 28603:28626 <> unlocalize_derives_canon
+binder 28636:28639 <> R_G2:342
+binder 28641:28645 <> Delta:343
+binder 28647:28647 <> P:344
+binder 28649:28649 <> Q:345
+binder 28651:28651 <> R:346
+binder 28653:28656 <> R_FR:347
+binder 28658:28661 <> R_L1:348
+binder 28663:28666 <> R_G1:349
+binder 28668:28671 <> R_L2:350
+binder 28673:28676 <> Post:351
+binder 28678:28678 <> w:352
+R28734:28739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28740:28740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28892:28898 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28899:28899 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29022:29028 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29084:29088 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R29053:29056 VST.msl.seplog <> ::logic:x_'&&'_x not
+R29029:29033 VST.veric.SeparationLogic <> local def
+R29036:29045 VST.veric.SeparationLogic <> tc_environ def
+R29047:29051 VST.floyd.freezer <> Delta:343 var
+R29057:29061 VST.floyd.canon <> PROPx def
+R29066:29071 VST.floyd.canon <> LOCALx def
+R29076:29079 VST.floyd.canon <> SEPx def
+R29081:29081 VST.floyd.freezer <> R:346 var
+R29073:29073 VST.floyd.freezer <> Q:345 var
+R29063:29063 VST.floyd.freezer <> P:344 var
+R29089:29092 VST.floyd.freezer <> Post:351 var
+R28941:28944 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29013:29017 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R28969:28972 VST.msl.seplog <> ::logic:x_'&&'_x not
+R28945:28949 VST.veric.SeparationLogic <> local def
+R28952:28961 VST.veric.SeparationLogic <> tc_environ def
+R28963:28967 VST.floyd.freezer <> Delta:343 var
+R28973:28977 VST.floyd.canon <> PROPx def
+R28982:28987 VST.floyd.canon <> LOCALx def
+R28992:28995 VST.floyd.canon <> SEPx def
+R29002:29005 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R28998:29001 VST.floyd.freezer <> R_G2:342 var
+R29006:29009 VST.floyd.freezer <> R_FR:347 var
+R28989:28989 VST.floyd.freezer <> Q:345 var
+R28979:28979 VST.floyd.freezer <> P:344 var
+R29018:29021 VST.floyd.freezer <> Post:351 var
+R28901:28910 VST.floyd.client_lemmas <> abbreviate def
+R28937:28940 VST.floyd.freezer <> R_G1:349 var
+R28932:28935 VST.floyd.freezer <> R_L1:348 var
+R28926:28929 Coq.Init.Logic <> True ind
+R28741:28748 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R28856:28858 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R28752:28752 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R28775:28780 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R28753:28769 VST.floyd.base <> fold_right_sepcon def
+R28771:28774 VST.floyd.freezer <> R_G1:349 var
+R28803:28806 VST.msl.seplog <> ::logic:x_'*'_x not
+R28855:28855 VST.msl.seplog <> ::logic:x_'*'_x not
+R28781:28797 VST.floyd.base <> fold_right_sepcon def
+R28799:28802 VST.floyd.freezer <> R_L1:348 var
+R28829:28832 VST.msl.seplog <> ::logic:x_'-*'_x not
+R28807:28823 VST.floyd.base <> fold_right_sepcon def
+R28825:28828 VST.floyd.freezer <> R_L2:350 var
+R28833:28849 VST.floyd.base <> fold_right_sepcon def
+R28851:28854 VST.floyd.freezer <> R_G2:342 var
+binder 28749:28749 <> H:353
+R28860:28862 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28859:28859 VST.floyd.freezer <> w:352 var
+R28864:28883 VST.floyd.freezer <> FRZRw_constr defax
+R28891:28891 VST.floyd.freezer <> H:353 var
+R28683:28698 VST.floyd.freezer <> split_FRZ_in_SEP ind
+R28725:28728 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R28709:28712 VST.floyd.freezer <> FRZR syndef
+R28724:28724 VST.floyd.freezer <> w:352 var
+R28719:28722 VST.floyd.freezer <> R_G1:349 var
+R28714:28717 VST.floyd.freezer <> R_L1:348 var
+R28729:28732 VST.floyd.freezer <> R_FR:347 var
+R28702:28705 VST.floyd.freezer <> R_L2:350 var
+R28700:28700 VST.floyd.freezer <> R:346 var
+R29121:29133 VST.msl.seplog <> derives_trans meth
+R29158:29158 Coq.Init.Logic <> I constr
+R29121:29133 VST.msl.seplog <> derives_trans meth
+R29158:29158 Coq.Init.Logic <> I constr
+R29171:29182 VST.msl.log_normalize <> andp_derives thm
+R29171:29182 VST.msl.log_normalize <> andp_derives thm
+R29199:29210 VST.msl.log_normalize <> andp_derives thm
+R29199:29210 VST.msl.log_normalize <> andp_derives thm
+R29227:29238 VST.msl.log_normalize <> andp_derives thm
+R29227:29238 VST.msl.log_normalize <> andp_derives thm
+R29256:29259 VST.floyd.canon <> SEPx def
+R29278:29291 VST.floyd.freezer <> unlocalize_aux thm
+R29278:29291 VST.floyd.freezer <> unlocalize_aux thm
+prf 29313:29337 <> unlocalize_derives_unlift
+binder 29347:29350 <> R_G2:354
+binder 29352:29354 <> Pre:355
+binder 29356:29356 <> R:356
+binder 29358:29361 <> R_FR:357
+binder 29363:29366 <> R_L1:358
+binder 29368:29371 <> R_G1:359
+binder 29373:29376 <> R_L2:360
+binder 29378:29381 <> Post:361
+binder 29383:29383 <> w:362
+R29421:29426 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29478:29483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29484:29484 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29636:29642 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29643:29643 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29730:29736 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29740:29744 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R29737:29739 VST.floyd.freezer <> Pre:355 var
+R29745:29748 VST.floyd.freezer <> Post:361 var
+R29685:29688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29721:29725 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R29689:29705 VST.floyd.seplog_tactics <> fold_left_sepconx def
+R29712:29715 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29708:29711 VST.floyd.freezer <> R_G2:354 var
+R29716:29719 VST.floyd.freezer <> R_FR:357 var
+R29726:29729 VST.floyd.freezer <> Post:361 var
+R29645:29654 VST.floyd.client_lemmas <> abbreviate def
+R29681:29684 VST.floyd.freezer <> R_G1:359 var
+R29676:29679 VST.floyd.freezer <> R_L1:358 var
+R29670:29673 Coq.Init.Logic <> True ind
+R29485:29492 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R29600:29602 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R29496:29496 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R29519:29524 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R29497:29513 VST.floyd.base <> fold_right_sepcon def
+R29515:29518 VST.floyd.freezer <> R_G1:359 var
+R29547:29550 VST.msl.seplog <> ::logic:x_'*'_x not
+R29599:29599 VST.msl.seplog <> ::logic:x_'*'_x not
+R29525:29541 VST.floyd.base <> fold_right_sepcon def
+R29543:29546 VST.floyd.freezer <> R_L1:358 var
+R29573:29576 VST.msl.seplog <> ::logic:x_'-*'_x not
+R29551:29567 VST.floyd.base <> fold_right_sepcon def
+R29569:29572 VST.floyd.freezer <> R_L2:360 var
+R29577:29593 VST.floyd.base <> fold_right_sepcon def
+R29595:29598 VST.floyd.freezer <> R_G2:354 var
+binder 29493:29493 <> H:363
+R29604:29606 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29603:29603 VST.floyd.freezer <> w:362 var
+R29608:29627 VST.floyd.freezer <> FRZRw_constr defax
+R29635:29635 VST.floyd.freezer <> H:363 var
+R29427:29442 VST.floyd.freezer <> split_FRZ_in_SEP ind
+R29469:29472 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29453:29456 VST.floyd.freezer <> FRZR syndef
+R29468:29468 VST.floyd.freezer <> w:362 var
+R29463:29466 VST.floyd.freezer <> R_G1:359 var
+R29458:29461 VST.floyd.freezer <> R_L1:358 var
+R29473:29476 VST.floyd.freezer <> R_FR:357 var
+R29446:29449 VST.floyd.freezer <> R_L2:360 var
+R29444:29444 VST.floyd.freezer <> R:356 var
+R29388:29414 VST.floyd.seplog_tactics <> construct_fold_right_sepcon ind
+R29420:29420 VST.floyd.freezer <> R:356 var
+R29416:29418 VST.floyd.freezer <> Pre:355 var
+R29776:29807 VST.floyd.seplog_tactics <> construct_fold_right_sepcon_spec thm
+R29776:29807 VST.floyd.seplog_tactics <> construct_fold_right_sepcon_spec thm
+R29837:29849 VST.msl.seplog <> derives_trans meth
+R29874:29874 Coq.Init.Logic <> I constr
+R29837:29849 VST.msl.seplog <> derives_trans meth
+R29874:29874 Coq.Init.Logic <> I constr
+R29889:29908 VST.floyd.seplog_tactics <> fold_left_sepconx_eq thm
+R29889:29908 VST.floyd.seplog_tactics <> fold_left_sepconx_eq thm
+R29889:29908 VST.floyd.seplog_tactics <> fold_left_sepconx_eq thm
+R29920:29933 VST.floyd.freezer <> unlocalize_aux thm
+R29920:29933 VST.floyd.freezer <> unlocalize_aux thm
+ind 29959:29973 <> ramif_frame_gen
+constr 30004:30023 <> ramif_frame_gen_refl
+constr 30058:30077 <> ramif_frame_gen_prop
+constr 30176:30195 <> ramif_frame_gen_allp
+R29981:29984 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29990:29993 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29985:29989 VST.veric.mpred <> mpred def
+R29976:29980 VST.veric.mpred <> mpred def
+binder 30033:30033 <> P:366
+R30036:30050 VST.floyd.freezer <> ramif_frame_gen:364 ind
+R30054:30054 VST.floyd.freezer <> P:366 var
+R30052:30052 VST.floyd.freezer <> P:366 var
+binder 30088:30091 <> Pure:367
+binder 30100:30100 <> P:368
+binder 30102:30102 <> Q:369
+R30109:30112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30150:30153 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30154:30168 VST.floyd.freezer <> ramif_frame_gen:364 ind
+R30172:30172 VST.floyd.freezer <> Q:369 var
+R30170:30170 VST.floyd.freezer <> P:368 var
+R30113:30127 VST.floyd.freezer <> ramif_frame_gen:364 ind
+R30132:30134 VST.msl.seplog <> imp meth
+R30148:30148 VST.floyd.freezer <> Q:369 var
+R30137:30140 VST.msl.seplog <> prop meth
+R30142:30145 VST.floyd.freezer <> Pure:367 var
+R30129:30129 VST.floyd.freezer <> P:368 var
+R30105:30108 VST.floyd.freezer <> Pure:367 var
+binder 30206:30206 <> A:370
+R30219:30219 VST.floyd.freezer <> A:370 var
+binder 30216:30216 <> x:371
+binder 30222:30222 <> P:372
+binder 30224:30224 <> Q:373
+R30227:30227 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30268:30272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30273:30287 VST.floyd.freezer <> ramif_frame_gen:364 ind
+R30299:30299 VST.floyd.freezer <> Q:373 var
+R30301:30301 VST.floyd.freezer <> x:371 var
+R30290:30293 VST.msl.seplog <> allp meth
+R30295:30295 VST.floyd.freezer <> P:372 var
+R30238:30238 VST.floyd.freezer <> A:370 var
+binder 30235:30235 <> x:374
+R30241:30255 VST.floyd.freezer <> ramif_frame_gen:364 ind
+R30264:30264 VST.floyd.freezer <> Q:373 var
+R30266:30266 VST.floyd.freezer <> x:374 var
+R30258:30258 VST.floyd.freezer <> P:372 var
+R30260:30260 VST.floyd.freezer <> x:374 var
+R30365:30368 Coq.Init.Datatypes <> pair constr
+R30365:30368 Coq.Init.Datatypes <> pair constr
+R30626:30640 VST.floyd.freezer <> ramif_frame_gen ind
+R30626:30640 VST.floyd.freezer <> ramif_frame_gen ind
+R30694:30713 VST.floyd.freezer <> ramif_frame_gen_allp constr
+R30453:30467 VST.floyd.freezer <> ramif_frame_gen ind
+R30453:30467 VST.floyd.freezer <> ramif_frame_gen ind
+R30519:30538 VST.floyd.freezer <> ramif_frame_gen_allp constr
+R30848:30867 VST.floyd.freezer <> ramif_frame_gen_refl constr
+R30915:30918 Coq.Init.Datatypes <> pair constr
+R30915:30918 Coq.Init.Datatypes <> pair constr
+R30968:30971 Coq.Init.Logic <> conj constr
+R31115:31134 VST.floyd.freezer <> ramif_frame_gen_prop constr
+prf 31156:31175 <> ramif_frame_gen_spec
+binder 31185:31185 <> P:375
+binder 31187:31187 <> Q:376
+R31209:31212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31214:31218 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R31213:31213 VST.floyd.freezer <> P:375 var
+R31219:31219 VST.floyd.freezer <> Q:376 var
+R31190:31204 VST.floyd.freezer <> ramif_frame_gen ind
+R31208:31208 VST.floyd.freezer <> Q:376 var
+R31206:31206 VST.floyd.freezer <> P:375 var
+R31264:31275 VST.msl.seplog <> derives_refl meth
+R31264:31275 VST.msl.seplog <> derives_refl meth
+R31288:31303 VST.msl.seplog <> imp_andp_adjoint meth
+R31288:31303 VST.msl.seplog <> imp_andp_adjoint meth
+R31338:31350 VST.msl.seplog <> derives_trans meth
+R31338:31350 VST.msl.seplog <> derives_trans meth
+R31392:31401 VST.msl.seplog <> andp_right meth
+R31392:31401 VST.msl.seplog <> andp_right meth
+R31420:31429 VST.msl.seplog <> prop_right meth
+R31420:31429 VST.msl.seplog <> prop_right meth
+R31449:31457 VST.msl.seplog <> allp_left meth
+R31449:31457 VST.msl.seplog <> allp_left meth
+prf 31491:31508 <> unlocalizeQ_triple
+binder 31518:31521 <> R_G2:377
+binder 31523:31527 <> Espec:378
+R31534:31542 VST.veric.mpred <> compspecs class
+binder 31530:31531 <> cs:379
+binder 31545:31549 <> Delta:380
+binder 31551:31551 <> P:381
+binder 31553:31553 <> Q:382
+binder 31555:31555 <> R:383
+binder 31557:31560 <> R_FR:384
+binder 31562:31565 <> R_L1:385
+binder 31567:31570 <> R_G1:386
+binder 31572:31575 <> R_L2:387
+binder 31577:31577 <> F:388
+binder 31579:31579 <> c:389
+binder 31581:31584 <> Post:390
+binder 31586:31586 <> w:391
+R31642:31647 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31722:31727 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31728:31728 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31838:31844 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31845:31845 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31962:31968 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31970:31974 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R32023:32026 VST.floyd.freezer <> Post:390 var
+R32021:32021 VST.floyd.freezer <> c:389 var
+R31992:31996 VST.floyd.canon <> PROPx def
+R32001:32006 VST.floyd.canon <> LOCALx def
+R32011:32014 VST.floyd.canon <> SEPx def
+R32016:32016 VST.floyd.freezer <> R:383 var
+R32008:32008 VST.floyd.freezer <> Q:382 var
+R31998:31998 VST.floyd.freezer <> P:381 var
+R31985:31989 VST.floyd.freezer <> Delta:380 var
+R31979:31983 VST.floyd.freezer <> Espec:378 var
+R31976:31977 VST.floyd.freezer <> cs:379 var
+R31887:31890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31892:31896 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R31958:31961 VST.floyd.freezer <> Post:390 var
+R31956:31956 VST.floyd.freezer <> c:389 var
+R31914:31918 VST.floyd.canon <> PROPx def
+R31923:31928 VST.floyd.canon <> LOCALx def
+R31933:31936 VST.floyd.canon <> SEPx def
+R31943:31946 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R31939:31942 VST.floyd.freezer <> R_G2:377 var
+R31947:31950 VST.floyd.freezer <> R_FR:384 var
+R31930:31930 VST.floyd.freezer <> Q:382 var
+R31920:31920 VST.floyd.freezer <> P:381 var
+R31907:31911 VST.floyd.freezer <> Delta:380 var
+R31901:31905 VST.floyd.freezer <> Espec:378 var
+R31898:31899 VST.floyd.freezer <> cs:379 var
+R31847:31856 VST.floyd.client_lemmas <> abbreviate def
+R31883:31886 VST.floyd.freezer <> R_G1:386 var
+R31878:31881 VST.floyd.freezer <> R_L1:385 var
+R31872:31875 Coq.Init.Logic <> True ind
+R31729:31736 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R31802:31804 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R31740:31740 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R31763:31768 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R31741:31757 VST.floyd.base <> fold_right_sepcon def
+R31759:31762 VST.floyd.freezer <> R_G1:386 var
+R31769:31774 VST.msl.seplog <> sepcon meth
+R31801:31801 VST.floyd.freezer <> F:388 var
+R31777:31793 VST.floyd.base <> fold_right_sepcon def
+R31795:31798 VST.floyd.freezer <> R_L1:385 var
+binder 31737:31737 <> H:392
+R31806:31808 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31805:31805 VST.floyd.freezer <> w:391 var
+R31810:31829 VST.floyd.freezer <> FRZRw_constr defax
+R31837:31837 VST.floyd.freezer <> H:392 var
+R31648:31662 VST.floyd.freezer <> ramif_frame_gen ind
+R31667:31670 VST.msl.seplog <> wand meth
+R31698:31714 VST.floyd.base <> fold_right_sepcon def
+R31716:31719 VST.floyd.freezer <> R_G2:377 var
+R31673:31689 VST.floyd.base <> fold_right_sepcon def
+R31691:31694 VST.floyd.freezer <> R_L2:387 var
+R31664:31664 VST.floyd.freezer <> F:388 var
+R31591:31606 VST.floyd.freezer <> split_FRZ_in_SEP ind
+R31633:31636 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R31617:31620 VST.floyd.freezer <> FRZR syndef
+R31632:31632 VST.floyd.freezer <> w:391 var
+R31627:31630 VST.floyd.freezer <> R_G1:386 var
+R31622:31625 VST.floyd.freezer <> R_L1:385 var
+R31637:31640 VST.floyd.freezer <> R_FR:384 var
+R31610:31613 VST.floyd.freezer <> R_L2:387 var
+R31608:31608 VST.floyd.freezer <> R:383 var
+R32055:32063 VST.floyd.canon <> semax_pre thm
+R32088:32088 Coq.Init.Logic <> I constr
+R32055:32063 VST.floyd.canon <> semax_pre thm
+R32088:32088 Coq.Init.Logic <> I constr
+R32101:32110 VST.msl.seplog <> andp_left2 meth
+R32101:32110 VST.msl.seplog <> andp_left2 meth
+R32121:32132 VST.msl.log_normalize <> andp_derives thm
+R32121:32132 VST.msl.log_normalize <> andp_derives thm
+R32149:32160 VST.msl.log_normalize <> andp_derives thm
+R32149:32160 VST.msl.log_normalize <> andp_derives thm
+R32178:32181 VST.floyd.canon <> SEPx def
+R32199:32218 VST.floyd.freezer <> ramif_frame_gen_spec thm
+R32199:32218 VST.floyd.freezer <> ramif_frame_gen_spec thm
+R32242:32255 VST.floyd.freezer <> unlocalize_aux thm
+R32242:32255 VST.floyd.freezer <> unlocalize_aux thm
+prf 32277:32301 <> unlocalizeQ_derives_canon
+binder 32311:32314 <> R_G2:393
+binder 32316:32320 <> Delta:394
+binder 32322:32322 <> P:395
+binder 32324:32324 <> Q:396
+binder 32326:32326 <> R:397
+binder 32328:32331 <> R_FR:398
+binder 32333:32336 <> R_L1:399
+binder 32338:32341 <> R_G1:400
+binder 32343:32346 <> R_L2:401
+binder 32348:32348 <> F:402
+binder 32350:32353 <> Post:403
+binder 32355:32355 <> w:404
+R32411:32416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32491:32496 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32497:32497 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32607:32613 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32614:32614 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32737:32743 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32799:32803 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R32768:32771 VST.msl.seplog <> ::logic:x_'&&'_x not
+R32744:32748 VST.veric.SeparationLogic <> local def
+R32751:32760 VST.veric.SeparationLogic <> tc_environ def
+R32762:32766 VST.floyd.freezer <> Delta:394 var
+R32772:32776 VST.floyd.canon <> PROPx def
+R32781:32786 VST.floyd.canon <> LOCALx def
+R32791:32794 VST.floyd.canon <> SEPx def
+R32796:32796 VST.floyd.freezer <> R:397 var
+R32788:32788 VST.floyd.freezer <> Q:396 var
+R32778:32778 VST.floyd.freezer <> P:395 var
+R32804:32807 VST.floyd.freezer <> Post:403 var
+R32656:32659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32728:32732 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R32684:32687 VST.msl.seplog <> ::logic:x_'&&'_x not
+R32660:32664 VST.veric.SeparationLogic <> local def
+R32667:32676 VST.veric.SeparationLogic <> tc_environ def
+R32678:32682 VST.floyd.freezer <> Delta:394 var
+R32688:32692 VST.floyd.canon <> PROPx def
+R32697:32702 VST.floyd.canon <> LOCALx def
+R32707:32710 VST.floyd.canon <> SEPx def
+R32717:32720 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R32713:32716 VST.floyd.freezer <> R_G2:393 var
+R32721:32724 VST.floyd.freezer <> R_FR:398 var
+R32704:32704 VST.floyd.freezer <> Q:396 var
+R32694:32694 VST.floyd.freezer <> P:395 var
+R32733:32736 VST.floyd.freezer <> Post:403 var
+R32616:32625 VST.floyd.client_lemmas <> abbreviate def
+R32652:32655 VST.floyd.freezer <> R_G1:400 var
+R32647:32650 VST.floyd.freezer <> R_L1:399 var
+R32641:32644 Coq.Init.Logic <> True ind
+R32498:32505 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R32571:32573 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R32509:32509 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R32532:32537 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R32510:32526 VST.floyd.base <> fold_right_sepcon def
+R32528:32531 VST.floyd.freezer <> R_G1:400 var
+R32538:32543 VST.msl.seplog <> sepcon meth
+R32570:32570 VST.floyd.freezer <> F:402 var
+R32546:32562 VST.floyd.base <> fold_right_sepcon def
+R32564:32567 VST.floyd.freezer <> R_L1:399 var
+binder 32506:32506 <> H:405
+R32575:32577 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32574:32574 VST.floyd.freezer <> w:404 var
+R32579:32598 VST.floyd.freezer <> FRZRw_constr defax
+R32606:32606 VST.floyd.freezer <> H:405 var
+R32417:32431 VST.floyd.freezer <> ramif_frame_gen ind
+R32436:32439 VST.msl.seplog <> wand meth
+R32467:32483 VST.floyd.base <> fold_right_sepcon def
+R32485:32488 VST.floyd.freezer <> R_G2:393 var
+R32442:32458 VST.floyd.base <> fold_right_sepcon def
+R32460:32463 VST.floyd.freezer <> R_L2:401 var
+R32433:32433 VST.floyd.freezer <> F:402 var
+R32360:32375 VST.floyd.freezer <> split_FRZ_in_SEP ind
+R32402:32405 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R32386:32389 VST.floyd.freezer <> FRZR syndef
+R32401:32401 VST.floyd.freezer <> w:404 var
+R32396:32399 VST.floyd.freezer <> R_G1:400 var
+R32391:32394 VST.floyd.freezer <> R_L1:399 var
+R32406:32409 VST.floyd.freezer <> R_FR:398 var
+R32379:32382 VST.floyd.freezer <> R_L2:401 var
+R32377:32377 VST.floyd.freezer <> R:397 var
+R32836:32848 VST.msl.seplog <> derives_trans meth
+R32873:32873 Coq.Init.Logic <> I constr
+R32836:32848 VST.msl.seplog <> derives_trans meth
+R32873:32873 Coq.Init.Logic <> I constr
+R32886:32897 VST.msl.log_normalize <> andp_derives thm
+R32886:32897 VST.msl.log_normalize <> andp_derives thm
+R32914:32925 VST.msl.log_normalize <> andp_derives thm
+R32914:32925 VST.msl.log_normalize <> andp_derives thm
+R32942:32953 VST.msl.log_normalize <> andp_derives thm
+R32942:32953 VST.msl.log_normalize <> andp_derives thm
+R32971:32974 VST.floyd.canon <> SEPx def
+R32992:33011 VST.floyd.freezer <> ramif_frame_gen_spec thm
+R32992:33011 VST.floyd.freezer <> ramif_frame_gen_spec thm
+R33035:33048 VST.floyd.freezer <> unlocalize_aux thm
+R33035:33048 VST.floyd.freezer <> unlocalize_aux thm
+prf 33070:33095 <> unlocalizeQ_derives_unlift
+binder 33105:33108 <> R_G2:406
+binder 33110:33112 <> Pre:407
+binder 33114:33114 <> R:408
+binder 33116:33119 <> R_FR:409
+binder 33121:33124 <> R_L1:410
+binder 33126:33129 <> R_G1:411
+binder 33131:33134 <> R_L2:412
+binder 33136:33136 <> F:413
+binder 33138:33141 <> Post:414
+binder 33143:33143 <> w:415
+R33181:33186 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33238:33243 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33318:33323 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33324:33324 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33434:33440 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33441:33441 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33528:33534 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33538:33542 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R33535:33537 VST.floyd.freezer <> Pre:407 var
+R33543:33546 VST.floyd.freezer <> Post:414 var
+R33483:33486 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33519:33523 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R33487:33503 VST.floyd.seplog_tactics <> fold_left_sepconx def
+R33510:33513 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R33506:33509 VST.floyd.freezer <> R_G2:406 var
+R33514:33517 VST.floyd.freezer <> R_FR:409 var
+R33524:33527 VST.floyd.freezer <> Post:414 var
+R33443:33452 VST.floyd.client_lemmas <> abbreviate def
+R33479:33482 VST.floyd.freezer <> R_G1:411 var
+R33474:33477 VST.floyd.freezer <> R_L1:410 var
+R33468:33471 Coq.Init.Logic <> True ind
+R33325:33332 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R33398:33400 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R33336:33336 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R33359:33364 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R33337:33353 VST.floyd.base <> fold_right_sepcon def
+R33355:33358 VST.floyd.freezer <> R_G1:411 var
+R33365:33370 VST.msl.seplog <> sepcon meth
+R33397:33397 VST.floyd.freezer <> F:413 var
+R33373:33389 VST.floyd.base <> fold_right_sepcon def
+R33391:33394 VST.floyd.freezer <> R_L1:410 var
+binder 33333:33333 <> H:416
+R33402:33404 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33401:33401 VST.floyd.freezer <> w:415 var
+R33406:33425 VST.floyd.freezer <> FRZRw_constr defax
+R33433:33433 VST.floyd.freezer <> H:416 var
+R33244:33258 VST.floyd.freezer <> ramif_frame_gen ind
+R33263:33266 VST.msl.seplog <> wand meth
+R33294:33310 VST.floyd.base <> fold_right_sepcon def
+R33312:33315 VST.floyd.freezer <> R_G2:406 var
+R33269:33285 VST.floyd.base <> fold_right_sepcon def
+R33287:33290 VST.floyd.freezer <> R_L2:412 var
+R33260:33260 VST.floyd.freezer <> F:413 var
+R33187:33202 VST.floyd.freezer <> split_FRZ_in_SEP ind
+R33229:33232 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R33213:33216 VST.floyd.freezer <> FRZR syndef
+R33228:33228 VST.floyd.freezer <> w:415 var
+R33223:33226 VST.floyd.freezer <> R_G1:411 var
+R33218:33221 VST.floyd.freezer <> R_L1:410 var
+R33233:33236 VST.floyd.freezer <> R_FR:409 var
+R33206:33209 VST.floyd.freezer <> R_L2:412 var
+R33204:33204 VST.floyd.freezer <> R:408 var
+R33148:33174 VST.floyd.seplog_tactics <> construct_fold_right_sepcon ind
+R33180:33180 VST.floyd.freezer <> R:408 var
+R33176:33178 VST.floyd.freezer <> Pre:407 var
+R33574:33605 VST.floyd.seplog_tactics <> construct_fold_right_sepcon_spec thm
+R33574:33605 VST.floyd.seplog_tactics <> construct_fold_right_sepcon_spec thm
+R33635:33647 VST.msl.seplog <> derives_trans meth
+R33672:33672 Coq.Init.Logic <> I constr
+R33635:33647 VST.msl.seplog <> derives_trans meth
+R33672:33672 Coq.Init.Logic <> I constr
+R33685:33704 VST.floyd.freezer <> ramif_frame_gen_spec thm
+R33685:33704 VST.floyd.freezer <> ramif_frame_gen_spec thm
+R33729:33748 VST.floyd.seplog_tactics <> fold_left_sepconx_eq thm
+R33729:33748 VST.floyd.seplog_tactics <> fold_left_sepconx_eq thm
+R33729:33748 VST.floyd.seplog_tactics <> fold_left_sepconx_eq thm
+R33760:33773 VST.floyd.freezer <> unlocalize_aux thm
+R33760:33773 VST.floyd.freezer <> unlocalize_aux thm
+R33845:33849 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R33845:33849 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R33940:33944 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R33935:33938 VST.msl.seplog <> ::logic:x_'&&'_x not
+R33915:33919 VST.veric.SeparationLogic <> local def
+R33922:33931 VST.veric.SeparationLogic <> tc_environ def
+R33940:33944 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R33935:33938 VST.msl.seplog <> ::logic:x_'&&'_x not
+R33915:33919 VST.veric.SeparationLogic <> local def
+R33922:33931 VST.veric.SeparationLogic <> tc_environ def
+R34007:34013 VST.msl.seplog <> derives meth
+R34017:34022 VST.veric.SeparationLogic <> Nveric inst
+R34007:34013 VST.msl.seplog <> derives meth
+R34017:34022 VST.veric.SeparationLogic <> Nveric inst
+R34049:34073 VST.floyd.freezer <> unlocalize_derives_unlift thm
+R33968:33991 VST.floyd.freezer <> unlocalize_derives_canon thm
+R33884:33900 VST.floyd.freezer <> unlocalize_triple thm
+R34163:34170 Coq.Init.Logic <> ex_intro constr
+R34176:34182 Coq.Init.Logic <> eq_refl constr
+R34238:34242 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R34215:34231 VST.floyd.base <> fold_right_sepcon def
+R34243:34248 VST.msl.seplog <> sepcon meth
+R34251:34267 VST.floyd.base <> fold_right_sepcon def
+R34238:34242 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R34215:34231 VST.floyd.base <> fold_right_sepcon def
+R34243:34248 VST.msl.seplog <> sepcon meth
+R34251:34267 VST.floyd.base <> fold_right_sepcon def
+R34299:34308 VST.floyd.client_lemmas <> abbreviate def
+R34385:34404 VST.floyd.seplog_tactics <> fold_left_sepconx_eq thm
+R34418:34434 VST.floyd.seplog_tactics <> fold_left_sepconx def
+R34478:34481 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34478:34481 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34567:34583 VST.floyd.seplog_tactics <> fold_left_sepconx def
+R34653:34657 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R34653:34657 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R34749:34753 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R34744:34747 VST.msl.seplog <> ::logic:x_'&&'_x not
+R34724:34728 VST.veric.SeparationLogic <> local def
+R34731:34740 VST.veric.SeparationLogic <> tc_environ def
+R34749:34753 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R34744:34747 VST.msl.seplog <> ::logic:x_'&&'_x not
+R34724:34728 VST.veric.SeparationLogic <> local def
+R34731:34740 VST.veric.SeparationLogic <> tc_environ def
+R34817:34823 VST.msl.seplog <> derives meth
+R34827:34832 VST.veric.SeparationLogic <> Nveric inst
+R34817:34823 VST.msl.seplog <> derives meth
+R34827:34832 VST.veric.SeparationLogic <> Nveric inst
+R34859:34884 VST.floyd.freezer <> unlocalizeQ_derives_unlift thm
+R34777:34801 VST.floyd.freezer <> unlocalizeQ_derives_canon thm
+R34692:34709 VST.floyd.freezer <> unlocalizeQ_triple thm
+R34978:34998 VST.floyd.seplog_tactics <> fold_right_sepconx_eq thm
+R35012:35029 VST.floyd.seplog_tactics <> fold_right_sepconx def
+R35083:35090 Coq.Init.Logic <> ex_intro constr
+R35096:35102 Coq.Init.Logic <> eq_refl constr
+R35158:35162 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R35135:35151 VST.floyd.base <> fold_right_sepcon def
+R35163:35168 VST.msl.seplog <> sepcon meth
+R35171:35187 VST.floyd.base <> fold_right_sepcon def
+R35158:35162 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R35135:35151 VST.floyd.base <> fold_right_sepcon def
+R35163:35168 VST.msl.seplog <> sepcon meth
+R35171:35187 VST.floyd.base <> fold_right_sepcon def
+R35219:35228 VST.floyd.client_lemmas <> abbreviate def
+R35305:35325 VST.floyd.seplog_tactics <> fold_right_sepconx_eq thm
+R35339:35356 VST.floyd.seplog_tactics <> fold_right_sepconx def
+R35400:35403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35400:35403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35489:35505 VST.floyd.seplog_tactics <> fold_left_sepconx def
+R35973:35989 VST.floyd.base <> fold_right_sepcon def
+R35992:35994 Coq.Lists.List <> map def
+R35973:35989 VST.floyd.base <> fold_right_sepcon def
+R35992:35994 Coq.Lists.List <> map def
+R36018:36034 VST.floyd.base <> fold_right_sepcon def
+R36037:36039 Coq.Lists.List <> map def
+R36164:36175 VST.msl.seplog <> sepcon_assoc meth
+R36178:36187 VST.msl.seplog <> sepcon_emp meth
+R36221:36234 VST.floyd.freezer <> my_delete_list def
+R36237:36249 VST.floyd.freezer <> my_delete_nth def
+R36252:36257 VST.floyd.freezer <> my_nth def
+R36260:36276 VST.floyd.base <> fold_right_sepcon def
+R36447:36448 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R36449:36451 Coq.Init.Datatypes <> nil constr
+R36579:36580 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R36582:36583 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R36584:36586 Coq.Init.Datatypes <> nil constr
+R36727:36728 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R36730:36731 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R36733:36734 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R36735:36737 Coq.Init.Datatypes <> nil constr
+R36891:36892 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R36894:36895 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R36897:36898 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R36900:36901 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R36902:36904 Coq.Init.Datatypes <> nil constr
+R37071:37072 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37074:37075 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37077:37078 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37080:37081 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37083:37084 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37085:37087 Coq.Init.Datatypes <> nil constr
+R37267:37268 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37270:37271 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37273:37274 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37276:37277 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37279:37280 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37282:37283 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37284:37286 Coq.Init.Datatypes <> nil constr
+R37479:37480 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37482:37483 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37485:37486 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37488:37489 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37491:37492 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37494:37495 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37497:37498 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37499:37501 Coq.Init.Datatypes <> nil constr
+R37707:37708 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37710:37711 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37713:37714 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37716:37717 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37719:37720 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37722:37723 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37725:37726 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37728:37729 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37730:37732 Coq.Init.Datatypes <> nil constr
+R37952:37953 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37955:37956 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37958:37959 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37961:37962 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37964:37965 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37967:37968 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37970:37971 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37973:37974 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37977:37978 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37979:37981 Coq.Init.Datatypes <> nil constr

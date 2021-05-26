@@ -1,0 +1,515 @@
+DIGEST 7850d1a6f2ff114fd3e8556ee3eada57
+FVST.msl.sepalg_functors
+R102:113 VST.msl.base <> <> lib
+R131:146 VST.msl.functors <> <> lib
+R164:177 VST.msl.sepalg <> <> lib
+R195:219 VST.msl.sepalg_generators <> <> lib
+sec 457:462 <> unmaps
+var 478:478 unmaps A
+var 487:489 unmaps J_A
+R492:495 VST.msl.sepalg <> Join class
+R497:497 VST.msl.sepalg_functors <> A:1 var
+var 514:514 unmaps B
+var 523:525 unmaps J_B
+R528:531 VST.msl.sepalg <> Join class
+R533:533 VST.msl.sepalg_functors <> B:3 var
+def 551:560 <> unmap_left
+R566:569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R570:570 VST.msl.sepalg_functors <> unmaps.B var
+R565:565 VST.msl.sepalg_functors <> unmaps.A var
+binder 563:563 <> f:5
+binder 587:588 <> x':6
+binder 590:590 <> y:7
+binder 592:592 <> z:8
+R620:629 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R630:631 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R633:633 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R635:637 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R686:686 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R634:634 VST.msl.sepalg_functors <> unmaps.A var
+binder 632:632 <> x:9
+R638:639 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R642:642 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R644:646 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R684:685 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R643:643 VST.msl.sepalg_functors <> unmaps.A var
+binder 640:641 <> y0:10
+R658:661 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R647:650 VST.msl.sepalg <> join def
+R657:657 VST.msl.sepalg_functors <> z:8 var
+R654:655 VST.msl.sepalg_functors <> y0:10 var
+R652:652 VST.msl.sepalg_functors <> x:9 var
+R670:673 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R665:667 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R662:662 VST.msl.sepalg_functors <> f:5 var
+R664:664 VST.msl.sepalg_functors <> x:9 var
+R668:669 VST.msl.sepalg_functors <> x':6 var
+R678:680 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R674:674 VST.msl.sepalg_functors <> f:5 var
+R676:677 VST.msl.sepalg_functors <> y0:10 var
+R681:681 VST.msl.sepalg_functors <> f:5 var
+R683:683 VST.msl.sepalg_functors <> y:7 var
+R601:604 VST.msl.sepalg <> join def
+R616:616 VST.msl.sepalg_functors <> f:5 var
+R618:618 VST.msl.sepalg_functors <> z:8 var
+R610:610 VST.msl.sepalg_functors <> f:5 var
+R612:612 VST.msl.sepalg_functors <> y:7 var
+R606:607 VST.msl.sepalg_functors <> x':6 var
+def 703:713 <> unmap_right
+R719:722 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R723:723 VST.msl.sepalg_functors <> unmaps.B var
+R718:718 VST.msl.sepalg_functors <> unmaps.A var
+binder 716:716 <> f:11
+binder 740:740 <> x:12
+binder 742:742 <> y:13
+binder 744:745 <> z':14
+R773:782 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R783:784 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R787:788 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R790:792 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R840:840 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R789:789 VST.msl.sepalg_functors <> unmaps.A var
+binder 785:786 <> y0:15
+R793:794 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R796:796 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R798:800 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R838:839 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R797:797 VST.msl.sepalg_functors <> unmaps.A var
+binder 795:795 <> z:16
+R812:815 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R801:804 VST.msl.sepalg <> join def
+R811:811 VST.msl.sepalg_functors <> z:16 var
+R808:809 VST.msl.sepalg_functors <> y0:15 var
+R806:806 VST.msl.sepalg_functors <> x:12 var
+R826:829 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R820:822 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R816:816 VST.msl.sepalg_functors <> f:11 var
+R818:819 VST.msl.sepalg_functors <> y0:15 var
+R823:823 VST.msl.sepalg_functors <> f:11 var
+R825:825 VST.msl.sepalg_functors <> y:13 var
+R833:835 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R830:830 VST.msl.sepalg_functors <> f:11 var
+R832:832 VST.msl.sepalg_functors <> z:16 var
+R836:837 VST.msl.sepalg_functors <> z':14 var
+R754:757 VST.msl.sepalg <> join def
+R771:772 VST.msl.sepalg_functors <> z':14 var
+R766:766 VST.msl.sepalg_functors <> f:11 var
+R768:768 VST.msl.sepalg_functors <> y:13 var
+R760:760 VST.msl.sepalg_functors <> f:11 var
+R762:762 VST.msl.sepalg_functors <> x:12 var
+R847:852 VST.msl.sepalg_functors unmaps <> sec
+constr 1568:1576 <> Pafunctor
+rec 1503:1511 <> pafunctor
+proj 1582:1593 <> paf_join_hom
+proj 1659:1682 <> paf_preserves_unmap_left
+proj 1780:1804 <> paf_preserves_unmap_right
+R1517:1523 VST.msl.functors MixVariantFunctor functor rec
+binder 1514:1514 <> F:17
+binder 1544:1544 <> A:18
+R1547:1550 VST.msl.sepalg <> Join class
+R1553:1553 VST.msl.sepalg_functors <> F:17 var
+R1555:1555 VST.msl.sepalg_functors <> A:18 var
+binder 1527:1534 <> paf_join:19
+binder 1604:1604 <> A:21
+binder 1606:1606 <> B:22
+R1614:1617 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1618:1618 VST.msl.sepalg_functors <> B:22 var
+R1613:1613 VST.msl.sepalg_functors <> A:21 var
+binder 1609:1609 <> f:23
+R1626:1629 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1630:1630 VST.msl.sepalg_functors <> A:21 var
+R1625:1625 VST.msl.sepalg_functors <> B:22 var
+binder 1622:1622 <> g:24
+R1634:1641 VST.msl.sepalg_generators <> join_hom def
+R1644:1647 VST.msl.functors MixVariantFunctor fmap proj
+R1653:1653 VST.msl.sepalg_functors <> g:24 var
+R1651:1651 VST.msl.sepalg_functors <> f:23 var
+R1649:1649 VST.msl.sepalg_functors <> F:17 var
+binder 1693:1693 <> A:26
+binder 1695:1695 <> B:27
+R1703:1706 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1707:1707 VST.msl.sepalg_functors <> B:27 var
+R1702:1702 VST.msl.sepalg_functors <> A:26 var
+binder 1698:1698 <> f:28
+R1715:1718 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1719:1719 VST.msl.sepalg_functors <> A:26 var
+R1714:1714 VST.msl.sepalg_functors <> B:27 var
+binder 1711:1711 <> g:29
+R1727:1736 VST.msl.sepalg_functors <> unmap_left def
+R1765:1768 VST.msl.functors MixVariantFunctor fmap proj
+R1774:1774 VST.msl.sepalg_functors <> g:29 var
+R1772:1772 VST.msl.sepalg_functors <> f:28 var
+R1770:1770 VST.msl.sepalg_functors <> F:17 var
+R1752:1759 VST.msl.sepalg_functors <> paf_join:19 var
+R1761:1761 VST.msl.sepalg_functors <> B:27 var
+R1739:1746 VST.msl.sepalg_functors <> paf_join:19 var
+R1748:1748 VST.msl.sepalg_functors <> A:26 var
+binder 1815:1815 <> A:31
+binder 1817:1817 <> B:32
+R1825:1828 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1829:1829 VST.msl.sepalg_functors <> B:32 var
+R1824:1824 VST.msl.sepalg_functors <> A:31 var
+binder 1820:1820 <> f:33
+R1837:1840 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1841:1841 VST.msl.sepalg_functors <> A:31 var
+R1836:1836 VST.msl.sepalg_functors <> B:32 var
+binder 1833:1833 <> g:34
+R1849:1859 VST.msl.sepalg_functors <> unmap_right def
+R1888:1891 VST.msl.functors MixVariantFunctor fmap proj
+R1897:1897 VST.msl.sepalg_functors <> g:34 var
+R1895:1895 VST.msl.sepalg_functors <> f:33 var
+R1893:1893 VST.msl.sepalg_functors <> F:17 var
+R1875:1882 VST.msl.sepalg_functors <> paf_join:19 var
+R1884:1884 VST.msl.sepalg_functors <> B:32 var
+R1862:1869 VST.msl.sepalg_functors <> paf_join:19 var
+R1871:1871 VST.msl.sepalg_functors <> A:31 var
+sec 1930:1943 <> ConstPAFunctor
+var 1960:1960 ConstPAFunctor T
+var 1970:1972 ConstPAFunctor J_T
+R1975:1978 VST.msl.sepalg <> Join class
+R1980:1980 VST.msl.sepalg_functors <> T:36 var
+prf 1993:2001 <> paf_const
+R2005:2013 VST.msl.sepalg_functors <> pafunctor rec
+R2036:2038 VST.msl.sepalg_functors <> ConstPAFunctor.J_T var
+R2016:2021 VST.msl.functors MixVariantFunctorGenerator fconst def
+R2023:2023 VST.msl.sepalg_functors <> ConstPAFunctor.T var
+R2169:2182 VST.msl.sepalg_functors ConstPAFunctor <> sec
+sec 2194:2207 <> EquivPAFunctor
+var 2223:2223 EquivPAFunctor F
+R2227:2233 VST.msl.functors MixVariantFunctor functor rec
+prf 2246:2254 <> paf_equiv
+R2259:2267 VST.msl.sepalg_functors <> pafunctor rec
+binder 2276:2276 <> A:39
+R2282:2291 VST.msl.sepalg_generators <> Join_equiv inst
+R2294:2294 VST.msl.sepalg_functors <> EquivPAFunctor.F var
+R2296:2296 VST.msl.sepalg_functors <> A:39 var
+R2269:2269 VST.msl.sepalg_functors <> EquivPAFunctor.F var
+R2507:2520 VST.msl.sepalg_functors EquivPAFunctor <> sec
+sec 2532:2544 <> PairSAFunctor
+var 2560:2561 PairSAFunctor F1
+var 2563:2564 PairSAFunctor F2
+R2567:2573 VST.msl.functors MixVariantFunctor functor rec
+var 2590:2593 PairSAFunctor J_F1
+var 2620:2624 PairSAFunctor pafF1
+binder 2603:2603 <> A:42
+R2606:2609 VST.msl.sepalg <> Join class
+R2612:2613 VST.msl.sepalg_functors <> PairSAFunctor.F1 var
+R2615:2615 VST.msl.sepalg_functors <> A:42 var
+R2627:2635 VST.msl.sepalg_functors <> pafunctor rec
+R2640:2643 VST.msl.sepalg_functors <> J_F1:43 var
+R2637:2638 VST.msl.sepalg_functors <> PairSAFunctor.F1 var
+var 2660:2663 PairSAFunctor J_F2
+var 2690:2694 PairSAFunctor pafF2
+binder 2673:2673 <> A:45
+R2676:2679 VST.msl.sepalg <> Join class
+R2682:2683 VST.msl.sepalg_functors <> PairSAFunctor.F2 var
+R2685:2685 VST.msl.sepalg_functors <> A:45 var
+R2697:2705 VST.msl.sepalg_functors <> pafunctor rec
+R2710:2713 VST.msl.sepalg_functors <> J_F2:46 var
+R2707:2708 VST.msl.sepalg_functors <> PairSAFunctor.F2 var
+prf 2862:2869 <> paf_pair
+R2874:2882 VST.msl.sepalg_functors <> pafunctor rec
+binder 2903:2903 <> A:48
+R2915:2923 VST.msl.sepalg_generators <> Join_prod inst
+R2949:2952 VST.msl.sepalg_functors <> PairSAFunctor.J_F2 var
+R2954:2954 VST.msl.sepalg_functors <> A:48 var
+R2942:2943 VST.msl.sepalg_functors <> PairSAFunctor.F2 var
+R2945:2945 VST.msl.sepalg_functors <> A:48 var
+R2933:2936 VST.msl.sepalg_functors <> PairSAFunctor.J_F1 var
+R2938:2938 VST.msl.sepalg_functors <> A:48 var
+R2926:2927 VST.msl.sepalg_functors <> PairSAFunctor.F1 var
+R2929:2929 VST.msl.sepalg_functors <> A:48 var
+R2885:2889 VST.msl.functors MixVariantFunctorGenerator fpair def
+R2894:2895 VST.msl.sepalg_functors <> PairSAFunctor.F2 var
+R2891:2892 VST.msl.sepalg_functors <> PairSAFunctor.F1 var
+R3110:3121 VST.msl.sepalg_functors <> paf_join_hom proj
+R3127:3131 VST.msl.sepalg_functors <> PairSAFunctor.pafF1 var
+R3110:3121 VST.msl.sepalg_functors <> paf_join_hom proj
+R3127:3131 VST.msl.sepalg_functors <> PairSAFunctor.pafF1 var
+R3171:3182 VST.msl.sepalg_functors <> paf_join_hom proj
+R3188:3192 VST.msl.sepalg_functors <> PairSAFunctor.pafF2 var
+R3171:3182 VST.msl.sepalg_functors <> paf_join_hom proj
+R3188:3192 VST.msl.sepalg_functors <> PairSAFunctor.pafF2 var
+R3347:3370 VST.msl.sepalg_functors <> paf_preserves_unmap_left proj
+R3372:3376 VST.msl.sepalg_functors <> PairSAFunctor.pafF1 var
+R3347:3370 VST.msl.sepalg_functors <> paf_preserves_unmap_left proj
+R3372:3376 VST.msl.sepalg_functors <> PairSAFunctor.pafF1 var
+R3464:3487 VST.msl.sepalg_functors <> paf_preserves_unmap_left proj
+R3489:3493 VST.msl.sepalg_functors <> PairSAFunctor.pafF2 var
+R3464:3487 VST.msl.sepalg_functors <> paf_preserves_unmap_left proj
+R3489:3493 VST.msl.sepalg_functors <> PairSAFunctor.pafF2 var
+R3577:3577 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3580:3581 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3584:3584 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3577:3577 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3580:3581 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3584:3584 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3594:3594 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3598:3599 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3603:3603 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3594:3594 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3598:3599 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3603:3603 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3776:3800 VST.msl.sepalg_functors <> paf_preserves_unmap_right proj
+R3802:3806 VST.msl.sepalg_functors <> PairSAFunctor.pafF1 var
+R3776:3800 VST.msl.sepalg_functors <> paf_preserves_unmap_right proj
+R3802:3806 VST.msl.sepalg_functors <> PairSAFunctor.pafF1 var
+R3894:3918 VST.msl.sepalg_functors <> paf_preserves_unmap_right proj
+R3920:3924 VST.msl.sepalg_functors <> PairSAFunctor.pafF2 var
+R3894:3918 VST.msl.sepalg_functors <> paf_preserves_unmap_right proj
+R3920:3924 VST.msl.sepalg_functors <> PairSAFunctor.pafF2 var
+R4008:4008 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4012:4013 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4017:4017 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4008:4008 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4012:4013 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4017:4017 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4027:4027 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4030:4031 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4034:4034 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4027:4027 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4030:4031 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4034:4034 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4102:4114 VST.msl.sepalg_functors PairSAFunctor <> sec
+sec 4126:4139 <> CoFunSAFunctor
+var 4155:4157 CoFunSAFunctor dom
+var 4167:4169 CoFunSAFunctor rng
+R4173:4179 VST.msl.functors MixVariantFunctor functor rec
+var 4196:4203 CoFunSAFunctor Join_rng
+var 4231:4237 CoFunSAFunctor pss_rng
+binder 4213:4213 <> A:51
+R4216:4219 VST.msl.sepalg <> Join class
+R4222:4224 VST.msl.sepalg_functors <> CoFunSAFunctor.rng var
+R4226:4226 VST.msl.sepalg_functors <> A:51 var
+R4241:4249 VST.msl.sepalg_functors <> pafunctor rec
+R4255:4262 VST.msl.sepalg_functors <> Join_rng:52 var
+R4251:4253 VST.msl.sepalg_functors <> CoFunSAFunctor.rng var
+def 4280:4286 <> paf_fun
+R4291:4299 VST.msl.sepalg_functors <> pafunctor rec
+binder 4356:4356 <> A:54
+R4361:4368 VST.msl.sepalg_generators <> Join_fun inst
+R4377:4384 VST.msl.sepalg_functors <> CoFunSAFunctor.Join_rng var
+R4386:4386 VST.msl.sepalg_functors <> A:54 var
+R4370:4372 VST.msl.sepalg_functors <> CoFunSAFunctor.dom var
+R4302:4306 VST.msl.functors MixVariantFunctorGenerator ffunc def
+R4321:4323 VST.msl.sepalg_functors <> CoFunSAFunctor.rng var
+R4309:4314 VST.msl.functors MixVariantFunctorGenerator fconst def
+R4316:4318 VST.msl.sepalg_functors <> CoFunSAFunctor.dom var
+R4510:4521 VST.msl.sepalg_functors <> paf_join_hom proj
+R4523:4529 VST.msl.sepalg_functors <> CoFunSAFunctor.pss_rng var
+R4510:4521 VST.msl.sepalg_functors <> paf_join_hom proj
+R4523:4529 VST.msl.sepalg_functors <> CoFunSAFunctor.pss_rng var
+binder 4566:4566 <> d:55
+R4571:4594 VST.msl.sepalg_functors <> paf_preserves_unmap_left proj
+R4617:4617 VST.msl.sepalg_functors <> d:55 var
+R4596:4602 VST.msl.sepalg_functors <> CoFunSAFunctor.pss_rng var
+binder 4566:4566 <> d:56
+R4571:4594 VST.msl.sepalg_functors <> paf_preserves_unmap_left proj
+R4617:4617 VST.msl.sepalg_functors <> d:56 var
+R4596:4602 VST.msl.sepalg_functors <> CoFunSAFunctor.pss_rng var
+binder 4640:4640 <> d:57
+R4645:4650 Coq.Init.Specif <> projT1 def
+R4656:4656 VST.msl.sepalg_functors <> d:57 var
+binder 4640:4640 <> d:58
+R4645:4650 Coq.Init.Specif <> projT1 def
+R4656:4656 VST.msl.sepalg_functors <> d:58 var
+binder 4679:4679 <> d:59
+R4684:4692 Coq.Init.Specif <> proj1_sig def
+R4695:4700 Coq.Init.Specif <> projT2 def
+R4706:4706 VST.msl.sepalg_functors <> d:59 var
+binder 4679:4679 <> d:60
+R4684:4692 Coq.Init.Specif <> proj1_sig def
+R4695:4700 Coq.Init.Specif <> projT2 def
+R4706:4706 VST.msl.sepalg_functors <> d:60 var
+R4862:4868 VST.msl.base <> compose def
+R4893:4916 VST.msl.sepalg_functors <> paf_preserves_unmap_left proj
+R4918:4924 VST.msl.sepalg_functors <> CoFunSAFunctor.pss_rng var
+R4893:4916 VST.msl.sepalg_functors <> paf_preserves_unmap_left proj
+R4918:4924 VST.msl.sepalg_functors <> CoFunSAFunctor.pss_rng var
+R4893:4916 VST.msl.sepalg_functors <> paf_preserves_unmap_left proj
+R4918:4924 VST.msl.sepalg_functors <> CoFunSAFunctor.pss_rng var
+binder 5022:5022 <> d:61
+R5027:5051 VST.msl.sepalg_functors <> paf_preserves_unmap_right proj
+R5087:5087 VST.msl.sepalg_functors <> d:61 var
+R5081:5081 VST.msl.sepalg_functors <> d:61 var
+R5074:5074 VST.msl.sepalg_functors <> d:61 var
+R5068:5068 VST.msl.sepalg_functors <> d:61 var
+R5053:5059 VST.msl.sepalg_functors <> CoFunSAFunctor.pss_rng var
+binder 5022:5022 <> d:62
+R5027:5051 VST.msl.sepalg_functors <> paf_preserves_unmap_right proj
+R5087:5087 VST.msl.sepalg_functors <> d:62 var
+R5081:5081 VST.msl.sepalg_functors <> d:62 var
+R5074:5074 VST.msl.sepalg_functors <> d:62 var
+R5068:5068 VST.msl.sepalg_functors <> d:62 var
+R5053:5059 VST.msl.sepalg_functors <> CoFunSAFunctor.pss_rng var
+binder 5110:5110 <> d:63
+R5115:5120 Coq.Init.Specif <> projT1 def
+R5126:5126 VST.msl.sepalg_functors <> d:63 var
+binder 5110:5110 <> d:64
+R5115:5120 Coq.Init.Specif <> projT1 def
+R5126:5126 VST.msl.sepalg_functors <> d:64 var
+binder 5149:5149 <> d:65
+R5154:5162 Coq.Init.Specif <> proj1_sig def
+R5165:5170 Coq.Init.Specif <> projT2 def
+R5176:5176 VST.msl.sepalg_functors <> d:65 var
+binder 5149:5149 <> d:66
+R5154:5162 Coq.Init.Specif <> proj1_sig def
+R5165:5170 Coq.Init.Specif <> projT2 def
+R5176:5176 VST.msl.sepalg_functors <> d:66 var
+R5332:5338 VST.msl.base <> compose def
+R5363:5387 VST.msl.sepalg_functors <> paf_preserves_unmap_right proj
+R5389:5395 VST.msl.sepalg_functors <> CoFunSAFunctor.pss_rng var
+R5363:5387 VST.msl.sepalg_functors <> paf_preserves_unmap_right proj
+R5389:5395 VST.msl.sepalg_functors <> CoFunSAFunctor.pss_rng var
+R5363:5387 VST.msl.sepalg_functors <> paf_preserves_unmap_right proj
+R5389:5395 VST.msl.sepalg_functors <> CoFunSAFunctor.pss_rng var
+R5483:5496 VST.msl.sepalg_functors CoFunSAFunctor <> sec
+sec 7487:7506 <> SepAlgSubset_Functor
+var 7522:7522 SepAlgSubset_Functor F
+R7525:7531 VST.msl.functors MixVariantFunctor functor rec
+var 7548:7551 SepAlgSubset_Functor JOIN
+var 7589:7591 SepAlgSubset_Functor fSA
+binder 7561:7561 <> A:68
+R7564:7567 VST.msl.sepalg <> Join class
+R7570:7570 VST.msl.sepalg_functors <> SepAlgSubset_Functor.F var
+R7572:7572 VST.msl.sepalg_functors <> A:68 var
+R7596:7604 VST.msl.sepalg_functors <> pafunctor rec
+R7608:7611 VST.msl.sepalg_functors <> JOIN:69 var
+R7606:7606 VST.msl.sepalg_functors <> SepAlgSubset_Functor.F var
+var 7627:7627 SepAlgSubset_Functor P
+binder 7638:7638 <> A:71
+R7644:7647 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7641:7641 VST.msl.sepalg_functors <> SepAlgSubset_Functor.F var
+R7643:7643 VST.msl.sepalg_functors <> A:71 var
+R7666:7666 VST.msl.sepalg_functors <> P vardefax
+R7666:7666 VST.msl.sepalg_functors <> P vardefax
+var 7688:7694 SepAlgSubset_Functor HPfmap1
+binder 7705:7705 <> A:73
+binder 7707:7707 <> B:74
+R7714:7717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7718:7718 VST.msl.sepalg_functors <> B:74 var
+R7713:7713 VST.msl.sepalg_functors <> A:73 var
+binder 7710:7710 <> f:75
+R7726:7729 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7730:7730 VST.msl.sepalg_functors <> A:73 var
+R7725:7725 VST.msl.sepalg_functors <> B:74 var
+binder 7722:7722 <> g:76
+binder 7733:7733 <> x:77
+R7743:7746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7747:7747 VST.msl.sepalg_functors <> SepAlgSubset_Functor.P var
+R7750:7753 VST.msl.functors MixVariantFunctor fmap proj
+R7761:7761 VST.msl.sepalg_functors <> x:77 var
+R7759:7759 VST.msl.sepalg_functors <> g:76 var
+R7757:7757 VST.msl.sepalg_functors <> f:75 var
+R7755:7755 VST.msl.sepalg_functors <> SepAlgSubset_Functor.F var
+R7740:7740 VST.msl.sepalg_functors <> SepAlgSubset_Functor.P var
+R7742:7742 VST.msl.sepalg_functors <> x:77 var
+var 7778:7784 SepAlgSubset_Functor HPfmap2
+binder 7795:7795 <> A:79
+binder 7797:7797 <> B:80
+R7804:7807 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7808:7808 VST.msl.sepalg_functors <> B:80 var
+R7803:7803 VST.msl.sepalg_functors <> A:79 var
+binder 7800:7800 <> f:81
+R7816:7819 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7820:7820 VST.msl.sepalg_functors <> A:79 var
+R7815:7815 VST.msl.sepalg_functors <> B:80 var
+binder 7812:7812 <> g:82
+binder 7823:7823 <> x:83
+R7846:7849 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7850:7850 VST.msl.sepalg_functors <> SepAlgSubset_Functor.P var
+R7852:7852 VST.msl.sepalg_functors <> x:83 var
+R7830:7830 VST.msl.sepalg_functors <> SepAlgSubset_Functor.P var
+R7833:7836 VST.msl.functors MixVariantFunctor fmap proj
+R7844:7844 VST.msl.sepalg_functors <> x:83 var
+R7842:7842 VST.msl.sepalg_functors <> g:82 var
+R7840:7840 VST.msl.sepalg_functors <> f:81 var
+R7838:7838 VST.msl.sepalg_functors <> SepAlgSubset_Functor.F var
+def 7869:7878 <> paf_subset
+R7887:7895 VST.msl.sepalg_functors <> pafunctor rec
+binder 7927:7927 <> A:85
+R7932:7940 VST.msl.sepalg_generators <> Join_prop inst
+R7946:7946 VST.msl.sepalg_functors <> SepAlgSubset_Functor.P var
+R7898:7904 VST.msl.functors MixVariantFunctorGenerator fsubset def
+R7913:7919 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap1 var
+R7910:7910 VST.msl.sepalg_functors <> SepAlgSubset_Functor.P var
+R7906:7906 VST.msl.sepalg_functors <> SepAlgSubset_Functor.F var
+R8110:8121 VST.msl.sepalg_functors <> paf_join_hom proj
+R8110:8121 VST.msl.sepalg_functors <> paf_join_hom proj
+R8315:8338 VST.msl.sepalg_functors <> paf_preserves_unmap_left proj
+R8340:8342 VST.msl.sepalg_functors <> SepAlgSubset_Functor.fSA var
+R8315:8338 VST.msl.sepalg_functors <> paf_preserves_unmap_left proj
+R8340:8342 VST.msl.sepalg_functors <> SepAlgSubset_Functor.fSA var
+R8419:8423 Coq.Init.Specif <> exist constr
+R8446:8452 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap2 var
+binder 8430:8430 <> x:86
+R8436:8436 VST.msl.sepalg_functors <> SepAlgSubset_Functor.P var
+R8440:8440 VST.msl.sepalg_functors <> x:86 var
+R8419:8423 Coq.Init.Specif <> exist constr
+R8446:8452 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap2 var
+binder 8430:8430 <> x:87
+R8436:8436 VST.msl.sepalg_functors <> SepAlgSubset_Functor.P var
+R8440:8440 VST.msl.sepalg_functors <> x:87 var
+R8481:8481 VST.msl.sepalg_functors <> SepAlgSubset_Functor.P var
+R8481:8481 VST.msl.sepalg_functors <> SepAlgSubset_Functor.P var
+R8505:8511 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap2 var
+R8505:8511 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap2 var
+R8537:8543 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap1 var
+R8537:8543 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap1 var
+R8574:8578 Coq.Init.Specif <> exist constr
+binder 8585:8585 <> x:88
+R8591:8591 VST.msl.sepalg_functors <> SepAlgSubset_Functor.P var
+R8595:8595 VST.msl.sepalg_functors <> x:88 var
+R8574:8578 Coq.Init.Specif <> exist constr
+binder 8585:8585 <> x:89
+R8591:8591 VST.msl.sepalg_functors <> SepAlgSubset_Functor.P var
+R8595:8595 VST.msl.sepalg_functors <> x:89 var
+R8655:8661 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap1 var
+R8668:8674 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap2 var
+R8716:8724 VST.msl.Axioms <> proof_irr thm
+R8655:8661 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap1 var
+R8668:8674 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap2 var
+R8716:8724 VST.msl.Axioms <> proof_irr thm
+R8741:8749 VST.msl.Extensionality <> exist_ext thm
+R8741:8749 VST.msl.Extensionality <> exist_ext thm
+R8772:8780 VST.msl.Extensionality <> exist_ext thm
+R8772:8780 VST.msl.Extensionality <> exist_ext thm
+R8974:8998 VST.msl.sepalg_functors <> paf_preserves_unmap_right proj
+R9000:9002 VST.msl.sepalg_functors <> SepAlgSubset_Functor.fSA var
+R8974:8998 VST.msl.sepalg_functors <> paf_preserves_unmap_right proj
+R9000:9002 VST.msl.sepalg_functors <> SepAlgSubset_Functor.fSA var
+R9079:9079 VST.msl.sepalg_functors <> SepAlgSubset_Functor.P var
+R9079:9079 VST.msl.sepalg_functors <> SepAlgSubset_Functor.P var
+R9103:9109 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap2 var
+R9103:9109 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap2 var
+R9135:9141 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap1 var
+R9135:9141 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap1 var
+R9172:9176 Coq.Init.Specif <> exist constr
+binder 9183:9183 <> x:90
+R9189:9189 VST.msl.sepalg_functors <> SepAlgSubset_Functor.P var
+R9193:9193 VST.msl.sepalg_functors <> x:90 var
+R9172:9176 Coq.Init.Specif <> exist constr
+binder 9183:9183 <> x:91
+R9189:9189 VST.msl.sepalg_functors <> SepAlgSubset_Functor.P var
+R9193:9193 VST.msl.sepalg_functors <> x:91 var
+R9218:9222 Coq.Init.Specif <> exist constr
+R9245:9251 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap2 var
+binder 9229:9229 <> x:92
+R9235:9235 VST.msl.sepalg_functors <> SepAlgSubset_Functor.P var
+R9239:9239 VST.msl.sepalg_functors <> x:92 var
+R9218:9222 Coq.Init.Specif <> exist constr
+R9245:9251 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap2 var
+binder 9229:9229 <> x:93
+R9235:9235 VST.msl.sepalg_functors <> SepAlgSubset_Functor.P var
+R9239:9239 VST.msl.sepalg_functors <> x:93 var
+R9297:9305 VST.msl.Extensionality <> exist_ext thm
+R9297:9305 VST.msl.Extensionality <> exist_ext thm
+R9346:9352 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap1 var
+R9359:9365 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap2 var
+R9397:9405 VST.msl.Axioms <> proof_irr thm
+R9346:9352 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap1 var
+R9359:9365 VST.msl.sepalg_functors <> SepAlgSubset_Functor.HPfmap2 var
+R9397:9405 VST.msl.Axioms <> proof_irr thm
+R9422:9430 VST.msl.Extensionality <> exist_ext thm
+R9422:9430 VST.msl.Extensionality <> exist_ext thm
+R9451:9470 VST.msl.sepalg_functors SepAlgSubset_Functor <> sec

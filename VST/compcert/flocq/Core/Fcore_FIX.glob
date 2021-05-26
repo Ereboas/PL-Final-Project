@@ -1,0 +1,101 @@
+DIGEST e40c8c30f2ec1319bfbdf67c06701f20
+Fcompcert.flocq.Core.Fcore_FIX
+R722:731 compcert.flocq.Core.Fcore_Raux <> <> lib
+R749:758 compcert.flocq.Core.Fcore_defs <> <> lib
+R776:784 compcert.flocq.Core.Fcore_rnd <> <> lib
+R802:818 compcert.flocq.Core.Fcore_generic_fmt <> <> lib
+R836:844 compcert.flocq.Core.Fcore_ulp <> <> lib
+R862:873 compcert.flocq.Core.Fcore_rnd_ne <> <> lib
+sec 885:891 <> RND_FIX
+var 904:907 RND_FIX beta
+R911:915 compcert.flocq.Core.Fcore_Zaux <> radix rec
+syndef 928:931 <> bpow
+R937:940 compcert.flocq.Core.Fcore_Raux <> bpow def
+R942:945 compcert.flocq.Core.Fcore_FIX <> RND_FIX.beta var
+var 959:962 RND_FIX emin
+R966:966 Coq.Numbers.BinNums <> Z ind
+def 1025:1034 <> FIX_format
+R1041:1041 Coq.Reals.Rdefinitions <> R defax
+R1049:1055 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1070:1073 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1060:1064 compcert.flocq.Core.Fcore_defs <> float rec
+R1066:1069 compcert.flocq.Core.Fcore_FIX <> RND_FIX.beta var
+R1083:1086 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1075:1077 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1074:1074 compcert.flocq.Core.Fcore_FIX <> x var
+R1078:1080 compcert.flocq.Core.Fcore_defs <> F2R def
+R1082:1082 compcert.flocq.Core.Fcore_FIX <> f var
+R1094:1096 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1088:1091 compcert.flocq.Core.Fcore_defs <> Fexp proj
+R1093:1093 compcert.flocq.Core.Fcore_FIX <> f var
+R1097:1100 compcert.flocq.Core.Fcore_FIX <> RND_FIX.emin var
+def 1118:1124 <> FIX_exp
+R1131:1131 Coq.Numbers.BinNums <> Z ind
+R1137:1140 compcert.flocq.Core.Fcore_FIX <> RND_FIX.emin var
+inst 1197:1209 <> FIX_exp_valid
+R1213:1221 compcert.flocq.Core.Fcore_generic_fmt <> Valid_exp class
+R1223:1229 compcert.flocq.Core.Fcore_FIX <> FIX_exp def
+R1256:1262 compcert.flocq.Core.Fcore_FIX <> FIX_exp def
+R1293:1303 Coq.ZArith.Zorder <> Zlt_le_weak syndef
+R1293:1303 Coq.ZArith.Zorder <> Zlt_le_weak syndef
+R1319:1326 Coq.ZArith.Zorder <> Zle_refl syndef
+R1319:1326 Coq.ZArith.Zorder <> Zle_refl syndef
+prf 1359:1376 <> generic_format_FIX
+R1404:1407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1408:1421 compcert.flocq.Core.Fcore_generic_fmt <> generic_format def
+R1436:1436 compcert.flocq.Core.Fcore_FIX <> x var
+R1428:1434 compcert.flocq.Core.Fcore_FIX <> FIX_exp def
+R1423:1426 compcert.flocq.Core.Fcore_FIX <> RND_FIX.beta var
+R1392:1401 compcert.flocq.Core.Fcore_FIX <> FIX_format def
+R1403:1403 compcert.flocq.Core.Fcore_FIX <> x var
+R1502:1523 compcert.flocq.Core.Fcore_generic_fmt <> generic_format_canonic thm
+R1502:1523 compcert.flocq.Core.Fcore_generic_fmt <> generic_format_canonic thm
+prf 1540:1557 <> FIX_format_generic
+R1602:1605 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1606:1615 compcert.flocq.Core.Fcore_FIX <> FIX_format def
+R1617:1617 compcert.flocq.Core.Fcore_FIX <> x var
+R1573:1586 compcert.flocq.Core.Fcore_generic_fmt <> generic_format def
+R1601:1601 compcert.flocq.Core.Fcore_FIX <> x var
+R1593:1599 compcert.flocq.Core.Fcore_FIX <> FIX_exp def
+R1588:1591 compcert.flocq.Core.Fcore_FIX <> RND_FIX.beta var
+prf 1688:1711 <> FIX_format_satisfies_any
+R1717:1729 compcert.flocq.Core.Fcore_rnd <> satisfies_any ind
+R1731:1740 compcert.flocq.Core.Fcore_FIX <> FIX_format def
+R1758:1773 compcert.flocq.Core.Fcore_rnd <> satisfies_any_eq thm
+R1782:1809 compcert.flocq.Core.Fcore_generic_fmt <> generic_format_satisfies_any thm
+R1816:1822 compcert.flocq.Core.Fcore_FIX <> FIX_exp def
+R1811:1814 compcert.flocq.Core.Fcore_FIX <> RND_FIX.beta var
+R1758:1773 compcert.flocq.Core.Fcore_rnd <> satisfies_any_eq thm
+R1782:1809 compcert.flocq.Core.Fcore_generic_fmt <> generic_format_satisfies_any thm
+R1816:1822 compcert.flocq.Core.Fcore_FIX <> FIX_exp def
+R1811:1814 compcert.flocq.Core.Fcore_FIX <> RND_FIX.beta var
+R1850:1867 compcert.flocq.Core.Fcore_FIX <> FIX_format_generic thm
+R1850:1867 compcert.flocq.Core.Fcore_FIX <> FIX_format_generic thm
+R1876:1893 compcert.flocq.Core.Fcore_FIX <> generic_format_FIX thm
+R1876:1893 compcert.flocq.Core.Fcore_FIX <> generic_format_FIX thm
+inst 1918:1933 <> FIX_exp_monotone
+R1937:1948 compcert.flocq.Core.Fcore_generic_fmt <> Monotone_exp class
+R1950:1956 compcert.flocq.Core.Fcore_FIX <> FIX_exp def
+R1988:1995 Coq.ZArith.Zorder <> Zle_refl syndef
+R1988:1995 Coq.ZArith.Zorder <> Zle_refl syndef
+prf 2012:2018 <> ulp_FIX
+R2049:2051 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2031:2033 compcert.flocq.Core.Fcore_ulp <> ulp def
+R2048:2048 compcert.flocq.Core.Fcore_FIX <> x var
+R2040:2046 compcert.flocq.Core.Fcore_FIX <> FIX_exp def
+R2035:2038 compcert.flocq.Core.Fcore_FIX <> RND_FIX.beta var
+R2052:2055 compcert.flocq.Core.Fcore_FIX <> bpow syndef
+R2057:2060 compcert.flocq.Core.Fcore_FIX <> RND_FIX.emin var
+R2087:2089 compcert.flocq.Core.Fcore_ulp <> ulp def
+R2097:2109 compcert.flocq.Core.Fcore_Raux <> Req_bool_spec thm
+R2097:2109 compcert.flocq.Core.Fcore_Raux <> Req_bool_spec thm
+R2129:2147 compcert.flocq.Core.Fcore_ulp <> negligible_exp_spec thm
+R2149:2155 compcert.flocq.Core.Fcore_FIX <> FIX_exp def
+R2129:2147 compcert.flocq.Core.Fcore_ulp <> negligible_exp_spec thm
+R2149:2155 compcert.flocq.Core.Fcore_FIX <> FIX_exp def
+R2188:2188 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2184:2187 compcert.flocq.Core.Fcore_FIX <> RND_FIX.emin var
+R2188:2188 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2184:2187 compcert.flocq.Core.Fcore_FIX <> RND_FIX.emin var
+R2217:2223 compcert.flocq.Core.Fcore_FIX <> FIX_exp def
+R2282:2288 compcert.flocq.Core.Fcore_FIX RND_FIX <> sec

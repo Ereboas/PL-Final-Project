@@ -1,0 +1,389 @@
+DIGEST 2d94c401172df533e21ca9cc18bf5691
+FVST.veric.age_to_resource_at
+R15:36 compcert.common.Memory <> <> lib
+R54:68 VST.msl.Coqlib2 <> <> lib
+R86:99 VST.msl.eq_dec <> <> lib
+R117:131 VST.msl.ageable <> <> lib
+R149:162 VST.msl.age_to <> <> lib
+R180:196 VST.veric.coqlib4 <> <> lib
+R214:237 VST.veric.compcert_rmaps <> <> lib
+prf 288:297 <> pred_hered
+binder 300:300 <> A:1
+R308:314 VST.msl.ageable <> ageable class
+R316:316 VST.veric.age_to_resource_at <> A:1 var
+R324:327 VST.msl.predicates_hered <> pred def
+R329:329 VST.veric.age_to_resource_at <> A:1 var
+binder 320:320 <> P:2
+R334:343 VST.msl.predicates_hered <> hereditary def
+R350:357 VST.msl.predicates_hered <> app_pred def
+R359:359 VST.veric.age_to_resource_at <> P:2 var
+R345:347 VST.msl.ageable <> age def
+prf 402:416 <> hereditary_necR
+R430:433 VST.veric.compcert_rmaps RML.R rmap defax
+binder 419:421 <> phi:3
+binder 423:426 <> phi':4
+binder 437:437 <> P:5
+R457:462 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R479:484 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R490:493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R494:494 VST.veric.age_to_resource_at <> P:5 var
+R496:499 VST.veric.age_to_resource_at <> phi':4 var
+R485:485 VST.veric.age_to_resource_at <> P:5 var
+R487:489 VST.veric.age_to_resource_at <> phi:3 var
+R463:472 VST.msl.predicates_hered <> hereditary def
+R478:478 VST.veric.age_to_resource_at <> P:5 var
+R474:476 VST.msl.ageable <> age def
+R444:447 VST.msl.ageable <> necR def
+R453:456 VST.veric.age_to_resource_at <> phi':4 var
+R449:451 VST.veric.age_to_resource_at <> phi:3 var
+prf 571:590 <> anti_hereditary_necR
+R604:607 VST.veric.compcert_rmaps RML.R rmap defax
+binder 593:595 <> phi:6
+binder 597:600 <> phi':7
+binder 611:611 <> P:8
+R631:636 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R670:675 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R682:685 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R686:686 VST.veric.age_to_resource_at <> P:8 var
+R688:690 VST.veric.age_to_resource_at <> phi:6 var
+R676:676 VST.veric.age_to_resource_at <> P:8 var
+R678:681 VST.veric.age_to_resource_at <> phi':7 var
+R637:646 VST.msl.predicates_hered <> hereditary def
+R669:669 VST.veric.age_to_resource_at <> P:8 var
+binder 653:653 <> x:9
+binder 655:655 <> y:10
+R660:662 VST.msl.ageable <> age def
+R666:666 VST.veric.age_to_resource_at <> x:9 var
+R664:664 VST.veric.age_to_resource_at <> y:10 var
+R618:621 VST.msl.ageable <> necR def
+R627:630 VST.veric.age_to_resource_at <> phi':7 var
+R623:625 VST.veric.age_to_resource_at <> phi:6 var
+prf 762:773 <> app_pred_age
+binder 776:776 <> R:11
+R791:794 VST.veric.compcert_rmaps RML.R rmap defax
+binder 780:782 <> phi:12
+binder 784:787 <> phi':13
+R813:818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R833:838 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R839:846 VST.msl.predicates_hered <> app_pred def
+R850:853 VST.veric.age_to_resource_at <> phi':13 var
+R848:848 VST.veric.age_to_resource_at <> R:11 var
+R819:826 VST.msl.predicates_hered <> app_pred def
+R830:832 VST.veric.age_to_resource_at <> phi:12 var
+R828:828 VST.veric.age_to_resource_at <> R:11 var
+R801:803 VST.msl.ageable <> age def
+R809:812 VST.veric.age_to_resource_at <> phi':13 var
+R805:807 VST.veric.age_to_resource_at <> phi:12 var
+prf 918:928 <> age_yes_sat
+binder 931:933 <> Phi:14
+binder 935:938 <> Phi':15
+binder 940:942 <> phi:16
+binder 944:947 <> phi':17
+binder 949:949 <> l:18
+binder 951:951 <> z:19
+binder 953:954 <> z':20
+binder 956:957 <> sh:21
+binder 959:961 <> sh':22
+R969:972 VST.msl.predicates_hered <> pred def
+R974:977 VST.veric.compcert_rmaps RML.R rmap defax
+binder 965:965 <> R:23
+R1005:1010 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1023:1028 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1041:1046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1061:1066 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1131:1136 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1178:1183 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1137:1144 VST.msl.predicates_hered <> app_pred def
+R1174:1177 VST.veric.age_to_resource_at <> phi':17 var
+R1147:1152 VST.veric.compcert_rmaps RML.R approx def
+R1171:1171 VST.veric.age_to_resource_at <> R:23 var
+R1155:1155 Coq.Init.Datatypes <> S constr
+R1158:1162 VST.msl.ageable <> level meth
+R1164:1167 VST.veric.age_to_resource_at <> phi':17 var
+R1192:1194 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1188:1190 VST.veric.rmaps RMAPS :::x_'@'_x not
+R1184:1187 VST.veric.age_to_resource_at <> Phi':15 var
+R1191:1191 VST.veric.age_to_resource_at <> l:18 var
+R1195:1197 VST.veric.compcert_rmaps RML.R YES constr
+R1217:1221 VST.veric.compcert_rmaps RML.R SomeP constr
+R1245:1250 VST.veric.compcert_rmaps RML.R approx def
+R1265:1265 VST.veric.age_to_resource_at <> R:23 var
+R1253:1257 VST.msl.ageable <> level meth
+R1259:1262 VST.veric.age_to_resource_at <> Phi':15 var
+R1223:1233 VST.veric.rmaps <> Mpred constr
+R1207:1208 VST.veric.compcert_rmaps <> LK constr
+R1212:1213 VST.veric.age_to_resource_at <> z':20 var
+R1210:1210 VST.veric.age_to_resource_at <> z:19 var
+R1202:1204 VST.veric.age_to_resource_at <> sh':22 var
+R1199:1200 VST.veric.age_to_resource_at <> sh:21 var
+R1075:1077 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1070:1073 VST.veric.rmaps RMAPS :::x_'@'_x not
+R1067:1069 VST.veric.age_to_resource_at <> Phi:14 var
+R1074:1074 VST.veric.age_to_resource_at <> l:18 var
+R1078:1080 VST.veric.compcert_rmaps RML.R YES constr
+R1100:1104 VST.veric.compcert_rmaps RML.R SomeP constr
+R1128:1128 VST.veric.age_to_resource_at <> R:23 var
+R1106:1116 VST.veric.rmaps <> Mpred constr
+R1090:1091 VST.veric.compcert_rmaps <> LK constr
+R1095:1096 VST.veric.age_to_resource_at <> z':20 var
+R1093:1093 VST.veric.age_to_resource_at <> z:19 var
+R1085:1087 VST.veric.age_to_resource_at <> sh':22 var
+R1082:1083 VST.veric.age_to_resource_at <> sh:21 var
+R1047:1054 VST.msl.predicates_hered <> app_pred def
+R1058:1060 VST.veric.age_to_resource_at <> phi:16 var
+R1056:1056 VST.veric.age_to_resource_at <> R:23 var
+R1029:1031 VST.msl.ageable <> age def
+R1037:1040 VST.veric.age_to_resource_at <> phi':17 var
+R1033:1035 VST.veric.age_to_resource_at <> phi:16 var
+R1011:1013 VST.msl.ageable <> age def
+R1019:1022 VST.veric.age_to_resource_at <> Phi':15 var
+R1015:1017 VST.veric.age_to_resource_at <> Phi:14 var
+R993:995 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R984:988 VST.msl.ageable <> level meth
+R990:992 VST.veric.age_to_resource_at <> Phi:14 var
+R996:1000 VST.msl.ageable <> level meth
+R1002:1004 VST.veric.age_to_resource_at <> phi:16 var
+R1315:1326 VST.veric.age_to_resource_at <> app_pred_age thm
+R1315:1326 VST.veric.age_to_resource_at <> app_pred_age thm
+R1377:1385 VST.msl.ageable <> age_level thm
+R1399:1407 VST.msl.ageable <> age_level thm
+R1377:1385 VST.msl.ageable <> age_level thm
+R1399:1407 VST.msl.ageable <> age_level thm
+R1450:1457 VST.veric.compcert_rmaps RML necR_YES thm
+R1450:1457 VST.veric.compcert_rmaps RML necR_YES thm
+prf 1554:1568 <> age_resource_at
+binder 1571:1573 <> phi:24
+binder 1575:1578 <> phi':25
+binder 1580:1582 <> loc:26
+R1601:1606 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1617:1619 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1611:1613 VST.veric.rmaps RMAPS :::x_'@'_x not
+R1607:1610 VST.veric.age_to_resource_at <> phi':25 var
+R1614:1616 VST.veric.age_to_resource_at <> loc:26 var
+R1620:1632 VST.veric.compcert_rmaps RML.R resource_fmap def
+R1682:1684 VST.veric.rmaps RMAPS :::x_'@'_x not
+R1679:1681 VST.veric.age_to_resource_at <> phi:24 var
+R1685:1687 VST.veric.age_to_resource_at <> loc:26 var
+R1657:1662 VST.veric.compcert_rmaps RML.R approx def
+R1665:1669 VST.msl.ageable <> level meth
+R1671:1674 VST.veric.age_to_resource_at <> phi':25 var
+R1635:1640 VST.veric.compcert_rmaps RML.R approx def
+R1643:1647 VST.msl.ageable <> level meth
+R1649:1652 VST.veric.age_to_resource_at <> phi':25 var
+R1589:1591 VST.msl.ageable <> age def
+R1597:1600 VST.veric.age_to_resource_at <> phi':25 var
+R1593:1595 VST.veric.age_to_resource_at <> phi:24 var
+R1724:1739 VST.veric.compcert_rmaps RML age1_resource_at thm
+R1755:1757 VST.veric.rmaps RMAPS :::x_'@'_x not
+R1724:1739 VST.veric.compcert_rmaps RML age1_resource_at thm
+R1755:1757 VST.veric.rmaps RMAPS :::x_'@'_x not
+R1724:1739 VST.veric.compcert_rmaps RML age1_resource_at thm
+R1755:1757 VST.veric.rmaps RMAPS :::x_'@'_x not
+R1724:1739 VST.veric.compcert_rmaps RML age1_resource_at thm
+R1755:1757 VST.veric.rmaps RMAPS :::x_'@'_x not
+R1794:1811 VST.veric.compcert_rmaps RML resource_at_approx thm
+R1794:1811 VST.veric.compcert_rmaps RML resource_at_approx thm
+R1794:1811 VST.veric.compcert_rmaps RML resource_at_approx thm
+prf 1839:1856 <> age_to_resource_at
+binder 1858:1860 <> phi:27
+binder 1862:1862 <> n:28
+binder 1864:1866 <> loc:29
+R1888:1890 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1882:1884 VST.veric.rmaps RMAPS :::x_'@'_x not
+R1870:1875 VST.msl.age_to <> age_to def
+R1879:1881 VST.veric.age_to_resource_at <> phi:27 var
+R1877:1877 VST.veric.age_to_resource_at <> n:28 var
+R1885:1887 VST.veric.age_to_resource_at <> loc:29 var
+R1891:1903 VST.veric.compcert_rmaps RML.R resource_fmap def
+R1931:1933 VST.veric.rmaps RMAPS :::x_'@'_x not
+R1928:1930 VST.veric.age_to_resource_at <> phi:27 var
+R1934:1936 VST.veric.age_to_resource_at <> loc:29 var
+R1917:1922 VST.veric.compcert_rmaps RML.R approx def
+R1924:1924 VST.veric.age_to_resource_at <> n:28 var
+R1906:1911 VST.veric.compcert_rmaps RML.R approx def
+R1913:1913 VST.veric.age_to_resource_at <> n:28 var
+R1976:1979 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1963:1966 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1967:1971 VST.msl.ageable <> level meth
+R1981:1984 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R1985:1989 VST.msl.ageable <> level meth
+R1976:1979 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1963:1966 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1967:1971 VST.msl.ageable <> level meth
+R1981:1984 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R1985:1989 VST.msl.ageable <> level meth
+R2056:2064 VST.msl.age_to <> age_to_ge thm
+R2056:2064 VST.msl.age_to <> age_to_ge thm
+R2056:2064 VST.msl.age_to <> age_to_ge thm
+R2056:2064 VST.msl.age_to <> age_to_ge thm
+R2087:2104 VST.veric.compcert_rmaps RML resource_at_approx thm
+R2087:2104 VST.veric.compcert_rmaps RML resource_at_approx thm
+R2087:2104 VST.veric.compcert_rmaps RML resource_at_approx thm
+R2137:2139 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2137:2139 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2206:2209 VST.msl.base <> :::x_'oo'_x not
+R2195:2198 VST.msl.base <> :::x_'oo'_x not
+R2206:2209 VST.msl.base <> :::x_'oo'_x not
+R2195:2198 VST.msl.base <> :::x_'oo'_x not
+R2255:2257 VST.veric.rmaps RMAPS :::x_'@'_x not
+R2271:2274 VST.msl.base <> compose def
+R2255:2257 VST.veric.rmaps RMAPS :::x_'@'_x not
+R2332:2346 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R2332:2346 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R2332:2346 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R2397:2411 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R2397:2411 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R2397:2411 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R2443:2459 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R2443:2459 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R2443:2459 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R2443:2459 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R2482:2498 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R2482:2498 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R2482:2498 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R2482:2498 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R2523:2533 VST.msl.age_to <> age_to_ageN thm
+R2523:2533 VST.msl.age_to <> age_to_ageN thm
+R2559:2564 VST.msl.age_to <> age_to def
+R2559:2564 VST.msl.age_to <> age_to def
+R2616:2619 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2633:2633 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2607:2611 VST.msl.ageable <> level meth
+R2629:2631 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2620:2624 VST.msl.ageable <> level meth
+R2616:2619 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2633:2633 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2607:2611 VST.msl.ageable <> level meth
+R2629:2631 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2620:2624 VST.msl.ageable <> level meth
+R2680:2682 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2671:2675 VST.msl.ageable <> level meth
+R2680:2682 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2671:2675 VST.msl.ageable <> level meth
+R2776:2779 VST.msl.ageable <> ageN def
+R2850:2852 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2841:2845 VST.msl.ageable <> level meth
+R2866:2870 VST.msl.ageable <> level meth
+R2850:2852 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2841:2845 VST.msl.ageable <> level meth
+R2866:2870 VST.msl.ageable <> level meth
+R2913:2930 VST.veric.compcert_rmaps RML resource_at_approx thm
+R2913:2930 VST.veric.compcert_rmaps RML resource_at_approx thm
+R2947:2950 VST.msl.ageable <> ageN def
+R2953:2953 Coq.Init.Datatypes <> S constr
+R2981:2984 VST.msl.ageable <> age1 meth
+R2995:2998 Coq.Init.Datatypes <> Some constr
+R3006:3009 VST.msl.ageable <> ageN def
+R3018:3021 Coq.Init.Datatypes <> None constr
+R3026:3029 Coq.Init.Datatypes <> None constr
+R2947:2950 VST.msl.ageable <> ageN def
+R2953:2953 Coq.Init.Datatypes <> S constr
+R2981:2984 VST.msl.ageable <> age1 meth
+R2995:2998 Coq.Init.Datatypes <> Some constr
+R3006:3009 VST.msl.ageable <> ageN def
+R3018:3021 Coq.Init.Datatypes <> None constr
+R3026:3029 Coq.Init.Datatypes <> None constr
+R3053:3056 VST.msl.ageable <> age1 meth
+R3053:3056 VST.msl.ageable <> age1 meth
+R3169:3183 VST.veric.age_to_resource_at <> age_resource_at thm
+R3169:3183 VST.veric.age_to_resource_at <> age_resource_at thm
+R3256:3264 VST.msl.ageable <> age_level thm
+R3256:3264 VST.msl.ageable <> age_level thm
+R3256:3264 VST.msl.ageable <> age_level thm
+R3351:3353 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3351:3353 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3391:3394 VST.msl.base <> :::x_'oo'_x not
+R3380:3383 VST.msl.base <> :::x_'oo'_x not
+R3391:3394 VST.msl.base <> :::x_'oo'_x not
+R3380:3383 VST.msl.base <> :::x_'oo'_x not
+R3434:3436 VST.veric.rmaps RMAPS :::x_'@'_x not
+R3450:3453 VST.msl.base <> compose def
+R3434:3436 VST.veric.rmaps RMAPS :::x_'@'_x not
+R3517:3531 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R3517:3531 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R3517:3531 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R3588:3602 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R3588:3602 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R3588:3602 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R3636:3652 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R3636:3652 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R3636:3652 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R3636:3652 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R3690:3706 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R3690:3706 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R3690:3706 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R3690:3706 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+prf 3740:3754 <> age_to_ghost_of
+binder 3756:3758 <> phi:30
+binder 3760:3760 <> n:31
+R3787:3789 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3764:3771 VST.veric.compcert_rmaps RML.R ghost_of def
+R3774:3779 VST.msl.age_to <> age_to def
+R3783:3785 VST.veric.age_to_resource_at <> phi:30 var
+R3781:3781 VST.veric.age_to_resource_at <> n:31 var
+R3790:3799 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R3824:3831 VST.veric.compcert_rmaps RML.R ghost_of def
+R3833:3835 VST.veric.age_to_resource_at <> phi:30 var
+R3813:3818 VST.veric.compcert_rmaps RML.R approx def
+R3820:3820 VST.veric.age_to_resource_at <> n:31 var
+R3802:3807 VST.veric.compcert_rmaps RML.R approx def
+R3809:3809 VST.veric.age_to_resource_at <> n:31 var
+R3860:3870 VST.msl.age_to <> age_to_ageN thm
+R3860:3870 VST.msl.age_to <> age_to_ageN thm
+R3890:3895 VST.msl.age_to <> age_to def
+R3890:3895 VST.msl.age_to <> age_to def
+R3934:3936 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R3925:3929 VST.msl.ageable <> level meth
+R3934:3936 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R3925:3929 VST.msl.ageable <> level meth
+R4039:4053 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R4056:4070 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R4073:4089 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R4092:4108 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R4039:4053 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R4039:4053 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R4056:4070 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R4056:4070 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R4073:4089 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R4073:4089 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R4092:4108 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R4092:4108 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R4136:4139 VST.msl.ageable <> ageN def
+R4142:4142 Coq.Init.Datatypes <> S constr
+R4171:4174 VST.msl.ageable <> age1 meth
+R4185:4188 Coq.Init.Datatypes <> Some constr
+R4196:4199 VST.msl.ageable <> ageN def
+R4209:4212 Coq.Init.Datatypes <> None constr
+R4217:4220 Coq.Init.Datatypes <> None constr
+R4136:4139 VST.msl.ageable <> ageN def
+R4142:4142 Coq.Init.Datatypes <> S constr
+R4171:4174 VST.msl.ageable <> age1 meth
+R4185:4188 Coq.Init.Datatypes <> Some constr
+R4196:4199 VST.msl.ageable <> ageN def
+R4209:4212 Coq.Init.Datatypes <> None constr
+R4217:4220 Coq.Init.Datatypes <> None constr
+R4247:4250 VST.msl.ageable <> age1 meth
+R4247:4250 VST.msl.ageable <> age1 meth
+R4301:4309 VST.msl.ageable <> age_level thm
+R4301:4309 VST.msl.ageable <> age_level thm
+R4342:4344 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4352:4354 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4345:4349 VST.msl.ageable <> level meth
+R4342:4344 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4352:4354 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4345:4349 VST.msl.ageable <> level meth
+R4380:4395 Coq.Arith.Minus <> minus_Sn_m thm
+R4380:4395 Coq.Arith.Minus <> minus_Sn_m thm
+R4380:4395 Coq.Arith.Minus <> minus_Sn_m thm
+R4466:4478 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R4466:4478 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R4466:4478 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R4518:4532 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R4535:4551 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R4554:4570 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R4518:4532 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R4518:4532 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R4535:4551 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R4535:4551 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R4554:4570 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R4554:4570 VST.veric.compcert_rmaps RML approx'_oo_approx thm

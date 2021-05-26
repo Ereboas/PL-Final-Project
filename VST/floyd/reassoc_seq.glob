@@ -1,0 +1,108 @@
+DIGEST 18d627769cb83856653f5803d21df8a8
+FVST.floyd.reassoc_seq
+R15:29 VST.floyd.base2 <> <> lib
+R47:69 VST.floyd.semax_tactics <> <> lib
+R126:129 compcert.cfrontend.Clight <> Sfor def
+R131:136 compcert.cfrontend.Clight <> Swhile def
+R138:145 compcert.cfrontend.Clight <> Sdowhile def
+R174:178 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R174:178 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R262:269 VST.floyd.semax_tactics <> fold_seq def
+R272:281 VST.floyd.semax_tactics <> unfold_seq def
+R302:317 VST.floyd.semax_tactics <> semax_unfold_seq thm
+R326:332 Coq.Init.Logic <> eq_refl constr
+def 498:506 <> partition
+binder 509:509 <> T:1
+R535:535 Coq.Numbers.BinNums <> Z ind
+binder 519:527 <> firstSize:2
+binder 529:532 <> size:3
+R542:545 Coq.Init.Datatypes <> list ind
+R547:547 VST.floyd.reassoc_seq <> T:1 var
+binder 539:539 <> l:4
+R552:555 Coq.Init.Datatypes <> list ind
+R558:561 Coq.Init.Datatypes <> list ind
+R563:563 VST.floyd.reassoc_seq <> T:1 var
+R578:578 VST.floyd.reassoc_seq <> l:4 var
+R590:593 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R611:614 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R602:610 VST.floyd.reassoc_seq <> firstSize:2 var
+R776:784 VST.floyd.reassoc_seq <> partition:5 def
+R800:803 VST.floyd.reassoc_seq <> size:3 var
+R796:796 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R787:795 VST.floyd.reassoc_seq <> firstSize:2 var
+R823:826 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R834:834 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R843:847 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R836:839 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R860:862 Coq.Init.Datatypes <> nil constr
+R870:873 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R867:867 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R869:869 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R874:876 Coq.Init.Datatypes <> nil constr
+R634:642 VST.floyd.reassoc_seq <> partition:5 def
+R653:656 VST.floyd.reassoc_seq <> size:3 var
+R649:649 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R645:648 VST.floyd.reassoc_seq <> size:3 var
+R676:679 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R690:693 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R687:689 Coq.Init.Datatypes <> nil constr
+R694:694 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R703:707 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R696:699 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R720:722 Coq.Init.Datatypes <> nil constr
+R730:733 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R727:729 Coq.Init.Datatypes <> nil constr
+R737:740 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R734:734 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R736:736 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R741:743 Coq.Init.Datatypes <> nil constr
+R892:894 Coq.Init.Datatypes <> nil constr
+R899:901 Coq.Init.Datatypes <> nil constr
+def 922:940 <> reassoc_into_chunks
+R947:955 compcert.cfrontend.Clight <> statement ind
+binder 943:944 <> cs:7
+R970:970 Coq.Numbers.BinNums <> Z ind
+binder 959:967 <> chunksize:8
+R975:983 compcert.cfrontend.Clight <> statement ind
+R990:997 VST.floyd.semax_tactics <> fold_seq def
+R1000:1002 Coq.Lists.List <> map def
+R1014:1022 VST.floyd.reassoc_seq <> partition def
+R1045:1054 VST.floyd.semax_tactics <> unfold_seq def
+R1056:1057 VST.floyd.reassoc_seq <> cs:7 var
+R1034:1042 VST.floyd.reassoc_seq <> chunksize:8 var
+R1024:1032 VST.floyd.reassoc_seq <> chunksize:8 var
+R1004:1011 VST.floyd.semax_tactics <> fold_seq def
+R1163:1166 compcert.cfrontend.Clight <> Sfor def
+R1168:1173 compcert.cfrontend.Clight <> Swhile def
+R1175:1182 compcert.cfrontend.Clight <> Sdowhile def
+R1211:1215 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R1211:1215 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R1497:1515 VST.floyd.reassoc_seq <> reassoc_into_chunks def
+R1548:1563 VST.floyd.semax_tactics <> semax_unfold_seq thm
+R1572:1578 Coq.Init.Logic <> eq_refl constr
+R1767:1775 compcert.cfrontend.Clight <> Ssequence constr
+R1778:1786 compcert.cfrontend.Clight <> Ssequence constr
+R1767:1775 compcert.cfrontend.Clight <> Ssequence constr
+R1778:1786 compcert.cfrontend.Clight <> Ssequence constr
+R1865:1873 compcert.cfrontend.Clight <> Ssequence constr
+R1865:1873 compcert.cfrontend.Clight <> Ssequence constr
+R2094:2098 compcert.cfrontend.Clight <> Sloop constr
+R2094:2098 compcert.cfrontend.Clight <> Sloop constr
+R2243:2253 compcert.cfrontend.Clight <> Sifthenelse constr
+R2243:2253 compcert.cfrontend.Clight <> Sifthenelse constr
+R2408:2414 compcert.cfrontend.Clight <> Sswitch constr
+R2408:2414 compcert.cfrontend.Clight <> Sswitch constr
+R2495:2501 compcert.cfrontend.Clight <> Sswitch constr
+R2376:2386 compcert.cfrontend.Clight <> Sifthenelse constr
+R2219:2223 compcert.cfrontend.Clight <> Sloop constr
+R1994:2002 compcert.cfrontend.Clight <> Ssequence constr
+R2039:2047 compcert.cfrontend.Clight <> Ssequence constr
+R2039:2047 compcert.cfrontend.Clight <> Ssequence constr
+R1830:1838 compcert.cfrontend.Clight <> Ssequence constr
+R1844:1852 compcert.cfrontend.Clight <> Ssequence constr
+R2579:2583 compcert.cfrontend.Clight <> LSnil constr
+R2579:2583 compcert.cfrontend.Clight <> LSnil constr
+R2622:2627 compcert.cfrontend.Clight <> LScons constr
+R2622:2627 compcert.cfrontend.Clight <> LScons constr
+R2755:2760 compcert.cfrontend.Clight <> LScons constr
+R2606:2610 compcert.cfrontend.Clight <> LSnil constr

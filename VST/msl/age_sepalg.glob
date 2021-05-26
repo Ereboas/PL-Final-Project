@@ -1,0 +1,1746 @@
+DIGEST 0f7fa8bb2e4ed8fe653c38db3f354836
+FVST.msl.age_sepalg
+R101:112 VST.msl.base <> <> lib
+R130:144 VST.msl.ageable <> <> lib
+R162:175 VST.msl.sepalg <> <> lib
+R193:217 VST.msl.sepalg_generators <> <> lib
+constr 282:286 <> mkAge
+rec 227:233 <> Age_alg
+proj 292:300 <> age1_join
+proj 419:428 <> age1_join2
+proj 547:556 <> unage_join
+proj 675:685 <> unage_join2
+binder 236:236 <> A:1
+R251:254 VST.msl.sepalg <> Join class
+R256:256 VST.msl.age_sepalg <> A:1 var
+binder 245:248 <> JOIN:2
+R268:274 VST.msl.ageable <> ageable class
+R276:276 VST.msl.age_sepalg <> A:1 var
+binder 259:264 <> as_age:3
+binder 311:311 <> x:5
+binder 314:314 <> y:6
+binder 316:316 <> z:7
+binder 318:319 <> x':8
+R333:336 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R345:352 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R353:359 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R364:365 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R363:363 VST.msl.age_sepalg <> A:1 var
+binder 360:361 <> y':9
+R366:372 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R377:378 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R376:376 VST.msl.age_sepalg <> A:1 var
+binder 373:374 <> z':10
+R392:395 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R379:382 VST.msl.sepalg <> join def
+R390:391 VST.msl.age_sepalg <> z':10 var
+R387:388 VST.msl.age_sepalg <> y':9 var
+R384:385 VST.msl.age_sepalg <> x':8 var
+R404:407 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R396:398 VST.msl.ageable <> age def
+R402:403 VST.msl.age_sepalg <> y':9 var
+R400:400 VST.msl.age_sepalg <> y:6 var
+R408:410 VST.msl.ageable <> age def
+R414:415 VST.msl.age_sepalg <> z':10 var
+R412:412 VST.msl.age_sepalg <> z:7 var
+R337:339 VST.msl.ageable <> age def
+R343:344 VST.msl.age_sepalg <> x':8 var
+R341:341 VST.msl.age_sepalg <> x:5 var
+R323:326 VST.msl.sepalg <> join def
+R332:332 VST.msl.age_sepalg <> z:7 var
+R330:330 VST.msl.age_sepalg <> y:6 var
+R328:328 VST.msl.age_sepalg <> x:5 var
+binder 439:439 <> x:12
+binder 442:442 <> y:13
+binder 444:444 <> z:14
+binder 446:447 <> z':15
+R461:464 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R473:480 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R481:487 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R492:493 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R491:491 VST.msl.age_sepalg <> A:1 var
+binder 488:489 <> x':16
+R494:500 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R505:506 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R504:504 VST.msl.age_sepalg <> A:1 var
+binder 501:502 <> y':17
+R520:523 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R507:510 VST.msl.sepalg <> join def
+R518:519 VST.msl.age_sepalg <> z':15 var
+R515:516 VST.msl.age_sepalg <> y':17 var
+R512:513 VST.msl.age_sepalg <> x':16 var
+R532:535 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R524:526 VST.msl.ageable <> age def
+R530:531 VST.msl.age_sepalg <> x':16 var
+R528:528 VST.msl.age_sepalg <> x:12 var
+R536:538 VST.msl.ageable <> age def
+R542:543 VST.msl.age_sepalg <> y':17 var
+R540:540 VST.msl.age_sepalg <> y:13 var
+R465:467 VST.msl.ageable <> age def
+R471:472 VST.msl.age_sepalg <> z':15 var
+R469:469 VST.msl.age_sepalg <> z:14 var
+R451:454 VST.msl.sepalg <> join def
+R460:460 VST.msl.age_sepalg <> z:14 var
+R458:458 VST.msl.age_sepalg <> y:13 var
+R456:456 VST.msl.age_sepalg <> x:12 var
+binder 567:567 <> x:19
+binder 570:571 <> x':20
+binder 573:574 <> y':21
+binder 576:577 <> z':22
+R594:597 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R606:613 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R614:620 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R624:625 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R623:623 VST.msl.age_sepalg <> A:1 var
+binder 621:621 <> y:23
+R626:632 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R636:637 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R635:635 VST.msl.age_sepalg <> A:1 var
+binder 633:633 <> z:24
+R648:651 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R638:641 VST.msl.sepalg <> join def
+R647:647 VST.msl.age_sepalg <> z:24 var
+R645:645 VST.msl.age_sepalg <> y:23 var
+R643:643 VST.msl.age_sepalg <> x:19 var
+R660:663 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R652:654 VST.msl.ageable <> age def
+R658:659 VST.msl.age_sepalg <> y':21 var
+R656:656 VST.msl.age_sepalg <> y:23 var
+R664:666 VST.msl.ageable <> age def
+R670:671 VST.msl.age_sepalg <> z':22 var
+R668:668 VST.msl.age_sepalg <> z:24 var
+R598:600 VST.msl.ageable <> age def
+R604:605 VST.msl.age_sepalg <> x':20 var
+R602:602 VST.msl.age_sepalg <> x:19 var
+R581:584 VST.msl.sepalg <> join def
+R592:593 VST.msl.age_sepalg <> z':22 var
+R589:590 VST.msl.age_sepalg <> y':21 var
+R586:587 VST.msl.age_sepalg <> x':20 var
+binder 696:696 <> z:26
+binder 699:700 <> x':27
+binder 702:703 <> y':28
+binder 705:706 <> z':29
+R723:726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R735:742 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R743:749 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R753:754 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R752:752 VST.msl.age_sepalg <> A:1 var
+binder 750:750 <> x:30
+R755:761 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R765:766 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R764:764 VST.msl.age_sepalg <> A:1 var
+binder 762:762 <> y:31
+R777:780 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R767:770 VST.msl.sepalg <> join def
+R776:776 VST.msl.age_sepalg <> z:26 var
+R774:774 VST.msl.age_sepalg <> y:31 var
+R772:772 VST.msl.age_sepalg <> x:30 var
+R789:792 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R781:783 VST.msl.ageable <> age def
+R787:788 VST.msl.age_sepalg <> x':27 var
+R785:785 VST.msl.age_sepalg <> x:30 var
+R793:795 VST.msl.ageable <> age def
+R799:800 VST.msl.age_sepalg <> y':28 var
+R797:797 VST.msl.age_sepalg <> y:31 var
+R727:729 VST.msl.ageable <> age def
+R733:734 VST.msl.age_sepalg <> z':29 var
+R731:731 VST.msl.age_sepalg <> z:26 var
+R710:713 VST.msl.sepalg <> join def
+R721:722 VST.msl.age_sepalg <> z':29 var
+R718:719 VST.msl.age_sepalg <> y':28 var
+R715:716 VST.msl.age_sepalg <> x':27 var
+prf 812:826 <> age1_None_joins
+binder 829:829 <> A:33
+R836:839 VST.msl.sepalg <> Join class
+R841:841 VST.msl.age_sepalg <> A:33 var
+binder 832:833 <> JA:34
+R848:855 VST.msl.sepalg <> Perm_alg class
+R857:857 VST.msl.age_sepalg <> A:33 var
+binder 844:845 <> PA:35
+R865:871 VST.msl.ageable <> ageable class
+R873:873 VST.msl.age_sepalg <> A:33 var
+binder 860:862 <> agA:36
+R880:886 VST.msl.age_sepalg <> Age_alg class
+R888:888 VST.msl.age_sepalg <> A:33 var
+binder 876:877 <> XA:37
+binder 899:902 <> phi1:38
+binder 904:907 <> phi2:39
+R925:928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R945:948 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R958:960 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R949:952 VST.msl.ageable <> age1 meth
+R954:957 VST.msl.age_sepalg <> phi2:39 var
+R961:964 Coq.Init.Datatypes <> None constr
+R938:940 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R929:932 VST.msl.ageable <> age1 meth
+R934:937 VST.msl.age_sepalg <> phi1:38 var
+R941:944 Coq.Init.Datatypes <> None constr
+R910:914 VST.msl.sepalg <> joins def
+R921:924 VST.msl.age_sepalg <> phi2:39 var
+R916:919 VST.msl.age_sepalg <> phi1:38 var
+R1009:1012 VST.msl.ageable <> age1 meth
+R1009:1012 VST.msl.ageable <> age1 meth
+R1047:1055 VST.msl.age_sepalg <> age1_join meth
+R1060:1068 VST.msl.sepalg <> join_comm meth
+R1047:1055 VST.msl.age_sepalg <> age1_join meth
+R1060:1068 VST.msl.sepalg <> join_comm meth
+R1114:1116 VST.msl.ageable <> age def
+prf 1162:1174 <> age1_joins_eq
+binder 1177:1177 <> A:40
+R1185:1188 VST.msl.sepalg <> Join class
+R1190:1190 VST.msl.age_sepalg <> A:40 var
+binder 1181:1182 <> JA:41
+R1197:1204 VST.msl.sepalg <> Perm_alg class
+R1206:1206 VST.msl.age_sepalg <> A:40 var
+binder 1193:1194 <> PA:42
+R1214:1220 VST.msl.ageable <> ageable class
+R1222:1222 VST.msl.age_sepalg <> A:40 var
+binder 1209:1211 <> agA:43
+R1229:1235 VST.msl.age_sepalg <> Age_alg class
+R1237:1237 VST.msl.age_sepalg <> A:40 var
+binder 1225:1226 <> XA:44
+binder 1248:1251 <> phi1:45
+binder 1253:1256 <> phi2:46
+R1282:1293 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 1301:1305 <> phi1':47
+R1330:1341 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 1349:1353 <> phi2':48
+R1378:1389 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1390:1394 VST.msl.sepalg <> joins def
+R1402:1406 VST.msl.age_sepalg <> phi2':48 var
+R1396:1400 VST.msl.age_sepalg <> phi1':47 var
+R1365:1367 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1356:1359 VST.msl.ageable <> age1 meth
+R1361:1364 VST.msl.age_sepalg <> phi2:46 var
+R1368:1371 Coq.Init.Datatypes <> Some constr
+R1373:1377 VST.msl.age_sepalg <> phi2':48 var
+R1317:1319 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1308:1311 VST.msl.ageable <> age1 meth
+R1313:1316 VST.msl.age_sepalg <> phi1:45 var
+R1320:1323 Coq.Init.Datatypes <> Some constr
+R1325:1329 VST.msl.age_sepalg <> phi1':47 var
+R1267:1271 VST.msl.sepalg <> joins def
+R1278:1281 VST.msl.age_sepalg <> phi2:46 var
+R1273:1276 VST.msl.age_sepalg <> phi1:45 var
+R1452:1460 VST.msl.age_sepalg <> age1_join meth
+R1452:1460 VST.msl.age_sepalg <> age1_join meth
+R1505:1507 VST.msl.ageable <> age def
+sec 1574:1582 <> BIJECTION
+var 1597:1597 BIJECTION A
+var 1599:1599 BIJECTION B
+var 1620:1621 BIJECTION JA
+R1624:1627 VST.msl.sepalg <> Join class
+R1629:1629 VST.msl.age_sepalg <> BIJECTION.A var
+var 1643:1644 BIJECTION PA
+R1647:1654 VST.msl.sepalg <> Perm_alg class
+R1656:1656 VST.msl.age_sepalg <> BIJECTION.A var
+var 1670:1671 BIJECTION ag
+R1674:1680 VST.msl.ageable <> ageable class
+R1682:1682 VST.msl.age_sepalg <> BIJECTION.A var
+var 1696:1700 BIJECTION bijAB
+R1703:1711 VST.msl.base <> bijection rec
+R1715:1715 VST.msl.age_sepalg <> BIJECTION.B var
+R1713:1713 VST.msl.age_sepalg <> BIJECTION.A var
+var 1729:1731 BIJECTION asa
+R1735:1741 VST.msl.age_sepalg <> Age_alg class
+R1743:1743 VST.msl.age_sepalg <> BIJECTION.A var
+inst 1783:1785 <> agB
+R1789:1795 VST.msl.ageable <> ageable class
+R1797:1797 VST.msl.age_sepalg <> BIJECTION.B var
+R1803:1808 VST.msl.ageable <> ag_bij def
+R1817:1821 VST.msl.age_sepalg <> BIJECTION.bijAB var
+R1814:1815 VST.msl.age_sepalg <> BIJECTION.ag var
+prf 1926:1938 <> asa_bijection
+R1943:1949 VST.msl.age_sepalg <> Age_alg class
+R1976:1978 VST.msl.age_sepalg <> agB inst
+R1954:1961 VST.msl.sepalg_generators <> Join_bij inst
+R1969:1973 VST.msl.age_sepalg <> BIJECTION.bijAB var
+R1951:1951 VST.msl.age_sepalg <> BIJECTION.B var
+R2014:2016 VST.msl.ageable <> age def
+R2019:2026 VST.msl.sepalg_generators <> Join_bij inst
+R2049:2053 VST.msl.age_sepalg <> BIJECTION.bijAB var
+R2049:2053 VST.msl.age_sepalg <> BIJECTION.bijAB var
+R2049:2053 VST.msl.age_sepalg <> BIJECTION.bijAB var
+R2049:2053 VST.msl.age_sepalg <> BIJECTION.bijAB var
+R2136:2139 VST.msl.ageable <> age1 meth
+R2136:2139 VST.msl.ageable <> age1 meth
+R2235:2243 VST.msl.age_sepalg <> age1_join meth
+R2235:2243 VST.msl.age_sepalg <> age1_join meth
+R2443:2446 VST.msl.ageable <> age1 meth
+R2443:2446 VST.msl.ageable <> age1 meth
+R2541:2550 VST.msl.age_sepalg <> age1_join2 meth
+R2541:2550 VST.msl.age_sepalg <> age1_join2 meth
+R2746:2749 VST.msl.ageable <> age1 meth
+R2746:2749 VST.msl.ageable <> age1 meth
+R2865:2874 VST.msl.age_sepalg <> unage_join meth
+R2865:2874 VST.msl.age_sepalg <> unage_join meth
+R3115:3118 VST.msl.ageable <> age1 meth
+R3115:3118 VST.msl.ageable <> age1 meth
+R3234:3244 VST.msl.age_sepalg <> unage_join2 meth
+R3234:3244 VST.msl.age_sepalg <> unage_join2 meth
+R3459:3467 VST.msl.age_sepalg BIJECTION <> sec
+sec 3479:3482 <> PROD
+var 3496:3496 PROD A
+var 3517:3519 PROD J_A
+R3522:3525 VST.msl.sepalg <> Join class
+R3527:3527 VST.msl.age_sepalg <> PROD.A var
+var 3541:3543 PROD saA
+R3547:3554 VST.msl.sepalg <> Perm_alg class
+R3556:3556 VST.msl.age_sepalg <> PROD.A var
+var 3570:3572 PROD agA
+R3576:3582 VST.msl.ageable <> ageable class
+R3584:3584 VST.msl.age_sepalg <> PROD.A var
+var 3598:3598 PROD B
+var 3618:3620 PROD J_B
+R3623:3626 VST.msl.sepalg <> Join class
+R3628:3628 VST.msl.age_sepalg <> PROD.B var
+var 3642:3644 PROD saB
+R3648:3655 VST.msl.sepalg <> Perm_alg class
+R3657:3657 VST.msl.age_sepalg <> PROD.B var
+var 3671:3673 PROD asa
+R3677:3683 VST.msl.age_sepalg <> Age_alg class
+R3685:3685 VST.msl.age_sepalg <> PROD.A var
+prf 3699:3706 <> asa_prod
+R3711:3717 VST.msl.age_sepalg <> Age_alg class
+R3733:3739 VST.msl.ageable <> ag_prod def
+R3745:3747 VST.msl.age_sepalg <> PROD.agA var
+R3743:3743 VST.msl.age_sepalg <> PROD.B var
+R3741:3741 VST.msl.age_sepalg <> PROD.A var
+R3720:3723 Coq.Init.Datatypes <> prod ind
+R3727:3727 VST.msl.age_sepalg <> PROD.B var
+R3725:3725 VST.msl.age_sepalg <> PROD.A var
+R3784:3786 VST.msl.ageable <> age def
+R3803:3811 VST.msl.sepalg_generators <> Join_prod inst
+R3915:3918 VST.msl.ageable <> age1 meth
+R3915:3918 VST.msl.ageable <> age1 meth
+R3955:3963 VST.msl.age_sepalg <> age1_join meth
+R3955:3963 VST.msl.age_sepalg <> age1_join meth
+R4010:4010 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4014:4014 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4017:4017 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4027:4027 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4031:4031 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4034:4034 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4010:4010 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4014:4014 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4017:4017 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4027:4027 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4031:4031 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4034:4034 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4188:4191 VST.msl.ageable <> age1 meth
+R4188:4191 VST.msl.ageable <> age1 meth
+R4228:4237 VST.msl.age_sepalg <> age1_join2 meth
+R4228:4237 VST.msl.age_sepalg <> age1_join2 meth
+R4284:4284 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4288:4288 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4291:4291 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4301:4301 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4305:4305 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4308:4308 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4284:4284 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4288:4288 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4291:4291 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4301:4301 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4305:4305 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4308:4308 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4466:4469 VST.msl.ageable <> age1 meth
+R4466:4469 VST.msl.ageable <> age1 meth
+R4506:4515 VST.msl.age_sepalg <> unage_join meth
+R4506:4515 VST.msl.age_sepalg <> unage_join meth
+R4560:4560 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4563:4563 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4567:4567 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4577:4577 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4580:4580 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4584:4584 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4560:4560 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4563:4563 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4567:4567 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4577:4577 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4580:4580 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4584:4584 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4747:4750 VST.msl.ageable <> age1 meth
+R4747:4750 VST.msl.ageable <> age1 meth
+R4787:4797 VST.msl.age_sepalg <> unage_join2 meth
+R4787:4797 VST.msl.age_sepalg <> unage_join2 meth
+R4842:4842 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4845:4845 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4849:4849 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4859:4859 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4862:4862 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4866:4866 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4842:4842 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4845:4845 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4849:4849 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4859:4859 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4862:4862 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4866:4866 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4935:4938 VST.msl.age_sepalg PROD <> sec
+sec 4950:4954 <> PROD'
+var 4968:4968 PROD' A
+var 4989:4991 PROD' J_A
+R4994:4997 VST.msl.sepalg <> Join class
+R4999:4999 VST.msl.age_sepalg <> PROD'.A var
+var 5013:5015 PROD' saA
+R5019:5026 VST.msl.sepalg <> Perm_alg class
+R5028:5028 VST.msl.age_sepalg <> PROD'.A var
+var 5042:5042 PROD' B
+var 5062:5064 PROD' J_B
+R5067:5070 VST.msl.sepalg <> Join class
+R5072:5072 VST.msl.age_sepalg <> PROD'.B var
+var 5086:5088 PROD' saB
+R5092:5099 VST.msl.sepalg <> Perm_alg class
+R5101:5101 VST.msl.age_sepalg <> PROD'.B var
+var 5115:5117 PROD' agB
+R5121:5127 VST.msl.ageable <> ageable class
+R5129:5129 VST.msl.age_sepalg <> PROD'.B var
+var 5143:5145 PROD' asb
+R5149:5155 VST.msl.age_sepalg <> Age_alg class
+R5157:5157 VST.msl.age_sepalg <> PROD'.B var
+prf 5172:5180 <> asa_prod'
+R5185:5191 VST.msl.age_sepalg <> Age_alg class
+R5207:5214 VST.msl.ageable <> ag_prod' def
+R5220:5222 VST.msl.age_sepalg <> PROD'.agB var
+R5218:5218 VST.msl.age_sepalg <> PROD'.B var
+R5216:5216 VST.msl.age_sepalg <> PROD'.A var
+R5194:5197 Coq.Init.Datatypes <> prod ind
+R5201:5201 VST.msl.age_sepalg <> PROD'.B var
+R5199:5199 VST.msl.age_sepalg <> PROD'.A var
+R5259:5261 VST.msl.ageable <> age def
+R5278:5286 VST.msl.sepalg_generators <> Join_prod inst
+R5390:5393 VST.msl.ageable <> age1 meth
+R5390:5393 VST.msl.ageable <> age1 meth
+R5430:5438 VST.msl.age_sepalg <> age1_join meth
+R5430:5438 VST.msl.age_sepalg <> age1_join meth
+R5486:5486 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5489:5489 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5493:5493 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5503:5503 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5506:5506 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5510:5510 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5486:5486 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5489:5489 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5493:5493 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5503:5503 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5506:5506 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5510:5510 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5664:5667 VST.msl.ageable <> age1 meth
+R5664:5667 VST.msl.ageable <> age1 meth
+R5704:5713 VST.msl.age_sepalg <> age1_join2 meth
+R5704:5713 VST.msl.age_sepalg <> age1_join2 meth
+R5761:5761 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5764:5764 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5768:5768 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5778:5778 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5781:5781 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5785:5785 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5761:5761 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5764:5764 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5768:5768 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5778:5778 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5781:5781 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5785:5785 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5943:5946 VST.msl.ageable <> age1 meth
+R5943:5946 VST.msl.ageable <> age1 meth
+R5983:5992 VST.msl.age_sepalg <> unage_join meth
+R5983:5992 VST.msl.age_sepalg <> unage_join meth
+R6038:6038 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6042:6042 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6045:6045 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6055:6055 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6059:6059 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6062:6062 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6038:6038 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6042:6042 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6045:6045 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6055:6055 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6059:6059 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6062:6062 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6225:6228 VST.msl.ageable <> age1 meth
+R6225:6228 VST.msl.ageable <> age1 meth
+R6265:6275 VST.msl.age_sepalg <> unage_join2 meth
+R6265:6275 VST.msl.age_sepalg <> unage_join2 meth
+R6321:6321 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6325:6325 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6328:6328 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6338:6338 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6342:6342 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6345:6345 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6321:6321 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6325:6325 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6328:6328 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6338:6338 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6342:6342 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6345:6345 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6414:6418 VST.msl.age_sepalg PROD' <> sec
+prf 6429:6442 <> joins_fashionR
+binder 6445:6445 <> A:72
+R6454:6457 VST.msl.sepalg <> Join class
+R6459:6459 VST.msl.age_sepalg <> A:72 var
+binder 6450:6451 <> JA:73
+R6466:6473 VST.msl.sepalg <> Perm_alg class
+R6475:6475 VST.msl.age_sepalg <> A:72 var
+binder 6462:6463 <> PA:74
+R6483:6489 VST.msl.ageable <> ageable class
+R6491:6491 VST.msl.age_sepalg <> A:72 var
+binder 6478:6480 <> agA:75
+R6498:6504 VST.msl.age_sepalg <> Age_alg class
+R6506:6506 VST.msl.age_sepalg <> A:72 var
+binder 6494:6495 <> XA:76
+binder 6518:6518 <> x:77
+binder 6520:6520 <> y:78
+R6534:6537 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6538:6545 VST.msl.ageable <> fashionR def
+R6549:6549 VST.msl.age_sepalg <> y:78 var
+R6547:6547 VST.msl.age_sepalg <> x:77 var
+R6525:6529 VST.msl.sepalg <> joins def
+R6533:6533 VST.msl.age_sepalg <> y:78 var
+R6531:6531 VST.msl.age_sepalg <> x:77 var
+R6572:6572 Coq.Init.Logic <> I constr
+R6572:6572 Coq.Init.Logic <> I constr
+R6594:6601 VST.msl.ageable <> fashionR def
+R6663:6675 VST.msl.ageable <> age_induction def
+R6663:6675 VST.msl.ageable <> age_induction def
+R6697:6700 VST.msl.ageable <> age1 meth
+R6697:6700 VST.msl.ageable <> age1 meth
+R6726:6734 VST.msl.age_sepalg <> age1_join meth
+R6726:6734 VST.msl.age_sepalg <> age1_join meth
+R6784:6786 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6777:6781 VST.msl.ageable <> level meth
+R6787:6791 VST.msl.ageable <> level meth
+R6784:6786 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6777:6781 VST.msl.ageable <> level meth
+R6787:6791 VST.msl.ageable <> level meth
+R6833:6837 VST.msl.ageable <> level meth
+R6848:6848 Coq.Init.Datatypes <> S constr
+R6851:6855 VST.msl.ageable <> level meth
+R6833:6837 VST.msl.ageable <> level meth
+R6848:6848 Coq.Init.Datatypes <> S constr
+R6851:6855 VST.msl.ageable <> level meth
+R6873:6877 VST.msl.ageable <> level meth
+R6888:6888 Coq.Init.Datatypes <> S constr
+R6891:6895 VST.msl.ageable <> level meth
+R6873:6877 VST.msl.ageable <> level meth
+R6888:6888 Coq.Init.Datatypes <> S constr
+R6891:6895 VST.msl.ageable <> level meth
+R6937:6945 VST.msl.ageable <> age_level thm
+R6937:6945 VST.msl.ageable <> age_level thm
+R6972:6980 VST.msl.ageable <> age_level thm
+R6972:6980 VST.msl.ageable <> age_level thm
+R7000:7003 VST.msl.ageable <> age1 meth
+R7000:7003 VST.msl.ageable <> age1 meth
+R7025:7033 VST.msl.sepalg <> join_comm meth
+R7025:7033 VST.msl.sepalg <> join_comm meth
+R7054:7062 VST.msl.age_sepalg <> age1_join meth
+R7054:7062 VST.msl.age_sepalg <> age1_join meth
+R7150:7160 VST.msl.ageable <> age1_level0 thm
+R7150:7160 VST.msl.ageable <> age1_level0 thm
+R7150:7160 VST.msl.ageable <> age1_level0 thm
+R7179:7189 VST.msl.ageable <> age1_level0 thm
+R7179:7189 VST.msl.ageable <> age1_level0 thm
+R7179:7189 VST.msl.ageable <> age1_level0 thm
+prf 7224:7242 <> comparable_fashionR
+binder 7245:7245 <> A:79
+R7253:7256 VST.msl.sepalg <> Join class
+R7258:7258 VST.msl.age_sepalg <> A:79 var
+binder 7249:7250 <> JA:80
+R7265:7272 VST.msl.sepalg <> Perm_alg class
+R7274:7274 VST.msl.age_sepalg <> A:79 var
+binder 7261:7262 <> PA:81
+R7281:7287 VST.msl.sepalg <> Sep_alg class
+R7289:7289 VST.msl.age_sepalg <> A:79 var
+binder 7277:7278 <> SA:82
+R7298:7304 VST.msl.ageable <> ageable class
+R7306:7306 VST.msl.age_sepalg <> A:79 var
+binder 7293:7295 <> agA:83
+R7314:7320 VST.msl.age_sepalg <> Age_alg class
+R7322:7322 VST.msl.age_sepalg <> A:79 var
+binder 7310:7311 <> XA:84
+binder 7334:7334 <> x:85
+binder 7336:7336 <> y:86
+R7355:7358 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7359:7366 VST.msl.ageable <> fashionR def
+R7370:7370 VST.msl.age_sepalg <> y:86 var
+R7368:7368 VST.msl.age_sepalg <> x:85 var
+R7341:7350 VST.msl.sepalg <> comparable def
+R7354:7354 VST.msl.age_sepalg <> y:86 var
+R7352:7352 VST.msl.age_sepalg <> x:85 var
+R7398:7419 VST.msl.sepalg <> comparable_common_unit thm
+R7398:7419 VST.msl.sepalg <> comparable_common_unit thm
+R7477:7481 VST.msl.ageable <> level meth
+R7477:7481 VST.msl.ageable <> level meth
+R7495:7508 VST.msl.age_sepalg <> joins_fashionR thm
+R7495:7508 VST.msl.age_sepalg <> joins_fashionR thm
+R7538:7551 VST.msl.age_sepalg <> joins_fashionR thm
+R7538:7551 VST.msl.age_sepalg <> joins_fashionR thm
+prf 7573:7584 <> age_identity
+binder 7587:7587 <> A:87
+R7598:7604 VST.msl.age_sepalg <> Age_alg class
+R7606:7606 VST.msl.age_sepalg <> A:87 var
+binder 7592:7595 <> asaA:90
+binder 7617:7619 <> phi:91
+binder 7621:7624 <> phi':92
+R7639:7645 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7658:7661 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7662:7669 VST.msl.sepalg <> identity def
+R7671:7674 VST.msl.age_sepalg <> phi':92 var
+R7646:7653 VST.msl.sepalg <> identity def
+R7655:7657 VST.msl.age_sepalg <> phi:91 var
+R7627:7629 VST.msl.ageable <> age def
+R7635:7638 VST.msl.age_sepalg <> phi':92 var
+R7631:7633 VST.msl.age_sepalg <> phi:91 var
+R7699:7706 VST.msl.sepalg <> identity def
+R7732:7741 VST.msl.age_sepalg <> unage_join meth
+R7732:7741 VST.msl.age_sepalg <> unage_join meth
+R7812:7814 VST.msl.ageable <> age def
+prf 7846:7859 <> age_comparable
+binder 7862:7862 <> A:93
+R7870:7873 VST.msl.sepalg <> Join class
+R7875:7875 VST.msl.age_sepalg <> A:93 var
+binder 7866:7867 <> JA:94
+R7882:7889 VST.msl.sepalg <> Perm_alg class
+R7891:7891 VST.msl.age_sepalg <> A:93 var
+binder 7878:7879 <> PA:95
+R7898:7904 VST.msl.sepalg <> Sep_alg class
+R7906:7906 VST.msl.age_sepalg <> A:93 var
+binder 7894:7895 <> SA:96
+R7915:7921 VST.msl.ageable <> ageable class
+R7923:7923 VST.msl.age_sepalg <> A:93 var
+binder 7910:7912 <> agA:97
+R7932:7938 VST.msl.age_sepalg <> Age_alg class
+R7940:7940 VST.msl.age_sepalg <> A:93 var
+binder 7926:7929 <> asaA:98
+binder 7955:7958 <> phi1:99
+binder 7960:7963 <> phi2:100
+binder 7965:7969 <> phi1':101
+binder 7971:7975 <> phi2':102
+R7992:7995 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8010:8019 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8040:8043 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8044:8053 VST.msl.sepalg <> comparable def
+R8061:8065 VST.msl.age_sepalg <> phi2':102 var
+R8055:8059 VST.msl.age_sepalg <> phi1':101 var
+R8020:8029 VST.msl.sepalg <> comparable def
+R8036:8039 VST.msl.age_sepalg <> phi2:100 var
+R8031:8034 VST.msl.age_sepalg <> phi1:99 var
+R7996:7998 VST.msl.ageable <> age def
+R8005:8009 VST.msl.age_sepalg <> phi2':102 var
+R8000:8003 VST.msl.age_sepalg <> phi2:100 var
+R7978:7980 VST.msl.ageable <> age def
+R7987:7991 VST.msl.age_sepalg <> phi1':101 var
+R7982:7985 VST.msl.age_sepalg <> phi1:99 var
+R8097:8118 VST.msl.sepalg <> comparable_common_unit thm
+R8097:8118 VST.msl.sepalg <> comparable_common_unit thm
+R8150:8158 VST.msl.age_sepalg <> age1_join meth
+R8163:8171 VST.msl.sepalg <> join_comm meth
+R8150:8158 VST.msl.age_sepalg <> age1_join meth
+R8163:8171 VST.msl.sepalg <> join_comm meth
+R8214:8222 VST.msl.age_sepalg <> age1_join meth
+R8227:8235 VST.msl.sepalg <> join_comm meth
+R8214:8222 VST.msl.age_sepalg <> age1_join meth
+R8227:8235 VST.msl.sepalg <> join_comm meth
+R8278:8278 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8293:8295 VST.msl.ageable <> age def
+R8278:8278 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8336:8336 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8355:8357 VST.msl.ageable <> age def
+R8336:8336 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8398:8398 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8417:8419 VST.msl.ageable <> age def
+R8398:8398 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8457:8478 VST.msl.sepalg <> common_unit_comparable thm
+R8457:8478 VST.msl.sepalg <> common_unit_comparable thm
+R8508:8516 VST.msl.sepalg <> join_comm meth
+R8508:8516 VST.msl.sepalg <> join_comm meth
+R8508:8516 VST.msl.sepalg <> join_comm meth
+prf 8539:8545 <> asa_nat
+R8550:8556 VST.msl.age_sepalg <> Age_alg class
+R8579:8584 VST.msl.ageable <> ag_nat def
+R8563:8572 VST.msl.sepalg_generators <> Join_equiv inst
+R8574:8576 Coq.Init.Datatypes <> nat ind
+R8558:8560 Coq.Init.Datatypes <> nat ind
+prf 8948:8959 <> nec_identity
+binder 8962:8962 <> A:103
+R8973:8979 VST.msl.age_sepalg <> Age_alg class
+R8981:8981 VST.msl.age_sepalg <> A:103 var
+binder 8967:8970 <> asaA:106
+binder 8992:8994 <> phi:107
+binder 8996:8999 <> phi':108
+R9015:9021 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9034:9037 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9038:9045 VST.msl.sepalg <> identity def
+R9047:9050 VST.msl.age_sepalg <> phi':108 var
+R9022:9029 VST.msl.sepalg <> identity def
+R9031:9033 VST.msl.age_sepalg <> phi:107 var
+R9002:9005 VST.msl.ageable <> necR def
+R9011:9014 VST.msl.age_sepalg <> phi':108 var
+R9007:9009 VST.msl.age_sepalg <> phi:107 var
+R9089:9100 VST.msl.age_sepalg <> age_identity thm
+R9089:9100 VST.msl.age_sepalg <> age_identity thm
+prf 9121:9129 <> nec_join2
+binder 9132:9132 <> A:109
+R9144:9150 VST.msl.age_sepalg <> Age_alg class
+R9152:9152 VST.msl.age_sepalg <> A:109 var
+binder 9137:9140 <> asaA:112
+R9175:9175 VST.msl.age_sepalg <> A:109 var
+binder 9164:9164 <> x:113
+binder 9166:9166 <> y:114
+binder 9168:9168 <> z:115
+binder 9170:9171 <> z':116
+R9196:9206 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9216:9226 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9227:9233 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9236:9246 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9234:9235 <> x':117
+R9247:9253 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9256:9268 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9254:9255 <> y':118
+R9282:9285 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9269:9272 VST.msl.sepalg <> join def
+R9280:9281 VST.msl.age_sepalg <> z':116 var
+R9277:9278 VST.msl.age_sepalg <> y':118 var
+R9274:9275 VST.msl.age_sepalg <> x':117 var
+R9295:9298 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9286:9289 VST.msl.ageable <> necR def
+R9293:9294 VST.msl.age_sepalg <> x':117 var
+R9291:9291 VST.msl.age_sepalg <> x:113 var
+R9299:9302 VST.msl.ageable <> necR def
+R9306:9307 VST.msl.age_sepalg <> y':118 var
+R9304:9304 VST.msl.age_sepalg <> y:114 var
+R9207:9210 VST.msl.ageable <> necR def
+R9214:9215 VST.msl.age_sepalg <> z':116 var
+R9212:9212 VST.msl.age_sepalg <> z:115 var
+R9186:9189 VST.msl.sepalg <> join def
+R9195:9195 VST.msl.age_sepalg <> z:115 var
+R9193:9193 VST.msl.age_sepalg <> y:114 var
+R9191:9191 VST.msl.age_sepalg <> x:113 var
+R9372:9381 VST.msl.age_sepalg <> age1_join2 meth
+prf 9714:9721 <> nec_join
+binder 9724:9724 <> A:119
+R9736:9742 VST.msl.age_sepalg <> Age_alg class
+R9744:9744 VST.msl.age_sepalg <> A:119 var
+binder 9729:9732 <> asaA:122
+R9767:9767 VST.msl.age_sepalg <> A:119 var
+binder 9756:9756 <> x:123
+binder 9758:9758 <> y:124
+binder 9760:9760 <> z:125
+binder 9762:9763 <> x':126
+R9788:9798 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9808:9818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9819:9825 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9828:9839 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9826:9827 <> y':127
+R9840:9846 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9849:9862 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9847:9848 <> z':128
+R9876:9879 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9863:9866 VST.msl.sepalg <> join def
+R9874:9875 VST.msl.age_sepalg <> z':128 var
+R9871:9872 VST.msl.age_sepalg <> y':127 var
+R9868:9869 VST.msl.age_sepalg <> x':126 var
+R9889:9892 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9880:9883 VST.msl.ageable <> necR def
+R9887:9888 VST.msl.age_sepalg <> y':127 var
+R9885:9885 VST.msl.age_sepalg <> y:124 var
+R9893:9896 VST.msl.ageable <> necR def
+R9900:9901 VST.msl.age_sepalg <> z':128 var
+R9898:9898 VST.msl.age_sepalg <> z:125 var
+R9799:9802 VST.msl.ageable <> necR def
+R9806:9807 VST.msl.age_sepalg <> x':126 var
+R9804:9804 VST.msl.age_sepalg <> x:123 var
+R9778:9781 VST.msl.sepalg <> join def
+R9787:9787 VST.msl.age_sepalg <> z:125 var
+R9785:9785 VST.msl.age_sepalg <> y:124 var
+R9783:9783 VST.msl.age_sepalg <> x:123 var
+R9965:9973 VST.msl.age_sepalg <> age1_join meth
+prf 10304:10312 <> nec_join4
+binder 10315:10315 <> A:129
+R10327:10333 VST.msl.age_sepalg <> Age_alg class
+R10335:10335 VST.msl.age_sepalg <> A:129 var
+binder 10320:10323 <> asaA:132
+R10359:10359 VST.msl.age_sepalg <> A:129 var
+binder 10346:10346 <> z:133
+binder 10348:10349 <> x':134
+binder 10351:10352 <> y':135
+binder 10354:10355 <> z':136
+R10382:10392 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10402:10412 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10413:10419 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10421:10431 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 10420:10420 <> x:137
+R10432:10438 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10440:10452 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 10439:10439 <> y:138
+R10463:10466 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10453:10456 VST.msl.sepalg <> join def
+R10462:10462 VST.msl.age_sepalg <> z:133 var
+R10460:10460 VST.msl.age_sepalg <> y:138 var
+R10458:10458 VST.msl.age_sepalg <> x:137 var
+R10476:10479 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10467:10470 VST.msl.ageable <> necR def
+R10474:10475 VST.msl.age_sepalg <> x':134 var
+R10472:10472 VST.msl.age_sepalg <> x:137 var
+R10480:10483 VST.msl.ageable <> necR def
+R10487:10488 VST.msl.age_sepalg <> y':135 var
+R10485:10485 VST.msl.age_sepalg <> y:138 var
+R10393:10396 VST.msl.ageable <> necR def
+R10400:10401 VST.msl.age_sepalg <> z':136 var
+R10398:10398 VST.msl.age_sepalg <> z:133 var
+R10369:10372 VST.msl.sepalg <> join def
+R10380:10381 VST.msl.age_sepalg <> z':136 var
+R10377:10378 VST.msl.age_sepalg <> y':135 var
+R10374:10375 VST.msl.age_sepalg <> x':134 var
+R10554:10564 VST.msl.age_sepalg <> unage_join2 meth
+R10554:10564 VST.msl.age_sepalg <> unage_join2 meth
+prf 10935:10944 <> join_level
+binder 10947:10947 <> A:139
+R10954:10957 VST.msl.sepalg <> Join class
+R10959:10959 VST.msl.age_sepalg <> A:139 var
+binder 10950:10951 <> JA:140
+R10966:10973 VST.msl.sepalg <> Perm_alg class
+R10975:10975 VST.msl.age_sepalg <> A:139 var
+binder 10962:10963 <> PA:141
+R10982:10988 VST.msl.ageable <> ageable class
+R10990:10990 VST.msl.age_sepalg <> A:139 var
+binder 10978:10979 <> AG:142
+R10999:11005 VST.msl.age_sepalg <> Age_alg class
+R11007:11007 VST.msl.age_sepalg <> A:139 var
+binder 10993:10996 <> AgeA:143
+binder 11020:11020 <> x:144
+binder 11022:11022 <> y:145
+binder 11024:11024 <> z:146
+R11037:11040 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11058:11061 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11048:11050 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11041:11045 VST.msl.ageable <> level meth
+R11047:11047 VST.msl.age_sepalg <> x:144 var
+R11051:11055 VST.msl.ageable <> level meth
+R11057:11057 VST.msl.age_sepalg <> z:146 var
+R11069:11071 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11062:11066 VST.msl.ageable <> level meth
+R11068:11068 VST.msl.age_sepalg <> y:145 var
+R11072:11076 VST.msl.ageable <> level meth
+R11078:11078 VST.msl.age_sepalg <> z:146 var
+R11027:11030 VST.msl.sepalg <> join def
+R11036:11036 VST.msl.age_sepalg <> z:146 var
+R11034:11034 VST.msl.age_sepalg <> y:145 var
+R11032:11032 VST.msl.age_sepalg <> x:144 var
+R11108:11114 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11116:11117 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 11115:11115 <> n:147
+R11119:11121 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11118:11118 VST.msl.age_sepalg <> n:147 var
+R11122:11126 VST.msl.ageable <> level meth
+R11108:11114 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11116:11117 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 11115:11115 <> n:148
+R11119:11121 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11118:11118 VST.msl.age_sepalg <> n:148 var
+R11122:11126 VST.msl.ageable <> level meth
+R11236:11240 VST.msl.ageable <> level meth
+R11236:11240 VST.msl.ageable <> level meth
+R11265:11269 VST.msl.ageable <> level meth
+R11265:11269 VST.msl.ageable <> level meth
+R11316:11326 VST.msl.ageable <> levelS_age1 thm
+R11316:11326 VST.msl.ageable <> levelS_age1 thm
+R11349:11358 VST.msl.age_sepalg <> age1_join2 meth
+R11349:11358 VST.msl.age_sepalg <> age1_join2 meth
+R11398:11406 VST.msl.ageable <> age_level thm
+R11398:11406 VST.msl.ageable <> age_level thm
+R11439:11449 VST.msl.ageable <> levelS_age1 thm
+R11439:11449 VST.msl.ageable <> levelS_age1 thm
+R11472:11480 VST.msl.age_sepalg <> age1_join meth
+R11485:11493 VST.msl.sepalg <> join_comm meth
+R11472:11480 VST.msl.age_sepalg <> age1_join meth
+R11485:11493 VST.msl.sepalg <> join_comm meth
+R11532:11540 VST.msl.ageable <> age_level thm
+R11532:11540 VST.msl.ageable <> age_level thm
+R11591:11601 VST.msl.ageable <> levelS_age1 thm
+R11591:11601 VST.msl.ageable <> levelS_age1 thm
+R11634:11642 VST.msl.age_sepalg <> age1_join meth
+R11634:11642 VST.msl.age_sepalg <> age1_join meth
+R11713:11721 VST.msl.ageable <> age_level thm
+R11713:11721 VST.msl.ageable <> age_level thm
+R11736:11744 VST.msl.ageable <> age_level thm
+R11736:11744 VST.msl.ageable <> age_level thm
+R11759:11767 VST.msl.ageable <> age_level thm
+R11759:11767 VST.msl.ageable <> age_level thm
+prf 11844:11853 <> level_core
+binder 11856:11856 <> A:149
+R11863:11866 VST.msl.sepalg <> Join class
+R11868:11868 VST.msl.age_sepalg <> A:149 var
+binder 11859:11860 <> JA:150
+R11875:11882 VST.msl.sepalg <> Perm_alg class
+R11884:11884 VST.msl.age_sepalg <> A:149 var
+binder 11871:11872 <> PA:151
+R11891:11897 VST.msl.sepalg <> Sep_alg class
+R11899:11899 VST.msl.age_sepalg <> A:149 var
+binder 11887:11888 <> SA:152
+R11907:11913 VST.msl.ageable <> ageable class
+R11915:11915 VST.msl.age_sepalg <> A:149 var
+binder 11902:11904 <> agA:153
+R11924:11930 VST.msl.age_sepalg <> Age_alg class
+R11932:11932 VST.msl.age_sepalg <> A:149 var
+binder 11918:11921 <> AgeA:154
+R11950:11950 VST.msl.age_sepalg <> A:149 var
+binder 11948:11948 <> m:155
+R11967:11969 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11953:11957 VST.msl.ageable <> level meth
+R11960:11963 VST.msl.sepalg <> core meth
+R11965:11965 VST.msl.age_sepalg <> m:155 var
+R11970:11974 VST.msl.ageable <> level meth
+R11976:11976 VST.msl.age_sepalg <> m:155 var
+R12009:12017 VST.msl.sepalg <> core_unit meth
+R12030:12037 VST.msl.sepalg <> unit_for def
+R12009:12017 VST.msl.sepalg <> core_unit meth
+R12055:12064 VST.msl.age_sepalg <> join_level thm
+R12055:12064 VST.msl.age_sepalg <> join_level thm
+prf 12096:12106 <> age_core_eq
+binder 12109:12109 <> A:156
+R12116:12119 VST.msl.sepalg <> Join class
+R12121:12121 VST.msl.age_sepalg <> A:156 var
+binder 12112:12113 <> JA:157
+R12128:12135 VST.msl.sepalg <> Perm_alg class
+R12137:12137 VST.msl.age_sepalg <> A:156 var
+binder 12124:12125 <> PA:158
+R12144:12150 VST.msl.sepalg <> Sep_alg class
+R12152:12152 VST.msl.age_sepalg <> A:156 var
+binder 12140:12141 <> SA:159
+R12160:12166 VST.msl.ageable <> ageable class
+R12168:12168 VST.msl.age_sepalg <> A:156 var
+binder 12155:12157 <> agA:160
+R12177:12183 VST.msl.age_sepalg <> Age_alg class
+R12185:12185 VST.msl.age_sepalg <> A:156 var
+binder 12171:12174 <> AgeA:161
+binder 12198:12198 <> x:162
+binder 12200:12200 <> y:163
+binder 12202:12203 <> x':164
+binder 12205:12206 <> y':165
+R12217:12220 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12229:12232 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12248:12251 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12259:12261 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12252:12255 VST.msl.sepalg <> core meth
+R12257:12258 VST.msl.age_sepalg <> x':164 var
+R12262:12265 VST.msl.sepalg <> core meth
+R12267:12268 VST.msl.age_sepalg <> y':165 var
+R12239:12241 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12233:12236 VST.msl.sepalg <> core meth
+R12238:12238 VST.msl.age_sepalg <> x:162 var
+R12242:12245 VST.msl.sepalg <> core meth
+R12247:12247 VST.msl.age_sepalg <> y:163 var
+R12221:12223 VST.msl.ageable <> age def
+R12227:12228 VST.msl.age_sepalg <> y':165 var
+R12225:12225 VST.msl.age_sepalg <> y:163 var
+R12209:12211 VST.msl.ageable <> age def
+R12215:12216 VST.msl.age_sepalg <> x':164 var
+R12213:12213 VST.msl.age_sepalg <> x:162 var
+R12300:12308 VST.msl.sepalg <> core_unit meth
+R12321:12328 VST.msl.sepalg <> unit_for def
+R12300:12308 VST.msl.sepalg <> core_unit meth
+R12344:12352 VST.msl.sepalg <> join_comm meth
+R12344:12352 VST.msl.sepalg <> join_comm meth
+R12374:12382 VST.msl.sepalg <> core_unit meth
+R12395:12402 VST.msl.sepalg <> unit_for def
+R12374:12382 VST.msl.sepalg <> core_unit meth
+R12418:12426 VST.msl.sepalg <> join_comm meth
+R12418:12426 VST.msl.sepalg <> join_comm meth
+R12446:12454 VST.msl.age_sepalg <> age1_join meth
+R12446:12454 VST.msl.age_sepalg <> age1_join meth
+R12497:12505 VST.msl.age_sepalg <> age1_join meth
+R12497:12505 VST.msl.age_sepalg <> age1_join meth
+R12546:12548 VST.msl.ageable <> age def
+R12658:12667 VST.msl.sepalg <> join_core2 thm
+R12658:12667 VST.msl.sepalg <> join_core2 thm
+R12682:12691 VST.msl.sepalg <> join_core2 thm
+R12682:12691 VST.msl.sepalg <> join_core2 thm
+prf 12726:12733 <> age_twin
+binder 12736:12736 <> A:166
+R12745:12748 VST.msl.sepalg <> Join class
+R12750:12750 VST.msl.age_sepalg <> A:166 var
+binder 12741:12742 <> JA:167
+R12757:12764 VST.msl.sepalg <> Perm_alg class
+R12766:12766 VST.msl.age_sepalg <> A:166 var
+binder 12753:12754 <> PA:168
+R12773:12779 VST.msl.sepalg <> Sep_alg class
+R12781:12781 VST.msl.age_sepalg <> A:166 var
+binder 12769:12770 <> SA:169
+R12788:12794 VST.msl.ageable <> ageable class
+R12796:12796 VST.msl.age_sepalg <> A:166 var
+binder 12784:12785 <> AG:170
+R12803:12809 VST.msl.age_sepalg <> Age_alg class
+R12811:12811 VST.msl.age_sepalg <> A:166 var
+binder 12799:12800 <> XA:171
+binder 12824:12827 <> phi1:172
+binder 12829:12832 <> phi2:173
+binder 12834:12834 <> n:174
+binder 12836:12840 <> phi1':175
+R12868:12873 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12898:12903 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12904:12910 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12916:12917 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12911:12915 <> phi2':176
+R12942:12945 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12929:12931 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12918:12921 VST.msl.ageable <> ageN def
+R12925:12928 VST.msl.age_sepalg <> phi2:173 var
+R12923:12923 VST.msl.age_sepalg <> n:174 var
+R12932:12935 Coq.Init.Datatypes <> Some constr
+R12937:12941 VST.msl.age_sepalg <> phi2':176 var
+R12957:12959 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12946:12950 VST.msl.ageable <> level meth
+R12952:12956 VST.msl.age_sepalg <> phi1':175 var
+R12960:12964 VST.msl.ageable <> level meth
+R12966:12970 VST.msl.age_sepalg <> phi2':176 var
+R12885:12887 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12874:12877 VST.msl.ageable <> ageN def
+R12881:12884 VST.msl.age_sepalg <> phi1:172 var
+R12879:12879 VST.msl.age_sepalg <> n:174 var
+R12888:12891 Coq.Init.Datatypes <> Some constr
+R12893:12897 VST.msl.age_sepalg <> phi1':175 var
+R12855:12857 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12845:12849 VST.msl.ageable <> level meth
+R12851:12854 VST.msl.age_sepalg <> phi1:172 var
+R12858:12862 VST.msl.ageable <> level meth
+R12864:12867 VST.msl.age_sepalg <> phi2:173 var
+R13109:13112 VST.msl.ageable <> ageN def
+R13154:13157 VST.msl.ageable <> age1 meth
+R13154:13157 VST.msl.ageable <> age1 meth
+R13219:13225 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13231:13232 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 13226:13230 <> ophi2:177
+R13247:13250 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13233:13235 VST.msl.ageable <> age def
+R13242:13246 VST.msl.age_sepalg <> ophi2:177 var
+R13260:13262 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13251:13255 VST.msl.ageable <> level meth
+R13263:13267 VST.msl.ageable <> level meth
+R13269:13273 VST.msl.age_sepalg <> ophi2:177 var
+R13219:13225 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13231:13232 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 13226:13230 <> ophi2:178
+R13247:13250 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13233:13235 VST.msl.ageable <> age def
+R13242:13246 VST.msl.age_sepalg <> ophi2:178 var
+R13260:13262 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13251:13255 VST.msl.ageable <> level meth
+R13263:13267 VST.msl.ageable <> level meth
+R13269:13273 VST.msl.age_sepalg <> ophi2:178 var
+R13289:13297 VST.msl.ageable <> age_level thm
+R13289:13297 VST.msl.ageable <> age_level thm
+R13338:13348 VST.msl.ageable <> levelS_age1 thm
+R13338:13348 VST.msl.ageable <> levelS_age1 thm
+R13408:13416 VST.msl.ageable <> age_level thm
+R13431:13439 VST.msl.ageable <> age_level thm
+R13408:13416 VST.msl.ageable <> age_level thm
+R13431:13439 VST.msl.ageable <> age_level thm
+R13581:13584 VST.msl.ageable <> ageN def
+prf 13627:13638 <> age1_join_eq
+binder 13641:13641 <> A:179
+R13650:13653 VST.msl.sepalg <> Join class
+R13655:13655 VST.msl.age_sepalg <> A:179 var
+binder 13646:13647 <> JA:180
+R13662:13669 VST.msl.sepalg <> Perm_alg class
+R13671:13671 VST.msl.age_sepalg <> A:179 var
+binder 13658:13659 <> PA:181
+R13679:13685 VST.msl.ageable <> ageable class
+R13687:13687 VST.msl.age_sepalg <> A:179 var
+binder 13674:13676 <> agA:182
+R13696:13702 VST.msl.age_sepalg <> Age_alg class
+R13704:13704 VST.msl.age_sepalg <> A:179 var
+binder 13690:13693 <> AgeA:183
+binder 13716:13719 <> phi1:184
+binder 13721:13724 <> phi2:185
+binder 13726:13729 <> phi3:186
+R13759:13770 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 13778:13782 <> phi1':187
+R13807:13818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 13826:13830 <> phi2':188
+R13855:13866 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 13874:13878 <> phi3':189
+R13903:13914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13915:13918 VST.msl.sepalg <> join def
+R13932:13936 VST.msl.age_sepalg <> phi3':189 var
+R13926:13930 VST.msl.age_sepalg <> phi2':188 var
+R13920:13924 VST.msl.age_sepalg <> phi1':187 var
+R13890:13892 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13881:13884 VST.msl.ageable <> age1 meth
+R13886:13889 VST.msl.age_sepalg <> phi3:186 var
+R13893:13896 Coq.Init.Datatypes <> Some constr
+R13898:13902 VST.msl.age_sepalg <> phi3':189 var
+R13842:13844 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13833:13836 VST.msl.ageable <> age1 meth
+R13838:13841 VST.msl.age_sepalg <> phi2:185 var
+R13845:13848 Coq.Init.Datatypes <> Some constr
+R13850:13854 VST.msl.age_sepalg <> phi2':188 var
+R13794:13796 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13785:13788 VST.msl.ageable <> age1 meth
+R13790:13793 VST.msl.age_sepalg <> phi1:184 var
+R13797:13800 Coq.Init.Datatypes <> Some constr
+R13802:13806 VST.msl.age_sepalg <> phi1':187 var
+R13740:13743 VST.msl.sepalg <> join def
+R13755:13758 VST.msl.age_sepalg <> phi3:186 var
+R13750:13753 VST.msl.age_sepalg <> phi2:185 var
+R13745:13748 VST.msl.age_sepalg <> phi1:184 var
+R14012:14020 VST.msl.age_sepalg <> age1_join meth
+R14012:14020 VST.msl.age_sepalg <> age1_join meth
+R14063:14065 VST.msl.ageable <> age def
+prf 14185:14198 <> strong_nat_ind
+R14208:14211 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14205:14207 Coq.Init.Datatypes <> nat ind
+binder 14201:14201 <> P:190
+binder 14231:14231 <> n:191
+R14234:14234 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14258:14262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14263:14263 VST.msl.age_sepalg <> P:190 var
+R14265:14265 VST.msl.age_sepalg <> n:191 var
+binder 14242:14242 <> i:192
+R14251:14254 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14255:14255 VST.msl.age_sepalg <> P:190 var
+R14257:14257 VST.msl.age_sepalg <> i:192 var
+R14245:14246 Coq.Init.Peano <> lt def
+R14250:14250 VST.msl.age_sepalg <> n:191 var
+R14248:14248 VST.msl.age_sepalg <> i:192 var
+binder 14219:14220 <> IH:193
+binder 14268:14268 <> n:194
+R14272:14272 VST.msl.age_sepalg <> P:190 var
+R14274:14274 VST.msl.age_sepalg <> n:194 var
+prf 14355:14362 <> age_core
+binder 14365:14365 <> A:195
+R14372:14375 VST.msl.sepalg <> Join class
+R14377:14377 VST.msl.age_sepalg <> A:195 var
+binder 14368:14369 <> JA:196
+R14384:14391 VST.msl.sepalg <> Perm_alg class
+R14393:14393 VST.msl.age_sepalg <> A:195 var
+binder 14380:14381 <> PA:197
+R14400:14406 VST.msl.sepalg <> Sep_alg class
+R14408:14408 VST.msl.age_sepalg <> A:195 var
+binder 14396:14397 <> SA:198
+R14416:14422 VST.msl.ageable <> ageable class
+R14424:14424 VST.msl.age_sepalg <> A:195 var
+binder 14411:14413 <> agA:199
+R14433:14439 VST.msl.age_sepalg <> Age_alg class
+R14441:14441 VST.msl.age_sepalg <> A:195 var
+binder 14427:14430 <> AgeA:200
+R14460:14460 VST.msl.age_sepalg <> A:195 var
+binder 14454:14454 <> x:201
+binder 14456:14456 <> y:202
+R14470:14473 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14474:14476 VST.msl.ageable <> age def
+R14488:14491 VST.msl.sepalg <> core meth
+R14493:14493 VST.msl.age_sepalg <> y:202 var
+R14479:14482 VST.msl.sepalg <> core meth
+R14484:14484 VST.msl.age_sepalg <> x:201 var
+R14463:14465 VST.msl.ageable <> age def
+R14469:14469 VST.msl.age_sepalg <> y:202 var
+R14467:14467 VST.msl.age_sepalg <> x:201 var
+R14520:14522 VST.msl.ageable <> age def
+R14543:14551 VST.msl.sepalg <> core_unit meth
+R14543:14551 VST.msl.sepalg <> core_unit meth
+R14565:14572 VST.msl.sepalg <> unit_for def
+R14592:14601 VST.msl.age_sepalg <> age1_join2 meth
+R14592:14601 VST.msl.age_sepalg <> age1_join2 meth
+R14641:14643 VST.msl.ageable <> age def
+R14689:14697 VST.msl.sepalg <> core_unit meth
+R14689:14697 VST.msl.sepalg <> core_unit meth
+R14713:14715 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14716:14719 VST.msl.sepalg <> core meth
+R14713:14715 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14716:14719 VST.msl.sepalg <> core meth
+R14749:14761 VST.msl.sepalg <> same_identity thm
+R14749:14761 VST.msl.sepalg <> same_identity thm
+R14781:14792 VST.msl.age_sepalg <> age_identity thm
+R14781:14792 VST.msl.age_sepalg <> age_identity thm
+R14811:14823 VST.msl.sepalg <> core_identity thm
+R14811:14823 VST.msl.sepalg <> core_identity thm
+R14835:14847 VST.msl.sepalg <> core_identity thm
+R14835:14847 VST.msl.sepalg <> core_identity thm
+prf 14862:14870 <> necR_core
+binder 14873:14873 <> A:203
+R14880:14883 VST.msl.sepalg <> Join class
+R14885:14885 VST.msl.age_sepalg <> A:203 var
+binder 14876:14877 <> JA:204
+R14892:14899 VST.msl.sepalg <> Perm_alg class
+R14901:14901 VST.msl.age_sepalg <> A:203 var
+binder 14888:14889 <> PA:205
+R14908:14914 VST.msl.sepalg <> Sep_alg class
+R14916:14916 VST.msl.age_sepalg <> A:203 var
+binder 14904:14905 <> SA:206
+R14924:14930 VST.msl.ageable <> ageable class
+R14932:14932 VST.msl.age_sepalg <> A:203 var
+binder 14919:14921 <> agA:207
+R14941:14947 VST.msl.age_sepalg <> Age_alg class
+R14949:14949 VST.msl.age_sepalg <> A:203 var
+binder 14935:14938 <> AgeA:208
+R14968:14968 VST.msl.age_sepalg <> A:203 var
+binder 14962:14962 <> x:209
+binder 14964:14964 <> y:210
+R14979:14982 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14983:14986 VST.msl.ageable <> necR def
+R14998:15001 VST.msl.sepalg <> core meth
+R15003:15003 VST.msl.age_sepalg <> y:210 var
+R14989:14992 VST.msl.sepalg <> core meth
+R14994:14994 VST.msl.age_sepalg <> x:209 var
+R14971:14974 VST.msl.ageable <> necR def
+R14978:14978 VST.msl.age_sepalg <> y:210 var
+R14976:14976 VST.msl.age_sepalg <> x:209 var
+R15050:15057 VST.msl.age_sepalg <> age_core thm
+R15050:15057 VST.msl.age_sepalg <> age_core thm
+R15103:15106 VST.msl.sepalg <> core meth
+R15103:15106 VST.msl.sepalg <> core meth
+def 15135:15146 <> relation_mul
+binder 15149:15149 <> A:211
+R15166:15173 Coq.Relations.Relation_Definitions <> relation def
+R15175:15175 VST.msl.age_sepalg <> A:211 var
+binder 15159:15160 <> R0:212
+binder 15162:15163 <> R1:213
+R15184:15184 VST.msl.age_sepalg <> A:211 var
+binder 15179:15179 <> x:214
+binder 15181:15181 <> y:215
+R15190:15196 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15198:15199 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 15197:15197 <> z:216
+R15206:15209 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15200:15201 VST.msl.age_sepalg <> R0:212 var
+R15205:15205 VST.msl.age_sepalg <> z:216 var
+R15203:15203 VST.msl.age_sepalg <> x:214 var
+R15210:15211 VST.msl.age_sepalg <> R1:213 var
+R15215:15215 VST.msl.age_sepalg <> y:215 var
+R15213:15213 VST.msl.age_sepalg <> z:216 var
+def 15228:15241 <> relation_power
+binder 15244:15244 <> A:217
+R15257:15259 Coq.Init.Datatypes <> nat ind
+binder 15254:15254 <> n:218
+R15266:15273 Coq.Relations.Relation_Definitions <> relation def
+R15275:15275 VST.msl.age_sepalg <> A:217 var
+binder 15263:15263 <> R:219
+R15289:15289 VST.msl.age_sepalg <> n:218 var
+R15300:15300 Coq.Init.Datatypes <> O constr
+R15305:15306 Coq.Init.Logic <> eq ind
+R15312:15312 Coq.Init.Datatypes <> S constr
+R15320:15331 VST.msl.age_sepalg <> relation_mul def
+R15336:15349 VST.msl.age_sepalg <> relation_power:220 def
+R15354:15354 VST.msl.age_sepalg <> R:219 var
+R15333:15333 VST.msl.age_sepalg <> R:219 var
+def 15374:15390 <> partial_fun_power
+binder 15393:15393 <> A:222
+R15406:15408 Coq.Init.Datatypes <> nat ind
+binder 15403:15403 <> n:223
+R15416:15419 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15420:15425 Coq.Init.Datatypes <> option ind
+R15427:15427 VST.msl.age_sepalg <> A:222 var
+R15415:15415 VST.msl.age_sepalg <> A:222 var
+binder 15412:15412 <> f:224
+R15434:15434 VST.msl.age_sepalg <> A:222 var
+binder 15431:15431 <> x:225
+R15448:15448 VST.msl.age_sepalg <> n:223 var
+R15459:15459 Coq.Init.Datatypes <> O constr
+R15464:15467 Coq.Init.Datatypes <> Some constr
+R15469:15469 VST.msl.age_sepalg <> x:225 var
+R15475:15475 Coq.Init.Datatypes <> S constr
+R15489:15489 VST.msl.age_sepalg <> f:224 var
+R15491:15491 VST.msl.age_sepalg <> x:225 var
+R15512:15515 Coq.Init.Datatypes <> Some constr
+R15523:15539 VST.msl.age_sepalg <> partial_fun_power:226 def
+R15544:15544 VST.msl.age_sepalg <> f:224 var
+R15563:15566 Coq.Init.Datatypes <> None constr
+R15571:15574 Coq.Init.Datatypes <> None constr
+prf 15606:15621 <> laterR_power_age
+binder 15632:15632 <> A:228
+R15645:15651 VST.msl.ageable <> ageable class
+R15653:15653 VST.msl.age_sepalg <> A:228 var
+binder 15641:15643 <> agA:229
+R15662:15662 VST.msl.age_sepalg <> A:228 var
+binder 15657:15657 <> x:230
+binder 15659:15659 <> y:231
+R15678:15683 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15722:15722 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15668:15673 VST.msl.ageable <> laterR def
+R15677:15677 VST.msl.age_sepalg <> y:231 var
+R15675:15675 VST.msl.age_sepalg <> x:230 var
+R15684:15690 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15692:15693 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 15691:15691 <> n:232
+R15694:15707 VST.msl.age_sepalg <> relation_power def
+R15721:15721 VST.msl.age_sepalg <> y:231 var
+R15719:15719 VST.msl.age_sepalg <> x:230 var
+R15715:15717 VST.msl.ageable <> age def
+R15710:15710 Coq.Init.Datatypes <> S constr
+R15712:15712 VST.msl.age_sepalg <> n:232 var
+R15754:15758 VST.msl.ageable <> level meth
+R15754:15758 VST.msl.ageable <> level meth
+R15839:15850 VST.msl.ageable <> laterR_level thm
+R15839:15850 VST.msl.ageable <> laterR_level thm
+R15943:15951 VST.msl.ageable <> age_level thm
+R15943:15951 VST.msl.ageable <> age_level thm
+R16000:16003 VST.msl.ageable <> age1 meth
+R16035:16045 VST.msl.ageable <> age1_level0 thm
+R16000:16003 VST.msl.ageable <> age1 meth
+R16035:16045 VST.msl.ageable <> age1_level0 thm
+R16074:16076 VST.msl.ageable <> age def
+R16074:16076 VST.msl.ageable <> age def
+R16120:16132 VST.msl.ageable <> age_later_nec thm
+R16120:16132 VST.msl.ageable <> age_later_nec thm
+R16163:16179 VST.msl.ageable <> nec_refl_or_later thm
+R16163:16179 VST.msl.ageable <> nec_refl_or_later thm
+R16296:16304 VST.msl.ageable <> age_level thm
+R16296:16304 VST.msl.ageable <> age_level thm
+R16460:16460 Coq.Init.Datatypes <> S constr
+R16460:16460 Coq.Init.Datatypes <> S constr
+R16571:16579 VST.msl.ageable <> age_level thm
+R16571:16579 VST.msl.ageable <> age_level thm
+R16739:16744 Coq.Relations.Relation_Operators <> t_step constr
+R16739:16744 Coq.Relations.Relation_Operators <> t_step constr
+R16806:16812 Coq.Relations.Relation_Operators <> t_trans constr
+R16806:16812 Coq.Relations.Relation_Operators <> t_trans constr
+R16836:16841 Coq.Relations.Relation_Operators <> t_step constr
+R16836:16841 Coq.Relations.Relation_Operators <> t_step constr
+prf 16862:16875 <> necR_power_age
+binder 16886:16886 <> A:233
+R16899:16905 VST.msl.ageable <> ageable class
+R16907:16907 VST.msl.age_sepalg <> A:233 var
+binder 16895:16897 <> agA:234
+R16916:16916 VST.msl.age_sepalg <> A:233 var
+binder 16911:16911 <> x:235
+binder 16913:16913 <> y:236
+R16930:16935 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R16970:16970 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R16922:16925 VST.msl.ageable <> necR def
+R16929:16929 VST.msl.age_sepalg <> y:236 var
+R16927:16927 VST.msl.age_sepalg <> x:235 var
+R16936:16942 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R16944:16945 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 16943:16943 <> n:237
+R16946:16959 VST.msl.age_sepalg <> relation_power def
+R16969:16969 VST.msl.age_sepalg <> y:236 var
+R16967:16967 VST.msl.age_sepalg <> x:235 var
+R16963:16965 VST.msl.ageable <> age def
+R16961:16961 VST.msl.age_sepalg <> n:237 var
+R17021:17037 VST.msl.ageable <> nec_refl_or_later thm
+R17021:17037 VST.msl.ageable <> nec_refl_or_later thm
+R17117:17132 VST.msl.age_sepalg <> laterR_power_age thm
+R17117:17132 VST.msl.age_sepalg <> laterR_power_age thm
+R17198:17198 Coq.Init.Datatypes <> S constr
+R17198:17198 Coq.Init.Datatypes <> S constr
+R17306:17321 VST.msl.age_sepalg <> laterR_power_age thm
+R17306:17321 VST.msl.age_sepalg <> laterR_power_age thm
+R17385:17395 VST.msl.ageable <> laterR_necR thm
+R17385:17395 VST.msl.ageable <> laterR_necR thm
+prf 17416:17429 <> power_age_age1
+binder 17440:17440 <> A:238
+R17453:17459 VST.msl.ageable <> ageable class
+R17461:17461 VST.msl.age_sepalg <> A:238 var
+binder 17449:17451 <> agA:239
+binder 17464:17464 <> n:240
+binder 17466:17466 <> x:241
+binder 17468:17468 <> y:242
+R17497:17501 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R17473:17486 VST.msl.age_sepalg <> relation_power def
+R17496:17496 VST.msl.age_sepalg <> y:242 var
+R17494:17494 VST.msl.age_sepalg <> x:241 var
+R17490:17492 VST.msl.ageable <> age def
+R17488:17488 VST.msl.age_sepalg <> n:240 var
+R17528:17530 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17502:17518 VST.msl.age_sepalg <> partial_fun_power def
+R17527:17527 VST.msl.age_sepalg <> x:241 var
+R17522:17525 VST.msl.ageable <> age1 meth
+R17520:17520 VST.msl.age_sepalg <> n:240 var
+R17531:17534 Coq.Init.Datatypes <> Some constr
+R17536:17536 VST.msl.age_sepalg <> y:242 var
+R17773:17776 VST.msl.ageable <> age1 meth
+R17773:17776 VST.msl.ageable <> age1 meth
+prf 17889:17910 <> power_age1_level_small
+binder 17921:17921 <> A:243
+R17934:17940 VST.msl.ageable <> ageable class
+R17942:17942 VST.msl.age_sepalg <> A:243 var
+binder 17930:17932 <> agA:244
+binder 17945:17945 <> n:245
+binder 17947:17947 <> x:246
+R17985:17989 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R17978:17980 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17952:17968 VST.msl.age_sepalg <> partial_fun_power def
+R17977:17977 VST.msl.age_sepalg <> x:246 var
+R17972:17975 VST.msl.ageable <> age1 meth
+R17970:17970 VST.msl.age_sepalg <> n:245 var
+R17981:17984 Coq.Init.Datatypes <> None constr
+R17997:17999 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R17990:17994 VST.msl.ageable <> level meth
+R17996:17996 VST.msl.age_sepalg <> x:246 var
+R18000:18000 VST.msl.age_sepalg <> n:245 var
+R18151:18154 VST.msl.ageable <> age1 meth
+R18151:18154 VST.msl.ageable <> age1 meth
+R18181:18189 VST.msl.ageable <> age_level thm
+R18181:18189 VST.msl.ageable <> age_level thm
+R18249:18259 VST.msl.ageable <> age1_level0 thm
+R18249:18259 VST.msl.ageable <> age1_level0 thm
+R18297:18300 VST.msl.ageable <> age1 meth
+R18297:18300 VST.msl.ageable <> age1 meth
+R18346:18354 VST.msl.ageable <> age_level thm
+R18346:18354 VST.msl.ageable <> age_level thm
+prf 18409:18422 <> power_age_core
+binder 18433:18433 <> A:247
+R18446:18452 VST.msl.ageable <> ageable class
+R18454:18454 VST.msl.age_sepalg <> A:247 var
+binder 18442:18444 <> agA:248
+R18462:18465 VST.msl.sepalg <> Join class
+R18467:18467 VST.msl.age_sepalg <> A:247 var
+binder 18458:18459 <> JA:249
+R18475:18482 VST.msl.sepalg <> Perm_alg class
+R18484:18484 VST.msl.age_sepalg <> A:247 var
+binder 18471:18472 <> PA:250
+R18493:18499 VST.msl.sepalg <> Sep_alg class
+R18501:18501 VST.msl.age_sepalg <> A:247 var
+binder 18488:18490 <> SaA:251
+R18509:18515 VST.msl.age_sepalg <> Age_alg class
+R18517:18517 VST.msl.age_sepalg <> A:247 var
+binder 18505:18506 <> XA:252
+R18526:18526 VST.msl.age_sepalg <> A:247 var
+binder 18521:18521 <> x:253
+binder 18523:18523 <> y:254
+binder 18529:18529 <> n:255
+R18558:18561 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18562:18575 VST.msl.age_sepalg <> relation_power def
+R18593:18596 VST.msl.sepalg <> core meth
+R18598:18598 VST.msl.age_sepalg <> y:254 var
+R18584:18587 VST.msl.sepalg <> core meth
+R18589:18589 VST.msl.age_sepalg <> x:253 var
+R18579:18581 VST.msl.ageable <> age def
+R18577:18577 VST.msl.age_sepalg <> n:255 var
+R18534:18547 VST.msl.age_sepalg <> relation_power def
+R18557:18557 VST.msl.age_sepalg <> y:254 var
+R18555:18555 VST.msl.age_sepalg <> x:253 var
+R18551:18553 VST.msl.ageable <> age def
+R18549:18549 VST.msl.age_sepalg <> n:255 var
+R18765:18768 VST.msl.sepalg <> core meth
+R18765:18768 VST.msl.sepalg <> core meth
+R18797:18804 VST.msl.age_sepalg <> age_core thm
+R18797:18804 VST.msl.age_sepalg <> age_core thm
+prf 18848:18864 <> power_age_core_eq
+binder 18875:18875 <> A:256
+R18888:18894 VST.msl.ageable <> ageable class
+R18896:18896 VST.msl.age_sepalg <> A:256 var
+binder 18884:18886 <> agA:257
+R18904:18907 VST.msl.sepalg <> Join class
+R18909:18909 VST.msl.age_sepalg <> A:256 var
+binder 18900:18901 <> JA:258
+R18917:18924 VST.msl.sepalg <> Perm_alg class
+R18926:18926 VST.msl.age_sepalg <> A:256 var
+binder 18913:18914 <> PA:259
+R18935:18941 VST.msl.sepalg <> Sep_alg class
+R18943:18943 VST.msl.age_sepalg <> A:256 var
+binder 18930:18932 <> SaA:260
+R18951:18957 VST.msl.age_sepalg <> Age_alg class
+R18959:18959 VST.msl.age_sepalg <> A:256 var
+binder 18947:18948 <> XA:261
+R18974:18974 VST.msl.age_sepalg <> A:256 var
+binder 18963:18963 <> x:262
+binder 18965:18966 <> x':263
+binder 18968:18968 <> y:264
+binder 18970:18971 <> y':265
+binder 18977:18977 <> n:266
+R19007:19010 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19036:19039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19055:19058 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19066:19068 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19059:19062 VST.msl.sepalg <> core meth
+R19064:19065 VST.msl.age_sepalg <> x':263 var
+R19069:19072 VST.msl.sepalg <> core meth
+R19074:19075 VST.msl.age_sepalg <> y':265 var
+R19046:19048 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19040:19043 VST.msl.sepalg <> core meth
+R19045:19045 VST.msl.age_sepalg <> x:262 var
+R19049:19052 VST.msl.sepalg <> core meth
+R19054:19054 VST.msl.age_sepalg <> y:264 var
+R19011:19024 VST.msl.age_sepalg <> relation_power def
+R19034:19035 VST.msl.age_sepalg <> y':265 var
+R19032:19032 VST.msl.age_sepalg <> y:264 var
+R19028:19030 VST.msl.ageable <> age def
+R19026:19026 VST.msl.age_sepalg <> n:266 var
+R18982:18995 VST.msl.age_sepalg <> relation_power def
+R19005:19006 VST.msl.age_sepalg <> x':263 var
+R19003:19003 VST.msl.age_sepalg <> x:262 var
+R18999:19001 VST.msl.ageable <> age def
+R18997:18997 VST.msl.age_sepalg <> n:266 var
+R19287:19297 VST.msl.age_sepalg <> age_core_eq thm
+R19287:19297 VST.msl.age_sepalg <> age_core_eq thm
+prf 19377:19386 <> levelS_age
+binder 19389:19389 <> A:267
+R19404:19410 VST.msl.ageable <> ageable class
+R19412:19412 VST.msl.age_sepalg <> A:267 var
+binder 19399:19401 <> agA:268
+R19427:19427 VST.msl.age_sepalg <> A:267 var
+binder 19425:19425 <> x:269
+binder 19430:19430 <> n:270
+R19448:19453 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19454:19460 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R19462:19463 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 19461:19461 <> y:271
+R19471:19474 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R19464:19466 VST.msl.ageable <> age def
+R19470:19470 VST.msl.age_sepalg <> y:271 var
+R19468:19468 VST.msl.age_sepalg <> x:269 var
+R19476:19478 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19475:19475 VST.msl.age_sepalg <> n:270 var
+R19479:19483 VST.msl.ageable <> level meth
+R19485:19485 VST.msl.age_sepalg <> y:271 var
+R19438:19440 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19435:19435 Coq.Init.Datatypes <> S constr
+R19437:19437 VST.msl.age_sepalg <> n:270 var
+R19441:19445 VST.msl.ageable <> level meth
+R19447:19447 VST.msl.age_sepalg <> x:269 var
+R19513:19518 Coq.Init.Logic <> eq_sym thm
+R19513:19518 Coq.Init.Logic <> eq_sym thm
+R19567:19577 VST.msl.ageable <> levelS_age1 thm
+R19567:19577 VST.msl.ageable <> levelS_age1 thm
+R19632:19634 VST.msl.ageable <> age def
+R19632:19634 VST.msl.ageable <> age def
+R19651:19653 VST.msl.ageable <> age def
+R19697:19705 VST.msl.ageable <> age_level thm
+R19697:19705 VST.msl.ageable <> age_level thm
+prf 19776:19797 <> clos_refl_trans_addone
+binder 19808:19808 <> A:272
+R19823:19830 Coq.Relations.Relation_Definitions <> relation def
+R19832:19832 VST.msl.age_sepalg <> A:272 var
+binder 19819:19819 <> R:273
+R19843:19843 VST.msl.age_sepalg <> A:272 var
+binder 19836:19836 <> x:274
+binder 19838:19838 <> y:275
+binder 19840:19840 <> z:276
+R19852:19855 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19879:19882 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19883:19897 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R19905:19905 VST.msl.age_sepalg <> z:276 var
+R19903:19903 VST.msl.age_sepalg <> x:274 var
+R19901:19901 VST.msl.age_sepalg <> R:273 var
+R19899:19899 VST.msl.age_sepalg <> A:272 var
+R19856:19870 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R19878:19878 VST.msl.age_sepalg <> z:276 var
+R19876:19876 VST.msl.age_sepalg <> y:275 var
+R19874:19874 VST.msl.age_sepalg <> R:273 var
+R19872:19872 VST.msl.age_sepalg <> A:272 var
+R19847:19847 VST.msl.age_sepalg <> R:273 var
+R19851:19851 VST.msl.age_sepalg <> y:275 var
+R19849:19849 VST.msl.age_sepalg <> x:274 var
+R19934:19940 Coq.Relations.Relation_Operators <> rt_step constr
+R19934:19940 Coq.Relations.Relation_Operators <> rt_step constr
+R19965:19972 Coq.Relations.Relation_Operators <> rt_trans constr
+R19965:19972 Coq.Relations.Relation_Operators <> rt_trans constr
+prf 20017:20031 <> necR_same_level
+binder 20042:20042 <> A:277
+R20055:20061 VST.msl.ageable <> ageable class
+R20063:20063 VST.msl.age_sepalg <> A:277 var
+binder 20051:20053 <> agA:278
+R20075:20075 VST.msl.age_sepalg <> A:277 var
+binder 20067:20067 <> x:279
+binder 20069:20069 <> y:280
+binder 20071:20072 <> x':281
+R20088:20091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20109:20112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20113:20119 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R20122:20124 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R20157:20157 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 20120:20121 <> y':282
+R20134:20137 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R20125:20128 VST.msl.ageable <> necR def
+R20132:20133 VST.msl.age_sepalg <> y':282 var
+R20130:20130 VST.msl.age_sepalg <> y:280 var
+R20146:20148 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20138:20142 VST.msl.ageable <> level meth
+R20144:20145 VST.msl.age_sepalg <> x':281 var
+R20149:20153 VST.msl.ageable <> level meth
+R20155:20156 VST.msl.age_sepalg <> y':282 var
+R20099:20101 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20092:20096 VST.msl.ageable <> level meth
+R20098:20098 VST.msl.age_sepalg <> x:279 var
+R20102:20106 VST.msl.ageable <> level meth
+R20108:20108 VST.msl.age_sepalg <> y:280 var
+R20079:20082 VST.msl.ageable <> necR def
+R20086:20087 VST.msl.age_sepalg <> x':281 var
+R20084:20084 VST.msl.age_sepalg <> x:279 var
+R20199:20203 VST.msl.ageable <> level meth
+R20199:20203 VST.msl.ageable <> level meth
+R20330:20339 VST.msl.ageable <> necR_level thm
+R20330:20339 VST.msl.ageable <> necR_level thm
+R20387:20391 VST.msl.ageable <> level meth
+R20387:20391 VST.msl.ageable <> level meth
+R20452:20455 VST.msl.ageable <> necR def
+R20503:20519 VST.msl.ageable <> nec_refl_or_later thm
+R20503:20519 VST.msl.ageable <> nec_refl_or_later thm
+R20588:20591 VST.msl.ageable <> necR def
+R20677:20686 VST.msl.age_sepalg <> levelS_age thm
+R20677:20686 VST.msl.age_sepalg <> levelS_age thm
+R20735:20744 VST.msl.age_sepalg <> levelS_age thm
+R20735:20744 VST.msl.age_sepalg <> levelS_age thm
+R20853:20856 VST.msl.ageable <> necR def
+R20853:20856 VST.msl.ageable <> necR def
+R20882:20894 VST.msl.ageable <> age_later_nec thm
+R20882:20894 VST.msl.ageable <> age_later_nec thm
+R21057:21060 VST.msl.ageable <> necR def
+R21075:21096 VST.msl.age_sepalg <> clos_refl_trans_addone thm
+R21075:21096 VST.msl.age_sepalg <> clos_refl_trans_addone thm
+prf 21142:21158 <> laterR_same_level
+binder 21169:21169 <> A:283
+R21182:21188 VST.msl.ageable <> ageable class
+R21190:21190 VST.msl.age_sepalg <> A:283 var
+binder 21178:21180 <> agA:284
+R21202:21202 VST.msl.age_sepalg <> A:283 var
+binder 21194:21194 <> x:285
+binder 21196:21196 <> y:286
+binder 21198:21199 <> x':287
+R21217:21220 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21238:21241 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21242:21248 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R21251:21253 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R21288:21288 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 21249:21250 <> y':288
+R21265:21268 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R21254:21259 VST.msl.ageable <> laterR def
+R21263:21264 VST.msl.age_sepalg <> y':288 var
+R21261:21261 VST.msl.age_sepalg <> y:286 var
+R21277:21279 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21269:21273 VST.msl.ageable <> level meth
+R21275:21276 VST.msl.age_sepalg <> x':287 var
+R21280:21284 VST.msl.ageable <> level meth
+R21286:21287 VST.msl.age_sepalg <> y':288 var
+R21228:21230 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21221:21225 VST.msl.ageable <> level meth
+R21227:21227 VST.msl.age_sepalg <> x:285 var
+R21231:21235 VST.msl.ageable <> level meth
+R21237:21237 VST.msl.age_sepalg <> y:286 var
+R21206:21211 VST.msl.ageable <> laterR def
+R21215:21216 VST.msl.age_sepalg <> x':287 var
+R21213:21213 VST.msl.age_sepalg <> x:285 var
+R21322:21327 VST.msl.ageable <> laterR def
+R21322:21327 VST.msl.ageable <> laterR def
+R21353:21363 VST.msl.ageable <> laterR_necR thm
+R21353:21363 VST.msl.ageable <> laterR_necR thm
+R21381:21387 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R21394:21395 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 21388:21389 <> y':289
+R21405:21408 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R21396:21399 VST.msl.ageable <> necR def
+R21403:21404 VST.msl.age_sepalg <> y':289 var
+R21417:21419 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21409:21413 VST.msl.ageable <> level meth
+R21420:21424 VST.msl.ageable <> level meth
+R21426:21427 VST.msl.age_sepalg <> y':289 var
+R21381:21387 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R21394:21395 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 21388:21389 <> y':290
+R21405:21408 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R21396:21399 VST.msl.ageable <> necR def
+R21403:21404 VST.msl.age_sepalg <> y':290 var
+R21417:21419 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21409:21413 VST.msl.ageable <> level meth
+R21420:21424 VST.msl.ageable <> level meth
+R21426:21427 VST.msl.age_sepalg <> y':290 var
+R21443:21457 VST.msl.age_sepalg <> necR_same_level thm
+R21443:21457 VST.msl.age_sepalg <> necR_same_level thm
+R21566:21582 VST.msl.ageable <> nec_refl_or_later thm
+R21566:21582 VST.msl.ageable <> nec_refl_or_later thm
+R21616:21627 VST.msl.ageable <> laterR_level thm
+R21616:21627 VST.msl.ageable <> laterR_level thm
+prf 21707:21724 <> power_age_parallel
+binder 21735:21735 <> A:291
+R21748:21754 VST.msl.ageable <> ageable class
+R21756:21756 VST.msl.age_sepalg <> A:291 var
+binder 21744:21746 <> agA:292
+R21768:21768 VST.msl.age_sepalg <> A:291 var
+binder 21760:21760 <> x:293
+binder 21762:21763 <> x':294
+binder 21765:21765 <> y:295
+binder 21771:21771 <> n:296
+R21793:21798 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21824:21829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21830:21836 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R21839:21840 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 21837:21838 <> y':297
+R21841:21854 VST.msl.age_sepalg <> relation_power def
+R21864:21865 VST.msl.age_sepalg <> y':297 var
+R21862:21862 VST.msl.age_sepalg <> y:295 var
+R21858:21860 VST.msl.ageable <> age def
+R21856:21856 VST.msl.age_sepalg <> n:296 var
+R21799:21812 VST.msl.age_sepalg <> relation_power def
+R21822:21823 VST.msl.age_sepalg <> x':294 var
+R21820:21820 VST.msl.age_sepalg <> x:293 var
+R21816:21818 VST.msl.ageable <> age def
+R21814:21814 VST.msl.age_sepalg <> n:296 var
+R21783:21785 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21776:21780 VST.msl.ageable <> level meth
+R21782:21782 VST.msl.age_sepalg <> x:293 var
+R21786:21790 VST.msl.ageable <> level meth
+R21792:21792 VST.msl.age_sepalg <> y:295 var
+R21897:21913 VST.msl.age_sepalg <> partial_fun_power def
+R21917:21920 VST.msl.ageable <> age1 meth
+R21897:21913 VST.msl.age_sepalg <> partial_fun_power def
+R21917:21920 VST.msl.ageable <> age1 meth
+R21957:21970 VST.msl.age_sepalg <> power_age_age1 thm
+R21957:21970 VST.msl.age_sepalg <> power_age_age1 thm
+R21989:22002 VST.msl.age_sepalg <> power_age_age1 thm
+R21989:22002 VST.msl.age_sepalg <> power_age_age1 thm
+R22021:22042 VST.msl.age_sepalg <> power_age1_level_small thm
+R22021:22042 VST.msl.age_sepalg <> power_age1_level_small thm
+R22085:22106 VST.msl.age_sepalg <> power_age1_level_small thm
+R22085:22106 VST.msl.age_sepalg <> power_age1_level_small thm
+prf 22167:22185 <> power_age_parallel'
+binder 22196:22196 <> A:298
+R22209:22215 VST.msl.ageable <> ageable class
+R22217:22217 VST.msl.age_sepalg <> A:298 var
+binder 22205:22207 <> agA:299
+R22225:22228 VST.msl.sepalg <> Join class
+R22230:22230 VST.msl.age_sepalg <> A:298 var
+binder 22221:22222 <> JA:300
+R22238:22245 VST.msl.sepalg <> Perm_alg class
+R22247:22247 VST.msl.age_sepalg <> A:298 var
+binder 22234:22235 <> PA:301
+R22256:22262 VST.msl.sepalg <> Sep_alg class
+R22264:22264 VST.msl.age_sepalg <> A:298 var
+binder 22251:22253 <> SaA:302
+R22272:22278 VST.msl.age_sepalg <> Age_alg class
+R22280:22280 VST.msl.age_sepalg <> A:298 var
+binder 22268:22269 <> XA:303
+R22292:22292 VST.msl.age_sepalg <> A:298 var
+binder 22284:22284 <> x:304
+binder 22286:22287 <> x':305
+binder 22289:22289 <> y:306
+binder 22295:22295 <> n:307
+R22315:22320 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22346:22351 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22352:22358 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22361:22362 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 22359:22360 <> y':308
+R22388:22391 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22363:22376 VST.msl.age_sepalg <> relation_power def
+R22386:22387 VST.msl.age_sepalg <> y':308 var
+R22384:22384 VST.msl.age_sepalg <> y:306 var
+R22380:22382 VST.msl.ageable <> age def
+R22378:22378 VST.msl.age_sepalg <> n:307 var
+R22399:22401 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22392:22395 VST.msl.sepalg <> core meth
+R22397:22398 VST.msl.age_sepalg <> x':305 var
+R22402:22405 VST.msl.sepalg <> core meth
+R22407:22408 VST.msl.age_sepalg <> y':308 var
+R22321:22334 VST.msl.age_sepalg <> relation_power def
+R22344:22345 VST.msl.age_sepalg <> x':305 var
+R22342:22342 VST.msl.age_sepalg <> x:304 var
+R22338:22340 VST.msl.ageable <> age def
+R22336:22336 VST.msl.age_sepalg <> n:307 var
+R22306:22308 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22300:22303 VST.msl.sepalg <> core meth
+R22305:22305 VST.msl.age_sepalg <> x:304 var
+R22309:22312 VST.msl.sepalg <> core meth
+R22314:22314 VST.msl.age_sepalg <> y:306 var
+R22445:22447 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22438:22442 VST.msl.ageable <> level meth
+R22448:22452 VST.msl.ageable <> level meth
+R22445:22447 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22438:22442 VST.msl.ageable <> level meth
+R22448:22452 VST.msl.ageable <> level meth
+R22479:22488 VST.msl.age_sepalg <> level_core thm
+R22479:22488 VST.msl.age_sepalg <> level_core thm
+R22508:22517 VST.msl.age_sepalg <> level_core thm
+R22508:22517 VST.msl.age_sepalg <> level_core thm
+R22575:22592 VST.msl.age_sepalg <> power_age_parallel thm
+R22575:22592 VST.msl.age_sepalg <> power_age_parallel thm
+R22663:22679 VST.msl.age_sepalg <> power_age_core_eq thm
+R22663:22679 VST.msl.age_sepalg <> power_age_core_eq thm

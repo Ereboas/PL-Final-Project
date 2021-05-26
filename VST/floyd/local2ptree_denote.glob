@@ -1,0 +1,2491 @@
+DIGEST bf001e9c4219714633bfdb33676bcaa5
+FVST.floyd.local2ptree_denote
+R15:29 VST.floyd.base2 <> <> lib
+R47:69 VST.floyd.client_lemmas <> <> lib
+def 130:148 <> pTree_from_elements
+binder 151:151 <> A:1
+R159:162 Coq.Init.Datatypes <> list ind
+R173:175 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R165:172 Coq.Numbers.BinNums <> positive ind
+R176:176 VST.floyd.local2ptree_denote <> A:1 var
+binder 155:156 <> el:2
+R182:188 compcert.lib.Maps PTree t def
+R190:190 VST.floyd.local2ptree_denote <> A:1 var
+R196:205 Coq.Lists.List <> fold_right def
+R267:268 VST.floyd.local2ptree_denote <> el:2 var
+R252:262 compcert.lib.Maps PTree empty def
+binder 212:213 <> ia:3
+binder 215:215 <> t:4
+R220:228 compcert.lib.Maps PTree set def
+R248:248 VST.floyd.local2ptree_denote <> t:4 var
+R240:242 Coq.Init.Datatypes <> snd def
+R244:245 VST.floyd.local2ptree_denote <> ia:3 var
+R231:233 Coq.Init.Datatypes <> fst def
+R235:236 VST.floyd.local2ptree_denote <> ia:3 var
+def 283:293 <> local_trees
+R348:350 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R336:338 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R313:315 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R302:308 compcert.lib.Maps PTree t def
+R310:312 compcert.common.Values <> val ind
+R316:322 compcert.lib.Maps PTree t def
+R329:331 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R325:328 compcert.cfrontend.Ctypes <> type ind
+R332:334 compcert.common.Values <> val ind
+R339:342 Coq.Init.Datatypes <> list ind
+R351:356 Coq.Init.Datatypes <> option ind
+R358:364 VST.veric.SeparationLogic <> globals def
+def 385:396 <> local2ptree1
+R402:409 VST.floyd.canon <> localdef ind
+binder 399:399 <> Q:5
+R420:426 compcert.lib.Maps PTree t def
+R428:430 compcert.common.Values <> val ind
+binder 416:417 <> T1:6
+R438:444 compcert.lib.Maps PTree t def
+R451:453 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R447:450 compcert.cfrontend.Ctypes <> type ind
+R454:456 compcert.common.Values <> val ind
+binder 434:435 <> T2:7
+R465:468 Coq.Init.Datatypes <> list ind
+binder 461:462 <> P':8
+R481:486 Coq.Init.Datatypes <> option ind
+R488:494 VST.veric.SeparationLogic <> globals def
+binder 477:478 <> Q':9
+R516:519 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R540:543 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R553:556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R571:574 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R575:585 VST.floyd.local2ptree_denote <> local_trees def
+R557:562 Coq.Init.Datatypes <> option ind
+R564:570 VST.veric.SeparationLogic <> globals def
+R544:547 Coq.Init.Datatypes <> list ind
+R520:526 compcert.lib.Maps PTree t def
+R533:535 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R529:532 compcert.cfrontend.Ctypes <> type ind
+R536:538 compcert.common.Values <> val ind
+R505:511 compcert.lib.Maps PTree t def
+R513:515 compcert.common.Values <> val ind
+binder 501:501 <> f:10
+R593:603 VST.floyd.local2ptree_denote <> local_trees def
+R614:614 VST.floyd.local2ptree_denote <> Q:5 var
+R623:626 VST.floyd.canon <> temp constr
+R645:647 compcert.lib.Maps <> :::x_'!'_x not
+R643:644 VST.floyd.local2ptree_denote <> T1:6 var
+R673:676 Coq.Init.Datatypes <> None constr
+R681:681 VST.floyd.local2ptree_denote <> f:10 var
+R708:709 VST.floyd.local2ptree_denote <> Q':9 var
+R705:706 VST.floyd.local2ptree_denote <> P':8 var
+R702:703 VST.floyd.local2ptree_denote <> T2:7 var
+R684:692 compcert.lib.Maps PTree set def
+R698:699 VST.floyd.local2ptree_denote <> T1:6 var
+R729:732 Coq.Init.Datatypes <> Some constr
+R740:740 VST.floyd.local2ptree_denote <> f:10 var
+R762:763 VST.floyd.local2ptree_denote <> Q':9 var
+R749:749 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R754:756 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R751:751 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R757:758 VST.floyd.local2ptree_denote <> P':8 var
+R745:746 VST.floyd.local2ptree_denote <> T2:7 var
+R742:743 VST.floyd.local2ptree_denote <> T1:6 var
+R787:790 VST.floyd.canon <> lvar constr
+R809:811 compcert.lib.Maps <> :::x_'!'_x not
+R807:808 VST.floyd.local2ptree_denote <> T2:7 var
+R837:840 Coq.Init.Datatypes <> None constr
+R845:845 VST.floyd.local2ptree_denote <> f:10 var
+R877:878 VST.floyd.local2ptree_denote <> Q':9 var
+R874:875 VST.floyd.local2ptree_denote <> P':8 var
+R851:859 compcert.lib.Maps PTree set def
+R870:871 VST.floyd.local2ptree_denote <> T2:7 var
+R863:863 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R865:866 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R868:868 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R847:848 VST.floyd.local2ptree_denote <> T1:6 var
+R898:901 Coq.Init.Datatypes <> Some constr
+R903:903 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R906:907 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R910:910 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R915:915 VST.floyd.local2ptree_denote <> f:10 var
+R944:945 VST.floyd.local2ptree_denote <> Q':9 var
+R924:924 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R929:931 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R927:927 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R932:932 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R937:939 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R935:935 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R940:941 VST.floyd.local2ptree_denote <> P':8 var
+R920:921 VST.floyd.local2ptree_denote <> T2:7 var
+R917:918 VST.floyd.local2ptree_denote <> T1:6 var
+R969:973 VST.floyd.canon <> gvars constr
+R989:990 VST.floyd.local2ptree_denote <> Q':9 var
+R1015:1018 Coq.Init.Datatypes <> None constr
+R1023:1023 VST.floyd.local2ptree_denote <> f:10 var
+R1035:1038 Coq.Init.Datatypes <> Some constr
+R1031:1032 VST.floyd.local2ptree_denote <> P':8 var
+R1028:1029 VST.floyd.local2ptree_denote <> T2:7 var
+R1025:1026 VST.floyd.local2ptree_denote <> T1:6 var
+R1062:1065 Coq.Init.Datatypes <> Some constr
+R1074:1074 VST.floyd.local2ptree_denote <> f:10 var
+R1099:1100 VST.floyd.local2ptree_denote <> Q':9 var
+R1083:1083 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1092:1094 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1087:1089 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1095:1096 VST.floyd.local2ptree_denote <> P':8 var
+R1079:1080 VST.floyd.local2ptree_denote <> T2:7 var
+R1076:1077 VST.floyd.local2ptree_denote <> T1:6 var
+def 1137:1151 <> local2ptree_aux
+R1157:1160 Coq.Init.Datatypes <> list ind
+R1162:1169 VST.floyd.canon <> localdef ind
+binder 1154:1154 <> Q:13
+R1180:1186 compcert.lib.Maps PTree t def
+R1188:1190 compcert.common.Values <> val ind
+binder 1176:1177 <> T1:14
+R1198:1204 compcert.lib.Maps PTree t def
+R1211:1213 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1207:1210 compcert.cfrontend.Ctypes <> type ind
+R1214:1216 compcert.common.Values <> val ind
+binder 1194:1195 <> T2:15
+R1225:1228 Coq.Init.Datatypes <> list ind
+binder 1221:1222 <> P':16
+R1241:1246 Coq.Init.Datatypes <> option ind
+R1248:1254 VST.veric.SeparationLogic <> globals def
+binder 1237:1238 <> Q':17
+R1261:1271 VST.floyd.local2ptree_denote <> local_trees def
+R1282:1282 VST.floyd.local2ptree_denote <> Q:13 var
+R1293:1296 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1303:1314 VST.floyd.local2ptree_denote <> local2ptree1 def
+R1332:1346 VST.floyd.local2ptree_denote <> local2ptree_aux:18 def
+R1328:1329 VST.floyd.local2ptree_denote <> Q':17 var
+R1325:1326 VST.floyd.local2ptree_denote <> P':16 var
+R1322:1323 VST.floyd.local2ptree_denote <> T2:15 var
+R1319:1320 VST.floyd.local2ptree_denote <> T1:14 var
+R1354:1356 Coq.Init.Datatypes <> nil constr
+R1361:1361 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1364:1364 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1367:1367 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1370:1370 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1373:1373 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1362:1363 VST.floyd.local2ptree_denote <> T1:14 var
+R1365:1366 VST.floyd.local2ptree_denote <> T2:15 var
+R1368:1369 VST.floyd.local2ptree_denote <> P':16 var
+R1371:1372 VST.floyd.local2ptree_denote <> Q':17 var
+def 1392:1402 <> local2ptree
+R1408:1411 Coq.Init.Datatypes <> list ind
+R1413:1420 VST.floyd.canon <> localdef ind
+binder 1405:1405 <> Q:20
+R1477:1479 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1465:1467 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1442:1444 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1431:1437 compcert.lib.Maps PTree t def
+R1439:1441 compcert.common.Values <> val ind
+R1445:1451 compcert.lib.Maps PTree t def
+R1458:1460 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1454:1457 compcert.cfrontend.Ctypes <> type ind
+R1461:1463 compcert.common.Values <> val ind
+R1468:1471 Coq.Init.Datatypes <> list ind
+R1480:1485 Coq.Init.Datatypes <> option ind
+R1487:1493 VST.veric.SeparationLogic <> globals def
+R1499:1513 VST.floyd.local2ptree_denote <> local2ptree_aux def
+R1543:1546 Coq.Init.Datatypes <> None constr
+R1539:1541 Coq.Init.Datatypes <> nil constr
+R1528:1537 compcert.lib.Maps PTree Leaf constr
+R1517:1526 compcert.lib.Maps PTree Leaf constr
+R1515:1515 VST.floyd.local2ptree_denote <> Q:20 var
+def 1561:1568 <> CLEAR_ME
+binder 1571:1571 <> T:21
+R1577:1577 VST.floyd.local2ptree_denote <> T:21 var
+binder 1575:1575 <> x:22
+R1583:1583 VST.floyd.local2ptree_denote <> x:22 var
+R1653:1660 VST.floyd.local2ptree_denote <> CLEAR_ME def
+R1798:1801 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1789:1792 VST.floyd.canon <> temp constr
+R1798:1801 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1789:1792 VST.floyd.canon <> temp constr
+R1856:1859 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1844:1847 VST.floyd.canon <> lvar constr
+R1856:1859 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1844:1847 VST.floyd.canon <> lvar constr
+R1921:1924 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1913:1917 VST.floyd.canon <> gvars constr
+R1921:1924 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1913:1917 VST.floyd.canon <> gvars constr
+R1970:1973 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1970:1973 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2052:2054 Coq.Init.Datatypes <> nil constr
+R2052:2054 Coq.Init.Datatypes <> nil constr
+R2043:2044 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2228:2231 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2220:2224 VST.floyd.canon <> gvars constr
+R2228:2231 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2220:2224 VST.floyd.canon <> gvars constr
+R2309:2311 Coq.Init.Datatypes <> nil constr
+R2309:2311 Coq.Init.Datatypes <> nil constr
+R2334:2336 Coq.Init.Datatypes <> nil constr
+R2338:2344 VST.veric.SeparationLogic <> globals def
+R2281:2282 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2428:2430 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2414:2424 VST.floyd.local2ptree_denote <> local2ptree def
+R2428:2430 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2414:2424 VST.floyd.local2ptree_denote <> local2ptree def
+R2486:2496 VST.floyd.local2ptree_denote <> local2ptree def
+R2499:2513 VST.floyd.local2ptree_denote <> local2ptree_aux def
+R2553:2560 VST.floyd.local2ptree_denote <> CLEAR_ME def
+R2553:2560 VST.floyd.local2ptree_denote <> CLEAR_ME def
+R2579:2586 VST.floyd.local2ptree_denote <> CLEAR_ME def
+R2653:2660 VST.floyd.local2ptree_denote <> CLEAR_ME def
+R2653:2660 VST.floyd.local2ptree_denote <> CLEAR_ME def
+R2679:2686 VST.floyd.local2ptree_denote <> CLEAR_ME def
+R2715:2721 Coq.Init.Logic <> f_equal thm
+R2766:2768 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2766:2768 Coq.Init.Logic <> ::type_scope:x_'='_x not
+def 2839:3010 <> Unnamed_thm
+R2844:2850 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2852:2854 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2851:2851 <> x:23
+R3007:3009 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2855:2865 VST.floyd.local2ptree_denote <> local2ptree def
+R2897:2903 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2875:2878 VST.floyd.canon <> temp constr
+R2891:2896 compcert.common.Values <> Vundef constr
+R2943:2949 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2904:2907 VST.floyd.canon <> temp constr
+R2921:2924 compcert.common.Values <> Vint constr
+R2927:2934 compcert.lib.Integers Int repr def
+R2938:2938 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2996:3002 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2950:2953 VST.floyd.canon <> lvar constr
+R2972:2975 compcert.common.Values <> Vint constr
+R2978:2985 compcert.lib.Integers Int repr def
+R2989:2991 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2966:2969 compcert.exportclight.Clightdefs <> tint def
+R3003:3005 Coq.Init.Datatypes <> nil constr
+R3010:3010 VST.floyd.local2ptree_denote <> x:23 var
+R3087:3090 VST.floyd.canon <> temp constr
+R3103:3108 compcert.common.Values <> Vundef constr
+R3087:3090 VST.floyd.canon <> temp constr
+R3103:3108 compcert.common.Values <> Vundef constr
+R3184:3186 Coq.Init.Datatypes <> nil constr
+R3184:3186 Coq.Init.Datatypes <> nil constr
+R3294:3294 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3294:3294 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3485:3487 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3473:3475 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3450:3452 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3439:3445 compcert.lib.Maps PTree t def
+R3447:3449 compcert.common.Values <> val ind
+R3453:3459 compcert.lib.Maps PTree t def
+R3466:3468 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3462:3465 compcert.cfrontend.Ctypes <> type ind
+R3469:3471 compcert.common.Values <> val ind
+R3476:3479 Coq.Init.Datatypes <> list ind
+R3488:3493 Coq.Init.Datatypes <> option ind
+R3495:3501 VST.veric.SeparationLogic <> globals def
+R3537:3539 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3524:3534 VST.floyd.local2ptree_denote <> local2ptree def
+def 3593:3598 <> LocalD
+R3605:3611 compcert.lib.Maps PTree t def
+R3613:3615 compcert.common.Values <> val ind
+binder 3601:3602 <> T1:24
+R3623:3629 compcert.lib.Maps PTree t def
+R3636:3638 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3632:3635 compcert.cfrontend.Ctypes <> type ind
+R3639:3641 compcert.common.Values <> val ind
+binder 3619:3620 <> T2:25
+R3649:3654 Coq.Init.Datatypes <> option ind
+R3656:3662 VST.veric.SeparationLogic <> globals def
+binder 3646:3646 <> Q:26
+R3670:3679 compcert.lib.Maps PTree fold def
+R3716:3725 compcert.lib.Maps PTree fold def
+R3799:3799 VST.floyd.local2ptree_denote <> Q:26 var
+R3806:3809 Coq.Init.Datatypes <> Some constr
+R3817:3817 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3826:3830 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3818:3822 VST.floyd.canon <> gvars constr
+R3831:3833 Coq.Init.Datatypes <> nil constr
+R3837:3840 Coq.Init.Datatypes <> None constr
+R3845:3847 Coq.Init.Datatypes <> nil constr
+R3787:3788 VST.floyd.local2ptree_denote <> T2:25 var
+binder 3732:3732 <> Q:28
+binder 3734:3734 <> i:29
+binder 3736:3737 <> tv:30
+R3780:3783 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3748:3749 VST.floyd.local2ptree_denote <> tv:30 var
+R3756:3756 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3758:3759 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3761:3761 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3766:3769 VST.floyd.canon <> lvar constr
+R3771:3771 VST.floyd.local2ptree_denote <> i:29 var
+R3784:3784 VST.floyd.local2ptree_denote <> Q:28 var
+R3710:3711 VST.floyd.local2ptree_denote <> T1:24 var
+binder 3686:3686 <> Q:32
+binder 3688:3688 <> i:33
+binder 3690:3690 <> v:34
+R3703:3706 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3695:3698 VST.floyd.canon <> temp constr
+R3702:3702 VST.floyd.local2ptree_denote <> v:34 var
+R3700:3700 VST.floyd.local2ptree_denote <> i:33 var
+R3707:3707 VST.floyd.local2ptree_denote <> Q:32 var
+prf 3862:3879 <> PTree_elements_set
+binder 3890:3890 <> A:35
+binder 3893:3893 <> i:36
+R3899:3899 VST.floyd.local2ptree_denote <> A:35 var
+binder 3896:3896 <> v:37
+binder 3902:3904 <> elm:38
+binder 3906:3906 <> T:39
+R3952:3957 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3970:3973 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3961:3963 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3958:3960 VST.floyd.local2ptree_denote <> elm:38 var
+R3964:3964 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3966:3967 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3969:3969 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3965:3965 VST.floyd.local2ptree_denote <> i:36 var
+R3968:3968 VST.floyd.local2ptree_denote <> v:37 var
+R3974:3975 Coq.Lists.List <> In def
+R3982:3995 compcert.lib.Maps PTree elements def
+R3997:3997 VST.floyd.local2ptree_denote <> T:39 var
+R3977:3979 VST.floyd.local2ptree_denote <> elm:38 var
+R3911:3912 Coq.Lists.List <> In def
+R3919:3932 compcert.lib.Maps PTree elements def
+R3935:3943 compcert.lib.Maps PTree set def
+R3949:3949 VST.floyd.local2ptree_denote <> T:39 var
+R3947:3947 VST.floyd.local2ptree_denote <> v:37 var
+R3945:3945 VST.floyd.local2ptree_denote <> i:36 var
+R3914:3916 VST.floyd.local2ptree_denote <> elm:38 var
+R4053:4075 compcert.lib.Maps PTree elements_complete thm
+R4053:4075 compcert.lib.Maps PTree elements_complete thm
+R4095:4102 compcert.common.AST <> ident_eq def
+R4095:4102 compcert.common.AST <> ident_eq def
+R4134:4142 compcert.lib.Maps PTree gss thm
+R4134:4142 compcert.lib.Maps PTree gss thm
+R4134:4142 compcert.lib.Maps PTree gss thm
+R4206:4214 compcert.lib.Maps PTree gso thm
+R4206:4214 compcert.lib.Maps PTree gso thm
+R4206:4214 compcert.lib.Maps PTree gso thm
+R4251:4272 compcert.lib.Maps PTree elements_correct thm
+R4251:4272 compcert.lib.Maps PTree elements_correct thm
+prf 4297:4313 <> LocalD_sound_temp
+binder 4325:4325 <> i:40
+binder 4327:4327 <> v:41
+binder 4329:4330 <> T1:42
+binder 4332:4333 <> T2:43
+binder 4335:4335 <> Q:44
+R4363:4366 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4367:4368 Coq.Lists.List <> In def
+R4382:4387 VST.floyd.local2ptree_denote <> LocalD def
+R4395:4395 VST.floyd.local2ptree_denote <> Q:44 var
+R4392:4393 VST.floyd.local2ptree_denote <> T2:43 var
+R4389:4390 VST.floyd.local2ptree_denote <> T1:42 var
+R4371:4374 VST.floyd.canon <> temp constr
+R4378:4378 VST.floyd.local2ptree_denote <> v:41 var
+R4376:4376 VST.floyd.local2ptree_denote <> i:40 var
+R4354:4356 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4340:4348 compcert.lib.Maps PTree get def
+R4352:4353 VST.floyd.local2ptree_denote <> T1:42 var
+R4350:4350 VST.floyd.local2ptree_denote <> i:40 var
+R4357:4360 Coq.Init.Datatypes <> Some constr
+R4362:4362 VST.floyd.local2ptree_denote <> v:41 var
+R4414:4419 VST.floyd.local2ptree_denote <> LocalD def
+R4439:4448 compcert.lib.Maps PTree fold def
+R4536:4539 Coq.Init.Datatypes <> Some constr
+R4547:4547 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4556:4560 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4548:4552 VST.floyd.canon <> gvars constr
+R4561:4563 Coq.Init.Datatypes <> nil constr
+R4567:4570 Coq.Init.Datatypes <> None constr
+R4575:4577 Coq.Init.Datatypes <> nil constr
+binder 4455:4455 <> Q:46
+binder 4457:4457 <> i:47
+binder 4459:4460 <> tv:48
+R4503:4506 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4471:4472 VST.floyd.local2ptree_denote <> tv:48 var
+R4479:4479 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4481:4482 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4484:4484 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4489:4492 VST.floyd.canon <> lvar constr
+R4494:4494 VST.floyd.local2ptree_denote <> i:47 var
+R4507:4507 VST.floyd.local2ptree_denote <> Q:46 var
+R4439:4448 compcert.lib.Maps PTree fold def
+R4536:4539 Coq.Init.Datatypes <> Some constr
+R4547:4547 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4556:4560 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4548:4552 VST.floyd.canon <> gvars constr
+R4561:4563 Coq.Init.Datatypes <> nil constr
+R4567:4570 Coq.Init.Datatypes <> None constr
+R4575:4577 Coq.Init.Datatypes <> nil constr
+binder 4455:4455 <> Q:51
+binder 4457:4457 <> i:52
+binder 4459:4460 <> tv:53
+R4503:4506 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4471:4472 VST.floyd.local2ptree_denote <> tv:53 var
+R4479:4479 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4481:4482 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4484:4484 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4489:4492 VST.floyd.canon <> lvar constr
+R4494:4494 VST.floyd.local2ptree_denote <> i:52 var
+R4507:4507 VST.floyd.local2ptree_denote <> Q:51 var
+R4601:4615 compcert.lib.Maps PTree fold_spec thm
+R4622:4640 Coq.Lists.List <> fold_left_rev_right thm
+R4601:4615 compcert.lib.Maps PTree fold_spec thm
+R4601:4615 compcert.lib.Maps PTree fold_spec thm
+R4601:4615 compcert.lib.Maps PTree fold_spec thm
+R4622:4640 Coq.Lists.List <> fold_left_rev_right thm
+R4622:4640 Coq.Lists.List <> fold_left_rev_right thm
+R4622:4640 Coq.Lists.List <> fold_left_rev_right thm
+R4650:4671 compcert.lib.Maps PTree elements_correct thm
+R4650:4671 compcert.lib.Maps PTree elements_correct thm
+R4688:4693 Coq.Lists.List <> in_rev thm
+R4688:4693 Coq.Lists.List <> in_rev thm
+R4688:4693 Coq.Lists.List <> in_rev thm
+R4710:4712 Coq.Lists.List <> rev def
+R4715:4728 compcert.lib.Maps PTree elements def
+R4710:4712 Coq.Lists.List <> rev def
+R4715:4728 compcert.lib.Maps PTree elements def
+prf 4841:4858 <> LocalD_sound_local
+binder 4870:4870 <> i:55
+binder 4872:4872 <> t:56
+binder 4874:4874 <> v:57
+binder 4876:4877 <> T1:58
+binder 4879:4880 <> T2:59
+binder 4882:4882 <> Q:60
+R4915:4921 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4922:4923 Coq.Lists.List <> In def
+R4939:4944 VST.floyd.local2ptree_denote <> LocalD def
+R4952:4952 VST.floyd.local2ptree_denote <> Q:60 var
+R4949:4950 VST.floyd.local2ptree_denote <> T2:59 var
+R4946:4947 VST.floyd.local2ptree_denote <> T1:58 var
+R4926:4929 VST.floyd.canon <> lvar constr
+R4935:4935 VST.floyd.local2ptree_denote <> v:57 var
+R4933:4933 VST.floyd.local2ptree_denote <> t:56 var
+R4931:4931 VST.floyd.local2ptree_denote <> i:55 var
+R4901:4903 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4887:4895 compcert.lib.Maps PTree get def
+R4899:4900 VST.floyd.local2ptree_denote <> T2:59 var
+R4897:4897 VST.floyd.local2ptree_denote <> i:55 var
+R4904:4907 Coq.Init.Datatypes <> Some constr
+R4909:4909 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4911:4912 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4914:4914 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4910:4910 VST.floyd.local2ptree_denote <> t:56 var
+R4913:4913 VST.floyd.local2ptree_denote <> v:57 var
+R4971:4976 VST.floyd.local2ptree_denote <> LocalD def
+R4997:5011 compcert.lib.Maps PTree fold_spec thm
+R5018:5036 Coq.Lists.List <> fold_left_rev_right thm
+R4997:5011 compcert.lib.Maps PTree fold_spec thm
+R4997:5011 compcert.lib.Maps PTree fold_spec thm
+R4997:5011 compcert.lib.Maps PTree fold_spec thm
+R4997:5011 compcert.lib.Maps PTree fold_spec thm
+R5018:5036 Coq.Lists.List <> fold_left_rev_right thm
+R5018:5036 Coq.Lists.List <> fold_left_rev_right thm
+R5018:5036 Coq.Lists.List <> fold_left_rev_right thm
+R5018:5036 Coq.Lists.List <> fold_left_rev_right thm
+R5046:5067 compcert.lib.Maps PTree elements_correct thm
+R5046:5067 compcert.lib.Maps PTree elements_correct thm
+R5084:5089 Coq.Lists.List <> in_rev thm
+R5084:5089 Coq.Lists.List <> in_rev thm
+R5084:5089 Coq.Lists.List <> in_rev thm
+R5106:5108 Coq.Lists.List <> rev def
+R5111:5124 compcert.lib.Maps PTree elements def
+R5106:5108 Coq.Lists.List <> rev def
+R5111:5124 compcert.lib.Maps PTree elements def
+R5183:5185 Coq.Lists.List <> rev def
+R5188:5201 compcert.lib.Maps PTree elements def
+R5183:5185 Coq.Lists.List <> rev def
+R5188:5201 compcert.lib.Maps PTree elements def
+prf 5363:5380 <> LocalD_sound_gvars
+binder 5392:5393 <> gv:61
+binder 5395:5396 <> T1:62
+binder 5398:5399 <> T2:63
+binder 5401:5401 <> Q:64
+R5417:5421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5422:5423 Coq.Lists.List <> In def
+R5437:5442 VST.floyd.local2ptree_denote <> LocalD def
+R5450:5450 VST.floyd.local2ptree_denote <> Q:64 var
+R5447:5448 VST.floyd.local2ptree_denote <> T2:63 var
+R5444:5445 VST.floyd.local2ptree_denote <> T1:62 var
+R5426:5430 VST.floyd.canon <> gvars constr
+R5432:5433 VST.floyd.local2ptree_denote <> gv:61 var
+R5407:5409 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5406:5406 VST.floyd.local2ptree_denote <> Q:64 var
+R5410:5413 Coq.Init.Datatypes <> Some constr
+R5415:5416 VST.floyd.local2ptree_denote <> gv:61 var
+R5469:5474 VST.floyd.local2ptree_denote <> LocalD def
+R5505:5519 compcert.lib.Maps PTree fold_spec thm
+R5526:5544 Coq.Lists.List <> fold_left_rev_right thm
+R5505:5519 compcert.lib.Maps PTree fold_spec thm
+R5505:5519 compcert.lib.Maps PTree fold_spec thm
+R5505:5519 compcert.lib.Maps PTree fold_spec thm
+R5505:5519 compcert.lib.Maps PTree fold_spec thm
+R5526:5544 Coq.Lists.List <> fold_left_rev_right thm
+R5526:5544 Coq.Lists.List <> fold_left_rev_right thm
+R5526:5544 Coq.Lists.List <> fold_left_rev_right thm
+R5526:5544 Coq.Lists.List <> fold_left_rev_right thm
+R5556:5558 Coq.Lists.List <> rev def
+R5561:5574 compcert.lib.Maps PTree elements def
+R5556:5558 Coq.Lists.List <> rev def
+R5561:5574 compcert.lib.Maps PTree elements def
+R5633:5635 Coq.Lists.List <> rev def
+R5638:5651 compcert.lib.Maps PTree elements def
+R5633:5635 Coq.Lists.List <> rev def
+R5638:5651 compcert.lib.Maps PTree elements def
+prf 5777:5788 <> LocalD_sound
+binder 5798:5798 <> q:65
+binder 5800:5801 <> T1:66
+binder 5803:5804 <> T2:67
+binder 5806:5806 <> Q:68
+R5978:5983 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5984:5985 Coq.Lists.List <> In def
+R5990:5995 VST.floyd.local2ptree_denote <> LocalD def
+R6003:6003 VST.floyd.local2ptree_denote <> Q:68 var
+R6000:6001 VST.floyd.local2ptree_denote <> T2:67 var
+R5997:5998 VST.floyd.local2ptree_denote <> T1:66 var
+R5987:5987 VST.floyd.local2ptree_denote <> q:65 var
+R5811:5811 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5863:5869 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5812:5818 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5822:5823 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5819:5819 <> i:69
+binder 5821:5821 <> v:70
+R5847:5850 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5838:5840 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5824:5832 compcert.lib.Maps PTree get def
+R5836:5837 VST.floyd.local2ptree_denote <> T1:66 var
+R5834:5834 VST.floyd.local2ptree_denote <> i:69 var
+R5841:5844 Coq.Init.Datatypes <> Some constr
+R5846:5846 VST.floyd.local2ptree_denote <> v:70 var
+R5852:5854 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5851:5851 VST.floyd.local2ptree_denote <> q:65 var
+R5855:5858 VST.floyd.canon <> temp constr
+R5862:5862 VST.floyd.local2ptree_denote <> v:70 var
+R5860:5860 VST.floyd.local2ptree_denote <> i:69 var
+R5870:5870 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5931:5938 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5977:5977 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5871:5877 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5883:5884 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5878:5878 <> i:71
+binder 5880:5880 <> t:72
+binder 5882:5882 <> v:73
+R5913:5916 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5899:5901 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5885:5893 compcert.lib.Maps PTree get def
+R5897:5898 VST.floyd.local2ptree_denote <> T2:67 var
+R5895:5895 VST.floyd.local2ptree_denote <> i:71 var
+R5902:5905 Coq.Init.Datatypes <> Some constr
+R5907:5907 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5909:5910 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5912:5912 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5908:5908 VST.floyd.local2ptree_denote <> t:72 var
+R5911:5911 VST.floyd.local2ptree_denote <> v:73 var
+R5918:5920 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5917:5917 VST.floyd.local2ptree_denote <> q:65 var
+R5921:5924 VST.floyd.canon <> lvar constr
+R5930:5930 VST.floyd.local2ptree_denote <> v:73 var
+R5928:5928 VST.floyd.local2ptree_denote <> t:72 var
+R5926:5926 VST.floyd.local2ptree_denote <> i:71 var
+R5939:5945 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5948:5949 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5946:5947 <> gv:74
+R5961:5964 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5951:5953 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5950:5950 VST.floyd.local2ptree_denote <> Q:68 var
+R5954:5957 Coq.Init.Datatypes <> Some constr
+R5959:5960 VST.floyd.local2ptree_denote <> gv:74 var
+R5966:5968 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5965:5965 VST.floyd.local2ptree_denote <> q:65 var
+R5969:5973 VST.floyd.canon <> gvars constr
+R5975:5976 VST.floyd.local2ptree_denote <> gv:74 var
+R6066:6069 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6066:6069 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6101:6102 Coq.Init.Logic <> ex ind
+R6101:6102 Coq.Init.Logic <> ex ind
+R6136:6139 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6136:6139 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6187:6203 VST.floyd.local2ptree_denote <> LocalD_sound_temp thm
+R6187:6203 VST.floyd.local2ptree_denote <> LocalD_sound_temp thm
+R6218:6235 VST.floyd.local2ptree_denote <> LocalD_sound_local thm
+R6218:6235 VST.floyd.local2ptree_denote <> LocalD_sound_local thm
+R6289:6306 VST.floyd.local2ptree_denote <> LocalD_sound_gvars thm
+R6289:6306 VST.floyd.local2ptree_denote <> LocalD_sound_gvars thm
+prf 6355:6369 <> LocalD_complete
+binder 6380:6380 <> q:75
+binder 6382:6383 <> T1:76
+binder 6385:6386 <> T2:77
+binder 6388:6388 <> Q:78
+R6414:6419 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6420:6420 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6472:6478 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6421:6427 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6431:6432 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 6428:6428 <> i:79
+binder 6430:6430 <> v:80
+R6456:6459 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6447:6449 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6433:6441 compcert.lib.Maps PTree get def
+R6445:6446 VST.floyd.local2ptree_denote <> T1:76 var
+R6443:6443 VST.floyd.local2ptree_denote <> i:79 var
+R6450:6453 Coq.Init.Datatypes <> Some constr
+R6455:6455 VST.floyd.local2ptree_denote <> v:80 var
+R6461:6463 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6460:6460 VST.floyd.local2ptree_denote <> q:75 var
+R6464:6467 VST.floyd.canon <> temp constr
+R6471:6471 VST.floyd.local2ptree_denote <> v:80 var
+R6469:6469 VST.floyd.local2ptree_denote <> i:79 var
+R6479:6479 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6540:6547 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6586:6586 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6480:6486 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6492:6493 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 6487:6487 <> i:81
+binder 6489:6489 <> t:82
+binder 6491:6491 <> v:83
+R6522:6525 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6508:6510 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6494:6502 compcert.lib.Maps PTree get def
+R6506:6507 VST.floyd.local2ptree_denote <> T2:77 var
+R6504:6504 VST.floyd.local2ptree_denote <> i:81 var
+R6511:6514 Coq.Init.Datatypes <> Some constr
+R6516:6516 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6518:6519 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6521:6521 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6517:6517 VST.floyd.local2ptree_denote <> t:82 var
+R6520:6520 VST.floyd.local2ptree_denote <> v:83 var
+R6527:6529 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6526:6526 VST.floyd.local2ptree_denote <> q:75 var
+R6530:6533 VST.floyd.canon <> lvar constr
+R6539:6539 VST.floyd.local2ptree_denote <> v:83 var
+R6537:6537 VST.floyd.local2ptree_denote <> t:82 var
+R6535:6535 VST.floyd.local2ptree_denote <> i:81 var
+R6548:6554 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6557:6558 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 6555:6556 <> gv:84
+R6570:6573 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6560:6562 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6559:6559 VST.floyd.local2ptree_denote <> Q:78 var
+R6563:6566 Coq.Init.Datatypes <> Some constr
+R6568:6569 VST.floyd.local2ptree_denote <> gv:84 var
+R6575:6577 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6574:6574 VST.floyd.local2ptree_denote <> q:75 var
+R6578:6582 VST.floyd.canon <> gvars constr
+R6584:6585 VST.floyd.local2ptree_denote <> gv:84 var
+R6393:6394 Coq.Lists.List <> In def
+R6399:6404 VST.floyd.local2ptree_denote <> LocalD def
+R6412:6412 VST.floyd.local2ptree_denote <> Q:78 var
+R6409:6410 VST.floyd.local2ptree_denote <> T2:77 var
+R6406:6407 VST.floyd.local2ptree_denote <> T1:76 var
+R6396:6396 VST.floyd.local2ptree_denote <> q:75 var
+R6615:6620 VST.floyd.local2ptree_denote <> LocalD def
+R6639:6653 compcert.lib.Maps PTree fold_spec thm
+R6660:6678 Coq.Lists.List <> fold_left_rev_right thm
+R6639:6653 compcert.lib.Maps PTree fold_spec thm
+R6639:6653 compcert.lib.Maps PTree fold_spec thm
+R6639:6653 compcert.lib.Maps PTree fold_spec thm
+R6639:6653 compcert.lib.Maps PTree fold_spec thm
+R6660:6678 Coq.Lists.List <> fold_left_rev_right thm
+R6660:6678 Coq.Lists.List <> fold_left_rev_right thm
+R6660:6678 Coq.Lists.List <> fold_left_rev_right thm
+R6660:6678 Coq.Lists.List <> fold_left_rev_right thm
+R6698:6700 Coq.Lists.List <> rev def
+R6703:6716 compcert.lib.Maps PTree elements def
+R6698:6700 Coq.Lists.List <> rev def
+R6703:6716 compcert.lib.Maps PTree elements def
+R6763:6766 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6760:6762 Coq.Init.Datatypes <> nil constr
+R6763:6766 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6760:6762 Coq.Init.Datatypes <> nil constr
+R6790:6792 Coq.Init.Datatypes <> nil constr
+R6803:6805 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6795:6802 Coq.Numbers.BinNums <> positive ind
+R6806:6808 compcert.common.Values <> val ind
+R6790:6792 Coq.Init.Datatypes <> nil constr
+R6803:6805 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6795:6802 Coq.Numbers.BinNums <> positive ind
+R6806:6808 compcert.common.Values <> val ind
+R6902:6904 Coq.Lists.List <> rev def
+R6907:6920 compcert.lib.Maps PTree elements def
+R6902:6904 Coq.Lists.List <> rev def
+R6907:6920 compcert.lib.Maps PTree elements def
+R6971:6974 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6968:6970 Coq.Init.Datatypes <> nil constr
+R6971:6974 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6968:6970 Coq.Init.Datatypes <> nil constr
+R7000:7002 Coq.Init.Datatypes <> nil constr
+R7013:7016 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7027:7027 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7005:7012 Coq.Numbers.BinNums <> positive ind
+R7021:7023 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7017:7020 compcert.cfrontend.Ctypes <> type ind
+R7024:7026 compcert.common.Values <> val ind
+R7000:7002 Coq.Init.Datatypes <> nil constr
+R7013:7016 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7027:7027 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7005:7012 Coq.Numbers.BinNums <> positive ind
+R7021:7023 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7017:7020 compcert.cfrontend.Ctypes <> type ind
+R7024:7026 compcert.common.Values <> val ind
+R7210:7211 Coq.Lists.List <> In def
+R7216:7229 compcert.lib.Maps PTree elements def
+R7210:7211 Coq.Lists.List <> In def
+R7216:7229 compcert.lib.Maps PTree elements def
+R7253:7258 Coq.Lists.List <> in_rev thm
+R7253:7258 Coq.Lists.List <> in_rev thm
+R7253:7258 Coq.Lists.List <> in_rev thm
+R7278:7283 compcert.lib.Coqlib <> in_app thm
+R7278:7283 compcert.lib.Coqlib <> in_app thm
+R7278:7283 compcert.lib.Coqlib <> in_app thm
+R7350:7372 compcert.lib.Maps PTree elements_complete thm
+R7350:7372 compcert.lib.Maps PTree elements_complete thm
+R7448:7451 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7463:7466 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7452:7452 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7454:7455 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7462:7462 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7456:7456 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7458:7459 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7461:7461 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7467:7469 Coq.Init.Datatypes <> nil constr
+R7488:7494 Coq.Lists.List <> app_ass syndef
+R7448:7451 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7463:7466 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7452:7452 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7454:7455 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7462:7462 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7456:7456 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7458:7459 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7461:7461 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7467:7469 Coq.Init.Datatypes <> nil constr
+R7488:7494 Coq.Lists.List <> app_ass syndef
+R7488:7494 Coq.Lists.List <> app_ass syndef
+R7579:7580 Coq.Lists.List <> In def
+R7585:7598 compcert.lib.Maps PTree elements def
+R7579:7580 Coq.Lists.List <> In def
+R7585:7598 compcert.lib.Maps PTree elements def
+R7622:7627 Coq.Lists.List <> in_rev thm
+R7622:7627 Coq.Lists.List <> in_rev thm
+R7622:7627 Coq.Lists.List <> in_rev thm
+R7647:7652 compcert.lib.Coqlib <> in_app thm
+R7647:7652 compcert.lib.Coqlib <> in_app thm
+R7647:7652 compcert.lib.Coqlib <> in_app thm
+R7709:7731 compcert.lib.Maps PTree elements_complete thm
+R7709:7731 compcert.lib.Maps PTree elements_complete thm
+R7799:7802 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7808:7809 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7803:7803 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7805:7805 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7807:7807 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7810:7812 Coq.Init.Datatypes <> nil constr
+R7799:7802 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7808:7809 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7803:7803 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7805:7805 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7807:7807 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7810:7812 Coq.Init.Datatypes <> nil constr
+R7831:7837 Coq.Lists.List <> app_ass syndef
+R7831:7837 Coq.Lists.List <> app_ass syndef
+R7831:7837 Coq.Lists.List <> app_ass syndef
+prf 7889:7899 <> in_temp_aux
+binder 7911:7911 <> q:85
+binder 7913:7913 <> L:86
+binder 7915:7915 <> Q:87
+R8030:8039 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8090:8090 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7922:7923 Coq.Lists.List <> In def
+R7928:7937 Coq.Lists.List <> fold_right def
+R8028:8028 VST.floyd.local2ptree_denote <> L:86 var
+R8026:8026 VST.floyd.local2ptree_denote <> Q:87 var
+R7962:7964 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7954:7961 Coq.Numbers.BinNums <> positive ind
+R7965:7967 compcert.common.Values <> val ind
+binder 7950:7950 <> y:88
+R7975:7978 Coq.Init.Datatypes <> list ind
+R7980:7987 VST.floyd.canon <> localdef ind
+binder 7971:7971 <> x:89
+R8019:8022 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7999:8002 VST.floyd.canon <> temp constr
+R8013:8015 Coq.Init.Datatypes <> snd def
+R8017:8017 VST.floyd.local2ptree_denote <> y:88 var
+R8005:8007 Coq.Init.Datatypes <> fst def
+R8009:8009 VST.floyd.local2ptree_denote <> y:88 var
+R8023:8023 VST.floyd.local2ptree_denote <> x:89 var
+R7925:7925 VST.floyd.local2ptree_denote <> q:85 var
+R8040:8040 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8079:8083 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8041:8047 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8051:8052 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8048:8048 <> i:90
+binder 8050:8050 <> v:91
+R8065:8068 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8054:8056 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8053:8053 VST.floyd.local2ptree_denote <> q:85 var
+R8057:8060 VST.floyd.canon <> temp constr
+R8064:8064 VST.floyd.local2ptree_denote <> v:91 var
+R8062:8062 VST.floyd.local2ptree_denote <> i:90 var
+R8069:8070 Coq.Lists.List <> In def
+R8078:8078 VST.floyd.local2ptree_denote <> L:86 var
+R8072:8072 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8074:8074 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8076:8076 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8073:8073 VST.floyd.local2ptree_denote <> i:90 var
+R8075:8075 VST.floyd.local2ptree_denote <> v:91 var
+R8084:8085 Coq.Lists.List <> In def
+R8089:8089 VST.floyd.local2ptree_denote <> Q:87 var
+R8087:8087 VST.floyd.local2ptree_denote <> q:85 var
+prf 8511:8532 <> LOCALx_expand_temp_var
+binder 8544:8544 <> i:92
+binder 8546:8546 <> v:93
+binder 8548:8549 <> T1:94
+binder 8551:8552 <> T2:95
+binder 8554:8554 <> Q:96
+binder 8556:8557 <> Q0:97
+R8600:8606 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8562:8563 Coq.Lists.List <> In def
+R8569:8574 VST.floyd.local2ptree_denote <> LocalD def
+R8598:8598 VST.floyd.local2ptree_denote <> Q:96 var
+R8595:8596 VST.floyd.local2ptree_denote <> T2:95 var
+R8577:8585 compcert.lib.Maps PTree set def
+R8591:8592 VST.floyd.local2ptree_denote <> T1:94 var
+R8589:8589 VST.floyd.local2ptree_denote <> v:93 var
+R8587:8587 VST.floyd.local2ptree_denote <> i:92 var
+R8565:8566 VST.floyd.local2ptree_denote <> Q0:97 var
+R8607:8608 Coq.Lists.List <> In def
+R8622:8625 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8614:8617 VST.floyd.canon <> temp constr
+R8621:8621 VST.floyd.local2ptree_denote <> v:93 var
+R8619:8619 VST.floyd.local2ptree_denote <> i:92 var
+R8626:8631 VST.floyd.local2ptree_denote <> LocalD def
+R8656:8656 VST.floyd.local2ptree_denote <> Q:96 var
+R8653:8654 VST.floyd.local2ptree_denote <> T2:95 var
+R8634:8645 compcert.lib.Maps PTree remove def
+R8649:8650 VST.floyd.local2ptree_denote <> T1:94 var
+R8647:8647 VST.floyd.local2ptree_denote <> i:92 var
+R8610:8611 VST.floyd.local2ptree_denote <> Q0:97 var
+R8713:8727 VST.floyd.local2ptree_denote <> LocalD_complete thm
+R8713:8727 VST.floyd.local2ptree_denote <> LocalD_complete thm
+R8817:8824 compcert.common.AST <> ident_eq def
+R8817:8824 compcert.common.AST <> ident_eq def
+R8864:8872 compcert.lib.Maps PTree gss thm
+R8864:8872 compcert.lib.Maps PTree gss thm
+R8864:8872 compcert.lib.Maps PTree gss thm
+R8951:8959 compcert.lib.Maps PTree gso thm
+R8951:8959 compcert.lib.Maps PTree gso thm
+R8951:8959 compcert.lib.Maps PTree gso thm
+R9004:9020 VST.floyd.local2ptree_denote <> LocalD_sound_temp thm
+R9004:9020 VST.floyd.local2ptree_denote <> LocalD_sound_temp thm
+R9039:9047 compcert.lib.Maps PTree gro thm
+R9039:9047 compcert.lib.Maps PTree gro thm
+R9039:9047 compcert.lib.Maps PTree gro thm
+R9162:9167 VST.floyd.local2ptree_denote <> LocalD def
+R9187:9201 compcert.lib.Maps PTree fold_spec thm
+R9208:9226 Coq.Lists.List <> fold_left_rev_right thm
+R9187:9201 compcert.lib.Maps PTree fold_spec thm
+R9187:9201 compcert.lib.Maps PTree fold_spec thm
+R9187:9201 compcert.lib.Maps PTree fold_spec thm
+R9187:9201 compcert.lib.Maps PTree fold_spec thm
+R9208:9226 Coq.Lists.List <> fold_left_rev_right thm
+R9208:9226 Coq.Lists.List <> fold_left_rev_right thm
+R9208:9226 Coq.Lists.List <> fold_left_rev_right thm
+R9208:9226 Coq.Lists.List <> fold_left_rev_right thm
+R9248:9250 Coq.Lists.List <> rev def
+R9253:9266 compcert.lib.Maps PTree elements def
+R9269:9280 compcert.lib.Maps PTree remove def
+R9248:9250 Coq.Lists.List <> rev def
+R9253:9266 compcert.lib.Maps PTree elements def
+R9269:9280 compcert.lib.Maps PTree remove def
+R9314:9335 compcert.lib.Maps PTree elements_correct thm
+R9314:9335 compcert.lib.Maps PTree elements_correct thm
+R9351:9356 Coq.Lists.List <> in_rev thm
+R9351:9356 Coq.Lists.List <> in_rev thm
+R9351:9356 Coq.Lists.List <> in_rev thm
+R9386:9388 Coq.Lists.List <> rev def
+R9391:9404 compcert.lib.Maps PTree elements def
+R9386:9388 Coq.Lists.List <> rev def
+R9391:9404 compcert.lib.Maps PTree elements def
+R9619:9624 VST.floyd.local2ptree_denote <> LocalD def
+R9644:9658 compcert.lib.Maps PTree fold_spec thm
+R9665:9683 Coq.Lists.List <> fold_left_rev_right thm
+R9644:9658 compcert.lib.Maps PTree fold_spec thm
+R9644:9658 compcert.lib.Maps PTree fold_spec thm
+R9644:9658 compcert.lib.Maps PTree fold_spec thm
+R9644:9658 compcert.lib.Maps PTree fold_spec thm
+R9665:9683 Coq.Lists.List <> fold_left_rev_right thm
+R9665:9683 Coq.Lists.List <> fold_left_rev_right thm
+R9665:9683 Coq.Lists.List <> fold_left_rev_right thm
+R9665:9683 Coq.Lists.List <> fold_left_rev_right thm
+R9751:9753 Coq.Lists.List <> rev def
+R9756:9769 compcert.lib.Maps PTree elements def
+R9772:9783 compcert.lib.Maps PTree remove def
+R9751:9753 Coq.Lists.List <> rev def
+R9756:9769 compcert.lib.Maps PTree elements def
+R9772:9783 compcert.lib.Maps PTree remove def
+R9822:9824 Coq.Lists.List <> rev def
+R9827:9840 compcert.lib.Maps PTree elements def
+R9822:9824 Coq.Lists.List <> rev def
+R9827:9840 compcert.lib.Maps PTree elements def
+R9960:9976 VST.floyd.local2ptree_denote <> LocalD_sound_temp thm
+R9960:9976 VST.floyd.local2ptree_denote <> LocalD_sound_temp thm
+R9985:9993 compcert.lib.Maps PTree gss thm
+R9985:9993 compcert.lib.Maps PTree gss thm
+R10009:10014 VST.floyd.local2ptree_denote <> LocalD def
+R10037:10051 compcert.lib.Maps PTree fold_spec thm
+R10058:10076 Coq.Lists.List <> fold_left_rev_right thm
+R10037:10051 compcert.lib.Maps PTree fold_spec thm
+R10037:10051 compcert.lib.Maps PTree fold_spec thm
+R10037:10051 compcert.lib.Maps PTree fold_spec thm
+R10037:10051 compcert.lib.Maps PTree fold_spec thm
+R10058:10076 Coq.Lists.List <> fold_left_rev_right thm
+R10058:10076 Coq.Lists.List <> fold_left_rev_right thm
+R10058:10076 Coq.Lists.List <> fold_left_rev_right thm
+R10058:10076 Coq.Lists.List <> fold_left_rev_right thm
+R10099:10108 Coq.Lists.List <> fold_right def
+R10311:10313 Coq.Lists.List <> rev def
+R10316:10329 compcert.lib.Maps PTree elements def
+R10249:10252 Coq.Init.Datatypes <> Some constr
+R10268:10271 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10260:10264 VST.floyd.canon <> gvars constr
+R10272:10274 Coq.Init.Datatypes <> nil constr
+R10286:10289 Coq.Init.Datatypes <> None constr
+R10294:10296 Coq.Init.Datatypes <> nil constr
+R10128:10131 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R10142:10142 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R10120:10127 Coq.Numbers.BinNums <> positive ind
+R10136:10138 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R10132:10135 compcert.cfrontend.Ctypes <> type ind
+R10139:10141 compcert.common.Values <> val ind
+binder 10116:10116 <> y:99
+R10150:10153 Coq.Init.Datatypes <> list ind
+R10155:10162 VST.floyd.canon <> localdef ind
+binder 10146:10146 <> x:100
+R10168:10168 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10210:10214 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10184:10186 Coq.Init.Datatypes <> snd def
+R10188:10188 VST.floyd.local2ptree_denote <> y:99 var
+binder 10174:10174 <> t:101
+binder 10177:10178 <> v0:102
+R10193:10196 VST.floyd.canon <> lvar constr
+R10208:10209 VST.floyd.local2ptree_denote <> v0:102 var
+R10206:10206 VST.floyd.local2ptree_denote <> t:101 var
+R10199:10201 Coq.Init.Datatypes <> fst def
+R10203:10203 VST.floyd.local2ptree_denote <> y:99 var
+R10215:10215 VST.floyd.local2ptree_denote <> x:100 var
+R10099:10108 Coq.Lists.List <> fold_right def
+R10311:10313 Coq.Lists.List <> rev def
+R10316:10329 compcert.lib.Maps PTree elements def
+R10249:10252 Coq.Init.Datatypes <> Some constr
+R10268:10271 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10260:10264 VST.floyd.canon <> gvars constr
+R10272:10274 Coq.Init.Datatypes <> nil constr
+R10286:10289 Coq.Init.Datatypes <> None constr
+R10294:10296 Coq.Init.Datatypes <> nil constr
+R10128:10131 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R10142:10142 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R10120:10127 Coq.Numbers.BinNums <> positive ind
+R10136:10138 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R10132:10135 compcert.cfrontend.Ctypes <> type ind
+R10139:10141 compcert.common.Values <> val ind
+binder 10116:10116 <> y:104
+R10150:10153 Coq.Init.Datatypes <> list ind
+R10155:10162 VST.floyd.canon <> localdef ind
+binder 10146:10146 <> x:105
+R10168:10168 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10210:10214 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10184:10186 Coq.Init.Datatypes <> snd def
+R10188:10188 VST.floyd.local2ptree_denote <> y:104 var
+binder 10174:10174 <> t:106
+binder 10177:10178 <> v0:107
+R10193:10196 VST.floyd.canon <> lvar constr
+R10208:10209 VST.floyd.local2ptree_denote <> v0:107 var
+R10206:10206 VST.floyd.local2ptree_denote <> t:106 var
+R10199:10201 Coq.Init.Datatypes <> fst def
+R10203:10203 VST.floyd.local2ptree_denote <> y:104 var
+R10215:10215 VST.floyd.local2ptree_denote <> x:105 var
+R10375:10385 VST.floyd.local2ptree_denote <> in_temp_aux thm
+R10375:10385 VST.floyd.local2ptree_denote <> in_temp_aux thm
+R10375:10385 VST.floyd.local2ptree_denote <> in_temp_aux thm
+R10396:10406 VST.floyd.local2ptree_denote <> in_temp_aux thm
+R10396:10406 VST.floyd.local2ptree_denote <> in_temp_aux thm
+R10396:10406 VST.floyd.local2ptree_denote <> in_temp_aux thm
+R10512:10517 Coq.Lists.List <> in_rev thm
+R10512:10517 Coq.Lists.List <> in_rev thm
+R10512:10517 Coq.Lists.List <> in_rev thm
+R10539:10560 compcert.lib.Maps PTree elements_correct thm
+R10539:10560 compcert.lib.Maps PTree elements_correct thm
+R10569:10591 compcert.lib.Maps PTree elements_complete thm
+R10569:10591 compcert.lib.Maps PTree elements_complete thm
+R10638:10645 compcert.common.AST <> ident_eq def
+R10638:10645 compcert.common.AST <> ident_eq def
+R10678:10686 compcert.lib.Maps PTree grs thm
+R10678:10686 compcert.lib.Maps PTree grs thm
+R10678:10686 compcert.lib.Maps PTree grs thm
+R10721:10729 compcert.lib.Maps PTree gro thm
+R10721:10729 compcert.lib.Maps PTree gro thm
+R10721:10729 compcert.lib.Maps PTree gro thm
+R10754:10762 compcert.lib.Maps PTree gso thm
+R10754:10762 compcert.lib.Maps PTree gso thm
+R10754:10762 compcert.lib.Maps PTree gso thm
+R10754:10762 compcert.lib.Maps PTree gso thm
+prf 10804:10823 <> In_LocalD_remove_set
+binder 10837:10837 <> q:108
+binder 10839:10840 <> T1:109
+binder 10842:10842 <> i:110
+binder 10844:10845 <> vd:111
+binder 10847:10848 <> T2:112
+binder 10850:10850 <> Q:113
+R10897:10906 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10907:10908 Coq.Lists.List <> In def
+R10913:10918 VST.floyd.local2ptree_denote <> LocalD def
+R10943:10943 VST.floyd.local2ptree_denote <> Q:113 var
+R10924:10932 compcert.lib.Maps PTree set def
+R10939:10940 VST.floyd.local2ptree_denote <> T2:112 var
+R10936:10937 VST.floyd.local2ptree_denote <> vd:111 var
+R10934:10934 VST.floyd.local2ptree_denote <> i:110 var
+R10920:10921 VST.floyd.local2ptree_denote <> T1:109 var
+R10910:10910 VST.floyd.local2ptree_denote <> q:108 var
+R10859:10860 Coq.Lists.List <> In def
+R10865:10870 VST.floyd.local2ptree_denote <> LocalD def
+R10895:10895 VST.floyd.local2ptree_denote <> Q:113 var
+R10876:10887 compcert.lib.Maps PTree remove def
+R10891:10892 VST.floyd.local2ptree_denote <> T2:112 var
+R10889:10889 VST.floyd.local2ptree_denote <> i:110 var
+R10872:10873 VST.floyd.local2ptree_denote <> T1:109 var
+R10862:10862 VST.floyd.local2ptree_denote <> q:108 var
+R10970:10981 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R10970:10981 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R10991:11005 VST.floyd.local2ptree_denote <> LocalD_complete thm
+R10991:11005 VST.floyd.local2ptree_denote <> LocalD_complete thm
+R11061:11064 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11061:11064 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11096:11097 Coq.Init.Logic <> ex ind
+R11096:11097 Coq.Init.Logic <> ex ind
+R11131:11134 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11131:11134 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11251:11258 compcert.common.AST <> ident_eq def
+R11251:11258 compcert.common.AST <> ident_eq def
+R11281:11289 compcert.lib.Maps PTree grs thm
+R11281:11289 compcert.lib.Maps PTree grs thm
+R11281:11289 compcert.lib.Maps PTree grs thm
+R11313:11321 compcert.lib.Maps PTree gro thm
+R11345:11353 compcert.lib.Maps PTree gso thm
+R11313:11321 compcert.lib.Maps PTree gro thm
+R11313:11321 compcert.lib.Maps PTree gro thm
+R11345:11353 compcert.lib.Maps PTree gso thm
+R11345:11353 compcert.lib.Maps PTree gso thm
+prf 11422:11442 <> LOCALx_expand_vardesc
+binder 11453:11453 <> i:114
+binder 11455:11456 <> vd:115
+binder 11458:11459 <> T1:116
+binder 11461:11462 <> T2:117
+binder 11464:11464 <> Q:118
+binder 11466:11467 <> Q0:119
+R11511:11517 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11472:11473 Coq.Lists.List <> In def
+R11479:11484 VST.floyd.local2ptree_denote <> LocalD def
+R11509:11509 VST.floyd.local2ptree_denote <> Q:118 var
+R11490:11498 compcert.lib.Maps PTree set def
+R11505:11506 VST.floyd.local2ptree_denote <> T2:117 var
+R11502:11503 VST.floyd.local2ptree_denote <> vd:115 var
+R11500:11500 VST.floyd.local2ptree_denote <> i:114 var
+R11486:11487 VST.floyd.local2ptree_denote <> T1:116 var
+R11475:11476 VST.floyd.local2ptree_denote <> Q0:119 var
+R11518:11519 Coq.Lists.List <> In def
+R11563:11567 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11599:11599 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11531:11532 VST.floyd.local2ptree_denote <> vd:115 var
+R11539:11539 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11541:11542 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11544:11544 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11549:11552 VST.floyd.canon <> lvar constr
+R11554:11554 VST.floyd.local2ptree_denote <> i:114 var
+R11568:11573 VST.floyd.local2ptree_denote <> LocalD def
+R11598:11598 VST.floyd.local2ptree_denote <> Q:118 var
+R11579:11590 compcert.lib.Maps PTree remove def
+R11594:11595 VST.floyd.local2ptree_denote <> T2:117 var
+R11592:11592 VST.floyd.local2ptree_denote <> i:114 var
+R11575:11576 VST.floyd.local2ptree_denote <> T1:116 var
+R11521:11522 VST.floyd.local2ptree_denote <> Q0:119 var
+R11656:11670 VST.floyd.local2ptree_denote <> LocalD_complete thm
+R11656:11670 VST.floyd.local2ptree_denote <> LocalD_complete thm
+R11726:11729 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11726:11729 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11761:11762 Coq.Init.Logic <> ex ind
+R11761:11762 Coq.Init.Logic <> ex ind
+R11796:11799 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11796:11799 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11899:11915 VST.floyd.local2ptree_denote <> LocalD_sound_temp thm
+R11899:11915 VST.floyd.local2ptree_denote <> LocalD_sound_temp thm
+R11946:11953 compcert.common.AST <> ident_eq def
+R11946:11953 compcert.common.AST <> ident_eq def
+R11988:11996 compcert.lib.Maps PTree gss thm
+R11988:11996 compcert.lib.Maps PTree gss thm
+R11988:11996 compcert.lib.Maps PTree gss thm
+R12040:12048 compcert.lib.Maps PTree gso thm
+R12040:12048 compcert.lib.Maps PTree gso thm
+R12040:12048 compcert.lib.Maps PTree gso thm
+R12121:12132 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R12188:12196 compcert.lib.Maps PTree gro thm
+R12121:12132 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R12188:12196 compcert.lib.Maps PTree gro thm
+R12188:12196 compcert.lib.Maps PTree gro thm
+R12238:12255 VST.floyd.local2ptree_denote <> LocalD_sound_gvars thm
+R12238:12255 VST.floyd.local2ptree_denote <> LocalD_sound_gvars thm
+R12331:12342 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R12331:12342 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R12397:12405 compcert.lib.Maps PTree gss thm
+R12397:12405 compcert.lib.Maps PTree gss thm
+R12425:12444 VST.floyd.local2ptree_denote <> In_LocalD_remove_set thm
+R12425:12444 VST.floyd.local2ptree_denote <> In_LocalD_remove_set thm
+prf 12465:12483 <> LOCALx_expand_gvars
+binder 12493:12494 <> T1:121
+binder 12496:12497 <> T2:122
+binder 12499:12500 <> gv:123
+binder 12502:12503 <> Q0:124
+R12538:12544 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12508:12509 Coq.Lists.List <> In def
+R12515:12520 VST.floyd.local2ptree_denote <> LocalD def
+R12529:12532 Coq.Init.Datatypes <> Some constr
+R12534:12535 VST.floyd.local2ptree_denote <> gv:123 var
+R12525:12526 VST.floyd.local2ptree_denote <> T2:122 var
+R12522:12523 VST.floyd.local2ptree_denote <> T1:121 var
+R12511:12512 VST.floyd.local2ptree_denote <> Q0:124 var
+R12545:12546 Coq.Lists.List <> In def
+R12560:12562 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12552:12556 VST.floyd.canon <> gvars constr
+R12558:12559 VST.floyd.local2ptree_denote <> gv:123 var
+R12563:12568 VST.floyd.local2ptree_denote <> LocalD def
+R12576:12579 Coq.Init.Datatypes <> None constr
+R12573:12574 VST.floyd.local2ptree_denote <> T2:122 var
+R12570:12571 VST.floyd.local2ptree_denote <> T1:121 var
+R12548:12549 VST.floyd.local2ptree_denote <> Q0:124 var
+R12636:12650 VST.floyd.local2ptree_denote <> LocalD_complete thm
+R12636:12650 VST.floyd.local2ptree_denote <> LocalD_complete thm
+R12706:12709 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R12706:12709 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R12741:12742 Coq.Init.Logic <> ex ind
+R12741:12742 Coq.Init.Logic <> ex ind
+R12776:12779 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12776:12779 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12846:12862 VST.floyd.local2ptree_denote <> LocalD_sound_temp thm
+R12846:12862 VST.floyd.local2ptree_denote <> LocalD_sound_temp thm
+R12896:12907 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R12896:12907 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R13013:13030 VST.floyd.local2ptree_denote <> LocalD_sound_gvars thm
+R13013:13030 VST.floyd.local2ptree_denote <> LocalD_sound_gvars thm
+R13049:13063 VST.floyd.local2ptree_denote <> LocalD_complete thm
+R13049:13063 VST.floyd.local2ptree_denote <> LocalD_complete thm
+R13081:13092 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R13081:13092 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R13143:13146 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R13143:13146 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R13178:13179 Coq.Init.Logic <> ex ind
+R13178:13179 Coq.Init.Logic <> ex ind
+R13213:13216 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13213:13216 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+prf 13387:13409 <> LOCALx_shuffle_derives'
+binder 13419:13419 <> P:125
+binder 13421:13421 <> Q:126
+binder 13423:13424 <> Q':127
+binder 13426:13426 <> R:128
+R13431:13431 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13462:13468 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13489:13493 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R13469:13473 VST.floyd.canon <> PROPx def
+R13478:13483 VST.floyd.canon <> LOCALx def
+R13487:13487 VST.floyd.local2ptree_denote <> R:128 var
+R13485:13485 VST.floyd.local2ptree_denote <> Q:126 var
+R13475:13475 VST.floyd.local2ptree_denote <> P:125 var
+R13494:13498 VST.floyd.canon <> PROPx def
+R13503:13508 VST.floyd.canon <> LOCALx def
+R13513:13513 VST.floyd.local2ptree_denote <> R:128 var
+R13510:13511 VST.floyd.local2ptree_denote <> Q':127 var
+R13500:13500 VST.floyd.local2ptree_denote <> P:125 var
+binder 13439:13440 <> Q0:129
+R13451:13454 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13455:13456 Coq.Lists.List <> In def
+R13461:13461 VST.floyd.local2ptree_denote <> Q:126 var
+R13458:13459 VST.floyd.local2ptree_denote <> Q0:129 var
+R13443:13444 Coq.Lists.List <> In def
+R13449:13450 VST.floyd.local2ptree_denote <> Q':127 var
+R13446:13447 VST.floyd.local2ptree_denote <> Q0:129 var
+R13565:13569 VST.floyd.canon <> PROPx def
+R13572:13577 VST.floyd.canon <> LOCALx def
+R13605:13614 VST.msl.seplog <> andp_left2 meth
+R13605:13614 VST.msl.seplog <> andp_left2 meth
+R13646:13654 Coq.Init.Logic <> or_introl constr
+R13658:13664 Coq.Init.Logic <> eq_refl constr
+R13646:13654 Coq.Init.Logic <> or_introl constr
+R13658:13664 Coq.Init.Logic <> eq_refl constr
+R13682:13694 VST.floyd.canon <> insert_local' thm
+R13682:13694 VST.floyd.canon <> insert_local' thm
+R13682:13694 VST.floyd.canon <> insert_local' thm
+R13705:13714 VST.msl.seplog <> andp_right meth
+R13705:13714 VST.msl.seplog <> andp_right meth
+R13782:13794 VST.floyd.canon <> insert_local' thm
+R13782:13794 VST.floyd.canon <> insert_local' thm
+R13782:13794 VST.floyd.canon <> insert_local' thm
+R13853:13862 VST.msl.seplog <> andp_left1 meth
+R13853:13862 VST.msl.seplog <> andp_left1 meth
+R13877:13888 VST.msl.seplog <> derives_refl meth
+R13877:13888 VST.msl.seplog <> derives_refl meth
+R13903:13912 VST.msl.seplog <> andp_left2 meth
+R13903:13912 VST.msl.seplog <> andp_left2 meth
+prf 14024:14045 <> LOCALx_shuffle_derives
+binder 14055:14055 <> P:130
+binder 14057:14057 <> Q:131
+binder 14059:14060 <> Q':132
+binder 14062:14062 <> R:133
+R14067:14067 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14098:14104 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14132:14136 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R14105:14109 VST.floyd.canon <> PROPx def
+R14114:14119 VST.floyd.canon <> LOCALx def
+R14124:14127 VST.floyd.canon <> SEPx def
+R14129:14129 VST.floyd.local2ptree_denote <> R:133 var
+R14121:14121 VST.floyd.local2ptree_denote <> Q:131 var
+R14111:14111 VST.floyd.local2ptree_denote <> P:130 var
+R14137:14141 VST.floyd.canon <> PROPx def
+R14146:14151 VST.floyd.canon <> LOCALx def
+R14157:14160 VST.floyd.canon <> SEPx def
+R14162:14162 VST.floyd.local2ptree_denote <> R:133 var
+R14153:14154 VST.floyd.local2ptree_denote <> Q':132 var
+R14143:14143 VST.floyd.local2ptree_denote <> P:130 var
+binder 14075:14076 <> Q0:134
+R14087:14090 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14091:14092 Coq.Lists.List <> In def
+R14097:14097 VST.floyd.local2ptree_denote <> Q:131 var
+R14094:14095 VST.floyd.local2ptree_denote <> Q0:134 var
+R14079:14080 Coq.Lists.List <> In def
+R14085:14086 VST.floyd.local2ptree_denote <> Q':132 var
+R14082:14083 VST.floyd.local2ptree_denote <> Q0:134 var
+R14188:14210 VST.floyd.local2ptree_denote <> LOCALx_shuffle_derives' thm
+R14188:14210 VST.floyd.local2ptree_denote <> LOCALx_shuffle_derives' thm
+prf 14231:14245 <> LOCALx_shuffle'
+binder 14255:14255 <> P:135
+binder 14257:14257 <> Q:136
+binder 14259:14260 <> Q':137
+binder 14262:14262 <> R:138
+R14267:14267 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14299:14305 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14326:14328 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14306:14310 VST.floyd.canon <> PROPx def
+R14315:14320 VST.floyd.canon <> LOCALx def
+R14324:14324 VST.floyd.local2ptree_denote <> R:138 var
+R14322:14322 VST.floyd.local2ptree_denote <> Q:136 var
+R14312:14312 VST.floyd.local2ptree_denote <> P:135 var
+R14329:14333 VST.floyd.canon <> PROPx def
+R14338:14343 VST.floyd.canon <> LOCALx def
+R14348:14348 VST.floyd.local2ptree_denote <> R:138 var
+R14345:14346 VST.floyd.local2ptree_denote <> Q':137 var
+R14335:14335 VST.floyd.local2ptree_denote <> P:135 var
+binder 14275:14276 <> Q0:139
+R14287:14291 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14279:14280 Coq.Lists.List <> In def
+R14285:14286 VST.floyd.local2ptree_denote <> Q':137 var
+R14282:14283 VST.floyd.local2ptree_denote <> Q0:139 var
+R14292:14293 Coq.Lists.List <> In def
+R14298:14298 VST.floyd.local2ptree_denote <> Q:136 var
+R14295:14296 VST.floyd.local2ptree_denote <> Q0:139 var
+R14377:14384 VST.msl.seplog <> pred_ext meth
+R14393:14415 VST.floyd.local2ptree_denote <> LOCALx_shuffle_derives' thm
+R14377:14384 VST.msl.seplog <> pred_ext meth
+R14393:14415 VST.floyd.local2ptree_denote <> LOCALx_shuffle_derives' thm
+R14393:14415 VST.floyd.local2ptree_denote <> LOCALx_shuffle_derives' thm
+prf 14453:14466 <> LOCALx_shuffle
+binder 14476:14476 <> P:140
+binder 14478:14478 <> Q:141
+binder 14480:14481 <> Q':142
+binder 14483:14483 <> R:143
+R14488:14488 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14520:14526 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14554:14556 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14527:14531 VST.floyd.canon <> PROPx def
+R14536:14541 VST.floyd.canon <> LOCALx def
+R14546:14549 VST.floyd.canon <> SEPx def
+R14551:14551 VST.floyd.local2ptree_denote <> R:143 var
+R14543:14543 VST.floyd.local2ptree_denote <> Q:141 var
+R14533:14533 VST.floyd.local2ptree_denote <> P:140 var
+R14557:14561 VST.floyd.canon <> PROPx def
+R14566:14571 VST.floyd.canon <> LOCALx def
+R14577:14580 VST.floyd.canon <> SEPx def
+R14582:14582 VST.floyd.local2ptree_denote <> R:143 var
+R14573:14574 VST.floyd.local2ptree_denote <> Q':142 var
+R14563:14563 VST.floyd.local2ptree_denote <> P:140 var
+binder 14496:14497 <> Q0:144
+R14508:14512 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14500:14501 Coq.Lists.List <> In def
+R14506:14507 VST.floyd.local2ptree_denote <> Q':142 var
+R14503:14504 VST.floyd.local2ptree_denote <> Q0:144 var
+R14513:14514 Coq.Lists.List <> In def
+R14519:14519 VST.floyd.local2ptree_denote <> Q:141 var
+R14516:14517 VST.floyd.local2ptree_denote <> Q0:144 var
+R14612:14619 VST.msl.seplog <> pred_ext meth
+R14628:14649 VST.floyd.local2ptree_denote <> LOCALx_shuffle_derives thm
+R14612:14619 VST.msl.seplog <> pred_ext meth
+R14628:14649 VST.floyd.local2ptree_denote <> LOCALx_shuffle_derives thm
+R14628:14649 VST.floyd.local2ptree_denote <> LOCALx_shuffle_derives thm
+prf 14687:14717 <> LocalD_remove_empty_from_PTree1
+binder 14727:14727 <> i:145
+binder 14729:14730 <> T1:146
+binder 14732:14733 <> T2:147
+binder 14735:14735 <> Q:148
+binder 14737:14738 <> Q0:149
+R14756:14762 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14829:14829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14802:14806 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14763:14764 Coq.Lists.List <> In def
+R14770:14775 VST.floyd.local2ptree_denote <> LocalD def
+R14800:14800 VST.floyd.local2ptree_denote <> Q:148 var
+R14797:14798 VST.floyd.local2ptree_denote <> T2:147 var
+R14778:14789 compcert.lib.Maps PTree remove def
+R14793:14794 VST.floyd.local2ptree_denote <> T1:146 var
+R14791:14791 VST.floyd.local2ptree_denote <> i:145 var
+R14766:14767 VST.floyd.local2ptree_denote <> Q0:149 var
+R14807:14808 Coq.Lists.List <> In def
+R14814:14819 VST.floyd.local2ptree_denote <> LocalD def
+R14827:14827 VST.floyd.local2ptree_denote <> Q:148 var
+R14824:14825 VST.floyd.local2ptree_denote <> T2:147 var
+R14821:14822 VST.floyd.local2ptree_denote <> T1:146 var
+R14810:14811 VST.floyd.local2ptree_denote <> Q0:149 var
+R14749:14751 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14745:14747 compcert.lib.Maps <> :::x_'!'_x not
+R14748:14748 VST.floyd.local2ptree_denote <> i:145 var
+R14743:14744 VST.floyd.local2ptree_denote <> T1:146 var
+R14752:14755 Coq.Init.Datatypes <> None constr
+R14890:14901 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R14910:14924 VST.floyd.local2ptree_denote <> LocalD_complete thm
+R14980:14983 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14980:14983 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R15015:15016 Coq.Init.Logic <> ex ind
+R15015:15016 Coq.Init.Logic <> ex ind
+R15050:15053 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15050:15053 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14890:14901 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R14890:14901 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R14910:14924 VST.floyd.local2ptree_denote <> LocalD_complete thm
+R14910:14924 VST.floyd.local2ptree_denote <> LocalD_complete thm
+R15160:15167 compcert.common.AST <> ident_eq def
+R15160:15167 compcert.common.AST <> ident_eq def
+R15190:15198 compcert.lib.Maps PTree grs thm
+R15190:15198 compcert.lib.Maps PTree grs thm
+R15190:15198 compcert.lib.Maps PTree grs thm
+R15227:15235 compcert.lib.Maps PTree gro thm
+R15227:15235 compcert.lib.Maps PTree gro thm
+R15227:15235 compcert.lib.Maps PTree gro thm
+R15227:15235 compcert.lib.Maps PTree gro thm
+R15393:15400 compcert.common.AST <> ident_eq def
+R15393:15400 compcert.common.AST <> ident_eq def
+R15441:15449 compcert.lib.Maps PTree gro thm
+R15441:15449 compcert.lib.Maps PTree gro thm
+R15441:15449 compcert.lib.Maps PTree gro thm
+R15441:15449 compcert.lib.Maps PTree gro thm
+prf 15549:15579 <> LocalD_remove_empty_from_PTree2
+binder 15589:15589 <> i:150
+binder 15591:15592 <> T1:151
+binder 15594:15595 <> T2:152
+binder 15597:15597 <> Q:153
+binder 15599:15600 <> Q0:154
+R15618:15624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15691:15691 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15664:15668 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15625:15626 Coq.Lists.List <> In def
+R15632:15637 VST.floyd.local2ptree_denote <> LocalD def
+R15662:15662 VST.floyd.local2ptree_denote <> Q:153 var
+R15643:15654 compcert.lib.Maps PTree remove def
+R15658:15659 VST.floyd.local2ptree_denote <> T2:152 var
+R15656:15656 VST.floyd.local2ptree_denote <> i:150 var
+R15639:15640 VST.floyd.local2ptree_denote <> T1:151 var
+R15628:15629 VST.floyd.local2ptree_denote <> Q0:154 var
+R15669:15670 Coq.Lists.List <> In def
+R15676:15681 VST.floyd.local2ptree_denote <> LocalD def
+R15689:15689 VST.floyd.local2ptree_denote <> Q:153 var
+R15686:15687 VST.floyd.local2ptree_denote <> T2:152 var
+R15683:15684 VST.floyd.local2ptree_denote <> T1:151 var
+R15672:15673 VST.floyd.local2ptree_denote <> Q0:154 var
+R15611:15613 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15607:15609 compcert.lib.Maps <> :::x_'!'_x not
+R15610:15610 VST.floyd.local2ptree_denote <> i:150 var
+R15605:15606 VST.floyd.local2ptree_denote <> T2:152 var
+R15614:15617 Coq.Init.Datatypes <> None constr
+R15752:15763 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R15772:15786 VST.floyd.local2ptree_denote <> LocalD_complete thm
+R15842:15845 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R15842:15845 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R15877:15878 Coq.Init.Logic <> ex ind
+R15877:15878 Coq.Init.Logic <> ex ind
+R15912:15915 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15912:15915 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16057:16064 compcert.common.AST <> ident_eq def
+R16117:16125 compcert.lib.Maps PTree grs thm
+R16164:16172 compcert.lib.Maps PTree gro thm
+R15752:15763 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R15752:15763 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R15772:15786 VST.floyd.local2ptree_denote <> LocalD_complete thm
+R15772:15786 VST.floyd.local2ptree_denote <> LocalD_complete thm
+R16057:16064 compcert.common.AST <> ident_eq def
+R16117:16125 compcert.lib.Maps PTree grs thm
+R16117:16125 compcert.lib.Maps PTree grs thm
+R16164:16172 compcert.lib.Maps PTree gro thm
+R16164:16172 compcert.lib.Maps PTree gro thm
+R16057:16064 compcert.common.AST <> ident_eq def
+R16057:16064 compcert.common.AST <> ident_eq def
+R16164:16172 compcert.lib.Maps PTree gro thm
+R16057:16064 compcert.common.AST <> ident_eq def
+R16320:16328 compcert.lib.Maps PTree gro thm
+R16320:16328 compcert.lib.Maps PTree gro thm
+R16320:16328 compcert.lib.Maps PTree gro thm
+R16386:16394 compcert.lib.Maps PTree gro thm
+prf 16424:16439 <> nth_error_local'
+binder 16451:16451 <> n:155
+binder 16453:16453 <> P:156
+binder 16455:16455 <> Q:157
+binder 16457:16457 <> R:158
+R16464:16471 VST.floyd.canon <> localdef ind
+binder 16460:16461 <> Qn:159
+R16502:16509 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16530:16534 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R16510:16514 VST.floyd.canon <> PROPx def
+R16519:16524 VST.floyd.canon <> LOCALx def
+R16528:16528 VST.floyd.local2ptree_denote <> R:158 var
+R16526:16526 VST.floyd.local2ptree_denote <> Q:157 var
+R16516:16516 VST.floyd.local2ptree_denote <> P:156 var
+R16535:16539 VST.veric.SeparationLogic <> local def
+R16542:16554 VST.floyd.canon <> locald_denote def
+R16556:16557 VST.floyd.local2ptree_denote <> Qn:159 var
+R16492:16494 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16479:16487 Coq.Lists.List <> nth_error def
+R16491:16491 VST.floyd.local2ptree_denote <> n:155 var
+R16489:16489 VST.floyd.local2ptree_denote <> Q:157 var
+R16495:16498 Coq.Init.Datatypes <> Some constr
+R16500:16501 VST.floyd.local2ptree_denote <> Qn:159 var
+R16582:16591 VST.msl.seplog <> andp_left2 meth
+R16582:16591 VST.msl.seplog <> andp_left2 meth
+R16600:16609 VST.msl.seplog <> andp_left1 meth
+R16600:16609 VST.msl.seplog <> andp_left1 meth
+prf 16754:16762 <> in_local'
+binder 16772:16773 <> Q0:160
+binder 16775:16775 <> P:161
+binder 16777:16777 <> Q:162
+binder 16779:16779 <> R:163
+R16789:16795 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16816:16820 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R16796:16800 VST.floyd.canon <> PROPx def
+R16805:16810 VST.floyd.canon <> LOCALx def
+R16814:16814 VST.floyd.local2ptree_denote <> R:163 var
+R16812:16812 VST.floyd.local2ptree_denote <> Q:162 var
+R16802:16802 VST.floyd.local2ptree_denote <> P:161 var
+R16821:16825 VST.veric.SeparationLogic <> local def
+R16828:16840 VST.floyd.canon <> locald_denote def
+R16842:16843 VST.floyd.local2ptree_denote <> Q0:160 var
+R16782:16783 Coq.Lists.List <> In def
+R16788:16788 VST.floyd.local2ptree_denote <> Q:162 var
+R16785:16786 VST.floyd.local2ptree_denote <> Q0:160 var
+R16876:16887 VST.floyd.canon <> in_nth_error thm
+R16876:16887 VST.floyd.canon <> in_nth_error thm
+R16917:16932 VST.floyd.local2ptree_denote <> nth_error_local' thm
+R16917:16932 VST.floyd.local2ptree_denote <> nth_error_local' thm
+prf 16956:16976 <> local2ptree_sound_aux
+binder 16986:16986 <> P:164
+binder 16988:16988 <> Q:165
+binder 16990:16990 <> R:166
+binder 16992:16993 <> Q0:167
+binder 16995:16996 <> Q1:168
+binder 16998:16999 <> Q2:169
+R17067:17072 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17080:17085 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17112:17114 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17088:17091 VST.msl.seplog <> ::logic:x_'&&'_x not
+R17086:17087 VST.floyd.local2ptree_denote <> Q1:168 var
+R17092:17096 VST.floyd.canon <> PROPx def
+R17101:17106 VST.floyd.canon <> LOCALx def
+R17110:17110 VST.floyd.local2ptree_denote <> R:166 var
+R17108:17108 VST.floyd.local2ptree_denote <> Q:165 var
+R17098:17098 VST.floyd.local2ptree_denote <> P:164 var
+R17117:17120 VST.msl.seplog <> ::logic:x_'&&'_x not
+R17115:17116 VST.floyd.local2ptree_denote <> Q2:169 var
+R17121:17125 VST.floyd.canon <> PROPx def
+R17130:17135 VST.floyd.canon <> LOCALx def
+R17139:17139 VST.floyd.local2ptree_denote <> R:166 var
+R17137:17137 VST.floyd.local2ptree_denote <> Q:165 var
+R17127:17127 VST.floyd.local2ptree_denote <> P:164 var
+R17073:17074 Coq.Lists.List <> In def
+R17079:17079 VST.floyd.local2ptree_denote <> Q:165 var
+R17076:17077 VST.floyd.local2ptree_denote <> Q0:167 var
+R17034:17036 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17006:17009 VST.msl.seplog <> ::logic:x_'&&'_x not
+R17004:17005 VST.floyd.local2ptree_denote <> Q1:168 var
+R17010:17014 VST.veric.SeparationLogic <> local def
+R17017:17029 VST.floyd.canon <> locald_denote def
+R17031:17032 VST.floyd.local2ptree_denote <> Q0:167 var
+R17039:17042 VST.msl.seplog <> ::logic:x_'&&'_x not
+R17037:17038 VST.floyd.local2ptree_denote <> Q2:169 var
+R17043:17047 VST.veric.SeparationLogic <> local def
+R17050:17062 VST.floyd.canon <> locald_denote def
+R17064:17065 VST.floyd.local2ptree_denote <> Q0:167 var
+R17173:17181 VST.floyd.local2ptree_denote <> in_local' thm
+R17173:17181 VST.floyd.local2ptree_denote <> in_local' thm
+R17206:17213 VST.msl.log_normalize <> add_andp thm
+R17206:17213 VST.msl.log_normalize <> add_andp thm
+R17206:17213 VST.msl.log_normalize <> add_andp thm
+R17235:17243 VST.msl.log_normalize <> andp_comm thm
+R17248:17252 VST.veric.SeparationLogic <> local def
+R17255:17267 VST.floyd.canon <> locald_denote def
+R17235:17243 VST.msl.log_normalize <> andp_comm thm
+R17248:17252 VST.veric.SeparationLogic <> local def
+R17255:17267 VST.floyd.canon <> locald_denote def
+R17235:17243 VST.msl.log_normalize <> andp_comm thm
+R17248:17252 VST.veric.SeparationLogic <> local def
+R17255:17267 VST.floyd.canon <> locald_denote def
+R17290:17299 VST.msl.log_normalize <> andp_assoc thm
+R17290:17299 VST.msl.log_normalize <> andp_assoc thm
+R17290:17299 VST.msl.log_normalize <> andp_assoc thm
+R17290:17299 VST.msl.log_normalize <> andp_assoc thm
+R17290:17299 VST.msl.log_normalize <> andp_assoc thm
+prf 17336:17357 <> LOCALx_expand_vardesc'
+binder 17367:17367 <> P:170
+binder 17369:17369 <> R:171
+binder 17371:17371 <> i:172
+binder 17373:17374 <> vd:173
+binder 17376:17377 <> T1:174
+binder 17379:17380 <> T2:175
+binder 17382:17382 <> Q:176
+R17439:17443 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17387:17391 VST.floyd.canon <> PROPx def
+R17396:17401 VST.floyd.canon <> LOCALx def
+R17437:17437 VST.floyd.local2ptree_denote <> R:171 var
+R17404:17409 VST.floyd.local2ptree_denote <> LocalD def
+R17434:17434 VST.floyd.local2ptree_denote <> Q:176 var
+R17415:17423 compcert.lib.Maps PTree set def
+R17430:17431 VST.floyd.local2ptree_denote <> T2:175 var
+R17427:17428 VST.floyd.local2ptree_denote <> vd:173 var
+R17425:17425 VST.floyd.local2ptree_denote <> i:172 var
+R17411:17412 VST.floyd.local2ptree_denote <> T1:174 var
+R17393:17393 VST.floyd.local2ptree_denote <> P:170 var
+R17444:17448 VST.floyd.canon <> PROPx def
+R17453:17458 VST.floyd.canon <> LOCALx def
+R17535:17535 VST.floyd.local2ptree_denote <> R:171 var
+R17498:17501 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R17467:17468 VST.floyd.local2ptree_denote <> vd:173 var
+R17475:17475 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17477:17477 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17479:17479 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17484:17487 VST.floyd.canon <> lvar constr
+R17489:17489 VST.floyd.local2ptree_denote <> i:172 var
+R17502:17507 VST.floyd.local2ptree_denote <> LocalD def
+R17532:17532 VST.floyd.local2ptree_denote <> Q:176 var
+R17513:17524 compcert.lib.Maps PTree remove def
+R17528:17529 VST.floyd.local2ptree_denote <> T2:175 var
+R17526:17526 VST.floyd.local2ptree_denote <> i:172 var
+R17509:17510 VST.floyd.local2ptree_denote <> T1:174 var
+R17450:17450 VST.floyd.local2ptree_denote <> P:170 var
+R17562:17576 VST.floyd.local2ptree_denote <> LOCALx_shuffle' thm
+R17562:17576 VST.floyd.local2ptree_denote <> LOCALx_shuffle' thm
+R17603:17623 VST.floyd.local2ptree_denote <> LOCALx_expand_vardesc thm
+R17603:17623 VST.floyd.local2ptree_denote <> LOCALx_expand_vardesc thm
+prf 17638:17657 <> LOCALx_expand_gvars'
+binder 17667:17667 <> P:178
+binder 17669:17669 <> R:179
+binder 17671:17672 <> gv:180
+binder 17674:17675 <> T1:181
+binder 17677:17678 <> T2:182
+R17726:17730 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17683:17687 VST.floyd.canon <> PROPx def
+R17692:17697 VST.floyd.canon <> LOCALx def
+R17724:17724 VST.floyd.local2ptree_denote <> R:179 var
+R17700:17705 VST.floyd.local2ptree_denote <> LocalD def
+R17714:17717 Coq.Init.Datatypes <> Some constr
+R17719:17720 VST.floyd.local2ptree_denote <> gv:180 var
+R17710:17711 VST.floyd.local2ptree_denote <> T2:182 var
+R17707:17708 VST.floyd.local2ptree_denote <> T1:181 var
+R17689:17689 VST.floyd.local2ptree_denote <> P:178 var
+R17731:17735 VST.floyd.canon <> PROPx def
+R17740:17745 VST.floyd.canon <> LOCALx def
+R17779:17779 VST.floyd.local2ptree_denote <> R:179 var
+R17756:17759 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R17748:17752 VST.floyd.canon <> gvars constr
+R17754:17755 VST.floyd.local2ptree_denote <> gv:180 var
+R17760:17765 VST.floyd.local2ptree_denote <> LocalD def
+R17773:17776 Coq.Init.Datatypes <> None constr
+R17770:17771 VST.floyd.local2ptree_denote <> T2:182 var
+R17767:17768 VST.floyd.local2ptree_denote <> T1:181 var
+R17737:17737 VST.floyd.local2ptree_denote <> P:178 var
+R17806:17820 VST.floyd.local2ptree_denote <> LOCALx_shuffle' thm
+R17806:17820 VST.floyd.local2ptree_denote <> LOCALx_shuffle' thm
+R17847:17865 VST.floyd.local2ptree_denote <> LOCALx_expand_gvars thm
+R17847:17865 VST.floyd.local2ptree_denote <> LOCALx_expand_gvars thm
+prf 17880:17896 <> local_equal_lemma
+binder 17908:17908 <> i:183
+binder 17910:17910 <> t:184
+binder 17912:17912 <> v:185
+binder 17914:17915 <> t':186
+binder 17917:17918 <> v':187
+R17997:18001 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17957:17960 VST.msl.seplog <> ::logic:x_'&&'_x not
+R17923:17927 VST.veric.SeparationLogic <> local def
+R17930:17942 VST.floyd.canon <> locald_denote def
+R17945:17948 VST.floyd.canon <> lvar constr
+R17954:17954 VST.floyd.local2ptree_denote <> v:185 var
+R17952:17952 VST.floyd.local2ptree_denote <> t:184 var
+R17950:17950 VST.floyd.local2ptree_denote <> i:183 var
+R17961:17965 VST.veric.SeparationLogic <> local def
+R17968:17980 VST.floyd.canon <> locald_denote def
+R17983:17986 VST.floyd.canon <> lvar constr
+R17993:17994 VST.floyd.local2ptree_denote <> v':187 var
+R17990:17991 VST.floyd.local2ptree_denote <> t':186 var
+R17988:17988 VST.floyd.local2ptree_denote <> i:183 var
+R18024:18027 VST.msl.seplog <> ::logic:x_'&&'_x not
+R18012:18015 VST.msl.seplog <> ::logic:x_'&&'_x not
+R18002:18004 VST.msl.seplog <> ::logic:'!!'_x not
+R18011:18011 VST.msl.seplog <> ::logic:'!!'_x not
+R18007:18009 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18005:18006 VST.floyd.local2ptree_denote <> v':187 var
+R18010:18010 VST.floyd.local2ptree_denote <> v:185 var
+R18016:18018 VST.msl.seplog <> ::logic:'!!'_x not
+R18023:18023 VST.msl.seplog <> ::logic:'!!'_x not
+R18021:18021 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18019:18020 VST.floyd.local2ptree_denote <> t':186 var
+R18022:18022 VST.floyd.local2ptree_denote <> t:184 var
+R18028:18032 VST.veric.SeparationLogic <> local def
+R18035:18047 VST.floyd.canon <> locald_denote def
+R18050:18053 VST.floyd.canon <> lvar constr
+R18060:18061 VST.floyd.local2ptree_denote <> v':187 var
+R18057:18058 VST.floyd.local2ptree_denote <> t':186 var
+R18055:18055 VST.floyd.local2ptree_denote <> i:183 var
+R18108:18112 VST.veric.SeparationLogic <> local def
+R18115:18119 VST.veric.mpred <> lift1 def
+R18155:18162 VST.msl.Axioms <> prop_ext prfax
+R18155:18162 VST.msl.Axioms <> prop_ext prfax
+R18172:18182 VST.floyd.canon <> lvar_denote def
+R18229:18235 VST.veric.mpred Map get def
+R18238:18242 VST.veric.mpred <> ve_of def
+R18229:18235 VST.veric.mpred Map get def
+R18238:18242 VST.veric.mpred <> ve_of def
+R18346:18352 VST.veric.mpred Map get def
+R18355:18359 VST.veric.mpred <> ve_of def
+R18346:18352 VST.veric.mpred Map get def
+R18355:18359 VST.veric.mpred <> ve_of def
+prf 18510:18526 <> gvars_equal_lemma
+binder 18539:18539 <> g:188
+binder 18541:18542 <> g0:189
+R18614:18616 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18578:18581 VST.msl.seplog <> ::logic:x_'&&'_x not
+R18547:18551 VST.veric.SeparationLogic <> local def
+R18554:18566 VST.floyd.canon <> locald_denote def
+R18569:18573 VST.floyd.canon <> gvars constr
+R18575:18575 VST.floyd.local2ptree_denote <> g:188 var
+R18582:18586 VST.veric.SeparationLogic <> local def
+R18589:18601 VST.floyd.canon <> locald_denote def
+R18604:18608 VST.floyd.canon <> gvars constr
+R18610:18611 VST.floyd.local2ptree_denote <> g0:189 var
+R18628:18631 VST.msl.seplog <> ::logic:x_'&&'_x not
+R18617:18620 VST.msl.seplog <> ::logic:'!!'_x not
+R18627:18627 VST.msl.seplog <> ::logic:'!!'_x not
+R18623:18625 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18621:18622 VST.floyd.local2ptree_denote <> g0:189 var
+R18626:18626 VST.floyd.local2ptree_denote <> g:188 var
+R18632:18636 VST.veric.SeparationLogic <> local def
+R18639:18651 VST.floyd.canon <> locald_denote def
+R18654:18658 VST.floyd.canon <> gvars constr
+R18660:18661 VST.floyd.local2ptree_denote <> g0:189 var
+R18708:18712 VST.veric.SeparationLogic <> local def
+R18715:18719 VST.veric.mpred <> lift1 def
+R18755:18762 VST.msl.Axioms <> prop_ext prfax
+R18755:18762 VST.msl.Axioms <> prop_ext prfax
+R18772:18783 VST.floyd.canon <> gvars_denote def
+prf 18863:18875 <> insert_locals
+binder 18887:18887 <> P:190
+binder 18889:18889 <> A:191
+binder 18891:18891 <> B:192
+binder 18893:18893 <> C:193
+R18977:18981 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18953:18956 VST.msl.seplog <> ::logic:x_'&&'_x not
+R18898:18902 VST.veric.SeparationLogic <> local def
+R18905:18914 Coq.Lists.List <> fold_right def
+R18932:18934 Coq.Lists.List <> map def
+R18950:18950 VST.floyd.local2ptree_denote <> A:191 var
+R18936:18948 VST.floyd.canon <> locald_denote def
+R18923:18924 VST.veric.lift LiftNotation :::'`('_x_')' not
+R18929:18929 VST.veric.lift LiftNotation :::'`('_x_')' not
+R18925:18928 Coq.Init.Logic <> True ind
+R18916:18917 VST.veric.lift LiftNotation :::'`('_x_')' not
+R18921:18921 VST.veric.lift LiftNotation :::'`('_x_')' not
+R18918:18920 Coq.Init.Logic <> and ind
+R18957:18961 VST.floyd.canon <> PROPx def
+R18966:18971 VST.floyd.canon <> LOCALx def
+R18975:18975 VST.floyd.local2ptree_denote <> C:193 var
+R18973:18973 VST.floyd.local2ptree_denote <> B:192 var
+R18963:18963 VST.floyd.local2ptree_denote <> P:190 var
+R18982:18986 VST.floyd.canon <> PROPx def
+R18991:18996 VST.floyd.canon <> LOCALx def
+R19005:19005 VST.floyd.local2ptree_denote <> C:193 var
+R19000:19001 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18999:18999 VST.floyd.local2ptree_denote <> A:191 var
+R19002:19002 VST.floyd.local2ptree_denote <> B:192 var
+R18988:18988 VST.floyd.local2ptree_denote <> P:190 var
+R19071:19075 VST.veric.SeparationLogic <> local def
+R19078:19082 VST.veric.mpred <> lift1 def
+R19093:19106 VST.msl.log_normalize <> prop_true_andp thm
+R19093:19106 VST.msl.log_normalize <> prop_true_andp thm
+R19093:19106 VST.msl.log_normalize <> prop_true_andp thm
+R19146:19158 VST.floyd.canon <> insert_local' thm
+R19146:19158 VST.floyd.canon <> insert_local' thm
+R19146:19158 VST.floyd.canon <> insert_local' thm
+R19191:19200 VST.msl.log_normalize <> andp_assoc thm
+R19191:19200 VST.msl.log_normalize <> andp_assoc thm
+R19191:19200 VST.msl.log_normalize <> andp_assoc thm
+R19259:19263 VST.veric.SeparationLogic <> local def
+R19266:19270 VST.veric.mpred <> lift1 def
+prf 19303:19317 <> LOCALx_app_swap
+binder 19329:19329 <> A:194
+binder 19331:19331 <> B:195
+R19347:19349 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19334:19339 VST.floyd.canon <> LOCALx def
+R19343:19344 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R19342:19342 VST.floyd.local2ptree_denote <> A:194 var
+R19345:19345 VST.floyd.local2ptree_denote <> B:195 var
+R19350:19355 VST.floyd.canon <> LOCALx def
+R19359:19360 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R19358:19358 VST.floyd.local2ptree_denote <> B:195 var
+R19361:19361 VST.floyd.local2ptree_denote <> A:194 var
+R19409:19414 VST.floyd.canon <> LOCALx def
+R19457:19463 Coq.Lists.List <> map_app thm
+R19457:19463 Coq.Lists.List <> map_app thm
+R19457:19463 Coq.Lists.List <> map_app thm
+R19457:19463 Coq.Lists.List <> map_app thm
+R19457:19463 Coq.Lists.List <> map_app thm
+R19484:19488 VST.veric.SeparationLogic <> local def
+R19490:19494 VST.veric.mpred <> lift1 def
+R19515:19532 VST.floyd.canon <> fold_right_and_app thm
+R19515:19532 VST.floyd.canon <> fold_right_and_app thm
+R19515:19532 VST.floyd.canon <> fold_right_and_app thm
+R19515:19532 VST.floyd.canon <> fold_right_and_app thm
+R19515:19532 VST.floyd.canon <> fold_right_and_app thm
+R19541:19548 VST.msl.Axioms <> prop_ext prfax
+R19541:19548 VST.msl.Axioms <> prop_ext prfax
+prf 19574:19595 <> local2ptree_soundness'
+binder 19606:19606 <> P:196
+binder 19608:19608 <> Q:197
+binder 19610:19610 <> R:198
+binder 19612:19614 <> T1a:199
+binder 19616:19618 <> T2a:200
+binder 19620:19621 <> Pa:201
+binder 19623:19624 <> Qa:202
+binder 19626:19627 <> T1:203
+binder 19629:19630 <> T2:204
+binder 19632:19633 <> P':205
+binder 19635:19636 <> Q':206
+R19691:19696 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19746:19751 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19697:19701 VST.floyd.canon <> PROPx def
+R19712:19717 VST.floyd.canon <> LOCALx def
+R19744:19744 VST.floyd.local2ptree_denote <> R:198 var
+R19721:19724 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R19720:19720 VST.floyd.local2ptree_denote <> Q:197 var
+R19725:19730 VST.floyd.local2ptree_denote <> LocalD def
+R19740:19741 VST.floyd.local2ptree_denote <> Qa:202 var
+R19736:19738 VST.floyd.local2ptree_denote <> T2a:200 var
+R19732:19734 VST.floyd.local2ptree_denote <> T1a:199 var
+R19706:19707 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R19704:19705 VST.floyd.local2ptree_denote <> Pa:201 var
+R19708:19708 VST.floyd.local2ptree_denote <> P:196 var
+R19752:19756 VST.floyd.canon <> PROPx def
+R19769:19774 VST.floyd.canon <> LOCALx def
+R19794:19794 VST.floyd.local2ptree_denote <> R:198 var
+R19777:19782 VST.floyd.local2ptree_denote <> LocalD def
+R19790:19791 VST.floyd.local2ptree_denote <> Q':206 var
+R19787:19788 VST.floyd.local2ptree_denote <> T2:204 var
+R19784:19785 VST.floyd.local2ptree_denote <> T1:203 var
+R19761:19764 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R19759:19760 VST.floyd.local2ptree_denote <> P':205 var
+R19765:19765 VST.floyd.local2ptree_denote <> P:196 var
+R19672:19674 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19641:19655 VST.floyd.local2ptree_denote <> local2ptree_aux def
+R19670:19671 VST.floyd.local2ptree_denote <> Qa:202 var
+R19667:19668 VST.floyd.local2ptree_denote <> Pa:201 var
+R19663:19665 VST.floyd.local2ptree_denote <> T2a:200 var
+R19659:19661 VST.floyd.local2ptree_denote <> T1a:199 var
+R19657:19657 VST.floyd.local2ptree_denote <> Q:197 var
+R19675:19675 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19678:19679 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19682:19683 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19686:19687 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19690:19690 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19676:19677 VST.floyd.local2ptree_denote <> T1:203 var
+R19680:19681 VST.floyd.local2ptree_denote <> T2:204 var
+R19684:19685 VST.floyd.local2ptree_denote <> P':205 var
+R19688:19689 VST.floyd.local2ptree_denote <> Q':206 var
+R19939:19941 compcert.lib.Maps <> :::x_'!'_x not
+R19939:19941 compcert.lib.Maps <> :::x_'!'_x not
+R20041:20051 VST.floyd.canon <> insert_prop thm
+R20041:20051 VST.floyd.canon <> insert_prop thm
+R20041:20051 VST.floyd.canon <> insert_prop thm
+R20069:20081 VST.floyd.canon <> insert_local' thm
+R20069:20081 VST.floyd.canon <> insert_local' thm
+R20069:20081 VST.floyd.canon <> insert_local' thm
+R20128:20131 VST.floyd.canon <> temp constr
+R20094:20114 VST.floyd.local2ptree_denote <> local2ptree_sound_aux thm
+R20128:20131 VST.floyd.canon <> temp constr
+R20094:20114 VST.floyd.local2ptree_denote <> local2ptree_sound_aux thm
+R20171:20183 VST.floyd.canon <> locald_denote def
+R20204:20208 VST.veric.SeparationLogic <> local def
+R20211:20215 VST.veric.mpred <> lift1 def
+R20268:20275 VST.msl.Axioms <> prop_ext prfax
+R20268:20275 VST.msl.Axioms <> prop_ext prfax
+R20385:20390 compcert.lib.Coqlib <> in_app thm
+R20385:20390 compcert.lib.Coqlib <> in_app thm
+R20385:20390 compcert.lib.Coqlib <> in_app thm
+R20406:20422 VST.floyd.local2ptree_denote <> LocalD_sound_temp thm
+R20406:20422 VST.floyd.local2ptree_denote <> LocalD_sound_temp thm
+R20441:20455 VST.floyd.local2ptree_denote <> LOCALx_shuffle' thm
+R20441:20455 VST.floyd.local2ptree_denote <> LOCALx_shuffle' thm
+R20489:20494 compcert.lib.Coqlib <> in_app thm
+R20489:20494 compcert.lib.Coqlib <> in_app thm
+R20489:20494 compcert.lib.Coqlib <> in_app thm
+R20489:20494 compcert.lib.Coqlib <> in_app thm
+R20489:20494 compcert.lib.Coqlib <> in_app thm
+R20528:20549 VST.floyd.local2ptree_denote <> LOCALx_expand_temp_var thm
+R20528:20549 VST.floyd.local2ptree_denote <> LOCALx_expand_temp_var thm
+R20621:20651 VST.floyd.local2ptree_denote <> LocalD_remove_empty_from_PTree1 thm
+R20621:20651 VST.floyd.local2ptree_denote <> LocalD_remove_empty_from_PTree1 thm
+R20682:20703 VST.floyd.local2ptree_denote <> LOCALx_expand_temp_var thm
+R20682:20703 VST.floyd.local2ptree_denote <> LOCALx_expand_temp_var thm
+R20747:20768 VST.floyd.local2ptree_denote <> LOCALx_expand_temp_var thm
+R20747:20768 VST.floyd.local2ptree_denote <> LOCALx_expand_temp_var thm
+R20800:20830 VST.floyd.local2ptree_denote <> LocalD_remove_empty_from_PTree1 thm
+R20800:20830 VST.floyd.local2ptree_denote <> LocalD_remove_empty_from_PTree1 thm
+R20880:20882 compcert.lib.Maps <> :::x_'!'_x not
+R21004:21014 VST.floyd.canon <> insert_prop thm
+R21021:21033 VST.floyd.canon <> insert_local' thm
+R21040:21049 VST.msl.log_normalize <> andp_assoc thm
+R21068:21080 VST.floyd.local2ptree_denote <> insert_locals thm
+R21095:21099 VST.veric.SeparationLogic <> local def
+R21102:21111 Coq.Lists.List <> fold_right def
+R21129:21131 Coq.Lists.List <> map def
+R21133:21145 VST.floyd.canon <> locald_denote def
+R21120:21121 VST.veric.lift LiftNotation :::'`('_x_')' not
+R21126:21126 VST.veric.lift LiftNotation :::'`('_x_')' not
+R21122:21125 Coq.Init.Logic <> True ind
+R21113:21114 VST.veric.lift LiftNotation :::'`('_x_')' not
+R21118:21118 VST.veric.lift LiftNotation :::'`('_x_')' not
+R21115:21117 Coq.Init.Logic <> and ind
+R21176:21178 compcert.lib.Maps <> :::x_'!'_x not
+R21225:21245 VST.floyd.local2ptree_denote <> LOCALx_expand_vardesc thm
+R20880:20882 compcert.lib.Maps <> :::x_'!'_x not
+R21004:21014 VST.floyd.canon <> insert_prop thm
+R21004:21014 VST.floyd.canon <> insert_prop thm
+R21004:21014 VST.floyd.canon <> insert_prop thm
+R21004:21014 VST.floyd.canon <> insert_prop thm
+R21021:21033 VST.floyd.canon <> insert_local' thm
+R21021:21033 VST.floyd.canon <> insert_local' thm
+R21021:21033 VST.floyd.canon <> insert_local' thm
+R21040:21049 VST.msl.log_normalize <> andp_assoc thm
+R21040:21049 VST.msl.log_normalize <> andp_assoc thm
+R21040:21049 VST.msl.log_normalize <> andp_assoc thm
+R21004:21014 VST.floyd.canon <> insert_prop thm
+R21004:21014 VST.floyd.canon <> insert_prop thm
+R21021:21033 VST.floyd.canon <> insert_local' thm
+R21021:21033 VST.floyd.canon <> insert_local' thm
+R21021:21033 VST.floyd.canon <> insert_local' thm
+R21040:21049 VST.msl.log_normalize <> andp_assoc thm
+R21040:21049 VST.msl.log_normalize <> andp_assoc thm
+R21068:21080 VST.floyd.local2ptree_denote <> insert_locals thm
+R21068:21080 VST.floyd.local2ptree_denote <> insert_locals thm
+R21068:21080 VST.floyd.local2ptree_denote <> insert_locals thm
+R21068:21080 VST.floyd.local2ptree_denote <> insert_locals thm
+R21068:21080 VST.floyd.local2ptree_denote <> insert_locals thm
+R21068:21080 VST.floyd.local2ptree_denote <> insert_locals thm
+R21068:21080 VST.floyd.local2ptree_denote <> insert_locals thm
+R21095:21099 VST.veric.SeparationLogic <> local def
+R21102:21111 Coq.Lists.List <> fold_right def
+R21129:21131 Coq.Lists.List <> map def
+R21133:21145 VST.floyd.canon <> locald_denote def
+R21120:21121 VST.veric.lift LiftNotation :::'`('_x_')' not
+R21126:21126 VST.veric.lift LiftNotation :::'`('_x_')' not
+R21122:21125 Coq.Init.Logic <> True ind
+R21113:21114 VST.veric.lift LiftNotation :::'`('_x_')' not
+R21118:21118 VST.veric.lift LiftNotation :::'`('_x_')' not
+R21115:21117 Coq.Init.Logic <> and ind
+R21095:21099 VST.veric.SeparationLogic <> local def
+R21102:21111 Coq.Lists.List <> fold_right def
+R21129:21131 Coq.Lists.List <> map def
+R21133:21145 VST.floyd.canon <> locald_denote def
+R21120:21121 VST.veric.lift LiftNotation :::'`('_x_')' not
+R21126:21126 VST.veric.lift LiftNotation :::'`('_x_')' not
+R21122:21125 Coq.Init.Logic <> True ind
+R21113:21114 VST.veric.lift LiftNotation :::'`('_x_')' not
+R21118:21118 VST.veric.lift LiftNotation :::'`('_x_')' not
+R21115:21117 Coq.Init.Logic <> and ind
+R21176:21178 compcert.lib.Maps <> :::x_'!'_x not
+R21176:21178 compcert.lib.Maps <> :::x_'!'_x not
+R21225:21245 VST.floyd.local2ptree_denote <> LOCALx_expand_vardesc thm
+R21225:21245 VST.floyd.local2ptree_denote <> LOCALx_expand_vardesc thm
+R21225:21245 VST.floyd.local2ptree_denote <> LOCALx_expand_vardesc thm
+R21225:21245 VST.floyd.local2ptree_denote <> LOCALx_expand_vardesc thm
+R21297:21309 compcert.lib.Maps PTree gsident thm
+R21297:21309 compcert.lib.Maps PTree gsident thm
+R21297:21309 compcert.lib.Maps PTree gsident thm
+R21342:21363 VST.floyd.local2ptree_denote <> LOCALx_expand_vardesc' thm
+R21342:21363 VST.floyd.local2ptree_denote <> LOCALx_expand_vardesc' thm
+R21342:21363 VST.floyd.local2ptree_denote <> LOCALx_expand_vardesc' thm
+R21342:21363 VST.floyd.local2ptree_denote <> LOCALx_expand_vardesc' thm
+R21400:21410 VST.floyd.canon <> insert_prop thm
+R21417:21429 VST.floyd.canon <> insert_local' thm
+R21436:21445 VST.msl.log_normalize <> andp_assoc thm
+R21400:21410 VST.floyd.canon <> insert_prop thm
+R21400:21410 VST.floyd.canon <> insert_prop thm
+R21417:21429 VST.floyd.canon <> insert_local' thm
+R21417:21429 VST.floyd.canon <> insert_local' thm
+R21417:21429 VST.floyd.canon <> insert_local' thm
+R21436:21445 VST.msl.log_normalize <> andp_assoc thm
+R21436:21445 VST.msl.log_normalize <> andp_assoc thm
+R21436:21445 VST.msl.log_normalize <> andp_assoc thm
+R21436:21445 VST.msl.log_normalize <> andp_assoc thm
+R21436:21445 VST.msl.log_normalize <> andp_assoc thm
+R21436:21445 VST.msl.log_normalize <> andp_assoc thm
+R21476:21485 VST.msl.log_normalize <> andp_assoc thm
+R21476:21485 VST.msl.log_normalize <> andp_assoc thm
+R21476:21485 VST.msl.log_normalize <> andp_assoc thm
+R21476:21485 VST.msl.log_normalize <> andp_assoc thm
+R21476:21485 VST.msl.log_normalize <> andp_assoc thm
+R21476:21485 VST.msl.log_normalize <> andp_assoc thm
+R21503:21511 VST.msl.log_normalize <> andp_comm thm
+R21503:21511 VST.msl.log_normalize <> andp_comm thm
+R21503:21511 VST.msl.log_normalize <> andp_comm thm
+R21503:21511 VST.msl.log_normalize <> andp_comm thm
+R21530:21539 VST.msl.log_normalize <> andp_assoc thm
+R21530:21539 VST.msl.log_normalize <> andp_assoc thm
+R21530:21539 VST.msl.log_normalize <> andp_assoc thm
+R21530:21539 VST.msl.log_normalize <> andp_assoc thm
+R21530:21539 VST.msl.log_normalize <> andp_assoc thm
+R21530:21539 VST.msl.log_normalize <> andp_assoc thm
+R21562:21578 VST.floyd.local2ptree_denote <> local_equal_lemma thm
+R21562:21578 VST.floyd.local2ptree_denote <> local_equal_lemma thm
+R21600:21608 VST.msl.log_normalize <> andp_comm thm
+R21600:21608 VST.msl.log_normalize <> andp_comm thm
+R21600:21608 VST.msl.log_normalize <> andp_comm thm
+R21600:21608 VST.msl.log_normalize <> andp_comm thm
+R21600:21608 VST.msl.log_normalize <> andp_comm thm
+R21627:21636 VST.msl.log_normalize <> andp_assoc thm
+R21627:21636 VST.msl.log_normalize <> andp_assoc thm
+R21627:21636 VST.msl.log_normalize <> andp_assoc thm
+R21627:21636 VST.msl.log_normalize <> andp_assoc thm
+R21662:21683 VST.floyd.local2ptree_denote <> LOCALx_expand_vardesc' thm
+R21662:21683 VST.floyd.local2ptree_denote <> LOCALx_expand_vardesc' thm
+R21662:21683 VST.floyd.local2ptree_denote <> LOCALx_expand_vardesc' thm
+R21662:21683 VST.floyd.local2ptree_denote <> LOCALx_expand_vardesc' thm
+R21703:21715 VST.floyd.canon <> insert_local' thm
+R21703:21715 VST.floyd.canon <> insert_local' thm
+R21703:21715 VST.floyd.canon <> insert_local' thm
+R21703:21715 VST.floyd.canon <> insert_local' thm
+R21764:21769 VST.floyd.local2ptree_denote <> LocalD def
+R21776:21787 compcert.lib.Maps PTree remove def
+R21820:21825 VST.floyd.local2ptree_denote <> LocalD def
+R21731:21745 VST.floyd.local2ptree_denote <> LOCALx_shuffle' thm
+R21764:21769 VST.floyd.local2ptree_denote <> LocalD def
+R21776:21787 compcert.lib.Maps PTree remove def
+R21820:21825 VST.floyd.local2ptree_denote <> LocalD def
+R21731:21745 VST.floyd.local2ptree_denote <> LOCALx_shuffle' thm
+R21764:21769 VST.floyd.local2ptree_denote <> LocalD def
+R21776:21787 compcert.lib.Maps PTree remove def
+R21820:21825 VST.floyd.local2ptree_denote <> LocalD def
+R21731:21745 VST.floyd.local2ptree_denote <> LOCALx_shuffle' thm
+R21764:21769 VST.floyd.local2ptree_denote <> LocalD def
+R21776:21787 compcert.lib.Maps PTree remove def
+R21820:21825 VST.floyd.local2ptree_denote <> LocalD def
+R21731:21745 VST.floyd.local2ptree_denote <> LOCALx_shuffle' thm
+R21874:21904 VST.floyd.local2ptree_denote <> LocalD_remove_empty_from_PTree2 thm
+R21874:21904 VST.floyd.local2ptree_denote <> LocalD_remove_empty_from_PTree2 thm
+R22005:22015 VST.floyd.canon <> insert_prop thm
+R22029:22041 VST.floyd.canon <> insert_local' thm
+R22048:22057 VST.msl.log_normalize <> andp_assoc thm
+R22075:22087 VST.floyd.local2ptree_denote <> insert_locals thm
+R22101:22105 VST.veric.SeparationLogic <> local def
+R22108:22117 Coq.Lists.List <> fold_right def
+R22135:22137 Coq.Lists.List <> map def
+R22139:22151 VST.floyd.canon <> locald_denote def
+R22126:22127 VST.veric.lift LiftNotation :::'`('_x_')' not
+R22132:22132 VST.veric.lift LiftNotation :::'`('_x_')' not
+R22128:22131 Coq.Init.Logic <> True ind
+R22119:22120 VST.veric.lift LiftNotation :::'`('_x_')' not
+R22124:22124 VST.veric.lift LiftNotation :::'`('_x_')' not
+R22121:22123 Coq.Init.Logic <> and ind
+R22005:22015 VST.floyd.canon <> insert_prop thm
+R22005:22015 VST.floyd.canon <> insert_prop thm
+R22005:22015 VST.floyd.canon <> insert_prop thm
+R22005:22015 VST.floyd.canon <> insert_prop thm
+R22005:22015 VST.floyd.canon <> insert_prop thm
+R22029:22041 VST.floyd.canon <> insert_local' thm
+R22029:22041 VST.floyd.canon <> insert_local' thm
+R22048:22057 VST.msl.log_normalize <> andp_assoc thm
+R22048:22057 VST.msl.log_normalize <> andp_assoc thm
+R22029:22041 VST.floyd.canon <> insert_local' thm
+R22029:22041 VST.floyd.canon <> insert_local' thm
+R22048:22057 VST.msl.log_normalize <> andp_assoc thm
+R22048:22057 VST.msl.log_normalize <> andp_assoc thm
+R22075:22087 VST.floyd.local2ptree_denote <> insert_locals thm
+R22075:22087 VST.floyd.local2ptree_denote <> insert_locals thm
+R22075:22087 VST.floyd.local2ptree_denote <> insert_locals thm
+R22075:22087 VST.floyd.local2ptree_denote <> insert_locals thm
+R22075:22087 VST.floyd.local2ptree_denote <> insert_locals thm
+R22075:22087 VST.floyd.local2ptree_denote <> insert_locals thm
+R22075:22087 VST.floyd.local2ptree_denote <> insert_locals thm
+R22101:22105 VST.veric.SeparationLogic <> local def
+R22108:22117 Coq.Lists.List <> fold_right def
+R22135:22137 Coq.Lists.List <> map def
+R22139:22151 VST.floyd.canon <> locald_denote def
+R22126:22127 VST.veric.lift LiftNotation :::'`('_x_')' not
+R22132:22132 VST.veric.lift LiftNotation :::'`('_x_')' not
+R22128:22131 Coq.Init.Logic <> True ind
+R22119:22120 VST.veric.lift LiftNotation :::'`('_x_')' not
+R22124:22124 VST.veric.lift LiftNotation :::'`('_x_')' not
+R22121:22123 Coq.Init.Logic <> and ind
+R22101:22105 VST.veric.SeparationLogic <> local def
+R22108:22117 Coq.Lists.List <> fold_right def
+R22135:22137 Coq.Lists.List <> map def
+R22139:22151 VST.floyd.canon <> locald_denote def
+R22126:22127 VST.veric.lift LiftNotation :::'`('_x_')' not
+R22132:22132 VST.veric.lift LiftNotation :::'`('_x_')' not
+R22128:22131 Coq.Init.Logic <> True ind
+R22119:22120 VST.veric.lift LiftNotation :::'`('_x_')' not
+R22124:22124 VST.veric.lift LiftNotation :::'`('_x_')' not
+R22121:22123 Coq.Init.Logic <> and ind
+R22178:22197 VST.floyd.local2ptree_denote <> LOCALx_expand_gvars' thm
+R22178:22197 VST.floyd.local2ptree_denote <> LOCALx_expand_gvars' thm
+R22178:22197 VST.floyd.local2ptree_denote <> LOCALx_expand_gvars' thm
+R22234:22244 VST.floyd.canon <> insert_prop thm
+R22251:22263 VST.floyd.canon <> insert_local' thm
+R22270:22279 VST.msl.log_normalize <> andp_assoc thm
+R22234:22244 VST.floyd.canon <> insert_prop thm
+R22234:22244 VST.floyd.canon <> insert_prop thm
+R22251:22263 VST.floyd.canon <> insert_local' thm
+R22251:22263 VST.floyd.canon <> insert_local' thm
+R22251:22263 VST.floyd.canon <> insert_local' thm
+R22270:22279 VST.msl.log_normalize <> andp_assoc thm
+R22270:22279 VST.msl.log_normalize <> andp_assoc thm
+R22270:22279 VST.msl.log_normalize <> andp_assoc thm
+R22270:22279 VST.msl.log_normalize <> andp_assoc thm
+R22270:22279 VST.msl.log_normalize <> andp_assoc thm
+R22270:22279 VST.msl.log_normalize <> andp_assoc thm
+R22310:22319 VST.msl.log_normalize <> andp_assoc thm
+R22310:22319 VST.msl.log_normalize <> andp_assoc thm
+R22310:22319 VST.msl.log_normalize <> andp_assoc thm
+R22310:22319 VST.msl.log_normalize <> andp_assoc thm
+R22310:22319 VST.msl.log_normalize <> andp_assoc thm
+R22337:22345 VST.msl.log_normalize <> andp_comm thm
+R22337:22345 VST.msl.log_normalize <> andp_comm thm
+R22337:22345 VST.msl.log_normalize <> andp_comm thm
+R22337:22345 VST.msl.log_normalize <> andp_comm thm
+R22364:22373 VST.msl.log_normalize <> andp_assoc thm
+R22364:22373 VST.msl.log_normalize <> andp_assoc thm
+R22364:22373 VST.msl.log_normalize <> andp_assoc thm
+R22364:22373 VST.msl.log_normalize <> andp_assoc thm
+R22364:22373 VST.msl.log_normalize <> andp_assoc thm
+R22396:22412 VST.floyd.local2ptree_denote <> gvars_equal_lemma thm
+R22396:22412 VST.floyd.local2ptree_denote <> gvars_equal_lemma thm
+R22428:22447 VST.floyd.local2ptree_denote <> LOCALx_expand_gvars' thm
+R22428:22447 VST.floyd.local2ptree_denote <> LOCALx_expand_gvars' thm
+R22428:22447 VST.floyd.local2ptree_denote <> LOCALx_expand_gvars' thm
+R22484:22494 VST.floyd.canon <> insert_prop thm
+R22501:22513 VST.floyd.canon <> insert_local' thm
+R22520:22529 VST.msl.log_normalize <> andp_assoc thm
+R22484:22494 VST.floyd.canon <> insert_prop thm
+R22484:22494 VST.floyd.canon <> insert_prop thm
+R22501:22513 VST.floyd.canon <> insert_local' thm
+R22501:22513 VST.floyd.canon <> insert_local' thm
+R22501:22513 VST.floyd.canon <> insert_local' thm
+R22520:22529 VST.msl.log_normalize <> andp_assoc thm
+R22520:22529 VST.msl.log_normalize <> andp_assoc thm
+R22520:22529 VST.msl.log_normalize <> andp_assoc thm
+R22520:22529 VST.msl.log_normalize <> andp_assoc thm
+R22557:22565 VST.msl.log_normalize <> andp_comm thm
+R22557:22565 VST.msl.log_normalize <> andp_comm thm
+prf 22580:22600 <> local2ptree_soundness
+binder 22612:22612 <> P:207
+binder 22614:22614 <> Q:208
+binder 22616:22616 <> R:209
+binder 22618:22619 <> T1:210
+binder 22621:22622 <> T2:211
+binder 22624:22625 <> P':212
+binder 22627:22628 <> Q':213
+R22665:22670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22698:22700 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22671:22675 VST.floyd.canon <> PROPx def
+R22680:22685 VST.floyd.canon <> LOCALx def
+R22690:22693 VST.floyd.canon <> SEPx def
+R22695:22695 VST.floyd.local2ptree_denote <> R:209 var
+R22687:22687 VST.floyd.local2ptree_denote <> Q:208 var
+R22677:22677 VST.floyd.local2ptree_denote <> P:207 var
+R22701:22705 VST.floyd.canon <> PROPx def
+R22718:22723 VST.floyd.canon <> LOCALx def
+R22744:22747 VST.floyd.canon <> SEPx def
+R22749:22749 VST.floyd.local2ptree_denote <> R:209 var
+R22726:22731 VST.floyd.local2ptree_denote <> LocalD def
+R22739:22740 VST.floyd.local2ptree_denote <> Q':213 var
+R22736:22737 VST.floyd.local2ptree_denote <> T2:211 var
+R22733:22734 VST.floyd.local2ptree_denote <> T1:210 var
+R22710:22713 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R22708:22709 VST.floyd.local2ptree_denote <> P':212 var
+R22714:22714 VST.floyd.local2ptree_denote <> P:207 var
+R22646:22648 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22633:22643 VST.floyd.local2ptree_denote <> local2ptree def
+R22645:22645 VST.floyd.local2ptree_denote <> Q:208 var
+R22649:22649 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22652:22653 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22656:22657 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22660:22661 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22664:22664 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22650:22651 VST.floyd.local2ptree_denote <> T1:210 var
+R22654:22655 VST.floyd.local2ptree_denote <> T2:211 var
+R22658:22659 VST.floyd.local2ptree_denote <> P':212 var
+R22662:22663 VST.floyd.local2ptree_denote <> Q':213 var
+R22776:22797 VST.floyd.local2ptree_denote <> local2ptree_soundness' thm
+R22776:22797 VST.floyd.local2ptree_denote <> local2ptree_soundness' thm
+R22866:22871 VST.floyd.local2ptree_denote <> LocalD def
+R22883:22897 compcert.lib.Maps PTree fold_spec thm
+R22883:22897 compcert.lib.Maps PTree fold_spec thm
+R22883:22897 compcert.lib.Maps PTree fold_spec thm
+R22883:22897 compcert.lib.Maps PTree fold_spec thm
+R22883:22897 compcert.lib.Maps PTree fold_spec thm
+R22918:22928 Coq.Lists.List <> app_nil_end thm
+R22918:22928 Coq.Lists.List <> app_nil_end thm
+R22918:22928 Coq.Lists.List <> app_nil_end thm
+prf 22949:22971 <> local2ptree_soundness''
+binder 22982:22982 <> Q:214
+binder 22984:22985 <> T1:215
+binder 22987:22988 <> T2:216
+binder 22990:22991 <> gv:217
+R23034:23039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23051:23053 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23040:23045 VST.floyd.canon <> LOCALx def
+R23049:23050 VST.msl.seplog <> TT meth
+R23047:23047 VST.floyd.local2ptree_denote <> Q:214 var
+R23054:23059 VST.floyd.canon <> LOCALx def
+R23086:23087 VST.msl.seplog <> TT meth
+R23062:23067 VST.floyd.local2ptree_denote <> LocalD def
+R23076:23079 Coq.Init.Datatypes <> Some constr
+R23081:23082 VST.floyd.local2ptree_denote <> gv:217 var
+R23072:23073 VST.floyd.local2ptree_denote <> T2:216 var
+R23069:23070 VST.floyd.local2ptree_denote <> T1:215 var
+R23009:23011 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22996:23006 VST.floyd.local2ptree_denote <> local2ptree def
+R23008:23008 VST.floyd.local2ptree_denote <> Q:214 var
+R23012:23012 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23015:23016 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23019:23020 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23024:23025 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23033:23033 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23013:23014 VST.floyd.local2ptree_denote <> T1:215 var
+R23017:23018 VST.floyd.local2ptree_denote <> T2:216 var
+R23021:23023 Coq.Init.Datatypes <> nil constr
+R23026:23029 Coq.Init.Datatypes <> Some constr
+R23031:23032 VST.floyd.local2ptree_denote <> gv:217 var
+R23116:23136 VST.floyd.local2ptree_denote <> local2ptree_soundness thm
+R23116:23136 VST.floyd.local2ptree_denote <> local2ptree_soundness thm
+R23176:23178 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23165:23170 VST.floyd.canon <> LOCALx def
+R23176:23178 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23165:23170 VST.floyd.canon <> LOCALx def
+R23205:23208 VST.floyd.canon <> SEPx def
+R23221:23222 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23219:23220 VST.msl.seplog <> TT meth
+R23223:23225 Coq.Init.Datatypes <> nil constr
+R23210:23216 VST.veric.mpred <> environ ind
+R23205:23208 VST.floyd.canon <> SEPx def
+R23221:23222 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23219:23220 VST.msl.seplog <> TT meth
+R23223:23225 Coq.Init.Datatypes <> nil constr
+R23210:23216 VST.veric.mpred <> environ ind
+R23255:23257 Coq.Init.Datatypes <> nil constr
+R23298:23302 VST.floyd.canon <> PROPx def
+R23346:23359 VST.msl.log_normalize <> prop_true_andp thm
+R23346:23359 VST.msl.log_normalize <> prop_true_andp thm
+R23346:23359 VST.msl.log_normalize <> prop_true_andp thm
+R23346:23359 VST.msl.log_normalize <> prop_true_andp thm
+R23346:23359 VST.msl.log_normalize <> prop_true_andp thm
+R23413:23416 VST.floyd.canon <> SEPx def
+R23434:23443 VST.msl.seplog <> sepcon_emp meth
+R23434:23443 VST.msl.seplog <> sepcon_emp meth
+R23434:23443 VST.msl.seplog <> sepcon_emp meth
+prf 23471:23479 <> local_ext
+binder 23489:23490 <> Q0:218
+binder 23492:23492 <> Q:219
+binder 23494:23496 <> rho:220
+R23506:23509 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23541:23544 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23545:23546 VST.floyd.local2ptree_denote <> Q0:218 var
+R23548:23550 VST.floyd.local2ptree_denote <> rho:220 var
+R23510:23519 Coq.Lists.List <> fold_right def
+R23538:23540 VST.floyd.local2ptree_denote <> rho:220 var
+R23536:23536 VST.floyd.local2ptree_denote <> Q:219 var
+R23528:23529 VST.veric.lift LiftNotation :::'`('_x_')' not
+R23534:23534 VST.veric.lift LiftNotation :::'`('_x_')' not
+R23530:23533 Coq.Init.Logic <> True ind
+R23521:23522 VST.veric.lift LiftNotation :::'`('_x_')' not
+R23526:23526 VST.veric.lift LiftNotation :::'`('_x_')' not
+R23523:23525 Coq.Init.Logic <> and ind
+R23499:23500 Coq.Lists.List <> In def
+R23505:23505 VST.floyd.local2ptree_denote <> Q:219 var
+R23502:23503 VST.floyd.local2ptree_denote <> Q0:218 var
+prf 23787:23799 <> local_ext_rev
+R23813:23816 Coq.Init.Datatypes <> list ind
+R23826:23829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23819:23825 VST.veric.mpred <> environ ind
+binder 23810:23810 <> Q:221
+binder 23837:23839 <> rho:222
+R23842:23842 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23871:23875 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23876:23885 Coq.Lists.List <> fold_right def
+R23904:23906 VST.floyd.local2ptree_denote <> rho:222 var
+R23902:23902 VST.floyd.local2ptree_denote <> Q:221 var
+R23894:23895 VST.veric.lift LiftNotation :::'`('_x_')' not
+R23900:23900 VST.veric.lift LiftNotation :::'`('_x_')' not
+R23896:23899 Coq.Init.Logic <> True ind
+R23887:23888 VST.veric.lift LiftNotation :::'`('_x_')' not
+R23892:23892 VST.veric.lift LiftNotation :::'`('_x_')' not
+R23889:23891 Coq.Init.Logic <> and ind
+binder 23850:23851 <> Q0:223
+R23861:23864 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23865:23866 VST.floyd.local2ptree_denote <> Q0:223 var
+R23868:23870 VST.floyd.local2ptree_denote <> rho:222 var
+R23854:23855 Coq.Lists.List <> In def
+R23860:23860 VST.floyd.local2ptree_denote <> Q:221 var
+R23857:23858 VST.floyd.local2ptree_denote <> Q0:223 var
+def 24076:24097 <> explicit_cast_exprlist
+R24104:24107 Coq.Init.Datatypes <> list ind
+R24109:24112 compcert.cfrontend.Ctypes <> type ind
+binder 24100:24101 <> et:224
+R24120:24123 Coq.Init.Datatypes <> list ind
+R24125:24128 compcert.cfrontend.Clight <> expr ind
+binder 24116:24117 <> el:225
+R24145:24148 Coq.Init.Datatypes <> list ind
+R24150:24153 compcert.cfrontend.Clight <> expr ind
+R24169:24170 VST.floyd.local2ptree_denote <> el:225 var
+R24165:24166 VST.floyd.local2ptree_denote <> et:224 var
+R24181:24182 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24189:24190 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24207:24210 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24198:24202 compcert.cfrontend.Clight <> Ecast constr
+R24211:24232 VST.floyd.local2ptree_denote <> explicit_cast_exprlist:226 def
+R24253:24255 Coq.Init.Datatypes <> nil constr
+def 24273:24282 <> force_list
+binder 24285:24285 <> A:229
+R24293:24296 Coq.Init.Datatypes <> list ind
+R24299:24304 Coq.Init.Datatypes <> option ind
+R24306:24306 VST.floyd.local2ptree_denote <> A:229 var
+binder 24289:24290 <> al:230
+R24312:24317 Coq.Init.Datatypes <> option ind
+R24320:24323 Coq.Init.Datatypes <> list ind
+R24325:24325 VST.floyd.local2ptree_denote <> A:229 var
+R24338:24339 VST.floyd.local2ptree_denote <> al:230 var
+R24355:24358 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24349:24352 Coq.Init.Datatypes <> Some constr
+R24372:24381 VST.floyd.local2ptree_denote <> force_list:231 def
+R24392:24395 Coq.Init.Datatypes <> Some constr
+R24403:24406 Coq.Init.Datatypes <> Some constr
+R24410:24411 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24423:24426 Coq.Init.Datatypes <> None constr
+R24435:24437 Coq.Init.Datatypes <> nil constr
+R24442:24445 Coq.Init.Datatypes <> Some constr
+R24447:24449 Coq.Init.Datatypes <> nil constr
+R24459:24462 Coq.Init.Datatypes <> None constr
+prf 24477:24489 <> make_func_ptr
+binder 24500:24501 <> id:233
+R24511:24520 VST.veric.juicy_extspec <> OracleKind class
+binder 24504:24508 <> Espec:234
+R24528:24536 VST.veric.mpred <> compspecs class
+binder 24524:24525 <> CS:235
+binder 24539:24543 <> Delta:236
+binder 24545:24545 <> P:237
+binder 24547:24547 <> Q:238
+binder 24549:24549 <> R:239
+binder 24551:24552 <> fs:240
+binder 24554:24555 <> gv:241
+binder 24557:24557 <> p:242
+binder 24559:24559 <> c:243
+binder 24561:24564 <> Post:244
+R24599:24605 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24639:24645 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24697:24703 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24746:24751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24820:24825 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24826:24830 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R24870:24873 VST.floyd.local2ptree_denote <> Post:244 var
+R24868:24868 VST.floyd.local2ptree_denote <> c:243 var
+R24839:24843 VST.floyd.canon <> PROPx def
+R24848:24853 VST.floyd.canon <> LOCALx def
+R24858:24861 VST.floyd.canon <> SEPx def
+R24863:24863 VST.floyd.local2ptree_denote <> R:239 var
+R24855:24855 VST.floyd.local2ptree_denote <> Q:238 var
+R24845:24845 VST.floyd.local2ptree_denote <> P:237 var
+R24832:24836 VST.floyd.local2ptree_denote <> Delta:236 var
+R24752:24756 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R24816:24819 VST.floyd.local2ptree_denote <> Post:244 var
+R24814:24814 VST.floyd.local2ptree_denote <> c:243 var
+R24765:24769 VST.floyd.canon <> PROPx def
+R24774:24779 VST.floyd.canon <> LOCALx def
+R24784:24787 VST.floyd.canon <> SEPx def
+R24804:24807 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R24790:24798 VST.floyd.client_lemmas <> func_ptr' def
+R24803:24803 VST.floyd.local2ptree_denote <> p:242 var
+R24800:24801 VST.floyd.local2ptree_denote <> fs:240 var
+R24808:24808 VST.floyd.local2ptree_denote <> R:239 var
+R24781:24781 VST.floyd.local2ptree_denote <> Q:238 var
+R24771:24771 VST.floyd.local2ptree_denote <> P:237 var
+R24758:24762 VST.floyd.local2ptree_denote <> Delta:236 var
+R24733:24736 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R24723:24725 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24704:24706 Coq.Init.Datatypes <> snd def
+R24709:24719 VST.floyd.local2ptree_denote <> local2ptree def
+R24721:24721 VST.floyd.local2ptree_denote <> Q:238 var
+R24726:24729 Coq.Init.Datatypes <> Some constr
+R24731:24732 VST.floyd.local2ptree_denote <> gv:241 var
+R24742:24744 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24737:24738 VST.floyd.local2ptree_denote <> gv:241 var
+R24740:24741 VST.floyd.local2ptree_denote <> id:233 var
+R24745:24745 VST.floyd.local2ptree_denote <> p:242 var
+R24669:24671 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24646:24646 compcert.lib.Maps <> :::x_'!'_x not
+R24663:24666 compcert.lib.Maps <> :::x_'!'_x not
+R24667:24668 VST.floyd.local2ptree_denote <> id:233 var
+R24647:24656 VST.veric.seplog <> glob_types def
+R24658:24662 VST.floyd.local2ptree_denote <> Delta:236 var
+R24672:24675 Coq.Init.Datatypes <> Some constr
+R24678:24692 VST.veric.mpred <> type_of_funspec def
+R24694:24695 VST.floyd.local2ptree_denote <> fs:240 var
+R24629:24631 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24606:24606 compcert.lib.Maps <> :::x_'!'_x not
+R24623:24626 compcert.lib.Maps <> :::x_'!'_x not
+R24627:24628 VST.floyd.local2ptree_denote <> id:233 var
+R24607:24616 VST.veric.seplog <> glob_specs def
+R24618:24622 VST.floyd.local2ptree_denote <> Delta:236 var
+R24632:24635 Coq.Init.Datatypes <> Some constr
+R24637:24638 VST.floyd.local2ptree_denote <> fs:240 var
+R24592:24594 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24570:24570 compcert.lib.Maps <> :::x_'!'_x not
+R24586:24589 compcert.lib.Maps <> :::x_'!'_x not
+R24590:24591 VST.floyd.local2ptree_denote <> id:233 var
+R24571:24579 VST.veric.seplog <> var_types def
+R24581:24585 VST.floyd.local2ptree_denote <> Delta:236 var
+R24595:24598 Coq.Init.Datatypes <> None constr
+R24898:24909 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic semax_fun_id prfax
+R24898:24909 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic semax_fun_id prfax
+R24938:24946 VST.floyd.canon <> semax_pre thm
+R24938:24946 VST.floyd.canon <> semax_pre thm
+R24983:24993 VST.floyd.local2ptree_denote <> local2ptree def
+R24983:24993 VST.floyd.local2ptree_denote <> local2ptree def
+R25081:25101 VST.floyd.local2ptree_denote <> local2ptree_soundness thm
+R25081:25101 VST.floyd.local2ptree_denote <> local2ptree_soundness thm
+R25143:25160 VST.floyd.local2ptree_denote <> LocalD_sound_gvars thm
+R25172:25178 Coq.Init.Logic <> eq_refl constr
+R25143:25160 VST.floyd.local2ptree_denote <> LocalD_sound_gvars thm
+R25172:25178 Coq.Init.Logic <> eq_refl constr
+R25195:25200 VST.floyd.local2ptree_denote <> LocalD def
+R25208:25211 Coq.Init.Datatypes <> Some constr
+R25195:25200 VST.floyd.local2ptree_denote <> LocalD def
+R25208:25211 Coq.Init.Datatypes <> Some constr
+R25257:25261 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R25233:25237 VST.veric.SeparationLogic <> local def
+R25240:25249 VST.veric.SeparationLogic <> tc_environ def
+binder 25266:25268 <> rho:245
+R25273:25276 VST.msl.seplog <> ::logic:'!!'_x not
+R25306:25306 VST.msl.seplog <> ::logic:'!!'_x not
+R25299:25301 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25277:25283 VST.veric.mpred Map get def
+R25286:25290 VST.veric.mpred <> ve_of def
+R25292:25294 VST.floyd.local2ptree_denote <> rho:245 var
+R25302:25305 Coq.Init.Datatypes <> None constr
+R25257:25261 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R25233:25237 VST.veric.SeparationLogic <> local def
+R25240:25249 VST.veric.SeparationLogic <> tc_environ def
+binder 25266:25268 <> rho:246
+R25273:25276 VST.msl.seplog <> ::logic:'!!'_x not
+R25306:25306 VST.msl.seplog <> ::logic:'!!'_x not
+R25299:25301 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25277:25283 VST.veric.mpred Map get def
+R25286:25290 VST.veric.mpred <> ve_of def
+R25292:25294 VST.floyd.local2ptree_denote <> rho:246 var
+R25302:25305 Coq.Init.Datatypes <> None constr
+R25340:25344 VST.veric.SeparationLogic <> local def
+R25347:25351 VST.veric.mpred <> lift1 def
+R25448:25454 VST.veric.mpred Map get def
+R25457:25461 VST.veric.mpred <> ve_of def
+R25448:25454 VST.veric.mpred Map get def
+R25457:25461 VST.veric.mpred <> ve_of def
+R25556:25563 Coq.Init.Logic <> ex_intro constr
+R25569:25575 Coq.Init.Logic <> eq_refl constr
+R25556:25563 Coq.Init.Logic <> ex_intro constr
+R25569:25575 Coq.Init.Logic <> eq_refl constr
+R25625:25634 VST.floyd.canon <> insert_SEP thm
+R25625:25634 VST.floyd.canon <> insert_SEP thm
+R25625:25634 VST.floyd.canon <> insert_SEP thm
+R25644:25652 VST.floyd.client_lemmas <> func_ptr' def
+R25735:25750 VST.veric.SeparationLogic <> corable_func_ptr thm
+R25674:25693 VST.msl.seplog <> corable_andp_sepcon1 meth
+R25674:25693 VST.msl.seplog <> corable_andp_sepcon1 meth
+R25735:25750 VST.veric.SeparationLogic <> corable_func_ptr thm
+R25674:25693 VST.msl.seplog <> corable_andp_sepcon1 meth
+R25760:25769 VST.msl.seplog <> andp_right meth
+R25782:25791 VST.msl.seplog <> andp_left2 meth
+R25800:25809 VST.msl.seplog <> andp_left1 meth
+R25760:25769 VST.msl.seplog <> andp_right meth
+R25782:25791 VST.msl.seplog <> andp_left2 meth
+R25800:25809 VST.msl.seplog <> andp_left1 meth
+R25847:25856 VST.msl.log_normalize <> andp_assoc thm
+R25847:25856 VST.msl.log_normalize <> andp_assoc thm
+R25847:25856 VST.msl.log_normalize <> andp_assoc thm
+R25868:25875 VST.msl.log_normalize <> add_andp thm
+R25882:25889 VST.floyd.canon <> in_local thm
+R25911:25914 VST.floyd.canon <> SEPx def
+R25901:25904 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R25868:25875 VST.msl.log_normalize <> add_andp thm
+R25882:25889 VST.floyd.canon <> in_local thm
+R25911:25914 VST.floyd.canon <> SEPx def
+R25901:25904 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R25868:25875 VST.msl.log_normalize <> add_andp thm
+R25882:25889 VST.floyd.canon <> in_local thm
+R25911:25914 VST.floyd.canon <> SEPx def
+R25901:25904 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R25934:25941 VST.msl.log_normalize <> add_andp thm
+R25934:25941 VST.msl.log_normalize <> add_andp thm
+R25934:25941 VST.msl.log_normalize <> add_andp thm
+R26071:26074 VST.msl.seplog <> ::logic:x_'&&'_x not
+R25978:25978 VST.msl.seplog <> ::logic:x_'&&'_x not
+R26034:26038 VST.msl.seplog <> ::logic:x_'&&'_x not
+R25989:25995 VST.veric.mpred <> environ ind
+binder 25983:25985 <> rho:247
+R26000:26003 VST.msl.seplog <> ::logic:'!!'_x not
+R26033:26033 VST.msl.seplog <> ::logic:'!!'_x not
+R26026:26028 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26004:26010 VST.veric.mpred Map get def
+R26013:26017 VST.veric.mpred <> ve_of def
+R26019:26021 VST.floyd.local2ptree_denote <> rho:247 var
+R26029:26032 Coq.Init.Datatypes <> None constr
+R26039:26043 VST.veric.SeparationLogic <> local def
+R26046:26058 VST.floyd.canon <> locald_denote def
+R26061:26065 VST.floyd.canon <> gvars constr
+R26075:26078 VST.veric.lift LiftNotation :::'`'_x not
+R26090:26126 VST.veric.lift LiftNotation :::'`'_x not
+R26079:26086 VST.veric.SeparationLogic <> func_ptr def
+R26094:26101 VST.veric.expr <> eval_var def
+R26107:26121 VST.veric.mpred <> type_of_funspec def
+R25958:25970 VST.msl.seplog <> derives_trans meth
+R26071:26074 VST.msl.seplog <> ::logic:x_'&&'_x not
+R25978:25978 VST.msl.seplog <> ::logic:x_'&&'_x not
+R26034:26038 VST.msl.seplog <> ::logic:x_'&&'_x not
+R25989:25995 VST.veric.mpred <> environ ind
+binder 25983:25985 <> rho:248
+R26000:26003 VST.msl.seplog <> ::logic:'!!'_x not
+R26033:26033 VST.msl.seplog <> ::logic:'!!'_x not
+R26026:26028 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26004:26010 VST.veric.mpred Map get def
+R26013:26017 VST.veric.mpred <> ve_of def
+R26019:26021 VST.floyd.local2ptree_denote <> rho:248 var
+R26029:26032 Coq.Init.Datatypes <> None constr
+R26039:26043 VST.veric.SeparationLogic <> local def
+R26046:26058 VST.floyd.canon <> locald_denote def
+R26061:26065 VST.floyd.canon <> gvars constr
+R26075:26078 VST.veric.lift LiftNotation :::'`'_x not
+R26090:26126 VST.veric.lift LiftNotation :::'`'_x not
+R26079:26086 VST.veric.SeparationLogic <> func_ptr def
+R26094:26101 VST.veric.expr <> eval_var def
+R26107:26121 VST.veric.mpred <> type_of_funspec def
+R25958:25970 VST.msl.seplog <> derives_trans meth
+R26193:26197 VST.veric.SeparationLogic <> local def
+R26200:26204 VST.veric.mpred <> lift1 def
+R26232:26239 VST.veric.expr <> eval_var def

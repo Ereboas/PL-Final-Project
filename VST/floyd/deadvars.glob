@@ -1,0 +1,731 @@
+DIGEST 744ea48963ed36128ef048279452e3e0
+FVST.floyd.deadvars
+R15:29 VST.floyd.base2 <> <> lib
+R47:69 VST.floyd.client_lemmas <> <> lib
+R87:109 VST.floyd.semax_tactics <> <> lib
+def 293:306 <> deadvars_union
+R316:319 Coq.Init.Datatypes <> list ind
+R321:325 compcert.common.AST <> ident def
+binder 309:310 <> al:1
+binder 312:313 <> bl:2
+R330:333 Coq.Init.Datatypes <> list ind
+R335:339 compcert.common.AST <> ident def
+R351:352 VST.floyd.deadvars <> al:1 var
+R363:364 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R382:395 VST.floyd.deadvars <> deadvars_union:3 def
+R401:402 VST.floyd.deadvars <> bl:2 var
+binder 376:377 <> cl:5
+R429:438 VST.veric.base <> id_in_list def
+R442:443 VST.floyd.deadvars <> bl:2 var
+R459:460 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R461:462 VST.floyd.deadvars <> cl:5 var
+R450:451 VST.floyd.deadvars <> cl:5 var
+R467:469 Coq.Init.Datatypes <> nil constr
+R474:475 VST.floyd.deadvars <> bl:2 var
+def 533:553 <> deadvars_intersection
+R563:566 Coq.Init.Datatypes <> list ind
+R568:572 compcert.common.AST <> ident def
+binder 556:557 <> al:6
+binder 559:560 <> bl:7
+R577:580 Coq.Init.Datatypes <> list ind
+R582:586 compcert.common.AST <> ident def
+R598:599 VST.floyd.deadvars <> al:6 var
+R610:611 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R622:631 VST.veric.base <> id_in_list def
+R635:636 VST.floyd.deadvars <> bl:7 var
+R716:736 VST.floyd.deadvars <> deadvars_intersection:8 def
+R742:743 VST.floyd.deadvars <> bl:7 var
+R661:664 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R665:685 VST.floyd.deadvars <> deadvars_intersection:8 def
+R691:692 VST.floyd.deadvars <> bl:7 var
+R749:751 Coq.Init.Datatypes <> nil constr
+R756:758 Coq.Init.Datatypes <> nil constr
+def 859:874 <> deadvars_remove1
+binder 876:876 <> i:10
+binder 878:879 <> vl:11
+binder 881:884 <> live:12
+R896:897 VST.floyd.deadvars <> vl:11 var
+R908:909 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R920:926 Coq.PArith.BinPos Pos eqb def
+R928:928 VST.floyd.deadvars <> i:10 var
+R1004:1019 VST.floyd.deadvars <> deadvars_remove1:13 def
+R1027:1030 VST.floyd.deadvars <> live:12 var
+R1021:1021 VST.floyd.deadvars <> i:10 var
+binder 989:991 <> vl2:15
+binder 994:998 <> live2:16
+R1056:1056 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1063:1064 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1070:1070 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1058:1059 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1060:1062 VST.floyd.deadvars <> vl2:15 var
+R1065:1069 VST.floyd.deadvars <> live2:16 var
+R951:951 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R955:956 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R964:964 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R958:959 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R957:957 VST.floyd.deadvars <> i:10 var
+R960:963 VST.floyd.deadvars <> live:12 var
+R1075:1077 Coq.Init.Datatypes <> nil constr
+R1082:1082 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1086:1087 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1092:1092 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1083:1085 Coq.Init.Datatypes <> nil constr
+R1088:1091 VST.floyd.deadvars <> live:12 var
+def 1325:1339 <> deadvars_remove
+R1345:1348 compcert.cfrontend.Clight <> expr ind
+binder 1342:1342 <> e:17
+R1361:1364 Coq.Init.Datatypes <> list ind
+R1366:1370 compcert.common.AST <> ident def
+binder 1352:1353 <> vl:18
+binder 1355:1358 <> live:19
+R1385:1387 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1375:1378 Coq.Init.Datatypes <> list ind
+R1380:1384 compcert.common.AST <> ident def
+R1388:1391 Coq.Init.Datatypes <> list ind
+R1393:1397 compcert.common.AST <> ident def
+R1409:1409 VST.floyd.deadvars <> e:17 var
+R1419:1426 compcert.cfrontend.Clight <> Etempvar constr
+R1435:1450 VST.floyd.deadvars <> deadvars_remove1 def
+R1457:1460 VST.floyd.deadvars <> live:19 var
+R1454:1455 VST.floyd.deadvars <> vl:18 var
+R1465:1470 compcert.cfrontend.Clight <> Ederef constr
+R1480:1494 VST.floyd.deadvars <> deadvars_remove:20 def
+R1502:1505 VST.floyd.deadvars <> live:19 var
+R1499:1500 VST.floyd.deadvars <> vl:18 var
+R1510:1516 compcert.cfrontend.Clight <> Eaddrof constr
+R1526:1540 VST.floyd.deadvars <> deadvars_remove:20 def
+R1548:1551 VST.floyd.deadvars <> live:19 var
+R1545:1546 VST.floyd.deadvars <> vl:18 var
+R1556:1560 compcert.cfrontend.Clight <> Eunop constr
+R1572:1586 VST.floyd.deadvars <> deadvars_remove:20 def
+R1594:1597 VST.floyd.deadvars <> live:19 var
+R1591:1592 VST.floyd.deadvars <> vl:18 var
+R1603:1608 compcert.cfrontend.Clight <> Ebinop constr
+R1643:1657 VST.floyd.deadvars <> deadvars_remove:20 def
+R1665:1668 VST.floyd.deadvars <> live:19 var
+R1662:1663 VST.floyd.deadvars <> vl:18 var
+binder 1628:1630 <> vl':22
+binder 1633:1637 <> live':23
+R1710:1724 VST.floyd.deadvars <> deadvars_remove:20 def
+R1733:1737 VST.floyd.deadvars <> live':23 var
+R1729:1731 VST.floyd.deadvars <> vl':22 var
+R1742:1746 compcert.cfrontend.Clight <> Ecast constr
+R1756:1770 VST.floyd.deadvars <> deadvars_remove:20 def
+R1778:1781 VST.floyd.deadvars <> live:19 var
+R1775:1776 VST.floyd.deadvars <> vl:18 var
+R1786:1791 compcert.cfrontend.Clight <> Efield constr
+R1803:1817 VST.floyd.deadvars <> deadvars_remove:20 def
+R1825:1828 VST.floyd.deadvars <> live:19 var
+R1822:1823 VST.floyd.deadvars <> vl:18 var
+R1838:1838 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1841:1842 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1847:1847 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1839:1840 VST.floyd.deadvars <> vl:18 var
+R1843:1846 VST.floyd.deadvars <> live:19 var
+def 2082:2097 <> deadvars_removel
+R2104:2107 Coq.Init.Datatypes <> list ind
+R2109:2112 compcert.cfrontend.Clight <> expr ind
+binder 2100:2101 <> el:24
+R2125:2128 Coq.Init.Datatypes <> list ind
+R2130:2134 compcert.common.AST <> ident def
+binder 2116:2117 <> vl:25
+binder 2119:2122 <> live:26
+R2149:2151 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2139:2142 Coq.Init.Datatypes <> list ind
+R2144:2148 compcert.common.AST <> ident def
+R2152:2155 Coq.Init.Datatypes <> list ind
+R2157:2161 compcert.common.AST <> ident def
+R2174:2175 VST.floyd.deadvars <> el:24 var
+R2186:2188 Coq.Init.Datatypes <> nil constr
+R2193:2193 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2196:2198 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2203:2203 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2194:2195 VST.floyd.deadvars <> vl:25 var
+R2199:2202 VST.floyd.deadvars <> live:26 var
+R2210:2211 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2239:2253 VST.floyd.deadvars <> deadvars_remove def
+R2260:2263 VST.floyd.deadvars <> live:26 var
+R2257:2258 VST.floyd.deadvars <> vl:25 var
+binder 2224:2226 <> vl':29
+binder 2229:2233 <> live':30
+R2287:2302 VST.floyd.deadvars <> deadvars_removel:27 def
+R2312:2316 VST.floyd.deadvars <> live':30 var
+R2308:2310 VST.floyd.deadvars <> vl':29 var
+def 2335:2347 <> deadvars_dead
+R2353:2357 compcert.common.AST <> ident def
+binder 2350:2350 <> i:31
+R2365:2368 Coq.Init.Datatypes <> list ind
+R2370:2374 compcert.common.AST <> ident def
+binder 2361:2362 <> vl:32
+R2389:2391 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2379:2382 Coq.Init.Datatypes <> list ind
+R2384:2388 compcert.common.AST <> ident def
+R2392:2395 Coq.Init.Datatypes <> list ind
+R2397:2401 compcert.common.AST <> ident def
+R2413:2414 VST.floyd.deadvars <> vl:32 var
+R2425:2426 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2437:2443 Coq.PArith.BinPos Pos eqb def
+R2445:2445 VST.floyd.deadvars <> i:31 var
+R2512:2524 VST.floyd.deadvars <> deadvars_dead:33 def
+R2526:2526 VST.floyd.deadvars <> i:31 var
+binder 2501:2501 <> k:35
+binder 2503:2506 <> vl'':36
+R2535:2535 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2537:2537 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2544:2544 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2536:2536 VST.floyd.deadvars <> k:35 var
+R2539:2540 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2468:2468 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2472:2472 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2476:2476 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2469:2469 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2471:2471 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2470:2470 VST.floyd.deadvars <> i:31 var
+R2549:2551 Coq.Init.Datatypes <> nil constr
+R2556:2556 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2560:2561 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2565:2565 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2557:2559 Coq.Init.Datatypes <> nil constr
+R2562:2564 Coq.Init.Datatypes <> nil constr
+def 2790:2804 <> deadvars_delete
+R2819:2822 Coq.Init.Datatypes <> list ind
+R2824:2828 compcert.common.AST <> ident def
+binder 2807:2808 <> al:37
+binder 2810:2811 <> vl:38
+binder 2813:2816 <> live:39
+R2843:2845 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2833:2836 Coq.Init.Datatypes <> list ind
+R2838:2842 compcert.common.AST <> ident def
+R2846:2849 Coq.Init.Datatypes <> list ind
+R2851:2855 compcert.common.AST <> ident def
+R2867:2868 VST.floyd.deadvars <> al:37 var
+R2879:2880 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2907:2921 VST.floyd.deadvars <> deadvars_delete:40 def
+R2930:2933 VST.floyd.deadvars <> live:39 var
+R2927:2928 VST.floyd.deadvars <> vl:38 var
+binder 2893:2895 <> vl':42
+binder 2897:2901 <> live':43
+R2957:2972 VST.floyd.deadvars <> deadvars_remove1 def
+R2980:2984 VST.floyd.deadvars <> live':43 var
+R2976:2978 VST.floyd.deadvars <> vl':42 var
+R2989:2991 Coq.Init.Datatypes <> nil constr
+R2996:2996 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2999:2999 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3004:3004 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2997:2998 VST.floyd.deadvars <> vl:38 var
+R3000:3003 VST.floyd.deadvars <> live:39 var
+def 3022:3029 <> nobreaks
+R3035:3043 compcert.cfrontend.Clight <> statement ind
+binder 3032:3032 <> s:44
+R3048:3051 Coq.Init.Datatypes <> bool ind
+R3062:3062 VST.floyd.deadvars <> s:44 var
+R3071:3076 compcert.cfrontend.Clight <> Sbreak constr
+R3081:3085 Coq.Init.Datatypes <> false constr
+R3089:3097 compcert.cfrontend.Clight <> Scontinue constr
+R3102:3106 Coq.Init.Datatypes <> false constr
+R3110:3118 compcert.cfrontend.Clight <> Ssequence constr
+R3140:3143 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R3129:3136 VST.floyd.deadvars <> nobreaks:45 def
+R3144:3151 VST.floyd.deadvars <> nobreaks:45 def
+R3158:3162 compcert.cfrontend.Clight <> Sloop constr
+R3184:3187 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R3173:3180 VST.floyd.deadvars <> nobreaks:45 def
+R3188:3195 VST.floyd.deadvars <> nobreaks:45 def
+R3202:3212 compcert.cfrontend.Clight <> Sifthenelse constr
+R3236:3239 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R3225:3232 VST.floyd.deadvars <> nobreaks:45 def
+R3240:3247 VST.floyd.deadvars <> nobreaks:45 def
+R3259:3262 Coq.Init.Datatypes <> true constr
+def 3902:3914 <> deadvars_stmt
+R3921:3924 Coq.Init.Datatypes <> list ind
+R3926:3930 compcert.common.AST <> ident def
+binder 3917:3918 <> vl:47
+R3945:3948 Coq.Init.Datatypes <> list ind
+R3950:3954 compcert.common.AST <> ident def
+binder 3934:3937 <> live:48
+binder 3939:3942 <> dead:49
+R3961:3969 compcert.cfrontend.Clight <> statement ind
+binder 3958:3958 <> c:50
+R4015:4018 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4029:4032 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4043:4046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4057:4059 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4047:4050 Coq.Init.Datatypes <> list ind
+R4052:4056 compcert.common.AST <> ident def
+R4060:4063 Coq.Init.Datatypes <> list ind
+R4065:4069 compcert.common.AST <> ident def
+R4033:4036 Coq.Init.Datatypes <> list ind
+R4038:4042 compcert.common.AST <> ident def
+R4019:4022 Coq.Init.Datatypes <> list ind
+R4024:4028 compcert.common.AST <> ident def
+R4005:4008 Coq.Init.Datatypes <> list ind
+R4010:4014 compcert.common.AST <> ident def
+binder 3993:3996 <> cont:51
+binder 3998:4002 <> bcont:52
+R4084:4086 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4074:4077 Coq.Init.Datatypes <> list ind
+R4079:4083 compcert.common.AST <> ident def
+R4087:4090 Coq.Init.Datatypes <> list ind
+R4092:4096 compcert.common.AST <> ident def
+R4109:4110 VST.floyd.deadvars <> vl:47 var
+R4117:4119 Coq.Init.Datatypes <> nil constr
+R4124:4124 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4129:4129 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4134:4134 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4125:4128 VST.floyd.deadvars <> live:48 var
+R4130:4133 VST.floyd.deadvars <> dead:49 var
+R4152:4152 VST.floyd.deadvars <> c:50 var
+R4164:4168 compcert.cfrontend.Clight <> Sskip constr
+R4173:4176 VST.floyd.deadvars <> cont:51 var
+R4186:4189 VST.floyd.deadvars <> dead:49 var
+R4181:4184 VST.floyd.deadvars <> live:48 var
+R4178:4179 VST.floyd.deadvars <> vl:47 var
+R4196:4202 compcert.cfrontend.Clight <> Sassign constr
+R4232:4247 VST.floyd.deadvars <> deadvars_removel def
+R4260:4263 VST.floyd.deadvars <> live:48 var
+R4257:4258 VST.floyd.deadvars <> vl:47 var
+R4249:4249 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4252:4252 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4255:4255 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+binder 4218:4220 <> vl':56
+binder 4222:4226 <> live':57
+R4293:4296 VST.floyd.deadvars <> cont:51 var
+R4308:4311 VST.floyd.deadvars <> dead:49 var
+R4302:4306 VST.floyd.deadvars <> live':57 var
+R4298:4300 VST.floyd.deadvars <> vl':56 var
+R4318:4321 compcert.cfrontend.Clight <> Sset constr
+R4349:4363 VST.floyd.deadvars <> deadvars_remove def
+R4370:4373 VST.floyd.deadvars <> live:48 var
+R4367:4368 VST.floyd.deadvars <> vl:47 var
+binder 4335:4337 <> vl':58
+binder 4339:4343 <> live':59
+R4415:4427 VST.floyd.deadvars <> deadvars_dead def
+R4431:4433 VST.floyd.deadvars <> vl':58 var
+binder 4404:4404 <> d:60
+binder 4406:4409 <> vl'':61
+R4460:4463 VST.floyd.deadvars <> cont:51 var
+R4478:4479 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4477:4477 VST.floyd.deadvars <> d:60 var
+R4480:4483 VST.floyd.deadvars <> dead:49 var
+R4470:4474 VST.floyd.deadvars <> live':59 var
+R4465:4468 VST.floyd.deadvars <> vl'':61 var
+R4491:4495 compcert.cfrontend.Clight <> Scall constr
+R4526:4541 VST.floyd.deadvars <> deadvars_removel def
+R4554:4557 VST.floyd.deadvars <> live:48 var
+R4551:4552 VST.floyd.deadvars <> vl:47 var
+R4545:4546 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+binder 4512:4514 <> vl':62
+binder 4516:4520 <> live':63
+R4653:4656 Coq.Init.Datatypes <> Some constr
+R4664:4676 VST.floyd.deadvars <> deadvars_dead def
+R4681:4683 VST.floyd.deadvars <> vl':62 var
+R4725:4728 Coq.Init.Datatypes <> None constr
+R4733:4733 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4737:4737 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4741:4741 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4734:4736 Coq.Init.Datatypes <> nil constr
+R4738:4740 VST.floyd.deadvars <> vl':62 var
+binder 4589:4589 <> d:65
+binder 4591:4594 <> vl'':66
+R4810:4813 VST.floyd.deadvars <> cont:51 var
+R4828:4829 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4827:4827 VST.floyd.deadvars <> d:65 var
+R4830:4833 VST.floyd.deadvars <> dead:49 var
+R4820:4824 VST.floyd.deadvars <> live':63 var
+R4815:4818 VST.floyd.deadvars <> vl'':66 var
+R4841:4848 compcert.cfrontend.Clight <> Sbuiltin constr
+R4904:4919 VST.floyd.deadvars <> deadvars_removel def
+R4927:4930 VST.floyd.deadvars <> live:48 var
+R4924:4925 VST.floyd.deadvars <> vl:47 var
+binder 4890:4892 <> vl':67
+binder 4894:4898 <> live':68
+R5026:5029 Coq.Init.Datatypes <> Some constr
+R5037:5049 VST.floyd.deadvars <> deadvars_dead def
+R5054:5056 VST.floyd.deadvars <> vl':67 var
+R5098:5101 Coq.Init.Datatypes <> None constr
+R5106:5106 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5110:5110 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5114:5114 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5107:5109 Coq.Init.Datatypes <> nil constr
+R5111:5113 VST.floyd.deadvars <> vl':67 var
+binder 4962:4962 <> d:70
+binder 4964:4967 <> vl'':71
+R5183:5186 VST.floyd.deadvars <> cont:51 var
+R5201:5202 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R5200:5200 VST.floyd.deadvars <> d:70 var
+R5203:5206 VST.floyd.deadvars <> dead:49 var
+R5193:5197 VST.floyd.deadvars <> live':68 var
+R5188:5191 VST.floyd.deadvars <> vl'':71 var
+R5214:5222 compcert.cfrontend.Clight <> Ssequence constr
+R5243:5255 VST.floyd.deadvars <> deadvars_stmt:53 def
+R5356:5360 VST.floyd.deadvars <> bcont:52 var
+binder 5278:5280 <> vl':72
+binder 5282:5286 <> live':73
+binder 5288:5292 <> dead':74
+R5311:5323 VST.floyd.deadvars <> deadvars_stmt:53 def
+R5349:5353 VST.floyd.deadvars <> bcont:52 var
+R5344:5347 VST.floyd.deadvars <> cont:51 var
+R5335:5339 VST.floyd.deadvars <> dead':74 var
+R5329:5333 VST.floyd.deadvars <> live':73 var
+R5325:5327 VST.floyd.deadvars <> vl':72 var
+R5265:5268 VST.floyd.deadvars <> dead:49 var
+R5260:5263 VST.floyd.deadvars <> live:48 var
+R5257:5258 VST.floyd.deadvars <> vl:47 var
+R5367:5373 compcert.cfrontend.Clight <> Sreturn constr
+R5375:5378 Coq.Init.Datatypes <> None constr
+R5383:5383 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5387:5388 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5397:5397 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5384:5386 Coq.Init.Datatypes <> nil constr
+R5391:5392 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R5389:5390 VST.floyd.deadvars <> vl:47 var
+R5393:5396 VST.floyd.deadvars <> dead:49 var
+R5404:5410 compcert.cfrontend.Clight <> Sreturn constr
+R5413:5416 Coq.Init.Datatypes <> Some constr
+R5443:5458 VST.floyd.deadvars <> deadvars_removel def
+R5467:5470 VST.floyd.deadvars <> live:48 var
+R5464:5465 VST.floyd.deadvars <> vl:47 var
+R5460:5460 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R5462:5462 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+binder 5429:5431 <> vl':75
+binder 5433:5437 <> live':76
+R5501:5501 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5507:5508 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5520:5520 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5502:5506 VST.floyd.deadvars <> live':76 var
+R5512:5515 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R5509:5511 VST.floyd.deadvars <> vl':75 var
+R5516:5519 VST.floyd.deadvars <> dead:49 var
+R5527:5537 compcert.cfrontend.Clight <> Sifthenelse constr
+R5570:5573 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R5559:5566 VST.floyd.deadvars <> nobreaks def
+R5574:5581 VST.floyd.deadvars <> nobreaks def
+R6173:6188 VST.floyd.deadvars <> deadvars_removel def
+R6197:6200 VST.floyd.deadvars <> live:48 var
+R6194:6195 VST.floyd.deadvars <> vl:47 var
+R6190:6190 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R6192:6192 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+binder 6157:6159 <> vl':77
+binder 6162:6166 <> live':78
+R6238:6250 VST.floyd.deadvars <> deadvars_stmt:53 def
+R6275:6279 VST.floyd.deadvars <> bcont:52 var
+R6270:6273 VST.floyd.deadvars <> cont:51 var
+R6262:6265 VST.floyd.deadvars <> dead:49 var
+R6256:6260 VST.floyd.deadvars <> live':78 var
+R6252:6254 VST.floyd.deadvars <> vl':77 var
+binder 6222:6226 <> live1:79
+binder 6228:6232 <> dead1:80
+R6317:6329 VST.floyd.deadvars <> deadvars_stmt:53 def
+R6354:6358 VST.floyd.deadvars <> bcont:52 var
+R6349:6352 VST.floyd.deadvars <> cont:51 var
+R6341:6344 VST.floyd.deadvars <> dead:49 var
+R6335:6339 VST.floyd.deadvars <> live':78 var
+R6331:6333 VST.floyd.deadvars <> vl':77 var
+binder 6301:6305 <> live2:81
+binder 6307:6311 <> dead2:82
+R6389:6402 VST.floyd.deadvars <> deadvars_union def
+R6410:6414 VST.floyd.deadvars <> live2:81 var
+R6404:6408 VST.floyd.deadvars <> live1:79 var
+binder 6379:6384 <> live'':83
+R6445:6465 VST.floyd.deadvars <> deadvars_intersection def
+R6473:6477 VST.floyd.deadvars <> dead2:82 var
+R6467:6471 VST.floyd.deadvars <> dead1:80 var
+binder 6435:6440 <> dead'':84
+R6494:6494 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6501:6501 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6508:6508 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6495:6500 VST.floyd.deadvars <> live'':83 var
+R6502:6507 VST.floyd.deadvars <> dead'':84 var
+R5629:5644 VST.floyd.deadvars <> deadvars_removel def
+R5653:5656 VST.floyd.deadvars <> live:48 var
+R5650:5651 VST.floyd.deadvars <> vl:47 var
+R5646:5646 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R5648:5648 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+binder 5613:5615 <> vl':85
+binder 5618:5622 <> live':86
+R5694:5706 VST.floyd.deadvars <> deadvars_stmt:53 def
+R5745:5749 VST.floyd.deadvars <> bcont:52 var
+binder 5731:5731 <> l:87
+binder 5733:5733 <> d:88
+R5738:5738 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5740:5740 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5742:5742 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5739:5739 VST.floyd.deadvars <> l:87 var
+R5741:5741 VST.floyd.deadvars <> d:88 var
+R5716:5719 VST.floyd.deadvars <> dead:49 var
+R5712:5714 Coq.Init.Datatypes <> nil constr
+R5708:5710 VST.floyd.deadvars <> vl':85 var
+binder 5678:5682 <> live1:89
+binder 5684:5688 <> dead1:90
+R5787:5799 VST.floyd.deadvars <> deadvars_stmt:53 def
+R5838:5842 VST.floyd.deadvars <> bcont:52 var
+binder 5824:5824 <> l:91
+binder 5826:5826 <> d:92
+R5831:5831 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5833:5833 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5835:5835 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5832:5832 VST.floyd.deadvars <> l:91 var
+R5834:5834 VST.floyd.deadvars <> d:92 var
+R5809:5812 VST.floyd.deadvars <> dead:49 var
+R5805:5807 Coq.Init.Datatypes <> nil constr
+R5801:5803 VST.floyd.deadvars <> vl':85 var
+binder 5771:5775 <> live2:93
+binder 5777:5781 <> dead2:94
+R5873:5886 VST.floyd.deadvars <> deadvars_union def
+R5894:5898 VST.floyd.deadvars <> live2:93 var
+R5888:5892 VST.floyd.deadvars <> live1:89 var
+binder 5863:5868 <> live'':95
+R5929:5949 VST.floyd.deadvars <> deadvars_intersection def
+R5957:5961 VST.floyd.deadvars <> dead2:94 var
+R5951:5955 VST.floyd.deadvars <> dead1:90 var
+binder 5919:5924 <> dead'':96
+R5998:6012 VST.floyd.deadvars <> deadvars_delete def
+R6025:6029 VST.floyd.deadvars <> live':86 var
+R6021:6023 VST.floyd.deadvars <> vl':85 var
+R6014:6019 VST.floyd.deadvars <> live'':95 var
+binder 5983:5986 <> vl'':97
+binder 5988:5992 <> live3:98
+R6062:6076 VST.floyd.deadvars <> deadvars_delete def
+R6090:6092 Coq.Init.Datatypes <> nil constr
+R6085:6088 VST.floyd.deadvars <> vl'':97 var
+R6078:6083 VST.floyd.deadvars <> dead'':96 var
+binder 6051:6053 <> vl3:99
+R6109:6112 VST.floyd.deadvars <> cont:51 var
+R6124:6129 VST.floyd.deadvars <> dead'':96 var
+R6118:6122 VST.floyd.deadvars <> live3:98 var
+R6114:6116 VST.floyd.deadvars <> vl3:99 var
+R6526:6531 compcert.cfrontend.Clight <> Sbreak constr
+R6536:6540 VST.floyd.deadvars <> bcont:52 var
+R6550:6553 VST.floyd.deadvars <> dead:49 var
+R6545:6548 VST.floyd.deadvars <> live:48 var
+R6542:6543 VST.floyd.deadvars <> vl:47 var
+R6560:6564 compcert.cfrontend.Clight <> Sloop constr
+binder 6735:6737 <> vlx:100
+binder 6739:6743 <> livex:101
+binder 6745:6749 <> deadx:102
+R6754:6754 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6760:6760 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6771:6771 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6755:6759 VST.floyd.deadvars <> livex:101 var
+R6764:6765 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6761:6763 VST.floyd.deadvars <> vlx:100 var
+R6766:6770 VST.floyd.deadvars <> deadx:102 var
+binder 6722:6726 <> cont0:103
+binder 6805:6807 <> vl':104
+binder 6809:6813 <> live':105
+binder 6815:6819 <> dead':106
+R6824:6836 VST.floyd.deadvars <> deadvars_stmt:53 def
+R6863:6866 VST.floyd.deadvars <> cont:51 var
+R6857:6861 VST.floyd.deadvars <> cont0:103 var
+R6848:6852 VST.floyd.deadvars <> dead':106 var
+R6842:6846 VST.floyd.deadvars <> live':105 var
+R6838:6840 VST.floyd.deadvars <> vl':104 var
+binder 6792:6796 <> cont1:107
+R6883:6895 VST.floyd.deadvars <> deadvars_stmt:53 def
+R6919:6922 VST.floyd.deadvars <> cont:51 var
+R6913:6917 VST.floyd.deadvars <> cont1:107 var
+R6905:6908 VST.floyd.deadvars <> dead:49 var
+R6900:6903 VST.floyd.deadvars <> live:48 var
+R6897:6898 VST.floyd.deadvars <> vl:47 var
+R6934:6934 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6939:6939 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6944:6944 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6935:6938 VST.floyd.deadvars <> live:48 var
+R6940:6943 VST.floyd.deadvars <> dead:49 var
+def 6970:6987 <> temps_of_localdefs
+R6994:6997 Coq.Init.Datatypes <> list ind
+R6999:7006 VST.floyd.canon <> localdef ind
+binder 6990:6991 <> dl:108
+R7011:7014 Coq.Init.Datatypes <> list ind
+R7016:7020 compcert.common.AST <> ident def
+R7032:7033 VST.floyd.deadvars <> dl:108 var
+R7043:7045 Coq.Init.Datatypes <> nil constr
+R7050:7052 Coq.Init.Datatypes <> nil constr
+R7065:7068 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7057:7060 VST.floyd.canon <> temp constr
+R7077:7080 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7081:7098 VST.floyd.deadvars <> temps_of_localdefs:109 def
+R7108:7111 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7119:7136 VST.floyd.deadvars <> temps_of_localdefs:109 def
+def 7751:7763 <> deadvars_post
+R7772:7775 Coq.Init.Datatypes <> list ind
+R7777:7781 compcert.common.AST <> ident def
+binder 7766:7769 <> post:111
+R7789:7792 Coq.Init.Datatypes <> list ind
+R7794:7798 compcert.common.AST <> ident def
+binder 7785:7786 <> vl:112
+R7813:7816 Coq.Init.Datatypes <> list ind
+R7818:7822 compcert.common.AST <> ident def
+binder 7802:7805 <> live:113
+binder 7807:7810 <> dead:114
+R7837:7839 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7827:7830 Coq.Init.Datatypes <> list ind
+R7832:7836 compcert.common.AST <> ident def
+R7840:7843 Coq.Init.Datatypes <> list ind
+R7845:7849 compcert.common.AST <> ident def
+R7861:7864 VST.floyd.deadvars <> post:111 var
+R7874:7876 Coq.Init.Datatypes <> nil constr
+R7881:7881 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7885:7886 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7895:7895 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7882:7884 Coq.Init.Datatypes <> nil constr
+R7889:7890 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7887:7888 VST.floyd.deadvars <> vl:112 var
+R7891:7894 VST.floyd.deadvars <> dead:114 var
+R7901:7904 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7933:7948 VST.floyd.deadvars <> deadvars_remove1 def
+R7955:7958 VST.floyd.deadvars <> live:113 var
+R7952:7953 VST.floyd.deadvars <> vl:112 var
+binder 7919:7921 <> vl':117
+binder 7923:7927 <> live':118
+R7992:8004 VST.floyd.deadvars <> deadvars_post:115 def
+R8022:8025 VST.floyd.deadvars <> dead:114 var
+R8016:8020 VST.floyd.deadvars <> live':118 var
+R8012:8014 VST.floyd.deadvars <> vl':117 var
+R8077:8079 Coq.Init.Datatypes <> nat ind
+R8077:8079 Coq.Init.Datatypes <> nat ind
+R8098:8098 Coq.Numbers.BinNums <> Z ind
+R8098:8098 Coq.Numbers.BinNums <> Z ind
+R8119:8122 Coq.Init.Datatypes <> list ind
+R8119:8122 Coq.Init.Datatypes <> list ind
+R8149:8156 Coq.Numbers.BinNums <> positive ind
+R8149:8156 Coq.Numbers.BinNums <> positive ind
+R8167:8170 Coq.Init.Datatypes <> bool ind
+R8167:8170 Coq.Init.Datatypes <> bool ind
+R8184:8187 Coq.Init.Datatypes <> prod ind
+R8184:8187 Coq.Init.Datatypes <> prod ind
+R8324:8327 Coq.Init.Datatypes <> pair constr
+R8139:8141 Coq.Init.Datatypes <> nil constr
+R8092:8092 Coq.Init.Datatypes <> O constr
+def 8654:8663 <> expr_temps
+R8669:8672 compcert.cfrontend.Clight <> expr ind
+binder 8666:8666 <> e:119
+R8680:8683 Coq.Init.Datatypes <> list ind
+R8685:8689 compcert.common.AST <> ident def
+binder 8676:8677 <> vl:120
+R8694:8697 Coq.Init.Datatypes <> list ind
+R8699:8703 compcert.common.AST <> ident def
+R8715:8715 VST.floyd.deadvars <> e:119 var
+R8725:8732 compcert.cfrontend.Clight <> Etempvar constr
+R8744:8753 VST.veric.base <> id_in_list def
+R8757:8758 VST.floyd.deadvars <> vl:120 var
+R8774:8775 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8776:8777 VST.floyd.deadvars <> vl:120 var
+R8765:8766 VST.floyd.deadvars <> vl:120 var
+R8782:8787 compcert.cfrontend.Clight <> Ederef constr
+R8797:8806 VST.floyd.deadvars <> expr_temps:121 def
+R8811:8812 VST.floyd.deadvars <> vl:120 var
+R8817:8823 compcert.cfrontend.Clight <> Eaddrof constr
+R8833:8842 VST.floyd.deadvars <> expr_temps:121 def
+R8847:8848 VST.floyd.deadvars <> vl:120 var
+R8853:8857 compcert.cfrontend.Clight <> Eunop constr
+R8869:8878 VST.floyd.deadvars <> expr_temps:121 def
+R8883:8884 VST.floyd.deadvars <> vl:120 var
+R8889:8894 compcert.cfrontend.Clight <> Ebinop constr
+R8909:8918 VST.floyd.deadvars <> expr_temps:121 def
+R8924:8933 VST.floyd.deadvars <> expr_temps:121 def
+R8938:8939 VST.floyd.deadvars <> vl:120 var
+R8945:8949 compcert.cfrontend.Clight <> Ecast constr
+R8959:8968 VST.floyd.deadvars <> expr_temps:121 def
+R8973:8974 VST.floyd.deadvars <> vl:120 var
+R8979:8984 compcert.cfrontend.Clight <> Efield constr
+R8996:9005 VST.floyd.deadvars <> expr_temps:121 def
+R9010:9011 VST.floyd.deadvars <> vl:120 var
+R9021:9022 VST.floyd.deadvars <> vl:120 var
+R9080:9084 VST.floyd.canon <> PROPx def
+R9089:9094 VST.floyd.canon <> LOCALx def
+R9080:9084 VST.floyd.canon <> PROPx def
+R9089:9094 VST.floyd.canon <> LOCALx def
+R9139:9141 VST.msl.seplog <> emp meth
+R9139:9141 VST.msl.seplog <> emp meth
+R9169:9172 VST.msl.seplog <> andp meth
+R9169:9172 VST.msl.seplog <> andp meth
+R9298:9303 VST.msl.seplog <> sepcon meth
+R9298:9303 VST.msl.seplog <> sepcon meth
+R9430:9442 VST.veric.SeparationLogic <> stackframe_of def
+R9430:9442 VST.veric.SeparationLogic <> stackframe_of def
+R9474:9478 VST.veric.SeparationLogic <> local def
+R9481:9485 VST.veric.lift <> liftx def
+R9495:9503 VST.veric.expr <> eval_expr def
+R9488:9489 Coq.Init.Logic <> eq ind
+R9474:9478 VST.veric.SeparationLogic <> local def
+R9481:9485 VST.veric.lift <> liftx def
+R9495:9503 VST.veric.expr <> eval_expr def
+R9488:9489 Coq.Init.Logic <> eq ind
+R9571:9573 VST.msl.seplog <> exp meth
+R9571:9573 VST.msl.seplog <> exp meth
+R9543:9552 VST.floyd.deadvars <> expr_temps def
+R9556:9558 Coq.Init.Datatypes <> nil constr
+R9460:9462 Coq.Init.Datatypes <> nil constr
+R9464:9468 compcert.common.AST <> ident def
+R9421:9422 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R9290:9291 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R9155:9157 Coq.Init.Datatypes <> nil constr
+R9159:9163 compcert.common.AST <> ident def
+R9114:9131 VST.floyd.deadvars <> temps_of_localdefs def
+R9806:9815 VST.floyd.client_lemmas <> abbreviate def
+R9817:9826 VST.veric.tycontext <> ret_assert rec
+R9806:9815 VST.floyd.client_lemmas <> abbreviate def
+R9817:9826 VST.veric.tycontext <> ret_assert rec
+R9860:9876 VST.veric.SeparationLogic <> normal_ret_assert def
+R9860:9876 VST.veric.SeparationLogic <> normal_ret_assert def
+R9989:10004 VST.veric.SeparationLogic <> loop1_ret_assert def
+R9989:10004 VST.veric.SeparationLogic <> loop1_ret_assert def
+R10200:10215 VST.veric.SeparationLogic <> loop2_ret_assert def
+R10200:10215 VST.veric.SeparationLogic <> loop2_ret_assert def
+R10330:10353 VST.veric.SeparationLogic <> function_body_ret_assert def
+R10330:10353 VST.veric.SeparationLogic <> function_body_ret_assert def
+R10405:10416 VST.veric.SeparationLogic <> overridePost def
+R10405:10416 VST.veric.SeparationLogic <> overridePost def
+R10599:10614 VST.veric.SeparationLogic <> frame_ret_assert def
+R10599:10614 VST.veric.SeparationLogic <> frame_ret_assert def
+R10732:10735 Coq.Init.Datatypes <> pair constr
+R10762:10765 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R10755:10757 Coq.Init.Datatypes <> snd def
+R10745:10748 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R10738:10740 Coq.Init.Datatypes <> fst def
+R10580:10583 Coq.Init.Datatypes <> pair constr
+R10588:10590 Coq.Init.Datatypes <> snd def
+R10370:10373 Coq.Init.Datatypes <> pair constr
+R10390:10392 Coq.Init.Datatypes <> nil constr
+R10394:10398 compcert.common.AST <> ident def
+R10377:10379 Coq.Init.Datatypes <> nil constr
+R10381:10385 compcert.common.AST <> ident def
+R10306:10309 Coq.Init.Datatypes <> pair constr
+R10315:10317 Coq.Init.Datatypes <> nil constr
+R10319:10323 compcert.common.AST <> ident def
+R10181:10184 Coq.Init.Datatypes <> pair constr
+R10189:10191 Coq.Init.Datatypes <> fst def
+R9965:9968 Coq.Init.Datatypes <> pair constr
+R9974:9976 Coq.Init.Datatypes <> nil constr
+R9978:9982 compcert.common.AST <> ident def
+R10966:10968 Coq.Init.Datatypes <> snd def
+R10971:10983 VST.floyd.deadvars <> deadvars_stmt def
+R11102:11114 VST.floyd.deadvars <> deadvars_post def
+R11117:11119 Coq.Init.Datatypes <> snd def
+R11037:11049 VST.floyd.deadvars <> deadvars_post def
+R11052:11054 Coq.Init.Datatypes <> fst def
+R10992:10994 Coq.Init.Datatypes <> nil constr
+R10988:10990 Coq.Init.Datatypes <> nil constr
+R11227:11236 VST.floyd.client_lemmas <> abbreviate def
+R11238:11247 VST.veric.tycontext <> ret_assert rec
+R11227:11236 VST.floyd.client_lemmas <> abbreviate def
+R11238:11247 VST.veric.tycontext <> ret_assert rec
+R11259:11263 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R11259:11263 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R11499:11503 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R11499:11503 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R11674:11678 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R11674:11678 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R11365:11367 Coq.Init.Datatypes <> nil constr
+R11365:11367 Coq.Init.Datatypes <> nil constr
+R11818:11827 VST.floyd.client_lemmas <> abbreviate def
+R11829:11838 VST.veric.tycontext <> ret_assert rec
+R11818:11827 VST.floyd.client_lemmas <> abbreviate def
+R11829:11838 VST.veric.tycontext <> ret_assert rec
+R11850:11854 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R11850:11854 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R12056:12060 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R12056:12060 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R11955:11957 Coq.Init.Datatypes <> nil constr
+R11955:11957 Coq.Init.Datatypes <> nil constr

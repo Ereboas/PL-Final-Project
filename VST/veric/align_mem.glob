@@ -1,0 +1,3643 @@
+DIGEST 9f9b4992416ec017d2f3e3ebd7e8d530
+FVST.veric.align_mem
+R15:37 Coq.Sorting.Permutation <> <> lib
+R55:73 Coq.Sorting.Sorting <> <> lib
+R91:111 Coq.Structures.Orders <> <> lib
+R129:142 VST.veric.base <> <> lib
+R160:184 compcert.cfrontend.Ctypes <> <> lib
+R246:269 VST.veric.type_induction <> <> lib
+R287:313 VST.veric.composite_compute <> <> lib
+sec 663:682 <> align_compatible_rec
+R701:713 compcert.cfrontend.Ctypes <> composite_env def
+binder 695:698 <> cenv:1
+ind 728:747 <> align_compatible_rec
+constr 773:801 <> align_compatible_rec_by_value
+constr 909:935 <> align_compatible_rec_Tarray
+constr 1070:1097 <> align_compatible_rec_Tstruct
+constr 1336:1362 <> align_compatible_rec_Tunion
+R754:757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R759:762 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R758:758 Coq.Numbers.BinNums <> Z ind
+R750:753 compcert.cfrontend.Ctypes <> type ind
+binder 811:811 <> t:4
+binder 813:814 <> ch:5
+binder 816:816 <> z:6
+R846:849 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R878:881 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R882:901 VST.veric.align_mem <> align_compatible_rec:2 ind
+R905:905 VST.veric.align_mem <> z:6 var
+R903:903 VST.veric.align_mem <> t:4 var
+R850:850 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R873:875 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R877:877 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R851:869 compcert.common.Memdata <> align_chunk def
+R871:872 VST.veric.align_mem <> ch:5 var
+R876:876 VST.veric.align_mem <> z:6 var
+R832:834 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R819:829 compcert.cfrontend.Ctypes <> access_mode def
+R831:831 VST.veric.align_mem <> t:4 var
+R835:842 compcert.cfrontend.Ctypes <> By_value constr
+R844:845 VST.veric.align_mem <> ch:5 var
+binder 945:945 <> t:7
+binder 947:947 <> n:8
+binder 949:949 <> a:9
+binder 951:951 <> z:10
+R954:954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1025:1029 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1030:1049 VST.veric.align_mem <> align_compatible_rec:2 ind
+R1066:1066 VST.veric.align_mem <> z:10 var
+R1052:1057 compcert.cfrontend.Ctypes <> Tarray constr
+R1063:1063 VST.veric.align_mem <> a:9 var
+R1061:1061 VST.veric.align_mem <> n:8 var
+R1059:1059 VST.veric.align_mem <> t:7 var
+binder 962:962 <> i:11
+R975:978 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R979:998 VST.veric.align_mem <> align_compatible_rec:2 ind
+R1004:1006 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1003:1003 VST.veric.align_mem <> z:10 var
+R1020:1022 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1007:1012 compcert.cfrontend.Ctypes <> sizeof def
+R1019:1019 VST.veric.align_mem <> t:7 var
+R1014:1017 VST.veric.align_mem <> align_compatible_rec.cenv var
+R1023:1023 VST.veric.align_mem <> i:11 var
+R1000:1000 VST.veric.align_mem <> t:7 var
+R966:969 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R971:973 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R970:970 VST.veric.align_mem <> i:11 var
+R970:970 VST.veric.align_mem <> i:11 var
+R974:974 VST.veric.align_mem <> n:8 var
+binder 1107:1107 <> i:12
+binder 1109:1109 <> a:13
+binder 1111:1112 <> co:14
+binder 1114:1114 <> z:15
+R1135:1138 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1139:1139 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1292:1296 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1297:1316 VST.veric.align_mem <> align_compatible_rec:2 ind
+R1332:1332 VST.veric.align_mem <> z:15 var
+R1319:1325 compcert.cfrontend.Ctypes <> Tstruct constr
+R1329:1329 VST.veric.align_mem <> a:13 var
+R1327:1327 VST.veric.align_mem <> i:12 var
+binder 1147:1148 <> i0:16
+binder 1150:1151 <> t0:17
+binder 1153:1154 <> z0:18
+R1201:1204 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1256:1259 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1260:1279 VST.veric.align_mem <> align_compatible_rec:2 ind
+R1286:1288 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1285:1285 VST.veric.align_mem <> z:15 var
+R1289:1290 VST.veric.align_mem <> z0:18 var
+R1281:1282 VST.veric.align_mem <> t0:17 var
+R1241:1243 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1205:1216 compcert.cfrontend.Ctypes <> field_offset def
+R1227:1236 compcert.cfrontend.Ctypes <> co_members proj
+R1238:1239 VST.veric.align_mem <> co:14 var
+R1223:1224 VST.veric.align_mem <> i0:16 var
+R1218:1221 VST.veric.align_mem <> align_compatible_rec.cenv var
+R1244:1252 compcert.common.Errors <> OK constr
+R1254:1255 VST.veric.align_mem <> z0:18 var
+R1186:1188 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1157:1166 compcert.cfrontend.Ctypes <> field_type def
+R1172:1181 compcert.cfrontend.Ctypes <> co_members proj
+R1183:1184 VST.veric.align_mem <> co:14 var
+R1168:1169 VST.veric.align_mem <> i0:16 var
+R1189:1197 compcert.common.Errors <> OK constr
+R1199:1200 VST.veric.align_mem <> t0:17 var
+R1125:1127 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1121:1123 compcert.lib.Maps <> :::x_'!'_x not
+R1124:1124 VST.veric.align_mem <> i:12 var
+R1117:1120 VST.veric.align_mem <> align_compatible_rec.cenv var
+R1128:1131 Coq.Init.Datatypes <> Some constr
+R1133:1134 VST.veric.align_mem <> co:14 var
+binder 1372:1372 <> i:19
+binder 1374:1374 <> a:20
+binder 1376:1377 <> co:21
+binder 1379:1379 <> z:22
+R1400:1403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1404:1404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1492:1496 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1497:1516 VST.veric.align_mem <> align_compatible_rec:2 ind
+R1531:1531 VST.veric.align_mem <> z:22 var
+R1519:1524 compcert.cfrontend.Ctypes <> Tunion constr
+R1528:1528 VST.veric.align_mem <> a:20 var
+R1526:1526 VST.veric.align_mem <> i:19 var
+binder 1412:1413 <> i0:23
+binder 1415:1416 <> t0:24
+R1463:1466 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1467:1486 VST.veric.align_mem <> align_compatible_rec:2 ind
+R1491:1491 VST.veric.align_mem <> z:22 var
+R1488:1489 VST.veric.align_mem <> t0:24 var
+R1448:1450 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1419:1428 compcert.cfrontend.Ctypes <> field_type def
+R1434:1443 compcert.cfrontend.Ctypes <> co_members proj
+R1445:1446 VST.veric.align_mem <> co:21 var
+R1430:1431 VST.veric.align_mem <> i0:23 var
+R1451:1459 compcert.common.Errors <> OK constr
+R1461:1462 VST.veric.align_mem <> t0:24 var
+R1390:1392 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1386:1388 compcert.lib.Maps <> :::x_'!'_x not
+R1389:1389 VST.veric.align_mem <> i:19 var
+R1382:1385 VST.veric.align_mem <> align_compatible_rec.cenv var
+R1393:1396 Coq.Init.Datatypes <> Some constr
+R1398:1399 VST.veric.align_mem <> co:21 var
+prf 1541:1573 <> align_compatible_rec_by_value_inv
+binder 1584:1584 <> t:25
+binder 1586:1587 <> ch:26
+binder 1589:1589 <> z:27
+R1621:1626 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1651:1654 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1655:1655 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R1678:1680 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R1682:1682 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R1656:1674 compcert.common.Memdata <> align_chunk def
+R1676:1677 VST.veric.align_mem <> ch:26 var
+R1681:1681 VST.veric.align_mem <> z:27 var
+R1627:1646 VST.veric.align_mem <> align_compatible_rec ind
+R1650:1650 VST.veric.align_mem <> z:27 var
+R1648:1648 VST.veric.align_mem <> t:25 var
+R1607:1609 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1594:1604 compcert.cfrontend.Ctypes <> access_mode def
+R1606:1606 VST.veric.align_mem <> t:25 var
+R1610:1617 compcert.cfrontend.Ctypes <> By_value constr
+R1619:1620 VST.veric.align_mem <> ch:26 var
+prf 1792:1822 <> align_compatible_rec_Tarray_inv
+binder 1832:1832 <> t:28
+binder 1834:1834 <> n:29
+binder 1836:1836 <> a:30
+binder 1838:1838 <> z:31
+R1880:1886 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1961:1961 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1898:1898 Coq.Numbers.BinNums <> Z ind
+binder 1894:1894 <> i:32
+R1911:1914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1915:1934 VST.veric.align_mem <> align_compatible_rec ind
+R1940:1942 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1939:1939 VST.veric.align_mem <> z:31 var
+R1956:1958 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1943:1948 compcert.cfrontend.Ctypes <> sizeof def
+R1955:1955 VST.veric.align_mem <> t:28 var
+R1950:1953 VST.veric.align_mem <> align_compatible_rec.cenv var
+R1959:1959 VST.veric.align_mem <> i:32 var
+R1936:1936 VST.veric.align_mem <> t:28 var
+R1902:1905 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R1907:1909 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R1906:1906 VST.veric.align_mem <> i:32 var
+R1906:1906 VST.veric.align_mem <> i:32 var
+R1910:1910 VST.veric.align_mem <> n:29 var
+R1843:1862 VST.veric.align_mem <> align_compatible_rec ind
+R1879:1879 VST.veric.align_mem <> z:31 var
+R1865:1870 compcert.cfrontend.Ctypes <> Tarray constr
+R1876:1876 VST.veric.align_mem <> a:30 var
+R1874:1874 VST.veric.align_mem <> n:29 var
+R1872:1872 VST.veric.align_mem <> t:28 var
+prf 2024:2055 <> align_compatible_rec_Tstruct_inv
+binder 2065:2065 <> i:33
+binder 2067:2067 <> a:34
+binder 2069:2070 <> co:35
+binder 2072:2072 <> z:36
+R2095:2100 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2137:2143 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2296:2296 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2151:2152 <> i0:37
+binder 2154:2155 <> t0:38
+binder 2157:2158 <> z0:39
+R2205:2208 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2260:2263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2264:2283 VST.veric.align_mem <> align_compatible_rec ind
+R2290:2292 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2289:2289 VST.veric.align_mem <> z:36 var
+R2293:2294 VST.veric.align_mem <> z0:39 var
+R2285:2286 VST.veric.align_mem <> t0:38 var
+R2245:2247 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2209:2220 compcert.cfrontend.Ctypes <> field_offset def
+R2231:2240 compcert.cfrontend.Ctypes <> co_members proj
+R2242:2243 VST.veric.align_mem <> co:35 var
+R2227:2228 VST.veric.align_mem <> i0:37 var
+R2222:2225 VST.veric.align_mem <> align_compatible_rec.cenv var
+R2248:2256 compcert.common.Errors <> OK constr
+R2258:2259 VST.veric.align_mem <> z0:39 var
+R2190:2192 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2161:2170 compcert.cfrontend.Ctypes <> field_type def
+R2176:2185 compcert.cfrontend.Ctypes <> co_members proj
+R2187:2188 VST.veric.align_mem <> co:35 var
+R2172:2173 VST.veric.align_mem <> i0:37 var
+R2193:2201 compcert.common.Errors <> OK constr
+R2203:2204 VST.veric.align_mem <> t0:38 var
+R2101:2120 VST.veric.align_mem <> align_compatible_rec ind
+R2136:2136 VST.veric.align_mem <> z:36 var
+R2123:2129 compcert.cfrontend.Ctypes <> Tstruct constr
+R2133:2133 VST.veric.align_mem <> a:34 var
+R2131:2131 VST.veric.align_mem <> i:33 var
+R2085:2087 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2081:2083 compcert.lib.Maps <> :::x_'!'_x not
+R2084:2084 VST.veric.align_mem <> i:33 var
+R2077:2080 VST.veric.align_mem <> align_compatible_rec.cenv var
+R2088:2091 Coq.Init.Datatypes <> Some constr
+R2093:2094 VST.veric.align_mem <> co:35 var
+prf 2392:2422 <> align_compatible_rec_Tunion_inv
+binder 2432:2432 <> i:40
+binder 2434:2434 <> a:41
+binder 2436:2437 <> co:42
+binder 2439:2439 <> z:43
+R2462:2467 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2503:2509 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2597:2597 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2517:2518 <> i0:44
+binder 2520:2521 <> t0:45
+R2568:2571 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2572:2591 VST.veric.align_mem <> align_compatible_rec ind
+R2596:2596 VST.veric.align_mem <> z:43 var
+R2593:2594 VST.veric.align_mem <> t0:45 var
+R2553:2555 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2524:2533 compcert.cfrontend.Ctypes <> field_type def
+R2539:2548 compcert.cfrontend.Ctypes <> co_members proj
+R2550:2551 VST.veric.align_mem <> co:42 var
+R2535:2536 VST.veric.align_mem <> i0:44 var
+R2556:2564 compcert.common.Errors <> OK constr
+R2566:2567 VST.veric.align_mem <> t0:45 var
+R2468:2487 VST.veric.align_mem <> align_compatible_rec ind
+R2502:2502 VST.veric.align_mem <> z:43 var
+R2490:2495 compcert.cfrontend.Ctypes <> Tunion constr
+R2499:2499 VST.veric.align_mem <> a:41 var
+R2497:2497 VST.veric.align_mem <> i:40 var
+R2452:2454 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2448:2450 compcert.lib.Maps <> :::x_'!'_x not
+R2451:2451 VST.veric.align_mem <> i:40 var
+R2444:2447 VST.veric.align_mem <> align_compatible_rec.cenv var
+R2455:2458 Coq.Init.Datatypes <> Some constr
+R2460:2461 VST.veric.align_mem <> co:42 var
+R2689:2708 VST.veric.align_mem align_compatible_rec <> sec
+prf 2718:2733 <> align_chunk_1248
+binder 2743:2744 <> ch:46
+R2765:2768 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2761:2763 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2747:2757 compcert.common.Memdata <> align_chunk def
+R2759:2760 VST.veric.align_mem <> ch:46 var
+R2787:2790 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2783:2785 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2769:2779 compcert.common.Memdata <> align_chunk def
+R2781:2782 VST.veric.align_mem <> ch:46 var
+R2809:2812 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2805:2807 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2791:2801 compcert.common.Memdata <> align_chunk def
+R2803:2804 VST.veric.align_mem <> ch:46 var
+R2827:2829 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2813:2823 compcert.common.Memdata <> align_chunk def
+R2825:2826 VST.veric.align_mem <> ch:46 var
+prf 2892:2908 <> align_chunk_two_p
+binder 2920:2921 <> ch:47
+R2924:2930 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2932:2933 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2931:2931 <> n:48
+R2948:2950 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2934:2944 compcert.common.Memdata <> align_chunk def
+R2946:2947 VST.veric.align_mem <> ch:47 var
+R2951:2963 Coq.ZArith.Zpower <> two_power_nat def
+R2965:2965 VST.veric.align_mem <> n:48 var
+R2998:3013 VST.veric.align_mem <> align_chunk_1248 thm
+R2998:3013 VST.veric.align_mem <> align_chunk_1248 thm
+def 3156:3171 <> hardware_alignof
+R3182:3188 compcert.lib.Maps PTree t def
+R3190:3190 Coq.Numbers.BinNums <> Z ind
+binder 3174:3179 <> ha_env:49
+binder 3193:3193 <> t:50
+R3196:3196 Coq.Numbers.BinNums <> Z ind
+R3209:3209 VST.veric.align_mem <> t:50 var
+R3220:3225 compcert.cfrontend.Ctypes <> Tarray constr
+R3237:3252 VST.veric.align_mem <> hardware_alignof:51 def
+R3254:3259 VST.veric.align_mem <> ha_env:49 var
+R3268:3274 compcert.cfrontend.Ctypes <> Tstruct constr
+R3302:3304 compcert.lib.Maps <> :::x_'!'_x not
+R3296:3301 VST.veric.align_mem <> ha_env:49 var
+R3321:3324 Coq.Init.Datatypes <> Some constr
+R3343:3346 Coq.Init.Datatypes <> None constr
+R3367:3372 compcert.cfrontend.Ctypes <> Tunion constr
+R3400:3402 compcert.lib.Maps <> :::x_'!'_x not
+R3394:3399 VST.veric.align_mem <> ha_env:49 var
+R3419:3422 Coq.Init.Datatypes <> Some constr
+R3441:3444 Coq.Init.Datatypes <> None constr
+R3476:3486 compcert.cfrontend.Ctypes <> access_mode def
+R3488:3488 VST.veric.align_mem <> t:50 var
+R3506:3513 compcert.cfrontend.Ctypes <> By_value constr
+R3521:3539 compcert.common.Memdata <> align_chunk def
+def 3592:3617 <> hardware_alignof_composite
+R3628:3634 compcert.lib.Maps PTree t def
+R3636:3636 Coq.Numbers.BinNums <> Z ind
+binder 3620:3625 <> ha_env:53
+R3643:3649 compcert.cfrontend.Ctypes <> members def
+binder 3640:3640 <> m:54
+R3653:3653 Coq.Numbers.BinNums <> Z ind
+R3666:3666 VST.veric.align_mem <> m:54 var
+R3677:3679 Coq.Init.Datatypes <> nil constr
+R3696:3699 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3690:3690 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3692:3693 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3695:3695 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3706:3710 Coq.ZArith.BinInt Z max def
+R3741:3766 VST.veric.align_mem <> hardware_alignof_composite:55 def
+R3768:3773 VST.veric.align_mem <> ha_env:53 var
+R3713:3728 VST.veric.align_mem <> hardware_alignof def
+R3730:3735 VST.veric.align_mem <> ha_env:53 var
+def 3798:3817 <> hardware_alignof_env
+R3826:3838 compcert.cfrontend.Ctypes <> composite_env def
+binder 3820:3823 <> cenv:57
+R3842:3848 compcert.lib.Maps PTree t def
+R3850:3850 Coq.Numbers.BinNums <> Z ind
+R3866:3909 VST.veric.composite_compute composite_reorder rebuild_composite_elements def
+R3911:3914 VST.veric.align_mem <> cenv:57 var
+binder 3861:3861 <> l:58
+R3921:3930 Coq.Lists.List <> fold_right def
+R4097:4097 VST.veric.align_mem <> l:58 var
+R4082:4092 compcert.lib.Maps PTree empty def
+R3950:3952 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3942:3949 Coq.Numbers.BinNums <> positive ind
+R3953:3961 compcert.cfrontend.Ctypes <> composite rec
+binder 3938:3939 <> ic:59
+R3969:3975 compcert.lib.Maps PTree t def
+R3977:3977 Coq.Numbers.BinNums <> Z ind
+binder 3965:3966 <> T0:60
+R3998:3999 VST.veric.align_mem <> ic:59 var
+binder 3988:3988 <> i:61
+binder 3991:3992 <> co:62
+R4013:4014 VST.veric.align_mem <> T0:60 var
+binder 4008:4008 <> T:63
+R4019:4027 compcert.lib.Maps PTree set def
+R4078:4078 VST.veric.align_mem <> T:63 var
+R4032:4057 VST.veric.align_mem <> hardware_alignof_composite def
+R4062:4071 compcert.cfrontend.Ctypes <> co_members proj
+R4073:4074 VST.veric.align_mem <> co:62 var
+R4059:4059 VST.veric.align_mem <> T:63 var
+R4029:4029 VST.veric.align_mem <> i:61 var
+def 4112:4142 <> hardware_alignof_env_consistent
+R4151:4163 compcert.cfrontend.Ctypes <> composite_env def
+binder 4145:4148 <> cenv:64
+R4175:4181 compcert.lib.Maps PTree t def
+R4183:4183 Coq.Numbers.BinNums <> Z ind
+binder 4167:4172 <> ha_env:65
+binder 4204:4204 <> i:66
+binder 4206:4207 <> co:67
+binder 4209:4210 <> ha:68
+R4235:4242 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4263:4270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4273:4275 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4271:4272 VST.veric.align_mem <> ha:68 var
+R4276:4301 VST.veric.align_mem <> hardware_alignof_composite def
+R4311:4320 compcert.cfrontend.Ctypes <> co_members proj
+R4322:4323 VST.veric.align_mem <> co:67 var
+R4303:4308 VST.veric.align_mem <> ha_env:65 var
+R4253:4255 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4249:4251 compcert.lib.Maps <> :::x_'!'_x not
+R4252:4252 VST.veric.align_mem <> i:66 var
+R4243:4248 VST.veric.align_mem <> ha_env:65 var
+R4256:4259 Coq.Init.Datatypes <> Some constr
+R4261:4262 VST.veric.align_mem <> ha:68 var
+R4225:4227 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4221:4223 compcert.lib.Maps <> :::x_'!'_x not
+R4224:4224 VST.veric.align_mem <> i:66 var
+R4217:4220 VST.veric.align_mem <> cenv:64 var
+R4228:4231 Coq.Init.Datatypes <> Some constr
+R4233:4234 VST.veric.align_mem <> co:67 var
+def 4339:4367 <> hardware_alignof_env_complete
+R4376:4388 compcert.cfrontend.Ctypes <> composite_env def
+binder 4370:4373 <> cenv:69
+R4400:4406 compcert.lib.Maps PTree t def
+R4408:4408 Coq.Numbers.BinNums <> Z ind
+binder 4392:4397 <> ha_env:70
+binder 4429:4429 <> i:71
+R4436:4436 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4466:4476 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4508:4508 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4437:4443 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4446:4447 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4444:4445 <> co:72
+R4456:4458 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4452:4454 compcert.lib.Maps <> :::x_'!'_x not
+R4455:4455 VST.veric.align_mem <> i:71 var
+R4448:4451 VST.veric.align_mem <> cenv:69 var
+R4459:4462 Coq.Init.Datatypes <> Some constr
+R4464:4465 VST.veric.align_mem <> co:72 var
+R4477:4483 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4486:4487 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4484:4485 <> ha:73
+R4498:4500 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4494:4496 compcert.lib.Maps <> :::x_'!'_x not
+R4497:4497 VST.veric.align_mem <> i:71 var
+R4488:4493 VST.veric.align_mem <> ha_env:70 var
+R4501:4504 Coq.Init.Datatypes <> Some constr
+R4506:4507 VST.veric.align_mem <> ha:73 var
+modtype 4524:4545 <> HARDWARE_ALIGNOF_FACTS
+ax 4557:4584 HARDWARE_ALIGNOF_FACTS hardware_alignof_consistency
+R4605:4617 compcert.cfrontend.Ctypes <> composite_env def
+binder 4599:4602 <> cenv:74
+R4629:4635 compcert.lib.Maps PTree t def
+R4637:4637 Coq.Numbers.BinNums <> Z ind
+binder 4621:4626 <> ha_env:75
+R4676:4685 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4720:4729 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4730:4760 VST.veric.align_mem <> hardware_alignof_env_consistent def
+R4767:4772 VST.veric.align_mem <> ha_env:75 var
+R4762:4765 VST.veric.align_mem <> cenv:74 var
+R4692:4694 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4686:4691 VST.veric.align_mem <> ha_env:75 var
+R4695:4714 VST.veric.align_mem <> hardware_alignof_env def
+R4716:4719 VST.veric.align_mem <> cenv:74 var
+R4647:4670 compcert.cfrontend.Ctypes <> composite_env_consistent def
+R4672:4675 VST.veric.align_mem <> cenv:74 var
+ax 4784:4812 HARDWARE_ALIGNOF_FACTS hardware_alignof_completeness
+R4833:4845 compcert.cfrontend.Ctypes <> composite_env def
+binder 4827:4830 <> cenv:77
+R4857:4863 compcert.lib.Maps PTree t def
+R4865:4865 Coq.Numbers.BinNums <> Z ind
+binder 4849:4854 <> ha_env:78
+R4909:4918 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4919:4947 VST.veric.align_mem <> hardware_alignof_env_complete def
+R4954:4959 VST.veric.align_mem <> ha_env:78 var
+R4949:4952 VST.veric.align_mem <> cenv:77 var
+R4881:4883 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4875:4880 VST.veric.align_mem <> ha_env:78 var
+R4884:4903 VST.veric.align_mem <> hardware_alignof_env def
+R4905:4908 VST.veric.align_mem <> cenv:77 var
+R4967:4988 VST.veric.align_mem HARDWARE_ALIGNOF_FACTS <> modtype
+R5023:5044 VST.veric.align_mem HARDWARE_ALIGNOF_FACTS <> mod
+mod 4999:5020 <> hardware_alignof_facts
+prf 5054:5057 hardware_alignof_facts aux1
+binder 5067:5067 <> T:80
+binder 5069:5070 <> co:81
+R5711:5733 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5088:5091 Coq.Init.Datatypes <> list ind
+R5106:5108 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5099:5101 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5094:5098 compcert.common.AST <> ident def
+R5102:5105 compcert.cfrontend.Ctypes <> type ind
+R5109:5109 Coq.Numbers.BinNums <> Z ind
+binder 5084:5084 <> l:82
+R5115:5115 Coq.Numbers.BinNums <> Z ind
+R5131:5131 VST.veric.align_mem <> l:82 var
+R5145:5147 Coq.Init.Datatypes <> nil constr
+R5171:5174 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5161:5161 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5163:5164 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5166:5167 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5170:5170 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5181:5185 Coq.ZArith.BinInt Z max def
+R5191:5192 VST.veric.align_mem <> fm:83 var
+R5213:5215 Coq.Lists.List <> map def
+R5696:5705 compcert.cfrontend.Ctypes <> co_members proj
+R5707:5708 VST.veric.align_mem <> co:81 var
+R5243:5245 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5235:5242 Coq.Numbers.BinNums <> positive ind
+R5246:5249 compcert.cfrontend.Ctypes <> type ind
+binder 5229:5231 <> it0:85
+R5278:5280 VST.veric.align_mem <> it0:85 var
+binder 5267:5268 <> i0:86
+binder 5271:5272 <> t0:87
+R5293:5293 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5296:5297 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5300:5309 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5692:5692 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5294:5295 VST.veric.align_mem <> i0:86 var
+R5298:5299 VST.veric.align_mem <> t0:87 var
+R5310:5320 VST.veric.composite_compute type_func F def
+R5690:5691 VST.veric.align_mem <> t0:87 var
+R5688:5688 VST.veric.align_mem <> T:80 var
+R5655:5655 Coq.Numbers.BinNums <> Z ind
+binder 5650:5651 <> ha:88
+R5663:5667 compcert.common.AST <> ident def
+R5675:5678 compcert.cfrontend.Ctypes <> attr rec
+R5684:5685 VST.veric.align_mem <> ha:88 var
+R5601:5601 Coq.Numbers.BinNums <> Z ind
+binder 5596:5597 <> ha:89
+R5609:5613 compcert.common.AST <> ident def
+R5621:5624 compcert.cfrontend.Ctypes <> attr rec
+R5630:5631 VST.veric.align_mem <> ha:89 var
+R5541:5541 Coq.Numbers.BinNums <> Z ind
+binder 5536:5537 <> ha:90
+R5549:5552 compcert.cfrontend.Ctypes <> type ind
+R5559:5559 Coq.Numbers.BinNums <> Z ind
+R5567:5570 compcert.cfrontend.Ctypes <> attr rec
+R5576:5577 VST.veric.align_mem <> ha:90 var
+R5341:5344 compcert.cfrontend.Ctypes <> type ind
+binder 5337:5337 <> t:91
+R5366:5376 compcert.cfrontend.Ctypes <> access_mode def
+R5378:5378 VST.veric.align_mem <> t:91 var
+R5398:5405 compcert.cfrontend.Ctypes <> By_value constr
+R5413:5423 compcert.common.Memdata <> align_chunk def
+R5441:5452 compcert.cfrontend.Ctypes <> By_reference constr
+R5472:5478 compcert.cfrontend.Ctypes <> By_copy constr
+R5498:5507 compcert.cfrontend.Ctypes <> By_nothing constr
+R5734:5759 VST.veric.align_mem <> hardware_alignof_composite def
+R5764:5773 compcert.cfrontend.Ctypes <> co_members proj
+R5775:5776 VST.veric.align_mem <> co:81 var
+R5761:5761 VST.veric.align_mem <> T:80 var
+R5804:5829 VST.veric.align_mem <> hardware_alignof_composite def
+R5832:5847 VST.veric.align_mem <> hardware_alignof def
+R5863:5872 compcert.cfrontend.Ctypes <> co_members proj
+R5863:5872 compcert.cfrontend.Ctypes <> co_members proj
+prf 5980:5983 hardware_alignof_facts aux2
+R6000:6012 compcert.cfrontend.Ctypes <> composite_env def
+binder 5994:5997 <> cenv:92
+R6662:6666 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6018:6030 VST.veric.composite_compute type_func Env def
+R6612:6655 VST.veric.composite_compute composite_reorder rebuild_composite_elements def
+R6657:6660 VST.veric.align_mem <> cenv:92 var
+R6417:6431 compcert.cfrontend.Ctypes <> struct_or_union ind
+R6459:6462 Coq.Init.Datatypes <> list ind
+R6477:6479 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6470:6472 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6465:6469 compcert.common.AST <> ident def
+R6473:6476 compcert.cfrontend.Ctypes <> type ind
+R6480:6480 Coq.Numbers.BinNums <> Z ind
+binder 6455:6455 <> l:93
+R6486:6486 Coq.Numbers.BinNums <> Z ind
+R6510:6510 VST.veric.align_mem <> l:93 var
+R6532:6534 Coq.Init.Datatypes <> nil constr
+R6566:6569 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6556:6556 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6558:6559 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6561:6562 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6565:6565 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6576:6580 Coq.ZArith.BinInt Z max def
+R6586:6587 VST.veric.align_mem <> fm:94 var
+R6365:6365 Coq.Numbers.BinNums <> Z ind
+binder 6360:6361 <> ha:96
+R6373:6377 compcert.common.AST <> ident def
+R6385:6388 compcert.cfrontend.Ctypes <> attr rec
+R6394:6395 VST.veric.align_mem <> ha:96 var
+R6311:6311 Coq.Numbers.BinNums <> Z ind
+binder 6306:6307 <> ha:97
+R6319:6323 compcert.common.AST <> ident def
+R6331:6334 compcert.cfrontend.Ctypes <> attr rec
+R6340:6341 VST.veric.align_mem <> ha:97 var
+R6251:6251 Coq.Numbers.BinNums <> Z ind
+binder 6246:6247 <> ha:98
+R6259:6262 compcert.cfrontend.Ctypes <> type ind
+R6269:6269 Coq.Numbers.BinNums <> Z ind
+R6277:6280 compcert.cfrontend.Ctypes <> attr rec
+R6286:6287 VST.veric.align_mem <> ha:98 var
+R6051:6054 compcert.cfrontend.Ctypes <> type ind
+binder 6047:6047 <> t:99
+R6076:6086 compcert.cfrontend.Ctypes <> access_mode def
+R6088:6088 VST.veric.align_mem <> t:99 var
+R6108:6115 compcert.cfrontend.Ctypes <> By_value constr
+R6123:6133 compcert.common.Memdata <> align_chunk def
+R6151:6162 compcert.cfrontend.Ctypes <> By_reference constr
+R6182:6188 compcert.cfrontend.Ctypes <> By_copy constr
+R6208:6217 compcert.cfrontend.Ctypes <> By_nothing constr
+R6667:6686 VST.veric.align_mem <> hardware_alignof_env def
+R6688:6691 VST.veric.align_mem <> cenv:92 var
+R6720:6732 VST.veric.composite_compute type_func Env def
+R6735:6751 VST.veric.composite_compute type_func env_rec def
+R6754:6773 VST.veric.align_mem <> hardware_alignof_env def
+R6872:6875 VST.veric.align_mem hardware_alignof_facts aux1 thm
+R6872:6875 VST.veric.align_mem hardware_alignof_facts aux1 thm
+prf 6890:6917 hardware_alignof_facts hardware_alignof_consistency
+R6926:6938 compcert.cfrontend.Ctypes <> composite_env def
+binder 6920:6923 <> cenv:100
+R6950:6956 compcert.lib.Maps PTree t def
+R6958:6958 Coq.Numbers.BinNums <> Z ind
+binder 6942:6947 <> ha_env:101
+R6993:6998 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7033:7038 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 7046:7046 <> i:102
+binder 7048:7049 <> co:103
+binder 7051:7052 <> ha:104
+R7077:7084 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7105:7112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7115:7117 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7113:7114 VST.veric.align_mem <> ha:104 var
+R7118:7143 VST.veric.align_mem <> hardware_alignof_composite def
+R7153:7162 compcert.cfrontend.Ctypes <> co_members proj
+R7164:7165 VST.veric.align_mem <> co:103 var
+R7145:7150 VST.veric.align_mem <> ha_env:101 var
+R7095:7097 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7091:7093 compcert.lib.Maps <> :::x_'!'_x not
+R7094:7094 VST.veric.align_mem <> i:102 var
+R7085:7090 VST.veric.align_mem <> ha_env:101 var
+R7098:7101 Coq.Init.Datatypes <> Some constr
+R7103:7104 VST.veric.align_mem <> ha:104 var
+R7067:7069 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7063:7065 compcert.lib.Maps <> :::x_'!'_x not
+R7066:7066 VST.veric.align_mem <> i:102 var
+R7059:7062 VST.veric.align_mem <> cenv:100 var
+R7070:7073 Coq.Init.Datatypes <> Some constr
+R7075:7076 VST.veric.align_mem <> co:103 var
+R7005:7007 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6999:7004 VST.veric.align_mem <> ha_env:101 var
+R7008:7027 VST.veric.align_mem <> hardware_alignof_env def
+R7029:7032 VST.veric.align_mem <> cenv:100 var
+R6964:6987 compcert.cfrontend.Ctypes <> composite_env_consistent def
+R6989:6992 VST.veric.align_mem <> cenv:100 var
+R7200:7227 VST.veric.composite_compute <> composite_reorder_consistent thm
+R7550:7553 Coq.Init.Datatypes <> list ind
+R7568:7570 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7561:7563 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7556:7560 compcert.common.AST <> ident def
+R7564:7567 compcert.cfrontend.Ctypes <> type ind
+R7571:7571 Coq.Numbers.BinNums <> Z ind
+binder 7547:7547 <> l:105
+R7576:7576 Coq.Numbers.BinNums <> Z ind
+R7603:7603 VST.veric.align_mem <> l:105 var
+R7628:7630 Coq.Init.Datatypes <> nil constr
+R7665:7668 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7655:7655 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7657:7658 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7660:7661 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7664:7664 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7675:7679 Coq.ZArith.BinInt Z max def
+R7685:7686 VST.veric.align_mem <> fm:106 var
+binder 7486:7487 <> ha:108
+R7496:7497 VST.veric.align_mem <> ha:108 var
+binder 7454:7455 <> ha:109
+R7464:7465 VST.veric.align_mem <> ha:109 var
+binder 7420:7421 <> ha:110
+R7432:7433 VST.veric.align_mem <> ha:110 var
+binder 7254:7254 <> t:111
+R7281:7291 compcert.cfrontend.Ctypes <> access_mode def
+R7293:7293 VST.veric.align_mem <> t:111 var
+R7318:7325 compcert.cfrontend.Ctypes <> By_value constr
+R7333:7351 compcert.common.Memdata <> align_chunk def
+R7229:7229 Coq.Numbers.BinNums <> Z ind
+R7200:7227 VST.veric.composite_compute <> composite_reorder_consistent thm
+R7550:7553 Coq.Init.Datatypes <> list ind
+R7568:7570 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7561:7563 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7556:7560 compcert.common.AST <> ident def
+R7564:7567 compcert.cfrontend.Ctypes <> type ind
+R7571:7571 Coq.Numbers.BinNums <> Z ind
+binder 7547:7547 <> l:112
+R7576:7576 Coq.Numbers.BinNums <> Z ind
+R7603:7603 VST.veric.align_mem <> l:112 var
+R7628:7630 Coq.Init.Datatypes <> nil constr
+R7665:7668 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7655:7655 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7657:7658 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7660:7661 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7664:7664 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7675:7679 Coq.ZArith.BinInt Z max def
+R7685:7686 VST.veric.align_mem <> fm:113 var
+binder 7486:7487 <> ha:115
+R7496:7497 VST.veric.align_mem <> ha:115 var
+binder 7454:7455 <> ha:116
+R7464:7465 VST.veric.align_mem <> ha:116 var
+binder 7420:7421 <> ha:117
+R7432:7433 VST.veric.align_mem <> ha:117 var
+binder 7254:7254 <> t:118
+R7281:7291 compcert.cfrontend.Ctypes <> access_mode def
+R7293:7293 VST.veric.align_mem <> t:118 var
+R7318:7325 compcert.cfrontend.Ctypes <> By_value constr
+R7333:7351 compcert.common.Memdata <> align_chunk def
+R7229:7229 Coq.Numbers.BinNums <> Z ind
+R7778:7781 VST.veric.align_mem hardware_alignof_facts aux2 thm
+R7778:7781 VST.veric.align_mem hardware_alignof_facts aux2 thm
+R7778:7781 VST.veric.align_mem hardware_alignof_facts aux2 thm
+R7836:7839 VST.veric.align_mem hardware_alignof_facts aux1 thm
+R7836:7839 VST.veric.align_mem hardware_alignof_facts aux1 thm
+R7836:7839 VST.veric.align_mem hardware_alignof_facts aux1 thm
+prf 7860:7888 hardware_alignof_facts hardware_alignof_completeness
+R7897:7909 compcert.cfrontend.Ctypes <> composite_env def
+binder 7891:7894 <> cenv:119
+R7921:7927 compcert.lib.Maps PTree t def
+R7929:7929 Coq.Numbers.BinNums <> Z ind
+binder 7913:7918 <> ha_env:120
+R7969:7974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 7982:7982 <> i:121
+R7989:7989 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8019:8029 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8061:8061 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7990:7996 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7999:8000 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7997:7998 <> co:122
+R8009:8011 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8005:8007 compcert.lib.Maps <> :::x_'!'_x not
+R8008:8008 VST.veric.align_mem <> i:121 var
+R8001:8004 VST.veric.align_mem <> cenv:119 var
+R8012:8015 Coq.Init.Datatypes <> Some constr
+R8017:8018 VST.veric.align_mem <> co:122 var
+R8030:8036 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8039:8040 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8037:8038 <> ha:123
+R8051:8053 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8047:8049 compcert.lib.Maps <> :::x_'!'_x not
+R8050:8050 VST.veric.align_mem <> i:121 var
+R8041:8046 VST.veric.align_mem <> ha_env:120 var
+R8054:8057 Coq.Init.Datatypes <> Some constr
+R8059:8060 VST.veric.align_mem <> ha:123 var
+R7941:7943 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7935:7940 VST.veric.align_mem <> ha_env:120 var
+R7944:7963 VST.veric.align_mem <> hardware_alignof_env def
+R7965:7968 VST.veric.align_mem <> cenv:119 var
+R8095:8120 VST.veric.composite_compute <> composite_reorder_complete thm
+R8443:8446 Coq.Init.Datatypes <> list ind
+R8461:8463 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8454:8456 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8449:8453 compcert.common.AST <> ident def
+R8457:8460 compcert.cfrontend.Ctypes <> type ind
+R8464:8464 Coq.Numbers.BinNums <> Z ind
+binder 8440:8440 <> l:124
+R8469:8469 Coq.Numbers.BinNums <> Z ind
+R8496:8496 VST.veric.align_mem <> l:124 var
+R8521:8523 Coq.Init.Datatypes <> nil constr
+R8558:8561 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8548:8548 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8550:8551 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8553:8554 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8557:8557 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8568:8572 Coq.ZArith.BinInt Z max def
+R8578:8579 VST.veric.align_mem <> fm:125 var
+binder 8379:8380 <> ha:127
+R8389:8390 VST.veric.align_mem <> ha:127 var
+binder 8347:8348 <> ha:128
+R8357:8358 VST.veric.align_mem <> ha:128 var
+binder 8313:8314 <> ha:129
+R8325:8326 VST.veric.align_mem <> ha:129 var
+binder 8147:8147 <> t:130
+R8174:8184 compcert.cfrontend.Ctypes <> access_mode def
+R8186:8186 VST.veric.align_mem <> t:130 var
+R8211:8218 compcert.cfrontend.Ctypes <> By_value constr
+R8226:8244 compcert.common.Memdata <> align_chunk def
+R8122:8122 Coq.Numbers.BinNums <> Z ind
+R8095:8120 VST.veric.composite_compute <> composite_reorder_complete thm
+R8443:8446 Coq.Init.Datatypes <> list ind
+R8461:8463 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8454:8456 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8449:8453 compcert.common.AST <> ident def
+R8457:8460 compcert.cfrontend.Ctypes <> type ind
+R8464:8464 Coq.Numbers.BinNums <> Z ind
+binder 8440:8440 <> l:131
+R8469:8469 Coq.Numbers.BinNums <> Z ind
+R8496:8496 VST.veric.align_mem <> l:131 var
+R8521:8523 Coq.Init.Datatypes <> nil constr
+R8558:8561 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8548:8548 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8550:8551 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8553:8554 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8557:8557 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8568:8572 Coq.ZArith.BinInt Z max def
+R8578:8579 VST.veric.align_mem <> fm:132 var
+binder 8379:8380 <> ha:134
+R8389:8390 VST.veric.align_mem <> ha:134 var
+binder 8347:8348 <> ha:135
+R8357:8358 VST.veric.align_mem <> ha:135 var
+binder 8313:8314 <> ha:136
+R8325:8326 VST.veric.align_mem <> ha:136 var
+binder 8147:8147 <> t:137
+R8174:8184 compcert.cfrontend.Ctypes <> access_mode def
+R8186:8186 VST.veric.align_mem <> t:137 var
+R8211:8218 compcert.cfrontend.Ctypes <> By_value constr
+R8226:8244 compcert.common.Memdata <> align_chunk def
+R8122:8122 Coq.Numbers.BinNums <> Z ind
+R8649:8652 VST.veric.align_mem hardware_alignof_facts aux2 thm
+R8649:8652 VST.veric.align_mem hardware_alignof_facts aux2 thm
+R8649:8652 VST.veric.align_mem hardware_alignof_facts aux2 thm
+R8679:8700 VST.veric.align_mem hardware_alignof_facts <> mod
+prf 8742:8763 <> hardware_alignof_two_p
+R8780:8792 compcert.cfrontend.Ctypes <> composite_env def
+binder 8774:8777 <> cenv:138
+R8804:8810 compcert.lib.Maps PTree t def
+R8812:8812 Coq.Numbers.BinNums <> Z ind
+binder 8796:8801 <> ha_env:139
+R8847:8852 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8896:8901 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8943:8948 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8956:8956 <> t:140
+R8959:8965 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8967:8970 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8966:8966 <> n:141
+R8996:8998 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8971:8986 VST.veric.align_mem <> hardware_alignof def
+R8995:8995 VST.veric.align_mem <> t:140 var
+R8988:8993 VST.veric.align_mem <> ha_env:139 var
+R8999:9011 Coq.ZArith.Zpower <> two_power_nat def
+R9013:9013 VST.veric.align_mem <> n:141 var
+R8902:8930 VST.veric.align_mem <> hardware_alignof_env_complete def
+R8937:8942 VST.veric.align_mem <> ha_env:139 var
+R8932:8935 VST.veric.align_mem <> cenv:138 var
+R8853:8883 VST.veric.align_mem <> hardware_alignof_env_consistent def
+R8890:8895 VST.veric.align_mem <> ha_env:139 var
+R8885:8888 VST.veric.align_mem <> cenv:138 var
+R8818:8841 compcert.cfrontend.Ctypes <> composite_env_consistent def
+R8843:8846 VST.veric.align_mem <> cenv:138 var
+R9578:9581 compcert.common.AST <> Mptr def
+R9599:9609 compcert.x86_32.Archi <> ptr64 def
+R9599:9609 compcert.x86_32.Archi <> ptr64 def
+R9796:9798 compcert.lib.Maps <> :::x_'!'_x not
+R9828:9830 compcert.lib.Maps <> :::x_'!'_x not
+R9796:9798 compcert.lib.Maps <> :::x_'!'_x not
+R9828:9830 compcert.lib.Maps <> :::x_'!'_x not
+R9828:9830 compcert.lib.Maps <> :::x_'!'_x not
+R9863:9867 Coq.Init.Logic <> proj1 thm
+R9873:9880 Coq.Init.Logic <> ex_intro constr
+R9886:9892 Coq.Init.Logic <> eq_refl constr
+R9863:9867 Coq.Init.Logic <> proj1 thm
+R9873:9880 Coq.Init.Logic <> ex_intro constr
+R9886:9892 Coq.Init.Logic <> eq_refl constr
+R9939:9943 Coq.Init.Logic <> proj2 thm
+R9949:9956 Coq.Init.Logic <> ex_intro constr
+R9962:9968 Coq.Init.Logic <> eq_refl constr
+R9939:9943 Coq.Init.Logic <> proj2 thm
+R9949:9956 Coq.Init.Logic <> ex_intro constr
+R9962:9968 Coq.Init.Logic <> eq_refl constr
+R10027:10033 Coq.Init.Logic <> eq_refl constr
+R10019:10025 Coq.Init.Logic <> eq_refl constr
+R10027:10033 Coq.Init.Logic <> eq_refl constr
+R10019:10025 Coq.Init.Logic <> eq_refl constr
+R10247:10263 VST.veric.coqlib4 <> max_two_power_nat thm
+R10247:10263 VST.veric.coqlib4 <> max_two_power_nat thm
+R10247:10263 VST.veric.coqlib4 <> max_two_power_nat thm
+R10417:10419 compcert.lib.Maps <> :::x_'!'_x not
+R10449:10451 compcert.lib.Maps <> :::x_'!'_x not
+R10417:10419 compcert.lib.Maps <> :::x_'!'_x not
+R10449:10451 compcert.lib.Maps <> :::x_'!'_x not
+R10449:10451 compcert.lib.Maps <> :::x_'!'_x not
+R10484:10488 Coq.Init.Logic <> proj1 thm
+R10494:10501 Coq.Init.Logic <> ex_intro constr
+R10507:10513 Coq.Init.Logic <> eq_refl constr
+R10484:10488 Coq.Init.Logic <> proj1 thm
+R10494:10501 Coq.Init.Logic <> ex_intro constr
+R10507:10513 Coq.Init.Logic <> eq_refl constr
+R10560:10564 Coq.Init.Logic <> proj2 thm
+R10570:10577 Coq.Init.Logic <> ex_intro constr
+R10583:10589 Coq.Init.Logic <> eq_refl constr
+R10560:10564 Coq.Init.Logic <> proj2 thm
+R10570:10577 Coq.Init.Logic <> ex_intro constr
+R10583:10589 Coq.Init.Logic <> eq_refl constr
+R10648:10654 Coq.Init.Logic <> eq_refl constr
+R10640:10646 Coq.Init.Logic <> eq_refl constr
+R10648:10654 Coq.Init.Logic <> eq_refl constr
+R10640:10646 Coq.Init.Logic <> eq_refl constr
+R10868:10884 VST.veric.coqlib4 <> max_two_power_nat thm
+R10868:10884 VST.veric.coqlib4 <> max_two_power_nat thm
+R10868:10884 VST.veric.coqlib4 <> max_two_power_nat thm
+prf 10962:10981 <> hardware_alignof_pos
+R10998:11010 compcert.cfrontend.Ctypes <> composite_env def
+binder 10992:10995 <> cenv:142
+R11022:11028 compcert.lib.Maps PTree t def
+R11030:11030 Coq.Numbers.BinNums <> Z ind
+binder 11014:11019 <> ha_env:143
+R11065:11070 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11114:11119 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11161:11166 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 11174:11174 <> t:144
+R11204:11206 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R11179:11194 VST.veric.align_mem <> hardware_alignof def
+R11203:11203 VST.veric.align_mem <> t:144 var
+R11196:11201 VST.veric.align_mem <> ha_env:143 var
+R11120:11148 VST.veric.align_mem <> hardware_alignof_env_complete def
+R11155:11160 VST.veric.align_mem <> ha_env:143 var
+R11150:11153 VST.veric.align_mem <> cenv:142 var
+R11071:11101 VST.veric.align_mem <> hardware_alignof_env_consistent def
+R11108:11113 VST.veric.align_mem <> ha_env:143 var
+R11103:11106 VST.veric.align_mem <> cenv:142 var
+R11036:11059 compcert.cfrontend.Ctypes <> composite_env_consistent def
+R11061:11064 VST.veric.align_mem <> cenv:142 var
+R11240:11261 VST.veric.align_mem <> hardware_alignof_two_p thm
+R11240:11261 VST.veric.align_mem <> hardware_alignof_two_p thm
+R11309:11325 compcert.lib.Coqlib <> two_power_nat_pos thm
+R11309:11325 compcert.lib.Coqlib <> two_power_nat_pos thm
+prf 11340:11371 <> hardware_alignof_composite_two_p
+R11388:11400 compcert.cfrontend.Ctypes <> composite_env def
+binder 11382:11385 <> cenv:145
+R11412:11418 compcert.lib.Maps PTree t def
+R11420:11420 Coq.Numbers.BinNums <> Z ind
+binder 11404:11409 <> ha_env:146
+R11455:11460 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11504:11509 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11551:11556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 11564:11564 <> m:147
+R11567:11573 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11575:11580 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 11574:11574 <> n:148
+R11616:11618 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11581:11606 VST.veric.align_mem <> hardware_alignof_composite def
+R11615:11615 VST.veric.align_mem <> m:147 var
+R11608:11613 VST.veric.align_mem <> ha_env:146 var
+R11619:11631 Coq.ZArith.Zpower <> two_power_nat def
+R11633:11633 VST.veric.align_mem <> n:148 var
+R11510:11538 VST.veric.align_mem <> hardware_alignof_env_complete def
+R11545:11550 VST.veric.align_mem <> ha_env:146 var
+R11540:11543 VST.veric.align_mem <> cenv:145 var
+R11461:11491 VST.veric.align_mem <> hardware_alignof_env_consistent def
+R11498:11503 VST.veric.align_mem <> ha_env:146 var
+R11493:11496 VST.veric.align_mem <> cenv:145 var
+R11426:11449 compcert.cfrontend.Ctypes <> composite_env_consistent def
+R11451:11454 VST.veric.align_mem <> cenv:145 var
+R11747:11768 VST.veric.align_mem <> hardware_alignof_two_p thm
+R11747:11768 VST.veric.align_mem <> hardware_alignof_two_p thm
+R11839:11855 VST.veric.coqlib4 <> max_two_power_nat thm
+R11839:11855 VST.veric.coqlib4 <> max_two_power_nat thm
+R11839:11855 VST.veric.coqlib4 <> max_two_power_nat thm
+R11980:11986 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11993:11994 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11990:11992 Coq.Init.Datatypes <> nat ind
+binder 11987:11987 <> n:149
+R12015:12017 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11995:12010 VST.veric.align_mem <> hardware_alignof def
+R12018:12030 Coq.ZArith.Zpower <> two_power_nat def
+R12032:12032 VST.veric.align_mem <> n:149 var
+R12046:12067 VST.veric.align_mem <> hardware_alignof_two_p thm
+R12107:12113 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12120:12121 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12117:12119 Coq.Init.Datatypes <> nat ind
+binder 12114:12114 <> n:150
+R12152:12154 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12122:12147 VST.veric.align_mem <> hardware_alignof_composite def
+R12155:12167 Coq.ZArith.Zpower <> two_power_nat def
+R12169:12169 VST.veric.align_mem <> n:150 var
+R12183:12214 VST.veric.align_mem <> hardware_alignof_composite_two_p thm
+prf 12245:12269 <> hardware_alignof_by_value
+binder 12279:12284 <> ha_env:151
+binder 12286:12286 <> t:152
+binder 12288:12289 <> ch:153
+R12321:12326 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12352:12354 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12327:12342 VST.veric.align_mem <> hardware_alignof def
+R12351:12351 VST.veric.align_mem <> t:152 var
+R12344:12349 VST.veric.align_mem <> ha_env:151 var
+R12355:12365 compcert.common.Memdata <> align_chunk def
+R12367:12368 VST.veric.align_mem <> ch:153 var
+R12307:12309 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12294:12304 compcert.cfrontend.Ctypes <> access_mode def
+R12306:12306 VST.veric.align_mem <> t:152 var
+R12310:12317 compcert.cfrontend.Ctypes <> By_value constr
+R12319:12320 VST.veric.align_mem <> ch:153 var
+prf 12468:12511 <> align_compatible_rec_hardware_alignof_divide
+binder 12521:12524 <> cenv:154
+binder 12526:12531 <> ha_env:155
+binder 12533:12533 <> t:156
+binder 12535:12536 <> z1:157
+binder 12538:12539 <> z2:158
+R12573:12578 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12622:12627 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12671:12676 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12718:12723 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12762:12767 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12805:12811 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12877:12877 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12842:12846 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12812:12831 VST.veric.align_mem <> align_compatible_rec ind
+R12840:12841 VST.veric.align_mem <> z1:157 var
+R12838:12838 VST.veric.align_mem <> t:156 var
+R12833:12836 VST.veric.align_mem <> cenv:154 var
+R12847:12866 VST.veric.align_mem <> align_compatible_rec ind
+R12875:12876 VST.veric.align_mem <> z2:158 var
+R12873:12873 VST.veric.align_mem <> t:156 var
+R12868:12871 VST.veric.align_mem <> cenv:154 var
+R12768:12768 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R12794:12796 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R12804:12804 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R12769:12784 VST.veric.align_mem <> hardware_alignof def
+R12793:12793 VST.veric.align_mem <> t:156 var
+R12786:12791 VST.veric.align_mem <> ha_env:155 var
+R12799:12801 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R12797:12798 VST.veric.align_mem <> z1:157 var
+R12802:12803 VST.veric.align_mem <> z2:158 var
+R12755:12757 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12724:12747 VST.veric.composite_compute <> complete_legal_cosu_type def
+R12754:12754 VST.veric.align_mem <> t:156 var
+R12749:12752 VST.veric.align_mem <> cenv:154 var
+R12758:12761 Coq.Init.Datatypes <> true constr
+R12677:12705 VST.veric.align_mem <> hardware_alignof_env_complete def
+R12712:12717 VST.veric.align_mem <> ha_env:155 var
+R12707:12710 VST.veric.align_mem <> cenv:154 var
+R12628:12658 VST.veric.align_mem <> hardware_alignof_env_consistent def
+R12665:12670 VST.veric.align_mem <> ha_env:155 var
+R12660:12663 VST.veric.align_mem <> cenv:154 var
+R12579:12616 VST.veric.composite_compute <> composite_env_complete_legal_cosu_type def
+R12618:12621 VST.veric.align_mem <> cenv:154 var
+R12544:12567 compcert.cfrontend.Ctypes <> composite_env_consistent def
+R12569:12572 VST.veric.align_mem <> cenv:154 var
+binder 12997:12997 <> t:159
+binder 12999:13000 <> z1:160
+binder 13002:13003 <> z2:161
+R13006:13006 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13045:13049 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13087:13090 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13121:13125 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13091:13110 VST.veric.align_mem <> align_compatible_rec ind
+R13119:13120 VST.veric.align_mem <> z1:160 var
+R13117:13117 VST.veric.align_mem <> t:159 var
+R13126:13145 VST.veric.align_mem <> align_compatible_rec ind
+R13154:13155 VST.veric.align_mem <> z2:161 var
+R13152:13152 VST.veric.align_mem <> t:159 var
+R13050:13050 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R13076:13078 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R13086:13086 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R13051:13066 VST.veric.align_mem <> hardware_alignof def
+R13075:13075 VST.veric.align_mem <> t:159 var
+R13081:13083 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R13079:13080 VST.veric.align_mem <> z1:160 var
+R13084:13085 VST.veric.align_mem <> z2:161 var
+R13007:13013 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13016:13017 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 13014:13015 <> ch:162
+R13031:13033 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13018:13028 compcert.cfrontend.Ctypes <> access_mode def
+R13030:13030 VST.veric.align_mem <> t:159 var
+R13034:13041 compcert.cfrontend.Ctypes <> By_value constr
+R13043:13044 VST.veric.align_mem <> ch:162 var
+binder 12997:12997 <> t:163
+binder 12999:13000 <> z1:164
+binder 13002:13003 <> z2:165
+R13006:13006 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13045:13049 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13087:13090 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13121:13125 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13091:13110 VST.veric.align_mem <> align_compatible_rec ind
+R13119:13120 VST.veric.align_mem <> z1:164 var
+R13117:13117 VST.veric.align_mem <> t:163 var
+R13126:13145 VST.veric.align_mem <> align_compatible_rec ind
+R13154:13155 VST.veric.align_mem <> z2:165 var
+R13152:13152 VST.veric.align_mem <> t:163 var
+R13050:13050 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R13076:13078 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R13086:13086 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R13051:13066 VST.veric.align_mem <> hardware_alignof def
+R13075:13075 VST.veric.align_mem <> t:163 var
+R13081:13083 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R13079:13080 VST.veric.align_mem <> z1:164 var
+R13084:13085 VST.veric.align_mem <> z2:165 var
+R13007:13013 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13016:13017 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 13014:13015 <> ch:166
+R13031:13033 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13018:13028 compcert.cfrontend.Ctypes <> access_mode def
+R13030:13030 VST.veric.align_mem <> t:163 var
+R13034:13041 compcert.cfrontend.Ctypes <> By_value constr
+R13043:13044 VST.veric.align_mem <> ch:166 var
+R13221:13253 VST.veric.align_mem <> align_compatible_rec_by_value_inv thm
+R13221:13253 VST.veric.align_mem <> align_compatible_rec_by_value_inv thm
+R13282:13310 VST.veric.align_mem <> align_compatible_rec_by_value constr
+R13282:13310 VST.veric.align_mem <> align_compatible_rec_by_value constr
+R13345:13348 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R13356:13356 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R13351:13353 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R13345:13348 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R13356:13356 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R13351:13353 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R13382:13406 VST.veric.align_mem <> hardware_alignof_by_value thm
+R13382:13406 VST.veric.align_mem <> hardware_alignof_by_value thm
+R13382:13406 VST.veric.align_mem <> hardware_alignof_by_value thm
+R13436:13449 Coq.ZArith.BinInt Z divide_sub_r thm
+R13436:13449 Coq.ZArith.BinInt Z divide_sub_r thm
+R13471:13503 VST.veric.align_mem <> align_compatible_rec_by_value_inv thm
+R13471:13503 VST.veric.align_mem <> align_compatible_rec_by_value_inv thm
+R13532:13560 VST.veric.align_mem <> align_compatible_rec_by_value constr
+R13532:13560 VST.veric.align_mem <> align_compatible_rec_by_value constr
+R13595:13598 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13606:13606 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13601:13603 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R13595:13598 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13606:13606 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R13601:13603 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R13632:13656 VST.veric.align_mem <> hardware_alignof_by_value thm
+R13632:13656 VST.veric.align_mem <> hardware_alignof_by_value thm
+R13632:13656 VST.veric.align_mem <> hardware_alignof_by_value thm
+R13686:13699 Coq.ZArith.BinInt Z divide_add_r thm
+R13686:13699 Coq.ZArith.BinInt Z divide_add_r thm
+R14094:14120 VST.veric.align_mem <> align_compatible_rec_Tarray constr
+R14142:14172 VST.veric.align_mem <> align_compatible_rec_Tarray_inv thm
+R14094:14120 VST.veric.align_mem <> align_compatible_rec_Tarray constr
+R14094:14120 VST.veric.align_mem <> align_compatible_rec_Tarray constr
+R14142:14172 VST.veric.align_mem <> align_compatible_rec_Tarray_inv thm
+R14142:14172 VST.veric.align_mem <> align_compatible_rec_Tarray_inv thm
+R14237:14239 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14253:14255 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14240:14245 compcert.cfrontend.Ctypes <> sizeof def
+R14212:14214 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14228:14230 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14215:14220 compcert.cfrontend.Ctypes <> sizeof def
+R14237:14239 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14253:14255 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14240:14245 compcert.cfrontend.Ctypes <> sizeof def
+R14212:14214 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14228:14230 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14215:14220 compcert.cfrontend.Ctypes <> sizeof def
+R14298:14301 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14324:14324 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14278:14280 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14294:14296 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14281:14286 compcert.cfrontend.Ctypes <> sizeof def
+R14304:14306 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14320:14322 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14307:14312 compcert.cfrontend.Ctypes <> sizeof def
+R14335:14337 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14298:14301 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14324:14324 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14278:14280 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14294:14296 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14281:14286 compcert.cfrontend.Ctypes <> sizeof def
+R14304:14306 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14320:14322 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14307:14312 compcert.cfrontend.Ctypes <> sizeof def
+R14335:14337 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14418:14420 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14434:14436 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14421:14426 compcert.cfrontend.Ctypes <> sizeof def
+R14393:14395 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14409:14411 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14396:14401 compcert.cfrontend.Ctypes <> sizeof def
+R14418:14420 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14434:14436 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14421:14426 compcert.cfrontend.Ctypes <> sizeof def
+R14393:14395 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14409:14411 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14396:14401 compcert.cfrontend.Ctypes <> sizeof def
+R14479:14482 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14505:14505 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14459:14461 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14475:14477 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14462:14467 compcert.cfrontend.Ctypes <> sizeof def
+R14485:14487 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14501:14503 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14488:14493 compcert.cfrontend.Ctypes <> sizeof def
+R14516:14518 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14479:14482 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14505:14505 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14459:14461 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14475:14477 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14462:14467 compcert.cfrontend.Ctypes <> sizeof def
+R14485:14487 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14501:14503 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R14488:14493 compcert.cfrontend.Ctypes <> sizeof def
+R14516:14518 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14637:14639 compcert.lib.Maps <> :::x_'!'_x not
+R14637:14639 compcert.lib.Maps <> :::x_'!'_x not
+R14687:14691 compcert.cfrontend.Ctypes <> co_su proj
+R14687:14691 compcert.cfrontend.Ctypes <> co_su proj
+binder 14731:14732 <> i0:167
+binder 14734:14735 <> t0:168
+binder 14737:14740 <> ofs0:169
+R14801:14818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14872:14890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14991:14991 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14931:14950 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14891:14910 VST.veric.align_mem <> align_compatible_rec ind
+R14923:14925 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14926:14929 VST.veric.align_mem <> ofs0:169 var
+R14917:14918 VST.veric.align_mem <> t0:168 var
+R14951:14970 VST.veric.align_mem <> align_compatible_rec ind
+R14983:14985 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14986:14989 VST.veric.align_mem <> ofs0:169 var
+R14977:14978 VST.veric.align_mem <> t0:168 var
+R14855:14857 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14819:14830 compcert.cfrontend.Ctypes <> field_offset def
+R14841:14850 compcert.cfrontend.Ctypes <> co_members proj
+R14837:14838 VST.veric.align_mem <> i0:167 var
+R14858:14866 compcert.common.Errors <> OK constr
+R14868:14871 VST.veric.align_mem <> ofs0:169 var
+R14786:14788 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14757:14766 compcert.cfrontend.Ctypes <> field_type def
+R14772:14781 compcert.cfrontend.Ctypes <> co_members proj
+R14768:14769 VST.veric.align_mem <> i0:167 var
+R14789:14797 compcert.common.Errors <> OK constr
+R14799:14800 VST.veric.align_mem <> t0:168 var
+R15031:15058 VST.veric.align_mem <> align_compatible_rec_Tstruct constr
+R15091:15122 VST.veric.align_mem <> align_compatible_rec_Tstruct_inv thm
+binder 14731:14732 <> i0:170
+binder 14734:14735 <> t0:171
+binder 14737:14740 <> ofs0:172
+R14801:14818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14872:14890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14991:14991 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14931:14950 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14891:14910 VST.veric.align_mem <> align_compatible_rec ind
+R14923:14925 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14926:14929 VST.veric.align_mem <> ofs0:172 var
+R14917:14918 VST.veric.align_mem <> t0:171 var
+R14951:14970 VST.veric.align_mem <> align_compatible_rec ind
+R14983:14985 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14986:14989 VST.veric.align_mem <> ofs0:172 var
+R14977:14978 VST.veric.align_mem <> t0:171 var
+R14855:14857 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14819:14830 compcert.cfrontend.Ctypes <> field_offset def
+R14841:14850 compcert.cfrontend.Ctypes <> co_members proj
+R14837:14838 VST.veric.align_mem <> i0:170 var
+R14858:14866 compcert.common.Errors <> OK constr
+R14868:14871 VST.veric.align_mem <> ofs0:172 var
+R14786:14788 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14757:14766 compcert.cfrontend.Ctypes <> field_type def
+R14772:14781 compcert.cfrontend.Ctypes <> co_members proj
+R14768:14769 VST.veric.align_mem <> i0:170 var
+R14789:14797 compcert.common.Errors <> OK constr
+R14799:14800 VST.veric.align_mem <> t0:171 var
+R15031:15058 VST.veric.align_mem <> align_compatible_rec_Tstruct constr
+R15031:15058 VST.veric.align_mem <> align_compatible_rec_Tstruct constr
+R15091:15122 VST.veric.align_mem <> align_compatible_rec_Tstruct_inv thm
+R15091:15122 VST.veric.align_mem <> align_compatible_rec_Tstruct_inv thm
+R15179:15183 Coq.Init.Logic <> proj1 thm
+R15204:15211 Coq.Init.Logic <> ex_intro constr
+R15179:15183 Coq.Init.Logic <> proj1 thm
+R15204:15211 Coq.Init.Logic <> ex_intro constr
+R15612:15615 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15625:15625 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15605:15607 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15618:15620 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15636:15638 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15612:15615 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15625:15625 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15605:15607 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15618:15620 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R15636:15638 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R15723:15725 compcert.lib.Maps <> :::x_'!'_x not
+R15723:15725 compcert.lib.Maps <> :::x_'!'_x not
+R15773:15777 compcert.cfrontend.Ctypes <> co_su proj
+R15773:15777 compcert.cfrontend.Ctypes <> co_su proj
+binder 15817:15818 <> i0:173
+binder 15820:15821 <> t0:174
+R15882:15900 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15983:15983 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15932:15951 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15901:15920 VST.veric.align_mem <> align_compatible_rec ind
+R15927:15928 VST.veric.align_mem <> t0:174 var
+R15952:15971 VST.veric.align_mem <> align_compatible_rec ind
+R15978:15979 VST.veric.align_mem <> t0:174 var
+R15867:15869 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15838:15847 compcert.cfrontend.Ctypes <> field_type def
+R15853:15862 compcert.cfrontend.Ctypes <> co_members proj
+R15849:15850 VST.veric.align_mem <> i0:173 var
+R15870:15878 compcert.common.Errors <> OK constr
+R15880:15881 VST.veric.align_mem <> t0:174 var
+R16023:16049 VST.veric.align_mem <> align_compatible_rec_Tunion constr
+R16082:16112 VST.veric.align_mem <> align_compatible_rec_Tunion_inv thm
+binder 15817:15818 <> i0:175
+binder 15820:15821 <> t0:176
+R15882:15900 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15983:15983 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15932:15951 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15901:15920 VST.veric.align_mem <> align_compatible_rec ind
+R15927:15928 VST.veric.align_mem <> t0:176 var
+R15952:15971 VST.veric.align_mem <> align_compatible_rec ind
+R15978:15979 VST.veric.align_mem <> t0:176 var
+R15867:15869 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15838:15847 compcert.cfrontend.Ctypes <> field_type def
+R15853:15862 compcert.cfrontend.Ctypes <> co_members proj
+R15849:15850 VST.veric.align_mem <> i0:175 var
+R15870:15878 compcert.common.Errors <> OK constr
+R15880:15881 VST.veric.align_mem <> t0:176 var
+R16023:16049 VST.veric.align_mem <> align_compatible_rec_Tunion constr
+R16023:16049 VST.veric.align_mem <> align_compatible_rec_Tunion constr
+R16082:16112 VST.veric.align_mem <> align_compatible_rec_Tunion_inv thm
+R16082:16112 VST.veric.align_mem <> align_compatible_rec_Tunion_inv thm
+R16169:16173 Coq.Init.Logic <> proj1 thm
+R16194:16201 Coq.Init.Logic <> ex_intro constr
+R16169:16173 Coq.Init.Logic <> proj1 thm
+R16194:16201 Coq.Init.Logic <> ex_intro constr
+prf 16601:16631 <> align_compatible_rec_hardware_1
+binder 16641:16644 <> cenv:177
+binder 16646:16651 <> ha_env:178
+binder 16653:16653 <> t:179
+binder 16655:16655 <> z:180
+R16689:16694 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16738:16743 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16787:16792 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16834:16839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16878:16883 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16913:16918 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16919:16938 VST.veric.align_mem <> align_compatible_rec ind
+R16947:16947 VST.veric.align_mem <> z:180 var
+R16945:16945 VST.veric.align_mem <> t:179 var
+R16940:16943 VST.veric.align_mem <> cenv:177 var
+R16909:16911 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16884:16899 VST.veric.align_mem <> hardware_alignof def
+R16908:16908 VST.veric.align_mem <> t:179 var
+R16901:16906 VST.veric.align_mem <> ha_env:178 var
+R16871:16873 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16840:16863 VST.veric.composite_compute <> complete_legal_cosu_type def
+R16870:16870 VST.veric.align_mem <> t:179 var
+R16865:16868 VST.veric.align_mem <> cenv:177 var
+R16874:16877 Coq.Init.Datatypes <> true constr
+R16793:16821 VST.veric.align_mem <> hardware_alignof_env_complete def
+R16828:16833 VST.veric.align_mem <> ha_env:178 var
+R16823:16826 VST.veric.align_mem <> cenv:177 var
+R16744:16774 VST.veric.align_mem <> hardware_alignof_env_consistent def
+R16781:16786 VST.veric.align_mem <> ha_env:178 var
+R16776:16779 VST.veric.align_mem <> cenv:177 var
+R16695:16732 VST.veric.composite_compute <> composite_env_complete_legal_cosu_type def
+R16734:16737 VST.veric.align_mem <> cenv:177 var
+R16660:16683 compcert.cfrontend.Ctypes <> composite_env_consistent def
+R16685:16688 VST.veric.align_mem <> cenv:177 var
+R17152:17163 Coq.ZArith.BinInt Z divide_1_l thm
+R17152:17163 Coq.ZArith.BinInt Z divide_1_l thm
+R17152:17163 Coq.ZArith.BinInt Z divide_1_l thm
+R17152:17163 Coq.ZArith.BinInt Z divide_1_l thm
+R17152:17163 Coq.ZArith.BinInt Z divide_1_l thm
+R17236:17262 VST.veric.align_mem <> align_compatible_rec_Tarray constr
+R17236:17262 VST.veric.align_mem <> align_compatible_rec_Tarray constr
+R17346:17348 compcert.lib.Maps <> :::x_'!'_x not
+R17346:17348 compcert.lib.Maps <> :::x_'!'_x not
+R17396:17400 compcert.cfrontend.Ctypes <> co_su proj
+R17396:17400 compcert.cfrontend.Ctypes <> co_su proj
+R17436:17440 Coq.Init.Logic <> proj1 thm
+R17461:17468 Coq.Init.Logic <> ex_intro constr
+R17436:17440 Coq.Init.Logic <> proj1 thm
+R17461:17468 Coq.Init.Logic <> ex_intro constr
+R17616:17643 VST.veric.align_mem <> align_compatible_rec_Tstruct constr
+R17616:17643 VST.veric.align_mem <> align_compatible_rec_Tstruct constr
+R17966:17968 compcert.lib.Maps <> :::x_'!'_x not
+R17966:17968 compcert.lib.Maps <> :::x_'!'_x not
+R18016:18020 compcert.cfrontend.Ctypes <> co_su proj
+R18016:18020 compcert.cfrontend.Ctypes <> co_su proj
+R18056:18060 Coq.Init.Logic <> proj1 thm
+R18081:18088 Coq.Init.Logic <> ex_intro constr
+R18056:18060 Coq.Init.Logic <> proj1 thm
+R18081:18088 Coq.Init.Logic <> ex_intro constr
+R18236:18262 VST.veric.align_mem <> align_compatible_rec_Tunion constr
+R18236:18262 VST.veric.align_mem <> align_compatible_rec_Tunion constr
+modtype 18555:18567 <> LEGAL_ALIGNAS
+ax 18583:18599 LEGAL_ALIGNAS legal_alignas_obs
+ax 18620:18637 LEGAL_ALIGNAS legal_alignas_type
+R18653:18656 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18666:18669 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18695:18698 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18703:18706 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18707:18723 VST.veric.align_mem LEGAL_ALIGNAS legal_alignas_obs defax
+R18699:18702 compcert.cfrontend.Ctypes <> type ind
+R18670:18676 compcert.lib.Maps PTree t def
+R18678:18694 VST.veric.align_mem LEGAL_ALIGNAS legal_alignas_obs defax
+R18657:18663 compcert.lib.Maps PTree t def
+R18665:18665 Coq.Numbers.BinNums <> Z ind
+R18640:18652 compcert.cfrontend.Ctypes <> composite_env def
+ax 18738:18760 LEGAL_ALIGNAS legal_alignas_composite
+R18776:18779 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18789:18792 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18818:18821 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18831:18834 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18835:18851 VST.veric.align_mem LEGAL_ALIGNAS legal_alignas_obs defax
+R18822:18830 compcert.cfrontend.Ctypes <> composite rec
+R18793:18799 compcert.lib.Maps PTree t def
+R18801:18817 VST.veric.align_mem LEGAL_ALIGNAS legal_alignas_obs defax
+R18780:18786 compcert.lib.Maps PTree t def
+R18788:18788 Coq.Numbers.BinNums <> Z ind
+R18763:18775 compcert.cfrontend.Ctypes <> composite_env def
+ax 18866:18882 LEGAL_ALIGNAS legal_alignas_env
+R18898:18901 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18911:18914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18915:18921 compcert.lib.Maps PTree t def
+R18923:18939 VST.veric.align_mem LEGAL_ALIGNAS legal_alignas_obs defax
+R18902:18908 compcert.lib.Maps PTree t def
+R18910:18910 Coq.Numbers.BinNums <> Z ind
+R18885:18897 compcert.cfrontend.Ctypes <> composite_env def
+ax 18954:18967 LEGAL_ALIGNAS is_aligned_aux
+R18987:18990 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18992:18995 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18997:19000 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19001:19004 Coq.Init.Datatypes <> bool ind
+R18996:18996 Coq.Numbers.BinNums <> Z ind
+R18991:18991 Coq.Numbers.BinNums <> Z ind
+R18970:18986 VST.veric.align_mem LEGAL_ALIGNAS legal_alignas_obs defax
+R19014:19026 VST.veric.align_mem LEGAL_ALIGNAS <> modtype
+R19072:19084 VST.veric.align_mem LEGAL_ALIGNAS <> mod
+mod 19037:19055 <> LegalAlignasDefsGen
+def 19126:19153 LegalAlignasDefsGen legal_alignas_env_consistent
+R19162:19174 compcert.cfrontend.Ctypes <> composite_env def
+binder 19156:19159 <> cenv:186
+R19186:19192 compcert.lib.Maps PTree t def
+R19194:19194 Coq.Numbers.BinNums <> Z ind
+binder 19178:19183 <> ha_env:187
+R19206:19212 compcert.lib.Maps PTree t def
+R19214:19230 VST.veric.align_mem LegalAlignas legal_alignas_obs defax
+binder 19198:19203 <> la_env:188
+binder 19253:19253 <> i:189
+binder 19255:19256 <> co:190
+binder 19258:19259 <> la:191
+R19286:19295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19316:19325 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19328:19330 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19326:19327 VST.veric.align_mem <> la:191 var
+R19331:19353 VST.veric.align_mem LegalAlignas legal_alignas_composite defax
+R19374:19375 VST.veric.align_mem <> co:190 var
+R19367:19372 VST.veric.align_mem <> la_env:188 var
+R19360:19365 VST.veric.align_mem <> ha_env:187 var
+R19355:19358 VST.veric.align_mem <> cenv:186 var
+R19306:19308 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19302:19304 compcert.lib.Maps <> :::x_'!'_x not
+R19305:19305 VST.veric.align_mem <> i:189 var
+R19296:19301 VST.veric.align_mem <> la_env:188 var
+R19309:19312 Coq.Init.Datatypes <> Some constr
+R19314:19315 VST.veric.align_mem <> la:191 var
+R19276:19278 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19272:19274 compcert.lib.Maps <> :::x_'!'_x not
+R19275:19275 VST.veric.align_mem <> i:189 var
+R19268:19271 VST.veric.align_mem <> cenv:186 var
+R19279:19282 Coq.Init.Datatypes <> Some constr
+R19284:19285 VST.veric.align_mem <> co:190 var
+def 19392:19417 LegalAlignasDefsGen legal_alignas_env_complete
+R19426:19438 compcert.cfrontend.Ctypes <> composite_env def
+binder 19420:19423 <> cenv:192
+R19450:19456 compcert.lib.Maps PTree t def
+R19458:19474 VST.veric.align_mem LegalAlignas legal_alignas_obs defax
+binder 19442:19447 <> la_env:193
+binder 19497:19497 <> i:194
+R19506:19506 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R19536:19548 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R19580:19580 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R19507:19513 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R19516:19517 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 19514:19515 <> co:195
+R19526:19528 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19522:19524 compcert.lib.Maps <> :::x_'!'_x not
+R19525:19525 VST.veric.align_mem <> i:194 var
+R19518:19521 VST.veric.align_mem <> cenv:192 var
+R19529:19532 Coq.Init.Datatypes <> Some constr
+R19534:19535 VST.veric.align_mem <> co:195 var
+R19549:19555 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R19558:19559 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 19556:19557 <> la:196
+R19570:19572 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19566:19568 compcert.lib.Maps <> :::x_'!'_x not
+R19569:19569 VST.veric.align_mem <> i:194 var
+R19560:19565 VST.veric.align_mem <> la_env:193 var
+R19573:19576 Coq.Init.Datatypes <> Some constr
+R19578:19579 VST.veric.align_mem <> la:196 var
+def 19597:19606 LegalAlignasDefsGen is_aligned
+binder 19608:19611 <> cenv:197
+binder 19613:19618 <> ha_env:198
+binder 19620:19625 <> la_env:199
+R19631:19634 compcert.cfrontend.Ctypes <> type ind
+binder 19628:19628 <> t:200
+R19643:19643 Coq.Numbers.BinNums <> Z ind
+binder 19638:19640 <> ofs:201
+R19647:19650 Coq.Init.Datatypes <> bool ind
+R19655:19668 VST.veric.align_mem LegalAlignas is_aligned_aux defax
+R19740:19742 VST.veric.align_mem <> ofs:201 var
+R19713:19728 VST.veric.align_mem <> hardware_alignof def
+R19737:19737 VST.veric.align_mem <> t:200 var
+R19730:19735 VST.veric.align_mem <> ha_env:198 var
+R19671:19688 VST.veric.align_mem LegalAlignas legal_alignas_type defax
+R19709:19709 VST.veric.align_mem <> t:200 var
+R19702:19707 VST.veric.align_mem <> la_env:199 var
+R19695:19700 VST.veric.align_mem <> ha_env:198 var
+R19690:19693 VST.veric.align_mem <> cenv:197 var
+def 19759:19781 LegalAlignasDefsGen legal_alignas_env_sound
+R19790:19802 compcert.cfrontend.Ctypes <> composite_env def
+binder 19784:19787 <> cenv:202
+R19814:19820 compcert.lib.Maps PTree t def
+R19822:19822 Coq.Numbers.BinNums <> Z ind
+binder 19806:19811 <> ha_env:203
+R19834:19840 compcert.lib.Maps PTree t def
+R19842:19858 VST.veric.align_mem LegalAlignas legal_alignas_obs defax
+binder 19826:19831 <> la_env:204
+binder 19881:19883 <> ofs:205
+binder 19885:19885 <> t:206
+R19932:19941 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19984:19993 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19994:20013 VST.veric.align_mem <> align_compatible_rec ind
+R20022:20024 VST.veric.align_mem <> ofs:205 var
+R20020:20020 VST.veric.align_mem <> t:206 var
+R20015:20018 VST.veric.align_mem <> cenv:202 var
+R19977:19979 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19942:19951 VST.veric.align_mem LegalAlignasDefsGen is_aligned def
+R19974:19976 VST.veric.align_mem <> ofs:205 var
+R19972:19972 VST.veric.align_mem <> t:206 var
+R19965:19970 VST.veric.align_mem <> la_env:204 var
+R19958:19963 VST.veric.align_mem <> ha_env:203 var
+R19953:19956 VST.veric.align_mem <> cenv:202 var
+R19980:19983 Coq.Init.Datatypes <> true constr
+R19925:19927 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19894:19917 VST.veric.composite_compute <> complete_legal_cosu_type def
+R19924:19924 VST.veric.align_mem <> t:206 var
+R19919:19922 VST.veric.align_mem <> cenv:202 var
+R19928:19931 Coq.Init.Datatypes <> true constr
+R20032:20050 VST.veric.align_mem LegalAlignasDefsGen <> mod
+modtype 20066:20084 <> LEGAL_ALIGNAS_FACTS
+R20119:20131 VST.veric.align_mem LEGAL_ALIGNAS <> mod
+mod 20105:20116 <> LEGAL_ALIGNAS_FACTS.LegalAlignas
+R20163:20181 VST.veric.align_mem LegalAlignasDefsGen <> modtype
+R20184:20195 VST.veric.align_mem LEGAL_ALIGNAS_FACTS.LegalAlignas <> modtype
+mod 20143:20158 <> LEGAL_ALIGNAS_FACTS.LegalAlignasDefs
+ax 20248:20276 LEGAL_ALIGNAS_FACTS legal_alignas_env_consistency
+binder 20286:20289 <> cenv:207
+binder 20291:20296 <> ha_env:208
+R20332:20339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20340:20367 VST.veric.align_mem LEGAL_ALIGNAS_FACTS legal_alignas_env_consistent def
+R20382:20398 VST.veric.align_mem LEGAL_ALIGNAS_FACTS legal_alignas_env defax
+R20405:20410 VST.veric.align_mem <> ha_env:208 var
+R20400:20403 VST.veric.align_mem <> cenv:207 var
+R20374:20379 VST.veric.align_mem <> ha_env:208 var
+R20369:20372 VST.veric.align_mem <> cenv:207 var
+R20303:20326 compcert.cfrontend.Ctypes <> composite_env_consistent def
+R20328:20331 VST.veric.align_mem <> cenv:207 var
+ax 20423:20452 LEGAL_ALIGNAS_FACTS legal_alignas_env_completeness
+binder 20462:20465 <> cenv:210
+binder 20467:20472 <> ha_env:211
+R20479:20504 VST.veric.align_mem LEGAL_ALIGNAS_FACTS legal_alignas_env_complete def
+R20512:20528 VST.veric.align_mem LEGAL_ALIGNAS_FACTS legal_alignas_env defax
+R20535:20540 VST.veric.align_mem <> ha_env:211 var
+R20530:20533 VST.veric.align_mem <> cenv:210 var
+R20506:20509 VST.veric.align_mem <> cenv:210 var
+ax 20553:20575 LEGAL_ALIGNAS_FACTS legal_alignas_soundness
+binder 20585:20588 <> cenv:213
+binder 20590:20595 <> ha_env:214
+binder 20597:20602 <> la_env:215
+R20638:20645 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20689:20696 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20740:20747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20789:20796 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20844:20851 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20890:20897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20898:20920 VST.veric.align_mem LEGAL_ALIGNAS_FACTS legal_alignas_env_sound def
+R20934:20939 VST.veric.align_mem <> la_env:215 var
+R20927:20932 VST.veric.align_mem <> ha_env:214 var
+R20922:20925 VST.veric.align_mem <> cenv:213 var
+R20852:20877 VST.veric.align_mem LEGAL_ALIGNAS_FACTS legal_alignas_env_complete def
+R20884:20889 VST.veric.align_mem <> la_env:215 var
+R20879:20882 VST.veric.align_mem <> cenv:213 var
+R20797:20824 VST.veric.align_mem LEGAL_ALIGNAS_FACTS legal_alignas_env_consistent def
+R20838:20843 VST.veric.align_mem <> la_env:215 var
+R20831:20836 VST.veric.align_mem <> ha_env:214 var
+R20826:20829 VST.veric.align_mem <> cenv:213 var
+R20748:20776 VST.veric.align_mem <> hardware_alignof_env_complete def
+R20783:20788 VST.veric.align_mem <> ha_env:214 var
+R20778:20781 VST.veric.align_mem <> cenv:213 var
+R20697:20727 VST.veric.align_mem <> hardware_alignof_env_consistent def
+R20734:20739 VST.veric.align_mem <> ha_env:214 var
+R20729:20732 VST.veric.align_mem <> cenv:213 var
+R20646:20683 VST.veric.composite_compute <> composite_env_complete_legal_cosu_type def
+R20685:20688 VST.veric.align_mem <> cenv:213 var
+R20609:20632 compcert.cfrontend.Ctypes <> composite_env_consistent def
+R20634:20637 VST.veric.align_mem <> cenv:213 var
+R20947:20965 VST.veric.align_mem LEGAL_ALIGNAS_FACTS <> modtype
+R20998:21010 VST.veric.align_mem LEGAL_ALIGNAS <> mod
+mod 20976:20993 <> LegalAlignasStrict
+sec 21022:21034 LegalAlignasStrict legal_alignas
+R21053:21065 compcert.cfrontend.Ctypes <> composite_env def
+binder 21047:21050 <> cenv:217
+R21077:21083 compcert.lib.Maps PTree t def
+R21085:21085 Coq.Numbers.BinNums <> Z ind
+binder 21069:21074 <> ha_env:218
+def 21101:21117 LegalAlignasStrict legal_alignas_obs
+R21128:21131 Coq.Init.Datatypes <> bool ind
+def 21144:21161 LegalAlignasStrict legal_alignas_type
+R21172:21178 compcert.lib.Maps PTree t def
+R21180:21183 Coq.Init.Datatypes <> bool ind
+binder 21164:21169 <> la_env:219
+binder 21186:21186 <> t:220
+R21189:21192 Coq.Init.Datatypes <> bool ind
+R21199:21199 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R21244:21250 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R21225:21229 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R21200:21215 VST.veric.align_mem <> hardware_alignof def
+R21224:21224 VST.veric.align_mem <> t:220 var
+R21217:21222 VST.veric.align_mem <> LegalAlignasStrict.legal_alignas.ha_env var
+R21230:21236 compcert.cfrontend.Ctypes <> alignof def
+R21243:21243 VST.veric.align_mem <> t:220 var
+R21238:21241 VST.veric.align_mem <> LegalAlignasStrict.legal_alignas.cenv var
+R21257:21257 VST.veric.align_mem <> t:220 var
+R21268:21273 compcert.cfrontend.Ctypes <> Tarray constr
+R21285:21285 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R21325:21329 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R21320:21323 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R21300:21304 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R21286:21291 compcert.cfrontend.Ctypes <> sizeof def
+R21293:21296 VST.veric.align_mem <> LegalAlignasStrict.legal_alignas.cenv var
+R21305:21311 compcert.cfrontend.Ctypes <> alignof def
+R21313:21316 VST.veric.align_mem <> LegalAlignasStrict.legal_alignas.cenv var
+R21330:21347 VST.veric.align_mem <> legal_alignas_type:221 def
+R21349:21354 VST.veric.align_mem <> la_env:219 var
+R21363:21369 compcert.cfrontend.Ctypes <> Tstruct constr
+R21397:21399 compcert.lib.Maps <> :::x_'!'_x not
+R21391:21396 VST.veric.align_mem <> la_env:219 var
+R21416:21419 Coq.Init.Datatypes <> Some constr
+R21438:21441 Coq.Init.Datatypes <> None constr
+R21446:21450 Coq.Init.Datatypes <> false constr
+R21466:21471 compcert.cfrontend.Ctypes <> Tunion constr
+R21499:21501 compcert.lib.Maps <> :::x_'!'_x not
+R21493:21498 VST.veric.align_mem <> la_env:219 var
+R21518:21521 Coq.Init.Datatypes <> Some constr
+R21540:21543 Coq.Init.Datatypes <> None constr
+R21548:21552 Coq.Init.Datatypes <> false constr
+R21579:21589 compcert.cfrontend.Ctypes <> access_mode def
+R21591:21591 VST.veric.align_mem <> t:220 var
+R21609:21616 compcert.cfrontend.Ctypes <> By_value constr
+R21624:21627 Coq.Init.Datatypes <> true constr
+R21645:21649 Coq.Init.Datatypes <> false constr
+def 21681:21701 LegalAlignasStrict legal_alignas_members
+R21712:21718 compcert.lib.Maps PTree t def
+R21720:21723 Coq.Init.Datatypes <> bool ind
+binder 21704:21709 <> la_env:223
+R21730:21736 compcert.cfrontend.Ctypes <> members def
+binder 21727:21727 <> m:224
+R21740:21743 Coq.Init.Datatypes <> bool ind
+R21756:21756 VST.veric.align_mem <> m:224 var
+R21767:21769 Coq.Init.Datatypes <> nil constr
+R21774:21777 Coq.Init.Datatypes <> true constr
+R21789:21792 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R21783:21783 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21785:21786 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21788:21788 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21799:21799 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R21827:21832 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R21864:21864 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R21800:21817 VST.veric.align_mem LegalAlignasStrict legal_alignas_type def
+R21819:21824 VST.veric.align_mem <> la_env:223 var
+R21833:21853 VST.veric.align_mem <> legal_alignas_members:225 def
+R21855:21860 VST.veric.align_mem <> la_env:223 var
+def 21885:21907 LegalAlignasStrict legal_alignas_composite
+R21918:21924 compcert.lib.Maps PTree t def
+R21926:21929 Coq.Init.Datatypes <> bool ind
+binder 21910:21915 <> la_env:227
+R21937:21945 compcert.cfrontend.Ctypes <> composite rec
+binder 21933:21934 <> co:228
+R21949:21952 Coq.Init.Datatypes <> bool ind
+R21959:21979 VST.veric.align_mem LegalAlignasStrict legal_alignas_members def
+R21989:21998 compcert.cfrontend.Ctypes <> co_members proj
+R22000:22001 VST.veric.align_mem <> co:228 var
+R21981:21986 VST.veric.align_mem <> la_env:227 var
+def 22017:22033 LegalAlignasStrict legal_alignas_env
+R22036:22042 compcert.lib.Maps PTree t def
+R22044:22047 Coq.Init.Datatypes <> bool ind
+R22063:22106 VST.veric.composite_compute composite_reorder rebuild_composite_elements def
+R22108:22111 VST.veric.align_mem <> LegalAlignasStrict.legal_alignas.cenv var
+binder 22058:22058 <> l:229
+R22118:22127 Coq.Lists.List <> fold_right def
+R22281:22281 VST.veric.align_mem <> l:229 var
+R22266:22276 compcert.lib.Maps PTree empty def
+R22147:22149 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R22139:22146 Coq.Numbers.BinNums <> positive ind
+R22150:22158 compcert.cfrontend.Ctypes <> composite rec
+binder 22135:22136 <> ic:230
+R22166:22172 compcert.lib.Maps PTree t def
+R22174:22177 Coq.Init.Datatypes <> bool ind
+binder 22162:22163 <> T0:231
+R22198:22199 VST.veric.align_mem <> ic:230 var
+binder 22188:22188 <> i:232
+binder 22191:22192 <> co:233
+R22213:22214 VST.veric.align_mem <> T0:231 var
+binder 22208:22208 <> T:234
+R22219:22227 compcert.lib.Maps PTree set def
+R22262:22262 VST.veric.align_mem <> T:234 var
+R22232:22254 VST.veric.align_mem LegalAlignasStrict legal_alignas_composite def
+R22258:22259 VST.veric.align_mem <> co:233 var
+R22256:22256 VST.veric.align_mem <> T:234 var
+R22229:22229 VST.veric.align_mem <> i:232 var
+def 22296:22309 LegalAlignasStrict is_aligned_aux
+R22315:22318 Coq.Init.Datatypes <> bool ind
+binder 22312:22312 <> b:235
+R22326:22326 Coq.Numbers.BinNums <> Z ind
+binder 22322:22323 <> ha:236
+R22335:22335 Coq.Numbers.BinNums <> Z ind
+binder 22330:22332 <> ofs:237
+R22342:22346 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R22364:22364 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R22341:22341 VST.veric.align_mem <> b:235 var
+R22347:22347 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R22358:22362 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R22351:22355 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R22348:22350 VST.veric.align_mem <> ofs:237 var
+R22356:22357 VST.veric.align_mem <> ha:236 var
+R22372:22384 VST.veric.align_mem LegalAlignasStrict.legal_alignas <> sec
+R22392:22409 VST.veric.align_mem LegalAlignasStrict <> mod
+R22445:22463 VST.veric.align_mem LEGAL_ALIGNAS_FACTS <> mod
+R22493:22510 VST.veric.align_mem LegalAlignasStrict <> modtype
+mod 22420:22442 <> LegalAlignasStrictFacts
+R22537:22554 VST.veric.align_mem LegalAlignasStrict <> modtype
+mod 22521:22532 <> LegalAlignasStrictFacts.LegalAlignas
+R22584:22602 VST.veric.align_mem LegalAlignasDefsGen <> modtype
+R22605:22616 VST.veric.align_mem LegalAlignasStrictFacts.LegalAlignas <> modtype
+mod 22564:22579 <> LegalAlignasStrictFacts.LegalAlignasDefs
+sec 22667:22679 LegalAlignasStrictFacts legal_alignas
+R22698:22710 compcert.cfrontend.Ctypes <> composite_env def
+binder 22692:22695 <> cenv:238
+R22722:22728 compcert.lib.Maps PTree t def
+R22730:22730 Coq.Numbers.BinNums <> Z ind
+binder 22714:22719 <> ha_env:239
+prf 22741:22744 LegalAlignasStrictFacts aux1
+binder 22754:22754 <> T:240
+binder 22756:22757 <> co:241
+R23918:23926 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22779:22782 Coq.Init.Datatypes <> list ind
+R22797:22799 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R22790:22792 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R22785:22789 compcert.common.AST <> ident def
+R22793:22796 compcert.cfrontend.Ctypes <> type ind
+R22800:22803 Coq.Init.Datatypes <> bool ind
+binder 22775:22775 <> l:242
+R22809:22812 Coq.Init.Datatypes <> bool ind
+R22833:22833 VST.veric.align_mem <> l:242 var
+R22852:22854 Coq.Init.Datatypes <> nil constr
+R22859:22862 Coq.Init.Datatypes <> true constr
+R22886:22889 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22876:22876 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22878:22879 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22881:22882 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22885:22885 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22898:22901 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R22902:22903 VST.veric.align_mem <> fm:243 var
+R22933:22935 Coq.Lists.List <> map def
+R23903:23912 compcert.cfrontend.Ctypes <> co_members proj
+R23914:23915 VST.veric.align_mem <> co:241 var
+R22968:22970 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R22960:22967 Coq.Numbers.BinNums <> positive ind
+R22971:22974 compcert.cfrontend.Ctypes <> type ind
+binder 22954:22956 <> it0:245
+R23008:23010 VST.veric.align_mem <> it0:245 var
+binder 22997:22998 <> i0:246
+binder 23001:23002 <> t0:247
+R23028:23028 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23031:23032 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23035:23049 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23899:23899 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23029:23030 VST.veric.align_mem <> i0:246 var
+R23033:23034 VST.veric.align_mem <> t0:247 var
+R23050:23060 VST.veric.composite_compute type_func F def
+R23897:23898 VST.veric.align_mem <> t0:247 var
+R23895:23895 VST.veric.align_mem <> T:240 var
+R23765:23768 Coq.Init.Datatypes <> bool ind
+binder 23760:23761 <> la:248
+R23777:23781 compcert.common.AST <> ident def
+binder 23772:23773 <> id:249
+R23790:23793 compcert.cfrontend.Ctypes <> attr rec
+binder 23785:23786 <> a0:250
+R23815:23815 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R23886:23890 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R23854:23858 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R23816:23831 VST.veric.align_mem <> hardware_alignof def
+R23841:23846 compcert.cfrontend.Ctypes <> Tunion constr
+R23851:23852 VST.veric.align_mem <> a0:250 var
+R23848:23849 VST.veric.align_mem <> id:249 var
+R23833:23838 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.ha_env var
+R23859:23865 compcert.cfrontend.Ctypes <> alignof def
+R23873:23878 compcert.cfrontend.Ctypes <> Tunion constr
+R23883:23884 VST.veric.align_mem <> a0:250 var
+R23880:23881 VST.veric.align_mem <> id:249 var
+R23867:23870 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.cenv var
+R23891:23892 VST.veric.align_mem <> la:248 var
+R23607:23610 Coq.Init.Datatypes <> bool ind
+binder 23602:23603 <> la:251
+R23619:23623 compcert.common.AST <> ident def
+binder 23614:23615 <> id:252
+R23632:23635 compcert.cfrontend.Ctypes <> attr rec
+binder 23627:23628 <> a0:253
+R23657:23657 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R23730:23734 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R23697:23701 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R23658:23673 VST.veric.align_mem <> hardware_alignof def
+R23683:23689 compcert.cfrontend.Ctypes <> Tstruct constr
+R23694:23695 VST.veric.align_mem <> a0:253 var
+R23691:23692 VST.veric.align_mem <> id:252 var
+R23675:23680 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.ha_env var
+R23702:23708 compcert.cfrontend.Ctypes <> alignof def
+R23716:23722 compcert.cfrontend.Ctypes <> Tstruct constr
+R23727:23728 VST.veric.align_mem <> a0:253 var
+R23724:23725 VST.veric.align_mem <> id:252 var
+R23710:23713 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.cenv var
+R23735:23736 VST.veric.align_mem <> la:251 var
+R23398:23401 Coq.Init.Datatypes <> bool ind
+binder 23393:23394 <> la:254
+R23409:23412 compcert.cfrontend.Ctypes <> type ind
+binder 23405:23405 <> t:255
+R23420:23420 Coq.Numbers.BinNums <> Z ind
+binder 23416:23416 <> n:256
+R23429:23432 compcert.cfrontend.Ctypes <> attr rec
+binder 23424:23425 <> a0:257
+R23454:23454 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R23527:23532 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R23578:23578 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R23494:23498 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R23455:23470 VST.veric.align_mem <> hardware_alignof def
+R23480:23485 compcert.cfrontend.Ctypes <> Tarray constr
+R23491:23492 VST.veric.align_mem <> a0:257 var
+R23489:23489 VST.veric.align_mem <> n:256 var
+R23487:23487 VST.veric.align_mem <> t:255 var
+R23472:23477 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.ha_env var
+R23499:23505 compcert.cfrontend.Ctypes <> alignof def
+R23513:23518 compcert.cfrontend.Ctypes <> Tarray constr
+R23524:23525 VST.veric.align_mem <> a0:257 var
+R23522:23522 VST.veric.align_mem <> n:256 var
+R23520:23520 VST.veric.align_mem <> t:255 var
+R23507:23510 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.cenv var
+R23533:23533 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R23571:23575 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R23566:23569 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R23547:23551 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R23534:23539 compcert.cfrontend.Ctypes <> sizeof def
+R23546:23546 VST.veric.align_mem <> t:255 var
+R23541:23544 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.cenv var
+R23552:23558 compcert.cfrontend.Ctypes <> alignof def
+R23565:23565 VST.veric.align_mem <> t:255 var
+R23560:23563 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.cenv var
+R23576:23577 VST.veric.align_mem <> la:254 var
+R23086:23089 compcert.cfrontend.Ctypes <> type ind
+binder 23082:23082 <> t:258
+R23110:23110 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R23155:23175 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R23136:23140 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R23111:23126 VST.veric.align_mem <> hardware_alignof def
+R23135:23135 VST.veric.align_mem <> t:258 var
+R23128:23133 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.ha_env var
+R23141:23147 compcert.cfrontend.Ctypes <> alignof def
+R23154:23154 VST.veric.align_mem <> t:258 var
+R23149:23152 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.cenv var
+R23182:23192 compcert.cfrontend.Ctypes <> access_mode def
+R23194:23194 VST.veric.align_mem <> t:258 var
+R23219:23226 compcert.cfrontend.Ctypes <> By_value constr
+R23233:23236 Coq.Init.Datatypes <> true constr
+R23256:23267 compcert.cfrontend.Ctypes <> By_reference constr
+R23272:23276 Coq.Init.Datatypes <> false constr
+R23296:23302 compcert.cfrontend.Ctypes <> By_copy constr
+R23307:23311 Coq.Init.Datatypes <> false constr
+R23331:23340 compcert.cfrontend.Ctypes <> By_nothing constr
+R23345:23349 Coq.Init.Datatypes <> false constr
+R23927:23949 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_composite def
+R23965:23966 VST.veric.align_mem <> co:241 var
+R23963:23963 VST.veric.align_mem <> T:240 var
+R23956:23961 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.ha_env var
+R23951:23954 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.cenv var
+R23993:24015 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_composite def
+R24018:24038 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_members def
+R24041:24058 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_type def
+R24074:24083 compcert.cfrontend.Ctypes <> co_members proj
+R24074:24083 compcert.cfrontend.Ctypes <> co_members proj
+R24253:24255 compcert.lib.Maps <> :::x_'!'_x not
+R24253:24255 compcert.lib.Maps <> :::x_'!'_x not
+R24296:24298 compcert.lib.Maps <> :::x_'!'_x not
+R24296:24298 compcert.lib.Maps <> :::x_'!'_x not
+prf 24321:24324 LegalAlignasStrictFacts aux2
+R24331:24331 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25377:25384 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24332:24344 VST.veric.composite_compute type_func Env def
+R25327:25370 VST.veric.composite_compute composite_reorder rebuild_composite_elements def
+R25372:25375 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.cenv var
+R25128:25142 compcert.cfrontend.Ctypes <> struct_or_union ind
+R25170:25173 Coq.Init.Datatypes <> list ind
+R25188:25190 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R25181:25183 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R25176:25180 compcert.common.AST <> ident def
+R25184:25187 compcert.cfrontend.Ctypes <> type ind
+R25191:25194 Coq.Init.Datatypes <> bool ind
+binder 25166:25166 <> l:259
+R25200:25203 Coq.Init.Datatypes <> bool ind
+R25227:25227 VST.veric.align_mem <> l:259 var
+R25249:25251 Coq.Init.Datatypes <> nil constr
+R25256:25259 Coq.Init.Datatypes <> true constr
+R25286:25289 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25276:25276 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25278:25279 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25281:25282 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25285:25285 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25298:25301 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R25302:25303 VST.veric.align_mem <> fm:260 var
+R24984:24987 Coq.Init.Datatypes <> bool ind
+binder 24979:24980 <> la:262
+R24996:25000 compcert.common.AST <> ident def
+binder 24991:24992 <> id:263
+R25009:25012 compcert.cfrontend.Ctypes <> attr rec
+binder 25004:25005 <> a0:264
+R25029:25029 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R25100:25104 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R25068:25072 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R25030:25045 VST.veric.align_mem <> hardware_alignof def
+R25055:25060 compcert.cfrontend.Ctypes <> Tunion constr
+R25065:25066 VST.veric.align_mem <> a0:264 var
+R25062:25063 VST.veric.align_mem <> id:263 var
+R25047:25052 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.ha_env var
+R25073:25079 compcert.cfrontend.Ctypes <> alignof def
+R25087:25092 compcert.cfrontend.Ctypes <> Tunion constr
+R25097:25098 VST.veric.align_mem <> a0:264 var
+R25094:25095 VST.veric.align_mem <> id:263 var
+R25081:25084 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.cenv var
+R25105:25106 VST.veric.align_mem <> la:262 var
+R24836:24839 Coq.Init.Datatypes <> bool ind
+binder 24831:24832 <> la:265
+R24848:24852 compcert.common.AST <> ident def
+binder 24843:24844 <> id:266
+R24861:24864 compcert.cfrontend.Ctypes <> attr rec
+binder 24856:24857 <> a0:267
+R24881:24881 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R24954:24958 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R24921:24925 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R24882:24897 VST.veric.align_mem <> hardware_alignof def
+R24907:24913 compcert.cfrontend.Ctypes <> Tstruct constr
+R24918:24919 VST.veric.align_mem <> a0:267 var
+R24915:24916 VST.veric.align_mem <> id:266 var
+R24899:24904 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.ha_env var
+R24926:24932 compcert.cfrontend.Ctypes <> alignof def
+R24940:24946 compcert.cfrontend.Ctypes <> Tstruct constr
+R24951:24952 VST.veric.align_mem <> a0:267 var
+R24948:24949 VST.veric.align_mem <> id:266 var
+R24934:24937 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.cenv var
+R24959:24960 VST.veric.align_mem <> la:265 var
+R24637:24640 Coq.Init.Datatypes <> bool ind
+binder 24632:24633 <> la:268
+R24648:24651 compcert.cfrontend.Ctypes <> type ind
+binder 24644:24644 <> t:269
+R24659:24659 Coq.Numbers.BinNums <> Z ind
+binder 24655:24655 <> n:270
+R24668:24671 compcert.cfrontend.Ctypes <> attr rec
+binder 24663:24664 <> a0:271
+R24688:24688 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R24761:24766 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R24812:24812 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R24728:24732 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R24689:24704 VST.veric.align_mem <> hardware_alignof def
+R24714:24719 compcert.cfrontend.Ctypes <> Tarray constr
+R24725:24726 VST.veric.align_mem <> a0:271 var
+R24723:24723 VST.veric.align_mem <> n:270 var
+R24721:24721 VST.veric.align_mem <> t:269 var
+R24706:24711 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.ha_env var
+R24733:24739 compcert.cfrontend.Ctypes <> alignof def
+R24747:24752 compcert.cfrontend.Ctypes <> Tarray constr
+R24758:24759 VST.veric.align_mem <> a0:271 var
+R24756:24756 VST.veric.align_mem <> n:270 var
+R24754:24754 VST.veric.align_mem <> t:269 var
+R24741:24744 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.cenv var
+R24767:24767 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R24805:24809 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R24800:24803 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R24781:24785 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R24768:24773 compcert.cfrontend.Ctypes <> sizeof def
+R24780:24780 VST.veric.align_mem <> t:269 var
+R24775:24778 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.cenv var
+R24786:24792 compcert.cfrontend.Ctypes <> alignof def
+R24799:24799 VST.veric.align_mem <> t:269 var
+R24794:24797 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.cenv var
+R24810:24811 VST.veric.align_mem <> la:268 var
+R24365:24368 compcert.cfrontend.Ctypes <> type ind
+binder 24361:24361 <> t:272
+R24384:24384 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R24429:24444 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R24410:24414 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R24385:24400 VST.veric.align_mem <> hardware_alignof def
+R24409:24409 VST.veric.align_mem <> t:272 var
+R24402:24407 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.ha_env var
+R24415:24421 compcert.cfrontend.Ctypes <> alignof def
+R24428:24428 VST.veric.align_mem <> t:272 var
+R24423:24426 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.cenv var
+R24451:24461 compcert.cfrontend.Ctypes <> access_mode def
+R24463:24463 VST.veric.align_mem <> t:272 var
+R24483:24490 compcert.cfrontend.Ctypes <> By_value constr
+R24497:24500 Coq.Init.Datatypes <> true constr
+R24515:24526 compcert.cfrontend.Ctypes <> By_reference constr
+R24531:24535 Coq.Init.Datatypes <> false constr
+R24550:24556 compcert.cfrontend.Ctypes <> By_copy constr
+R24561:24565 Coq.Init.Datatypes <> false constr
+R24580:24589 compcert.cfrontend.Ctypes <> By_nothing constr
+R24594:24598 Coq.Init.Datatypes <> false constr
+R25385:25401 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_env def
+R25408:25413 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.ha_env var
+R25403:25406 VST.veric.align_mem <> LegalAlignasStrictFacts.legal_alignas.cenv var
+R25442:25454 VST.veric.composite_compute type_func Env def
+R25457:25473 VST.veric.composite_compute type_func env_rec def
+R25476:25492 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_env def
+R25591:25594 VST.veric.align_mem LegalAlignasStrictFacts aux1 thm
+R25591:25594 VST.veric.align_mem LegalAlignasStrictFacts aux1 thm
+R25607:25619 VST.veric.align_mem LegalAlignasStrictFacts.legal_alignas <> sec
+prf 25631:25659 LegalAlignasStrictFacts legal_alignas_env_consistency
+R25678:25690 compcert.cfrontend.Ctypes <> composite_env def
+binder 25672:25675 <> cenv:273
+R25702:25708 compcert.lib.Maps PTree t def
+R25710:25710 Coq.Numbers.BinNums <> Z ind
+binder 25694:25699 <> ha_env:274
+R25747:25754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25755:25782 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_env_consistent def
+R25797:25813 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_env def
+R25820:25825 VST.veric.align_mem <> ha_env:274 var
+R25815:25818 VST.veric.align_mem <> cenv:273 var
+R25789:25794 VST.veric.align_mem <> ha_env:274 var
+R25784:25787 VST.veric.align_mem <> cenv:273 var
+R25718:25741 compcert.cfrontend.Ctypes <> composite_env_consistent def
+R25743:25746 VST.veric.align_mem <> cenv:273 var
+R25860:25887 VST.veric.composite_compute <> composite_reorder_consistent thm
+R26521:26524 Coq.Init.Datatypes <> list ind
+R26539:26541 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R26532:26534 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R26527:26531 compcert.common.AST <> ident def
+R26535:26538 compcert.cfrontend.Ctypes <> type ind
+R26542:26545 Coq.Init.Datatypes <> bool ind
+binder 26518:26518 <> l:275
+R26550:26553 Coq.Init.Datatypes <> bool ind
+R26580:26580 VST.veric.align_mem <> l:275 var
+R26605:26607 Coq.Init.Datatypes <> nil constr
+R26612:26615 Coq.Init.Datatypes <> true constr
+R26645:26648 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26635:26635 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26637:26638 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26640:26641 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26644:26644 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26657:26661 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26667:26667 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26662:26663 VST.veric.align_mem <> fm:276 var
+binder 26382:26383 <> la:278
+binder 26385:26386 <> id:279
+binder 26388:26388 <> a:280
+R26393:26393 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26462:26466 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26431:26435 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R26394:26409 VST.veric.align_mem <> hardware_alignof def
+R26419:26424 compcert.cfrontend.Ctypes <> Tunion constr
+R26429:26429 VST.veric.align_mem <> a:280 var
+R26426:26427 VST.veric.align_mem <> id:279 var
+R26436:26442 compcert.cfrontend.Ctypes <> alignof def
+R26450:26455 compcert.cfrontend.Ctypes <> Tunion constr
+R26460:26460 VST.veric.align_mem <> a:280 var
+R26457:26458 VST.veric.align_mem <> id:279 var
+R26467:26468 VST.veric.align_mem <> la:278 var
+binder 26273:26274 <> la:281
+binder 26276:26277 <> id:282
+binder 26279:26279 <> a:283
+R26284:26284 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26355:26359 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26323:26327 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R26285:26300 VST.veric.align_mem <> hardware_alignof def
+R26310:26316 compcert.cfrontend.Ctypes <> Tstruct constr
+R26321:26321 VST.veric.align_mem <> a:283 var
+R26318:26319 VST.veric.align_mem <> id:282 var
+R26328:26334 compcert.cfrontend.Ctypes <> alignof def
+R26342:26348 compcert.cfrontend.Ctypes <> Tstruct constr
+R26353:26353 VST.veric.align_mem <> a:283 var
+R26350:26351 VST.veric.align_mem <> id:282 var
+R26360:26361 VST.veric.align_mem <> la:281 var
+binder 26118:26119 <> la:284
+binder 26121:26121 <> t:285
+binder 26123:26123 <> n:286
+binder 26125:26125 <> a:287
+R26130:26130 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26201:26206 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26252:26252 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26169:26173 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R26131:26146 VST.veric.align_mem <> hardware_alignof def
+R26156:26161 compcert.cfrontend.Ctypes <> Tarray constr
+R26167:26167 VST.veric.align_mem <> a:287 var
+R26165:26165 VST.veric.align_mem <> n:286 var
+R26163:26163 VST.veric.align_mem <> t:285 var
+R26174:26180 compcert.cfrontend.Ctypes <> alignof def
+R26188:26193 compcert.cfrontend.Ctypes <> Tarray constr
+R26199:26199 VST.veric.align_mem <> a:287 var
+R26197:26197 VST.veric.align_mem <> n:286 var
+R26195:26195 VST.veric.align_mem <> t:285 var
+R26207:26207 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26245:26249 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26240:26243 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R26221:26225 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R26208:26213 compcert.cfrontend.Ctypes <> sizeof def
+R26220:26220 VST.veric.align_mem <> t:285 var
+R26226:26232 compcert.cfrontend.Ctypes <> alignof def
+R26239:26239 VST.veric.align_mem <> t:285 var
+R26250:26251 VST.veric.align_mem <> la:284 var
+binder 25917:25917 <> t:288
+R25922:25922 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R25967:25987 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R25948:25952 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R25923:25938 VST.veric.align_mem <> hardware_alignof def
+R25947:25947 VST.veric.align_mem <> t:288 var
+R25953:25959 compcert.cfrontend.Ctypes <> alignof def
+R25966:25966 VST.veric.align_mem <> t:288 var
+R25994:26004 compcert.cfrontend.Ctypes <> access_mode def
+R26006:26006 VST.veric.align_mem <> t:288 var
+R26031:26038 compcert.cfrontend.Ctypes <> By_value constr
+R26045:26048 Coq.Init.Datatypes <> true constr
+R26073:26077 Coq.Init.Datatypes <> false constr
+R25889:25892 Coq.Init.Datatypes <> bool ind
+R25860:25887 VST.veric.composite_compute <> composite_reorder_consistent thm
+R26521:26524 Coq.Init.Datatypes <> list ind
+R26539:26541 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R26532:26534 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R26527:26531 compcert.common.AST <> ident def
+R26535:26538 compcert.cfrontend.Ctypes <> type ind
+R26542:26545 Coq.Init.Datatypes <> bool ind
+binder 26518:26518 <> l:289
+R26550:26553 Coq.Init.Datatypes <> bool ind
+R26580:26580 VST.veric.align_mem <> l:289 var
+R26605:26607 Coq.Init.Datatypes <> nil constr
+R26612:26615 Coq.Init.Datatypes <> true constr
+R26645:26648 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26635:26635 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26637:26638 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26640:26641 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26644:26644 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26657:26661 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26667:26667 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26662:26663 VST.veric.align_mem <> fm:290 var
+binder 26382:26383 <> la:292
+binder 26385:26386 <> id:293
+binder 26388:26388 <> a:294
+R26393:26393 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26462:26466 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26431:26435 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R26394:26409 VST.veric.align_mem <> hardware_alignof def
+R26419:26424 compcert.cfrontend.Ctypes <> Tunion constr
+R26429:26429 VST.veric.align_mem <> a:294 var
+R26426:26427 VST.veric.align_mem <> id:293 var
+R26436:26442 compcert.cfrontend.Ctypes <> alignof def
+R26450:26455 compcert.cfrontend.Ctypes <> Tunion constr
+R26460:26460 VST.veric.align_mem <> a:294 var
+R26457:26458 VST.veric.align_mem <> id:293 var
+R26467:26468 VST.veric.align_mem <> la:292 var
+binder 26273:26274 <> la:295
+binder 26276:26277 <> id:296
+binder 26279:26279 <> a:297
+R26284:26284 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26355:26359 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26323:26327 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R26285:26300 VST.veric.align_mem <> hardware_alignof def
+R26310:26316 compcert.cfrontend.Ctypes <> Tstruct constr
+R26321:26321 VST.veric.align_mem <> a:297 var
+R26318:26319 VST.veric.align_mem <> id:296 var
+R26328:26334 compcert.cfrontend.Ctypes <> alignof def
+R26342:26348 compcert.cfrontend.Ctypes <> Tstruct constr
+R26353:26353 VST.veric.align_mem <> a:297 var
+R26350:26351 VST.veric.align_mem <> id:296 var
+R26360:26361 VST.veric.align_mem <> la:295 var
+binder 26118:26119 <> la:298
+binder 26121:26121 <> t:299
+binder 26123:26123 <> n:300
+binder 26125:26125 <> a:301
+R26130:26130 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26201:26206 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26252:26252 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26169:26173 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R26131:26146 VST.veric.align_mem <> hardware_alignof def
+R26156:26161 compcert.cfrontend.Ctypes <> Tarray constr
+R26167:26167 VST.veric.align_mem <> a:301 var
+R26165:26165 VST.veric.align_mem <> n:300 var
+R26163:26163 VST.veric.align_mem <> t:299 var
+R26174:26180 compcert.cfrontend.Ctypes <> alignof def
+R26188:26193 compcert.cfrontend.Ctypes <> Tarray constr
+R26199:26199 VST.veric.align_mem <> a:301 var
+R26197:26197 VST.veric.align_mem <> n:300 var
+R26195:26195 VST.veric.align_mem <> t:299 var
+R26207:26207 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26245:26249 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26240:26243 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R26221:26225 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R26208:26213 compcert.cfrontend.Ctypes <> sizeof def
+R26220:26220 VST.veric.align_mem <> t:299 var
+R26226:26232 compcert.cfrontend.Ctypes <> alignof def
+R26239:26239 VST.veric.align_mem <> t:299 var
+R26250:26251 VST.veric.align_mem <> la:298 var
+binder 25917:25917 <> t:302
+R25922:25922 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R25967:25987 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R25948:25952 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R25923:25938 VST.veric.align_mem <> hardware_alignof def
+R25947:25947 VST.veric.align_mem <> t:302 var
+R25953:25959 compcert.cfrontend.Ctypes <> alignof def
+R25966:25966 VST.veric.align_mem <> t:302 var
+R25994:26004 compcert.cfrontend.Ctypes <> access_mode def
+R26006:26006 VST.veric.align_mem <> t:302 var
+R26031:26038 compcert.cfrontend.Ctypes <> By_value constr
+R26045:26048 Coq.Init.Datatypes <> true constr
+R26073:26077 Coq.Init.Datatypes <> false constr
+R25889:25892 Coq.Init.Datatypes <> bool ind
+R26739:26742 VST.veric.align_mem LegalAlignasStrictFacts aux2 thm
+R26739:26742 VST.veric.align_mem LegalAlignasStrictFacts aux2 thm
+R26739:26742 VST.veric.align_mem LegalAlignasStrictFacts aux2 thm
+R26812:26815 VST.veric.align_mem LegalAlignasStrictFacts aux1 thm
+R26812:26815 VST.veric.align_mem LegalAlignasStrictFacts aux1 thm
+R26812:26815 VST.veric.align_mem LegalAlignasStrictFacts aux1 thm
+prf 26838:26867 LegalAlignasStrictFacts legal_alignas_env_completeness
+R26886:26898 compcert.cfrontend.Ctypes <> composite_env def
+binder 26880:26883 <> cenv:303
+R26910:26916 compcert.lib.Maps PTree t def
+R26918:26918 Coq.Numbers.BinNums <> Z ind
+binder 26902:26907 <> ha_env:304
+R26926:26951 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_env_complete def
+R26959:26975 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_env def
+R26982:26987 VST.veric.align_mem <> ha_env:304 var
+R26977:26980 VST.veric.align_mem <> cenv:303 var
+R26953:26956 VST.veric.align_mem <> cenv:303 var
+R27022:27047 VST.veric.composite_compute <> composite_reorder_complete thm
+R27681:27684 Coq.Init.Datatypes <> list ind
+R27699:27701 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R27692:27694 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R27687:27691 compcert.common.AST <> ident def
+R27695:27698 compcert.cfrontend.Ctypes <> type ind
+R27702:27705 Coq.Init.Datatypes <> bool ind
+binder 27678:27678 <> l:305
+R27710:27713 Coq.Init.Datatypes <> bool ind
+R27740:27740 VST.veric.align_mem <> l:305 var
+R27765:27767 Coq.Init.Datatypes <> nil constr
+R27772:27775 Coq.Init.Datatypes <> true constr
+R27805:27808 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27795:27795 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27797:27798 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27800:27801 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27804:27804 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27817:27821 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27827:27827 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27822:27823 VST.veric.align_mem <> fm:306 var
+binder 27542:27543 <> la:308
+binder 27545:27546 <> id:309
+binder 27548:27548 <> a:310
+R27553:27553 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27622:27626 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27591:27595 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R27554:27569 VST.veric.align_mem <> hardware_alignof def
+R27579:27584 compcert.cfrontend.Ctypes <> Tunion constr
+R27589:27589 VST.veric.align_mem <> a:310 var
+R27586:27587 VST.veric.align_mem <> id:309 var
+R27596:27602 compcert.cfrontend.Ctypes <> alignof def
+R27610:27615 compcert.cfrontend.Ctypes <> Tunion constr
+R27620:27620 VST.veric.align_mem <> a:310 var
+R27617:27618 VST.veric.align_mem <> id:309 var
+R27627:27628 VST.veric.align_mem <> la:308 var
+binder 27433:27434 <> la:311
+binder 27436:27437 <> id:312
+binder 27439:27439 <> a:313
+R27444:27444 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27515:27519 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27483:27487 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R27445:27460 VST.veric.align_mem <> hardware_alignof def
+R27470:27476 compcert.cfrontend.Ctypes <> Tstruct constr
+R27481:27481 VST.veric.align_mem <> a:313 var
+R27478:27479 VST.veric.align_mem <> id:312 var
+R27488:27494 compcert.cfrontend.Ctypes <> alignof def
+R27502:27508 compcert.cfrontend.Ctypes <> Tstruct constr
+R27513:27513 VST.veric.align_mem <> a:313 var
+R27510:27511 VST.veric.align_mem <> id:312 var
+R27520:27521 VST.veric.align_mem <> la:311 var
+binder 27278:27279 <> la:314
+binder 27281:27281 <> t:315
+binder 27283:27283 <> n:316
+binder 27285:27285 <> a:317
+R27290:27290 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27361:27366 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27412:27412 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27329:27333 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R27291:27306 VST.veric.align_mem <> hardware_alignof def
+R27316:27321 compcert.cfrontend.Ctypes <> Tarray constr
+R27327:27327 VST.veric.align_mem <> a:317 var
+R27325:27325 VST.veric.align_mem <> n:316 var
+R27323:27323 VST.veric.align_mem <> t:315 var
+R27334:27340 compcert.cfrontend.Ctypes <> alignof def
+R27348:27353 compcert.cfrontend.Ctypes <> Tarray constr
+R27359:27359 VST.veric.align_mem <> a:317 var
+R27357:27357 VST.veric.align_mem <> n:316 var
+R27355:27355 VST.veric.align_mem <> t:315 var
+R27367:27367 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27405:27409 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27400:27403 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R27381:27385 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R27368:27373 compcert.cfrontend.Ctypes <> sizeof def
+R27380:27380 VST.veric.align_mem <> t:315 var
+R27386:27392 compcert.cfrontend.Ctypes <> alignof def
+R27399:27399 VST.veric.align_mem <> t:315 var
+R27410:27411 VST.veric.align_mem <> la:314 var
+binder 27077:27077 <> t:318
+R27082:27082 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27127:27147 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27108:27112 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R27083:27098 VST.veric.align_mem <> hardware_alignof def
+R27107:27107 VST.veric.align_mem <> t:318 var
+R27113:27119 compcert.cfrontend.Ctypes <> alignof def
+R27126:27126 VST.veric.align_mem <> t:318 var
+R27154:27164 compcert.cfrontend.Ctypes <> access_mode def
+R27166:27166 VST.veric.align_mem <> t:318 var
+R27191:27198 compcert.cfrontend.Ctypes <> By_value constr
+R27205:27208 Coq.Init.Datatypes <> true constr
+R27233:27237 Coq.Init.Datatypes <> false constr
+R27049:27052 Coq.Init.Datatypes <> bool ind
+R27022:27047 VST.veric.composite_compute <> composite_reorder_complete thm
+R27681:27684 Coq.Init.Datatypes <> list ind
+R27699:27701 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R27692:27694 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R27687:27691 compcert.common.AST <> ident def
+R27695:27698 compcert.cfrontend.Ctypes <> type ind
+R27702:27705 Coq.Init.Datatypes <> bool ind
+binder 27678:27678 <> l:319
+R27710:27713 Coq.Init.Datatypes <> bool ind
+R27740:27740 VST.veric.align_mem <> l:319 var
+R27765:27767 Coq.Init.Datatypes <> nil constr
+R27772:27775 Coq.Init.Datatypes <> true constr
+R27805:27808 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27795:27795 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27797:27798 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27800:27801 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27804:27804 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27817:27821 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27827:27827 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27822:27823 VST.veric.align_mem <> fm:320 var
+binder 27542:27543 <> la:322
+binder 27545:27546 <> id:323
+binder 27548:27548 <> a:324
+R27553:27553 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27622:27626 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27591:27595 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R27554:27569 VST.veric.align_mem <> hardware_alignof def
+R27579:27584 compcert.cfrontend.Ctypes <> Tunion constr
+R27589:27589 VST.veric.align_mem <> a:324 var
+R27586:27587 VST.veric.align_mem <> id:323 var
+R27596:27602 compcert.cfrontend.Ctypes <> alignof def
+R27610:27615 compcert.cfrontend.Ctypes <> Tunion constr
+R27620:27620 VST.veric.align_mem <> a:324 var
+R27617:27618 VST.veric.align_mem <> id:323 var
+R27627:27628 VST.veric.align_mem <> la:322 var
+binder 27433:27434 <> la:325
+binder 27436:27437 <> id:326
+binder 27439:27439 <> a:327
+R27444:27444 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27515:27519 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27483:27487 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R27445:27460 VST.veric.align_mem <> hardware_alignof def
+R27470:27476 compcert.cfrontend.Ctypes <> Tstruct constr
+R27481:27481 VST.veric.align_mem <> a:327 var
+R27478:27479 VST.veric.align_mem <> id:326 var
+R27488:27494 compcert.cfrontend.Ctypes <> alignof def
+R27502:27508 compcert.cfrontend.Ctypes <> Tstruct constr
+R27513:27513 VST.veric.align_mem <> a:327 var
+R27510:27511 VST.veric.align_mem <> id:326 var
+R27520:27521 VST.veric.align_mem <> la:325 var
+binder 27278:27279 <> la:328
+binder 27281:27281 <> t:329
+binder 27283:27283 <> n:330
+binder 27285:27285 <> a:331
+R27290:27290 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27361:27366 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27412:27412 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27329:27333 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R27291:27306 VST.veric.align_mem <> hardware_alignof def
+R27316:27321 compcert.cfrontend.Ctypes <> Tarray constr
+R27327:27327 VST.veric.align_mem <> a:331 var
+R27325:27325 VST.veric.align_mem <> n:330 var
+R27323:27323 VST.veric.align_mem <> t:329 var
+R27334:27340 compcert.cfrontend.Ctypes <> alignof def
+R27348:27353 compcert.cfrontend.Ctypes <> Tarray constr
+R27359:27359 VST.veric.align_mem <> a:331 var
+R27357:27357 VST.veric.align_mem <> n:330 var
+R27355:27355 VST.veric.align_mem <> t:329 var
+R27367:27367 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27405:27409 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27400:27403 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R27381:27385 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R27368:27373 compcert.cfrontend.Ctypes <> sizeof def
+R27380:27380 VST.veric.align_mem <> t:329 var
+R27386:27392 compcert.cfrontend.Ctypes <> alignof def
+R27399:27399 VST.veric.align_mem <> t:329 var
+R27410:27411 VST.veric.align_mem <> la:328 var
+binder 27077:27077 <> t:332
+R27082:27082 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27127:27147 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27108:27112 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R27083:27098 VST.veric.align_mem <> hardware_alignof def
+R27107:27107 VST.veric.align_mem <> t:332 var
+R27113:27119 compcert.cfrontend.Ctypes <> alignof def
+R27126:27126 VST.veric.align_mem <> t:332 var
+R27154:27164 compcert.cfrontend.Ctypes <> access_mode def
+R27166:27166 VST.veric.align_mem <> t:332 var
+R27191:27198 compcert.cfrontend.Ctypes <> By_value constr
+R27205:27208 Coq.Init.Datatypes <> true constr
+R27233:27237 Coq.Init.Datatypes <> false constr
+R27049:27052 Coq.Init.Datatypes <> bool ind
+R27884:27887 VST.veric.align_mem LegalAlignasStrictFacts aux2 thm
+R27884:27887 VST.veric.align_mem LegalAlignasStrictFacts aux2 thm
+R27884:27887 VST.veric.align_mem LegalAlignasStrictFacts aux2 thm
+sec 27918:27926 LegalAlignasStrictFacts soundness
+R27945:27957 compcert.cfrontend.Ctypes <> composite_env def
+binder 27939:27942 <> cenv:333
+R27977:27983 compcert.lib.Maps PTree t def
+R27985:27985 Coq.Numbers.BinNums <> Z ind
+binder 27969:27974 <> ha_env:334
+R28005:28011 compcert.lib.Maps PTree t def
+R28013:28016 Coq.Init.Datatypes <> bool ind
+binder 27997:28002 <> la_env:335
+R28040:28063 compcert.cfrontend.Ctypes <> composite_env_consistent def
+R28065:28068 VST.veric.align_mem <> cenv:333 var
+binder 28028:28037 <> CENV_CONSI:336
+R28091:28128 VST.veric.composite_compute <> composite_env_complete_legal_cosu_type def
+R28130:28133 VST.veric.align_mem <> cenv:333 var
+binder 28080:28088 <> CENV_COSU:337
+R28159:28189 VST.veric.align_mem <> hardware_alignof_env_consistent def
+R28196:28201 VST.veric.align_mem <> ha_env:334 var
+R28191:28194 VST.veric.align_mem <> cenv:333 var
+binder 28145:28156 <> HA_ENV_CONSI:338
+R28227:28255 VST.veric.align_mem <> hardware_alignof_env_complete def
+R28262:28267 VST.veric.align_mem <> ha_env:334 var
+R28257:28260 VST.veric.align_mem <> cenv:333 var
+binder 28213:28224 <> HA_ENV_COMPL:339
+R28293:28320 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_env_consistent def
+R28334:28339 VST.veric.align_mem <> la_env:335 var
+R28327:28332 VST.veric.align_mem <> ha_env:334 var
+R28322:28325 VST.veric.align_mem <> cenv:333 var
+binder 28279:28290 <> LA_ENV_CONSI:340
+R28365:28390 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_env_complete def
+R28397:28402 VST.veric.align_mem <> la_env:335 var
+R28392:28395 VST.veric.align_mem <> cenv:333 var
+binder 28351:28362 <> LA_ENV_COMPL:341
+prf 28413:28437 LegalAlignasStrictFacts legal_alignas_type_divide
+binder 28447:28447 <> t:342
+R28498:28503 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28504:28504 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R28530:28532 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R28547:28547 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R28505:28520 VST.veric.align_mem <> hardware_alignof def
+R28529:28529 VST.veric.align_mem <> t:342 var
+R28522:28527 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.ha_env var
+R28533:28539 compcert.cfrontend.Ctypes <> alignof def
+R28546:28546 VST.veric.align_mem <> t:342 var
+R28541:28544 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.cenv var
+R28491:28493 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28452:28469 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_type def
+R28490:28490 VST.veric.align_mem <> t:342 var
+R28483:28488 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.la_env var
+R28476:28481 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.ha_env var
+R28471:28474 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.cenv var
+R28494:28497 Coq.Init.Datatypes <> true constr
+R28621:28623 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28602:28606 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R28577:28592 VST.veric.align_mem <> hardware_alignof def
+R28594:28599 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.ha_env var
+R28607:28613 compcert.cfrontend.Ctypes <> alignof def
+R28615:28618 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.cenv var
+R28624:28627 Coq.Init.Datatypes <> true constr
+R28621:28623 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28602:28606 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R28577:28592 VST.veric.align_mem <> hardware_alignof def
+R28594:28599 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.ha_env var
+R28607:28613 compcert.cfrontend.Ctypes <> alignof def
+R28615:28618 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.cenv var
+R28624:28627 Coq.Init.Datatypes <> true constr
+R28695:28707 Coq.Bool.Bool <> andb_true_iff thm
+R28695:28707 Coq.Bool.Bool <> andb_true_iff thm
+R28695:28707 Coq.Bool.Bool <> andb_true_iff thm
+R28695:28707 Coq.Bool.Bool <> andb_true_iff thm
+R28695:28707 Coq.Bool.Bool <> andb_true_iff thm
+R28695:28707 Coq.Bool.Bool <> andb_true_iff thm
+R28695:28707 Coq.Bool.Bool <> andb_true_iff thm
+R28695:28707 Coq.Bool.Bool <> andb_true_iff thm
+R28695:28707 Coq.Bool.Bool <> andb_true_iff thm
+R28695:28707 Coq.Bool.Bool <> andb_true_iff thm
+R28695:28707 Coq.Bool.Bool <> andb_true_iff thm
+R28695:28707 Coq.Bool.Bool <> andb_true_iff thm
+R28695:28707 Coq.Bool.Bool <> andb_true_iff thm
+R28695:28707 Coq.Bool.Bool <> andb_true_iff thm
+R28695:28707 Coq.Bool.Bool <> andb_true_iff thm
+prf 28779:28792 LegalAlignasStrictFacts by_value_sound
+binder 28804:28804 <> t:343
+binder 28806:28808 <> ofs:344
+R28857:28864 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28865:28865 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28904:28912 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28913:28932 VST.veric.align_mem <> align_compatible_rec ind
+R28941:28943 VST.veric.align_mem <> ofs:344 var
+R28939:28939 VST.veric.align_mem <> t:343 var
+R28934:28937 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.cenv var
+R28866:28872 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R28875:28876 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 28873:28874 <> ch:345
+R28890:28892 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28877:28887 compcert.cfrontend.Ctypes <> access_mode def
+R28889:28889 VST.veric.align_mem <> t:343 var
+R28893:28900 compcert.cfrontend.Ctypes <> By_value constr
+R28902:28903 VST.veric.align_mem <> ch:345 var
+R28850:28852 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28815:28824 VST.veric.align_mem LegalAlignasStrictFacts is_aligned def
+R28847:28849 VST.veric.align_mem <> ofs:344 var
+R28845:28845 VST.veric.align_mem <> t:343 var
+R28838:28843 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.la_env var
+R28831:28836 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.ha_env var
+R28826:28829 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.cenv var
+R28853:28856 Coq.Init.Datatypes <> true constr
+R28972:28981 VST.veric.align_mem LegalAlignasStrictFacts is_aligned def
+R28984:28997 VST.veric.align_mem LegalAlignasStrictFacts is_aligned_aux def
+R29000:29017 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_type def
+R29020:29035 VST.veric.align_mem <> hardware_alignof def
+R29154:29156 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29121:29125 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R29153:29153 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R29078:29078 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R29112:29116 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R29093:29097 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R29079:29089 compcert.common.Memdata <> align_chunk def
+R29098:29104 compcert.cfrontend.Ctypes <> alignof def
+R29106:29109 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.cenv var
+R29117:29120 Coq.Init.Datatypes <> true constr
+R29148:29151 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R29129:29133 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R29134:29144 compcert.common.Memdata <> align_chunk def
+R29157:29160 Coq.Init.Datatypes <> true constr
+R29154:29156 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29121:29125 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R29153:29153 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R29078:29078 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R29112:29116 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R29093:29097 Coq.ZArith.BinInt <> ::Z_scope:x_'<=?'_x not
+R29079:29089 compcert.common.Memdata <> align_chunk def
+R29098:29104 compcert.cfrontend.Ctypes <> alignof def
+R29106:29109 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.cenv var
+R29117:29120 Coq.Init.Datatypes <> true constr
+R29148:29151 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R29129:29133 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R29134:29144 compcert.common.Memdata <> align_chunk def
+R29157:29160 Coq.Init.Datatypes <> true constr
+R29307:29335 VST.veric.align_mem <> align_compatible_rec_by_value constr
+R29307:29335 VST.veric.align_mem <> align_compatible_rec_by_value constr
+prf 29359:29381 LegalAlignasStrictFacts legal_alignas_soundness
+R29386:29408 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_env_sound def
+R29422:29427 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.la_env var
+R29415:29420 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.ha_env var
+R29410:29413 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.cenv var
+R29450:29458 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.CENV_COSU var
+R29450:29458 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.CENV_COSU var
+R29548:29551 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.cenv var
+R29553:29562 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.CENV_CONSI var
+R29601:29614 VST.veric.align_mem LegalAlignasStrictFacts by_value_sound thm
+R29601:29614 VST.veric.align_mem LegalAlignasStrictFacts by_value_sound thm
+R29680:29693 VST.veric.align_mem LegalAlignasStrictFacts by_value_sound thm
+R29680:29693 VST.veric.align_mem LegalAlignasStrictFacts by_value_sound thm
+R29756:29769 VST.veric.align_mem LegalAlignasStrictFacts by_value_sound thm
+R29756:29769 VST.veric.align_mem LegalAlignasStrictFacts by_value_sound thm
+R29832:29845 VST.veric.align_mem LegalAlignasStrictFacts by_value_sound thm
+R29832:29845 VST.veric.align_mem LegalAlignasStrictFacts by_value_sound thm
+R29895:29921 VST.veric.align_mem <> align_compatible_rec_Tarray constr
+R29895:29921 VST.veric.align_mem <> align_compatible_rec_Tarray constr
+R29967:29976 VST.veric.align_mem LegalAlignasStrictFacts is_aligned def
+R29979:29992 VST.veric.align_mem LegalAlignasStrictFacts is_aligned_aux def
+R30016:30022 compcert.cfrontend.Ctypes <> alignof def
+R30054:30060 compcert.cfrontend.Ctypes <> alignof def
+R30161:30174 Coq.ZArith.BinInt Z divide_add_r thm
+R30161:30174 Coq.ZArith.BinInt Z divide_add_r thm
+R30193:30206 Coq.ZArith.BinInt Z divide_mul_l thm
+R30193:30206 Coq.ZArith.BinInt Z divide_mul_l thm
+R30235:30259 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_type_divide thm
+R30235:30259 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_type_divide thm
+R30279:30292 Coq.ZArith.BinInt Z divide_trans thm
+R30279:30292 Coq.ZArith.BinInt Z divide_trans thm
+R30334:30343 VST.veric.align_mem LegalAlignasStrictFacts is_aligned def
+R30346:30359 VST.veric.align_mem LegalAlignasStrictFacts is_aligned_aux def
+R30382:30388 compcert.cfrontend.Ctypes <> alignof def
+R30419:30425 compcert.cfrontend.Ctypes <> alignof def
+R30448:30450 compcert.lib.Maps <> :::x_'!'_x not
+R30442:30447 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.la_env var
+R30448:30450 compcert.lib.Maps <> :::x_'!'_x not
+R30442:30447 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.la_env var
+R30497:30505 Coq.Bool.Bool <> andb_comm thm
+R30509:30513 Coq.Init.Datatypes <> false constr
+R30497:30505 Coq.Bool.Bool <> andb_comm thm
+R30509:30513 Coq.Init.Datatypes <> false constr
+R30497:30505 Coq.Bool.Bool <> andb_comm thm
+R30509:30513 Coq.Init.Datatypes <> false constr
+R30556:30560 Coq.Init.Logic <> proj2 thm
+R30581:30588 Coq.Init.Logic <> ex_intro constr
+R30563:30574 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.LA_ENV_COMPL var
+R30556:30560 Coq.Init.Logic <> proj2 thm
+R30581:30588 Coq.Init.Logic <> ex_intro constr
+R30563:30574 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.LA_ENV_COMPL var
+R30624:30628 Coq.Init.Logic <> proj1 thm
+R30649:30656 Coq.Init.Logic <> ex_intro constr
+R30631:30642 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.HA_ENV_COMPL var
+R30624:30628 Coq.Init.Logic <> proj1 thm
+R30649:30656 Coq.Init.Logic <> ex_intro constr
+R30631:30642 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.HA_ENV_COMPL var
+R30729:30740 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.HA_ENV_CONSI var
+R30729:30740 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.HA_ENV_CONSI var
+R30729:30740 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.HA_ENV_CONSI var
+R30775:30786 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.LA_ENV_CONSI var
+R30775:30786 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.LA_ENV_CONSI var
+R30775:30786 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.LA_ENV_CONSI var
+R30819:30846 VST.veric.align_mem <> align_compatible_rec_Tstruct constr
+R30819:30846 VST.veric.align_mem <> align_compatible_rec_Tstruct constr
+R30888:30907 compcert.cfrontend.Ctypes <> field_offset_aligned thm
+R30888:30907 compcert.cfrontend.Ctypes <> field_offset_aligned thm
+R30937:30948 compcert.cfrontend.Ctypes <> field_offset def
+R30991:31013 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_composite def
+R31081:31087 compcert.cfrontend.Ctypes <> alignof def
+R31122:31128 compcert.cfrontend.Ctypes <> alignof def
+R31320:31333 Coq.ZArith.BinInt Z divide_add_r thm
+R31320:31333 Coq.ZArith.BinInt Z divide_add_r thm
+R31356:31380 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_type_divide thm
+R31356:31380 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_type_divide thm
+R31423:31429 compcert.cfrontend.Ctypes <> alignof def
+R31431:31434 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.cenv var
+R31402:31415 Coq.ZArith.BinInt Z divide_trans thm
+R31423:31429 compcert.cfrontend.Ctypes <> alignof def
+R31431:31434 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.cenv var
+R31402:31415 Coq.ZArith.BinInt Z divide_trans thm
+R31570:31579 VST.veric.align_mem LegalAlignasStrictFacts is_aligned def
+R31582:31595 VST.veric.align_mem LegalAlignasStrictFacts is_aligned_aux def
+R31618:31624 compcert.cfrontend.Ctypes <> alignof def
+R31655:31661 compcert.cfrontend.Ctypes <> alignof def
+R31684:31686 compcert.lib.Maps <> :::x_'!'_x not
+R31678:31683 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.la_env var
+R31684:31686 compcert.lib.Maps <> :::x_'!'_x not
+R31678:31683 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.la_env var
+R31732:31740 Coq.Bool.Bool <> andb_comm thm
+R31744:31748 Coq.Init.Datatypes <> false constr
+R31732:31740 Coq.Bool.Bool <> andb_comm thm
+R31744:31748 Coq.Init.Datatypes <> false constr
+R31732:31740 Coq.Bool.Bool <> andb_comm thm
+R31744:31748 Coq.Init.Datatypes <> false constr
+R31791:31795 Coq.Init.Logic <> proj2 thm
+R31816:31823 Coq.Init.Logic <> ex_intro constr
+R31798:31809 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.LA_ENV_COMPL var
+R31791:31795 Coq.Init.Logic <> proj2 thm
+R31816:31823 Coq.Init.Logic <> ex_intro constr
+R31798:31809 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.LA_ENV_COMPL var
+R31859:31863 Coq.Init.Logic <> proj1 thm
+R31884:31891 Coq.Init.Logic <> ex_intro constr
+R31866:31877 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.HA_ENV_COMPL var
+R31859:31863 Coq.Init.Logic <> proj1 thm
+R31884:31891 Coq.Init.Logic <> ex_intro constr
+R31866:31877 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.HA_ENV_COMPL var
+R31964:31975 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.HA_ENV_CONSI var
+R31964:31975 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.HA_ENV_CONSI var
+R31964:31975 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.HA_ENV_CONSI var
+R32010:32021 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.LA_ENV_CONSI var
+R32010:32021 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.LA_ENV_CONSI var
+R32010:32021 VST.veric.align_mem <> LegalAlignasStrictFacts.soundness.LA_ENV_CONSI var
+R32054:32080 VST.veric.align_mem <> align_compatible_rec_Tunion constr
+R32054:32080 VST.veric.align_mem <> align_compatible_rec_Tunion constr
+R32138:32160 VST.veric.align_mem LegalAlignasStrictFacts legal_alignas_composite def
+R32228:32234 compcert.cfrontend.Ctypes <> alignof def
+R32269:32275 compcert.cfrontend.Ctypes <> alignof def
+R30016:30022 compcert.cfrontend.Ctypes <> alignof def
+R30054:30060 compcert.cfrontend.Ctypes <> alignof def
+R30382:30388 compcert.cfrontend.Ctypes <> alignof def
+R30419:30425 compcert.cfrontend.Ctypes <> alignof def
+R31081:31087 compcert.cfrontend.Ctypes <> alignof def
+R31122:31128 compcert.cfrontend.Ctypes <> alignof def
+R31618:31624 compcert.cfrontend.Ctypes <> alignof def
+R31655:31661 compcert.cfrontend.Ctypes <> alignof def
+R32228:32234 compcert.cfrontend.Ctypes <> alignof def
+R32269:32275 compcert.cfrontend.Ctypes <> alignof def
+R32564:32572 VST.veric.align_mem LegalAlignasStrictFacts.soundness <> sec
+R32580:32602 VST.veric.align_mem LegalAlignasStrictFacts <> mod
+R32635:32647 VST.veric.align_mem LEGAL_ALIGNAS <> mod
+mod 32613:32630 <> LegalAlignasStrong
+sec 32659:32671 LegalAlignasStrong legal_alignas
+R32690:32702 compcert.cfrontend.Ctypes <> composite_env def
+binder 32684:32687 <> cenv:346
+R32714:32720 compcert.lib.Maps PTree t def
+R32722:32722 Coq.Numbers.BinNums <> Z ind
+binder 32706:32711 <> ha_env:347
+def 32738:32754 LegalAlignasStrong legal_alignas_obs
+R32765:32768 Coq.Init.Datatypes <> bool ind
+def 32781:32798 LegalAlignasStrong legal_alignas_type
+R32809:32815 compcert.lib.Maps PTree t def
+R32817:32820 Coq.Init.Datatypes <> bool ind
+binder 32801:32806 <> la_env:348
+binder 32823:32823 <> t:349
+R32826:32829 Coq.Init.Datatypes <> bool ind
+R32842:32842 VST.veric.align_mem <> t:349 var
+R32853:32858 compcert.cfrontend.Ctypes <> Tarray constr
+R32870:32870 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R32921:32925 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R32916:32919 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R32885:32889 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R32871:32876 compcert.cfrontend.Ctypes <> sizeof def
+R32878:32881 VST.veric.align_mem <> LegalAlignasStrong.legal_alignas.cenv var
+R32890:32905 VST.veric.align_mem <> hardware_alignof def
+R32907:32912 VST.veric.align_mem <> LegalAlignasStrong.legal_alignas.ha_env var
+R32926:32943 VST.veric.align_mem <> legal_alignas_type:350 def
+R32945:32950 VST.veric.align_mem <> la_env:348 var
+R32959:32965 compcert.cfrontend.Ctypes <> Tstruct constr
+R32993:32995 compcert.lib.Maps <> :::x_'!'_x not
+R32987:32992 VST.veric.align_mem <> la_env:348 var
+R33012:33015 Coq.Init.Datatypes <> Some constr
+R33034:33037 Coq.Init.Datatypes <> None constr
+R33042:33046 Coq.Init.Datatypes <> false constr
+R33062:33067 compcert.cfrontend.Ctypes <> Tunion constr
+R33095:33097 compcert.lib.Maps <> :::x_'!'_x not
+R33089:33094 VST.veric.align_mem <> la_env:348 var
+R33114:33117 Coq.Init.Datatypes <> Some constr
+R33136:33139 Coq.Init.Datatypes <> None constr
+R33144:33148 Coq.Init.Datatypes <> false constr
+R33175:33185 compcert.cfrontend.Ctypes <> access_mode def
+R33187:33187 VST.veric.align_mem <> t:349 var
+R33205:33212 compcert.cfrontend.Ctypes <> By_value constr
+R33220:33223 Coq.Init.Datatypes <> true constr
+R33241:33245 Coq.Init.Datatypes <> false constr
+def 33277:33308 LegalAlignasStrong legal_alignas_struct_members_rec
+R33319:33325 compcert.lib.Maps PTree t def
+R33327:33330 Coq.Init.Datatypes <> bool ind
+binder 33311:33316 <> la_env:352
+R33337:33343 compcert.cfrontend.Ctypes <> members def
+binder 33334:33334 <> m:353
+R33352:33352 Coq.Numbers.BinNums <> Z ind
+binder 33347:33349 <> pos:354
+R33356:33359 Coq.Init.Datatypes <> bool ind
+R33372:33372 VST.veric.align_mem <> m:353 var
+R33383:33385 Coq.Init.Datatypes <> nil constr
+R33390:33393 Coq.Init.Datatypes <> true constr
+R33405:33408 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R33399:33399 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33401:33402 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33404:33404 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33511:33515 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R33603:33603 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R33415:33415 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R33477:33482 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R33510:33510 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R33472:33475 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R33442:33446 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R33416:33420 compcert.lib.Coqlib <> align def
+R33427:33433 compcert.cfrontend.Ctypes <> alignof def
+R33435:33438 VST.veric.align_mem <> LegalAlignasStrong.legal_alignas.cenv var
+R33422:33424 VST.veric.align_mem <> pos:354 var
+R33447:33462 VST.veric.align_mem <> hardware_alignof def
+R33464:33469 VST.veric.align_mem <> LegalAlignasStrong.legal_alignas.ha_env var
+R33483:33500 VST.veric.align_mem LegalAlignasStrong legal_alignas_type def
+R33502:33507 VST.veric.align_mem <> la_env:352 var
+R33516:33547 VST.veric.align_mem <> legal_alignas_struct_members_rec:355 def
+R33586:33588 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R33560:33564 compcert.lib.Coqlib <> align def
+R33571:33577 compcert.cfrontend.Ctypes <> alignof def
+R33579:33582 VST.veric.align_mem <> LegalAlignasStrong.legal_alignas.cenv var
+R33566:33568 VST.veric.align_mem <> pos:354 var
+R33589:33594 compcert.cfrontend.Ctypes <> sizeof def
+R33596:33599 VST.veric.align_mem <> LegalAlignasStrong.legal_alignas.cenv var
+R33549:33554 VST.veric.align_mem <> la_env:352 var
+def 33622:33652 LegalAlignasStrong legal_alignas_union_members_rec
+R33663:33669 compcert.lib.Maps PTree t def
+R33671:33674 Coq.Init.Datatypes <> bool ind
+binder 33655:33660 <> la_env:357
+R33681:33687 compcert.cfrontend.Ctypes <> members def
+binder 33678:33678 <> m:358
+R33691:33694 Coq.Init.Datatypes <> bool ind
+R33707:33707 VST.veric.align_mem <> m:358 var
+R33718:33720 Coq.Init.Datatypes <> nil constr
+R33725:33728 Coq.Init.Datatypes <> true constr
+R33740:33743 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R33734:33734 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33736:33737 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33739:33739 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R33750:33750 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R33778:33783 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R33825:33825 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R33751:33768 VST.veric.align_mem LegalAlignasStrong legal_alignas_type def
+R33770:33775 VST.veric.align_mem <> la_env:357 var
+R33784:33814 VST.veric.align_mem <> legal_alignas_union_members_rec:359 def
+R33816:33821 VST.veric.align_mem <> la_env:357 var
+def 33846:33868 LegalAlignasStrong legal_alignas_composite
+R33879:33885 compcert.lib.Maps PTree t def
+R33887:33890 Coq.Init.Datatypes <> bool ind
+binder 33871:33876 <> la_env:361
+R33898:33906 compcert.cfrontend.Ctypes <> composite rec
+binder 33894:33895 <> co:362
+R33910:33913 Coq.Init.Datatypes <> bool ind
+R33926:33930 compcert.cfrontend.Ctypes <> co_su proj
+R33932:33933 VST.veric.align_mem <> co:362 var
+R33944:33949 compcert.cfrontend.Ctypes <> Struct constr
+R33954:33985 VST.veric.align_mem LegalAlignasStrong legal_alignas_struct_members_rec def
+R33995:34004 compcert.cfrontend.Ctypes <> co_members proj
+R34006:34007 VST.veric.align_mem <> co:362 var
+R33987:33992 VST.veric.align_mem <> la_env:361 var
+R34016:34020 compcert.cfrontend.Ctypes <> Union constr
+R34025:34055 VST.veric.align_mem LegalAlignasStrong legal_alignas_union_members_rec def
+R34065:34074 compcert.cfrontend.Ctypes <> co_members proj
+R34076:34077 VST.veric.align_mem <> co:362 var
+R34057:34062 VST.veric.align_mem <> la_env:361 var
+def 34099:34115 LegalAlignasStrong legal_alignas_env
+R34118:34124 compcert.lib.Maps PTree t def
+R34126:34129 Coq.Init.Datatypes <> bool ind
+R34145:34188 VST.veric.composite_compute composite_reorder rebuild_composite_elements def
+R34190:34193 VST.veric.align_mem <> LegalAlignasStrong.legal_alignas.cenv var
+binder 34140:34140 <> l:363
+R34200:34209 Coq.Lists.List <> fold_right def
+R34363:34363 VST.veric.align_mem <> l:363 var
+R34348:34358 compcert.lib.Maps PTree empty def
+R34229:34231 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R34221:34228 Coq.Numbers.BinNums <> positive ind
+R34232:34240 compcert.cfrontend.Ctypes <> composite rec
+binder 34217:34218 <> ic:364
+R34248:34254 compcert.lib.Maps PTree t def
+R34256:34259 Coq.Init.Datatypes <> bool ind
+binder 34244:34245 <> T0:365
+R34280:34281 VST.veric.align_mem <> ic:364 var
+binder 34270:34270 <> i:366
+binder 34273:34274 <> co:367
+R34295:34296 VST.veric.align_mem <> T0:365 var
+binder 34290:34290 <> T:368
+R34301:34309 compcert.lib.Maps PTree set def
+R34344:34344 VST.veric.align_mem <> T:368 var
+R34314:34336 VST.veric.align_mem LegalAlignasStrong legal_alignas_composite def
+R34340:34341 VST.veric.align_mem <> co:367 var
+R34338:34338 VST.veric.align_mem <> T:368 var
+R34311:34311 VST.veric.align_mem <> i:366 var
+def 34378:34391 LegalAlignasStrong is_aligned_aux
+R34397:34400 Coq.Init.Datatypes <> bool ind
+binder 34394:34394 <> b:369
+R34408:34408 Coq.Numbers.BinNums <> Z ind
+binder 34404:34405 <> ha:370
+R34417:34417 Coq.Numbers.BinNums <> Z ind
+binder 34412:34414 <> ofs:371
+R34424:34428 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R34446:34446 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R34423:34423 VST.veric.align_mem <> b:369 var
+R34429:34429 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R34440:34444 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R34433:34437 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R34430:34432 VST.veric.align_mem <> ofs:371 var
+R34438:34439 VST.veric.align_mem <> ha:370 var
+R34454:34466 VST.veric.align_mem LegalAlignasStrong.legal_alignas <> sec
+R34474:34491 VST.veric.align_mem LegalAlignasStrong <> mod
+R34527:34545 VST.veric.align_mem LEGAL_ALIGNAS_FACTS <> mod
+R34575:34592 VST.veric.align_mem LegalAlignasStrong <> modtype
+mod 34502:34524 <> LegalAlignasStrongFacts
+R34619:34636 VST.veric.align_mem LegalAlignasStrong <> modtype
+mod 34603:34614 <> LegalAlignasStrongFacts.LegalAlignas
+R34666:34684 VST.veric.align_mem LegalAlignasDefsGen <> modtype
+R34687:34698 VST.veric.align_mem LegalAlignasStrongFacts.LegalAlignas <> modtype
+mod 34646:34661 <> LegalAlignasStrongFacts.LegalAlignasDefs
+sec 34749:34761 LegalAlignasStrongFacts legal_alignas
+R34780:34792 compcert.cfrontend.Ctypes <> composite_env def
+binder 34774:34777 <> cenv:372
+R34804:34810 compcert.lib.Maps PTree t def
+R34812:34812 Coq.Numbers.BinNums <> Z ind
+binder 34796:34801 <> ha_env:373
+prf 34823:34826 LegalAlignasStrongFacts aux1
+binder 34836:34836 <> T:374
+binder 34838:34839 <> co:375
+R35967:35969 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34850:34854 compcert.cfrontend.Ctypes <> co_su proj
+R34856:34857 VST.veric.align_mem <> co:375 var
+R34868:34873 compcert.cfrontend.Ctypes <> Struct constr
+R34899:34899 Coq.Numbers.BinNums <> Z ind
+binder 34893:34895 <> pos:376
+R34907:34910 Coq.Init.Datatypes <> list ind
+R34925:34927 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R34918:34920 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R34913:34917 compcert.common.AST <> ident def
+R34921:34924 compcert.cfrontend.Ctypes <> type ind
+R34928:34931 Coq.Init.Datatypes <> bool ind
+binder 34903:34903 <> l:377
+R34948:34951 Coq.Init.Datatypes <> bool ind
+R34971:34971 VST.veric.align_mem <> l:377 var
+R34989:34991 Coq.Init.Datatypes <> nil constr
+R34996:34999 Coq.Init.Datatypes <> true constr
+R35022:35025 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R35012:35012 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35014:35015 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35017:35018 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35021:35021 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35127:35130 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R35045:35045 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R35107:35124 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R35102:35105 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R35072:35076 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R35046:35050 compcert.lib.Coqlib <> align def
+R35057:35063 compcert.cfrontend.Ctypes <> alignof def
+R35065:35068 VST.veric.align_mem <> LegalAlignasStrongFacts.legal_alignas.cenv var
+R35052:35054 VST.veric.align_mem <> pos:376 var
+R35077:35092 VST.veric.align_mem <> hardware_alignof def
+R35094:35099 VST.veric.align_mem <> LegalAlignasStrongFacts.legal_alignas.ha_env var
+R35131:35132 VST.veric.align_mem <> fm:378 var
+R35161:35163 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R35135:35139 compcert.lib.Coqlib <> align def
+R35146:35152 compcert.cfrontend.Ctypes <> alignof def
+R35154:35157 VST.veric.align_mem <> LegalAlignasStrongFacts.legal_alignas.cenv var
+R35141:35143 VST.veric.align_mem <> pos:376 var
+R35164:35169 compcert.cfrontend.Ctypes <> sizeof def
+R35171:35174 VST.veric.align_mem <> LegalAlignasStrongFacts.legal_alignas.cenv var
+R35202:35206 compcert.cfrontend.Ctypes <> Union constr
+R35229:35232 Coq.Init.Datatypes <> list ind
+R35247:35249 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R35240:35242 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R35235:35239 compcert.common.AST <> ident def
+R35243:35246 compcert.cfrontend.Ctypes <> type ind
+R35250:35253 Coq.Init.Datatypes <> bool ind
+binder 35225:35225 <> l:380
+R35259:35262 Coq.Init.Datatypes <> bool ind
+R35281:35281 VST.veric.align_mem <> l:380 var
+R35298:35300 Coq.Init.Datatypes <> nil constr
+R35305:35308 Coq.Init.Datatypes <> true constr
+R35330:35333 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R35320:35320 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35322:35323 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35325:35326 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35329:35329 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35342:35345 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R35346:35347 VST.veric.align_mem <> fm:381 var
+R35375:35377 Coq.Lists.List <> map def
+R35952:35961 compcert.cfrontend.Ctypes <> co_members proj
+R35963:35964 VST.veric.align_mem <> co:375 var
+R35405:35407 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R35397:35404 Coq.Numbers.BinNums <> positive ind
+R35408:35411 compcert.cfrontend.Ctypes <> type ind
+binder 35391:35393 <> it0:383
+R35440:35442 VST.veric.align_mem <> it0:383 var
+binder 35429:35430 <> i0:384
+binder 35433:35434 <> t0:385
+R35455:35455 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35458:35459 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35462:35471 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35940:35940 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35456:35457 VST.veric.align_mem <> i0:384 var
+R35460:35461 VST.veric.align_mem <> t0:385 var
+R35472:35482 VST.veric.composite_compute type_func F def
+R35938:35939 VST.veric.align_mem <> t0:385 var
+R35936:35936 VST.veric.align_mem <> T:374 var
+R35900:35903 Coq.Init.Datatypes <> bool ind
+binder 35895:35896 <> la:386
+R35911:35915 compcert.common.AST <> ident def
+R35923:35926 compcert.cfrontend.Ctypes <> attr rec
+R35932:35933 VST.veric.align_mem <> la:386 var
+R35843:35846 Coq.Init.Datatypes <> bool ind
+binder 35838:35839 <> la:387
+R35854:35858 compcert.common.AST <> ident def
+R35866:35869 compcert.cfrontend.Ctypes <> attr rec
+R35875:35876 VST.veric.align_mem <> la:387 var
+R35714:35717 Coq.Init.Datatypes <> bool ind
+binder 35709:35710 <> la:388
+R35725:35728 compcert.cfrontend.Ctypes <> type ind
+binder 35721:35721 <> t:389
+R35736:35736 Coq.Numbers.BinNums <> Z ind
+R35744:35747 compcert.cfrontend.Ctypes <> attr rec
+R35764:35764 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R35813:35817 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R35808:35811 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R35778:35782 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R35765:35770 compcert.cfrontend.Ctypes <> sizeof def
+R35777:35777 VST.veric.align_mem <> t:389 var
+R35772:35775 VST.veric.align_mem <> LegalAlignasStrongFacts.legal_alignas.cenv var
+R35783:35798 VST.veric.align_mem <> hardware_alignof def
+R35807:35807 VST.veric.align_mem <> t:389 var
+R35800:35805 VST.veric.align_mem <> LegalAlignasStrongFacts.legal_alignas.ha_env var
+R35818:35819 VST.veric.align_mem <> la:388 var
+R35503:35506 compcert.cfrontend.Ctypes <> type ind
+binder 35499:35499 <> t:390
+R35528:35538 compcert.cfrontend.Ctypes <> access_mode def
+R35540:35540 VST.veric.align_mem <> t:390 var
+R35560:35567 compcert.cfrontend.Ctypes <> By_value constr
+R35574:35577 Coq.Init.Datatypes <> true constr
+R35592:35603 compcert.cfrontend.Ctypes <> By_reference constr
+R35608:35612 Coq.Init.Datatypes <> false constr
+R35627:35633 compcert.cfrontend.Ctypes <> By_copy constr
+R35638:35642 Coq.Init.Datatypes <> false constr
+R35657:35666 compcert.cfrontend.Ctypes <> By_nothing constr
+R35671:35675 Coq.Init.Datatypes <> false constr
+R35970:35992 VST.veric.align_mem LegalAlignasStrongFacts legal_alignas_composite def
+R36008:36009 VST.veric.align_mem <> co:375 var
+R36006:36006 VST.veric.align_mem <> T:374 var
+R35999:36004 VST.veric.align_mem <> LegalAlignasStrongFacts.legal_alignas.ha_env var
+R35994:35997 VST.veric.align_mem <> LegalAlignasStrongFacts.legal_alignas.cenv var
+R36036:36058 VST.veric.align_mem LegalAlignasStrongFacts legal_alignas_composite def
+R36061:36078 VST.veric.align_mem LegalAlignasStrongFacts legal_alignas_type def
+R36093:36097 compcert.cfrontend.Ctypes <> co_su proj
+R36093:36097 compcert.cfrontend.Ctypes <> co_su proj
+R36144:36153 compcert.cfrontend.Ctypes <> co_members proj
+R36144:36153 compcert.cfrontend.Ctypes <> co_members proj
+R36329:36338 compcert.cfrontend.Ctypes <> co_members proj
+R36329:36338 compcert.cfrontend.Ctypes <> co_members proj
+prf 36509:36512 LegalAlignasStrongFacts aux2
+R36519:36519 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R38048:38055 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36520:36532 VST.veric.composite_compute type_func Env def
+R37998:38041 VST.veric.composite_compute composite_reorder rebuild_composite_elements def
+R38043:38046 VST.veric.align_mem <> LegalAlignasStrongFacts.legal_alignas.cenv var
+R37102:37116 compcert.cfrontend.Ctypes <> struct_or_union ind
+binder 37097:37098 <> su:391
+R37146:37147 VST.veric.align_mem <> su:391 var
+R37175:37180 compcert.cfrontend.Ctypes <> Struct constr
+R37247:37247 Coq.Numbers.BinNums <> Z ind
+binder 37241:37243 <> pos:393
+R37255:37258 Coq.Init.Datatypes <> list ind
+R37273:37275 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R37266:37268 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R37261:37265 compcert.common.AST <> ident def
+R37269:37272 compcert.cfrontend.Ctypes <> type ind
+R37276:37279 Coq.Init.Datatypes <> bool ind
+binder 37251:37251 <> l:394
+R37322:37325 Coq.Init.Datatypes <> bool ind
+R37362:37362 VST.veric.align_mem <> l:394 var
+R37397:37399 Coq.Init.Datatypes <> nil constr
+R37404:37407 Coq.Init.Datatypes <> true constr
+R37447:37450 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37437:37437 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37439:37440 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37442:37443 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37446:37446 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37587:37620 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R37487:37487 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R37580:37584 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R37575:37578 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R37514:37549 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R37488:37492 compcert.lib.Coqlib <> align def
+R37499:37505 compcert.cfrontend.Ctypes <> alignof def
+R37507:37510 VST.veric.align_mem <> LegalAlignasStrongFacts.legal_alignas.cenv var
+R37494:37496 VST.veric.align_mem <> pos:393 var
+R37550:37565 VST.veric.align_mem <> hardware_alignof def
+R37567:37572 VST.veric.align_mem <> LegalAlignasStrongFacts.legal_alignas.ha_env var
+R37621:37622 VST.veric.align_mem <> fm:395 var
+R37651:37653 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R37625:37629 compcert.lib.Coqlib <> align def
+R37636:37642 compcert.cfrontend.Ctypes <> alignof def
+R37644:37647 VST.veric.align_mem <> LegalAlignasStrongFacts.legal_alignas.cenv var
+R37631:37633 VST.veric.align_mem <> pos:393 var
+R37654:37659 compcert.cfrontend.Ctypes <> sizeof def
+R37661:37664 VST.veric.align_mem <> LegalAlignasStrongFacts.legal_alignas.cenv var
+R37726:37730 compcert.cfrontend.Ctypes <> Union constr
+R37770:37773 Coq.Init.Datatypes <> list ind
+R37788:37790 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R37781:37783 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R37776:37780 compcert.common.AST <> ident def
+R37784:37787 compcert.cfrontend.Ctypes <> type ind
+R37791:37794 Coq.Init.Datatypes <> bool ind
+binder 37766:37766 <> l:397
+R37800:37803 Coq.Init.Datatypes <> bool ind
+R37839:37839 VST.veric.align_mem <> l:397 var
+R37873:37875 Coq.Init.Datatypes <> nil constr
+R37880:37883 Coq.Init.Datatypes <> true constr
+R37922:37925 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37912:37912 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37914:37915 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37917:37918 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37921:37921 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R37934:37937 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R37938:37939 VST.veric.align_mem <> fm:398 var
+R37038:37041 Coq.Init.Datatypes <> bool ind
+binder 37033:37034 <> la:400
+R37049:37053 compcert.common.AST <> ident def
+R37061:37064 compcert.cfrontend.Ctypes <> attr rec
+R37070:37071 VST.veric.align_mem <> la:400 var
+R36973:36976 Coq.Init.Datatypes <> bool ind
+binder 36968:36969 <> la:401
+R36984:36988 compcert.common.AST <> ident def
+R36996:36999 compcert.cfrontend.Ctypes <> attr rec
+R37005:37006 VST.veric.align_mem <> la:401 var
+R36828:36831 Coq.Init.Datatypes <> bool ind
+binder 36823:36824 <> la:402
+R36839:36842 compcert.cfrontend.Ctypes <> type ind
+binder 36835:36835 <> t:403
+R36850:36850 Coq.Numbers.BinNums <> Z ind
+R36858:36861 compcert.cfrontend.Ctypes <> attr rec
+R36886:36886 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R36935:36939 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R36930:36933 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R36900:36904 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R36887:36892 compcert.cfrontend.Ctypes <> sizeof def
+R36899:36899 VST.veric.align_mem <> t:403 var
+R36894:36897 VST.veric.align_mem <> LegalAlignasStrongFacts.legal_alignas.cenv var
+R36905:36920 VST.veric.align_mem <> hardware_alignof def
+R36929:36929 VST.veric.align_mem <> t:403 var
+R36922:36927 VST.veric.align_mem <> LegalAlignasStrongFacts.legal_alignas.ha_env var
+R36940:36941 VST.veric.align_mem <> la:402 var
+R36561:36564 compcert.cfrontend.Ctypes <> type ind
+binder 36557:36557 <> t:404
+R36594:36604 compcert.cfrontend.Ctypes <> access_mode def
+R36606:36606 VST.veric.align_mem <> t:404 var
+R36634:36641 compcert.cfrontend.Ctypes <> By_value constr
+R36648:36651 Coq.Init.Datatypes <> true constr
+R36674:36685 compcert.cfrontend.Ctypes <> By_reference constr
+R36690:36694 Coq.Init.Datatypes <> false constr
+R36717:36723 compcert.cfrontend.Ctypes <> By_copy constr
+R36728:36732 Coq.Init.Datatypes <> false constr
+R36755:36764 compcert.cfrontend.Ctypes <> By_nothing constr
+R36769:36773 Coq.Init.Datatypes <> false constr
+R38056:38072 VST.veric.align_mem LegalAlignasStrongFacts legal_alignas_env def
+R38079:38084 VST.veric.align_mem <> LegalAlignasStrongFacts.legal_alignas.ha_env var
+R38074:38077 VST.veric.align_mem <> LegalAlignasStrongFacts.legal_alignas.cenv var
+R38113:38125 VST.veric.composite_compute type_func Env def
+R38128:38144 VST.veric.composite_compute type_func env_rec def
+R38147:38163 VST.veric.align_mem LegalAlignasStrongFacts legal_alignas_env def
+R38262:38265 VST.veric.align_mem LegalAlignasStrongFacts aux1 thm
+R38262:38265 VST.veric.align_mem LegalAlignasStrongFacts aux1 thm
+R38278:38290 VST.veric.align_mem LegalAlignasStrongFacts.legal_alignas <> sec
+prf 38302:38330 LegalAlignasStrongFacts legal_alignas_env_consistency
+R38349:38361 compcert.cfrontend.Ctypes <> composite_env def
+binder 38343:38346 <> cenv:405
+R38373:38379 compcert.lib.Maps PTree t def
+R38381:38381 Coq.Numbers.BinNums <> Z ind
+binder 38365:38370 <> ha_env:406
+R38418:38425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38426:38453 VST.veric.align_mem LegalAlignasStrongFacts legal_alignas_env_consistent def
+R38468:38484 VST.veric.align_mem LegalAlignasStrongFacts legal_alignas_env def
+R38491:38496 VST.veric.align_mem <> ha_env:406 var
+R38486:38489 VST.veric.align_mem <> cenv:405 var
+R38460:38465 VST.veric.align_mem <> ha_env:406 var
+R38455:38458 VST.veric.align_mem <> cenv:405 var
+R38389:38412 compcert.cfrontend.Ctypes <> composite_env_consistent def
+R38414:38417 VST.veric.align_mem <> cenv:405 var
+R38531:38558 VST.veric.composite_compute <> composite_reorder_consistent thm
+binder 38895:38896 <> su:407
+R38923:38924 VST.veric.align_mem <> su:407 var
+R38949:38954 compcert.cfrontend.Ctypes <> Struct constr
+R38992:38992 Coq.Numbers.BinNums <> Z ind
+binder 38987:38989 <> pos:409
+R38999:39002 Coq.Init.Datatypes <> list ind
+R39017:39019 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R39010:39012 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R39005:39009 compcert.common.AST <> ident def
+R39013:39016 compcert.cfrontend.Ctypes <> type ind
+R39020:39023 Coq.Init.Datatypes <> bool ind
+binder 38996:38996 <> l:410
+R39029:39032 Coq.Init.Datatypes <> bool ind
+R39063:39063 VST.veric.align_mem <> l:410 var
+R39092:39094 Coq.Init.Datatypes <> nil constr
+R39099:39102 Coq.Init.Datatypes <> true constr
+R39136:39139 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R39126:39126 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39128:39129 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39131:39132 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39135:39135 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39215:39219 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R39270:39270 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R39146:39146 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R39208:39212 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R39203:39206 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R39173:39177 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R39147:39151 compcert.lib.Coqlib <> align def
+R39158:39164 compcert.cfrontend.Ctypes <> alignof def
+R39153:39155 VST.veric.align_mem <> pos:409 var
+R39178:39193 VST.veric.align_mem <> hardware_alignof def
+R39220:39221 VST.veric.align_mem <> fm:411 var
+R39250:39252 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R39224:39228 compcert.lib.Coqlib <> align def
+R39235:39241 compcert.cfrontend.Ctypes <> alignof def
+R39230:39232 VST.veric.align_mem <> pos:409 var
+R39253:39258 compcert.cfrontend.Ctypes <> sizeof def
+R39317:39321 compcert.cfrontend.Ctypes <> Union constr
+R39357:39360 Coq.Init.Datatypes <> list ind
+R39375:39377 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R39368:39370 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R39363:39367 compcert.common.AST <> ident def
+R39371:39374 compcert.cfrontend.Ctypes <> type ind
+R39378:39381 Coq.Init.Datatypes <> bool ind
+binder 39354:39354 <> l:413
+R39387:39390 Coq.Init.Datatypes <> bool ind
+R39421:39421 VST.veric.align_mem <> l:413 var
+R39450:39452 Coq.Init.Datatypes <> nil constr
+R39457:39460 Coq.Init.Datatypes <> true constr
+R39494:39497 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R39484:39484 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39486:39487 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39489:39490 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39493:39493 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39506:39510 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R39516:39516 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R39511:39512 VST.veric.align_mem <> fm:414 var
+binder 38862:38863 <> la:416
+binder 38865:38866 <> id:417
+binder 38868:38868 <> a:418
+R38873:38874 VST.veric.align_mem <> la:416 var
+binder 38829:38830 <> la:419
+binder 38832:38833 <> id:420
+binder 38835:38835 <> a:421
+R38840:38841 VST.veric.align_mem <> la:419 var
+binder 38739:38740 <> la:422
+binder 38742:38742 <> t:423
+binder 38744:38744 <> n:424
+binder 38746:38746 <> a:425
+R38752:38752 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R38801:38805 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R38796:38799 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R38766:38770 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R38753:38758 compcert.cfrontend.Ctypes <> sizeof def
+R38765:38765 VST.veric.align_mem <> t:423 var
+R38771:38786 VST.veric.align_mem <> hardware_alignof def
+R38795:38795 VST.veric.align_mem <> t:423 var
+R38806:38807 VST.veric.align_mem <> la:422 var
+binder 38588:38588 <> t:426
+R38615:38625 compcert.cfrontend.Ctypes <> access_mode def
+R38627:38627 VST.veric.align_mem <> t:426 var
+R38652:38659 compcert.cfrontend.Ctypes <> By_value constr
+R38666:38669 Coq.Init.Datatypes <> true constr
+R38694:38698 Coq.Init.Datatypes <> false constr
+R38560:38563 Coq.Init.Datatypes <> bool ind
+R38531:38558 VST.veric.composite_compute <> composite_reorder_consistent thm
+binder 38895:38896 <> su:427
+R38923:38924 VST.veric.align_mem <> su:427 var
+R38949:38954 compcert.cfrontend.Ctypes <> Struct constr
+R38992:38992 Coq.Numbers.BinNums <> Z ind
+binder 38987:38989 <> pos:429
+R38999:39002 Coq.Init.Datatypes <> list ind
+R39017:39019 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R39010:39012 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R39005:39009 compcert.common.AST <> ident def
+R39013:39016 compcert.cfrontend.Ctypes <> type ind
+R39020:39023 Coq.Init.Datatypes <> bool ind
+binder 38996:38996 <> l:430
+R39029:39032 Coq.Init.Datatypes <> bool ind
+R39063:39063 VST.veric.align_mem <> l:430 var
+R39092:39094 Coq.Init.Datatypes <> nil constr
+R39099:39102 Coq.Init.Datatypes <> true constr
+R39136:39139 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R39126:39126 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39128:39129 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39131:39132 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39135:39135 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39215:39219 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R39270:39270 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R39146:39146 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R39208:39212 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R39203:39206 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R39173:39177 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R39147:39151 compcert.lib.Coqlib <> align def
+R39158:39164 compcert.cfrontend.Ctypes <> alignof def
+R39153:39155 VST.veric.align_mem <> pos:429 var
+R39178:39193 VST.veric.align_mem <> hardware_alignof def
+R39220:39221 VST.veric.align_mem <> fm:431 var
+R39250:39252 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R39224:39228 compcert.lib.Coqlib <> align def
+R39235:39241 compcert.cfrontend.Ctypes <> alignof def
+R39230:39232 VST.veric.align_mem <> pos:429 var
+R39253:39258 compcert.cfrontend.Ctypes <> sizeof def
+R39317:39321 compcert.cfrontend.Ctypes <> Union constr
+R39357:39360 Coq.Init.Datatypes <> list ind
+R39375:39377 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R39368:39370 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R39363:39367 compcert.common.AST <> ident def
+R39371:39374 compcert.cfrontend.Ctypes <> type ind
+R39378:39381 Coq.Init.Datatypes <> bool ind
+binder 39354:39354 <> l:433
+R39387:39390 Coq.Init.Datatypes <> bool ind
+R39421:39421 VST.veric.align_mem <> l:433 var
+R39450:39452 Coq.Init.Datatypes <> nil constr
+R39457:39460 Coq.Init.Datatypes <> true constr
+R39494:39497 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R39484:39484 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39486:39487 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39489:39490 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39493:39493 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39506:39510 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R39516:39516 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R39511:39512 VST.veric.align_mem <> fm:434 var
+binder 38862:38863 <> la:436
+binder 38865:38866 <> id:437
+binder 38868:38868 <> a:438
+R38873:38874 VST.veric.align_mem <> la:436 var
+binder 38829:38830 <> la:439
+binder 38832:38833 <> id:440
+binder 38835:38835 <> a:441
+R38840:38841 VST.veric.align_mem <> la:439 var
+binder 38739:38740 <> la:442
+binder 38742:38742 <> t:443
+binder 38744:38744 <> n:444
+binder 38746:38746 <> a:445
+R38752:38752 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R38801:38805 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R38796:38799 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R38766:38770 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R38753:38758 compcert.cfrontend.Ctypes <> sizeof def
+R38765:38765 VST.veric.align_mem <> t:443 var
+R38771:38786 VST.veric.align_mem <> hardware_alignof def
+R38795:38795 VST.veric.align_mem <> t:443 var
+R38806:38807 VST.veric.align_mem <> la:442 var
+binder 38588:38588 <> t:446
+R38615:38625 compcert.cfrontend.Ctypes <> access_mode def
+R38627:38627 VST.veric.align_mem <> t:446 var
+R38652:38659 compcert.cfrontend.Ctypes <> By_value constr
+R38666:38669 Coq.Init.Datatypes <> true constr
+R38694:38698 Coq.Init.Datatypes <> false constr
+R38560:38563 Coq.Init.Datatypes <> bool ind
+R39613:39616 VST.veric.align_mem LegalAlignasStrongFacts aux2 thm
+R39613:39616 VST.veric.align_mem LegalAlignasStrongFacts aux2 thm
+R39613:39616 VST.veric.align_mem LegalAlignasStrongFacts aux2 thm
+R39689:39692 VST.veric.align_mem LegalAlignasStrongFacts aux1 thm
+R39689:39692 VST.veric.align_mem LegalAlignasStrongFacts aux1 thm
+R39689:39692 VST.veric.align_mem LegalAlignasStrongFacts aux1 thm
+prf 39715:39744 LegalAlignasStrongFacts legal_alignas_env_completeness
+R39763:39775 compcert.cfrontend.Ctypes <> composite_env def
+binder 39757:39760 <> cenv:447
+R39787:39793 compcert.lib.Maps PTree t def
+R39795:39795 Coq.Numbers.BinNums <> Z ind
+binder 39779:39784 <> ha_env:448
+R39803:39828 VST.veric.align_mem LegalAlignasStrongFacts legal_alignas_env_complete def
+R39836:39852 VST.veric.align_mem LegalAlignasStrongFacts legal_alignas_env def
+R39859:39864 VST.veric.align_mem <> ha_env:448 var
+R39854:39857 VST.veric.align_mem <> cenv:447 var
+R39830:39833 VST.veric.align_mem <> cenv:447 var
+R39899:39924 VST.veric.composite_compute <> composite_reorder_complete thm
+binder 40261:40262 <> su:449
+R40289:40290 VST.veric.align_mem <> su:449 var
+R40315:40320 compcert.cfrontend.Ctypes <> Struct constr
+R40358:40358 Coq.Numbers.BinNums <> Z ind
+binder 40353:40355 <> pos:451
+R40365:40368 Coq.Init.Datatypes <> list ind
+R40383:40385 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R40376:40378 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R40371:40375 compcert.common.AST <> ident def
+R40379:40382 compcert.cfrontend.Ctypes <> type ind
+R40386:40389 Coq.Init.Datatypes <> bool ind
+binder 40362:40362 <> l:452
+R40395:40398 Coq.Init.Datatypes <> bool ind
+R40429:40429 VST.veric.align_mem <> l:452 var
+R40458:40460 Coq.Init.Datatypes <> nil constr
+R40465:40468 Coq.Init.Datatypes <> true constr
+R40502:40505 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R40492:40492 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R40494:40495 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R40497:40498 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R40501:40501 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R40581:40585 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R40636:40636 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R40512:40512 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R40574:40578 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R40569:40572 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R40539:40543 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R40513:40517 compcert.lib.Coqlib <> align def
+R40524:40530 compcert.cfrontend.Ctypes <> alignof def
+R40519:40521 VST.veric.align_mem <> pos:451 var
+R40544:40559 VST.veric.align_mem <> hardware_alignof def
+R40586:40587 VST.veric.align_mem <> fm:453 var
+R40616:40618 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R40590:40594 compcert.lib.Coqlib <> align def
+R40601:40607 compcert.cfrontend.Ctypes <> alignof def
+R40596:40598 VST.veric.align_mem <> pos:451 var
+R40619:40624 compcert.cfrontend.Ctypes <> sizeof def
+R40683:40687 compcert.cfrontend.Ctypes <> Union constr
+R40723:40726 Coq.Init.Datatypes <> list ind
+R40741:40743 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R40734:40736 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R40729:40733 compcert.common.AST <> ident def
+R40737:40740 compcert.cfrontend.Ctypes <> type ind
+R40744:40747 Coq.Init.Datatypes <> bool ind
+binder 40720:40720 <> l:455
+R40753:40756 Coq.Init.Datatypes <> bool ind
+R40787:40787 VST.veric.align_mem <> l:455 var
+R40816:40818 Coq.Init.Datatypes <> nil constr
+R40823:40826 Coq.Init.Datatypes <> true constr
+R40860:40863 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R40850:40850 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R40852:40853 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R40855:40856 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R40859:40859 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R40872:40876 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R40882:40882 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R40877:40878 VST.veric.align_mem <> fm:456 var
+binder 40228:40229 <> la:458
+binder 40231:40232 <> id:459
+binder 40234:40234 <> a:460
+R40239:40240 VST.veric.align_mem <> la:458 var
+binder 40195:40196 <> la:461
+binder 40198:40199 <> id:462
+binder 40201:40201 <> a:463
+R40206:40207 VST.veric.align_mem <> la:461 var
+binder 40105:40106 <> la:464
+binder 40108:40108 <> t:465
+binder 40110:40110 <> n:466
+binder 40112:40112 <> a:467
+R40118:40118 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R40167:40171 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R40162:40165 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R40132:40136 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R40119:40124 compcert.cfrontend.Ctypes <> sizeof def
+R40131:40131 VST.veric.align_mem <> t:465 var
+R40137:40152 VST.veric.align_mem <> hardware_alignof def
+R40161:40161 VST.veric.align_mem <> t:465 var
+R40172:40173 VST.veric.align_mem <> la:464 var
+binder 39954:39954 <> t:468
+R39981:39991 compcert.cfrontend.Ctypes <> access_mode def
+R39993:39993 VST.veric.align_mem <> t:468 var
+R40018:40025 compcert.cfrontend.Ctypes <> By_value constr
+R40032:40035 Coq.Init.Datatypes <> true constr
+R40060:40064 Coq.Init.Datatypes <> false constr
+R39926:39929 Coq.Init.Datatypes <> bool ind
+R39899:39924 VST.veric.composite_compute <> composite_reorder_complete thm
+binder 40261:40262 <> su:469
+R40289:40290 VST.veric.align_mem <> su:469 var
+R40315:40320 compcert.cfrontend.Ctypes <> Struct constr
+R40358:40358 Coq.Numbers.BinNums <> Z ind
+binder 40353:40355 <> pos:471
+R40365:40368 Coq.Init.Datatypes <> list ind
+R40383:40385 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R40376:40378 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R40371:40375 compcert.common.AST <> ident def
+R40379:40382 compcert.cfrontend.Ctypes <> type ind
+R40386:40389 Coq.Init.Datatypes <> bool ind
+binder 40362:40362 <> l:472
+R40395:40398 Coq.Init.Datatypes <> bool ind
+R40429:40429 VST.veric.align_mem <> l:472 var
+R40458:40460 Coq.Init.Datatypes <> nil constr
+R40465:40468 Coq.Init.Datatypes <> true constr
+R40502:40505 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R40492:40492 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R40494:40495 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R40497:40498 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R40501:40501 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R40581:40585 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R40636:40636 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R40512:40512 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R40574:40578 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R40569:40572 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R40539:40543 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R40513:40517 compcert.lib.Coqlib <> align def
+R40524:40530 compcert.cfrontend.Ctypes <> alignof def
+R40519:40521 VST.veric.align_mem <> pos:471 var
+R40544:40559 VST.veric.align_mem <> hardware_alignof def
+R40586:40587 VST.veric.align_mem <> fm:473 var
+R40616:40618 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R40590:40594 compcert.lib.Coqlib <> align def
+R40601:40607 compcert.cfrontend.Ctypes <> alignof def
+R40596:40598 VST.veric.align_mem <> pos:471 var
+R40619:40624 compcert.cfrontend.Ctypes <> sizeof def
+R40683:40687 compcert.cfrontend.Ctypes <> Union constr
+R40723:40726 Coq.Init.Datatypes <> list ind
+R40741:40743 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R40734:40736 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R40729:40733 compcert.common.AST <> ident def
+R40737:40740 compcert.cfrontend.Ctypes <> type ind
+R40744:40747 Coq.Init.Datatypes <> bool ind
+binder 40720:40720 <> l:475
+R40753:40756 Coq.Init.Datatypes <> bool ind
+R40787:40787 VST.veric.align_mem <> l:475 var
+R40816:40818 Coq.Init.Datatypes <> nil constr
+R40823:40826 Coq.Init.Datatypes <> true constr
+R40860:40863 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R40850:40850 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R40852:40853 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R40855:40856 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R40859:40859 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R40872:40876 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R40882:40882 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R40877:40878 VST.veric.align_mem <> fm:476 var
+binder 40228:40229 <> la:478
+binder 40231:40232 <> id:479
+binder 40234:40234 <> a:480
+R40239:40240 VST.veric.align_mem <> la:478 var
+binder 40195:40196 <> la:481
+binder 40198:40199 <> id:482
+binder 40201:40201 <> a:483
+R40206:40207 VST.veric.align_mem <> la:481 var
+binder 40105:40106 <> la:484
+binder 40108:40108 <> t:485
+binder 40110:40110 <> n:486
+binder 40112:40112 <> a:487
+R40118:40118 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R40167:40171 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R40162:40165 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R40132:40136 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R40119:40124 compcert.cfrontend.Ctypes <> sizeof def
+R40131:40131 VST.veric.align_mem <> t:485 var
+R40137:40152 VST.veric.align_mem <> hardware_alignof def
+R40161:40161 VST.veric.align_mem <> t:485 var
+R40172:40173 VST.veric.align_mem <> la:484 var
+binder 39954:39954 <> t:488
+R39981:39991 compcert.cfrontend.Ctypes <> access_mode def
+R39993:39993 VST.veric.align_mem <> t:488 var
+R40018:40025 compcert.cfrontend.Ctypes <> By_value constr
+R40032:40035 Coq.Init.Datatypes <> true constr
+R40060:40064 Coq.Init.Datatypes <> false constr
+R39926:39929 Coq.Init.Datatypes <> bool ind
+R40964:40967 VST.veric.align_mem LegalAlignasStrongFacts aux2 thm
+R40964:40967 VST.veric.align_mem LegalAlignasStrongFacts aux2 thm
+R40964:40967 VST.veric.align_mem LegalAlignasStrongFacts aux2 thm
+sec 40998:41006 LegalAlignasStrongFacts soundness
+R41025:41037 compcert.cfrontend.Ctypes <> composite_env def
+binder 41019:41022 <> cenv:489
+R41057:41063 compcert.lib.Maps PTree t def
+R41065:41065 Coq.Numbers.BinNums <> Z ind
+binder 41049:41054 <> ha_env:490
+R41085:41091 compcert.lib.Maps PTree t def
+R41093:41096 Coq.Init.Datatypes <> bool ind
+binder 41077:41082 <> la_env:491
+R41120:41143 compcert.cfrontend.Ctypes <> composite_env_consistent def
+R41145:41148 VST.veric.align_mem <> cenv:489 var
+binder 41108:41117 <> CENV_CONSI:492
+R41171:41208 VST.veric.composite_compute <> composite_env_complete_legal_cosu_type def
+R41210:41213 VST.veric.align_mem <> cenv:489 var
+binder 41160:41168 <> CENV_COSU:493
+R41239:41269 VST.veric.align_mem <> hardware_alignof_env_consistent def
+R41276:41281 VST.veric.align_mem <> ha_env:490 var
+R41271:41274 VST.veric.align_mem <> cenv:489 var
+binder 41225:41236 <> HA_ENV_CONSI:494
+R41307:41335 VST.veric.align_mem <> hardware_alignof_env_complete def
+R41342:41347 VST.veric.align_mem <> ha_env:490 var
+R41337:41340 VST.veric.align_mem <> cenv:489 var
+binder 41293:41304 <> HA_ENV_COMPL:495
+R41373:41400 VST.veric.align_mem LegalAlignasStrongFacts legal_alignas_env_consistent def
+R41414:41419 VST.veric.align_mem <> la_env:491 var
+R41407:41412 VST.veric.align_mem <> ha_env:490 var
+R41402:41405 VST.veric.align_mem <> cenv:489 var
+binder 41359:41370 <> LA_ENV_CONSI:496
+R41445:41470 VST.veric.align_mem LegalAlignasStrongFacts legal_alignas_env_complete def
+R41477:41482 VST.veric.align_mem <> la_env:491 var
+R41472:41475 VST.veric.align_mem <> cenv:489 var
+binder 41431:41442 <> LA_ENV_COMPL:497
+prf 41493:41506 LegalAlignasStrongFacts by_value_sound
+binder 41518:41518 <> t:498
+binder 41520:41522 <> ofs:499
+R41571:41578 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41579:41579 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41618:41626 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41627:41646 VST.veric.align_mem <> align_compatible_rec ind
+R41655:41657 VST.veric.align_mem <> ofs:499 var
+R41653:41653 VST.veric.align_mem <> t:498 var
+R41648:41651 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.cenv var
+R41580:41586 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R41589:41590 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 41587:41588 <> ch:500
+R41604:41606 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41591:41601 compcert.cfrontend.Ctypes <> access_mode def
+R41603:41603 VST.veric.align_mem <> t:498 var
+R41607:41614 compcert.cfrontend.Ctypes <> By_value constr
+R41616:41617 VST.veric.align_mem <> ch:500 var
+R41564:41566 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41529:41538 VST.veric.align_mem LegalAlignasStrongFacts is_aligned def
+R41561:41563 VST.veric.align_mem <> ofs:499 var
+R41559:41559 VST.veric.align_mem <> t:498 var
+R41552:41557 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.la_env var
+R41545:41550 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.ha_env var
+R41540:41543 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.cenv var
+R41567:41570 Coq.Init.Datatypes <> true constr
+R41686:41695 VST.veric.align_mem LegalAlignasStrongFacts is_aligned def
+R41698:41711 VST.veric.align_mem LegalAlignasStrongFacts is_aligned_aux def
+R41714:41731 VST.veric.align_mem LegalAlignasStrongFacts legal_alignas_type def
+R41734:41749 VST.veric.align_mem <> hardware_alignof def
+R41792:41792 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41820:41823 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41815:41818 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R41796:41800 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R41801:41811 compcert.common.Memdata <> align_chunk def
+R41824:41827 Coq.Init.Datatypes <> true constr
+R41792:41792 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41820:41823 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41815:41818 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R41796:41800 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R41801:41811 compcert.common.Memdata <> align_chunk def
+R41824:41827 Coq.Init.Datatypes <> true constr
+R41950:41978 VST.veric.align_mem <> align_compatible_rec_by_value constr
+R41950:41978 VST.veric.align_mem <> align_compatible_rec_by_value constr
+prf 42002:42024 LegalAlignasStrongFacts legal_alignas_soundness
+R42029:42051 VST.veric.align_mem LegalAlignasStrongFacts legal_alignas_env_sound def
+R42065:42070 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.la_env var
+R42058:42063 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.ha_env var
+R42053:42056 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.cenv var
+R42141:42144 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.cenv var
+R42146:42155 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.CENV_CONSI var
+R42195:42208 VST.veric.align_mem LegalAlignasStrongFacts by_value_sound thm
+R42195:42208 VST.veric.align_mem LegalAlignasStrongFacts by_value_sound thm
+R42274:42287 VST.veric.align_mem LegalAlignasStrongFacts by_value_sound thm
+R42274:42287 VST.veric.align_mem LegalAlignasStrongFacts by_value_sound thm
+R42350:42363 VST.veric.align_mem LegalAlignasStrongFacts by_value_sound thm
+R42350:42363 VST.veric.align_mem LegalAlignasStrongFacts by_value_sound thm
+R42426:42439 VST.veric.align_mem LegalAlignasStrongFacts by_value_sound thm
+R42426:42439 VST.veric.align_mem LegalAlignasStrongFacts by_value_sound thm
+R42489:42515 VST.veric.align_mem <> align_compatible_rec_Tarray constr
+R42489:42515 VST.veric.align_mem <> align_compatible_rec_Tarray constr
+R42571:42580 VST.veric.align_mem LegalAlignasStrongFacts is_aligned def
+R42583:42596 VST.veric.align_mem LegalAlignasStrongFacts is_aligned_aux def
+R42728:42741 Coq.ZArith.BinInt Z divide_add_r thm
+R42728:42741 Coq.ZArith.BinInt Z divide_add_r thm
+R42760:42773 Coq.ZArith.BinInt Z divide_mul_l thm
+R42760:42773 Coq.ZArith.BinInt Z divide_mul_l thm
+R42804:42813 VST.veric.align_mem LegalAlignasStrongFacts is_aligned def
+R42816:42829 VST.veric.align_mem LegalAlignasStrongFacts is_aligned_aux def
+R42886:42888 compcert.lib.Maps <> :::x_'!'_x not
+R42880:42885 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.la_env var
+R42886:42888 compcert.lib.Maps <> :::x_'!'_x not
+R42880:42885 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.la_env var
+R42938:42942 Coq.Init.Logic <> proj2 thm
+R42963:42970 Coq.Init.Logic <> ex_intro constr
+R42945:42956 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.LA_ENV_COMPL var
+R42938:42942 Coq.Init.Logic <> proj2 thm
+R42963:42970 Coq.Init.Logic <> ex_intro constr
+R42945:42956 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.LA_ENV_COMPL var
+R43006:43010 Coq.Init.Logic <> proj1 thm
+R43031:43038 Coq.Init.Logic <> ex_intro constr
+R43013:43024 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.HA_ENV_COMPL var
+R43006:43010 Coq.Init.Logic <> proj1 thm
+R43031:43038 Coq.Init.Logic <> ex_intro constr
+R43013:43024 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.HA_ENV_COMPL var
+R43074:43082 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.CENV_COSU var
+R43074:43082 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.CENV_COSU var
+R43148:43159 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.HA_ENV_CONSI var
+R43148:43159 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.HA_ENV_CONSI var
+R43148:43159 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.HA_ENV_CONSI var
+R43195:43206 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.LA_ENV_CONSI var
+R43195:43206 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.LA_ENV_CONSI var
+R43195:43206 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.LA_ENV_CONSI var
+R43296:43318 VST.veric.align_mem LegalAlignasStrongFacts legal_alignas_composite def
+R43341:43345 compcert.cfrontend.Ctypes <> co_su proj
+R43341:43345 compcert.cfrontend.Ctypes <> co_su proj
+R43374:43401 VST.veric.align_mem <> align_compatible_rec_Tstruct constr
+R43374:43401 VST.veric.align_mem <> align_compatible_rec_Tstruct constr
+R43439:43450 compcert.cfrontend.Ctypes <> field_offset def
+R43882:43895 Coq.ZArith.BinInt Z divide_add_r thm
+R43882:43895 Coq.ZArith.BinInt Z divide_add_r thm
+R44020:44022 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R43996:44000 compcert.lib.Coqlib <> align def
+R44005:44011 compcert.cfrontend.Ctypes <> alignof def
+R44013:44016 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.cenv var
+R44023:44028 compcert.cfrontend.Ctypes <> sizeof def
+R44030:44033 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.cenv var
+R44020:44022 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R43996:44000 compcert.lib.Coqlib <> align def
+R44005:44011 compcert.cfrontend.Ctypes <> alignof def
+R44013:44016 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.cenv var
+R44023:44028 compcert.cfrontend.Ctypes <> sizeof def
+R44030:44033 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.cenv var
+R44072:44081 VST.veric.align_mem LegalAlignasStrongFacts is_aligned def
+R44084:44097 VST.veric.align_mem LegalAlignasStrongFacts is_aligned_aux def
+R44154:44156 compcert.lib.Maps <> :::x_'!'_x not
+R44148:44153 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.la_env var
+R44154:44156 compcert.lib.Maps <> :::x_'!'_x not
+R44148:44153 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.la_env var
+R44206:44210 Coq.Init.Logic <> proj2 thm
+R44231:44238 Coq.Init.Logic <> ex_intro constr
+R44213:44224 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.LA_ENV_COMPL var
+R44206:44210 Coq.Init.Logic <> proj2 thm
+R44231:44238 Coq.Init.Logic <> ex_intro constr
+R44213:44224 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.LA_ENV_COMPL var
+R44274:44278 Coq.Init.Logic <> proj1 thm
+R44299:44306 Coq.Init.Logic <> ex_intro constr
+R44281:44292 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.HA_ENV_COMPL var
+R44274:44278 Coq.Init.Logic <> proj1 thm
+R44299:44306 Coq.Init.Logic <> ex_intro constr
+R44281:44292 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.HA_ENV_COMPL var
+R44342:44350 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.CENV_COSU var
+R44342:44350 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.CENV_COSU var
+R44416:44427 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.HA_ENV_CONSI var
+R44416:44427 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.HA_ENV_CONSI var
+R44416:44427 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.HA_ENV_CONSI var
+R44463:44474 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.LA_ENV_CONSI var
+R44463:44474 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.LA_ENV_CONSI var
+R44463:44474 VST.veric.align_mem <> LegalAlignasStrongFacts.soundness.LA_ENV_CONSI var
+R44564:44586 VST.veric.align_mem LegalAlignasStrongFacts legal_alignas_composite def
+R44609:44613 compcert.cfrontend.Ctypes <> co_su proj
+R44609:44613 compcert.cfrontend.Ctypes <> co_su proj
+R44642:44668 VST.veric.align_mem <> align_compatible_rec_Tunion constr
+R44642:44668 VST.veric.align_mem <> align_compatible_rec_Tunion constr
+R45193:45201 VST.veric.align_mem LegalAlignasStrongFacts.soundness <> sec
+R45209:45231 VST.veric.align_mem LegalAlignasStrongFacts <> mod
+R45270:45292 VST.veric.align_mem LegalAlignasStrongFacts <> modtype
+mod 45249:45265 <> LegalAlignasFacts

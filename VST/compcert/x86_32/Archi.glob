@@ -1,0 +1,120 @@
+DIGEST 1b66d305a192140c8bd864861e5544be
+Fcompcert.x86_32.Archi
+R1191:1196 Coq.ZArith.ZArith <> <> lib
+R1198:1201 Coq.Lists.List <> <> lib
+R1230:1235 Flocq.IEEE754.Binary <> <> lib
+R1237:1240 Flocq.IEEE754.Bits <> <> lib
+def 1255:1259 <> ptr64
+R1264:1268 Coq.Init.Datatypes <> false constr
+def 1283:1292 <> big_endian
+R1297:1301 Coq.Init.Datatypes <> false constr
+def 1316:1326 <> align_int64
+def 1347:1359 <> align_float64
+def 1381:1389 <> splitlong
+R1394:1397 Coq.Init.Datatypes <> negb def
+R1399:1403 compcert.x86_32.Archi <> ptr64 def
+prf 1413:1427 <> splitlong_ptr32
+R1446:1449 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1455:1457 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1450:1454 compcert.x86_32.Archi <> ptr64 def
+R1458:1462 Coq.Init.Datatypes <> false constr
+R1439:1441 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1430:1438 compcert.x86_32.Archi <> splitlong def
+R1442:1445 Coq.Init.Datatypes <> true constr
+R1481:1489 compcert.x86_32.Archi <> splitlong def
+R1501:1505 compcert.x86_32.Archi <> ptr64 def
+def 1544:1557 <> default_nan_64
+R1562:1562 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1567:1568 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1588:1588 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1563:1566 Coq.Init.Datatypes <> true constr
+R1569:1576 Coq.Arith.Wf_nat <> iter_nat syndef
+R1586:1587 Coq.Numbers.BinNums <> xH constr
+R1583:1584 Coq.Numbers.BinNums <> xO constr
+def 1602:1615 <> default_nan_32
+R1620:1620 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1625:1626 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1646:1646 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1621:1624 Coq.Init.Datatypes <> true constr
+R1627:1634 Coq.Arith.Wf_nat <> iter_nat syndef
+R1644:1645 Coq.Numbers.BinNums <> xH constr
+R1641:1642 Coq.Numbers.BinNums <> xO constr
+def 1713:1725 <> choose_nan_64
+R1731:1734 Coq.Init.Datatypes <> list ind
+R1741:1743 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1737:1740 Coq.Init.Datatypes <> bool ind
+R1744:1751 Coq.Numbers.BinNums <> positive ind
+binder 1728:1728 <> l:1
+R1761:1763 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1757:1760 Coq.Init.Datatypes <> bool ind
+R1764:1771 Coq.Numbers.BinNums <> positive ind
+R1784:1784 compcert.x86_32.Archi <> l:1 var
+R1791:1793 Coq.Init.Datatypes <> nil constr
+R1798:1811 compcert.x86_32.Archi <> default_nan_64 def
+R1816:1819 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+def 1844:1856 <> choose_nan_32
+R1862:1865 Coq.Init.Datatypes <> list ind
+R1872:1874 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1868:1871 Coq.Init.Datatypes <> bool ind
+R1875:1882 Coq.Numbers.BinNums <> positive ind
+binder 1859:1859 <> l:3
+R1892:1894 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1888:1891 Coq.Init.Datatypes <> bool ind
+R1895:1902 Coq.Numbers.BinNums <> positive ind
+R1915:1915 compcert.x86_32.Archi <> l:3 var
+R1922:1924 Coq.Init.Datatypes <> nil constr
+R1929:1942 compcert.x86_32.Archi <> default_nan_32 def
+R1947:1950 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+prf 1970:1987 <> choose_nan_64_idem
+binder 1997:1997 <> n:5
+R2031:2033 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2002:2014 compcert.x86_32.Archi <> choose_nan_64 def
+R2018:2021 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2017:2017 compcert.x86_32.Archi <> n:5 var
+R2023:2026 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2022:2022 compcert.x86_32.Archi <> n:5 var
+R2027:2029 Coq.Init.Datatypes <> nil constr
+R2034:2046 compcert.x86_32.Archi <> choose_nan_64 def
+R2050:2053 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2049:2049 compcert.x86_32.Archi <> n:5 var
+R2054:2056 Coq.Init.Datatypes <> nil constr
+prf 2085:2102 <> choose_nan_32_idem
+binder 2112:2112 <> n:6
+R2146:2148 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2117:2129 compcert.x86_32.Archi <> choose_nan_32 def
+R2133:2136 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2132:2132 compcert.x86_32.Archi <> n:6 var
+R2138:2141 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2137:2137 compcert.x86_32.Archi <> n:6 var
+R2142:2144 Coq.Init.Datatypes <> nil constr
+R2149:2161 compcert.x86_32.Archi <> choose_nan_32 def
+R2165:2168 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2164:2164 compcert.x86_32.Archi <> n:6 var
+R2169:2171 Coq.Init.Datatypes <> nil constr
+def 2205:2213 <> fma_order
+binder 2216:2216 <> A:7
+R2233:2233 compcert.x86_32.Archi <> A:7 var
+binder 2226:2226 <> x:8
+binder 2228:2228 <> y:9
+binder 2230:2230 <> z:10
+R2239:2239 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2241:2242 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2244:2245 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2247:2247 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2240:2240 compcert.x86_32.Archi <> x:8 var
+R2243:2243 compcert.x86_32.Archi <> y:9 var
+R2246:2246 compcert.x86_32.Archi <> z:10 var
+def 2262:2283 <> fma_invalid_mul_is_nan
+R2288:2292 Coq.Init.Datatypes <> false constr
+def 2307:2336 <> float_of_single_preserves_sNaN
+R2341:2345 Coq.Init.Datatypes <> false constr
+R2363:2367 compcert.x86_32.Archi <> ptr64 def
+R2369:2378 compcert.x86_32.Archi <> big_endian def
+R2380:2388 compcert.x86_32.Archi <> splitlong def
+R2404:2417 compcert.x86_32.Archi <> default_nan_64 def
+R2419:2431 compcert.x86_32.Archi <> choose_nan_64 def
+R2447:2460 compcert.x86_32.Archi <> default_nan_32 def
+R2462:2474 compcert.x86_32.Archi <> choose_nan_32 def
+R2490:2498 compcert.x86_32.Archi <> fma_order def
+R2500:2521 compcert.x86_32.Archi <> fma_invalid_mul_is_nan def
+R2537:2566 compcert.x86_32.Archi <> float_of_single_preserves_sNaN def

@@ -1,0 +1,640 @@
+DIGEST 58572c977c4fdec6f068f7da2b04f93c
+FVST.sepcomp.step_lemmas
+R15:33 compcert.lib.Coqlib <> <> lib
+R51:67 compcert.lib.Maps <> <> lib
+R86:104 compcert.common.AST <> <> lib
+R122:143 compcert.common.Values <> <> lib
+R162:180 VST.sepcomp.extspec <> <> lib
+R198:218 VST.sepcomp.semantics <> <> lib
+R236:263 VST.sepcomp.semantics_lemmas <> <> lib
+R281:283 Coq.micromega.Lia <> <> lib
+def 298:307 <> has_opttyp
+R314:319 Coq.Init.Datatypes <> option ind
+R321:323 compcert.common.Values <> val ind
+binder 310:310 <> v:1
+R331:336 Coq.Init.Datatypes <> option ind
+R338:340 compcert.common.AST <> typ ind
+binder 327:327 <> t:2
+R357:357 VST.sepcomp.step_lemmas <> t:2 var
+R354:354 VST.sepcomp.step_lemmas <> v:1 var
+R368:371 Coq.Init.Datatypes <> None constr
+R374:377 Coq.Init.Datatypes <> None constr
+R382:385 Coq.Init.Logic <> True ind
+R391:394 Coq.Init.Datatypes <> Some constr
+R399:402 Coq.Init.Datatypes <> Some constr
+R409:420 compcert.common.Values Val has_type def
+R424:424 VST.sepcomp.step_lemmas <> t:2 var
+R422:422 VST.sepcomp.step_lemmas <> v:1 var
+R438:442 Coq.Init.Logic <> False ind
+sec 460:465 <> safety
+binder 479:479 <> G:5
+binder 481:481 <> C:6
+binder 483:483 <> M:7
+binder 485:485 <> Z:8
+R517:520 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R521:535 VST.sepcomp.extspec <> injective_PTree def
+R537:541 compcert.common.Values <> block def
+R516:516 VST.sepcomp.step_lemmas <> safety.G var
+binder 505:513 <> genv_symb:9
+R565:568 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R570:573 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R575:578 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R574:574 VST.sepcomp.step_lemmas <> safety.M var
+R569:569 VST.sepcomp.step_lemmas <> safety.M var
+R562:564 Coq.Init.Datatypes <> nat ind
+binder 556:559 <> Hrel:10
+R604:616 VST.sepcomp.semantics <> CoreSemantics rec
+R620:620 VST.sepcomp.step_lemmas <> safety.M var
+R618:618 VST.sepcomp.step_lemmas <> safety.C var
+binder 597:601 <> Hcore:11
+var 636:640 safety Hspec
+R642:663 VST.sepcomp.extspec <> external_specification rec
+R685:685 VST.sepcomp.step_lemmas <> safety.Z var
+R667:683 compcert.common.AST <> external_function ind
+R665:665 VST.sepcomp.step_lemmas <> safety.M var
+var 701:702 safety ge
+R706:706 VST.sepcomp.step_lemmas <> safety.G var
+ind 722:727 <> safeN_
+constr 765:771 <> safeN_0
+constr 807:816 <> safeN_step
+constr 936:949 <> safeN_external
+constr 1547:1558 <> safeN_halted
+R734:737 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R739:742 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R744:747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R749:752 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R748:748 VST.sepcomp.step_lemmas <> safety.M var
+R743:743 VST.sepcomp.step_lemmas <> safety.C var
+R738:738 VST.sepcomp.step_lemmas <> safety.Z var
+R731:733 Coq.Init.Datatypes <> nat ind
+binder 781:781 <> z:16
+binder 783:783 <> c:17
+binder 785:785 <> m:18
+R788:793 VST.sepcomp.step_lemmas <> safeN_:14 ind
+R801:801 VST.sepcomp.step_lemmas <> m:18 var
+R799:799 VST.sepcomp.step_lemmas <> c:17 var
+R797:797 VST.sepcomp.step_lemmas <> z:16 var
+R795:795 Coq.Init.Datatypes <> O constr
+binder 832:832 <> n:19
+binder 834:834 <> z:20
+binder 836:836 <> c:21
+binder 838:838 <> m:22
+binder 840:841 <> c':23
+binder 843:844 <> m':24
+R877:886 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R903:912 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R913:918 VST.sepcomp.step_lemmas <> safeN_:14 ind
+R930:930 VST.sepcomp.step_lemmas <> m:22 var
+R928:928 VST.sepcomp.step_lemmas <> c:21 var
+R926:926 VST.sepcomp.step_lemmas <> z:20 var
+R921:921 Coq.Init.Datatypes <> S constr
+R923:923 VST.sepcomp.step_lemmas <> n:19 var
+R887:892 VST.sepcomp.step_lemmas <> safeN_:14 ind
+R901:902 VST.sepcomp.step_lemmas <> m':24 var
+R898:899 VST.sepcomp.step_lemmas <> c':23 var
+R896:896 VST.sepcomp.step_lemmas <> z:20 var
+R894:894 VST.sepcomp.step_lemmas <> n:19 var
+R853:860 VST.sepcomp.semantics <> corestep proj
+R875:876 VST.sepcomp.step_lemmas <> m':24 var
+R872:873 VST.sepcomp.step_lemmas <> c':23 var
+R870:870 VST.sepcomp.step_lemmas <> m:22 var
+R868:868 VST.sepcomp.step_lemmas <> c:21 var
+R862:866 VST.sepcomp.step_lemmas <> safety.Hcore var
+binder 965:965 <> n:25
+binder 967:967 <> z:26
+binder 969:969 <> c:27
+binder 971:971 <> m:28
+binder 973:973 <> e:29
+binder 975:978 <> args:30
+binder 980:980 <> x:31
+R1026:1035 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1104:1113 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1114:1114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1513:1523 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1524:1529 VST.sepcomp.step_lemmas <> safeN_:14 ind
+R1541:1541 VST.sepcomp.step_lemmas <> m:28 var
+R1539:1539 VST.sepcomp.step_lemmas <> c:27 var
+R1537:1537 VST.sepcomp.step_lemmas <> z:26 var
+R1532:1532 Coq.Init.Datatypes <> S constr
+R1534:1534 VST.sepcomp.step_lemmas <> n:25 var
+binder 1122:1124 <> ret:32
+binder 1126:1127 <> m':33
+binder 1129:1130 <> z':34
+binder 1132:1133 <> n':35
+R1155:1171 compcert.common.Values Val has_type_list def
+R1179:1186 compcert.common.AST <> sig_args proj
+R1189:1194 compcert.common.AST <> ef_sig def
+R1196:1196 VST.sepcomp.step_lemmas <> e:29 var
+R1173:1176 VST.sepcomp.step_lemmas <> args:30 var
+binder 1145:1151 <> Hargsty:36
+R1220:1248 compcert.common.Builtins0 <> val_opt_has_rettype def
+R1255:1261 compcert.common.AST <> sig_res proj
+R1264:1269 compcert.common.AST <> ef_sig def
+R1271:1271 VST.sepcomp.step_lemmas <> e:29 var
+R1250:1252 VST.sepcomp.step_lemmas <> ret:32 var
+binder 1211:1216 <> Hretty:37
+R1299:1311 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1324:1336 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1406:1418 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1419:1425 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1428:1440 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1426:1427 <> c':38
+R1480:1494 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1470:1472 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1441:1454 VST.sepcomp.semantics <> after_external proj
+R1468:1469 VST.sepcomp.step_lemmas <> m':33 var
+R1466:1466 VST.sepcomp.step_lemmas <> c:27 var
+R1462:1464 VST.sepcomp.step_lemmas <> ret:32 var
+R1456:1460 VST.sepcomp.step_lemmas <> safety.Hcore var
+R1473:1476 Coq.Init.Datatypes <> Some constr
+R1478:1479 VST.sepcomp.step_lemmas <> c':38 var
+R1495:1500 VST.sepcomp.step_lemmas <> safeN_:14 ind
+R1511:1512 VST.sepcomp.step_lemmas <> m':33 var
+R1508:1509 VST.sepcomp.step_lemmas <> c':38 var
+R1505:1506 VST.sepcomp.step_lemmas <> z':34 var
+R1502:1503 VST.sepcomp.step_lemmas <> n':35 var
+R1337:1349 VST.sepcomp.extspec <> ext_spec_post proj
+R1404:1405 VST.sepcomp.step_lemmas <> m':33 var
+R1401:1402 VST.sepcomp.step_lemmas <> z':34 var
+R1397:1399 VST.sepcomp.step_lemmas <> ret:32 var
+R1377:1383 compcert.common.AST <> sig_res proj
+R1386:1391 compcert.common.AST <> ef_sig def
+R1393:1393 VST.sepcomp.step_lemmas <> e:29 var
+R1362:1370 VST.sepcomp.step_lemmas <> safety.genv_symb var
+R1372:1373 VST.sepcomp.step_lemmas <> safety.ge var
+R1359:1359 VST.sepcomp.step_lemmas <> x:31 var
+R1357:1357 VST.sepcomp.step_lemmas <> e:29 var
+R1351:1355 VST.sepcomp.step_lemmas <> safety.Hspec var
+R1312:1315 VST.sepcomp.step_lemmas <> safety.Hrel var
+R1322:1323 VST.sepcomp.step_lemmas <> m':33 var
+R1320:1320 VST.sepcomp.step_lemmas <> m:28 var
+R1317:1318 VST.sepcomp.step_lemmas <> n':35 var
+R1289:1292 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1287:1288 VST.sepcomp.step_lemmas <> n':35 var
+R1293:1293 VST.sepcomp.step_lemmas <> n:25 var
+R1036:1047 VST.sepcomp.extspec <> ext_spec_pre proj
+R1103:1103 VST.sepcomp.step_lemmas <> m:28 var
+R1101:1101 VST.sepcomp.step_lemmas <> z:26 var
+R1096:1099 VST.sepcomp.step_lemmas <> args:30 var
+R1075:1082 compcert.common.AST <> sig_args proj
+R1085:1090 compcert.common.AST <> ef_sig def
+R1092:1092 VST.sepcomp.step_lemmas <> e:29 var
+R1060:1068 VST.sepcomp.step_lemmas <> safety.genv_symb var
+R1070:1071 VST.sepcomp.step_lemmas <> safety.ge var
+R1057:1057 VST.sepcomp.step_lemmas <> x:31 var
+R1055:1055 VST.sepcomp.step_lemmas <> e:29 var
+R1049:1053 VST.sepcomp.step_lemmas <> safety.Hspec var
+R1010:1012 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R989:999 VST.sepcomp.semantics <> at_external proj
+R1009:1009 VST.sepcomp.step_lemmas <> m:28 var
+R1007:1007 VST.sepcomp.step_lemmas <> c:27 var
+R1001:1005 VST.sepcomp.step_lemmas <> safety.Hcore var
+R1013:1016 Coq.Init.Datatypes <> Some constr
+R1018:1018 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1020:1020 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1025:1025 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1019:1019 VST.sepcomp.step_lemmas <> e:29 var
+R1021:1024 VST.sepcomp.step_lemmas <> args:30 var
+binder 1574:1574 <> n:39
+binder 1576:1576 <> z:40
+binder 1578:1578 <> c:41
+binder 1580:1580 <> m:42
+binder 1582:1582 <> i:43
+R1607:1616 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1656:1665 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1666:1671 VST.sepcomp.step_lemmas <> safeN_:14 ind
+R1679:1679 VST.sepcomp.step_lemmas <> m:42 var
+R1677:1677 VST.sepcomp.step_lemmas <> c:41 var
+R1675:1675 VST.sepcomp.step_lemmas <> z:40 var
+R1673:1673 VST.sepcomp.step_lemmas <> n:39 var
+R1617:1629 VST.sepcomp.extspec <> ext_spec_exit proj
+R1655:1655 VST.sepcomp.step_lemmas <> m:42 var
+R1653:1653 VST.sepcomp.step_lemmas <> z:40 var
+R1638:1641 Coq.Init.Datatypes <> Some constr
+R1644:1647 compcert.common.Values <> Vint constr
+R1649:1649 VST.sepcomp.step_lemmas <> i:43 var
+R1631:1635 VST.sepcomp.step_lemmas <> safety.Hspec var
+R1591:1596 VST.sepcomp.semantics <> halted proj
+R1606:1606 VST.sepcomp.step_lemmas <> i:43 var
+R1604:1604 VST.sepcomp.step_lemmas <> c:41 var
+R1598:1602 VST.sepcomp.step_lemmas <> safety.Hcore var
+def 1696:1707 <> corestep_fun
+binder 1727:1727 <> m:44
+binder 1729:1729 <> q:45
+binder 1731:1732 <> m1:46
+binder 1734:1735 <> q1:47
+binder 1737:1738 <> m2:48
+binder 1740:1741 <> q2:49
+R1776:1786 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1811:1821 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1830:1832 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1822:1822 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1825:1826 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1829:1829 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1823:1824 VST.sepcomp.step_lemmas <> q1:47 var
+R1827:1828 VST.sepcomp.step_lemmas <> m1:46 var
+R1833:1833 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1836:1837 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1840:1840 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1834:1835 VST.sepcomp.step_lemmas <> q2:49 var
+R1838:1839 VST.sepcomp.step_lemmas <> m2:48 var
+R1787:1794 VST.sepcomp.semantics <> corestep proj
+R1809:1810 VST.sepcomp.step_lemmas <> m2:48 var
+R1806:1807 VST.sepcomp.step_lemmas <> q2:49 var
+R1804:1804 VST.sepcomp.step_lemmas <> m:44 var
+R1802:1802 VST.sepcomp.step_lemmas <> q:45 var
+R1796:1800 VST.sepcomp.step_lemmas <> safety.Hcore var
+R1752:1759 VST.sepcomp.semantics <> corestep proj
+R1774:1775 VST.sepcomp.step_lemmas <> m1:46 var
+R1771:1772 VST.sepcomp.step_lemmas <> q1:47 var
+R1769:1769 VST.sepcomp.step_lemmas <> m:44 var
+R1767:1767 VST.sepcomp.step_lemmas <> q:45 var
+R1761:1765 VST.sepcomp.step_lemmas <> safety.Hcore var
+prf 1852:1872 <> safe_corestep_forward
+R1892:1899 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 1907:1907 <> c:50
+binder 1909:1909 <> m:51
+binder 1911:1912 <> c':52
+binder 1914:1915 <> m':53
+binder 1917:1917 <> n:54
+binder 1919:1919 <> z:55
+R1950:1953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1972:1975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1976:1981 VST.sepcomp.step_lemmas <> safeN_ ind
+R1990:1991 VST.sepcomp.step_lemmas <> m':53 var
+R1987:1988 VST.sepcomp.step_lemmas <> c':52 var
+R1985:1985 VST.sepcomp.step_lemmas <> z:55 var
+R1983:1983 VST.sepcomp.step_lemmas <> n:54 var
+R1954:1959 VST.sepcomp.step_lemmas <> safeN_ ind
+R1971:1971 VST.sepcomp.step_lemmas <> m:51 var
+R1969:1969 VST.sepcomp.step_lemmas <> c:50 var
+R1967:1967 VST.sepcomp.step_lemmas <> z:55 var
+R1962:1962 Coq.Init.Datatypes <> S constr
+R1964:1964 VST.sepcomp.step_lemmas <> n:54 var
+R1926:1933 VST.sepcomp.semantics <> corestep proj
+R1948:1949 VST.sepcomp.step_lemmas <> m':53 var
+R1945:1946 VST.sepcomp.step_lemmas <> c':52 var
+R1943:1943 VST.sepcomp.step_lemmas <> m:51 var
+R1941:1941 VST.sepcomp.step_lemmas <> c:50 var
+R1935:1939 VST.sepcomp.step_lemmas <> safety.Hcore var
+R1880:1891 VST.sepcomp.step_lemmas <> corestep_fun def
+R2049:2051 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2042:2042 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2045:2045 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2048:2048 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2052:2052 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2056:2056 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2060:2060 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2049:2051 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2042:2042 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2045:2045 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2048:2048 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2052:2052 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2056:2056 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2060:2060 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2116:2139 VST.sepcomp.semantics <> corestep_not_at_external proj
+R2116:2139 VST.sepcomp.semantics <> corestep_not_at_external proj
+R2116:2139 VST.sepcomp.semantics <> corestep_not_at_external proj
+R2116:2139 VST.sepcomp.semantics <> corestep_not_at_external proj
+R2178:2189 VST.sepcomp.step_lemmas <> safeN_halted constr
+R2178:2189 VST.sepcomp.step_lemmas <> safeN_halted constr
+R2209:2227 VST.sepcomp.semantics <> corestep_not_halted proj
+R2209:2227 VST.sepcomp.semantics <> corestep_not_halted proj
+R2274:2292 VST.sepcomp.semantics <> corestep_not_halted proj
+R2274:2292 VST.sepcomp.semantics <> corestep_not_halted proj
+R2347:2363 compcert.lib.Integers Int zero def
+R2347:2363 compcert.lib.Integers Int zero def
+prf 2380:2401 <> safe_corestep_backward
+binder 2415:2415 <> c:56
+binder 2417:2417 <> m:57
+binder 2419:2420 <> c':58
+binder 2422:2423 <> m':59
+binder 2425:2425 <> n:60
+binder 2427:2427 <> z:61
+R2458:2461 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2478:2481 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2482:2487 VST.sepcomp.step_lemmas <> safeN_ ind
+R2499:2499 VST.sepcomp.step_lemmas <> m:57 var
+R2497:2497 VST.sepcomp.step_lemmas <> c:56 var
+R2495:2495 VST.sepcomp.step_lemmas <> z:61 var
+R2490:2490 Coq.Init.Datatypes <> S constr
+R2492:2492 VST.sepcomp.step_lemmas <> n:60 var
+R2462:2467 VST.sepcomp.step_lemmas <> safeN_ ind
+R2476:2477 VST.sepcomp.step_lemmas <> m':59 var
+R2473:2474 VST.sepcomp.step_lemmas <> c':58 var
+R2471:2471 VST.sepcomp.step_lemmas <> z:61 var
+R2469:2469 VST.sepcomp.step_lemmas <> n:60 var
+R2434:2441 VST.sepcomp.semantics <> corestep proj
+R2456:2457 VST.sepcomp.step_lemmas <> m':59 var
+R2453:2454 VST.sepcomp.step_lemmas <> c':58 var
+R2451:2451 VST.sepcomp.step_lemmas <> m:57 var
+R2449:2449 VST.sepcomp.step_lemmas <> c:56 var
+R2443:2447 VST.sepcomp.step_lemmas <> safety.Hcore var
+R2530:2539 VST.sepcomp.step_lemmas <> safeN_step constr
+R2530:2539 VST.sepcomp.step_lemmas <> safeN_step constr
+prf 2565:2578 <> safe_downward1
+binder 2593:2593 <> n:62
+binder 2595:2595 <> c:63
+binder 2597:2597 <> m:64
+binder 2599:2599 <> z:65
+R2626:2629 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2630:2635 VST.sepcomp.step_lemmas <> safeN_ ind
+R2643:2643 VST.sepcomp.step_lemmas <> m:64 var
+R2641:2641 VST.sepcomp.step_lemmas <> c:63 var
+R2639:2639 VST.sepcomp.step_lemmas <> z:65 var
+R2637:2637 VST.sepcomp.step_lemmas <> n:62 var
+R2608:2613 VST.sepcomp.step_lemmas <> safeN_ ind
+R2625:2625 VST.sepcomp.step_lemmas <> m:64 var
+R2623:2623 VST.sepcomp.step_lemmas <> c:63 var
+R2621:2621 VST.sepcomp.step_lemmas <> z:65 var
+R2616:2616 Coq.Init.Datatypes <> S constr
+R2618:2618 VST.sepcomp.step_lemmas <> n:62 var
+R2760:2773 VST.sepcomp.step_lemmas <> safeN_external constr
+R2760:2773 VST.sepcomp.step_lemmas <> safeN_external constr
+R2796:2807 VST.sepcomp.step_lemmas <> safeN_halted constr
+R2796:2807 VST.sepcomp.step_lemmas <> safeN_halted constr
+prf 2833:2845 <> safe_downward
+binder 2860:2860 <> n:66
+binder 2862:2863 <> n':67
+binder 2865:2865 <> c:68
+binder 2867:2867 <> m:69
+binder 2869:2869 <> z:70
+R2891:2900 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2915:2918 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2919:2924 VST.sepcomp.step_lemmas <> safeN_ ind
+R2933:2933 VST.sepcomp.step_lemmas <> m:69 var
+R2931:2931 VST.sepcomp.step_lemmas <> c:68 var
+R2929:2929 VST.sepcomp.step_lemmas <> z:70 var
+R2926:2927 VST.sepcomp.step_lemmas <> n':67 var
+R2901:2906 VST.sepcomp.step_lemmas <> safeN_ ind
+R2914:2914 VST.sepcomp.step_lemmas <> m:69 var
+R2912:2912 VST.sepcomp.step_lemmas <> c:68 var
+R2910:2910 VST.sepcomp.step_lemmas <> z:70 var
+R2908:2908 VST.sepcomp.step_lemmas <> n:66 var
+R2878:2885 Coq.Init.Peano <> le ind
+R2890:2890 VST.sepcomp.step_lemmas <> n:66 var
+R2887:2888 VST.sepcomp.step_lemmas <> n':67 var
+R3024:3037 VST.sepcomp.step_lemmas <> safe_downward1 thm
+R3024:3037 VST.sepcomp.step_lemmas <> safe_downward1 thm
+prf 3062:3083 <> safe_corestepN_forward
+R3102:3109 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3117:3117 <> z:71
+binder 3119:3119 <> c:72
+binder 3121:3121 <> m:73
+binder 3123:3124 <> c':74
+binder 3126:3127 <> m':75
+binder 3129:3129 <> n:76
+binder 3131:3132 <> n0:77
+R3169:3178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3202:3211 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3212:3217 VST.sepcomp.step_lemmas <> safeN_ ind
+R3226:3227 VST.sepcomp.step_lemmas <> m':75 var
+R3223:3224 VST.sepcomp.step_lemmas <> c':74 var
+R3221:3221 VST.sepcomp.step_lemmas <> z:71 var
+R3219:3219 VST.sepcomp.step_lemmas <> n:76 var
+R3179:3184 VST.sepcomp.step_lemmas <> safeN_ ind
+R3201:3201 VST.sepcomp.step_lemmas <> m:73 var
+R3199:3199 VST.sepcomp.step_lemmas <> c:72 var
+R3197:3197 VST.sepcomp.step_lemmas <> z:71 var
+R3188:3190 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3187:3187 VST.sepcomp.step_lemmas <> n:76 var
+R3191:3191 Coq.Init.Datatypes <> S constr
+R3193:3194 VST.sepcomp.step_lemmas <> n0:77 var
+R3141:3149 VST.sepcomp.semantics_lemmas <> corestepN def
+R3167:3168 VST.sepcomp.step_lemmas <> m':75 var
+R3164:3165 VST.sepcomp.step_lemmas <> c':74 var
+R3162:3162 VST.sepcomp.step_lemmas <> m:73 var
+R3160:3160 VST.sepcomp.step_lemmas <> c:72 var
+R3157:3158 VST.sepcomp.step_lemmas <> n0:77 var
+R3151:3155 VST.sepcomp.step_lemmas <> safety.Hcore var
+R3090:3101 VST.sepcomp.step_lemmas <> corestep_fun def
+R3349:3361 VST.sepcomp.step_lemmas <> safe_downward thm
+R3349:3361 VST.sepcomp.step_lemmas <> safe_downward thm
+R3383:3394 Coq.Arith.PeanoNat Nat le_add_r thm
+R3383:3394 Coq.Arith.PeanoNat Nat le_add_r thm
+R3517:3519 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3506:3508 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3509:3509 Coq.Init.Datatypes <> S constr
+R3512:3512 Coq.Init.Datatypes <> S constr
+R3520:3520 Coq.Init.Datatypes <> S constr
+R3524:3526 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3527:3527 Coq.Init.Datatypes <> S constr
+R3517:3519 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3506:3508 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3509:3509 Coq.Init.Datatypes <> S constr
+R3512:3512 Coq.Init.Datatypes <> S constr
+R3520:3520 Coq.Init.Datatypes <> S constr
+R3524:3526 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3527:3527 Coq.Init.Datatypes <> S constr
+R3581:3601 VST.sepcomp.step_lemmas <> safe_corestep_forward thm
+R3581:3601 VST.sepcomp.step_lemmas <> safe_corestep_forward thm
+prf 3651:3666 <> safe_step'_back2
+binder 3688:3690 <> ora:78
+binder 3692:3693 <> st:79
+binder 3695:3695 <> m:80
+binder 3697:3699 <> st':81
+binder 3701:3702 <> m':82
+binder 3704:3704 <> n:83
+R3740:3749 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3773:3782 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3783:3788 VST.sepcomp.step_lemmas <> safeN_ ind
+R3799:3799 VST.sepcomp.step_lemmas <> m:80 var
+R3796:3797 VST.sepcomp.step_lemmas <> st:79 var
+R3792:3794 VST.sepcomp.step_lemmas <> ora:78 var
+R3790:3790 VST.sepcomp.step_lemmas <> n:83 var
+R3750:3755 VST.sepcomp.step_lemmas <> safeN_ ind
+R3771:3772 VST.sepcomp.step_lemmas <> m':82 var
+R3767:3769 VST.sepcomp.step_lemmas <> st':81 var
+R3763:3765 VST.sepcomp.step_lemmas <> ora:78 var
+R3759:3759 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R3758:3758 VST.sepcomp.step_lemmas <> n:83 var
+R3714:3721 VST.sepcomp.semantics <> corestep proj
+R3738:3739 VST.sepcomp.step_lemmas <> m':82 var
+R3734:3736 VST.sepcomp.step_lemmas <> st':81 var
+R3732:3732 VST.sepcomp.step_lemmas <> m:80 var
+R3729:3730 VST.sepcomp.step_lemmas <> st:79 var
+R3723:3727 VST.sepcomp.step_lemmas <> safety.Hcore var
+R3883:3883 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R3883:3883 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R3916:3937 VST.sepcomp.step_lemmas <> safe_corestep_backward thm
+R3916:3937 VST.sepcomp.step_lemmas <> safe_corestep_backward thm
+prf 3972:3994 <> safe_corestepN_backward
+binder 4008:4008 <> z:84
+binder 4010:4010 <> c:85
+binder 4012:4012 <> m:86
+binder 4014:4015 <> c':87
+binder 4017:4018 <> m':88
+binder 4020:4020 <> n:89
+binder 4022:4023 <> n0:90
+R4060:4069 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4093:4102 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4103:4108 VST.sepcomp.step_lemmas <> safeN_ ind
+R4116:4116 VST.sepcomp.step_lemmas <> m:86 var
+R4114:4114 VST.sepcomp.step_lemmas <> c:85 var
+R4112:4112 VST.sepcomp.step_lemmas <> z:84 var
+R4110:4110 VST.sepcomp.step_lemmas <> n:89 var
+R4070:4075 VST.sepcomp.step_lemmas <> safeN_ ind
+R4091:4092 VST.sepcomp.step_lemmas <> m':88 var
+R4088:4089 VST.sepcomp.step_lemmas <> c':87 var
+R4086:4086 VST.sepcomp.step_lemmas <> z:84 var
+R4079:4081 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4078:4078 VST.sepcomp.step_lemmas <> n:89 var
+R4082:4083 VST.sepcomp.step_lemmas <> n0:90 var
+R4032:4040 VST.sepcomp.semantics_lemmas <> corestepN def
+R4058:4059 VST.sepcomp.step_lemmas <> m':88 var
+R4055:4056 VST.sepcomp.step_lemmas <> c':87 var
+R4053:4053 VST.sepcomp.step_lemmas <> m:86 var
+R4051:4051 VST.sepcomp.step_lemmas <> c:85 var
+R4048:4049 VST.sepcomp.step_lemmas <> n0:90 var
+R4042:4046 VST.sepcomp.step_lemmas <> safety.Hcore var
+R4256:4258 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4260:4262 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4256:4258 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4260:4262 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4368:4373 VST.sepcomp.step_lemmas <> safeN_ ind
+R4381:4383 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4377:4379 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4368:4373 VST.sepcomp.step_lemmas <> safeN_ ind
+R4381:4383 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4377:4379 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4409:4421 VST.sepcomp.step_lemmas <> safe_downward thm
+R4409:4421 VST.sepcomp.step_lemmas <> safe_downward thm
+R4473:4475 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4473:4475 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4510:4525 VST.sepcomp.step_lemmas <> safe_step'_back2 thm
+R4510:4525 VST.sepcomp.step_lemmas <> safe_step'_back2 thm
+prf 4552:4575 <> convergent_controls_safe
+binder 4590:4590 <> m:91
+binder 4592:4593 <> q1:92
+binder 4595:4596 <> q2:93
+R4605:4605 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4653:4663 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4664:4664 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4786:4796 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4797:4797 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4831:4841 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4842:4842 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4932:4943 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4990:4990 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 4951:4951 <> n:94
+binder 4953:4953 <> z:95
+R4971:4974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4975:4980 VST.sepcomp.step_lemmas <> safeN_ ind
+R4989:4989 VST.sepcomp.step_lemmas <> m:91 var
+R4986:4987 VST.sepcomp.step_lemmas <> q2:93 var
+R4984:4984 VST.sepcomp.step_lemmas <> z:95 var
+R4982:4982 VST.sepcomp.step_lemmas <> n:94 var
+R4956:4961 VST.sepcomp.step_lemmas <> safeN_ ind
+R4970:4970 VST.sepcomp.step_lemmas <> m:91 var
+R4967:4968 VST.sepcomp.step_lemmas <> q1:92 var
+R4965:4965 VST.sepcomp.step_lemmas <> z:95 var
+R4963:4963 VST.sepcomp.step_lemmas <> n:94 var
+binder 4850:4851 <> q':96
+binder 4853:4854 <> m':97
+R4882:4906 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4907:4914 VST.sepcomp.semantics <> corestep proj
+R4930:4931 VST.sepcomp.step_lemmas <> m':97 var
+R4927:4928 VST.sepcomp.step_lemmas <> q':96 var
+R4925:4925 VST.sepcomp.step_lemmas <> m:91 var
+R4922:4923 VST.sepcomp.step_lemmas <> q2:93 var
+R4916:4920 VST.sepcomp.step_lemmas <> safety.Hcore var
+R4857:4864 VST.sepcomp.semantics <> corestep proj
+R4880:4881 VST.sepcomp.step_lemmas <> m':97 var
+R4877:4878 VST.sepcomp.step_lemmas <> q':96 var
+R4875:4875 VST.sepcomp.step_lemmas <> m:91 var
+R4872:4873 VST.sepcomp.step_lemmas <> q1:92 var
+R4866:4870 VST.sepcomp.step_lemmas <> safety.Hcore var
+R4813:4815 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4798:4803 VST.sepcomp.semantics <> halted proj
+R4811:4812 VST.sepcomp.step_lemmas <> q1:92 var
+R4805:4809 VST.sepcomp.step_lemmas <> safety.Hcore var
+R4816:4821 VST.sepcomp.semantics <> halted proj
+R4829:4830 VST.sepcomp.step_lemmas <> q2:93 var
+R4823:4827 VST.sepcomp.step_lemmas <> safety.Hcore var
+binder 4672:4674 <> ret:98
+binder 4676:4676 <> m:99
+binder 4678:4679 <> q':100
+R4721:4746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4776:4778 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4747:4760 VST.sepcomp.semantics <> after_external proj
+R4775:4775 VST.sepcomp.step_lemmas <> m:99 var
+R4772:4773 VST.sepcomp.step_lemmas <> q2:93 var
+R4768:4770 VST.sepcomp.step_lemmas <> ret:98 var
+R4762:4766 VST.sepcomp.step_lemmas <> safety.Hcore var
+R4779:4782 Coq.Init.Datatypes <> Some constr
+R4784:4785 VST.sepcomp.step_lemmas <> q':100 var
+R4711:4713 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4682:4695 VST.sepcomp.semantics <> after_external proj
+R4710:4710 VST.sepcomp.step_lemmas <> m:99 var
+R4707:4708 VST.sepcomp.step_lemmas <> q1:92 var
+R4703:4705 VST.sepcomp.step_lemmas <> ret:98 var
+R4697:4701 VST.sepcomp.step_lemmas <> safety.Hcore var
+R4714:4717 Coq.Init.Datatypes <> Some constr
+R4719:4720 VST.sepcomp.step_lemmas <> q':100 var
+R4628:4630 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4606:4616 VST.sepcomp.semantics <> at_external proj
+R4627:4627 VST.sepcomp.step_lemmas <> m:91 var
+R4624:4625 VST.sepcomp.step_lemmas <> q1:92 var
+R4618:4622 VST.sepcomp.step_lemmas <> safety.Hcore var
+R4631:4641 VST.sepcomp.semantics <> at_external proj
+R4652:4652 VST.sepcomp.step_lemmas <> m:91 var
+R4649:4650 VST.sepcomp.step_lemmas <> q2:93 var
+R4643:4647 VST.sepcomp.step_lemmas <> safety.Hcore var
+R5107:5120 VST.sepcomp.step_lemmas <> safeN_external constr
+R5107:5120 VST.sepcomp.step_lemmas <> safeN_external constr
+R5329:5340 VST.sepcomp.step_lemmas <> safeN_halted constr
+R5329:5340 VST.sepcomp.step_lemmas <> safeN_halted constr
+prf 5392:5405 <> wlog_safeN_gt0
+binder 5420:5420 <> n:101
+binder 5422:5422 <> z:102
+binder 5424:5424 <> q:103
+binder 5426:5426 <> m:104
+R5433:5433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5458:5466 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5467:5472 VST.sepcomp.step_lemmas <> safeN_ ind
+R5480:5480 VST.sepcomp.step_lemmas <> m:104 var
+R5478:5478 VST.sepcomp.step_lemmas <> q:103 var
+R5476:5476 VST.sepcomp.step_lemmas <> z:102 var
+R5474:5474 VST.sepcomp.step_lemmas <> n:101 var
+R5440:5443 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5444:5449 VST.sepcomp.step_lemmas <> safeN_ ind
+R5457:5457 VST.sepcomp.step_lemmas <> m:104 var
+R5455:5455 VST.sepcomp.step_lemmas <> q:103 var
+R5453:5453 VST.sepcomp.step_lemmas <> z:102 var
+R5451:5451 VST.sepcomp.step_lemmas <> n:101 var
+R5434:5435 Coq.Init.Peano <> lt def
+R5439:5439 VST.sepcomp.step_lemmas <> n:101 var
+R5559:5564 VST.sepcomp.step_lemmas safety <> sec
+sec 5576:5585 <> dry_safety
+binder 5599:5599 <> G:105
+binder 5601:5601 <> C:106
+binder 5603:5603 <> M:107
+binder 5605:5605 <> Z:108
+R5637:5640 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5641:5655 VST.sepcomp.extspec <> injective_PTree def
+R5657:5661 compcert.common.Values <> block def
+R5636:5636 VST.sepcomp.step_lemmas <> dry_safety.G var
+binder 5625:5633 <> genv_symb:109
+R5683:5695 VST.sepcomp.semantics <> CoreSemantics rec
+R5699:5699 VST.sepcomp.step_lemmas <> dry_safety.M var
+R5697:5697 VST.sepcomp.step_lemmas <> dry_safety.C var
+binder 5676:5680 <> Hcore:110
+var 5715:5719 dry_safety Hspec
+R5721:5742 VST.sepcomp.extspec <> external_specification rec
+R5764:5764 VST.sepcomp.step_lemmas <> dry_safety.Z var
+R5746:5762 compcert.common.AST <> external_function ind
+R5744:5744 VST.sepcomp.step_lemmas <> dry_safety.M var
+def 5781:5789 <> dry_safeN
+R5795:5800 VST.sepcomp.step_lemmas <> safeN_ ind
+R5848:5852 VST.sepcomp.step_lemmas <> dry_safety.Hspec var
+R5842:5846 VST.sepcomp.step_lemmas <> dry_safety.Hcore var
+binder 5825:5826 <> n':112
+binder 5828:5828 <> m:113
+binder 5830:5831 <> m':114
+R5836:5839 Coq.Init.Logic <> True ind
+R5810:5818 VST.sepcomp.step_lemmas <> dry_safety.genv_symb var
+R5808:5808 VST.sepcomp.step_lemmas <> dry_safety.Z var
+R5806:5806 VST.sepcomp.step_lemmas <> dry_safety.M var
+R5804:5804 VST.sepcomp.step_lemmas <> dry_safety.C var
+R5802:5802 VST.sepcomp.step_lemmas <> dry_safety.G var
+R5859:5868 VST.sepcomp.step_lemmas dry_safety <> sec

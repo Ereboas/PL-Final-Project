@@ -1,0 +1,1929 @@
+DIGEST c2b6526836f9c2295c8cf8a649efb75f
+FVST.msl.functors
+R102:113 VST.msl.base <> <> lib
+mod 149:164 <> CovariantFunctor
+constr 267:278 CovariantFunctor FunctorFacts
+rec 175:186 CovariantFunctor functorFacts
+proj 284:288 CovariantFunctor ff_id
+proj 333:339 CovariantFunctor ff_comp
+R198:201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 189:190 <> PS:1
+binder 225:225 <> A:2
+binder 227:227 <> B:3
+R235:238 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R239:239 VST.msl.functors <> B:3 var
+R234:234 VST.msl.functors <> A:2 var
+binder 230:230 <> f:4
+R247:250 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R251:252 VST.msl.functors <> PS:1 var
+R254:254 VST.msl.functors <> B:3 var
+R243:244 VST.msl.functors <> PS:1 var
+R246:246 VST.msl.functors <> A:2 var
+binder 211:214 <> fmap:5
+binder 299:299 <> A:7
+R317:319 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R302:305 VST.msl.functors <> fmap:5 var
+R312:313 VST.msl.base <> id def
+R315:315 VST.msl.functors <> A:7 var
+R320:321 VST.msl.base <> id def
+R324:325 VST.msl.functors <> PS:1 var
+R327:327 VST.msl.functors <> A:7 var
+binder 350:350 <> A:9
+binder 352:352 <> B:10
+binder 354:354 <> C:11
+R362:365 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R366:366 VST.msl.functors <> C:11 var
+R361:361 VST.msl.functors <> B:10 var
+binder 357:357 <> f:12
+R375:378 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R379:379 VST.msl.functors <> B:10 var
+R374:374 VST.msl.functors <> A:9 var
+binder 370:370 <> g:13
+R407:409 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R393:396 VST.msl.base <> :::x_'oo'_x not
+R383:386 VST.msl.functors <> fmap:5 var
+R392:392 VST.msl.functors <> f:12 var
+R397:400 VST.msl.functors <> fmap:5 var
+R406:406 VST.msl.functors <> g:13 var
+R410:413 VST.msl.functors <> fmap:5 var
+R421:424 VST.msl.base <> :::x_'oo'_x not
+R420:420 VST.msl.functors <> f:12 var
+R425:425 VST.msl.functors <> g:13 var
+constr 457:463 CovariantFunctor Functor
+rec 439:445 CovariantFunctor functor
+proj 469:476 CovariantFunctor _functor
+proj 495:498 CovariantFunctor fmap
+proj 555:567 CovariantFunctor functor_facts
+R483:486 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 509:509 <> A:17
+binder 511:511 <> B:18
+R519:522 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R523:523 VST.msl.functors <> B:18 var
+R518:518 VST.msl.functors <> A:17 var
+binder 514:514 <> f:19
+R537:540 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R541:548 VST.msl.functors <> _functor:16 meth
+R550:550 VST.msl.functors <> B:18 var
+R527:534 VST.msl.functors <> _functor:16 meth
+R536:536 VST.msl.functors <> A:17 var
+R571:582 VST.msl.functors CovariantFunctor functorFacts rec
+R593:596 VST.msl.functors <> fmap:20 meth
+R584:591 VST.msl.functors <> _functor:16 meth
+R606:621 VST.msl.functors CovariantFunctor <> mod
+mod 632:651 <> ContraVariantFunctor
+constr 754:765 ContraVariantFunctor FunctorFacts
+rec 662:673 ContraVariantFunctor functorFacts
+proj 771:775 ContraVariantFunctor ff_id
+proj 820:826 ContraVariantFunctor ff_comp
+R685:688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 676:677 <> PS:22
+binder 712:712 <> A:23
+binder 714:714 <> B:24
+R722:725 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R726:726 VST.msl.functors <> A:23 var
+R721:721 VST.msl.functors <> B:24 var
+binder 717:717 <> f:25
+R734:737 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R738:739 VST.msl.functors <> PS:22 var
+R741:741 VST.msl.functors <> B:24 var
+R730:731 VST.msl.functors <> PS:22 var
+R733:733 VST.msl.functors <> A:23 var
+binder 698:701 <> fmap:26
+binder 786:786 <> A:28
+R804:806 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R789:792 VST.msl.functors <> fmap:26 var
+R799:800 VST.msl.base <> id def
+R802:802 VST.msl.functors <> A:28 var
+R807:808 VST.msl.base <> id def
+R811:812 VST.msl.functors <> PS:22 var
+R814:814 VST.msl.functors <> A:28 var
+binder 837:837 <> A:30
+binder 839:839 <> B:31
+binder 841:841 <> C:32
+R849:852 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R853:853 VST.msl.functors <> B:31 var
+R848:848 VST.msl.functors <> C:32 var
+binder 844:844 <> f:33
+R862:865 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R866:866 VST.msl.functors <> A:30 var
+R861:861 VST.msl.functors <> B:31 var
+binder 857:857 <> g:34
+R894:896 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R880:883 VST.msl.base <> :::x_'oo'_x not
+R870:873 VST.msl.functors <> fmap:26 var
+R879:879 VST.msl.functors <> f:33 var
+R884:887 VST.msl.functors <> fmap:26 var
+R893:893 VST.msl.functors <> g:34 var
+R897:900 VST.msl.functors <> fmap:26 var
+R908:911 VST.msl.base <> :::x_'oo'_x not
+R907:907 VST.msl.functors <> g:34 var
+R912:912 VST.msl.functors <> f:33 var
+constr 944:950 ContraVariantFunctor Functor
+rec 926:932 ContraVariantFunctor functor
+proj 956:963 ContraVariantFunctor _functor
+proj 982:985 ContraVariantFunctor fmap
+proj 1042:1054 ContraVariantFunctor functor_facts
+R970:973 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 996:996 <> A:38
+binder 998:998 <> B:39
+R1006:1009 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1010:1010 VST.msl.functors <> A:38 var
+R1005:1005 VST.msl.functors <> B:39 var
+binder 1001:1001 <> f:40
+R1024:1027 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1028:1035 VST.msl.functors <> _functor:37 meth
+R1037:1037 VST.msl.functors <> B:39 var
+R1014:1021 VST.msl.functors <> _functor:37 meth
+R1023:1023 VST.msl.functors <> A:38 var
+R1058:1069 VST.msl.functors ContraVariantFunctor functorFacts rec
+R1080:1083 VST.msl.functors <> fmap:41 meth
+R1071:1078 VST.msl.functors <> _functor:37 meth
+R1093:1112 VST.msl.functors ContraVariantFunctor <> mod
+mod 1123:1139 <> MixVariantFunctor
+constr 1256:1267 MixVariantFunctor FunctorFacts
+rec 1150:1161 MixVariantFunctor functorFacts
+proj 1273:1277 MixVariantFunctor ff_id
+proj 1329:1335 MixVariantFunctor ff_comp
+R1173:1176 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 1164:1165 <> PS:43
+binder 1199:1199 <> A:44
+binder 1201:1201 <> B:45
+R1210:1213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1214:1214 VST.msl.functors <> B:45 var
+R1209:1209 VST.msl.functors <> A:44 var
+binder 1204:1205 <> f1:46
+R1224:1227 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1228:1228 VST.msl.functors <> A:44 var
+R1223:1223 VST.msl.functors <> B:45 var
+binder 1218:1219 <> f2:47
+R1236:1239 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1240:1241 VST.msl.functors <> PS:43 var
+R1243:1243 VST.msl.functors <> B:45 var
+R1232:1233 VST.msl.functors <> PS:43 var
+R1235:1235 VST.msl.functors <> A:44 var
+binder 1185:1188 <> fmap:48
+binder 1288:1288 <> A:50
+R1313:1315 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1291:1294 VST.msl.functors <> fmap:48 var
+R1308:1309 VST.msl.base <> id def
+R1311:1311 VST.msl.functors <> A:50 var
+R1301:1302 VST.msl.base <> id def
+R1304:1304 VST.msl.functors <> A:50 var
+R1316:1317 VST.msl.base <> id def
+R1320:1321 VST.msl.functors <> PS:43 var
+R1323:1323 VST.msl.functors <> A:50 var
+binder 1346:1346 <> A:52
+binder 1348:1348 <> B:53
+binder 1350:1350 <> C:54
+R1359:1362 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1363:1363 VST.msl.functors <> C:54 var
+R1358:1358 VST.msl.functors <> B:53 var
+binder 1353:1354 <> f1:55
+R1373:1376 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1377:1377 VST.msl.functors <> B:53 var
+R1372:1372 VST.msl.functors <> C:54 var
+binder 1367:1368 <> f2:56
+R1387:1390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1391:1391 VST.msl.functors <> B:53 var
+R1386:1386 VST.msl.functors <> A:52 var
+binder 1381:1382 <> g1:57
+R1401:1404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1405:1405 VST.msl.functors <> A:52 var
+R1400:1400 VST.msl.functors <> B:53 var
+binder 1395:1396 <> g2:58
+R1441:1443 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1423:1426 VST.msl.base <> :::x_'oo'_x not
+R1409:1412 VST.msl.functors <> fmap:48 var
+R1421:1422 VST.msl.functors <> f2:56 var
+R1418:1419 VST.msl.functors <> f1:55 var
+R1427:1430 VST.msl.functors <> fmap:48 var
+R1439:1440 VST.msl.functors <> g2:58 var
+R1436:1437 VST.msl.functors <> g1:57 var
+R1444:1447 VST.msl.functors <> fmap:48 var
+R1467:1470 VST.msl.base <> :::x_'oo'_x not
+R1465:1466 VST.msl.functors <> g2:58 var
+R1471:1472 VST.msl.functors <> f2:56 var
+R1456:1459 VST.msl.base <> :::x_'oo'_x not
+R1454:1455 VST.msl.functors <> f1:55 var
+R1460:1461 VST.msl.functors <> g1:57 var
+constr 1504:1510 MixVariantFunctor Functor
+rec 1486:1492 MixVariantFunctor functor
+proj 1516:1523 MixVariantFunctor _functor
+proj 1542:1545 MixVariantFunctor fmap
+proj 1617:1629 MixVariantFunctor functor_facts
+R1530:1533 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 1556:1556 <> A:62
+binder 1558:1558 <> B:63
+R1567:1570 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1571:1571 VST.msl.functors <> B:63 var
+R1566:1566 VST.msl.functors <> A:62 var
+binder 1561:1562 <> f1:64
+R1581:1584 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1585:1585 VST.msl.functors <> A:62 var
+R1580:1580 VST.msl.functors <> B:63 var
+binder 1575:1576 <> f2:65
+R1599:1602 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1603:1610 VST.msl.functors <> _functor:61 meth
+R1612:1612 VST.msl.functors <> B:63 var
+R1589:1596 VST.msl.functors <> _functor:61 meth
+R1598:1598 VST.msl.functors <> A:62 var
+R1633:1644 VST.msl.functors MixVariantFunctor functorFacts rec
+R1655:1658 VST.msl.functors <> fmap:66 meth
+R1646:1653 VST.msl.functors <> _functor:61 meth
+R1668:1684 VST.msl.functors MixVariantFunctor <> mod
+mod 1695:1712 <> CovariantBiFunctor
+constr 1861:1872 CovariantBiFunctor FunctorFacts
+rec 1723:1734 CovariantBiFunctor functorFacts
+proj 1878:1882 CovariantBiFunctor ff_id
+proj 1948:1954 CovariantBiFunctor ff_comp
+R1746:1749 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1754:1757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 1737:1738 <> PS:68
+binder 1780:1781 <> A1:69
+binder 1783:1784 <> B1:70
+binder 1786:1787 <> A2:71
+binder 1789:1790 <> B2:72
+R1800:1803 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1804:1805 VST.msl.functors <> B1:70 var
+R1798:1799 VST.msl.functors <> A1:69 var
+binder 1793:1794 <> f1:73
+R1816:1819 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1820:1821 VST.msl.functors <> B2:72 var
+R1814:1815 VST.msl.functors <> A2:71 var
+binder 1809:1810 <> f2:74
+R1837:1840 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1841:1842 VST.msl.functors <> PS:68 var
+R1847:1848 VST.msl.functors <> B2:72 var
+R1844:1845 VST.msl.functors <> B1:70 var
+R1829:1830 VST.msl.functors <> PS:68 var
+R1835:1836 VST.msl.functors <> A2:71 var
+R1832:1833 VST.msl.functors <> A1:69 var
+binder 1766:1769 <> fmap:75
+binder 1893:1894 <> A1:77
+binder 1896:1897 <> A2:78
+R1928:1930 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1900:1903 VST.msl.functors <> fmap:75 var
+R1922:1923 VST.msl.base <> id def
+R1925:1926 VST.msl.functors <> A2:78 var
+R1914:1915 VST.msl.base <> id def
+R1917:1918 VST.msl.functors <> A1:77 var
+R1931:1932 VST.msl.base <> id def
+R1935:1936 VST.msl.functors <> PS:68 var
+R1941:1942 VST.msl.functors <> A2:78 var
+R1938:1939 VST.msl.functors <> A1:77 var
+binder 1965:1966 <> A1:80
+binder 1968:1969 <> A2:81
+binder 1971:1972 <> B1:82
+binder 1974:1975 <> B2:83
+binder 1977:1978 <> C1:84
+binder 1980:1981 <> C2:85
+R1991:1994 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1995:1996 VST.msl.functors <> C1:84 var
+R1989:1990 VST.msl.functors <> B1:82 var
+binder 1984:1985 <> f1:86
+R2007:2010 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2011:2012 VST.msl.functors <> C2:85 var
+R2005:2006 VST.msl.functors <> B2:83 var
+binder 2000:2001 <> f2:87
+R2023:2026 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2027:2028 VST.msl.functors <> B1:82 var
+R2021:2022 VST.msl.functors <> A1:80 var
+binder 2016:2017 <> g1:88
+R2039:2042 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2043:2044 VST.msl.functors <> B2:83 var
+R2037:2038 VST.msl.functors <> A2:81 var
+binder 2032:2033 <> g2:89
+R2090:2092 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2068:2071 VST.msl.base <> :::x_'oo'_x not
+R2050:2053 VST.msl.functors <> fmap:75 var
+R2066:2067 VST.msl.functors <> f2:87 var
+R2063:2064 VST.msl.functors <> f1:86 var
+R2072:2075 VST.msl.functors <> fmap:75 var
+R2088:2089 VST.msl.functors <> g2:89 var
+R2085:2086 VST.msl.functors <> g1:88 var
+R2093:2096 VST.msl.functors <> fmap:75 var
+R2120:2123 VST.msl.base <> :::x_'oo'_x not
+R2118:2119 VST.msl.functors <> f2:87 var
+R2124:2125 VST.msl.functors <> g2:89 var
+R2109:2112 VST.msl.base <> :::x_'oo'_x not
+R2107:2108 VST.msl.functors <> f1:86 var
+R2113:2114 VST.msl.functors <> g1:88 var
+constr 2157:2163 CovariantBiFunctor Functor
+rec 2139:2145 CovariantBiFunctor functor
+proj 2169:2176 CovariantBiFunctor _functor
+proj 2203:2206 CovariantBiFunctor fmap
+proj 2302:2314 CovariantBiFunctor functor_facts
+R2183:2186 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2191:2194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2217:2218 <> A1:93
+binder 2220:2221 <> B1:94
+binder 2223:2224 <> A2:95
+binder 2226:2227 <> B2:96
+R2237:2240 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2241:2242 VST.msl.functors <> B1:94 var
+R2235:2236 VST.msl.functors <> A1:93 var
+binder 2230:2231 <> f1:97
+R2253:2256 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2257:2258 VST.msl.functors <> B2:96 var
+R2251:2252 VST.msl.functors <> A2:95 var
+binder 2246:2247 <> f2:98
+R2280:2283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2284:2291 VST.msl.functors <> _functor:92 meth
+R2296:2297 VST.msl.functors <> B2:96 var
+R2293:2294 VST.msl.functors <> B1:94 var
+R2266:2273 VST.msl.functors <> _functor:92 meth
+R2278:2279 VST.msl.functors <> A2:95 var
+R2275:2276 VST.msl.functors <> A1:93 var
+R2318:2329 VST.msl.functors CovariantBiFunctor functorFacts rec
+R2340:2343 VST.msl.functors <> fmap:99 meth
+R2331:2338 VST.msl.functors <> _functor:92 meth
+R2353:2370 VST.msl.functors CovariantBiFunctor <> mod
+mod 2381:2404 <> CoContraVariantBiFunctor
+constr 2553:2564 CoContraVariantBiFunctor FunctorFacts
+rec 2415:2426 CoContraVariantBiFunctor functorFacts
+proj 2570:2574 CoContraVariantBiFunctor ff_id
+proj 2640:2646 CoContraVariantBiFunctor ff_comp
+R2438:2441 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2446:2449 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2429:2430 <> PS:101
+binder 2472:2473 <> A1:102
+binder 2475:2476 <> B1:103
+binder 2478:2479 <> A2:104
+binder 2481:2482 <> B2:105
+R2492:2495 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2496:2497 VST.msl.functors <> B1:103 var
+R2490:2491 VST.msl.functors <> A1:102 var
+binder 2485:2486 <> f1:106
+R2508:2511 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2512:2513 VST.msl.functors <> A2:104 var
+R2506:2507 VST.msl.functors <> B2:105 var
+binder 2501:2502 <> f2:107
+R2529:2532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2533:2534 VST.msl.functors <> PS:101 var
+R2539:2540 VST.msl.functors <> B2:105 var
+R2536:2537 VST.msl.functors <> B1:103 var
+R2521:2522 VST.msl.functors <> PS:101 var
+R2527:2528 VST.msl.functors <> A2:104 var
+R2524:2525 VST.msl.functors <> A1:102 var
+binder 2458:2461 <> fmap:108
+binder 2585:2586 <> A1:110
+binder 2588:2589 <> A2:111
+R2620:2622 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2592:2595 VST.msl.functors <> fmap:108 var
+R2614:2615 VST.msl.base <> id def
+R2617:2618 VST.msl.functors <> A2:111 var
+R2606:2607 VST.msl.base <> id def
+R2609:2610 VST.msl.functors <> A1:110 var
+R2623:2624 VST.msl.base <> id def
+R2627:2628 VST.msl.functors <> PS:101 var
+R2633:2634 VST.msl.functors <> A2:111 var
+R2630:2631 VST.msl.functors <> A1:110 var
+binder 2657:2658 <> A1:113
+binder 2660:2661 <> A2:114
+binder 2663:2664 <> B1:115
+binder 2666:2667 <> B2:116
+binder 2669:2670 <> C1:117
+binder 2672:2673 <> C2:118
+R2683:2686 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2687:2688 VST.msl.functors <> C1:117 var
+R2681:2682 VST.msl.functors <> B1:115 var
+binder 2676:2677 <> f1:119
+R2699:2702 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2703:2704 VST.msl.functors <> B2:116 var
+R2697:2698 VST.msl.functors <> C2:118 var
+binder 2692:2693 <> f2:120
+R2715:2718 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2719:2720 VST.msl.functors <> B1:115 var
+R2713:2714 VST.msl.functors <> A1:113 var
+binder 2708:2709 <> g1:121
+R2731:2734 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2735:2736 VST.msl.functors <> A2:114 var
+R2729:2730 VST.msl.functors <> B2:116 var
+binder 2724:2725 <> g2:122
+R2782:2784 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2760:2763 VST.msl.base <> :::x_'oo'_x not
+R2742:2745 VST.msl.functors <> fmap:108 var
+R2758:2759 VST.msl.functors <> f2:120 var
+R2755:2756 VST.msl.functors <> f1:119 var
+R2764:2767 VST.msl.functors <> fmap:108 var
+R2780:2781 VST.msl.functors <> g2:122 var
+R2777:2778 VST.msl.functors <> g1:121 var
+R2785:2788 VST.msl.functors <> fmap:108 var
+R2812:2815 VST.msl.base <> :::x_'oo'_x not
+R2810:2811 VST.msl.functors <> g2:122 var
+R2816:2817 VST.msl.functors <> f2:120 var
+R2801:2804 VST.msl.base <> :::x_'oo'_x not
+R2799:2800 VST.msl.functors <> f1:119 var
+R2805:2806 VST.msl.functors <> g1:121 var
+constr 2849:2855 CoContraVariantBiFunctor Functor
+rec 2831:2837 CoContraVariantBiFunctor functor
+proj 2861:2868 CoContraVariantBiFunctor _functor
+proj 2895:2898 CoContraVariantBiFunctor fmap
+proj 2994:3006 CoContraVariantBiFunctor functor_facts
+R2875:2878 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2883:2886 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2909:2910 <> A1:126
+binder 2912:2913 <> B1:127
+binder 2915:2916 <> A2:128
+binder 2918:2919 <> B2:129
+R2929:2932 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2933:2934 VST.msl.functors <> B1:127 var
+R2927:2928 VST.msl.functors <> A1:126 var
+binder 2922:2923 <> f1:130
+R2945:2948 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2949:2950 VST.msl.functors <> A2:128 var
+R2943:2944 VST.msl.functors <> B2:129 var
+binder 2938:2939 <> f2:131
+R2972:2975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2976:2983 VST.msl.functors <> _functor:125 meth
+R2988:2989 VST.msl.functors <> B2:129 var
+R2985:2986 VST.msl.functors <> B1:127 var
+R2958:2965 VST.msl.functors <> _functor:125 meth
+R2970:2971 VST.msl.functors <> A2:128 var
+R2967:2968 VST.msl.functors <> A1:126 var
+R3010:3021 VST.msl.functors CoContraVariantBiFunctor functorFacts rec
+R3032:3035 VST.msl.functors <> fmap:132 meth
+R3023:3030 VST.msl.functors <> _functor:125 meth
+R3045:3068 VST.msl.functors CoContraVariantBiFunctor <> mod
+R3072:3146 VST.msl.functors <> _functor proj
+R3149:3231 VST.msl.functors <> _functor proj
+R3234:3310 VST.msl.functors <> _functor proj
+R3313:3391 VST.msl.functors <> _functor proj
+R3394:3484 VST.msl.functors <> _functor proj
+mod 3495:3516 <> CovariantFunctorLemmas
+prf 3552:3558 CovariantFunctorLemmas fmap_id
+R3564:3570 VST.msl.functors CovariantFunctor functor rec
+binder 3561:3561 <> F:134
+binder 3582:3582 <> A:135
+R3598:3600 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3585:3588 VST.msl.functors CovariantFunctor fmap proj
+R3593:3594 VST.msl.base <> id def
+R3596:3596 VST.msl.functors <> A:135 var
+R3590:3590 VST.msl.functors <> F:134 var
+R3601:3602 VST.msl.base <> id def
+R3605:3605 VST.msl.functors <> F:134 var
+R3607:3607 VST.msl.functors <> A:135 var
+prf 3687:3695 CovariantFunctorLemmas fmap_comp
+R3701:3707 VST.msl.functors CovariantFunctor functor rec
+binder 3698:3698 <> F:136
+binder 3719:3719 <> A:137
+binder 3721:3721 <> B:138
+binder 3723:3723 <> C:139
+R3731:3734 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3735:3735 VST.msl.functors <> C:139 var
+R3730:3730 VST.msl.functors <> B:138 var
+binder 3726:3726 <> f:140
+R3744:3747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3748:3748 VST.msl.functors <> B:138 var
+R3743:3743 VST.msl.functors <> A:137 var
+binder 3739:3739 <> g:141
+R3774:3776 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3762:3765 VST.msl.base <> :::x_'oo'_x not
+R3754:3757 VST.msl.functors CovariantFunctor fmap proj
+R3761:3761 VST.msl.functors <> f:140 var
+R3759:3759 VST.msl.functors <> F:136 var
+R3766:3769 VST.msl.functors CovariantFunctor fmap proj
+R3773:3773 VST.msl.functors <> g:141 var
+R3771:3771 VST.msl.functors <> F:136 var
+R3777:3780 VST.msl.functors CovariantFunctor fmap proj
+R3786:3789 VST.msl.base <> :::x_'oo'_x not
+R3785:3785 VST.msl.functors <> f:140 var
+R3790:3790 VST.msl.functors <> g:141 var
+R3782:3782 VST.msl.functors <> F:136 var
+prf 3872:3879 CovariantFunctorLemmas fmap_app
+R3885:3891 VST.msl.functors CovariantFunctor functor rec
+binder 3882:3882 <> F:142
+binder 3903:3903 <> A:143
+binder 3905:3905 <> B:144
+binder 3907:3907 <> C:145
+R3915:3918 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3919:3919 VST.msl.functors <> C:145 var
+R3914:3914 VST.msl.functors <> B:144 var
+binder 3910:3910 <> f:146
+R3928:3931 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3932:3932 VST.msl.functors <> B:144 var
+R3927:3927 VST.msl.functors <> A:143 var
+binder 3923:3923 <> g:147
+binder 3935:3935 <> x:148
+R3961:3963 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3940:3943 VST.msl.functors CovariantFunctor fmap proj
+R3950:3953 VST.msl.functors CovariantFunctor fmap proj
+R3959:3959 VST.msl.functors <> x:148 var
+R3957:3957 VST.msl.functors <> g:147 var
+R3955:3955 VST.msl.functors <> F:142 var
+R3947:3947 VST.msl.functors <> f:146 var
+R3945:3945 VST.msl.functors <> F:142 var
+R3964:3967 VST.msl.functors CovariantFunctor fmap proj
+R3980:3980 VST.msl.functors <> x:148 var
+R3973:3976 VST.msl.base <> :::x_'oo'_x not
+R3972:3972 VST.msl.functors <> f:146 var
+R3977:3977 VST.msl.functors <> g:147 var
+R3969:3969 VST.msl.functors <> F:142 var
+R4009:4017 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+R4009:4017 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+R4009:4017 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+R4036:4057 VST.msl.functors CovariantFunctorLemmas <> mod
+mod 4068:4093 <> ContraVariantFunctorLemmas
+prf 4133:4139 ContraVariantFunctorLemmas fmap_id
+R4145:4151 VST.msl.functors ContraVariantFunctor functor rec
+binder 4142:4142 <> F:149
+binder 4163:4163 <> A:150
+R4179:4181 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4166:4169 VST.msl.functors ContraVariantFunctor fmap proj
+R4174:4175 VST.msl.base <> id def
+R4177:4177 VST.msl.functors <> A:150 var
+R4171:4171 VST.msl.functors <> F:149 var
+R4182:4183 VST.msl.base <> id def
+R4186:4186 VST.msl.functors <> F:149 var
+R4188:4188 VST.msl.functors <> A:150 var
+prf 4268:4276 ContraVariantFunctorLemmas fmap_comp
+R4282:4288 VST.msl.functors ContraVariantFunctor functor rec
+binder 4279:4279 <> F:151
+binder 4300:4300 <> A:152
+binder 4302:4302 <> B:153
+binder 4304:4304 <> C:154
+R4312:4315 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4316:4316 VST.msl.functors <> B:153 var
+R4311:4311 VST.msl.functors <> C:154 var
+binder 4307:4307 <> f:155
+R4325:4328 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4329:4329 VST.msl.functors <> A:152 var
+R4324:4324 VST.msl.functors <> B:153 var
+binder 4320:4320 <> g:156
+R4355:4357 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4343:4346 VST.msl.base <> :::x_'oo'_x not
+R4335:4338 VST.msl.functors ContraVariantFunctor fmap proj
+R4342:4342 VST.msl.functors <> f:155 var
+R4340:4340 VST.msl.functors <> F:151 var
+R4347:4350 VST.msl.functors ContraVariantFunctor fmap proj
+R4354:4354 VST.msl.functors <> g:156 var
+R4352:4352 VST.msl.functors <> F:151 var
+R4358:4361 VST.msl.functors ContraVariantFunctor fmap proj
+R4367:4370 VST.msl.base <> :::x_'oo'_x not
+R4366:4366 VST.msl.functors <> g:156 var
+R4371:4371 VST.msl.functors <> f:155 var
+R4363:4363 VST.msl.functors <> F:151 var
+prf 4453:4460 ContraVariantFunctorLemmas fmap_app
+R4466:4472 VST.msl.functors ContraVariantFunctor functor rec
+binder 4463:4463 <> F:157
+binder 4484:4484 <> A:158
+binder 4486:4486 <> B:159
+binder 4488:4488 <> C:160
+R4496:4499 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4500:4500 VST.msl.functors <> B:159 var
+R4495:4495 VST.msl.functors <> C:160 var
+binder 4491:4491 <> f:161
+R4509:4512 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4513:4513 VST.msl.functors <> A:158 var
+R4508:4508 VST.msl.functors <> B:159 var
+binder 4504:4504 <> g:162
+binder 4516:4516 <> x:163
+R4542:4544 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4521:4524 VST.msl.functors ContraVariantFunctor fmap proj
+R4531:4534 VST.msl.functors ContraVariantFunctor fmap proj
+R4540:4540 VST.msl.functors <> x:163 var
+R4538:4538 VST.msl.functors <> g:162 var
+R4536:4536 VST.msl.functors <> F:157 var
+R4528:4528 VST.msl.functors <> f:161 var
+R4526:4526 VST.msl.functors <> F:157 var
+R4545:4548 VST.msl.functors ContraVariantFunctor fmap proj
+R4561:4561 VST.msl.functors <> x:163 var
+R4554:4557 VST.msl.base <> :::x_'oo'_x not
+R4553:4553 VST.msl.functors <> g:162 var
+R4558:4558 VST.msl.functors <> f:161 var
+R4550:4550 VST.msl.functors <> F:157 var
+R4590:4598 VST.msl.functors ContraVariantFunctorLemmas fmap_comp thm
+R4590:4598 VST.msl.functors ContraVariantFunctorLemmas fmap_comp thm
+R4590:4598 VST.msl.functors ContraVariantFunctorLemmas fmap_comp thm
+R4617:4642 VST.msl.functors ContraVariantFunctorLemmas <> mod
+mod 4653:4675 <> MixVariantFunctorLemmas
+prf 4712:4718 MixVariantFunctorLemmas fmap_id
+R4724:4730 VST.msl.functors MixVariantFunctor functor rec
+binder 4721:4721 <> F:164
+binder 4742:4742 <> A:165
+R4765:4767 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4745:4748 VST.msl.functors MixVariantFunctor fmap proj
+R4760:4761 VST.msl.base <> id def
+R4763:4763 VST.msl.functors <> A:165 var
+R4753:4754 VST.msl.base <> id def
+R4756:4756 VST.msl.functors <> A:165 var
+R4750:4750 VST.msl.functors <> F:164 var
+R4768:4769 VST.msl.base <> id def
+R4772:4772 VST.msl.functors <> F:164 var
+R4774:4774 VST.msl.functors <> A:165 var
+prf 4854:4862 MixVariantFunctorLemmas fmap_comp
+R4868:4874 VST.msl.functors MixVariantFunctor functor rec
+binder 4865:4865 <> F:166
+binder 4886:4886 <> A:167
+binder 4888:4888 <> B:168
+binder 4890:4890 <> C:169
+R4899:4902 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4903:4903 VST.msl.functors <> C:169 var
+R4898:4898 VST.msl.functors <> B:168 var
+binder 4893:4894 <> f1:170
+R4912:4915 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4916:4916 VST.msl.functors <> B:168 var
+R4911:4911 VST.msl.functors <> C:169 var
+binder 4907:4908 <> f2:171
+R4926:4929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4930:4930 VST.msl.functors <> B:168 var
+R4925:4925 VST.msl.functors <> A:167 var
+binder 4920:4921 <> g1:172
+R4939:4942 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4943:4943 VST.msl.functors <> A:167 var
+R4938:4938 VST.msl.functors <> B:168 var
+binder 4934:4935 <> g2:173
+R4977:4979 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4961:4964 VST.msl.base <> :::x_'oo'_x not
+R4949:4952 VST.msl.functors MixVariantFunctor fmap proj
+R4959:4960 VST.msl.functors <> f2:171 var
+R4956:4957 VST.msl.functors <> f1:170 var
+R4954:4954 VST.msl.functors <> F:166 var
+R4965:4968 VST.msl.functors MixVariantFunctor fmap proj
+R4975:4976 VST.msl.functors <> g2:173 var
+R4972:4973 VST.msl.functors <> g1:172 var
+R4970:4970 VST.msl.functors <> F:166 var
+R4980:4983 VST.msl.functors MixVariantFunctor fmap proj
+R5001:5004 VST.msl.base <> :::x_'oo'_x not
+R4999:5000 VST.msl.functors <> g2:173 var
+R5005:5006 VST.msl.functors <> f2:171 var
+R4990:4993 VST.msl.base <> :::x_'oo'_x not
+R4988:4989 VST.msl.functors <> f1:170 var
+R4994:4995 VST.msl.functors <> g1:172 var
+R4985:4985 VST.msl.functors <> F:166 var
+prf 5088:5095 MixVariantFunctorLemmas fmap_app
+R5101:5107 VST.msl.functors MixVariantFunctor functor rec
+binder 5098:5098 <> F:174
+binder 5119:5119 <> A:175
+binder 5121:5121 <> B:176
+binder 5123:5123 <> C:177
+R5132:5135 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5136:5136 VST.msl.functors <> C:177 var
+R5131:5131 VST.msl.functors <> B:176 var
+binder 5126:5127 <> f1:178
+R5145:5148 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5149:5149 VST.msl.functors <> B:176 var
+R5144:5144 VST.msl.functors <> C:177 var
+binder 5140:5141 <> f2:179
+R5159:5162 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5163:5163 VST.msl.functors <> B:176 var
+R5158:5158 VST.msl.functors <> A:175 var
+binder 5153:5154 <> g1:180
+R5172:5175 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5176:5176 VST.msl.functors <> A:175 var
+R5171:5171 VST.msl.functors <> B:176 var
+binder 5167:5168 <> g2:181
+binder 5179:5179 <> x:182
+R5213:5215 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5184:5187 VST.msl.functors MixVariantFunctor fmap proj
+R5198:5201 VST.msl.functors MixVariantFunctor fmap proj
+R5211:5211 VST.msl.functors <> x:182 var
+R5208:5209 VST.msl.functors <> g2:181 var
+R5205:5206 VST.msl.functors <> g1:180 var
+R5203:5203 VST.msl.functors <> F:174 var
+R5194:5195 VST.msl.functors <> f2:179 var
+R5191:5192 VST.msl.functors <> f1:178 var
+R5189:5189 VST.msl.functors <> F:174 var
+R5216:5219 VST.msl.functors MixVariantFunctor fmap proj
+R5245:5245 VST.msl.functors <> x:182 var
+R5237:5240 VST.msl.base <> :::x_'oo'_x not
+R5235:5236 VST.msl.functors <> g2:181 var
+R5241:5242 VST.msl.functors <> f2:179 var
+R5226:5229 VST.msl.base <> :::x_'oo'_x not
+R5224:5225 VST.msl.functors <> f1:178 var
+R5230:5231 VST.msl.functors <> g1:180 var
+R5221:5221 VST.msl.functors <> F:174 var
+R5274:5282 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+R5274:5282 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+R5274:5282 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+R5301:5323 VST.msl.functors MixVariantFunctorLemmas <> mod
+mod 5334:5357 <> CovariantBiFunctorLemmas
+prf 5395:5401 CovariantBiFunctorLemmas fmap_id
+R5407:5413 VST.msl.functors CovariantBiFunctor functor rec
+binder 5404:5404 <> F:183
+binder 5425:5426 <> A1:184
+binder 5428:5429 <> A2:185
+R5454:5456 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5432:5435 VST.msl.functors CovariantBiFunctor fmap proj
+R5448:5449 VST.msl.base <> id def
+R5451:5452 VST.msl.functors <> A2:185 var
+R5440:5441 VST.msl.base <> id def
+R5443:5444 VST.msl.functors <> A1:184 var
+R5437:5437 VST.msl.functors <> F:183 var
+R5457:5458 VST.msl.base <> id def
+R5461:5461 VST.msl.functors <> F:183 var
+R5466:5467 VST.msl.functors <> A2:185 var
+R5463:5464 VST.msl.functors <> A1:184 var
+prf 5547:5555 CovariantBiFunctorLemmas fmap_comp
+R5561:5567 VST.msl.functors CovariantBiFunctor functor rec
+binder 5558:5558 <> F:186
+binder 5579:5580 <> A1:187
+binder 5582:5583 <> A2:188
+binder 5585:5586 <> B1:189
+binder 5588:5589 <> B2:190
+binder 5591:5592 <> C1:191
+binder 5594:5595 <> C2:192
+R5605:5608 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5609:5610 VST.msl.functors <> C1:191 var
+R5603:5604 VST.msl.functors <> B1:189 var
+binder 5598:5599 <> f1:193
+R5620:5623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5624:5625 VST.msl.functors <> C2:192 var
+R5618:5619 VST.msl.functors <> B2:190 var
+binder 5614:5615 <> f2:194
+R5636:5639 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5640:5641 VST.msl.functors <> B1:189 var
+R5634:5635 VST.msl.functors <> A1:187 var
+binder 5629:5630 <> g1:195
+R5651:5654 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5655:5656 VST.msl.functors <> B2:190 var
+R5649:5650 VST.msl.functors <> A2:188 var
+binder 5645:5646 <> g2:196
+R5690:5692 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5674:5677 VST.msl.base <> :::x_'oo'_x not
+R5662:5665 VST.msl.functors CovariantBiFunctor fmap proj
+R5672:5673 VST.msl.functors <> f2:194 var
+R5669:5670 VST.msl.functors <> f1:193 var
+R5667:5667 VST.msl.functors <> F:186 var
+R5678:5681 VST.msl.functors CovariantBiFunctor fmap proj
+R5688:5689 VST.msl.functors <> g2:196 var
+R5685:5686 VST.msl.functors <> g1:195 var
+R5683:5683 VST.msl.functors <> F:186 var
+R5693:5696 VST.msl.functors CovariantBiFunctor fmap proj
+R5714:5717 VST.msl.base <> :::x_'oo'_x not
+R5712:5713 VST.msl.functors <> f2:194 var
+R5718:5719 VST.msl.functors <> g2:196 var
+R5703:5706 VST.msl.base <> :::x_'oo'_x not
+R5701:5702 VST.msl.functors <> f1:193 var
+R5707:5708 VST.msl.functors <> g1:195 var
+R5698:5698 VST.msl.functors <> F:186 var
+prf 5801:5808 CovariantBiFunctorLemmas fmap_app
+R5814:5820 VST.msl.functors CovariantBiFunctor functor rec
+binder 5811:5811 <> F:197
+binder 5832:5833 <> A1:198
+binder 5835:5836 <> A2:199
+binder 5838:5839 <> B1:200
+binder 5841:5842 <> B2:201
+binder 5844:5845 <> C1:202
+binder 5847:5848 <> C2:203
+R5858:5861 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5862:5863 VST.msl.functors <> C1:202 var
+R5856:5857 VST.msl.functors <> B1:200 var
+binder 5851:5852 <> f1:204
+R5873:5876 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5877:5878 VST.msl.functors <> C2:203 var
+R5871:5872 VST.msl.functors <> B2:201 var
+binder 5867:5868 <> f2:205
+R5889:5892 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5893:5894 VST.msl.functors <> B1:200 var
+R5887:5888 VST.msl.functors <> A1:198 var
+binder 5882:5883 <> g1:206
+R5904:5907 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5908:5909 VST.msl.functors <> B2:201 var
+R5902:5903 VST.msl.functors <> A2:199 var
+binder 5898:5899 <> g2:207
+binder 5912:5912 <> x:208
+R5946:5948 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5917:5920 VST.msl.functors CovariantBiFunctor fmap proj
+R5931:5934 VST.msl.functors CovariantBiFunctor fmap proj
+R5944:5944 VST.msl.functors <> x:208 var
+R5941:5942 VST.msl.functors <> g2:207 var
+R5938:5939 VST.msl.functors <> g1:206 var
+R5936:5936 VST.msl.functors <> F:197 var
+R5927:5928 VST.msl.functors <> f2:205 var
+R5924:5925 VST.msl.functors <> f1:204 var
+R5922:5922 VST.msl.functors <> F:197 var
+R5949:5952 VST.msl.functors CovariantBiFunctor fmap proj
+R5978:5978 VST.msl.functors <> x:208 var
+R5970:5973 VST.msl.base <> :::x_'oo'_x not
+R5968:5969 VST.msl.functors <> f2:205 var
+R5974:5975 VST.msl.functors <> g2:207 var
+R5959:5962 VST.msl.base <> :::x_'oo'_x not
+R5957:5958 VST.msl.functors <> f1:204 var
+R5963:5964 VST.msl.functors <> g1:206 var
+R5954:5954 VST.msl.functors <> F:197 var
+R6007:6015 VST.msl.functors CovariantBiFunctorLemmas fmap_comp thm
+R6007:6015 VST.msl.functors CovariantBiFunctorLemmas fmap_comp thm
+R6007:6015 VST.msl.functors CovariantBiFunctorLemmas fmap_comp thm
+R6034:6057 VST.msl.functors CovariantBiFunctorLemmas <> mod
+mod 6068:6097 <> CoContraVariantBiFunctorLemmas
+prf 6141:6147 CoContraVariantBiFunctorLemmas fmap_id
+R6153:6159 VST.msl.functors CoContraVariantBiFunctor functor rec
+binder 6150:6150 <> F:209
+binder 6171:6172 <> A1:210
+binder 6174:6175 <> A2:211
+R6200:6202 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6178:6181 VST.msl.functors CoContraVariantBiFunctor fmap proj
+R6194:6195 VST.msl.base <> id def
+R6197:6198 VST.msl.functors <> A2:211 var
+R6186:6187 VST.msl.base <> id def
+R6189:6190 VST.msl.functors <> A1:210 var
+R6183:6183 VST.msl.functors <> F:209 var
+R6203:6204 VST.msl.base <> id def
+R6207:6207 VST.msl.functors <> F:209 var
+R6212:6213 VST.msl.functors <> A2:211 var
+R6209:6210 VST.msl.functors <> A1:210 var
+prf 6293:6301 CoContraVariantBiFunctorLemmas fmap_comp
+R6307:6313 VST.msl.functors CoContraVariantBiFunctor functor rec
+binder 6304:6304 <> F:212
+binder 6325:6326 <> A1:213
+binder 6328:6329 <> A2:214
+binder 6331:6332 <> B1:215
+binder 6334:6335 <> B2:216
+binder 6337:6338 <> C1:217
+binder 6340:6341 <> C2:218
+R6351:6354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6355:6356 VST.msl.functors <> C1:217 var
+R6349:6350 VST.msl.functors <> B1:215 var
+binder 6344:6345 <> f1:219
+R6366:6369 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6370:6371 VST.msl.functors <> B2:216 var
+R6364:6365 VST.msl.functors <> C2:218 var
+binder 6360:6361 <> f2:220
+R6382:6385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6386:6387 VST.msl.functors <> B1:215 var
+R6380:6381 VST.msl.functors <> A1:213 var
+binder 6375:6376 <> g1:221
+R6397:6400 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6401:6402 VST.msl.functors <> A2:214 var
+R6395:6396 VST.msl.functors <> B2:216 var
+binder 6391:6392 <> g2:222
+R6436:6438 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6420:6423 VST.msl.base <> :::x_'oo'_x not
+R6408:6411 VST.msl.functors CoContraVariantBiFunctor fmap proj
+R6418:6419 VST.msl.functors <> f2:220 var
+R6415:6416 VST.msl.functors <> f1:219 var
+R6413:6413 VST.msl.functors <> F:212 var
+R6424:6427 VST.msl.functors CoContraVariantBiFunctor fmap proj
+R6434:6435 VST.msl.functors <> g2:222 var
+R6431:6432 VST.msl.functors <> g1:221 var
+R6429:6429 VST.msl.functors <> F:212 var
+R6439:6442 VST.msl.functors CoContraVariantBiFunctor fmap proj
+R6460:6463 VST.msl.base <> :::x_'oo'_x not
+R6458:6459 VST.msl.functors <> g2:222 var
+R6464:6465 VST.msl.functors <> f2:220 var
+R6449:6452 VST.msl.base <> :::x_'oo'_x not
+R6447:6448 VST.msl.functors <> f1:219 var
+R6453:6454 VST.msl.functors <> g1:221 var
+R6444:6444 VST.msl.functors <> F:212 var
+prf 6547:6554 CoContraVariantBiFunctorLemmas fmap_app
+R6560:6566 VST.msl.functors CoContraVariantBiFunctor functor rec
+binder 6557:6557 <> F:223
+binder 6578:6579 <> A1:224
+binder 6581:6582 <> A2:225
+binder 6584:6585 <> B1:226
+binder 6587:6588 <> B2:227
+binder 6590:6591 <> C1:228
+binder 6593:6594 <> C2:229
+R6604:6607 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6608:6609 VST.msl.functors <> C1:228 var
+R6602:6603 VST.msl.functors <> B1:226 var
+binder 6597:6598 <> f1:230
+R6619:6622 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6623:6624 VST.msl.functors <> B2:227 var
+R6617:6618 VST.msl.functors <> C2:229 var
+binder 6613:6614 <> f2:231
+R6635:6638 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6639:6640 VST.msl.functors <> B1:226 var
+R6633:6634 VST.msl.functors <> A1:224 var
+binder 6628:6629 <> g1:232
+R6650:6653 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6654:6655 VST.msl.functors <> A2:225 var
+R6648:6649 VST.msl.functors <> B2:227 var
+binder 6644:6645 <> g2:233
+binder 6658:6658 <> x:234
+R6692:6694 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6663:6666 VST.msl.functors CoContraVariantBiFunctor fmap proj
+R6677:6680 VST.msl.functors CoContraVariantBiFunctor fmap proj
+R6690:6690 VST.msl.functors <> x:234 var
+R6687:6688 VST.msl.functors <> g2:233 var
+R6684:6685 VST.msl.functors <> g1:232 var
+R6682:6682 VST.msl.functors <> F:223 var
+R6673:6674 VST.msl.functors <> f2:231 var
+R6670:6671 VST.msl.functors <> f1:230 var
+R6668:6668 VST.msl.functors <> F:223 var
+R6695:6698 VST.msl.functors CoContraVariantBiFunctor fmap proj
+R6724:6724 VST.msl.functors <> x:234 var
+R6716:6719 VST.msl.base <> :::x_'oo'_x not
+R6714:6715 VST.msl.functors <> g2:233 var
+R6720:6721 VST.msl.functors <> f2:231 var
+R6705:6708 VST.msl.base <> :::x_'oo'_x not
+R6703:6704 VST.msl.functors <> f1:230 var
+R6709:6710 VST.msl.functors <> g1:232 var
+R6700:6700 VST.msl.functors <> F:223 var
+R6753:6761 VST.msl.functors CoContraVariantBiFunctorLemmas fmap_comp thm
+R6753:6761 VST.msl.functors CoContraVariantBiFunctorLemmas fmap_comp thm
+R6753:6761 VST.msl.functors CoContraVariantBiFunctorLemmas fmap_comp thm
+R6780:6809 VST.msl.functors CoContraVariantBiFunctorLemmas <> mod
+mod 6820:6842 <> GeneralFunctorGenerator
+def 6857:6890 GeneralFunctorGenerator CovariantFunctor_MixVariantFunctor
+R6896:6919 VST.msl.functors CovariantFunctor functor rec
+binder 6893:6893 <> F:235
+R6925:6949 VST.msl.functors MixVariantFunctor functor rec
+R6963:6987 VST.msl.functors MixVariantFunctor Functor constr
+binder 7015:7015 <> A:236
+binder 7017:7017 <> B:237
+binder 7019:7019 <> f:238
+R7026:7046 VST.msl.functors CovariantFunctor fmap proj
+R7050:7050 VST.msl.functors <> f:238 var
+binder 6997:6997 <> T:239
+R7004:7004 VST.msl.functors <> T:239 var
+R6963:6987 VST.msl.functors MixVariantFunctor Functor constr
+binder 7015:7015 <> A:240
+binder 7017:7017 <> B:241
+binder 7019:7019 <> f:242
+R7026:7046 VST.msl.functors CovariantFunctor fmap proj
+R7050:7050 VST.msl.functors <> f:242 var
+binder 6997:6997 <> T:243
+R7004:7004 VST.msl.functors <> T:243 var
+R7097:7118 VST.msl.functors CovariantFunctor ff_id proj
+R7121:7150 VST.msl.functors CovariantFunctor functor_facts proj
+R7097:7118 VST.msl.functors CovariantFunctor ff_id proj
+R7121:7150 VST.msl.functors CovariantFunctor functor_facts proj
+R7163:7186 VST.msl.functors CovariantFunctor ff_comp proj
+R7189:7218 VST.msl.functors CovariantFunctor functor_facts proj
+R7163:7186 VST.msl.functors CovariantFunctor ff_comp proj
+R7189:7218 VST.msl.functors CovariantFunctor functor_facts proj
+def 7242:7279 GeneralFunctorGenerator ContraVariantFunctor_MixVariantFunctor
+R7286:7313 VST.msl.functors ContraVariantFunctor functor rec
+binder 7283:7283 <> F:244
+R7319:7343 VST.msl.functors MixVariantFunctor functor rec
+R7357:7381 VST.msl.functors MixVariantFunctor Functor constr
+binder 7409:7409 <> A:245
+binder 7411:7411 <> B:246
+binder 7415:7415 <> f:247
+R7420:7444 VST.msl.functors ContraVariantFunctor fmap proj
+R7448:7448 VST.msl.functors <> f:247 var
+binder 7391:7391 <> T:248
+R7398:7398 VST.msl.functors <> T:248 var
+R7357:7381 VST.msl.functors MixVariantFunctor Functor constr
+binder 7409:7409 <> A:249
+binder 7411:7411 <> B:250
+binder 7415:7415 <> f:251
+R7420:7444 VST.msl.functors ContraVariantFunctor fmap proj
+R7448:7448 VST.msl.functors <> f:251 var
+binder 7391:7391 <> T:252
+R7398:7398 VST.msl.functors <> T:252 var
+R7495:7520 VST.msl.functors ContraVariantFunctor ff_id proj
+R7523:7556 VST.msl.functors ContraVariantFunctor functor_facts proj
+R7495:7520 VST.msl.functors ContraVariantFunctor ff_id proj
+R7523:7556 VST.msl.functors ContraVariantFunctor functor_facts proj
+R7569:7596 VST.msl.functors ContraVariantFunctor ff_comp proj
+R7599:7632 VST.msl.functors ContraVariantFunctor functor_facts proj
+R7569:7596 VST.msl.functors ContraVariantFunctor ff_comp proj
+R7599:7632 VST.msl.functors ContraVariantFunctor functor_facts proj
+def 7656:7696 GeneralFunctorGenerator CovariantFunctor_CoContraVariantBiFunctor
+R7703:7726 VST.msl.functors CovariantFunctor functor rec
+binder 7700:7700 <> F:253
+R7732:7763 VST.msl.functors CoContraVariantBiFunctor functor rec
+R7777:7808 VST.msl.functors CoContraVariantBiFunctor Functor constr
+binder 7841:7841 <> A:254
+binder 7843:7843 <> B:255
+binder 7845:7845 <> C:256
+binder 7847:7847 <> D:257
+binder 7849:7849 <> f:258
+R7856:7876 VST.msl.functors CovariantFunctor fmap proj
+R7880:7880 VST.msl.functors <> f:258 var
+binder 7818:7819 <> T1:259
+binder 7821:7822 <> T2:260
+R7829:7830 VST.msl.functors <> T1:259 var
+R7777:7808 VST.msl.functors CoContraVariantBiFunctor Functor constr
+binder 7841:7841 <> A:261
+binder 7843:7843 <> B:262
+binder 7845:7845 <> C:263
+binder 7847:7847 <> D:264
+binder 7849:7849 <> f:265
+R7856:7876 VST.msl.functors CovariantFunctor fmap proj
+R7880:7880 VST.msl.functors <> f:265 var
+binder 7818:7819 <> T1:266
+binder 7821:7822 <> T2:267
+R7829:7830 VST.msl.functors <> T1:266 var
+R7927:7948 VST.msl.functors CovariantFunctor ff_id proj
+R7951:7980 VST.msl.functors CovariantFunctor functor_facts proj
+R7927:7948 VST.msl.functors CovariantFunctor ff_id proj
+R7951:7980 VST.msl.functors CovariantFunctor functor_facts proj
+R7993:8016 VST.msl.functors CovariantFunctor ff_comp proj
+R8019:8048 VST.msl.functors CovariantFunctor functor_facts proj
+R7993:8016 VST.msl.functors CovariantFunctor ff_comp proj
+R8019:8048 VST.msl.functors CovariantFunctor functor_facts proj
+def 8072:8113 GeneralFunctorGenerator CoContraVariantBiFunctor_MixVariantFunctor
+R8120:8151 VST.msl.functors CoContraVariantBiFunctor functor rec
+binder 8117:8117 <> F:268
+R8157:8181 VST.msl.functors MixVariantFunctor functor rec
+R8195:8219 VST.msl.functors MixVariantFunctor Functor constr
+binder 8249:8249 <> A:269
+binder 8251:8251 <> B:270
+binder 8253:8253 <> f:271
+binder 8255:8255 <> g:272
+R8260:8288 VST.msl.functors CoContraVariantBiFunctor fmap proj
+R8294:8294 VST.msl.functors <> g:272 var
+R8292:8292 VST.msl.functors <> f:271 var
+binder 8229:8229 <> T:273
+R8238:8238 VST.msl.functors <> T:273 var
+R8236:8236 VST.msl.functors <> T:273 var
+R8195:8219 VST.msl.functors MixVariantFunctor Functor constr
+binder 8249:8249 <> A:274
+binder 8251:8251 <> B:275
+binder 8253:8253 <> f:276
+binder 8255:8255 <> g:277
+R8260:8288 VST.msl.functors CoContraVariantBiFunctor fmap proj
+R8294:8294 VST.msl.functors <> g:277 var
+R8292:8292 VST.msl.functors <> f:276 var
+binder 8229:8229 <> T:278
+R8238:8238 VST.msl.functors <> T:278 var
+R8236:8236 VST.msl.functors <> T:278 var
+R8341:8370 VST.msl.functors CoContraVariantBiFunctor ff_id proj
+R8383:8420 VST.msl.functors CoContraVariantBiFunctor functor_facts proj
+R8341:8370 VST.msl.functors CoContraVariantBiFunctor ff_id proj
+R8383:8420 VST.msl.functors CoContraVariantBiFunctor functor_facts proj
+R8433:8464 VST.msl.functors CoContraVariantBiFunctor ff_comp proj
+R8477:8514 VST.msl.functors CoContraVariantBiFunctor functor_facts proj
+R8433:8464 VST.msl.functors CoContraVariantBiFunctor ff_comp proj
+R8477:8514 VST.msl.functors CoContraVariantBiFunctor functor_facts proj
+def 8538:8578 GeneralFunctorGenerator CovariantFunctor_CovariantFunctor_compose
+R8588:8611 VST.msl.functors CovariantFunctor functor rec
+binder 8581:8582 <> F1:279
+binder 8584:8585 <> F2:280
+R8617:8640 VST.msl.functors CovariantFunctor functor rec
+R8654:8677 VST.msl.functors CovariantFunctor Functor constr
+binder 8711:8711 <> A:281
+binder 8713:8713 <> B:282
+binder 8715:8715 <> f:283
+R8720:8740 VST.msl.functors CovariantFunctor fmap proj
+R8746:8766 VST.msl.functors CovariantFunctor fmap proj
+R8771:8771 VST.msl.functors <> f:283 var
+binder 8687:8687 <> T:284
+R8699:8699 VST.msl.functors <> T:284 var
+R8654:8677 VST.msl.functors CovariantFunctor Functor constr
+binder 8711:8711 <> A:285
+binder 8713:8713 <> B:286
+binder 8715:8715 <> f:287
+R8720:8740 VST.msl.functors CovariantFunctor fmap proj
+R8746:8766 VST.msl.functors CovariantFunctor fmap proj
+R8771:8771 VST.msl.functors <> f:287 var
+binder 8687:8687 <> T:288
+R8699:8699 VST.msl.functors <> T:288 var
+R8822:8851 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R8822:8851 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R8822:8851 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R8822:8851 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R8822:8851 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R8873:8904 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+R8873:8904 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+R8873:8904 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+R8873:8904 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+R8873:8904 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+def 8934:8975 GeneralFunctorGenerator CovariantFunctor_MixVariantFunctor_compose
+R8982:9005 VST.msl.functors CovariantFunctor functor rec
+binder 8978:8979 <> F1:289
+R9013:9037 VST.msl.functors MixVariantFunctor functor rec
+binder 9009:9010 <> F2:290
+R9043:9067 VST.msl.functors MixVariantFunctor functor rec
+R9081:9105 VST.msl.functors MixVariantFunctor Functor constr
+binder 9139:9139 <> A:291
+binder 9141:9141 <> B:292
+binder 9143:9143 <> f:293
+binder 9145:9145 <> g:294
+R9150:9170 VST.msl.functors CovariantFunctor fmap proj
+R9176:9197 VST.msl.functors MixVariantFunctor fmap proj
+R9204:9204 VST.msl.functors <> g:294 var
+R9202:9202 VST.msl.functors <> f:293 var
+binder 9115:9115 <> T:295
+R9127:9127 VST.msl.functors <> T:295 var
+R9081:9105 VST.msl.functors MixVariantFunctor Functor constr
+binder 9139:9139 <> A:296
+binder 9141:9141 <> B:297
+binder 9143:9143 <> f:298
+binder 9145:9145 <> g:299
+R9150:9170 VST.msl.functors CovariantFunctor fmap proj
+R9176:9197 VST.msl.functors MixVariantFunctor fmap proj
+R9204:9204 VST.msl.functors <> g:299 var
+R9202:9202 VST.msl.functors <> f:298 var
+binder 9115:9115 <> T:300
+R9127:9127 VST.msl.functors <> T:300 var
+R9254:9284 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R9287:9316 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R9254:9284 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R9254:9284 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R9287:9316 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R9287:9316 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R9338:9369 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+R9372:9404 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+R9338:9369 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+R9338:9369 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+R9338:9369 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+R9372:9404 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+R9372:9404 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+def 9434:9476 GeneralFunctorGenerator CovariantBiFunctor_CovariantFunctor_compose
+R9482:9507 VST.msl.functors CovariantBiFunctor functor rec
+binder 9479:9479 <> F:301
+R9518:9541 VST.msl.functors CovariantFunctor functor rec
+binder 9511:9512 <> F1:302
+binder 9514:9515 <> F2:303
+R9547:9570 VST.msl.functors CovariantFunctor functor rec
+R9584:9607 VST.msl.functors CovariantFunctor Functor constr
+binder 9647:9647 <> A:304
+binder 9649:9649 <> B:305
+binder 9651:9651 <> f:306
+R9656:9678 VST.msl.functors CovariantBiFunctor fmap proj
+R9718:9738 VST.msl.functors CovariantFunctor fmap proj
+R9743:9743 VST.msl.functors <> f:306 var
+R9689:9709 VST.msl.functors CovariantFunctor fmap proj
+R9714:9714 VST.msl.functors <> f:306 var
+binder 9617:9617 <> T:307
+R9635:9635 VST.msl.functors <> T:307 var
+R9628:9628 VST.msl.functors <> T:307 var
+R9584:9607 VST.msl.functors CovariantFunctor Functor constr
+binder 9647:9647 <> A:308
+binder 9649:9649 <> B:309
+binder 9651:9651 <> f:310
+R9656:9678 VST.msl.functors CovariantBiFunctor fmap proj
+R9718:9738 VST.msl.functors CovariantFunctor fmap proj
+R9743:9743 VST.msl.functors <> f:310 var
+R9689:9709 VST.msl.functors CovariantFunctor fmap proj
+R9714:9714 VST.msl.functors <> f:310 var
+binder 9617:9617 <> T:311
+R9635:9635 VST.msl.functors <> T:311 var
+R9628:9628 VST.msl.functors <> T:311 var
+R9794:9823 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R9826:9857 VST.msl.functors CovariantBiFunctorLemmas fmap_id thm
+R9794:9823 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R9794:9823 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R9794:9823 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R9794:9823 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R9826:9857 VST.msl.functors CovariantBiFunctorLemmas fmap_id thm
+R9826:9857 VST.msl.functors CovariantBiFunctorLemmas fmap_id thm
+R9878:9911 VST.msl.functors CovariantBiFunctorLemmas fmap_comp thm
+R9915:9946 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+R9878:9911 VST.msl.functors CovariantBiFunctorLemmas fmap_comp thm
+R9878:9911 VST.msl.functors CovariantBiFunctorLemmas fmap_comp thm
+R9915:9946 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+R9915:9946 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+R9915:9946 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+R9915:9946 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+def 9976:10019 GeneralFunctorGenerator CovariantBiFunctor_MixVariantFunctor_compose
+R10025:10050 VST.msl.functors CovariantBiFunctor functor rec
+binder 10022:10022 <> F:312
+R10061:10085 VST.msl.functors MixVariantFunctor functor rec
+binder 10054:10055 <> F1:313
+binder 10057:10058 <> F2:314
+R10091:10115 VST.msl.functors MixVariantFunctor functor rec
+R10129:10153 VST.msl.functors MixVariantFunctor Functor constr
+binder 10193:10193 <> A:315
+binder 10195:10195 <> B:316
+binder 10197:10197 <> f:317
+binder 10199:10199 <> g:318
+R10204:10226 VST.msl.functors CovariantBiFunctor fmap proj
+R10269:10290 VST.msl.functors MixVariantFunctor fmap proj
+R10297:10297 VST.msl.functors <> g:318 var
+R10295:10295 VST.msl.functors <> f:317 var
+R10237:10258 VST.msl.functors MixVariantFunctor fmap proj
+R10265:10265 VST.msl.functors <> g:318 var
+R10263:10263 VST.msl.functors <> f:317 var
+binder 10163:10163 <> T:319
+R10181:10181 VST.msl.functors <> T:319 var
+R10174:10174 VST.msl.functors <> T:319 var
+R10129:10153 VST.msl.functors MixVariantFunctor Functor constr
+binder 10193:10193 <> A:320
+binder 10195:10195 <> B:321
+binder 10197:10197 <> f:322
+binder 10199:10199 <> g:323
+R10204:10226 VST.msl.functors CovariantBiFunctor fmap proj
+R10269:10290 VST.msl.functors MixVariantFunctor fmap proj
+R10297:10297 VST.msl.functors <> g:323 var
+R10295:10295 VST.msl.functors <> f:322 var
+R10237:10258 VST.msl.functors MixVariantFunctor fmap proj
+R10265:10265 VST.msl.functors <> g:323 var
+R10263:10263 VST.msl.functors <> f:322 var
+binder 10163:10163 <> T:324
+R10181:10181 VST.msl.functors <> T:324 var
+R10174:10174 VST.msl.functors <> T:324 var
+R10348:10378 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R10381:10412 VST.msl.functors CovariantBiFunctorLemmas fmap_id thm
+R10348:10378 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R10348:10378 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R10348:10378 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R10348:10378 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R10381:10412 VST.msl.functors CovariantBiFunctorLemmas fmap_id thm
+R10381:10412 VST.msl.functors CovariantBiFunctorLemmas fmap_id thm
+R10433:10466 VST.msl.functors CovariantBiFunctorLemmas fmap_comp thm
+R10470:10502 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+R10433:10466 VST.msl.functors CovariantBiFunctorLemmas fmap_comp thm
+R10433:10466 VST.msl.functors CovariantBiFunctorLemmas fmap_comp thm
+R10470:10502 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+R10470:10502 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+R10470:10502 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+R10470:10502 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+def 10532:10586 GeneralFunctorGenerator CoContraVariantBiFunctor_CoContraVariantFunctor_compose
+R10592:10623 VST.msl.functors CoContraVariantBiFunctor functor rec
+binder 10589:10589 <> F:325
+R10631:10654 VST.msl.functors CovariantFunctor functor rec
+binder 10627:10628 <> F1:326
+R10662:10689 VST.msl.functors ContraVariantFunctor functor rec
+binder 10658:10659 <> F2:327
+R10695:10718 VST.msl.functors CovariantFunctor functor rec
+R10732:10755 VST.msl.functors CovariantFunctor Functor constr
+binder 10795:10795 <> A:328
+binder 10797:10797 <> B:329
+binder 10799:10799 <> f:330
+R10804:10832 VST.msl.functors CoContraVariantBiFunctor fmap proj
+R10872:10896 VST.msl.functors ContraVariantFunctor fmap proj
+R10901:10901 VST.msl.functors <> f:330 var
+R10843:10863 VST.msl.functors CovariantFunctor fmap proj
+R10868:10868 VST.msl.functors <> f:330 var
+binder 10765:10765 <> T:331
+R10783:10783 VST.msl.functors <> T:331 var
+R10776:10776 VST.msl.functors <> T:331 var
+R10732:10755 VST.msl.functors CovariantFunctor Functor constr
+binder 10795:10795 <> A:332
+binder 10797:10797 <> B:333
+binder 10799:10799 <> f:334
+R10804:10832 VST.msl.functors CoContraVariantBiFunctor fmap proj
+R10872:10896 VST.msl.functors ContraVariantFunctor fmap proj
+R10901:10901 VST.msl.functors <> f:334 var
+R10843:10863 VST.msl.functors CovariantFunctor fmap proj
+R10868:10868 VST.msl.functors <> f:334 var
+binder 10765:10765 <> T:335
+R10783:10783 VST.msl.functors <> T:335 var
+R10776:10776 VST.msl.functors <> T:335 var
+R10951:10980 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R10983:11016 VST.msl.functors ContraVariantFunctorLemmas fmap_id thm
+R11019:11056 VST.msl.functors CoContraVariantBiFunctorLemmas fmap_id thm
+R10951:10980 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R10951:10980 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R10983:11016 VST.msl.functors ContraVariantFunctorLemmas fmap_id thm
+R10983:11016 VST.msl.functors ContraVariantFunctorLemmas fmap_id thm
+R11019:11056 VST.msl.functors CoContraVariantBiFunctorLemmas fmap_id thm
+R11019:11056 VST.msl.functors CoContraVariantBiFunctorLemmas fmap_id thm
+R11077:11116 VST.msl.functors CoContraVariantBiFunctorLemmas fmap_comp thm
+R11119:11150 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+R11153:11188 VST.msl.functors ContraVariantFunctorLemmas fmap_comp thm
+R11077:11116 VST.msl.functors CoContraVariantBiFunctorLemmas fmap_comp thm
+R11077:11116 VST.msl.functors CoContraVariantBiFunctorLemmas fmap_comp thm
+R11119:11150 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+R11119:11150 VST.msl.functors CovariantFunctorLemmas fmap_comp thm
+R11153:11188 VST.msl.functors ContraVariantFunctorLemmas fmap_comp thm
+R11153:11188 VST.msl.functors ContraVariantFunctorLemmas fmap_comp thm
+def 11218:11267 GeneralFunctorGenerator CoContraVariantBiFunctor_MixVariantFunctor_compose
+R11273:11304 VST.msl.functors CoContraVariantBiFunctor functor rec
+binder 11270:11270 <> F:336
+R11315:11339 VST.msl.functors MixVariantFunctor functor rec
+binder 11308:11309 <> F1:337
+binder 11311:11312 <> F2:338
+R11345:11369 VST.msl.functors MixVariantFunctor functor rec
+R11383:11407 VST.msl.functors MixVariantFunctor Functor constr
+binder 11447:11447 <> A:339
+binder 11449:11449 <> B:340
+binder 11451:11451 <> f:341
+binder 11453:11453 <> g:342
+R11458:11486 VST.msl.functors CoContraVariantBiFunctor fmap proj
+R11529:11550 VST.msl.functors MixVariantFunctor fmap proj
+R11557:11557 VST.msl.functors <> f:341 var
+R11555:11555 VST.msl.functors <> g:342 var
+R11497:11518 VST.msl.functors MixVariantFunctor fmap proj
+R11525:11525 VST.msl.functors <> g:342 var
+R11523:11523 VST.msl.functors <> f:341 var
+binder 11417:11417 <> T:343
+R11435:11435 VST.msl.functors <> T:343 var
+R11428:11428 VST.msl.functors <> T:343 var
+R11383:11407 VST.msl.functors MixVariantFunctor Functor constr
+binder 11447:11447 <> A:344
+binder 11449:11449 <> B:345
+binder 11451:11451 <> f:346
+binder 11453:11453 <> g:347
+R11458:11486 VST.msl.functors CoContraVariantBiFunctor fmap proj
+R11529:11550 VST.msl.functors MixVariantFunctor fmap proj
+R11557:11557 VST.msl.functors <> f:346 var
+R11555:11555 VST.msl.functors <> g:347 var
+R11497:11518 VST.msl.functors MixVariantFunctor fmap proj
+R11525:11525 VST.msl.functors <> g:347 var
+R11523:11523 VST.msl.functors <> f:346 var
+binder 11417:11417 <> T:348
+R11435:11435 VST.msl.functors <> T:348 var
+R11428:11428 VST.msl.functors <> T:348 var
+R11608:11638 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R11641:11678 VST.msl.functors CoContraVariantBiFunctorLemmas fmap_id thm
+R11608:11638 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R11608:11638 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R11608:11638 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R11608:11638 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R11641:11678 VST.msl.functors CoContraVariantBiFunctorLemmas fmap_id thm
+R11641:11678 VST.msl.functors CoContraVariantBiFunctorLemmas fmap_id thm
+R11699:11738 VST.msl.functors CoContraVariantBiFunctorLemmas fmap_comp thm
+R11742:11774 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+R11699:11738 VST.msl.functors CoContraVariantBiFunctorLemmas fmap_comp thm
+R11699:11738 VST.msl.functors CoContraVariantBiFunctorLemmas fmap_comp thm
+R11742:11774 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+R11742:11774 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+R11742:11774 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+R11742:11774 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+R11797:11819 VST.msl.functors GeneralFunctorGenerator <> mod
+mod 11830:11856 <> CovariantBiFunctorGenerator
+def 11932:11936 CovariantBiFunctorGenerator Fpair
+R11939:11945 VST.msl.functors CovariantBiFunctor functor rec
+R11959:11965 VST.msl.functors CovariantBiFunctor Functor constr
+binder 12012:12013 <> f1:349
+binder 12015:12016 <> f2:350
+binder 12018:12018 <> x:351
+R12023:12023 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12034:12035 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12046:12046 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12024:12025 VST.msl.functors <> f1:349 var
+R12028:12030 Coq.Init.Datatypes <> fst def
+R12032:12032 VST.msl.functors <> x:351 var
+R12036:12037 VST.msl.functors <> f2:350 var
+R12040:12042 Coq.Init.Datatypes <> snd def
+R12044:12044 VST.msl.functors <> x:351 var
+binder 11975:11976 <> T1:352
+binder 11978:11979 <> T2:353
+R11984:11987 Coq.Init.Datatypes <> prod ind
+R11992:11993 VST.msl.functors <> T2:353 var
+R11989:11990 VST.msl.functors <> T1:352 var
+R11959:11965 VST.msl.functors CovariantBiFunctor Functor constr
+binder 12012:12013 <> f1:354
+binder 12015:12016 <> f2:355
+binder 12018:12018 <> x:356
+R12023:12023 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12034:12035 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12046:12046 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12024:12025 VST.msl.functors <> f1:354 var
+R12028:12030 Coq.Init.Datatypes <> fst def
+R12032:12032 VST.msl.functors <> x:356 var
+R12036:12037 VST.msl.functors <> f2:355 var
+R12040:12042 Coq.Init.Datatypes <> snd def
+R12044:12044 VST.msl.functors <> x:356 var
+binder 11975:11976 <> T1:357
+binder 11978:11979 <> T2:358
+R11984:11987 Coq.Init.Datatypes <> prod ind
+R11992:11993 VST.msl.functors <> T2:358 var
+R11989:11990 VST.msl.functors <> T1:357 var
+def 12166:12172 CovariantBiFunctorGenerator Fchoice
+R12175:12181 VST.msl.functors CovariantBiFunctor functor rec
+R12195:12201 VST.msl.functors CovariantBiFunctor Functor constr
+binder 12247:12248 <> f1:359
+binder 12250:12251 <> f2:360
+binder 12253:12253 <> x:361
+R12270:12270 VST.msl.functors <> x:361 var
+R12285:12287 Coq.Init.Datatypes <> inl constr
+R12294:12296 Coq.Init.Datatypes <> inl constr
+R12299:12300 VST.msl.functors <> f1:359 var
+R12302:12302 VST.msl.functors <> x:361 var
+R12313:12315 Coq.Init.Datatypes <> inr constr
+R12322:12324 Coq.Init.Datatypes <> inr constr
+R12327:12328 VST.msl.functors <> f2:360 var
+R12330:12330 VST.msl.functors <> x:361 var
+binder 12211:12212 <> T1:363
+binder 12214:12215 <> T2:364
+R12220:12222 Coq.Init.Datatypes <> sum ind
+R12227:12228 VST.msl.functors <> T2:364 var
+R12224:12225 VST.msl.functors <> T1:363 var
+R12195:12201 VST.msl.functors CovariantBiFunctor Functor constr
+binder 12247:12248 <> f1:365
+binder 12250:12251 <> f2:366
+binder 12253:12253 <> x:367
+R12270:12270 VST.msl.functors <> x:367 var
+R12285:12287 Coq.Init.Datatypes <> inl constr
+R12294:12296 Coq.Init.Datatypes <> inl constr
+R12299:12300 VST.msl.functors <> f1:365 var
+R12302:12302 VST.msl.functors <> x:367 var
+R12313:12315 Coq.Init.Datatypes <> inr constr
+R12322:12324 Coq.Init.Datatypes <> inr constr
+R12327:12328 VST.msl.functors <> f2:366 var
+R12330:12330 VST.msl.functors <> x:367 var
+binder 12211:12212 <> T1:369
+binder 12214:12215 <> T2:370
+R12220:12222 Coq.Init.Datatypes <> sum ind
+R12227:12228 VST.msl.functors <> T2:370 var
+R12224:12225 VST.msl.functors <> T1:369 var
+R12467:12473 VST.msl.base <> compose def
+R12503:12529 VST.msl.functors CovariantBiFunctorGenerator <> mod
+mod 12540:12572 <> CoContraVariantBiFunctorGenerator
+def 12660:12664 CoContraVariantBiFunctorGenerator Ffunc
+R12667:12673 VST.msl.functors CoContraVariantBiFunctor functor rec
+R12687:12693 VST.msl.functors CoContraVariantBiFunctor Functor constr
+binder 12738:12739 <> f1:371
+binder 12741:12742 <> f2:372
+binder 12744:12744 <> x:373
+binder 12753:12753 <> a:374
+R12758:12759 VST.msl.functors <> f1:371 var
+R12762:12762 VST.msl.functors <> x:373 var
+R12765:12766 VST.msl.functors <> f2:372 var
+R12768:12768 VST.msl.functors <> a:374 var
+binder 12703:12704 <> T1:375
+binder 12706:12707 <> T2:376
+R12714:12717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12718:12719 VST.msl.functors <> T1:375 var
+R12712:12713 VST.msl.functors <> T2:376 var
+R12687:12693 VST.msl.functors CoContraVariantBiFunctor Functor constr
+binder 12738:12739 <> f1:377
+binder 12741:12742 <> f2:378
+binder 12744:12744 <> x:379
+binder 12753:12753 <> a:380
+R12758:12759 VST.msl.functors <> f1:377 var
+R12762:12762 VST.msl.functors <> x:379 var
+R12765:12766 VST.msl.functors <> f2:378 var
+R12768:12768 VST.msl.functors <> a:380 var
+binder 12703:12704 <> T1:381
+binder 12706:12707 <> T2:382
+R12714:12717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12718:12719 VST.msl.functors <> T1:381 var
+R12712:12713 VST.msl.functors <> T2:382 var
+R12827:12859 VST.msl.functors CoContraVariantBiFunctorGenerator <> mod
+mod 12870:12894 <> CovariantFunctorGenerator
+def 12966:12971 CovariantFunctorGenerator fconst
+binder 12974:12974 <> T:383
+R12985:12991 VST.msl.functors CovariantFunctor functor rec
+R13005:13011 VST.msl.functors CovariantFunctor Functor constr
+binder 13037:13037 <> x:384
+R13042:13042 VST.msl.functors <> x:384 var
+R13005:13011 VST.msl.functors CovariantFunctor Functor constr
+binder 13037:13037 <> x:385
+R13042:13042 VST.msl.functors <> x:385 var
+def 13099:13107 CovariantFunctorGenerator fidentity
+R13110:13116 VST.msl.functors CovariantFunctor functor rec
+R13130:13136 VST.msl.functors CovariantFunctor Functor constr
+binder 13160:13160 <> f:386
+R13165:13165 VST.msl.functors <> f:386 var
+binder 13143:13143 <> T:387
+R13148:13148 VST.msl.functors <> T:387 var
+R13130:13136 VST.msl.functors CovariantFunctor Functor constr
+binder 13160:13160 <> f:388
+R13165:13165 VST.msl.functors <> f:388 var
+binder 13143:13143 <> T:389
+R13148:13148 VST.msl.functors <> T:389 var
+def 13222:13228 CovariantFunctorGenerator Foption
+R13231:13237 VST.msl.functors CovariantFunctor functor rec
+R13251:13257 VST.msl.functors CovariantFunctor Functor constr
+binder 13291:13291 <> f:390
+binder 13293:13293 <> x:391
+R13304:13304 VST.msl.functors <> x:391 var
+R13311:13314 Coq.Init.Datatypes <> Some constr
+R13322:13325 Coq.Init.Datatypes <> Some constr
+R13328:13328 VST.msl.functors <> f:390 var
+R13341:13344 Coq.Init.Datatypes <> None constr
+binder 13264:13264 <> T:393
+R13269:13274 Coq.Init.Datatypes <> option ind
+R13276:13276 VST.msl.functors <> T:393 var
+R13251:13257 VST.msl.functors CovariantFunctor Functor constr
+binder 13291:13291 <> f:394
+binder 13293:13293 <> x:395
+R13304:13304 VST.msl.functors <> x:395 var
+R13311:13314 Coq.Init.Datatypes <> Some constr
+R13322:13325 Coq.Init.Datatypes <> Some constr
+R13328:13328 VST.msl.functors <> f:394 var
+R13341:13344 Coq.Init.Datatypes <> None constr
+binder 13264:13264 <> T:397
+R13269:13274 Coq.Init.Datatypes <> option ind
+R13276:13276 VST.msl.functors <> T:397 var
+def 13492:13496 CovariantFunctorGenerator Flist
+R13499:13505 VST.msl.functors CovariantFunctor functor rec
+R13519:13525 VST.msl.functors CovariantFunctor Functor constr
+binder 13557:13557 <> f:398
+binder 13559:13559 <> x:399
+R13564:13566 Coq.Lists.List <> map def
+R13570:13570 VST.msl.functors <> x:399 var
+R13568:13568 VST.msl.functors <> f:398 var
+binder 13532:13532 <> T:400
+R13537:13540 Coq.Init.Datatypes <> list ind
+R13542:13542 VST.msl.functors <> T:400 var
+R13519:13525 VST.msl.functors CovariantFunctor Functor constr
+binder 13557:13557 <> f:401
+binder 13559:13559 <> x:402
+R13564:13566 Coq.Lists.List <> map def
+R13570:13570 VST.msl.functors <> x:402 var
+R13568:13568 VST.msl.functors <> f:401 var
+binder 13532:13532 <> T:403
+R13537:13540 Coq.Init.Datatypes <> list ind
+R13542:13542 VST.msl.functors <> T:403 var
+R13641:13646 Coq.Lists.List <> map_id thm
+R13641:13646 Coq.Lists.List <> map_id thm
+R13677:13683 Coq.Lists.List <> map_map thm
+R13677:13683 Coq.Lists.List <> map_map thm
+def 13707:13711 CovariantFunctorGenerator fpair
+R13721:13727 VST.msl.functors CovariantFunctor functor rec
+binder 13714:13715 <> F1:404
+binder 13717:13718 <> F2:405
+R13731:13737 VST.msl.functors CovariantFunctor functor rec
+R13744:13810 VST.msl.functors GeneralFunctorGenerator CovariantBiFunctor_CovariantFunctor_compose def
+R13855:13856 VST.msl.functors <> F2:405 var
+R13850:13851 VST.msl.functors <> F1:404 var
+R13814:13846 VST.msl.functors CovariantBiFunctorGenerator Fpair def
+def 13860:13933 CovariantFunctorGenerator Unnamed_thm
+R13880:13886 VST.msl.functors CovariantFunctor functor rec
+binder 13873:13874 <> F1:406
+binder 13876:13877 <> F2:407
+binder 13890:13890 <> T:408
+R13913:13915 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13900:13904 VST.msl.functors CovariantFunctorGenerator fpair def
+R13912:13912 VST.msl.functors <> T:408 var
+R13909:13910 VST.msl.functors <> F2:407 var
+R13906:13907 VST.msl.functors <> F1:406 var
+R13916:13919 Coq.Init.Datatypes <> prod ind
+R13929:13930 VST.msl.functors <> F2:407 var
+R13932:13932 VST.msl.functors <> T:408 var
+R13922:13923 VST.msl.functors <> F1:406 var
+R13925:13925 VST.msl.functors <> T:408 var
+def 13966:13972 CovariantFunctorGenerator fchoice
+R13982:13988 VST.msl.functors CovariantFunctor functor rec
+binder 13975:13976 <> F1:409
+binder 13978:13979 <> F2:410
+R13992:13998 VST.msl.functors CovariantFunctor functor rec
+R14005:14071 VST.msl.functors GeneralFunctorGenerator CovariantBiFunctor_CovariantFunctor_compose def
+R14118:14119 VST.msl.functors <> F2:410 var
+R14113:14114 VST.msl.functors <> F1:409 var
+R14075:14109 VST.msl.functors CovariantBiFunctorGenerator Fchoice def
+def 14134:14140 CovariantFunctorGenerator foption
+R14146:14152 VST.msl.functors CovariantFunctor functor rec
+binder 14143:14143 <> F:411
+R14156:14162 VST.msl.functors CovariantFunctor functor rec
+R14169:14233 VST.msl.functors GeneralFunctorGenerator CovariantFunctor_CovariantFunctor_compose def
+R14247:14247 VST.msl.functors <> F:411 var
+R14237:14243 VST.msl.functors CovariantFunctorGenerator Foption def
+def 14262:14266 CovariantFunctorGenerator flist
+R14272:14278 VST.msl.functors CovariantFunctor functor rec
+binder 14269:14269 <> F:412
+R14282:14288 VST.msl.functors CovariantFunctor functor rec
+R14295:14359 VST.msl.functors GeneralFunctorGenerator CovariantFunctor_CovariantFunctor_compose def
+R14371:14371 VST.msl.functors <> F:412 var
+R14363:14367 VST.msl.functors CovariantFunctorGenerator Flist def
+def 14375:14437 CovariantFunctorGenerator Unnamed_thm0
+R14392:14398 VST.msl.functors CovariantFunctor functor rec
+binder 14388:14388 <> F:413
+binder 14402:14402 <> T:414
+R14423:14425 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14412:14418 VST.msl.functors CovariantFunctorGenerator foption def
+R14422:14422 VST.msl.functors <> T:414 var
+R14420:14420 VST.msl.functors <> F:413 var
+R14426:14431 Coq.Init.Datatypes <> option ind
+R14434:14434 VST.msl.functors <> F:413 var
+R14436:14436 VST.msl.functors <> T:414 var
+def 14470:14474 CovariantFunctorGenerator ffunc
+R14481:14508 VST.msl.functors ContraVariantFunctor functor rec
+binder 14477:14478 <> F1:415
+R14516:14522 VST.msl.functors CovariantFunctor functor rec
+binder 14512:14513 <> F2:416
+R14526:14532 VST.msl.functors CovariantFunctor functor rec
+R14539:14617 VST.msl.functors GeneralFunctorGenerator CoContraVariantBiFunctor_CoContraVariantFunctor_compose def
+R14668:14669 VST.msl.functors <> F1:415 var
+R14663:14664 VST.msl.functors <> F2:416 var
+R14621:14659 VST.msl.functors CoContraVariantBiFunctorGenerator Ffunc def
+def 14673:14777 CovariantFunctorGenerator Unnamed_thm1
+R14691:14718 VST.msl.functors ContraVariantFunctor functor rec
+binder 14686:14687 <> F1:417
+R14726:14732 VST.msl.functors CovariantFunctor functor rec
+binder 14722:14723 <> F2:418
+binder 14736:14736 <> T:419
+R14761:14764 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14777:14777 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14748:14752 VST.msl.functors CovariantFunctorGenerator ffunc def
+R14760:14760 VST.msl.functors <> T:419 var
+R14757:14758 VST.msl.functors <> F2:418 var
+R14754:14755 VST.msl.functors <> F1:417 var
+R14769:14772 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14773:14774 VST.msl.functors <> F2:418 var
+R14776:14776 VST.msl.functors <> T:419 var
+R14765:14766 VST.msl.functors <> F1:417 var
+R14768:14768 VST.msl.functors <> T:419 var
+def 14810:14813 CovariantFunctorGenerator fsig
+binder 14816:14816 <> I:420
+R14830:14833 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14834:14840 VST.msl.functors CovariantFunctor functor rec
+R14829:14829 VST.msl.functors <> I:420 var
+binder 14826:14826 <> F:421
+R14844:14850 VST.msl.functors CovariantFunctor functor rec
+R14864:14870 VST.msl.functors CovariantFunctor Functor constr
+binder 14923:14923 <> f:422
+binder 14925:14925 <> x:423
+R14936:14936 VST.msl.functors <> x:423 var
+R14943:14948 Coq.Init.Specif <> existT constr
+R14960:14965 Coq.Init.Specif <> existT constr
+R14972:14975 VST.msl.functors CovariantFunctor fmap proj
+R14983:14983 VST.msl.functors <> f:422 var
+binder 14880:14880 <> T:425
+R14886:14889 Coq.Init.Specif <> sigT ind
+binder 14898:14898 <> i:426
+R14907:14907 VST.msl.functors <> T:425 var
+R14905:14905 VST.msl.functors <> i:426 var
+R14864:14870 VST.msl.functors CovariantFunctor Functor constr
+binder 14923:14923 <> f:427
+binder 14925:14925 <> x:428
+R14936:14936 VST.msl.functors <> x:428 var
+R14943:14948 Coq.Init.Specif <> existT constr
+R14960:14965 Coq.Init.Specif <> existT constr
+R14972:14975 VST.msl.functors CovariantFunctor fmap proj
+R14983:14983 VST.msl.functors <> f:427 var
+binder 14880:14880 <> T:430
+R14886:14889 Coq.Init.Specif <> sigT ind
+binder 14898:14898 <> i:431
+R14907:14907 VST.msl.functors <> T:430 var
+R14905:14905 VST.msl.functors <> i:431 var
+R15091:15097 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R15091:15097 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R15091:15097 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R15091:15097 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R15167:15173 VST.msl.base <> compose def
+R15190:15197 VST.msl.functors CovariantFunctorLemmas fmap_app thm
+R15190:15197 VST.msl.functors CovariantFunctorLemmas fmap_app thm
+R15190:15197 VST.msl.functors CovariantFunctorLemmas fmap_app thm
+R15190:15197 VST.msl.functors CovariantFunctorLemmas fmap_app thm
+def 15227:15233 CovariantFunctorGenerator fsubset
+R15239:15245 VST.msl.functors CovariantFunctor functor rec
+binder 15236:15236 <> F:432
+binder 15259:15259 <> A:433
+R15265:15268 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15262:15262 VST.msl.functors <> F:432 var
+R15264:15264 VST.msl.functors <> A:433 var
+binder 15249:15249 <> P:434
+binder 15292:15292 <> A:435
+binder 15294:15294 <> B:436
+R15301:15304 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15305:15305 VST.msl.functors <> B:436 var
+R15300:15300 VST.msl.functors <> A:435 var
+binder 15297:15297 <> f:437
+binder 15308:15308 <> x:438
+R15316:15319 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15320:15320 VST.msl.functors <> P:434 var
+R15325:15328 VST.msl.functors CovariantFunctor fmap proj
+R15334:15334 VST.msl.functors <> x:438 var
+R15332:15332 VST.msl.functors <> f:437 var
+R15330:15330 VST.msl.functors <> F:432 var
+R15322:15322 VST.msl.functors <> B:436 var
+R15311:15311 VST.msl.functors <> P:434 var
+R15315:15315 VST.msl.functors <> x:438 var
+R15313:15313 VST.msl.functors <> A:435 var
+binder 15278:15282 <> Pfmap:439
+R15339:15345 VST.msl.functors CovariantFunctor functor rec
+R15359:15365 VST.msl.functors CovariantFunctor Functor constr
+binder 15410:15410 <> f:440
+binder 15412:15412 <> x:441
+R15429:15429 VST.msl.functors <> x:441 var
+R15436:15440 Coq.Init.Specif <> exist constr
+R15452:15456 Coq.Init.Specif <> exist constr
+R15528:15528 VST.msl.functors <> f:440 var
+R15461:15464 VST.msl.functors CovariantFunctor fmap proj
+R15468:15468 VST.msl.functors <> f:440 var
+binder 15375:15375 <> T:443
+R15380:15380 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15382:15383 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15387:15389 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15395:15395 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15386:15386 VST.msl.functors <> T:443 var
+binder 15381:15381 <> x:444
+R15394:15394 VST.msl.functors <> x:444 var
+R15392:15392 VST.msl.functors <> T:443 var
+R15359:15365 VST.msl.functors CovariantFunctor Functor constr
+binder 15410:15410 <> f:445
+binder 15412:15412 <> x:446
+R15429:15429 VST.msl.functors <> x:446 var
+R15436:15440 Coq.Init.Specif <> exist constr
+R15452:15456 Coq.Init.Specif <> exist constr
+R15528:15528 VST.msl.functors <> f:445 var
+R15461:15464 VST.msl.functors CovariantFunctor fmap proj
+R15468:15468 VST.msl.functors <> f:445 var
+binder 15375:15375 <> T:448
+R15380:15380 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15382:15383 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15387:15389 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15395:15395 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15386:15386 VST.msl.functors <> T:448 var
+binder 15381:15381 <> x:449
+R15394:15394 VST.msl.functors <> x:449 var
+R15392:15392 VST.msl.functors <> T:448 var
+R15629:15637 VST.msl.Extensionality <> exist_ext thm
+R15629:15637 VST.msl.Extensionality <> exist_ext thm
+R15653:15659 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R15653:15659 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R15653:15659 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R15653:15659 VST.msl.functors CovariantFunctorLemmas fmap_id thm
+R15722:15730 VST.msl.Extensionality <> exist_ext thm
+R15722:15730 VST.msl.Extensionality <> exist_ext thm
+R15746:15753 VST.msl.functors CovariantFunctorLemmas fmap_app thm
+R15746:15753 VST.msl.functors CovariantFunctorLemmas fmap_app thm
+R15746:15753 VST.msl.functors CovariantFunctorLemmas fmap_app thm
+R15746:15753 VST.msl.functors CovariantFunctorLemmas fmap_app thm
+R15776:15800 VST.msl.functors CovariantFunctorGenerator <> mod
+mod 15811:15836 <> MixVariantFunctorGenerator
+def 15910:15915 MixVariantFunctorGenerator fconst
+binder 15918:15918 <> T:450
+R15929:15935 VST.msl.functors MixVariantFunctor functor rec
+R15942:15999 VST.msl.functors GeneralFunctorGenerator CovariantFunctor_MixVariantFunctor def
+R16004:16035 VST.msl.functors CovariantFunctorGenerator fconst def
+R16037:16037 VST.msl.functors <> T:450 var
+def 16053:16061 MixVariantFunctorGenerator fidentity
+R16064:16070 VST.msl.functors MixVariantFunctor functor rec
+R16077:16134 VST.msl.functors GeneralFunctorGenerator CovariantFunctor_MixVariantFunctor def
+R16138:16172 VST.msl.functors CovariantFunctorGenerator fidentity def
+def 16187:16191 MixVariantFunctorGenerator fpair
+R16201:16207 VST.msl.functors MixVariantFunctor functor rec
+binder 16194:16195 <> F1:451
+binder 16197:16198 <> F2:452
+R16211:16217 VST.msl.functors MixVariantFunctor functor rec
+R16224:16291 VST.msl.functors GeneralFunctorGenerator CovariantBiFunctor_MixVariantFunctor_compose def
+R16336:16337 VST.msl.functors <> F2:452 var
+R16331:16332 VST.msl.functors <> F1:451 var
+R16295:16327 VST.msl.functors CovariantBiFunctorGenerator Fpair def
+def 16352:16358 MixVariantFunctorGenerator fchoice
+R16368:16374 VST.msl.functors MixVariantFunctor functor rec
+binder 16361:16362 <> F1:453
+binder 16364:16365 <> F2:454
+R16378:16384 VST.msl.functors MixVariantFunctor functor rec
+R16391:16458 VST.msl.functors GeneralFunctorGenerator CovariantBiFunctor_MixVariantFunctor_compose def
+R16505:16506 VST.msl.functors <> F2:454 var
+R16500:16501 VST.msl.functors <> F1:453 var
+R16462:16496 VST.msl.functors CovariantBiFunctorGenerator Fchoice def
+def 16521:16527 MixVariantFunctorGenerator foption
+R16533:16539 VST.msl.functors MixVariantFunctor functor rec
+binder 16530:16530 <> F:455
+R16543:16549 VST.msl.functors MixVariantFunctor functor rec
+R16556:16621 VST.msl.functors GeneralFunctorGenerator CovariantFunctor_MixVariantFunctor_compose def
+R16661:16661 VST.msl.functors <> F:455 var
+R16625:16657 VST.msl.functors CovariantFunctorGenerator Foption def
+def 16676:16680 MixVariantFunctorGenerator flist
+R16686:16692 VST.msl.functors MixVariantFunctor functor rec
+binder 16683:16683 <> F:456
+R16696:16702 VST.msl.functors MixVariantFunctor functor rec
+R16709:16774 VST.msl.functors GeneralFunctorGenerator CovariantFunctor_MixVariantFunctor_compose def
+R16812:16812 VST.msl.functors <> F:456 var
+R16778:16808 VST.msl.functors CovariantFunctorGenerator Flist def
+def 16827:16831 MixVariantFunctorGenerator ffunc
+R16841:16847 VST.msl.functors MixVariantFunctor functor rec
+binder 16834:16835 <> F1:457
+binder 16837:16838 <> F2:458
+R16851:16857 VST.msl.functors MixVariantFunctor functor rec
+R16864:16937 VST.msl.functors GeneralFunctorGenerator CoContraVariantBiFunctor_MixVariantFunctor_compose def
+R16988:16989 VST.msl.functors <> F1:457 var
+R16983:16984 VST.msl.functors <> F2:458 var
+R16941:16979 VST.msl.functors CoContraVariantBiFunctorGenerator Ffunc def
+def 17004:17007 MixVariantFunctorGenerator fsig
+binder 17010:17010 <> I:459
+R17024:17027 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17028:17034 VST.msl.functors MixVariantFunctor functor rec
+R17023:17023 VST.msl.functors <> I:459 var
+binder 17020:17020 <> F:460
+R17038:17044 VST.msl.functors MixVariantFunctor functor rec
+R17058:17064 VST.msl.functors MixVariantFunctor Functor constr
+binder 17117:17117 <> f:461
+binder 17119:17119 <> g:462
+binder 17121:17121 <> x:463
+R17132:17132 VST.msl.functors <> x:463 var
+R17139:17144 Coq.Init.Specif <> existT constr
+R17156:17161 Coq.Init.Specif <> existT constr
+R17168:17171 VST.msl.functors MixVariantFunctor fmap proj
+R17181:17181 VST.msl.functors <> g:462 var
+R17179:17179 VST.msl.functors <> f:461 var
+binder 17074:17074 <> T:465
+R17080:17083 Coq.Init.Specif <> sigT ind
+binder 17092:17092 <> i:466
+R17101:17101 VST.msl.functors <> T:465 var
+R17099:17099 VST.msl.functors <> i:466 var
+R17058:17064 VST.msl.functors MixVariantFunctor Functor constr
+binder 17117:17117 <> f:467
+binder 17119:17119 <> g:468
+binder 17121:17121 <> x:469
+R17132:17132 VST.msl.functors <> x:469 var
+R17139:17144 Coq.Init.Specif <> existT constr
+R17156:17161 Coq.Init.Specif <> existT constr
+R17168:17171 VST.msl.functors MixVariantFunctor fmap proj
+R17181:17181 VST.msl.functors <> g:468 var
+R17179:17179 VST.msl.functors <> f:467 var
+binder 17074:17074 <> T:471
+R17080:17083 Coq.Init.Specif <> sigT ind
+binder 17092:17092 <> i:472
+R17101:17101 VST.msl.functors <> T:471 var
+R17099:17099 VST.msl.functors <> i:472 var
+R17289:17295 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R17289:17295 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R17289:17295 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R17289:17295 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R17365:17371 VST.msl.base <> compose def
+R17388:17395 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R17388:17395 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R17388:17395 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R17388:17395 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+def 17425:17427 MixVariantFunctorGenerator fpi
+binder 17430:17430 <> I:473
+R17444:17447 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17448:17454 VST.msl.functors MixVariantFunctor functor rec
+R17443:17443 VST.msl.functors <> I:473 var
+binder 17440:17440 <> F:474
+R17458:17464 VST.msl.functors MixVariantFunctor functor rec
+R17478:17484 VST.msl.functors MixVariantFunctor Functor constr
+binder 17531:17531 <> f:475
+binder 17533:17533 <> g:476
+binder 17535:17535 <> x:477
+binder 17544:17544 <> i:478
+R17549:17552 VST.msl.functors MixVariantFunctor fmap proj
+R17565:17565 VST.msl.functors <> x:477 var
+R17567:17567 VST.msl.functors <> i:478 var
+R17562:17562 VST.msl.functors <> g:476 var
+R17560:17560 VST.msl.functors <> f:475 var
+R17557:17557 VST.msl.functors <> i:478 var
+binder 17494:17494 <> T:479
+binder 17506:17506 <> i:480
+R17516:17516 VST.msl.functors <> T:479 var
+R17514:17514 VST.msl.functors <> i:480 var
+R17478:17484 VST.msl.functors MixVariantFunctor Functor constr
+binder 17531:17531 <> f:481
+binder 17533:17533 <> g:482
+binder 17535:17535 <> x:483
+binder 17544:17544 <> i:484
+R17549:17552 VST.msl.functors MixVariantFunctor fmap proj
+R17565:17565 VST.msl.functors <> x:483 var
+R17567:17567 VST.msl.functors <> i:484 var
+R17562:17562 VST.msl.functors <> g:482 var
+R17560:17560 VST.msl.functors <> f:481 var
+R17557:17557 VST.msl.functors <> i:484 var
+binder 17494:17494 <> T:485
+binder 17506:17506 <> i:486
+R17516:17516 VST.msl.functors <> T:485 var
+R17514:17514 VST.msl.functors <> i:486 var
+R17649:17655 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R17649:17655 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R17649:17655 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R17649:17655 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R17706:17712 VST.msl.base <> compose def
+R17729:17736 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R17729:17736 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R17729:17736 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R17729:17736 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+def 17766:17772 MixVariantFunctorGenerator fsubset
+R17778:17784 VST.msl.functors MixVariantFunctor functor rec
+binder 17775:17775 <> F:487
+binder 17798:17798 <> A:488
+R17804:17807 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17801:17801 VST.msl.functors <> F:487 var
+R17803:17803 VST.msl.functors <> A:488 var
+binder 17788:17788 <> P:489
+binder 17831:17831 <> A:490
+binder 17833:17833 <> B:491
+binder 17835:17835 <> f:492
+binder 17837:17837 <> g:493
+binder 17839:17839 <> x:494
+R17847:17850 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17851:17851 VST.msl.functors <> P:489 var
+R17856:17859 VST.msl.functors MixVariantFunctor fmap proj
+R17867:17867 VST.msl.functors <> x:494 var
+R17865:17865 VST.msl.functors <> g:493 var
+R17863:17863 VST.msl.functors <> f:492 var
+R17861:17861 VST.msl.functors <> F:487 var
+R17853:17853 VST.msl.functors <> B:491 var
+R17842:17842 VST.msl.functors <> P:489 var
+R17846:17846 VST.msl.functors <> x:494 var
+R17844:17844 VST.msl.functors <> A:490 var
+binder 17817:17821 <> Pfmap:495
+R17872:17878 VST.msl.functors MixVariantFunctor functor rec
+R17892:17898 VST.msl.functors MixVariantFunctor Functor constr
+binder 17943:17943 <> f:496
+binder 17945:17945 <> g:497
+binder 17947:17947 <> x:498
+R17964:17964 VST.msl.functors <> x:498 var
+R17971:17975 Coq.Init.Specif <> exist constr
+R17987:17991 Coq.Init.Specif <> exist constr
+R18067:18067 VST.msl.functors <> g:497 var
+R18065:18065 VST.msl.functors <> f:496 var
+R17996:17999 VST.msl.functors MixVariantFunctor fmap proj
+R18005:18005 VST.msl.functors <> g:497 var
+R18003:18003 VST.msl.functors <> f:496 var
+binder 17908:17908 <> T:500
+R17913:17913 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R17915:17916 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R17920:17922 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R17928:17928 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R17919:17919 VST.msl.functors <> T:500 var
+binder 17914:17914 <> x:501
+R17927:17927 VST.msl.functors <> x:501 var
+R17925:17925 VST.msl.functors <> T:500 var
+R17892:17898 VST.msl.functors MixVariantFunctor Functor constr
+binder 17943:17943 <> f:502
+binder 17945:17945 <> g:503
+binder 17947:17947 <> x:504
+R17964:17964 VST.msl.functors <> x:504 var
+R17971:17975 Coq.Init.Specif <> exist constr
+R17987:17991 Coq.Init.Specif <> exist constr
+R18067:18067 VST.msl.functors <> g:503 var
+R18065:18065 VST.msl.functors <> f:502 var
+R17996:17999 VST.msl.functors MixVariantFunctor fmap proj
+R18005:18005 VST.msl.functors <> g:503 var
+R18003:18003 VST.msl.functors <> f:502 var
+binder 17908:17908 <> T:506
+R17913:17913 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R17915:17916 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R17920:17922 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R17928:17928 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R17919:17919 VST.msl.functors <> T:506 var
+binder 17914:17914 <> x:507
+R17927:17927 VST.msl.functors <> x:507 var
+R17925:17925 VST.msl.functors <> T:506 var
+R18168:18176 VST.msl.Extensionality <> exist_ext thm
+R18168:18176 VST.msl.Extensionality <> exist_ext thm
+R18192:18198 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R18192:18198 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R18192:18198 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R18192:18198 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R18261:18269 VST.msl.Extensionality <> exist_ext thm
+R18261:18269 VST.msl.Extensionality <> exist_ext thm
+R18285:18292 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R18285:18292 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R18285:18292 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R18285:18292 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R18315:18340 VST.msl.functors MixVariantFunctorGenerator <> mod

@@ -1,0 +1,469 @@
+DIGEST c7c5555318b58be888a986fcf0974548
+FVST.msl.base
+R247:268 VST.msl.Extensionality <> <> lib
+R286:299 Coq.Lists.List <> <> lib
+R317:329 Coq.Bool.Bool <> <> lib
+R347:369 Coq.Relations.Relations <> <> lib
+R387:389 Coq.micromega.Lia <> <> lib
+def 404:410 <> compose
+binder 413:413 <> A:1
+binder 415:415 <> B:2
+binder 417:417 <> C:3
+R429:432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R433:433 VST.msl.base <> C:3 var
+R428:428 VST.msl.base <> B:2 var
+binder 426:426 <> g:4
+R440:443 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R444:444 VST.msl.base <> B:2 var
+R439:439 VST.msl.base <> A:1 var
+binder 437:437 <> f:5
+binder 454:454 <> x:6
+R459:459 VST.msl.base <> g:4 var
+R462:462 VST.msl.base <> f:5 var
+R464:464 VST.msl.base <> x:6 var
+R478:484 VST.msl.base <> compose def
+R478:484 VST.msl.base <> compose def
+R515:521 VST.msl.base <> compose def
+not 507:507 <> :::x_'oo'_x
+prf 566:578 <> compose_assoc
+binder 581:581 <> A:7
+binder 583:583 <> B:8
+binder 585:585 <> C:9
+binder 587:587 <> D:10
+R599:600 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R601:601 VST.msl.base <> D:10 var
+R598:598 VST.msl.base <> C:9 var
+binder 596:596 <> h:11
+R608:609 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R610:610 VST.msl.base <> C:9 var
+R607:607 VST.msl.base <> B:8 var
+binder 605:605 <> g:12
+R617:618 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R619:619 VST.msl.base <> B:8 var
+R616:616 VST.msl.base <> A:7 var
+binder 614:614 <> f:13
+R639:641 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R626:626 VST.msl.base <> :::x_'oo'_x not
+R633:637 VST.msl.base <> :::x_'oo'_x not
+R628:631 VST.msl.base <> :::x_'oo'_x not
+R627:627 VST.msl.base <> h:11 var
+R632:632 VST.msl.base <> g:12 var
+R638:638 VST.msl.base <> f:13 var
+R643:646 VST.msl.base <> :::x_'oo'_x not
+R642:642 VST.msl.base <> h:11 var
+R648:651 VST.msl.base <> :::x_'oo'_x not
+R647:647 VST.msl.base <> g:12 var
+R652:652 VST.msl.base <> f:13 var
+R678:691 VST.msl.Axioms <> extensionality thm
+R710:716 VST.msl.base <> compose def
+R678:691 VST.msl.Axioms <> extensionality thm
+prf 737:748 <> compose_rewr
+binder 751:751 <> A:14
+binder 753:753 <> B:15
+binder 755:755 <> C:16
+R764:767 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R768:768 VST.msl.base <> C:16 var
+R763:763 VST.msl.base <> B:15 var
+binder 759:759 <> f:17
+R777:780 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R781:781 VST.msl.base <> B:15 var
+R776:776 VST.msl.base <> A:14 var
+binder 772:772 <> g:18
+binder 784:784 <> x:19
+R795:797 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R788:788 VST.msl.base <> f:17 var
+R791:791 VST.msl.base <> g:18 var
+R793:793 VST.msl.base <> x:19 var
+R798:798 VST.msl.base <> :::x_'oo'_x not
+R800:803 VST.msl.base <> :::x_'oo'_x not
+R805:807 VST.msl.base <> :::x_'oo'_x not
+R799:799 VST.msl.base <> f:17 var
+R804:804 VST.msl.base <> g:18 var
+R807:807 VST.msl.base <> x:19 var
+def 849:850 <> id
+binder 853:853 <> A:20
+R870:870 VST.msl.base <> A:20 var
+binder 868:868 <> x:21
+R875:875 VST.msl.base <> x:21 var
+prf 885:892 <> id_unit1
+binder 903:903 <> A:22
+binder 905:905 <> B:23
+R911:912 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R913:913 VST.msl.base <> B:23 var
+R910:910 VST.msl.base <> A:22 var
+binder 908:908 <> f:24
+R926:928 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R918:921 VST.msl.base <> :::x_'oo'_x not
+R917:917 VST.msl.base <> f:24 var
+R922:923 VST.msl.base <> id def
+R925:925 VST.msl.base <> A:22 var
+R929:929 VST.msl.base <> f:24 var
+R955:968 VST.msl.Axioms <> extensionality thm
+R955:968 VST.msl.Axioms <> extensionality thm
+prf 998:1005 <> id_unit2
+binder 1016:1016 <> A:25
+binder 1018:1018 <> B:26
+R1024:1025 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1026:1026 VST.msl.base <> B:26 var
+R1023:1023 VST.msl.base <> A:25 var
+binder 1021:1021 <> f:27
+R1039:1041 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1034:1037 VST.msl.base <> :::x_'oo'_x not
+R1030:1031 VST.msl.base <> id def
+R1033:1033 VST.msl.base <> B:26 var
+R1038:1038 VST.msl.base <> f:27 var
+R1042:1042 VST.msl.base <> f:27 var
+R1068:1081 VST.msl.Axioms <> extensionality thm
+R1068:1081 VST.msl.Axioms <> extensionality thm
+constr 1143:1151 <> Bijection
+rec 1112:1120 <> bijection
+proj 1157:1161 <> bij_f
+proj 1174:1178 <> bij_g
+proj 1191:1196 <> bij_fg
+proj 1232:1237 <> bij_gf
+binder 1123:1123 <> A:28
+binder 1125:1125 <> B:29
+R1165:1168 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1169:1169 VST.msl.base <> B:29 var
+R1164:1164 VST.msl.base <> A:28 var
+R1182:1185 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1186:1186 VST.msl.base <> A:28 var
+R1181:1181 VST.msl.base <> B:29 var
+binder 1206:1206 <> x:33
+R1224:1226 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1209:1213 VST.msl.base <> bij_f:31 meth
+R1216:1220 VST.msl.base <> bij_g:32 meth
+R1222:1222 VST.msl.base <> x:33 var
+R1227:1227 VST.msl.base <> x:33 var
+binder 1247:1247 <> x:35
+R1265:1267 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1250:1254 VST.msl.base <> bij_g:32 meth
+R1257:1261 VST.msl.base <> bij_f:31 meth
+R1263:1263 VST.msl.base <> x:35 var
+R1268:1268 VST.msl.base <> x:35 var
+prf 1280:1288 <> bij_f_inj
+binder 1291:1291 <> A:37
+binder 1295:1295 <> B:38
+R1304:1312 VST.msl.base <> bijection rec
+R1316:1316 VST.msl.base <> B:38 var
+R1314:1314 VST.msl.base <> A:37 var
+binder 1299:1301 <> bij:39
+binder 1332:1332 <> x:40
+binder 1334:1334 <> y:41
+R1370:1373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1375:1375 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1374:1374 VST.msl.base <> x:40 var
+R1376:1376 VST.msl.base <> y:41 var
+R1352:1354 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1337:1341 VST.msl.base <> bij_f proj
+R1351:1351 VST.msl.base <> x:40 var
+R1347:1349 VST.msl.base <> bij:39 var
+R1355:1359 VST.msl.base <> bij_f proj
+R1369:1369 VST.msl.base <> y:41 var
+R1365:1367 VST.msl.base <> bij:39 var
+R1406:1411 VST.msl.base <> bij_gf proj
+R1406:1411 VST.msl.base <> bij_gf proj
+R1406:1411 VST.msl.base <> bij_gf proj
+R1437:1442 VST.msl.base <> bij_gf proj
+R1437:1442 VST.msl.base <> bij_gf proj
+R1437:1442 VST.msl.base <> bij_gf proj
+prf 1486:1494 <> bij_g_inj
+binder 1497:1497 <> A:42
+binder 1501:1501 <> B:43
+R1510:1518 VST.msl.base <> bijection rec
+R1522:1522 VST.msl.base <> B:43 var
+R1520:1520 VST.msl.base <> A:42 var
+binder 1505:1507 <> bij:44
+binder 1538:1538 <> x:45
+binder 1540:1540 <> y:46
+R1576:1579 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1581:1581 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1580:1580 VST.msl.base <> x:45 var
+R1582:1582 VST.msl.base <> y:46 var
+R1558:1560 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1543:1547 VST.msl.base <> bij_g proj
+R1557:1557 VST.msl.base <> x:45 var
+R1553:1555 VST.msl.base <> bij:44 var
+R1561:1565 VST.msl.base <> bij_g proj
+R1575:1575 VST.msl.base <> y:46 var
+R1571:1573 VST.msl.base <> bij:44 var
+R1612:1617 VST.msl.base <> bij_fg proj
+R1612:1617 VST.msl.base <> bij_fg proj
+R1612:1617 VST.msl.base <> bij_fg proj
+R1643:1648 VST.msl.base <> bij_fg proj
+R1643:1648 VST.msl.base <> bij_fg proj
+R1643:1648 VST.msl.base <> bij_fg proj
+prf 1692:1700 <> bij_fg_id
+binder 1711:1711 <> A:47
+binder 1713:1713 <> B:48
+R1720:1728 VST.msl.base <> bijection rec
+R1732:1732 VST.msl.base <> B:48 var
+R1730:1730 VST.msl.base <> A:47 var
+binder 1717:1717 <> f:49
+R1768:1770 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1738:1738 VST.msl.base <> :::x_'oo'_x not
+R1750:1755 VST.msl.base <> :::x_'oo'_x not
+R1767:1767 VST.msl.base <> :::x_'oo'_x not
+R1739:1743 VST.msl.base <> bij_f proj
+R1749:1749 VST.msl.base <> f:49 var
+R1756:1760 VST.msl.base <> bij_g proj
+R1766:1766 VST.msl.base <> f:49 var
+R1771:1772 VST.msl.base <> id def
+R1821:1827 VST.msl.base <> compose def
+R1830:1831 VST.msl.base <> id def
+R1842:1847 VST.msl.base <> bij_fg proj
+R1842:1847 VST.msl.base <> bij_fg proj
+prf 1862:1870 <> bij_gf_id
+binder 1881:1881 <> A:50
+binder 1883:1883 <> B:51
+R1890:1898 VST.msl.base <> bijection rec
+R1902:1902 VST.msl.base <> B:51 var
+R1900:1900 VST.msl.base <> A:50 var
+binder 1887:1887 <> f:52
+R1938:1940 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1908:1908 VST.msl.base <> :::x_'oo'_x not
+R1920:1925 VST.msl.base <> :::x_'oo'_x not
+R1937:1937 VST.msl.base <> :::x_'oo'_x not
+R1909:1913 VST.msl.base <> bij_g proj
+R1919:1919 VST.msl.base <> f:52 var
+R1926:1930 VST.msl.base <> bij_f proj
+R1936:1936 VST.msl.base <> f:52 var
+R1941:1942 VST.msl.base <> id def
+R1991:1997 VST.msl.base <> compose def
+R2000:2001 VST.msl.base <> id def
+R2012:2017 VST.msl.base <> bij_gf proj
+R2012:2017 VST.msl.base <> bij_gf proj
+def 2037:2047 <> bij_compose
+binder 2050:2050 <> A:53
+binder 2052:2052 <> B:54
+binder 2054:2054 <> C:55
+R2066:2074 VST.msl.base <> bijection rec
+R2078:2078 VST.msl.base <> C:55 var
+R2076:2076 VST.msl.base <> B:54 var
+binder 2063:2063 <> g:56
+R2085:2093 VST.msl.base <> bijection rec
+R2097:2097 VST.msl.base <> B:54 var
+R2095:2095 VST.msl.base <> A:53 var
+binder 2082:2082 <> f:57
+R2103:2111 VST.msl.base <> bijection rec
+R2115:2115 VST.msl.base <> C:55 var
+R2113:2113 VST.msl.base <> A:53 var
+R2128:2136 VST.msl.base <> Bijection constr
+R2198:2198 VST.msl.base <> :::x_'oo'_x not
+R2210:2215 VST.msl.base <> :::x_'oo'_x not
+R2227:2227 VST.msl.base <> :::x_'oo'_x not
+R2199:2203 VST.msl.base <> bij_g proj
+R2216:2220 VST.msl.base <> bij_g proj
+R2154:2154 VST.msl.base <> :::x_'oo'_x not
+R2166:2171 VST.msl.base <> :::x_'oo'_x not
+R2183:2183 VST.msl.base <> :::x_'oo'_x not
+R2155:2159 VST.msl.base <> bij_f proj
+R2172:2176 VST.msl.base <> bij_f proj
+R2128:2136 VST.msl.base <> Bijection constr
+R2198:2198 VST.msl.base <> :::x_'oo'_x not
+R2210:2215 VST.msl.base <> :::x_'oo'_x not
+R2227:2227 VST.msl.base <> :::x_'oo'_x not
+R2199:2203 VST.msl.base <> bij_g proj
+R2216:2220 VST.msl.base <> bij_g proj
+R2154:2154 VST.msl.base <> :::x_'oo'_x not
+R2166:2171 VST.msl.base <> :::x_'oo'_x not
+R2183:2183 VST.msl.base <> :::x_'oo'_x not
+R2155:2159 VST.msl.base <> bij_f proj
+R2172:2176 VST.msl.base <> bij_f proj
+R2259:2265 VST.msl.base <> compose def
+R2281:2286 VST.msl.base <> bij_fg proj
+R2281:2286 VST.msl.base <> bij_fg proj
+R2281:2286 VST.msl.base <> bij_fg proj
+R2281:2286 VST.msl.base <> bij_fg proj
+R2281:2286 VST.msl.base <> bij_fg proj
+R2322:2328 VST.msl.base <> compose def
+R2344:2349 VST.msl.base <> bij_gf proj
+R2344:2349 VST.msl.base <> bij_gf proj
+R2344:2349 VST.msl.base <> bij_gf proj
+R2344:2349 VST.msl.base <> bij_gf proj
+R2344:2349 VST.msl.base <> bij_gf proj
+R2387:2397 VST.msl.base <> bij_compose def
+not 2378:2378 <> :::x_'ooo'_x
+def 2447:2454 <> bij_refl
+binder 2457:2457 <> A:58
+R2467:2475 VST.msl.base <> bijection rec
+R2479:2479 VST.msl.base <> A:58 var
+R2477:2477 VST.msl.base <> A:58 var
+R2492:2500 VST.msl.base <> Bijection constr
+R2514:2515 VST.msl.base <> id def
+R2507:2508 VST.msl.base <> id def
+R2492:2500 VST.msl.base <> Bijection constr
+R2514:2515 VST.msl.base <> id def
+R2507:2508 VST.msl.base <> id def
+def 2581:2587 <> bij_sym
+binder 2590:2590 <> A:59
+binder 2592:2592 <> B:60
+R2599:2607 VST.msl.base <> bijection rec
+R2611:2611 VST.msl.base <> B:60 var
+R2609:2609 VST.msl.base <> A:59 var
+binder 2596:2596 <> f:61
+R2615:2623 VST.msl.base <> bijection rec
+R2627:2627 VST.msl.base <> A:59 var
+R2625:2625 VST.msl.base <> B:60 var
+R2640:2648 VST.msl.base <> Bijection constr
+R2669:2673 VST.msl.base <> bij_f proj
+R2655:2659 VST.msl.base <> bij_g proj
+R2640:2648 VST.msl.base <> Bijection constr
+R2669:2673 VST.msl.base <> bij_f proj
+R2655:2659 VST.msl.base <> bij_g proj
+R2698:2703 VST.msl.base <> bij_gf proj
+R2698:2703 VST.msl.base <> bij_gf proj
+R2716:2721 VST.msl.base <> bij_fg proj
+R2716:2721 VST.msl.base <> bij_fg proj
+def 2745:2752 <> func_bij
+binder 2755:2756 <> A1:62
+binder 2758:2759 <> A2:63
+binder 2761:2762 <> B1:64
+binder 2764:2765 <> B2:65
+R2772:2780 VST.msl.base <> bijection rec
+R2785:2786 VST.msl.base <> A2:63 var
+R2782:2783 VST.msl.base <> A1:62 var
+binder 2769:2769 <> f:66
+R2793:2801 VST.msl.base <> bijection rec
+R2806:2807 VST.msl.base <> B2:65 var
+R2803:2804 VST.msl.base <> B1:64 var
+binder 2790:2790 <> g:67
+R2813:2821 VST.msl.base <> bijection rec
+R2837:2840 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2841:2842 VST.msl.base <> B2:65 var
+R2835:2836 VST.msl.base <> A2:63 var
+R2826:2829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2830:2831 VST.msl.base <> B1:64 var
+R2824:2825 VST.msl.base <> A1:62 var
+R2856:2864 VST.msl.base <> Bijection constr
+binder 2946:2946 <> F:68
+R2951:2951 VST.msl.base <> :::x_'oo'_x not
+R2963:2967 VST.msl.base <> :::x_'oo'_x not
+R2952:2956 VST.msl.base <> bij_g proj
+R2969:2973 VST.msl.base <> :::x_'oo'_x not
+R2985:2985 VST.msl.base <> :::x_'oo'_x not
+R2968:2968 VST.msl.base <> F:68 var
+R2974:2978 VST.msl.base <> bij_f proj
+binder 2887:2887 <> F:69
+R2892:2892 VST.msl.base <> :::x_'oo'_x not
+R2904:2908 VST.msl.base <> :::x_'oo'_x not
+R2893:2897 VST.msl.base <> bij_f proj
+R2910:2914 VST.msl.base <> :::x_'oo'_x not
+R2926:2926 VST.msl.base <> :::x_'oo'_x not
+R2909:2909 VST.msl.base <> F:69 var
+R2915:2919 VST.msl.base <> bij_g proj
+R2856:2864 VST.msl.base <> Bijection constr
+binder 2946:2946 <> F:70
+R2951:2951 VST.msl.base <> :::x_'oo'_x not
+R2963:2967 VST.msl.base <> :::x_'oo'_x not
+R2952:2956 VST.msl.base <> bij_g proj
+R2969:2973 VST.msl.base <> :::x_'oo'_x not
+R2985:2985 VST.msl.base <> :::x_'oo'_x not
+R2968:2968 VST.msl.base <> F:70 var
+R2974:2978 VST.msl.base <> bij_f proj
+binder 2887:2887 <> F:71
+R2892:2892 VST.msl.base <> :::x_'oo'_x not
+R2904:2908 VST.msl.base <> :::x_'oo'_x not
+R2893:2897 VST.msl.base <> bij_f proj
+R2910:2914 VST.msl.base <> :::x_'oo'_x not
+R2926:2926 VST.msl.base <> :::x_'oo'_x not
+R2909:2909 VST.msl.base <> F:71 var
+R2915:2919 VST.msl.base <> bij_g proj
+R3037:3043 VST.msl.base <> compose def
+R3055:3060 VST.msl.base <> bij_fg proj
+R3055:3060 VST.msl.base <> bij_fg proj
+R3055:3060 VST.msl.base <> bij_fg proj
+R3055:3060 VST.msl.base <> bij_fg proj
+R3055:3060 VST.msl.base <> bij_fg proj
+R3112:3118 VST.msl.base <> compose def
+R3130:3135 VST.msl.base <> bij_gf proj
+R3130:3135 VST.msl.base <> bij_gf proj
+R3130:3135 VST.msl.base <> bij_gf proj
+R3130:3135 VST.msl.base <> bij_gf proj
+R3130:3135 VST.msl.base <> bij_gf proj
+def 3165:3174 <> unit_unit1
+binder 3177:3177 <> A:72
+R3187:3195 VST.msl.base <> bijection rec
+R3201:3203 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3200:3200 VST.msl.base <> A:72 var
+R3204:3207 Coq.Init.Datatypes <> unit ind
+R3197:3197 VST.msl.base <> A:72 var
+R3221:3229 VST.msl.base <> Bijection constr
+R3254:3256 Coq.Init.Datatypes <> fst def
+binder 3240:3240 <> a:73
+R3245:3245 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3247:3248 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3251:3251 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3246:3246 VST.msl.base <> a:73 var
+R3249:3250 Coq.Init.Datatypes <> tt constr
+R3221:3229 VST.msl.base <> Bijection constr
+R3254:3256 Coq.Init.Datatypes <> fst def
+binder 3240:3240 <> a:74
+R3245:3245 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3247:3248 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3251:3251 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3246:3246 VST.msl.base <> a:74 var
+R3249:3250 Coq.Init.Datatypes <> tt constr
+def 3343:3352 <> unit_unit2
+binder 3355:3355 <> A:75
+R3365:3373 VST.msl.base <> bijection rec
+R3382:3384 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3378:3381 Coq.Init.Datatypes <> unit ind
+R3385:3385 VST.msl.base <> A:75 var
+R3375:3375 VST.msl.base <> A:75 var
+R3399:3407 VST.msl.base <> Bijection constr
+R3423:3425 Coq.Init.Datatypes <> snd def
+R3414:3417 Coq.Init.Datatypes <> pair constr
+R3419:3420 Coq.Init.Datatypes <> tt constr
+R3399:3407 VST.msl.base <> Bijection constr
+R3423:3425 Coq.Init.Datatypes <> snd def
+R3414:3417 Coq.Init.Datatypes <> pair constr
+R3419:3420 Coq.Init.Datatypes <> tt constr
+def 3512:3524 <> prod_bij_comm
+binder 3527:3527 <> A:76
+binder 3529:3529 <> B:77
+R3539:3547 VST.msl.base <> bijection rec
+R3559:3561 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3558:3558 VST.msl.base <> B:77 var
+R3562:3562 VST.msl.base <> A:76 var
+R3551:3553 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3550:3550 VST.msl.base <> A:76 var
+R3554:3554 VST.msl.base <> B:77 var
+R3576:3584 VST.msl.base <> Bijection constr
+binder 3643:3643 <> p:78
+R3648:3648 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3654:3655 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3661:3661 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3649:3651 Coq.Init.Datatypes <> snd def
+R3653:3653 VST.msl.base <> p:78 var
+R3656:3658 Coq.Init.Datatypes <> fst def
+R3660:3660 VST.msl.base <> p:78 var
+binder 3606:3606 <> p:79
+R3611:3611 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3617:3618 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3624:3624 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3612:3614 Coq.Init.Datatypes <> snd def
+R3616:3616 VST.msl.base <> p:79 var
+R3619:3621 Coq.Init.Datatypes <> fst def
+R3623:3623 VST.msl.base <> p:79 var
+R3576:3584 VST.msl.base <> Bijection constr
+binder 3643:3643 <> p:80
+R3648:3648 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3654:3655 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3661:3661 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3649:3651 Coq.Init.Datatypes <> snd def
+R3653:3653 VST.msl.base <> p:80 var
+R3656:3658 Coq.Init.Datatypes <> fst def
+R3660:3660 VST.msl.base <> p:80 var
+binder 3606:3606 <> p:81
+R3611:3611 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3617:3618 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3624:3624 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3612:3614 Coq.Init.Datatypes <> snd def
+R3616:3616 VST.msl.base <> p:81 var
+R3619:3621 Coq.Init.Datatypes <> fst def
+R3623:3623 VST.msl.base <> p:81 var
+R3950:3953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3950:3953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4067:4070 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4067:4070 Coq.Init.Logic <> ::type_scope:x_'->'_x not

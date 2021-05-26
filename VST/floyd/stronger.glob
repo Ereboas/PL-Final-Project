@@ -1,0 +1,884 @@
+DIGEST f97ddf8422a84f380553d70823c8a8b5
+FVST.floyd.stronger
+R44:58 VST.floyd.base2 <> <> lib
+R76:98 VST.floyd.client_lemmas <> <> lib
+R116:144 VST.floyd.nested_field_lemmas <> <> lib
+R162:190 VST.floyd.mapsto_memory_block <> <> lib
+R208:231 VST.floyd.reptype_lemmas <> <> lib
+R249:277 VST.floyd.proj_reptype_lemmas <> <> lib
+R295:322 VST.floyd.data_at_rec_lemmas <> <> lib
+R340:357 VST.floyd.field_at <> <> lib
+R375:392 VST.floyd.entailer <> <> lib
+R410:432 VST.floyd.closed_lemmas <> <> lib
+R450:476 Coq.Classes.RelationClasses <> <> lib
+R494:514 Coq.Classes.Morphisms <> <> lib
+R532:548 VST.floyd.sublist <> <> lib
+sec 585:592 <> STRONGER
+R609:617 VST.veric.mpred <> compspecs class
+binder 605:606 <> cs:1
+def 633:640 <> stronger
+R646:649 compcert.cfrontend.Ctypes <> type ind
+binder 643:643 <> t:2
+R659:665 VST.floyd.reptype_lemmas <> reptype def
+R667:667 VST.floyd.stronger <> t:2 var
+binder 653:653 <> v:3
+binder 655:656 <> v':4
+binder 689:690 <> sh:5
+R707:711 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R693:699 VST.floyd.field_at <> data_at def
+R706:706 VST.floyd.stronger <> v:3 var
+R704:704 VST.floyd.stronger <> t:2 var
+R701:702 VST.floyd.stronger <> sh:5 var
+R712:718 VST.floyd.field_at <> data_at def
+R725:726 VST.floyd.stronger <> v':4 var
+R723:723 VST.floyd.stronger <> t:2 var
+R720:721 VST.floyd.stronger <> sh:5 var
+def 741:750 <> data_equal
+binder 753:753 <> t:6
+binder 756:757 <> v1:7
+binder 759:760 <> v2:8
+binder 772:773 <> sh:9
+R791:793 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R776:782 VST.floyd.field_at <> data_at def
+R789:790 VST.floyd.stronger <> v1:7 var
+R787:787 VST.floyd.stronger <> t:6 var
+R784:785 VST.floyd.stronger <> sh:9 var
+R794:800 VST.floyd.field_at <> data_at def
+R807:808 VST.floyd.stronger <> v2:8 var
+R805:805 VST.floyd.stronger <> t:6 var
+R802:803 VST.floyd.stronger <> sh:9 var
+R837:844 VST.floyd.stronger <> stronger def
+not 821:821 STRONGER :::x_'>>>'_x
+R909:918 VST.floyd.stronger <> data_equal def
+not 893:893 STRONGER :::x_'==='_x
+prf 965:977 <> stronger_refl
+binder 987:987 <> t:10
+R993:999 VST.floyd.reptype_lemmas <> reptype def
+R1001:1001 VST.floyd.stronger <> t:10 var
+binder 990:990 <> v:11
+R1006:1010 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R1005:1005 VST.floyd.stronger <> v:11 var
+R1011:1011 VST.floyd.stronger <> v:11 var
+prf 1060:1072 <> stronger_JMeq
+binder 1084:1084 <> t:12
+binder 1086:1087 <> t':13
+binder 1089:1089 <> a:14
+binder 1091:1092 <> a':15
+binder 1094:1094 <> b:16
+binder 1096:1097 <> b':17
+R1108:1115 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1151:1158 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1194:1201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1209:1212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1215:1219 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R1213:1214 VST.floyd.stronger <> a':15 var
+R1220:1221 VST.floyd.stronger <> b':17 var
+R1203:1207 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R1202:1202 VST.floyd.stronger <> a:14 var
+R1208:1208 VST.floyd.stronger <> b:16 var
+R1160:1163 VST.floyd.jmeq_lemmas <> JMeq def
+R1192:1193 VST.floyd.stronger <> b':17 var
+R1180:1186 VST.floyd.reptype_lemmas <> reptype def
+R1188:1189 VST.floyd.stronger <> t':13 var
+R1177:1177 VST.floyd.stronger <> b:16 var
+R1166:1172 VST.floyd.reptype_lemmas <> reptype def
+R1174:1174 VST.floyd.stronger <> t:12 var
+R1117:1120 VST.floyd.jmeq_lemmas <> JMeq def
+R1149:1150 VST.floyd.stronger <> a':15 var
+R1137:1143 VST.floyd.reptype_lemmas <> reptype def
+R1145:1146 VST.floyd.stronger <> t':13 var
+R1134:1134 VST.floyd.stronger <> a:14 var
+R1123:1129 VST.floyd.reptype_lemmas <> reptype def
+R1131:1131 VST.floyd.stronger <> t:12 var
+R1105:1105 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1104:1104 VST.floyd.stronger <> t:12 var
+R1106:1107 VST.floyd.stronger <> t':13 var
+R1255:1261 VST.floyd.jmeq_lemmas <> JMeq_eq thm
+R1255:1261 VST.floyd.jmeq_lemmas <> JMeq_eq thm
+R1276:1282 VST.floyd.jmeq_lemmas <> JMeq_eq thm
+R1276:1282 VST.floyd.jmeq_lemmas <> JMeq_eq thm
+prf 1316:1333 <> eq_rect_r_stronger
+binder 1344:1345 <> t1:18
+binder 1347:1348 <> t2:19
+binder 1351:1352 <> v0:20
+binder 1354:1355 <> v1:21
+R1363:1365 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1361:1362 VST.floyd.stronger <> t1:18 var
+R1366:1367 VST.floyd.stronger <> t2:19 var
+binder 1358:1358 <> H:22
+R1382:1387 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1410:1414 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R1388:1396 Coq.Init.Logic <> eq_rect_r def
+R1409:1409 VST.floyd.stronger <> H:22 var
+R1406:1407 VST.floyd.stronger <> v0:20 var
+R1398:1404 VST.floyd.reptype_lemmas <> reptype def
+R1415:1423 Coq.Init.Logic <> eq_rect_r def
+R1436:1436 VST.floyd.stronger <> H:22 var
+R1433:1434 VST.floyd.stronger <> v1:21 var
+R1425:1431 VST.floyd.reptype_lemmas <> reptype def
+R1375:1379 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R1373:1374 VST.floyd.stronger <> v0:20 var
+R1380:1381 VST.floyd.stronger <> v1:21 var
+R1500:1508 Coq.Init.Logic <> eq_rect_r def
+R1525:1534 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R1525:1534 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R1525:1534 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R1525:1534 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R1525:1534 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+prf 2951:2964 <> stronger_trans
+binder 2974:2974 <> t:23
+R2987:2993 VST.floyd.reptype_lemmas <> reptype def
+R2995:2995 VST.floyd.stronger <> t:23 var
+binder 2977:2978 <> v0:24
+binder 2980:2981 <> v1:25
+binder 2983:2984 <> v2:26
+R3010:3013 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3023:3026 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3029:3033 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R3027:3028 VST.floyd.stronger <> v0:24 var
+R3034:3035 VST.floyd.stronger <> v2:26 var
+R3016:3020 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R3014:3015 VST.floyd.stronger <> v1:25 var
+R3021:3022 VST.floyd.stronger <> v2:26 var
+R3003:3007 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R3001:3002 VST.floyd.stronger <> v0:24 var
+R3008:3009 VST.floyd.stronger <> v1:25 var
+R3076:3088 VST.msl.seplog <> derives_trans meth
+R3076:3088 VST.msl.seplog <> derives_trans meth
+prf 3126:3142 <> field_at_stronger
+binder 3152:3153 <> sh:27
+binder 3155:3155 <> t:28
+binder 3157:3159 <> gfs:29
+binder 3161:3162 <> v0:30
+binder 3164:3165 <> v1:31
+R3179:3184 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3205:3209 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R3185:3192 VST.floyd.field_at <> field_at def
+R3203:3204 VST.floyd.stronger <> v0:30 var
+R3199:3201 VST.floyd.stronger <> gfs:29 var
+R3197:3197 VST.floyd.stronger <> t:28 var
+R3194:3195 VST.floyd.stronger <> sh:27 var
+R3210:3217 VST.floyd.field_at <> field_at def
+R3228:3229 VST.floyd.stronger <> v1:31 var
+R3224:3226 VST.floyd.stronger <> gfs:29 var
+R3222:3222 VST.floyd.stronger <> t:28 var
+R3219:3220 VST.floyd.stronger <> sh:27 var
+R3172:3176 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R3170:3171 VST.floyd.stronger <> v0:30 var
+R3177:3178 VST.floyd.stronger <> v1:31 var
+R3272:3287 VST.floyd.field_at <> field_at_data_at thm
+R3272:3287 VST.floyd.field_at <> field_at_data_at thm
+R3272:3287 VST.floyd.field_at <> field_at_data_at thm
+R3272:3287 VST.floyd.field_at <> field_at_data_at thm
+R3272:3287 VST.floyd.field_at <> field_at_data_at thm
+prf 3346:3363 <> stronger_array_ext
+binder 3373:3374 <> t0:32
+binder 3376:3376 <> n:33
+binder 3378:3378 <> a:34
+R3388:3394 VST.floyd.reptype_lemmas <> reptype def
+R3397:3402 compcert.cfrontend.Ctypes <> Tarray constr
+R3409:3409 VST.floyd.stronger <> a:34 var
+R3407:3407 VST.floyd.stronger <> n:33 var
+R3404:3405 VST.floyd.stronger <> t0:32 var
+binder 3381:3382 <> v0:35
+binder 3384:3385 <> v1:36
+R3472:3477 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3478:3478 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3561:3567 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3570:3574 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R3568:3569 VST.floyd.stronger <> v0:35 var
+R3575:3576 VST.floyd.stronger <> v1:36 var
+binder 3486:3486 <> i:37
+R3499:3502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3529:3534 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R3503:3506 VST.floyd.sublist <> Znth def
+R3511:3524 VST.floyd.reptype_lemmas <> unfold_reptype def
+R3526:3527 VST.floyd.stronger <> v0:35 var
+R3508:3508 VST.floyd.stronger <> i:37 var
+R3535:3538 VST.floyd.sublist <> Znth def
+R3543:3556 VST.floyd.reptype_lemmas <> unfold_reptype def
+R3558:3559 VST.floyd.stronger <> v1:36 var
+R3540:3540 VST.floyd.stronger <> i:37 var
+R3490:3493 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R3495:3497 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R3494:3494 VST.floyd.stronger <> i:37 var
+R3494:3494 VST.floyd.stronger <> i:37 var
+R3498:3498 VST.floyd.stronger <> n:33 var
+R3442:3444 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3415:3421 Coq.ZArith.Zcomplements <> Zlength def
+R3424:3437 VST.floyd.reptype_lemmas <> unfold_reptype def
+R3439:3440 VST.floyd.stronger <> v0:35 var
+R3445:3451 Coq.ZArith.Zcomplements <> Zlength def
+R3454:3467 VST.floyd.reptype_lemmas <> unfold_reptype def
+R3469:3470 VST.floyd.stronger <> v1:36 var
+R3618:3624 VST.floyd.field_at <> data_at def
+R3639:3641 compcert.lib.Coqlib <> zle def
+R3639:3641 compcert.lib.Coqlib <> zle def
+R3660:3667 VST.floyd.field_at <> field_at def
+R3690:3702 VST.msl.log_normalize <> derives_refl' thm
+R3690:3702 VST.msl.log_normalize <> derives_refl' thm
+R3725:3741 VST.floyd.nested_field_lemmas <> nested_field_type def
+R3762:3775 VST.floyd.data_at_rec_lemmas <> data_at_rec_eq thm
+R3762:3775 VST.floyd.data_at_rec_lemmas <> data_at_rec_eq thm
+R3762:3775 VST.floyd.data_at_rec_lemmas <> data_at_rec_eq thm
+R3762:3775 VST.floyd.data_at_rec_lemmas <> data_at_rec_eq thm
+R3762:3775 VST.floyd.data_at_rec_lemmas <> data_at_rec_eq thm
+R3788:3794 Coq.ZArith.BinInt Z max_l thm
+R3788:3794 Coq.ZArith.BinInt Z max_l thm
+R3788:3794 Coq.ZArith.BinInt Z max_l thm
+R3813:3852 VST.floyd.aggregate_pred aggregate_pred array_pred def
+R3864:3888 VST.floyd.aggregate_pred <> array_pred def
+R3955:3968 VST.floyd.reptype_lemmas <> unfold_reptype def
+R3955:3968 VST.floyd.reptype_lemmas <> unfold_reptype def
+R3993:4006 VST.floyd.reptype_lemmas <> unfold_reptype def
+R3993:4006 VST.floyd.reptype_lemmas <> unfold_reptype def
+R4084:4086 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4057:4063 Coq.ZArith.Zcomplements <> Zlength def
+R4066:4079 VST.floyd.reptype_lemmas <> unfold_reptype def
+R4084:4086 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4057:4063 Coq.ZArith.Zcomplements <> Zlength def
+R4066:4079 VST.floyd.reptype_lemmas <> unfold_reptype def
+R4139:4145 Coq.ZArith.BinInt Z max_r thm
+R4139:4145 Coq.ZArith.BinInt Z max_r thm
+R4139:4145 Coq.ZArith.BinInt Z max_r thm
+R4214:4221 VST.floyd.field_at <> field_at def
+R4246:4254 VST.floyd.mapsto_memory_block <> at_offset def
+R4266:4284 VST.floyd.nested_field_lemmas <> nested_field_offset def
+R4287:4303 VST.floyd.nested_field_lemmas <> nested_field_type def
+R4326:4339 VST.floyd.data_at_rec_lemmas <> data_at_rec_eq thm
+R4326:4339 VST.floyd.data_at_rec_lemmas <> data_at_rec_eq thm
+R4326:4339 VST.floyd.data_at_rec_lemmas <> data_at_rec_eq thm
+R4326:4339 VST.floyd.data_at_rec_lemmas <> data_at_rec_eq thm
+R4326:4339 VST.floyd.data_at_rec_lemmas <> data_at_rec_eq thm
+R4351:4390 VST.floyd.aggregate_pred aggregate_pred array_pred def
+R4402:4426 VST.floyd.aggregate_pred <> array_pred def
+R4439:4445 Coq.ZArith.BinInt Z max_r thm
+R4439:4445 Coq.ZArith.BinInt Z max_r thm
+R4439:4445 Coq.ZArith.BinInt Z max_r thm
+R4463:4471 Coq.ZArith.BinInt Z sub_0_r thm
+R4463:4471 Coq.ZArith.BinInt Z sub_0_r thm
+R4463:4471 Coq.ZArith.BinInt Z sub_0_r thm
+R4495:4530 VST.floyd.aggregate_pred <> rangespec_ext_derives thm
+R4495:4530 VST.floyd.aggregate_pred <> rangespec_ext_derives thm
+R4552:4560 VST.floyd.mapsto_memory_block <> at_offset def
+R4573:4581 Coq.ZArith.BinInt Z sub_0_r thm
+R4573:4581 Coq.ZArith.BinInt Z sub_0_r thm
+R4573:4581 Coq.ZArith.BinInt Z sub_0_r thm
+R4594:4601 Coq.ZArith.Znat Z2Nat id thm
+R4594:4601 Coq.ZArith.Znat Z2Nat id thm
+R4594:4601 Coq.ZArith.Znat Z2Nat id thm
+R4625:4633 Coq.ZArith.BinInt Z add_0_l thm
+R4625:4633 Coq.ZArith.BinInt Z add_0_l thm
+R4625:4633 Coq.ZArith.BinInt Z add_0_l thm
+R4678:4684 VST.floyd.field_at <> data_at def
+R4687:4694 VST.floyd.field_at <> field_at def
+R4736:4745 VST.veric.val_lemmas <> offset_val def
+R4757:4759 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4748:4753 VST.veric.expr <> sizeof def
+R4736:4745 VST.veric.val_lemmas <> offset_val def
+R4757:4759 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4748:4753 VST.veric.expr <> sizeof def
+R4778:4793 VST.floyd.nested_field_lemmas <> field_compatible def
+R4803:4812 VST.veric.val_lemmas <> offset_val def
+R4824:4826 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4815:4820 VST.veric.expr <> sizeof def
+R4798:4800 Coq.Init.Datatypes <> nil constr
+R4778:4793 VST.floyd.nested_field_lemmas <> field_compatible def
+R4803:4812 VST.veric.val_lemmas <> offset_val def
+R4824:4826 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4815:4820 VST.veric.expr <> sizeof def
+R4798:4800 Coq.Init.Datatypes <> nil constr
+R4850:4852 compcert.lib.Coqlib <> zle def
+R4855:4860 VST.veric.expr <> sizeof def
+R4850:4852 compcert.lib.Coqlib <> zle def
+R4855:4860 VST.veric.expr <> sizeof def
+R4891:4893 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4882:4887 VST.veric.expr <> sizeof def
+R4913:4922 VST.floyd.base <> sizeof_pos thm
+R4891:4893 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4882:4887 VST.veric.expr <> sizeof def
+R4913:4922 VST.floyd.base <> sizeof_pos thm
+R4960:4968 Coq.ZArith.BinInt Z mul_0_l thm
+R4960:4968 Coq.ZArith.BinInt Z mul_0_l thm
+R4960:4968 Coq.ZArith.BinInt Z mul_0_l thm
+R5136:5144 Coq.ZArith.BinInt Z add_0_r thm
+R5136:5144 Coq.ZArith.BinInt Z add_0_r thm
+R5136:5144 Coq.ZArith.BinInt Z add_0_r thm
+R5171:5176 VST.veric.expr <> sizeof def
+R5204:5209 VST.veric.expr <> sizeof def
+R5204:5209 VST.veric.expr <> sizeof def
+R5252:5260 Coq.ZArith.BinInt Z mul_0_l thm
+R5252:5260 Coq.ZArith.BinInt Z mul_0_l thm
+R5252:5260 Coq.ZArith.BinInt Z mul_0_l thm
+R5281:5295 compcert.lib.Integers Ptrofs add_zero thm
+R5281:5295 compcert.lib.Integers Ptrofs add_zero thm
+R5281:5295 compcert.lib.Integers Ptrofs add_zero thm
+R5326:5356 VST.veric.align_mem <> align_compatible_rec_Tarray_inv thm
+R5326:5356 VST.veric.align_mem <> align_compatible_rec_Tarray_inv thm
+R5393:5398 VST.veric.expr <> sizeof def
+R5393:5398 VST.veric.expr <> sizeof def
+R5437:5445 Coq.ZArith.BinInt Z mul_0_l thm
+R5448:5456 Coq.ZArith.BinInt Z add_0_r thm
+R5437:5445 Coq.ZArith.BinInt Z mul_0_l thm
+R5437:5445 Coq.ZArith.BinInt Z mul_0_l thm
+R5448:5456 Coq.ZArith.BinInt Z add_0_r thm
+R5448:5456 Coq.ZArith.BinInt Z add_0_r thm
+R5484:5498 compcert.lib.Integers Ptrofs add_zero thm
+R5484:5498 compcert.lib.Integers Ptrofs add_zero thm
+R5484:5498 compcert.lib.Integers Ptrofs add_zero thm
+R5589:5592 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5606:5608 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5602:5604 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5593:5598 VST.veric.expr <> sizeof def
+R5602:5604 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5593:5598 VST.veric.expr <> sizeof def
+R5618:5620 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5609:5614 VST.veric.expr <> sizeof def
+R5589:5592 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5606:5608 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5602:5604 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5593:5598 VST.veric.expr <> sizeof def
+R5602:5604 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5593:5598 VST.veric.expr <> sizeof def
+R5618:5620 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5609:5614 VST.veric.expr <> sizeof def
+R5658:5660 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5649:5654 VST.veric.expr <> sizeof def
+R5678:5686 Coq.ZArith.BinInt Z mul_0_r thm
+R5658:5660 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5649:5654 VST.veric.expr <> sizeof def
+R5678:5686 Coq.ZArith.BinInt Z mul_0_r thm
+R5678:5686 Coq.ZArith.BinInt Z mul_0_r thm
+R5714:5723 VST.floyd.base <> sizeof_pos thm
+R5714:5723 VST.floyd.base <> sizeof_pos thm
+R5755:5771 Coq.ZArith.Zorder <> Zmult_le_compat_l thm
+R5755:5771 Coq.ZArith.Zorder <> Zmult_le_compat_l thm
+R5791:5807 Coq.ZArith.Zorder <> Zmult_lt_compat_l thm
+R5791:5807 Coq.ZArith.Zorder <> Zmult_lt_compat_l thm
+R5878:5883 VST.veric.expr <> sizeof def
+R5913:5919 Coq.ZArith.BinInt Z max_r thm
+R5913:5919 Coq.ZArith.BinInt Z max_r thm
+R5913:5919 Coq.ZArith.BinInt Z max_r thm
+R5945:5950 VST.veric.expr <> sizeof def
+R5945:5950 VST.veric.expr <> sizeof def
+R6028:6046 compcert.lib.Integers Ptrofs add_unsigned thm
+R6028:6046 compcert.lib.Integers Ptrofs add_unsigned thm
+R6028:6046 compcert.lib.Integers Ptrofs add_unsigned thm
+R6065:6085 compcert.lib.Integers Ptrofs unsigned_range thm
+R6065:6085 compcert.lib.Integers Ptrofs unsigned_range thm
+R6151:6169 compcert.lib.Integers Ptrofs max_unsigned def
+R6192:6194 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R6178:6191 compcert.lib.Integers Ptrofs modulus def
+R6105:6124 compcert.lib.Integers Ptrofs unsigned_repr thm
+R6128:6128 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6105:6124 compcert.lib.Integers Ptrofs unsigned_repr thm
+R6128:6128 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6151:6169 compcert.lib.Integers Ptrofs max_unsigned def
+R6192:6194 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R6178:6191 compcert.lib.Integers Ptrofs modulus def
+R6105:6124 compcert.lib.Integers Ptrofs unsigned_repr thm
+R6128:6128 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6258:6276 compcert.lib.Integers Ptrofs max_unsigned def
+R6299:6301 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R6285:6298 compcert.lib.Integers Ptrofs modulus def
+R6218:6237 compcert.lib.Integers Ptrofs unsigned_repr thm
+R6218:6237 compcert.lib.Integers Ptrofs unsigned_repr thm
+R6258:6276 compcert.lib.Integers Ptrofs max_unsigned def
+R6299:6301 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R6285:6298 compcert.lib.Integers Ptrofs modulus def
+R6218:6237 compcert.lib.Integers Ptrofs unsigned_repr thm
+R6349:6352 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6337:6339 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6333:6335 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6324:6329 VST.veric.expr <> sizeof def
+R6340:6345 VST.veric.expr <> sizeof def
+R6362:6364 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6353:6358 VST.veric.expr <> sizeof def
+R6349:6352 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6337:6339 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6333:6335 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6324:6329 VST.veric.expr <> sizeof def
+R6340:6345 VST.veric.expr <> sizeof def
+R6362:6364 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6353:6358 VST.veric.expr <> sizeof def
+R6390:6398 Coq.ZArith.BinInt Z mul_1_r thm
+R6401:6406 VST.veric.expr <> sizeof def
+R6390:6398 Coq.ZArith.BinInt Z mul_1_r thm
+R6401:6406 VST.veric.expr <> sizeof def
+R6390:6398 Coq.ZArith.BinInt Z mul_1_r thm
+R6401:6406 VST.veric.expr <> sizeof def
+R6437:6453 Coq.ZArith.BinInt Z mul_add_distr_l thm
+R6437:6453 Coq.ZArith.BinInt Z mul_add_distr_l thm
+R6437:6453 Coq.ZArith.BinInt Z mul_add_distr_l thm
+R6468:6484 Coq.ZArith.Zorder <> Zmult_le_compat_l thm
+R6468:6484 Coq.ZArith.Zorder <> Zmult_le_compat_l thm
+R6535:6565 VST.veric.align_mem <> align_compatible_rec_Tarray_inv thm
+R6535:6565 VST.veric.align_mem <> align_compatible_rec_Tarray_inv thm
+R6604:6613 VST.veric.val_lemmas <> offset_val def
+R6640:6658 compcert.lib.Integers Ptrofs add_unsigned thm
+R6640:6658 compcert.lib.Integers Ptrofs add_unsigned thm
+R6640:6658 compcert.lib.Integers Ptrofs add_unsigned thm
+R6677:6697 compcert.lib.Integers Ptrofs unsigned_range thm
+R6677:6697 compcert.lib.Integers Ptrofs unsigned_range thm
+R6763:6781 compcert.lib.Integers Ptrofs max_unsigned def
+R6804:6806 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R6790:6803 compcert.lib.Integers Ptrofs modulus def
+R6717:6736 compcert.lib.Integers Ptrofs unsigned_repr thm
+R6740:6740 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6717:6736 compcert.lib.Integers Ptrofs unsigned_repr thm
+R6740:6740 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6763:6781 compcert.lib.Integers Ptrofs max_unsigned def
+R6804:6806 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R6790:6803 compcert.lib.Integers Ptrofs modulus def
+R6717:6736 compcert.lib.Integers Ptrofs unsigned_repr thm
+R6740:6740 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6870:6888 compcert.lib.Integers Ptrofs max_unsigned def
+R6911:6913 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R6897:6910 compcert.lib.Integers Ptrofs modulus def
+R6830:6849 compcert.lib.Integers Ptrofs unsigned_repr thm
+R6830:6849 compcert.lib.Integers Ptrofs unsigned_repr thm
+R6870:6888 compcert.lib.Integers Ptrofs max_unsigned def
+R6911:6913 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R6897:6910 compcert.lib.Integers Ptrofs modulus def
+R6830:6849 compcert.lib.Integers Ptrofs unsigned_repr thm
+R6949:6962 VST.msl.log_normalize <> prop_true_andp thm
+R6949:6962 VST.msl.log_normalize <> prop_true_andp thm
+R6949:6962 VST.msl.log_normalize <> prop_true_andp thm
+R6949:6962 VST.msl.log_normalize <> prop_true_andp thm
+R6949:6962 VST.msl.log_normalize <> prop_true_andp thm
+R6988:6996 VST.floyd.mapsto_memory_block <> at_offset def
+R7014:7032 VST.floyd.nested_field_lemmas <> nested_field_offset def
+R7035:7051 VST.floyd.nested_field_lemmas <> nested_field_type def
+R7086:7102 VST.floyd.functional_base <> offset_offset_val thm
+R7086:7102 VST.floyd.functional_base <> offset_offset_val thm
+R7086:7102 VST.floyd.functional_base <> offset_offset_val thm
+R7086:7102 VST.floyd.functional_base <> offset_offset_val thm
+R7121:7129 Coq.ZArith.BinInt Z add_0_r thm
+R7121:7129 Coq.ZArith.BinInt Z add_0_r thm
+R7121:7129 Coq.ZArith.BinInt Z add_0_r thm
+prf 7160:7179 <> stronger_default_val
+binder 7189:7189 <> t:38
+binder 7191:7191 <> v:39
+R7195:7199 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R7194:7194 VST.floyd.stronger <> v:39 var
+R7200:7210 VST.floyd.reptype_lemmas <> default_val def
+R7212:7212 VST.floyd.stronger <> t:38 var
+R7256:7262 VST.floyd.field_at <> data_at def
+R7273:7290 VST.floyd.field_at <> field_at_field_at_ thm
+R7273:7290 VST.floyd.field_at <> field_at_field_at_ thm
+prf 7305:7325 <> stronger_proj_reptype
+binder 7335:7335 <> t:40
+binder 7337:7338 <> v1:41
+binder 7340:7341 <> v2:42
+R7346:7346 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7356:7364 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7508:7508 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7349:7353 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R7347:7348 VST.floyd.stronger <> v1:41 var
+R7354:7355 VST.floyd.stronger <> v2:42 var
+binder 7372:7374 <> gfs:43
+R7401:7404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7454:7460 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7482:7486 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R7461:7472 VST.floyd.proj_reptype_lemmas <> proj_reptype def
+R7480:7481 VST.floyd.stronger <> v1:41 var
+R7476:7478 VST.floyd.stronger <> gfs:43 var
+R7474:7474 VST.floyd.stronger <> t:40 var
+R7487:7498 VST.floyd.proj_reptype_lemmas <> proj_reptype def
+R7506:7507 VST.floyd.stronger <> v2:42 var
+R7502:7504 VST.floyd.stronger <> gfs:43 var
+R7500:7500 VST.floyd.stronger <> t:40 var
+R7447:7449 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7405:7420 VST.veric.mpred <> type_is_by_value def
+R7423:7439 VST.floyd.nested_field_lemmas <> nested_field_type def
+R7443:7445 VST.floyd.stronger <> gfs:43 var
+R7441:7441 VST.floyd.stronger <> t:40 var
+R7450:7453 Coq.Init.Datatypes <> true constr
+R7377:7394 VST.floyd.nested_field_lemmas <> legal_nested_field def
+R7398:7400 VST.floyd.stronger <> gfs:43 var
+R7396:7396 VST.floyd.stronger <> t:40 var
+R7580:7586 VST.floyd.field_at <> data_at def
+R7610:7617 VST.floyd.field_at <> field_at def
+R7643:7651 VST.floyd.mapsto_memory_block <> at_offset def
+R7661:7677 VST.floyd.nested_field_lemmas <> nested_field_type def
+R7701:7719 VST.floyd.nested_field_lemmas <> nested_field_offset def
+R7736:7754 VST.floyd.nested_field_lemmas <> nested_field_offset def
+R7781:7789 VST.floyd.mapsto_memory_block <> at_offset def
+R7804:7820 VST.floyd.nested_field_lemmas <> nested_field_type def
+prf 7891:7909 <> data_equal_stronger
+binder 7920:7920 <> t:44
+R7931:7937 VST.floyd.reptype_lemmas <> reptype def
+R7939:7939 VST.floyd.stronger <> t:44 var
+binder 7924:7925 <> v1:45
+binder 7927:7928 <> v2:46
+R7943:7943 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7953:7958 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7946:7950 VST.floyd.stronger STRONGER :::x_'==='_x not
+R7944:7945 VST.floyd.stronger <> v1:45 var
+R7951:7952 VST.floyd.stronger <> v2:46 var
+R7959:7959 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7969:7974 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7984:7984 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7962:7966 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R7960:7961 VST.floyd.stronger <> v1:45 var
+R7967:7968 VST.floyd.stronger <> v2:46 var
+R7977:7981 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R7975:7976 VST.floyd.stronger <> v2:46 var
+R7982:7983 VST.floyd.stronger <> v1:45 var
+R8094:8101 VST.msl.seplog <> pred_ext meth
+R8094:8101 VST.msl.seplog <> pred_ext meth
+prf 8138:8152 <> data_equal_JMeq
+binder 8164:8164 <> t:47
+binder 8166:8167 <> t':48
+binder 8169:8169 <> a:49
+binder 8171:8172 <> a':50
+binder 8174:8174 <> b:51
+binder 8176:8177 <> b':52
+R8188:8195 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8231:8238 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8274:8281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8289:8292 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8295:8299 VST.floyd.stronger STRONGER :::x_'==='_x not
+R8293:8294 VST.floyd.stronger <> a':50 var
+R8300:8301 VST.floyd.stronger <> b':52 var
+R8283:8287 VST.floyd.stronger STRONGER :::x_'==='_x not
+R8282:8282 VST.floyd.stronger <> a:49 var
+R8288:8288 VST.floyd.stronger <> b:51 var
+R8240:8243 VST.floyd.jmeq_lemmas <> JMeq def
+R8272:8273 VST.floyd.stronger <> b':52 var
+R8260:8266 VST.floyd.reptype_lemmas <> reptype def
+R8268:8269 VST.floyd.stronger <> t':48 var
+R8257:8257 VST.floyd.stronger <> b:51 var
+R8246:8252 VST.floyd.reptype_lemmas <> reptype def
+R8254:8254 VST.floyd.stronger <> t:47 var
+R8197:8200 VST.floyd.jmeq_lemmas <> JMeq def
+R8229:8230 VST.floyd.stronger <> a':50 var
+R8217:8223 VST.floyd.reptype_lemmas <> reptype def
+R8225:8226 VST.floyd.stronger <> t':48 var
+R8214:8214 VST.floyd.stronger <> a:49 var
+R8203:8209 VST.floyd.reptype_lemmas <> reptype def
+R8211:8211 VST.floyd.stronger <> t:47 var
+R8185:8185 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8184:8184 VST.floyd.stronger <> t:47 var
+R8186:8187 VST.floyd.stronger <> t':48 var
+R8335:8341 VST.floyd.jmeq_lemmas <> JMeq_eq thm
+R8335:8341 VST.floyd.jmeq_lemmas <> JMeq_eq thm
+R8356:8362 VST.floyd.jmeq_lemmas <> JMeq_eq thm
+R8356:8362 VST.floyd.jmeq_lemmas <> JMeq_eq thm
+prf 8396:8415 <> eq_rect_r_data_equal
+binder 8426:8427 <> t1:53
+binder 8429:8430 <> t2:54
+binder 8433:8434 <> v0:55
+binder 8436:8437 <> v1:56
+R8445:8447 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8443:8444 VST.floyd.stronger <> t1:53 var
+R8448:8449 VST.floyd.stronger <> t2:54 var
+binder 8440:8440 <> H:57
+R8464:8469 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8492:8496 VST.floyd.stronger STRONGER :::x_'==='_x not
+R8470:8478 Coq.Init.Logic <> eq_rect_r def
+R8491:8491 VST.floyd.stronger <> H:57 var
+R8488:8489 VST.floyd.stronger <> v0:55 var
+R8480:8486 VST.floyd.reptype_lemmas <> reptype def
+R8497:8505 Coq.Init.Logic <> eq_rect_r def
+R8518:8518 VST.floyd.stronger <> H:57 var
+R8515:8516 VST.floyd.stronger <> v1:56 var
+R8507:8513 VST.floyd.reptype_lemmas <> reptype def
+R8457:8461 VST.floyd.stronger STRONGER :::x_'==='_x not
+R8455:8456 VST.floyd.stronger <> v0:55 var
+R8462:8463 VST.floyd.stronger <> v1:56 var
+R8582:8590 Coq.Init.Logic <> eq_rect_r def
+R8607:8616 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R8607:8616 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R8607:8616 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R8607:8616 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R8607:8616 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+inst 8642:8657 <> Equiv_data_equal
+binder 8659:8659 <> t:58
+R8662:8672 Coq.Classes.RelationClasses <> Equivalence class
+R8676:8685 VST.floyd.stronger <> data_equal def
+R8687:8687 VST.floyd.stronger <> t:58 var
+R8707:8716 VST.floyd.stronger <> data_equal def
+prf 8876:8891 <> data_equal_refl'
+binder 8901:8901 <> t:59
+R8910:8916 VST.floyd.reptype_lemmas <> reptype def
+R8918:8918 VST.floyd.stronger <> t:59 var
+binder 8904:8904 <> v:60
+binder 8906:8907 <> v':61
+R8928:8931 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8933:8937 VST.floyd.stronger STRONGER :::x_'==='_x not
+R8932:8932 VST.floyd.stronger <> v:60 var
+R8938:8939 VST.floyd.stronger <> v':61 var
+R8923:8925 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8922:8922 VST.floyd.stronger <> v:60 var
+R8926:8927 VST.floyd.stronger <> v':61 var
+prf 8991:9009 <> field_at_data_equal
+binder 9019:9020 <> sh:62
+binder 9022:9022 <> t:63
+binder 9024:9026 <> gfs:64
+binder 9028:9029 <> v0:65
+binder 9031:9032 <> v1:66
+R9046:9051 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9072:9074 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9052:9059 VST.floyd.field_at <> field_at def
+R9070:9071 VST.floyd.stronger <> v0:65 var
+R9066:9068 VST.floyd.stronger <> gfs:64 var
+R9064:9064 VST.floyd.stronger <> t:63 var
+R9061:9062 VST.floyd.stronger <> sh:62 var
+R9075:9082 VST.floyd.field_at <> field_at def
+R9093:9094 VST.floyd.stronger <> v1:66 var
+R9089:9091 VST.floyd.stronger <> gfs:64 var
+R9087:9087 VST.floyd.stronger <> t:63 var
+R9084:9085 VST.floyd.stronger <> sh:62 var
+R9039:9043 VST.floyd.stronger STRONGER :::x_'==='_x not
+R9037:9038 VST.floyd.stronger <> v0:65 var
+R9044:9045 VST.floyd.stronger <> v1:66 var
+R9126:9144 VST.floyd.stronger <> data_equal_stronger thm
+R9126:9144 VST.floyd.stronger <> data_equal_stronger thm
+R9192:9199 VST.msl.seplog <> pred_ext meth
+R9208:9224 VST.floyd.stronger <> field_at_stronger thm
+R9192:9199 VST.msl.seplog <> pred_ext meth
+R9208:9224 VST.floyd.stronger <> field_at_stronger thm
+R9208:9224 VST.floyd.stronger <> field_at_stronger thm
+inst 9249:9263 <> Proper_field_at
+binder 9273:9274 <> sh:67
+binder 9276:9276 <> t:68
+binder 9278:9280 <> gfs:69
+R9285:9290 Coq.Classes.Morphisms <> Proper class
+R9318:9325 VST.floyd.field_at <> field_at def
+R9332:9334 VST.floyd.stronger <> gfs:69 var
+R9330:9330 VST.floyd.stronger <> t:68 var
+R9327:9328 VST.floyd.stronger <> sh:67 var
+R9293:9293 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R9307:9312 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R9295:9304 VST.floyd.stronger <> data_equal def
+R9313:9314 Coq.Init.Logic <> eq ind
+R9380:9398 VST.floyd.stronger <> field_at_data_equal thm
+R9380:9398 VST.floyd.stronger <> field_at_data_equal thm
+prf 9423:9442 <> data_equal_array_ext
+binder 9452:9453 <> t0:70
+binder 9455:9455 <> n:71
+binder 9457:9457 <> a:72
+R9467:9473 VST.floyd.reptype_lemmas <> reptype def
+R9476:9481 compcert.cfrontend.Ctypes <> Tarray constr
+R9488:9488 VST.floyd.stronger <> a:72 var
+R9486:9486 VST.floyd.stronger <> n:71 var
+R9483:9484 VST.floyd.stronger <> t0:70 var
+binder 9460:9461 <> v0:73
+binder 9463:9464 <> v1:74
+R9551:9556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9557:9557 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9644:9650 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9653:9657 VST.floyd.stronger STRONGER :::x_'==='_x not
+R9651:9652 VST.floyd.stronger <> v0:73 var
+R9658:9659 VST.floyd.stronger <> v1:74 var
+binder 9565:9565 <> i:75
+R9578:9586 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9613:9617 VST.floyd.stronger STRONGER :::x_'==='_x not
+R9587:9590 VST.floyd.sublist <> Znth def
+R9595:9608 VST.floyd.reptype_lemmas <> unfold_reptype def
+R9610:9611 VST.floyd.stronger <> v0:73 var
+R9592:9592 VST.floyd.stronger <> i:75 var
+R9618:9621 VST.floyd.sublist <> Znth def
+R9626:9639 VST.floyd.reptype_lemmas <> unfold_reptype def
+R9641:9642 VST.floyd.stronger <> v1:74 var
+R9623:9623 VST.floyd.stronger <> i:75 var
+R9569:9572 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R9574:9576 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R9573:9573 VST.floyd.stronger <> i:75 var
+R9573:9573 VST.floyd.stronger <> i:75 var
+R9577:9577 VST.floyd.stronger <> n:71 var
+R9521:9523 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9494:9500 Coq.ZArith.Zcomplements <> Zlength def
+R9503:9516 VST.floyd.reptype_lemmas <> unfold_reptype def
+R9518:9519 VST.floyd.stronger <> v0:73 var
+R9524:9530 Coq.ZArith.Zcomplements <> Zlength def
+R9533:9546 VST.floyd.reptype_lemmas <> unfold_reptype def
+R9548:9549 VST.floyd.stronger <> v1:74 var
+R9687:9705 VST.floyd.stronger <> data_equal_stronger thm
+R9721:9738 VST.floyd.stronger <> stronger_array_ext thm
+R9687:9705 VST.floyd.stronger <> data_equal_stronger thm
+R9721:9738 VST.floyd.stronger <> stronger_array_ext thm
+R9721:9738 VST.floyd.stronger <> stronger_array_ext thm
+R9799:9817 VST.floyd.stronger <> data_equal_stronger thm
+R9893:9896 VST.floyd.sublist <> Znth def
+R9901:9914 VST.floyd.reptype_lemmas <> unfold_reptype def
+R9842:9845 VST.floyd.sublist <> Znth def
+R9850:9863 VST.floyd.reptype_lemmas <> unfold_reptype def
+R9799:9817 VST.floyd.stronger <> data_equal_stronger thm
+R9893:9896 VST.floyd.sublist <> Znth def
+R9901:9914 VST.floyd.reptype_lemmas <> unfold_reptype def
+R9842:9845 VST.floyd.sublist <> Znth def
+R9850:9863 VST.floyd.reptype_lemmas <> unfold_reptype def
+R9995:10013 VST.floyd.stronger <> data_equal_stronger thm
+R10089:10092 VST.floyd.sublist <> Znth def
+R10097:10110 VST.floyd.reptype_lemmas <> unfold_reptype def
+R10038:10041 VST.floyd.sublist <> Znth def
+R10046:10059 VST.floyd.reptype_lemmas <> unfold_reptype def
+R9995:10013 VST.floyd.stronger <> data_equal_stronger thm
+R10089:10092 VST.floyd.sublist <> Znth def
+R10097:10110 VST.floyd.reptype_lemmas <> unfold_reptype def
+R10038:10041 VST.floyd.sublist <> Znth def
+R10046:10059 VST.floyd.reptype_lemmas <> unfold_reptype def
+prf 10955:10977 <> data_equal_proj_reptype
+binder 10987:10987 <> t:76
+binder 10989:10990 <> v1:77
+binder 10992:10993 <> v2:78
+R10998:10998 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11008:11016 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11160:11160 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11001:11005 VST.floyd.stronger STRONGER :::x_'==='_x not
+R10999:11000 VST.floyd.stronger <> v1:77 var
+R11006:11007 VST.floyd.stronger <> v2:78 var
+binder 11024:11026 <> gfs:79
+R11053:11056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11106:11112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11134:11138 VST.floyd.stronger STRONGER :::x_'==='_x not
+R11113:11124 VST.floyd.proj_reptype_lemmas <> proj_reptype def
+R11132:11133 VST.floyd.stronger <> v1:77 var
+R11128:11130 VST.floyd.stronger <> gfs:79 var
+R11126:11126 VST.floyd.stronger <> t:76 var
+R11139:11150 VST.floyd.proj_reptype_lemmas <> proj_reptype def
+R11158:11159 VST.floyd.stronger <> v2:78 var
+R11154:11156 VST.floyd.stronger <> gfs:79 var
+R11152:11152 VST.floyd.stronger <> t:76 var
+R11099:11101 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11057:11072 VST.veric.mpred <> type_is_by_value def
+R11075:11091 VST.floyd.nested_field_lemmas <> nested_field_type def
+R11095:11097 VST.floyd.stronger <> gfs:79 var
+R11093:11093 VST.floyd.stronger <> t:76 var
+R11102:11105 Coq.Init.Datatypes <> true constr
+R11029:11046 VST.floyd.nested_field_lemmas <> legal_nested_field def
+R11050:11052 VST.floyd.stronger <> gfs:79 var
+R11048:11048 VST.floyd.stronger <> t:76 var
+R11190:11208 VST.floyd.stronger <> data_equal_stronger thm
+R11190:11208 VST.floyd.stronger <> data_equal_stronger thm
+R11190:11208 VST.floyd.stronger <> data_equal_stronger thm
+R11221:11221 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11388:11397 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11235:11238 Coq.Init.Datatypes <> list ind
+R11240:11245 VST.floyd.nested_field_lemmas <> gfield ind
+binder 11229:11231 <> gfs:80
+R11276:11283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11333:11340 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11362:11366 VST.floyd.stronger STRONGER :::x_'==='_x not
+R11341:11352 VST.floyd.proj_reptype_lemmas <> proj_reptype def
+R11356:11358 VST.floyd.stronger <> gfs:80 var
+R11367:11378 VST.floyd.proj_reptype_lemmas <> proj_reptype def
+R11382:11384 VST.floyd.stronger <> gfs:80 var
+R11326:11328 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11284:11299 VST.veric.mpred <> type_is_by_value def
+R11302:11318 VST.floyd.nested_field_lemmas <> nested_field_type def
+R11322:11324 VST.floyd.stronger <> gfs:80 var
+R11329:11332 Coq.Init.Datatypes <> true constr
+R11252:11269 VST.floyd.nested_field_lemmas <> legal_nested_field def
+R11273:11275 VST.floyd.stronger <> gfs:80 var
+R11398:11398 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11565:11574 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11741:11741 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11412:11415 Coq.Init.Datatypes <> list ind
+R11417:11422 VST.floyd.nested_field_lemmas <> gfield ind
+binder 11406:11408 <> gfs:81
+R11453:11460 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11510:11517 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11539:11543 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R11518:11529 VST.floyd.proj_reptype_lemmas <> proj_reptype def
+R11533:11535 VST.floyd.stronger <> gfs:81 var
+R11544:11555 VST.floyd.proj_reptype_lemmas <> proj_reptype def
+R11559:11561 VST.floyd.stronger <> gfs:81 var
+R11503:11505 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11461:11476 VST.veric.mpred <> type_is_by_value def
+R11479:11495 VST.floyd.nested_field_lemmas <> nested_field_type def
+R11499:11501 VST.floyd.stronger <> gfs:81 var
+R11506:11509 Coq.Init.Datatypes <> true constr
+R11429:11446 VST.floyd.nested_field_lemmas <> legal_nested_field def
+R11450:11452 VST.floyd.stronger <> gfs:81 var
+R11588:11591 Coq.Init.Datatypes <> list ind
+R11593:11598 VST.floyd.nested_field_lemmas <> gfield ind
+binder 11582:11584 <> gfs:82
+R11629:11636 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11686:11693 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11715:11719 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R11694:11705 VST.floyd.proj_reptype_lemmas <> proj_reptype def
+R11709:11711 VST.floyd.stronger <> gfs:82 var
+R11720:11731 VST.floyd.proj_reptype_lemmas <> proj_reptype def
+R11735:11737 VST.floyd.stronger <> gfs:82 var
+R11679:11681 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11637:11652 VST.veric.mpred <> type_is_by_value def
+R11655:11671 VST.floyd.nested_field_lemmas <> nested_field_type def
+R11675:11677 VST.floyd.stronger <> gfs:82 var
+R11682:11685 Coq.Init.Datatypes <> true constr
+R11605:11622 VST.floyd.nested_field_lemmas <> legal_nested_field def
+R11626:11628 VST.floyd.stronger <> gfs:82 var
+R11221:11221 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11388:11397 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11235:11238 Coq.Init.Datatypes <> list ind
+R11240:11245 VST.floyd.nested_field_lemmas <> gfield ind
+binder 11229:11231 <> gfs:83
+R11276:11283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11333:11340 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11362:11366 VST.floyd.stronger STRONGER :::x_'==='_x not
+R11341:11352 VST.floyd.proj_reptype_lemmas <> proj_reptype def
+R11356:11358 VST.floyd.stronger <> gfs:83 var
+R11367:11378 VST.floyd.proj_reptype_lemmas <> proj_reptype def
+R11382:11384 VST.floyd.stronger <> gfs:83 var
+R11326:11328 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11284:11299 VST.veric.mpred <> type_is_by_value def
+R11302:11318 VST.floyd.nested_field_lemmas <> nested_field_type def
+R11322:11324 VST.floyd.stronger <> gfs:83 var
+R11329:11332 Coq.Init.Datatypes <> true constr
+R11252:11269 VST.floyd.nested_field_lemmas <> legal_nested_field def
+R11273:11275 VST.floyd.stronger <> gfs:83 var
+R11398:11398 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11565:11574 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11741:11741 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11412:11415 Coq.Init.Datatypes <> list ind
+R11417:11422 VST.floyd.nested_field_lemmas <> gfield ind
+binder 11406:11408 <> gfs:84
+R11453:11460 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11510:11517 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11539:11543 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R11518:11529 VST.floyd.proj_reptype_lemmas <> proj_reptype def
+R11533:11535 VST.floyd.stronger <> gfs:84 var
+R11544:11555 VST.floyd.proj_reptype_lemmas <> proj_reptype def
+R11559:11561 VST.floyd.stronger <> gfs:84 var
+R11503:11505 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11461:11476 VST.veric.mpred <> type_is_by_value def
+R11479:11495 VST.floyd.nested_field_lemmas <> nested_field_type def
+R11499:11501 VST.floyd.stronger <> gfs:84 var
+R11506:11509 Coq.Init.Datatypes <> true constr
+R11429:11446 VST.floyd.nested_field_lemmas <> legal_nested_field def
+R11450:11452 VST.floyd.stronger <> gfs:84 var
+R11588:11591 Coq.Init.Datatypes <> list ind
+R11593:11598 VST.floyd.nested_field_lemmas <> gfield ind
+binder 11582:11584 <> gfs:85
+R11629:11636 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11686:11693 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11715:11719 VST.floyd.stronger STRONGER :::x_'>>>'_x not
+R11694:11705 VST.floyd.proj_reptype_lemmas <> proj_reptype def
+R11709:11711 VST.floyd.stronger <> gfs:85 var
+R11720:11731 VST.floyd.proj_reptype_lemmas <> proj_reptype def
+R11735:11737 VST.floyd.stronger <> gfs:85 var
+R11679:11681 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11637:11652 VST.veric.mpred <> type_is_by_value def
+R11655:11671 VST.floyd.nested_field_lemmas <> nested_field_type def
+R11675:11677 VST.floyd.stronger <> gfs:85 var
+R11682:11685 Coq.Init.Datatypes <> true constr
+R11605:11622 VST.floyd.nested_field_lemmas <> legal_nested_field def
+R11626:11628 VST.floyd.stronger <> gfs:85 var
+R11833:11851 VST.floyd.stronger <> data_equal_stronger thm
+R11833:11851 VST.floyd.stronger <> data_equal_stronger thm
+R11833:11851 VST.floyd.stronger <> data_equal_stronger thm
+R11918:11936 VST.floyd.stronger <> data_equal_stronger thm
+R11918:11936 VST.floyd.stronger <> data_equal_stronger thm
+R11918:11936 VST.floyd.stronger <> data_equal_stronger thm
+R11971:11989 VST.floyd.stronger <> data_equal_stronger thm
+R11971:11989 VST.floyd.stronger <> data_equal_stronger thm
+R11971:11989 VST.floyd.stronger <> data_equal_stronger thm
+R12150:12157 VST.floyd.stronger STRONGER <> sec
+mod 12168:12183 <> DataCmpNotations
+R12213:12220 VST.floyd.stronger <> stronger def
+not 12197:12197 DataCmpNotations :::x_'>>>'_x
+R12287:12296 VST.floyd.stronger <> data_equal def
+not 12271:12271 DataCmpNotations :::x_'==='_x
+R12340:12355 VST.floyd.stronger DataCmpNotations <> mod

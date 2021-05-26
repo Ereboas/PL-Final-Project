@@ -1,0 +1,837 @@
+DIGEST 70b6199b7146bf6732520157dc310c1b
+FVST.floyd.nested_pred_lemmas
+R15:29 VST.floyd.base2 <> <> lib
+R47:69 VST.floyd.client_lemmas <> <> lib
+R87:110 VST.floyd.type_induction <> <> lib
+R128:146 VST.floyd.fieldlist <> <> lib
+prf 496:509 <> fold_right_map
+binder 520:520 <> A:1
+binder 522:522 <> B:2
+binder 524:524 <> C:3
+R532:535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R537:540 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R541:541 VST.floyd.nested_pred_lemmas <> A:1 var
+R536:536 VST.floyd.nested_pred_lemmas <> A:1 var
+R531:531 VST.floyd.nested_pred_lemmas <> B:2 var
+binder 528:528 <> f:4
+R549:552 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R553:553 VST.floyd.nested_pred_lemmas <> B:2 var
+R548:548 VST.floyd.nested_pred_lemmas <> C:3 var
+binder 545:545 <> g:5
+R560:560 VST.floyd.nested_pred_lemmas <> A:1 var
+binder 557:557 <> e:6
+R567:570 Coq.Init.Datatypes <> list ind
+R572:572 VST.floyd.nested_pred_lemmas <> C:3 var
+binder 564:564 <> l:7
+R602:604 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R578:587 Coq.Lists.List <> fold_right def
+R594:596 Coq.Lists.List <> map def
+R600:600 VST.floyd.nested_pred_lemmas <> l:7 var
+R598:598 VST.floyd.nested_pred_lemmas <> g:5 var
+R591:591 VST.floyd.nested_pred_lemmas <> e:6 var
+R589:589 VST.floyd.nested_pred_lemmas <> f:4 var
+R605:614 Coq.Lists.List <> fold_right def
+R641:641 VST.floyd.nested_pred_lemmas <> l:7 var
+R639:639 VST.floyd.nested_pred_lemmas <> e:6 var
+binder 621:621 <> c:8
+binder 623:623 <> a:9
+R628:628 VST.floyd.nested_pred_lemmas <> f:4 var
+R636:636 VST.floyd.nested_pred_lemmas <> a:9 var
+R631:631 VST.floyd.nested_pred_lemmas <> g:5 var
+R633:633 VST.floyd.nested_pred_lemmas <> c:8 var
+sec 752:762 <> NESTED_PRED
+R778:786 VST.veric.mpred <> compspecs class
+binder 774:775 <> cs:10
+def 802:812 <> nested_pred
+R830:833 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R834:837 Coq.Init.Datatypes <> bool ind
+R826:829 compcert.cfrontend.Ctypes <> type ind
+binder 815:823 <> atom_pred:11
+R845:848 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R849:852 Coq.Init.Datatypes <> bool ind
+R841:844 compcert.cfrontend.Ctypes <> type ind
+R859:867 VST.floyd.type_induction <> type_func def
+binder 1071:1072 <> id:12
+binder 1074:1074 <> a:13
+binder 1076:1077 <> bl:14
+R1106:1109 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1083:1091 VST.floyd.nested_pred_lemmas <> atom_pred:11 var
+R1094:1099 compcert.cfrontend.Ctypes <> Tunion constr
+R1104:1104 VST.floyd.nested_pred_lemmas <> a:13 var
+R1101:1102 VST.floyd.nested_pred_lemmas <> id:12 var
+R1110:1119 Coq.Lists.List <> fold_right def
+R1132:1136 VST.floyd.type_induction <> decay def
+R1138:1139 VST.floyd.nested_pred_lemmas <> bl:14 var
+R1126:1129 Coq.Init.Datatypes <> true constr
+R1121:1124 Coq.Init.Datatypes <> andb def
+binder 983:984 <> id:15
+binder 986:986 <> a:16
+binder 988:989 <> bl:17
+R1019:1022 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R995:1003 VST.floyd.nested_pred_lemmas <> atom_pred:11 var
+R1006:1012 compcert.cfrontend.Ctypes <> Tstruct constr
+R1017:1017 VST.floyd.nested_pred_lemmas <> a:16 var
+R1014:1015 VST.floyd.nested_pred_lemmas <> id:15 var
+R1023:1032 Coq.Lists.List <> fold_right def
+R1045:1049 VST.floyd.type_induction <> decay def
+R1051:1052 VST.floyd.nested_pred_lemmas <> bl:17 var
+R1039:1042 Coq.Init.Datatypes <> true constr
+R1034:1037 Coq.Init.Datatypes <> andb def
+binder 925:925 <> t:18
+binder 927:927 <> n:19
+binder 929:929 <> a:20
+binder 931:931 <> b:21
+R961:964 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R937:945 VST.floyd.nested_pred_lemmas <> atom_pred:11 var
+R948:953 compcert.cfrontend.Ctypes <> Tarray constr
+R959:959 VST.floyd.nested_pred_lemmas <> a:20 var
+R957:957 VST.floyd.nested_pred_lemmas <> n:19 var
+R955:955 VST.floyd.nested_pred_lemmas <> t:18 var
+R965:965 VST.floyd.nested_pred_lemmas <> b:21 var
+binder 898:898 <> t:22
+R903:911 VST.floyd.nested_pred_lemmas <> atom_pred:11 var
+R913:913 VST.floyd.nested_pred_lemmas <> t:22 var
+R883:886 Coq.Init.Datatypes <> bool ind
+def 1162:1179 <> nested_fields_pred
+R1197:1200 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1201:1204 Coq.Init.Datatypes <> bool ind
+R1193:1196 compcert.cfrontend.Ctypes <> type ind
+binder 1182:1190 <> atom_pred:23
+R1211:1217 compcert.cfrontend.Ctypes <> members def
+binder 1208:1208 <> m:24
+R1222:1225 Coq.Init.Datatypes <> bool ind
+R1232:1241 Coq.Lists.List <> fold_right def
+R1320:1320 VST.floyd.nested_pred_lemmas <> m:24 var
+R1315:1318 Coq.Init.Datatypes <> true constr
+binder 1248:1249 <> it:25
+binder 1251:1251 <> b:26
+R1302:1305 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1257:1267 VST.floyd.nested_pred_lemmas <> nested_pred def
+R1280:1289 VST.floyd.fieldlist <> field_type def
+R1300:1300 VST.floyd.nested_pred_lemmas <> m:24 var
+R1292:1294 Coq.Init.Datatypes <> fst def
+R1296:1297 VST.floyd.nested_pred_lemmas <> it:25 var
+R1269:1277 VST.floyd.nested_pred_lemmas <> atom_pred:23 var
+R1306:1306 VST.floyd.nested_pred_lemmas <> b:26 var
+prf 1330:1343 <> nested_pred_eq
+binder 1353:1361 <> atom_pred:27
+binder 1363:1363 <> t:28
+R1391:1395 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1368:1378 VST.floyd.nested_pred_lemmas <> nested_pred def
+R1390:1390 VST.floyd.nested_pred_lemmas <> t:28 var
+R1380:1388 VST.floyd.nested_pred_lemmas <> atom_pred:27 var
+R1402:1402 VST.floyd.nested_pred_lemmas <> t:28 var
+R1413:1418 compcert.cfrontend.Ctypes <> Tarray constr
+R1442:1445 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1431:1439 VST.floyd.nested_pred_lemmas <> atom_pred:27 var
+R1441:1441 VST.floyd.nested_pred_lemmas <> t:28 var
+R1446:1456 VST.floyd.nested_pred_lemmas <> nested_pred def
+R1458:1466 VST.floyd.nested_pred_lemmas <> atom_pred:27 var
+R1481:1487 compcert.cfrontend.Ctypes <> Tstruct constr
+R1498:1503 compcert.cfrontend.Ctypes <> Tunion constr
+R1525:1528 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1514:1522 VST.floyd.nested_pred_lemmas <> atom_pred:27 var
+R1524:1524 VST.floyd.nested_pred_lemmas <> t:28 var
+R1529:1546 VST.floyd.nested_pred_lemmas <> nested_fields_pred def
+R1559:1568 compcert.cfrontend.Ctypes <> co_members proj
+R1571:1576 VST.floyd.base <> get_co def
+R1548:1556 VST.floyd.nested_pred_lemmas <> atom_pred:27 var
+R1525:1528 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1514:1522 VST.floyd.nested_pred_lemmas <> atom_pred:27 var
+R1524:1524 VST.floyd.nested_pred_lemmas <> t:28 var
+R1529:1546 VST.floyd.nested_pred_lemmas <> nested_fields_pred def
+R1559:1568 compcert.cfrontend.Ctypes <> co_members proj
+R1571:1576 VST.floyd.base <> get_co def
+R1548:1556 VST.floyd.nested_pred_lemmas <> atom_pred:27 var
+R1598:1606 VST.floyd.nested_pred_lemmas <> atom_pred:27 var
+R1608:1608 VST.floyd.nested_pred_lemmas <> t:28 var
+R1633:1650 VST.floyd.nested_pred_lemmas <> nested_fields_pred def
+R1672:1682 VST.floyd.nested_pred_lemmas <> nested_pred def
+R1739:1742 Coq.Init.Datatypes <> bool ind
+R1695:1706 VST.floyd.type_induction <> type_func_eq thm
+R1739:1742 Coq.Init.Datatypes <> bool ind
+R1695:1706 VST.floyd.type_induction <> type_func_eq thm
+R1739:1742 Coq.Init.Datatypes <> bool ind
+R1695:1706 VST.floyd.type_induction <> type_func_eq thm
+R1800:1806 VST.floyd.type_induction <> FTI_aux def
+R1821:1830 VST.floyd.type_induction <> decay_spec thm
+R1821:1830 VST.floyd.type_induction <> decay_spec thm
+R1821:1830 VST.floyd.type_induction <> decay_spec thm
+R1845:1858 VST.floyd.nested_pred_lemmas <> fold_right_map thm
+R1845:1858 VST.floyd.nested_pred_lemmas <> fold_right_map thm
+R1845:1858 VST.floyd.nested_pred_lemmas <> fold_right_map thm
+R1898:1904 VST.floyd.type_induction <> FTI_aux def
+R1919:1928 VST.floyd.type_induction <> decay_spec thm
+R1919:1928 VST.floyd.type_induction <> decay_spec thm
+R1919:1928 VST.floyd.type_induction <> decay_spec thm
+R1943:1956 VST.floyd.nested_pred_lemmas <> fold_right_map thm
+R1943:1956 VST.floyd.nested_pred_lemmas <> fold_right_map thm
+R1943:1956 VST.floyd.nested_pred_lemmas <> fold_right_map thm
+prf 1992:2012 <> nested_pred_atom_pred
+R2038:2041 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2042:2045 Coq.Init.Datatypes <> bool ind
+R2034:2037 compcert.cfrontend.Ctypes <> type ind
+binder 2023:2031 <> atom_pred:30
+R2052:2055 compcert.cfrontend.Ctypes <> type ind
+binder 2049:2049 <> t:31
+R2091:2094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2106:2108 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2095:2103 VST.floyd.nested_pred_lemmas <> atom_pred:30 var
+R2105:2105 VST.floyd.nested_pred_lemmas <> t:31 var
+R2109:2112 Coq.Init.Datatypes <> true constr
+R2084:2086 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2061:2071 VST.floyd.nested_pred_lemmas <> nested_pred def
+R2083:2083 VST.floyd.nested_pred_lemmas <> t:31 var
+R2073:2081 VST.floyd.nested_pred_lemmas <> atom_pred:30 var
+R2087:2090 Coq.Init.Datatypes <> true constr
+R2142:2155 VST.floyd.nested_pred_lemmas <> nested_pred_eq thm
+R2142:2155 VST.floyd.nested_pred_lemmas <> nested_pred_eq thm
+R2142:2155 VST.floyd.nested_pred_lemmas <> nested_pred_eq thm
+R2209:2221 Coq.Bool.Bool <> andb_true_iff thm
+R2209:2221 Coq.Bool.Bool <> andb_true_iff thm
+R2209:2221 Coq.Bool.Bool <> andb_true_iff thm
+R2209:2221 Coq.Bool.Bool <> andb_true_iff thm
+R2209:2221 Coq.Bool.Bool <> andb_true_iff thm
+R2209:2221 Coq.Bool.Bool <> andb_true_iff thm
+R2209:2221 Coq.Bool.Bool <> andb_true_iff thm
+R2209:2221 Coq.Bool.Bool <> andb_true_iff thm
+R2209:2221 Coq.Bool.Bool <> andb_true_iff thm
+R2209:2221 Coq.Bool.Bool <> andb_true_iff thm
+prf 2256:2285 <> nested_fields_pred_nested_pred
+R2311:2314 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2315:2318 Coq.Init.Datatypes <> bool ind
+R2307:2310 compcert.cfrontend.Ctypes <> type ind
+binder 2296:2304 <> atom_pred:32
+binder 2321:2321 <> i:33
+binder 2323:2323 <> m:34
+R2340:2343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2381:2384 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2423:2425 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2385:2395 VST.floyd.nested_pred_lemmas <> nested_pred def
+R2408:2417 VST.floyd.fieldlist <> field_type def
+R2421:2421 VST.floyd.nested_pred_lemmas <> m:34 var
+R2419:2419 VST.floyd.nested_pred_lemmas <> i:33 var
+R2397:2405 VST.floyd.nested_pred_lemmas <> atom_pred:32 var
+R2426:2429 Coq.Init.Datatypes <> true constr
+R2374:2376 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2344:2361 VST.floyd.nested_pred_lemmas <> nested_fields_pred def
+R2373:2373 VST.floyd.nested_pred_lemmas <> m:34 var
+R2363:2371 VST.floyd.nested_pred_lemmas <> atom_pred:32 var
+R2377:2380 Coq.Init.Datatypes <> true constr
+R2326:2335 VST.veric.mpred <> in_members def
+R2339:2339 VST.floyd.nested_pred_lemmas <> m:34 var
+R2337:2337 VST.floyd.nested_pred_lemmas <> i:33 var
+R2458:2475 VST.floyd.nested_pred_lemmas <> nested_fields_pred def
+R2497:2510 VST.floyd.nested_pred_lemmas <> fold_right_map thm
+R2497:2510 VST.floyd.nested_pred_lemmas <> fold_right_map thm
+R2497:2510 VST.floyd.nested_pred_lemmas <> fold_right_map thm
+R2528:2542 VST.floyd.coqlib3 <> fold_right_andb thm
+R2528:2542 VST.floyd.coqlib3 <> fold_right_andb thm
+R2585:2591 Coq.Lists.List <> map_map thm
+R2585:2591 Coq.Lists.List <> map_map thm
+R2585:2591 Coq.Lists.List <> map_map thm
+R2602:2607 VST.floyd.fieldlist <> in_map def
+R2602:2607 VST.floyd.fieldlist <> in_map def
+R2620:2629 VST.floyd.fieldlist <> field_type def
+binder 2647:2648 <> it:35
+R2653:2662 VST.floyd.fieldlist <> field_type def
+R2665:2667 Coq.Init.Datatypes <> fst def
+R2669:2670 VST.floyd.nested_pred_lemmas <> it:35 var
+R2676:2676 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2678:2679 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2694:2694 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2680:2689 VST.floyd.fieldlist <> field_type def
+R2620:2629 VST.floyd.fieldlist <> field_type def
+binder 2647:2648 <> it:36
+R2653:2662 VST.floyd.fieldlist <> field_type def
+R2665:2667 Coq.Init.Datatypes <> fst def
+R2669:2670 VST.floyd.nested_pred_lemmas <> it:36 var
+R2676:2676 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2678:2679 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2694:2694 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2680:2689 VST.floyd.fieldlist <> field_type def
+R2706:2711 VST.floyd.fieldlist <> in_map def
+R2706:2711 VST.floyd.fieldlist <> in_map def
+R2722:2742 VST.floyd.fieldlist <> in_members_field_type thm
+R2722:2742 VST.floyd.fieldlist <> in_members_field_type thm
+prf 2769:2786 <> nested_pred_Tarray
+R2812:2815 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2816:2819 Coq.Init.Datatypes <> bool ind
+R2808:2811 compcert.cfrontend.Ctypes <> type ind
+binder 2797:2805 <> atom_pred:37
+binder 2822:2822 <> t:38
+binder 2824:2824 <> n:39
+binder 2826:2826 <> a:40
+R2874:2877 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2901:2903 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2878:2888 VST.floyd.nested_pred_lemmas <> nested_pred def
+R2900:2900 VST.floyd.nested_pred_lemmas <> t:38 var
+R2890:2898 VST.floyd.nested_pred_lemmas <> atom_pred:37 var
+R2904:2907 Coq.Init.Datatypes <> true constr
+R2867:2869 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2831:2841 VST.floyd.nested_pred_lemmas <> nested_pred def
+R2854:2859 compcert.cfrontend.Ctypes <> Tarray constr
+R2865:2865 VST.floyd.nested_pred_lemmas <> a:40 var
+R2863:2863 VST.floyd.nested_pred_lemmas <> n:39 var
+R2861:2861 VST.floyd.nested_pred_lemmas <> t:38 var
+R2843:2851 VST.floyd.nested_pred_lemmas <> atom_pred:37 var
+R2870:2873 Coq.Init.Datatypes <> true constr
+R2937:2950 VST.floyd.nested_pred_lemmas <> nested_pred_eq thm
+R2937:2950 VST.floyd.nested_pred_lemmas <> nested_pred_eq thm
+R2937:2950 VST.floyd.nested_pred_lemmas <> nested_pred_eq thm
+R2974:2986 Coq.Bool.Bool <> andb_true_iff thm
+R2974:2986 Coq.Bool.Bool <> andb_true_iff thm
+prf 3019:3037 <> nested_pred_Tstruct
+R3063:3066 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3067:3070 Coq.Init.Datatypes <> bool ind
+R3059:3062 compcert.cfrontend.Ctypes <> type ind
+binder 3048:3056 <> atom_pred:41
+binder 3073:3074 <> id:42
+binder 3076:3076 <> a:43
+R3124:3127 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3181:3183 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3128:3145 VST.floyd.nested_pred_lemmas <> nested_fields_pred def
+R3158:3167 compcert.cfrontend.Ctypes <> co_members proj
+R3170:3175 VST.floyd.base <> get_co def
+R3177:3178 VST.floyd.nested_pred_lemmas <> id:42 var
+R3147:3155 VST.floyd.nested_pred_lemmas <> atom_pred:41 var
+R3184:3187 Coq.Init.Datatypes <> true constr
+R3117:3119 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3081:3091 VST.floyd.nested_pred_lemmas <> nested_pred def
+R3104:3110 compcert.cfrontend.Ctypes <> Tstruct constr
+R3115:3115 VST.floyd.nested_pred_lemmas <> a:43 var
+R3112:3113 VST.floyd.nested_pred_lemmas <> id:42 var
+R3093:3101 VST.floyd.nested_pred_lemmas <> atom_pred:41 var
+R3120:3123 Coq.Init.Datatypes <> true constr
+R3217:3230 VST.floyd.nested_pred_lemmas <> nested_pred_eq thm
+R3217:3230 VST.floyd.nested_pred_lemmas <> nested_pred_eq thm
+R3217:3230 VST.floyd.nested_pred_lemmas <> nested_pred_eq thm
+R3254:3266 Coq.Bool.Bool <> andb_true_iff thm
+R3254:3266 Coq.Bool.Bool <> andb_true_iff thm
+prf 3297:3316 <> nested_pred_Tstruct2
+R3342:3345 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3346:3349 Coq.Init.Datatypes <> bool ind
+R3338:3341 compcert.cfrontend.Ctypes <> type ind
+binder 3327:3335 <> atom_pred:44
+binder 3352:3353 <> id:45
+binder 3355:3355 <> a:46
+binder 3357:3357 <> i:47
+R3405:3410 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3448:3453 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3515:3517 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3454:3464 VST.floyd.nested_pred_lemmas <> nested_pred def
+R3477:3486 VST.floyd.fieldlist <> field_type def
+R3491:3500 compcert.cfrontend.Ctypes <> co_members proj
+R3503:3508 VST.floyd.base <> get_co def
+R3510:3511 VST.floyd.nested_pred_lemmas <> id:45 var
+R3488:3488 VST.floyd.nested_pred_lemmas <> i:47 var
+R3466:3474 VST.floyd.nested_pred_lemmas <> atom_pred:44 var
+R3518:3521 Coq.Init.Datatypes <> true constr
+R3411:3420 VST.veric.mpred <> in_members def
+R3425:3434 compcert.cfrontend.Ctypes <> co_members proj
+R3437:3442 VST.floyd.base <> get_co def
+R3444:3445 VST.floyd.nested_pred_lemmas <> id:45 var
+R3422:3422 VST.floyd.nested_pred_lemmas <> i:47 var
+R3398:3400 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3362:3372 VST.floyd.nested_pred_lemmas <> nested_pred def
+R3385:3391 compcert.cfrontend.Ctypes <> Tstruct constr
+R3396:3396 VST.floyd.nested_pred_lemmas <> a:46 var
+R3393:3394 VST.floyd.nested_pred_lemmas <> id:45 var
+R3374:3382 VST.floyd.nested_pred_lemmas <> atom_pred:44 var
+R3401:3404 Coq.Init.Datatypes <> true constr
+R3549:3567 VST.floyd.nested_pred_lemmas <> nested_pred_Tstruct thm
+R3549:3567 VST.floyd.nested_pred_lemmas <> nested_pred_Tstruct thm
+R3583:3612 VST.floyd.nested_pred_lemmas <> nested_fields_pred_nested_pred thm
+R3583:3612 VST.floyd.nested_pred_lemmas <> nested_fields_pred_nested_pred thm
+prf 3633:3650 <> nested_pred_Tunion
+R3676:3679 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3680:3683 Coq.Init.Datatypes <> bool ind
+R3672:3675 compcert.cfrontend.Ctypes <> type ind
+binder 3661:3669 <> atom_pred:48
+binder 3686:3687 <> id:49
+binder 3689:3689 <> a:50
+R3736:3739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3793:3795 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3740:3757 VST.floyd.nested_pred_lemmas <> nested_fields_pred def
+R3770:3779 compcert.cfrontend.Ctypes <> co_members proj
+R3782:3787 VST.floyd.base <> get_co def
+R3789:3790 VST.floyd.nested_pred_lemmas <> id:49 var
+R3759:3767 VST.floyd.nested_pred_lemmas <> atom_pred:48 var
+R3796:3799 Coq.Init.Datatypes <> true constr
+R3729:3731 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3694:3704 VST.floyd.nested_pred_lemmas <> nested_pred def
+R3717:3722 compcert.cfrontend.Ctypes <> Tunion constr
+R3727:3727 VST.floyd.nested_pred_lemmas <> a:50 var
+R3724:3725 VST.floyd.nested_pred_lemmas <> id:49 var
+R3706:3714 VST.floyd.nested_pred_lemmas <> atom_pred:48 var
+R3732:3735 Coq.Init.Datatypes <> true constr
+R3829:3842 VST.floyd.nested_pred_lemmas <> nested_pred_eq thm
+R3829:3842 VST.floyd.nested_pred_lemmas <> nested_pred_eq thm
+R3829:3842 VST.floyd.nested_pred_lemmas <> nested_pred_eq thm
+R3866:3878 Coq.Bool.Bool <> andb_true_iff thm
+R3866:3878 Coq.Bool.Bool <> andb_true_iff thm
+prf 3909:3927 <> nested_pred_Tunion2
+R3953:3956 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3957:3960 Coq.Init.Datatypes <> bool ind
+R3949:3952 compcert.cfrontend.Ctypes <> type ind
+binder 3938:3946 <> atom_pred:51
+binder 3963:3964 <> id:52
+binder 3966:3966 <> a:53
+binder 3968:3968 <> i:54
+R4015:4020 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4058:4063 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4125:4127 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4064:4074 VST.floyd.nested_pred_lemmas <> nested_pred def
+R4087:4096 VST.floyd.fieldlist <> field_type def
+R4101:4110 compcert.cfrontend.Ctypes <> co_members proj
+R4113:4118 VST.floyd.base <> get_co def
+R4120:4121 VST.floyd.nested_pred_lemmas <> id:52 var
+R4098:4098 VST.floyd.nested_pred_lemmas <> i:54 var
+R4076:4084 VST.floyd.nested_pred_lemmas <> atom_pred:51 var
+R4128:4131 Coq.Init.Datatypes <> true constr
+R4021:4030 VST.veric.mpred <> in_members def
+R4035:4044 compcert.cfrontend.Ctypes <> co_members proj
+R4047:4052 VST.floyd.base <> get_co def
+R4054:4055 VST.floyd.nested_pred_lemmas <> id:52 var
+R4032:4032 VST.floyd.nested_pred_lemmas <> i:54 var
+R4008:4010 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3973:3983 VST.floyd.nested_pred_lemmas <> nested_pred def
+R3996:4001 compcert.cfrontend.Ctypes <> Tunion constr
+R4006:4006 VST.floyd.nested_pred_lemmas <> a:53 var
+R4003:4004 VST.floyd.nested_pred_lemmas <> id:52 var
+R3985:3993 VST.floyd.nested_pred_lemmas <> atom_pred:51 var
+R4011:4014 Coq.Init.Datatypes <> true constr
+R4159:4176 VST.floyd.nested_pred_lemmas <> nested_pred_Tunion thm
+R4159:4176 VST.floyd.nested_pred_lemmas <> nested_pred_Tunion thm
+R4192:4221 VST.floyd.nested_pred_lemmas <> nested_fields_pred_nested_pred thm
+R4192:4221 VST.floyd.nested_pred_lemmas <> nested_fields_pred_nested_pred thm
+prf 4242:4273 <> complete_legal_cosu_type_Tstruct
+binder 4283:4284 <> id:55
+binder 4286:4286 <> a:56
+R4337:4342 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4360:4362 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4343:4347 compcert.cfrontend.Ctypes <> co_su proj
+R4350:4355 VST.floyd.base <> get_co def
+R4357:4358 VST.floyd.nested_pred_lemmas <> id:55 var
+R4363:4368 compcert.cfrontend.Ctypes <> Struct constr
+R4330:4332 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4291:4314 VST.veric.composite_compute <> complete_legal_cosu_type def
+R4317:4323 compcert.cfrontend.Ctypes <> Tstruct constr
+R4328:4328 VST.floyd.nested_pred_lemmas <> a:56 var
+R4325:4326 VST.floyd.nested_pred_lemmas <> id:55 var
+R4333:4336 Coq.Init.Datatypes <> true constr
+R4411:4416 VST.floyd.base <> get_co def
+R4438:4440 compcert.lib.Maps <> :::x_'!'_x not
+R4431:4437 VST.veric.mpred <> cenv_cs meth
+R4438:4440 compcert.lib.Maps <> :::x_'!'_x not
+R4431:4437 VST.veric.mpred <> cenv_cs meth
+R4464:4468 compcert.cfrontend.Ctypes <> co_su proj
+R4464:4468 compcert.cfrontend.Ctypes <> co_su proj
+prf 4498:4528 <> complete_legal_cosu_type_Tunion
+binder 4538:4539 <> id:57
+binder 4541:4541 <> a:58
+R4591:4596 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4614:4616 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4597:4601 compcert.cfrontend.Ctypes <> co_su proj
+R4604:4609 VST.floyd.base <> get_co def
+R4611:4612 VST.floyd.nested_pred_lemmas <> id:57 var
+R4617:4621 compcert.cfrontend.Ctypes <> Union constr
+R4584:4586 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4546:4569 VST.veric.composite_compute <> complete_legal_cosu_type def
+R4572:4577 compcert.cfrontend.Ctypes <> Tunion constr
+R4582:4582 VST.floyd.nested_pred_lemmas <> a:58 var
+R4579:4580 VST.floyd.nested_pred_lemmas <> id:57 var
+R4587:4590 Coq.Init.Datatypes <> true constr
+R4664:4669 VST.floyd.base <> get_co def
+R4691:4693 compcert.lib.Maps <> :::x_'!'_x not
+R4684:4690 VST.veric.mpred <> cenv_cs meth
+R4691:4693 compcert.lib.Maps <> :::x_'!'_x not
+R4684:4690 VST.veric.mpred <> cenv_cs meth
+R4733:4737 compcert.cfrontend.Ctypes <> co_su proj
+R4733:4737 compcert.cfrontend.Ctypes <> co_su proj
+prf 4767:4781 <> Tarray_sizeof_0
+binder 4791:4791 <> t:59
+binder 4793:4793 <> n:60
+binder 4795:4795 <> a:61
+R4825:4830 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4843:4846 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4839:4841 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4831:4836 VST.veric.expr <> sizeof def
+R4838:4838 VST.floyd.nested_pred_lemmas <> t:59 var
+R4848:4851 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4847:4847 VST.floyd.nested_pred_lemmas <> n:60 var
+R4821:4823 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4800:4805 VST.veric.expr <> sizeof def
+R4808:4813 compcert.cfrontend.Ctypes <> Tarray constr
+R4819:4819 VST.floyd.nested_pred_lemmas <> a:61 var
+R4817:4817 VST.floyd.nested_pred_lemmas <> n:60 var
+R4815:4815 VST.floyd.nested_pred_lemmas <> t:59 var
+R4894:4903 Coq.ZArith.BinInt Z eq_mul_0 thm
+R4894:4903 Coq.ZArith.BinInt Z eq_mul_0 thm
+R4952:4954 compcert.lib.Coqlib <> zlt def
+R4952:4954 compcert.lib.Coqlib <> zlt def
+R4981:4987 Coq.ZArith.BinInt Z max_r thm
+R4981:4987 Coq.ZArith.BinInt Z max_r thm
+R4981:4987 Coq.ZArith.BinInt Z max_r thm
+prf 5021:5036 <> Tstruct_sizeof_0
+binder 5046:5047 <> id:62
+binder 5049:5049 <> a:63
+R5100:5105 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5131:5136 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 5144:5144 <> i:64
+R5184:5189 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5240:5245 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5236:5238 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5190:5195 VST.veric.expr <> sizeof def
+R5198:5207 VST.floyd.fieldlist <> field_type def
+R5212:5221 compcert.cfrontend.Ctypes <> co_members proj
+R5224:5229 VST.floyd.base <> get_co def
+R5231:5232 VST.floyd.nested_pred_lemmas <> id:62 var
+R5209:5209 VST.floyd.nested_pred_lemmas <> i:64 var
+R5432:5434 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5322:5328 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5431:5431 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5246:5262 VST.floyd.fieldlist <> field_offset_next def
+R5300:5308 compcert.cfrontend.Ctypes <> co_sizeof proj
+R5311:5316 VST.floyd.base <> get_co def
+R5318:5319 VST.floyd.nested_pred_lemmas <> id:62 var
+R5275:5284 compcert.cfrontend.Ctypes <> co_members proj
+R5287:5292 VST.floyd.base <> get_co def
+R5294:5295 VST.floyd.nested_pred_lemmas <> id:62 var
+R5272:5272 VST.floyd.nested_pred_lemmas <> i:64 var
+R5264:5270 VST.veric.mpred <> cenv_cs meth
+R5376:5384 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5329:5340 VST.floyd.fieldlist <> field_offset def
+R5353:5362 compcert.cfrontend.Ctypes <> co_members proj
+R5365:5370 VST.floyd.base <> get_co def
+R5372:5373 VST.floyd.nested_pred_lemmas <> id:62 var
+R5350:5350 VST.floyd.nested_pred_lemmas <> i:64 var
+R5342:5348 VST.veric.mpred <> cenv_cs meth
+R5385:5390 VST.veric.expr <> sizeof def
+R5393:5402 VST.floyd.fieldlist <> field_type def
+R5407:5416 compcert.cfrontend.Ctypes <> co_members proj
+R5419:5424 VST.floyd.base <> get_co def
+R5426:5427 VST.floyd.nested_pred_lemmas <> id:62 var
+R5404:5404 VST.floyd.nested_pred_lemmas <> i:64 var
+R5147:5156 VST.veric.mpred <> in_members def
+R5161:5170 compcert.cfrontend.Ctypes <> co_members proj
+R5173:5178 VST.floyd.base <> get_co def
+R5180:5181 VST.floyd.nested_pred_lemmas <> id:62 var
+R5158:5158 VST.floyd.nested_pred_lemmas <> i:64 var
+R5127:5129 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5106:5111 VST.veric.expr <> sizeof def
+R5114:5120 compcert.cfrontend.Ctypes <> Tstruct constr
+R5125:5125 VST.floyd.nested_pred_lemmas <> a:63 var
+R5122:5123 VST.floyd.nested_pred_lemmas <> id:62 var
+R5093:5095 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5054:5077 VST.veric.composite_compute <> complete_legal_cosu_type def
+R5080:5086 compcert.cfrontend.Ctypes <> Tstruct constr
+R5091:5091 VST.floyd.nested_pred_lemmas <> a:63 var
+R5088:5089 VST.floyd.nested_pred_lemmas <> id:62 var
+R5096:5099 Coq.Init.Datatypes <> true constr
+R5466:5479 VST.floyd.base <> sizeof_Tstruct thm
+R5466:5479 VST.floyd.base <> sizeof_Tstruct thm
+R5466:5479 VST.floyd.base <> sizeof_Tstruct thm
+R5510:5524 VST.floyd.fieldlist <> sizeof_struct_0 thm
+R5510:5524 VST.floyd.fieldlist <> sizeof_struct_0 thm
+R5546:5565 compcert.cfrontend.Ctypes <> co_consistent_sizeof proj
+R5588:5604 VST.floyd.base <> get_co_consistent thm
+R5576:5581 VST.floyd.base <> get_co def
+R5567:5573 VST.veric.mpred <> cenv_cs meth
+R5546:5565 compcert.cfrontend.Ctypes <> co_consistent_sizeof proj
+R5588:5604 VST.floyd.base <> get_co_consistent thm
+R5576:5581 VST.floyd.base <> get_co def
+R5567:5573 VST.veric.mpred <> cenv_cs meth
+R5622:5653 VST.floyd.nested_pred_lemmas <> complete_legal_cosu_type_Tstruct thm
+R5622:5653 VST.floyd.nested_pred_lemmas <> complete_legal_cosu_type_Tstruct thm
+R5622:5653 VST.floyd.nested_pred_lemmas <> complete_legal_cosu_type_Tstruct thm
+R5699:5706 compcert.lib.Coqlib <> align_le thm
+R5790:5803 VST.floyd.base <> co_alignof_pos thm
+R5765:5774 compcert.cfrontend.Ctypes <> co_alignof proj
+R5777:5782 VST.floyd.base <> get_co def
+R5709:5721 compcert.cfrontend.Ctypes <> sizeof_struct def
+R5734:5743 compcert.cfrontend.Ctypes <> co_members proj
+R5746:5751 VST.floyd.base <> get_co def
+R5723:5729 VST.veric.mpred <> cenv_cs meth
+R5699:5706 compcert.lib.Coqlib <> align_le thm
+R5790:5803 VST.floyd.base <> co_alignof_pos thm
+R5765:5774 compcert.cfrontend.Ctypes <> co_alignof proj
+R5777:5782 VST.floyd.base <> get_co def
+R5709:5721 compcert.cfrontend.Ctypes <> sizeof_struct def
+R5734:5743 compcert.cfrontend.Ctypes <> co_members proj
+R5746:5751 VST.floyd.base <> get_co def
+R5723:5729 VST.veric.mpred <> cenv_cs meth
+R5822:5839 compcert.cfrontend.Ctypes <> sizeof_struct_incr thm
+R5850:5859 compcert.cfrontend.Ctypes <> co_members proj
+R5862:5867 VST.floyd.base <> get_co def
+R5841:5847 VST.veric.mpred <> cenv_cs meth
+R5822:5839 compcert.cfrontend.Ctypes <> sizeof_struct_incr thm
+R5850:5859 compcert.cfrontend.Ctypes <> co_members proj
+R5862:5867 VST.floyd.base <> get_co def
+R5841:5847 VST.veric.mpred <> cenv_cs meth
+prf 5896:5910 <> Tunion_sizeof_0
+binder 5920:5921 <> id:65
+binder 5923:5923 <> a:66
+R5973:5978 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6003:6008 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 6016:6016 <> i:67
+R6056:6061 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6108:6110 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6062:6067 VST.veric.expr <> sizeof def
+R6070:6079 VST.floyd.fieldlist <> field_type def
+R6084:6093 compcert.cfrontend.Ctypes <> co_members proj
+R6096:6101 VST.floyd.base <> get_co def
+R6103:6104 VST.floyd.nested_pred_lemmas <> id:65 var
+R6081:6081 VST.floyd.nested_pred_lemmas <> i:67 var
+R6019:6028 VST.veric.mpred <> in_members def
+R6033:6042 compcert.cfrontend.Ctypes <> co_members proj
+R6045:6050 VST.floyd.base <> get_co def
+R6052:6053 VST.floyd.nested_pred_lemmas <> id:65 var
+R6030:6030 VST.floyd.nested_pred_lemmas <> i:67 var
+R5999:6001 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5979:5984 VST.veric.expr <> sizeof def
+R5987:5992 compcert.cfrontend.Ctypes <> Tunion constr
+R5997:5997 VST.floyd.nested_pred_lemmas <> a:66 var
+R5994:5995 VST.floyd.nested_pred_lemmas <> id:65 var
+R5966:5968 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5928:5951 VST.veric.composite_compute <> complete_legal_cosu_type def
+R5954:5959 compcert.cfrontend.Ctypes <> Tunion constr
+R5964:5964 VST.floyd.nested_pred_lemmas <> a:66 var
+R5961:5962 VST.floyd.nested_pred_lemmas <> id:65 var
+R5969:5972 Coq.Init.Datatypes <> true constr
+R6141:6153 VST.floyd.base <> sizeof_Tunion thm
+R6141:6153 VST.floyd.base <> sizeof_Tunion thm
+R6141:6153 VST.floyd.base <> sizeof_Tunion thm
+R6170:6183 VST.floyd.fieldlist <> sizeof_union_0 thm
+R6170:6183 VST.floyd.fieldlist <> sizeof_union_0 thm
+R6205:6224 compcert.cfrontend.Ctypes <> co_consistent_sizeof proj
+R6247:6263 VST.floyd.base <> get_co_consistent thm
+R6235:6240 VST.floyd.base <> get_co def
+R6226:6232 VST.veric.mpred <> cenv_cs meth
+R6205:6224 compcert.cfrontend.Ctypes <> co_consistent_sizeof proj
+R6247:6263 VST.floyd.base <> get_co_consistent thm
+R6235:6240 VST.floyd.base <> get_co def
+R6226:6232 VST.veric.mpred <> cenv_cs meth
+R6281:6311 VST.floyd.nested_pred_lemmas <> complete_legal_cosu_type_Tunion thm
+R6281:6311 VST.floyd.nested_pred_lemmas <> complete_legal_cosu_type_Tunion thm
+R6281:6311 VST.floyd.nested_pred_lemmas <> complete_legal_cosu_type_Tunion thm
+R6357:6364 compcert.lib.Coqlib <> align_le thm
+R6445:6458 VST.floyd.base <> co_alignof_pos thm
+R6420:6429 compcert.cfrontend.Ctypes <> co_alignof proj
+R6432:6437 VST.floyd.base <> get_co def
+R6367:6378 compcert.cfrontend.Ctypes <> sizeof_union def
+R6389:6398 compcert.cfrontend.Ctypes <> co_members proj
+R6401:6406 VST.floyd.base <> get_co def
+R6380:6386 VST.veric.mpred <> cenv_cs meth
+R6357:6364 compcert.lib.Coqlib <> align_le thm
+R6445:6458 VST.floyd.base <> co_alignof_pos thm
+R6420:6429 compcert.cfrontend.Ctypes <> co_alignof proj
+R6432:6437 VST.floyd.base <> get_co def
+R6367:6378 compcert.cfrontend.Ctypes <> sizeof_union def
+R6389:6398 compcert.cfrontend.Ctypes <> co_members proj
+R6401:6406 VST.floyd.base <> get_co def
+R6380:6386 VST.veric.mpred <> cenv_cs meth
+R6477:6492 compcert.cfrontend.Ctypes <> sizeof_union_pos thm
+R6503:6512 compcert.cfrontend.Ctypes <> co_members proj
+R6515:6520 VST.floyd.base <> get_co def
+R6494:6500 VST.veric.mpred <> cenv_cs meth
+R6477:6492 compcert.cfrontend.Ctypes <> sizeof_union_pos thm
+R6503:6512 compcert.cfrontend.Ctypes <> co_members proj
+R6515:6520 VST.floyd.base <> get_co def
+R6494:6500 VST.veric.mpred <> cenv_cs meth
+R6545:6555 VST.floyd.nested_pred_lemmas NESTED_PRED <> sec
+R6772:6779 Coq.ZArith.BinInt Z mod_le thm
+R6783:6796 compcert.lib.Integers Ptrofs modulus def
+R6834:6851 compcert.lib.Integers Ptrofs modulus_pos thm
+R6915:6917 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6915:6917 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7048:7053 Coq.ZArith.BinInt Z succ def
+R7048:7053 Coq.ZArith.BinInt Z succ def
+R7248:7250 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R7248:7250 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R7271:7287 Coq.ZArith.BinInt Z mul_sub_distr_l thm
+R7111:7127 Coq.ZArith.BinInt Z mul_add_distr_l thm
+R7168:7170 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7180:7185 Coq.ZArith.BinInt Z succ def
+R6938:6954 Coq.ZArith.BinInt Z mul_add_distr_l thm
+R7452:7454 Coq.Init.Datatypes <> nil constr
+R7452:7454 Coq.Init.Datatypes <> nil constr
+R7471:7474 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7471:7474 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7506:7508 Coq.Init.Datatypes <> nil constr
+R7506:7508 Coq.Init.Datatypes <> nil constr
+R7557:7560 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7557:7560 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7585:7590 VST.veric.expr <> sizeof def
+R7645:7648 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R7641:7643 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7629:7634 VST.veric.expr <> sizeof def
+R7662:7664 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7650:7655 VST.veric.expr <> sizeof def
+R7705:7714 VST.floyd.base <> sizeof_pos thm
+R7729:7745 Coq.ZArith.Zorder <> Zmult_le_compat_l thm
+R7532:7537 VST.veric.expr <> sizeof def
+R7886:7894 Coq.ZArith.BinInt Z mul_0_r thm
+R7917:7925 Coq.ZArith.BinInt Z mul_1_r thm
+def 7945:7957 <> align_alignof
+binder 7959:7959 <> a:68
+binder 7961:7961 <> b:69
+R7966:7970 compcert.lib.Coqlib <> align def
+R7974:7974 VST.floyd.nested_pred_lemmas <> b:69 var
+R7972:7972 VST.floyd.nested_pred_lemmas <> a:68 var
+def 7989:8004 <> sizeof_struct_le
+R8009:8021 compcert.cfrontend.Ctypes <> sizeof_struct def
+R8090:8094 compcert.lib.Coqlib <> align def
+R8101:8107 VST.veric.expr <> alignof def
+R8090:8094 compcert.lib.Coqlib <> align def
+R8101:8107 VST.veric.expr <> alignof def
+R8304:8308 compcert.lib.Coqlib <> align def
+R8314:8323 compcert.cfrontend.Ctypes <> co_alignof proj
+R8304:8308 compcert.lib.Coqlib <> align def
+R8314:8323 compcert.cfrontend.Ctypes <> co_alignof proj
+R8619:8631 compcert.cfrontend.Ctypes <> sizeof_struct def
+R8619:8631 compcert.cfrontend.Ctypes <> sizeof_struct def
+R8668:8685 compcert.cfrontend.Ctypes <> sizeof_struct_incr thm
+R8713:8725 compcert.cfrontend.Ctypes <> sizeof_struct def
+R8713:8725 compcert.cfrontend.Ctypes <> sizeof_struct def
+R8742:8757 VST.floyd.nested_pred_lemmas <> sizeof_struct_le def
+R8383:8386 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R8387:8391 compcert.lib.Coqlib <> align def
+R8396:8405 compcert.cfrontend.Ctypes <> co_alignof proj
+R8422:8429 compcert.lib.Coqlib <> align_le thm
+R8442:8457 compcert.cfrontend.Ctypes <> co_alignof_two_p proj
+R8495:8511 compcert.lib.Coqlib <> two_power_nat_pos thm
+R8539:8543 compcert.lib.Coqlib <> align def
+R8548:8557 compcert.cfrontend.Ctypes <> co_alignof proj
+R8539:8543 compcert.lib.Coqlib <> align def
+R8548:8557 compcert.cfrontend.Ctypes <> co_alignof proj
+R8570:8582 VST.floyd.nested_pred_lemmas <> align_alignof def
+R8587:8596 compcert.cfrontend.Ctypes <> co_alignof proj
+R8140:8143 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R8144:8148 compcert.lib.Coqlib <> align def
+R8154:8160 VST.veric.expr <> alignof def
+R8180:8187 compcert.lib.Coqlib <> align_le thm
+R8191:8201 VST.floyd.base <> alignof_pos thm
+R8222:8226 compcert.lib.Coqlib <> align def
+R8232:8238 VST.veric.expr <> alignof def
+R8222:8226 compcert.lib.Coqlib <> align def
+R8232:8238 VST.veric.expr <> alignof def
+R8254:8266 VST.floyd.nested_pred_lemmas <> align_alignof def
+R8272:8278 VST.veric.expr <> alignof def
+R8788:8800 VST.floyd.nested_pred_lemmas <> align_alignof def
+R8821:8836 VST.floyd.nested_pred_lemmas <> sizeof_struct_le def
+def 8856:8862 <> sizeofp
+R8868:8873 VST.veric.expr <> sizeof def
+R8945:8950 VST.veric.expr <> sizeof def
+R8945:8950 VST.veric.expr <> sizeof def
+R8985:8994 VST.floyd.base <> sizeof_pos thm
+R9021:9026 VST.veric.expr <> sizeof def
+R9021:9026 VST.veric.expr <> sizeof def
+R9041:9047 VST.floyd.nested_pred_lemmas <> sizeofp def
+R9072:9078 VST.floyd.nested_pred_lemmas <> sizeofp def
+R9131:9137 compcert.cfrontend.Ctypes <> Tstruct constr
+R9131:9137 compcert.cfrontend.Ctypes <> Tstruct constr
+R9484:9489 compcert.cfrontend.Ctypes <> Tunion constr
+R9484:9489 compcert.cfrontend.Ctypes <> Tunion constr
+R9516:9528 VST.floyd.base <> sizeof_Tunion thm
+R9593:9596 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R9548:9559 compcert.cfrontend.Ctypes <> sizeof_union def
+R9570:9579 compcert.cfrontend.Ctypes <> co_members proj
+R9582:9587 VST.floyd.base <> get_co def
+R9561:9567 VST.veric.mpred <> cenv_cs meth
+R9597:9605 compcert.cfrontend.Ctypes <> co_sizeof proj
+R9608:9613 VST.floyd.base <> get_co def
+R9690:9706 VST.floyd.base <> get_co_consistent thm
+R9671:9677 VST.veric.mpred <> cenv_cs meth
+R9637:9656 compcert.cfrontend.Ctypes <> co_consistent_sizeof proj
+R9724:9754 VST.floyd.nested_pred_lemmas <> complete_legal_cosu_type_Tunion thm
+R9792:9799 compcert.lib.Coqlib <> align_le thm
+R9802:9815 VST.floyd.base <> co_alignof_pos thm
+R9164:9177 VST.floyd.base <> sizeof_Tstruct thm
+R9245:9248 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R9197:9209 compcert.cfrontend.Ctypes <> sizeof_struct def
+R9222:9231 compcert.cfrontend.Ctypes <> co_members proj
+R9234:9239 VST.floyd.base <> get_co def
+R9211:9217 VST.veric.mpred <> cenv_cs meth
+R9249:9257 compcert.cfrontend.Ctypes <> co_sizeof proj
+R9260:9265 VST.floyd.base <> get_co def
+R9342:9358 VST.floyd.base <> get_co_consistent thm
+R9323:9329 VST.veric.mpred <> cenv_cs meth
+R9289:9308 compcert.cfrontend.Ctypes <> co_consistent_sizeof proj
+R9376:9407 VST.floyd.nested_pred_lemmas <> complete_legal_cosu_type_Tstruct thm
+R9445:9452 compcert.lib.Coqlib <> align_le thm
+R9455:9468 VST.floyd.base <> co_alignof_pos thm
+R9921:9923 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9880:9903 VST.veric.composite_compute <> complete_legal_cosu_type def
+R9906:9912 compcert.cfrontend.Ctypes <> Tstruct constr
+R9924:9927 Coq.Init.Datatypes <> true constr
+R9921:9923 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9880:9903 VST.veric.composite_compute <> complete_legal_cosu_type def
+R9906:9912 compcert.cfrontend.Ctypes <> Tstruct constr
+R9924:9927 Coq.Init.Datatypes <> true constr
+R9946:9951 VST.veric.expr <> sizeof def
+R9958:9967 VST.floyd.fieldlist <> field_type def
+R9973:9982 compcert.cfrontend.Ctypes <> co_members proj
+R9985:9990 VST.floyd.base <> get_co def
+R9946:9951 VST.veric.expr <> sizeof def
+R9958:9967 VST.floyd.fieldlist <> field_type def
+R9973:9982 compcert.cfrontend.Ctypes <> co_members proj
+R9985:9990 VST.floyd.base <> get_co def
+R10292:10294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10252:10275 VST.veric.composite_compute <> complete_legal_cosu_type def
+R10278:10283 compcert.cfrontend.Ctypes <> Tunion constr
+R10295:10298 Coq.Init.Datatypes <> true constr
+R10292:10294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10252:10275 VST.veric.composite_compute <> complete_legal_cosu_type def
+R10278:10283 compcert.cfrontend.Ctypes <> Tunion constr
+R10295:10298 Coq.Init.Datatypes <> true constr
+R10317:10322 VST.veric.expr <> sizeof def
+R10329:10338 VST.floyd.fieldlist <> field_type def
+R10344:10353 compcert.cfrontend.Ctypes <> co_members proj
+R10356:10361 VST.floyd.base <> get_co def
+R10317:10322 VST.veric.expr <> sizeof def
+R10329:10338 VST.floyd.fieldlist <> field_type def
+R10344:10353 compcert.cfrontend.Ctypes <> co_members proj
+R10356:10361 VST.floyd.base <> get_co def
+R10396:10401 compcert.cfrontend.Ctypes <> Tunion constr
+R10455:10477 VST.floyd.fieldlist <> sizeof_union_in_members thm
+R10482:10491 compcert.cfrontend.Ctypes <> co_members proj
+R10494:10499 VST.floyd.base <> get_co def
+R10562:10571 VST.floyd.base <> sizeof_pos thm
+R10577:10586 VST.floyd.fieldlist <> field_type def
+R10591:10600 compcert.cfrontend.Ctypes <> co_members proj
+R10603:10608 VST.floyd.base <> get_co def
+R10025:10031 compcert.cfrontend.Ctypes <> Tstruct constr
+R10085:10105 VST.floyd.fieldlist <> field_offset_in_range thm
+R10110:10119 compcert.cfrontend.Ctypes <> co_members proj
+R10122:10127 VST.floyd.base <> get_co def
+R10190:10199 VST.floyd.base <> sizeof_pos thm
+R10205:10214 VST.floyd.fieldlist <> field_type def
+R10219:10228 compcert.cfrontend.Ctypes <> co_members proj
+R10231:10236 VST.floyd.base <> get_co def
+R10705:10707 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10664:10687 VST.veric.composite_compute <> complete_legal_cosu_type def
+R10690:10696 compcert.cfrontend.Ctypes <> Tstruct constr
+R10708:10711 Coq.Init.Datatypes <> true constr
+R10705:10707 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10664:10687 VST.veric.composite_compute <> complete_legal_cosu_type def
+R10690:10696 compcert.cfrontend.Ctypes <> Tstruct constr
+R10708:10711 Coq.Init.Datatypes <> true constr
+R10729:10745 VST.floyd.fieldlist <> field_offset_next def
+R10785:10793 compcert.cfrontend.Ctypes <> co_sizeof proj
+R10796:10801 VST.floyd.base <> get_co def
+R10759:10768 compcert.cfrontend.Ctypes <> co_members proj
+R10771:10776 VST.floyd.base <> get_co def
+R10747:10753 VST.veric.mpred <> cenv_cs meth
+R10729:10745 VST.floyd.fieldlist <> field_offset_next def
+R10785:10793 compcert.cfrontend.Ctypes <> co_sizeof proj
+R10796:10801 VST.floyd.base <> get_co def
+R10759:10768 compcert.cfrontend.Ctypes <> co_members proj
+R10771:10776 VST.floyd.base <> get_co def
+R10747:10753 VST.veric.mpred <> cenv_cs meth
+R10858:10883 VST.floyd.fieldlist <> field_offset_next_in_range thm
+R10913:10921 compcert.cfrontend.Ctypes <> co_sizeof proj
+R10924:10929 VST.floyd.base <> get_co def
+R10888:10897 compcert.cfrontend.Ctypes <> co_members proj
+R10900:10905 VST.floyd.base <> get_co def
+R11014:11020 compcert.cfrontend.Ctypes <> Tstruct constr

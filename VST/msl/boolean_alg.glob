@@ -1,0 +1,3502 @@
+DIGEST a5000efbf2685ed9a312cac41e1ee7ff
+FVST.msl.boolean_alg
+R778:789 VST.msl.base <> <> lib
+R807:820 VST.msl.eq_dec <> <> lib
+R838:851 VST.msl.sepalg <> <> lib
+R869:881 Coq.Structures.GenericMinMax <> <> lib
+modtype 897:911 <> BOOLEAN_ALGEBRA
+ax 928:928 BOOLEAN_ALGEBRA t
+ax 937:939 BOOLEAN_ALGEBRA Ord
+ax 965:967 BOOLEAN_ALGEBRA top
+ax 969:971 BOOLEAN_ALGEBRA bot
+ax 979:981 BOOLEAN_ALGEBRA lub
+ax 983:985 BOOLEAN_ALGEBRA glb
+ax 1003:1006 BOOLEAN_ALGEBRA comp
+R944:947 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R949:952 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R948:948 VST.msl.boolean_alg <> t:1 var
+R943:943 VST.msl.boolean_alg <> t:1 var
+R975:975 VST.msl.boolean_alg <> t:1 var
+R990:993 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R995:998 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R999:999 VST.msl.boolean_alg <> t:1 var
+R994:994 VST.msl.boolean_alg <> t:1 var
+R989:989 VST.msl.boolean_alg <> t:1 var
+R1011:1014 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1015:1015 VST.msl.boolean_alg <> t:1 var
+R1010:1010 VST.msl.boolean_alg <> t:1 var
+R1107:1109 VST.msl.boolean_alg BOOLEAN_ALGEBRA Ord defax
+not 1094:1094 BOOLEAN_ALGEBRA ::ba:x_'<='_x
+ax 1163:1170 BOOLEAN_ALGEBRA ord_refl
+binder 1181:1181 <> x:8
+R1185:1188 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1184:1184 VST.msl.boolean_alg <> x:8 var
+R1189:1189 VST.msl.boolean_alg <> x:8 var
+ax 1200:1208 BOOLEAN_ALGEBRA ord_trans
+binder 1219:1219 <> x:10
+binder 1221:1221 <> y:11
+binder 1223:1223 <> z:12
+R1232:1235 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1242:1245 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1247:1250 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1246:1246 VST.msl.boolean_alg <> x:10 var
+R1251:1251 VST.msl.boolean_alg <> z:12 var
+R1237:1240 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1236:1236 VST.msl.boolean_alg <> y:11 var
+R1241:1241 VST.msl.boolean_alg <> z:12 var
+R1227:1230 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1226:1226 VST.msl.boolean_alg <> x:10 var
+R1231:1231 VST.msl.boolean_alg <> y:11 var
+ax 1262:1272 BOOLEAN_ALGEBRA ord_antisym
+binder 1283:1283 <> x:14
+binder 1285:1285 <> y:15
+R1294:1297 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1304:1307 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1309:1311 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1308:1308 VST.msl.boolean_alg <> x:14 var
+R1312:1312 VST.msl.boolean_alg <> y:15 var
+R1299:1302 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1298:1298 VST.msl.boolean_alg <> y:15 var
+R1303:1303 VST.msl.boolean_alg <> x:14 var
+R1289:1292 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1288:1288 VST.msl.boolean_alg <> x:14 var
+R1293:1293 VST.msl.boolean_alg <> y:15 var
+ax 1324:1333 BOOLEAN_ALGEBRA lub_upper1
+binder 1344:1344 <> x:17
+binder 1346:1346 <> y:18
+R1350:1354 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1362:1362 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1349:1349 VST.msl.boolean_alg <> x:17 var
+R1355:1357 VST.msl.boolean_alg BOOLEAN_ALGEBRA lub defax
+R1361:1361 VST.msl.boolean_alg <> y:18 var
+R1359:1359 VST.msl.boolean_alg <> x:17 var
+ax 1373:1382 BOOLEAN_ALGEBRA lub_upper2
+binder 1393:1393 <> x:20
+binder 1395:1395 <> y:21
+R1399:1403 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1411:1411 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1398:1398 VST.msl.boolean_alg <> y:21 var
+R1404:1406 VST.msl.boolean_alg BOOLEAN_ALGEBRA lub defax
+R1410:1410 VST.msl.boolean_alg <> y:21 var
+R1408:1408 VST.msl.boolean_alg <> x:20 var
+ax 1422:1430 BOOLEAN_ALGEBRA lub_least
+binder 1441:1441 <> x:23
+binder 1443:1443 <> y:24
+binder 1445:1445 <> z:25
+R1454:1457 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1464:1467 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1468:1468 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1476:1480 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1469:1471 VST.msl.boolean_alg BOOLEAN_ALGEBRA lub defax
+R1475:1475 VST.msl.boolean_alg <> y:24 var
+R1473:1473 VST.msl.boolean_alg <> x:23 var
+R1481:1481 VST.msl.boolean_alg <> z:25 var
+R1459:1462 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1458:1458 VST.msl.boolean_alg <> y:24 var
+R1463:1463 VST.msl.boolean_alg <> z:25 var
+R1449:1452 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1448:1448 VST.msl.boolean_alg <> x:23 var
+R1453:1453 VST.msl.boolean_alg <> z:25 var
+ax 1493:1502 BOOLEAN_ALGEBRA glb_lower1
+binder 1513:1513 <> x:27
+binder 1515:1515 <> y:28
+R1518:1518 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1526:1530 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1519:1521 VST.msl.boolean_alg BOOLEAN_ALGEBRA glb defax
+R1525:1525 VST.msl.boolean_alg <> y:28 var
+R1523:1523 VST.msl.boolean_alg <> x:27 var
+R1531:1531 VST.msl.boolean_alg <> x:27 var
+ax 1542:1551 BOOLEAN_ALGEBRA glb_lower2
+binder 1562:1562 <> x:30
+binder 1564:1564 <> y:31
+R1567:1567 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1575:1579 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1568:1570 VST.msl.boolean_alg BOOLEAN_ALGEBRA glb defax
+R1574:1574 VST.msl.boolean_alg <> y:31 var
+R1572:1572 VST.msl.boolean_alg <> x:30 var
+R1580:1580 VST.msl.boolean_alg <> y:31 var
+ax 1591:1602 BOOLEAN_ALGEBRA glb_greatest
+binder 1613:1613 <> x:33
+binder 1615:1615 <> y:34
+binder 1617:1617 <> z:35
+R1626:1629 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1636:1639 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1641:1645 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1653:1653 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1640:1640 VST.msl.boolean_alg <> z:35 var
+R1646:1648 VST.msl.boolean_alg BOOLEAN_ALGEBRA glb defax
+R1652:1652 VST.msl.boolean_alg <> y:34 var
+R1650:1650 VST.msl.boolean_alg <> x:33 var
+R1631:1634 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1630:1630 VST.msl.boolean_alg <> z:35 var
+R1635:1635 VST.msl.boolean_alg <> y:34 var
+R1621:1624 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1620:1620 VST.msl.boolean_alg <> z:35 var
+R1625:1625 VST.msl.boolean_alg <> x:33 var
+ax 1665:1675 BOOLEAN_ALGEBRA top_correct
+binder 1686:1686 <> x:37
+R1690:1693 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1689:1689 VST.msl.boolean_alg <> x:37 var
+R1694:1696 VST.msl.boolean_alg BOOLEAN_ALGEBRA top defax
+ax 1707:1717 BOOLEAN_ALGEBRA bot_correct
+binder 1728:1728 <> x:39
+R1734:1737 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R1731:1733 VST.msl.boolean_alg BOOLEAN_ALGEBRA bot defax
+R1738:1738 VST.msl.boolean_alg <> x:39 var
+ax 1750:1757 BOOLEAN_ALGEBRA distrib1
+binder 1768:1768 <> x:41
+binder 1770:1770 <> y:42
+binder 1772:1772 <> z:43
+R1790:1792 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1775:1777 VST.msl.boolean_alg BOOLEAN_ALGEBRA glb defax
+R1782:1784 VST.msl.boolean_alg BOOLEAN_ALGEBRA lub defax
+R1788:1788 VST.msl.boolean_alg <> z:43 var
+R1786:1786 VST.msl.boolean_alg <> y:42 var
+R1779:1779 VST.msl.boolean_alg <> x:41 var
+R1793:1795 VST.msl.boolean_alg BOOLEAN_ALGEBRA lub defax
+R1808:1810 VST.msl.boolean_alg BOOLEAN_ALGEBRA glb defax
+R1814:1814 VST.msl.boolean_alg <> z:43 var
+R1812:1812 VST.msl.boolean_alg <> x:41 var
+R1798:1800 VST.msl.boolean_alg BOOLEAN_ALGEBRA glb defax
+R1804:1804 VST.msl.boolean_alg <> y:42 var
+R1802:1802 VST.msl.boolean_alg <> x:41 var
+ax 1827:1831 BOOLEAN_ALGEBRA comp1
+binder 1842:1842 <> x:45
+R1859:1861 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1845:1847 VST.msl.boolean_alg BOOLEAN_ALGEBRA lub defax
+R1852:1855 VST.msl.boolean_alg BOOLEAN_ALGEBRA comp defax
+R1857:1857 VST.msl.boolean_alg <> x:45 var
+R1849:1849 VST.msl.boolean_alg <> x:45 var
+R1862:1864 VST.msl.boolean_alg BOOLEAN_ALGEBRA top defax
+ax 1875:1879 BOOLEAN_ALGEBRA comp2
+binder 1890:1890 <> x:47
+R1907:1909 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1893:1895 VST.msl.boolean_alg BOOLEAN_ALGEBRA glb defax
+R1900:1903 VST.msl.boolean_alg BOOLEAN_ALGEBRA comp defax
+R1905:1905 VST.msl.boolean_alg <> x:47 var
+R1897:1897 VST.msl.boolean_alg <> x:47 var
+R1910:1912 VST.msl.boolean_alg BOOLEAN_ALGEBRA bot defax
+ax 1924:1933 BOOLEAN_ALGEBRA nontrivial
+R1940:1943 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1937:1939 VST.msl.boolean_alg BOOLEAN_ALGEBRA top defax
+R1944:1946 VST.msl.boolean_alg BOOLEAN_ALGEBRA bot defax
+R2115:2129 VST.msl.boolean_alg BOOLEAN_ALGEBRA <> modtype
+modtype 2145:2152 <> BA_FACTS
+R2165:2179 VST.msl.boolean_alg BOOLEAN_ALGEBRA <> mod
+ax 2191:2199 BA_FACTS ord_spec1
+binder 2210:2210 <> x:50
+binder 2212:2212 <> y:51
+R2221:2225 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2216:2219 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R2215:2215 VST.msl.boolean_alg <> x:50 var
+R2220:2220 VST.msl.boolean_alg <> y:51 var
+R2227:2229 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2226:2226 VST.msl.boolean_alg <> x:50 var
+R2230:2232 VST.msl.boolean_alg BA_FACTS glb defax
+R2236:2236 VST.msl.boolean_alg <> y:51 var
+R2234:2234 VST.msl.boolean_alg <> x:50 var
+ax 2247:2255 BA_FACTS ord_spec2
+binder 2266:2266 <> x:53
+binder 2268:2268 <> y:54
+R2277:2281 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2272:2275 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R2271:2271 VST.msl.boolean_alg <> x:53 var
+R2276:2276 VST.msl.boolean_alg <> y:54 var
+R2289:2291 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2282:2284 VST.msl.boolean_alg BA_FACTS lub defax
+R2288:2288 VST.msl.boolean_alg <> y:54 var
+R2286:2286 VST.msl.boolean_alg <> x:53 var
+R2292:2292 VST.msl.boolean_alg <> y:54 var
+ax 2304:2311 BA_FACTS lub_idem
+binder 2322:2322 <> x:56
+R2325:2325 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2333:2336 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2326:2328 VST.msl.boolean_alg BA_FACTS lub defax
+R2332:2332 VST.msl.boolean_alg <> x:56 var
+R2330:2330 VST.msl.boolean_alg <> x:56 var
+R2337:2337 VST.msl.boolean_alg <> x:56 var
+ax 2348:2358 BA_FACTS lub_commute
+binder 2369:2369 <> x:58
+binder 2371:2371 <> y:59
+R2381:2383 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2374:2376 VST.msl.boolean_alg BA_FACTS lub defax
+R2380:2380 VST.msl.boolean_alg <> y:59 var
+R2378:2378 VST.msl.boolean_alg <> x:58 var
+R2384:2386 VST.msl.boolean_alg BA_FACTS lub defax
+R2390:2390 VST.msl.boolean_alg <> x:58 var
+R2388:2388 VST.msl.boolean_alg <> y:59 var
+ax 2401:2407 BA_FACTS lub_bot
+binder 2418:2418 <> x:61
+R2430:2432 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2421:2423 VST.msl.boolean_alg BA_FACTS lub defax
+R2427:2429 VST.msl.boolean_alg BA_FACTS bot defax
+R2425:2425 VST.msl.boolean_alg <> x:61 var
+R2433:2433 VST.msl.boolean_alg <> x:61 var
+ax 2444:2450 BA_FACTS lub_top
+binder 2461:2461 <> x:63
+R2473:2475 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2464:2466 VST.msl.boolean_alg BA_FACTS lub defax
+R2470:2472 VST.msl.boolean_alg BA_FACTS top defax
+R2468:2468 VST.msl.boolean_alg <> x:63 var
+R2476:2478 VST.msl.boolean_alg BA_FACTS top defax
+ax 2489:2498 BA_FACTS lub_absorb
+binder 2509:2509 <> x:65
+binder 2511:2511 <> y:66
+R2529:2531 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2514:2516 VST.msl.boolean_alg BA_FACTS lub defax
+R2521:2523 VST.msl.boolean_alg BA_FACTS glb defax
+R2527:2527 VST.msl.boolean_alg <> y:66 var
+R2525:2525 VST.msl.boolean_alg <> x:65 var
+R2518:2518 VST.msl.boolean_alg <> x:65 var
+R2532:2532 VST.msl.boolean_alg <> x:65 var
+ax 2543:2551 BA_FACTS lub_assoc
+binder 2562:2562 <> x:68
+binder 2564:2564 <> y:69
+binder 2566:2566 <> z:70
+R2584:2586 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2569:2571 VST.msl.boolean_alg BA_FACTS lub defax
+R2583:2583 VST.msl.boolean_alg <> z:70 var
+R2574:2576 VST.msl.boolean_alg BA_FACTS lub defax
+R2580:2580 VST.msl.boolean_alg <> y:69 var
+R2578:2578 VST.msl.boolean_alg <> x:68 var
+R2587:2589 VST.msl.boolean_alg BA_FACTS lub defax
+R2594:2596 VST.msl.boolean_alg BA_FACTS lub defax
+R2600:2600 VST.msl.boolean_alg <> z:70 var
+R2598:2598 VST.msl.boolean_alg <> y:69 var
+R2591:2591 VST.msl.boolean_alg <> x:68 var
+ax 2613:2620 BA_FACTS glb_idem
+binder 2631:2631 <> x:72
+R2641:2643 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2634:2636 VST.msl.boolean_alg BA_FACTS glb defax
+R2640:2640 VST.msl.boolean_alg <> x:72 var
+R2638:2638 VST.msl.boolean_alg <> x:72 var
+R2644:2644 VST.msl.boolean_alg <> x:72 var
+ax 2655:2665 BA_FACTS glb_commute
+binder 2676:2676 <> x:74
+binder 2678:2678 <> y:75
+R2688:2690 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2681:2683 VST.msl.boolean_alg BA_FACTS glb defax
+R2687:2687 VST.msl.boolean_alg <> y:75 var
+R2685:2685 VST.msl.boolean_alg <> x:74 var
+R2691:2693 VST.msl.boolean_alg BA_FACTS glb defax
+R2697:2697 VST.msl.boolean_alg <> x:74 var
+R2695:2695 VST.msl.boolean_alg <> y:75 var
+ax 2708:2714 BA_FACTS glb_bot
+binder 2725:2725 <> x:77
+R2737:2739 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2728:2730 VST.msl.boolean_alg BA_FACTS glb defax
+R2734:2736 VST.msl.boolean_alg BA_FACTS bot defax
+R2732:2732 VST.msl.boolean_alg <> x:77 var
+R2740:2742 VST.msl.boolean_alg BA_FACTS bot defax
+ax 2753:2759 BA_FACTS glb_top
+binder 2770:2770 <> x:79
+R2782:2784 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2773:2775 VST.msl.boolean_alg BA_FACTS glb defax
+R2779:2781 VST.msl.boolean_alg BA_FACTS top defax
+R2777:2777 VST.msl.boolean_alg <> x:79 var
+R2785:2785 VST.msl.boolean_alg <> x:79 var
+ax 2796:2805 BA_FACTS glb_absorb
+binder 2816:2816 <> x:81
+binder 2818:2818 <> y:82
+R2836:2838 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2821:2823 VST.msl.boolean_alg BA_FACTS glb defax
+R2828:2830 VST.msl.boolean_alg BA_FACTS lub defax
+R2834:2834 VST.msl.boolean_alg <> y:82 var
+R2832:2832 VST.msl.boolean_alg <> x:81 var
+R2825:2825 VST.msl.boolean_alg <> x:81 var
+R2839:2839 VST.msl.boolean_alg <> x:81 var
+ax 2850:2858 BA_FACTS glb_assoc
+binder 2869:2869 <> x:84
+binder 2871:2871 <> y:85
+binder 2873:2873 <> z:86
+R2891:2893 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2876:2878 VST.msl.boolean_alg BA_FACTS glb defax
+R2890:2890 VST.msl.boolean_alg <> z:86 var
+R2881:2883 VST.msl.boolean_alg BA_FACTS glb defax
+R2887:2887 VST.msl.boolean_alg <> y:85 var
+R2885:2885 VST.msl.boolean_alg <> x:84 var
+R2894:2896 VST.msl.boolean_alg BA_FACTS glb defax
+R2901:2903 VST.msl.boolean_alg BA_FACTS glb defax
+R2907:2907 VST.msl.boolean_alg <> z:86 var
+R2905:2905 VST.msl.boolean_alg <> y:85 var
+R2898:2898 VST.msl.boolean_alg <> x:84 var
+ax 2920:2927 BA_FACTS distrib2
+binder 2938:2938 <> x:88
+binder 2940:2940 <> y:89
+binder 2942:2942 <> z:90
+R2960:2962 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2945:2947 VST.msl.boolean_alg BA_FACTS lub defax
+R2952:2954 VST.msl.boolean_alg BA_FACTS glb defax
+R2958:2958 VST.msl.boolean_alg <> z:90 var
+R2956:2956 VST.msl.boolean_alg <> y:89 var
+R2949:2949 VST.msl.boolean_alg <> x:88 var
+R2963:2965 VST.msl.boolean_alg BA_FACTS glb defax
+R2978:2980 VST.msl.boolean_alg BA_FACTS lub defax
+R2984:2984 VST.msl.boolean_alg <> z:90 var
+R2982:2982 VST.msl.boolean_alg <> x:88 var
+R2968:2970 VST.msl.boolean_alg BA_FACTS lub defax
+R2974:2974 VST.msl.boolean_alg <> y:89 var
+R2972:2972 VST.msl.boolean_alg <> x:88 var
+ax 2997:3008 BA_FACTS distrib_spec
+binder 3019:3019 <> x:92
+binder 3021:3022 <> y1:93
+binder 3024:3025 <> y2:94
+R3051:3058 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3078:3085 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3088:3090 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3086:3087 VST.msl.boolean_alg <> y1:93 var
+R3091:3092 VST.msl.boolean_alg <> y2:94 var
+R3067:3069 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3059:3061 VST.msl.boolean_alg BA_FACTS glb defax
+R3065:3066 VST.msl.boolean_alg <> y1:93 var
+R3063:3063 VST.msl.boolean_alg <> x:92 var
+R3070:3072 VST.msl.boolean_alg BA_FACTS glb defax
+R3076:3077 VST.msl.boolean_alg <> y2:94 var
+R3074:3074 VST.msl.boolean_alg <> x:92 var
+R3040:3042 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3032:3034 VST.msl.boolean_alg BA_FACTS lub defax
+R3038:3039 VST.msl.boolean_alg <> y1:93 var
+R3036:3036 VST.msl.boolean_alg <> x:92 var
+R3043:3045 VST.msl.boolean_alg BA_FACTS lub defax
+R3049:3050 VST.msl.boolean_alg <> y2:94 var
+R3047:3047 VST.msl.boolean_alg <> x:92 var
+ax 3104:3112 BA_FACTS demorgan1
+binder 3123:3123 <> x:96
+binder 3125:3125 <> y:97
+R3142:3144 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3128:3131 VST.msl.boolean_alg BA_FACTS comp defax
+R3134:3136 VST.msl.boolean_alg BA_FACTS lub defax
+R3140:3140 VST.msl.boolean_alg <> y:97 var
+R3138:3138 VST.msl.boolean_alg <> x:96 var
+R3145:3147 VST.msl.boolean_alg BA_FACTS glb defax
+R3159:3162 VST.msl.boolean_alg BA_FACTS comp defax
+R3164:3164 VST.msl.boolean_alg <> y:97 var
+R3150:3153 VST.msl.boolean_alg BA_FACTS comp defax
+R3155:3155 VST.msl.boolean_alg <> x:96 var
+ax 3176:3184 BA_FACTS demorgan2
+binder 3195:3195 <> x:99
+binder 3197:3197 <> y:100
+R3214:3216 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3200:3203 VST.msl.boolean_alg BA_FACTS comp defax
+R3206:3208 VST.msl.boolean_alg BA_FACTS glb defax
+R3212:3212 VST.msl.boolean_alg <> y:100 var
+R3210:3210 VST.msl.boolean_alg <> x:99 var
+R3217:3219 VST.msl.boolean_alg BA_FACTS lub defax
+R3231:3234 VST.msl.boolean_alg BA_FACTS comp defax
+R3236:3236 VST.msl.boolean_alg <> y:100 var
+R3222:3225 VST.msl.boolean_alg BA_FACTS comp defax
+R3227:3227 VST.msl.boolean_alg <> x:99 var
+ax 3248:3255 BA_FACTS comp_inv
+binder 3266:3266 <> x:102
+R3282:3284 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3269:3272 VST.msl.boolean_alg BA_FACTS comp defax
+R3275:3278 VST.msl.boolean_alg BA_FACTS comp defax
+R3280:3280 VST.msl.boolean_alg <> x:102 var
+R3285:3285 VST.msl.boolean_alg <> x:102 var
+inst 3300:3306 BA_FACTS Join_ba
+R3309:3312 VST.msl.sepalg <> Join class
+R3314:3314 VST.msl.boolean_alg BA_FACTS t defax
+R3331:3331 VST.msl.boolean_alg BA_FACTS t defax
+binder 3323:3323 <> x:104
+binder 3325:3325 <> y:105
+binder 3327:3327 <> z:106
+R3349:3352 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3343:3345 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3336:3338 VST.msl.boolean_alg BA_FACTS glb defax
+R3342:3342 VST.msl.boolean_alg <> y:105 var
+R3340:3340 VST.msl.boolean_alg <> x:104 var
+R3346:3348 VST.msl.boolean_alg BA_FACTS bot defax
+R3360:3362 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3353:3355 VST.msl.boolean_alg BA_FACTS lub defax
+R3359:3359 VST.msl.boolean_alg <> y:105 var
+R3357:3357 VST.msl.boolean_alg <> x:104 var
+R3363:3363 VST.msl.boolean_alg <> z:106 var
+ax 3375:3376 BA_FACTS pa
+R3379:3386 VST.msl.sepalg <> Perm_alg class
+R3388:3388 VST.msl.boolean_alg BA_FACTS t defax
+ax 3423:3424 BA_FACTS sa
+R3428:3434 VST.msl.sepalg <> Sep_alg class
+R3436:3436 VST.msl.boolean_alg BA_FACTS t defax
+ax 3471:3472 BA_FACTS ca
+R3476:3483 VST.msl.sepalg <> Canc_alg class
+R3485:3485 VST.msl.boolean_alg BA_FACTS t defax
+ax 3518:3522 BA_FACTS singa
+R3526:3533 VST.msl.sepalg <> Sing_alg class
+R3535:3535 VST.msl.boolean_alg BA_FACTS t defax
+ax 3573:3574 BA_FACTS da
+R3578:3585 VST.msl.sepalg <> Disj_alg class
+R3587:3587 VST.msl.boolean_alg BA_FACTS t defax
+R3618:3625 VST.msl.boolean_alg BA_FACTS <> modtype
+constr 3693:3702 <> Heightable
+rec 3661:3670 <> heightable
+proj 3708:3713 <> height
+proj 3729:3742 <> is_height_zero
+binder 3673:3673 <> A:112
+R3718:3721 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3722:3724 Coq.Init.Datatypes <> nat ind
+R3717:3717 VST.msl.boolean_alg <> A:112 var
+R3757:3757 VST.msl.boolean_alg <> A:112 var
+binder 3753:3753 <> a:115
+R3760:3760 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3773:3777 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3791:3791 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3769:3771 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3761:3766 VST.msl.boolean_alg <> height:114 meth
+R3768:3768 VST.msl.boolean_alg <> a:115 var
+R3786:3789 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3778:3783 VST.msl.boolean_alg <> height:114 meth
+R3785:3785 VST.msl.boolean_alg <> a:115 var
+R3847:3856 VST.msl.boolean_alg <> Heightable constr
+R3847:3856 VST.msl.boolean_alg <> Heightable constr
+def 3878:3896 <> is_height_zero_spec
+binder 3899:3899 <> A:117
+R3920:3923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3924:3926 Coq.Init.Datatypes <> nat ind
+R3919:3919 VST.msl.boolean_alg <> A:117 var
+binder 3910:3915 <> height:118
+R3952:3952 VST.msl.boolean_alg <> A:117 var
+binder 3948:3948 <> a:119
+R3955:3955 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3968:3972 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3986:3986 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3964:3966 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3956:3961 VST.msl.boolean_alg <> height:118 var
+R3963:3963 VST.msl.boolean_alg <> a:119 var
+R3981:3984 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3973:3978 VST.msl.boolean_alg <> height:118 var
+R3980:3980 VST.msl.boolean_alg <> a:119 var
+def 4001:4011 <> list_height
+binder 4014:4014 <> A:120
+R4019:4028 VST.msl.boolean_alg <> heightable class
+R4030:4030 VST.msl.boolean_alg <> A:120 var
+binder 4019:4030 <> H:121
+R4039:4042 Coq.Init.Datatypes <> list ind
+R4044:4044 VST.msl.boolean_alg <> A:120 var
+binder 4034:4035 <> LA:122
+R4049:4051 Coq.Init.Datatypes <> nat ind
+R4058:4067 Coq.Lists.List <> fold_right def
+R4076:4078 Coq.Lists.List <> map def
+R4087:4088 VST.msl.boolean_alg <> LA:122 var
+R4080:4085 VST.msl.boolean_alg <> height meth
+R4069:4071 Coq.Init.Peano <> max syndef
+def 4101:4124 <> list_is_height_zero_bool
+binder 4127:4127 <> A:123
+R4132:4141 VST.msl.boolean_alg <> heightable class
+R4143:4143 VST.msl.boolean_alg <> A:123 var
+binder 4132:4143 <> H:124
+R4151:4154 Coq.Init.Datatypes <> list ind
+R4156:4156 VST.msl.boolean_alg <> A:123 var
+binder 4147:4147 <> L:125
+R4161:4164 Coq.Init.Datatypes <> bool ind
+R4177:4177 VST.msl.boolean_alg <> L:125 var
+R4189:4191 Coq.Init.Datatypes <> nil constr
+R4196:4199 Coq.Init.Datatypes <> true constr
+R4207:4210 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4226:4239 VST.msl.boolean_alg <> is_height_zero meth
+R4281:4285 Coq.Init.Datatypes <> false constr
+R4248:4271 VST.msl.boolean_alg <> list_is_height_zero_bool:126 def
+inst 4303:4317 <> list_heightable
+binder 4320:4320 <> A:128
+R4325:4334 VST.msl.boolean_alg <> heightable class
+R4336:4336 VST.msl.boolean_alg <> A:128 var
+binder 4325:4336 <> H:129
+R4341:4350 VST.msl.boolean_alg <> heightable class
+R4353:4356 Coq.Init.Datatypes <> list ind
+R4358:4358 VST.msl.boolean_alg <> A:128 var
+R4386:4396 VST.msl.boolean_alg <> list_height def
+R4370:4379 VST.msl.boolean_alg <> Heightable constr
+R4386:4396 VST.msl.boolean_alg <> list_height def
+R4370:4379 VST.msl.boolean_alg <> Heightable constr
+R4438:4448 VST.msl.boolean_alg <> list_height def
+R4464:4477 VST.msl.boolean_alg <> is_height_zero meth
+R4464:4477 VST.msl.boolean_alg <> is_height_zero meth
+R4646:4651 VST.msl.boolean_alg <> height meth
+R4646:4651 VST.msl.boolean_alg <> height meth
+R4664:4673 Coq.Lists.List <> fold_right def
+R4682:4684 Coq.Lists.List <> map def
+R4686:4691 VST.msl.boolean_alg <> height meth
+R4675:4677 Coq.Init.Peano <> max syndef
+R4664:4673 Coq.Lists.List <> fold_right def
+R4682:4684 Coq.Lists.List <> map def
+R4686:4691 VST.msl.boolean_alg <> height meth
+R4675:4677 Coq.Init.Peano <> max syndef
+constr 4750:4761 <> Decomposible
+rec 4716:4727 <> decomposible
+proj 4767:4775 <> decompose
+binder 4730:4730 <> A:130
+R4780:4784 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4790:4790 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4786:4788 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4785:4785 VST.msl.boolean_alg <> A:130 var
+R4789:4789 VST.msl.boolean_alg <> A:130 var
+R4779:4779 VST.msl.boolean_alg <> A:130 var
+R4807:4818 VST.msl.boolean_alg <> Decomposible constr
+R4807:4818 VST.msl.boolean_alg <> Decomposible constr
+constr 4870:4882 <> RoundableLeft
+rec 4835:4847 <> roundableLeft
+proj 4889:4894 <> roundL
+binder 4850:4850 <> A:133
+R4901:4904 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4906:4909 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4910:4915 Coq.Init.Datatypes <> option ind
+R4917:4917 VST.msl.boolean_alg <> A:133 var
+R4905:4905 VST.msl.boolean_alg <> A:133 var
+R4898:4900 Coq.Init.Datatypes <> nat ind
+R4934:4946 VST.msl.boolean_alg <> RoundableLeft constr
+R4934:4946 VST.msl.boolean_alg <> RoundableLeft constr
+constr 4999:5012 <> RoundableRight
+rec 4963:4976 <> roundableRight
+proj 5019:5024 <> roundR
+binder 4979:4979 <> A:136
+R5031:5034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5036:5039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5040:5045 Coq.Init.Datatypes <> option ind
+R5047:5047 VST.msl.boolean_alg <> A:136 var
+R5035:5035 VST.msl.boolean_alg <> A:136 var
+R5028:5030 Coq.Init.Datatypes <> nat ind
+R5064:5077 VST.msl.boolean_alg <> RoundableRight constr
+R5064:5077 VST.msl.boolean_alg <> RoundableRight constr
+constr 5123:5129 <> Avgable
+rec 5094:5100 <> avgable
+proj 5137:5139 <> avg
+binder 5103:5103 <> A:139
+R5146:5149 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5151:5154 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5156:5159 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5160:5165 Coq.Init.Datatypes <> option ind
+R5167:5167 VST.msl.boolean_alg <> A:139 var
+R5155:5155 VST.msl.boolean_alg <> A:139 var
+R5150:5150 VST.msl.boolean_alg <> A:139 var
+R5143:5145 Coq.Init.Datatypes <> nat ind
+R5184:5190 VST.msl.boolean_alg <> Avgable constr
+R5184:5190 VST.msl.boolean_alg <> Avgable constr
+modtype 5236:5246 <> SHARE_MODEL
+R5259:5266 VST.msl.boolean_alg BA_FACTS <> mod
+ax 5282:5292 SHARE_MODEL EqDec_share
+R5295:5299 VST.msl.eq_dec <> EqDec class
+R5301:5301 VST.msl.boolean_alg SHARE_MODEL t defax
+ax 5372:5376 SHARE_MODEL split
+R5381:5384 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5386:5388 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5385:5385 VST.msl.boolean_alg SHARE_MODEL t defax
+R5389:5389 VST.msl.boolean_alg SHARE_MODEL t defax
+R5380:5380 VST.msl.boolean_alg SHARE_MODEL t defax
+ax 5401:5414 SHARE_MODEL split_disjoint
+binder 5425:5426 <> x1:144
+binder 5428:5429 <> x2:145
+binder 5431:5431 <> x:146
+R5456:5463 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5473:5475 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5464:5466 VST.msl.boolean_alg SHARE_MODEL glb defax
+R5471:5472 VST.msl.boolean_alg <> x2:145 var
+R5468:5469 VST.msl.boolean_alg <> x1:144 var
+R5476:5478 VST.msl.boolean_alg SHARE_MODEL bot defax
+R5445:5447 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5438:5442 VST.msl.boolean_alg SHARE_MODEL split defax
+R5444:5444 VST.msl.boolean_alg <> x:146 var
+R5448:5448 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5451:5452 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5455:5455 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5449:5450 VST.msl.boolean_alg <> x1:144 var
+R5453:5454 VST.msl.boolean_alg <> x2:145 var
+ax 5490:5503 SHARE_MODEL split_together
+binder 5514:5515 <> x1:148
+binder 5517:5518 <> x2:149
+binder 5520:5520 <> x:150
+R5545:5552 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5562:5564 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5553:5555 VST.msl.boolean_alg SHARE_MODEL lub defax
+R5560:5561 VST.msl.boolean_alg <> x2:149 var
+R5557:5558 VST.msl.boolean_alg <> x1:148 var
+R5565:5565 VST.msl.boolean_alg <> x:150 var
+R5534:5536 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5527:5531 VST.msl.boolean_alg SHARE_MODEL split defax
+R5533:5533 VST.msl.boolean_alg <> x:150 var
+R5537:5537 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5540:5541 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5544:5544 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5538:5539 VST.msl.boolean_alg <> x1:148 var
+R5542:5543 VST.msl.boolean_alg <> x2:149 var
+ax 5577:5592 SHARE_MODEL split_nontrivial
+binder 5603:5604 <> x1:152
+binder 5606:5607 <> x2:153
+binder 5609:5609 <> x:154
+R5634:5641 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5642:5642 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5663:5671 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5673:5675 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5672:5672 VST.msl.boolean_alg <> x:154 var
+R5676:5678 VST.msl.boolean_alg SHARE_MODEL bot defax
+R5651:5654 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5645:5647 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5643:5644 VST.msl.boolean_alg <> x1:152 var
+R5648:5650 VST.msl.boolean_alg SHARE_MODEL bot defax
+R5657:5659 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5655:5656 VST.msl.boolean_alg <> x2:153 var
+R5660:5662 VST.msl.boolean_alg SHARE_MODEL bot defax
+R5623:5625 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5616:5620 VST.msl.boolean_alg SHARE_MODEL split defax
+R5622:5622 VST.msl.boolean_alg <> x:154 var
+R5626:5626 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5629:5630 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5633:5633 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5627:5628 VST.msl.boolean_alg <> x1:152 var
+R5631:5632 VST.msl.boolean_alg <> x2:153 var
+ax 5718:5731 SHARE_MODEL isTokenFactory
+R5736:5739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5743:5746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5740:5742 Coq.Init.Datatypes <> nat ind
+R5735:5735 VST.msl.boolean_alg SHARE_MODEL t defax
+ax 5765:5771 SHARE_MODEL isToken
+R5776:5779 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5783:5786 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5780:5782 Coq.Init.Datatypes <> nat ind
+R5775:5775 VST.msl.boolean_alg SHARE_MODEL t defax
+ax 5806:5817 SHARE_MODEL create_token
+R5824:5827 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5829:5833 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5837:5837 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5835:5835 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5834:5834 VST.msl.boolean_alg SHARE_MODEL t defax
+R5836:5836 VST.msl.boolean_alg SHARE_MODEL t defax
+R5828:5828 VST.msl.boolean_alg SHARE_MODEL t defax
+R5821:5823 Coq.Init.Datatypes <> nat ind
+ax 5849:5868 SHARE_MODEL create_token_correct
+binder 5879:5881 <> fac:159
+binder 5883:5886 <> fac':160
+binder 5888:5890 <> tok:161
+binder 5892:5892 <> x:162
+binder 5894:5894 <> n:163
+R5932:5939 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5960:5969 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5995:6004 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5970:5983 VST.msl.boolean_alg SHARE_MODEL isTokenFactory defax
+R5992:5992 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5991:5991 VST.msl.boolean_alg <> n:163 var
+R5993:5993 VST.msl.boolean_alg <> x:162 var
+R5985:5988 VST.msl.boolean_alg <> fac':160 var
+R6018:6027 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6005:6011 VST.msl.boolean_alg SHARE_MODEL isToken defax
+R6017:6017 VST.msl.boolean_alg <> n:163 var
+R6013:6015 VST.msl.boolean_alg <> tok:161 var
+R6028:6031 VST.msl.sepalg <> join def
+R6042:6044 VST.msl.boolean_alg <> fac:159 var
+R6038:6040 VST.msl.boolean_alg <> tok:161 var
+R6033:6036 VST.msl.boolean_alg <> fac':160 var
+R5940:5953 VST.msl.boolean_alg SHARE_MODEL isTokenFactory defax
+R5959:5959 VST.msl.boolean_alg <> x:162 var
+R5955:5957 VST.msl.boolean_alg <> fac:159 var
+R5919:5921 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5901:5912 VST.msl.boolean_alg SHARE_MODEL create_token defax
+R5916:5918 VST.msl.boolean_alg <> fac:159 var
+R5914:5914 VST.msl.boolean_alg <> n:163 var
+R5922:5922 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5927:5927 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5931:5931 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5923:5926 VST.msl.boolean_alg <> fac':160 var
+R5928:5930 VST.msl.boolean_alg <> tok:161 var
+ax 6056:6066 SHARE_MODEL absorbToken
+binder 6077:6079 <> fac:165
+binder 6081:6084 <> fac':166
+binder 6086:6088 <> tok:167
+binder 6090:6090 <> x:168
+binder 6092:6092 <> n:169
+R6124:6131 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6145:6152 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6170:6177 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6178:6191 VST.msl.boolean_alg SHARE_MODEL isTokenFactory defax
+R6197:6197 VST.msl.boolean_alg <> x:168 var
+R6193:6195 VST.msl.boolean_alg <> fac:165 var
+R6153:6156 VST.msl.sepalg <> join def
+R6167:6169 VST.msl.boolean_alg <> fac:165 var
+R6163:6165 VST.msl.boolean_alg <> tok:167 var
+R6158:6161 VST.msl.boolean_alg <> fac':166 var
+R6132:6138 VST.msl.boolean_alg SHARE_MODEL isToken defax
+R6144:6144 VST.msl.boolean_alg <> n:169 var
+R6140:6142 VST.msl.boolean_alg <> tok:167 var
+R6099:6112 VST.msl.boolean_alg SHARE_MODEL isTokenFactory defax
+R6121:6121 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6120:6120 VST.msl.boolean_alg <> n:169 var
+R6122:6122 VST.msl.boolean_alg <> x:168 var
+R6114:6117 VST.msl.boolean_alg <> fac':166 var
+ax 6209:6218 SHARE_MODEL mergeToken
+binder 6229:6232 <> tok1:171
+binder 6234:6235 <> n1:172
+binder 6237:6240 <> tok2:173
+binder 6242:6243 <> n2:174
+binder 6245:6248 <> tok':175
+R6270:6277 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6293:6300 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6320:6327 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6328:6334 VST.msl.boolean_alg SHARE_MODEL isToken defax
+R6344:6344 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6342:6343 VST.msl.boolean_alg <> n1:172 var
+R6345:6346 VST.msl.boolean_alg <> n2:174 var
+R6336:6339 VST.msl.boolean_alg <> tok':175 var
+R6301:6304 VST.msl.sepalg <> join def
+R6316:6319 VST.msl.boolean_alg <> tok':175 var
+R6311:6314 VST.msl.boolean_alg <> tok2:173 var
+R6306:6309 VST.msl.boolean_alg <> tok1:171 var
+R6278:6284 VST.msl.boolean_alg SHARE_MODEL isToken defax
+R6291:6292 VST.msl.boolean_alg <> n2:174 var
+R6286:6289 VST.msl.boolean_alg <> tok2:173 var
+R6255:6261 VST.msl.boolean_alg SHARE_MODEL isToken defax
+R6268:6269 VST.msl.boolean_alg <> n1:172 var
+R6263:6266 VST.msl.boolean_alg <> tok1:171 var
+ax 6363:6373 SHARE_MODEL split_token
+R6380:6383 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6385:6388 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6390:6390 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6389:6389 VST.msl.boolean_alg SHARE_MODEL t defax
+R6391:6391 VST.msl.boolean_alg SHARE_MODEL t defax
+R6384:6384 VST.msl.boolean_alg SHARE_MODEL t defax
+R6377:6379 Coq.Init.Datatypes <> nat ind
+ax 6403:6421 SHARE_MODEL split_token_correct
+binder 6432:6433 <> n1:178
+binder 6435:6436 <> n2:179
+binder 6438:6440 <> tok:180
+binder 6442:6445 <> tok1:181
+binder 6447:6450 <> tok2:182
+R6476:6483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6516:6525 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6541:6550 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6526:6532 VST.msl.boolean_alg SHARE_MODEL isToken defax
+R6539:6540 VST.msl.boolean_alg <> n1:178 var
+R6534:6537 VST.msl.boolean_alg <> tok1:181 var
+R6566:6575 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6551:6557 VST.msl.boolean_alg SHARE_MODEL isToken defax
+R6564:6565 VST.msl.boolean_alg <> n2:179 var
+R6559:6562 VST.msl.boolean_alg <> tok2:182 var
+R6576:6579 VST.msl.sepalg <> join def
+R6591:6593 VST.msl.boolean_alg <> tok:180 var
+R6586:6589 VST.msl.boolean_alg <> tok2:182 var
+R6581:6584 VST.msl.boolean_alg <> tok1:181 var
+R6502:6504 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6484:6494 VST.msl.boolean_alg SHARE_MODEL split_token defax
+R6499:6501 VST.msl.boolean_alg <> tok:180 var
+R6496:6497 VST.msl.boolean_alg <> n1:178 var
+R6505:6505 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6510:6510 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6515:6515 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6506:6509 VST.msl.boolean_alg <> tok1:181 var
+R6511:6514 VST.msl.boolean_alg <> tok2:182 var
+R6457:6463 VST.msl.boolean_alg SHARE_MODEL isToken defax
+R6472:6472 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6470:6471 VST.msl.boolean_alg <> n1:178 var
+R6473:6474 VST.msl.boolean_alg <> n2:179 var
+R6465:6467 VST.msl.boolean_alg <> tok:180 var
+ax 6605:6618 SHARE_MODEL factoryOverlap
+binder 6629:6630 <> f1:184
+binder 6632:6633 <> f2:185
+binder 6635:6636 <> n1:186
+binder 6638:6639 <> n2:187
+R6666:6669 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6690:6693 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6703:6706 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6694:6696 VST.msl.boolean_alg SHARE_MODEL glb defax
+R6701:6702 VST.msl.boolean_alg <> f2:185 var
+R6698:6699 VST.msl.boolean_alg <> f1:184 var
+R6707:6709 VST.msl.boolean_alg SHARE_MODEL bot defax
+R6670:6683 VST.msl.boolean_alg SHARE_MODEL isTokenFactory defax
+R6688:6689 VST.msl.boolean_alg <> n2:187 var
+R6685:6686 VST.msl.boolean_alg <> f2:185 var
+R6646:6659 VST.msl.boolean_alg SHARE_MODEL isTokenFactory defax
+R6664:6665 VST.msl.boolean_alg <> n1:186 var
+R6661:6662 VST.msl.boolean_alg <> f1:184 var
+ax 6721:6731 SHARE_MODEL fullFactory
+binder 6742:6742 <> x:189
+R6763:6767 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6745:6758 VST.msl.boolean_alg SHARE_MODEL isTokenFactory defax
+R6760:6760 VST.msl.boolean_alg <> x:189 var
+R6769:6771 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6768:6768 VST.msl.boolean_alg <> x:189 var
+R6772:6774 VST.msl.boolean_alg SHARE_MODEL top defax
+ax 6785:6797 SHARE_MODEL identityToken
+binder 6808:6808 <> x:191
+R6822:6826 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6811:6817 VST.msl.boolean_alg SHARE_MODEL isToken defax
+R6819:6819 VST.msl.boolean_alg <> x:191 var
+R6828:6830 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6827:6827 VST.msl.boolean_alg <> x:191 var
+R6831:6833 VST.msl.boolean_alg SHARE_MODEL bot defax
+ax 6845:6860 SHARE_MODEL nonidentityToken
+binder 6871:6871 <> x:193
+binder 6873:6873 <> n:194
+R6887:6890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6902:6905 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6907:6910 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6906:6906 VST.msl.boolean_alg <> x:193 var
+R6911:6913 VST.msl.boolean_alg SHARE_MODEL bot defax
+R6891:6897 VST.msl.boolean_alg SHARE_MODEL isToken defax
+R6901:6901 VST.msl.boolean_alg <> n:194 var
+R6899:6899 VST.msl.boolean_alg <> x:193 var
+R6878:6880 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R6877:6877 VST.msl.boolean_alg <> n:194 var
+ax 6924:6941 SHARE_MODEL nonidentityFactory
+binder 6952:6952 <> x:196
+binder 6954:6954 <> n:197
+R6975:6978 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6980:6983 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6979:6979 VST.msl.boolean_alg <> x:196 var
+R6984:6986 VST.msl.boolean_alg SHARE_MODEL bot defax
+R6957:6970 VST.msl.boolean_alg SHARE_MODEL isTokenFactory defax
+R6974:6974 VST.msl.boolean_alg <> n:197 var
+R6972:6972 VST.msl.boolean_alg <> x:196 var
+ax 7026:7028 SHARE_MODEL rel
+R7033:7036 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7038:7041 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7042:7042 VST.msl.boolean_alg SHARE_MODEL t defax
+R7037:7037 VST.msl.boolean_alg SHARE_MODEL t defax
+R7032:7032 VST.msl.boolean_alg SHARE_MODEL t defax
+ax 7054:7062 SHARE_MODEL rel_inj_l
+binder 7073:7073 <> a:200
+binder 7075:7075 <> x:201
+binder 7077:7077 <> y:202
+R7088:7091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7109:7112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7114:7116 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7113:7113 VST.msl.boolean_alg <> x:201 var
+R7117:7117 VST.msl.boolean_alg <> y:202 var
+R7099:7101 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7092:7094 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7098:7098 VST.msl.boolean_alg <> x:201 var
+R7096:7096 VST.msl.boolean_alg <> a:200 var
+R7102:7104 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7108:7108 VST.msl.boolean_alg <> y:202 var
+R7106:7106 VST.msl.boolean_alg <> a:200 var
+R7081:7084 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7080:7080 VST.msl.boolean_alg <> a:200 var
+R7085:7087 VST.msl.boolean_alg SHARE_MODEL bot defax
+ax 7128:7136 SHARE_MODEL rel_inj_r
+binder 7147:7147 <> a:204
+binder 7149:7149 <> b:205
+binder 7151:7151 <> x:206
+R7162:7165 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7183:7186 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7188:7190 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7187:7187 VST.msl.boolean_alg <> a:204 var
+R7191:7191 VST.msl.boolean_alg <> b:205 var
+R7173:7175 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7166:7168 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7172:7172 VST.msl.boolean_alg <> x:206 var
+R7170:7170 VST.msl.boolean_alg <> a:204 var
+R7176:7178 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7182:7182 VST.msl.boolean_alg <> x:206 var
+R7180:7180 VST.msl.boolean_alg <> b:205 var
+R7155:7158 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7154:7154 VST.msl.boolean_alg <> x:206 var
+R7159:7161 VST.msl.boolean_alg SHARE_MODEL bot defax
+ax 7203:7211 SHARE_MODEL rel_assoc
+binder 7222:7222 <> x:208
+binder 7224:7224 <> y:209
+binder 7226:7226 <> z:210
+R7244:7246 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7229:7231 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7236:7238 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7242:7242 VST.msl.boolean_alg <> z:210 var
+R7240:7240 VST.msl.boolean_alg <> y:209 var
+R7233:7233 VST.msl.boolean_alg <> x:208 var
+R7247:7249 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7261:7261 VST.msl.boolean_alg <> z:210 var
+R7252:7254 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7258:7258 VST.msl.boolean_alg <> y:209 var
+R7256:7256 VST.msl.boolean_alg <> x:208 var
+ax 7273:7289 SHARE_MODEL rel_preserves_glb
+binder 7300:7300 <> a:212
+binder 7302:7302 <> x:213
+binder 7304:7304 <> y:214
+R7322:7324 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7307:7309 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7314:7316 VST.msl.boolean_alg SHARE_MODEL glb defax
+R7320:7320 VST.msl.boolean_alg <> y:214 var
+R7318:7318 VST.msl.boolean_alg <> x:213 var
+R7311:7311 VST.msl.boolean_alg <> a:212 var
+R7325:7327 VST.msl.boolean_alg SHARE_MODEL glb defax
+R7340:7342 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7346:7346 VST.msl.boolean_alg <> y:214 var
+R7344:7344 VST.msl.boolean_alg <> a:212 var
+R7330:7332 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7336:7336 VST.msl.boolean_alg <> x:213 var
+R7334:7334 VST.msl.boolean_alg <> a:212 var
+ax 7358:7374 SHARE_MODEL rel_preserves_lub
+binder 7385:7385 <> a:216
+binder 7387:7387 <> x:217
+binder 7389:7389 <> y:218
+R7407:7409 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7392:7394 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7399:7401 VST.msl.boolean_alg SHARE_MODEL lub defax
+R7405:7405 VST.msl.boolean_alg <> y:218 var
+R7403:7403 VST.msl.boolean_alg <> x:217 var
+R7396:7396 VST.msl.boolean_alg <> a:216 var
+R7410:7412 VST.msl.boolean_alg SHARE_MODEL lub defax
+R7425:7427 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7431:7431 VST.msl.boolean_alg <> y:218 var
+R7429:7429 VST.msl.boolean_alg <> a:216 var
+R7415:7417 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7421:7421 VST.msl.boolean_alg <> x:217 var
+R7419:7419 VST.msl.boolean_alg <> a:216 var
+ax 7444:7451 SHARE_MODEL rel_bot1
+binder 7462:7462 <> a:220
+R7474:7476 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7465:7467 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7471:7473 VST.msl.boolean_alg SHARE_MODEL bot defax
+R7469:7469 VST.msl.boolean_alg <> a:220 var
+R7477:7479 VST.msl.boolean_alg SHARE_MODEL bot defax
+ax 7490:7497 SHARE_MODEL rel_bot2
+binder 7508:7508 <> x:222
+R7520:7522 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7511:7513 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7519:7519 VST.msl.boolean_alg <> x:222 var
+R7515:7517 VST.msl.boolean_alg SHARE_MODEL bot defax
+R7523:7525 VST.msl.boolean_alg SHARE_MODEL bot defax
+ax 7536:7543 SHARE_MODEL rel_top1
+binder 7554:7554 <> a:224
+R7566:7568 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7557:7559 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7563:7565 VST.msl.boolean_alg SHARE_MODEL top defax
+R7561:7561 VST.msl.boolean_alg <> a:224 var
+R7569:7569 VST.msl.boolean_alg <> a:224 var
+ax 7580:7587 SHARE_MODEL rel_top2
+binder 7598:7598 <> x:226
+R7610:7612 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7601:7603 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7609:7609 VST.msl.boolean_alg <> x:226 var
+R7605:7607 VST.msl.boolean_alg SHARE_MODEL top defax
+R7613:7613 VST.msl.boolean_alg <> x:226 var
+ax 7629:7633 SHARE_MODEL unrel
+R7637:7640 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7642:7645 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7646:7646 VST.msl.boolean_alg SHARE_MODEL t defax
+R7641:7641 VST.msl.boolean_alg SHARE_MODEL t defax
+R7636:7636 VST.msl.boolean_alg SHARE_MODEL t defax
+def 7662:7664 SHARE_MODEL Lsh
+R7669:7669 VST.msl.boolean_alg SHARE_MODEL t defax
+R7674:7676 Coq.Init.Datatypes <> fst def
+R7679:7683 VST.msl.boolean_alg SHARE_MODEL split defax
+R7685:7687 VST.msl.boolean_alg SHARE_MODEL top defax
+def 7704:7706 SHARE_MODEL Rsh
+R7711:7711 VST.msl.boolean_alg SHARE_MODEL t defax
+R7716:7718 Coq.Init.Datatypes <> snd def
+R7721:7725 VST.msl.boolean_alg SHARE_MODEL split defax
+R7727:7729 VST.msl.boolean_alg SHARE_MODEL top defax
+def 7746:7751 SHARE_MODEL splice
+R7759:7759 VST.msl.boolean_alg SHARE_MODEL t defax
+binder 7754:7754 <> a:229
+binder 7756:7756 <> b:230
+R7764:7764 VST.msl.boolean_alg SHARE_MODEL t defax
+R7769:7771 VST.msl.boolean_alg SHARE_MODEL lub defax
+R7786:7788 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7794:7794 VST.msl.boolean_alg <> b:230 var
+R7790:7792 VST.msl.boolean_alg SHARE_MODEL Rsh def
+R7774:7776 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7782:7782 VST.msl.boolean_alg <> a:229 var
+R7778:7780 VST.msl.boolean_alg SHARE_MODEL Lsh def
+ax 7807:7815 SHARE_MODEL unrel_rel
+binder 7825:7825 <> x:231
+binder 7827:7828 <> sh:232
+R7844:7847 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7866:7868 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7848:7852 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R7857:7859 VST.msl.boolean_alg SHARE_MODEL rel defax
+R7863:7864 VST.msl.boolean_alg <> sh:232 var
+R7861:7861 VST.msl.boolean_alg <> x:231 var
+R7854:7854 VST.msl.boolean_alg <> x:231 var
+R7869:7870 VST.msl.boolean_alg <> sh:232 var
+R7831:7841 VST.msl.sepalg <> nonidentity def
+R7843:7843 VST.msl.boolean_alg <> x:231 var
+ax 7881:7894 SHARE_MODEL unrel_splice_L
+binder 7904:7904 <> a:234
+binder 7906:7906 <> b:235
+R7931:7933 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7909:7913 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R7920:7925 VST.msl.boolean_alg SHARE_MODEL splice def
+R7929:7929 VST.msl.boolean_alg <> b:235 var
+R7927:7927 VST.msl.boolean_alg <> a:234 var
+R7915:7917 VST.msl.boolean_alg SHARE_MODEL Lsh def
+R7934:7934 VST.msl.boolean_alg <> a:234 var
+ax 7945:7958 SHARE_MODEL unrel_splice_R
+binder 7968:7968 <> a:237
+binder 7970:7970 <> b:238
+R7995:7997 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7973:7977 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R7984:7989 VST.msl.boolean_alg SHARE_MODEL splice def
+R7993:7993 VST.msl.boolean_alg <> b:238 var
+R7991:7991 VST.msl.boolean_alg <> a:237 var
+R7979:7981 VST.msl.boolean_alg SHARE_MODEL Rsh def
+R7998:7998 VST.msl.boolean_alg <> b:238 var
+ax 8009:8022 SHARE_MODEL contains_Lsh_e
+binder 8032:8033 <> sh:240
+R8051:8054 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8067:8069 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8055:8059 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R8065:8066 VST.msl.boolean_alg <> sh:240 var
+R8061:8063 VST.msl.boolean_alg SHARE_MODEL Lsh def
+R8070:8072 VST.msl.boolean_alg SHARE_MODEL top defax
+R8036:8043 VST.msl.sepalg <> join_sub def
+R8049:8050 VST.msl.boolean_alg <> sh:240 var
+R8045:8047 VST.msl.boolean_alg SHARE_MODEL Lsh def
+ax 8083:8096 SHARE_MODEL contains_Rsh_e
+binder 8106:8107 <> sh:242
+R8125:8128 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8141:8143 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8129:8133 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R8139:8140 VST.msl.boolean_alg <> sh:242 var
+R8135:8137 VST.msl.boolean_alg SHARE_MODEL Rsh def
+R8144:8146 VST.msl.boolean_alg SHARE_MODEL top defax
+R8110:8117 VST.msl.sepalg <> join_sub def
+R8123:8124 VST.msl.boolean_alg <> sh:242 var
+R8119:8121 VST.msl.boolean_alg SHARE_MODEL Rsh def
+ax 8157:8170 SHARE_MODEL unrel_disjoint
+binder 8180:8180 <> a:244
+binder 8182:8183 <> a':245
+R8194:8197 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8212:8215 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8226:8228 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8216:8220 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R8224:8225 VST.msl.boolean_alg <> a':245 var
+R8222:8222 VST.msl.boolean_alg <> a:244 var
+R8229:8231 VST.msl.boolean_alg SHARE_MODEL bot defax
+R8206:8208 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8198:8200 VST.msl.boolean_alg SHARE_MODEL glb defax
+R8204:8205 VST.msl.boolean_alg <> a':245 var
+R8202:8202 VST.msl.boolean_alg <> a:244 var
+R8209:8211 VST.msl.boolean_alg SHARE_MODEL bot defax
+R8187:8190 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8186:8186 VST.msl.boolean_alg <> a:244 var
+R8191:8193 VST.msl.boolean_alg SHARE_MODEL bot defax
+ax 8242:8250 SHARE_MODEL unrel_lub
+binder 8260:8260 <> a:247
+binder 8262:8263 <> b1:248
+binder 8265:8266 <> b2:249
+R8288:8290 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8269:8273 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R8278:8280 VST.msl.boolean_alg SHARE_MODEL lub defax
+R8285:8286 VST.msl.boolean_alg <> b2:249 var
+R8282:8283 VST.msl.boolean_alg <> b1:248 var
+R8275:8275 VST.msl.boolean_alg <> a:247 var
+R8291:8293 VST.msl.boolean_alg SHARE_MODEL lub defax
+R8309:8313 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R8317:8318 VST.msl.boolean_alg <> b2:249 var
+R8315:8315 VST.msl.boolean_alg <> a:247 var
+R8296:8300 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R8304:8305 VST.msl.boolean_alg <> b1:248 var
+R8302:8302 VST.msl.boolean_alg <> a:247 var
+ax 8330:8338 SHARE_MODEL unrel_glb
+binder 8348:8348 <> a:251
+binder 8350:8351 <> b1:252
+binder 8353:8354 <> b2:253
+R8376:8378 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8357:8361 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R8366:8368 VST.msl.boolean_alg SHARE_MODEL glb defax
+R8373:8374 VST.msl.boolean_alg <> b2:253 var
+R8370:8371 VST.msl.boolean_alg <> b1:252 var
+R8363:8363 VST.msl.boolean_alg <> a:251 var
+R8379:8381 VST.msl.boolean_alg SHARE_MODEL glb defax
+R8397:8401 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R8405:8406 VST.msl.boolean_alg <> b2:253 var
+R8403:8403 VST.msl.boolean_alg <> a:251 var
+R8384:8388 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R8392:8393 VST.msl.boolean_alg <> b1:252 var
+R8390:8390 VST.msl.boolean_alg <> a:251 var
+ax 8418:8427 SHARE_MODEL unrel_join
+binder 8437:8437 <> x:255
+binder 8439:8439 <> a:256
+binder 8441:8441 <> b:257
+binder 8443:8443 <> c:258
+R8456:8459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8460:8463 VST.msl.sepalg <> join def
+R8490:8494 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R8498:8498 VST.msl.boolean_alg <> c:258 var
+R8496:8496 VST.msl.boolean_alg <> x:255 var
+R8478:8482 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R8486:8486 VST.msl.boolean_alg <> b:257 var
+R8484:8484 VST.msl.boolean_alg <> x:255 var
+R8466:8470 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R8474:8474 VST.msl.boolean_alg <> a:256 var
+R8472:8472 VST.msl.boolean_alg <> x:255 var
+R8446:8449 VST.msl.sepalg <> join def
+R8455:8455 VST.msl.boolean_alg <> c:258 var
+R8453:8453 VST.msl.boolean_alg <> b:257 var
+R8451:8451 VST.msl.boolean_alg <> a:256 var
+ax 8510:8518 SHARE_MODEL unrel_top
+binder 8528:8528 <> a:260
+R8542:8544 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8531:8535 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R8539:8541 VST.msl.boolean_alg SHARE_MODEL top defax
+R8537:8537 VST.msl.boolean_alg <> a:260 var
+R8545:8547 VST.msl.boolean_alg SHARE_MODEL top defax
+ax 8558:8566 SHARE_MODEL unrel_bot
+binder 8576:8576 <> a:262
+R8590:8592 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8579:8583 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R8587:8589 VST.msl.boolean_alg SHARE_MODEL bot defax
+R8585:8585 VST.msl.boolean_alg <> a:262 var
+R8593:8595 VST.msl.boolean_alg SHARE_MODEL bot defax
+ax 8606:8614 SHARE_MODEL top_unrel
+binder 8624:8624 <> a:264
+R8638:8640 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8627:8631 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R8637:8637 VST.msl.boolean_alg <> a:264 var
+R8633:8635 VST.msl.boolean_alg SHARE_MODEL top defax
+R8641:8641 VST.msl.boolean_alg <> a:264 var
+ax 8652:8660 SHARE_MODEL bot_unrel
+binder 8670:8670 <> a:266
+R8684:8686 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8673:8677 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R8683:8683 VST.msl.boolean_alg <> a:266 var
+R8679:8681 VST.msl.boolean_alg SHARE_MODEL bot defax
+R8687:8687 VST.msl.boolean_alg <> a:266 var
+ax 8735:8745 SHARE_MODEL tree_height
+R8750:8753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8754:8756 Coq.Init.Datatypes <> nat ind
+R8749:8749 VST.msl.boolean_alg SHARE_MODEL t defax
+ax 8770:8785 SHARE_MODEL tree_height_zero
+binder 8796:8796 <> t:269
+R8799:8799 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8817:8821 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8840:8840 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8813:8815 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8800:8810 VST.msl.boolean_alg SHARE_MODEL tree_height defax
+R8812:8812 VST.msl.boolean_alg <> t:269 var
+R8835:8838 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8822:8832 VST.msl.boolean_alg SHARE_MODEL tree_height defax
+R8834:8834 VST.msl.boolean_alg <> t:269 var
+inst 8853:8867 SHARE_MODEL tree_heightable
+R8871:8880 VST.msl.boolean_alg <> heightable class
+R8882:8882 VST.msl.boolean_alg SHARE_MODEL t defax
+R8890:8899 VST.msl.boolean_alg <> Heightable constr
+R8913:8928 VST.msl.boolean_alg SHARE_MODEL tree_height_zero defax
+R8901:8911 VST.msl.boolean_alg SHARE_MODEL tree_height defax
+ax 8950:8964 SHARE_MODEL tree_round_left
+R8971:8974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8976:8979 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8980:8985 Coq.Init.Datatypes <> option ind
+R8987:8987 VST.msl.boolean_alg SHARE_MODEL t defax
+R8975:8975 VST.msl.boolean_alg SHARE_MODEL t defax
+R8968:8970 Coq.Init.Datatypes <> nat ind
+inst 9001:9015 SHARE_MODEL roundableL_tree
+R9019:9031 VST.msl.boolean_alg <> roundableLeft class
+R9033:9033 VST.msl.boolean_alg SHARE_MODEL t defax
+R9041:9053 VST.msl.boolean_alg <> RoundableLeft constr
+R9055:9069 VST.msl.boolean_alg SHARE_MODEL tree_round_left defax
+ax 9091:9106 SHARE_MODEL tree_round_right
+R9113:9116 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9118:9121 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9122:9127 Coq.Init.Datatypes <> option ind
+R9129:9129 VST.msl.boolean_alg SHARE_MODEL t defax
+R9117:9117 VST.msl.boolean_alg SHARE_MODEL t defax
+R9110:9112 Coq.Init.Datatypes <> nat ind
+inst 9143:9157 SHARE_MODEL roundableR_tree
+R9161:9174 VST.msl.boolean_alg <> roundableRight class
+R9176:9176 VST.msl.boolean_alg SHARE_MODEL t defax
+R9184:9197 VST.msl.boolean_alg <> RoundableRight constr
+R9199:9214 VST.msl.boolean_alg SHARE_MODEL tree_round_right defax
+ax 9236:9243 SHARE_MODEL tree_avg
+R9250:9253 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9255:9258 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9260:9263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9264:9269 Coq.Init.Datatypes <> option ind
+R9271:9271 VST.msl.boolean_alg SHARE_MODEL t defax
+R9259:9259 VST.msl.boolean_alg SHARE_MODEL t defax
+R9254:9254 VST.msl.boolean_alg SHARE_MODEL t defax
+R9247:9249 Coq.Init.Datatypes <> nat ind
+inst 9284:9295 SHARE_MODEL avgable_tree
+R9299:9305 VST.msl.boolean_alg <> avgable class
+R9307:9307 VST.msl.boolean_alg SHARE_MODEL t defax
+R9316:9322 VST.msl.boolean_alg <> Avgable constr
+R9324:9331 VST.msl.boolean_alg SHARE_MODEL tree_avg defax
+ax 9353:9364 SHARE_MODEL countBLeafCT
+R9371:9374 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9376:9379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9380:9382 Coq.Init.Datatypes <> nat ind
+R9375:9375 VST.msl.boolean_alg SHARE_MODEL t defax
+R9368:9370 Coq.Init.Datatypes <> nat ind
+ax 9404:9415 SHARE_MODEL share_metric
+R9422:9425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9427:9430 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9431:9433 Coq.Init.Datatypes <> nat ind
+R9426:9426 VST.msl.boolean_alg SHARE_MODEL t defax
+R9419:9421 Coq.Init.Datatypes <> nat ind
+ax 9455:9468 SHARE_MODEL tree_decompose
+R9473:9477 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9483:9483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9479:9481 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R9478:9478 VST.msl.boolean_alg SHARE_MODEL t defax
+R9482:9482 VST.msl.boolean_alg SHARE_MODEL t defax
+R9472:9472 VST.msl.boolean_alg SHARE_MODEL t defax
+inst 9496:9509 SHARE_MODEL decompose_tree
+R9513:9524 VST.msl.boolean_alg <> decomposible class
+R9526:9526 VST.msl.boolean_alg SHARE_MODEL t defax
+R9534:9545 VST.msl.boolean_alg <> Decomposible constr
+R9547:9560 VST.msl.boolean_alg SHARE_MODEL tree_decompose defax
+ax 9582:9590 SHARE_MODEL recompose
+R9594:9594 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9600:9604 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9605:9605 VST.msl.boolean_alg SHARE_MODEL t defax
+R9596:9598 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R9595:9595 VST.msl.boolean_alg SHARE_MODEL t defax
+R9599:9599 VST.msl.boolean_alg SHARE_MODEL t defax
+ax 9627:9631 SHARE_MODEL power
+R9638:9641 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9645:9648 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9649:9651 Coq.Init.Datatypes <> nat ind
+R9642:9644 Coq.Init.Datatypes <> nat ind
+R9635:9637 Coq.Init.Datatypes <> nat ind
+ax 9674:9676 SHARE_MODEL add
+R9681:9684 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9686:9689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9690:9695 Coq.Init.Datatypes <> option ind
+R9697:9697 VST.msl.boolean_alg SHARE_MODEL t defax
+R9685:9685 VST.msl.boolean_alg SHARE_MODEL t defax
+R9680:9680 VST.msl.boolean_alg SHARE_MODEL t defax
+ax 9720:9722 SHARE_MODEL sub
+R9727:9730 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9732:9735 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9736:9741 Coq.Init.Datatypes <> option ind
+R9743:9743 VST.msl.boolean_alg SHARE_MODEL t defax
+R9731:9731 VST.msl.boolean_alg SHARE_MODEL t defax
+R9726:9726 VST.msl.boolean_alg SHARE_MODEL t defax
+ax 9761:9767 SHARE_MODEL leq_dec
+R9785:9785 VST.msl.boolean_alg SHARE_MODEL t defax
+binder 9779:9779 <> x:281
+binder 9781:9781 <> y:282
+R9789:9789 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R9796:9800 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R9811:9811 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R9791:9794 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R9790:9790 VST.msl.boolean_alg <> x:281 var
+R9795:9795 VST.msl.boolean_alg <> y:282 var
+R9801:9803 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9810:9810 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9805:9808 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R9804:9804 VST.msl.boolean_alg <> x:281 var
+R9809:9809 VST.msl.boolean_alg <> y:282 var
+ax 9829:9838 SHARE_MODEL height_top
+R9852:9854 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9842:9847 VST.msl.boolean_alg <> height meth
+R9849:9851 VST.msl.boolean_alg SHARE_MODEL top defax
+ax 9873:9882 SHARE_MODEL height_bot
+R9896:9898 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9886:9891 VST.msl.boolean_alg <> height meth
+R9893:9895 VST.msl.boolean_alg SHARE_MODEL bot defax
+ax 9917:9930 SHARE_MODEL height_zero_eq
+binder 9940:9940 <> t:286
+R9955:9958 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9959:9959 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R9967:9971 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R9979:9979 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R9961:9963 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9960:9960 VST.msl.boolean_alg <> t:286 var
+R9964:9966 VST.msl.boolean_alg SHARE_MODEL top defax
+R9973:9975 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9972:9972 VST.msl.boolean_alg <> t:286 var
+R9976:9978 VST.msl.boolean_alg SHARE_MODEL bot defax
+R9951:9953 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9943:9948 VST.msl.boolean_alg <> height meth
+R9950:9950 VST.msl.boolean_alg <> t:286 var
+ax 9997:10012 SHARE_MODEL decompose_height
+binder 10023:10023 <> n:288
+binder 10025:10026 <> t1:289
+binder 10028:10029 <> t2:290
+binder 10031:10032 <> t3:291
+R10076:10105 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10129:10158 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10179:10182 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10169:10172 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R10160:10165 VST.msl.boolean_alg <> height meth
+R10167:10168 VST.msl.boolean_alg <> t2:290 var
+R10173:10173 VST.msl.boolean_alg <> n:288 var
+R10193:10196 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R10184:10189 VST.msl.boolean_alg <> height meth
+R10191:10192 VST.msl.boolean_alg <> t3:291 var
+R10197:10197 VST.msl.boolean_alg <> n:288 var
+R10118:10120 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10106:10114 VST.msl.boolean_alg <> decompose meth
+R10116:10117 VST.msl.boolean_alg <> t1:289 var
+R10121:10121 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10124:10125 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10128:10128 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10122:10123 VST.msl.boolean_alg <> t2:290 var
+R10126:10127 VST.msl.boolean_alg <> t3:291 var
+R10070:10072 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10061:10066 VST.msl.boolean_alg <> height meth
+R10068:10069 VST.msl.boolean_alg <> t1:289 var
+R10073:10073 Coq.Init.Datatypes <> S constr
+R10075:10075 VST.msl.boolean_alg <> n:288 var
+ax 10220:10238 SHARE_MODEL decompose_recompose
+binder 10248:10248 <> t:293
+R10278:10280 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10255:10263 VST.msl.boolean_alg <> decompose meth
+R10266:10274 VST.msl.boolean_alg SHARE_MODEL recompose defax
+R10276:10276 VST.msl.boolean_alg <> t:293 var
+R10281:10281 VST.msl.boolean_alg <> t:293 var
+ax 10299:10317 SHARE_MODEL recompose_decompose
+binder 10327:10327 <> t:295
+R10357:10359 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10334:10342 VST.msl.boolean_alg SHARE_MODEL recompose defax
+R10345:10353 VST.msl.boolean_alg <> decompose meth
+R10355:10355 VST.msl.boolean_alg <> t:295 var
+R10360:10360 VST.msl.boolean_alg <> t:295 var
+ax 10378:10391 SHARE_MODEL decompose_join
+binder 10401:10402 <> t1:297
+binder 10404:10406 <> t11:298
+binder 10408:10410 <> t12:299
+binder 10412:10413 <> t2:300
+binder 10415:10417 <> t21:301
+binder 10419:10421 <> t22:302
+binder 10423:10424 <> t3:303
+binder 10426:10428 <> t31:304
+binder 10430:10432 <> t32:305
+R10464:10471 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10497:10504 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10530:10538 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10599:10599 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10552:10561 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10598:10598 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10539:10542 VST.msl.sepalg <> join def
+R10550:10551 VST.msl.boolean_alg <> t3:303 var
+R10547:10548 VST.msl.boolean_alg <> t2:300 var
+R10544:10545 VST.msl.boolean_alg <> t1:297 var
+R10578:10581 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10562:10565 VST.msl.sepalg <> join def
+R10575:10577 VST.msl.boolean_alg <> t31:304 var
+R10571:10573 VST.msl.boolean_alg <> t21:301 var
+R10567:10569 VST.msl.boolean_alg <> t11:298 var
+R10582:10585 VST.msl.sepalg <> join def
+R10595:10597 VST.msl.boolean_alg <> t32:305 var
+R10591:10593 VST.msl.boolean_alg <> t22:302 var
+R10587:10589 VST.msl.boolean_alg <> t12:299 var
+R10517:10519 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10505:10513 VST.msl.boolean_alg <> decompose meth
+R10515:10516 VST.msl.boolean_alg <> t3:303 var
+R10520:10520 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10524:10525 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10529:10529 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10521:10523 VST.msl.boolean_alg <> t31:304 var
+R10526:10528 VST.msl.boolean_alg <> t32:305 var
+R10484:10486 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10472:10480 VST.msl.boolean_alg <> decompose meth
+R10482:10483 VST.msl.boolean_alg <> t2:300 var
+R10487:10487 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10491:10492 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10496:10496 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10488:10490 VST.msl.boolean_alg <> t21:301 var
+R10493:10495 VST.msl.boolean_alg <> t22:302 var
+R10451:10453 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10439:10447 VST.msl.boolean_alg <> decompose meth
+R10449:10450 VST.msl.boolean_alg <> t1:297 var
+R10454:10454 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10458:10459 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10463:10463 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10455:10457 VST.msl.boolean_alg <> t11:298 var
+R10460:10462 VST.msl.boolean_alg <> t12:299 var
+ax 10609:10621 SHARE_MODEL decompose_glb
+binder 10631:10632 <> t1:307
+binder 10634:10636 <> t11:308
+binder 10638:10640 <> t12:309
+binder 10642:10643 <> t2:310
+binder 10645:10647 <> t21:311
+binder 10649:10651 <> t22:312
+binder 10653:10654 <> t3:313
+binder 10656:10658 <> t31:314
+binder 10660:10662 <> t32:315
+R10691:10696 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10721:10726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10751:10757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10817:10817 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10772:10777 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10816:10816 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10767:10769 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10758:10760 VST.msl.boolean_alg SHARE_MODEL glb defax
+R10765:10766 VST.msl.boolean_alg <> t2:310 var
+R10762:10763 VST.msl.boolean_alg <> t1:307 var
+R10770:10771 VST.msl.boolean_alg <> t3:313 var
+R10795:10798 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10789:10791 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10778:10780 VST.msl.boolean_alg SHARE_MODEL glb defax
+R10786:10788 VST.msl.boolean_alg <> t21:311 var
+R10782:10784 VST.msl.boolean_alg <> t11:308 var
+R10792:10794 VST.msl.boolean_alg <> t31:314 var
+R10810:10812 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10799:10801 VST.msl.boolean_alg SHARE_MODEL glb defax
+R10807:10809 VST.msl.boolean_alg <> t22:312 var
+R10803:10805 VST.msl.boolean_alg <> t12:309 var
+R10813:10815 VST.msl.boolean_alg <> t32:315 var
+R10739:10741 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10727:10735 VST.msl.boolean_alg <> decompose meth
+R10737:10738 VST.msl.boolean_alg <> t3:313 var
+R10742:10742 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10746:10746 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10750:10750 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10743:10745 VST.msl.boolean_alg <> t31:314 var
+R10747:10749 VST.msl.boolean_alg <> t32:315 var
+R10709:10711 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10697:10705 VST.msl.boolean_alg <> decompose meth
+R10707:10708 VST.msl.boolean_alg <> t2:310 var
+R10712:10712 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10716:10716 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10720:10720 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10713:10715 VST.msl.boolean_alg <> t21:311 var
+R10717:10719 VST.msl.boolean_alg <> t22:312 var
+R10679:10681 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10667:10675 VST.msl.boolean_alg <> decompose meth
+R10677:10678 VST.msl.boolean_alg <> t1:307 var
+R10682:10682 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10686:10686 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10690:10690 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10683:10685 VST.msl.boolean_alg <> t11:308 var
+R10687:10689 VST.msl.boolean_alg <> t12:309 var
+ax 10827:10839 SHARE_MODEL decompose_lub
+binder 10849:10850 <> t1:317
+binder 10852:10854 <> t11:318
+binder 10856:10858 <> t12:319
+binder 10860:10861 <> t2:320
+binder 10863:10865 <> t21:321
+binder 10867:10869 <> t22:322
+binder 10871:10872 <> t3:323
+binder 10874:10876 <> t31:324
+binder 10878:10880 <> t32:325
+R10909:10914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10939:10944 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10969:10975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11035:11035 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10990:10995 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11034:11034 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10985:10987 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10976:10978 VST.msl.boolean_alg SHARE_MODEL lub defax
+R10983:10984 VST.msl.boolean_alg <> t2:320 var
+R10980:10981 VST.msl.boolean_alg <> t1:317 var
+R10988:10989 VST.msl.boolean_alg <> t3:323 var
+R11013:11016 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11007:11009 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10996:10998 VST.msl.boolean_alg SHARE_MODEL lub defax
+R11004:11006 VST.msl.boolean_alg <> t21:321 var
+R11000:11002 VST.msl.boolean_alg <> t11:318 var
+R11010:11012 VST.msl.boolean_alg <> t31:324 var
+R11028:11030 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11017:11019 VST.msl.boolean_alg SHARE_MODEL lub defax
+R11025:11027 VST.msl.boolean_alg <> t22:322 var
+R11021:11023 VST.msl.boolean_alg <> t12:319 var
+R11031:11033 VST.msl.boolean_alg <> t32:325 var
+R10957:10959 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10945:10953 VST.msl.boolean_alg <> decompose meth
+R10955:10956 VST.msl.boolean_alg <> t3:323 var
+R10960:10960 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10964:10964 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10968:10968 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10961:10963 VST.msl.boolean_alg <> t31:324 var
+R10965:10967 VST.msl.boolean_alg <> t32:325 var
+R10927:10929 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10915:10923 VST.msl.boolean_alg <> decompose meth
+R10925:10926 VST.msl.boolean_alg <> t2:320 var
+R10930:10930 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10934:10934 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10938:10938 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10931:10933 VST.msl.boolean_alg <> t21:321 var
+R10935:10937 VST.msl.boolean_alg <> t22:322 var
+R10897:10899 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10885:10893 VST.msl.boolean_alg <> decompose meth
+R10895:10896 VST.msl.boolean_alg <> t1:317 var
+R10900:10900 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10904:10904 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10908:10908 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10901:10903 VST.msl.boolean_alg <> t11:318 var
+R10905:10907 VST.msl.boolean_alg <> t12:319 var
+ax 11053:11060 SHARE_MODEL add_join
+binder 11071:11072 <> t1:327
+binder 11074:11075 <> t2:328
+binder 11077:11078 <> t3:329
+R11104:11108 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11094:11096 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11085:11087 VST.msl.boolean_alg SHARE_MODEL add defax
+R11092:11093 VST.msl.boolean_alg <> t2:328 var
+R11089:11090 VST.msl.boolean_alg <> t1:327 var
+R11097:11100 Coq.Init.Datatypes <> Some constr
+R11102:11103 VST.msl.boolean_alg <> t3:329 var
+R11109:11112 VST.msl.sepalg <> join def
+R11120:11121 VST.msl.boolean_alg <> t3:329 var
+R11117:11118 VST.msl.boolean_alg <> t2:328 var
+R11114:11115 VST.msl.boolean_alg <> t1:327 var
+ax 11139:11146 SHARE_MODEL sub_join
+binder 11157:11158 <> t1:331
+binder 11160:11161 <> t2:332
+binder 11163:11164 <> t3:333
+R11190:11194 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11180:11182 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11171:11173 VST.msl.boolean_alg SHARE_MODEL sub defax
+R11178:11179 VST.msl.boolean_alg <> t2:332 var
+R11175:11176 VST.msl.boolean_alg <> t1:331 var
+R11183:11186 Coq.Init.Datatypes <> Some constr
+R11188:11189 VST.msl.boolean_alg <> t3:333 var
+R11195:11198 VST.msl.sepalg <> join def
+R11206:11207 VST.msl.boolean_alg <> t1:331 var
+R11203:11204 VST.msl.boolean_alg <> t3:333 var
+R11200:11201 VST.msl.boolean_alg <> t2:332 var
+ax 11226:11259 SHARE_MODEL decompose_share_height_no_increase
+binder 11269:11270 <> sh:335
+binder 11272:11274 <> sh':336
+binder 11276:11279 <> sh'':337
+R11311:11316 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11341:11344 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11328:11331 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11318:11323 VST.msl.boolean_alg <> height meth
+R11325:11327 VST.msl.boolean_alg <> sh':336 var
+R11332:11337 VST.msl.boolean_alg <> height meth
+R11339:11340 VST.msl.boolean_alg <> sh:335 var
+R11356:11359 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11345:11350 VST.msl.boolean_alg <> height meth
+R11352:11355 VST.msl.boolean_alg <> sh'':337 var
+R11360:11365 VST.msl.boolean_alg <> height meth
+R11367:11368 VST.msl.boolean_alg <> sh:335 var
+R11298:11300 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11286:11294 VST.msl.boolean_alg <> decompose meth
+R11296:11297 VST.msl.boolean_alg <> sh:335 var
+R11301:11301 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11305:11305 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11310:11310 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11302:11304 VST.msl.boolean_alg <> sh':336 var
+R11306:11309 VST.msl.boolean_alg <> sh'':337 var
+ax 11585:11603 SHARE_MODEL decompose_height_le
+binder 11613:11613 <> n:339
+binder 11615:11615 <> s:340
+binder 11617:11618 <> s1:341
+binder 11620:11621 <> s2:342
+R11647:11652 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11674:11679 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11700:11703 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11690:11693 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11681:11686 VST.msl.boolean_alg <> height meth
+R11688:11689 VST.msl.boolean_alg <> s1:341 var
+R11694:11694 VST.msl.boolean_alg <> n:339 var
+R11714:11717 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11705:11710 VST.msl.boolean_alg <> height meth
+R11712:11713 VST.msl.boolean_alg <> s2:342 var
+R11718:11718 VST.msl.boolean_alg <> n:339 var
+R11662:11665 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11654:11659 VST.msl.boolean_alg <> height meth
+R11661:11661 VST.msl.boolean_alg <> s:340 var
+R11666:11666 Coq.Init.Datatypes <> S constr
+R11668:11668 VST.msl.boolean_alg <> n:339 var
+R11637:11639 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11626:11634 VST.msl.boolean_alg <> decompose meth
+R11636:11636 VST.msl.boolean_alg <> s:340 var
+R11640:11640 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11643:11643 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11646:11646 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11641:11642 VST.msl.boolean_alg <> s1:341 var
+R11644:11645 VST.msl.boolean_alg <> s2:342 var
+ax 11742:11753 SHARE_MODEL decompose_le
+binder 11763:11764 <> s1:344
+binder 11766:11767 <> s2:345
+binder 11769:11771 <> s11:346
+binder 11773:11775 <> s12:347
+binder 11777:11779 <> s21:348
+binder 11781:11783 <> s22:349
+R11796:11801 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11826:11831 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11856:11861 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11872:11875 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11865:11868 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R11862:11864 VST.msl.boolean_alg <> s11:346 var
+R11869:11871 VST.msl.boolean_alg <> s21:348 var
+R11879:11882 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R11876:11878 VST.msl.boolean_alg <> s12:347 var
+R11883:11885 VST.msl.boolean_alg <> s22:349 var
+R11844:11846 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11832:11840 VST.msl.boolean_alg <> decompose meth
+R11842:11843 VST.msl.boolean_alg <> s2:345 var
+R11847:11847 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11851:11851 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11855:11855 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11848:11850 VST.msl.boolean_alg <> s21:348 var
+R11852:11854 VST.msl.boolean_alg <> s22:349 var
+R11814:11816 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11802:11810 VST.msl.boolean_alg <> decompose meth
+R11812:11813 VST.msl.boolean_alg <> s1:344 var
+R11817:11817 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11821:11821 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11825:11825 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11818:11820 VST.msl.boolean_alg <> s11:346 var
+R11822:11824 VST.msl.boolean_alg <> s12:347 var
+R11790:11793 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R11788:11789 VST.msl.boolean_alg <> s1:344 var
+R11794:11795 VST.msl.boolean_alg <> s2:345 var
+ax 11904:11917 SHARE_MODEL decompose_diff
+binder 11927:11928 <> s1:351
+binder 11930:11931 <> s2:352
+binder 11933:11935 <> s11:353
+binder 11937:11939 <> s12:354
+binder 11941:11943 <> s21:355
+binder 11945:11947 <> s22:356
+R11960:11965 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11990:11995 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12020:12025 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12036:12039 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R12029:12032 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R12026:12028 VST.msl.boolean_alg <> s11:353 var
+R12033:12035 VST.msl.boolean_alg <> s21:355 var
+R12043:12046 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R12040:12042 VST.msl.boolean_alg <> s12:354 var
+R12047:12049 VST.msl.boolean_alg <> s22:356 var
+R12008:12010 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11996:12004 VST.msl.boolean_alg <> decompose meth
+R12006:12007 VST.msl.boolean_alg <> s2:352 var
+R12011:12011 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12015:12015 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12019:12019 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12012:12014 VST.msl.boolean_alg <> s21:355 var
+R12016:12018 VST.msl.boolean_alg <> s22:356 var
+R11978:11980 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11966:11974 VST.msl.boolean_alg <> decompose meth
+R11976:11977 VST.msl.boolean_alg <> s1:351 var
+R11981:11981 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11985:11985 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11989:11989 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11982:11984 VST.msl.boolean_alg <> s11:353 var
+R11986:11988 VST.msl.boolean_alg <> s12:354 var
+R11954:11957 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11952:11953 VST.msl.boolean_alg <> s1:351 var
+R11958:11959 VST.msl.boolean_alg <> s2:352 var
+ax 12068:12087 SHARE_MODEL tree_round_left_join
+binder 12098:12098 <> n:358
+binder 12100:12101 <> t1:359
+binder 12103:12104 <> t2:360
+binder 12106:12107 <> t3:361
+binder 12109:12111 <> t1':362
+binder 12113:12115 <> t2':363
+binder 12117:12119 <> t3':364
+R12139:12146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12169:12176 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12199:12206 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12229:12236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12237:12240 VST.msl.sepalg <> join def
+R12250:12252 VST.msl.boolean_alg <> t3':364 var
+R12246:12248 VST.msl.boolean_alg <> t2':363 var
+R12242:12244 VST.msl.boolean_alg <> t1':362 var
+R12218:12220 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12207:12212 VST.msl.boolean_alg <> roundL meth
+R12216:12217 VST.msl.boolean_alg <> t3:361 var
+R12214:12214 VST.msl.boolean_alg <> n:358 var
+R12221:12224 Coq.Init.Datatypes <> Some constr
+R12226:12228 VST.msl.boolean_alg <> t3':364 var
+R12188:12190 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12177:12182 VST.msl.boolean_alg <> roundL meth
+R12186:12187 VST.msl.boolean_alg <> t2:360 var
+R12184:12184 VST.msl.boolean_alg <> n:358 var
+R12191:12194 Coq.Init.Datatypes <> Some constr
+R12196:12198 VST.msl.boolean_alg <> t2':363 var
+R12158:12160 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12147:12152 VST.msl.boolean_alg <> roundL meth
+R12156:12157 VST.msl.boolean_alg <> t1:359 var
+R12154:12154 VST.msl.boolean_alg <> n:358 var
+R12161:12164 Coq.Init.Datatypes <> Some constr
+R12166:12168 VST.msl.boolean_alg <> t1':362 var
+R12126:12129 VST.msl.sepalg <> join def
+R12137:12138 VST.msl.boolean_alg <> t3:361 var
+R12134:12135 VST.msl.boolean_alg <> t2:360 var
+R12131:12132 VST.msl.boolean_alg <> t1:359 var
+ax 12271:12294 SHARE_MODEL tree_round_left_identity
+binder 12305:12305 <> n:366
+binder 12307:12307 <> t:367
+R12326:12333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12344:12346 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12334:12339 VST.msl.boolean_alg <> roundL meth
+R12343:12343 VST.msl.boolean_alg <> t:367 var
+R12341:12341 VST.msl.boolean_alg <> n:366 var
+R12347:12350 Coq.Init.Datatypes <> Some constr
+R12352:12352 VST.msl.boolean_alg <> t:367 var
+R12322:12324 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R12314:12319 VST.msl.boolean_alg <> height meth
+R12321:12321 VST.msl.boolean_alg <> t:367 var
+R12325:12325 VST.msl.boolean_alg <> n:366 var
+ax 12371:12390 SHARE_MODEL tree_round_left_None
+binder 12401:12401 <> n:369
+binder 12403:12403 <> t:370
+R12422:12429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12440:12442 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12430:12435 VST.msl.boolean_alg <> roundL meth
+R12439:12439 VST.msl.boolean_alg <> t:370 var
+R12437:12437 VST.msl.boolean_alg <> n:369 var
+R12443:12446 Coq.Init.Datatypes <> None constr
+R12411:12413 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R12410:12410 VST.msl.boolean_alg <> n:369 var
+R12414:12419 VST.msl.boolean_alg <> height meth
+R12421:12421 VST.msl.boolean_alg <> t:370 var
+ax 12465:12488 SHARE_MODEL tree_round_left_decrease
+binder 12499:12499 <> n:372
+binder 12501:12501 <> t:373
+R12522:12529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12530:12536 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12539:12540 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12537:12538 <> t':374
+R12565:12568 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12555:12557 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12541:12546 VST.msl.boolean_alg <> roundL meth
+R12554:12554 VST.msl.boolean_alg <> t:373 var
+R12549:12549 Coq.Init.Datatypes <> S constr
+R12551:12551 VST.msl.boolean_alg <> n:372 var
+R12558:12561 Coq.Init.Datatypes <> Some constr
+R12563:12564 VST.msl.boolean_alg <> t':374 var
+R12579:12582 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12570:12575 VST.msl.boolean_alg <> height meth
+R12577:12578 VST.msl.boolean_alg <> t':374 var
+R12583:12583 VST.msl.boolean_alg <> n:372 var
+R12511:12513 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12508:12508 Coq.Init.Datatypes <> S constr
+R12510:12510 VST.msl.boolean_alg <> n:372 var
+R12514:12519 VST.msl.boolean_alg <> height meth
+R12521:12521 VST.msl.boolean_alg <> t:373 var
+ax 12607:12626 SHARE_MODEL tree_round_left_Some
+binder 12637:12637 <> n:376
+binder 12639:12639 <> t:377
+R12667:12674 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12675:12681 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12684:12685 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12682:12683 <> t':378
+R12700:12702 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12686:12691 VST.msl.boolean_alg <> roundL meth
+R12699:12699 VST.msl.boolean_alg <> t:377 var
+R12694:12694 Coq.Init.Datatypes <> S constr
+R12696:12696 VST.msl.boolean_alg <> n:376 var
+R12703:12706 Coq.Init.Datatypes <> Some constr
+R12708:12709 VST.msl.boolean_alg <> t':378 var
+R12655:12658 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12647:12652 VST.msl.boolean_alg <> height meth
+R12654:12654 VST.msl.boolean_alg <> t:377 var
+R12659:12659 Coq.Init.Datatypes <> S constr
+R12661:12661 VST.msl.boolean_alg <> n:376 var
+ax 12728:12757 SHARE_MODEL tree_round_left_height_compare
+binder 12768:12768 <> t:380
+binder 12770:12771 <> t':381
+binder 12773:12773 <> n:382
+R12800:12807 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12818:12820 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R12809:12814 VST.msl.boolean_alg <> height meth
+R12816:12817 VST.msl.boolean_alg <> t':381 var
+R12821:12821 VST.msl.boolean_alg <> n:382 var
+R12790:12792 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12780:12785 VST.msl.boolean_alg <> roundL meth
+R12789:12789 VST.msl.boolean_alg <> t:380 var
+R12787:12787 VST.msl.boolean_alg <> n:382 var
+R12793:12796 Coq.Init.Datatypes <> Some constr
+R12798:12799 VST.msl.boolean_alg <> t':381 var
+ax 12846:12865 SHARE_MODEL tree_round_left_zero
+binder 12875:12875 <> t:384
+R12892:12894 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12882:12887 VST.msl.boolean_alg <> roundL meth
+R12891:12891 VST.msl.boolean_alg <> t:384 var
+R12895:12898 Coq.Init.Datatypes <> None constr
+ax 12917:12937 SHARE_MODEL tree_round_right_join
+binder 12948:12948 <> n:386
+binder 12950:12951 <> t1:387
+binder 12953:12954 <> t2:388
+binder 12956:12957 <> t3:389
+binder 12959:12961 <> t1':390
+binder 12963:12965 <> t2':391
+binder 12967:12969 <> t3':392
+R12989:12996 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13019:13026 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13049:13056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13079:13086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13087:13090 VST.msl.sepalg <> join def
+R13100:13102 VST.msl.boolean_alg <> t3':392 var
+R13096:13098 VST.msl.boolean_alg <> t2':391 var
+R13092:13094 VST.msl.boolean_alg <> t1':390 var
+R13068:13070 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13057:13062 VST.msl.boolean_alg <> roundR meth
+R13066:13067 VST.msl.boolean_alg <> t3:389 var
+R13064:13064 VST.msl.boolean_alg <> n:386 var
+R13071:13074 Coq.Init.Datatypes <> Some constr
+R13076:13078 VST.msl.boolean_alg <> t3':392 var
+R13038:13040 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13027:13032 VST.msl.boolean_alg <> roundR meth
+R13036:13037 VST.msl.boolean_alg <> t2:388 var
+R13034:13034 VST.msl.boolean_alg <> n:386 var
+R13041:13044 Coq.Init.Datatypes <> Some constr
+R13046:13048 VST.msl.boolean_alg <> t2':391 var
+R13008:13010 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12997:13002 VST.msl.boolean_alg <> roundR meth
+R13006:13007 VST.msl.boolean_alg <> t1:387 var
+R13004:13004 VST.msl.boolean_alg <> n:386 var
+R13011:13014 Coq.Init.Datatypes <> Some constr
+R13016:13018 VST.msl.boolean_alg <> t1':390 var
+R12976:12979 VST.msl.sepalg <> join def
+R12987:12988 VST.msl.boolean_alg <> t3:389 var
+R12984:12985 VST.msl.boolean_alg <> t2:388 var
+R12981:12982 VST.msl.boolean_alg <> t1:387 var
+ax 13121:13145 SHARE_MODEL tree_round_right_identity
+binder 13156:13156 <> n:394
+binder 13158:13158 <> t:395
+R13177:13184 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13195:13197 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13185:13190 VST.msl.boolean_alg <> roundR meth
+R13194:13194 VST.msl.boolean_alg <> t:395 var
+R13192:13192 VST.msl.boolean_alg <> n:394 var
+R13198:13201 Coq.Init.Datatypes <> Some constr
+R13203:13203 VST.msl.boolean_alg <> t:395 var
+R13173:13175 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R13165:13170 VST.msl.boolean_alg <> height meth
+R13172:13172 VST.msl.boolean_alg <> t:395 var
+R13176:13176 VST.msl.boolean_alg <> n:394 var
+ax 13222:13242 SHARE_MODEL tree_round_right_None
+binder 13253:13253 <> n:397
+binder 13255:13255 <> t:398
+R13274:13281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13292:13294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13282:13287 VST.msl.boolean_alg <> roundR meth
+R13291:13291 VST.msl.boolean_alg <> t:398 var
+R13289:13289 VST.msl.boolean_alg <> n:397 var
+R13295:13298 Coq.Init.Datatypes <> None constr
+R13263:13265 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R13262:13262 VST.msl.boolean_alg <> n:397 var
+R13266:13271 VST.msl.boolean_alg <> height meth
+R13273:13273 VST.msl.boolean_alg <> t:398 var
+ax 13317:13341 SHARE_MODEL tree_round_right_decrease
+binder 13352:13352 <> n:400
+binder 13354:13354 <> t:401
+R13375:13382 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13383:13389 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13392:13393 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 13390:13391 <> t':402
+R13418:13421 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13408:13410 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13394:13399 VST.msl.boolean_alg <> roundR meth
+R13407:13407 VST.msl.boolean_alg <> t:401 var
+R13402:13402 Coq.Init.Datatypes <> S constr
+R13404:13404 VST.msl.boolean_alg <> n:400 var
+R13411:13414 Coq.Init.Datatypes <> Some constr
+R13416:13417 VST.msl.boolean_alg <> t':402 var
+R13432:13435 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R13423:13428 VST.msl.boolean_alg <> height meth
+R13430:13431 VST.msl.boolean_alg <> t':402 var
+R13436:13436 VST.msl.boolean_alg <> n:400 var
+R13364:13366 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13361:13361 Coq.Init.Datatypes <> S constr
+R13363:13363 VST.msl.boolean_alg <> n:400 var
+R13367:13372 VST.msl.boolean_alg <> height meth
+R13374:13374 VST.msl.boolean_alg <> t:401 var
+ax 13460:13480 SHARE_MODEL tree_round_right_Some
+binder 13491:13491 <> n:404
+binder 13493:13493 <> t:405
+R13521:13528 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13529:13535 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13538:13539 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 13536:13537 <> t':406
+R13554:13556 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13540:13545 VST.msl.boolean_alg <> roundR meth
+R13553:13553 VST.msl.boolean_alg <> t:405 var
+R13548:13548 Coq.Init.Datatypes <> S constr
+R13550:13550 VST.msl.boolean_alg <> n:404 var
+R13557:13560 Coq.Init.Datatypes <> Some constr
+R13562:13563 VST.msl.boolean_alg <> t':406 var
+R13509:13512 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R13501:13506 VST.msl.boolean_alg <> height meth
+R13508:13508 VST.msl.boolean_alg <> t:405 var
+R13513:13513 Coq.Init.Datatypes <> S constr
+R13515:13515 VST.msl.boolean_alg <> n:404 var
+ax 13582:13612 SHARE_MODEL tree_round_right_height_compare
+binder 13623:13623 <> t:408
+binder 13625:13626 <> t':409
+binder 13628:13628 <> n:410
+R13655:13662 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13673:13675 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R13664:13669 VST.msl.boolean_alg <> height meth
+R13671:13672 VST.msl.boolean_alg <> t':409 var
+R13676:13676 VST.msl.boolean_alg <> n:410 var
+R13645:13647 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13635:13640 VST.msl.boolean_alg <> roundR meth
+R13644:13644 VST.msl.boolean_alg <> t:408 var
+R13642:13642 VST.msl.boolean_alg <> n:410 var
+R13648:13651 Coq.Init.Datatypes <> Some constr
+R13653:13654 VST.msl.boolean_alg <> t':409 var
+ax 13701:13721 SHARE_MODEL tree_round_right_zero
+binder 13731:13731 <> t:412
+R13748:13750 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13738:13743 VST.msl.boolean_alg <> roundR meth
+R13747:13747 VST.msl.boolean_alg <> t:412 var
+R13751:13754 Coq.Init.Datatypes <> None constr
+ax 13776:13792 SHARE_MODEL tree_avg_identity
+binder 13831:13831 <> n:414
+binder 13833:13833 <> t:415
+R13851:13857 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13867:13869 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13858:13860 VST.msl.boolean_alg <> avg meth
+R13866:13866 VST.msl.boolean_alg <> t:415 var
+R13864:13864 VST.msl.boolean_alg <> t:415 var
+R13862:13862 VST.msl.boolean_alg <> n:414 var
+R13870:13873 Coq.Init.Datatypes <> Some constr
+R13875:13875 VST.msl.boolean_alg <> t:415 var
+R13847:13849 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R13839:13844 VST.msl.boolean_alg <> height meth
+R13846:13846 VST.msl.boolean_alg <> t:415 var
+R13850:13850 VST.msl.boolean_alg <> n:414 var
+ax 13896:13908 SHARE_MODEL tree_avg_None
+binder 13919:13919 <> n:417
+binder 13921:13922 <> t1:418
+binder 13924:13925 <> t2:419
+R13969:13975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13987:13989 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13976:13978 VST.msl.boolean_alg <> avg meth
+R13985:13986 VST.msl.boolean_alg <> t2:419 var
+R13982:13983 VST.msl.boolean_alg <> t1:418 var
+R13980:13980 VST.msl.boolean_alg <> n:417 var
+R13990:13993 Coq.Init.Datatypes <> None constr
+R13933:13936 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R13932:13932 VST.msl.boolean_alg <> n:417 var
+R13937:13939 Coq.Init.Peano <> max syndef
+R13954:13959 VST.msl.boolean_alg <> height meth
+R13961:13962 VST.msl.boolean_alg <> t2:419 var
+R13942:13947 VST.msl.boolean_alg <> height meth
+R13949:13950 VST.msl.boolean_alg <> t1:418 var
+ax 14016:14033 SHARE_MODEL tree_avg_round2avg
+binder 14044:14044 <> n:421
+binder 14046:14047 <> t1:422
+binder 14049:14050 <> t2:423
+binder 14052:14053 <> t3:424
+R14080:14086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14108:14114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14126:14128 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14115:14117 VST.msl.boolean_alg <> avg meth
+R14124:14125 VST.msl.boolean_alg <> t2:423 var
+R14121:14122 VST.msl.boolean_alg <> t1:422 var
+R14119:14119 VST.msl.boolean_alg <> n:421 var
+R14129:14132 Coq.Init.Datatypes <> Some constr
+R14134:14135 VST.msl.boolean_alg <> t3:424 var
+R14098:14100 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14087:14092 VST.msl.boolean_alg <> roundR meth
+R14096:14097 VST.msl.boolean_alg <> t3:424 var
+R14094:14094 VST.msl.boolean_alg <> n:421 var
+R14101:14104 Coq.Init.Datatypes <> Some constr
+R14106:14107 VST.msl.boolean_alg <> t2:423 var
+R14070:14072 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14059:14064 VST.msl.boolean_alg <> roundL meth
+R14068:14069 VST.msl.boolean_alg <> t3:424 var
+R14066:14066 VST.msl.boolean_alg <> n:421 var
+R14073:14076 Coq.Init.Datatypes <> Some constr
+R14078:14079 VST.msl.boolean_alg <> t1:422 var
+ax 14156:14173 SHARE_MODEL tree_avg_avg2round
+binder 14184:14184 <> n:426
+binder 14186:14187 <> t1:427
+binder 14189:14190 <> t2:428
+binder 14192:14193 <> t3:429
+R14220:14226 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14248:14254 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14238:14240 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14227:14232 VST.msl.boolean_alg <> roundL meth
+R14236:14237 VST.msl.boolean_alg <> t3:429 var
+R14234:14234 VST.msl.boolean_alg <> n:426 var
+R14241:14244 Coq.Init.Datatypes <> Some constr
+R14246:14247 VST.msl.boolean_alg <> t1:427 var
+R14266:14268 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14255:14260 VST.msl.boolean_alg <> roundR meth
+R14264:14265 VST.msl.boolean_alg <> t3:429 var
+R14262:14262 VST.msl.boolean_alg <> n:426 var
+R14269:14272 Coq.Init.Datatypes <> Some constr
+R14274:14275 VST.msl.boolean_alg <> t2:428 var
+R14210:14212 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14199:14201 VST.msl.boolean_alg <> avg meth
+R14208:14209 VST.msl.boolean_alg <> t2:428 var
+R14205:14206 VST.msl.boolean_alg <> t1:427 var
+R14203:14203 VST.msl.boolean_alg <> n:426 var
+R14213:14216 Coq.Init.Datatypes <> Some constr
+R14218:14219 VST.msl.boolean_alg <> t3:429 var
+ax 14296:14308 SHARE_MODEL tree_avg_join
+binder 14319:14319 <> n:431
+binder 14321:14323 <> t11:432
+binder 14325:14327 <> t12:433
+binder 14329:14331 <> t13:434
+binder 14333:14335 <> t21:435
+binder 14337:14339 <> t22:436
+binder 14341:14343 <> t23:437
+binder 14345:14347 <> t31:438
+binder 14349:14351 <> t32:439
+binder 14353:14355 <> t33:440
+R14386:14392 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14417:14423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14448:14454 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14471:14477 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14494:14500 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14501:14504 VST.msl.sepalg <> join def
+R14514:14516 VST.msl.boolean_alg <> t33:440 var
+R14510:14512 VST.msl.boolean_alg <> t23:437 var
+R14506:14508 VST.msl.boolean_alg <> t13:434 var
+R14478:14481 VST.msl.sepalg <> join def
+R14491:14493 VST.msl.boolean_alg <> t32:439 var
+R14487:14489 VST.msl.boolean_alg <> t22:436 var
+R14483:14485 VST.msl.boolean_alg <> t12:433 var
+R14455:14458 VST.msl.sepalg <> join def
+R14468:14470 VST.msl.boolean_alg <> t31:438 var
+R14464:14466 VST.msl.boolean_alg <> t21:435 var
+R14460:14462 VST.msl.boolean_alg <> t11:432 var
+R14437:14439 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14424:14426 VST.msl.boolean_alg <> avg meth
+R14434:14436 VST.msl.boolean_alg <> t32:439 var
+R14430:14432 VST.msl.boolean_alg <> t31:438 var
+R14428:14428 VST.msl.boolean_alg <> n:431 var
+R14440:14443 Coq.Init.Datatypes <> Some constr
+R14445:14447 VST.msl.boolean_alg <> t33:440 var
+R14406:14408 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14393:14395 VST.msl.boolean_alg <> avg meth
+R14403:14405 VST.msl.boolean_alg <> t22:436 var
+R14399:14401 VST.msl.boolean_alg <> t21:435 var
+R14397:14397 VST.msl.boolean_alg <> n:431 var
+R14409:14412 Coq.Init.Datatypes <> Some constr
+R14414:14416 VST.msl.boolean_alg <> t23:437 var
+R14374:14377 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14361:14363 VST.msl.boolean_alg <> avg meth
+R14371:14373 VST.msl.boolean_alg <> t12:433 var
+R14367:14369 VST.msl.boolean_alg <> t11:432 var
+R14365:14365 VST.msl.boolean_alg <> n:431 var
+R14378:14381 Coq.Init.Datatypes <> Some constr
+R14383:14385 VST.msl.boolean_alg <> t13:434 var
+ax 14537:14547 SHARE_MODEL tree_avg_ex
+binder 14557:14557 <> n:442
+binder 14559:14560 <> t1:443
+binder 14562:14563 <> t2:444
+R14582:14588 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14602:14608 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14609:14615 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14618:14619 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 14616:14617 <> t3:445
+R14631:14633 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14620:14622 VST.msl.boolean_alg <> avg meth
+R14629:14630 VST.msl.boolean_alg <> t2:444 var
+R14626:14627 VST.msl.boolean_alg <> t1:443 var
+R14624:14624 VST.msl.boolean_alg <> n:442 var
+R14634:14637 Coq.Init.Datatypes <> Some constr
+R14639:14640 VST.msl.boolean_alg <> t3:445 var
+R14598:14600 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R14589:14594 VST.msl.boolean_alg <> height meth
+R14596:14597 VST.msl.boolean_alg <> t2:444 var
+R14601:14601 VST.msl.boolean_alg <> n:442 var
+R14578:14580 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R14569:14574 VST.msl.boolean_alg <> height meth
+R14576:14577 VST.msl.boolean_alg <> t1:443 var
+R14581:14581 VST.msl.boolean_alg <> n:442 var
+ax 14661:14677 SHARE_MODEL avg_share_correct
+binder 14687:14687 <> n:447
+binder 14689:14689 <> s:448
+R14716:14722 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14723:14729 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14732:14733 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 14730:14731 <> s':449
+R14734:14740 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14744:14749 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 14741:14743 <> s'':450
+R14774:14781 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14764:14766 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14750:14755 VST.msl.boolean_alg <> roundL meth
+R14763:14763 VST.msl.boolean_alg <> s:448 var
+R14758:14758 Coq.Init.Datatypes <> S constr
+R14760:14760 VST.msl.boolean_alg <> n:447 var
+R14767:14770 Coq.Init.Datatypes <> Some constr
+R14772:14773 VST.msl.boolean_alg <> s':449 var
+R14807:14814 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14796:14798 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14782:14787 VST.msl.boolean_alg <> roundR meth
+R14795:14795 VST.msl.boolean_alg <> s:448 var
+R14790:14790 Coq.Init.Datatypes <> S constr
+R14792:14792 VST.msl.boolean_alg <> n:447 var
+R14799:14802 Coq.Init.Datatypes <> Some constr
+R14804:14806 VST.msl.boolean_alg <> s'':450 var
+R14831:14833 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14815:14817 VST.msl.boolean_alg <> avg meth
+R14828:14830 VST.msl.boolean_alg <> s'':450 var
+R14825:14826 VST.msl.boolean_alg <> s':449 var
+R14820:14820 Coq.Init.Datatypes <> S constr
+R14822:14822 VST.msl.boolean_alg <> n:447 var
+R14834:14837 Coq.Init.Datatypes <> Some constr
+R14839:14839 VST.msl.boolean_alg <> s:448 var
+R14704:14707 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R14696:14701 VST.msl.boolean_alg <> height meth
+R14703:14703 VST.msl.boolean_alg <> s:448 var
+R14708:14708 Coq.Init.Datatypes <> S constr
+R14710:14710 VST.msl.boolean_alg <> n:447 var
+ax 14859:14880 SHARE_MODEL countBLeafCT_decompose
+binder 14891:14891 <> n:452
+binder 14893:14893 <> s:453
+binder 14895:14896 <> s1:454
+binder 14898:14899 <> s2:455
+R14925:14930 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14951:14953 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14931:14942 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R14950:14950 VST.msl.boolean_alg <> s:453 var
+R14945:14945 Coq.Init.Datatypes <> S constr
+R14947:14947 VST.msl.boolean_alg <> n:452 var
+R14971:14973 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R14954:14965 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R14969:14970 VST.msl.boolean_alg <> s1:454 var
+R14967:14967 VST.msl.boolean_alg <> n:452 var
+R14974:14985 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R14989:14990 VST.msl.boolean_alg <> s2:455 var
+R14987:14987 VST.msl.boolean_alg <> n:452 var
+R14915:14917 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14904:14912 VST.msl.boolean_alg <> decompose meth
+R14914:14914 VST.msl.boolean_alg <> s:453 var
+R14918:14918 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14921:14921 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14924:14924 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14919:14920 VST.msl.boolean_alg <> s1:454 var
+R14922:14923 VST.msl.boolean_alg <> s2:455 var
+ax 15009:15023 SHARE_MODEL countBLeafCT_le
+binder 15034:15034 <> n:457
+binder 15036:15037 <> s1:458
+binder 15039:15040 <> s2:459
+R15053:15056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15075:15078 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R15058:15069 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R15073:15074 VST.msl.boolean_alg <> s1:458 var
+R15071:15071 VST.msl.boolean_alg <> n:457 var
+R15079:15090 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R15094:15095 VST.msl.boolean_alg <> s2:459 var
+R15092:15092 VST.msl.boolean_alg <> n:457 var
+R15047:15050 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R15045:15046 VST.msl.boolean_alg <> s1:458 var
+R15051:15052 VST.msl.boolean_alg <> s2:459 var
+ax 15119:15133 SHARE_MODEL countBLeafCT_lt
+binder 15144:15144 <> n:461
+binder 15146:15147 <> s1:462
+binder 15149:15150 <> s2:463
+R15163:15168 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15177:15182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15203:15208 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15226:15228 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R15209:15220 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R15224:15225 VST.msl.boolean_alg <> s1:462 var
+R15222:15222 VST.msl.boolean_alg <> n:461 var
+R15229:15240 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R15244:15245 VST.msl.boolean_alg <> s2:463 var
+R15242:15242 VST.msl.boolean_alg <> n:461 var
+R15193:15196 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R15184:15189 VST.msl.boolean_alg <> height meth
+R15191:15192 VST.msl.boolean_alg <> s2:463 var
+R15197:15197 VST.msl.boolean_alg <> n:461 var
+R15171:15174 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R15169:15170 VST.msl.boolean_alg <> s1:462 var
+R15175:15176 VST.msl.boolean_alg <> s2:463 var
+R15157:15160 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R15155:15156 VST.msl.boolean_alg <> s1:462 var
+R15161:15162 VST.msl.boolean_alg <> s2:463 var
+ax 15264:15281 SHARE_MODEL countBLeafCT_limit
+binder 15291:15291 <> n:465
+binder 15293:15293 <> s:466
+R15313:15316 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R15297:15308 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R15312:15312 VST.msl.boolean_alg <> s:466 var
+R15310:15310 VST.msl.boolean_alg <> n:465 var
+R15317:15321 VST.msl.boolean_alg SHARE_MODEL power defax
+R15325:15325 VST.msl.boolean_alg <> n:465 var
+ax 15349:15364 SHARE_MODEL countBLeafCT_bot
+binder 15374:15374 <> n:468
+R15395:15397 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15377:15388 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R15392:15394 VST.msl.boolean_alg SHARE_MODEL bot defax
+R15390:15390 VST.msl.boolean_alg <> n:468 var
+ax 15417:15432 SHARE_MODEL countBLeafCT_top
+binder 15442:15442 <> n:470
+R15463:15465 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15445:15456 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R15460:15462 VST.msl.boolean_alg SHARE_MODEL top defax
+R15458:15458 VST.msl.boolean_alg <> n:470 var
+R15466:15470 VST.msl.boolean_alg SHARE_MODEL power defax
+R15474:15474 VST.msl.boolean_alg <> n:470 var
+ax 15493:15513 SHARE_MODEL countBLeafCT_positive
+binder 15524:15524 <> s:472
+binder 15526:15526 <> n:473
+R15551:15557 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15566:15569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15571:15573 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R15574:15585 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R15589:15589 VST.msl.boolean_alg <> s:472 var
+R15587:15587 VST.msl.boolean_alg <> n:473 var
+R15561:15564 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R15558:15560 VST.msl.boolean_alg SHARE_MODEL bot defax
+R15565:15565 VST.msl.boolean_alg <> s:472 var
+R15541:15544 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R15533:15538 VST.msl.boolean_alg <> height meth
+R15540:15540 VST.msl.boolean_alg <> s:472 var
+R15545:15545 VST.msl.boolean_alg <> n:473 var
+ax 15608:15627 SHARE_MODEL countBLeafCT_mono_le
+binder 15637:15638 <> n1:475
+binder 15640:15641 <> n2:476
+binder 15643:15643 <> s:477
+R15662:15667 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15686:15689 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R15669:15680 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R15685:15685 VST.msl.boolean_alg <> s:477 var
+R15682:15683 VST.msl.boolean_alg <> n1:475 var
+R15690:15701 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R15706:15706 VST.msl.boolean_alg <> s:477 var
+R15703:15704 VST.msl.boolean_alg <> n2:476 var
+R15651:15654 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R15649:15650 VST.msl.boolean_alg <> n1:475 var
+R15655:15656 VST.msl.boolean_alg <> n2:476 var
+ax 15731:15752 SHARE_MODEL countBLeafCT_mono_diff
+binder 15762:15763 <> n1:479
+binder 15765:15766 <> n2:480
+binder 15768:15769 <> s1:481
+binder 15771:15772 <> s2:482
+R15791:15797 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15806:15811 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15852:15855 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R15831:15833 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R15813:15824 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R15829:15830 VST.msl.boolean_alg <> s2:482 var
+R15826:15827 VST.msl.boolean_alg <> n1:479 var
+R15834:15845 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R15850:15851 VST.msl.boolean_alg <> s1:481 var
+R15847:15848 VST.msl.boolean_alg <> n1:479 var
+R15874:15876 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R15856:15867 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R15872:15873 VST.msl.boolean_alg <> s2:482 var
+R15869:15870 VST.msl.boolean_alg <> n2:480 var
+R15877:15888 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R15893:15894 VST.msl.boolean_alg <> s1:481 var
+R15890:15891 VST.msl.boolean_alg <> n2:480 var
+R15800:15803 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R15798:15799 VST.msl.boolean_alg <> s1:481 var
+R15804:15805 VST.msl.boolean_alg <> s2:482 var
+R15780:15783 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R15778:15779 VST.msl.boolean_alg <> n1:479 var
+R15784:15785 VST.msl.boolean_alg <> n2:480 var
+ax 15918:15937 SHARE_MODEL countBLeafCT_mono_lt
+binder 15947:15948 <> n1:484
+binder 15950:15951 <> n2:485
+binder 15953:15953 <> s:486
+R15965:15970 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15992:15997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16015:16017 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R15998:16009 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R16014:16014 VST.msl.boolean_alg <> s:486 var
+R16011:16012 VST.msl.boolean_alg <> n1:484 var
+R16018:16029 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R16034:16034 VST.msl.boolean_alg <> s:486 var
+R16031:16032 VST.msl.boolean_alg <> n2:485 var
+R15972:15974 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R15975:15986 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R15991:15991 VST.msl.boolean_alg <> s:486 var
+R15988:15989 VST.msl.boolean_alg <> n1:484 var
+R15960:15962 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R15958:15959 VST.msl.boolean_alg <> n1:484 var
+R15963:15964 VST.msl.boolean_alg <> n2:485 var
+ax 16054:16073 SHARE_MODEL countBLeafCT_join_le
+binder 16083:16083 <> n:488
+binder 16085:16086 <> s1:489
+binder 16088:16089 <> s2:490
+binder 16091:16092 <> s3:491
+R16110:16115 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16154:16157 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R16134:16136 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R16117:16128 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R16132:16133 VST.msl.boolean_alg <> s1:489 var
+R16130:16130 VST.msl.boolean_alg <> n:488 var
+R16137:16148 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R16152:16153 VST.msl.boolean_alg <> s2:490 var
+R16150:16150 VST.msl.boolean_alg <> n:488 var
+R16158:16169 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R16173:16174 VST.msl.boolean_alg <> s3:491 var
+R16171:16171 VST.msl.boolean_alg <> n:488 var
+R16097:16100 VST.msl.sepalg <> join def
+R16108:16109 VST.msl.boolean_alg <> s3:491 var
+R16105:16106 VST.msl.boolean_alg <> s2:490 var
+R16102:16103 VST.msl.boolean_alg <> s1:489 var
+ax 16198:16217 SHARE_MODEL countBLeafCT_join_eq
+binder 16227:16227 <> n:493
+binder 16229:16230 <> s1:494
+binder 16232:16233 <> s2:495
+binder 16235:16236 <> s3:496
+R16254:16259 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16280:16285 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16306:16311 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16349:16351 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16329:16331 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R16312:16323 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R16327:16328 VST.msl.boolean_alg <> s1:494 var
+R16325:16325 VST.msl.boolean_alg <> n:493 var
+R16332:16343 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R16347:16348 VST.msl.boolean_alg <> s2:495 var
+R16345:16345 VST.msl.boolean_alg <> n:493 var
+R16352:16363 VST.msl.boolean_alg SHARE_MODEL countBLeafCT defax
+R16367:16368 VST.msl.boolean_alg <> s3:496 var
+R16365:16365 VST.msl.boolean_alg <> n:493 var
+R16296:16299 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R16287:16292 VST.msl.boolean_alg <> height meth
+R16294:16295 VST.msl.boolean_alg <> s2:495 var
+R16300:16300 VST.msl.boolean_alg <> n:493 var
+R16270:16273 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R16261:16266 VST.msl.boolean_alg <> height meth
+R16268:16269 VST.msl.boolean_alg <> s1:494 var
+R16274:16274 VST.msl.boolean_alg <> n:493 var
+R16241:16244 VST.msl.sepalg <> join def
+R16252:16253 VST.msl.boolean_alg <> s3:496 var
+R16249:16250 VST.msl.boolean_alg <> s2:495 var
+R16246:16247 VST.msl.boolean_alg <> s1:494 var
+ax 16387:16403 SHARE_MODEL share_metric_nerr
+binder 16414:16414 <> s:498
+binder 16416:16416 <> n:499
+R16433:16438 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16440:16442 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R16443:16454 VST.msl.boolean_alg SHARE_MODEL share_metric defax
+R16458:16458 VST.msl.boolean_alg <> s:498 var
+R16456:16456 VST.msl.boolean_alg <> n:499 var
+R16429:16431 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R16421:16426 VST.msl.boolean_alg <> height meth
+R16428:16428 VST.msl.boolean_alg <> s:498 var
+R16432:16432 VST.msl.boolean_alg <> n:499 var
+ax 16477:16492 SHARE_MODEL share_metric_err
+binder 16504:16504 <> s:501
+binder 16506:16506 <> n:502
+R16530:16535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16552:16554 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16536:16547 VST.msl.boolean_alg SHARE_MODEL share_metric defax
+R16551:16551 VST.msl.boolean_alg <> s:501 var
+R16549:16549 VST.msl.boolean_alg <> n:502 var
+R16513:16516 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R16512:16512 VST.msl.boolean_alg <> n:502 var
+R16517:16522 VST.msl.boolean_alg <> height meth
+R16524:16524 VST.msl.boolean_alg <> s:501 var
+ax 16574:16602 SHARE_MODEL share_metric_height_monotonic
+binder 16613:16613 <> s:504
+binder 16615:16616 <> n1:505
+binder 16618:16619 <> n2:506
+R16638:16643 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16662:16665 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R16645:16656 VST.msl.boolean_alg SHARE_MODEL share_metric defax
+R16661:16661 VST.msl.boolean_alg <> s:504 var
+R16658:16659 VST.msl.boolean_alg <> n1:505 var
+R16666:16677 VST.msl.boolean_alg SHARE_MODEL share_metric defax
+R16682:16682 VST.msl.boolean_alg <> s:504 var
+R16679:16680 VST.msl.boolean_alg <> n2:506 var
+R16627:16630 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R16625:16626 VST.msl.boolean_alg <> n1:505 var
+R16631:16632 VST.msl.boolean_alg <> n2:506 var
+ax 16706:16721 SHARE_MODEL share_metric_lub
+binder 16732:16732 <> s:508
+binder 16734:16735 <> s':509
+binder 16737:16737 <> n:510
+R16750:16755 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16776:16781 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16811:16816 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16833:16835 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R16817:16828 VST.msl.boolean_alg SHARE_MODEL share_metric defax
+R16832:16832 VST.msl.boolean_alg <> s:508 var
+R16830:16830 VST.msl.boolean_alg <> n:510 var
+R16836:16847 VST.msl.boolean_alg SHARE_MODEL share_metric defax
+R16852:16854 VST.msl.boolean_alg SHARE_MODEL lub defax
+R16858:16859 VST.msl.boolean_alg <> s':509 var
+R16856:16856 VST.msl.boolean_alg <> s:508 var
+R16849:16849 VST.msl.boolean_alg <> n:510 var
+R16783:16785 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R16786:16797 VST.msl.boolean_alg SHARE_MODEL share_metric defax
+R16802:16804 VST.msl.boolean_alg SHARE_MODEL lub defax
+R16808:16809 VST.msl.boolean_alg <> s':509 var
+R16806:16806 VST.msl.boolean_alg <> s:508 var
+R16799:16799 VST.msl.boolean_alg <> n:510 var
+R16757:16759 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R16760:16771 VST.msl.boolean_alg SHARE_MODEL share_metric defax
+R16775:16775 VST.msl.boolean_alg <> s:508 var
+R16773:16773 VST.msl.boolean_alg <> n:510 var
+R16742:16743 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16749:16749 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16746:16747 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R16744:16745 VST.msl.boolean_alg <> s':509 var
+R16748:16748 VST.msl.boolean_alg <> s:508 var
+ax 16879:16894 SHARE_MODEL share_metric_glb
+binder 16905:16905 <> s:512
+binder 16907:16908 <> s':513
+binder 16910:16910 <> n:514
+R16923:16928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16949:16954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16984:16989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17015:17017 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R16990:17001 VST.msl.boolean_alg SHARE_MODEL share_metric defax
+R17006:17008 VST.msl.boolean_alg SHARE_MODEL glb defax
+R17012:17013 VST.msl.boolean_alg <> s':513 var
+R17010:17010 VST.msl.boolean_alg <> s:512 var
+R17003:17003 VST.msl.boolean_alg <> n:514 var
+R17018:17029 VST.msl.boolean_alg SHARE_MODEL share_metric defax
+R17033:17033 VST.msl.boolean_alg <> s:512 var
+R17031:17031 VST.msl.boolean_alg <> n:514 var
+R16956:16958 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R16959:16970 VST.msl.boolean_alg SHARE_MODEL share_metric defax
+R16975:16977 VST.msl.boolean_alg SHARE_MODEL glb defax
+R16981:16982 VST.msl.boolean_alg <> s':513 var
+R16979:16979 VST.msl.boolean_alg <> s:512 var
+R16972:16972 VST.msl.boolean_alg <> n:514 var
+R16930:16932 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R16933:16944 VST.msl.boolean_alg SHARE_MODEL share_metric defax
+R16948:16948 VST.msl.boolean_alg <> s:512 var
+R16946:16946 VST.msl.boolean_alg <> n:514 var
+R16915:16916 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16922:16922 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16918:16919 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R16917:16917 VST.msl.boolean_alg <> s:512 var
+R16920:16921 VST.msl.boolean_alg <> s':513 var
+ax 17052:17077 SHARE_MODEL share_metric_dif_monotonic
+binder 17087:17088 <> s1:516
+binder 17090:17091 <> s2:517
+binder 17093:17093 <> n:518
+binder 17095:17096 <> n0:519
+R17107:17112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17124:17129 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17143:17146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17160:17165 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17204:17209 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17184:17186 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R17167:17178 VST.msl.boolean_alg SHARE_MODEL share_metric defax
+R17182:17183 VST.msl.boolean_alg <> s2:517 var
+R17180:17180 VST.msl.boolean_alg <> n:518 var
+R17187:17198 VST.msl.boolean_alg SHARE_MODEL share_metric defax
+R17202:17203 VST.msl.boolean_alg <> s1:516 var
+R17200:17200 VST.msl.boolean_alg <> n:518 var
+R17228:17230 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R17210:17221 VST.msl.boolean_alg SHARE_MODEL share_metric defax
+R17226:17227 VST.msl.boolean_alg <> s2:517 var
+R17223:17224 VST.msl.boolean_alg <> n0:519 var
+R17231:17242 VST.msl.boolean_alg SHARE_MODEL share_metric defax
+R17247:17248 VST.msl.boolean_alg <> s1:516 var
+R17244:17245 VST.msl.boolean_alg <> n0:519 var
+R17156:17158 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R17147:17152 VST.msl.boolean_alg <> height meth
+R17154:17155 VST.msl.boolean_alg <> s2:517 var
+R17159:17159 VST.msl.boolean_alg <> n:518 var
+R17139:17141 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R17130:17135 VST.msl.boolean_alg <> height meth
+R17137:17138 VST.msl.boolean_alg <> s1:516 var
+R17142:17142 VST.msl.boolean_alg <> n:518 var
+R17115:17116 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17114:17114 VST.msl.boolean_alg <> n:518 var
+R17117:17118 VST.msl.boolean_alg <> n0:519 var
+R17103:17104 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R17101:17102 VST.msl.boolean_alg <> s1:516 var
+R17105:17106 VST.msl.boolean_alg <> s2:517 var
+ax 17273:17293 SHARE_MODEL tree_height_lub_limit
+binder 17303:17303 <> n:521
+binder 17305:17306 <> s1:522
+binder 17308:17309 <> s2:523
+R17334:17339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17360:17365 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17385:17388 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17367:17372 VST.msl.boolean_alg <> height meth
+R17375:17377 VST.msl.boolean_alg SHARE_MODEL lub defax
+R17382:17383 VST.msl.boolean_alg <> s2:523 var
+R17379:17380 VST.msl.boolean_alg <> s1:522 var
+R17389:17389 VST.msl.boolean_alg <> n:521 var
+R17350:17353 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17341:17346 VST.msl.boolean_alg <> height meth
+R17348:17349 VST.msl.boolean_alg <> s2:523 var
+R17354:17354 VST.msl.boolean_alg <> n:521 var
+R17324:17327 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17315:17320 VST.msl.boolean_alg <> height meth
+R17322:17323 VST.msl.boolean_alg <> s1:522 var
+R17328:17328 VST.msl.boolean_alg <> n:521 var
+ax 17413:17433 SHARE_MODEL tree_height_glb_limit
+binder 17443:17443 <> n:525
+binder 17445:17446 <> s1:526
+binder 17448:17449 <> s2:527
+R17474:17479 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17500:17505 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17525:17528 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17507:17512 VST.msl.boolean_alg <> height meth
+R17515:17517 VST.msl.boolean_alg SHARE_MODEL glb defax
+R17522:17523 VST.msl.boolean_alg <> s2:527 var
+R17519:17520 VST.msl.boolean_alg <> s1:526 var
+R17529:17529 VST.msl.boolean_alg <> n:525 var
+R17490:17493 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17481:17486 VST.msl.boolean_alg <> height meth
+R17488:17489 VST.msl.boolean_alg <> s2:527 var
+R17494:17494 VST.msl.boolean_alg <> n:525 var
+R17464:17467 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17455:17460 VST.msl.boolean_alg <> height meth
+R17462:17463 VST.msl.boolean_alg <> s1:526 var
+R17468:17468 VST.msl.boolean_alg <> n:525 var
+ax 17553:17563 SHARE_MODEL height_lub1
+binder 17574:17575 <> s1:529
+binder 17577:17578 <> s2:530
+R17610:17614 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17634:17637 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17616:17621 VST.msl.boolean_alg <> height meth
+R17624:17626 VST.msl.boolean_alg SHARE_MODEL lub defax
+R17631:17632 VST.msl.boolean_alg <> s2:530 var
+R17628:17629 VST.msl.boolean_alg <> s1:529 var
+R17638:17643 VST.msl.boolean_alg <> height meth
+R17645:17646 VST.msl.boolean_alg <> s2:530 var
+R17593:17595 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17584:17589 VST.msl.boolean_alg <> height meth
+R17591:17592 VST.msl.boolean_alg <> s1:529 var
+R17596:17601 VST.msl.boolean_alg <> height meth
+R17603:17604 VST.msl.boolean_alg <> s2:530 var
+ax 17670:17680 SHARE_MODEL height_glb1
+binder 17691:17692 <> s1:532
+binder 17694:17695 <> s2:533
+R17727:17731 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17751:17754 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17733:17738 VST.msl.boolean_alg <> height meth
+R17741:17743 VST.msl.boolean_alg SHARE_MODEL glb defax
+R17748:17749 VST.msl.boolean_alg <> s2:533 var
+R17745:17746 VST.msl.boolean_alg <> s1:532 var
+R17755:17760 VST.msl.boolean_alg <> height meth
+R17762:17763 VST.msl.boolean_alg <> s2:533 var
+R17710:17712 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R17701:17706 VST.msl.boolean_alg <> height meth
+R17708:17709 VST.msl.boolean_alg <> s1:532 var
+R17713:17718 VST.msl.boolean_alg <> height meth
+R17720:17721 VST.msl.boolean_alg <> s2:533 var
+ax 17787:17797 SHARE_MODEL height_comp
+binder 17807:17807 <> s:535
+R17827:17828 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17812:17817 VST.msl.boolean_alg <> height meth
+R17820:17823 VST.msl.boolean_alg SHARE_MODEL comp defax
+R17825:17825 VST.msl.boolean_alg <> s:535 var
+R17829:17834 VST.msl.boolean_alg <> height meth
+R17836:17836 VST.msl.boolean_alg <> s:535 var
+ax 17847:17867 SHARE_MODEL decompose_height_zero
+binder 17877:17877 <> s:537
+binder 17879:17880 <> sL:538
+binder 17882:17883 <> sR:539
+R17909:17914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17927:17932 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17939:17942 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R17935:17937 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17933:17934 VST.msl.boolean_alg <> sL:538 var
+R17938:17938 VST.msl.boolean_alg <> s:537 var
+R17945:17947 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17943:17944 VST.msl.boolean_alg <> sR:539 var
+R17948:17948 VST.msl.boolean_alg <> s:537 var
+R17923:17925 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17915:17920 VST.msl.boolean_alg <> height meth
+R17922:17922 VST.msl.boolean_alg <> s:537 var
+R17899:17901 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17888:17896 VST.msl.boolean_alg <> decompose meth
+R17898:17898 VST.msl.boolean_alg <> s:537 var
+R17902:17902 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17905:17905 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17908:17908 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17903:17904 VST.msl.boolean_alg <> sL:538 var
+R17906:17907 VST.msl.boolean_alg <> sR:539 var
+ax 17959:17973 SHARE_MODEL decompose_equal
+binder 17983:17983 <> a:541
+binder 17985:17985 <> b:542
+binder 17987:17988 <> aL:543
+binder 17990:17991 <> aR:544
+binder 17993:17994 <> bL:545
+binder 17996:17997 <> bR:546
+R18023:18028 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18050:18056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18085:18085 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18062:18066 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R18058:18060 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18057:18057 VST.msl.boolean_alg <> a:541 var
+R18061:18061 VST.msl.boolean_alg <> b:542 var
+R18074:18077 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R18069:18071 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18067:18068 VST.msl.boolean_alg <> aL:543 var
+R18072:18073 VST.msl.boolean_alg <> bL:545 var
+R18080:18082 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18078:18079 VST.msl.boolean_alg <> aR:544 var
+R18083:18084 VST.msl.boolean_alg <> bR:546 var
+R18040:18042 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18029:18037 VST.msl.boolean_alg <> decompose meth
+R18039:18039 VST.msl.boolean_alg <> b:542 var
+R18043:18043 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18046:18046 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18049:18049 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18044:18045 VST.msl.boolean_alg <> bL:545 var
+R18047:18048 VST.msl.boolean_alg <> bR:546 var
+R18013:18015 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18002:18010 VST.msl.boolean_alg <> decompose meth
+R18012:18012 VST.msl.boolean_alg <> a:541 var
+R18016:18016 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18019:18019 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18022:18022 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18017:18018 VST.msl.boolean_alg <> aL:543 var
+R18020:18021 VST.msl.boolean_alg <> aR:544 var
+ax 18096:18112 SHARE_MODEL decompose_nonzero
+binder 18122:18123 <> sL:548
+binder 18125:18126 <> sR:549
+binder 18128:18128 <> s:550
+R18153:18158 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18194:18194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18167:18171 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R18160:18163 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R18159:18159 VST.msl.boolean_alg <> s:550 var
+R18164:18166 VST.msl.boolean_alg SHARE_MODEL bot defax
+R18181:18184 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R18174:18177 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R18172:18173 VST.msl.boolean_alg <> sL:548 var
+R18178:18180 VST.msl.boolean_alg SHARE_MODEL bot defax
+R18187:18190 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R18185:18186 VST.msl.boolean_alg <> sR:549 var
+R18191:18193 VST.msl.boolean_alg SHARE_MODEL bot defax
+R18143:18145 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18132:18140 VST.msl.boolean_alg <> decompose meth
+R18142:18142 VST.msl.boolean_alg <> s:550 var
+R18146:18146 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18149:18149 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18152:18152 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18147:18148 VST.msl.boolean_alg <> sL:548 var
+R18150:18151 VST.msl.boolean_alg <> sR:549 var
+ax 18205:18218 SHARE_MODEL tree_avg_equal
+binder 18228:18229 <> sL:552
+binder 18231:18232 <> sR:553
+binder 18234:18236 <> sL':554
+binder 18238:18240 <> sR':555
+binder 18242:18242 <> s:556
+binder 18244:18244 <> n:557
+R18269:18274 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18297:18302 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18311:18314 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R18305:18307 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18303:18304 VST.msl.boolean_alg <> sL:552 var
+R18308:18310 VST.msl.boolean_alg <> sL':554 var
+R18317:18319 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18315:18316 VST.msl.boolean_alg <> sR:553 var
+R18320:18322 VST.msl.boolean_alg <> sR':555 var
+R18288:18290 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18275:18277 VST.msl.boolean_alg <> avg meth
+R18285:18287 VST.msl.boolean_alg <> sR':555 var
+R18281:18283 VST.msl.boolean_alg <> sL':554 var
+R18279:18279 VST.msl.boolean_alg <> n:557 var
+R18291:18294 Coq.Init.Datatypes <> Some constr
+R18296:18296 VST.msl.boolean_alg <> s:556 var
+R18260:18262 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18249:18251 VST.msl.boolean_alg <> avg meth
+R18258:18259 VST.msl.boolean_alg <> sR:553 var
+R18255:18256 VST.msl.boolean_alg <> sL:552 var
+R18253:18253 VST.msl.boolean_alg <> n:557 var
+R18263:18266 Coq.Init.Datatypes <> Some constr
+R18268:18268 VST.msl.boolean_alg <> s:556 var
+ax 18333:18345 SHARE_MODEL tree_avg_zero
+binder 18355:18356 <> sL:559
+binder 18358:18359 <> sR:560
+binder 18361:18361 <> s:561
+binder 18363:18363 <> n:562
+R18388:18394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18427:18427 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18402:18406 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R18396:18398 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18395:18395 VST.msl.boolean_alg <> s:561 var
+R18399:18401 VST.msl.boolean_alg SHARE_MODEL bot defax
+R18415:18418 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R18409:18411 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18407:18408 VST.msl.boolean_alg <> sL:559 var
+R18412:18414 VST.msl.boolean_alg SHARE_MODEL bot defax
+R18421:18423 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18419:18420 VST.msl.boolean_alg <> sR:560 var
+R18424:18426 VST.msl.boolean_alg SHARE_MODEL bot defax
+R18379:18381 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18368:18370 VST.msl.boolean_alg <> avg meth
+R18377:18378 VST.msl.boolean_alg <> sR:560 var
+R18374:18375 VST.msl.boolean_alg <> sL:559 var
+R18372:18372 VST.msl.boolean_alg <> n:562 var
+R18382:18385 Coq.Init.Datatypes <> Some constr
+R18387:18387 VST.msl.boolean_alg <> s:561 var
+ax 18438:18453 SHARE_MODEL tree_avg_nonzero
+binder 18463:18464 <> sL:564
+binder 18466:18467 <> sR:565
+binder 18469:18469 <> s:566
+binder 18471:18471 <> n:567
+R18496:18502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18538:18538 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18511:18515 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R18504:18507 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R18503:18503 VST.msl.boolean_alg <> s:566 var
+R18508:18510 VST.msl.boolean_alg SHARE_MODEL bot defax
+R18525:18528 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R18518:18521 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R18516:18517 VST.msl.boolean_alg <> sL:564 var
+R18522:18524 VST.msl.boolean_alg SHARE_MODEL bot defax
+R18531:18534 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R18529:18530 VST.msl.boolean_alg <> sR:565 var
+R18535:18537 VST.msl.boolean_alg SHARE_MODEL bot defax
+R18487:18489 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18476:18478 VST.msl.boolean_alg <> avg meth
+R18485:18486 VST.msl.boolean_alg <> sR:565 var
+R18482:18483 VST.msl.boolean_alg <> sL:564 var
+R18480:18480 VST.msl.boolean_alg <> n:567 var
+R18490:18493 Coq.Init.Datatypes <> Some constr
+R18495:18495 VST.msl.boolean_alg <> s:566 var
+ax 18549:18562 SHARE_MODEL tree_avg_bound
+binder 18572:18573 <> sL:569
+binder 18575:18576 <> sR:570
+binder 18578:18578 <> s:571
+binder 18580:18580 <> n:572
+R18605:18608 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18618:18621 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R18610:18615 VST.msl.boolean_alg <> height meth
+R18617:18617 VST.msl.boolean_alg <> s:571 var
+R18622:18622 VST.msl.boolean_alg <> n:572 var
+R18596:18598 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18585:18587 VST.msl.boolean_alg <> avg meth
+R18594:18595 VST.msl.boolean_alg <> sR:570 var
+R18591:18592 VST.msl.boolean_alg <> sL:569 var
+R18589:18589 VST.msl.boolean_alg <> n:572 var
+R18599:18602 Coq.Init.Datatypes <> Some constr
+R18604:18604 VST.msl.boolean_alg <> s:571 var
+ax 18638:18650 SHARE_MODEL Lsh_recompose
+R18656:18658 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18653:18655 VST.msl.boolean_alg SHARE_MODEL Lsh def
+R18659:18667 VST.msl.boolean_alg SHARE_MODEL recompose defax
+R18669:18669 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18673:18674 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18678:18678 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18670:18672 VST.msl.boolean_alg SHARE_MODEL top defax
+R18675:18677 VST.msl.boolean_alg SHARE_MODEL bot defax
+ax 18688:18700 SHARE_MODEL Rsh_recompose
+R18706:18708 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18703:18705 VST.msl.boolean_alg SHARE_MODEL Rsh def
+R18709:18717 VST.msl.boolean_alg SHARE_MODEL recompose defax
+R18719:18719 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18723:18723 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18727:18727 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18720:18722 VST.msl.boolean_alg SHARE_MODEL bot defax
+R18724:18726 VST.msl.boolean_alg SHARE_MODEL top defax
+ax 18737:18749 SHARE_MODEL decompose_Rsh
+binder 18759:18760 <> sh:576
+R18775:18777 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18763:18767 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R18773:18774 VST.msl.boolean_alg <> sh:576 var
+R18769:18771 VST.msl.boolean_alg SHARE_MODEL Rsh def
+R18778:18780 Coq.Init.Datatypes <> snd def
+R18783:18791 VST.msl.boolean_alg <> decompose meth
+R18793:18794 VST.msl.boolean_alg <> sh:576 var
+ax 18805:18817 SHARE_MODEL decompose_Lsh
+binder 18827:18828 <> sh:578
+R18843:18845 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18831:18835 VST.msl.boolean_alg SHARE_MODEL unrel defax
+R18841:18842 VST.msl.boolean_alg <> sh:578 var
+R18837:18839 VST.msl.boolean_alg SHARE_MODEL Lsh def
+R18846:18848 Coq.Init.Datatypes <> fst def
+R18851:18859 VST.msl.boolean_alg <> decompose meth
+R18861:18862 VST.msl.boolean_alg <> sh:578 var
+ax 18873:18879 SHARE_MODEL rel_Lsh
+binder 18889:18890 <> sh:580
+R18903:18905 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18893:18895 VST.msl.boolean_alg SHARE_MODEL rel defax
+R18901:18902 VST.msl.boolean_alg <> sh:580 var
+R18897:18899 VST.msl.boolean_alg SHARE_MODEL Lsh def
+R18906:18914 VST.msl.boolean_alg SHARE_MODEL recompose defax
+R18916:18916 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18919:18919 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18923:18923 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18917:18918 VST.msl.boolean_alg <> sh:580 var
+R18920:18922 VST.msl.boolean_alg SHARE_MODEL bot defax
+ax 18933:18939 SHARE_MODEL rel_Rsh
+binder 18949:18950 <> sh:582
+R18963:18965 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18953:18955 VST.msl.boolean_alg SHARE_MODEL rel defax
+R18961:18962 VST.msl.boolean_alg <> sh:582 var
+R18957:18959 VST.msl.boolean_alg SHARE_MODEL Rsh def
+R18966:18974 VST.msl.boolean_alg SHARE_MODEL recompose defax
+R18976:18976 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18980:18980 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18983:18983 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18977:18979 VST.msl.boolean_alg SHARE_MODEL bot defax
+R18981:18982 VST.msl.boolean_alg <> sh:582 var
+ax 18993:19009 SHARE_MODEL lub_rel_recompose
+binder 19019:19021 <> sh1:584
+binder 19023:19025 <> sh2:585
+R19072:19074 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19041:19043 VST.msl.boolean_alg SHARE_MODEL lub defax
+R19060:19062 VST.msl.boolean_alg SHARE_MODEL rel defax
+R19068:19070 VST.msl.boolean_alg <> sh2:585 var
+R19064:19066 VST.msl.boolean_alg SHARE_MODEL Rsh def
+R19046:19048 VST.msl.boolean_alg SHARE_MODEL rel defax
+R19054:19056 VST.msl.boolean_alg <> sh1:584 var
+R19050:19052 VST.msl.boolean_alg SHARE_MODEL Lsh def
+R19075:19083 VST.msl.boolean_alg SHARE_MODEL recompose defax
+R19085:19085 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19089:19089 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19093:19093 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19086:19088 VST.msl.boolean_alg <> sh1:584 var
+R19090:19092 VST.msl.boolean_alg <> sh2:585 var
+R19128:19138 VST.msl.boolean_alg SHARE_MODEL <> modtype
+R19163:19177 VST.msl.boolean_alg BOOLEAN_ALGEBRA <> mod
+R19183:19190 VST.msl.boolean_alg BA_FACTS <> mod
+mod 19150:19157 <> BA_Facts
+R19203:19204 VST.msl.boolean_alg BA <> modtype
+prf 19216:19224 BA_Facts ord_spec1
+binder 19235:19235 <> x:587
+binder 19237:19237 <> y:588
+R19246:19250 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R19241:19244 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R19240:19240 VST.msl.boolean_alg <> x:587 var
+R19245:19245 VST.msl.boolean_alg <> y:588 var
+R19252:19254 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19251:19251 VST.msl.boolean_alg <> x:587 var
+R19255:19257 VST.msl.boolean_alg BA_Facts glb defax
+R19261:19261 VST.msl.boolean_alg <> y:588 var
+R19259:19259 VST.msl.boolean_alg <> x:587 var
+prf 19355:19363 BA_Facts ord_spec2
+binder 19374:19374 <> x:589
+binder 19376:19376 <> y:590
+R19385:19389 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R19380:19383 VST.msl.boolean_alg BOOLEAN_ALGEBRA ::ba:x_'<='_x not
+R19379:19379 VST.msl.boolean_alg <> x:589 var
+R19384:19384 VST.msl.boolean_alg <> y:590 var
+R19397:19399 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19390:19392 VST.msl.boolean_alg BA_Facts lub defax
+R19396:19396 VST.msl.boolean_alg <> y:590 var
+R19394:19394 VST.msl.boolean_alg <> x:589 var
+R19400:19400 VST.msl.boolean_alg <> y:590 var
+prf 19505:19512 BA_Facts lub_idem
+binder 19523:19523 <> x:591
+R19533:19535 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19526:19528 VST.msl.boolean_alg BA_Facts lub defax
+R19532:19532 VST.msl.boolean_alg <> x:591 var
+R19530:19530 VST.msl.boolean_alg <> x:591 var
+R19536:19536 VST.msl.boolean_alg <> x:591 var
+prf 19576:19583 BA_Facts glb_idem
+binder 19594:19594 <> x:592
+R19604:19606 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19597:19599 VST.msl.boolean_alg BA_Facts glb defax
+R19603:19603 VST.msl.boolean_alg <> x:592 var
+R19601:19601 VST.msl.boolean_alg <> x:592 var
+R19607:19607 VST.msl.boolean_alg <> x:592 var
+prf 19647:19657 BA_Facts lub_commute
+binder 19668:19668 <> x:593
+binder 19670:19670 <> y:594
+R19680:19682 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19673:19675 VST.msl.boolean_alg BA_Facts lub defax
+R19679:19679 VST.msl.boolean_alg <> y:594 var
+R19677:19677 VST.msl.boolean_alg <> x:593 var
+R19683:19685 VST.msl.boolean_alg BA_Facts lub defax
+R19689:19689 VST.msl.boolean_alg <> x:593 var
+R19687:19687 VST.msl.boolean_alg <> y:594 var
+prf 19729:19739 BA_Facts glb_commute
+binder 19750:19750 <> x:595
+binder 19752:19752 <> y:596
+R19762:19764 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19755:19757 VST.msl.boolean_alg BA_Facts glb defax
+R19761:19761 VST.msl.boolean_alg <> y:596 var
+R19759:19759 VST.msl.boolean_alg <> x:595 var
+R19765:19767 VST.msl.boolean_alg BA_Facts glb defax
+R19771:19771 VST.msl.boolean_alg <> x:595 var
+R19769:19769 VST.msl.boolean_alg <> y:596 var
+prf 19811:19820 BA_Facts lub_absorb
+binder 19831:19831 <> x:597
+binder 19833:19833 <> y:598
+R19851:19853 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19836:19838 VST.msl.boolean_alg BA_Facts lub defax
+R19843:19845 VST.msl.boolean_alg BA_Facts glb defax
+R19849:19849 VST.msl.boolean_alg <> y:598 var
+R19847:19847 VST.msl.boolean_alg <> x:597 var
+R19840:19840 VST.msl.boolean_alg <> x:597 var
+R19854:19854 VST.msl.boolean_alg <> x:597 var
+prf 19894:19903 BA_Facts glb_absorb
+binder 19914:19914 <> x:599
+binder 19916:19916 <> y:600
+R19934:19936 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19919:19921 VST.msl.boolean_alg BA_Facts glb defax
+R19926:19928 VST.msl.boolean_alg BA_Facts lub defax
+R19932:19932 VST.msl.boolean_alg <> y:600 var
+R19930:19930 VST.msl.boolean_alg <> x:599 var
+R19923:19923 VST.msl.boolean_alg <> x:599 var
+R19937:19937 VST.msl.boolean_alg <> x:599 var
+prf 19977:19985 BA_Facts lub_assoc
+binder 19996:19996 <> x:601
+binder 19998:19998 <> y:602
+binder 20000:20000 <> z:603
+R20018:20020 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20003:20005 VST.msl.boolean_alg BA_Facts lub defax
+R20017:20017 VST.msl.boolean_alg <> z:603 var
+R20008:20010 VST.msl.boolean_alg BA_Facts lub defax
+R20014:20014 VST.msl.boolean_alg <> y:602 var
+R20012:20012 VST.msl.boolean_alg <> x:601 var
+R20021:20023 VST.msl.boolean_alg BA_Facts lub defax
+R20028:20030 VST.msl.boolean_alg BA_Facts lub defax
+R20034:20034 VST.msl.boolean_alg <> z:603 var
+R20032:20032 VST.msl.boolean_alg <> y:602 var
+R20025:20025 VST.msl.boolean_alg <> x:601 var
+R20065:20075 VST.msl.boolean_alg BA_Facts ord_antisym prfax
+R20065:20075 VST.msl.boolean_alg BA_Facts ord_antisym prfax
+prf 20109:20117 BA_Facts glb_assoc
+binder 20128:20128 <> x:604
+binder 20130:20130 <> y:605
+binder 20132:20132 <> z:606
+R20150:20152 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20135:20137 VST.msl.boolean_alg BA_Facts glb defax
+R20149:20149 VST.msl.boolean_alg <> z:606 var
+R20140:20142 VST.msl.boolean_alg BA_Facts glb defax
+R20146:20146 VST.msl.boolean_alg <> y:605 var
+R20144:20144 VST.msl.boolean_alg <> x:604 var
+R20153:20155 VST.msl.boolean_alg BA_Facts glb defax
+R20161:20163 VST.msl.boolean_alg BA_Facts glb defax
+R20167:20167 VST.msl.boolean_alg <> z:606 var
+R20165:20165 VST.msl.boolean_alg <> y:605 var
+R20157:20157 VST.msl.boolean_alg <> x:604 var
+R20198:20208 VST.msl.boolean_alg BA_Facts ord_antisym prfax
+R20198:20208 VST.msl.boolean_alg BA_Facts ord_antisym prfax
+prf 20242:20248 BA_Facts glb_bot
+binder 20259:20259 <> x:607
+R20271:20273 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20262:20264 VST.msl.boolean_alg BA_Facts glb defax
+R20268:20270 VST.msl.boolean_alg BA_Facts bot defax
+R20266:20266 VST.msl.boolean_alg <> x:607 var
+R20274:20276 VST.msl.boolean_alg BA_Facts bot defax
+prf 20316:20322 BA_Facts lub_top
+binder 20333:20333 <> x:608
+R20345:20347 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20336:20338 VST.msl.boolean_alg BA_Facts lub defax
+R20342:20344 VST.msl.boolean_alg BA_Facts top defax
+R20340:20340 VST.msl.boolean_alg <> x:608 var
+R20348:20350 VST.msl.boolean_alg BA_Facts top defax
+prf 20390:20396 BA_Facts lub_bot
+binder 20407:20407 <> x:609
+R20419:20421 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20410:20412 VST.msl.boolean_alg BA_Facts lub defax
+R20416:20418 VST.msl.boolean_alg BA_Facts bot defax
+R20414:20414 VST.msl.boolean_alg <> x:609 var
+R20422:20422 VST.msl.boolean_alg <> x:609 var
+prf 20462:20468 BA_Facts glb_top
+binder 20479:20479 <> x:610
+R20491:20493 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20482:20484 VST.msl.boolean_alg BA_Facts glb defax
+R20488:20490 VST.msl.boolean_alg BA_Facts top defax
+R20486:20486 VST.msl.boolean_alg <> x:610 var
+R20494:20494 VST.msl.boolean_alg <> x:610 var
+prf 20534:20541 BA_Facts distrib2
+binder 20552:20552 <> x:611
+binder 20554:20554 <> y:612
+binder 20556:20556 <> z:613
+R20578:20580 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20563:20565 VST.msl.boolean_alg BA_Facts lub defax
+R20570:20572 VST.msl.boolean_alg BA_Facts glb defax
+R20576:20576 VST.msl.boolean_alg <> z:613 var
+R20574:20574 VST.msl.boolean_alg <> y:612 var
+R20567:20567 VST.msl.boolean_alg <> x:611 var
+R20581:20583 VST.msl.boolean_alg BA_Facts glb defax
+R20596:20598 VST.msl.boolean_alg BA_Facts lub defax
+R20602:20602 VST.msl.boolean_alg <> z:613 var
+R20600:20600 VST.msl.boolean_alg <> x:611 var
+R20586:20588 VST.msl.boolean_alg BA_Facts lub defax
+R20592:20592 VST.msl.boolean_alg <> y:612 var
+R20590:20590 VST.msl.boolean_alg <> x:611 var
+R20637:20647 VST.msl.boolean_alg BA_Facts ord_antisym prfax
+R20637:20647 VST.msl.boolean_alg BA_Facts ord_antisym prfax
+R20660:20668 VST.msl.boolean_alg BA_Facts lub_least prfax
+R20660:20668 VST.msl.boolean_alg BA_Facts lub_least prfax
+R20683:20690 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R20683:20690 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R20683:20690 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R20705:20715 VST.msl.boolean_alg BA_Facts glb_commute thm
+R20705:20715 VST.msl.boolean_alg BA_Facts glb_commute thm
+R20705:20715 VST.msl.boolean_alg BA_Facts glb_commute thm
+R20730:20739 VST.msl.boolean_alg BA_Facts glb_absorb thm
+R20730:20739 VST.msl.boolean_alg BA_Facts glb_absorb thm
+R20730:20739 VST.msl.boolean_alg BA_Facts glb_absorb thm
+R20752:20761 VST.msl.boolean_alg BA_Facts lub_upper1 prfax
+R20752:20761 VST.msl.boolean_alg BA_Facts lub_upper1 prfax
+R20774:20785 VST.msl.boolean_alg BA_Facts glb_greatest prfax
+R20774:20785 VST.msl.boolean_alg BA_Facts glb_greatest prfax
+R20798:20806 VST.msl.boolean_alg BA_Facts ord_trans prfax
+R20798:20806 VST.msl.boolean_alg BA_Facts ord_trans prfax
+R20826:20835 VST.msl.boolean_alg BA_Facts glb_lower1 prfax
+R20826:20835 VST.msl.boolean_alg BA_Facts glb_lower1 prfax
+R20848:20857 VST.msl.boolean_alg BA_Facts lub_upper2 prfax
+R20848:20857 VST.msl.boolean_alg BA_Facts lub_upper2 prfax
+R20870:20878 VST.msl.boolean_alg BA_Facts ord_trans prfax
+R20870:20878 VST.msl.boolean_alg BA_Facts ord_trans prfax
+R20898:20907 VST.msl.boolean_alg BA_Facts glb_lower2 prfax
+R20898:20907 VST.msl.boolean_alg BA_Facts glb_lower2 prfax
+R20920:20929 VST.msl.boolean_alg BA_Facts lub_upper2 prfax
+R20920:20929 VST.msl.boolean_alg BA_Facts lub_upper2 prfax
+R20944:20951 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R20944:20951 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R20944:20951 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R20964:20972 VST.msl.boolean_alg BA_Facts lub_least prfax
+R20964:20972 VST.msl.boolean_alg BA_Facts lub_least prfax
+R20987:20997 VST.msl.boolean_alg BA_Facts glb_commute thm
+R20987:20997 VST.msl.boolean_alg BA_Facts glb_commute thm
+R20987:20997 VST.msl.boolean_alg BA_Facts glb_commute thm
+R21012:21021 VST.msl.boolean_alg BA_Facts glb_absorb thm
+R21012:21021 VST.msl.boolean_alg BA_Facts glb_absorb thm
+R21012:21021 VST.msl.boolean_alg BA_Facts glb_absorb thm
+R21034:21043 VST.msl.boolean_alg BA_Facts lub_upper1 prfax
+R21034:21043 VST.msl.boolean_alg BA_Facts lub_upper1 prfax
+R21058:21068 VST.msl.boolean_alg BA_Facts glb_commute thm
+R21058:21068 VST.msl.boolean_alg BA_Facts glb_commute thm
+R21058:21068 VST.msl.boolean_alg BA_Facts glb_commute thm
+R21083:21090 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R21083:21090 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R21083:21090 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R21103:21111 VST.msl.boolean_alg BA_Facts lub_least prfax
+R21103:21111 VST.msl.boolean_alg BA_Facts lub_least prfax
+R21124:21132 VST.msl.boolean_alg BA_Facts ord_trans prfax
+R21124:21132 VST.msl.boolean_alg BA_Facts ord_trans prfax
+R21152:21161 VST.msl.boolean_alg BA_Facts glb_lower2 prfax
+R21152:21161 VST.msl.boolean_alg BA_Facts glb_lower2 prfax
+R21174:21183 VST.msl.boolean_alg BA_Facts lub_upper1 prfax
+R21174:21183 VST.msl.boolean_alg BA_Facts lub_upper1 prfax
+R21198:21208 VST.msl.boolean_alg BA_Facts glb_commute thm
+R21198:21208 VST.msl.boolean_alg BA_Facts glb_commute thm
+R21198:21208 VST.msl.boolean_alg BA_Facts glb_commute thm
+R21221:21230 VST.msl.boolean_alg BA_Facts lub_upper2 prfax
+R21221:21230 VST.msl.boolean_alg BA_Facts lub_upper2 prfax
+prf 21249:21260 BA_Facts distrib_spec
+binder 21271:21271 <> x:614
+binder 21273:21274 <> y1:615
+binder 21276:21277 <> y2:616
+R21303:21310 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21330:21337 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21340:21342 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21338:21339 VST.msl.boolean_alg <> y1:615 var
+R21343:21344 VST.msl.boolean_alg <> y2:616 var
+R21319:21321 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21311:21313 VST.msl.boolean_alg BA_Facts glb defax
+R21317:21318 VST.msl.boolean_alg <> y1:615 var
+R21315:21315 VST.msl.boolean_alg <> x:614 var
+R21322:21324 VST.msl.boolean_alg BA_Facts glb defax
+R21328:21329 VST.msl.boolean_alg <> y2:616 var
+R21326:21326 VST.msl.boolean_alg <> x:614 var
+R21292:21294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21284:21286 VST.msl.boolean_alg BA_Facts lub defax
+R21290:21291 VST.msl.boolean_alg <> y1:615 var
+R21288:21288 VST.msl.boolean_alg <> x:614 var
+R21295:21297 VST.msl.boolean_alg BA_Facts lub defax
+R21301:21302 VST.msl.boolean_alg <> y2:616 var
+R21299:21299 VST.msl.boolean_alg <> x:614 var
+R21384:21393 VST.msl.boolean_alg BA_Facts lub_absorb thm
+R21384:21393 VST.msl.boolean_alg BA_Facts lub_absorb thm
+R21384:21393 VST.msl.boolean_alg BA_Facts lub_absorb thm
+R21414:21424 VST.msl.boolean_alg BA_Facts glb_commute thm
+R21414:21424 VST.msl.boolean_alg BA_Facts glb_commute thm
+R21414:21424 VST.msl.boolean_alg BA_Facts glb_commute thm
+R21458:21465 VST.msl.boolean_alg BA_Facts distrib2 thm
+R21458:21465 VST.msl.boolean_alg BA_Facts distrib2 thm
+R21458:21465 VST.msl.boolean_alg BA_Facts distrib2 thm
+R21480:21490 VST.msl.boolean_alg BA_Facts lub_commute thm
+R21480:21490 VST.msl.boolean_alg BA_Facts lub_commute thm
+R21480:21490 VST.msl.boolean_alg BA_Facts lub_commute thm
+R21524:21534 VST.msl.boolean_alg BA_Facts lub_commute thm
+R21524:21534 VST.msl.boolean_alg BA_Facts lub_commute thm
+R21524:21534 VST.msl.boolean_alg BA_Facts lub_commute thm
+R21556:21566 VST.msl.boolean_alg BA_Facts lub_commute thm
+R21556:21566 VST.msl.boolean_alg BA_Facts lub_commute thm
+R21556:21566 VST.msl.boolean_alg BA_Facts lub_commute thm
+R21591:21598 VST.msl.boolean_alg BA_Facts distrib2 thm
+R21591:21598 VST.msl.boolean_alg BA_Facts distrib2 thm
+R21591:21598 VST.msl.boolean_alg BA_Facts distrib2 thm
+R21632:21642 VST.msl.boolean_alg BA_Facts glb_commute thm
+R21632:21642 VST.msl.boolean_alg BA_Facts glb_commute thm
+R21632:21642 VST.msl.boolean_alg BA_Facts glb_commute thm
+R21657:21666 VST.msl.boolean_alg BA_Facts lub_absorb thm
+R21657:21666 VST.msl.boolean_alg BA_Facts lub_absorb thm
+R21657:21666 VST.msl.boolean_alg BA_Facts lub_absorb thm
+prf 21695:21702 BA_Facts comp_inv
+binder 21713:21713 <> x:617
+R21729:21731 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21716:21719 VST.msl.boolean_alg BA_Facts comp defax
+R21722:21725 VST.msl.boolean_alg BA_Facts comp defax
+R21727:21727 VST.msl.boolean_alg <> x:617 var
+R21732:21732 VST.msl.boolean_alg <> x:617 var
+R21786:21789 VST.msl.boolean_alg BA_Facts comp defax
+R21767:21778 VST.msl.boolean_alg BA_Facts distrib_spec thm
+R21786:21789 VST.msl.boolean_alg BA_Facts comp defax
+R21767:21778 VST.msl.boolean_alg BA_Facts distrib_spec thm
+R21807:21811 VST.msl.boolean_alg BA_Facts comp1 prfax
+R21807:21811 VST.msl.boolean_alg BA_Facts comp1 prfax
+R21807:21811 VST.msl.boolean_alg BA_Facts comp1 prfax
+R21826:21836 VST.msl.boolean_alg BA_Facts lub_commute thm
+R21826:21836 VST.msl.boolean_alg BA_Facts lub_commute thm
+R21826:21836 VST.msl.boolean_alg BA_Facts lub_commute thm
+R21851:21855 VST.msl.boolean_alg BA_Facts comp1 prfax
+R21851:21855 VST.msl.boolean_alg BA_Facts comp1 prfax
+R21851:21855 VST.msl.boolean_alg BA_Facts comp1 prfax
+R21880:21884 VST.msl.boolean_alg BA_Facts comp2 prfax
+R21880:21884 VST.msl.boolean_alg BA_Facts comp2 prfax
+R21880:21884 VST.msl.boolean_alg BA_Facts comp2 prfax
+R21899:21909 VST.msl.boolean_alg BA_Facts glb_commute thm
+R21899:21909 VST.msl.boolean_alg BA_Facts glb_commute thm
+R21899:21909 VST.msl.boolean_alg BA_Facts glb_commute thm
+R21924:21928 VST.msl.boolean_alg BA_Facts comp2 prfax
+R21924:21928 VST.msl.boolean_alg BA_Facts comp2 prfax
+R21924:21928 VST.msl.boolean_alg BA_Facts comp2 prfax
+prf 21957:21965 BA_Facts demorgan1
+binder 21976:21976 <> x:618
+binder 21978:21978 <> y:619
+R21995:21997 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21981:21984 VST.msl.boolean_alg BA_Facts comp defax
+R21987:21989 VST.msl.boolean_alg BA_Facts lub defax
+R21993:21993 VST.msl.boolean_alg <> y:619 var
+R21991:21991 VST.msl.boolean_alg <> x:618 var
+R21998:22000 VST.msl.boolean_alg BA_Facts glb defax
+R22012:22015 VST.msl.boolean_alg BA_Facts comp defax
+R22017:22017 VST.msl.boolean_alg <> y:619 var
+R22003:22006 VST.msl.boolean_alg BA_Facts comp defax
+R22008:22008 VST.msl.boolean_alg <> x:618 var
+R22075:22077 VST.msl.boolean_alg BA_Facts lub defax
+R22056:22067 VST.msl.boolean_alg BA_Facts distrib_spec thm
+R22075:22077 VST.msl.boolean_alg BA_Facts lub defax
+R22056:22067 VST.msl.boolean_alg BA_Facts distrib_spec thm
+R22097:22101 VST.msl.boolean_alg BA_Facts comp1 prfax
+R22097:22101 VST.msl.boolean_alg BA_Facts comp1 prfax
+R22097:22101 VST.msl.boolean_alg BA_Facts comp1 prfax
+R22116:22123 VST.msl.boolean_alg BA_Facts distrib2 thm
+R22116:22123 VST.msl.boolean_alg BA_Facts distrib2 thm
+R22116:22123 VST.msl.boolean_alg BA_Facts distrib2 thm
+R22139:22147 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R22154:22157 VST.msl.boolean_alg BA_Facts comp defax
+R22139:22147 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R22154:22157 VST.msl.boolean_alg BA_Facts comp defax
+R22139:22147 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R22154:22157 VST.msl.boolean_alg BA_Facts comp defax
+R22176:22180 VST.msl.boolean_alg BA_Facts comp1 prfax
+R22176:22180 VST.msl.boolean_alg BA_Facts comp1 prfax
+R22176:22180 VST.msl.boolean_alg BA_Facts comp1 prfax
+R22195:22201 VST.msl.boolean_alg BA_Facts lub_top thm
+R22195:22201 VST.msl.boolean_alg BA_Facts lub_top thm
+R22195:22201 VST.msl.boolean_alg BA_Facts lub_top thm
+R22216:22222 VST.msl.boolean_alg BA_Facts glb_top thm
+R22216:22222 VST.msl.boolean_alg BA_Facts glb_top thm
+R22216:22222 VST.msl.boolean_alg BA_Facts glb_top thm
+R22238:22248 VST.msl.boolean_alg BA_Facts lub_commute thm
+R22238:22248 VST.msl.boolean_alg BA_Facts lub_commute thm
+R22238:22248 VST.msl.boolean_alg BA_Facts lub_commute thm
+R22268:22276 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R22268:22276 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R22268:22276 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R22291:22295 VST.msl.boolean_alg BA_Facts comp1 prfax
+R22291:22295 VST.msl.boolean_alg BA_Facts comp1 prfax
+R22291:22295 VST.msl.boolean_alg BA_Facts comp1 prfax
+R22310:22316 VST.msl.boolean_alg BA_Facts lub_top thm
+R22310:22316 VST.msl.boolean_alg BA_Facts lub_top thm
+R22310:22316 VST.msl.boolean_alg BA_Facts lub_top thm
+R22341:22345 VST.msl.boolean_alg BA_Facts comp2 prfax
+R22341:22345 VST.msl.boolean_alg BA_Facts comp2 prfax
+R22341:22345 VST.msl.boolean_alg BA_Facts comp2 prfax
+R22360:22370 VST.msl.boolean_alg BA_Facts glb_commute thm
+R22360:22370 VST.msl.boolean_alg BA_Facts glb_commute thm
+R22360:22370 VST.msl.boolean_alg BA_Facts glb_commute thm
+R22385:22392 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R22385:22392 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R22385:22392 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R22408:22418 VST.msl.boolean_alg BA_Facts glb_commute thm
+R22430:22433 VST.msl.boolean_alg BA_Facts comp defax
+R22421:22424 VST.msl.boolean_alg BA_Facts comp defax
+R22408:22418 VST.msl.boolean_alg BA_Facts glb_commute thm
+R22430:22433 VST.msl.boolean_alg BA_Facts comp defax
+R22421:22424 VST.msl.boolean_alg BA_Facts comp defax
+R22408:22418 VST.msl.boolean_alg BA_Facts glb_commute thm
+R22430:22433 VST.msl.boolean_alg BA_Facts comp defax
+R22421:22424 VST.msl.boolean_alg BA_Facts comp defax
+R22452:22460 VST.msl.boolean_alg BA_Facts glb_assoc thm
+R22452:22460 VST.msl.boolean_alg BA_Facts glb_assoc thm
+R22452:22460 VST.msl.boolean_alg BA_Facts glb_assoc thm
+R22476:22486 VST.msl.boolean_alg BA_Facts glb_commute thm
+R22489:22492 VST.msl.boolean_alg BA_Facts comp defax
+R22476:22486 VST.msl.boolean_alg BA_Facts glb_commute thm
+R22489:22492 VST.msl.boolean_alg BA_Facts comp defax
+R22476:22486 VST.msl.boolean_alg BA_Facts glb_commute thm
+R22489:22492 VST.msl.boolean_alg BA_Facts comp defax
+R22513:22517 VST.msl.boolean_alg BA_Facts comp2 prfax
+R22513:22517 VST.msl.boolean_alg BA_Facts comp2 prfax
+R22513:22517 VST.msl.boolean_alg BA_Facts comp2 prfax
+R22532:22538 VST.msl.boolean_alg BA_Facts glb_bot thm
+R22532:22538 VST.msl.boolean_alg BA_Facts glb_bot thm
+R22532:22538 VST.msl.boolean_alg BA_Facts glb_bot thm
+R22553:22563 VST.msl.boolean_alg BA_Facts lub_commute thm
+R22553:22563 VST.msl.boolean_alg BA_Facts lub_commute thm
+R22553:22563 VST.msl.boolean_alg BA_Facts lub_commute thm
+R22578:22584 VST.msl.boolean_alg BA_Facts lub_bot thm
+R22578:22584 VST.msl.boolean_alg BA_Facts lub_bot thm
+R22578:22584 VST.msl.boolean_alg BA_Facts lub_bot thm
+R22600:22610 VST.msl.boolean_alg BA_Facts glb_commute thm
+R22622:22625 VST.msl.boolean_alg BA_Facts comp defax
+R22613:22616 VST.msl.boolean_alg BA_Facts comp defax
+R22600:22610 VST.msl.boolean_alg BA_Facts glb_commute thm
+R22622:22625 VST.msl.boolean_alg BA_Facts comp defax
+R22613:22616 VST.msl.boolean_alg BA_Facts comp defax
+R22600:22610 VST.msl.boolean_alg BA_Facts glb_commute thm
+R22622:22625 VST.msl.boolean_alg BA_Facts comp defax
+R22613:22616 VST.msl.boolean_alg BA_Facts comp defax
+R22644:22652 VST.msl.boolean_alg BA_Facts glb_assoc thm
+R22644:22652 VST.msl.boolean_alg BA_Facts glb_assoc thm
+R22644:22652 VST.msl.boolean_alg BA_Facts glb_assoc thm
+R22668:22678 VST.msl.boolean_alg BA_Facts glb_commute thm
+R22681:22684 VST.msl.boolean_alg BA_Facts comp defax
+R22668:22678 VST.msl.boolean_alg BA_Facts glb_commute thm
+R22681:22684 VST.msl.boolean_alg BA_Facts comp defax
+R22668:22678 VST.msl.boolean_alg BA_Facts glb_commute thm
+R22681:22684 VST.msl.boolean_alg BA_Facts comp defax
+R22705:22709 VST.msl.boolean_alg BA_Facts comp2 prfax
+R22705:22709 VST.msl.boolean_alg BA_Facts comp2 prfax
+R22705:22709 VST.msl.boolean_alg BA_Facts comp2 prfax
+R22724:22730 VST.msl.boolean_alg BA_Facts glb_bot thm
+R22724:22730 VST.msl.boolean_alg BA_Facts glb_bot thm
+R22724:22730 VST.msl.boolean_alg BA_Facts glb_bot thm
+prf 22759:22767 BA_Facts demorgan2
+binder 22778:22778 <> x:620
+binder 22780:22780 <> y:621
+R22797:22799 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22783:22786 VST.msl.boolean_alg BA_Facts comp defax
+R22789:22791 VST.msl.boolean_alg BA_Facts glb defax
+R22795:22795 VST.msl.boolean_alg <> y:621 var
+R22793:22793 VST.msl.boolean_alg <> x:620 var
+R22800:22802 VST.msl.boolean_alg BA_Facts lub defax
+R22814:22817 VST.msl.boolean_alg BA_Facts comp defax
+R22819:22819 VST.msl.boolean_alg <> y:621 var
+R22805:22808 VST.msl.boolean_alg BA_Facts comp defax
+R22810:22810 VST.msl.boolean_alg <> x:620 var
+R22877:22879 VST.msl.boolean_alg BA_Facts glb defax
+R22858:22869 VST.msl.boolean_alg BA_Facts distrib_spec thm
+R22877:22879 VST.msl.boolean_alg BA_Facts glb defax
+R22858:22869 VST.msl.boolean_alg BA_Facts distrib_spec thm
+R22899:22903 VST.msl.boolean_alg BA_Facts comp1 prfax
+R22899:22903 VST.msl.boolean_alg BA_Facts comp1 prfax
+R22899:22903 VST.msl.boolean_alg BA_Facts comp1 prfax
+R22918:22928 VST.msl.boolean_alg BA_Facts lub_commute thm
+R22918:22928 VST.msl.boolean_alg BA_Facts lub_commute thm
+R22918:22928 VST.msl.boolean_alg BA_Facts lub_commute thm
+R22943:22950 VST.msl.boolean_alg BA_Facts distrib2 thm
+R22943:22950 VST.msl.boolean_alg BA_Facts distrib2 thm
+R22943:22950 VST.msl.boolean_alg BA_Facts distrib2 thm
+R22966:22976 VST.msl.boolean_alg BA_Facts lub_commute thm
+R22988:22991 VST.msl.boolean_alg BA_Facts comp defax
+R22979:22982 VST.msl.boolean_alg BA_Facts comp defax
+R22966:22976 VST.msl.boolean_alg BA_Facts lub_commute thm
+R22988:22991 VST.msl.boolean_alg BA_Facts comp defax
+R22979:22982 VST.msl.boolean_alg BA_Facts comp defax
+R22966:22976 VST.msl.boolean_alg BA_Facts lub_commute thm
+R22988:22991 VST.msl.boolean_alg BA_Facts comp defax
+R22979:22982 VST.msl.boolean_alg BA_Facts comp defax
+R23010:23018 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R23010:23018 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R23010:23018 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R23034:23044 VST.msl.boolean_alg BA_Facts lub_commute thm
+R23047:23050 VST.msl.boolean_alg BA_Facts comp defax
+R23034:23044 VST.msl.boolean_alg BA_Facts lub_commute thm
+R23047:23050 VST.msl.boolean_alg BA_Facts comp defax
+R23034:23044 VST.msl.boolean_alg BA_Facts lub_commute thm
+R23047:23050 VST.msl.boolean_alg BA_Facts comp defax
+R23071:23075 VST.msl.boolean_alg BA_Facts comp1 prfax
+R23071:23075 VST.msl.boolean_alg BA_Facts comp1 prfax
+R23071:23075 VST.msl.boolean_alg BA_Facts comp1 prfax
+R23090:23096 VST.msl.boolean_alg BA_Facts lub_top thm
+R23090:23096 VST.msl.boolean_alg BA_Facts lub_top thm
+R23090:23096 VST.msl.boolean_alg BA_Facts lub_top thm
+R23111:23121 VST.msl.boolean_alg BA_Facts glb_commute thm
+R23111:23121 VST.msl.boolean_alg BA_Facts glb_commute thm
+R23111:23121 VST.msl.boolean_alg BA_Facts glb_commute thm
+R23136:23142 VST.msl.boolean_alg BA_Facts glb_top thm
+R23136:23142 VST.msl.boolean_alg BA_Facts glb_top thm
+R23136:23142 VST.msl.boolean_alg BA_Facts glb_top thm
+R23158:23168 VST.msl.boolean_alg BA_Facts lub_commute thm
+R23180:23183 VST.msl.boolean_alg BA_Facts comp defax
+R23171:23174 VST.msl.boolean_alg BA_Facts comp defax
+R23158:23168 VST.msl.boolean_alg BA_Facts lub_commute thm
+R23180:23183 VST.msl.boolean_alg BA_Facts comp defax
+R23171:23174 VST.msl.boolean_alg BA_Facts comp defax
+R23158:23168 VST.msl.boolean_alg BA_Facts lub_commute thm
+R23180:23183 VST.msl.boolean_alg BA_Facts comp defax
+R23171:23174 VST.msl.boolean_alg BA_Facts comp defax
+R23202:23210 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R23202:23210 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R23202:23210 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R23226:23236 VST.msl.boolean_alg BA_Facts lub_commute thm
+R23239:23242 VST.msl.boolean_alg BA_Facts comp defax
+R23226:23236 VST.msl.boolean_alg BA_Facts lub_commute thm
+R23239:23242 VST.msl.boolean_alg BA_Facts comp defax
+R23226:23236 VST.msl.boolean_alg BA_Facts lub_commute thm
+R23239:23242 VST.msl.boolean_alg BA_Facts comp defax
+R23263:23267 VST.msl.boolean_alg BA_Facts comp1 prfax
+R23263:23267 VST.msl.boolean_alg BA_Facts comp1 prfax
+R23263:23267 VST.msl.boolean_alg BA_Facts comp1 prfax
+R23282:23288 VST.msl.boolean_alg BA_Facts lub_top thm
+R23282:23288 VST.msl.boolean_alg BA_Facts lub_top thm
+R23282:23288 VST.msl.boolean_alg BA_Facts lub_top thm
+R23313:23317 VST.msl.boolean_alg BA_Facts comp2 prfax
+R23313:23317 VST.msl.boolean_alg BA_Facts comp2 prfax
+R23313:23317 VST.msl.boolean_alg BA_Facts comp2 prfax
+R23332:23339 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R23332:23339 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R23332:23339 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R23355:23365 VST.msl.boolean_alg BA_Facts glb_commute thm
+R23355:23365 VST.msl.boolean_alg BA_Facts glb_commute thm
+R23355:23365 VST.msl.boolean_alg BA_Facts glb_commute thm
+R23385:23393 VST.msl.boolean_alg BA_Facts glb_assoc thm
+R23385:23393 VST.msl.boolean_alg BA_Facts glb_assoc thm
+R23385:23393 VST.msl.boolean_alg BA_Facts glb_assoc thm
+R23408:23412 VST.msl.boolean_alg BA_Facts comp2 prfax
+R23408:23412 VST.msl.boolean_alg BA_Facts comp2 prfax
+R23408:23412 VST.msl.boolean_alg BA_Facts comp2 prfax
+R23427:23433 VST.msl.boolean_alg BA_Facts glb_bot thm
+R23427:23433 VST.msl.boolean_alg BA_Facts glb_bot thm
+R23427:23433 VST.msl.boolean_alg BA_Facts glb_bot thm
+R23448:23458 VST.msl.boolean_alg BA_Facts lub_commute thm
+R23448:23458 VST.msl.boolean_alg BA_Facts lub_commute thm
+R23448:23458 VST.msl.boolean_alg BA_Facts lub_commute thm
+R23473:23479 VST.msl.boolean_alg BA_Facts lub_bot thm
+R23473:23479 VST.msl.boolean_alg BA_Facts lub_bot thm
+R23473:23479 VST.msl.boolean_alg BA_Facts lub_bot thm
+R23495:23505 VST.msl.boolean_alg BA_Facts glb_commute thm
+R23495:23505 VST.msl.boolean_alg BA_Facts glb_commute thm
+R23495:23505 VST.msl.boolean_alg BA_Facts glb_commute thm
+R23525:23533 VST.msl.boolean_alg BA_Facts glb_assoc thm
+R23525:23533 VST.msl.boolean_alg BA_Facts glb_assoc thm
+R23525:23533 VST.msl.boolean_alg BA_Facts glb_assoc thm
+R23548:23552 VST.msl.boolean_alg BA_Facts comp2 prfax
+R23548:23552 VST.msl.boolean_alg BA_Facts comp2 prfax
+R23548:23552 VST.msl.boolean_alg BA_Facts comp2 prfax
+R23567:23573 VST.msl.boolean_alg BA_Facts glb_bot thm
+R23567:23573 VST.msl.boolean_alg BA_Facts glb_bot thm
+R23567:23573 VST.msl.boolean_alg BA_Facts glb_bot thm
+inst 23605:23611 BA_Facts Join_ba
+R23614:23617 VST.msl.sepalg <> Join class
+R23619:23619 VST.msl.boolean_alg BA_Facts t defax
+R23636:23636 VST.msl.boolean_alg BA_Facts t defax
+binder 23628:23628 <> x:622
+binder 23630:23630 <> y:623
+binder 23632:23632 <> z:624
+R23654:23657 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23648:23650 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23641:23643 VST.msl.boolean_alg BA_Facts glb defax
+R23647:23647 VST.msl.boolean_alg <> y:623 var
+R23645:23645 VST.msl.boolean_alg <> x:622 var
+R23651:23653 VST.msl.boolean_alg BA_Facts bot defax
+R23665:23667 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23658:23660 VST.msl.boolean_alg BA_Facts lub defax
+R23664:23664 VST.msl.boolean_alg <> y:623 var
+R23662:23662 VST.msl.boolean_alg <> x:622 var
+R23668:23668 VST.msl.boolean_alg <> z:624 var
+inst 23683:23684 BA_Facts pa
+R23687:23694 VST.msl.sepalg <> Perm_alg class
+R23696:23696 VST.msl.boolean_alg BA_Facts t defax
+R23924:23926 VST.msl.boolean_alg BA_Facts lub defax
+R23924:23926 VST.msl.boolean_alg BA_Facts lub defax
+R24020:24030 VST.msl.boolean_alg BA_Facts ord_antisym prfax
+R24020:24030 VST.msl.boolean_alg BA_Facts ord_antisym prfax
+R24097:24099 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24090:24092 VST.msl.boolean_alg BA_Facts glb defax
+R24100:24102 VST.msl.boolean_alg BA_Facts bot defax
+R24097:24099 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24090:24092 VST.msl.boolean_alg BA_Facts glb defax
+R24100:24102 VST.msl.boolean_alg BA_Facts bot defax
+R24126:24133 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R24126:24133 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R24126:24133 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R24164:24174 VST.msl.boolean_alg BA_Facts lub_commute thm
+R24185:24191 VST.msl.boolean_alg BA_Facts lub_bot thm
+R24164:24174 VST.msl.boolean_alg BA_Facts lub_commute thm
+R24164:24174 VST.msl.boolean_alg BA_Facts lub_commute thm
+R24185:24191 VST.msl.boolean_alg BA_Facts lub_bot thm
+R24185:24191 VST.msl.boolean_alg BA_Facts lub_bot thm
+R24234:24244 VST.msl.boolean_alg BA_Facts ord_antisym prfax
+R24255:24263 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R24234:24244 VST.msl.boolean_alg BA_Facts ord_antisym prfax
+R24255:24263 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R24255:24263 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R24255:24263 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R24255:24263 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R24303:24313 VST.msl.boolean_alg BA_Facts glb_commute thm
+R24303:24313 VST.msl.boolean_alg BA_Facts glb_commute thm
+R24303:24313 VST.msl.boolean_alg BA_Facts glb_commute thm
+R24338:24345 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R24338:24345 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R24338:24345 VST.msl.boolean_alg BA_Facts distrib1 prfax
+R24369:24378 VST.msl.boolean_alg BA_Facts lub_upper1 prfax
+R24391:24393 VST.msl.boolean_alg BA_Facts glb defax
+R24381:24383 VST.msl.boolean_alg BA_Facts glb defax
+R24369:24378 VST.msl.boolean_alg BA_Facts lub_upper1 prfax
+R24391:24393 VST.msl.boolean_alg BA_Facts glb defax
+R24381:24383 VST.msl.boolean_alg BA_Facts glb defax
+R24440:24450 VST.msl.boolean_alg BA_Facts ord_antisym prfax
+R24440:24450 VST.msl.boolean_alg BA_Facts ord_antisym prfax
+R24469:24479 VST.msl.boolean_alg BA_Facts bot_correct prfax
+R24469:24479 VST.msl.boolean_alg BA_Facts bot_correct prfax
+R24527:24537 VST.msl.boolean_alg BA_Facts glb_commute thm
+R24527:24537 VST.msl.boolean_alg BA_Facts glb_commute thm
+R24527:24537 VST.msl.boolean_alg BA_Facts glb_commute thm
+R24552:24562 VST.msl.boolean_alg BA_Facts lub_commute thm
+R24552:24562 VST.msl.boolean_alg BA_Facts lub_commute thm
+R24552:24562 VST.msl.boolean_alg BA_Facts lub_commute thm
+R24656:24666 VST.msl.boolean_alg BA_Facts lub_commute thm
+R24656:24666 VST.msl.boolean_alg BA_Facts lub_commute thm
+R24656:24666 VST.msl.boolean_alg BA_Facts lub_commute thm
+R24686:24696 VST.msl.boolean_alg BA_Facts lub_commute thm
+R24686:24696 VST.msl.boolean_alg BA_Facts lub_commute thm
+R24686:24696 VST.msl.boolean_alg BA_Facts lub_commute thm
+R24721:24729 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R24721:24729 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R24721:24729 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R24748:24756 VST.msl.boolean_alg BA_Facts ord_spec2 thm
+R24748:24756 VST.msl.boolean_alg BA_Facts ord_spec2 thm
+R24777:24787 VST.msl.boolean_alg BA_Facts lub_commute thm
+R24796:24804 VST.msl.boolean_alg BA_Facts ord_spec2 thm
+R24777:24787 VST.msl.boolean_alg BA_Facts lub_commute thm
+R24777:24787 VST.msl.boolean_alg BA_Facts lub_commute thm
+R24796:24804 VST.msl.boolean_alg BA_Facts ord_spec2 thm
+R24833:24835 VST.msl.boolean_alg BA_Facts lub defax
+R24817:24825 VST.msl.boolean_alg BA_Facts ord_trans prfax
+R24833:24835 VST.msl.boolean_alg BA_Facts lub defax
+R24817:24825 VST.msl.boolean_alg BA_Facts ord_trans prfax
+R24861:24869 VST.msl.boolean_alg BA_Facts ord_spec2 thm
+R24861:24869 VST.msl.boolean_alg BA_Facts ord_spec2 thm
+R24881:24891 VST.msl.boolean_alg BA_Facts lub_commute thm
+R24881:24891 VST.msl.boolean_alg BA_Facts lub_commute thm
+R24881:24891 VST.msl.boolean_alg BA_Facts lub_commute thm
+R24906:24914 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R24906:24914 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R24906:24914 VST.msl.boolean_alg BA_Facts lub_assoc thm
+R24925:24932 VST.msl.boolean_alg BA_Facts lub_idem thm
+R24925:24932 VST.msl.boolean_alg BA_Facts lub_idem thm
+R24925:24932 VST.msl.boolean_alg BA_Facts lub_idem thm
+inst 24960:24961 BA_Facts sa
+R24964:24970 VST.msl.sepalg <> Sep_alg class
+R24972:24972 VST.msl.boolean_alg BA_Facts t defax
+R25012:25014 VST.msl.boolean_alg BA_Facts bot defax
+R24991:24995 VST.msl.sepalg <> mkSep constr
+R25012:25014 VST.msl.boolean_alg BA_Facts bot defax
+R24991:24995 VST.msl.sepalg <> mkSep constr
+R25037:25044 VST.msl.sepalg <> unit_for def
+R25068:25078 VST.msl.boolean_alg BA_Facts glb_commute thm
+R25087:25093 VST.msl.boolean_alg BA_Facts glb_bot thm
+R25068:25078 VST.msl.boolean_alg BA_Facts glb_commute thm
+R25068:25078 VST.msl.boolean_alg BA_Facts glb_commute thm
+R25087:25093 VST.msl.boolean_alg BA_Facts glb_bot thm
+R25117:25127 VST.msl.boolean_alg BA_Facts lub_commute thm
+R25136:25142 VST.msl.boolean_alg BA_Facts lub_bot thm
+R25117:25127 VST.msl.boolean_alg BA_Facts lub_commute thm
+R25117:25127 VST.msl.boolean_alg BA_Facts lub_commute thm
+R25136:25142 VST.msl.boolean_alg BA_Facts lub_bot thm
+inst 25193:25197 BA_Facts singa
+R25200:25207 VST.msl.sepalg <> Sing_alg class
+R25209:25209 VST.msl.boolean_alg BA_Facts t defax
+R25229:25234 VST.msl.sepalg <> mkSing constr
+R25236:25238 VST.msl.boolean_alg BA_Facts bot defax
+R25229:25234 VST.msl.sepalg <> mkSing constr
+R25236:25238 VST.msl.boolean_alg BA_Facts bot defax
+R25249:25252 VST.msl.sepalg <> core meth
+inst 25306:25307 BA_Facts ca
+R25310:25317 VST.msl.sepalg <> Canc_alg class
+R25319:25319 VST.msl.boolean_alg BA_Facts t defax
+R25377:25388 VST.msl.boolean_alg BA_Facts distrib_spec thm
+R25377:25388 VST.msl.boolean_alg BA_Facts distrib_spec thm
+R25410:25420 VST.msl.boolean_alg BA_Facts lub_commute thm
+R25410:25420 VST.msl.boolean_alg BA_Facts lub_commute thm
+R25410:25420 VST.msl.boolean_alg BA_Facts lub_commute thm
+R25447:25457 VST.msl.boolean_alg BA_Facts lub_commute thm
+R25447:25457 VST.msl.boolean_alg BA_Facts lub_commute thm
+R25447:25457 VST.msl.boolean_alg BA_Facts lub_commute thm
+R25497:25507 VST.msl.boolean_alg BA_Facts glb_commute thm
+R25497:25507 VST.msl.boolean_alg BA_Facts glb_commute thm
+R25497:25507 VST.msl.boolean_alg BA_Facts glb_commute thm
+R25534:25544 VST.msl.boolean_alg BA_Facts glb_commute thm
+R25534:25544 VST.msl.boolean_alg BA_Facts glb_commute thm
+R25534:25544 VST.msl.boolean_alg BA_Facts glb_commute thm
+inst 25590:25591 BA_Facts da
+R25594:25601 VST.msl.sepalg <> Disj_alg class
+R25603:25603 VST.msl.boolean_alg BA_Facts t defax
+R25661:25668 VST.msl.boolean_alg BA_Facts lub_idem thm
+R25661:25668 VST.msl.boolean_alg BA_Facts lub_idem thm
+R25661:25668 VST.msl.boolean_alg BA_Facts lub_idem thm
+R25696:25703 VST.msl.boolean_alg BA_Facts glb_idem thm
+R25696:25703 VST.msl.boolean_alg BA_Facts glb_idem thm
+R25696:25703 VST.msl.boolean_alg BA_Facts glb_idem thm
+R25730:25740 VST.msl.boolean_alg BA_Facts lub_commute thm
+R25743:25749 VST.msl.boolean_alg BA_Facts lub_bot thm
+R25730:25740 VST.msl.boolean_alg BA_Facts lub_commute thm
+R25730:25740 VST.msl.boolean_alg BA_Facts lub_commute thm
+R25743:25749 VST.msl.boolean_alg BA_Facts lub_bot thm
+R25743:25749 VST.msl.boolean_alg BA_Facts lub_bot thm
+R25770:25777 VST.msl.boolean_alg BA_Facts <> mod

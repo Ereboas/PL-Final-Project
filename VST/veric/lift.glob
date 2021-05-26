@@ -1,0 +1,182 @@
+DIGEST 5483a22fa9ba14960fab936317bc0ddb
+FVST.veric.lift
+constr 94:99 <> mkLift
+rec 86:89 <> Lift
+proj 112:117 <> lift_S
+proj 135:140 <> lift_T
+proj 158:166 <> lift_prod
+proj 185:193 <> lift_last
+proj 211:216 <> lifted
+proj 235:244 <> lift_curry
+proj 290:306 <> lift_uncurry_open
+R253:256 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R266:269 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R270:278 VST.veric.lift <> lift_last:5 meth
+R257:265 VST.veric.lift <> lift_prod:4 meth
+R247:252 VST.veric.lift <> lift_T:3 meth
+R309:309 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R356:360 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R361:366 VST.veric.lift <> lifted:6 meth
+R310:310 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R330:335 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R355:355 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R342:345 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R346:354 VST.veric.lift <> lift_last:5 meth
+R336:341 VST.veric.lift <> lift_S:2 meth
+R317:320 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R321:329 VST.veric.lift <> lift_prod:4 meth
+R311:316 VST.veric.lift <> lift_S:2 meth
+def 383:386 <> Tend
+binder 389:389 <> S:9
+binder 399:399 <> A:10
+R415:420 VST.veric.lift <> mkLift constr
+binder 492:492 <> f:11
+R497:497 VST.veric.lift <> f:11 var
+R507:507 VST.veric.lift <> S:9 var
+R512:513 Coq.Init.Datatypes <> tt constr
+binder 467:467 <> f:12
+R474:474 VST.veric.lift <> f:12 var
+R445:448 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R449:449 VST.veric.lift <> A:10 var
+R444:444 VST.veric.lift <> S:9 var
+R431:431 VST.veric.lift <> A:10 var
+R426:429 Coq.Init.Datatypes <> unit ind
+R424:424 VST.veric.lift <> A:10 var
+R422:422 VST.veric.lift <> S:9 var
+def 584:589 <> Tarrow
+binder 592:592 <> A:13
+R605:608 VST.veric.lift <> Lift rec
+binder 602:602 <> H:14
+R618:623 VST.veric.lift <> mkLift constr
+binder 824:824 <> f:15
+binder 826:826 <> x:16
+R831:847 VST.veric.lift <> lift_uncurry_open proj
+R867:870 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R871:879 VST.veric.lift <> lift_prod proj
+R881:881 VST.veric.lift <> H:14 var
+R859:864 VST.veric.lift <> lift_S proj
+R866:866 VST.veric.lift <> H:14 var
+binder 856:856 <> y:17
+R886:886 VST.veric.lift <> f:15 var
+binder 893:893 <> z:18
+R898:898 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R902:903 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R907:907 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R899:899 VST.veric.lift <> x:16 var
+R901:901 VST.veric.lift <> z:18 var
+R904:904 VST.veric.lift <> y:17 var
+R906:906 VST.veric.lift <> z:18 var
+R849:849 VST.veric.lift <> H:14 var
+binder 754:754 <> f:19
+binder 756:756 <> x:20
+R767:767 VST.veric.lift <> x:20 var
+R774:774 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R777:777 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R780:780 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R785:794 VST.veric.lift <> lift_curry proj
+R799:799 VST.veric.lift <> f:19 var
+R796:796 VST.veric.lift <> H:14 var
+R714:714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R728:732 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R733:738 VST.veric.lift <> lifted proj
+R740:740 VST.veric.lift <> H:14 var
+R723:726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R727:727 VST.veric.lift <> A:13 var
+R715:720 VST.veric.lift <> lift_S proj
+R722:722 VST.veric.lift <> H:14 var
+R694:702 VST.veric.lift <> lift_last proj
+R704:704 VST.veric.lift <> H:14 var
+R665:668 Coq.Init.Datatypes <> prod ind
+R673:681 VST.veric.lift <> lift_prod proj
+R683:683 VST.veric.lift <> H:14 var
+R670:670 VST.veric.lift <> A:13 var
+R644:647 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R648:653 VST.veric.lift <> lift_T proj
+R655:655 VST.veric.lift <> H:14 var
+R643:643 VST.veric.lift <> A:13 var
+R626:631 VST.veric.lift <> lift_S proj
+R633:633 VST.veric.lift <> H:14 var
+def 1049:1052 <> lift
+binder 1054:1054 <> S:22
+binder 1057:1057 <> A:23
+binder 1059:1059 <> B:24
+R1068:1071 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1072:1072 VST.veric.lift <> B:24 var
+R1067:1067 VST.veric.lift <> A:23 var
+binder 1063:1063 <> f:25
+R1081:1084 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1085:1085 VST.veric.lift <> A:23 var
+R1080:1080 VST.veric.lift <> S:22 var
+binder 1076:1076 <> a:26
+R1092:1092 VST.veric.lift <> S:22 var
+binder 1089:1089 <> x:27
+R1097:1097 VST.veric.lift <> B:24 var
+R1102:1102 VST.veric.lift <> f:25 var
+R1105:1105 VST.veric.lift <> a:26 var
+R1107:1107 VST.veric.lift <> x:27 var
+def 1123:1127 <> liftx
+R1133:1136 VST.veric.lift <> Lift rec
+binder 1130:1130 <> H:28
+R1143:1148 VST.veric.lift <> lift_T proj
+R1150:1150 VST.veric.lift <> H:28 var
+binder 1140:1140 <> f:29
+R1155:1160 VST.veric.lift <> lifted proj
+R1162:1162 VST.veric.lift <> H:28 var
+R1169:1185 VST.veric.lift <> lift_uncurry_open proj
+R1190:1193 VST.veric.lift <> lift def
+R1196:1205 VST.veric.lift <> lift_curry proj
+R1209:1209 VST.veric.lift <> f:29 var
+R1207:1207 VST.veric.lift <> H:28 var
+R1187:1187 VST.veric.lift <> H:28 var
+R1224:1228 VST.veric.lift <> liftx def
+R1554:1558 VST.veric.lift <> liftx def
+R1638:1654 VST.veric.lift <> lift_uncurry_open proj
+R1638:1654 VST.veric.lift <> lift_uncurry_open proj
+R1692:1697 VST.veric.lift <> Tarrow canonstruc
+R1692:1697 VST.veric.lift <> Tarrow canonstruc
+R1741:1746 VST.veric.lift <> Tarrow canonstruc
+R1748:1751 VST.veric.lift <> Tend def
+R1753:1758 VST.veric.lift <> lift_S proj
+R1760:1765 VST.veric.lift <> lift_T proj
+R1767:1775 VST.veric.lift <> lift_prod proj
+R1777:1785 VST.veric.lift <> lift_last proj
+R1787:1792 VST.veric.lift <> lifted proj
+R1794:1810 VST.veric.lift <> lift_uncurry_open proj
+R1812:1821 VST.veric.lift <> lift_curry proj
+R1823:1826 VST.veric.lift <> lift def
+R1927:1931 VST.veric.lift <> liftx def
+R2019:2035 VST.veric.lift <> lift_uncurry_open proj
+R2019:2035 VST.veric.lift <> lift_uncurry_open proj
+R2075:2080 VST.veric.lift <> Tarrow canonstruc
+R2075:2080 VST.veric.lift <> Tarrow canonstruc
+R2129:2134 VST.veric.lift <> Tarrow canonstruc
+R2136:2139 VST.veric.lift <> Tend def
+R2141:2146 VST.veric.lift <> lift_S proj
+R2148:2153 VST.veric.lift <> lift_T proj
+R2155:2163 VST.veric.lift <> lift_prod proj
+R2165:2173 VST.veric.lift <> lift_last proj
+R2175:2180 VST.veric.lift <> lifted proj
+R2182:2198 VST.veric.lift <> lift_uncurry_open proj
+R2200:2209 VST.veric.lift <> lift_curry proj
+R2211:2214 VST.veric.lift <> lift def
+R2285:2289 VST.veric.lift <> liftx def
+R2386:2402 VST.veric.lift <> lift_uncurry_open proj
+R2386:2402 VST.veric.lift <> lift_uncurry_open proj
+R2461:2466 VST.veric.lift <> Tarrow canonstruc
+R2461:2466 VST.veric.lift <> Tarrow canonstruc
+R2521:2526 VST.veric.lift <> Tarrow canonstruc
+R2528:2531 VST.veric.lift <> Tend def
+R2533:2538 VST.veric.lift <> lift_S proj
+R2540:2545 VST.veric.lift <> lift_T proj
+R2547:2555 VST.veric.lift <> lift_prod proj
+R2557:2565 VST.veric.lift <> lift_last proj
+R2567:2572 VST.veric.lift <> lifted proj
+R2574:2590 VST.veric.lift <> lift_uncurry_open proj
+R2592:2601 VST.veric.lift <> lift_curry proj
+R2603:2606 VST.veric.lift <> lift def
+mod 2753:2764 <> LiftNotation
+R2788:2792 VST.veric.lift <> liftx def
+not 2776:2776 LiftNotation :::'`'_x
+R2926:2930 VST.veric.lift <> liftx def
+not 2909:2909 LiftNotation :::'`('_x_')'
+R2946:2957 VST.veric.lift LiftNotation <> mod

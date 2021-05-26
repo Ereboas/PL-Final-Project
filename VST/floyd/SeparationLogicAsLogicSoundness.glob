@@ -1,0 +1,533 @@
+DIGEST 8f6e8592220e242cd3ff009eac9cbd72
+FVST.floyd.SeparationLogicAsLogicSoundness
+R29:38 compcert.exportclight.Clightdefs <> <> lib
+R56:76 VST.sepcomp.semantics <> <> lib
+R95:114 VST.veric.juicy_base <> <> lib
+R132:150 VST.veric.juicy_mem <> <> lib
+R152:177 VST.veric.juicy_mem_lemmas <> <> lib
+R179:201 VST.veric.juicy_mem_ops <> <> lib
+R219:242 VST.veric.res_predicates <> <> lib
+R260:278 VST.veric.extend_tc <> <> lib
+R296:318 VST.veric.Clight_seplog <> <> lib
+R336:365 VST.veric.Clight_assert_lemmas <> <> lib
+R383:401 VST.sepcomp.extspec <> <> lib
+R419:441 VST.sepcomp.step_lemmas <> <> lib
+R459:481 VST.veric.juicy_extspec <> <> lib
+R499:517 VST.veric.tycontext <> <> lib
+R535:549 VST.veric.expr2 <> <> lib
+R567:581 VST.veric.semax <> <> lib
+R599:620 VST.veric.semax_lemmas <> <> lib
+R638:659 VST.veric.semax_conseq <> <> lib
+R677:699 VST.veric.Clight_lemmas <> <> lib
+R717:746 VST.veric.Clight_initial_world <> <> lib
+R764:783 VST.veric.semax_call <> <> lib
+R801:824 VST.veric.semax_straight <> <> lib
+R842:861 VST.veric.semax_loop <> <> lib
+R879:900 VST.veric.semax_switch <> <> lib
+R918:937 VST.veric.semax_prog <> <> lib
+R955:973 VST.veric.semax_ext <> <> lib
+R991:1015 VST.veric.SeparationLogic <> <> lib
+R1033:1062 VST.floyd.SeparationLogicFacts <> <> lib
+R1080:1111 VST.floyd.SeparationLogicAsLogic <> <> lib
+R1129:1162 VST.veric.SeparationLogicSoundness <> <> lib
+R1204:1222 VST.veric.ghost_PCM <> <> lib
+R1257:1277 VST.veric.Clight_core <> <> lib
+R1323:1355 VST.veric.SeparationLogic CLIGHT_SEPARATION_HOARE_LOGIC_DEF <> mod
+R1380:1416 VST.veric.SeparationLogic MINIMUM_CLIGHT_SEPARATION_HOARE_LOGIC <> mod
+R1442:1444 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+R1462:1493 VST.veric.SeparationLogicSoundness SEPARATION_HOARE_LOGIC_SOUNDNESS <> mod
+R1519:1521 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+R1534:1565 VST.veric.SeparationLogicSoundness SEPARATION_HOARE_LOGIC_SOUNDNESS <> mod
+mod 1288:1308 <> DeepEmbeddedSoundness
+R1592:1603 VST.floyd.SeparationLogicAsLogic DeepEmbedded <> modtype
+R1606:1608 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+R1612:1623 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic <> modtype
+mod 1576:1587 <> DeepEmbeddedSoundness.DeepEmbedded
+R1647:1674 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.DeepEmbedded.DeepEmbeddedDef <> modtype
+mod 1635:1642 <> DeepEmbeddedSoundness.CSHL_Def
+R1698:1726 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.DeepEmbedded.DeepEmbeddedDefs <> modtype
+mod 1685:1693 <> DeepEmbeddedSoundness.CSHL_Defs
+R1740:1753 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax def
+R1740:1753 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax def
+R1790:1798 VST.floyd.SeparationLogicFacts GenConseq <> modtype
+R1801:1803 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+R1807:1818 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic <> modtype
+mod 1780:1785 <> DeepEmbeddedSoundness.Conseq
+R1843:1854 VST.floyd.SeparationLogicFacts GenExtrFacts <> modtype
+R1857:1859 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+R1863:1868 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.Conseq <> modtype
+R1872:1883 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic <> modtype
+mod 1830:1838 <> DeepEmbeddedSoundness.ExtrFacts
+R1928:1969 VST.floyd.SeparationLogicFacts CLIGHT_SEPARATION_HOARE_LOGIC_CALL_FORWARD <> mod
+R1995:1997 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+mod 1921:1925 <> DeepEmbeddedSoundness.CallF
+R2020:2022 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+mod 2008:2015 <> DeepEmbeddedSoundness.CallF.CSHL_Def
+def 2039:2056 DeepEmbeddedSoundness.CallF semax_call_forward
+R2062:2084 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_call prfax
+R2092:2096 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.CallF <> mod
+R2116:2122 VST.floyd.SeparationLogicFacts CallF2B <> modtype
+R2125:2127 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+R2131:2136 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.Conseq <> modtype
+R2140:2151 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic <> modtype
+R2155:2159 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.CallF <> modtype
+mod 2107:2111 <> DeepEmbeddedSoundness.CallB
+R2177:2217 VST.floyd.SeparationLogicFacts CLIGHT_SEPARATION_HOARE_LOGIC_SET_FORWARD <> mod
+R2243:2245 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+mod 2171:2174 <> DeepEmbeddedSoundness.SetF
+R2268:2270 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+mod 2256:2263 <> DeepEmbeddedSoundness.SetF.CSHL_Def
+def 2287:2303 DeepEmbeddedSoundness.SetF semax_set_forward
+R2309:2338 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_set_forward prfax
+R2346:2349 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.SetF <> mod
+R2368:2373 VST.floyd.SeparationLogicFacts SetF2B <> modtype
+R2376:2378 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+R2382:2387 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.Conseq <> modtype
+R2391:2402 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic <> modtype
+R2406:2409 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.SetF <> modtype
+mod 2360:2363 <> DeepEmbeddedSoundness.SetB
+R2430:2474 VST.floyd.SeparationLogicFacts CLIGHT_SEPARATION_HOARE_LOGIC_PTR_CMP_FORWARD <> mod
+R2500:2502 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+mod 2421:2427 <> DeepEmbeddedSoundness.PtrCmpF
+R2525:2527 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+mod 2513:2520 <> DeepEmbeddedSoundness.PtrCmpF.CSHL_Def
+def 2544:2568 DeepEmbeddedSoundness.PtrCmpF semax_ptr_compare_forward
+R2574:2603 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_ptr_compare prfax
+R2611:2617 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.PtrCmpF <> mod
+R2639:2647 VST.floyd.SeparationLogicFacts PtrCmpF2B <> modtype
+R2650:2652 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+R2656:2661 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.Conseq <> modtype
+R2665:2676 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic <> modtype
+R2680:2686 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.PtrCmpF <> modtype
+mod 2628:2634 <> DeepEmbeddedSoundness.PtrCmpB
+R2705:2746 VST.floyd.SeparationLogicFacts CLIGHT_SEPARATION_HOARE_LOGIC_LOAD_FORWARD <> mod
+R2772:2774 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+mod 2698:2702 <> DeepEmbeddedSoundness.LoadF
+R2797:2799 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+mod 2785:2792 <> DeepEmbeddedSoundness.LoadF.CSHL_Def
+def 2816:2833 DeepEmbeddedSoundness.LoadF semax_load_forward
+R2839:2861 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_load prfax
+R2869:2873 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.LoadF <> mod
+R2893:2899 VST.floyd.SeparationLogicFacts LoadF2B <> modtype
+R2902:2904 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+R2908:2913 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.Conseq <> modtype
+R2917:2928 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic <> modtype
+R2932:2936 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.LoadF <> modtype
+mod 2884:2888 <> DeepEmbeddedSoundness.LoadB
+R2959:3005 VST.floyd.SeparationLogicFacts CLIGHT_SEPARATION_HOARE_LOGIC_CAST_LOAD_FORWARD <> mod
+R3031:3033 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+mod 2948:2956 <> DeepEmbeddedSoundness.CastLoadF
+R3056:3058 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+mod 3044:3051 <> DeepEmbeddedSoundness.CastLoadF.CSHL_Def
+def 3075:3097 DeepEmbeddedSoundness.CastLoadF semax_cast_load_forward
+R3103:3130 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_cast_load prfax
+R3138:3146 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.CastLoadF <> mod
+R3170:3180 VST.floyd.SeparationLogicFacts CastLoadF2B <> modtype
+R3183:3185 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+R3189:3194 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.Conseq <> modtype
+R3198:3209 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic <> modtype
+R3213:3221 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.CastLoadF <> modtype
+mod 3157:3165 <> DeepEmbeddedSoundness.CastLoadB
+R3241:3283 VST.floyd.SeparationLogicFacts CLIGHT_SEPARATION_HOARE_LOGIC_STORE_FORWARD <> mod
+R3309:3311 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+mod 3233:3238 <> DeepEmbeddedSoundness.StoreF
+R3334:3336 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+mod 3322:3329 <> DeepEmbeddedSoundness.StoreF.CSHL_Def
+def 3353:3371 DeepEmbeddedSoundness.StoreF semax_store_forward
+R3377:3400 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_store prfax
+R3408:3413 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.StoreF <> mod
+R3434:3441 VST.floyd.SeparationLogicFacts StoreF2B <> modtype
+R3444:3446 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+R3450:3455 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.Conseq <> modtype
+R3459:3470 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic <> modtype
+R3474:3479 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.StoreF <> modtype
+mod 3424:3429 <> DeepEmbeddedSoundness.StoreB
+R3508:3561 VST.floyd.SeparationLogicFacts CLIGHT_SEPARATION_HOARE_LOGIC_STORE_UNION_HACK_FORWARD <> mod
+R3587:3589 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+mod 3491:3505 <> DeepEmbeddedSoundness.StoreUnionHackF
+R3612:3614 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+mod 3600:3607 <> DeepEmbeddedSoundness.StoreUnionHackF.CSHL_Def
+def 3631:3660 DeepEmbeddedSoundness.StoreUnionHackF semax_store_union_hack_forward
+R3666:3700 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_store_union_hack prfax
+R3708:3722 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.StoreUnionHackF <> mod
+R3752:3768 VST.floyd.SeparationLogicFacts StoreUnionHackF2B <> modtype
+R3771:3773 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+R3777:3782 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.Conseq <> modtype
+R3786:3797 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic <> modtype
+R3801:3815 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.StoreUnionHackF <> modtype
+mod 3733:3747 <> DeepEmbeddedSoundness.StoreUnionHackB
+R3834:3873 VST.floyd.SeparationLogicFacts CLIGHT_SEPARATION_HOARE_LOGIC_EXTRACTION <> mod
+R3899:3901 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+R3906:3917 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic <> modtype
+mod 3827:3830 <> DeepEmbeddedSoundness.Extr
+R3936:3941 VST.floyd.SeparationLogicFacts ToSset <> modtype
+R3944:3946 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+R3950:3955 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.Conseq <> modtype
+R3959:3962 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.Extr <> modtype
+R3966:3969 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.SetB <> modtype
+R3973:3979 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.PtrCmpB <> modtype
+R3983:3987 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.LoadB <> modtype
+R3991:3999 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.CastLoadB <> modtype
+mod 3928:3931 <> DeepEmbeddedSoundness.Sset
+R4022:4030 VST.floyd.SeparationLogicFacts ToSassign <> modtype
+R4033:4035 VST.floyd.SeparationLogicAsLogicSoundness Def <> modtype
+R4039:4044 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.Conseq <> modtype
+R4048:4051 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.Extr <> modtype
+R4055:4060 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.StoreB <> modtype
+R4064:4078 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness.StoreUnionHackB <> modtype
+mod 4011:4017 <> DeepEmbeddedSoundness.Sassign
+prf 4091:4101 DeepEmbeddedSoundness semax_sound
+binder 4111:4115 <> Espec:1
+binder 4117:4118 <> CS:2
+binder 4120:4124 <> Delta:3
+binder 4126:4126 <> P:4
+binder 4128:4128 <> c:5
+binder 4130:4130 <> Q:6
+R4191:4196 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4198:4206 VST.floyd.SeparationLogicAsLogicSoundness Def semax defax
+R4227:4227 VST.floyd.SeparationLogicAsLogicSoundness <> Q:6 var
+R4225:4225 VST.floyd.SeparationLogicAsLogicSoundness <> c:5 var
+R4223:4223 VST.floyd.SeparationLogicAsLogicSoundness <> P:4 var
+R4217:4221 VST.floyd.SeparationLogicAsLogicSoundness <> Delta:3 var
+R4214:4215 VST.floyd.SeparationLogicAsLogicSoundness <> CS:2 var
+R4208:4212 VST.floyd.SeparationLogicAsLogicSoundness <> Espec:1 var
+R4136:4169 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax def
+R4190:4190 VST.floyd.SeparationLogicAsLogicSoundness <> Q:6 var
+R4188:4188 VST.floyd.SeparationLogicAsLogicSoundness <> c:5 var
+R4186:4186 VST.floyd.SeparationLogicAsLogicSoundness <> P:4 var
+R4180:4184 VST.floyd.SeparationLogicAsLogicSoundness <> Delta:3 var
+R4177:4178 VST.floyd.SeparationLogicAsLogicSoundness <> CS:2 var
+R4171:4175 VST.floyd.SeparationLogicAsLogicSoundness <> Espec:1 var
+R4274:4297 VST.msl.log_normalize <> andp_assoc thm
+R4274:4297 VST.msl.log_normalize <> andp_assoc thm
+R4274:4297 VST.msl.log_normalize <> andp_assoc thm
+R4310:4327 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_extract_prop thm
+R4310:4327 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_extract_prop thm
+R4352:4380 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_ifthenelse prfax
+R4352:4380 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_ifthenelse prfax
+R4400:4421 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_seq prfax
+R4400:4421 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_seq prfax
+R4441:4464 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_break prfax
+R4441:4464 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_break prfax
+R4477:4503 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_continue prfax
+R4477:4503 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_continue prfax
+R4517:4539 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_loop prfax
+R4517:4539 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_loop prfax
+R4559:4576 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_extract_prop thm
+R4559:4576 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_extract_prop thm
+R4601:4625 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_switch prfax
+R4601:4625 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_switch prfax
+R4644:4668 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_call_backward prfax
+R4644:4668 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_call_backward prfax
+R4681:4705 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_return prfax
+R4681:4705 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_return prfax
+R4718:4767 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_set_ptr_compare_load_cast_load_backward prfax
+R4718:4767 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_set_ptr_compare_load_cast_load_backward prfax
+R4780:4824 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_store_store_union_hack_backward prfax
+R4780:4824 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_store_store_union_hack_backward prfax
+R4837:4859 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_skip prfax
+R4837:4859 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_skip prfax
+R4878:4899 VST.msl.log_normalize <> andp_dup thm
+R4901:4909 VST.msl.seplog <> FF meth
+R4878:4899 VST.msl.log_normalize <> andp_dup thm
+R4901:4909 VST.msl.seplog <> FF meth
+R4878:4899 VST.msl.log_normalize <> andp_dup thm
+R4901:4909 VST.msl.seplog <> FF meth
+R4924:4932 VST.msl.seplog <> FF meth
+R4950:4967 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_extract_prop thm
+R4950:4967 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_extract_prop thm
+R4991:5015 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_Slabel prfax
+R4991:5015 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_Slabel prfax
+R5040:5061 VST.msl.log_normalize <> andp_dup thm
+R5063:5071 VST.msl.seplog <> FF meth
+R5040:5061 VST.msl.log_normalize <> andp_dup thm
+R5063:5071 VST.msl.seplog <> FF meth
+R5040:5061 VST.msl.log_normalize <> andp_dup thm
+R5063:5071 VST.msl.seplog <> FF meth
+R5086:5094 VST.msl.seplog <> FF meth
+R5112:5129 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_extract_prop thm
+R5112:5129 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_extract_prop thm
+R5154:5178 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_conseq prfax
+R5154:5178 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_conseq prfax
+prf 5202:5217 DeepEmbeddedSoundness semax_body_sound
+binder 5227:5231 <> Vspec:7
+binder 5233:5237 <> Gspec:8
+binder 5239:5240 <> CS:9
+binder 5242:5242 <> f:10
+binder 5244:5245 <> id:11
+R5311:5316 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5318:5350 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic.CSHL_Defs semax_body def
+R5369:5370 VST.floyd.SeparationLogicAsLogicSoundness <> id:11 var
+R5367:5367 VST.floyd.SeparationLogicAsLogicSoundness <> f:10 var
+R5364:5365 VST.floyd.SeparationLogicAsLogicSoundness <> CS:9 var
+R5358:5362 VST.floyd.SeparationLogicAsLogicSoundness <> Gspec:8 var
+R5352:5356 VST.floyd.SeparationLogicAsLogicSoundness <> Vspec:7 var
+R5251:5290 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_body def
+R5309:5310 VST.floyd.SeparationLogicAsLogicSoundness <> id:11 var
+R5307:5307 VST.floyd.SeparationLogicAsLogicSoundness <> f:10 var
+R5304:5305 VST.floyd.SeparationLogicAsLogicSoundness <> CS:9 var
+R5298:5302 VST.floyd.SeparationLogicAsLogicSoundness <> Gspec:8 var
+R5292:5296 VST.floyd.SeparationLogicAsLogicSoundness <> Vspec:7 var
+R5399:5431 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic.CSHL_Defs semax_body def
+R5434:5453 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_body def
+R5570:5580 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_sound thm
+R5570:5580 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_sound thm
+prf 5608:5623 DeepEmbeddedSoundness semax_func_sound
+binder 5633:5637 <> Espec:12
+binder 5639:5643 <> Vspec:13
+binder 5645:5649 <> Gspec:14
+binder 5651:5652 <> CS:15
+binder 5654:5655 <> ge:16
+binder 5657:5659 <> ids:17
+binder 5661:5662 <> fs:18
+R5738:5743 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5745:5758 VST.floyd.SeparationLogicAsLogicSoundness Def semax_func defax
+R5788:5789 VST.floyd.SeparationLogicAsLogicSoundness <> fs:18 var
+R5784:5786 VST.floyd.SeparationLogicAsLogicSoundness <> ids:17 var
+R5781:5782 VST.floyd.SeparationLogicAsLogicSoundness <> ge:16 var
+R5778:5779 VST.floyd.SeparationLogicAsLogicSoundness <> CS:15 var
+R5772:5776 VST.floyd.SeparationLogicAsLogicSoundness <> Gspec:14 var
+R5766:5770 VST.floyd.SeparationLogicAsLogicSoundness <> Vspec:13 var
+R5760:5764 VST.floyd.SeparationLogicAsLogicSoundness <> Espec:12 var
+R5668:5706 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_func def
+R5736:5737 VST.floyd.SeparationLogicAsLogicSoundness <> fs:18 var
+R5732:5734 VST.floyd.SeparationLogicAsLogicSoundness <> ids:17 var
+R5729:5730 VST.floyd.SeparationLogicAsLogicSoundness <> ge:16 var
+R5726:5727 VST.floyd.SeparationLogicAsLogicSoundness <> CS:15 var
+R5720:5724 VST.floyd.SeparationLogicAsLogicSoundness <> Gspec:14 var
+R5714:5718 VST.floyd.SeparationLogicAsLogicSoundness <> Vspec:13 var
+R5708:5712 VST.floyd.SeparationLogicAsLogicSoundness <> Espec:12 var
+R5834:5860 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_func_nil prfax
+R5834:5860 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_func_nil prfax
+R5874:5901 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_func_cons prfax
+R5874:5901 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_func_cons prfax
+R5921:5936 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_body_sound thm
+R5921:5936 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_body_sound thm
+R5956:5987 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_func_cons_ext prfax
+R5956:5987 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_func_cons_ext prfax
+R6009:6036 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_func_mono prfax
+R6009:6036 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_func_mono prfax
+R6087:6113 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_func_app prfax
+R6087:6113 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_func_app prfax
+R6133:6167 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_func_subsumption prfax
+R6133:6167 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_func_subsumption prfax
+R6188:6215 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_func_join prfax
+R6188:6215 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_func_join prfax
+R6236:6265 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_func_firstn prfax
+R6236:6265 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_func_firstn prfax
+R6286:6314 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_func_skipn prfax
+R6286:6314 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic semax_func_skipn prfax
+prf 6338:6354 DeepEmbeddedSoundness semax_prog_sound'
+binder 6364:6368 <> Espec:19
+binder 6370:6371 <> CS:20
+binder 6373:6376 <> prog:21
+binder 6378:6378 <> z:22
+binder 6380:6384 <> Vspec:23
+binder 6386:6390 <> Gspec:24
+R6464:6469 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6471:6503 VST.floyd.SeparationLogicAsLogicSoundness MinimumLogic.CSHL_Defs semax_prog def
+R6527:6531 VST.floyd.SeparationLogicAsLogicSoundness <> Gspec:24 var
+R6521:6525 VST.floyd.SeparationLogicAsLogicSoundness <> Vspec:23 var
+R6519:6519 VST.floyd.SeparationLogicAsLogicSoundness <> z:22 var
+R6514:6517 VST.floyd.SeparationLogicAsLogicSoundness <> prog:21 var
+R6511:6512 VST.floyd.SeparationLogicAsLogicSoundness <> CS:20 var
+R6505:6509 VST.floyd.SeparationLogicAsLogicSoundness <> Espec:19 var
+R6396:6435 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_prog def
+R6459:6463 VST.floyd.SeparationLogicAsLogicSoundness <> Gspec:24 var
+R6453:6457 VST.floyd.SeparationLogicAsLogicSoundness <> Vspec:23 var
+R6451:6451 VST.floyd.SeparationLogicAsLogicSoundness <> z:22 var
+R6446:6449 VST.floyd.SeparationLogicAsLogicSoundness <> prog:21 var
+R6443:6444 VST.floyd.SeparationLogicAsLogicSoundness <> CS:20 var
+R6437:6441 VST.floyd.SeparationLogicAsLogicSoundness <> Espec:19 var
+R6581:6596 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_func_sound thm
+R6642:6651 VST.veric.SeparationLogic <> prog_funct def
+R6620:6633 compcert.common.Globalenvs Genv globalenv def
+R6581:6596 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_func_sound thm
+R6642:6651 VST.veric.SeparationLogic <> prog_funct def
+R6620:6633 compcert.common.Globalenvs Genv globalenv def
+prf 6689:6704 DeepEmbeddedSoundness semax_prog_sound
+binder 6714:6718 <> Espec:25
+binder 6720:6721 <> CS:26
+binder 6723:6726 <> prog:27
+binder 6728:6728 <> z:28
+binder 6730:6734 <> Vspec:29
+binder 6736:6740 <> Gspec:30
+R6814:6819 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6821:6841 VST.veric.semax_prog <> semax_prog def
+R6865:6869 VST.floyd.SeparationLogicAsLogicSoundness <> Gspec:30 var
+R6859:6863 VST.floyd.SeparationLogicAsLogicSoundness <> Vspec:29 var
+R6857:6857 VST.floyd.SeparationLogicAsLogicSoundness <> z:28 var
+R6852:6855 VST.floyd.SeparationLogicAsLogicSoundness <> prog:27 var
+R6849:6850 VST.floyd.SeparationLogicAsLogicSoundness <> CS:26 var
+R6843:6847 VST.floyd.SeparationLogicAsLogicSoundness <> Espec:25 var
+R6746:6785 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_prog def
+R6809:6813 VST.floyd.SeparationLogicAsLogicSoundness <> Gspec:30 var
+R6803:6807 VST.floyd.SeparationLogicAsLogicSoundness <> Vspec:29 var
+R6801:6801 VST.floyd.SeparationLogicAsLogicSoundness <> z:28 var
+R6796:6799 VST.floyd.SeparationLogicAsLogicSoundness <> prog:27 var
+R6793:6794 VST.floyd.SeparationLogicAsLogicSoundness <> CS:26 var
+R6787:6791 VST.floyd.SeparationLogicAsLogicSoundness <> Espec:25 var
+R6897:6918 VST.floyd.SeparationLogicAsLogicSoundness Sound semax_prog_sound prfax
+R6921:6937 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_prog_sound' thm
+R6897:6918 VST.floyd.SeparationLogicAsLogicSoundness Sound semax_prog_sound prfax
+R6921:6937 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_prog_sound' thm
+prf 6960:6974 DeepEmbeddedSoundness semax_prog_rule
+R6995:7004 VST.veric.juicy_extspec <> OracleKind class
+binder 6988:6992 <> Espec:31
+R7011:7019 VST.veric.mpred <> compspecs class
+binder 7007:7008 <> CS:32
+binder 7032:7032 <> V:33
+binder 7034:7034 <> G:34
+binder 7036:7039 <> prog:35
+binder 7041:7041 <> m:36
+binder 7043:7043 <> h:37
+binder 7045:7045 <> z:38
+R7086:7094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7156:7164 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7192:7200 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7201:7202 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R7204:7206 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R7212:7214 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R7911:7912 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R7207:7211 compcert.common.Values <> block def
+binder 7203:7203 <> b:39
+R7215:7216 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R7218:7220 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R7238:7247 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R7909:7910 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R7221:7237 VST.veric.Clight_core <> state ind
+binder 7217:7217 <> q:40
+R7486:7495 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7248:7248 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7308:7319 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7485:7485 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7299:7301 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7249:7264 compcert.common.Globalenvs Genv find_symbol def
+R7284:7292 compcert.common.AST <> prog_main proj
+R7294:7297 VST.floyd.SeparationLogicAsLogicSoundness <> prog:35 var
+R7267:7275 compcert.cfrontend.Clight <> globalenv def
+R7277:7280 VST.floyd.SeparationLogicAsLogicSoundness <> prog:35 var
+R7302:7305 Coq.Init.Datatypes <> Some constr
+R7307:7307 VST.floyd.SeparationLogicAsLogicSoundness <> b:39 var
+binder 7327:7328 <> jm:41
+R7343:7346 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7347:7353 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7357:7358 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7354:7356 <> jm':42
+R7359:7380 VST.sepcomp.semantics <> initial_core proj
+R7482:7484 Coq.Init.Datatypes <> nil constr
+R7462:7465 compcert.common.Values <> Vptr constr
+R7469:7479 compcert.lib.Integers Ptrofs zero def
+R7467:7467 VST.floyd.SeparationLogicAsLogicSoundness <> b:39 var
+R7457:7459 VST.floyd.SeparationLogicAsLogicSoundness <> jm':42 var
+R7455:7455 VST.floyd.SeparationLogicAsLogicSoundness <> q:40 var
+R7452:7453 VST.floyd.SeparationLogicAsLogicSoundness <> jm:41 var
+R7430:7430 VST.floyd.SeparationLogicAsLogicSoundness <> h:37 var
+R7383:7396 VST.veric.juicy_extspec <> juicy_core_sem def
+R7399:7409 VST.veric.Clight_core <> cl_core_sem def
+R7412:7420 compcert.cfrontend.Clight <> globalenv def
+R7422:7425 VST.floyd.SeparationLogicAsLogicSoundness <> prog:35 var
+R7339:7341 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7331:7335 VST.veric.juicy_mem <> m_dry def
+R7337:7338 VST.floyd.SeparationLogicAsLogicSoundness <> jm:41 var
+R7342:7342 VST.floyd.SeparationLogicAsLogicSoundness <> m:36 var
+binder 7503:7503 <> n:43
+R7515:7516 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R7519:7532 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R7902:7908 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 7517:7518 <> jm:44
+R7545:7548 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7541:7543 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7533:7537 VST.veric.juicy_mem <> m_dry def
+R7539:7540 VST.floyd.SeparationLogicAsLogicSoundness <> jm:44 var
+R7544:7544 VST.floyd.SeparationLogicAsLogicSoundness <> m:36 var
+R7561:7575 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7557:7559 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7549:7553 VST.msl.ageable <> level meth
+R7555:7556 VST.floyd.SeparationLogicAsLogicSoundness <> jm:44 var
+R7560:7560 VST.floyd.SeparationLogicAsLogicSoundness <> n:43 var
+R7644:7658 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7609:7611 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7576:7584 Coq.Lists.List <> nth_error def
+R7587:7594 VST.veric.compcert_rmaps RML.R ghost_of def
+R7597:7601 VST.veric.juicy_mem <> m_phi def
+R7603:7604 VST.floyd.SeparationLogicAsLogicSoundness <> jm:44 var
+R7612:7615 Coq.Init.Datatypes <> Some constr
+R7618:7621 Coq.Init.Datatypes <> Some constr
+R7623:7623 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7635:7636 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7642:7642 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7624:7632 VST.veric.ghost_PCM <> ext_ghost def
+R7634:7634 VST.floyd.SeparationLogicAsLogicSoundness <> z:38 var
+R7637:7641 VST.veric.compcert_rmaps RML.R NoneP def
+R7708:7722 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7659:7664 VST.veric.semax <> jsafeN def
+R7706:7707 VST.floyd.SeparationLogicAsLogicSoundness <> jm:44 var
+R7704:7704 VST.floyd.SeparationLogicAsLogicSoundness <> q:40 var
+R7702:7702 VST.floyd.SeparationLogicAsLogicSoundness <> z:38 var
+R7700:7700 VST.floyd.SeparationLogicAsLogicSoundness <> n:43 var
+R7684:7692 compcert.cfrontend.Clight <> globalenv def
+R7694:7697 VST.floyd.SeparationLogicAsLogicSoundness <> prog:35 var
+R7668:7674 VST.veric.juicy_extspec <> OK_spec meth
+R7676:7680 VST.floyd.SeparationLogicAsLogicSoundness <> Espec:31 var
+R7742:7756 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7723:7730 VST.veric.initial_world <> no_locks def
+R7733:7737 VST.veric.juicy_mem <> m_phi def
+R7739:7740 VST.floyd.SeparationLogicAsLogicSoundness <> jm:44 var
+R7800:7814 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7757:7769 VST.veric.Clight_initial_world <> matchfunspecs def
+R7791:7795 VST.veric.juicy_mem <> m_phi def
+R7797:7798 VST.floyd.SeparationLogicAsLogicSoundness <> jm:44 var
+R7788:7788 VST.floyd.SeparationLogicAsLogicSoundness <> G:34 var
+R7772:7780 compcert.cfrontend.Clight <> globalenv def
+R7782:7785 VST.floyd.SeparationLogicAsLogicSoundness <> prog:35 var
+R7815:7822 VST.msl.predicates_hered <> app_pred def
+R7893:7897 VST.veric.juicy_mem <> m_phi def
+R7899:7900 VST.floyd.SeparationLogicAsLogicSoundness <> jm:44 var
+R7825:7833 VST.veric.Clight_seplog <> funassert def
+R7859:7871 VST.veric.tycontext <> empty_environ def
+R7874:7882 compcert.cfrontend.Clight <> globalenv def
+R7884:7887 VST.floyd.SeparationLogicAsLogicSoundness <> prog:35 var
+R7836:7851 VST.veric.tycontext <> nofunc_tycontext def
+R7855:7855 VST.floyd.SeparationLogicAsLogicSoundness <> G:34 var
+R7853:7853 VST.floyd.SeparationLogicAsLogicSoundness <> V:33 var
+R7183:7185 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7165:7177 compcert.common.Globalenvs Genv init_mem def
+R7179:7182 VST.floyd.SeparationLogicAsLogicSoundness <> prog:35 var
+R7186:7189 Coq.Init.Datatypes <> Some constr
+R7191:7191 VST.floyd.SeparationLogicAsLogicSoundness <> m:36 var
+R7096:7135 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_prog def
+R7155:7155 VST.floyd.SeparationLogicAsLogicSoundness <> G:34 var
+R7153:7153 VST.floyd.SeparationLogicAsLogicSoundness <> V:33 var
+R7151:7151 VST.floyd.SeparationLogicAsLogicSoundness <> z:38 var
+R7146:7149 VST.floyd.SeparationLogicAsLogicSoundness <> prog:35 var
+R7143:7144 VST.floyd.SeparationLogicAsLogicSoundness <> CS:32 var
+R7137:7141 VST.floyd.SeparationLogicAsLogicSoundness <> Espec:31 var
+R7050:7074 VST.veric.semax_prog <> postcondition_allows_exit def
+R7082:7085 compcert.exportclight.Clightdefs <> tint def
+R7076:7080 VST.floyd.SeparationLogicAsLogicSoundness <> Espec:31 var
+R7945:7965 VST.floyd.SeparationLogicAsLogicSoundness Sound semax_prog_rule prfax
+R7945:7965 VST.floyd.SeparationLogicAsLogicSoundness Sound semax_prog_rule prfax
+R7984:8000 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_prog_sound' thm
+R7984:8000 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness semax_prog_sound' thm
+R8020:8040 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness <> mod
+R8360:8381 VST.veric.SeparationLogicSoundness MAIN_THEOREM_STATEMENT <> mod
+mod 8347:8357 <> MainTheorem
+R8408:8419 VST.floyd.SeparationLogicAsLogic DeepEmbedded <> modtype
+R8422:8429 VST.veric.SeparationLogicSoundness VericDef <> modtype
+R8433:8459 VST.veric.SeparationLogicSoundness VericMinimumSeparationLogic <> modtype
+mod 8392:8403 <> MainTheorem.DeepEmbedded
+R8505:8519 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.DeepEmbedded.DeepEmbeddedDef <> modtype
+mod 8493:8500 <> MainTheorem.CSHL_Def
+R8543:8558 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.DeepEmbedded.DeepEmbeddedDefs <> modtype
+mod 8530:8538 <> MainTheorem.CSHL_Defs
+R8590:8623 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.DeepEmbedded.DeepEmbeddedMinimumSeparationLogic <> modtype
+mod 8569:8585 <> MainTheorem.CSHL_MinimumLogic
+R8657:8682 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.DeepEmbedded.DeepEmbeddedPracticalLogic <> modtype
+mod 8634:8652 <> MainTheorem.CSHL_PracticalLogic
+R8707:8727 VST.floyd.SeparationLogicAsLogicSoundness DeepEmbeddedSoundness <> modtype
+R8730:8737 VST.veric.SeparationLogicSoundness VericDef <> modtype
+R8741:8767 VST.veric.SeparationLogicSoundness VericMinimumSeparationLogic <> modtype
+R8771:8780 VST.veric.SeparationLogicSoundness VericSound <> modtype
+mod 8693:8702 <> MainTheorem.CSHL_Sound
+R8789:8799 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem <> mod

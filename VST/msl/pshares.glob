@@ -1,0 +1,387 @@
+DIGEST 862a48c3ae94e3d31d6e82ddb8805da5
+FVST.msl.pshares
+R102:113 VST.msl.base <> <> lib
+R131:144 VST.msl.sepalg <> <> lib
+R162:176 VST.msl.psepalg <> <> lib
+R194:207 VST.msl.eq_dec <> <> lib
+R225:238 VST.msl.shares <> <> lib
+def 366:371 <> pshare
+R383:388 VST.msl.psepalg <> lifted def
+R390:402 VST.msl.shares Share Join_ba inst
+inst 414:424 <> Join_pshare
+R427:430 VST.msl.sepalg <> Join class
+R432:437 VST.msl.pshares <> pshare def
+R443:451 VST.msl.psepalg <> Join_lift inst
+inst 467:477 <> Perm_pshare
+R481:488 VST.msl.sepalg <> Perm_alg class
+R490:495 VST.msl.pshares <> pshare def
+R500:508 VST.msl.psepalg <> Perm_lift inst
+R510:517 VST.msl.shares Share pa prfax
+inst 529:539 <> Canc_pshare
+R543:550 VST.msl.sepalg <> Canc_alg class
+R552:557 VST.msl.pshares <> pshare def
+R563:571 VST.msl.psepalg <> Canc_lift inst
+R577:584 VST.msl.shares Share ca prfax
+inst 596:606 <> Disj_pshare
+R610:617 VST.msl.sepalg <> Disj_alg class
+R619:624 VST.msl.pshares <> pshare def
+R630:638 VST.msl.psepalg <> Disj_lift inst
+R644:651 VST.msl.shares Share da prfax
+inst 663:672 <> Pos_pshare
+R676:682 VST.msl.sepalg <> Pos_alg class
+R684:689 VST.msl.pshares <> pshare def
+R695:702 VST.msl.psepalg <> Pos_lift inst
+def 721:729 <> pshare_sh
+R739:742 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R743:747 VST.msl.shares <> share def
+R733:738 VST.msl.pshares <> pshare def
+R753:762 VST.msl.psepalg <> lifted_obj def
+R770:782 VST.msl.shares Share Join_ba inst
+R764:768 VST.msl.shares <> share def
+R785:821 VST.msl.pshares <> pshare_sh def
+prf 831:843 <> pshare_eq_dec
+R862:867 VST.msl.pshares <> pshare def
+binder 853:855 <> sh1:1
+binder 857:859 <> sh2:2
+R870:870 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R878:880 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R889:889 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R874:874 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R871:873 VST.msl.pshares <> sh1:1 var
+R875:877 VST.msl.pshares <> sh2:2 var
+R884:885 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R881:883 VST.msl.pshares <> sh1:1 var
+R886:888 VST.msl.pshares <> sh2:2 var
+R951:956 VST.msl.eq_dec <> eq_dec def
+R951:956 VST.msl.eq_dec <> eq_dec def
+R1002:1010 VST.msl.Axioms <> proof_irr thm
+R1002:1010 VST.msl.Axioms <> proof_irr thm
+R1002:1010 VST.msl.Axioms <> proof_irr thm
+inst 1084:1095 <> EqDec_pshare
+R1099:1103 VST.msl.eq_dec <> EqDec class
+R1105:1110 VST.msl.pshares <> pshare def
+R1115:1127 VST.msl.pshares <> pshare_eq_dec thm
+def 1142:1151 <> pfullshare
+R1155:1160 VST.msl.pshares <> pshare def
+R1167:1175 VST.msl.psepalg <> mk_lifted def
+R1187:1203 VST.msl.shares <> top_share_nonunit thm
+R1177:1185 VST.msl.shares <> fullshare def
+prf 1213:1228 <> pfullshare_pfull
+R1232:1235 VST.msl.sepalg <> full def
+R1237:1246 VST.msl.pshares <> pfullshare def
+R1275:1280 VST.msl.pshares <> pshare def
+R1291:1301 VST.msl.psepalg <> lifted_full thm
+R1291:1301 VST.msl.psepalg <> lifted_full thm
+R1343:1356 VST.msl.shares <> fullshare_full thm
+R1343:1356 VST.msl.shares <> fullshare_full thm
+prf 1371:1389 <> join_sub_pfullshare
+R1403:1408 VST.msl.pshares <> pshare def
+binder 1400:1400 <> p:3
+R1456:1461 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1463:1465 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1462:1462 VST.msl.pshares <> p:3 var
+R1466:1475 VST.msl.pshares <> pfullshare def
+R1415:1422 VST.msl.sepalg <> join_sub def
+R1455:1455 VST.msl.pshares <> p:3 var
+R1444:1453 VST.msl.pshares <> pfullshare def
+R1430:1442 VST.msl.shares Share Join_ba inst
+R1424:1428 VST.msl.shares <> share def
+R1501:1518 VST.msl.shares <> join_sub_fullshare thm
+R1501:1518 VST.msl.shares <> join_sub_fullshare thm
+R1532:1540 VST.msl.psepalg <> lifted_eq thm
+R1532:1540 VST.msl.psepalg <> lifted_eq thm
+prf 1564:1583 <> pjoin_sub_pfullshare
+R1598:1603 VST.msl.pshares <> pshare def
+binder 1594:1594 <> p:4
+R1630:1633 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1634:1638 Coq.Init.Logic <> False ind
+R1609:1616 VST.msl.sepalg <> join_sub def
+R1629:1629 VST.msl.pshares <> p:4 var
+R1618:1627 VST.msl.pshares <> pfullshare def
+R1671:1686 VST.msl.pshares <> pfullshare_pfull thm
+R1671:1686 VST.msl.pshares <> pfullshare_pfull thm
+R1706:1719 VST.msl.psepalg <> pfull_pmaximal thm
+R1706:1719 VST.msl.psepalg <> pfull_pmaximal thm
+R1706:1719 VST.msl.psepalg <> pfull_pmaximal thm
+R1789:1797 VST.msl.sepalg <> join_comm meth
+R1789:1797 VST.msl.sepalg <> join_comm meth
+R1822:1829 VST.msl.sepalg <> no_units def
+R1833:1842 VST.msl.pshares <> pfullshare def
+R1822:1829 VST.msl.sepalg <> no_units def
+R1833:1842 VST.msl.pshares <> pfullshare def
+prf 1858:1880 <> pshare_join_full_false1
+R1894:1899 VST.msl.pshares <> pshare def
+binder 1892:1892 <> p:5
+R1924:1927 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1928:1932 Coq.Init.Logic <> False ind
+R1906:1910 VST.msl.sepalg <> joins def
+R1923:1923 VST.msl.pshares <> p:5 var
+R1912:1921 VST.msl.pshares <> pfullshare def
+R1992:2000 VST.msl.shares <> fullshare def
+R2019:2035 VST.msl.shares Share glb_commute prfax
+R2019:2035 VST.msl.shares Share glb_commute prfax
+R2019:2035 VST.msl.shares Share glb_commute prfax
+R2052:2064 VST.msl.shares Share glb_top prfax
+R2052:2064 VST.msl.shares Share glb_top prfax
+R2052:2064 VST.msl.shares Share glb_top prfax
+R2123:2131 VST.msl.shares Share bot defax
+R2123:2131 VST.msl.shares Share bot defax
+prf 2153:2175 <> pshare_join_full_false2
+R2189:2194 VST.msl.pshares <> pshare def
+binder 2187:2187 <> p:6
+R2219:2222 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2223:2227 Coq.Init.Logic <> False ind
+R2201:2205 VST.msl.sepalg <> joins def
+R2209:2218 VST.msl.pshares <> pfullshare def
+R2207:2207 VST.msl.pshares <> p:6 var
+R2253:2262 VST.msl.psepalg <> joins_comm thm
+R2253:2262 VST.msl.psepalg <> joins_comm thm
+R2276:2298 VST.msl.pshares <> pshare_join_full_false1 thm
+R2276:2298 VST.msl.pshares <> pshare_join_full_false1 thm
+prf 2326:2348 <> pshare_join_full_false3
+R2363:2368 VST.msl.pshares <> pshare def
+binder 2359:2360 <> p1:7
+binder 2371:2373 <> sh3:8
+R2412:2415 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2416:2420 Coq.Init.Logic <> False ind
+R2378:2381 VST.msl.sepalg <> join def
+R2409:2411 VST.msl.pshares <> sh3:8 var
+R2399:2407 VST.msl.shares Share top defax
+R2384:2393 VST.msl.psepalg <> lifted_obj def
+R2395:2396 VST.msl.pshares <> p1:7 var
+R2462:2471 VST.msl.psepalg <> lifted_obj def
+R2474:2483 VST.msl.pshares <> pfullshare def
+R2486:2494 VST.msl.psepalg <> mk_lifted def
+R2497:2505 Coq.Init.Specif <> proj1_sig def
+R2535:2547 VST.msl.shares Share glb_top prfax
+R2535:2547 VST.msl.shares Share glb_top prfax
+R2535:2547 VST.msl.shares Share glb_top prfax
+R2579:2587 VST.msl.shares Share bot defax
+R2579:2587 VST.msl.shares Share bot defax
+prf 2609:2631 <> pshare_join_full_false4
+R2646:2651 VST.msl.pshares <> pshare def
+binder 2642:2643 <> p1:9
+binder 2654:2656 <> sh3:10
+R2695:2698 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2699:2703 Coq.Init.Logic <> False ind
+R2661:2664 VST.msl.sepalg <> join def
+R2692:2694 VST.msl.pshares <> sh3:10 var
+R2677:2686 VST.msl.psepalg <> lifted_obj def
+R2688:2689 VST.msl.pshares <> p1:9 var
+R2666:2674 VST.msl.shares Share top defax
+R2732:2754 VST.msl.pshares <> pshare_join_full_false3 thm
+R2732:2754 VST.msl.pshares <> pshare_join_full_false3 thm
+R2763:2771 VST.msl.sepalg <> join_comm meth
+R2763:2771 VST.msl.sepalg <> join_comm meth
+prf 2798:2821 <> pshare_pjoin_full_false3
+R2836:2841 VST.msl.pshares <> pshare def
+binder 2832:2833 <> p1:11
+binder 2844:2845 <> pp:12
+binder 2847:2849 <> sh3:13
+R2891:2894 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2895:2899 Coq.Init.Logic <> False ind
+R2855:2858 VST.msl.sepalg <> join def
+R2888:2890 VST.msl.pshares <> sh3:13 var
+R2864:2872 VST.msl.psepalg <> mk_lifted def
+R2884:2885 VST.msl.pshares <> pp:12 var
+R2874:2882 VST.msl.shares Share top defax
+R2860:2861 VST.msl.pshares <> p1:11 var
+R2980:3002 VST.msl.pshares <> pshare_join_full_false3 thm
+R2980:3002 VST.msl.pshares <> pshare_join_full_false3 thm
+prf 3031:3054 <> pshare_pjoin_full_false4
+R3069:3074 VST.msl.pshares <> pshare def
+binder 3065:3066 <> p1:14
+binder 3077:3078 <> pp:15
+binder 3080:3082 <> sh3:16
+R3124:3127 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3128:3132 Coq.Init.Logic <> False ind
+R3088:3091 VST.msl.sepalg <> join def
+R3121:3123 VST.msl.pshares <> sh3:16 var
+R3118:3119 VST.msl.pshares <> p1:14 var
+R3094:3102 VST.msl.psepalg <> mk_lifted def
+R3114:3115 VST.msl.pshares <> pp:15 var
+R3104:3112 VST.msl.shares Share top defax
+R3214:3236 VST.msl.pshares <> pshare_join_full_false4 thm
+R3214:3236 VST.msl.pshares <> pshare_join_full_false4 thm
+R3318:3340 VST.msl.pshares <> pshare_join_full_false1 thm
+R3362:3384 VST.msl.pshares <> pshare_join_full_false2 thm
+R3406:3428 VST.msl.pshares <> pshare_join_full_false3 thm
+R3450:3472 VST.msl.pshares <> pshare_join_full_false4 thm
+R3494:3517 VST.msl.pshares <> pshare_pjoin_full_false3 thm
+R3539:3562 VST.msl.pshares <> pshare_pjoin_full_false4 thm
+def 3596:3607 <> split_pshare
+R3614:3619 VST.msl.pshares <> pshare def
+binder 3610:3611 <> sh:17
+R3630:3632 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3624:3629 VST.msl.pshares <> pshare def
+R3633:3638 VST.msl.pshares <> pshare def
+R3645:3645 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3680:3681 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3716:3716 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3646:3654 VST.msl.psepalg <> mk_lifted def
+R3657:3659 Coq.Init.Datatypes <> fst def
+R3662:3672 VST.msl.shares Share split defax
+R3674:3675 VST.msl.pshares <> sh:17 var
+R3682:3690 VST.msl.psepalg <> mk_lifted def
+R3693:3695 Coq.Init.Datatypes <> snd def
+R3698:3708 VST.msl.shares Share split defax
+R3710:3711 VST.msl.pshares <> sh:17 var
+R3764:3774 VST.msl.shares Share split defax
+R3777:3785 Coq.Init.Specif <> proj1_sig def
+R3764:3774 VST.msl.shares Share split defax
+R3777:3785 Coq.Init.Specif <> proj1_sig def
+R3824:3840 VST.msl.shares <> split_nontrivial' thm
+R3824:3840 VST.msl.shares <> split_nontrivial' thm
+R3879:3891 VST.msl.sepalg <> unit_identity thm
+R3879:3891 VST.msl.sepalg <> unit_identity thm
+R3936:3943 VST.msl.sepalg <> identity def
+R3936:3943 VST.msl.sepalg <> identity def
+R3988:4006 VST.msl.sepalg <> identity_unit_equiv thm
+R3988:4006 VST.msl.sepalg <> identity_unit_equiv thm
+R4071:4081 VST.msl.shares Share split defax
+R4084:4092 Coq.Init.Specif <> proj1_sig def
+R4071:4081 VST.msl.shares Share split defax
+R4084:4092 Coq.Init.Specif <> proj1_sig def
+R4131:4147 VST.msl.shares <> split_nontrivial' thm
+R4131:4147 VST.msl.shares <> split_nontrivial' thm
+R4186:4198 VST.msl.sepalg <> unit_identity thm
+R4186:4198 VST.msl.sepalg <> unit_identity thm
+R4243:4250 VST.msl.sepalg <> identity def
+R4243:4250 VST.msl.sepalg <> identity def
+R4295:4313 VST.msl.sepalg <> identity_unit_equiv thm
+R4295:4313 VST.msl.sepalg <> identity_unit_equiv thm
+prf 4340:4351 <> psplit_split
+binder 4361:4363 <> psh:18
+binder 4365:4368 <> psha:19
+binder 4370:4373 <> pshb:20
+R4378:4378 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4410:4416 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4482:4482 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4395:4397 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4379:4390 VST.msl.pshares <> split_pshare def
+R4392:4394 VST.msl.pshares <> psh:18 var
+R4398:4398 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4403:4404 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4409:4409 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4399:4402 VST.msl.pshares <> psha:19 var
+R4405:4408 VST.msl.pshares <> pshb:20 var
+R4445:4447 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4417:4427 VST.msl.shares Share split defax
+R4430:4439 VST.msl.psepalg <> lifted_obj def
+R4441:4443 VST.msl.pshares <> psh:18 var
+R4448:4448 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4464:4465 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4481:4481 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4449:4458 VST.msl.psepalg <> lifted_obj def
+R4460:4463 VST.msl.pshares <> psha:19 var
+R4466:4475 VST.msl.psepalg <> lifted_obj def
+R4477:4480 VST.msl.pshares <> pshb:20 var
+R4501:4512 VST.msl.pshares <> split_pshare def
+R4515:4524 VST.msl.psepalg <> lifted_obj def
+R4543:4550 VST.msl.Axioms <> prop_ext prfax
+R4543:4550 VST.msl.Axioms <> prop_ext prfax
+R4590:4610 Coq.Init.Datatypes <> injective_projections thm
+R4590:4610 Coq.Init.Datatypes <> injective_projections thm
+R4627:4647 Coq.Init.Datatypes <> injective_projections thm
+R4656:4664 VST.msl.psepalg <> lifted_eq thm
+R4627:4647 Coq.Init.Datatypes <> injective_projections thm
+R4656:4664 VST.msl.psepalg <> lifted_eq thm
+R4656:4664 VST.msl.psepalg <> lifted_eq thm
+prf 4703:4714 <> psplit_pjoin
+binder 4724:4726 <> psh:21
+binder 4728:4731 <> psha:22
+binder 4733:4736 <> pshb:23
+R4772:4778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4779:4782 VST.msl.sepalg <> join def
+R4794:4796 VST.msl.pshares <> psh:21 var
+R4789:4792 VST.msl.pshares <> pshb:23 var
+R4784:4787 VST.msl.pshares <> psha:22 var
+R4757:4759 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4741:4752 VST.msl.pshares <> split_pshare def
+R4754:4756 VST.msl.pshares <> psh:21 var
+R4760:4760 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4765:4766 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4771:4771 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4761:4764 VST.msl.pshares <> psha:22 var
+R4767:4770 VST.msl.pshares <> pshb:23 var
+R4826:4837 VST.msl.pshares <> psplit_split thm
+R4826:4837 VST.msl.pshares <> psplit_split thm
+R4826:4837 VST.msl.pshares <> psplit_split thm
+R4853:4862 VST.msl.shares <> split_join thm
+R4853:4862 VST.msl.shares <> split_join thm
+prf 4893:4909 <> pshare_split_neq1
+binder 4919:4921 <> psh:24
+binder 4923:4926 <> psh1:25
+binder 4928:4931 <> psh2:26
+R4965:4968 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4973:4976 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4969:4972 VST.msl.pshares <> psh1:25 var
+R4977:4979 VST.msl.pshares <> psh:24 var
+R4950:4952 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4934:4945 VST.msl.pshares <> split_pshare def
+R4947:4949 VST.msl.pshares <> psh:24 var
+R4953:4953 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4958:4959 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4964:4964 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4954:4957 VST.msl.pshares <> psh1:25 var
+R4960:4963 VST.msl.pshares <> psh2:26 var
+R5007:5018 VST.msl.pshares <> psplit_pjoin thm
+R5007:5018 VST.msl.pshares <> psplit_pjoin thm
+R5063:5071 VST.msl.sepalg <> join_comm meth
+R5063:5071 VST.msl.sepalg <> join_comm meth
+R5087:5096 VST.msl.psepalg <> pjoin_unit thm
+R5087:5096 VST.msl.psepalg <> pjoin_unit thm
+prf 5125:5141 <> pshare_split_neq2
+binder 5151:5153 <> psh:27
+binder 5155:5158 <> psh1:28
+binder 5160:5163 <> psh2:29
+R5197:5200 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5205:5208 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5201:5204 VST.msl.pshares <> psh2:29 var
+R5209:5211 VST.msl.pshares <> psh:27 var
+R5182:5184 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5166:5177 VST.msl.pshares <> split_pshare def
+R5179:5181 VST.msl.pshares <> psh:27 var
+R5185:5185 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5190:5191 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5196:5196 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5186:5189 VST.msl.pshares <> psh1:28 var
+R5192:5195 VST.msl.pshares <> psh2:29 var
+R5239:5250 VST.msl.pshares <> psplit_pjoin thm
+R5239:5250 VST.msl.pshares <> psplit_pjoin thm
+R5294:5303 VST.msl.psepalg <> pjoin_unit thm
+R5294:5303 VST.msl.psepalg <> pjoin_unit thm
+def 5337:5342 <> pLhalf
+R5346:5351 VST.msl.pshares <> pshare def
+R5356:5358 Coq.Init.Datatypes <> fst def
+R5361:5372 VST.msl.pshares <> split_pshare def
+R5374:5383 VST.msl.pshares <> pfullshare def
+def 5398:5403 <> pRhalf
+R5407:5412 VST.msl.pshares <> pshare def
+R5417:5419 Coq.Init.Datatypes <> snd def
+R5422:5433 VST.msl.pshares <> split_pshare def
+R5435:5444 VST.msl.pshares <> pfullshare def
+prf 5455:5464 <> pleftright
+R5469:5472 VST.msl.sepalg <> join def
+R5488:5497 VST.msl.pshares <> pfullshare def
+R5481:5486 VST.msl.pshares <> pRhalf def
+R5474:5479 VST.msl.pshares <> pLhalf def
+R5515:5526 VST.msl.pshares <> psplit_pjoin thm
+R5515:5526 VST.msl.pshares <> psplit_pjoin thm
+prf 5552:5565 <> pshare_nonunit
+R5579:5584 VST.msl.pshares <> pshare def
+binder 5575:5576 <> sh:30
+R5587:5593 VST.msl.sepalg <> nonunit def
+R5596:5604 VST.msl.pshares <> pshare_sh def
+R5606:5607 VST.msl.pshares <> sh:30 var
+prf 5689:5707 <> pshare_not_identity
+R5721:5726 VST.msl.pshares <> pshare def
+binder 5717:5718 <> sh:31
+R5729:5730 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5731:5738 VST.msl.sepalg <> identity def
+R5741:5749 VST.msl.pshares <> pshare_sh def
+R5751:5752 VST.msl.pshares <> sh:31 var
+R5777:5795 VST.msl.sepalg <> nonunit_nonidentity thm
+R5777:5795 VST.msl.sepalg <> nonunit_nonidentity thm
+R5804:5817 VST.msl.pshares <> pshare_nonunit thm
+R5804:5817 VST.msl.pshares <> pshare_nonunit thm

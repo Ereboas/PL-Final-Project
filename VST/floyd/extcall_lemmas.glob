@@ -1,0 +1,68 @@
+DIGEST 70b3051becffbee7b345f159a501d905
+FVST.floyd.extcall_lemmas
+R15:29 VST.floyd.base2 <> <> lib
+R47:69 VST.floyd.client_lemmas <> <> lib
+def 108:132 <> compute_funspecs_norepeat
+R139:142 Coq.Init.Datatypes <> list ind
+R150:150 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R145:149 compcert.common.AST <> ident def
+R151:157 VST.veric.mpred <> funspec ind
+binder 135:135 <> l:1
+R166:185 VST.veric.base <> compute_list_norepet def
+R188:190 Coq.Init.Datatypes <> fst def
+R193:197 Coq.Lists.List <> split def
+R199:199 VST.floyd.extcall_lemmas <> l:1 var
+prf 211:233 <> not_in_funspecs_by_id_i
+binder 236:236 <> A:2
+binder 238:238 <> B:3
+binder 241:241 <> i:4
+R248:251 Coq.Init.Datatypes <> list ind
+R255:257 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R254:254 VST.floyd.extcall_lemmas <> A:2 var
+R258:258 VST.floyd.extcall_lemmas <> B:3 var
+binder 244:244 <> l:5
+binder 262:263 <> l0:6
+binder 265:266 <> l1:7
+R289:294 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R303:308 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R309:309 Coq.Init.Logic <> ::type_scope:'~'_x not
+R310:311 Coq.Lists.List <> In def
+R316:318 Coq.Lists.List <> map def
+R324:324 VST.floyd.extcall_lemmas <> l:5 var
+R320:322 Coq.Init.Datatypes <> fst def
+R313:313 VST.floyd.extcall_lemmas <> i:4 var
+R295:295 Coq.Init.Logic <> ::type_scope:'~'_x not
+R296:297 Coq.Lists.List <> In def
+R301:302 VST.floyd.extcall_lemmas <> l0:6 var
+R299:299 VST.floyd.extcall_lemmas <> i:4 var
+R279:281 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R272:276 Coq.Lists.List <> split def
+R278:278 VST.floyd.extcall_lemmas <> l:5 var
+R282:282 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R285:285 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R288:288 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R283:284 VST.floyd.extcall_lemmas <> l0:6 var
+R286:287 VST.floyd.extcall_lemmas <> l1:7 var
+R444:448 Coq.Lists.List <> split def
+R444:448 Coq.Lists.List <> split def
+R444:448 Coq.Lists.List <> split def
+R444:448 Coq.Lists.List <> split def
+R444:448 Coq.Lists.List <> split def
+R444:448 Coq.Lists.List <> split def
+R444:448 Coq.Lists.List <> split def
+R444:448 Coq.Lists.List <> split def
+R444:448 Coq.Lists.List <> split def
+prf 548:574 <> compute_funspecs_norepeat_e
+binder 576:576 <> l:8
+R616:621 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R622:638 VST.veric.SeparationLogic <> funspecs_norepeat def
+R640:640 VST.floyd.extcall_lemmas <> l:8 var
+R609:611 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R582:606 VST.floyd.extcall_lemmas <> compute_funspecs_norepeat def
+R608:608 VST.floyd.extcall_lemmas <> l:8 var
+R612:615 Coq.Init.Datatypes <> true constr
+R679:698 VST.veric.semax_call <> fst_split thm
+R679:698 VST.veric.semax_call <> fst_split thm
+R679:698 VST.veric.semax_call <> fst_split thm
+R709:730 VST.veric.base <> compute_list_norepet_e thm
+R709:730 VST.veric.base <> compute_list_norepet_e thm

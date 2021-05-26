@@ -1,0 +1,141 @@
+DIGEST f9d8fc5e7f8c123c019b78b6dc57e1bc
+FVST.veric.juicy_safety
+R15:31 compcert.lib.Maps <> <> lib
+R49:67 compcert.common.AST <> <> lib
+R85:106 compcert.common.Values <> <> lib
+R124:149 compcert.common.Globalenvs <> <> lib
+R168:182 VST.msl.ageable <> <> lib
+R201:219 VST.sepcomp.extspec <> <> lib
+R237:259 VST.sepcomp.step_lemmas <> <> lib
+R278:301 VST.veric.compcert_rmaps <> <> lib
+R319:337 VST.veric.juicy_mem <> <> lib
+def 352:360 <> pures_sub
+R374:377 VST.veric.compcert_rmaps RML.R rmap defax
+binder 363:365 <> phi:1
+binder 367:370 <> phi':2
+binder 392:394 <> adr:3
+R405:415 VST.veric.compcert_rmaps RML.R resource_at def
+R421:423 VST.veric.juicy_safety <> adr:3 var
+R417:419 VST.veric.juicy_safety <> phi:1 var
+R436:439 VST.veric.compcert_rmaps RML.R PURE constr
+R469:488 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R449:459 VST.veric.compcert_rmaps RML.R resource_at def
+R466:468 VST.veric.juicy_safety <> adr:3 var
+R461:464 VST.veric.juicy_safety <> phi':2 var
+R489:492 VST.veric.compcert_rmaps RML.R PURE constr
+R497:506 VST.veric.compcert_rmaps RML.R preds_fmap def
+R531:536 VST.veric.compcert_rmaps RML.R approx def
+R539:543 VST.msl.ageable <> level meth
+R545:548 VST.veric.juicy_safety <> phi':2 var
+R509:514 VST.veric.compcert_rmaps RML.R approx def
+R517:521 VST.msl.ageable <> level meth
+R523:526 VST.veric.juicy_safety <> phi':2 var
+R567:570 Coq.Init.Logic <> True ind
+prf 586:600 <> pures_sub_trans
+binder 602:605 <> phi1:4
+binder 607:610 <> phi2:5
+binder 612:615 <> phi3:6
+R651:656 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R676:681 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R701:706 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R707:715 VST.veric.juicy_safety <> pures_sub def
+R722:725 VST.veric.juicy_safety <> phi3:6 var
+R717:720 VST.veric.juicy_safety <> phi1:4 var
+R682:690 VST.veric.juicy_safety <> pures_sub def
+R697:700 VST.veric.juicy_safety <> phi3:6 var
+R692:695 VST.veric.juicy_safety <> phi2:5 var
+R657:665 VST.veric.juicy_safety <> pures_sub def
+R672:675 VST.veric.juicy_safety <> phi2:5 var
+R667:670 VST.veric.juicy_safety <> phi1:4 var
+R632:635 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R622:626 VST.msl.ageable <> level meth
+R628:631 VST.veric.juicy_safety <> phi3:6 var
+R636:640 VST.msl.ageable <> level meth
+R642:645 VST.veric.juicy_safety <> phi2:5 var
+R819:821 VST.veric.rmaps RMAPS :::x_'@'_x not
+R819:821 VST.veric.rmaps RMAPS :::x_'@'_x not
+R886:897 VST.msl.base <> compose_rewr thm
+R900:909 VST.veric.compcert_rmaps RML.R preds_fmap def
+R886:897 VST.msl.base <> compose_rewr thm
+R900:909 VST.veric.compcert_rmaps RML.R preds_fmap def
+R886:897 VST.msl.base <> compose_rewr thm
+R900:909 VST.veric.compcert_rmaps RML.R preds_fmap def
+R928:942 VST.veric.compcert_rmaps RML.R preds_fmap_comp prfax
+R928:942 VST.veric.compcert_rmaps RML.R preds_fmap_comp prfax
+R928:942 VST.veric.compcert_rmaps RML.R preds_fmap_comp prfax
+R955:971 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R955:971 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R955:971 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R955:971 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R990:1006 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R990:1006 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R990:1006 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R990:1006 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+prf 1027:1040 <> pures_sub_refl
+binder 1042:1044 <> phi:7
+R1048:1056 VST.veric.juicy_safety <> pures_sub def
+R1062:1064 VST.veric.juicy_safety <> phi:7 var
+R1058:1060 VST.veric.juicy_safety <> phi:7 var
+R1101:1103 VST.veric.rmaps RMAPS :::x_'@'_x not
+R1101:1103 VST.veric.rmaps RMAPS :::x_'@'_x not
+R1163:1180 VST.veric.compcert_rmaps RML resource_at_approx thm
+R1163:1180 VST.veric.compcert_rmaps RML resource_at_approx thm
+R1163:1180 VST.veric.compcert_rmaps RML resource_at_approx thm
+def 1235:1242 <> pures_eq
+R1256:1259 VST.veric.compcert_rmaps RML.R rmap defax
+binder 1245:1247 <> phi:8
+binder 1249:1252 <> phi':9
+R1285:1291 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1423:1423 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1267:1275 VST.veric.juicy_safety <> pures_sub def
+R1281:1284 VST.veric.juicy_safety <> phi':9 var
+R1277:1279 VST.veric.juicy_safety <> phi:8 var
+binder 1299:1301 <> adr:10
+R1313:1323 VST.veric.compcert_rmaps RML.R resource_at def
+R1330:1332 VST.veric.juicy_safety <> adr:10 var
+R1325:1328 VST.veric.juicy_safety <> phi':9 var
+R1345:1348 VST.veric.compcert_rmaps RML.R PURE constr
+R1359:1365 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1368:1369 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1366:1367 <> pp:11
+R1389:1391 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1370:1380 VST.veric.compcert_rmaps RML.R resource_at def
+R1386:1388 VST.veric.juicy_safety <> adr:10 var
+R1382:1384 VST.veric.juicy_safety <> phi:8 var
+R1392:1395 VST.veric.compcert_rmaps RML.R PURE constr
+R1399:1400 VST.veric.juicy_safety <> pp:11 var
+R1413:1416 Coq.Init.Logic <> True ind
+prf 1433:1445 <> pures_eq_refl
+binder 1447:1449 <> phi:12
+R1453:1460 VST.veric.juicy_safety <> pures_eq def
+R1466:1468 VST.veric.juicy_safety <> phi:12 var
+R1462:1464 VST.veric.juicy_safety <> phi:12 var
+R1493:1506 VST.veric.juicy_safety <> pures_sub_refl thm
+R1493:1506 VST.veric.juicy_safety <> pures_sub_refl thm
+R1532:1534 VST.veric.rmaps RMAPS :::x_'@'_x not
+R1532:1534 VST.veric.rmaps RMAPS :::x_'@'_x not
+prf 1558:1571 <> pures_eq_trans
+binder 1573:1576 <> phi1:13
+binder 1578:1581 <> phi2:14
+binder 1583:1586 <> phi3:15
+R1616:1621 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1640:1645 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1664:1669 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1670:1677 VST.veric.juicy_safety <> pures_eq def
+R1684:1687 VST.veric.juicy_safety <> phi3:15 var
+R1679:1682 VST.veric.juicy_safety <> phi1:13 var
+R1646:1653 VST.veric.juicy_safety <> pures_eq def
+R1660:1663 VST.veric.juicy_safety <> phi3:15 var
+R1655:1658 VST.veric.juicy_safety <> phi2:14 var
+R1622:1629 VST.veric.juicy_safety <> pures_eq def
+R1636:1639 VST.veric.juicy_safety <> phi2:14 var
+R1631:1634 VST.veric.juicy_safety <> phi1:13 var
+R1602:1605 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1592:1596 VST.msl.ageable <> level meth
+R1598:1601 VST.veric.juicy_safety <> phi3:15 var
+R1606:1610 VST.msl.ageable <> level meth
+R1612:1615 VST.veric.juicy_safety <> phi2:14 var
+R1740:1754 VST.veric.juicy_safety <> pures_sub_trans thm
+R1740:1754 VST.veric.juicy_safety <> pures_sub_trans thm
+R1839:1841 VST.veric.rmaps RMAPS :::x_'@'_x not
+R1839:1841 VST.veric.rmaps RMAPS :::x_'@'_x not

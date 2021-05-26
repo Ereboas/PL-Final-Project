@@ -1,0 +1,328 @@
+DIGEST 01bc02eb3d1567609b260a2caff7a135
+FVST.floyd.find_nth_tactic
+R15:28 Coq.Lists.List <> <> lib
+R46:48 Coq.micromega.Lia <> <> lib
+def 61:70 <> delete_nth
+binder 73:73 <> A:1
+R80:82 Coq.Init.Datatypes <> nat ind
+binder 77:77 <> n:2
+R90:93 Coq.Init.Datatypes <> list ind
+R95:95 VST.floyd.find_nth_tactic <> A:1 var
+binder 86:87 <> xs:3
+R111:114 Coq.Init.Datatypes <> list ind
+R116:116 VST.floyd.find_nth_tactic <> A:1 var
+R131:132 VST.floyd.find_nth_tactic <> xs:3 var
+R128:128 VST.floyd.find_nth_tactic <> n:2 var
+R142:142 Coq.Init.Datatypes <> O constr
+R146:147 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R160:160 Coq.Init.Datatypes <> S constr
+R167:168 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R175:178 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R179:188 VST.floyd.find_nth_tactic <> delete_nth:4 def
+R208:210 Coq.Init.Datatypes <> nil constr
+ind 229:246 <> find_nth_preds_rec
+constr 324:351 <> find_nth_preds_rec_cons_head
+constr 433:460 <> find_nth_preds_rec_cons_tail
+constr 569:590 <> find_nth_preds_rec_nil
+binder 249:249 <> A:7
+R266:269 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R265:265 VST.floyd.find_nth_tactic <> A:7 var
+binder 259:262 <> pred:8
+R280:283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R290:293 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R310:313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R294:299 Coq.Init.Datatypes <> option ind
+R305:307 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R302:304 Coq.Init.Datatypes <> nat ind
+R284:287 Coq.Init.Datatypes <> list ind
+R277:279 Coq.Init.Datatypes <> nat ind
+binder 361:361 <> n:11
+binder 363:364 <> R0:12
+binder 366:366 <> R:13
+R376:379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R380:397 VST.floyd.find_nth_tactic <> find_nth_preds_rec:9 ind
+R417:420 Coq.Init.Datatypes <> Some constr
+R422:422 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R424:425 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R428:428 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R423:423 VST.floyd.find_nth_tactic <> n:11 var
+R426:427 VST.floyd.find_nth_tactic <> R0:12 var
+R409:412 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R407:408 VST.floyd.find_nth_tactic <> R0:12 var
+R413:413 VST.floyd.find_nth_tactic <> R:13 var
+R404:404 VST.floyd.find_nth_tactic <> n:11 var
+R399:402 VST.floyd.find_nth_tactic <> pred:8 var
+R369:372 VST.floyd.find_nth_tactic <> pred:8 var
+R374:375 VST.floyd.find_nth_tactic <> R0:12 var
+binder 470:470 <> n:14
+binder 472:473 <> R0:15
+binder 475:475 <> R:16
+binder 477:481 <> R_res:17
+R521:524 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R525:542 VST.floyd.find_nth_tactic <> find_nth_preds_rec:9 ind
+R561:565 VST.floyd.find_nth_tactic <> R_res:17 var
+R554:557 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R552:553 VST.floyd.find_nth_tactic <> R0:15 var
+R558:558 VST.floyd.find_nth_tactic <> R:16 var
+R549:549 VST.floyd.find_nth_tactic <> n:14 var
+R544:547 VST.floyd.find_nth_tactic <> pred:8 var
+R484:501 VST.floyd.find_nth_tactic <> find_nth_preds_rec:9 ind
+R516:520 VST.floyd.find_nth_tactic <> R_res:17 var
+R514:514 VST.floyd.find_nth_tactic <> R:16 var
+R509:509 Coq.Init.Datatypes <> S constr
+R511:511 VST.floyd.find_nth_tactic <> n:14 var
+R503:506 VST.floyd.find_nth_tactic <> pred:8 var
+binder 600:600 <> n:18
+R603:620 VST.floyd.find_nth_tactic <> find_nth_preds_rec:9 ind
+R633:636 Coq.Init.Datatypes <> None constr
+R629:631 Coq.Init.Datatypes <> nil constr
+R627:627 VST.floyd.find_nth_tactic <> n:18 var
+R622:625 VST.floyd.find_nth_tactic <> pred:8 var
+ind 740:753 <> find_nth_preds
+constr 824:844 <> find_nth_preds_constr
+binder 756:756 <> A:19
+R773:776 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R772:772 VST.floyd.find_nth_tactic <> A:19 var
+binder 766:769 <> pred:20
+R790:793 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R810:813 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R794:799 Coq.Init.Datatypes <> option ind
+R805:807 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R802:804 Coq.Init.Datatypes <> nat ind
+R784:787 Coq.Init.Datatypes <> list ind
+binder 854:854 <> R:23
+binder 856:860 <> R_res:24
+R896:899 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R900:913 VST.floyd.find_nth_tactic <> find_nth_preds:21 ind
+R922:926 VST.floyd.find_nth_tactic <> R_res:24 var
+R920:920 VST.floyd.find_nth_tactic <> R:23 var
+R915:918 VST.floyd.find_nth_tactic <> pred:20 var
+R863:880 VST.floyd.find_nth_tactic <> find_nth_preds_rec ind
+R891:895 VST.floyd.find_nth_tactic <> R_res:24 var
+R889:889 VST.floyd.find_nth_tactic <> R:23 var
+R882:885 VST.floyd.find_nth_tactic <> pred:20 var
+R951:964 VST.floyd.find_nth_tactic <> find_nth_preds ind
+prf 1015:1033 <> find_nth_preds_Some
+binder 1044:1044 <> A:25
+R1061:1064 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1060:1060 VST.floyd.find_nth_tactic <> A:25 var
+binder 1054:1057 <> pred:26
+binder 1071:1071 <> R:27
+binder 1073:1073 <> n:28
+binder 1075:1076 <> R0:29
+R1115:1120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1144:1147 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1134:1136 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1121:1129 Coq.Lists.List <> nth_error def
+R1133:1133 VST.floyd.find_nth_tactic <> n:28 var
+R1131:1131 VST.floyd.find_nth_tactic <> R:27 var
+R1137:1140 Coq.Init.Datatypes <> Some constr
+R1142:1143 VST.floyd.find_nth_tactic <> R0:29 var
+R1148:1151 VST.floyd.find_nth_tactic <> pred:26 var
+R1153:1154 VST.floyd.find_nth_tactic <> R0:29 var
+R1079:1092 VST.floyd.find_nth_tactic <> find_nth_preds ind
+R1102:1105 Coq.Init.Datatypes <> Some constr
+R1107:1107 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1109:1110 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1113:1113 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1108:1108 VST.floyd.find_nth_tactic <> n:28 var
+R1111:1112 VST.floyd.find_nth_tactic <> R0:29 var
+R1099:1099 VST.floyd.find_nth_tactic <> R:27 var
+R1094:1097 VST.floyd.find_nth_tactic <> pred:26 var
+R1224:1226 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R1224:1226 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R1264:1267 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1254:1257 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R1297:1300 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1287:1289 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1268:1276 Coq.Lists.List <> nth_error def
+R1282:1284 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R1290:1293 Coq.Init.Datatypes <> Some constr
+R1264:1267 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1254:1257 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R1297:1300 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1287:1289 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1268:1276 Coq.Lists.List <> nth_error def
+R1282:1284 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R1290:1293 Coq.Init.Datatypes <> Some constr
+R1378:1381 Coq.Init.Datatypes <> Some constr
+R1383:1383 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1385:1386 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1389:1389 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1378:1381 Coq.Init.Datatypes <> Some constr
+R1383:1383 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1385:1386 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1389:1389 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1478:1480 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R1478:1480 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R1604:1606 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R1621:1621 Coq.Init.Datatypes <> S constr
+R1625:1627 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R1628:1628 Coq.Init.Datatypes <> S constr
+R1604:1606 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R1621:1621 Coq.Init.Datatypes <> S constr
+R1625:1627 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R1628:1628 Coq.Init.Datatypes <> S constr
+prf 1733:1752 <> find_nth_preds_rec_S
+binder 1763:1763 <> A:30
+R1780:1783 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1779:1779 VST.floyd.find_nth_tactic <> A:30 var
+binder 1773:1776 <> pred:31
+binder 1790:1790 <> z:32
+binder 1792:1792 <> R:33
+binder 1794:1794 <> n:34
+binder 1796:1797 <> Rn:35
+R1844:1849 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1850:1867 VST.floyd.find_nth_tactic <> find_nth_preds_rec ind
+R1883:1886 Coq.Init.Datatypes <> Some constr
+R1888:1888 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1892:1893 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1896:1896 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1889:1889 Coq.Init.Datatypes <> S constr
+R1891:1891 VST.floyd.find_nth_tactic <> n:34 var
+R1894:1895 VST.floyd.find_nth_tactic <> Rn:35 var
+R1880:1880 VST.floyd.find_nth_tactic <> R:33 var
+R1875:1875 Coq.Init.Datatypes <> S constr
+R1877:1877 VST.floyd.find_nth_tactic <> z:32 var
+R1869:1872 VST.floyd.find_nth_tactic <> pred:31 var
+R1802:1819 VST.floyd.find_nth_tactic <> find_nth_preds_rec ind
+R1831:1834 Coq.Init.Datatypes <> Some constr
+R1836:1836 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1838:1839 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1842:1842 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1837:1837 VST.floyd.find_nth_tactic <> n:34 var
+R1840:1841 VST.floyd.find_nth_tactic <> Rn:35 var
+R1828:1828 VST.floyd.find_nth_tactic <> R:33 var
+R1826:1826 VST.floyd.find_nth_tactic <> z:32 var
+R1821:1824 VST.floyd.find_nth_tactic <> pred:31 var
+R1929:1932 Coq.Init.Datatypes <> Some constr
+R1934:1934 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1936:1937 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1940:1940 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1929:1932 Coq.Init.Datatypes <> Some constr
+R1934:1934 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1936:1937 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1940:1940 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2043:2070 VST.floyd.find_nth_tactic <> find_nth_preds_rec_cons_head constr
+R2043:2070 VST.floyd.find_nth_tactic <> find_nth_preds_rec_cons_head constr
+R2107:2134 VST.floyd.find_nth_tactic <> find_nth_preds_rec_cons_tail constr
+R2107:2134 VST.floyd.find_nth_tactic <> find_nth_preds_rec_cons_tail constr
+prf 2197:2225 <> find_nth_preds_rec_delete_nth
+binder 2236:2236 <> A:36
+R2253:2256 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2252:2252 VST.floyd.find_nth_tactic <> A:36 var
+binder 2246:2249 <> pred:37
+binder 2263:2263 <> z:38
+binder 2265:2265 <> m:39
+binder 2267:2267 <> R:40
+binder 2269:2270 <> Rn:41
+R2275:2275 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2343:2350 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2403:2403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2351:2357 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2359:2360 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2358:2358 <> n:42
+R2361:2378 VST.floyd.find_nth_tactic <> find_nth_preds_rec ind
+R2390:2393 Coq.Init.Datatypes <> Some constr
+R2395:2395 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2397:2398 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2401:2401 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2396:2396 VST.floyd.find_nth_tactic <> n:42 var
+R2399:2400 VST.floyd.find_nth_tactic <> Rn:41 var
+R2387:2387 VST.floyd.find_nth_tactic <> R:40 var
+R2385:2385 VST.floyd.find_nth_tactic <> z:38 var
+R2380:2383 VST.floyd.find_nth_tactic <> pred:37 var
+R2276:2282 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2284:2285 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2283:2283 <> n:43
+R2286:2303 VST.floyd.find_nth_tactic <> find_nth_preds_rec ind
+R2330:2333 Coq.Init.Datatypes <> Some constr
+R2335:2335 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2337:2338 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2341:2341 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2336:2336 VST.floyd.find_nth_tactic <> n:43 var
+R2339:2340 VST.floyd.find_nth_tactic <> Rn:41 var
+R2313:2322 VST.floyd.find_nth_tactic <> delete_nth def
+R2326:2326 VST.floyd.find_nth_tactic <> R:40 var
+R2324:2324 VST.floyd.find_nth_tactic <> m:39 var
+R2310:2310 VST.floyd.find_nth_tactic <> z:38 var
+R2305:2308 VST.floyd.find_nth_tactic <> pred:37 var
+R2543:2570 VST.floyd.find_nth_tactic <> find_nth_preds_rec_cons_tail constr
+R2543:2570 VST.floyd.find_nth_tactic <> find_nth_preds_rec_cons_tail constr
+R2583:2602 VST.floyd.find_nth_tactic <> find_nth_preds_rec_S thm
+R2583:2602 VST.floyd.find_nth_tactic <> find_nth_preds_rec_S thm
+R2713:2740 VST.floyd.find_nth_tactic <> find_nth_preds_rec_cons_head constr
+R2713:2740 VST.floyd.find_nth_tactic <> find_nth_preds_rec_cons_head constr
+R2780:2787 Coq.Init.Logic <> ex_intro constr
+R2772:2772 Coq.Init.Datatypes <> S constr
+R2780:2787 Coq.Init.Logic <> ex_intro constr
+R2772:2772 Coq.Init.Datatypes <> S constr
+R2868:2895 VST.floyd.find_nth_tactic <> find_nth_preds_rec_cons_tail constr
+R2868:2895 VST.floyd.find_nth_tactic <> find_nth_preds_rec_cons_tail constr
+prf 2940:2964 <> find_nth_preds_delete_nth
+binder 2975:2975 <> A:44
+R2992:2995 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2991:2991 VST.floyd.find_nth_tactic <> A:44 var
+binder 2985:2988 <> pred:45
+binder 3002:3002 <> m:46
+binder 3004:3004 <> R:47
+binder 3006:3007 <> Rn:48
+R3012:3012 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3074:3081 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3128:3128 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3082:3088 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3090:3091 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3089:3089 <> n:49
+R3092:3105 VST.floyd.find_nth_tactic <> find_nth_preds ind
+R3115:3118 Coq.Init.Datatypes <> Some constr
+R3120:3120 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3122:3123 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3126:3126 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3121:3121 VST.floyd.find_nth_tactic <> n:49 var
+R3124:3125 VST.floyd.find_nth_tactic <> Rn:48 var
+R3112:3112 VST.floyd.find_nth_tactic <> R:47 var
+R3107:3110 VST.floyd.find_nth_tactic <> pred:45 var
+R3013:3019 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3021:3022 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3020:3020 <> n:50
+R3023:3036 VST.floyd.find_nth_tactic <> find_nth_preds ind
+R3061:3064 Coq.Init.Datatypes <> Some constr
+R3066:3066 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3068:3069 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3072:3072 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3067:3067 VST.floyd.find_nth_tactic <> n:50 var
+R3070:3071 VST.floyd.find_nth_tactic <> Rn:48 var
+R3044:3053 VST.floyd.find_nth_tactic <> delete_nth def
+R3057:3057 VST.floyd.find_nth_tactic <> R:47 var
+R3055:3055 VST.floyd.find_nth_tactic <> m:46 var
+R3038:3041 VST.floyd.find_nth_tactic <> pred:45 var
+R3227:3233 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3235:3236 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3234:3234 <> n:51
+R3237:3254 VST.floyd.find_nth_tactic <> find_nth_preds_rec ind
+R3281:3284 Coq.Init.Datatypes <> Some constr
+R3286:3286 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3288:3289 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3292:3292 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3287:3287 VST.floyd.find_nth_tactic <> n:51 var
+R3264:3273 VST.floyd.find_nth_tactic <> delete_nth def
+R3209:3216 Coq.Init.Logic <> ex_intro constr
+R3227:3233 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3235:3236 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3234:3234 <> n:52
+R3237:3254 VST.floyd.find_nth_tactic <> find_nth_preds_rec ind
+R3281:3284 Coq.Init.Datatypes <> Some constr
+R3286:3286 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3288:3289 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3292:3292 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3287:3287 VST.floyd.find_nth_tactic <> n:52 var
+R3264:3273 VST.floyd.find_nth_tactic <> delete_nth def
+R3209:3216 Coq.Init.Logic <> ex_intro constr
+R3304:3332 VST.floyd.find_nth_tactic <> find_nth_preds_rec_delete_nth thm
+R3304:3332 VST.floyd.find_nth_tactic <> find_nth_preds_rec_delete_nth thm
+R3397:3417 VST.floyd.find_nth_tactic <> find_nth_preds_constr constr
+R3397:3417 VST.floyd.find_nth_tactic <> find_nth_preds_constr constr
+R3481:3508 VST.floyd.find_nth_tactic <> find_nth_preds_rec_cons_head constr
+R3539:3566 VST.floyd.find_nth_tactic <> find_nth_preds_rec_cons_tail constr
+R3610:3631 VST.floyd.find_nth_tactic <> find_nth_preds_rec_nil constr
+R3666:3686 VST.floyd.find_nth_tactic <> find_nth_preds_constr constr

@@ -1,0 +1,1168 @@
+DIGEST f5e14934a919f446c7c0fadf93a8fe26
+FVST.floyd.compact_prod_sum
+R15:28 Coq.Lists.List <> <> lib
+R46:64 compcert.lib.Coqlib <> <> lib
+R82:96 VST.msl.Coqlib2 <> <> lib
+R98:114 VST.floyd.coqlib3 <> <> lib
+R132:152 VST.floyd.jmeq_lemmas <> <> lib
+def 165:176 <> compact_prod
+R182:185 Coq.Init.Datatypes <> list ind
+binder 179:179 <> T:1
+R210:210 VST.floyd.compact_prod_sum <> T:1 var
+R221:223 Coq.Init.Datatypes <> nil constr
+R228:231 Coq.Init.Datatypes <> unit ind
+R238:241 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R242:244 Coq.Init.Datatypes <> nil constr
+R256:259 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R268:270 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R271:282 VST.floyd.compact_prod_sum <> compact_prod:2 def
+def 310:320 <> compact_sum
+R326:329 Coq.Init.Datatypes <> list ind
+binder 323:323 <> T:4
+R354:354 VST.floyd.compact_prod_sum <> T:4 var
+R365:367 Coq.Init.Datatypes <> nil constr
+R372:375 Coq.Init.Datatypes <> unit ind
+R382:385 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R386:388 Coq.Init.Datatypes <> nil constr
+R400:403 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R412:414 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R415:425 VST.floyd.compact_prod_sum <> compact_sum:5 def
+def 455:470 <> compact_prod_gen
+binder 473:473 <> A:7
+binder 477:477 <> F:8
+R496:496 VST.floyd.compact_prod_sum <> A:7 var
+binder 493:493 <> a:9
+R499:499 VST.floyd.compact_prod_sum <> F:8 var
+R501:501 VST.floyd.compact_prod_sum <> a:9 var
+binder 481:483 <> gen:10
+R508:511 Coq.Init.Datatypes <> list ind
+R513:513 VST.floyd.compact_prod_sum <> A:7 var
+binder 505:505 <> l:11
+R517:528 VST.floyd.compact_prod_sum <> compact_prod def
+R531:533 Coq.Lists.List <> map def
+R537:537 VST.floyd.compact_prod_sum <> l:11 var
+R535:535 VST.floyd.compact_prod_sum <> F:8 var
+R569:570 Coq.Init.Datatypes <> tt constr
+R569:570 Coq.Init.Datatypes <> tt constr
+R638:638 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R645:646 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R652:652 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R638:638 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R645:646 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R652:652 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 676:690 <> compact_sum_gen
+binder 693:693 <> A:12
+binder 697:697 <> F:13
+R710:713 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R714:717 Coq.Init.Datatypes <> bool ind
+R709:709 VST.floyd.compact_prod_sum <> A:12 var
+binder 701:706 <> filter:14
+R736:736 VST.floyd.compact_prod_sum <> A:12 var
+binder 733:733 <> a:15
+R739:739 VST.floyd.compact_prod_sum <> F:13 var
+R741:741 VST.floyd.compact_prod_sum <> a:15 var
+binder 721:723 <> gen:16
+R748:751 Coq.Init.Datatypes <> list ind
+R753:753 VST.floyd.compact_prod_sum <> A:12 var
+binder 745:745 <> l:17
+R757:767 VST.floyd.compact_prod_sum <> compact_sum def
+R770:772 Coq.Lists.List <> map def
+R776:776 VST.floyd.compact_prod_sum <> l:17 var
+R774:774 VST.floyd.compact_prod_sum <> F:13 var
+R808:809 Coq.Init.Datatypes <> tt constr
+R808:809 Coq.Init.Datatypes <> tt constr
+R906:908 Coq.Init.Datatypes <> inl constr
+R906:908 Coq.Init.Datatypes <> inl constr
+R934:936 Coq.Init.Datatypes <> inr constr
+R934:936 Coq.Init.Datatypes <> inr constr
+def 969:984 <> upd_compact_prod
+binder 987:987 <> A:18
+binder 991:991 <> F:19
+R998:1001 Coq.Init.Datatypes <> list ind
+R1003:1003 VST.floyd.compact_prod_sum <> A:18 var
+binder 995:995 <> l:20
+R1010:1021 VST.floyd.compact_prod_sum <> compact_prod def
+R1024:1026 Coq.Lists.List <> map def
+R1030:1030 VST.floyd.compact_prod_sum <> l:20 var
+R1028:1028 VST.floyd.compact_prod_sum <> F:19 var
+binder 1007:1007 <> v:21
+R1038:1038 VST.floyd.compact_prod_sum <> A:18 var
+binder 1035:1035 <> a:22
+R1046:1046 VST.floyd.compact_prod_sum <> F:19 var
+R1048:1048 VST.floyd.compact_prod_sum <> a:22 var
+binder 1042:1043 <> v0:23
+R1067:1067 VST.floyd.compact_prod_sum <> A:18 var
+binder 1062:1062 <> a:24
+binder 1064:1064 <> b:25
+R1070:1070 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1076:1080 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1087:1087 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1072:1074 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1071:1071 VST.floyd.compact_prod_sum <> a:24 var
+R1075:1075 VST.floyd.compact_prod_sum <> b:25 var
+R1082:1085 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1081:1081 VST.floyd.compact_prod_sum <> a:24 var
+R1086:1086 VST.floyd.compact_prod_sum <> b:25 var
+binder 1052:1052 <> H:26
+R1092:1103 VST.floyd.compact_prod_sum <> compact_prod def
+R1106:1108 Coq.Lists.List <> map def
+R1112:1112 VST.floyd.compact_prod_sum <> l:20 var
+R1110:1110 VST.floyd.compact_prod_sum <> F:19 var
+R1311:1311 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1314:1316 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1322:1323 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1317:1319 Coq.Init.Datatypes <> snd def
+R1311:1311 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1314:1316 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1322:1323 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1317:1319 Coq.Init.Datatypes <> snd def
+R1338:1339 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1345:1347 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1362:1362 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1340:1342 Coq.Init.Datatypes <> fst def
+R1356:1358 Coq.Init.Datatypes <> snd def
+R1338:1339 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1345:1347 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1362:1362 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1340:1342 Coq.Init.Datatypes <> fst def
+R1356:1358 Coq.Init.Datatypes <> snd def
+prf 1381:1395 <> compact_prod_eq
+binder 1406:1406 <> A:27
+R1415:1418 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1414:1414 VST.floyd.compact_prod_sum <> A:27 var
+binder 1410:1411 <> F1:28
+R1431:1434 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1430:1430 VST.floyd.compact_prod_sum <> A:27 var
+binder 1426:1427 <> F2:29
+R1445:1448 Coq.Init.Datatypes <> list ind
+R1450:1450 VST.floyd.compact_prod_sum <> A:27 var
+binder 1442:1442 <> l:30
+R1454:1454 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1497:1501 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1503:1504 Coq.Init.Logic <> eq ind
+R1538:1549 VST.floyd.compact_prod_sum <> compact_prod def
+R1552:1554 Coq.Lists.List <> map def
+R1559:1559 VST.floyd.compact_prod_sum <> l:30 var
+R1556:1557 VST.floyd.compact_prod_sum <> F2:29 var
+R1512:1523 VST.floyd.compact_prod_sum <> compact_prod def
+R1526:1528 Coq.Lists.List <> map def
+R1533:1533 VST.floyd.compact_prod_sum <> l:30 var
+R1530:1531 VST.floyd.compact_prod_sum <> F1:28 var
+binder 1462:1462 <> a:31
+R1471:1474 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1476:1477 Coq.Init.Logic <> eq ind
+R1492:1493 VST.floyd.compact_prod_sum <> F2:29 var
+R1495:1495 VST.floyd.compact_prod_sum <> a:31 var
+R1485:1486 VST.floyd.compact_prod_sum <> F1:28 var
+R1488:1488 VST.floyd.compact_prod_sum <> a:31 var
+R1465:1466 Coq.Lists.List <> In def
+R1470:1470 VST.floyd.compact_prod_sum <> l:30 var
+R1468:1468 VST.floyd.compact_prod_sum <> a:31 var
+R1738:1740 Coq.Lists.List <> map def
+R1784:1786 Coq.Init.Datatypes <> nil constr
+R1821:1824 Coq.Init.Datatypes <> cons constr
+R1833:1836 Coq.Init.Datatypes <> prod ind
+R1846:1857 VST.floyd.compact_prod_sum <> compact_prod def
+R1861:1863 Coq.Lists.List <> map def
+R1924:1935 VST.floyd.compact_prod_sum <> compact_prod def
+R1939:1941 Coq.Lists.List <> map def
+R1955:1958 Coq.Init.Datatypes <> cons constr
+R1738:1740 Coq.Lists.List <> map def
+R1784:1786 Coq.Init.Datatypes <> nil constr
+R1821:1824 Coq.Init.Datatypes <> cons constr
+R1833:1836 Coq.Init.Datatypes <> prod ind
+R1846:1857 VST.floyd.compact_prod_sum <> compact_prod def
+R1861:1863 Coq.Lists.List <> map def
+R1924:1935 VST.floyd.compact_prod_sum <> compact_prod def
+R1939:1941 Coq.Lists.List <> map def
+R1955:1958 Coq.Init.Datatypes <> cons constr
+R1994:2000 Coq.Init.Logic <> eq_refl constr
+R1994:2000 Coq.Init.Logic <> eq_refl constr
+prf 2060:2073 <> compact_sum_eq
+binder 2084:2084 <> A:32
+R2093:2096 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2092:2092 VST.floyd.compact_prod_sum <> A:32 var
+binder 2088:2089 <> F1:33
+R2109:2112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2108:2108 VST.floyd.compact_prod_sum <> A:32 var
+binder 2104:2105 <> F2:34
+R2123:2126 Coq.Init.Datatypes <> list ind
+R2128:2128 VST.floyd.compact_prod_sum <> A:32 var
+binder 2120:2120 <> l:35
+R2132:2132 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2175:2179 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2181:2182 Coq.Init.Logic <> eq ind
+R2215:2225 VST.floyd.compact_prod_sum <> compact_sum def
+R2228:2230 Coq.Lists.List <> map def
+R2235:2235 VST.floyd.compact_prod_sum <> l:35 var
+R2232:2233 VST.floyd.compact_prod_sum <> F2:34 var
+R2190:2200 VST.floyd.compact_prod_sum <> compact_sum def
+R2203:2205 Coq.Lists.List <> map def
+R2210:2210 VST.floyd.compact_prod_sum <> l:35 var
+R2207:2208 VST.floyd.compact_prod_sum <> F1:33 var
+binder 2140:2140 <> a:36
+R2149:2152 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2154:2155 Coq.Init.Logic <> eq ind
+R2170:2171 VST.floyd.compact_prod_sum <> F2:34 var
+R2173:2173 VST.floyd.compact_prod_sum <> a:36 var
+R2163:2164 VST.floyd.compact_prod_sum <> F1:33 var
+R2166:2166 VST.floyd.compact_prod_sum <> a:36 var
+R2143:2144 Coq.Lists.List <> In def
+R2148:2148 VST.floyd.compact_prod_sum <> l:35 var
+R2146:2146 VST.floyd.compact_prod_sum <> a:36 var
+R2414:2416 Coq.Lists.List <> map def
+R2460:2462 Coq.Init.Datatypes <> nil constr
+R2497:2500 Coq.Init.Datatypes <> cons constr
+R2509:2511 Coq.Init.Datatypes <> sum ind
+R2521:2531 VST.floyd.compact_prod_sum <> compact_sum def
+R2535:2537 Coq.Lists.List <> map def
+R2598:2608 VST.floyd.compact_prod_sum <> compact_sum def
+R2612:2614 Coq.Lists.List <> map def
+R2628:2631 Coq.Init.Datatypes <> cons constr
+R2414:2416 Coq.Lists.List <> map def
+R2460:2462 Coq.Init.Datatypes <> nil constr
+R2497:2500 Coq.Init.Datatypes <> cons constr
+R2509:2511 Coq.Init.Datatypes <> sum ind
+R2521:2531 VST.floyd.compact_prod_sum <> compact_sum def
+R2535:2537 Coq.Lists.List <> map def
+R2598:2608 VST.floyd.compact_prod_sum <> compact_sum def
+R2612:2614 Coq.Lists.List <> map def
+R2628:2631 Coq.Init.Datatypes <> cons constr
+R2667:2673 Coq.Init.Logic <> eq_refl constr
+R2667:2673 Coq.Init.Logic <> eq_refl constr
+prf 2733:2753 <> compact_prod_gen_JMeq
+binder 2764:2764 <> A:37
+binder 2768:2769 <> F1:38
+binder 2773:2774 <> F2:39
+R2794:2794 VST.floyd.compact_prod_sum <> A:37 var
+binder 2791:2791 <> a:40
+R2797:2798 VST.floyd.compact_prod_sum <> F1:38 var
+R2800:2800 VST.floyd.compact_prod_sum <> a:40 var
+binder 2778:2781 <> gen1:41
+R2820:2820 VST.floyd.compact_prod_sum <> A:37 var
+binder 2817:2817 <> a:42
+R2823:2824 VST.floyd.compact_prod_sum <> F2:39 var
+R2826:2826 VST.floyd.compact_prod_sum <> a:42 var
+binder 2804:2807 <> gen2:43
+R2834:2837 Coq.Init.Datatypes <> list ind
+R2839:2839 VST.floyd.compact_prod_sum <> A:37 var
+binder 2831:2831 <> l:44
+R2843:2843 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2886:2890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2891:2894 VST.floyd.jmeq_lemmas <> JMeq def
+R2923:2938 VST.floyd.compact_prod_sum <> compact_prod_gen def
+R2945:2945 VST.floyd.compact_prod_sum <> l:44 var
+R2940:2943 VST.floyd.compact_prod_sum <> gen2:43 var
+R2897:2912 VST.floyd.compact_prod_sum <> compact_prod_gen def
+R2919:2919 VST.floyd.compact_prod_sum <> l:44 var
+R2914:2917 VST.floyd.compact_prod_sum <> gen1:41 var
+binder 2851:2851 <> a:45
+R2860:2863 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2864:2867 VST.floyd.jmeq_lemmas <> JMeq def
+R2879:2882 VST.floyd.compact_prod_sum <> gen2:43 var
+R2884:2884 VST.floyd.compact_prod_sum <> a:45 var
+R2870:2873 VST.floyd.compact_prod_sum <> gen1:41 var
+R2875:2875 VST.floyd.compact_prod_sum <> a:45 var
+R2854:2855 Coq.Lists.List <> In def
+R2859:2859 VST.floyd.compact_prod_sum <> l:44 var
+R2857:2857 VST.floyd.compact_prod_sum <> a:45 var
+R3083:3091 VST.floyd.jmeq_lemmas <> JMeq_pair thm
+R3083:3091 VST.floyd.jmeq_lemmas <> JMeq_pair thm
+prf 3188:3207 <> compact_sum_gen_JMeq
+binder 3218:3218 <> A:46
+binder 3222:3223 <> F1:47
+binder 3227:3228 <> F2:48
+R3241:3244 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3245:3248 Coq.Init.Datatypes <> bool ind
+R3240:3240 VST.floyd.compact_prod_sum <> A:46 var
+binder 3232:3237 <> filter:49
+R3268:3268 VST.floyd.compact_prod_sum <> A:46 var
+binder 3265:3265 <> a:50
+R3271:3272 VST.floyd.compact_prod_sum <> F1:47 var
+R3274:3274 VST.floyd.compact_prod_sum <> a:50 var
+binder 3252:3255 <> gen1:51
+R3294:3294 VST.floyd.compact_prod_sum <> A:46 var
+binder 3291:3291 <> a:52
+R3297:3298 VST.floyd.compact_prod_sum <> F2:48 var
+R3300:3300 VST.floyd.compact_prod_sum <> a:52 var
+binder 3278:3281 <> gen2:53
+R3308:3311 Coq.Init.Datatypes <> list ind
+R3313:3313 VST.floyd.compact_prod_sum <> A:46 var
+binder 3305:3305 <> l:54
+R3317:3317 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3360:3364 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3365:3368 VST.floyd.jmeq_lemmas <> JMeq def
+R3403:3417 VST.floyd.compact_prod_sum <> compact_sum_gen def
+R3431:3431 VST.floyd.compact_prod_sum <> l:54 var
+R3426:3429 VST.floyd.compact_prod_sum <> gen2:53 var
+R3419:3424 VST.floyd.compact_prod_sum <> filter:49 var
+R3371:3385 VST.floyd.compact_prod_sum <> compact_sum_gen def
+R3399:3399 VST.floyd.compact_prod_sum <> l:54 var
+R3394:3397 VST.floyd.compact_prod_sum <> gen1:51 var
+R3387:3392 VST.floyd.compact_prod_sum <> filter:49 var
+binder 3325:3325 <> a:55
+R3334:3337 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3338:3341 VST.floyd.jmeq_lemmas <> JMeq def
+R3353:3356 VST.floyd.compact_prod_sum <> gen2:53 var
+R3358:3358 VST.floyd.compact_prod_sum <> a:55 var
+R3344:3347 VST.floyd.compact_prod_sum <> gen1:51 var
+R3349:3349 VST.floyd.compact_prod_sum <> a:55 var
+R3328:3329 Coq.Lists.List <> In def
+R3333:3333 VST.floyd.compact_prod_sum <> l:54 var
+R3331:3331 VST.floyd.compact_prod_sum <> a:55 var
+R3598:3605 VST.floyd.jmeq_lemmas <> JMeq_inl thm
+R3598:3605 VST.floyd.jmeq_lemmas <> JMeq_inl thm
+R3624:3637 VST.floyd.compact_prod_sum <> compact_sum_eq thm
+R3649:3652 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3624:3637 VST.floyd.compact_prod_sum <> compact_sum_eq thm
+R3649:3652 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3746:3753 VST.floyd.jmeq_lemmas <> JMeq_inr thm
+R3746:3753 VST.floyd.jmeq_lemmas <> JMeq_inr thm
+prf 3854:3857 <> aux0
+binder 3868:3868 <> A:56
+R3878:3878 VST.floyd.compact_prod_sum <> A:56 var
+binder 3872:3872 <> a:57
+binder 3874:3875 <> a0:58
+R3898:3901 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3909:3912 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3913:3917 Coq.Init.Logic <> False ind
+R3903:3906 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3902:3902 VST.floyd.compact_prod_sum <> a:57 var
+R3907:3908 VST.floyd.compact_prod_sum <> a0:58 var
+R3882:3883 Coq.Lists.List <> In def
+R3890:3893 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3888:3889 VST.floyd.compact_prod_sum <> a0:58 var
+R3894:3896 Coq.Init.Datatypes <> nil constr
+R3885:3885 VST.floyd.compact_prod_sum <> a:57 var
+prf 3989:3992 <> aux1
+binder 4003:4003 <> A:59
+R4013:4013 VST.floyd.compact_prod_sum <> A:59 var
+binder 4007:4007 <> a:60
+binder 4009:4010 <> a0:61
+binder 4017:4017 <> l:62
+R4035:4038 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4046:4049 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4050:4051 Coq.Lists.List <> In def
+R4055:4055 VST.floyd.compact_prod_sum <> l:62 var
+R4053:4053 VST.floyd.compact_prod_sum <> a:60 var
+R4040:4043 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4039:4039 VST.floyd.compact_prod_sum <> a:60 var
+R4044:4045 VST.floyd.compact_prod_sum <> a0:61 var
+R4021:4022 Coq.Lists.List <> In def
+R4029:4032 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4027:4028 VST.floyd.compact_prod_sum <> a0:61 var
+R4033:4033 VST.floyd.compact_prod_sum <> l:62 var
+R4024:4024 VST.floyd.compact_prod_sum <> a:60 var
+def 4132:4146 <> upd_compact_sum
+binder 4149:4149 <> A:63
+binder 4153:4153 <> F:64
+R4160:4163 Coq.Init.Datatypes <> list ind
+R4165:4165 VST.floyd.compact_prod_sum <> A:63 var
+binder 4157:4157 <> l:65
+R4172:4182 VST.floyd.compact_prod_sum <> compact_sum def
+R4185:4187 Coq.Lists.List <> map def
+R4191:4191 VST.floyd.compact_prod_sum <> l:65 var
+R4189:4189 VST.floyd.compact_prod_sum <> F:64 var
+binder 4169:4169 <> v:66
+R4199:4199 VST.floyd.compact_prod_sum <> A:63 var
+binder 4196:4196 <> a:67
+R4207:4207 VST.floyd.compact_prod_sum <> F:64 var
+R4209:4209 VST.floyd.compact_prod_sum <> a:67 var
+binder 4203:4204 <> v0:68
+R4228:4228 VST.floyd.compact_prod_sum <> A:63 var
+binder 4223:4223 <> a:69
+binder 4225:4225 <> b:70
+R4231:4231 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4237:4241 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4248:4248 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4233:4235 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4232:4232 VST.floyd.compact_prod_sum <> a:69 var
+R4236:4236 VST.floyd.compact_prod_sum <> b:70 var
+R4243:4246 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4242:4242 VST.floyd.compact_prod_sum <> a:69 var
+R4247:4247 VST.floyd.compact_prod_sum <> b:70 var
+binder 4213:4213 <> H:71
+R4253:4263 VST.floyd.compact_prod_sum <> compact_sum def
+R4266:4268 Coq.Lists.List <> map def
+R4272:4272 VST.floyd.compact_prod_sum <> l:65 var
+R4270:4270 VST.floyd.compact_prod_sum <> F:64 var
+R4295:4300 Coq.Lists.List <> in_dec thm
+R4295:4300 Coq.Lists.List <> in_dec thm
+R4355:4356 Coq.Init.Datatypes <> tt constr
+R4355:4356 Coq.Init.Datatypes <> tt constr
+R4467:4470 VST.floyd.compact_prod_sum <> aux0 thm
+R4467:4470 VST.floyd.compact_prod_sum <> aux0 thm
+R4546:4548 Coq.Init.Datatypes <> inl constr
+R4546:4548 Coq.Init.Datatypes <> inl constr
+R4568:4570 Coq.Init.Datatypes <> inr constr
+R4581:4584 VST.floyd.compact_prod_sum <> aux1 thm
+R4568:4570 Coq.Init.Datatypes <> inr constr
+R4581:4584 VST.floyd.compact_prod_sum <> aux1 thm
+def 4615:4631 <> proj_compact_prod
+binder 4634:4634 <> A:72
+R4648:4651 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4647:4647 VST.floyd.compact_prod_sum <> A:72 var
+binder 4644:4644 <> F:73
+R4662:4662 VST.floyd.compact_prod_sum <> A:72 var
+binder 4659:4659 <> a:74
+R4669:4672 Coq.Init.Datatypes <> list ind
+R4674:4674 VST.floyd.compact_prod_sum <> A:72 var
+binder 4666:4666 <> l:75
+R4681:4692 VST.floyd.compact_prod_sum <> compact_prod def
+R4695:4697 Coq.Lists.List <> map def
+R4701:4701 VST.floyd.compact_prod_sum <> l:75 var
+R4699:4699 VST.floyd.compact_prod_sum <> F:73 var
+binder 4678:4678 <> v:76
+R4715:4715 VST.floyd.compact_prod_sum <> F:73 var
+R4717:4717 VST.floyd.compact_prod_sum <> a:74 var
+binder 4706:4712 <> default:77
+R4736:4736 VST.floyd.compact_prod_sum <> A:72 var
+binder 4731:4731 <> a:78
+binder 4733:4733 <> b:79
+R4739:4739 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4745:4749 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4756:4756 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4741:4743 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4740:4740 VST.floyd.compact_prod_sum <> a:78 var
+R4744:4744 VST.floyd.compact_prod_sum <> b:79 var
+R4751:4754 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4750:4750 VST.floyd.compact_prod_sum <> a:78 var
+R4755:4755 VST.floyd.compact_prod_sum <> b:79 var
+binder 4721:4721 <> H:80
+R4761:4761 VST.floyd.compact_prod_sum <> F:73 var
+R4763:4763 VST.floyd.compact_prod_sum <> a:74 var
+R4963:4965 Coq.Init.Datatypes <> fst def
+R4963:4965 Coq.Init.Datatypes <> fst def
+R4992:4994 Coq.Init.Datatypes <> snd def
+R4992:4994 Coq.Init.Datatypes <> snd def
+def 5022:5037 <> proj_compact_sum
+binder 5040:5040 <> A:81
+R5054:5057 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5053:5053 VST.floyd.compact_prod_sum <> A:81 var
+binder 5050:5050 <> F:82
+R5068:5068 VST.floyd.compact_prod_sum <> A:81 var
+binder 5065:5065 <> a:83
+R5075:5078 Coq.Init.Datatypes <> list ind
+R5080:5080 VST.floyd.compact_prod_sum <> A:81 var
+binder 5072:5072 <> l:84
+R5087:5097 VST.floyd.compact_prod_sum <> compact_sum def
+R5100:5102 Coq.Lists.List <> map def
+R5106:5106 VST.floyd.compact_prod_sum <> l:84 var
+R5104:5104 VST.floyd.compact_prod_sum <> F:82 var
+binder 5084:5084 <> v:85
+R5120:5120 VST.floyd.compact_prod_sum <> F:82 var
+R5122:5122 VST.floyd.compact_prod_sum <> a:83 var
+binder 5111:5117 <> default:86
+R5141:5141 VST.floyd.compact_prod_sum <> A:81 var
+binder 5136:5136 <> a:87
+binder 5138:5138 <> b:88
+R5144:5144 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5150:5154 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5161:5161 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5146:5148 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5145:5145 VST.floyd.compact_prod_sum <> a:87 var
+R5149:5149 VST.floyd.compact_prod_sum <> b:88 var
+R5156:5159 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5155:5155 VST.floyd.compact_prod_sum <> a:87 var
+R5160:5160 VST.floyd.compact_prod_sum <> b:88 var
+binder 5126:5126 <> H:89
+R5166:5166 VST.floyd.compact_prod_sum <> F:82 var
+R5168:5168 VST.floyd.compact_prod_sum <> a:83 var
+def 5523:5537 <> compact_sum_inj
+binder 5540:5540 <> A:90
+R5554:5557 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5553:5553 VST.floyd.compact_prod_sum <> A:90 var
+binder 5550:5550 <> F:91
+R5568:5571 Coq.Init.Datatypes <> list ind
+R5573:5573 VST.floyd.compact_prod_sum <> A:90 var
+binder 5565:5565 <> l:92
+R5580:5590 VST.floyd.compact_prod_sum <> compact_sum def
+R5593:5595 Coq.Lists.List <> map def
+R5599:5599 VST.floyd.compact_prod_sum <> l:92 var
+R5597:5597 VST.floyd.compact_prod_sum <> F:91 var
+binder 5577:5577 <> v:93
+R5607:5607 VST.floyd.compact_prod_sum <> A:90 var
+binder 5604:5604 <> a:94
+R5626:5626 VST.floyd.compact_prod_sum <> A:90 var
+binder 5621:5621 <> a:95
+binder 5623:5623 <> b:96
+R5629:5629 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5635:5639 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5646:5646 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5631:5633 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5630:5630 VST.floyd.compact_prod_sum <> a:95 var
+R5634:5634 VST.floyd.compact_prod_sum <> b:96 var
+R5641:5644 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5640:5640 VST.floyd.compact_prod_sum <> a:95 var
+R5645:5645 VST.floyd.compact_prod_sum <> b:96 var
+binder 5611:5611 <> H:97
+R5689:5693 Coq.Init.Logic <> False ind
+R5689:5693 Coq.Init.Logic <> False ind
+R5783:5787 Coq.Init.Logic <> False ind
+R5773:5776 Coq.Init.Logic <> True ind
+R5783:5787 Coq.Init.Logic <> False ind
+R5773:5776 Coq.Init.Logic <> True ind
+R5856:5860 Coq.Init.Logic <> False ind
+R5846:5849 Coq.Init.Logic <> True ind
+R5856:5860 Coq.Init.Logic <> False ind
+R5846:5849 Coq.Init.Logic <> True ind
+R5892:5896 Coq.Init.Logic <> False ind
+R5892:5896 Coq.Init.Logic <> False ind
+prf 5930:5947 <> compact_sum_inj_in
+binder 5958:5958 <> A:98
+R5972:5975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5971:5971 VST.floyd.compact_prod_sum <> A:98 var
+binder 5968:5968 <> F:99
+R5986:5989 Coq.Init.Datatypes <> list ind
+R5991:5991 VST.floyd.compact_prod_sum <> A:98 var
+binder 5983:5983 <> l:100
+R5998:6008 VST.floyd.compact_prod_sum <> compact_sum def
+R6011:6013 Coq.Lists.List <> map def
+R6017:6017 VST.floyd.compact_prod_sum <> l:100 var
+R6015:6015 VST.floyd.compact_prod_sum <> F:99 var
+binder 5995:5995 <> v:101
+R6025:6025 VST.floyd.compact_prod_sum <> A:98 var
+binder 6022:6022 <> a:102
+binder 6028:6028 <> H:103
+R6054:6059 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6060:6061 Coq.Lists.List <> In def
+R6065:6065 VST.floyd.compact_prod_sum <> l:100 var
+R6063:6063 VST.floyd.compact_prod_sum <> a:102 var
+R6033:6047 VST.floyd.compact_prod_sum <> compact_sum_inj def
+R6053:6053 VST.floyd.compact_prod_sum <> H:103 var
+R6051:6051 VST.floyd.compact_prod_sum <> a:102 var
+R6049:6049 VST.floyd.compact_prod_sum <> v:101 var
+prf 6476:6496 <> compact_prod_proj_gen
+binder 6507:6507 <> A:104
+R6521:6524 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6520:6520 VST.floyd.compact_prod_sum <> A:104 var
+binder 6517:6517 <> F:105
+R6535:6538 Coq.Init.Datatypes <> list ind
+R6540:6540 VST.floyd.compact_prod_sum <> A:104 var
+binder 6532:6532 <> l:106
+binder 6543:6543 <> a:107
+binder 6545:6545 <> d:108
+binder 6560:6560 <> a:109
+R6563:6563 VST.floyd.compact_prod_sum <> F:105 var
+R6565:6565 VST.floyd.compact_prod_sum <> a:109 var
+binder 6548:6550 <> gen:110
+R6585:6585 VST.floyd.compact_prod_sum <> A:104 var
+binder 6579:6579 <> a:111
+binder 6581:6581 <> b:112
+R6588:6588 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6594:6598 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6605:6605 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6590:6592 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6589:6589 VST.floyd.compact_prod_sum <> a:111 var
+R6593:6593 VST.floyd.compact_prod_sum <> b:112 var
+R6600:6603 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6599:6599 VST.floyd.compact_prod_sum <> a:111 var
+R6604:6604 VST.floyd.compact_prod_sum <> b:112 var
+binder 6569:6569 <> H:113
+R6617:6622 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6673:6675 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6623:6639 VST.floyd.compact_prod_sum <> proj_compact_prod def
+R6672:6672 VST.floyd.compact_prod_sum <> H:113 var
+R6670:6670 VST.floyd.compact_prod_sum <> d:108 var
+R6646:6661 VST.floyd.compact_prod_sum <> compact_prod_gen def
+R6667:6667 VST.floyd.compact_prod_sum <> l:106 var
+R6663:6665 VST.floyd.compact_prod_sum <> gen:110 var
+R6643:6643 VST.floyd.compact_prod_sum <> l:106 var
+R6641:6641 VST.floyd.compact_prod_sum <> a:107 var
+R6676:6678 VST.floyd.compact_prod_sum <> gen:110 var
+R6680:6680 VST.floyd.compact_prod_sum <> a:107 var
+R6611:6612 Coq.Lists.List <> In def
+R6616:6616 VST.floyd.compact_prod_sum <> l:106 var
+R6614:6614 VST.floyd.compact_prod_sum <> a:107 var
+R6905:6913 Coq.Init.Logic <> eq_rect_r def
+R6927:6936 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R6927:6936 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R6927:6936 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R7048:7056 Coq.Init.Logic <> eq_rect_r def
+R7070:7079 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R7070:7079 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R7070:7079 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+prf 7213:7232 <> compact_sum_proj_gen
+binder 7243:7243 <> A:114
+R7257:7260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7256:7256 VST.floyd.compact_prod_sum <> A:114 var
+binder 7253:7253 <> F:115
+R7271:7274 Coq.Init.Datatypes <> list ind
+R7276:7276 VST.floyd.compact_prod_sum <> A:114 var
+binder 7268:7268 <> l:116
+binder 7279:7279 <> a:117
+binder 7281:7282 <> df:118
+R7294:7297 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7298:7301 Coq.Init.Datatypes <> bool ind
+R7293:7293 VST.floyd.compact_prod_sum <> A:114 var
+binder 7285:7290 <> filter:119
+binder 7317:7317 <> a:120
+R7320:7320 VST.floyd.compact_prod_sum <> F:115 var
+R7322:7322 VST.floyd.compact_prod_sum <> a:120 var
+binder 7305:7307 <> gen:121
+R7342:7342 VST.floyd.compact_prod_sum <> A:114 var
+binder 7336:7336 <> a:122
+binder 7338:7338 <> b:123
+R7345:7345 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7351:7355 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7362:7362 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7347:7349 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7346:7346 VST.floyd.compact_prod_sum <> a:122 var
+R7350:7350 VST.floyd.compact_prod_sum <> b:123 var
+R7357:7360 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7356:7356 VST.floyd.compact_prod_sum <> a:122 var
+R7361:7361 VST.floyd.compact_prod_sum <> b:123 var
+binder 7326:7326 <> H:124
+R7418:7423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7480:7482 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7424:7439 VST.floyd.compact_prod_sum <> proj_compact_sum def
+R7479:7479 VST.floyd.compact_prod_sum <> H:124 var
+R7476:7477 VST.floyd.compact_prod_sum <> df:118 var
+R7446:7460 VST.floyd.compact_prod_sum <> compact_sum_gen def
+R7473:7473 VST.floyd.compact_prod_sum <> l:116 var
+R7469:7471 VST.floyd.compact_prod_sum <> gen:121 var
+R7462:7467 VST.floyd.compact_prod_sum <> filter:119 var
+R7443:7443 VST.floyd.compact_prod_sum <> l:116 var
+R7441:7441 VST.floyd.compact_prod_sum <> a:117 var
+R7483:7485 VST.floyd.compact_prod_sum <> gen:121 var
+R7487:7487 VST.floyd.compact_prod_sum <> a:117 var
+R7368:7382 VST.floyd.compact_prod_sum <> compact_sum_inj def
+R7417:7417 VST.floyd.compact_prod_sum <> H:124 var
+R7415:7415 VST.floyd.compact_prod_sum <> a:117 var
+R7385:7399 VST.floyd.compact_prod_sum <> compact_sum_gen def
+R7412:7412 VST.floyd.compact_prod_sum <> l:116 var
+R7408:7410 VST.floyd.compact_prod_sum <> gen:121 var
+R7401:7406 VST.floyd.compact_prod_sum <> filter:119 var
+R7678:7686 Coq.Init.Logic <> eq_rect_r def
+R7700:7709 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R7700:7709 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R7700:7709 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R7822:7830 Coq.Init.Logic <> eq_rect_r def
+R7844:7853 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R7844:7853 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R7844:7853 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+prf 7944:7965 <> proj_compact_prod_JMeq
+binder 7975:7975 <> A:125
+binder 7977:7977 <> i:126
+R7983:7986 Coq.Init.Datatypes <> list ind
+R7988:7988 VST.floyd.compact_prod_sum <> A:125 var
+binder 7980:7980 <> l:127
+R7997:8000 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7996:7996 VST.floyd.compact_prod_sum <> A:125 var
+binder 7992:7993 <> F1:128
+R8013:8016 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8012:8012 VST.floyd.compact_prod_sum <> A:125 var
+binder 8008:8009 <> F2:129
+binder 8023:8024 <> d1:130
+binder 8026:8027 <> d2:131
+R8034:8045 VST.floyd.compact_prod_sum <> compact_prod def
+R8048:8050 Coq.Lists.List <> map def
+R8055:8055 VST.floyd.compact_prod_sum <> l:127 var
+R8052:8053 VST.floyd.compact_prod_sum <> F1:128 var
+binder 8030:8031 <> v1:132
+R8064:8075 VST.floyd.compact_prod_sum <> compact_prod def
+R8078:8080 Coq.Lists.List <> map def
+R8085:8085 VST.floyd.compact_prod_sum <> l:127 var
+R8082:8083 VST.floyd.compact_prod_sum <> F2:129 var
+binder 8060:8061 <> v2:133
+binder 8089:8089 <> H:134
+R8094:8094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8137:8143 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8150:8155 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8166:8171 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8172:8175 VST.floyd.jmeq_lemmas <> JMeq def
+R8210:8226 VST.floyd.compact_prod_sum <> proj_compact_prod def
+R8238:8238 VST.floyd.compact_prod_sum <> H:134 var
+R8235:8236 VST.floyd.compact_prod_sum <> d2:131 var
+R8232:8233 VST.floyd.compact_prod_sum <> v2:133 var
+R8230:8230 VST.floyd.compact_prod_sum <> l:127 var
+R8228:8228 VST.floyd.compact_prod_sum <> i:126 var
+R8178:8194 VST.floyd.compact_prod_sum <> proj_compact_prod def
+R8206:8206 VST.floyd.compact_prod_sum <> H:134 var
+R8203:8204 VST.floyd.compact_prod_sum <> d1:130 var
+R8200:8201 VST.floyd.compact_prod_sum <> v1:132 var
+R8198:8198 VST.floyd.compact_prod_sum <> l:127 var
+R8196:8196 VST.floyd.compact_prod_sum <> i:126 var
+R8156:8159 VST.floyd.jmeq_lemmas <> JMeq def
+R8164:8165 VST.floyd.compact_prod_sum <> v2:133 var
+R8161:8162 VST.floyd.compact_prod_sum <> v1:132 var
+R8144:8145 Coq.Lists.List <> In def
+R8149:8149 VST.floyd.compact_prod_sum <> l:127 var
+R8147:8147 VST.floyd.compact_prod_sum <> i:126 var
+binder 8102:8102 <> i:135
+R8111:8114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8116:8117 Coq.Init.Logic <> eq ind
+R8132:8133 VST.floyd.compact_prod_sum <> F2:129 var
+R8135:8135 VST.floyd.compact_prod_sum <> i:135 var
+R8125:8126 VST.floyd.compact_prod_sum <> F1:128 var
+R8128:8128 VST.floyd.compact_prod_sum <> i:135 var
+R8105:8106 Coq.Lists.List <> In def
+R8110:8110 VST.floyd.compact_prod_sum <> l:127 var
+R8108:8108 VST.floyd.compact_prod_sum <> i:135 var
+R8507:8515 Coq.Init.Logic <> eq_rect_r def
+R8530:8539 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R8530:8539 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R8530:8539 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R8530:8539 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R8530:8539 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R8565:8566 Coq.Init.Logic <> eq ind
+R8565:8566 Coq.Init.Logic <> eq ind
+R8697:8698 Coq.Init.Logic <> eq ind
+R8740:8751 VST.floyd.compact_prod_sum <> compact_prod def
+R8754:8756 Coq.Lists.List <> map def
+R8764:8767 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8706:8717 VST.floyd.compact_prod_sum <> compact_prod def
+R8720:8722 Coq.Lists.List <> map def
+R8730:8733 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8697:8698 Coq.Init.Logic <> eq ind
+R8740:8751 VST.floyd.compact_prod_sum <> compact_prod def
+R8754:8756 Coq.Lists.List <> map def
+R8764:8767 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8706:8717 VST.floyd.compact_prod_sum <> compact_prod def
+R8720:8722 Coq.Lists.List <> map def
+R8730:8733 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8793:8807 VST.floyd.compact_prod_sum <> compact_prod_eq thm
+R8793:8807 VST.floyd.compact_prod_sum <> compact_prod_eq thm
+R9093:9101 Coq.Init.Logic <> eq_rect_r def
+R9116:9125 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R9116:9125 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R9116:9125 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R9116:9125 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R9116:9125 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R9141:9148 VST.floyd.jmeq_lemmas <> JMeq_fst thm
+R9141:9148 VST.floyd.jmeq_lemmas <> JMeq_fst thm
+R9311:9313 Coq.Init.Datatypes <> snd def
+R9302:9304 Coq.Init.Datatypes <> snd def
+R9311:9313 Coq.Init.Datatypes <> snd def
+R9302:9304 Coq.Init.Datatypes <> snd def
+R9448:9455 VST.floyd.jmeq_lemmas <> JMeq_snd thm
+R9448:9455 VST.floyd.jmeq_lemmas <> JMeq_snd thm
+prf 9476:9497 <> proj_compact_sum_JMeq'
+binder 9507:9507 <> A:136
+binder 9509:9509 <> i:137
+R9515:9518 Coq.Init.Datatypes <> list ind
+R9520:9520 VST.floyd.compact_prod_sum <> A:136 var
+binder 9512:9512 <> l:138
+R9529:9532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9528:9528 VST.floyd.compact_prod_sum <> A:136 var
+binder 9524:9525 <> F1:139
+R9545:9548 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9544:9544 VST.floyd.compact_prod_sum <> A:136 var
+binder 9540:9541 <> F2:140
+binder 9555:9556 <> d1:141
+binder 9558:9559 <> d2:142
+R9566:9576 VST.floyd.compact_prod_sum <> compact_sum def
+R9579:9581 Coq.Lists.List <> map def
+R9586:9586 VST.floyd.compact_prod_sum <> l:138 var
+R9583:9584 VST.floyd.compact_prod_sum <> F1:139 var
+binder 9562:9563 <> v1:143
+R9595:9605 VST.floyd.compact_prod_sum <> compact_sum def
+R9608:9610 Coq.Lists.List <> map def
+R9615:9615 VST.floyd.compact_prod_sum <> l:138 var
+R9612:9613 VST.floyd.compact_prod_sum <> F2:140 var
+binder 9591:9592 <> v2:144
+binder 9619:9619 <> H:145
+R9624:9624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9667:9673 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9684:9689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9700:9705 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9706:9709 VST.floyd.jmeq_lemmas <> JMeq def
+R9743:9758 VST.floyd.compact_prod_sum <> proj_compact_sum def
+R9770:9770 VST.floyd.compact_prod_sum <> H:145 var
+R9767:9768 VST.floyd.compact_prod_sum <> d2:142 var
+R9764:9765 VST.floyd.compact_prod_sum <> v2:144 var
+R9762:9762 VST.floyd.compact_prod_sum <> l:138 var
+R9760:9760 VST.floyd.compact_prod_sum <> i:137 var
+R9712:9727 VST.floyd.compact_prod_sum <> proj_compact_sum def
+R9739:9739 VST.floyd.compact_prod_sum <> H:145 var
+R9736:9737 VST.floyd.compact_prod_sum <> d1:141 var
+R9733:9734 VST.floyd.compact_prod_sum <> v1:143 var
+R9731:9731 VST.floyd.compact_prod_sum <> l:138 var
+R9729:9729 VST.floyd.compact_prod_sum <> i:137 var
+R9690:9693 VST.floyd.jmeq_lemmas <> JMeq def
+R9698:9699 VST.floyd.compact_prod_sum <> v2:144 var
+R9695:9696 VST.floyd.compact_prod_sum <> v1:143 var
+R9674:9677 VST.floyd.jmeq_lemmas <> JMeq def
+R9682:9683 VST.floyd.compact_prod_sum <> d2:142 var
+R9679:9680 VST.floyd.compact_prod_sum <> d1:141 var
+binder 9632:9632 <> i:146
+R9641:9644 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9646:9647 Coq.Init.Logic <> eq ind
+R9662:9663 VST.floyd.compact_prod_sum <> F2:140 var
+R9665:9665 VST.floyd.compact_prod_sum <> i:146 var
+R9655:9656 VST.floyd.compact_prod_sum <> F1:139 var
+R9658:9658 VST.floyd.compact_prod_sum <> i:146 var
+R9635:9636 Coq.Lists.List <> In def
+R9640:9640 VST.floyd.compact_prod_sum <> l:138 var
+R9638:9638 VST.floyd.compact_prod_sum <> i:146 var
+R9980:9988 Coq.Init.Logic <> eq_rect_r def
+R10003:10012 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R10003:10012 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R10003:10012 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R10003:10012 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R10003:10012 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R10038:10039 Coq.Init.Logic <> eq ind
+R10038:10039 Coq.Init.Logic <> eq ind
+R10148:10149 Coq.Init.Logic <> eq ind
+R10190:10200 VST.floyd.compact_prod_sum <> compact_sum def
+R10203:10205 Coq.Lists.List <> map def
+R10213:10216 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10157:10167 VST.floyd.compact_prod_sum <> compact_sum def
+R10170:10172 Coq.Lists.List <> map def
+R10180:10183 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10148:10149 Coq.Init.Logic <> eq ind
+R10190:10200 VST.floyd.compact_prod_sum <> compact_sum def
+R10203:10205 Coq.Lists.List <> map def
+R10213:10216 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10157:10167 VST.floyd.compact_prod_sum <> compact_sum def
+R10170:10172 Coq.Lists.List <> map def
+R10180:10183 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10242:10255 VST.floyd.compact_prod_sum <> compact_sum_eq thm
+R10242:10255 VST.floyd.compact_prod_sum <> compact_sum_eq thm
+R10510:10518 Coq.Init.Logic <> eq_rect_r def
+R10533:10542 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R10533:10542 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R10533:10542 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R10533:10542 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R10533:10542 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R10638:10646 Coq.Init.Logic <> eq_rect_r def
+R10661:10670 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R10661:10670 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R10661:10670 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R10661:10670 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R10661:10670 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+prf 10806:10826 <> proj_compact_sum_JMeq
+binder 10836:10836 <> A:147
+binder 10838:10838 <> i:148
+R10844:10847 Coq.Init.Datatypes <> list ind
+R10849:10849 VST.floyd.compact_prod_sum <> A:147 var
+binder 10841:10841 <> l:149
+R10858:10861 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10857:10857 VST.floyd.compact_prod_sum <> A:147 var
+binder 10853:10854 <> F1:150
+R10874:10877 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10873:10873 VST.floyd.compact_prod_sum <> A:147 var
+binder 10869:10870 <> F2:151
+binder 10884:10885 <> d1:152
+binder 10887:10888 <> d2:153
+R10895:10905 VST.floyd.compact_prod_sum <> compact_sum def
+R10908:10910 Coq.Lists.List <> map def
+R10915:10915 VST.floyd.compact_prod_sum <> l:149 var
+R10912:10913 VST.floyd.compact_prod_sum <> F1:150 var
+binder 10891:10892 <> v1:154
+R10924:10934 VST.floyd.compact_prod_sum <> compact_sum def
+R10937:10939 Coq.Lists.List <> map def
+R10944:10944 VST.floyd.compact_prod_sum <> l:149 var
+R10941:10942 VST.floyd.compact_prod_sum <> F2:151 var
+binder 10920:10921 <> v2:155
+binder 10948:10948 <> H:156
+R10953:10953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10996:11002 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11025:11030 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11041:11046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11047:11050 VST.floyd.jmeq_lemmas <> JMeq def
+R11084:11099 VST.floyd.compact_prod_sum <> proj_compact_sum def
+R11111:11111 VST.floyd.compact_prod_sum <> H:156 var
+R11108:11109 VST.floyd.compact_prod_sum <> d2:153 var
+R11105:11106 VST.floyd.compact_prod_sum <> v2:155 var
+R11103:11103 VST.floyd.compact_prod_sum <> l:149 var
+R11101:11101 VST.floyd.compact_prod_sum <> i:148 var
+R11053:11068 VST.floyd.compact_prod_sum <> proj_compact_sum def
+R11080:11080 VST.floyd.compact_prod_sum <> H:156 var
+R11077:11078 VST.floyd.compact_prod_sum <> d1:152 var
+R11074:11075 VST.floyd.compact_prod_sum <> v1:154 var
+R11072:11072 VST.floyd.compact_prod_sum <> l:149 var
+R11070:11070 VST.floyd.compact_prod_sum <> i:148 var
+R11031:11034 VST.floyd.jmeq_lemmas <> JMeq def
+R11039:11040 VST.floyd.compact_prod_sum <> v2:155 var
+R11036:11037 VST.floyd.compact_prod_sum <> v1:154 var
+R11003:11017 VST.floyd.compact_prod_sum <> compact_sum_inj def
+R11024:11024 VST.floyd.compact_prod_sum <> H:156 var
+R11022:11022 VST.floyd.compact_prod_sum <> i:148 var
+R11019:11020 VST.floyd.compact_prod_sum <> v1:154 var
+binder 10961:10961 <> i:157
+R10970:10973 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10975:10976 Coq.Init.Logic <> eq ind
+R10991:10992 VST.floyd.compact_prod_sum <> F2:151 var
+R10994:10994 VST.floyd.compact_prod_sum <> i:157 var
+R10984:10985 VST.floyd.compact_prod_sum <> F1:150 var
+R10987:10987 VST.floyd.compact_prod_sum <> i:157 var
+R10964:10965 Coq.Lists.List <> In def
+R10969:10969 VST.floyd.compact_prod_sum <> l:149 var
+R10967:10967 VST.floyd.compact_prod_sum <> i:157 var
+R11321:11329 Coq.Init.Logic <> eq_rect_r def
+R11344:11353 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R11344:11353 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R11344:11353 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R11344:11353 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R11344:11353 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R11379:11380 Coq.Init.Logic <> eq ind
+R11379:11380 Coq.Init.Logic <> eq ind
+R11489:11490 Coq.Init.Logic <> eq ind
+R11531:11541 VST.floyd.compact_prod_sum <> compact_sum def
+R11544:11546 Coq.Lists.List <> map def
+R11554:11557 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11498:11508 VST.floyd.compact_prod_sum <> compact_sum def
+R11511:11513 Coq.Lists.List <> map def
+R11521:11524 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11489:11490 Coq.Init.Logic <> eq ind
+R11531:11541 VST.floyd.compact_prod_sum <> compact_sum def
+R11544:11546 Coq.Lists.List <> map def
+R11554:11557 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11498:11508 VST.floyd.compact_prod_sum <> compact_sum def
+R11511:11513 Coq.Lists.List <> map def
+R11521:11524 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11583:11596 VST.floyd.compact_prod_sum <> compact_sum_eq thm
+R11583:11596 VST.floyd.compact_prod_sum <> compact_sum_eq thm
+R11851:11859 Coq.Init.Logic <> eq_rect_r def
+R11874:11883 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R11874:11883 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R11874:11883 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R11874:11883 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R11874:11883 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+prf 12075:12094 <> compact_sum_inj_JMeq
+binder 12105:12105 <> A:158
+R12112:12115 Coq.Init.Datatypes <> list ind
+R12117:12117 VST.floyd.compact_prod_sum <> A:158 var
+binder 12109:12109 <> l:159
+R12126:12129 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12125:12125 VST.floyd.compact_prod_sum <> A:158 var
+binder 12121:12122 <> F1:160
+R12142:12145 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12141:12141 VST.floyd.compact_prod_sum <> A:158 var
+binder 12137:12138 <> F2:161
+R12157:12167 VST.floyd.compact_prod_sum <> compact_sum def
+R12170:12172 Coq.Lists.List <> map def
+R12177:12177 VST.floyd.compact_prod_sum <> l:159 var
+R12174:12175 VST.floyd.compact_prod_sum <> F1:160 var
+binder 12153:12154 <> v1:162
+R12186:12196 VST.floyd.compact_prod_sum <> compact_sum def
+R12199:12201 Coq.Lists.List <> map def
+R12206:12206 VST.floyd.compact_prod_sum <> l:159 var
+R12203:12204 VST.floyd.compact_prod_sum <> F2:161 var
+binder 12182:12183 <> v2:163
+binder 12210:12210 <> H:164
+R12215:12215 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12258:12264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12275:12281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12341:12341 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 12289:12289 <> i:165
+R12314:12318 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12292:12306 VST.floyd.compact_prod_sum <> compact_sum_inj def
+R12313:12313 VST.floyd.compact_prod_sum <> H:164 var
+R12311:12311 VST.floyd.compact_prod_sum <> i:165 var
+R12308:12309 VST.floyd.compact_prod_sum <> v1:162 var
+R12319:12333 VST.floyd.compact_prod_sum <> compact_sum_inj def
+R12340:12340 VST.floyd.compact_prod_sum <> H:164 var
+R12338:12338 VST.floyd.compact_prod_sum <> i:165 var
+R12335:12336 VST.floyd.compact_prod_sum <> v2:163 var
+R12265:12268 VST.floyd.jmeq_lemmas <> JMeq def
+R12273:12274 VST.floyd.compact_prod_sum <> v2:163 var
+R12270:12271 VST.floyd.compact_prod_sum <> v1:162 var
+binder 12223:12223 <> i:166
+R12232:12235 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12237:12238 Coq.Init.Logic <> eq ind
+R12253:12254 VST.floyd.compact_prod_sum <> F2:161 var
+R12256:12256 VST.floyd.compact_prod_sum <> i:166 var
+R12246:12247 VST.floyd.compact_prod_sum <> F1:160 var
+R12249:12249 VST.floyd.compact_prod_sum <> i:166 var
+R12226:12227 Coq.Lists.List <> In def
+R12231:12231 VST.floyd.compact_prod_sum <> l:159 var
+R12229:12229 VST.floyd.compact_prod_sum <> i:166 var
+R12537:12538 Coq.Init.Logic <> eq ind
+R12537:12538 Coq.Init.Logic <> eq ind
+R12647:12648 Coq.Init.Logic <> eq ind
+R12689:12699 VST.floyd.compact_prod_sum <> compact_sum def
+R12702:12704 Coq.Lists.List <> map def
+R12712:12715 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12656:12666 VST.floyd.compact_prod_sum <> compact_sum def
+R12669:12671 Coq.Lists.List <> map def
+R12679:12682 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12647:12648 Coq.Init.Logic <> eq ind
+R12689:12699 VST.floyd.compact_prod_sum <> compact_sum def
+R12702:12704 Coq.Lists.List <> map def
+R12712:12715 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12656:12666 VST.floyd.compact_prod_sum <> compact_sum def
+R12669:12671 Coq.Lists.List <> map def
+R12679:12682 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12741:12754 VST.floyd.compact_prod_sum <> compact_sum_eq thm
+R12741:12754 VST.floyd.compact_prod_sum <> compact_sum_eq thm
+prf 13089:13109 <> upd_compact_prod_JMeq
+binder 13119:13119 <> A:167
+binder 13121:13121 <> i:168
+R13127:13130 Coq.Init.Datatypes <> list ind
+R13132:13132 VST.floyd.compact_prod_sum <> A:167 var
+binder 13124:13124 <> l:169
+R13141:13144 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13140:13140 VST.floyd.compact_prod_sum <> A:167 var
+binder 13136:13137 <> F1:170
+R13157:13160 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13156:13156 VST.floyd.compact_prod_sum <> A:167 var
+binder 13152:13153 <> F2:171
+binder 13167:13168 <> d1:172
+binder 13170:13171 <> d2:173
+R13178:13189 VST.floyd.compact_prod_sum <> compact_prod def
+R13192:13194 Coq.Lists.List <> map def
+R13199:13199 VST.floyd.compact_prod_sum <> l:169 var
+R13196:13197 VST.floyd.compact_prod_sum <> F1:170 var
+binder 13174:13175 <> v1:174
+R13208:13219 VST.floyd.compact_prod_sum <> compact_prod def
+R13222:13224 Coq.Lists.List <> map def
+R13229:13229 VST.floyd.compact_prod_sum <> l:169 var
+R13226:13227 VST.floyd.compact_prod_sum <> F2:171 var
+binder 13204:13205 <> v2:175
+binder 13233:13233 <> H:176
+R13238:13238 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13281:13287 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13298:13303 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13314:13319 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13320:13323 VST.floyd.jmeq_lemmas <> JMeq def
+R13357:13372 VST.floyd.compact_prod_sum <> upd_compact_prod def
+R13384:13384 VST.floyd.compact_prod_sum <> H:176 var
+R13381:13382 VST.floyd.compact_prod_sum <> d2:173 var
+R13379:13379 VST.floyd.compact_prod_sum <> i:168 var
+R13376:13377 VST.floyd.compact_prod_sum <> v2:175 var
+R13374:13374 VST.floyd.compact_prod_sum <> l:169 var
+R13326:13341 VST.floyd.compact_prod_sum <> upd_compact_prod def
+R13353:13353 VST.floyd.compact_prod_sum <> H:176 var
+R13350:13351 VST.floyd.compact_prod_sum <> d1:172 var
+R13348:13348 VST.floyd.compact_prod_sum <> i:168 var
+R13345:13346 VST.floyd.compact_prod_sum <> v1:174 var
+R13343:13343 VST.floyd.compact_prod_sum <> l:169 var
+R13304:13307 VST.floyd.jmeq_lemmas <> JMeq def
+R13312:13313 VST.floyd.compact_prod_sum <> v2:175 var
+R13309:13310 VST.floyd.compact_prod_sum <> v1:174 var
+R13288:13291 VST.floyd.jmeq_lemmas <> JMeq def
+R13296:13297 VST.floyd.compact_prod_sum <> d2:173 var
+R13293:13294 VST.floyd.compact_prod_sum <> d1:172 var
+binder 13246:13246 <> i:177
+R13255:13258 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13260:13261 Coq.Init.Logic <> eq ind
+R13276:13277 VST.floyd.compact_prod_sum <> F2:171 var
+R13279:13279 VST.floyd.compact_prod_sum <> i:177 var
+R13269:13270 VST.floyd.compact_prod_sum <> F1:170 var
+R13272:13272 VST.floyd.compact_prod_sum <> i:177 var
+R13249:13250 Coq.Lists.List <> In def
+R13254:13254 VST.floyd.compact_prod_sum <> l:169 var
+R13252:13252 VST.floyd.compact_prod_sum <> i:177 var
+R13570:13578 Coq.Init.Logic <> eq_rect_r def
+R13597:13606 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R13597:13606 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R13597:13606 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R13597:13606 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R13597:13606 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R13642:13645 VST.floyd.jmeq_lemmas <> JMeq def
+R13657:13659 Coq.Init.Datatypes <> fst def
+R13648:13650 Coq.Init.Datatypes <> fst def
+R13642:13645 VST.floyd.jmeq_lemmas <> JMeq def
+R13657:13659 Coq.Init.Datatypes <> fst def
+R13648:13650 Coq.Init.Datatypes <> fst def
+R13686:13693 VST.floyd.jmeq_lemmas <> JMeq_fst thm
+R13686:13693 VST.floyd.jmeq_lemmas <> JMeq_fst thm
+R13749:13763 VST.floyd.compact_prod_sum <> compact_prod_eq thm
+R13776:13779 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13749:13763 VST.floyd.compact_prod_sum <> compact_prod_eq thm
+R13776:13779 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13858:13861 VST.floyd.jmeq_lemmas <> JMeq def
+R13873:13875 Coq.Init.Datatypes <> snd def
+R13864:13866 Coq.Init.Datatypes <> snd def
+R13858:13861 VST.floyd.jmeq_lemmas <> JMeq def
+R13873:13875 Coq.Init.Datatypes <> snd def
+R13864:13866 Coq.Init.Datatypes <> snd def
+R13902:13909 VST.floyd.jmeq_lemmas <> JMeq_snd thm
+R13902:13909 VST.floyd.jmeq_lemmas <> JMeq_snd thm
+R13965:13979 VST.floyd.compact_prod_sum <> compact_prod_eq thm
+R13992:13995 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13965:13979 VST.floyd.compact_prod_sum <> compact_prod_eq thm
+R13992:13995 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14113:14121 Coq.Init.Logic <> eq_rect_r def
+R14142:14151 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R14142:14151 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R14142:14151 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R14142:14151 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R14142:14151 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R14167:14175 VST.floyd.jmeq_lemmas <> JMeq_pair thm
+R14167:14175 VST.floyd.jmeq_lemmas <> JMeq_pair thm
+R14197:14205 VST.floyd.jmeq_lemmas <> JMeq_pair thm
+R14197:14205 VST.floyd.jmeq_lemmas <> JMeq_pair thm
+prf 14286:14305 <> upd_compact_sum_JMeq
+binder 14315:14315 <> A:178
+binder 14317:14317 <> i:179
+R14323:14326 Coq.Init.Datatypes <> list ind
+R14328:14328 VST.floyd.compact_prod_sum <> A:178 var
+binder 14320:14320 <> l:180
+R14337:14340 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14336:14336 VST.floyd.compact_prod_sum <> A:178 var
+binder 14332:14333 <> F1:181
+R14353:14356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14352:14352 VST.floyd.compact_prod_sum <> A:178 var
+binder 14348:14349 <> F2:182
+binder 14363:14364 <> d1:183
+binder 14366:14367 <> d2:184
+R14374:14384 VST.floyd.compact_prod_sum <> compact_sum def
+R14387:14389 Coq.Lists.List <> map def
+R14394:14394 VST.floyd.compact_prod_sum <> l:180 var
+R14391:14392 VST.floyd.compact_prod_sum <> F1:181 var
+binder 14370:14371 <> v1:185
+R14403:14413 VST.floyd.compact_prod_sum <> compact_sum def
+R14416:14418 Coq.Lists.List <> map def
+R14423:14423 VST.floyd.compact_prod_sum <> l:180 var
+R14420:14421 VST.floyd.compact_prod_sum <> F2:182 var
+binder 14399:14400 <> v2:186
+binder 14427:14427 <> H:187
+R14432:14432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14475:14481 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14492:14497 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14508:14513 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14514:14517 VST.floyd.jmeq_lemmas <> JMeq def
+R14550:14564 VST.floyd.compact_prod_sum <> upd_compact_sum def
+R14576:14576 VST.floyd.compact_prod_sum <> H:187 var
+R14573:14574 VST.floyd.compact_prod_sum <> d2:184 var
+R14571:14571 VST.floyd.compact_prod_sum <> i:179 var
+R14568:14569 VST.floyd.compact_prod_sum <> v2:186 var
+R14566:14566 VST.floyd.compact_prod_sum <> l:180 var
+R14520:14534 VST.floyd.compact_prod_sum <> upd_compact_sum def
+R14546:14546 VST.floyd.compact_prod_sum <> H:187 var
+R14543:14544 VST.floyd.compact_prod_sum <> d1:183 var
+R14541:14541 VST.floyd.compact_prod_sum <> i:179 var
+R14538:14539 VST.floyd.compact_prod_sum <> v1:185 var
+R14536:14536 VST.floyd.compact_prod_sum <> l:180 var
+R14498:14501 VST.floyd.jmeq_lemmas <> JMeq def
+R14506:14507 VST.floyd.compact_prod_sum <> v2:186 var
+R14503:14504 VST.floyd.compact_prod_sum <> v1:185 var
+R14482:14485 VST.floyd.jmeq_lemmas <> JMeq def
+R14490:14491 VST.floyd.compact_prod_sum <> d2:184 var
+R14487:14488 VST.floyd.compact_prod_sum <> d1:183 var
+binder 14440:14440 <> i:188
+R14449:14452 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14454:14455 Coq.Init.Logic <> eq ind
+R14470:14471 VST.floyd.compact_prod_sum <> F2:182 var
+R14473:14473 VST.floyd.compact_prod_sum <> i:188 var
+R14463:14464 VST.floyd.compact_prod_sum <> F1:181 var
+R14466:14466 VST.floyd.compact_prod_sum <> i:188 var
+R14443:14444 Coq.Lists.List <> In def
+R14448:14448 VST.floyd.compact_prod_sum <> l:180 var
+R14446:14446 VST.floyd.compact_prod_sum <> i:188 var
+R14606:14620 VST.floyd.compact_prod_sum <> upd_compact_sum def
+R14635:14640 Coq.Lists.List <> in_dec thm
+R14635:14640 Coq.Lists.List <> in_dec thm
+R14880:14888 Coq.Init.Logic <> eq_rect_r def
+R14907:14916 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R14907:14916 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R14907:14916 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R14907:14916 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R14907:14916 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R14991:14999 Coq.Init.Logic <> eq_rect_r def
+R15020:15029 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R15020:15029 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R15020:15029 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R15020:15029 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R15020:15029 VST.msl.Extensionality EqdepTh eq_rect_eq thm
+R15045:15052 VST.floyd.jmeq_lemmas <> JMeq_inl thm
+R15045:15052 VST.floyd.jmeq_lemmas <> JMeq_inl thm
+R15075:15088 VST.floyd.compact_prod_sum <> compact_sum_eq thm
+R15101:15104 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15075:15088 VST.floyd.compact_prod_sum <> compact_sum_eq thm
+R15101:15104 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15172:15179 VST.floyd.jmeq_lemmas <> JMeq_inr thm
+R15172:15179 VST.floyd.jmeq_lemmas <> JMeq_inr thm

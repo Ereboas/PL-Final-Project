@@ -1,0 +1,477 @@
+DIGEST 5081e2172de3ddb460e79f63ae73d8bf
+FVST.floyd.Zlength_solver
+R64:82 compcert.lib.Coqlib <> <> lib
+R100:114 VST.msl.Coqlib2 <> <> lib
+R132:148 VST.floyd.sublist <> <> lib
+R166:182 Coq.micromega.Lia <> <> lib
+prf 667:684 <> repeat_list_repeat
+binder 696:696 <> A:1
+R711:713 Coq.Init.Datatypes <> nat ind
+binder 707:707 <> n:2
+R721:721 VST.floyd.Zlength_solver <> A:1 var
+binder 717:717 <> x:3
+R737:739 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R727:732 Coq.Lists.List <> repeat def
+R736:736 VST.floyd.Zlength_solver <> n:2 var
+R734:734 VST.floyd.Zlength_solver <> x:3 var
+R740:750 compcert.lib.Coqlib <> list_repeat def
+R754:754 VST.floyd.Zlength_solver <> x:3 var
+R752:752 VST.floyd.Zlength_solver <> n:2 var
+def 828:834 <> Zrepeat
+binder 837:837 <> A:4
+R852:852 VST.floyd.Zlength_solver <> A:4 var
+binder 848:848 <> x:5
+R860:860 Coq.Numbers.BinNums <> Z ind
+binder 856:856 <> n:6
+R865:868 Coq.Init.Datatypes <> list ind
+R870:870 VST.floyd.Zlength_solver <> A:4 var
+R877:882 Coq.Lists.List <> repeat def
+R887:894 Coq.ZArith.BinInt Z to_nat def
+R896:896 VST.floyd.Zlength_solver <> n:6 var
+R884:884 VST.floyd.Zlength_solver <> x:5 var
+prf 907:921 <> Zlength_Zrepeat
+binder 933:933 <> A:7
+R948:948 VST.floyd.Zlength_solver <> A:7 var
+binder 944:944 <> x:8
+R956:956 Coq.Numbers.BinNums <> Z ind
+binder 952:952 <> n:9
+R968:973 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R995:997 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R974:980 Coq.ZArith.Zcomplements <> Zlength def
+R983:989 VST.floyd.Zlength_solver <> Zrepeat def
+R993:993 VST.floyd.Zlength_solver <> n:9 var
+R991:991 VST.floyd.Zlength_solver <> x:8 var
+R998:998 VST.floyd.Zlength_solver <> n:9 var
+R963:966 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R967:967 VST.floyd.Zlength_solver <> n:9 var
+R1025:1031 VST.floyd.Zlength_solver <> Zrepeat def
+R1042:1059 VST.floyd.Zlength_solver <> repeat_list_repeat thm
+R1042:1059 VST.floyd.Zlength_solver <> repeat_list_repeat thm
+R1042:1059 VST.floyd.Zlength_solver <> repeat_list_repeat thm
+R1069:1087 VST.floyd.sublist <> Zlength_list_repeat thm
+R1069:1087 VST.floyd.sublist <> Zlength_list_repeat thm
+prf 1108:1121 <> Zlength_firstn
+binder 1133:1133 <> A:10
+binder 1143:1143 <> n:11
+R1150:1153 Coq.Init.Datatypes <> list ind
+R1155:1155 VST.floyd.Zlength_solver <> A:10 var
+binder 1146:1146 <> l:12
+R1181:1183 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1161:1167 Coq.ZArith.Zcomplements <> Zlength def
+R1170:1175 Coq.Lists.List <> firstn def
+R1179:1179 VST.floyd.Zlength_solver <> l:12 var
+R1177:1177 VST.floyd.Zlength_solver <> n:11 var
+R1184:1188 Coq.ZArith.BinInt Z min def
+R1214:1220 Coq.ZArith.Zcomplements <> Zlength def
+R1222:1222 VST.floyd.Zlength_solver <> l:12 var
+R1191:1195 Coq.ZArith.BinInt Z max def
+R1198:1205 Coq.ZArith.BinInt Z of_nat def
+R1207:1207 VST.floyd.Zlength_solver <> n:11 var
+R1275:1285 Coq.ZArith.Zcomplements <> Zlength_nil thm
+R1275:1285 Coq.ZArith.Zcomplements <> Zlength_nil thm
+R1275:1285 Coq.ZArith.Zcomplements <> Zlength_nil thm
+R1304:1317 VST.floyd.sublist <> Zlength_nonneg thm
+R1304:1317 VST.floyd.sublist <> Zlength_nonneg thm
+R1365:1375 Coq.ZArith.Zcomplements <> Zlength_nil thm
+R1365:1375 Coq.ZArith.Zcomplements <> Zlength_nil thm
+R1365:1375 Coq.ZArith.Zcomplements <> Zlength_nil thm
+R1398:1409 Coq.ZArith.Zcomplements <> Zlength_cons thm
+R1398:1409 Coq.ZArith.Zcomplements <> Zlength_cons thm
+R1398:1409 Coq.ZArith.Zcomplements <> Zlength_cons thm
+R1398:1409 Coq.ZArith.Zcomplements <> Zlength_cons thm
+R1398:1409 Coq.ZArith.Zcomplements <> Zlength_cons thm
+R1449:1462 VST.floyd.sublist <> Zlength_nonneg thm
+R1449:1462 VST.floyd.sublist <> Zlength_nonneg thm
+prf 1491:1511 <> Zlength_firstn_to_nat
+binder 1523:1523 <> A:13
+binder 1533:1533 <> n:14
+R1540:1543 Coq.Init.Datatypes <> list ind
+R1545:1545 VST.floyd.Zlength_solver <> A:13 var
+binder 1536:1536 <> l:15
+R1582:1584 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1551:1557 Coq.ZArith.Zcomplements <> Zlength def
+R1560:1565 Coq.Lists.List <> firstn def
+R1580:1580 VST.floyd.Zlength_solver <> l:15 var
+R1568:1575 Coq.ZArith.BinInt Z to_nat def
+R1577:1577 VST.floyd.Zlength_solver <> n:14 var
+R1585:1589 Coq.ZArith.BinInt Z min def
+R1604:1610 Coq.ZArith.Zcomplements <> Zlength def
+R1612:1612 VST.floyd.Zlength_solver <> l:15 var
+R1592:1596 Coq.ZArith.BinInt Z max def
+R1598:1598 VST.floyd.Zlength_solver <> n:14 var
+R1643:1656 VST.floyd.Zlength_solver <> Zlength_firstn thm
+R1643:1656 VST.floyd.Zlength_solver <> Zlength_firstn thm
+R1643:1656 VST.floyd.Zlength_solver <> Zlength_firstn thm
+prf 1684:1696 <> Zlength_skipn
+binder 1708:1708 <> A:16
+binder 1718:1718 <> n:17
+R1725:1728 Coq.Init.Datatypes <> list ind
+R1730:1730 VST.floyd.Zlength_solver <> A:16 var
+binder 1721:1721 <> l:18
+R1755:1757 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1736:1742 Coq.ZArith.Zcomplements <> Zlength def
+R1745:1749 Coq.Lists.List <> skipn def
+R1753:1753 VST.floyd.Zlength_solver <> l:18 var
+R1751:1751 VST.floyd.Zlength_solver <> n:17 var
+R1758:1762 Coq.ZArith.BinInt Z max def
+R1774:1777 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1798:1798 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1765:1771 Coq.ZArith.Zcomplements <> Zlength def
+R1773:1773 VST.floyd.Zlength_solver <> l:18 var
+R1778:1782 Coq.ZArith.BinInt Z max def
+R1785:1792 Coq.ZArith.BinInt Z of_nat def
+R1794:1794 VST.floyd.Zlength_solver <> n:17 var
+R1861:1874 VST.floyd.sublist <> Zlength_nonneg thm
+R1861:1874 VST.floyd.sublist <> Zlength_nonneg thm
+R1922:1932 Coq.ZArith.Zcomplements <> Zlength_nil thm
+R1922:1932 Coq.ZArith.Zcomplements <> Zlength_nil thm
+R1922:1932 Coq.ZArith.Zcomplements <> Zlength_nil thm
+R1955:1966 Coq.ZArith.Zcomplements <> Zlength_cons thm
+R1955:1966 Coq.ZArith.Zcomplements <> Zlength_cons thm
+R1955:1966 Coq.ZArith.Zcomplements <> Zlength_cons thm
+R1955:1966 Coq.ZArith.Zcomplements <> Zlength_cons thm
+R2006:2019 VST.floyd.sublist <> Zlength_nonneg thm
+R2006:2019 VST.floyd.sublist <> Zlength_nonneg thm
+prf 2048:2067 <> Zlength_skipn_to_nat
+binder 2079:2079 <> A:19
+binder 2089:2089 <> n:20
+R2096:2099 Coq.Init.Datatypes <> list ind
+R2101:2101 VST.floyd.Zlength_solver <> A:19 var
+binder 2092:2092 <> l:21
+R2137:2139 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2107:2113 Coq.ZArith.Zcomplements <> Zlength def
+R2116:2120 Coq.Lists.List <> skipn def
+R2135:2135 VST.floyd.Zlength_solver <> l:21 var
+R2123:2130 Coq.ZArith.BinInt Z to_nat def
+R2132:2132 VST.floyd.Zlength_solver <> n:20 var
+R2140:2144 Coq.ZArith.BinInt Z max def
+R2156:2159 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2169:2169 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2147:2153 Coq.ZArith.Zcomplements <> Zlength def
+R2155:2155 VST.floyd.Zlength_solver <> l:21 var
+R2160:2164 Coq.ZArith.BinInt Z max def
+R2166:2166 VST.floyd.Zlength_solver <> n:20 var
+R2202:2214 VST.floyd.Zlength_solver <> Zlength_skipn thm
+R2202:2214 VST.floyd.Zlength_solver <> Zlength_skipn thm
+R2202:2214 VST.floyd.Zlength_solver <> Zlength_skipn thm
+prf 2236:2251 <> Zlength_sublist2
+binder 2263:2263 <> A:22
+binder 2273:2274 <> lo:23
+binder 2276:2277 <> hi:24
+R2284:2287 Coq.Init.Datatypes <> list ind
+R2289:2289 VST.floyd.Zlength_solver <> A:22 var
+binder 2280:2280 <> l:25
+R2320:2322 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2295:2301 Coq.ZArith.Zcomplements <> Zlength def
+R2304:2310 VST.floyd.sublist <> sublist def
+R2318:2318 VST.floyd.Zlength_solver <> l:25 var
+R2315:2316 VST.floyd.Zlength_solver <> hi:24 var
+R2312:2313 VST.floyd.Zlength_solver <> lo:23 var
+R2323:2327 Coq.ZArith.BinInt Z max def
+R2350:2352 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2330:2334 Coq.ZArith.BinInt Z min def
+R2340:2346 Coq.ZArith.Zcomplements <> Zlength def
+R2348:2348 VST.floyd.Zlength_solver <> l:25 var
+R2336:2337 VST.floyd.Zlength_solver <> hi:24 var
+R2353:2357 Coq.ZArith.BinInt Z max def
+R2359:2360 VST.floyd.Zlength_solver <> lo:23 var
+R2394:2400 VST.floyd.sublist <> sublist def
+R2413:2432 VST.floyd.Zlength_solver <> Zlength_skipn_to_nat thm
+R2435:2455 VST.floyd.Zlength_solver <> Zlength_firstn_to_nat thm
+R2413:2432 VST.floyd.Zlength_solver <> Zlength_skipn_to_nat thm
+R2413:2432 VST.floyd.Zlength_solver <> Zlength_skipn_to_nat thm
+R2435:2455 VST.floyd.Zlength_solver <> Zlength_firstn_to_nat thm
+R2435:2455 VST.floyd.Zlength_solver <> Zlength_firstn_to_nat thm
+prf 2477:2492 <> Zlength_upd_Znth
+binder 2504:2504 <> A:26
+binder 2514:2514 <> i:27
+binder 2516:2516 <> l:28
+R2523:2523 VST.floyd.Zlength_solver <> A:26 var
+binder 2519:2519 <> x:29
+R2553:2555 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2529:2535 Coq.ZArith.Zcomplements <> Zlength def
+R2538:2545 VST.floyd.sublist <> upd_Znth def
+R2551:2551 VST.floyd.Zlength_solver <> x:29 var
+R2549:2549 VST.floyd.Zlength_solver <> l:28 var
+R2547:2547 VST.floyd.Zlength_solver <> i:27 var
+R2556:2562 Coq.ZArith.Zcomplements <> Zlength def
+R2564:2564 VST.floyd.Zlength_solver <> l:28 var
+R2593:2600 VST.floyd.sublist <> upd_Znth def
+R2627:2637 VST.floyd.sublist <> Zlength_app thm
+R2640:2651 Coq.ZArith.Zcomplements <> Zlength_cons thm
+R2627:2637 VST.floyd.sublist <> Zlength_app thm
+R2627:2637 VST.floyd.sublist <> Zlength_app thm
+R2640:2651 Coq.ZArith.Zcomplements <> Zlength_cons thm
+R2640:2651 Coq.ZArith.Zcomplements <> Zlength_cons thm
+R2665:2680 VST.floyd.Zlength_solver <> Zlength_sublist2 thm
+R2665:2680 VST.floyd.Zlength_solver <> Zlength_sublist2 thm
+R2665:2680 VST.floyd.Zlength_solver <> Zlength_sublist2 thm
+R2665:2680 VST.floyd.Zlength_solver <> Zlength_sublist2 thm
+R2665:2680 VST.floyd.Zlength_solver <> Zlength_sublist2 thm
+def 2705:2716 <> Zlength_fact
+binder 2718:2718 <> P:30
+R2730:2730 VST.floyd.Zlength_solver <> P:30 var
+prf 2740:2757 <> Zlength_fact_intro
+binder 2769:2769 <> P:31
+R2783:2786 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2787:2798 VST.floyd.Zlength_solver <> Zlength_fact def
+R2800:2800 VST.floyd.Zlength_solver <> P:31 var
+R2782:2782 VST.floyd.Zlength_solver <> P:31 var
+prf 2830:2846 <> Zlength_fact_elim
+binder 2858:2858 <> P:32
+R2885:2888 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2889:2889 VST.floyd.Zlength_solver <> P:32 var
+R2871:2882 VST.floyd.Zlength_solver <> Zlength_fact def
+R2884:2884 VST.floyd.Zlength_solver <> P:32 var
+R3144:3155 VST.floyd.Zlength_solver <> Zlength_fact def
+R3144:3155 VST.floyd.Zlength_solver <> Zlength_fact def
+R3302:3319 VST.floyd.Zlength_solver <> Zlength_fact_intro thm
+R3489:3500 VST.floyd.Zlength_solver <> Zlength_fact def
+R3512:3514 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3503:3509 Coq.ZArith.Zcomplements <> Zlength def
+R3489:3500 VST.floyd.Zlength_solver <> Zlength_fact def
+R3512:3514 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3503:3509 Coq.ZArith.Zcomplements <> Zlength def
+R3677:3688 VST.floyd.Zlength_solver <> Zlength_fact def
+R3700:3702 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3691:3697 Coq.ZArith.Zcomplements <> Zlength def
+R3677:3688 VST.floyd.Zlength_solver <> Zlength_fact def
+R3700:3702 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3691:3697 Coq.ZArith.Zcomplements <> Zlength def
+R3730:3746 VST.floyd.Zlength_solver <> Zlength_fact_elim thm
+R3818:3829 VST.floyd.Zlength_solver <> Zlength_fact def
+R3841:3843 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3832:3838 Coq.ZArith.Zcomplements <> Zlength def
+R3818:3829 VST.floyd.Zlength_solver <> Zlength_fact def
+R3841:3843 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3832:3838 Coq.ZArith.Zcomplements <> Zlength def
+R3867:3883 VST.floyd.Zlength_solver <> Zlength_fact_elim thm
+def 3898:4052 <> Unnamed_thm
+binder 3910:3910 <> A:33
+R3924:3927 Coq.Init.Datatypes <> list ind
+R3929:3929 VST.floyd.Zlength_solver <> A:33 var
+binder 3913:3914 <> al:34
+binder 3916:3917 <> bl:35
+binder 3919:3920 <> cl:36
+binder 3932:3932 <> n:37
+binder 3934:3934 <> m:38
+R3953:3956 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3971:3974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3993:3998 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4013:4016 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4009:4011 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3999:4005 Coq.ZArith.Zcomplements <> Zlength def
+R4007:4008 VST.floyd.Zlength_solver <> al:34 var
+R4012:4012 VST.floyd.Zlength_solver <> n:37 var
+R4031:4034 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4027:4029 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4017:4023 Coq.ZArith.Zcomplements <> Zlength def
+R4025:4026 VST.floyd.Zlength_solver <> bl:35 var
+R4030:4030 VST.floyd.Zlength_solver <> n:37 var
+R4045:4047 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4035:4041 Coq.ZArith.Zcomplements <> Zlength def
+R4043:4044 VST.floyd.Zlength_solver <> cl:36 var
+R4049:4051 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4048:4048 VST.floyd.Zlength_solver <> n:37 var
+R4052:4052 VST.floyd.Zlength_solver <> m:38 var
+R3985:3987 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3975:3981 Coq.ZArith.Zcomplements <> Zlength def
+R3983:3984 VST.floyd.Zlength_solver <> cl:36 var
+R3989:3991 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3988:3988 VST.floyd.Zlength_solver <> n:37 var
+R3992:3992 VST.floyd.Zlength_solver <> m:38 var
+R3967:3969 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3957:3963 Coq.ZArith.Zcomplements <> Zlength def
+R3965:3966 VST.floyd.Zlength_solver <> bl:35 var
+R3970:3970 VST.floyd.Zlength_solver <> n:37 var
+R3949:3951 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3939:3945 Coq.ZArith.Zcomplements <> Zlength def
+R3947:3948 VST.floyd.Zlength_solver <> al:34 var
+R3952:3952 VST.floyd.Zlength_solver <> n:37 var
+prf 4338:4353 <> calc_Zlength_var
+binder 4364:4364 <> A:39
+R4371:4374 Coq.Init.Datatypes <> list ind
+R4376:4376 VST.floyd.Zlength_solver <> A:39 var
+binder 4367:4367 <> l:40
+R4391:4393 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4382:4388 Coq.ZArith.Zcomplements <> Zlength def
+R4390:4390 VST.floyd.Zlength_solver <> l:40 var
+R4394:4400 Coq.ZArith.Zcomplements <> Zlength def
+R4402:4402 VST.floyd.Zlength_solver <> l:40 var
+prf 4432:4447 <> calc_Zlength_nil
+binder 4458:4458 <> A:41
+R4479:4481 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4463:4469 Coq.ZArith.Zcomplements <> Zlength def
+R4473:4475 Coq.Init.Datatypes <> nil constr
+R4477:4477 VST.floyd.Zlength_solver <> A:41 var
+prf 4512:4528 <> calc_Zlength_cons
+binder 4539:4539 <> A:42
+R4546:4549 Coq.Init.Datatypes <> list ind
+R4551:4551 VST.floyd.Zlength_solver <> A:42 var
+binder 4542:4542 <> l:43
+binder 4554:4556 <> len:44
+binder 4558:4558 <> x:45
+R4578:4583 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4600:4602 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4584:4590 Coq.ZArith.Zcomplements <> Zlength def
+R4594:4597 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4593:4593 VST.floyd.Zlength_solver <> x:45 var
+R4598:4598 VST.floyd.Zlength_solver <> l:43 var
+R4604:4606 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4607:4609 VST.floyd.Zlength_solver <> len:44 var
+R4572:4574 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4563:4569 Coq.ZArith.Zcomplements <> Zlength def
+R4571:4571 VST.floyd.Zlength_solver <> l:43 var
+R4575:4577 VST.floyd.Zlength_solver <> len:44 var
+R4639:4650 Coq.ZArith.Zcomplements <> Zlength_cons thm
+R4639:4650 Coq.ZArith.Zcomplements <> Zlength_cons thm
+R4639:4650 Coq.ZArith.Zcomplements <> Zlength_cons thm
+prf 4672:4687 <> calc_Zlength_app
+binder 4698:4698 <> A:46
+R4709:4712 Coq.Init.Datatypes <> list ind
+R4714:4714 VST.floyd.Zlength_solver <> A:46 var
+binder 4701:4702 <> al:47
+binder 4704:4705 <> bl:48
+binder 4717:4720 <> alen:49
+binder 4722:4725 <> blen:50
+R4747:4752 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4770:4775 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4794:4796 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4776:4782 Coq.ZArith.Zcomplements <> Zlength def
+R4787:4790 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4785:4786 VST.floyd.Zlength_solver <> al:47 var
+R4791:4792 VST.floyd.Zlength_solver <> bl:48 var
+R4801:4803 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4797:4800 VST.floyd.Zlength_solver <> alen:49 var
+R4804:4807 VST.floyd.Zlength_solver <> blen:50 var
+R4763:4765 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4753:4759 Coq.ZArith.Zcomplements <> Zlength def
+R4761:4762 VST.floyd.Zlength_solver <> bl:48 var
+R4766:4769 VST.floyd.Zlength_solver <> blen:50 var
+R4740:4742 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4730:4736 Coq.ZArith.Zcomplements <> Zlength def
+R4738:4739 VST.floyd.Zlength_solver <> al:47 var
+R4743:4746 VST.floyd.Zlength_solver <> alen:49 var
+R4837:4847 VST.floyd.sublist <> Zlength_app thm
+R4837:4847 VST.floyd.sublist <> Zlength_app thm
+R4837:4847 VST.floyd.sublist <> Zlength_app thm
+prf 4869:4888 <> calc_Zlength_sublist
+binder 4899:4899 <> A:51
+R4906:4909 Coq.Init.Datatypes <> list ind
+R4911:4911 VST.floyd.Zlength_solver <> A:51 var
+binder 4902:4902 <> l:52
+binder 4914:4916 <> len:53
+binder 4918:4919 <> lo:54
+binder 4921:4922 <> hi:55
+R4942:4947 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4961:4966 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4976:4981 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5007:5009 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4982:4988 Coq.ZArith.Zcomplements <> Zlength def
+R4991:4997 VST.floyd.sublist <> sublist def
+R5005:5005 VST.floyd.Zlength_solver <> l:52 var
+R5002:5003 VST.floyd.Zlength_solver <> hi:55 var
+R4999:5000 VST.floyd.Zlength_solver <> lo:54 var
+R5012:5014 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5010:5011 VST.floyd.Zlength_solver <> hi:55 var
+R5015:5016 VST.floyd.Zlength_solver <> lo:54 var
+R4969:4972 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4967:4968 VST.floyd.Zlength_solver <> hi:55 var
+R4973:4975 VST.floyd.Zlength_solver <> len:53 var
+R4949:4952 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R4955:4958 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R4953:4954 VST.floyd.Zlength_solver <> lo:54 var
+R4953:4954 VST.floyd.Zlength_solver <> lo:54 var
+R4959:4960 VST.floyd.Zlength_solver <> hi:55 var
+R4936:4938 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4927:4933 Coq.ZArith.Zcomplements <> Zlength def
+R4935:4935 VST.floyd.Zlength_solver <> l:52 var
+R4939:4941 VST.floyd.Zlength_solver <> len:53 var
+R5046:5060 VST.floyd.sublist <> Zlength_sublist thm
+R5046:5060 VST.floyd.sublist <> Zlength_sublist thm
+R5046:5060 VST.floyd.sublist <> Zlength_sublist thm
+R5046:5060 VST.floyd.sublist <> Zlength_sublist thm
+R5046:5060 VST.floyd.sublist <> Zlength_sublist thm
+prf 5082:5102 <> calc_Zlength_upd_Znth
+binder 5113:5113 <> A:56
+R5120:5123 Coq.Init.Datatypes <> list ind
+R5125:5125 VST.floyd.Zlength_solver <> A:56 var
+binder 5116:5116 <> l:57
+binder 5128:5130 <> len:58
+binder 5132:5132 <> i:59
+binder 5134:5134 <> x:60
+R5154:5159 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5184:5186 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5160:5166 Coq.ZArith.Zcomplements <> Zlength def
+R5169:5176 VST.floyd.sublist <> upd_Znth def
+R5182:5182 VST.floyd.Zlength_solver <> x:60 var
+R5180:5180 VST.floyd.Zlength_solver <> l:57 var
+R5178:5178 VST.floyd.Zlength_solver <> i:59 var
+R5187:5189 VST.floyd.Zlength_solver <> len:58 var
+R5148:5150 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5139:5145 Coq.ZArith.Zcomplements <> Zlength def
+R5147:5147 VST.floyd.Zlength_solver <> l:57 var
+R5151:5153 VST.floyd.Zlength_solver <> len:58 var
+R5222:5237 VST.floyd.Zlength_solver <> Zlength_upd_Znth thm
+R5222:5237 VST.floyd.Zlength_solver <> Zlength_upd_Znth thm
+prf 5252:5267 <> calc_Zlength_map
+binder 5278:5278 <> A:61
+binder 5280:5280 <> B:62
+R5287:5290 Coq.Init.Datatypes <> list ind
+R5292:5292 VST.floyd.Zlength_solver <> A:61 var
+binder 5283:5283 <> l:63
+binder 5295:5297 <> len:64
+R5305:5308 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5309:5309 VST.floyd.Zlength_solver <> B:62 var
+R5304:5304 VST.floyd.Zlength_solver <> A:61 var
+binder 5300:5300 <> f:65
+R5330:5335 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5353:5355 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5336:5342 Coq.ZArith.Zcomplements <> Zlength def
+R5345:5347 Coq.Lists.List <> map def
+R5351:5351 VST.floyd.Zlength_solver <> l:63 var
+R5349:5349 VST.floyd.Zlength_solver <> f:65 var
+R5356:5358 VST.floyd.Zlength_solver <> len:64 var
+R5324:5326 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5315:5321 Coq.ZArith.Zcomplements <> Zlength def
+R5323:5323 VST.floyd.Zlength_solver <> l:63 var
+R5327:5329 VST.floyd.Zlength_solver <> len:64 var
+R5388:5398 VST.floyd.sublist <> Zlength_map thm
+R5388:5398 VST.floyd.sublist <> Zlength_map thm
+R5388:5398 VST.floyd.sublist <> Zlength_map thm
+R5544:5550 Coq.ZArith.Zcomplements <> Zlength def
+R5544:5550 Coq.ZArith.Zcomplements <> Zlength def
+R5784:5790 Coq.ZArith.Zcomplements <> Zlength def
+R5784:5790 Coq.ZArith.Zcomplements <> Zlength def
+R6031:6037 Coq.ZArith.Zcomplements <> Zlength def
+R6031:6037 Coq.ZArith.Zcomplements <> Zlength def
+R6224:6235 VST.floyd.Zlength_solver <> Zlength_fact def
+R6224:6235 VST.floyd.Zlength_solver <> Zlength_fact def
+R6302:6308 Coq.ZArith.Zcomplements <> Zlength def
+R6302:6308 Coq.ZArith.Zcomplements <> Zlength def
+R6582:6588 Coq.ZArith.Zcomplements <> Zlength def
+R6645:6647 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6648:6654 Coq.ZArith.Zcomplements <> Zlength def
+R6939:6941 Coq.Init.Datatypes <> nil constr
+R6939:6941 Coq.Init.Datatypes <> nil constr
+R6999:7002 Coq.Init.Datatypes <> cons constr
+R6999:7002 Coq.Init.Datatypes <> cons constr
+R7129:7131 Coq.Init.Datatypes <> app def
+R7129:7131 Coq.Init.Datatypes <> app def
+R7321:7327 VST.floyd.Zlength_solver <> Zrepeat def
+R7321:7327 VST.floyd.Zlength_solver <> Zrepeat def
+R7405:7411 VST.floyd.sublist <> sublist def
+R7405:7411 VST.floyd.sublist <> sublist def
+R7684:7691 VST.floyd.sublist <> upd_Znth def
+R7684:7691 VST.floyd.sublist <> upd_Znth def
+R7827:7829 Coq.Lists.List <> map def
+R7827:7829 Coq.Lists.List <> map def
+R8076:8091 VST.floyd.Zlength_solver <> calc_Zlength_var thm
+R8119:8132 VST.floyd.sublist <> Zlength_nonneg thm
+R7923:7938 VST.floyd.Zlength_solver <> calc_Zlength_map thm
+R7785:7805 VST.floyd.Zlength_solver <> calc_Zlength_upd_Znth thm
+R7611:7630 VST.floyd.Zlength_solver <> calc_Zlength_sublist thm
+R7364:7378 VST.floyd.Zlength_solver <> Zlength_Zrepeat thm
+R7278:7293 VST.floyd.Zlength_solver <> calc_Zlength_app thm
+R7093:7109 VST.floyd.Zlength_solver <> calc_Zlength_cons thm
+R6972:6987 VST.floyd.Zlength_solver <> calc_Zlength_nil thm

@@ -1,0 +1,617 @@
+DIGEST 28100242d192f02fa1f6aac19781b64c
+FVST.veric.Clight_lemmas
+R15:35 VST.veric.Clight_base <> <> lib
+R53:77 compcert.cfrontend.Clight <> <> lib
+def 92:99 <> var_name
+binder 102:102 <> V:1
+R123:125 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R118:122 compcert.common.AST <> ident def
+R126:132 compcert.common.AST <> globvar rec
+R134:134 VST.veric.Clight_lemmas <> V:1 var
+binder 112:115 <> bdec:2
+R139:143 compcert.common.AST <> ident def
+R151:153 Coq.Init.Datatypes <> fst def
+R155:158 VST.veric.Clight_lemmas <> bdec:2 var
+def 173:179 <> no_dups
+binder 182:182 <> F:3
+binder 184:184 <> V:4
+R201:204 Coq.Init.Datatypes <> list ind
+R212:214 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R207:211 compcert.common.AST <> ident def
+R215:215 VST.veric.Clight_lemmas <> F:3 var
+binder 194:198 <> fdecs:5
+R227:230 Coq.Init.Datatypes <> list ind
+R238:240 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R233:237 compcert.common.AST <> ident def
+R241:247 compcert.common.AST <> globvar rec
+R249:249 VST.veric.Clight_lemmas <> V:4 var
+binder 220:224 <> bdecs:6
+R265:276 compcert.lib.Coqlib <> list_norepet ind
+R303:306 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R279:281 Coq.Lists.List <> map def
+R298:302 VST.veric.Clight_lemmas <> fdecs:5 var
+R285:287 Coq.Init.Datatypes <> fst def
+R295:295 VST.veric.Clight_lemmas <> F:3 var
+R289:293 compcert.common.AST <> ident def
+R307:309 Coq.Lists.List <> map def
+R325:329 VST.veric.Clight_lemmas <> bdecs:6 var
+R313:320 VST.veric.Clight_lemmas <> var_name def
+R322:322 VST.veric.Clight_lemmas <> V:4 var
+R343:349 VST.veric.Clight_lemmas <> no_dups def
+R343:349 VST.veric.Clight_lemmas <> no_dups def
+prf 369:379 <> no_dups_inv
+binder 393:393 <> A:7
+binder 395:395 <> V:8
+binder 404:405 <> id:9
+binder 407:407 <> f:10
+binder 409:413 <> fdecs:11
+binder 415:419 <> bdecs:12
+R455:462 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R482:490 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R463:469 VST.veric.Clight_lemmas <> no_dups def
+R477:481 VST.veric.Clight_lemmas <> bdecs:12 var
+R471:475 VST.veric.Clight_lemmas <> fdecs:11 var
+R525:533 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R491:492 Coq.Init.Logic <> ::type_scope:'~'_x not
+R493:494 Coq.Lists.List <> In def
+R500:502 Coq.Lists.List <> map def
+R519:523 VST.veric.Clight_lemmas <> fdecs:11 var
+R506:508 Coq.Init.Datatypes <> fst def
+R516:516 VST.veric.Clight_lemmas <> A:7 var
+R510:514 compcert.common.AST <> ident def
+R496:497 VST.veric.Clight_lemmas <> id:9 var
+R534:535 Coq.Init.Logic <> ::type_scope:'~'_x not
+R536:537 Coq.Lists.List <> In def
+R543:545 Coq.Lists.List <> map def
+R561:565 VST.veric.Clight_lemmas <> bdecs:12 var
+R549:556 VST.veric.Clight_lemmas <> var_name def
+R558:558 VST.veric.Clight_lemmas <> V:8 var
+R539:540 VST.veric.Clight_lemmas <> id:9 var
+R426:432 VST.veric.Clight_lemmas <> no_dups def
+R450:454 VST.veric.Clight_lemmas <> bdecs:12 var
+R441:442 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R435:435 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R438:438 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R440:440 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R436:437 VST.veric.Clight_lemmas <> id:9 var
+R439:439 VST.veric.Clight_lemmas <> f:10 var
+R443:447 VST.veric.Clight_lemmas <> fdecs:11 var
+R668:676 Coq.Lists.List <> in_or_app thm
+R668:676 Coq.Lists.List <> in_or_app thm
+R716:724 Coq.Lists.List <> in_or_app thm
+R716:724 Coq.Lists.List <> in_or_app thm
+R748:758 VST.veric.Clight_lemmas <> no_dups_inv thm
+R748:758 VST.veric.Clight_lemmas <> no_dups_inv thm
+prf 785:800 <> of_bool_Int_eq_e
+binder 812:812 <> i:13
+binder 814:814 <> j:14
+R849:852 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R854:856 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R853:853 VST.veric.Clight_lemmas <> i:13 var
+R857:857 VST.veric.Clight_lemmas <> j:14 var
+R841:843 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R817:827 compcert.common.Values Val of_bool def
+R830:835 compcert.lib.Integers Int eq def
+R839:839 VST.veric.Clight_lemmas <> j:14 var
+R837:837 VST.veric.Clight_lemmas <> i:13 var
+R844:848 compcert.common.Values <> Vtrue def
+R874:884 compcert.common.Values Val of_bool def
+R910:915 compcert.lib.Integers Int eq def
+R936:937 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R927:927 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R910:915 compcert.lib.Integers Int eq def
+R936:937 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R927:927 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R948:958 compcert.lib.Integers Int eq_spec thm
+R948:958 compcert.lib.Integers Int eq_spec thm
+R969:974 compcert.lib.Integers Int eq def
+R969:974 compcert.lib.Integers Int eq def
+prf 1043:1054 <> eq_block_lem
+binder 1069:1069 <> A:15
+binder 1077:1077 <> a:16
+R1083:1083 VST.veric.Clight_lemmas <> A:15 var
+binder 1080:1080 <> b:17
+binder 1086:1086 <> c:18
+R1089:1089 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1119:1122 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1093:1100 compcert.common.Values <> eq_block def
+R1104:1104 VST.veric.Clight_lemmas <> a:16 var
+R1102:1102 VST.veric.Clight_lemmas <> a:16 var
+R1118:1118 VST.veric.Clight_lemmas <> c:18 var
+R1111:1111 VST.veric.Clight_lemmas <> b:17 var
+R1123:1123 VST.veric.Clight_lemmas <> b:17 var
+R1148:1155 compcert.common.Values <> eq_block def
+R1166:1173 compcert.lib.Coqlib <> peq_true thm
+R1166:1173 compcert.lib.Coqlib <> peq_true thm
+R1166:1173 compcert.lib.Coqlib <> peq_true thm
+prf 1716:1726 <> signed_zero
+R1748:1750 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1729:1738 compcert.lib.Integers Int signed def
+R1740:1747 compcert.lib.Integers Int zero def
+R1767:1781 compcert.lib.Integers Int signed_zero thm
+R1767:1781 compcert.lib.Integers Int signed_zero thm
+prf 1796:1803 <> equiv_e1
+binder 1814:1814 <> A:19
+binder 1816:1816 <> B:20
+R1828:1831 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1833:1836 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1837:1837 VST.veric.Clight_lemmas <> B:20 var
+R1832:1832 VST.veric.Clight_lemmas <> A:19 var
+R1826:1826 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1825:1825 VST.veric.Clight_lemmas <> A:19 var
+R1827:1827 VST.veric.Clight_lemmas <> B:20 var
+R1890:1897 VST.veric.Clight_lemmas <> equiv_e1 thm
+R1890:1897 VST.veric.Clight_lemmas <> equiv_e1 thm
+prf 2057:2069 <> deref_loc_fun
+binder 2080:2081 <> ty:21
+binder 2083:2083 <> m:22
+binder 2085:2085 <> b:23
+binder 2087:2087 <> z:24
+binder 2089:2089 <> v:25
+binder 2091:2092 <> v':26
+R2126:2129 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2158:2161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2163:2163 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2162:2162 VST.veric.Clight_lemmas <> v:25 var
+R2164:2165 VST.veric.Clight_lemmas <> v':26 var
+R2130:2145 compcert.cfrontend.Clight <> deref_loc ind
+R2156:2157 VST.veric.Clight_lemmas <> v':26 var
+R2154:2154 VST.veric.Clight_lemmas <> z:24 var
+R2152:2152 VST.veric.Clight_lemmas <> b:23 var
+R2150:2150 VST.veric.Clight_lemmas <> m:22 var
+R2147:2148 VST.veric.Clight_lemmas <> ty:21 var
+R2099:2114 compcert.cfrontend.Clight <> deref_loc ind
+R2125:2125 VST.veric.Clight_lemmas <> v:25 var
+R2123:2123 VST.veric.Clight_lemmas <> z:24 var
+R2121:2121 VST.veric.Clight_lemmas <> b:23 var
+R2119:2119 VST.veric.Clight_lemmas <> m:22 var
+R2116:2117 VST.veric.Clight_lemmas <> ty:21 var
+prf 2228:2247 <> eval_expr_lvalue_fun
+binder 2259:2260 <> ge:27
+binder 2262:2262 <> e:28
+binder 2264:2265 <> le:29
+binder 2267:2267 <> m:30
+R2274:2274 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2363:2372 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2515:2515 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 2282:2282 <> a:31
+binder 2284:2284 <> v:32
+binder 2286:2287 <> v':33
+R2320:2323 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2355:2358 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2360:2360 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2359:2359 VST.veric.Clight_lemmas <> v:32 var
+R2361:2362 VST.veric.Clight_lemmas <> v':33 var
+R2324:2339 compcert.cfrontend.Clight <> eval_expr ind
+R2353:2354 VST.veric.Clight_lemmas <> v':33 var
+R2351:2351 VST.veric.Clight_lemmas <> a:31 var
+R2349:2349 VST.veric.Clight_lemmas <> m:30 var
+R2346:2347 VST.veric.Clight_lemmas <> le:29 var
+R2344:2344 VST.veric.Clight_lemmas <> e:28 var
+R2341:2342 VST.veric.Clight_lemmas <> ge:27 var
+R2290:2305 compcert.cfrontend.Clight <> eval_expr ind
+R2319:2319 VST.veric.Clight_lemmas <> v:32 var
+R2317:2317 VST.veric.Clight_lemmas <> a:31 var
+R2315:2315 VST.veric.Clight_lemmas <> m:30 var
+R2312:2313 VST.veric.Clight_lemmas <> le:29 var
+R2310:2310 VST.veric.Clight_lemmas <> e:28 var
+R2307:2308 VST.veric.Clight_lemmas <> ge:27 var
+binder 2380:2380 <> a:34
+binder 2382:2382 <> b:35
+binder 2384:2385 <> b':36
+binder 2387:2387 <> i:37
+binder 2389:2390 <> i':38
+R2427:2430 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2467:2501 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2507:2507 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2502:2502 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2504:2504 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2506:2506 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2503:2503 VST.veric.Clight_lemmas <> b:35 var
+R2505:2505 VST.veric.Clight_lemmas <> i:37 var
+R2508:2508 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2511:2511 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2514:2514 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2509:2510 VST.veric.Clight_lemmas <> b':36 var
+R2512:2513 VST.veric.Clight_lemmas <> i':38 var
+R2431:2448 compcert.cfrontend.Clight <> eval_lvalue ind
+R2465:2466 VST.veric.Clight_lemmas <> i':38 var
+R2462:2463 VST.veric.Clight_lemmas <> b':36 var
+R2460:2460 VST.veric.Clight_lemmas <> a:34 var
+R2458:2458 VST.veric.Clight_lemmas <> m:30 var
+R2455:2456 VST.veric.Clight_lemmas <> le:29 var
+R2453:2453 VST.veric.Clight_lemmas <> e:28 var
+R2450:2451 VST.veric.Clight_lemmas <> ge:27 var
+R2393:2410 compcert.cfrontend.Clight <> eval_lvalue ind
+R2426:2426 VST.veric.Clight_lemmas <> i:37 var
+R2424:2424 VST.veric.Clight_lemmas <> b:35 var
+R2422:2422 VST.veric.Clight_lemmas <> a:34 var
+R2420:2420 VST.veric.Clight_lemmas <> m:30 var
+R2417:2418 VST.veric.Clight_lemmas <> le:29 var
+R2415:2415 VST.veric.Clight_lemmas <> e:28 var
+R2412:2413 VST.veric.Clight_lemmas <> ge:27 var
+R2545:2571 compcert.cfrontend.Clight <> eval_expr_lvalue_ind scheme
+binder 2659:2659 <> a:39
+binder 2661:2661 <> b:40
+binder 2663:2663 <> i:41
+binder 2675:2676 <> b':42
+binder 2678:2679 <> i':43
+R2718:2721 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2727:2727 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2722:2722 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2724:2724 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2726:2726 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2723:2723 VST.veric.Clight_lemmas <> b:40 var
+R2725:2725 VST.veric.Clight_lemmas <> i:41 var
+R2728:2728 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2731:2731 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2734:2734 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2729:2730 VST.veric.Clight_lemmas <> b':42 var
+R2732:2733 VST.veric.Clight_lemmas <> i':43 var
+R2682:2699 compcert.cfrontend.Clight <> eval_lvalue ind
+R2716:2717 VST.veric.Clight_lemmas <> i':43 var
+R2713:2714 VST.veric.Clight_lemmas <> b':42 var
+R2711:2711 VST.veric.Clight_lemmas <> a:39 var
+binder 2591:2591 <> a:44
+binder 2593:2593 <> v:45
+binder 2606:2607 <> v':46
+R2641:2644 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2646:2646 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2645:2645 VST.veric.Clight_lemmas <> v:45 var
+R2647:2648 VST.veric.Clight_lemmas <> v':46 var
+R2610:2625 compcert.cfrontend.Clight <> eval_expr ind
+R2639:2640 VST.veric.Clight_lemmas <> v':46 var
+R2637:2637 VST.veric.Clight_lemmas <> a:44 var
+R2803:2811 compcert.cfrontend.Clight <> eval_expr ind
+R2803:2811 compcert.cfrontend.Clight <> eval_expr ind
+R2870:2880 compcert.cfrontend.Clight <> eval_lvalue ind
+R2870:2880 compcert.cfrontend.Clight <> eval_lvalue ind
+R2545:2571 compcert.cfrontend.Clight <> eval_expr_lvalue_ind scheme
+binder 2659:2659 <> a:47
+binder 2661:2661 <> b:48
+binder 2663:2663 <> i:49
+binder 2675:2676 <> b':50
+binder 2678:2679 <> i':51
+R2718:2721 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2727:2727 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2722:2722 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2724:2724 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2726:2726 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2723:2723 VST.veric.Clight_lemmas <> b:48 var
+R2725:2725 VST.veric.Clight_lemmas <> i:49 var
+R2728:2728 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2731:2731 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2734:2734 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2729:2730 VST.veric.Clight_lemmas <> b':50 var
+R2732:2733 VST.veric.Clight_lemmas <> i':51 var
+R2682:2699 compcert.cfrontend.Clight <> eval_lvalue ind
+R2716:2717 VST.veric.Clight_lemmas <> i':51 var
+R2713:2714 VST.veric.Clight_lemmas <> b':50 var
+R2711:2711 VST.veric.Clight_lemmas <> a:47 var
+binder 2591:2591 <> a:52
+binder 2593:2593 <> v:53
+binder 2606:2607 <> v':54
+R2641:2644 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2646:2646 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2645:2645 VST.veric.Clight_lemmas <> v:53 var
+R2647:2648 VST.veric.Clight_lemmas <> v':54 var
+R2610:2625 compcert.cfrontend.Clight <> eval_expr ind
+R2639:2640 VST.veric.Clight_lemmas <> v':54 var
+R2637:2637 VST.veric.Clight_lemmas <> a:52 var
+R3232:3244 VST.veric.Clight_lemmas <> deref_loc_fun thm
+R3232:3244 VST.veric.Clight_lemmas <> deref_loc_fun thm
+R3303:3315 VST.veric.Clight_lemmas <> deref_loc_fun thm
+R3303:3315 VST.veric.Clight_lemmas <> deref_loc_fun thm
+R3358:3370 VST.veric.Clight_lemmas <> deref_loc_fun thm
+R3358:3370 VST.veric.Clight_lemmas <> deref_loc_fun thm
+R3413:3425 VST.veric.Clight_lemmas <> deref_loc_fun thm
+R3413:3425 VST.veric.Clight_lemmas <> deref_loc_fun thm
+R3468:3480 VST.veric.Clight_lemmas <> deref_loc_fun thm
+R3468:3480 VST.veric.Clight_lemmas <> deref_loc_fun thm
+prf 3732:3744 <> eval_expr_fun
+binder 3757:3758 <> ge:55
+binder 3760:3760 <> e:56
+binder 3762:3763 <> le:57
+binder 3765:3765 <> m:58
+binder 3767:3767 <> a:59
+binder 3769:3769 <> v:60
+binder 3771:3772 <> v':61
+R3810:3813 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3845:3848 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3850:3850 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3849:3849 VST.veric.Clight_lemmas <> v:60 var
+R3851:3852 VST.veric.Clight_lemmas <> v':61 var
+R3814:3829 compcert.cfrontend.Clight <> eval_expr ind
+R3843:3844 VST.veric.Clight_lemmas <> v':61 var
+R3841:3841 VST.veric.Clight_lemmas <> a:59 var
+R3839:3839 VST.veric.Clight_lemmas <> m:58 var
+R3836:3837 VST.veric.Clight_lemmas <> le:57 var
+R3834:3834 VST.veric.Clight_lemmas <> e:56 var
+R3831:3832 VST.veric.Clight_lemmas <> ge:55 var
+R3780:3795 compcert.cfrontend.Clight <> eval_expr ind
+R3809:3809 VST.veric.Clight_lemmas <> v:60 var
+R3807:3807 VST.veric.Clight_lemmas <> a:59 var
+R3805:3805 VST.veric.Clight_lemmas <> m:58 var
+R3802:3803 VST.veric.Clight_lemmas <> le:57 var
+R3800:3800 VST.veric.Clight_lemmas <> e:56 var
+R3797:3798 VST.veric.Clight_lemmas <> ge:55 var
+R3882:3901 VST.veric.Clight_lemmas <> eval_expr_lvalue_fun thm
+R3882:3901 VST.veric.Clight_lemmas <> eval_expr_lvalue_fun thm
+prf 3936:3952 <> eval_exprlist_fun
+binder 3965:3966 <> ge:62
+binder 3968:3968 <> e:63
+binder 3970:3971 <> le:64
+binder 3973:3973 <> m:65
+binder 3975:3975 <> a:66
+binder 3977:3978 <> ty:67
+binder 3980:3980 <> v:68
+binder 3982:3983 <> v':69
+R4028:4031 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4070:4073 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4075:4075 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4074:4074 VST.veric.Clight_lemmas <> v:68 var
+R4076:4077 VST.veric.Clight_lemmas <> v':69 var
+R4032:4051 compcert.cfrontend.Clight <> eval_exprlist ind
+R4068:4069 VST.veric.Clight_lemmas <> v':69 var
+R4065:4066 VST.veric.Clight_lemmas <> ty:67 var
+R4063:4063 VST.veric.Clight_lemmas <> a:66 var
+R4061:4061 VST.veric.Clight_lemmas <> m:65 var
+R4058:4059 VST.veric.Clight_lemmas <> le:64 var
+R4056:4056 VST.veric.Clight_lemmas <> e:63 var
+R4053:4054 VST.veric.Clight_lemmas <> ge:62 var
+R3991:4010 compcert.cfrontend.Clight <> eval_exprlist ind
+R4027:4027 VST.veric.Clight_lemmas <> v:68 var
+R4024:4025 VST.veric.Clight_lemmas <> ty:67 var
+R4022:4022 VST.veric.Clight_lemmas <> a:66 var
+R4020:4020 VST.veric.Clight_lemmas <> m:65 var
+R4017:4018 VST.veric.Clight_lemmas <> le:64 var
+R4015:4015 VST.veric.Clight_lemmas <> e:63 var
+R4012:4013 VST.veric.Clight_lemmas <> ge:62 var
+R4143:4155 VST.veric.Clight_lemmas <> eval_expr_fun thm
+R4143:4155 VST.veric.Clight_lemmas <> eval_expr_fun thm
+prf 4209:4223 <> eval_lvalue_fun
+binder 4236:4237 <> ge:70
+binder 4239:4239 <> e:71
+binder 4241:4242 <> le:72
+binder 4244:4244 <> m:73
+binder 4246:4246 <> a:74
+binder 4248:4248 <> b:75
+binder 4250:4251 <> b':76
+binder 4253:4253 <> z:77
+binder 4255:4256 <> z':78
+R4298:4301 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4338:4341 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4347:4347 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4342:4342 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4344:4344 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4346:4346 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4343:4343 VST.veric.Clight_lemmas <> b:75 var
+R4345:4345 VST.veric.Clight_lemmas <> z:77 var
+R4348:4348 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4351:4351 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4354:4354 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4349:4350 VST.veric.Clight_lemmas <> b':76 var
+R4352:4353 VST.veric.Clight_lemmas <> z':78 var
+R4302:4319 compcert.cfrontend.Clight <> eval_lvalue ind
+R4336:4337 VST.veric.Clight_lemmas <> z':78 var
+R4333:4334 VST.veric.Clight_lemmas <> b':76 var
+R4331:4331 VST.veric.Clight_lemmas <> a:74 var
+R4329:4329 VST.veric.Clight_lemmas <> m:73 var
+R4326:4327 VST.veric.Clight_lemmas <> le:72 var
+R4324:4324 VST.veric.Clight_lemmas <> e:71 var
+R4321:4322 VST.veric.Clight_lemmas <> ge:70 var
+R4264:4281 compcert.cfrontend.Clight <> eval_lvalue ind
+R4297:4297 VST.veric.Clight_lemmas <> z:77 var
+R4295:4295 VST.veric.Clight_lemmas <> b:75 var
+R4293:4293 VST.veric.Clight_lemmas <> a:74 var
+R4291:4291 VST.veric.Clight_lemmas <> m:73 var
+R4288:4289 VST.veric.Clight_lemmas <> le:72 var
+R4286:4286 VST.veric.Clight_lemmas <> e:71 var
+R4283:4284 VST.veric.Clight_lemmas <> ge:70 var
+R4384:4403 VST.veric.Clight_lemmas <> eval_expr_lvalue_fun thm
+R4384:4403 VST.veric.Clight_lemmas <> eval_expr_lvalue_fun thm
+prf 4439:4457 <> inv_find_symbol_fun
+binder 4470:4471 <> ge:79
+binder 4473:4474 <> id:80
+binder 4476:4478 <> id':81
+binder 4480:4480 <> b:82
+R4519:4526 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4559:4566 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4569:4569 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4567:4568 VST.veric.Clight_lemmas <> id:80 var
+R4570:4572 VST.veric.Clight_lemmas <> id':81 var
+R4550:4552 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4527:4542 compcert.common.Globalenvs Senv find_symbol proj
+R4547:4549 VST.veric.Clight_lemmas <> id':81 var
+R4544:4545 VST.veric.Clight_lemmas <> ge:79 var
+R4553:4556 Coq.Init.Datatypes <> Some constr
+R4558:4558 VST.veric.Clight_lemmas <> b:82 var
+R4510:4512 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4488:4503 compcert.common.Globalenvs Senv find_symbol proj
+R4508:4509 VST.veric.Clight_lemmas <> id:80 var
+R4505:4506 VST.veric.Clight_lemmas <> ge:79 var
+R4513:4516 Coq.Init.Datatypes <> Some constr
+R4518:4518 VST.veric.Clight_lemmas <> b:82 var
+R4600:4622 compcert.common.Globalenvs Senv find_invert_symbol proj
+R4600:4622 compcert.common.Globalenvs Senv find_invert_symbol proj
+R4638:4660 compcert.common.Globalenvs Senv find_invert_symbol proj
+R4638:4660 compcert.common.Globalenvs Senv find_invert_symbol proj
+prf 4730:4743 <> assign_loc_fun
+binder 4756:4759 <> cenv:83
+binder 4761:4762 <> ty:84
+binder 4764:4764 <> m:85
+binder 4766:4766 <> b:86
+binder 4768:4770 <> ofs:87
+binder 4772:4772 <> v:88
+binder 4774:4775 <> m1:89
+binder 4777:4778 <> m2:90
+R4816:4822 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4854:4860 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4863:4863 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4861:4862 VST.veric.Clight_lemmas <> m1:89 var
+R4864:4865 VST.veric.Clight_lemmas <> m2:90 var
+R4823:4832 compcert.cfrontend.Clight <> assign_loc ind
+R4852:4853 VST.veric.Clight_lemmas <> m2:90 var
+R4850:4850 VST.veric.Clight_lemmas <> v:88 var
+R4846:4848 VST.veric.Clight_lemmas <> ofs:87 var
+R4844:4844 VST.veric.Clight_lemmas <> b:86 var
+R4842:4842 VST.veric.Clight_lemmas <> m:85 var
+R4839:4840 VST.veric.Clight_lemmas <> ty:84 var
+R4834:4837 VST.veric.Clight_lemmas <> cenv:83 var
+R4785:4794 compcert.cfrontend.Clight <> assign_loc ind
+R4814:4815 VST.veric.Clight_lemmas <> m1:89 var
+R4812:4812 VST.veric.Clight_lemmas <> v:88 var
+R4808:4810 VST.veric.Clight_lemmas <> ofs:87 var
+R4806:4806 VST.veric.Clight_lemmas <> b:86 var
+R4804:4804 VST.veric.Clight_lemmas <> m:85 var
+R4801:4802 VST.veric.Clight_lemmas <> ty:84 var
+R4796:4799 VST.veric.Clight_lemmas <> cenv:83 var
+prf 4927:4945 <> alloc_variables_fun
+binder 4958:4959 <> ge:91
+binder 4961:4961 <> e:92
+binder 4963:4963 <> m:93
+binder 4965:4966 <> vl:94
+binder 4968:4969 <> e1:95
+binder 4971:4972 <> m1:96
+binder 4974:4975 <> e2:97
+binder 4977:4978 <> m2:98
+R5025:5033 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5072:5080 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5088:5088 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5081:5081 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5084:5084 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5087:5087 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5082:5083 VST.veric.Clight_lemmas <> e1:95 var
+R5085:5086 VST.veric.Clight_lemmas <> m1:96 var
+R5089:5089 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5092:5092 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5095:5095 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5090:5091 VST.veric.Clight_lemmas <> e2:97 var
+R5093:5094 VST.veric.Clight_lemmas <> m2:98 var
+R5034:5055 compcert.cfrontend.Clight <> alloc_variables ind
+R5070:5071 VST.veric.Clight_lemmas <> m2:98 var
+R5067:5068 VST.veric.Clight_lemmas <> e2:97 var
+R5064:5065 VST.veric.Clight_lemmas <> vl:94 var
+R5062:5062 VST.veric.Clight_lemmas <> m:93 var
+R5060:5060 VST.veric.Clight_lemmas <> e:92 var
+R5057:5058 VST.veric.Clight_lemmas <> ge:91 var
+R4987:5008 compcert.cfrontend.Clight <> alloc_variables ind
+R5023:5024 VST.veric.Clight_lemmas <> m1:96 var
+R5020:5021 VST.veric.Clight_lemmas <> e1:95 var
+R5017:5018 VST.veric.Clight_lemmas <> vl:94 var
+R5015:5015 VST.veric.Clight_lemmas <> m:93 var
+R5013:5013 VST.veric.Clight_lemmas <> e:92 var
+R5010:5011 VST.veric.Clight_lemmas <> ge:91 var
+prf 5218:5236 <> bind_parameters_fun
+binder 5249:5250 <> ge:99
+binder 5252:5252 <> e:100
+binder 5254:5254 <> m:101
+binder 5256:5256 <> p:102
+binder 5258:5258 <> v:103
+binder 5260:5261 <> m1:104
+binder 5263:5264 <> m2:105
+R5308:5315 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5352:5359 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5362:5362 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5360:5361 VST.veric.Clight_lemmas <> m1:104 var
+R5363:5364 VST.veric.Clight_lemmas <> m2:105 var
+R5316:5337 compcert.cfrontend.Clight <> bind_parameters ind
+R5350:5351 VST.veric.Clight_lemmas <> m2:105 var
+R5348:5348 VST.veric.Clight_lemmas <> v:103 var
+R5346:5346 VST.veric.Clight_lemmas <> p:102 var
+R5344:5344 VST.veric.Clight_lemmas <> m:101 var
+R5342:5342 VST.veric.Clight_lemmas <> e:100 var
+R5339:5340 VST.veric.Clight_lemmas <> ge:99 var
+R5272:5293 compcert.cfrontend.Clight <> bind_parameters ind
+R5306:5307 VST.veric.Clight_lemmas <> m1:104 var
+R5304:5304 VST.veric.Clight_lemmas <> v:103 var
+R5302:5302 VST.veric.Clight_lemmas <> p:102 var
+R5300:5300 VST.veric.Clight_lemmas <> m:101 var
+R5298:5298 VST.veric.Clight_lemmas <> e:100 var
+R5295:5296 VST.veric.Clight_lemmas <> ge:99 var
+R5472:5485 VST.veric.Clight_lemmas <> assign_loc_fun thm
+R5472:5485 VST.veric.Clight_lemmas <> assign_loc_fun thm
+prf 5527:5549 <> eventval_list_match_fun
+binder 5562:5563 <> se:106
+binder 5565:5565 <> a:107
+binder 5567:5568 <> a':108
+binder 5570:5570 <> t:109
+binder 5572:5572 <> v:110
+R5615:5622 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5659:5666 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5668:5668 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5667:5667 VST.veric.Clight_lemmas <> a:107 var
+R5669:5670 VST.veric.Clight_lemmas <> a':108 var
+R5623:5648 compcert.common.Events <> eventval_list_match ind
+R5658:5658 VST.veric.Clight_lemmas <> v:110 var
+R5656:5656 VST.veric.Clight_lemmas <> t:109 var
+R5653:5654 VST.veric.Clight_lemmas <> a':108 var
+R5650:5651 VST.veric.Clight_lemmas <> se:106 var
+R5580:5605 compcert.common.Events <> eventval_list_match ind
+R5614:5614 VST.veric.Clight_lemmas <> v:110 var
+R5612:5612 VST.veric.Clight_lemmas <> t:109 var
+R5610:5610 VST.veric.Clight_lemmas <> a:107 var
+R5607:5608 VST.veric.Clight_lemmas <> se:106 var
+R5804:5822 VST.veric.Clight_lemmas <> inv_find_symbol_fun thm
+R5804:5822 VST.veric.Clight_lemmas <> inv_find_symbol_fun thm
+R5905:5907 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5908:5911 Coq.Init.Datatypes <> Some constr
+R5905:5907 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5908:5911 Coq.Init.Datatypes <> Some constr
+R5922:5924 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5925:5928 Coq.Init.Datatypes <> Some constr
+R5922:5924 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5925:5928 Coq.Init.Datatypes <> Some constr
+R5963:5978 compcert.cfrontend.Clight <> eval_expr ind
+R5963:5978 compcert.cfrontend.Clight <> eval_expr ind
+R6008:6023 compcert.cfrontend.Clight <> eval_expr ind
+R6008:6023 compcert.cfrontend.Clight <> eval_expr ind
+R6104:6123 compcert.cfrontend.Clight <> eval_exprlist ind
+R6104:6123 compcert.cfrontend.Clight <> eval_exprlist ind
+R6157:6176 compcert.cfrontend.Clight <> eval_exprlist ind
+R6157:6176 compcert.cfrontend.Clight <> eval_exprlist ind
+R6265:6282 compcert.cfrontend.Clight <> eval_lvalue ind
+R6265:6282 compcert.cfrontend.Clight <> eval_lvalue ind
+R6314:6331 compcert.cfrontend.Clight <> eval_lvalue ind
+R6314:6331 compcert.cfrontend.Clight <> eval_lvalue ind
+R6417:6433 compcert.cfrontend.Clight <> assign_loc ind
+R6417:6433 compcert.cfrontend.Clight <> assign_loc ind
+R6468:6484 compcert.cfrontend.Clight <> assign_loc ind
+R6468:6484 compcert.cfrontend.Clight <> assign_loc ind
+R6572:6587 compcert.cfrontend.Clight <> deref_loc ind
+R6572:6587 compcert.cfrontend.Clight <> deref_loc ind
+R6615:6630 compcert.cfrontend.Clight <> deref_loc ind
+R6615:6630 compcert.cfrontend.Clight <> deref_loc ind
+R6710:6731 compcert.cfrontend.Clight <> alloc_variables ind
+R6710:6731 compcert.cfrontend.Clight <> alloc_variables ind
+R6760:6781 compcert.cfrontend.Clight <> alloc_variables ind
+R6760:6781 compcert.cfrontend.Clight <> alloc_variables ind
+R6868:6889 compcert.cfrontend.Clight <> bind_parameters ind
+R6868:6889 compcert.cfrontend.Clight <> bind_parameters ind
+R6919:6940 compcert.cfrontend.Clight <> bind_parameters ind
+R6919:6940 compcert.cfrontend.Clight <> bind_parameters ind
+R7050:7052 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7028:7043 compcert.common.Globalenvs Senv find_symbol proj
+R7053:7056 Coq.Init.Datatypes <> Some constr
+R7050:7052 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7028:7043 compcert.common.Globalenvs Senv find_symbol proj
+R7053:7056 Coq.Init.Datatypes <> Some constr
+R7092:7094 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7070:7085 compcert.common.Globalenvs Senv find_symbol proj
+R7095:7098 Coq.Init.Datatypes <> Some constr
+R7092:7094 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7070:7085 compcert.common.Globalenvs Senv find_symbol proj
+R7095:7098 Coq.Init.Datatypes <> Some constr
+R7169:7194 compcert.common.Events <> eventval_list_match ind
+R7169:7194 compcert.common.Events <> eventval_list_match ind
+R7217:7242 compcert.common.Events <> eventval_list_match ind
+R7217:7242 compcert.common.Events <> eventval_list_match ind
+R7278:7300 VST.veric.Clight_lemmas <> eventval_list_match_fun thm
+R7125:7143 VST.veric.Clight_lemmas <> inv_find_symbol_fun thm
+R6984:7002 VST.veric.Clight_lemmas <> bind_parameters_fun thm
+R6824:6842 VST.veric.Clight_lemmas <> alloc_variables_fun thm
+R6672:6684 VST.veric.Clight_lemmas <> deref_loc_fun thm
+R6533:6546 VST.veric.Clight_lemmas <> assign_loc_fun thm
+R6377:6391 VST.veric.Clight_lemmas <> eval_lvalue_fun thm
+R6224:6240 VST.veric.Clight_lemmas <> eval_exprlist_fun thm
+R6067:6079 VST.veric.Clight_lemmas <> eval_expr_fun thm

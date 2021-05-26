@@ -1,0 +1,341 @@
+DIGEST 8fa4eece18846b23fc25860327f96683
+FVST.veric.environ_lemmas
+R15:34 VST.msl.msl_standard <> <> lib
+R52:72 VST.veric.Clight_base <> <> lib
+R90:113 VST.veric.compcert_rmaps <> <> lib
+R131:153 VST.veric.Clight_lemmas <> <> lib
+R171:185 VST.veric.mpred <> <> lib
+R203:221 VST.veric.tycontext <> <> lib
+R239:253 VST.veric.expr2 <> <> lib
+R272:287 VST.veric.seplog <> <> lib
+prf 329:339 <> eqb_type_eq
+binder 349:350 <> t1:1
+binder 352:353 <> t2:2
+R370:372 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R356:363 VST.veric.Cop2 <> eqb_type def
+R368:369 VST.veric.environ_lemmas <> t2:2 var
+R365:366 VST.veric.environ_lemmas <> t1:1 var
+R373:384 compcert.lib.Coqlib <> proj_sumbool def
+R387:393 compcert.cfrontend.Ctypes <> type_eq thm
+R398:399 VST.veric.environ_lemmas <> t2:2 var
+R395:396 VST.veric.environ_lemmas <> t1:1 var
+R427:434 VST.veric.Cop2 <> eqb_type def
+R427:434 VST.veric.Cop2 <> eqb_type def
+R458:470 VST.veric.Cop2 <> eqb_type_true thm
+R458:470 VST.veric.Cop2 <> eqb_type_true thm
+R506:525 compcert.lib.Coqlib <> proj_sumbool_is_true thm
+R506:525 compcert.lib.Coqlib <> proj_sumbool_is_true thm
+R506:525 compcert.lib.Coqlib <> proj_sumbool_is_true thm
+R506:525 compcert.lib.Coqlib <> proj_sumbool_is_true thm
+R544:550 compcert.cfrontend.Ctypes <> type_eq thm
+R544:550 compcert.cfrontend.Ctypes <> type_eq thm
+R582:594 VST.veric.Cop2 <> eqb_type_refl thm
+R582:594 VST.veric.Cop2 <> eqb_type_refl thm
+R582:594 VST.veric.Cop2 <> eqb_type_refl thm
+prf 626:637 <> In_fst_split
+binder 648:648 <> A:3
+binder 650:650 <> B:4
+binder 652:652 <> i:5
+R658:661 Coq.Init.Datatypes <> list ind
+R665:667 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R664:664 VST.veric.environ_lemmas <> A:3 var
+R668:668 VST.veric.environ_lemmas <> B:4 var
+binder 655:655 <> l:6
+R693:697 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R673:674 Coq.Lists.List <> In def
+R679:681 Coq.Init.Datatypes <> fst def
+R684:688 Coq.Lists.List <> split def
+R690:690 VST.veric.environ_lemmas <> l:6 var
+R676:676 VST.veric.environ_lemmas <> i:5 var
+R698:704 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R710:711 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R709:709 VST.veric.environ_lemmas <> B:4 var
+binder 705:705 <> b:7
+R712:713 Coq.Lists.List <> In def
+R721:721 VST.veric.environ_lemmas <> l:6 var
+R715:715 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R717:717 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R719:719 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R716:716 VST.veric.environ_lemmas <> i:5 var
+R718:718 VST.veric.environ_lemmas <> b:7 var
+R796:800 Coq.Lists.List <> split def
+R796:800 Coq.Lists.List <> split def
+R1024:1028 Coq.Lists.List <> split def
+R1024:1028 Coq.Lists.List <> split def
+R1057:1061 Coq.Lists.List <> split def
+R1057:1061 Coq.Lists.List <> split def
+def 1128:1143 <> tycontext_evolve
+R1161:1169 VST.veric.seplog <> tycontext ind
+binder 1146:1150 <> Delta:8
+binder 1152:1157 <> Delta':9
+R1176:1176 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1378:1383 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 1184:1185 <> id:10
+R1219:1219 compcert.lib.Maps <> :::x_'!'_x not
+R1237:1240 compcert.lib.Maps <> :::x_'!'_x not
+R1241:1242 VST.veric.environ_lemmas <> id:10 var
+R1220:1229 VST.veric.seplog <> temp_types def
+R1231:1236 VST.veric.environ_lemmas <> Delta':9 var
+R1194:1194 compcert.lib.Maps <> :::x_'!'_x not
+R1211:1214 compcert.lib.Maps <> :::x_'!'_x not
+R1215:1216 VST.veric.environ_lemmas <> id:10 var
+R1195:1204 VST.veric.seplog <> temp_types def
+R1206:1210 VST.veric.environ_lemmas <> Delta:8 var
+R1267:1270 Coq.Init.Datatypes <> Some constr
+R1275:1278 Coq.Init.Datatypes <> Some constr
+R1287:1287 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1309:1312 Coq.Init.Datatypes <> None constr
+R1315:1318 Coq.Init.Datatypes <> None constr
+R1323:1326 Coq.Init.Logic <> True ind
+R1354:1358 Coq.Init.Logic <> False ind
+R1384:1384 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1444:1449 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 1392:1393 <> id:11
+R1418:1420 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1396:1396 compcert.lib.Maps <> :::x_'!'_x not
+R1412:1415 compcert.lib.Maps <> :::x_'!'_x not
+R1416:1417 VST.veric.environ_lemmas <> id:11 var
+R1397:1405 VST.veric.seplog <> var_types def
+R1407:1411 VST.veric.environ_lemmas <> Delta:8 var
+R1421:1421 compcert.lib.Maps <> :::x_'!'_x not
+R1438:1441 compcert.lib.Maps <> :::x_'!'_x not
+R1442:1443 VST.veric.environ_lemmas <> id:11 var
+R1422:1430 VST.veric.seplog <> var_types def
+R1432:1437 VST.veric.environ_lemmas <> Delta':9 var
+R1482:1486 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1464:1466 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1450:1457 VST.veric.seplog <> ret_type def
+R1459:1463 VST.veric.environ_lemmas <> Delta:8 var
+R1467:1474 VST.veric.seplog <> ret_type def
+R1476:1481 VST.veric.environ_lemmas <> Delta':9 var
+R1487:1487 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1549:1554 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 1495:1496 <> id:12
+R1522:1524 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1499:1499 compcert.lib.Maps <> :::x_'!'_x not
+R1516:1519 compcert.lib.Maps <> :::x_'!'_x not
+R1520:1521 VST.veric.environ_lemmas <> id:12 var
+R1500:1509 VST.veric.seplog <> glob_types def
+R1511:1515 VST.veric.environ_lemmas <> Delta:8 var
+R1525:1525 compcert.lib.Maps <> :::x_'!'_x not
+R1543:1546 compcert.lib.Maps <> :::x_'!'_x not
+R1547:1548 VST.veric.environ_lemmas <> id:12 var
+R1526:1535 VST.veric.seplog <> glob_types def
+R1537:1542 VST.veric.environ_lemmas <> Delta':9 var
+R1555:1555 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1617:1623 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1687:1687 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 1563:1564 <> id:13
+R1590:1592 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1567:1567 compcert.lib.Maps <> :::x_'!'_x not
+R1584:1587 compcert.lib.Maps <> :::x_'!'_x not
+R1588:1589 VST.veric.environ_lemmas <> id:13 var
+R1568:1577 VST.veric.seplog <> glob_specs def
+R1579:1583 VST.veric.environ_lemmas <> Delta:8 var
+R1593:1593 compcert.lib.Maps <> :::x_'!'_x not
+R1611:1614 compcert.lib.Maps <> :::x_'!'_x not
+R1615:1616 VST.veric.environ_lemmas <> id:13 var
+R1594:1603 VST.veric.seplog <> glob_specs def
+R1605:1610 VST.veric.environ_lemmas <> Delta':9 var
+binder 1631:1632 <> id:14
+R1659:1661 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1635:1635 compcert.lib.Maps <> :::x_'!'_x not
+R1653:1656 compcert.lib.Maps <> :::x_'!'_x not
+R1657:1658 VST.veric.environ_lemmas <> id:14 var
+R1636:1646 VST.veric.seplog <> annotations def
+R1648:1652 VST.veric.environ_lemmas <> Delta:8 var
+R1662:1662 compcert.lib.Maps <> :::x_'!'_x not
+R1681:1684 compcert.lib.Maps <> :::x_'!'_x not
+R1685:1686 VST.veric.environ_lemmas <> id:14 var
+R1663:1673 VST.veric.seplog <> annotations def
+R1675:1680 VST.veric.environ_lemmas <> Delta':9 var
+prf 1697:1718 <> tycontext_evolve_trans
+binder 1728:1733 <> Delta1:15
+binder 1735:1740 <> Delta2:16
+binder 1742:1747 <> Delta3:17
+R1783:1789 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1820:1826 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1827:1842 VST.veric.environ_lemmas <> tycontext_evolve def
+R1851:1856 VST.veric.environ_lemmas <> Delta3:17 var
+R1844:1849 VST.veric.environ_lemmas <> Delta1:15 var
+R1790:1805 VST.veric.environ_lemmas <> tycontext_evolve def
+R1814:1819 VST.veric.environ_lemmas <> Delta3:17 var
+R1807:1812 VST.veric.environ_lemmas <> Delta2:16 var
+R1753:1768 VST.veric.environ_lemmas <> tycontext_evolve def
+R1777:1782 VST.veric.environ_lemmas <> Delta2:16 var
+R1770:1775 VST.veric.environ_lemmas <> Delta1:15 var
+R2036:2045 VST.veric.seplog <> temp_types def
+R2047:2055 VST.veric.seplog <> var_types def
+R2058:2065 VST.veric.seplog <> ret_type def
+R2144:2145 VST.msl.base <> id def
+R2164:2165 VST.msl.base <> id def
+R2181:2181 compcert.lib.Maps <> :::x_'!'_x not
+R2181:2181 compcert.lib.Maps <> :::x_'!'_x not
+R2208:2208 compcert.lib.Maps <> :::x_'!'_x not
+R2208:2208 compcert.lib.Maps <> :::x_'!'_x not
+R2265:2265 compcert.lib.Maps <> :::x_'!'_x not
+R2265:2265 compcert.lib.Maps <> :::x_'!'_x not
+R2329:2329 compcert.lib.Maps <> :::x_'!'_x not
+R2329:2329 compcert.lib.Maps <> :::x_'!'_x not
+prf 2382:2397 <> tc_val_ptr_lemma
+R2404:2412 VST.veric.mpred <> compspecs class
+binder 2400:2401 <> CS:18
+binder 2427:2429 <> rho:19
+binder 2431:2431 <> m:20
+binder 2433:2437 <> Delta:21
+binder 2439:2440 <> id:22
+binder 2442:2442 <> t:23
+binder 2444:2444 <> a:24
+R2477:2483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2558:2564 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2624:2630 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2631:2636 VST.veric.Cop2 <> tc_val def
+R2654:2660 VST.veric.mpred <> eval_id def
+R2665:2667 VST.veric.environ_lemmas <> rho:19 var
+R2662:2663 VST.veric.environ_lemmas <> id:22 var
+R2639:2646 compcert.cfrontend.Ctypes <> Tpointer constr
+R2650:2650 VST.veric.environ_lemmas <> a:24 var
+R2648:2648 VST.veric.environ_lemmas <> t:23 var
+R2612:2614 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2565:2579 VST.veric.mpred <> strict_bool_val def
+R2599:2606 compcert.cfrontend.Ctypes <> Tpointer constr
+R2610:2610 VST.veric.environ_lemmas <> a:24 var
+R2608:2608 VST.veric.environ_lemmas <> t:23 var
+R2582:2588 VST.veric.mpred <> eval_id def
+R2593:2595 VST.veric.environ_lemmas <> rho:19 var
+R2590:2591 VST.veric.environ_lemmas <> id:22 var
+R2615:2618 Coq.Init.Datatypes <> Some constr
+R2620:2623 Coq.Init.Datatypes <> true constr
+R2484:2499 VST.veric.expr2 <> denote_tc_assert def
+R2557:2557 VST.veric.environ_lemmas <> m:20 var
+R2553:2555 VST.veric.environ_lemmas <> rho:19 var
+R2502:2515 VST.veric.expr <> typecheck_expr def
+R2524:2531 compcert.cfrontend.Clight <> Etempvar constr
+R2537:2544 compcert.cfrontend.Ctypes <> Tpointer constr
+R2548:2548 VST.veric.environ_lemmas <> a:24 var
+R2546:2546 VST.veric.environ_lemmas <> t:23 var
+R2533:2534 VST.veric.environ_lemmas <> id:22 var
+R2517:2521 VST.veric.environ_lemmas <> Delta:21 var
+R2450:2466 VST.veric.seplog <> typecheck_environ def
+R2474:2476 VST.veric.environ_lemmas <> rho:19 var
+R2468:2472 VST.veric.environ_lemmas <> Delta:21 var
+R2693:2707 VST.veric.mpred <> strict_bool_val def
+R2722:2727 VST.veric.Cop2 <> tc_val def
+R2740:2746 VST.veric.mpred <> eval_id def
+R2740:2746 VST.veric.mpred <> eval_id def
+R2784:2794 compcert.x86_32.Archi <> ptr64 def
+R2829:2834 compcert.lib.Integers Int eq def
+R2838:2845 compcert.lib.Integers Int zero def
+R2784:2794 compcert.x86_32.Archi <> ptr64 def
+R2829:2834 compcert.lib.Integers Int eq def
+R2838:2845 compcert.lib.Integers Int zero def
+R2874:2894 VST.veric.val_lemmas <> is_pointer_or_integer def
+R2897:2914 VST.veric.val_lemmas <> is_pointer_or_null def
+R2928:2938 compcert.x86_32.Archi <> ptr64 def
+R2928:2938 compcert.x86_32.Archi <> ptr64 def
+R2991:2998 compcert.lib.Integers Int64 eq def
+R3002:3011 compcert.lib.Integers Int64 zero def
+R2991:2998 compcert.lib.Integers Int64 eq def
+R3002:3011 compcert.lib.Integers Int64 zero def
+prf 3076:3099 <> typecheck_environ_put_te
+binder 3110:3111 <> ge:25
+binder 3113:3114 <> te:26
+binder 3116:3117 <> ve:27
+binder 3119:3123 <> Delta:28
+binder 3125:3126 <> id:29
+binder 3128:3128 <> v:30
+R3178:3183 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3184:3184 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3250:3256 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3257:3273 VST.veric.seplog <> typecheck_environ def
+R3282:3290 VST.veric.mpred <> mkEnviron constr
+R3299:3305 VST.veric.mpred Map set def
+R3312:3313 VST.veric.environ_lemmas <> te:26 var
+R3310:3310 VST.veric.environ_lemmas <> v:30 var
+R3307:3308 VST.veric.environ_lemmas <> id:29 var
+R3295:3296 VST.veric.environ_lemmas <> ve:27 var
+R3292:3293 VST.veric.environ_lemmas <> ge:25 var
+R3275:3279 VST.veric.environ_lemmas <> Delta:28 var
+binder 3192:3192 <> t:31
+R3229:3237 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3238:3244 VST.veric.Cop2 <> tc_val' def
+R3248:3248 VST.veric.environ_lemmas <> v:30 var
+R3246:3246 VST.veric.environ_lemmas <> t:31 var
+R3220:3222 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3197:3197 compcert.lib.Maps <> :::x_'!'_x not
+R3214:3217 compcert.lib.Maps <> :::x_'!'_x not
+R3218:3219 VST.veric.environ_lemmas <> id:29 var
+R3198:3207 VST.veric.seplog <> temp_types def
+R3209:3213 VST.veric.environ_lemmas <> Delta:28 var
+R3223:3226 Coq.Init.Datatypes <> Some constr
+R3228:3228 VST.veric.environ_lemmas <> t:31 var
+R3134:3150 VST.veric.seplog <> typecheck_environ def
+R3159:3167 VST.veric.mpred <> mkEnviron constr
+R3175:3176 VST.veric.environ_lemmas <> te:26 var
+R3172:3173 VST.veric.environ_lemmas <> ve:27 var
+R3169:3170 VST.veric.environ_lemmas <> ge:25 var
+R3152:3156 VST.veric.environ_lemmas <> Delta:28 var
+R3342:3358 VST.veric.seplog <> typecheck_environ def
+R3428:3437 VST.veric.seplog <> temp_types def
+R3466:3487 VST.veric.seplog <> typecheck_temp_environ def
+R3508:3517 VST.veric.mpred Map gsspec thm
+R3508:3517 VST.veric.mpred Map gsspec thm
+R3508:3517 VST.veric.mpred Map gsspec thm
+prf 3621:3645 <> typecheck_environ_put_te'
+binder 3656:3657 <> ge:32
+binder 3659:3660 <> te:33
+binder 3662:3663 <> ve:34
+binder 3665:3669 <> Delta:35
+binder 3671:3672 <> id:36
+binder 3674:3674 <> v:37
+R3724:3727 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3728:3728 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3789:3793 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3794:3810 VST.veric.seplog <> typecheck_environ def
+R3819:3827 VST.veric.mpred <> mkEnviron constr
+R3836:3842 VST.veric.mpred Map set def
+R3849:3850 VST.veric.environ_lemmas <> te:33 var
+R3847:3847 VST.veric.environ_lemmas <> v:37 var
+R3844:3845 VST.veric.environ_lemmas <> id:36 var
+R3832:3833 VST.veric.environ_lemmas <> ve:34 var
+R3829:3830 VST.veric.environ_lemmas <> ge:32 var
+R3812:3816 VST.veric.environ_lemmas <> Delta:35 var
+binder 3736:3736 <> t:38
+R3773:3776 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3777:3783 VST.veric.Cop2 <> tc_val' def
+R3787:3787 VST.veric.environ_lemmas <> v:37 var
+R3785:3785 VST.veric.environ_lemmas <> t:38 var
+R3764:3766 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3741:3741 compcert.lib.Maps <> :::x_'!'_x not
+R3758:3761 compcert.lib.Maps <> :::x_'!'_x not
+R3762:3763 VST.veric.environ_lemmas <> id:36 var
+R3742:3751 VST.veric.seplog <> temp_types def
+R3753:3757 VST.veric.environ_lemmas <> Delta:35 var
+R3767:3770 Coq.Init.Datatypes <> Some constr
+R3772:3772 VST.veric.environ_lemmas <> t:38 var
+R3679:3695 VST.veric.seplog <> typecheck_environ def
+R3705:3713 VST.veric.mpred <> mkEnviron constr
+R3721:3722 VST.veric.environ_lemmas <> te:33 var
+R3718:3719 VST.veric.environ_lemmas <> ve:34 var
+R3715:3716 VST.veric.environ_lemmas <> ge:32 var
+R3698:3702 VST.veric.environ_lemmas <> Delta:35 var
+R3878:3894 VST.veric.seplog <> typecheck_environ def
+R3903:3911 VST.veric.mpred <> mkEnviron constr
+R3920:3926 VST.veric.mpred Map set def
+R3878:3894 VST.veric.seplog <> typecheck_environ def
+R3903:3911 VST.veric.mpred <> mkEnviron constr
+R3920:3926 VST.veric.mpred Map set def
+R3946:3969 VST.veric.environ_lemmas <> typecheck_environ_put_te thm
+R3946:3969 VST.veric.environ_lemmas <> typecheck_environ_put_te thm
+R3986:4002 VST.veric.seplog <> typecheck_environ def
+prf 4041:4061 <> tycontext_evolve_refl
+binder 4072:4076 <> Delta:39
+R4079:4094 VST.veric.environ_lemmas <> tycontext_evolve def
+R4102:4106 VST.veric.environ_lemmas <> Delta:39 var
+R4096:4100 VST.veric.environ_lemmas <> Delta:39 var
+R4155:4155 compcert.lib.Maps <> :::x_'!'_x not
+R4172:4173 compcert.lib.Maps <> :::x_'!'_x not
+R4156:4165 VST.veric.seplog <> temp_types def
+R4155:4155 compcert.lib.Maps <> :::x_'!'_x not
+R4172:4173 compcert.lib.Maps <> :::x_'!'_x not
+R4156:4165 VST.veric.seplog <> temp_types def

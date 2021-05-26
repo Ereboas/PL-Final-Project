@@ -1,0 +1,1070 @@
+DIGEST b254571b06ab4a2bd9574057ab217cac
+FVST.floyd.local2ptree_eval
+R15:29 VST.floyd.base2 <> <> lib
+R47:69 VST.floyd.client_lemmas <> <> lib
+R87:109 VST.floyd.closed_lemmas <> <> lib
+R127:154 VST.floyd.local2ptree_denote <> <> lib
+def 215:226 <> eval_vardesc
+R233:237 compcert.common.AST <> ident def
+binder 229:230 <> id:1
+R245:248 compcert.cfrontend.Ctypes <> type ind
+binder 241:242 <> ty:2
+R259:267 VST.veric.seplog <> tycontext ind
+binder 252:256 <> Delta:3
+R275:281 compcert.lib.Maps PTree t def
+R288:290 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R284:287 compcert.cfrontend.Ctypes <> type ind
+R291:293 compcert.common.Values <> val ind
+binder 271:272 <> T2:4
+R302:307 Coq.Init.Datatypes <> option ind
+R309:315 VST.veric.SeparationLogic <> globals def
+binder 298:299 <> GV:5
+R320:325 Coq.Init.Datatypes <> option ind
+R327:329 compcert.common.Values <> val ind
+R342:342 compcert.lib.Maps <> :::x_'!'_x not
+R358:361 compcert.lib.Maps <> :::x_'!'_x not
+R362:363 VST.floyd.local2ptree_eval <> id:1 var
+R343:351 VST.veric.seplog <> var_types def
+R353:357 VST.floyd.local2ptree_eval <> Delta:3 var
+R374:377 Coq.Init.Datatypes <> Some constr
+R392:394 compcert.lib.Maps <> :::x_'!'_x not
+R395:396 VST.floyd.local2ptree_eval <> id:1 var
+R390:391 VST.floyd.local2ptree_eval <> T2:4 var
+R419:422 Coq.Init.Datatypes <> Some constr
+R424:424 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R428:429 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R431:431 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R461:468 VST.veric.Cop2 <> eqb_type def
+R470:471 VST.floyd.local2ptree_eval <> ty:2 var
+R538:541 Coq.Init.Datatypes <> None constr
+R504:507 Coq.Init.Datatypes <> Some constr
+R559:562 Coq.Init.Datatypes <> None constr
+R567:570 Coq.Init.Datatypes <> None constr
+R594:597 Coq.Init.Datatypes <> None constr
+R608:609 VST.floyd.local2ptree_eval <> GV:5 var
+R630:633 Coq.Init.Datatypes <> Some constr
+R641:644 Coq.Init.Datatypes <> Some constr
+R650:651 VST.floyd.local2ptree_eval <> id:1 var
+R668:671 Coq.Init.Datatypes <> None constr
+R676:679 Coq.Init.Datatypes <> None constr
+def 716:728 <> eval_lvardesc
+R735:739 compcert.common.AST <> ident def
+binder 731:732 <> id:7
+R747:750 compcert.cfrontend.Ctypes <> type ind
+binder 743:744 <> ty:8
+R761:769 VST.veric.seplog <> tycontext ind
+binder 754:758 <> Delta:9
+R777:783 compcert.lib.Maps PTree t def
+R790:792 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R786:789 compcert.cfrontend.Ctypes <> type ind
+R793:795 compcert.common.Values <> val ind
+binder 773:774 <> T2:10
+R801:806 Coq.Init.Datatypes <> option ind
+R808:810 compcert.common.Values <> val ind
+R823:823 compcert.lib.Maps <> :::x_'!'_x not
+R839:842 compcert.lib.Maps <> :::x_'!'_x not
+R843:844 VST.floyd.local2ptree_eval <> id:7 var
+R824:832 VST.veric.seplog <> var_types def
+R834:838 VST.floyd.local2ptree_eval <> Delta:9 var
+R855:858 Coq.Init.Datatypes <> Some constr
+R873:875 compcert.lib.Maps <> :::x_'!'_x not
+R876:877 VST.floyd.local2ptree_eval <> id:7 var
+R871:872 VST.floyd.local2ptree_eval <> T2:10 var
+R900:903 Coq.Init.Datatypes <> Some constr
+R905:905 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R909:910 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R912:912 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R942:949 VST.veric.Cop2 <> eqb_type def
+R951:952 VST.floyd.local2ptree_eval <> ty:8 var
+R1019:1022 Coq.Init.Datatypes <> None constr
+R985:988 Coq.Init.Datatypes <> Some constr
+R1040:1043 Coq.Init.Datatypes <> None constr
+R1048:1051 Coq.Init.Datatypes <> None constr
+R1075:1078 Coq.Init.Datatypes <> None constr
+R1083:1086 Coq.Init.Datatypes <> None constr
+def 1105:1120 <> msubst_eval_expr
+def 2544:2561 <> msubst_eval_lvalue
+R1127:1135 VST.veric.mpred <> compspecs class
+binder 1123:1124 <> cs:11
+R1146:1154 VST.veric.seplog <> tycontext ind
+binder 1139:1143 <> Delta:12
+R1162:1168 compcert.lib.Maps PTree t def
+R1170:1172 compcert.common.Values <> val ind
+binder 1158:1159 <> T1:13
+R1180:1186 compcert.lib.Maps PTree t def
+R1193:1195 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1189:1192 compcert.cfrontend.Ctypes <> type ind
+R1196:1198 compcert.common.Values <> val ind
+binder 1176:1177 <> T2:14
+R1207:1212 Coq.Init.Datatypes <> option ind
+R1214:1220 VST.veric.SeparationLogic <> globals def
+binder 1203:1204 <> GV:15
+R1227:1237 compcert.cfrontend.Clight <> expr ind
+binder 1224:1224 <> e:16
+R2568:2576 VST.veric.mpred <> compspecs class
+binder 2564:2565 <> cs:17
+R2587:2595 VST.veric.seplog <> tycontext ind
+binder 2580:2584 <> Delta:18
+R2603:2609 compcert.lib.Maps PTree t def
+R2611:2613 compcert.common.Values <> val ind
+binder 2599:2600 <> T1:19
+R2621:2627 compcert.lib.Maps PTree t def
+R2634:2636 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2630:2633 compcert.cfrontend.Ctypes <> type ind
+R2637:2639 compcert.common.Values <> val ind
+binder 2617:2618 <> T2:20
+R2648:2653 Coq.Init.Datatypes <> option ind
+R2655:2661 VST.veric.SeparationLogic <> globals def
+binder 2644:2645 <> GV:21
+R2668:2678 compcert.cfrontend.Clight <> expr ind
+binder 2665:2665 <> e:22
+R1242:1247 Coq.Init.Datatypes <> option ind
+R1249:1251 compcert.common.Values <> val ind
+R2683:2688 Coq.Init.Datatypes <> option ind
+R2690:2692 compcert.common.Values <> val ind
+R1264:1264 VST.floyd.local2ptree_eval <> e:16 var
+R1275:1284 compcert.cfrontend.Clight <> Econst_int constr
+R1294:1297 Coq.Init.Datatypes <> Some constr
+R1300:1303 compcert.common.Values <> Vint constr
+R1312:1322 compcert.cfrontend.Clight <> Econst_long constr
+R1332:1335 Coq.Init.Datatypes <> Some constr
+R1338:1342 compcert.common.Values <> Vlong constr
+R1351:1362 compcert.cfrontend.Clight <> Econst_float constr
+R1372:1375 Coq.Init.Datatypes <> Some constr
+R1378:1383 compcert.common.Values <> Vfloat constr
+R1392:1404 compcert.cfrontend.Clight <> Econst_single constr
+R1414:1417 Coq.Init.Datatypes <> Some constr
+R1420:1426 compcert.common.Values <> Vsingle constr
+R1435:1442 compcert.cfrontend.Clight <> Etempvar constr
+R1453:1461 compcert.lib.Maps PTree get def
+R1466:1467 VST.floyd.local2ptree_eval <> T1:13 var
+R1473:1479 compcert.cfrontend.Clight <> Eaddrof constr
+R1489:1506 VST.floyd.local2ptree_eval <> msubst_eval_lvalue:24 def
+R1520:1521 VST.floyd.local2ptree_eval <> GV:15 var
+R1517:1518 VST.floyd.local2ptree_eval <> T2:14 var
+R1514:1515 VST.floyd.local2ptree_eval <> T1:13 var
+R1508:1512 VST.floyd.local2ptree_eval <> Delta:12 var
+R1529:1533 compcert.cfrontend.Clight <> Eunop constr
+R1546:1555 compcert.lib.Coqlib <> option_map def
+R1624:1639 VST.floyd.local2ptree_eval <> msubst_eval_expr:23 def
+R1653:1654 VST.floyd.local2ptree_eval <> GV:15 var
+R1650:1651 VST.floyd.local2ptree_eval <> T2:14 var
+R1647:1648 VST.floyd.local2ptree_eval <> T1:13 var
+R1641:1645 VST.floyd.local2ptree_eval <> Delta:12 var
+R1558:1566 VST.veric.expr <> eval_unop def
+R1572:1577 compcert.cfrontend.Clight <> typeof def
+R1663:1668 compcert.cfrontend.Clight <> Ebinop constr
+R1736:1751 VST.floyd.local2ptree_eval <> msubst_eval_expr:23 def
+R1765:1766 VST.floyd.local2ptree_eval <> GV:15 var
+R1762:1763 VST.floyd.local2ptree_eval <> T2:14 var
+R1759:1760 VST.floyd.local2ptree_eval <> T1:13 var
+R1753:1757 VST.floyd.local2ptree_eval <> Delta:12 var
+R1698:1713 VST.floyd.local2ptree_eval <> msubst_eval_expr:23 def
+R1727:1728 VST.floyd.local2ptree_eval <> GV:15 var
+R1724:1725 VST.floyd.local2ptree_eval <> T2:14 var
+R1721:1722 VST.floyd.local2ptree_eval <> T1:13 var
+R1715:1719 VST.floyd.local2ptree_eval <> Delta:12 var
+R1785:1788 Coq.Init.Datatypes <> Some constr
+R1794:1797 Coq.Init.Datatypes <> Some constr
+R1805:1808 Coq.Init.Datatypes <> Some constr
+R1811:1820 VST.veric.expr <> eval_binop def
+R1838:1843 compcert.cfrontend.Clight <> typeof def
+R1826:1831 compcert.cfrontend.Clight <> typeof def
+R1872:1875 Coq.Init.Datatypes <> None constr
+R1891:1895 compcert.cfrontend.Clight <> Ecast constr
+R1905:1914 compcert.lib.Coqlib <> option_map def
+R1943:1958 VST.floyd.local2ptree_eval <> msubst_eval_expr:23 def
+R1972:1973 VST.floyd.local2ptree_eval <> GV:15 var
+R1969:1970 VST.floyd.local2ptree_eval <> T2:14 var
+R1966:1967 VST.floyd.local2ptree_eval <> T1:13 var
+R1960:1964 VST.floyd.local2ptree_eval <> Delta:12 var
+R1917:1925 VST.veric.expr <> eval_cast def
+R1928:1933 compcert.cfrontend.Clight <> typeof def
+R1982:1985 compcert.cfrontend.Clight <> Evar constr
+R1996:2007 VST.floyd.local2ptree_eval <> eval_vardesc def
+R2024:2025 VST.floyd.local2ptree_eval <> GV:15 var
+R2021:2022 VST.floyd.local2ptree_eval <> T2:14 var
+R2015:2019 VST.floyd.local2ptree_eval <> Delta:12 var
+R2032:2037 compcert.cfrontend.Clight <> Ederef constr
+R2047:2062 VST.floyd.local2ptree_eval <> msubst_eval_expr:23 def
+R2076:2077 VST.floyd.local2ptree_eval <> GV:15 var
+R2073:2074 VST.floyd.local2ptree_eval <> T2:14 var
+R2070:2071 VST.floyd.local2ptree_eval <> T1:13 var
+R2064:2068 VST.floyd.local2ptree_eval <> Delta:12 var
+R2085:2090 compcert.cfrontend.Clight <> Efield constr
+R2102:2111 compcert.lib.Coqlib <> option_map def
+R2140:2157 VST.floyd.local2ptree_eval <> msubst_eval_lvalue:24 def
+R2171:2172 VST.floyd.local2ptree_eval <> GV:15 var
+R2168:2169 VST.floyd.local2ptree_eval <> T2:14 var
+R2165:2166 VST.floyd.local2ptree_eval <> T1:13 var
+R2159:2163 VST.floyd.local2ptree_eval <> Delta:12 var
+R2114:2123 VST.veric.expr <> eval_field def
+R2126:2131 compcert.cfrontend.Clight <> typeof def
+R2181:2187 compcert.cfrontend.Clight <> Esizeof constr
+R2196:2199 Coq.Init.Datatypes <> Some constr
+R2205:2217 compcert.cfrontend.Ctypes <> complete_type def
+R2219:2225 VST.veric.mpred <> cenv_cs meth
+R2344:2349 compcert.common.Values <> Vundef constr
+R2270:2276 compcert.common.Values <> Vptrofs def
+R2279:2289 compcert.lib.Integers Ptrofs repr def
+R2292:2297 VST.veric.expr <> sizeof def
+R2356:2363 compcert.cfrontend.Clight <> Ealignof constr
+R2372:2375 Coq.Init.Datatypes <> Some constr
+R2381:2393 compcert.cfrontend.Ctypes <> complete_type def
+R2395:2401 VST.veric.mpred <> cenv_cs meth
+R2523:2528 compcert.common.Values <> Vundef constr
+R2447:2453 compcert.common.Values <> Vptrofs def
+R2456:2466 compcert.lib.Integers Ptrofs repr def
+R2469:2475 VST.veric.expr <> alignof def
+R2705:2705 VST.floyd.local2ptree_eval <> e:22 var
+R2716:2719 compcert.cfrontend.Clight <> Evar constr
+R2730:2741 VST.floyd.local2ptree_eval <> eval_vardesc def
+R2758:2759 VST.floyd.local2ptree_eval <> GV:21 var
+R2755:2756 VST.floyd.local2ptree_eval <> T2:20 var
+R2749:2753 VST.floyd.local2ptree_eval <> Delta:18 var
+R2765:2770 compcert.cfrontend.Clight <> Ederef constr
+R2780:2795 VST.floyd.local2ptree_eval <> msubst_eval_expr:23 def
+R2809:2810 VST.floyd.local2ptree_eval <> GV:21 var
+R2806:2807 VST.floyd.local2ptree_eval <> T2:20 var
+R2803:2804 VST.floyd.local2ptree_eval <> T1:19 var
+R2797:2801 VST.floyd.local2ptree_eval <> Delta:18 var
+R2818:2823 compcert.cfrontend.Clight <> Efield constr
+R2835:2844 compcert.lib.Coqlib <> option_map def
+R2903:2920 VST.floyd.local2ptree_eval <> msubst_eval_lvalue:24 def
+R2934:2935 VST.floyd.local2ptree_eval <> GV:21 var
+R2931:2932 VST.floyd.local2ptree_eval <> T2:20 var
+R2928:2929 VST.floyd.local2ptree_eval <> T1:19 var
+R2922:2926 VST.floyd.local2ptree_eval <> Delta:18 var
+R2847:2856 VST.veric.expr <> eval_field def
+R2859:2864 compcert.cfrontend.Clight <> typeof def
+R2950:2953 Coq.Init.Datatypes <> Some constr
+R2955:2960 compcert.common.Values <> Vundef constr
+def 2981:2994 <> msubst_eval_LR
+R3001:3009 VST.veric.mpred <> compspecs class
+binder 2997:2998 <> cs:27
+binder 3012:3016 <> Delta:28
+binder 3018:3019 <> T1:29
+binder 3021:3022 <> T2:30
+binder 3024:3025 <> GV:31
+binder 3027:3027 <> e:32
+R3034:3037 VST.floyd.base <> LLRR ind
+binder 3030:3031 <> lr:33
+R3051:3052 VST.floyd.local2ptree_eval <> lr:33 var
+R3063:3066 VST.floyd.base <> LLLL constr
+R3071:3088 VST.floyd.local2ptree_eval <> msubst_eval_lvalue def
+R3105:3105 VST.floyd.local2ptree_eval <> e:32 var
+R3102:3103 VST.floyd.local2ptree_eval <> GV:31 var
+R3099:3100 VST.floyd.local2ptree_eval <> T2:30 var
+R3096:3097 VST.floyd.local2ptree_eval <> T1:29 var
+R3090:3094 VST.floyd.local2ptree_eval <> Delta:28 var
+R3111:3114 VST.floyd.base <> RRRR constr
+R3119:3134 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R3151:3151 VST.floyd.local2ptree_eval <> e:32 var
+R3148:3149 VST.floyd.local2ptree_eval <> GV:31 var
+R3145:3146 VST.floyd.local2ptree_eval <> T2:30 var
+R3142:3143 VST.floyd.local2ptree_eval <> T1:29 var
+R3136:3140 VST.floyd.local2ptree_eval <> Delta:28 var
+def 3172:3187 <> msubst_eval_lvar
+R3194:3202 VST.veric.mpred <> compspecs class
+binder 3190:3191 <> cs:35
+binder 3205:3209 <> Delta:36
+binder 3211:3212 <> T2:37
+binder 3214:3214 <> i:38
+binder 3216:3216 <> t:39
+R3223:3235 VST.floyd.local2ptree_eval <> eval_lvardesc def
+R3247:3248 VST.floyd.local2ptree_eval <> T2:37 var
+R3241:3245 VST.floyd.local2ptree_eval <> Delta:36 var
+R3239:3239 VST.floyd.local2ptree_eval <> t:39 var
+R3237:3237 VST.floyd.local2ptree_eval <> i:38 var
+prf 3258:3280 <> msubst_eval_expr_eq_aux
+prf 3630:3654 <> msubst_eval_lvalue_eq_aux
+R3297:3305 VST.veric.mpred <> compspecs class
+binder 3293:3294 <> cs:40
+R3316:3324 VST.veric.seplog <> tycontext ind
+binder 3309:3313 <> Delta:41
+R3332:3338 compcert.lib.Maps PTree t def
+R3340:3342 compcert.common.Values <> val ind
+binder 3328:3329 <> T1:42
+R3350:3356 compcert.lib.Maps PTree t def
+R3363:3365 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3359:3362 compcert.cfrontend.Ctypes <> type ind
+R3366:3368 compcert.common.Values <> val ind
+binder 3346:3347 <> T2:43
+R3377:3382 Coq.Init.Datatypes <> option ind
+R3384:3390 VST.veric.SeparationLogic <> globals def
+binder 3373:3374 <> GV:44
+binder 3393:3393 <> e:45
+binder 3395:3397 <> rho:46
+binder 3399:3399 <> v:47
+R3406:3406 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3455:3463 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3464:3464 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3546:3554 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3597:3604 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3620:3622 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3605:3613 VST.veric.expr <> eval_expr def
+R3617:3619 VST.floyd.local2ptree_eval <> rho:46 var
+R3615:3615 VST.floyd.local2ptree_eval <> e:45 var
+R3623:3623 VST.floyd.local2ptree_eval <> v:47 var
+R3588:3590 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3555:3570 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R3587:3587 VST.floyd.local2ptree_eval <> e:45 var
+R3584:3585 VST.floyd.local2ptree_eval <> GV:44 var
+R3581:3582 VST.floyd.local2ptree_eval <> T2:43 var
+R3578:3579 VST.floyd.local2ptree_eval <> T1:42 var
+R3572:3576 VST.floyd.local2ptree_eval <> Delta:41 var
+R3591:3594 Coq.Init.Datatypes <> Some constr
+R3596:3596 VST.floyd.local2ptree_eval <> v:47 var
+binder 3472:3472 <> i:48
+binder 3474:3474 <> t:49
+binder 3476:3476 <> v:50
+R3522:3525 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3542:3544 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3526:3533 VST.veric.expr <> eval_var def
+R3539:3541 VST.floyd.local2ptree_eval <> rho:46 var
+R3537:3537 VST.floyd.local2ptree_eval <> t:49 var
+R3535:3535 VST.floyd.local2ptree_eval <> i:48 var
+R3545:3545 VST.floyd.local2ptree_eval <> v:50 var
+R3512:3515 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3484:3495 VST.floyd.local2ptree_eval <> eval_vardesc def
+R3510:3511 VST.floyd.local2ptree_eval <> GV:44 var
+R3507:3508 VST.floyd.local2ptree_eval <> T2:43 var
+R3501:3505 VST.floyd.local2ptree_eval <> Delta:41 var
+R3499:3499 VST.floyd.local2ptree_eval <> t:49 var
+R3497:3497 VST.floyd.local2ptree_eval <> i:48 var
+R3516:3519 Coq.Init.Datatypes <> Some constr
+R3521:3521 VST.floyd.local2ptree_eval <> v:50 var
+binder 3414:3414 <> i:51
+binder 3416:3416 <> v:52
+R3434:3437 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3451:3453 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3438:3444 VST.veric.mpred <> eval_id def
+R3448:3450 VST.floyd.local2ptree_eval <> rho:46 var
+R3446:3446 VST.floyd.local2ptree_eval <> i:51 var
+R3454:3454 VST.floyd.local2ptree_eval <> v:52 var
+R3425:3427 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3421:3423 compcert.lib.Maps <> :::x_'!'_x not
+R3424:3424 VST.floyd.local2ptree_eval <> i:51 var
+R3419:3420 VST.floyd.local2ptree_eval <> T1:42 var
+R3428:3431 Coq.Init.Datatypes <> Some constr
+R3433:3433 VST.floyd.local2ptree_eval <> v:52 var
+R3671:3679 VST.veric.mpred <> compspecs class
+binder 3667:3668 <> cs:53
+R3690:3698 VST.veric.seplog <> tycontext ind
+binder 3683:3687 <> Delta:54
+R3706:3712 compcert.lib.Maps PTree t def
+R3714:3716 compcert.common.Values <> val ind
+binder 3702:3703 <> T1:55
+R3724:3730 compcert.lib.Maps PTree t def
+R3737:3739 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3733:3736 compcert.cfrontend.Ctypes <> type ind
+R3740:3742 compcert.common.Values <> val ind
+binder 3720:3721 <> T2:56
+R3751:3756 Coq.Init.Datatypes <> option ind
+R3758:3764 VST.veric.SeparationLogic <> globals def
+binder 3747:3748 <> GV:57
+binder 3767:3767 <> e:58
+binder 3769:3771 <> rho:59
+binder 3773:3773 <> v:60
+R3780:3780 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3829:3837 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3838:3838 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3919:3927 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3972:3979 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3997:3999 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3980:3990 VST.veric.expr <> eval_lvalue def
+R3994:3996 VST.floyd.local2ptree_eval <> rho:59 var
+R3992:3992 VST.floyd.local2ptree_eval <> e:58 var
+R4000:4000 VST.floyd.local2ptree_eval <> v:60 var
+R3963:3965 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3928:3945 VST.floyd.local2ptree_eval <> msubst_eval_lvalue def
+R3962:3962 VST.floyd.local2ptree_eval <> e:58 var
+R3959:3960 VST.floyd.local2ptree_eval <> GV:57 var
+R3956:3957 VST.floyd.local2ptree_eval <> T2:56 var
+R3953:3954 VST.floyd.local2ptree_eval <> T1:55 var
+R3947:3951 VST.floyd.local2ptree_eval <> Delta:54 var
+R3966:3969 Coq.Init.Datatypes <> Some constr
+R3971:3971 VST.floyd.local2ptree_eval <> v:60 var
+binder 3846:3846 <> i:61
+binder 3848:3848 <> t:62
+binder 3850:3850 <> v:63
+R3895:3898 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3915:3917 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3899:3906 VST.veric.expr <> eval_var def
+R3912:3914 VST.floyd.local2ptree_eval <> rho:59 var
+R3910:3910 VST.floyd.local2ptree_eval <> t:62 var
+R3908:3908 VST.floyd.local2ptree_eval <> i:61 var
+R3918:3918 VST.floyd.local2ptree_eval <> v:63 var
+R3886:3888 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3858:3869 VST.floyd.local2ptree_eval <> eval_vardesc def
+R3884:3885 VST.floyd.local2ptree_eval <> GV:57 var
+R3881:3882 VST.floyd.local2ptree_eval <> T2:56 var
+R3875:3879 VST.floyd.local2ptree_eval <> Delta:54 var
+R3873:3873 VST.floyd.local2ptree_eval <> t:62 var
+R3871:3871 VST.floyd.local2ptree_eval <> i:61 var
+R3889:3892 Coq.Init.Datatypes <> Some constr
+R3894:3894 VST.floyd.local2ptree_eval <> v:63 var
+binder 3788:3788 <> i:64
+binder 3790:3790 <> v:65
+R3808:3811 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3825:3827 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3812:3818 VST.veric.mpred <> eval_id def
+R3822:3824 VST.floyd.local2ptree_eval <> rho:59 var
+R3820:3820 VST.floyd.local2ptree_eval <> i:64 var
+R3828:3828 VST.floyd.local2ptree_eval <> v:65 var
+R3799:3801 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3795:3797 compcert.lib.Maps <> :::x_'!'_x not
+R3798:3798 VST.floyd.local2ptree_eval <> i:64 var
+R3793:3794 VST.floyd.local2ptree_eval <> T1:55 var
+R3802:3805 Coq.Init.Datatypes <> Some constr
+R3807:3807 VST.floyd.local2ptree_eval <> v:65 var
+R4211:4226 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R4211:4226 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R4394:4409 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R4394:4409 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R4471:4486 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R4471:4486 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R4699:4714 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R4699:4714 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R4882:4899 VST.floyd.local2ptree_eval <> msubst_eval_lvalue def
+R4882:4899 VST.floyd.local2ptree_eval <> msubst_eval_lvalue def
+R5188:5203 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R5188:5203 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R5371:5388 VST.floyd.local2ptree_eval <> msubst_eval_lvalue def
+R5371:5388 VST.floyd.local2ptree_eval <> msubst_eval_lvalue def
+R5535:5556 VST.veric.expr_lemmas2 <> <> lib
+prf 5567:5584 <> msubst_eval_eq_aux
+R5591:5599 VST.veric.mpred <> compspecs class
+binder 5587:5588 <> cs:66
+binder 5610:5614 <> Delta:67
+binder 5616:5617 <> T1:68
+binder 5619:5620 <> T2:69
+binder 5622:5623 <> GV:70
+binder 5625:5627 <> rho:71
+R5652:5657 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5725:5730 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5731:5731 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5780:5787 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5869:5869 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 5739:5739 <> i:72
+binder 5741:5741 <> v:73
+R5759:5762 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5776:5778 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5763:5769 VST.veric.mpred <> eval_id def
+R5773:5775 VST.floyd.local2ptree_eval <> rho:71 var
+R5771:5771 VST.floyd.local2ptree_eval <> i:72 var
+R5779:5779 VST.floyd.local2ptree_eval <> v:73 var
+R5750:5752 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5746:5748 compcert.lib.Maps <> :::x_'!'_x not
+R5749:5749 VST.floyd.local2ptree_eval <> i:72 var
+R5744:5745 VST.floyd.local2ptree_eval <> T1:68 var
+R5753:5756 Coq.Init.Datatypes <> Some constr
+R5758:5758 VST.floyd.local2ptree_eval <> v:73 var
+binder 5795:5795 <> i:74
+binder 5797:5797 <> t:75
+binder 5799:5799 <> v:76
+R5839:5848 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5865:5867 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5849:5856 VST.veric.expr <> eval_var def
+R5862:5864 VST.floyd.local2ptree_eval <> rho:71 var
+R5860:5860 VST.floyd.local2ptree_eval <> t:75 var
+R5858:5858 VST.floyd.local2ptree_eval <> i:74 var
+R5868:5868 VST.floyd.local2ptree_eval <> v:76 var
+R5830:5832 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5802:5813 VST.floyd.local2ptree_eval <> eval_vardesc def
+R5828:5829 VST.floyd.local2ptree_eval <> GV:70 var
+R5825:5826 VST.floyd.local2ptree_eval <> T2:69 var
+R5819:5823 VST.floyd.local2ptree_eval <> Delta:67 var
+R5817:5817 VST.floyd.local2ptree_eval <> t:75 var
+R5815:5815 VST.floyd.local2ptree_eval <> i:74 var
+R5833:5836 Coq.Init.Datatypes <> Some constr
+R5838:5838 VST.floyd.local2ptree_eval <> v:76 var
+R5658:5667 Coq.Lists.List <> fold_right def
+R5722:5724 VST.floyd.local2ptree_eval <> rho:71 var
+R5685:5687 Coq.Lists.List <> map def
+R5704:5709 VST.floyd.local2ptree_denote <> LocalD def
+R5717:5718 VST.floyd.local2ptree_eval <> GV:70 var
+R5714:5715 VST.floyd.local2ptree_eval <> T2:69 var
+R5711:5712 VST.floyd.local2ptree_eval <> T1:68 var
+R5689:5701 VST.floyd.canon <> locald_denote def
+R5676:5677 VST.veric.lift LiftNotation :::'`('_x_')' not
+R5682:5682 VST.veric.lift LiftNotation :::'`('_x_')' not
+R5678:5681 Coq.Init.Logic <> True ind
+R5669:5670 VST.veric.lift LiftNotation :::'`('_x_')' not
+R5674:5674 VST.veric.lift LiftNotation :::'`('_x_')' not
+R5671:5673 Coq.Init.Logic <> and ind
+R5632:5641 VST.veric.SeparationLogic <> tc_environ def
+R5649:5651 VST.floyd.local2ptree_eval <> rho:71 var
+R5643:5647 VST.floyd.local2ptree_eval <> Delta:67 var
+R5928:5929 Coq.Lists.List <> In def
+R5959:5961 Coq.Lists.List <> map def
+R5978:5983 VST.floyd.local2ptree_denote <> LocalD def
+R5963:5975 VST.floyd.canon <> locald_denote def
+R5932:5944 VST.floyd.canon <> locald_denote def
+R5947:5950 VST.floyd.canon <> temp constr
+R5928:5929 Coq.Lists.List <> In def
+R5959:5961 Coq.Lists.List <> map def
+R5978:5983 VST.floyd.local2ptree_denote <> LocalD def
+R5963:5975 VST.floyd.canon <> locald_denote def
+R5932:5944 VST.floyd.canon <> locald_denote def
+R5947:5950 VST.floyd.canon <> temp constr
+R6017:6022 Coq.Lists.List <> in_map thm
+R6017:6022 Coq.Lists.List <> in_map thm
+R6037:6048 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R6037:6048 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R6097:6105 VST.floyd.local2ptree_denote <> local_ext thm
+R6097:6105 VST.floyd.local2ptree_denote <> local_ext thm
+R6166:6177 VST.floyd.local2ptree_eval <> eval_vardesc def
+R6197:6204 VST.veric.expr <> eval_var def
+R6289:6291 compcert.lib.Maps <> :::x_'!'_x not
+R6289:6291 compcert.lib.Maps <> :::x_'!'_x not
+R6342:6349 VST.veric.Cop2 <> eqb_type def
+R6342:6349 VST.veric.Cop2 <> eqb_type def
+R6384:6396 VST.veric.Cop2 <> eqb_type_true thm
+R6384:6396 VST.veric.Cop2 <> eqb_type_true thm
+R6432:6433 Coq.Lists.List <> In def
+R6466:6468 Coq.Lists.List <> map def
+R6485:6490 VST.floyd.local2ptree_denote <> LocalD def
+R6470:6482 VST.floyd.canon <> locald_denote def
+R6436:6448 VST.floyd.canon <> locald_denote def
+R6451:6454 VST.floyd.canon <> lvar constr
+R6523:6528 Coq.Lists.List <> in_map thm
+R6537:6548 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R6432:6433 Coq.Lists.List <> In def
+R6466:6468 Coq.Lists.List <> map def
+R6485:6490 VST.floyd.local2ptree_denote <> LocalD def
+R6470:6482 VST.floyd.canon <> locald_denote def
+R6436:6448 VST.floyd.canon <> locald_denote def
+R6451:6454 VST.floyd.canon <> lvar constr
+R6523:6528 Coq.Lists.List <> in_map thm
+R6537:6548 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R6582:6590 VST.floyd.local2ptree_denote <> local_ext thm
+R6582:6590 VST.floyd.local2ptree_denote <> local_ext thm
+R6707:6719 VST.veric.Cop2 <> eqb_type_refl thm
+R6707:6719 VST.veric.Cop2 <> eqb_type_refl thm
+R6707:6719 VST.veric.Cop2 <> eqb_type_refl thm
+R6780:6781 Coq.Lists.List <> In def
+R6811:6813 Coq.Lists.List <> map def
+R6830:6835 VST.floyd.local2ptree_denote <> LocalD def
+R6844:6847 Coq.Init.Datatypes <> Some constr
+R6815:6827 VST.floyd.canon <> locald_denote def
+R6784:6796 VST.floyd.canon <> locald_denote def
+R6799:6803 VST.floyd.canon <> gvars constr
+R6875:6880 Coq.Lists.List <> in_map thm
+R6889:6900 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R6780:6781 Coq.Lists.List <> In def
+R6811:6813 Coq.Lists.List <> map def
+R6830:6835 VST.floyd.local2ptree_denote <> LocalD def
+R6844:6847 Coq.Init.Datatypes <> Some constr
+R6815:6827 VST.floyd.canon <> locald_denote def
+R6784:6796 VST.floyd.canon <> locald_denote def
+R6799:6803 VST.floyd.canon <> gvars constr
+R6875:6880 Coq.Lists.List <> in_map thm
+R6889:6900 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R6934:6942 VST.floyd.local2ptree_denote <> local_ext thm
+R6934:6942 VST.floyd.local2ptree_denote <> local_ext thm
+R6983:6990 VST.veric.expr <> eval_var def
+prf 7046:7068 <> msubst_eval_lvar_eq_aux
+R7075:7083 VST.veric.mpred <> compspecs class
+binder 7071:7072 <> cs:77
+binder 7094:7098 <> Delta:78
+binder 7100:7101 <> T1:79
+binder 7103:7104 <> T2:80
+binder 7106:7107 <> GV:81
+binder 7109:7111 <> rho:82
+R7136:7141 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7209:7215 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7296:7296 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 7223:7223 <> i:83
+binder 7225:7225 <> t:84
+binder 7227:7227 <> v:85
+R7265:7274 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7292:7294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7275:7283 VST.veric.SeparationLogic <> eval_lvar def
+R7289:7291 VST.floyd.local2ptree_eval <> rho:82 var
+R7287:7287 VST.floyd.local2ptree_eval <> t:84 var
+R7285:7285 VST.floyd.local2ptree_eval <> i:83 var
+R7295:7295 VST.floyd.local2ptree_eval <> v:85 var
+R7256:7258 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7230:7242 VST.floyd.local2ptree_eval <> eval_lvardesc def
+R7254:7255 VST.floyd.local2ptree_eval <> T2:80 var
+R7248:7252 VST.floyd.local2ptree_eval <> Delta:78 var
+R7246:7246 VST.floyd.local2ptree_eval <> t:84 var
+R7244:7244 VST.floyd.local2ptree_eval <> i:83 var
+R7259:7262 Coq.Init.Datatypes <> Some constr
+R7264:7264 VST.floyd.local2ptree_eval <> v:85 var
+R7142:7151 Coq.Lists.List <> fold_right def
+R7206:7208 VST.floyd.local2ptree_eval <> rho:82 var
+R7169:7171 Coq.Lists.List <> map def
+R7188:7193 VST.floyd.local2ptree_denote <> LocalD def
+R7201:7202 VST.floyd.local2ptree_eval <> GV:81 var
+R7198:7199 VST.floyd.local2ptree_eval <> T2:80 var
+R7195:7196 VST.floyd.local2ptree_eval <> T1:79 var
+R7173:7185 VST.floyd.canon <> locald_denote def
+R7160:7161 VST.veric.lift LiftNotation :::'`('_x_')' not
+R7166:7166 VST.veric.lift LiftNotation :::'`('_x_')' not
+R7162:7165 Coq.Init.Logic <> True ind
+R7153:7154 VST.veric.lift LiftNotation :::'`('_x_')' not
+R7158:7158 VST.veric.lift LiftNotation :::'`('_x_')' not
+R7155:7157 Coq.Init.Logic <> and ind
+R7116:7125 VST.veric.SeparationLogic <> tc_environ def
+R7133:7135 VST.floyd.local2ptree_eval <> rho:82 var
+R7127:7131 VST.floyd.local2ptree_eval <> Delta:78 var
+R7325:7333 VST.veric.SeparationLogic <> eval_lvar def
+R7345:7357 VST.floyd.local2ptree_eval <> eval_lvardesc def
+R7454:7456 compcert.lib.Maps <> :::x_'!'_x not
+R7454:7456 compcert.lib.Maps <> :::x_'!'_x not
+R7503:7510 VST.veric.Cop2 <> eqb_type def
+R7503:7510 VST.veric.Cop2 <> eqb_type def
+R7541:7553 VST.veric.Cop2 <> eqb_type_true thm
+R7541:7553 VST.veric.Cop2 <> eqb_type_true thm
+R7585:7586 Coq.Lists.List <> In def
+R7619:7621 Coq.Lists.List <> map def
+R7638:7643 VST.floyd.local2ptree_denote <> LocalD def
+R7623:7635 VST.floyd.canon <> locald_denote def
+R7589:7601 VST.floyd.canon <> locald_denote def
+R7604:7607 VST.floyd.canon <> lvar constr
+R7673:7678 Coq.Lists.List <> in_map thm
+R7687:7698 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R7585:7586 Coq.Lists.List <> In def
+R7619:7621 Coq.Lists.List <> map def
+R7638:7643 VST.floyd.local2ptree_denote <> LocalD def
+R7623:7635 VST.floyd.canon <> locald_denote def
+R7589:7601 VST.floyd.canon <> locald_denote def
+R7604:7607 VST.floyd.canon <> lvar constr
+R7673:7678 Coq.Lists.List <> in_map thm
+R7687:7698 VST.floyd.local2ptree_denote <> LocalD_sound thm
+R7728:7736 VST.floyd.local2ptree_denote <> local_ext thm
+R7728:7736 VST.floyd.local2ptree_denote <> local_ext thm
+R7841:7853 VST.veric.Cop2 <> eqb_type_refl thm
+R7841:7853 VST.veric.Cop2 <> eqb_type_refl thm
+R7841:7853 VST.veric.Cop2 <> eqb_type_refl thm
+prf 7874:7892 <> msubst_eval_expr_eq
+R7907:7915 VST.veric.mpred <> compspecs class
+binder 7903:7904 <> cs:86
+binder 7918:7922 <> Delta:87
+binder 7924:7924 <> P:88
+binder 7926:7927 <> T1:89
+binder 7929:7930 <> T2:90
+binder 7932:7933 <> GV:91
+binder 7935:7935 <> R:92
+binder 7937:7937 <> e:93
+binder 7939:7939 <> v:94
+R7986:7991 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7992:7998 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R8004:8005 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R8049:8057 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R7999:8003 VST.floyd.local2ptree_eval <> Delta:87 var
+R8006:8010 VST.floyd.canon <> PROPx def
+R8015:8020 VST.floyd.canon <> LOCALx def
+R8041:8044 VST.floyd.canon <> SEPx def
+R8046:8046 VST.floyd.local2ptree_eval <> R:92 var
+R8023:8028 VST.floyd.local2ptree_denote <> LocalD def
+R8036:8037 VST.floyd.local2ptree_eval <> GV:91 var
+R8033:8034 VST.floyd.local2ptree_eval <> T2:90 var
+R8030:8031 VST.floyd.local2ptree_eval <> T1:89 var
+R8012:8012 VST.floyd.local2ptree_eval <> P:88 var
+R8058:8062 VST.veric.SeparationLogic <> local def
+R8065:8066 VST.veric.lift LiftNotation :::'`('_x_')' not
+R8071:8085 VST.veric.lift LiftNotation :::'`('_x_')' not
+R8067:8068 Coq.Init.Logic <> eq ind
+R8070:8070 VST.floyd.local2ptree_eval <> v:94 var
+R8074:8082 VST.veric.expr <> eval_expr def
+R8084:8084 VST.floyd.local2ptree_eval <> e:93 var
+R7977:7979 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7944:7959 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R7976:7976 VST.floyd.local2ptree_eval <> e:93 var
+R7973:7974 VST.floyd.local2ptree_eval <> GV:91 var
+R7970:7971 VST.floyd.local2ptree_eval <> T2:90 var
+R7967:7968 VST.floyd.local2ptree_eval <> T1:89 var
+R7961:7965 VST.floyd.local2ptree_eval <> Delta:87 var
+R7980:7983 Coq.Init.Datatypes <> Some constr
+R7985:7985 VST.floyd.local2ptree_eval <> v:94 var
+R8115:8119 VST.floyd.canon <> PROPx def
+R8122:8127 VST.floyd.canon <> LOCALx def
+R8182:8185 VST.msl.seplog <> ::logic:x_'&&'_x not
+R8158:8162 VST.veric.SeparationLogic <> local def
+R8165:8174 VST.veric.SeparationLogic <> tc_environ def
+R8186:8190 VST.veric.SeparationLogic <> local def
+R8193:8202 Coq.Lists.List <> fold_right def
+R8222:8224 Coq.Lists.List <> map def
+R8241:8246 VST.floyd.local2ptree_denote <> LocalD def
+R8226:8238 VST.floyd.canon <> locald_denote def
+R8213:8214 VST.veric.lift LiftNotation :::'`'_x not
+R8215:8218 Coq.Init.Logic <> True ind
+R8205:8206 VST.veric.lift LiftNotation :::'`'_x not
+R8207:8209 Coq.Init.Logic <> and ind
+R8138:8150 VST.msl.seplog <> derives_trans meth
+R8182:8185 VST.msl.seplog <> ::logic:x_'&&'_x not
+R8158:8162 VST.veric.SeparationLogic <> local def
+R8165:8174 VST.veric.SeparationLogic <> tc_environ def
+R8186:8190 VST.veric.SeparationLogic <> local def
+R8193:8202 Coq.Lists.List <> fold_right def
+R8222:8224 Coq.Lists.List <> map def
+R8241:8246 VST.floyd.local2ptree_denote <> LocalD def
+R8226:8238 VST.floyd.canon <> locald_denote def
+R8213:8214 VST.veric.lift LiftNotation :::'`'_x not
+R8215:8218 Coq.Init.Logic <> True ind
+R8205:8206 VST.veric.lift LiftNotation :::'`'_x not
+R8207:8209 Coq.Init.Logic <> and ind
+R8138:8150 VST.msl.seplog <> derives_trans meth
+R8287:8291 VST.veric.SeparationLogic <> local def
+R8294:8297 VST.veric.lift <> lift def
+R8300:8304 VST.veric.mpred <> lift1 def
+R8413:8430 VST.floyd.local2ptree_eval <> msubst_eval_eq_aux thm
+R8413:8430 VST.floyd.local2ptree_eval <> msubst_eval_eq_aux thm
+R8458:8463 Coq.Init.Logic <> eq_sym thm
+R8467:8489 VST.floyd.local2ptree_eval <> msubst_eval_expr_eq_aux thm
+R8458:8463 Coq.Init.Logic <> eq_sym thm
+R8467:8489 VST.floyd.local2ptree_eval <> msubst_eval_expr_eq_aux thm
+prf 8526:8546 <> msubst_eval_lvalue_eq
+R8561:8569 VST.veric.mpred <> compspecs class
+binder 8557:8558 <> cs:95
+binder 8572:8576 <> Delta:96
+binder 8578:8578 <> P:97
+binder 8580:8581 <> T1:98
+binder 8583:8584 <> T2:99
+binder 8586:8587 <> GV:100
+binder 8589:8589 <> R:101
+binder 8591:8591 <> e:102
+binder 8593:8593 <> v:103
+R8642:8647 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8648:8654 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R8660:8661 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R8705:8713 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R8655:8659 VST.floyd.local2ptree_eval <> Delta:96 var
+R8662:8666 VST.floyd.canon <> PROPx def
+R8671:8676 VST.floyd.canon <> LOCALx def
+R8697:8700 VST.floyd.canon <> SEPx def
+R8702:8702 VST.floyd.local2ptree_eval <> R:101 var
+R8679:8684 VST.floyd.local2ptree_denote <> LocalD def
+R8692:8693 VST.floyd.local2ptree_eval <> GV:100 var
+R8689:8690 VST.floyd.local2ptree_eval <> T2:99 var
+R8686:8687 VST.floyd.local2ptree_eval <> T1:98 var
+R8668:8668 VST.floyd.local2ptree_eval <> P:97 var
+R8714:8718 VST.veric.SeparationLogic <> local def
+R8721:8722 VST.veric.lift LiftNotation :::'`('_x_')' not
+R8727:8743 VST.veric.lift LiftNotation :::'`('_x_')' not
+R8723:8724 Coq.Init.Logic <> eq ind
+R8726:8726 VST.floyd.local2ptree_eval <> v:103 var
+R8730:8740 VST.veric.expr <> eval_lvalue def
+R8742:8742 VST.floyd.local2ptree_eval <> e:102 var
+R8633:8635 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8598:8615 VST.floyd.local2ptree_eval <> msubst_eval_lvalue def
+R8632:8632 VST.floyd.local2ptree_eval <> e:102 var
+R8629:8630 VST.floyd.local2ptree_eval <> GV:100 var
+R8626:8627 VST.floyd.local2ptree_eval <> T2:99 var
+R8623:8624 VST.floyd.local2ptree_eval <> T1:98 var
+R8617:8621 VST.floyd.local2ptree_eval <> Delta:96 var
+R8636:8639 Coq.Init.Datatypes <> Some constr
+R8641:8641 VST.floyd.local2ptree_eval <> v:103 var
+R8773:8777 VST.floyd.canon <> PROPx def
+R8780:8785 VST.floyd.canon <> LOCALx def
+R8840:8843 VST.msl.seplog <> ::logic:x_'&&'_x not
+R8816:8820 VST.veric.SeparationLogic <> local def
+R8823:8832 VST.veric.SeparationLogic <> tc_environ def
+R8844:8848 VST.veric.SeparationLogic <> local def
+R8851:8860 Coq.Lists.List <> fold_right def
+R8880:8882 Coq.Lists.List <> map def
+R8899:8904 VST.floyd.local2ptree_denote <> LocalD def
+R8884:8896 VST.floyd.canon <> locald_denote def
+R8871:8872 VST.veric.lift LiftNotation :::'`'_x not
+R8873:8876 Coq.Init.Logic <> True ind
+R8863:8864 VST.veric.lift LiftNotation :::'`'_x not
+R8865:8867 Coq.Init.Logic <> and ind
+R8796:8808 VST.msl.seplog <> derives_trans meth
+R8840:8843 VST.msl.seplog <> ::logic:x_'&&'_x not
+R8816:8820 VST.veric.SeparationLogic <> local def
+R8823:8832 VST.veric.SeparationLogic <> tc_environ def
+R8844:8848 VST.veric.SeparationLogic <> local def
+R8851:8860 Coq.Lists.List <> fold_right def
+R8880:8882 Coq.Lists.List <> map def
+R8899:8904 VST.floyd.local2ptree_denote <> LocalD def
+R8884:8896 VST.floyd.canon <> locald_denote def
+R8871:8872 VST.veric.lift LiftNotation :::'`'_x not
+R8873:8876 Coq.Init.Logic <> True ind
+R8863:8864 VST.veric.lift LiftNotation :::'`'_x not
+R8865:8867 Coq.Init.Logic <> and ind
+R8796:8808 VST.msl.seplog <> derives_trans meth
+R8945:8949 VST.veric.SeparationLogic <> local def
+R8952:8955 VST.veric.lift <> lift def
+R8958:8962 VST.veric.mpred <> lift1 def
+R9071:9088 VST.floyd.local2ptree_eval <> msubst_eval_eq_aux thm
+R9071:9088 VST.floyd.local2ptree_eval <> msubst_eval_eq_aux thm
+R9116:9121 Coq.Init.Logic <> eq_sym thm
+R9125:9149 VST.floyd.local2ptree_eval <> msubst_eval_lvalue_eq_aux thm
+R9116:9121 Coq.Init.Logic <> eq_sym thm
+R9125:9149 VST.floyd.local2ptree_eval <> msubst_eval_lvalue_eq_aux thm
+prf 9186:9202 <> msubst_eval_LR_eq
+R9217:9225 VST.veric.mpred <> compspecs class
+binder 9213:9214 <> cs:104
+binder 9228:9232 <> Delta:105
+binder 9234:9234 <> P:106
+binder 9236:9237 <> T1:107
+binder 9239:9240 <> T2:108
+binder 9242:9243 <> GV:109
+binder 9245:9245 <> R:110
+binder 9247:9247 <> e:111
+binder 9249:9249 <> v:112
+binder 9251:9252 <> lr:113
+R9300:9305 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9306:9312 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R9318:9319 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R9363:9371 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R9313:9317 VST.floyd.local2ptree_eval <> Delta:105 var
+R9320:9324 VST.floyd.canon <> PROPx def
+R9329:9334 VST.floyd.canon <> LOCALx def
+R9355:9358 VST.floyd.canon <> SEPx def
+R9360:9360 VST.floyd.local2ptree_eval <> R:110 var
+R9337:9342 VST.floyd.local2ptree_denote <> LocalD def
+R9350:9351 VST.floyd.local2ptree_eval <> GV:109 var
+R9347:9348 VST.floyd.local2ptree_eval <> T2:108 var
+R9344:9345 VST.floyd.local2ptree_eval <> T1:107 var
+R9326:9326 VST.floyd.local2ptree_eval <> P:106 var
+R9372:9376 VST.veric.SeparationLogic <> local def
+R9379:9380 VST.veric.lift LiftNotation :::'`('_x_')' not
+R9385:9400 VST.veric.lift LiftNotation :::'`('_x_')' not
+R9381:9382 Coq.Init.Logic <> eq ind
+R9384:9384 VST.floyd.local2ptree_eval <> v:112 var
+R9388:9394 VST.floyd.typecheck_lemmas <> eval_LR def
+R9398:9399 VST.floyd.local2ptree_eval <> lr:113 var
+R9396:9396 VST.floyd.local2ptree_eval <> e:111 var
+R9291:9293 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9257:9270 VST.floyd.local2ptree_eval <> msubst_eval_LR def
+R9289:9290 VST.floyd.local2ptree_eval <> lr:113 var
+R9287:9287 VST.floyd.local2ptree_eval <> e:111 var
+R9284:9285 VST.floyd.local2ptree_eval <> GV:109 var
+R9281:9282 VST.floyd.local2ptree_eval <> T2:108 var
+R9278:9279 VST.floyd.local2ptree_eval <> T1:107 var
+R9272:9276 VST.floyd.local2ptree_eval <> Delta:105 var
+R9294:9297 Coq.Init.Datatypes <> Some constr
+R9299:9299 VST.floyd.local2ptree_eval <> v:112 var
+R9446:9466 VST.floyd.local2ptree_eval <> msubst_eval_lvalue_eq thm
+R9446:9466 VST.floyd.local2ptree_eval <> msubst_eval_lvalue_eq thm
+R9485:9503 VST.floyd.local2ptree_eval <> msubst_eval_expr_eq thm
+R9485:9503 VST.floyd.local2ptree_eval <> msubst_eval_expr_eq thm
+prf 9524:9546 <> msubst_eval_exprlist_eq
+R9563:9571 VST.veric.mpred <> compspecs class
+binder 9559:9560 <> cs:114
+binder 9574:9578 <> Delta:115
+binder 9580:9580 <> P:116
+binder 9582:9583 <> T1:117
+binder 9585:9586 <> T2:118
+binder 9588:9589 <> GV:119
+binder 9591:9591 <> R:120
+binder 9593:9595 <> tys:121
+binder 9597:9598 <> el:122
+binder 9600:9601 <> vl:123
+R9723:9727 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9728:9734 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R9740:9741 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R9785:9792 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R9735:9739 VST.floyd.local2ptree_eval <> Delta:115 var
+R9742:9746 VST.floyd.canon <> PROPx def
+R9751:9756 VST.floyd.canon <> LOCALx def
+R9777:9780 VST.floyd.canon <> SEPx def
+R9782:9782 VST.floyd.local2ptree_eval <> R:120 var
+R9759:9764 VST.floyd.local2ptree_denote <> LocalD def
+R9772:9773 VST.floyd.local2ptree_eval <> GV:119 var
+R9769:9770 VST.floyd.local2ptree_eval <> T2:118 var
+R9766:9767 VST.floyd.local2ptree_eval <> T1:117 var
+R9748:9748 VST.floyd.local2ptree_eval <> P:116 var
+R9793:9797 VST.veric.SeparationLogic <> local def
+R9800:9801 VST.veric.lift LiftNotation :::'`('_x_')' not
+R9807:9830 VST.veric.lift LiftNotation :::'`('_x_')' not
+R9802:9803 Coq.Init.Logic <> eq ind
+R9805:9806 VST.floyd.local2ptree_eval <> vl:123 var
+R9810:9822 VST.veric.expr <> eval_exprlist def
+R9828:9829 VST.floyd.local2ptree_eval <> el:122 var
+R9824:9826 VST.floyd.local2ptree_eval <> tys:121 var
+R9713:9715 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9606:9615 VST.floyd.local2ptree_denote <> force_list def
+R9629:9631 Coq.Lists.List <> map def
+R9682:9703 VST.floyd.local2ptree_denote <> explicit_cast_exprlist def
+R9709:9710 VST.floyd.local2ptree_eval <> el:122 var
+R9705:9707 VST.floyd.local2ptree_eval <> tys:121 var
+R9634:9649 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R9663:9664 VST.floyd.local2ptree_eval <> GV:119 var
+R9660:9661 VST.floyd.local2ptree_eval <> T2:118 var
+R9657:9658 VST.floyd.local2ptree_eval <> T1:117 var
+R9651:9655 VST.floyd.local2ptree_eval <> Delta:115 var
+R9716:9719 Coq.Init.Datatypes <> Some constr
+R9721:9722 VST.floyd.local2ptree_eval <> vl:123 var
+R9958:9967 VST.msl.seplog <> prop_right meth
+R9958:9967 VST.msl.seplog <> prop_right meth
+R9958:9967 VST.msl.seplog <> prop_right meth
+R9958:9967 VST.msl.seplog <> prop_right meth
+R9958:9967 VST.msl.seplog <> prop_right meth
+R9958:9967 VST.msl.seplog <> prop_right meth
+R10009:10018 VST.floyd.local2ptree_denote <> force_list def
+R10033:10042 VST.floyd.local2ptree_denote <> force_list def
+R10044:10046 compcert.common.Values <> val ind
+R10033:10042 VST.floyd.local2ptree_denote <> force_list def
+R10044:10046 compcert.common.Values <> val ind
+R10066:10081 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R10066:10081 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R10132:10141 VST.floyd.local2ptree_denote <> force_list def
+R10152:10154 Coq.Lists.List <> map def
+R10191:10212 VST.floyd.local2ptree_denote <> explicit_cast_exprlist def
+R10157:10172 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R10132:10141 VST.floyd.local2ptree_denote <> force_list def
+R10152:10154 Coq.Lists.List <> map def
+R10191:10212 VST.floyd.local2ptree_denote <> explicit_cast_exprlist def
+R10157:10172 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R10276:10285 compcert.lib.Coqlib <> option_map def
+R10333:10348 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R10288:10297 VST.veric.val_lemmas <> force_val1 def
+R10300:10307 VST.veric.Clight_Cop2 <> sem_cast def
+R10310:10315 compcert.cfrontend.Clight <> typeof def
+R10276:10285 compcert.lib.Coqlib <> option_map def
+R10333:10348 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R10288:10297 VST.veric.val_lemmas <> force_val1 def
+R10300:10307 VST.veric.Clight_Cop2 <> sem_cast def
+R10310:10315 compcert.cfrontend.Clight <> typeof def
+R10396:10405 VST.floyd.local2ptree_denote <> force_list def
+R10417:10419 Coq.Lists.List <> map def
+R10456:10477 VST.floyd.local2ptree_denote <> explicit_cast_exprlist def
+R10422:10437 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R10396:10405 VST.floyd.local2ptree_denote <> force_list def
+R10417:10419 Coq.Lists.List <> map def
+R10456:10477 VST.floyd.local2ptree_denote <> explicit_cast_exprlist def
+R10422:10437 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R10570:10585 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R10570:10585 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R10630:10648 VST.floyd.local2ptree_eval <> msubst_eval_expr_eq thm
+R10630:10648 VST.floyd.local2ptree_eval <> msubst_eval_expr_eq thm
+R10747:10750 VST.msl.seplog <> ::logic:x_'&&'_x not
+R10717:10721 VST.veric.SeparationLogic <> local def
+R10724:10725 VST.veric.lift LiftNotation :::'`('_x_')' not
+R10731:10745 VST.veric.lift LiftNotation :::'`('_x_')' not
+R10726:10727 Coq.Init.Logic <> eq ind
+R10734:10742 VST.veric.expr <> eval_expr def
+R10751:10755 VST.veric.SeparationLogic <> local def
+R10758:10759 VST.veric.lift LiftNotation :::'`('_x_')' not
+R10765:10788 VST.veric.lift LiftNotation :::'`('_x_')' not
+R10760:10761 Coq.Init.Logic <> eq ind
+R10768:10780 VST.veric.expr <> eval_exprlist def
+R10697:10709 VST.msl.seplog <> derives_trans meth
+R10747:10750 VST.msl.seplog <> ::logic:x_'&&'_x not
+R10717:10721 VST.veric.SeparationLogic <> local def
+R10724:10725 VST.veric.lift LiftNotation :::'`('_x_')' not
+R10731:10745 VST.veric.lift LiftNotation :::'`('_x_')' not
+R10726:10727 Coq.Init.Logic <> eq ind
+R10734:10742 VST.veric.expr <> eval_expr def
+R10751:10755 VST.veric.SeparationLogic <> local def
+R10758:10759 VST.veric.lift LiftNotation :::'`('_x_')' not
+R10765:10788 VST.veric.lift LiftNotation :::'`('_x_')' not
+R10760:10761 Coq.Init.Logic <> eq ind
+R10768:10780 VST.veric.expr <> eval_exprlist def
+R10697:10709 VST.msl.seplog <> derives_trans meth
+R10801:10810 VST.msl.seplog <> andp_right meth
+R10801:10810 VST.msl.seplog <> andp_right meth
+R10859:10868 VST.msl.seplog <> prop_right meth
+R10859:10868 VST.msl.seplog <> prop_right meth
+prf 10921:10939 <> msubst_eval_lvar_eq
+R10954:10962 VST.veric.mpred <> compspecs class
+binder 10950:10951 <> cs:124
+binder 10965:10969 <> Delta:125
+binder 10971:10971 <> P:126
+binder 10973:10974 <> T1:127
+binder 10976:10977 <> T2:128
+binder 10979:10980 <> GV:129
+binder 10982:10982 <> R:130
+binder 10984:10984 <> i:131
+binder 10986:10986 <> t:132
+binder 10988:10988 <> v:133
+R11031:11036 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11037:11043 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R11049:11050 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R11094:11102 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R11044:11048 VST.floyd.local2ptree_eval <> Delta:125 var
+R11051:11055 VST.floyd.canon <> PROPx def
+R11060:11065 VST.floyd.canon <> LOCALx def
+R11086:11089 VST.floyd.canon <> SEPx def
+R11091:11091 VST.floyd.local2ptree_eval <> R:130 var
+R11068:11073 VST.floyd.local2ptree_denote <> LocalD def
+R11081:11082 VST.floyd.local2ptree_eval <> GV:129 var
+R11078:11079 VST.floyd.local2ptree_eval <> T2:128 var
+R11075:11076 VST.floyd.local2ptree_eval <> T1:127 var
+R11057:11057 VST.floyd.local2ptree_eval <> P:126 var
+R11103:11107 VST.veric.SeparationLogic <> local def
+R11110:11111 VST.veric.lift LiftNotation :::'`('_x_')' not
+R11116:11132 VST.veric.lift LiftNotation :::'`('_x_')' not
+R11112:11113 Coq.Init.Logic <> eq ind
+R11115:11115 VST.floyd.local2ptree_eval <> v:133 var
+R11119:11127 VST.veric.SeparationLogic <> eval_lvar def
+R11131:11131 VST.floyd.local2ptree_eval <> t:132 var
+R11129:11129 VST.floyd.local2ptree_eval <> i:131 var
+R11022:11024 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10993:11008 VST.floyd.local2ptree_eval <> msubst_eval_lvar def
+R11021:11021 VST.floyd.local2ptree_eval <> t:132 var
+R11019:11019 VST.floyd.local2ptree_eval <> i:131 var
+R11016:11017 VST.floyd.local2ptree_eval <> T2:128 var
+R11010:11014 VST.floyd.local2ptree_eval <> Delta:125 var
+R11025:11028 Coq.Init.Datatypes <> Some constr
+R11030:11030 VST.floyd.local2ptree_eval <> v:133 var
+R11162:11166 VST.floyd.canon <> PROPx def
+R11169:11174 VST.floyd.canon <> LOCALx def
+R11229:11232 VST.msl.seplog <> ::logic:x_'&&'_x not
+R11205:11209 VST.veric.SeparationLogic <> local def
+R11212:11221 VST.veric.SeparationLogic <> tc_environ def
+R11233:11237 VST.veric.SeparationLogic <> local def
+R11240:11249 Coq.Lists.List <> fold_right def
+R11269:11271 Coq.Lists.List <> map def
+R11288:11293 VST.floyd.local2ptree_denote <> LocalD def
+R11273:11285 VST.floyd.canon <> locald_denote def
+R11260:11261 VST.veric.lift LiftNotation :::'`'_x not
+R11262:11265 Coq.Init.Logic <> True ind
+R11252:11253 VST.veric.lift LiftNotation :::'`'_x not
+R11254:11256 Coq.Init.Logic <> and ind
+R11185:11197 VST.msl.seplog <> derives_trans meth
+R11229:11232 VST.msl.seplog <> ::logic:x_'&&'_x not
+R11205:11209 VST.veric.SeparationLogic <> local def
+R11212:11221 VST.veric.SeparationLogic <> tc_environ def
+R11233:11237 VST.veric.SeparationLogic <> local def
+R11240:11249 Coq.Lists.List <> fold_right def
+R11269:11271 Coq.Lists.List <> map def
+R11288:11293 VST.floyd.local2ptree_denote <> LocalD def
+R11273:11285 VST.floyd.canon <> locald_denote def
+R11260:11261 VST.veric.lift LiftNotation :::'`'_x not
+R11262:11265 Coq.Init.Logic <> True ind
+R11252:11253 VST.veric.lift LiftNotation :::'`'_x not
+R11254:11256 Coq.Init.Logic <> and ind
+R11185:11197 VST.msl.seplog <> derives_trans meth
+R11334:11338 VST.veric.SeparationLogic <> local def
+R11341:11344 VST.veric.lift <> lift def
+R11347:11351 VST.veric.mpred <> lift1 def
+R11462:11484 VST.floyd.local2ptree_eval <> msubst_eval_lvar_eq_aux thm
+R11462:11484 VST.floyd.local2ptree_eval <> msubst_eval_lvar_eq_aux thm
+R11512:11517 Coq.Init.Logic <> eq_sym thm
+R11512:11517 Coq.Init.Logic <> eq_sym thm
+R11772:11774 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11743:11760 VST.floyd.local2ptree_eval <> msubst_eval_lvalue def
+R11772:11774 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11743:11760 VST.floyd.local2ptree_eval <> msubst_eval_lvalue def
+R11615:11624 VST.veric.val_lemmas <> force_val2 def
+R11626:11635 VST.veric.val_lemmas <> force_val1 def
+R11650:11664 VST.floyd.functional_base <> isptr_force_ptr thm
+R11671:11690 VST.floyd.functional_base <> offset_val_force_ptr thm
+R12147:12149 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12120:12135 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R12147:12149 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12120:12135 VST.floyd.local2ptree_eval <> msubst_eval_expr def
+R11992:12001 VST.veric.val_lemmas <> force_val2 def
+R12003:12012 VST.veric.val_lemmas <> force_val1 def
+R12027:12041 VST.floyd.functional_base <> isptr_force_ptr thm
+R12048:12067 VST.floyd.functional_base <> offset_val_force_ptr thm
+R12545:12547 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12518:12531 VST.floyd.local2ptree_eval <> msubst_eval_LR def
+R12545:12547 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12518:12531 VST.floyd.local2ptree_eval <> msubst_eval_LR def
+R12337:12350 VST.floyd.local2ptree_eval <> msubst_eval_LR def
+R12390:12399 VST.veric.val_lemmas <> force_val2 def
+R12401:12410 VST.veric.val_lemmas <> force_val1 def
+R12425:12439 VST.floyd.functional_base <> isptr_force_ptr thm
+R12446:12465 VST.floyd.functional_base <> offset_val_force_ptr thm
+R12821:12823 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12795:12810 VST.floyd.local2ptree_eval <> msubst_eval_lvar def
+R12821:12823 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12795:12810 VST.floyd.local2ptree_eval <> msubst_eval_lvar def
+R12737:12752 VST.floyd.local2ptree_eval <> msubst_eval_lvar def

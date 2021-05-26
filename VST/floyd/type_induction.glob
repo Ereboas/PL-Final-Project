@@ -1,0 +1,888 @@
+DIGEST 01126e066ca413c9e515097754adf7d9
+FVST.floyd.type_induction
+R15:29 VST.floyd.base2 <> <> lib
+R47:65 VST.floyd.fieldlist <> <> lib
+R83:111 VST.floyd.computable_theorems <> <> lib
+ind 141:148 <> ListType
+constr 176:178 <> Nil
+constr 198:201 <> Cons
+R160:163 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R151:154 Coq.Init.Datatypes <> list ind
+R181:188 VST.floyd.type_induction <> ListType:1 ind
+R190:192 Coq.Init.Datatypes <> nil constr
+binder 212:212 <> A:3
+binder 214:214 <> B:4
+R221:221 VST.floyd.type_induction <> A:3 var
+binder 218:218 <> a:5
+R228:235 VST.floyd.type_induction <> ListType:1 ind
+R237:237 VST.floyd.type_induction <> B:4 var
+binder 225:225 <> b:6
+R241:248 VST.floyd.type_induction <> ListType:1 ind
+R252:255 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R251:251 VST.floyd.type_induction <> A:3 var
+R256:256 VST.floyd.type_induction <> B:4 var
+def 270:280 <> ListTypeGen
+binder 283:283 <> A:7
+R291:294 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R290:290 VST.floyd.type_induction <> A:7 var
+binder 287:287 <> F:8
+binder 312:312 <> A:9
+R315:315 VST.floyd.type_induction <> F:8 var
+R317:317 VST.floyd.type_induction <> A:9 var
+binder 302:302 <> f:10
+R324:327 Coq.Init.Datatypes <> list ind
+R329:329 VST.floyd.type_induction <> A:7 var
+binder 321:321 <> l:11
+R334:341 VST.floyd.type_induction <> ListType ind
+R344:346 Coq.Lists.List <> map def
+R350:350 VST.floyd.type_induction <> l:11 var
+R348:348 VST.floyd.type_induction <> F:8 var
+R364:364 VST.floyd.type_induction <> l:11 var
+R375:377 Coq.Init.Datatypes <> nil constr
+R382:384 VST.floyd.type_induction <> Nil constr
+R390:393 Coq.Init.Datatypes <> cons constr
+R402:405 VST.floyd.type_induction <> Cons constr
+R414:424 VST.floyd.type_induction <> ListTypeGen:12 def
+R428:428 VST.floyd.type_induction <> f:10 var
+R426:426 VST.floyd.type_induction <> F:8 var
+R408:408 VST.floyd.type_induction <> f:10 var
+prf 447:466 <> ListTypeGen_preserve
+binder 476:476 <> A:14
+binder 478:478 <> F:15
+binder 480:481 <> f1:16
+binder 483:484 <> f2:17
+R490:493 Coq.Init.Datatypes <> list ind
+R495:495 VST.floyd.type_induction <> A:14 var
+binder 487:487 <> l:18
+R501:501 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R533:539 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R558:560 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R540:550 VST.floyd.type_induction <> ListTypeGen def
+R557:557 VST.floyd.type_induction <> l:18 var
+R554:555 VST.floyd.type_induction <> f1:16 var
+R552:552 VST.floyd.type_induction <> F:15 var
+R561:571 VST.floyd.type_induction <> ListTypeGen def
+R578:578 VST.floyd.type_induction <> l:18 var
+R575:576 VST.floyd.type_induction <> f2:17 var
+R573:573 VST.floyd.type_induction <> F:15 var
+binder 509:509 <> a:19
+R518:521 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R526:528 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R522:523 VST.floyd.type_induction <> f1:16 var
+R525:525 VST.floyd.type_induction <> a:19 var
+R529:530 VST.floyd.type_induction <> f2:17 var
+R532:532 VST.floyd.type_induction <> a:19 var
+R512:513 Coq.Lists.List <> In def
+R517:517 VST.floyd.type_induction <> l:18 var
+R515:515 VST.floyd.type_induction <> a:19 var
+def 763:768 <> decay'
+binder 771:771 <> X:20
+binder 775:775 <> F:21
+R788:791 Coq.Init.Datatypes <> list ind
+R793:793 VST.floyd.type_induction <> X:20 var
+binder 785:785 <> l:22
+R800:807 VST.floyd.type_induction <> ListType ind
+R810:812 Coq.Lists.List <> map def
+R827:827 VST.floyd.type_induction <> l:22 var
+R824:824 VST.floyd.type_induction <> F:21 var
+binder 797:797 <> v:23
+R832:835 Coq.Init.Datatypes <> list ind
+R837:837 VST.floyd.type_induction <> F:21 var
+R852:854 Coq.Lists.List <> map def
+R852:854 Coq.Lists.List <> map def
+R930:932 Coq.Init.Datatypes <> nil constr
+R930:932 Coq.Init.Datatypes <> nil constr
+R1024:1027 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1024:1027 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+def 1053:1059 <> decay''
+binder 1062:1062 <> X:24
+binder 1066:1066 <> F:25
+R1081:1084 Coq.Init.Datatypes <> list ind
+binder 1076:1077 <> l0:26
+R1096:1103 VST.floyd.type_induction <> ListType ind
+R1105:1106 VST.floyd.type_induction <> l0:26 var
+binder 1093:1093 <> v:27
+R1124:1127 Coq.Init.Datatypes <> list ind
+R1129:1129 VST.floyd.type_induction <> X:24 var
+binder 1121:1121 <> l:28
+R1156:1159 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1160:1163 Coq.Init.Datatypes <> list ind
+R1165:1165 VST.floyd.type_induction <> F:25 var
+R1135:1137 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1133:1134 VST.floyd.type_induction <> l0:26 var
+R1138:1140 Coq.Lists.List <> map def
+R1155:1155 VST.floyd.type_induction <> l:28 var
+R1152:1152 VST.floyd.type_induction <> F:25 var
+R1178:1178 VST.floyd.type_induction <> v:27 var
+R1183:1190 VST.floyd.type_induction <> ListType ind
+binder 1213:1214 <> l2:32
+R1241:1244 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1245:1248 Coq.Init.Datatypes <> list ind
+R1250:1250 VST.floyd.type_induction <> F:25 var
+R1219:1221 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1217:1218 VST.floyd.type_induction <> l1:30 var
+R1222:1224 Coq.Lists.List <> map def
+R1239:1240 VST.floyd.type_induction <> l2:32 var
+R1236:1236 VST.floyd.type_induction <> F:25 var
+R1263:1265 VST.floyd.type_induction <> Nil constr
+R1281:1283 Coq.Init.Datatypes <> nil constr
+R1289:1292 VST.floyd.type_induction <> Cons constr
+R1319:1322 Coq.Init.Datatypes <> list ind
+R1324:1324 VST.floyd.type_induction <> X:24 var
+binder 1314:1315 <> l1:33
+R1339:1341 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1334:1337 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1342:1344 Coq.Lists.List <> map def
+R1363:1364 VST.floyd.type_induction <> l1:33 var
+R1355:1355 VST.floyd.type_induction <> X:24 var
+R1360:1360 VST.floyd.type_induction <> F:25 var
+binder 1328:1329 <> E0:34
+R1380:1381 VST.floyd.type_induction <> l1:33 var
+R1429:1432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1433:1436 Coq.Init.Datatypes <> list ind
+R1438:1438 VST.floyd.type_induction <> F:25 var
+R1403:1405 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1398:1401 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1406:1408 Coq.Lists.List <> map def
+R1427:1428 VST.floyd.type_induction <> l2:35 var
+R1419:1419 VST.floyd.type_induction <> X:24 var
+R1424:1424 VST.floyd.type_induction <> F:25 var
+R1452:1454 Coq.Init.Datatypes <> nil constr
+R1468:1470 Coq.Init.Datatypes <> nil constr
+R1501:1504 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1533:1535 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1528:1531 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1536:1538 Coq.Lists.List <> map def
+R1559:1562 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1549:1549 VST.floyd.type_induction <> X:24 var
+R1554:1554 VST.floyd.type_induction <> F:25 var
+binder 1522:1523 <> E1:36
+R1675:1678 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1679:1682 Coq.Init.Datatypes <> list ind
+R1684:1684 VST.floyd.type_induction <> F:25 var
+R1627:1644 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1597:1599 Coq.Lists.List <> map def
+R1620:1623 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1610:1610 VST.floyd.type_induction <> X:24 var
+R1615:1615 VST.floyd.type_induction <> F:25 var
+R1645:1647 Coq.Lists.List <> map def
+R1668:1671 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1658:1658 VST.floyd.type_induction <> X:24 var
+R1663:1663 VST.floyd.type_induction <> F:25 var
+binder 1592:1593 <> X0:37
+R1697:1698 VST.floyd.type_induction <> X0:37 var
+R1700:1706 Coq.Init.Logic <> eq_refl constr
+R1735:1736 VST.floyd.type_induction <> E1:36 var
+R1743:1745 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1802:1805 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1806:1809 Coq.Init.Datatypes <> list ind
+R1811:1811 VST.floyd.type_induction <> F:25 var
+R1769:1771 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1768:1768 VST.floyd.type_induction <> y:39 var
+R1772:1774 Coq.Lists.List <> map def
+R1795:1798 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1785:1785 VST.floyd.type_induction <> X:24 var
+R1790:1790 VST.floyd.type_induction <> F:25 var
+R1839:1845 Coq.Init.Logic <> eq_refl constr
+R1878:1880 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1873:1876 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1881:1883 Coq.Lists.List <> map def
+R1904:1907 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1894:1894 VST.floyd.type_induction <> X:24 var
+R1899:1899 VST.floyd.type_induction <> F:25 var
+binder 1867:1868 <> H0:40
+R1941:1943 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1944:1944 VST.floyd.type_induction <> F:25 var
+binder 1935:1936 <> H3:41
+R1954:1956 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1957:1959 Coq.Lists.List <> map def
+R1970:1970 VST.floyd.type_induction <> X:24 var
+R1975:1975 VST.floyd.type_induction <> F:25 var
+binder 1948:1949 <> H4:42
+R2003:2003 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2042:2047 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2065:2065 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2004:2010 Coq.Init.Logic <> eq_rect scheme
+R2040:2041 VST.floyd.type_induction <> H3:41 var
+R2038:2038 VST.floyd.type_induction <> F:25 var
+binder 2019:2020 <> A0:43
+R2032:2033 VST.floyd.type_induction <> A0:43 var
+R2048:2054 VST.floyd.type_induction <> decay'':29 def
+R2063:2064 VST.floyd.type_induction <> H4:42 var
+R2284:2290 Coq.Init.Logic <> f_equal thm
+R2458:2459 VST.floyd.type_induction <> H0:40 var
+R2320:2323 Coq.Init.Datatypes <> list ind
+binder 2316:2316 <> e:44
+R2359:2359 VST.floyd.type_induction <> e:44 var
+R2388:2390 Coq.Init.Datatypes <> nil constr
+R2420:2423 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2086:2092 Coq.Init.Logic <> f_equal thm
+R2263:2264 VST.floyd.type_induction <> H0:40 var
+R2123:2126 Coq.Init.Datatypes <> list ind
+binder 2119:2119 <> e:46
+R2163:2163 VST.floyd.type_induction <> e:46 var
+R2193:2195 Coq.Init.Datatypes <> nil constr
+R2226:2229 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2483:2484 VST.floyd.type_induction <> E0:34 var
+def 2505:2509 <> decay
+binder 2512:2512 <> X:48
+binder 2516:2516 <> F:49
+R2529:2532 Coq.Init.Datatypes <> list ind
+R2534:2534 VST.floyd.type_induction <> X:48 var
+binder 2526:2526 <> l:50
+R2541:2548 VST.floyd.type_induction <> ListType ind
+R2551:2553 Coq.Lists.List <> map def
+R2568:2568 VST.floyd.type_induction <> l:50 var
+R2565:2565 VST.floyd.type_induction <> F:49 var
+binder 2538:2538 <> v:51
+R2573:2576 Coq.Init.Datatypes <> list ind
+R2578:2578 VST.floyd.type_induction <> F:49 var
+R2595:2597 Coq.Lists.List <> map def
+R2612:2612 VST.floyd.type_induction <> l:50 var
+R2609:2609 VST.floyd.type_induction <> F:49 var
+binder 2589:2590 <> l0:52
+R2629:2635 Coq.Init.Logic <> eq_refl constr
+R2640:2642 Coq.Lists.List <> map def
+R2657:2657 VST.floyd.type_induction <> l:50 var
+R2654:2654 VST.floyd.type_induction <> F:49 var
+R2664:2666 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2662:2663 VST.floyd.type_induction <> l0:52 var
+R2667:2669 Coq.Lists.List <> map def
+R2684:2684 VST.floyd.type_induction <> l:50 var
+R2681:2681 VST.floyd.type_induction <> F:49 var
+binder 2623:2623 <> E:53
+R2691:2697 VST.floyd.type_induction <> decay'' def
+R2706:2706 VST.floyd.type_induction <> E:53 var
+R2704:2704 VST.floyd.type_induction <> l:50 var
+R2702:2702 VST.floyd.type_induction <> v:51 var
+R2699:2700 VST.floyd.type_induction <> l0:52 var
+prf 2716:2725 <> decay_spec
+binder 2735:2735 <> A:54
+binder 2737:2737 <> F:55
+binder 2739:2739 <> f:56
+binder 2741:2741 <> l:57
+R2785:2787 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2746:2750 VST.floyd.type_induction <> decay def
+R2753:2763 VST.floyd.type_induction <> ListTypeGen def
+R2783:2783 VST.floyd.type_induction <> l:57 var
+R2781:2781 VST.floyd.type_induction <> f:56 var
+R2773:2773 VST.floyd.type_induction <> A:54 var
+R2778:2778 VST.floyd.type_induction <> F:55 var
+R2788:2790 Coq.Lists.List <> map def
+R2794:2794 VST.floyd.type_induction <> l:57 var
+R2792:2792 VST.floyd.type_induction <> f:56 var
+R2823:2827 VST.floyd.type_induction <> decay def
+sec 2925:2937 <> COMPOSITE_ENV
+R2953:2961 VST.veric.mpred <> compspecs class
+binder 2949:2950 <> cs:58
+prf 2972:2979 <> type_ind
+R2997:3000 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2993:2996 compcert.cfrontend.Ctypes <> type ind
+binder 2989:2989 <> P:59
+R3009:3009 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3290:3296 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3304:3304 <> t:60
+R3307:3307 VST.floyd.type_induction <> P:59 var
+R3309:3309 VST.floyd.type_induction <> t:60 var
+binder 3017:3017 <> t:61
+R3283:3286 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3287:3287 VST.floyd.type_induction <> P:59 var
+R3289:3289 VST.floyd.type_induction <> t:61 var
+R3028:3028 VST.floyd.type_induction <> t:61 var
+R3039:3044 compcert.cfrontend.Ctypes <> Tarray constr
+R3056:3056 VST.floyd.type_induction <> P:59 var
+R3065:3071 compcert.cfrontend.Ctypes <> Tstruct constr
+R3090:3099 compcert.cfrontend.Ctypes <> co_members proj
+R3102:3107 VST.floyd.base <> get_co def
+binder 3085:3085 <> m:63
+R3116:3121 Coq.Lists.List <> Forall ind
+R3161:3161 VST.floyd.type_induction <> m:63 var
+binder 3128:3129 <> it:64
+R3134:3134 VST.floyd.type_induction <> P:59 var
+R3137:3146 VST.floyd.fieldlist <> field_type def
+R3157:3157 VST.floyd.type_induction <> m:63 var
+R3149:3151 Coq.Init.Datatypes <> fst def
+R3153:3154 VST.floyd.type_induction <> it:64 var
+R3167:3172 compcert.cfrontend.Ctypes <> Tunion constr
+R3191:3200 compcert.cfrontend.Ctypes <> co_members proj
+R3203:3208 VST.floyd.base <> get_co def
+binder 3186:3186 <> m:65
+R3217:3222 Coq.Lists.List <> Forall ind
+R3262:3262 VST.floyd.type_induction <> m:65 var
+binder 3229:3230 <> it:66
+R3235:3235 VST.floyd.type_induction <> P:59 var
+R3238:3247 VST.floyd.fieldlist <> field_type def
+R3258:3258 VST.floyd.type_induction <> m:65 var
+R3250:3252 Coq.Init.Datatypes <> fst def
+R3254:3255 VST.floyd.type_induction <> it:66 var
+R3273:3276 Coq.Init.Logic <> True ind
+R3361:3369 compcert.cfrontend.Ctypes <> rank_type def
+R3371:3377 VST.veric.mpred <> cenv_cs meth
+R3361:3369 compcert.cfrontend.Ctypes <> rank_type def
+R3371:3377 VST.veric.mpred <> cenv_cs meth
+R3428:3431 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3409:3417 compcert.cfrontend.Ctypes <> rank_type def
+R3419:3425 VST.veric.mpred <> cenv_cs meth
+R3428:3431 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3409:3417 compcert.cfrontend.Ctypes <> rank_type def
+R3419:3425 VST.veric.mpred <> cenv_cs meth
+R3463:3466 Coq.Init.Peano <> le_n constr
+R3463:3466 Coq.Init.Peano <> le_n constr
+R3597:3597 Coq.Init.Logic <> I constr
+R3597:3597 Coq.Init.Logic <> I constr
+R3597:3597 Coq.Init.Logic <> I constr
+R3597:3597 Coq.Init.Logic <> I constr
+R3597:3597 Coq.Init.Logic <> I constr
+R3597:3597 Coq.Init.Logic <> I constr
+R3597:3597 Coq.Init.Logic <> I constr
+R3597:3597 Coq.Init.Logic <> I constr
+R3597:3597 Coq.Init.Logic <> I constr
+R3597:3597 Coq.Init.Logic <> I constr
+R3597:3597 Coq.Init.Logic <> I constr
+R3597:3597 Coq.Init.Logic <> I constr
+R3597:3597 Coq.Init.Logic <> I constr
+R3597:3597 Coq.Init.Logic <> I constr
+R3597:3597 Coq.Init.Logic <> I constr
+R3597:3597 Coq.Init.Logic <> I constr
+R3597:3597 Coq.Init.Logic <> I constr
+R3597:3597 Coq.Init.Logic <> I constr
+R3597:3597 Coq.Init.Logic <> I constr
+R3718:3723 VST.floyd.base <> get_co def
+R3758:3760 compcert.lib.Maps <> :::x_'!'_x not
+R3751:3757 VST.veric.mpred <> cenv_cs meth
+R3758:3760 compcert.lib.Maps <> :::x_'!'_x not
+R3751:3757 VST.veric.mpred <> cenv_cs meth
+R3868:3873 VST.floyd.base <> get_co def
+R3908:3910 compcert.lib.Maps <> :::x_'!'_x not
+R3901:3907 VST.veric.mpred <> cenv_cs meth
+R3908:3910 compcert.lib.Maps <> :::x_'!'_x not
+R3901:3907 VST.veric.mpred <> cenv_cs meth
+R4076:4081 VST.floyd.computable_theorems <> le_S_n def
+R4076:4081 VST.floyd.computable_theorems <> le_S_n def
+R4157:4183 VST.floyd.base <> get_co_members_no_replicate thm
+R4157:4183 VST.floyd.base <> get_co_members_no_replicate thm
+R4199:4204 VST.floyd.base <> get_co def
+R4233:4235 compcert.lib.Maps <> :::x_'!'_x not
+R4226:4232 VST.veric.mpred <> cenv_cs meth
+R4233:4235 compcert.lib.Maps <> :::x_'!'_x not
+R4226:4232 VST.veric.mpred <> cenv_cs meth
+R4340:4352 VST.floyd.computable_theorems <> Forall_forall def
+R4340:4352 VST.floyd.computable_theorems <> Forall_forall def
+R4414:4426 VST.floyd.fieldlist <> In_field_type thm
+R4414:4426 VST.floyd.fieldlist <> In_field_type thm
+R4507:4513 VST.veric.mpred <> cenv_cs meth
+R4477:4493 VST.floyd.computable_theorems <> rank_type_members thm
+R4507:4513 VST.veric.mpred <> cenv_cs meth
+R4477:4493 VST.floyd.computable_theorems <> rank_type_members thm
+R4538:4555 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R4538:4555 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R4538:4555 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R4538:4555 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R4575:4582 VST.floyd.computable_theorems <> le_trans def
+R4575:4582 VST.floyd.computable_theorems <> le_trans def
+R4612:4617 VST.floyd.computable_theorems <> le_S_n def
+R4612:4617 VST.floyd.computable_theorems <> le_S_n def
+R4637:4651 VST.veric.mpred <> cenv_consistent meth
+R4637:4651 VST.veric.mpred <> cenv_consistent meth
+R4729:4755 VST.floyd.base <> get_co_members_no_replicate thm
+R4729:4755 VST.floyd.base <> get_co_members_no_replicate thm
+R4771:4776 VST.floyd.base <> get_co def
+R4805:4807 compcert.lib.Maps <> :::x_'!'_x not
+R4798:4804 VST.veric.mpred <> cenv_cs meth
+R4805:4807 compcert.lib.Maps <> :::x_'!'_x not
+R4798:4804 VST.veric.mpred <> cenv_cs meth
+R4912:4924 VST.floyd.computable_theorems <> Forall_forall def
+R4912:4924 VST.floyd.computable_theorems <> Forall_forall def
+R4986:4998 VST.floyd.fieldlist <> In_field_type thm
+R4986:4998 VST.floyd.fieldlist <> In_field_type thm
+R5079:5085 VST.veric.mpred <> cenv_cs meth
+R5049:5065 VST.floyd.computable_theorems <> rank_type_members thm
+R5079:5085 VST.veric.mpred <> cenv_cs meth
+R5049:5065 VST.floyd.computable_theorems <> rank_type_members thm
+R5110:5127 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R5110:5127 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R5110:5127 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R5110:5127 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R5147:5154 VST.floyd.computable_theorems <> le_trans def
+R5147:5154 VST.floyd.computable_theorems <> le_trans def
+R5184:5189 VST.floyd.computable_theorems <> le_S_n def
+R5184:5189 VST.floyd.computable_theorems <> le_S_n def
+R5209:5223 VST.veric.mpred <> cenv_consistent meth
+R5209:5223 VST.veric.mpred <> cenv_consistent meth
+R5326:5333 VST.floyd.type_induction <> type_ind thm
+var 5505:5505 COMPOSITE_ENV A
+R5512:5515 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5508:5511 compcert.cfrontend.Ctypes <> type ind
+def 5534:5539 <> FT_aux
+binder 5541:5542 <> id:68
+R5560:5569 compcert.cfrontend.Ctypes <> co_members proj
+R5572:5577 VST.floyd.base <> get_co def
+R5579:5580 VST.floyd.type_induction <> id:68 var
+binder 5555:5555 <> m:69
+R5590:5597 VST.floyd.type_induction <> ListType ind
+R5600:5602 Coq.Lists.List <> map def
+R5642:5642 VST.floyd.type_induction <> m:69 var
+binder 5609:5610 <> it:70
+R5615:5615 VST.floyd.type_induction <> COMPOSITE_ENV.A var
+R5618:5627 VST.floyd.fieldlist <> field_type def
+R5638:5638 VST.floyd.type_induction <> m:69 var
+R5630:5632 Coq.Init.Datatypes <> fst def
+R5634:5635 VST.floyd.type_induction <> it:70 var
+var 5656:5664 COMPOSITE_ENV F_ByValue
+R5677:5680 compcert.cfrontend.Ctypes <> type ind
+binder 5674:5674 <> t:71
+R5683:5683 VST.floyd.type_induction <> COMPOSITE_ENV.A var
+R5685:5685 VST.floyd.type_induction <> t:71 var
+var 5697:5704 COMPOSITE_ENV F_Tarray
+binder 5714:5714 <> t:73
+binder 5716:5716 <> n:74
+binder 5718:5718 <> a:75
+R5724:5727 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5728:5728 VST.floyd.type_induction <> COMPOSITE_ENV.A var
+R5731:5736 compcert.cfrontend.Ctypes <> Tarray constr
+R5742:5742 VST.floyd.type_induction <> a:75 var
+R5740:5740 VST.floyd.type_induction <> n:74 var
+R5738:5738 VST.floyd.type_induction <> t:73 var
+R5721:5721 VST.floyd.type_induction <> COMPOSITE_ENV.A var
+R5723:5723 VST.floyd.type_induction <> t:73 var
+var 5755:5763 COMPOSITE_ENV F_Tstruct
+binder 5773:5774 <> id:77
+binder 5776:5776 <> a:78
+R5788:5791 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5792:5792 VST.floyd.type_induction <> COMPOSITE_ENV.A var
+R5795:5801 compcert.cfrontend.Ctypes <> Tstruct constr
+R5806:5806 VST.floyd.type_induction <> a:78 var
+R5803:5804 VST.floyd.type_induction <> id:77 var
+R5779:5784 VST.floyd.type_induction <> FT_aux def
+R5786:5787 VST.floyd.type_induction <> id:77 var
+var 5819:5826 COMPOSITE_ENV F_Tunion
+binder 5836:5837 <> id:80
+binder 5839:5839 <> a:81
+R5851:5854 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5855:5855 VST.floyd.type_induction <> COMPOSITE_ENV.A var
+R5858:5863 compcert.cfrontend.Ctypes <> Tunion constr
+R5868:5868 VST.floyd.type_induction <> a:81 var
+R5865:5866 VST.floyd.type_induction <> id:80 var
+R5842:5847 VST.floyd.type_induction <> FT_aux def
+R5849:5850 VST.floyd.type_induction <> id:80 var
+def 5882:5894 <> type_func_rec
+R5900:5902 Coq.Init.Datatypes <> nat ind
+binder 5897:5897 <> n:83
+R5909:5912 compcert.cfrontend.Ctypes <> type ind
+binder 5906:5906 <> t:84
+R5916:5916 VST.floyd.type_induction <> COMPOSITE_ENV.A var
+R5918:5918 VST.floyd.type_induction <> t:84 var
+R5931:5931 VST.floyd.type_induction <> n:83 var
+R5957:5957 VST.floyd.type_induction <> t:84 var
+R5972:5972 VST.floyd.type_induction <> COMPOSITE_ENV.A var
+R5974:5975 VST.floyd.type_induction <> t0:87 var
+R5988:5994 compcert.cfrontend.Ctypes <> Tstruct constr
+R6024:6026 compcert.lib.Maps <> :::x_'!'_x not
+R6017:6023 VST.veric.mpred <> cenv_cs meth
+R6044:6047 Coq.Init.Datatypes <> None constr
+R6061:6070 compcert.cfrontend.Ctypes <> co_members proj
+R6073:6078 VST.floyd.base <> get_co def
+binder 6056:6056 <> m:88
+R6110:6118 VST.floyd.type_induction <> COMPOSITE_ENV.F_Tstruct var
+R6126:6136 VST.floyd.type_induction <> ListTypeGen def
+R6222:6222 VST.floyd.type_induction <> m:88 var
+binder 6181:6182 <> it:89
+R6187:6195 VST.floyd.type_induction <> COMPOSITE_ENV.F_ByValue var
+R6198:6207 VST.floyd.fieldlist <> field_type def
+R6218:6218 VST.floyd.type_induction <> m:88 var
+R6210:6212 Coq.Init.Datatypes <> fst def
+R6214:6215 VST.floyd.type_induction <> it:89 var
+binder 6143:6144 <> it:90
+R6149:6149 VST.floyd.type_induction <> COMPOSITE_ENV.A var
+R6152:6161 VST.floyd.fieldlist <> field_type def
+R6172:6172 VST.floyd.type_induction <> m:88 var
+R6164:6166 Coq.Init.Datatypes <> fst def
+R6168:6169 VST.floyd.type_induction <> it:90 var
+R6239:6247 VST.floyd.type_induction <> COMPOSITE_ENV.F_ByValue var
+R6250:6256 compcert.cfrontend.Ctypes <> Tstruct constr
+R6281:6286 compcert.cfrontend.Ctypes <> Tunion constr
+R6316:6318 compcert.lib.Maps <> :::x_'!'_x not
+R6309:6315 VST.veric.mpred <> cenv_cs meth
+R6336:6339 Coq.Init.Datatypes <> None constr
+R6353:6362 compcert.cfrontend.Ctypes <> co_members proj
+R6365:6370 VST.floyd.base <> get_co def
+binder 6348:6348 <> m:91
+R6401:6408 VST.floyd.type_induction <> COMPOSITE_ENV.F_Tunion var
+R6416:6426 VST.floyd.type_induction <> ListTypeGen def
+R6512:6512 VST.floyd.type_induction <> m:91 var
+binder 6471:6472 <> it:92
+R6477:6485 VST.floyd.type_induction <> COMPOSITE_ENV.F_ByValue var
+R6488:6497 VST.floyd.fieldlist <> field_type def
+R6508:6508 VST.floyd.type_induction <> m:91 var
+R6500:6502 Coq.Init.Datatypes <> fst def
+R6504:6505 VST.floyd.type_induction <> it:92 var
+binder 6433:6434 <> it:93
+R6439:6439 VST.floyd.type_induction <> COMPOSITE_ENV.A var
+R6442:6451 VST.floyd.fieldlist <> field_type def
+R6462:6462 VST.floyd.type_induction <> m:91 var
+R6454:6456 Coq.Init.Datatypes <> fst def
+R6458:6459 VST.floyd.type_induction <> it:93 var
+R6529:6537 VST.floyd.type_induction <> COMPOSITE_ENV.F_ByValue var
+R6540:6545 compcert.cfrontend.Ctypes <> Tunion constr
+R6576:6584 VST.floyd.type_induction <> COMPOSITE_ENV.F_ByValue var
+R6601:6601 Coq.Init.Datatypes <> S constr
+R6619:6619 VST.floyd.type_induction <> t:84 var
+R6634:6634 VST.floyd.type_induction <> COMPOSITE_ENV.A var
+R6636:6637 VST.floyd.type_induction <> t0:94 var
+R6650:6655 compcert.cfrontend.Ctypes <> Tarray constr
+R6667:6674 VST.floyd.type_induction <> COMPOSITE_ENV.F_Tarray var
+R6684:6696 VST.floyd.type_induction <> type_func_rec:85 def
+R6679:6679 VST.floyd.type_induction <> n:83 var
+R6711:6717 compcert.cfrontend.Ctypes <> Tstruct constr
+R6737:6746 compcert.cfrontend.Ctypes <> co_members proj
+R6749:6754 VST.floyd.base <> get_co def
+binder 6732:6732 <> m:95
+R6791:6799 VST.floyd.type_induction <> COMPOSITE_ENV.F_Tstruct var
+R6807:6817 VST.floyd.type_induction <> ListTypeGen def
+R6910:6910 VST.floyd.type_induction <> m:95 var
+binder 6862:6863 <> it:96
+R6868:6880 VST.floyd.type_induction <> type_func_rec:85 def
+R6886:6895 VST.floyd.fieldlist <> field_type def
+R6906:6906 VST.floyd.type_induction <> m:95 var
+R6898:6900 Coq.Init.Datatypes <> fst def
+R6902:6903 VST.floyd.type_induction <> it:96 var
+binder 6824:6825 <> it:97
+R6830:6830 VST.floyd.type_induction <> COMPOSITE_ENV.A var
+R6833:6842 VST.floyd.fieldlist <> field_type def
+R6853:6853 VST.floyd.type_induction <> m:95 var
+R6845:6847 Coq.Init.Datatypes <> fst def
+R6849:6850 VST.floyd.type_induction <> it:97 var
+R6919:6924 compcert.cfrontend.Ctypes <> Tunion constr
+R6944:6953 compcert.cfrontend.Ctypes <> co_members proj
+R6956:6961 VST.floyd.base <> get_co def
+binder 6939:6939 <> m:98
+R6998:7005 VST.floyd.type_induction <> COMPOSITE_ENV.F_Tunion var
+R7013:7023 VST.floyd.type_induction <> ListTypeGen def
+R7116:7116 VST.floyd.type_induction <> m:98 var
+binder 7068:7069 <> it:99
+R7074:7086 VST.floyd.type_induction <> type_func_rec:85 def
+R7092:7101 VST.floyd.fieldlist <> field_type def
+R7112:7112 VST.floyd.type_induction <> m:98 var
+R7104:7106 Coq.Init.Datatypes <> fst def
+R7108:7109 VST.floyd.type_induction <> it:99 var
+binder 7030:7031 <> it:100
+R7036:7036 VST.floyd.type_induction <> COMPOSITE_ENV.A var
+R7039:7048 VST.floyd.fieldlist <> field_type def
+R7059:7059 VST.floyd.type_induction <> m:98 var
+R7051:7053 Coq.Init.Datatypes <> fst def
+R7055:7056 VST.floyd.type_induction <> it:100 var
+R7131:7139 VST.floyd.type_induction <> COMPOSITE_ENV.F_ByValue var
+def 7171:7179 <> type_func
+binder 7181:7181 <> t:101
+R7186:7198 VST.floyd.type_induction <> type_func_rec def
+R7222:7222 VST.floyd.type_induction <> t:101 var
+R7201:7209 compcert.cfrontend.Ctypes <> rank_type def
+R7219:7219 VST.floyd.type_induction <> t:101 var
+R7211:7217 VST.veric.mpred <> cenv_cs meth
+prf 7232:7248 <> rank_type_Tstruct
+binder 7258:7259 <> id:102
+binder 7261:7261 <> a:103
+binder 7263:7264 <> co:104
+R7289:7294 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7327:7329 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7295:7303 compcert.cfrontend.Ctypes <> rank_type def
+R7314:7320 compcert.cfrontend.Ctypes <> Tstruct constr
+R7325:7325 VST.floyd.type_induction <> a:103 var
+R7322:7323 VST.floyd.type_induction <> id:102 var
+R7305:7311 VST.veric.mpred <> cenv_cs meth
+R7330:7330 Coq.Init.Datatypes <> S constr
+R7333:7339 compcert.cfrontend.Ctypes <> co_rank proj
+R7342:7347 VST.floyd.base <> get_co def
+R7349:7350 VST.floyd.type_induction <> id:102 var
+R7279:7281 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7274:7276 compcert.lib.Maps <> :::x_'!'_x not
+R7277:7278 VST.floyd.type_induction <> id:102 var
+R7267:7273 VST.veric.mpred <> cenv_cs meth
+R7282:7285 Coq.Init.Datatypes <> Some constr
+R7287:7288 VST.floyd.type_induction <> co:104 var
+R7381:7386 VST.floyd.base <> get_co def
+R7415:7417 compcert.lib.Maps <> :::x_'!'_x not
+R7408:7414 VST.veric.mpred <> cenv_cs meth
+R7415:7417 compcert.lib.Maps <> :::x_'!'_x not
+R7408:7414 VST.veric.mpred <> cenv_cs meth
+prf 7457:7472 <> rank_type_Tunion
+binder 7482:7483 <> id:105
+binder 7485:7485 <> a:106
+binder 7487:7488 <> co:107
+R7513:7518 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7550:7552 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7519:7527 compcert.cfrontend.Ctypes <> rank_type def
+R7538:7543 compcert.cfrontend.Ctypes <> Tunion constr
+R7548:7548 VST.floyd.type_induction <> a:106 var
+R7545:7546 VST.floyd.type_induction <> id:105 var
+R7529:7535 VST.veric.mpred <> cenv_cs meth
+R7553:7553 Coq.Init.Datatypes <> S constr
+R7556:7562 compcert.cfrontend.Ctypes <> co_rank proj
+R7565:7570 VST.floyd.base <> get_co def
+R7572:7573 VST.floyd.type_induction <> id:105 var
+R7503:7505 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7498:7500 compcert.lib.Maps <> :::x_'!'_x not
+R7501:7502 VST.floyd.type_induction <> id:105 var
+R7491:7497 VST.veric.mpred <> cenv_cs meth
+R7506:7509 Coq.Init.Datatypes <> Some constr
+R7511:7512 VST.floyd.type_induction <> co:107 var
+R7604:7609 VST.floyd.base <> get_co def
+R7638:7640 compcert.lib.Maps <> :::x_'!'_x not
+R7631:7637 VST.veric.mpred <> cenv_cs meth
+R7638:7640 compcert.lib.Maps <> :::x_'!'_x not
+R7631:7637 VST.veric.mpred <> cenv_cs meth
+prf 7680:7708 <> type_func_rec_rank_irrelevent
+binder 7718:7718 <> t:108
+binder 7720:7720 <> n:109
+binder 7722:7723 <> n0:110
+R7752:7757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7783:7788 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7806:7808 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7789:7801 VST.floyd.type_induction <> type_func_rec def
+R7805:7805 VST.floyd.type_induction <> t:108 var
+R7803:7803 VST.floyd.type_induction <> n:109 var
+R7809:7821 VST.floyd.type_induction <> type_func_rec def
+R7826:7826 VST.floyd.type_induction <> t:108 var
+R7823:7824 VST.floyd.type_induction <> n0:110 var
+R7760:7763 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R7758:7759 VST.floyd.type_induction <> n0:110 var
+R7764:7772 compcert.cfrontend.Ctypes <> rank_type def
+R7782:7782 VST.floyd.type_induction <> t:108 var
+R7774:7780 VST.veric.mpred <> cenv_cs meth
+R7729:7732 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R7728:7728 VST.floyd.type_induction <> n:109 var
+R7733:7741 compcert.cfrontend.Ctypes <> rank_type def
+R7751:7751 VST.floyd.type_induction <> t:108 var
+R7743:7749 VST.veric.mpred <> cenv_cs meth
+R8188:8193 VST.floyd.computable_theorems <> le_S_n def
+R8188:8193 VST.floyd.computable_theorems <> le_S_n def
+R8188:8193 VST.floyd.computable_theorems <> le_S_n def
+R8241:8243 compcert.lib.Maps <> :::x_'!'_x not
+R8234:8240 VST.veric.mpred <> cenv_cs meth
+R8241:8243 compcert.lib.Maps <> :::x_'!'_x not
+R8234:8240 VST.veric.mpred <> cenv_cs meth
+R8282:8298 VST.floyd.type_induction <> rank_type_Tstruct thm
+R8282:8298 VST.floyd.type_induction <> rank_type_Tstruct thm
+R8282:8298 VST.floyd.type_induction <> rank_type_Tstruct thm
+R8330:8346 VST.floyd.type_induction <> rank_type_Tstruct thm
+R8330:8346 VST.floyd.type_induction <> rank_type_Tstruct thm
+R8330:8346 VST.floyd.type_induction <> rank_type_Tstruct thm
+R8519:8538 VST.floyd.type_induction <> ListTypeGen_preserve thm
+R8519:8538 VST.floyd.type_induction <> ListTypeGen_preserve thm
+R8602:8615 VST.floyd.computable_theorems <> Forall_forall1 thm
+R8602:8615 VST.floyd.computable_theorems <> Forall_forall1 thm
+R8667:8667 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8669:8670 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8672:8672 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8667:8667 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8669:8670 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8672:8672 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8697:8702 VST.floyd.computable_theorems <> le_S_n def
+R8716:8721 VST.floyd.computable_theorems <> le_S_n def
+R8697:8702 VST.floyd.computable_theorems <> le_S_n def
+R8716:8721 VST.floyd.computable_theorems <> le_S_n def
+R8750:8766 VST.floyd.computable_theorems <> rank_type_members thm
+R8768:8774 VST.veric.mpred <> cenv_cs meth
+R8750:8766 VST.floyd.computable_theorems <> rank_type_members thm
+R8768:8774 VST.veric.mpred <> cenv_cs meth
+R8805:8831 VST.floyd.base <> get_co_members_no_replicate thm
+R8805:8831 VST.floyd.base <> get_co_members_no_replicate thm
+R8854:8866 VST.floyd.fieldlist <> In_field_type thm
+R8868:8868 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8870:8871 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8873:8873 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8854:8866 VST.floyd.fieldlist <> In_field_type thm
+R8868:8868 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8870:8871 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8873:8873 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8903:8920 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R8943:8959 VST.floyd.base <> get_co_consistent thm
+R8931:8936 VST.floyd.base <> get_co def
+R8922:8928 VST.veric.mpred <> cenv_cs meth
+R8903:8920 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R8943:8959 VST.floyd.base <> get_co_consistent thm
+R8931:8936 VST.floyd.base <> get_co def
+R8922:8928 VST.veric.mpred <> cenv_cs meth
+R8903:8920 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R8943:8959 VST.floyd.base <> get_co_consistent thm
+R8931:8936 VST.floyd.base <> get_co def
+R8922:8928 VST.veric.mpred <> cenv_cs meth
+R8985:8994 VST.floyd.fieldlist <> field_type def
+R9034:9041 VST.floyd.computable_theorems <> le_trans def
+R9034:9041 VST.floyd.computable_theorems <> le_trans def
+R9034:9041 VST.floyd.computable_theorems <> le_trans def
+R9118:9123 VST.floyd.type_induction <> FT_aux def
+R9149:9157 VST.floyd.type_induction <> COMPOSITE_ENV.F_Tstruct var
+R9179:9184 VST.floyd.base <> get_co def
+R9149:9157 VST.floyd.type_induction <> COMPOSITE_ENV.F_Tstruct var
+R9149:9157 VST.floyd.type_induction <> COMPOSITE_ENV.F_Tstruct var
+R9149:9157 VST.floyd.type_induction <> COMPOSITE_ENV.F_Tstruct var
+R9149:9157 VST.floyd.type_induction <> COMPOSITE_ENV.F_Tstruct var
+R9257:9259 compcert.lib.Maps <> :::x_'!'_x not
+R9250:9256 VST.veric.mpred <> cenv_cs meth
+R9257:9259 compcert.lib.Maps <> :::x_'!'_x not
+R9250:9256 VST.veric.mpred <> cenv_cs meth
+R9298:9313 VST.floyd.type_induction <> rank_type_Tunion thm
+R9298:9313 VST.floyd.type_induction <> rank_type_Tunion thm
+R9298:9313 VST.floyd.type_induction <> rank_type_Tunion thm
+R9345:9360 VST.floyd.type_induction <> rank_type_Tunion thm
+R9345:9360 VST.floyd.type_induction <> rank_type_Tunion thm
+R9345:9360 VST.floyd.type_induction <> rank_type_Tunion thm
+R9533:9552 VST.floyd.type_induction <> ListTypeGen_preserve thm
+R9533:9552 VST.floyd.type_induction <> ListTypeGen_preserve thm
+R9597:9610 VST.floyd.computable_theorems <> Forall_forall1 thm
+R9597:9610 VST.floyd.computable_theorems <> Forall_forall1 thm
+R9662:9662 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9664:9665 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9667:9667 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9662:9662 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9664:9665 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9667:9667 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9692:9697 VST.floyd.computable_theorems <> le_S_n def
+R9711:9716 VST.floyd.computable_theorems <> le_S_n def
+R9692:9697 VST.floyd.computable_theorems <> le_S_n def
+R9711:9716 VST.floyd.computable_theorems <> le_S_n def
+R9745:9761 VST.floyd.computable_theorems <> rank_type_members thm
+R9763:9769 VST.veric.mpred <> cenv_cs meth
+R9745:9761 VST.floyd.computable_theorems <> rank_type_members thm
+R9763:9769 VST.veric.mpred <> cenv_cs meth
+R9800:9826 VST.floyd.base <> get_co_members_no_replicate thm
+R9800:9826 VST.floyd.base <> get_co_members_no_replicate thm
+R9849:9861 VST.floyd.fieldlist <> In_field_type thm
+R9863:9863 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9865:9866 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9868:9868 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9849:9861 VST.floyd.fieldlist <> In_field_type thm
+R9863:9863 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9865:9866 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9868:9868 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9898:9915 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R9938:9954 VST.floyd.base <> get_co_consistent thm
+R9926:9931 VST.floyd.base <> get_co def
+R9917:9923 VST.veric.mpred <> cenv_cs meth
+R9898:9915 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R9938:9954 VST.floyd.base <> get_co_consistent thm
+R9926:9931 VST.floyd.base <> get_co def
+R9917:9923 VST.veric.mpred <> cenv_cs meth
+R9898:9915 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R9938:9954 VST.floyd.base <> get_co_consistent thm
+R9926:9931 VST.floyd.base <> get_co def
+R9917:9923 VST.veric.mpred <> cenv_cs meth
+R9998:10005 VST.floyd.computable_theorems <> le_trans def
+R9998:10005 VST.floyd.computable_theorems <> le_trans def
+R9998:10005 VST.floyd.computable_theorems <> le_trans def
+R10082:10087 VST.floyd.type_induction <> FT_aux def
+R10113:10120 VST.floyd.type_induction <> COMPOSITE_ENV.F_Tunion var
+R10142:10147 VST.floyd.base <> get_co def
+R10113:10120 VST.floyd.type_induction <> COMPOSITE_ENV.F_Tunion var
+R10113:10120 VST.floyd.type_induction <> COMPOSITE_ENV.F_Tunion var
+R10113:10120 VST.floyd.type_induction <> COMPOSITE_ENV.F_Tunion var
+R10113:10120 VST.floyd.type_induction <> COMPOSITE_ENV.F_Tunion var
+def 10203:10209 <> FTI_aux
+binder 10211:10212 <> id:111
+R10230:10239 compcert.cfrontend.Ctypes <> co_members proj
+R10242:10247 VST.floyd.base <> get_co def
+R10249:10250 VST.floyd.type_induction <> id:111 var
+binder 10225:10225 <> m:112
+R10261:10271 VST.floyd.type_induction <> ListTypeGen def
+R10357:10357 VST.floyd.type_induction <> m:112 var
+binder 10316:10317 <> it:113
+R10322:10330 VST.floyd.type_induction <> type_func def
+R10333:10342 VST.floyd.fieldlist <> field_type def
+R10353:10353 VST.floyd.type_induction <> m:112 var
+R10345:10347 Coq.Init.Datatypes <> fst def
+R10349:10350 VST.floyd.type_induction <> it:113 var
+binder 10278:10279 <> it:114
+R10284:10284 VST.floyd.type_induction <> COMPOSITE_ENV.A var
+R10287:10296 VST.floyd.fieldlist <> field_type def
+R10307:10307 VST.floyd.type_induction <> m:112 var
+R10299:10301 Coq.Init.Datatypes <> fst def
+R10303:10304 VST.floyd.type_induction <> it:114 var
+prf 10369:10380 <> type_func_eq
+binder 10390:10390 <> t:115
+R10406:10410 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10395:10403 VST.floyd.type_induction <> type_func def
+R10405:10405 VST.floyd.type_induction <> t:115 var
+R10417:10417 VST.floyd.type_induction <> t:115 var
+R10432:10432 VST.floyd.type_induction <> COMPOSITE_ENV.A var
+R10434:10435 VST.floyd.type_induction <> t0:116 var
+R10446:10451 compcert.cfrontend.Ctypes <> Tarray constr
+R10463:10470 VST.floyd.type_induction <> COMPOSITE_ENV.F_Tarray var
+R10480:10488 VST.floyd.type_induction <> type_func def
+R10498:10504 compcert.cfrontend.Ctypes <> Tstruct constr
+R10514:10522 VST.floyd.type_induction <> COMPOSITE_ENV.F_Tstruct var
+R10530:10536 VST.floyd.type_induction <> FTI_aux def
+R10546:10551 compcert.cfrontend.Ctypes <> Tunion constr
+R10561:10568 VST.floyd.type_induction <> COMPOSITE_ENV.F_Tunion var
+R10576:10582 VST.floyd.type_induction <> FTI_aux def
+R10598:10606 VST.floyd.type_induction <> COMPOSITE_ENV.F_ByValue var
+R10701:10709 VST.floyd.type_induction <> type_func def
+R10763:10765 compcert.lib.Maps <> :::x_'!'_x not
+R10756:10762 VST.veric.mpred <> cenv_cs meth
+R10763:10765 compcert.lib.Maps <> :::x_'!'_x not
+R10756:10762 VST.veric.mpred <> cenv_cs meth
+R10822:10841 VST.floyd.type_induction <> ListTypeGen_preserve thm
+R10822:10841 VST.floyd.type_induction <> ListTypeGen_preserve thm
+R10871:10876 VST.floyd.base <> get_co def
+R10926:10939 VST.floyd.computable_theorems <> Forall_forall1 thm
+R10926:10939 VST.floyd.computable_theorems <> Forall_forall1 thm
+R10982:11010 VST.floyd.type_induction <> type_func_rec_rank_irrelevent thm
+R10982:11010 VST.floyd.type_induction <> type_func_rec_rank_irrelevent thm
+R11035:11061 VST.floyd.base <> get_co_members_no_replicate thm
+R11035:11061 VST.floyd.base <> get_co_members_no_replicate thm
+R11083:11088 VST.floyd.base <> get_co def
+R11132:11144 VST.floyd.fieldlist <> In_field_type thm
+R11132:11144 VST.floyd.fieldlist <> In_field_type thm
+R11132:11144 VST.floyd.fieldlist <> In_field_type thm
+R11176:11193 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R11233:11247 VST.veric.mpred <> cenv_consistent meth
+R11195:11201 VST.veric.mpred <> cenv_cs meth
+R11176:11193 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R11233:11247 VST.veric.mpred <> cenv_consistent meth
+R11195:11201 VST.veric.mpred <> cenv_cs meth
+R11176:11193 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R11233:11247 VST.veric.mpred <> cenv_consistent meth
+R11195:11201 VST.veric.mpred <> cenv_cs meth
+R11276:11292 VST.floyd.computable_theorems <> rank_type_members thm
+R11276:11292 VST.floyd.computable_theorems <> rank_type_members thm
+R11316:11319 Coq.Init.Peano <> le_n constr
+R11316:11319 Coq.Init.Peano <> le_n constr
+R11368:11374 VST.floyd.type_induction <> FTI_aux def
+R11377:11382 VST.floyd.base <> get_co def
+R11444:11452 VST.floyd.type_induction <> type_func def
+R11506:11508 compcert.lib.Maps <> :::x_'!'_x not
+R11499:11505 VST.veric.mpred <> cenv_cs meth
+R11506:11508 compcert.lib.Maps <> :::x_'!'_x not
+R11499:11505 VST.veric.mpred <> cenv_cs meth
+R11565:11584 VST.floyd.type_induction <> ListTypeGen_preserve thm
+R11565:11584 VST.floyd.type_induction <> ListTypeGen_preserve thm
+R11614:11619 VST.floyd.base <> get_co def
+R11669:11682 VST.floyd.computable_theorems <> Forall_forall1 thm
+R11669:11682 VST.floyd.computable_theorems <> Forall_forall1 thm
+R11725:11753 VST.floyd.type_induction <> type_func_rec_rank_irrelevent thm
+R11725:11753 VST.floyd.type_induction <> type_func_rec_rank_irrelevent thm
+R11778:11804 VST.floyd.base <> get_co_members_no_replicate thm
+R11778:11804 VST.floyd.base <> get_co_members_no_replicate thm
+R11826:11831 VST.floyd.base <> get_co def
+R11875:11887 VST.floyd.fieldlist <> In_field_type thm
+R11875:11887 VST.floyd.fieldlist <> In_field_type thm
+R11875:11887 VST.floyd.fieldlist <> In_field_type thm
+R11919:11936 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R11976:11990 VST.veric.mpred <> cenv_consistent meth
+R11938:11944 VST.veric.mpred <> cenv_cs meth
+R11919:11936 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R11976:11990 VST.veric.mpred <> cenv_consistent meth
+R11938:11944 VST.veric.mpred <> cenv_cs meth
+R11919:11936 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R11976:11990 VST.veric.mpred <> cenv_consistent meth
+R11938:11944 VST.veric.mpred <> cenv_cs meth
+R12019:12035 VST.floyd.computable_theorems <> rank_type_members thm
+R12019:12035 VST.floyd.computable_theorems <> rank_type_members thm
+R12059:12062 Coq.Init.Peano <> le_n constr
+R12059:12062 Coq.Init.Peano <> le_n constr
+R12111:12117 VST.floyd.type_induction <> FTI_aux def
+R12120:12125 VST.floyd.base <> get_co def
+R12173:12185 VST.floyd.type_induction COMPOSITE_ENV <> sec
+R12199:12207 VST.floyd.type_induction <> type_func def
+R12199:12207 VST.floyd.type_induction <> type_func def
+R12342:12349 VST.floyd.type_induction <> type_ind thm

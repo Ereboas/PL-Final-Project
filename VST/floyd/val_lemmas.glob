@@ -1,0 +1,1163 @@
+DIGEST d7003baf4222c74ccd9faca5d910c470
+FVST.floyd.val_lemmas
+R29:38 compcert.exportclight.Clightdefs <> <> lib
+R56:69 VST.veric.base <> <> lib
+R87:111 VST.veric.SeparationLogic <> <> lib
+R129:150 VST.msl.Extensionality <> <> lib
+R168:186 compcert.lib.Coqlib <> <> lib
+R204:218 VST.msl.Coqlib2 <> <> lib
+R220:236 VST.veric.coqlib4 <> <> lib
+R238:254 VST.floyd.coqlib3 <> <> lib
+R272:296 VST.floyd.functional_base <> <> lib
+prf 327:336 <> force_Vint
+binder 347:347 <> i:1
+R368:370 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R350:358 VST.veric.val_lemmas <> force_int def
+R361:364 compcert.common.Values <> Vint constr
+R366:366 VST.floyd.val_lemmas <> i:1 var
+R371:371 VST.floyd.val_lemmas <> i:1 var
+R413:422 VST.floyd.val_lemmas <> force_Vint thm
+prf 439:448 <> is_int_dec
+binder 450:450 <> i:2
+binder 452:452 <> s:3
+binder 454:454 <> v:4
+R457:457 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R470:474 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R489:489 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R458:463 VST.veric.Cop2 <> is_int def
+R469:469 VST.floyd.val_lemmas <> v:4 var
+R467:467 VST.floyd.val_lemmas <> s:3 var
+R465:465 VST.floyd.val_lemmas <> i:2 var
+R475:476 Coq.Init.Logic <> ::type_scope:'~'_x not
+R477:482 VST.veric.Cop2 <> is_int def
+R488:488 VST.floyd.val_lemmas <> v:4 var
+R486:486 VST.floyd.val_lemmas <> s:3 var
+R484:484 VST.floyd.val_lemmas <> i:2 var
+R598:600 compcert.lib.Coqlib <> zle def
+R619:628 compcert.lib.Integers Int signed def
+R602:616 compcert.lib.Integers Byte min_signed def
+R598:600 compcert.lib.Coqlib <> zle def
+R619:628 compcert.lib.Integers Int signed def
+R602:616 compcert.lib.Integers Byte min_signed def
+R668:670 compcert.lib.Coqlib <> zle def
+R688:702 compcert.lib.Integers Byte max_signed def
+R673:682 compcert.lib.Integers Int signed def
+R668:670 compcert.lib.Coqlib <> zle def
+R688:702 compcert.lib.Integers Byte max_signed def
+R673:682 compcert.lib.Integers Int signed def
+R745:747 compcert.lib.Coqlib <> zle def
+R767:783 compcert.lib.Integers Byte max_unsigned def
+R750:761 compcert.lib.Integers Int unsigned def
+R745:747 compcert.lib.Coqlib <> zle def
+R767:783 compcert.lib.Integers Byte max_unsigned def
+R750:761 compcert.lib.Integers Int unsigned def
+R840:842 compcert.lib.Coqlib <> zle def
+R854:863 compcert.lib.Integers Int signed def
+R840:842 compcert.lib.Coqlib <> zle def
+R854:863 compcert.lib.Integers Int signed def
+R903:905 compcert.lib.Coqlib <> zle def
+R908:917 compcert.lib.Integers Int signed def
+R903:905 compcert.lib.Coqlib <> zle def
+R908:917 compcert.lib.Integers Int signed def
+R970:972 compcert.lib.Coqlib <> zle def
+R975:986 compcert.lib.Integers Int unsigned def
+R970:972 compcert.lib.Coqlib <> zle def
+R975:986 compcert.lib.Integers Int unsigned def
+R1052:1061 compcert.lib.Integers Int eq_dec thm
+R1066:1073 compcert.lib.Integers Int zero def
+R1052:1061 compcert.lib.Integers Int eq_dec thm
+R1066:1073 compcert.lib.Integers Int zero def
+R1119:1128 compcert.lib.Integers Int eq_dec thm
+R1133:1139 compcert.lib.Integers Int one def
+R1119:1128 compcert.lib.Integers Int eq_dec thm
+R1133:1139 compcert.lib.Integers Int one def
+prf 1236:1245 <> tc_val_dec
+binder 1247:1247 <> t:5
+binder 1249:1249 <> v:6
+R1252:1252 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1263:1267 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1280:1280 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1253:1258 VST.veric.Cop2 <> tc_val def
+R1262:1262 VST.floyd.val_lemmas <> v:6 var
+R1260:1260 VST.floyd.val_lemmas <> t:5 var
+R1268:1269 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1270:1275 VST.veric.Cop2 <> tc_val def
+R1279:1279 VST.floyd.val_lemmas <> v:6 var
+R1277:1277 VST.floyd.val_lemmas <> t:5 var
+R1345:1354 VST.floyd.val_lemmas <> is_int_dec thm
+R1345:1354 VST.floyd.val_lemmas <> is_int_dec thm
+R1365:1375 VST.floyd.functional_base <> is_long_dec thm
+R1365:1375 VST.floyd.functional_base <> is_long_dec thm
+R1398:1410 VST.floyd.functional_base <> is_single_dec thm
+R1398:1410 VST.floyd.functional_base <> is_single_dec thm
+R1419:1430 VST.floyd.functional_base <> is_float_dec thm
+R1419:1430 VST.floyd.functional_base <> is_float_dec thm
+R1469:1476 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1446:1453 VST.veric.Cop2 <> eqb_type def
+R1457:1468 compcert.cfrontend.Ctypes <> Tvoid constr
+R1477:1484 VST.veric.Cop2 <> eqb_attr def
+R1497:1509 compcert.cfrontend.Ctypes <> attr_volatile proj
+R1497:1509 compcert.cfrontend.Ctypes <> attr_volatile proj
+R1521:1532 compcert.cfrontend.Ctypes <> attr_alignas proj
+R1537:1540 Coq.Init.Datatypes <> Some constr
+R1542:1560 VST.veric.Cop2 <> log2_sizeof_pointer def
+R1514:1518 Coq.Init.Datatypes <> false constr
+R1469:1476 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1446:1453 VST.veric.Cop2 <> eqb_type def
+R1457:1468 compcert.cfrontend.Ctypes <> Tvoid constr
+R1477:1484 VST.veric.Cop2 <> eqb_attr def
+R1497:1509 compcert.cfrontend.Ctypes <> attr_volatile proj
+R1497:1509 compcert.cfrontend.Ctypes <> attr_volatile proj
+R1521:1532 compcert.cfrontend.Ctypes <> attr_alignas proj
+R1537:1540 Coq.Init.Datatypes <> Some constr
+R1542:1560 VST.veric.Cop2 <> log2_sizeof_pointer def
+R1514:1518 Coq.Init.Datatypes <> false constr
+R1581:1605 VST.floyd.functional_base <> is_pointer_or_integer_dec thm
+R1581:1605 VST.floyd.functional_base <> is_pointer_or_integer_dec thm
+R1616:1637 VST.floyd.functional_base <> is_pointer_or_null_dec thm
+R1616:1637 VST.floyd.functional_base <> is_pointer_or_null_dec thm
+R1648:1669 VST.floyd.functional_base <> is_pointer_or_null_dec thm
+R1648:1669 VST.floyd.functional_base <> is_pointer_or_null_dec thm
+R1680:1701 VST.floyd.functional_base <> is_pointer_or_null_dec thm
+R1680:1701 VST.floyd.functional_base <> is_pointer_or_null_dec thm
+R1712:1720 VST.floyd.functional_base <> isptr_dec thm
+R1712:1720 VST.floyd.functional_base <> isptr_dec thm
+R1731:1739 VST.floyd.functional_base <> isptr_dec thm
+R1731:1739 VST.floyd.functional_base <> isptr_dec thm
+prf 1758:1771 <> sem_add_pi_ptr
+R1789:1797 VST.veric.mpred <> compspecs class
+binder 1785:1786 <> cs:7
+binder 1801:1801 <> t:8
+binder 1803:1803 <> p:9
+binder 1805:1805 <> i:10
+binder 1807:1808 <> si:11
+R1822:1829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1950:1957 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2012:2014 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1958:1976 compcert.cfrontend.Cop <> sem_add_ptr_int def
+R1994:1997 compcert.common.Values <> Vint constr
+R2000:2007 compcert.lib.Integers Int repr def
+R2009:2009 VST.floyd.val_lemmas <> i:10 var
+R1991:1991 VST.floyd.val_lemmas <> p:9 var
+R1988:1989 VST.floyd.val_lemmas <> si:11 var
+R1986:1986 VST.floyd.val_lemmas <> t:8 var
+R1978:1984 VST.veric.mpred <> cenv_cs meth
+R2015:2018 Coq.Init.Datatypes <> Some constr
+R2021:2030 VST.veric.val_lemmas <> offset_val def
+R2047:2047 VST.floyd.val_lemmas <> p:9 var
+R2041:2043 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2033:2038 VST.veric.expr <> sizeof def
+R2040:2040 VST.floyd.val_lemmas <> t:8 var
+R2044:2044 VST.floyd.val_lemmas <> i:10 var
+R1836:1837 VST.floyd.val_lemmas <> si:11 var
+R1850:1855 compcert.cfrontend.Ctypes <> Signed constr
+R1874:1877 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R1879:1882 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R1860:1873 compcert.lib.Integers Int min_signed def
+R1878:1878 VST.floyd.val_lemmas <> i:10 var
+R1878:1878 VST.floyd.val_lemmas <> i:10 var
+R1883:1896 compcert.lib.Integers Int max_signed def
+R1904:1911 compcert.cfrontend.Ctypes <> Unsigned constr
+R1917:1920 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R1922:1925 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R1921:1921 VST.floyd.val_lemmas <> i:10 var
+R1921:1921 VST.floyd.val_lemmas <> i:10 var
+R1926:1941 compcert.lib.Integers Int max_unsigned def
+R1815:1819 VST.veric.val_lemmas <> isptr def
+R1821:1821 VST.floyd.val_lemmas <> p:9 var
+R2108:2117 VST.veric.val_lemmas <> offset_val def
+R2120:2138 compcert.cfrontend.Cop <> sem_add_ptr_int def
+R2150:2166 compcert.cfrontend.Cop <> ptrofs_of_int def
+R2169:2182 compcert.lib.Integers Ptrofs of_ints def
+R2185:2198 compcert.lib.Integers Ptrofs of_intu def
+R2201:2213 compcert.lib.Integers Ptrofs of_int def
+R2271:2285 VST.floyd.coqlib3 <> ptrofs_mul_repr thm
+R2271:2285 VST.floyd.coqlib3 <> ptrofs_mul_repr thm
+R2271:2285 VST.floyd.coqlib3 <> ptrofs_mul_repr thm
+R2271:2285 VST.floyd.coqlib3 <> ptrofs_mul_repr thm
+R2271:2285 VST.floyd.coqlib3 <> ptrofs_mul_repr thm
+R2308:2322 compcert.lib.Integers Int signed_repr thm
+R2308:2322 compcert.lib.Integers Int signed_repr thm
+R2308:2322 compcert.lib.Integers Int signed_repr thm
+R2348:2364 compcert.lib.Integers Int unsigned_repr thm
+R2348:2364 compcert.lib.Integers Int unsigned_repr thm
+R2348:2364 compcert.lib.Integers Int unsigned_repr thm
+R2399:2412 VST.floyd.val_lemmas <> sem_add_pi_ptr thm
+prf 2460:2485 <> sem_cast_i2i_correct_range
+binder 2495:2496 <> sz:13
+binder 2498:2498 <> s:14
+binder 2500:2500 <> v:15
+R2518:2521 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2541:2543 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2522:2533 VST.veric.Clight_Cop2 <> sem_cast_i2i def
+R2540:2540 VST.floyd.val_lemmas <> v:15 var
+R2538:2538 VST.floyd.val_lemmas <> s:14 var
+R2535:2536 VST.floyd.val_lemmas <> sz:13 var
+R2544:2547 Coq.Init.Datatypes <> Some constr
+R2549:2549 VST.floyd.val_lemmas <> v:15 var
+R2505:2510 VST.veric.Cop2 <> is_int def
+R2517:2517 VST.floyd.val_lemmas <> v:15 var
+R2515:2515 VST.floyd.val_lemmas <> s:14 var
+R2512:2513 VST.floyd.val_lemmas <> sz:13 var
+R2652:2667 VST.veric.val_lemmas <> sign_ext_inrange thm
+R2680:2695 VST.veric.val_lemmas <> zero_ext_inrange thm
+R2652:2667 VST.veric.val_lemmas <> sign_ext_inrange thm
+R2652:2667 VST.veric.val_lemmas <> sign_ext_inrange thm
+R2652:2667 VST.veric.val_lemmas <> sign_ext_inrange thm
+R2652:2667 VST.veric.val_lemmas <> sign_ext_inrange thm
+R2652:2667 VST.veric.val_lemmas <> sign_ext_inrange thm
+R2652:2667 VST.veric.val_lemmas <> sign_ext_inrange thm
+R2680:2695 VST.veric.val_lemmas <> zero_ext_inrange thm
+R2680:2695 VST.veric.val_lemmas <> zero_ext_inrange thm
+R2680:2695 VST.veric.val_lemmas <> zero_ext_inrange thm
+R2680:2695 VST.veric.val_lemmas <> zero_ext_inrange thm
+R2680:2695 VST.veric.val_lemmas <> zero_ext_inrange thm
+R2680:2695 VST.veric.val_lemmas <> zero_ext_inrange thm
+R2819:2844 VST.floyd.val_lemmas <> sem_cast_i2i_correct_range thm
+prf 2892:2911 <> sem_cast_neutral_ptr
+binder 2923:2923 <> p:16
+R2933:2936 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2955:2957 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2937:2952 VST.veric.Clight_Cop2 <> sem_cast_pointer def
+R2954:2954 VST.floyd.val_lemmas <> p:16 var
+R2958:2961 Coq.Init.Datatypes <> Some constr
+R2963:2963 VST.floyd.val_lemmas <> p:16 var
+R2926:2930 VST.veric.val_lemmas <> isptr def
+R2932:2932 VST.floyd.val_lemmas <> p:16 var
+R3043:3062 VST.floyd.val_lemmas <> sem_cast_neutral_ptr thm
+prf 3109:3129 <> sem_cast_neutral_Vint
+binder 3139:3139 <> v:17
+R3169:3171 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3144:3159 VST.veric.Clight_Cop2 <> sem_cast_pointer def
+R3162:3165 compcert.common.Values <> Vint constr
+R3167:3167 VST.floyd.val_lemmas <> v:17 var
+R3172:3175 Coq.Init.Datatypes <> Some constr
+R3178:3181 compcert.common.Values <> Vint constr
+R3183:3183 VST.floyd.val_lemmas <> v:17 var
+R3235:3255 VST.floyd.val_lemmas <> sem_cast_neutral_Vint thm
+def 3277:3282 <> isVint
+binder 3284:3284 <> v:18
+R3295:3295 VST.floyd.val_lemmas <> v:18 var
+R3302:3305 compcert.common.Values <> Vint constr
+R3312:3315 Coq.Init.Logic <> True ind
+R3324:3328 Coq.Init.Logic <> False ind
+prf 3342:3355 <> is_int_is_Vint
+binder 3365:3365 <> i:20
+binder 3367:3367 <> s:21
+binder 3369:3369 <> v:22
+R3384:3387 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3388:3393 VST.floyd.val_lemmas <> isVint def
+R3395:3395 VST.floyd.val_lemmas <> v:22 var
+R3372:3377 VST.veric.Cop2 <> is_int def
+R3383:3383 VST.floyd.val_lemmas <> v:22 var
+R3381:3381 VST.floyd.val_lemmas <> s:21 var
+R3379:3379 VST.floyd.val_lemmas <> i:20 var
+prf 3463:3477 <> is_int_I32_Vint
+binder 3487:3487 <> s:23
+binder 3489:3489 <> v:24
+R3492:3497 VST.veric.Cop2 <> is_int def
+R3506:3509 compcert.common.Values <> Vint constr
+R3511:3511 VST.floyd.val_lemmas <> v:24 var
+R3503:3503 VST.floyd.val_lemmas <> s:23 var
+R3499:3501 compcert.cfrontend.Ctypes <> I32 constr
+prf 3590:3609 <> sem_cast_neutral_int
+binder 3619:3619 <> v:25
+R3632:3637 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3656:3658 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3638:3653 VST.veric.Clight_Cop2 <> sem_cast_pointer def
+R3655:3655 VST.floyd.val_lemmas <> v:25 var
+R3659:3662 Coq.Init.Datatypes <> Some constr
+R3664:3664 VST.floyd.val_lemmas <> v:25 var
+R3624:3629 VST.floyd.val_lemmas <> isVint def
+R3631:3631 VST.floyd.val_lemmas <> v:25 var
+R3745:3764 VST.floyd.val_lemmas <> sem_cast_neutral_int thm
+R3803:3808 VST.veric.Cop2 <> is_int def
+R3803:3808 VST.veric.Cop2 <> is_int def
+R3822:3827 VST.floyd.val_lemmas <> isVint def
+R3822:3827 VST.floyd.val_lemmas <> isVint def
+R3842:3855 VST.floyd.val_lemmas <> is_int_is_Vint thm
+prf 3886:3898 <> sizeof_tuchar
+R3913:3921 VST.veric.mpred <> compspecs class
+binder 3909:3910 <> cs:26
+R3938:3940 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3925:3930 VST.veric.expr <> sizeof def
+R3932:3937 compcert.exportclight.Clightdefs <> tuchar def
+R3985:3997 VST.floyd.val_lemmas <> sizeof_tuchar thm
+R4020:4028 Coq.ZArith.BinInt Z mul_1_l thm
+R4030:4038 Coq.ZArith.BinInt Z mul_1_r thm
+R4040:4048 Coq.ZArith.BinInt Z add_0_l thm
+R4050:4058 Coq.ZArith.BinInt Z add_0_r thm
+R4060:4068 Coq.ZArith.BinInt Z sub_0_r thm
+R4092:4103 VST.veric.mpred <> eval_id_same thm
+R4126:4138 VST.veric.mpred <> eval_id_other thm
+R4205:4216 compcert.lib.Integers Int sub_idem thm
+R4218:4231 compcert.lib.Integers Int sub_zero_l thm
+R4234:4249 compcert.lib.Integers Int add_neg_zero thm
+R4272:4286 compcert.lib.Integers Ptrofs sub_idem thm
+R4288:4304 compcert.lib.Integers Ptrofs sub_zero_l thm
+R4307:4325 compcert.lib.Integers Ptrofs add_neg_zero thm
+prf 4342:4359 <> eval_expr_Etempvar
+R4376:4384 VST.veric.mpred <> compspecs class
+binder 4372:4373 <> cs:27
+binder 4388:4388 <> i:28
+binder 4390:4390 <> t:29
+R4417:4419 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4393:4401 VST.veric.expr <> eval_expr def
+R4404:4411 compcert.cfrontend.Clight <> Etempvar constr
+R4415:4415 VST.floyd.val_lemmas <> t:29 var
+R4413:4413 VST.floyd.val_lemmas <> i:28 var
+R4420:4426 VST.veric.mpred <> eval_id def
+R4428:4428 VST.floyd.val_lemmas <> i:28 var
+R4470:4487 VST.floyd.val_lemmas <> eval_expr_Etempvar thm
+prf 4504:4518 <> eval_expr_binop
+R4533:4541 VST.veric.mpred <> compspecs class
+binder 4529:4530 <> cs:30
+binder 4545:4546 <> op:31
+binder 4548:4549 <> a1:32
+binder 4551:4552 <> a2:33
+binder 4554:4554 <> t:34
+R4586:4598 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4557:4565 VST.veric.expr <> eval_expr def
+R4568:4573 compcert.cfrontend.Clight <> Ebinop constr
+R4584:4584 VST.floyd.val_lemmas <> t:34 var
+R4581:4582 VST.floyd.val_lemmas <> a2:33 var
+R4578:4579 VST.floyd.val_lemmas <> a1:32 var
+R4575:4576 VST.floyd.val_lemmas <> op:31 var
+R4599:4600 VST.veric.lift LiftNotation :::'`('_x_')' not
+R4638:4668 VST.veric.lift LiftNotation :::'`('_x_')' not
+R4601:4610 VST.veric.expr <> eval_binop def
+R4628:4633 compcert.cfrontend.Clight <> typeof def
+R4635:4636 VST.floyd.val_lemmas <> a2:33 var
+R4616:4621 compcert.cfrontend.Clight <> typeof def
+R4623:4624 VST.floyd.val_lemmas <> a1:32 var
+R4612:4613 VST.floyd.val_lemmas <> op:31 var
+R4656:4664 VST.veric.expr <> eval_expr def
+R4666:4667 VST.floyd.val_lemmas <> a2:33 var
+R4641:4649 VST.veric.expr <> eval_expr def
+R4651:4652 VST.floyd.val_lemmas <> a1:32 var
+R4710:4724 VST.floyd.val_lemmas <> eval_expr_binop thm
+prf 4741:4754 <> eval_expr_unop
+R4769:4777 VST.veric.mpred <> compspecs class
+binder 4765:4766 <> cs:35
+binder 4780:4781 <> op:36
+binder 4783:4784 <> a1:37
+binder 4786:4786 <> t:38
+R4814:4826 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4789:4797 VST.veric.expr <> eval_expr def
+R4800:4804 compcert.cfrontend.Clight <> Eunop constr
+R4812:4812 VST.floyd.val_lemmas <> t:38 var
+R4809:4810 VST.floyd.val_lemmas <> a1:37 var
+R4806:4807 VST.floyd.val_lemmas <> op:36 var
+R4827:4831 VST.veric.mpred <> lift1 def
+R4861:4869 VST.veric.expr <> eval_expr def
+R4871:4872 VST.floyd.val_lemmas <> a1:37 var
+R4834:4842 VST.veric.expr <> eval_unop def
+R4848:4853 compcert.cfrontend.Clight <> typeof def
+R4855:4856 VST.floyd.val_lemmas <> a1:37 var
+R4844:4845 VST.floyd.val_lemmas <> op:36 var
+R4915:4928 VST.floyd.val_lemmas <> eval_expr_unop thm
+prf 4987:5005 <> eval_expr_Etempvar'
+R5021:5029 VST.veric.mpred <> compspecs class
+binder 5017:5018 <> cs:39
+binder 5033:5033 <> i:40
+binder 5035:5035 <> t:41
+R5047:5049 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5038:5044 VST.veric.mpred <> eval_id def
+R5046:5046 VST.floyd.val_lemmas <> i:40 var
+R5050:5058 VST.veric.expr <> eval_expr def
+R5061:5068 compcert.cfrontend.Clight <> Etempvar constr
+R5072:5072 VST.floyd.val_lemmas <> t:41 var
+R5070:5070 VST.floyd.val_lemmas <> i:40 var
+R5168:5179 compcert.lib.Integers Int add_zero thm
+R5182:5195 compcert.lib.Integers Int add_zero_l thm
+R5197:5210 compcert.lib.Integers Int sub_zero_l thm
+R5233:5247 compcert.lib.Integers Ptrofs add_zero thm
+R5250:5266 compcert.lib.Integers Ptrofs add_zero_l thm
+R5268:5284 compcert.lib.Integers Ptrofs sub_zero_l thm
+prf 5301:5316 <> eval_var_env_set
+binder 5328:5328 <> i:42
+binder 5330:5330 <> t:43
+binder 5332:5332 <> j:44
+binder 5334:5334 <> v:45
+R5342:5348 VST.veric.mpred <> environ ind
+binder 5337:5339 <> rho:46
+R5382:5384 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5352:5359 VST.veric.expr <> eval_var def
+R5366:5372 VST.veric.mpred <> env_set def
+R5380:5380 VST.floyd.val_lemmas <> v:45 var
+R5378:5378 VST.floyd.val_lemmas <> j:44 var
+R5374:5376 VST.floyd.val_lemmas <> rho:46 var
+R5363:5363 VST.floyd.val_lemmas <> t:43 var
+R5361:5361 VST.floyd.val_lemmas <> i:42 var
+R5385:5392 VST.veric.expr <> eval_var def
+R5398:5400 VST.floyd.val_lemmas <> rho:46 var
+R5396:5396 VST.floyd.val_lemmas <> t:43 var
+R5394:5394 VST.floyd.val_lemmas <> i:42 var
+R5441:5456 VST.floyd.val_lemmas <> eval_var_env_set thm
+prf 5473:5489 <> eval_expropt_Some
+R5504:5512 VST.veric.mpred <> compspecs class
+binder 5500:5501 <> cs:47
+binder 5516:5516 <> e:48
+R5540:5542 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5519:5530 VST.veric.expr <> eval_expropt def
+R5533:5536 Coq.Init.Datatypes <> Some constr
+R5538:5538 VST.floyd.val_lemmas <> e:48 var
+R5543:5543 VST.veric.lift LiftNotation :::'`'_x not
+R5548:5561 VST.veric.lift LiftNotation :::'`'_x not
+R5544:5547 Coq.Init.Datatypes <> Some constr
+R5550:5558 VST.veric.expr <> eval_expr def
+R5560:5560 VST.floyd.val_lemmas <> e:48 var
+prf 5595:5611 <> eval_expropt_None
+R5627:5635 VST.veric.mpred <> compspecs class
+binder 5623:5624 <> cs:49
+R5657:5659 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5640:5651 VST.veric.expr <> eval_expropt def
+R5653:5656 Coq.Init.Datatypes <> None constr
+R5660:5660 VST.veric.lift LiftNotation :::'`'_x not
+R5661:5664 Coq.Init.Datatypes <> None constr
+R5706:5722 VST.floyd.val_lemmas <> eval_expropt_Some thm
+R5725:5741 VST.floyd.val_lemmas <> eval_expropt_None thm
+prf 5758:5776 <> deref_noload_tarray
+binder 5788:5789 <> ty:50
+binder 5791:5791 <> n:51
+R5820:5823 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5834:5834 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5794:5805 VST.veric.expr <> deref_noload def
+R5808:5813 compcert.exportclight.Clightdefs <> tarray def
+R5818:5818 VST.floyd.val_lemmas <> n:51 var
+R5815:5816 VST.floyd.val_lemmas <> ty:50 var
+binder 5828:5828 <> v:52
+R5833:5833 VST.floyd.val_lemmas <> v:52 var
+R5902:5920 VST.floyd.val_lemmas <> deref_noload_tarray thm
+prf 5937:5955 <> deref_noload_Tarray
+binder 5967:5968 <> ty:53
+binder 5970:5970 <> n:54
+binder 5972:5972 <> a:55
+R6003:6006 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6017:6017 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5975:5986 VST.veric.expr <> deref_noload def
+R5989:5994 compcert.cfrontend.Ctypes <> Tarray constr
+R6001:6001 VST.floyd.val_lemmas <> a:55 var
+R5999:5999 VST.floyd.val_lemmas <> n:54 var
+R5996:5997 VST.floyd.val_lemmas <> ty:53 var
+binder 6011:6011 <> v:56
+R6016:6016 VST.floyd.val_lemmas <> v:56 var
+R6085:6103 VST.floyd.val_lemmas <> deref_noload_Tarray thm
+prf 6120:6133 <> flip_lifted_eq
+R6157:6160 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6161:6163 compcert.common.Values <> val ind
+R6150:6156 VST.veric.mpred <> environ ind
+binder 6146:6147 <> v1:57
+R6171:6173 compcert.common.Values <> val ind
+binder 6167:6168 <> v2:58
+R6193:6195 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6181:6181 VST.veric.lift LiftNotation :::'`'_x not
+R6184:6192 VST.veric.lift LiftNotation :::'`'_x not
+R6182:6183 Coq.Init.Logic <> eq ind
+R6188:6189 VST.veric.lift LiftNotation :::'`('_x_')' not
+R6192:6192 VST.veric.lift LiftNotation :::'`('_x_')' not
+R6190:6191 VST.floyd.val_lemmas <> v2:58 var
+R6185:6186 VST.floyd.val_lemmas <> v1:57 var
+R6196:6197 VST.veric.lift LiftNotation :::'`('_x_')' not
+R6203:6206 VST.veric.lift LiftNotation :::'`('_x_')' not
+R6198:6199 Coq.Init.Logic <> eq ind
+R6201:6202 VST.floyd.val_lemmas <> v2:58 var
+R6205:6206 VST.floyd.val_lemmas <> v1:57 var
+R6263:6270 VST.msl.Axioms <> prop_ext prfax
+R6263:6270 VST.msl.Axioms <> prop_ext prfax
+R6311:6324 VST.floyd.val_lemmas <> flip_lifted_eq thm
+prf 6341:6364 <> isptr_is_pointer_or_null
+binder 6376:6376 <> v:59
+R6386:6389 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6390:6407 VST.veric.val_lemmas <> is_pointer_or_null def
+R6409:6409 VST.floyd.val_lemmas <> v:59 var
+R6379:6383 VST.veric.val_lemmas <> isptr def
+R6385:6385 VST.floyd.val_lemmas <> v:59 var
+def 6522:6532 <> add_ptr_int
+R6540:6548 VST.veric.mpred <> compspecs class
+binder 6536:6537 <> cs:60
+R6557:6560 compcert.cfrontend.Ctypes <> type ind
+binder 6553:6554 <> ty:61
+R6567:6569 compcert.common.Values <> val ind
+binder 6564:6564 <> v:62
+R6576:6576 Coq.Numbers.BinNums <> Z ind
+binder 6573:6573 <> i:63
+R6581:6583 compcert.common.Values <> val ind
+R6599:6608 VST.veric.expr <> eval_binop def
+R6637:6640 compcert.common.Values <> Vint constr
+R6643:6650 compcert.lib.Integers Int repr def
+R6652:6652 VST.floyd.val_lemmas <> i:63 var
+R6634:6634 VST.floyd.val_lemmas <> v:62 var
+R6629:6632 compcert.exportclight.Clightdefs <> tint def
+R6620:6623 compcert.exportclight.Clightdefs <> tptr def
+R6625:6626 VST.floyd.val_lemmas <> ty:61 var
+R6610:6617 compcert.cfrontend.Cop <> Oadd constr
+prf 6664:6681 <> add_ptr_int_offset
+R6699:6707 VST.veric.mpred <> compspecs class
+binder 6695:6696 <> cs:64
+binder 6711:6711 <> t:65
+binder 6713:6713 <> v:66
+binder 6715:6715 <> n:67
+R6745:6750 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6767:6772 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6790:6792 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6773:6783 VST.floyd.val_lemmas <> add_ptr_int def
+R6789:6789 VST.floyd.val_lemmas <> n:67 var
+R6787:6787 VST.floyd.val_lemmas <> v:66 var
+R6785:6785 VST.floyd.val_lemmas <> t:65 var
+R6793:6802 VST.veric.val_lemmas <> offset_val def
+R6819:6819 VST.floyd.val_lemmas <> v:66 var
+R6813:6815 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6805:6810 VST.veric.expr <> sizeof def
+R6812:6812 VST.floyd.val_lemmas <> t:65 var
+R6816:6816 VST.floyd.val_lemmas <> n:67 var
+R6751:6764 VST.floyd.functional_base <> repable_signed def
+R6766:6766 VST.floyd.val_lemmas <> n:67 var
+R6720:6733 VST.floyd.functional_base <> repable_signed def
+R6736:6741 VST.veric.expr <> sizeof def
+R6743:6743 VST.floyd.val_lemmas <> t:65 var
+prf 6865:6879 <> typed_false_cmp
+binder 6891:6892 <> op:68
+binder 6894:6894 <> i:69
+binder 6896:6896 <> j:70
+R6972:6978 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7013:7015 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6979:6985 compcert.lib.Integers Int cmp def
+R7012:7012 VST.floyd.val_lemmas <> j:70 var
+R7010:7010 VST.floyd.val_lemmas <> i:69 var
+R6988:7004 compcert.lib.Integers <> negate_comparison def
+R7006:7007 VST.floyd.val_lemmas <> op:68 var
+R7016:7019 Coq.Init.Datatypes <> true constr
+R6903:6913 VST.veric.SeparationLogic <> typed_false def
+R6921:6929 VST.veric.val_lemmas <> force_val def
+R6932:6938 VST.veric.Clight_Cop2 <> sem_cmp def
+R6963:6966 compcert.common.Values <> Vint constr
+R6968:6968 VST.floyd.val_lemmas <> j:70 var
+R6954:6957 compcert.common.Values <> Vint constr
+R6959:6959 VST.floyd.val_lemmas <> i:69 var
+R6948:6951 compcert.exportclight.Clightdefs <> tint def
+R6943:6946 compcert.exportclight.Clightdefs <> tint def
+R6940:6941 VST.floyd.val_lemmas <> op:68 var
+R6915:6918 compcert.exportclight.Clightdefs <> tint def
+R7044:7050 VST.veric.Clight_Cop2 <> sem_cmp def
+R7065:7080 compcert.cfrontend.Cop <> classify_cmp def
+R7108:7121 compcert.lib.Integers Int negate_cmp thm
+R7108:7121 compcert.lib.Integers Int negate_cmp thm
+R7108:7121 compcert.lib.Integers Int negate_cmp thm
+R7131:7138 VST.veric.Clight_Cop2 <> both_int def
+R7141:7149 VST.veric.val_lemmas <> force_val def
+R7152:7162 VST.veric.SeparationLogic <> typed_false def
+R7165:7179 VST.veric.mpred <> strict_bool_val def
+R7182:7189 VST.veric.Clight_Cop2 <> sem_cast def
+R7192:7204 VST.veric.Clight_Cop2 <> classify_cast def
+R7207:7210 compcert.exportclight.Clightdefs <> tint def
+R7227:7237 compcert.x86_32.Archi <> ptr64 def
+R7227:7237 compcert.x86_32.Archi <> ptr64 def
+R7269:7275 compcert.lib.Integers Int cmp def
+R7269:7275 compcert.lib.Integers Int cmp def
+R7309:7315 compcert.lib.Integers Int cmp def
+R7309:7315 compcert.lib.Integers Int cmp def
+prf 7351:7364 <> typed_true_cmp
+binder 7376:7377 <> op:71
+binder 7379:7379 <> i:72
+binder 7381:7381 <> j:73
+R7455:7461 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7476:7478 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7462:7468 compcert.lib.Integers Int cmp def
+R7475:7475 VST.floyd.val_lemmas <> j:73 var
+R7473:7473 VST.floyd.val_lemmas <> i:72 var
+R7470:7471 VST.floyd.val_lemmas <> op:71 var
+R7479:7482 Coq.Init.Datatypes <> true constr
+R7387:7396 VST.veric.SeparationLogic <> typed_true def
+R7404:7412 VST.veric.val_lemmas <> force_val def
+R7415:7421 VST.veric.Clight_Cop2 <> sem_cmp def
+R7446:7449 compcert.common.Values <> Vint constr
+R7451:7451 VST.floyd.val_lemmas <> j:73 var
+R7437:7440 compcert.common.Values <> Vint constr
+R7442:7442 VST.floyd.val_lemmas <> i:72 var
+R7431:7434 compcert.exportclight.Clightdefs <> tint def
+R7426:7429 compcert.exportclight.Clightdefs <> tint def
+R7423:7424 VST.floyd.val_lemmas <> op:71 var
+R7398:7401 compcert.exportclight.Clightdefs <> tint def
+R7507:7513 VST.veric.Clight_Cop2 <> sem_cmp def
+R7528:7543 compcert.cfrontend.Cop <> classify_cmp def
+R7570:7577 VST.veric.Clight_Cop2 <> both_int def
+R7580:7588 VST.veric.val_lemmas <> force_val def
+R7591:7601 VST.veric.SeparationLogic <> typed_false def
+R7604:7618 VST.veric.mpred <> strict_bool_val def
+R7621:7628 VST.veric.Clight_Cop2 <> sem_cast def
+R7631:7643 VST.veric.Clight_Cop2 <> classify_cast def
+R7646:7649 compcert.exportclight.Clightdefs <> tint def
+R7666:7676 compcert.x86_32.Archi <> ptr64 def
+R7666:7676 compcert.x86_32.Archi <> ptr64 def
+R7708:7714 compcert.lib.Integers Int cmp def
+R7708:7714 compcert.lib.Integers Int cmp def
+R7748:7754 compcert.lib.Integers Int cmp def
+R7748:7754 compcert.lib.Integers Int cmp def
+def 7795:7798 <> Zcmp
+R7805:7814 compcert.lib.Integers <> comparison ind
+binder 7801:7802 <> op:74
+R7820:7823 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7825:7828 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7824:7824 Coq.Numbers.BinNums <> Z ind
+R7819:7819 Coq.Numbers.BinNums <> Z ind
+R7844:7845 VST.floyd.val_lemmas <> op:74 var
+R7855:7857 compcert.lib.Integers <> Ceq constr
+R7862:7863 Coq.Init.Logic <> eq ind
+R7868:7870 compcert.lib.Integers <> Cne constr
+binder 7880:7880 <> i:76
+binder 7882:7882 <> j:77
+R7888:7889 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7887:7887 VST.floyd.val_lemmas <> i:76 var
+R7890:7890 VST.floyd.val_lemmas <> j:77 var
+R7896:7898 compcert.lib.Integers <> Clt constr
+R7903:7906 Coq.ZArith.BinInt Z lt def
+R7911:7913 compcert.lib.Integers <> Cle constr
+R7918:7921 Coq.ZArith.BinInt Z le def
+R7926:7928 compcert.lib.Integers <> Cgt constr
+R7933:7936 Coq.ZArith.BinInt Z gt def
+R7941:7943 compcert.lib.Integers <> Cge constr
+R7948:7951 Coq.ZArith.BinInt Z ge def
+prf 7966:7977 <> int_cmp_repr
+binder 7988:7989 <> op:78
+binder 7991:7991 <> i:79
+binder 7993:7993 <> j:80
+R8012:8015 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8032:8038 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8082:8088 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8089:8092 VST.floyd.val_lemmas <> Zcmp def
+R8099:8099 VST.floyd.val_lemmas <> j:80 var
+R8097:8097 VST.floyd.val_lemmas <> i:79 var
+R8094:8095 VST.floyd.val_lemmas <> op:78 var
+R8075:8077 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8039:8045 compcert.lib.Integers Int cmp def
+R8064:8071 compcert.lib.Integers Int repr def
+R8073:8073 VST.floyd.val_lemmas <> j:80 var
+R8051:8058 compcert.lib.Integers Int repr def
+R8060:8060 VST.floyd.val_lemmas <> i:79 var
+R8047:8048 VST.floyd.val_lemmas <> op:78 var
+R8078:8081 Coq.Init.Datatypes <> true constr
+R8016:8029 VST.floyd.functional_base <> repable_signed def
+R8031:8031 VST.floyd.val_lemmas <> j:80 var
+R7996:8009 VST.floyd.functional_base <> repable_signed def
+R8011:8011 VST.floyd.val_lemmas <> i:79 var
+R8124:8130 compcert.lib.Integers Int cmp def
+R8133:8138 compcert.lib.Integers Int eq def
+R8141:8146 compcert.lib.Integers Int lt def
+R8167:8169 compcert.lib.Coqlib <> zeq def
+R8200:8211 compcert.lib.Integers Int unsigned def
+R8214:8221 compcert.lib.Integers Int repr def
+R8172:8183 compcert.lib.Integers Int unsigned def
+R8186:8193 compcert.lib.Integers Int repr def
+R8255:8259 Coq.Init.Datatypes <> false constr
+R8245:8248 Coq.Init.Datatypes <> true constr
+R8272:8274 compcert.lib.Coqlib <> zeq def
+R8295:8299 Coq.Init.Datatypes <> false constr
+R8285:8288 Coq.Init.Datatypes <> true constr
+R8167:8169 compcert.lib.Coqlib <> zeq def
+R8200:8211 compcert.lib.Integers Int unsigned def
+R8214:8221 compcert.lib.Integers Int repr def
+R8172:8183 compcert.lib.Integers Int unsigned def
+R8186:8193 compcert.lib.Integers Int repr def
+R8255:8259 Coq.Init.Datatypes <> false constr
+R8245:8248 Coq.Init.Datatypes <> true constr
+R8272:8274 compcert.lib.Coqlib <> zeq def
+R8295:8299 Coq.Init.Datatypes <> false constr
+R8285:8288 Coq.Init.Datatypes <> true constr
+R8323:8325 compcert.lib.Coqlib <> zeq def
+R8343:8345 compcert.lib.Coqlib <> zeq def
+R8376:8387 compcert.lib.Integers Int unsigned def
+R8390:8397 compcert.lib.Integers Int repr def
+R8348:8359 compcert.lib.Integers Int unsigned def
+R8362:8369 compcert.lib.Integers Int repr def
+R8323:8325 compcert.lib.Coqlib <> zeq def
+R8343:8345 compcert.lib.Coqlib <> zeq def
+R8376:8387 compcert.lib.Integers Int unsigned def
+R8390:8397 compcert.lib.Integers Int repr def
+R8348:8359 compcert.lib.Integers Int unsigned def
+R8362:8369 compcert.lib.Integers Int repr def
+R8343:8345 compcert.lib.Coqlib <> zeq def
+R8376:8387 compcert.lib.Integers Int unsigned def
+R8390:8397 compcert.lib.Integers Int repr def
+R8348:8359 compcert.lib.Integers Int unsigned def
+R8362:8369 compcert.lib.Integers Int repr def
+R8466:8480 compcert.lib.Integers Int signed_repr thm
+R8466:8480 compcert.lib.Integers Int signed_repr thm
+R8496:8513 compcert.lib.Integers Int signed_repr_eq thm
+R8496:8513 compcert.lib.Integers Int signed_repr_eq thm
+R8496:8513 compcert.lib.Integers Int signed_repr_eq thm
+R8527:8541 compcert.lib.Integers Int signed_repr thm
+R8558:8575 compcert.lib.Integers Int signed_repr_eq thm
+R8527:8541 compcert.lib.Integers Int signed_repr thm
+R8558:8575 compcert.lib.Integers Int signed_repr_eq thm
+R8558:8575 compcert.lib.Integers Int signed_repr_eq thm
+R8625:8644 compcert.lib.Integers Int unsigned_repr_eq thm
+R8625:8644 compcert.lib.Integers Int unsigned_repr_eq thm
+R8625:8644 compcert.lib.Integers Int unsigned_repr_eq thm
+R8625:8644 compcert.lib.Integers Int unsigned_repr_eq thm
+R8625:8644 compcert.lib.Integers Int unsigned_repr_eq thm
+R8625:8644 compcert.lib.Integers Int unsigned_repr_eq thm
+R8857:8860 VST.floyd.val_lemmas <> Zcmp def
+R8872:8886 compcert.lib.Integers Int signed_repr thm
+R8909:8923 compcert.lib.Integers Int signed_repr thm
+R8872:8886 compcert.lib.Integers Int signed_repr thm
+R8872:8886 compcert.lib.Integers Int signed_repr thm
+R8909:8923 compcert.lib.Integers Int signed_repr thm
+R8909:8923 compcert.lib.Integers Int signed_repr thm
+prf 9116:9135 <> typed_false_cmp_repr
+binder 9147:9148 <> op:81
+binder 9150:9150 <> i:82
+binder 9152:9152 <> j:83
+R9174:9177 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9194:9200 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9353:9359 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9360:9363 VST.floyd.val_lemmas <> Zcmp def
+R9390:9390 VST.floyd.val_lemmas <> j:83 var
+R9388:9388 VST.floyd.val_lemmas <> i:82 var
+R9366:9382 compcert.lib.Integers <> negate_comparison def
+R9384:9385 VST.floyd.val_lemmas <> op:81 var
+R9201:9211 VST.veric.SeparationLogic <> typed_false def
+R9219:9227 VST.veric.val_lemmas <> force_val def
+R9230:9236 VST.veric.Clight_Cop2 <> sem_cmp def
+R9332:9335 compcert.common.Values <> Vint constr
+R9338:9345 compcert.lib.Integers Int repr def
+R9347:9347 VST.floyd.val_lemmas <> j:83 var
+R9282:9285 compcert.common.Values <> Vint constr
+R9288:9295 compcert.lib.Integers Int repr def
+R9297:9297 VST.floyd.val_lemmas <> i:82 var
+R9246:9249 compcert.exportclight.Clightdefs <> tint def
+R9241:9244 compcert.exportclight.Clightdefs <> tint def
+R9238:9239 VST.floyd.val_lemmas <> op:81 var
+R9213:9216 compcert.exportclight.Clightdefs <> tint def
+R9178:9191 VST.floyd.functional_base <> repable_signed def
+R9193:9193 VST.floyd.val_lemmas <> j:83 var
+R9158:9171 VST.floyd.functional_base <> repable_signed def
+R9173:9173 VST.floyd.val_lemmas <> i:82 var
+R9416:9430 VST.floyd.val_lemmas <> typed_false_cmp thm
+R9416:9430 VST.floyd.val_lemmas <> typed_false_cmp thm
+R9446:9457 VST.floyd.val_lemmas <> int_cmp_repr thm
+R9446:9457 VST.floyd.val_lemmas <> int_cmp_repr thm
+prf 9478:9496 <> typed_true_cmp_repr
+binder 9508:9509 <> op:84
+binder 9511:9511 <> i:85
+binder 9513:9513 <> j:86
+R9535:9538 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9555:9561 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9713:9719 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9720:9723 VST.floyd.val_lemmas <> Zcmp def
+R9730:9730 VST.floyd.val_lemmas <> j:86 var
+R9728:9728 VST.floyd.val_lemmas <> i:85 var
+R9725:9726 VST.floyd.val_lemmas <> op:84 var
+R9562:9571 VST.veric.SeparationLogic <> typed_true def
+R9579:9587 VST.veric.val_lemmas <> force_val def
+R9590:9596 VST.veric.Clight_Cop2 <> sem_cmp def
+R9692:9695 compcert.common.Values <> Vint constr
+R9698:9705 compcert.lib.Integers Int repr def
+R9707:9707 VST.floyd.val_lemmas <> j:86 var
+R9642:9645 compcert.common.Values <> Vint constr
+R9648:9655 compcert.lib.Integers Int repr def
+R9657:9657 VST.floyd.val_lemmas <> i:85 var
+R9606:9609 compcert.exportclight.Clightdefs <> tint def
+R9601:9604 compcert.exportclight.Clightdefs <> tint def
+R9598:9599 VST.floyd.val_lemmas <> op:84 var
+R9573:9576 compcert.exportclight.Clightdefs <> tint def
+R9539:9552 VST.floyd.functional_base <> repable_signed def
+R9554:9554 VST.floyd.val_lemmas <> j:86 var
+R9519:9532 VST.floyd.functional_base <> repable_signed def
+R9534:9534 VST.floyd.val_lemmas <> i:85 var
+R9756:9769 VST.floyd.val_lemmas <> typed_true_cmp thm
+R9756:9769 VST.floyd.val_lemmas <> typed_true_cmp thm
+R9785:9796 VST.floyd.val_lemmas <> int_cmp_repr thm
+R9785:9796 VST.floyd.val_lemmas <> int_cmp_repr thm
+R9875:9893 VST.floyd.val_lemmas <> typed_true_cmp_repr thm
+R9840:9859 VST.floyd.val_lemmas <> typed_false_cmp_repr thm
+R9933:9946 VST.floyd.functional_base <> repable_signed def
+R9949:9962 compcert.lib.Integers Int min_signed def
+R9965:9978 compcert.lib.Integers Int max_signed def
+prf 10004:10021 <> isptr_deref_noload
+binder 10032:10032 <> t:87
+binder 10034:10034 <> p:88
+R10065:10068 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10093:10095 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10069:10073 VST.veric.val_lemmas <> isptr def
+R10076:10087 VST.veric.expr <> deref_noload def
+R10091:10091 VST.floyd.val_lemmas <> p:88 var
+R10089:10089 VST.floyd.val_lemmas <> t:87 var
+R10096:10100 VST.veric.val_lemmas <> isptr def
+R10102:10102 VST.floyd.val_lemmas <> p:88 var
+R10050:10052 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10037:10047 compcert.cfrontend.Ctypes <> access_mode def
+R10049:10049 VST.floyd.val_lemmas <> t:87 var
+R10053:10064 compcert.cfrontend.Ctypes <> By_reference constr
+R10127:10138 VST.veric.expr <> deref_noload def
+R10183:10200 VST.floyd.val_lemmas <> isptr_deref_noload thm
+def 10240:10246 <> headptr
+R10252:10254 compcert.common.Values <> val ind
+binder 10249:10249 <> v:89
+R10268:10274 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10276:10278 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 10275:10275 <> b:90
+R10280:10282 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10279:10279 VST.floyd.val_lemmas <> v:89 var
+R10283:10286 compcert.common.Values <> Vptr constr
+R10290:10300 compcert.lib.Integers Ptrofs zero def
+R10288:10288 VST.floyd.val_lemmas <> b:90 var
+prf 10310:10322 <> headptr_isptr
+binder 10332:10332 <> v:91
+R10346:10349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10350:10354 VST.veric.val_lemmas <> isptr def
+R10356:10356 VST.floyd.val_lemmas <> v:91 var
+R10337:10343 VST.floyd.val_lemmas <> headptr def
+R10345:10345 VST.floyd.val_lemmas <> v:91 var
+prf 10468:10486 <> headptr_offset_zero
+binder 10496:10496 <> v:92
+R10525:10531 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10501:10507 VST.floyd.val_lemmas <> headptr def
+R10510:10519 VST.veric.val_lemmas <> offset_val def
+R10523:10523 VST.floyd.val_lemmas <> v:92 var
+R10532:10538 VST.floyd.val_lemmas <> headptr def
+R10540:10540 VST.floyd.val_lemmas <> v:92 var
+R10664:10673 compcert.lib.Integers Ptrofs add def
+R10678:10688 compcert.lib.Integers Ptrofs repr def
+R10664:10673 compcert.lib.Integers Ptrofs add def
+R10678:10688 compcert.lib.Integers Ptrofs repr def
+R10731:10745 compcert.lib.Integers Ptrofs add_zero thm
+R10731:10745 compcert.lib.Integers Ptrofs add_zero thm
+R10731:10745 compcert.lib.Integers Ptrofs add_zero thm
+prf 10939:10953 <> typed_false_ptr
+binder 10966:10966 <> t:93
+binder 10968:10968 <> a:94
+binder 10970:10970 <> v:95
+R11003:11006 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11008:11008 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11007:11007 VST.floyd.val_lemmas <> v:95 var
+R11009:11015 VST.veric.base <> nullval def
+R10975:10985 VST.veric.SeparationLogic <> typed_false def
+R11002:11002 VST.floyd.val_lemmas <> v:95 var
+R10988:10995 compcert.cfrontend.Ctypes <> Tpointer constr
+R10999:10999 VST.floyd.val_lemmas <> a:94 var
+R10997:10997 VST.floyd.val_lemmas <> t:93 var
+R11032:11042 VST.veric.SeparationLogic <> typed_false def
+R11045:11059 VST.veric.mpred <> strict_bool_val def
+R11062:11068 VST.veric.base <> nullval def
+R11095:11105 compcert.x86_32.Archi <> ptr64 def
+R11095:11105 compcert.x86_32.Archi <> ptr64 def
+R11173:11185 compcert.lib.Integers Int64 eq_spec thm
+R11189:11198 compcert.lib.Integers Int64 zero def
+R11223:11230 compcert.lib.Integers Int64 eq def
+R11234:11243 compcert.lib.Integers Int64 zero def
+R11267:11277 compcert.lib.Integers Int eq_spec thm
+R11281:11288 compcert.lib.Integers Int zero def
+R11312:11317 compcert.lib.Integers Int eq def
+R11321:11328 compcert.lib.Integers Int zero def
+R11173:11185 compcert.lib.Integers Int64 eq_spec thm
+R11189:11198 compcert.lib.Integers Int64 zero def
+R11267:11277 compcert.lib.Integers Int eq_spec thm
+R11281:11288 compcert.lib.Integers Int zero def
+R11312:11317 compcert.lib.Integers Int eq def
+R11321:11328 compcert.lib.Integers Int zero def
+prf 11379:11392 <> typed_true_ptr
+binder 11405:11405 <> t:96
+binder 11407:11407 <> a:97
+binder 11409:11409 <> v:98
+R11441:11444 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11445:11449 VST.veric.val_lemmas <> isptr def
+R11451:11451 VST.floyd.val_lemmas <> v:98 var
+R11414:11423 VST.veric.SeparationLogic <> typed_true def
+R11440:11440 VST.floyd.val_lemmas <> v:98 var
+R11426:11433 compcert.cfrontend.Ctypes <> Tpointer constr
+R11437:11437 VST.floyd.val_lemmas <> a:97 var
+R11435:11435 VST.floyd.val_lemmas <> t:96 var
+R11468:11477 VST.veric.SeparationLogic <> typed_true def
+R11480:11494 VST.veric.mpred <> strict_bool_val def
+R11564:11574 compcert.x86_32.Archi <> ptr64 def
+R11564:11574 compcert.x86_32.Archi <> ptr64 def
+prf 11655:11667 <> int_cmp_repr'
+binder 11678:11679 <> op:99
+binder 11681:11681 <> i:100
+binder 11683:11683 <> j:101
+R11702:11705 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11722:11728 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11773:11779 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11780:11783 VST.floyd.val_lemmas <> Zcmp def
+R11810:11810 VST.floyd.val_lemmas <> j:101 var
+R11808:11808 VST.floyd.val_lemmas <> i:100 var
+R11786:11802 compcert.lib.Integers <> negate_comparison def
+R11804:11805 VST.floyd.val_lemmas <> op:99 var
+R11765:11767 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11729:11735 compcert.lib.Integers Int cmp def
+R11754:11761 compcert.lib.Integers Int repr def
+R11763:11763 VST.floyd.val_lemmas <> j:101 var
+R11741:11748 compcert.lib.Integers Int repr def
+R11750:11750 VST.floyd.val_lemmas <> i:100 var
+R11737:11738 VST.floyd.val_lemmas <> op:99 var
+R11768:11772 Coq.Init.Datatypes <> false constr
+R11706:11719 VST.floyd.functional_base <> repable_signed def
+R11721:11721 VST.floyd.val_lemmas <> j:101 var
+R11686:11699 VST.floyd.functional_base <> repable_signed def
+R11701:11701 VST.floyd.val_lemmas <> i:100 var
+R11834:11845 VST.floyd.val_lemmas <> int_cmp_repr thm
+R11834:11845 VST.floyd.val_lemmas <> int_cmp_repr thm
+R11862:11875 compcert.lib.Integers Int negate_cmp thm
+R11862:11875 compcert.lib.Integers Int negate_cmp thm
+R11862:11875 compcert.lib.Integers Int negate_cmp thm
+prf 11915:11933 <> typed_false_of_bool
+binder 11944:11944 <> x:102
+R11979:11983 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11991:11991 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11985:11985 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11984:11984 VST.floyd.val_lemmas <> x:102 var
+R11986:11990 Coq.Init.Datatypes <> false constr
+R11947:11957 VST.veric.SeparationLogic <> typed_false def
+R11965:11975 compcert.common.Values Val of_bool def
+R11977:11977 VST.floyd.val_lemmas <> x:102 var
+R11959:11962 compcert.exportclight.Clightdefs <> tint def
+R12008:12018 VST.veric.SeparationLogic <> typed_false def
+R12035:12049 VST.veric.mpred <> strict_bool_val def
+R12052:12062 compcert.common.Values Val of_bool def
+prf 12133:12150 <> typed_true_of_bool
+binder 12161:12161 <> x:103
+R12195:12199 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12206:12206 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12201:12201 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12200:12200 VST.floyd.val_lemmas <> x:103 var
+R12202:12205 Coq.Init.Datatypes <> true constr
+R12164:12173 VST.veric.SeparationLogic <> typed_true def
+R12181:12191 compcert.common.Values Val of_bool def
+R12193:12193 VST.floyd.val_lemmas <> x:103 var
+R12175:12178 compcert.exportclight.Clightdefs <> tint def
+R12223:12232 VST.veric.SeparationLogic <> typed_true def
+R12249:12263 VST.veric.mpred <> strict_bool_val def
+R12266:12276 compcert.common.Values Val of_bool def
+prf 12347:12362 <> typed_false_tint
+R12383:12388 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 12396:12396 <> v:104
+R12417:12420 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12422:12422 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12421:12421 VST.floyd.val_lemmas <> v:104 var
+R12423:12429 VST.veric.base <> nullval def
+R12399:12409 VST.veric.SeparationLogic <> typed_false def
+R12416:12416 VST.floyd.val_lemmas <> v:104 var
+R12411:12414 compcert.exportclight.Clightdefs <> tint def
+R12377:12377 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12366:12376 compcert.x86_32.Archi <> ptr64 def
+R12378:12382 Coq.Init.Datatypes <> false constr
+R12490:12495 compcert.lib.Integers Int eq def
+R12499:12506 compcert.lib.Integers Int zero def
+R12490:12495 compcert.lib.Integers Int eq def
+R12499:12506 compcert.lib.Integers Int zero def
+R12531:12538 VST.veric.val_lemmas <> int_eq_e thm
+R12531:12538 VST.veric.val_lemmas <> int_eq_e thm
+prf 12589:12605 <> typed_false_tlong
+R12625:12630 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 12638:12638 <> v:105
+R12660:12663 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12665:12665 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12664:12664 VST.floyd.val_lemmas <> v:105 var
+R12666:12672 VST.veric.base <> nullval def
+R12641:12651 VST.veric.SeparationLogic <> typed_false def
+R12659:12659 VST.floyd.val_lemmas <> v:105 var
+R12653:12657 compcert.exportclight.Clightdefs <> tlong def
+R12620:12620 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12609:12619 compcert.x86_32.Archi <> ptr64 def
+R12621:12624 Coq.Init.Datatypes <> true constr
+R12697:12703 VST.veric.base <> nullval def
+R12761:12773 compcert.lib.Integers Int64 eq_spec thm
+R12777:12786 compcert.lib.Integers Int64 zero def
+R12761:12773 compcert.lib.Integers Int64 eq_spec thm
+R12777:12786 compcert.lib.Integers Int64 zero def
+R12801:12808 compcert.lib.Integers Int64 eq def
+R12812:12821 compcert.lib.Integers Int64 zero def
+R12801:12808 compcert.lib.Integers Int64 eq def
+R12812:12821 compcert.lib.Integers Int64 zero def
+prf 12858:12869 <> typed_true_e
+binder 12880:12880 <> t:106
+binder 12882:12882 <> v:107
+R12899:12902 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12904:12905 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R12903:12903 VST.floyd.val_lemmas <> v:107 var
+R12906:12912 VST.veric.base <> nullval def
+R12885:12894 VST.veric.SeparationLogic <> typed_true def
+R12898:12898 VST.floyd.val_lemmas <> v:107 var
+R12896:12896 VST.floyd.val_lemmas <> t:106 var
+R12966:12972 VST.veric.base <> nullval def
+R12975:12989 VST.veric.mpred <> strict_bool_val def
+R13007:13017 compcert.x86_32.Archi <> ptr64 def
+R13007:13017 compcert.x86_32.Archi <> ptr64 def
+prf 13049:13069 <> typed_false_tint_Vint
+binder 13081:13081 <> v:108
+R13109:13112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13114:13116 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13113:13113 VST.floyd.val_lemmas <> v:108 var
+R13117:13124 compcert.lib.Integers Int zero def
+R13084:13094 VST.veric.SeparationLogic <> typed_false def
+R13102:13105 compcert.common.Values <> Vint constr
+R13107:13107 VST.floyd.val_lemmas <> v:108 var
+R13096:13099 compcert.exportclight.Clightdefs <> tint def
+R13149:13159 VST.veric.SeparationLogic <> typed_false def
+R13162:13176 VST.veric.mpred <> strict_bool_val def
+R13208:13218 compcert.lib.Integers Int eq_spec thm
+R13222:13229 compcert.lib.Integers Int zero def
+R13208:13218 compcert.lib.Integers Int eq_spec thm
+R13222:13229 compcert.lib.Integers Int zero def
+R13243:13248 compcert.lib.Integers Int eq def
+R13252:13259 compcert.lib.Integers Int zero def
+R13243:13248 compcert.lib.Integers Int eq def
+R13252:13259 compcert.lib.Integers Int zero def
+prf 13288:13307 <> typed_true_tint_Vint
+binder 13319:13319 <> v:109
+R13346:13349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13351:13354 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R13350:13350 VST.floyd.val_lemmas <> v:109 var
+R13355:13362 compcert.lib.Integers Int zero def
+R13322:13331 VST.veric.SeparationLogic <> typed_true def
+R13339:13342 compcert.common.Values <> Vint constr
+R13344:13344 VST.floyd.val_lemmas <> v:109 var
+R13333:13336 compcert.exportclight.Clightdefs <> tint def
+R13387:13396 VST.veric.SeparationLogic <> typed_true def
+R13399:13413 VST.veric.mpred <> strict_bool_val def
+R13445:13455 compcert.lib.Integers Int eq_spec thm
+R13459:13466 compcert.lib.Integers Int zero def
+R13445:13455 compcert.lib.Integers Int eq_spec thm
+R13459:13466 compcert.lib.Integers Int zero def
+R13480:13485 compcert.lib.Integers Int eq def
+R13489:13496 compcert.lib.Integers Int zero def
+R13480:13485 compcert.lib.Integers Int eq def
+R13489:13496 compcert.lib.Integers Int zero def
+prf 13525:13546 <> typed_true_tlong_Vlong
+binder 13558:13558 <> v:110
+R13587:13590 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13592:13595 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R13591:13591 VST.floyd.val_lemmas <> v:110 var
+R13596:13605 compcert.lib.Integers Int64 zero def
+R13561:13570 VST.veric.SeparationLogic <> typed_true def
+R13579:13583 compcert.common.Values <> Vlong constr
+R13585:13585 VST.floyd.val_lemmas <> v:110 var
+R13572:13576 compcert.exportclight.Clightdefs <> tlong def
+R13630:13639 VST.veric.SeparationLogic <> typed_true def
+R13642:13656 VST.veric.mpred <> strict_bool_val def
+R13688:13700 compcert.lib.Integers Int64 eq_spec thm
+R13704:13713 compcert.lib.Integers Int64 zero def
+R13688:13700 compcert.lib.Integers Int64 eq_spec thm
+R13704:13713 compcert.lib.Integers Int64 zero def
+R13727:13734 compcert.lib.Integers Int64 eq def
+R13738:13747 compcert.lib.Integers Int64 zero def
+R13727:13734 compcert.lib.Integers Int64 eq def
+R13738:13747 compcert.lib.Integers Int64 zero def
+R13898:13901 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13898:13901 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14027:14030 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14027:14030 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14081:14082 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14081:14082 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14147:14154 VST.floyd.functional_base <> ptr_eq_e thm
+R14180:14187 VST.veric.base <> Vint_inj thm
+R14224:14229 VST.veric.Cop2 <> tc_val def
+R14224:14229 VST.veric.Cop2 <> tc_val def
+R14245:14250 VST.veric.Cop2 <> tc_val def
+R14270:14277 VST.veric.Cop2 <> eqb_type def
+R14270:14277 VST.veric.Cop2 <> eqb_type def
+R14289:14293 Coq.Init.Datatypes <> false constr
+R14637:14639 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14637:14639 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14865:14871 VST.floyd.val_lemmas <> headptr def
+R14865:14871 VST.floyd.val_lemmas <> headptr def
+R15063:15069 VST.floyd.val_lemmas <> headptr def
+R15063:15069 VST.floyd.val_lemmas <> headptr def
+R15245:15249 VST.veric.val_lemmas <> isptr def
+R15245:15249 VST.veric.val_lemmas <> isptr def
+R15302:15319 VST.veric.val_lemmas <> is_pointer_or_null def
+R15302:15319 VST.veric.val_lemmas <> is_pointer_or_null def
+R15373:15383 VST.veric.SeparationLogic <> typed_false def
+R15373:15383 VST.veric.SeparationLogic <> typed_false def
+R15686:15695 VST.veric.SeparationLogic <> typed_true def
+R15686:15695 VST.veric.SeparationLogic <> typed_true def
+R15732:15749 VST.floyd.val_lemmas <> typed_true_of_bool thm
+R15779:15798 VST.floyd.val_lemmas <> typed_true_tint_Vint thm
+R15828:15849 VST.floyd.val_lemmas <> typed_true_tlong_Vlong thm
+R15972:15985 VST.floyd.val_lemmas <> typed_true_ptr thm
+R15420:15438 VST.floyd.val_lemmas <> typed_false_of_bool thm
+R15468:15488 VST.floyd.val_lemmas <> typed_false_tint_Vint thm
+R15519:15534 VST.floyd.val_lemmas <> typed_false_tint thm
+R15537:15543 Coq.Init.Logic <> eq_refl constr
+R15578:15594 VST.floyd.val_lemmas <> typed_false_tlong thm
+R15597:15603 Coq.Init.Logic <> eq_refl constr
+R15637:15651 VST.floyd.val_lemmas <> typed_false_ptr thm
+R15215:15227 VST.floyd.val_lemmas <> headptr_isptr thm
+R15033:15045 VST.floyd.val_lemmas <> headptr_isptr thm
+R16161:16161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16172:16176 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16163:16166 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R16168:16170 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R16161:16161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16172:16176 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16163:16166 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R16168:16170 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R16212:16212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16223:16227 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16214:16216 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R16218:16221 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R16212:16212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16223:16227 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16214:16216 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R16218:16221 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R16263:16263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16275:16279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16265:16268 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R16270:16273 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R16263:16263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16275:16279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16265:16268 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R16270:16273 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R16315:16315 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16325:16329 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16317:16319 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R16321:16323 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R16315:16315 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16325:16329 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16317:16319 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R16321:16323 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R16365:16365 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16374:16378 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16368:16371 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16365:16365 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16374:16378 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16368:16371 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16476:16479 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16476:16479 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16393:16399 Coq.Init.Logic <> and_ind scheme
+R16541:16546 compcert.cfrontend.Ctypes <> noattr def
+R16548:16552 compcert.exportclight.Clightdefs <> tuint def
+R16554:16557 compcert.exportclight.Clightdefs <> tint def
+R16559:16564 compcert.exportclight.Clightdefs <> tschar def
+R16566:16571 compcert.exportclight.Clightdefs <> tuchar def
+R16613:16620 compcert.cfrontend.Ctypes <> Tpointer constr
+R16625:16630 compcert.cfrontend.Ctypes <> noattr def
+R16613:16620 compcert.cfrontend.Ctypes <> Tpointer constr
+R16625:16630 compcert.cfrontend.Ctypes <> noattr def
+R16698:16703 compcert.cfrontend.Ctypes <> Tarray constr
+R16711:16716 compcert.cfrontend.Ctypes <> noattr def
+R16698:16703 compcert.cfrontend.Ctypes <> Tarray constr
+R16711:16716 compcert.cfrontend.Ctypes <> noattr def
+R16736:16741 compcert.cfrontend.Ctypes <> Tarray constr
+R16747:16752 compcert.cfrontend.Ctypes <> noattr def
+R16736:16741 compcert.cfrontend.Ctypes <> Tarray constr
+R16747:16752 compcert.cfrontend.Ctypes <> noattr def
+R16761:16766 compcert.exportclight.Clightdefs <> tarray def
+R16650:16657 compcert.cfrontend.Ctypes <> Tpointer constr
+R16661:16666 compcert.cfrontend.Ctypes <> noattr def
+R16650:16657 compcert.cfrontend.Ctypes <> Tpointer constr
+R16661:16666 compcert.cfrontend.Ctypes <> noattr def
+R16675:16678 compcert.exportclight.Clightdefs <> tptr def
+R16822:16825 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16822:16825 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+prf 16902:16913 <> is_int_Vbyte
+binder 16923:16923 <> c:111
+R16926:16931 VST.veric.Cop2 <> is_int def
+R16944:16948 VST.floyd.list_solver <> Vbyte def
+R16950:16950 VST.floyd.val_lemmas <> c:111 var
+R16936:16941 compcert.cfrontend.Ctypes <> Signed constr
+R16933:16934 compcert.cfrontend.Ctypes <> I8 constr
+R16995:17009 compcert.lib.Integers Int signed_repr thm
+R16995:17009 compcert.lib.Integers Int signed_repr thm
+R16995:17009 compcert.lib.Integers Int signed_repr thm

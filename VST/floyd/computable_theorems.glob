@@ -1,0 +1,1442 @@
+DIGEST 9e55f1fb2d51eaa6a28159e48c968fa2
+FVST.floyd.computable_theorems
+R15:31 Coq.ZArith.ZArith <> <> lib
+R49:69 Coq.ZArith.Znumtheory <> <> lib
+R87:100 Coq.Lists.List <> <> lib
+R118:130 Coq.Bool.Bool <> <> lib
+R148:172 compcert.cfrontend.Ctypes <> <> lib
+def 187:191 <> in_eq
+binder 202:202 <> A:1
+R214:214 VST.floyd.computable_theorems <> A:1 var
+binder 212:212 <> a:2
+binder 217:217 <> l:3
+R220:221 Coq.Lists.List <> In def
+R227:228 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R226:226 VST.floyd.computable_theorems <> a:2 var
+R229:229 VST.floyd.computable_theorems <> l:3 var
+R223:223 VST.floyd.computable_theorems <> a:2 var
+binder 242:242 <> A:4
+binder 245:245 <> a:5
+binder 247:247 <> l:6
+R252:260 Coq.Init.Logic <> or_introl constr
+R262:268 Coq.Init.Logic <> eq_refl constr
+def 283:295 <> Forall_forall
+binder 306:306 <> A:7
+R322:325 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R321:321 VST.floyd.computable_theorems <> A:7 var
+binder 317:317 <> P:8
+R337:340 Coq.Init.Datatypes <> list ind
+R342:342 VST.floyd.computable_theorems <> A:7 var
+binder 333:333 <> l:9
+R363:368 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R396:396 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R353:358 Coq.Lists.List <> Forall ind
+R362:362 VST.floyd.computable_theorems <> l:9 var
+R360:360 VST.floyd.computable_theorems <> P:8 var
+R380:380 VST.floyd.computable_theorems <> A:7 var
+binder 376:376 <> x:10
+R389:392 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R393:393 VST.floyd.computable_theorems <> P:8 var
+R395:395 VST.floyd.computable_theorems <> x:10 var
+R383:384 Coq.Lists.List <> In def
+R388:388 VST.floyd.computable_theorems <> l:9 var
+R386:386 VST.floyd.computable_theorems <> x:10 var
+binder 408:408 <> A:11
+R424:427 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R423:423 VST.floyd.computable_theorems <> A:11 var
+binder 419:419 <> P:12
+R439:442 Coq.Init.Datatypes <> list ind
+R444:444 VST.floyd.computable_theorems <> A:11 var
+binder 435:435 <> l:13
+R450:453 Coq.Init.Logic <> conj constr
+R1011:1018 Coq.Init.Datatypes <> list_ind scheme
+R2950:2950 VST.floyd.computable_theorems <> l:13 var
+R1168:1168 VST.floyd.computable_theorems <> A:11 var
+binder 1164:1164 <> a:14
+R1177:1180 Coq.Init.Datatypes <> list ind
+R1182:1182 VST.floyd.computable_theorems <> A:11 var
+binder 1172:1173 <> l0:15
+R1200:1200 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1229:1233 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1234:1239 Coq.Lists.List <> Forall ind
+R1243:1244 VST.floyd.computable_theorems <> l0:15 var
+R1241:1241 VST.floyd.computable_theorems <> P:12 var
+R1212:1212 VST.floyd.computable_theorems <> A:11 var
+binder 1208:1208 <> x:16
+R1222:1225 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1226:1226 VST.floyd.computable_theorems <> P:12 var
+R1228:1228 VST.floyd.computable_theorems <> x:16 var
+R1215:1216 Coq.Lists.List <> In def
+R1220:1221 VST.floyd.computable_theorems <> l0:15 var
+R1218:1218 VST.floyd.computable_theorems <> x:16 var
+binder 1194:1196 <> IHl:17
+R1271:1271 VST.floyd.computable_theorems <> A:11 var
+binder 1267:1267 <> x:18
+R1288:1291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1292:1292 VST.floyd.computable_theorems <> P:12 var
+R1294:1294 VST.floyd.computable_theorems <> x:18 var
+R1274:1275 Coq.Lists.List <> In def
+R1281:1284 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1280:1280 VST.floyd.computable_theorems <> a:14 var
+R1285:1286 VST.floyd.computable_theorems <> l0:15 var
+R1277:1277 VST.floyd.computable_theorems <> x:18 var
+binder 1256:1256 <> H:19
+R1327:1327 VST.floyd.computable_theorems <> A:11 var
+binder 1323:1323 <> x:20
+R1337:1340 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1341:1341 VST.floyd.computable_theorems <> P:12 var
+R1343:1343 VST.floyd.computable_theorems <> x:20 var
+R1330:1331 Coq.Lists.List <> In def
+R1335:1336 VST.floyd.computable_theorems <> l0:15 var
+R1333:1333 VST.floyd.computable_theorems <> x:20 var
+binder 1311:1312 <> H0:21
+R1376:1376 VST.floyd.computable_theorems <> A:11 var
+binder 1372:1372 <> x:22
+R1386:1389 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1390:1390 VST.floyd.computable_theorems <> P:12 var
+R1392:1392 VST.floyd.computable_theorems <> x:22 var
+R1379:1380 Coq.Lists.List <> In def
+R1384:1385 VST.floyd.computable_theorems <> l0:15 var
+R1382:1382 VST.floyd.computable_theorems <> x:22 var
+binder 1360:1361 <> H1:23
+R1415:1420 Coq.Lists.List <> Forall ind
+R1424:1425 VST.floyd.computable_theorems <> l0:15 var
+R1422:1422 VST.floyd.computable_theorems <> P:12 var
+binder 1410:1411 <> H2:24
+R1449:1449 VST.floyd.computable_theorems <> A:11 var
+binder 1444:1445 <> H3:25
+R1473:1473 VST.floyd.computable_theorems <> A:11 var
+binder 1469:1469 <> X:26
+R1513:1516 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1517:1517 VST.floyd.computable_theorems <> P:12 var
+R1519:1519 VST.floyd.computable_theorems <> X:26 var
+R1499:1500 Coq.Lists.List <> In def
+R1506:1509 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1505:1505 VST.floyd.computable_theorems <> a:14 var
+R1510:1511 VST.floyd.computable_theorems <> l0:15 var
+R1502:1502 VST.floyd.computable_theorems <> X:26 var
+binder 1494:1495 <> H4:27
+R1551:1554 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1555:1555 VST.floyd.computable_theorems <> P:12 var
+R1557:1557 VST.floyd.computable_theorems <> X:26 var
+R1547:1549 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1546:1546 VST.floyd.computable_theorems <> a:14 var
+R1550:1550 VST.floyd.computable_theorems <> X:26 var
+R1793:1796 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1797:1797 VST.floyd.computable_theorems <> P:12 var
+R1799:1799 VST.floyd.computable_theorems <> X:26 var
+R1594:1594 VST.floyd.computable_theorems <> A:11 var
+binder 1589:1590 <> a0:28
+R1603:1606 Coq.Init.Datatypes <> list ind
+R1608:1608 VST.floyd.computable_theorems <> A:11 var
+binder 1598:1599 <> l1:29
+R1662:1663 VST.floyd.computable_theorems <> l1:29 var
+R1695:1697 Coq.Init.Datatypes <> nil constr
+R1702:1706 Coq.Init.Logic <> False ind
+R1734:1737 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1749:1752 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1744:1746 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1747:1748 VST.floyd.computable_theorems <> a0:28 var
+R1753:1754 VST.floyd.computable_theorems <> In:30 var
+R1756:1757 VST.floyd.computable_theorems <> a0:28 var
+R1791:1792 VST.floyd.computable_theorems <> l0:15 var
+R1789:1789 VST.floyd.computable_theorems <> X:26 var
+R1818:1828 Coq.Lists.List <> Forall_cons constr
+R1851:1852 VST.floyd.computable_theorems <> H2:24 var
+R1833:1833 VST.floyd.computable_theorems <> H:19 var
+R1838:1842 VST.floyd.computable_theorems <> in_eq def
+R1846:1847 VST.floyd.computable_theorems <> l0:15 var
+R1844:1844 VST.floyd.computable_theorems <> a:14 var
+R1835:1835 VST.floyd.computable_theorems <> a:14 var
+R1830:1830 VST.floyd.computable_theorems <> a:14 var
+R1962:1962 VST.floyd.computable_theorems <> A:11 var
+binder 1957:1958 <> a0:32
+R1971:1974 Coq.Init.Datatypes <> list ind
+R1976:1976 VST.floyd.computable_theorems <> A:11 var
+binder 1966:1967 <> l1:33
+R2032:2033 VST.floyd.computable_theorems <> l1:33 var
+R2067:2069 Coq.Init.Datatypes <> nil constr
+R2074:2078 Coq.Init.Logic <> False ind
+R2108:2111 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2123:2126 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2118:2120 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2121:2122 VST.floyd.computable_theorems <> a0:32 var
+R2127:2128 VST.floyd.computable_theorems <> In:34 var
+R2130:2131 VST.floyd.computable_theorems <> a0:32 var
+R2167:2168 VST.floyd.computable_theorems <> l0:15 var
+R2165:2165 VST.floyd.computable_theorems <> X:26 var
+binder 1943:1944 <> H5:36
+R2173:2174 VST.floyd.computable_theorems <> H4:27 var
+R2177:2185 Coq.Init.Logic <> or_intror constr
+R2187:2188 VST.floyd.computable_theorems <> H5:36 var
+R1880:1882 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1879:1879 VST.floyd.computable_theorems <> a:14 var
+R1883:1883 VST.floyd.computable_theorems <> X:26 var
+binder 1874:1875 <> H5:37
+R1888:1889 VST.floyd.computable_theorems <> H4:27 var
+R1892:1900 Coq.Init.Logic <> or_introl constr
+R1902:1903 VST.floyd.computable_theorems <> H5:37 var
+R2194:2194 VST.floyd.computable_theorems <> H:19 var
+R2196:2196 VST.floyd.computable_theorems <> X:26 var
+R2200:2201 VST.floyd.computable_theorems <> H3:25 var
+R2204:2204 VST.floyd.computable_theorems <> a:14 var
+R2218:2220 VST.floyd.computable_theorems <> IHl:17 var
+R2222:2223 VST.floyd.computable_theorems <> H1:23 var
+R2227:2228 VST.floyd.computable_theorems <> H0:21 var
+R2249:2249 VST.floyd.computable_theorems <> A:11 var
+binder 2245:2245 <> x:38
+R2258:2259 Coq.Lists.List <> In def
+R2263:2264 VST.floyd.computable_theorems <> l0:15 var
+R2261:2261 VST.floyd.computable_theorems <> x:38 var
+binder 2253:2254 <> H0:39
+R2303:2306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2307:2307 VST.floyd.computable_theorems <> P:12 var
+R2309:2309 VST.floyd.computable_theorems <> x:38 var
+R2289:2290 Coq.Lists.List <> In def
+R2296:2299 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2295:2295 VST.floyd.computable_theorems <> a:14 var
+R2300:2301 VST.floyd.computable_theorems <> l0:15 var
+R2292:2292 VST.floyd.computable_theorems <> x:38 var
+binder 2284:2285 <> H1:40
+R2339:2342 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2343:2343 VST.floyd.computable_theorems <> P:12 var
+R2345:2345 VST.floyd.computable_theorems <> x:38 var
+R2335:2337 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2334:2334 VST.floyd.computable_theorems <> a:14 var
+R2338:2338 VST.floyd.computable_theorems <> x:38 var
+R2576:2579 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2580:2580 VST.floyd.computable_theorems <> P:12 var
+R2582:2582 VST.floyd.computable_theorems <> x:38 var
+R2381:2381 VST.floyd.computable_theorems <> A:11 var
+binder 2376:2377 <> a0:41
+R2390:2393 Coq.Init.Datatypes <> list ind
+R2395:2395 VST.floyd.computable_theorems <> A:11 var
+binder 2385:2386 <> l1:42
+R2448:2449 VST.floyd.computable_theorems <> l1:42 var
+R2480:2482 Coq.Init.Datatypes <> nil constr
+R2487:2491 Coq.Init.Logic <> False ind
+R2518:2521 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2533:2536 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2528:2530 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2531:2532 VST.floyd.computable_theorems <> a0:41 var
+R2537:2538 VST.floyd.computable_theorems <> In:43 var
+R2540:2541 VST.floyd.computable_theorems <> a0:41 var
+R2574:2575 VST.floyd.computable_theorems <> l0:15 var
+R2572:2572 VST.floyd.computable_theorems <> x:38 var
+binder 2362:2363 <> H3:45
+R2598:2598 VST.floyd.computable_theorems <> P:12 var
+R2600:2600 VST.floyd.computable_theorems <> x:38 var
+binder 2593:2594 <> H4:46
+R2605:2606 VST.floyd.computable_theorems <> H4:46 var
+R2610:2611 VST.floyd.computable_theorems <> H3:45 var
+R2613:2614 VST.floyd.computable_theorems <> H0:39 var
+R2719:2719 VST.floyd.computable_theorems <> A:11 var
+binder 2714:2715 <> a0:47
+R2728:2731 Coq.Init.Datatypes <> list ind
+R2733:2733 VST.floyd.computable_theorems <> A:11 var
+binder 2723:2724 <> l1:48
+R2787:2788 VST.floyd.computable_theorems <> l1:48 var
+R2820:2822 Coq.Init.Datatypes <> nil constr
+R2827:2831 Coq.Init.Logic <> False ind
+R2859:2862 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2874:2877 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2869:2871 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2872:2873 VST.floyd.computable_theorems <> a0:47 var
+R2878:2879 VST.floyd.computable_theorems <> In:49 var
+R2881:2882 VST.floyd.computable_theorems <> a0:47 var
+R2916:2917 VST.floyd.computable_theorems <> l0:15 var
+R2914:2914 VST.floyd.computable_theorems <> x:38 var
+binder 2700:2701 <> H2:51
+R2922:2923 VST.floyd.computable_theorems <> H1:40 var
+R2926:2934 Coq.Init.Logic <> or_intror constr
+R2936:2937 VST.floyd.computable_theorems <> H2:51 var
+R2641:2643 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2640:2640 VST.floyd.computable_theorems <> a:14 var
+R2644:2644 VST.floyd.computable_theorems <> x:38 var
+binder 2635:2636 <> H2:52
+R2649:2650 VST.floyd.computable_theorems <> H1:40 var
+R2653:2661 Coq.Init.Logic <> or_introl constr
+R2663:2664 VST.floyd.computable_theorems <> H2:52 var
+R2943:2943 VST.floyd.computable_theorems <> H:19 var
+R2945:2945 VST.floyd.computable_theorems <> x:38 var
+R1117:1117 VST.floyd.computable_theorems <> A:11 var
+binder 1113:1113 <> x:53
+R1128:1131 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1132:1132 VST.floyd.computable_theorems <> P:12 var
+R1134:1134 VST.floyd.computable_theorems <> x:53 var
+R1120:1121 Coq.Lists.List <> In def
+R1125:1127 Coq.Init.Datatypes <> nil constr
+R1123:1123 VST.floyd.computable_theorems <> x:53 var
+R1139:1148 Coq.Lists.List <> Forall_nil constr
+R1150:1150 VST.floyd.computable_theorems <> P:12 var
+R1035:1038 Coq.Init.Datatypes <> list ind
+R1040:1040 VST.floyd.computable_theorems <> A:11 var
+binder 1030:1031 <> l0:54
+R1045:1045 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1074:1078 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1079:1084 Coq.Lists.List <> Forall ind
+R1088:1089 VST.floyd.computable_theorems <> l0:54 var
+R1086:1086 VST.floyd.computable_theorems <> P:12 var
+R1057:1057 VST.floyd.computable_theorems <> A:11 var
+binder 1053:1053 <> x:55
+R1067:1070 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1071:1071 VST.floyd.computable_theorems <> P:12 var
+R1073:1073 VST.floyd.computable_theorems <> x:55 var
+R1060:1061 Coq.Lists.List <> In def
+R1065:1066 VST.floyd.computable_theorems <> l0:54 var
+R1063:1063 VST.floyd.computable_theorems <> x:55 var
+R466:471 Coq.Lists.List <> Forall ind
+R475:475 VST.floyd.computable_theorems <> l:13 var
+R473:473 VST.floyd.computable_theorems <> P:12 var
+binder 462:462 <> H:56
+R483:492 Coq.Lists.List <> Forall_ind scheme
+R1005:1005 VST.floyd.computable_theorems <> H:56 var
+R616:616 VST.floyd.computable_theorems <> A:11 var
+binder 612:612 <> x:57
+R625:628 Coq.Init.Datatypes <> list ind
+R630:630 VST.floyd.computable_theorems <> A:11 var
+binder 620:621 <> l0:58
+R639:639 VST.floyd.computable_theorems <> P:12 var
+R641:641 VST.floyd.computable_theorems <> x:57 var
+binder 634:635 <> H0:59
+R649:654 Coq.Lists.List <> Forall ind
+R658:659 VST.floyd.computable_theorems <> l0:58 var
+R656:656 VST.floyd.computable_theorems <> P:12 var
+R694:694 VST.floyd.computable_theorems <> A:11 var
+binder 689:690 <> x0:60
+R705:708 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R709:709 VST.floyd.computable_theorems <> P:12 var
+R711:712 VST.floyd.computable_theorems <> x0:60 var
+R697:698 Coq.Lists.List <> In def
+R703:704 VST.floyd.computable_theorems <> l0:58 var
+R700:701 VST.floyd.computable_theorems <> x0:60 var
+binder 671:678 <> IHForall:61
+R721:721 VST.floyd.computable_theorems <> A:11 var
+binder 716:717 <> x0:62
+R738:739 Coq.Lists.List <> In def
+R746:749 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R745:745 VST.floyd.computable_theorems <> x:57 var
+R750:751 VST.floyd.computable_theorems <> l0:58 var
+R741:742 VST.floyd.computable_theorems <> x0:62 var
+binder 733:734 <> H2:63
+R764:769 Coq.Init.Logic <> or_ind scheme
+R1001:1002 VST.floyd.computable_theorems <> H2:63 var
+R893:894 Coq.Lists.List <> In def
+R899:900 VST.floyd.computable_theorems <> l0:58 var
+R896:897 VST.floyd.computable_theorems <> x0:62 var
+binder 888:889 <> H3:64
+R932:935 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R936:936 VST.floyd.computable_theorems <> P:12 var
+R938:939 VST.floyd.computable_theorems <> x0:62 var
+R924:925 Coq.Lists.List <> In def
+R930:931 VST.floyd.computable_theorems <> l0:58 var
+R927:928 VST.floyd.computable_theorems <> x0:62 var
+binder 919:920 <> H4:65
+R954:954 VST.floyd.computable_theorems <> P:12 var
+R956:957 VST.floyd.computable_theorems <> x0:62 var
+binder 949:950 <> H5:66
+R962:963 VST.floyd.computable_theorems <> H5:66 var
+R967:968 VST.floyd.computable_theorems <> H4:65 var
+R970:971 VST.floyd.computable_theorems <> H3:64 var
+R987:994 VST.floyd.computable_theorems <> IHForall:61 var
+R996:997 VST.floyd.computable_theorems <> x0:62 var
+R790:792 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R789:789 VST.floyd.computable_theorems <> x:57 var
+R793:794 VST.floyd.computable_theorems <> x0:62 var
+binder 784:785 <> H3:67
+R808:815 Coq.Init.Logic <> eq_ind_r def
+R871:872 VST.floyd.computable_theorems <> H0:59 var
+R868:869 VST.floyd.computable_theorems <> H3:67 var
+R856:856 VST.floyd.computable_theorems <> P:12 var
+R858:859 VST.floyd.computable_theorems <> x0:62 var
+binder 851:852 <> H4:68
+R864:865 VST.floyd.computable_theorems <> H4:68 var
+R827:827 VST.floyd.computable_theorems <> A:11 var
+binder 822:823 <> x1:69
+R836:839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R840:840 VST.floyd.computable_theorems <> P:12 var
+R842:843 VST.floyd.computable_theorems <> x0:62 var
+R832:832 VST.floyd.computable_theorems <> P:12 var
+R834:835 VST.floyd.computable_theorems <> x1:69 var
+R559:559 VST.floyd.computable_theorems <> A:11 var
+binder 555:555 <> x:70
+R568:569 Coq.Lists.List <> In def
+R573:575 Coq.Init.Datatypes <> nil constr
+R571:571 VST.floyd.computable_theorems <> x:70 var
+binder 563:564 <> H0:71
+R581:589 Coq.Init.Logic <> False_ind scheme
+R597:598 VST.floyd.computable_theorems <> H0:71 var
+R592:592 VST.floyd.computable_theorems <> P:12 var
+R594:594 VST.floyd.computable_theorems <> x:70 var
+R504:507 Coq.Init.Datatypes <> list ind
+R509:509 VST.floyd.computable_theorems <> A:11 var
+binder 499:500 <> l0:72
+R525:525 VST.floyd.computable_theorems <> A:11 var
+binder 521:521 <> x:73
+R535:538 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R539:539 VST.floyd.computable_theorems <> P:12 var
+R541:541 VST.floyd.computable_theorems <> x:73 var
+R528:529 Coq.Lists.List <> In def
+R533:534 VST.floyd.computable_theorems <> l0:72 var
+R531:531 VST.floyd.computable_theorems <> x:73 var
+prf 2961:2974 <> Forall_forall1
+binder 2985:2985 <> A:74
+R3001:3004 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3000:3000 VST.floyd.computable_theorems <> A:74 var
+binder 2996:2996 <> P:75
+R3016:3019 Coq.Init.Datatypes <> list ind
+R3021:3021 VST.floyd.computable_theorems <> A:74 var
+binder 3012:3012 <> l:76
+R3042:3046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3074:3074 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3058:3058 VST.floyd.computable_theorems <> A:74 var
+binder 3054:3054 <> x:77
+R3067:3070 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3071:3071 VST.floyd.computable_theorems <> P:75 var
+R3073:3073 VST.floyd.computable_theorems <> x:77 var
+R3061:3062 Coq.Lists.List <> In def
+R3066:3066 VST.floyd.computable_theorems <> l:76 var
+R3064:3064 VST.floyd.computable_theorems <> x:77 var
+R3032:3037 Coq.Lists.List <> Forall ind
+R3041:3041 VST.floyd.computable_theorems <> l:76 var
+R3039:3039 VST.floyd.computable_theorems <> P:75 var
+R3111:3123 VST.floyd.computable_theorems <> Forall_forall def
+R3111:3123 VST.floyd.computable_theorems <> Forall_forall def
+prf 3165:3177 <> Zcompare_refl
+binder 3187:3187 <> n:78
+R3203:3205 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3190:3198 Coq.ZArith.BinInt Z compare def
+R3202:3202 VST.floyd.computable_theorems <> n:78 var
+R3200:3200 VST.floyd.computable_theorems <> n:78 var
+R3206:3207 Coq.Init.Datatypes <> Eq constr
+R3250:3256 Coq.Init.Logic <> eq_refl constr
+R3250:3256 Coq.Init.Logic <> eq_refl constr
+R3266:3276 Coq.PArith.BinPos Pos compare def
+R3312:3322 Coq.PArith.BinPos Pos compare def
+prf 3367:3374 <> Zle_refl
+binder 3384:3384 <> n:79
+R3387:3390 Coq.ZArith.BinInt Z le def
+R3394:3394 VST.floyd.computable_theorems <> n:79 var
+R3392:3392 VST.floyd.computable_theorems <> n:79 var
+R3419:3422 Coq.ZArith.BinInt Z le def
+R3433:3445 VST.floyd.computable_theorems <> Zcompare_refl thm
+R3433:3445 VST.floyd.computable_theorems <> Zcompare_refl thm
+R3433:3445 VST.floyd.computable_theorems <> Zcompare_refl thm
+prf 3485:3493 <> Zle_max_l
+R3509:3509 Coq.Numbers.BinNums <> Z ind
+binder 3503:3503 <> n:80
+binder 3505:3505 <> m:81
+R3513:3516 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R3512:3512 VST.floyd.computable_theorems <> n:80 var
+R3517:3521 Coq.ZArith.BinInt Z max def
+R3525:3525 VST.floyd.computable_theorems <> m:81 var
+R3523:3523 VST.floyd.computable_theorems <> n:80 var
+R3550:3554 Coq.ZArith.BinInt Z max def
+R3564:3567 Coq.ZArith.BinInt Z le def
+R3581:3582 Coq.ZArith.BinInt <> ::Z_scope:x_'?='_x not
+R3581:3582 Coq.ZArith.BinInt <> ::Z_scope:x_'?='_x not
+R3601:3613 VST.floyd.computable_theorems <> Zcompare_refl thm
+R3601:3613 VST.floyd.computable_theorems <> Zcompare_refl thm
+R3601:3613 VST.floyd.computable_theorems <> Zcompare_refl thm
+R3677:3689 VST.floyd.computable_theorems <> Zcompare_refl thm
+R3677:3689 VST.floyd.computable_theorems <> Zcompare_refl thm
+R3677:3689 VST.floyd.computable_theorems <> Zcompare_refl thm
+def 3734:3757 <> Pos_compare_cont_antisym
+R3777:3784 Coq.Numbers.BinNums <> positive ind
+binder 3771:3771 <> p:82
+binder 3773:3773 <> q:83
+R3792:3801 Coq.Init.Datatypes <> comparison ind
+binder 3788:3788 <> c:84
+R3812:3813 Coq.Init.Logic <> eq ind
+R3860:3875 Coq.PArith.BinPos Pos compare_cont def
+R3891:3891 VST.floyd.computable_theorems <> p:82 var
+R3889:3889 VST.floyd.computable_theorems <> q:83 var
+R3878:3884 Coq.Init.Datatypes <> CompOpp def
+R3886:3886 VST.floyd.computable_theorems <> c:84 var
+R3816:3822 Coq.Init.Datatypes <> CompOpp def
+R3825:3840 Coq.PArith.BinPos Pos compare_cont def
+R3846:3846 VST.floyd.computable_theorems <> q:83 var
+R3844:3844 VST.floyd.computable_theorems <> p:82 var
+R3842:3842 VST.floyd.computable_theorems <> c:84 var
+R3909:3916 Coq.Numbers.BinNums <> positive ind
+binder 3903:3903 <> p:85
+binder 3905:3905 <> q:86
+R3924:3933 Coq.Init.Datatypes <> comparison ind
+binder 3920:3920 <> c:87
+R3939:3950 Coq.Numbers.BinNums <> positive_ind scheme
+R5588:5588 VST.floyd.computable_theorems <> c:87 var
+R5586:5586 VST.floyd.computable_theorems <> q:86 var
+R5584:5584 VST.floyd.computable_theorems <> p:85 var
+R5226:5233 Coq.Numbers.BinNums <> positive ind
+binder 5221:5222 <> q0:88
+R5252:5253 VST.floyd.computable_theorems <> q0:88 var
+R5293:5302 Coq.Init.Datatypes <> comparison ind
+binder 5288:5289 <> c0:90
+R5347:5357 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5313:5319 Coq.Init.Datatypes <> CompOpp def
+R5322:5337 Coq.PArith.BinPos Pos compare_cont def
+R5344:5345 VST.floyd.computable_theorems <> p0:89 var
+R5339:5340 VST.floyd.computable_theorems <> c0:90 var
+R5358:5373 Coq.PArith.BinPos Pos compare_cont def
+R5388:5389 VST.floyd.computable_theorems <> p0:89 var
+R5376:5382 Coq.Init.Datatypes <> CompOpp def
+R5384:5385 VST.floyd.computable_theorems <> c0:90 var
+R5410:5411 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R5442:5451 Coq.Init.Datatypes <> comparison ind
+binder 5437:5438 <> c0:91
+R5456:5462 Coq.Init.Logic <> eq_refl constr
+R5472:5473 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R5504:5513 Coq.Init.Datatypes <> comparison ind
+binder 5499:5500 <> c0:92
+R5518:5524 Coq.Init.Logic <> eq_refl constr
+R5554:5563 Coq.Init.Datatypes <> comparison ind
+binder 5549:5550 <> c0:93
+R5568:5574 Coq.Init.Logic <> eq_refl constr
+R4671:4678 Coq.Numbers.BinNums <> positive ind
+binder 4666:4667 <> p0:94
+R4706:4713 Coq.Numbers.BinNums <> positive ind
+binder 4701:4702 <> q0:95
+R4722:4731 Coq.Init.Datatypes <> comparison ind
+binder 4717:4718 <> c0:96
+R4782:4796 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4747:4753 Coq.Init.Datatypes <> CompOpp def
+R4756:4771 Coq.PArith.BinPos Pos compare_cont def
+R4779:4780 VST.floyd.computable_theorems <> q0:95 var
+R4776:4777 VST.floyd.computable_theorems <> p0:94 var
+R4773:4774 VST.floyd.computable_theorems <> c0:96 var
+R4797:4812 Coq.PArith.BinPos Pos compare_cont def
+R4830:4831 VST.floyd.computable_theorems <> p0:94 var
+R4827:4828 VST.floyd.computable_theorems <> q0:95 var
+R4815:4821 Coq.Init.Datatypes <> CompOpp def
+R4823:4824 VST.floyd.computable_theorems <> c0:96 var
+binder 4687:4689 <> IHp:97
+R4845:4852 Coq.Numbers.BinNums <> positive ind
+binder 4840:4841 <> q0:98
+R4872:4873 VST.floyd.computable_theorems <> q0:98 var
+R4913:4922 Coq.Init.Datatypes <> comparison ind
+binder 4908:4909 <> c0:100
+R4970:4980 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4933:4939 Coq.Init.Datatypes <> CompOpp def
+R4942:4957 Coq.PArith.BinPos Pos compare_cont def
+R4967:4968 VST.floyd.computable_theorems <> p1:99 var
+R4964:4965 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R4962:4963 VST.floyd.computable_theorems <> p0:94 var
+R4959:4960 VST.floyd.computable_theorems <> c0:100 var
+R4981:4996 Coq.PArith.BinPos Pos compare_cont def
+R5016:5017 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R5014:5015 VST.floyd.computable_theorems <> p0:94 var
+R5011:5012 VST.floyd.computable_theorems <> p1:99 var
+R4999:5005 Coq.Init.Datatypes <> CompOpp def
+R5007:5008 VST.floyd.computable_theorems <> c0:100 var
+R5036:5037 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R5068:5077 Coq.Init.Datatypes <> comparison ind
+binder 5063:5064 <> c0:101
+R5082:5084 VST.floyd.computable_theorems <> IHp:97 var
+R5089:5090 Coq.Init.Datatypes <> Lt constr
+R5100:5101 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R5132:5141 Coq.Init.Datatypes <> comparison ind
+binder 5127:5128 <> c0:102
+R5146:5148 VST.floyd.computable_theorems <> IHp:97 var
+R5153:5154 VST.floyd.computable_theorems <> c0:102 var
+R5184:5193 Coq.Init.Datatypes <> comparison ind
+binder 5179:5180 <> c0:103
+R5198:5204 Coq.Init.Logic <> eq_refl constr
+R4115:4122 Coq.Numbers.BinNums <> positive ind
+binder 4110:4111 <> p0:104
+R4150:4157 Coq.Numbers.BinNums <> positive ind
+binder 4145:4146 <> q0:105
+R4166:4175 Coq.Init.Datatypes <> comparison ind
+binder 4161:4162 <> c0:106
+R4226:4240 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4191:4197 Coq.Init.Datatypes <> CompOpp def
+R4200:4215 Coq.PArith.BinPos Pos compare_cont def
+R4223:4224 VST.floyd.computable_theorems <> q0:105 var
+R4220:4221 VST.floyd.computable_theorems <> p0:104 var
+R4217:4218 VST.floyd.computable_theorems <> c0:106 var
+R4241:4256 Coq.PArith.BinPos Pos compare_cont def
+R4274:4275 VST.floyd.computable_theorems <> p0:104 var
+R4271:4272 VST.floyd.computable_theorems <> q0:105 var
+R4259:4265 Coq.Init.Datatypes <> CompOpp def
+R4267:4268 VST.floyd.computable_theorems <> c0:106 var
+binder 4131:4133 <> IHp:107
+R4289:4296 Coq.Numbers.BinNums <> positive ind
+binder 4284:4285 <> q0:108
+R4316:4317 VST.floyd.computable_theorems <> q0:108 var
+R4357:4366 Coq.Init.Datatypes <> comparison ind
+binder 4352:4353 <> c0:110
+R4414:4424 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4377:4383 Coq.Init.Datatypes <> CompOpp def
+R4386:4401 Coq.PArith.BinPos Pos compare_cont def
+R4411:4412 VST.floyd.computable_theorems <> p1:109 var
+R4408:4409 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R4406:4407 VST.floyd.computable_theorems <> p0:104 var
+R4403:4404 VST.floyd.computable_theorems <> c0:110 var
+R4425:4440 Coq.PArith.BinPos Pos compare_cont def
+R4460:4461 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R4458:4459 VST.floyd.computable_theorems <> p0:104 var
+R4455:4456 VST.floyd.computable_theorems <> p1:109 var
+R4443:4449 Coq.Init.Datatypes <> CompOpp def
+R4451:4452 VST.floyd.computable_theorems <> c0:110 var
+R4480:4481 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R4512:4521 Coq.Init.Datatypes <> comparison ind
+binder 4507:4508 <> c0:111
+R4526:4528 VST.floyd.computable_theorems <> IHp:107 var
+R4533:4534 VST.floyd.computable_theorems <> c0:111 var
+R4544:4545 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R4576:4585 Coq.Init.Datatypes <> comparison ind
+binder 4571:4572 <> c0:112
+R4590:4592 VST.floyd.computable_theorems <> IHp:107 var
+R4597:4598 Coq.Init.Datatypes <> Gt constr
+R4628:4637 Coq.Init.Datatypes <> comparison ind
+binder 4623:4624 <> c0:113
+R4642:4648 Coq.Init.Logic <> eq_refl constr
+R3964:3971 Coq.Numbers.BinNums <> positive ind
+binder 3959:3960 <> p0:114
+R3992:3999 Coq.Numbers.BinNums <> positive ind
+binder 3987:3988 <> q0:115
+R4008:4017 Coq.Init.Datatypes <> comparison ind
+binder 4003:4004 <> c0:116
+R4059:4064 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4024:4030 Coq.Init.Datatypes <> CompOpp def
+R4033:4048 Coq.PArith.BinPos Pos compare_cont def
+R4056:4057 VST.floyd.computable_theorems <> q0:115 var
+R4053:4054 VST.floyd.computable_theorems <> p0:114 var
+R4050:4051 VST.floyd.computable_theorems <> c0:116 var
+R4065:4080 Coq.PArith.BinPos Pos compare_cont def
+R4098:4099 VST.floyd.computable_theorems <> p0:114 var
+R4095:4096 VST.floyd.computable_theorems <> q0:115 var
+R4083:4089 Coq.Init.Datatypes <> CompOpp def
+R4091:4092 VST.floyd.computable_theorems <> c0:116 var
+def 5603:5621 <> Pos_compare_antisym
+R5639:5646 Coq.Numbers.BinNums <> positive ind
+binder 5633:5633 <> p:117
+binder 5635:5635 <> q:118
+R5656:5657 Coq.Init.Logic <> eq ind
+R5678:5684 Coq.Init.Datatypes <> CompOpp def
+R5687:5697 Coq.PArith.BinPos Pos compare def
+R5701:5701 VST.floyd.computable_theorems <> q:118 var
+R5699:5699 VST.floyd.computable_theorems <> p:117 var
+R5660:5670 Coq.PArith.BinPos Pos compare def
+R5674:5674 VST.floyd.computable_theorems <> p:117 var
+R5672:5672 VST.floyd.computable_theorems <> q:118 var
+R5720:5727 Coq.Numbers.BinNums <> positive ind
+binder 5714:5714 <> p:119
+binder 5716:5716 <> q:120
+R5732:5739 Coq.Init.Logic <> eq_ind_r def
+R5807:5830 VST.floyd.computable_theorems <> Pos_compare_cont_antisym def
+R5836:5837 Coq.Init.Datatypes <> Eq constr
+R5834:5834 VST.floyd.computable_theorems <> q:120 var
+R5832:5832 VST.floyd.computable_theorems <> p:119 var
+R5796:5802 Coq.Init.Logic <> eq_refl constr
+R5750:5759 Coq.Init.Datatypes <> comparison ind
+binder 5746:5746 <> c:121
+R5764:5765 Coq.Init.Logic <> eq ind
+R5793:5793 VST.floyd.computable_theorems <> c:121 var
+R5768:5783 Coq.PArith.BinPos Pos compare_cont def
+R5790:5790 VST.floyd.computable_theorems <> p:119 var
+R5788:5788 VST.floyd.computable_theorems <> q:120 var
+R5785:5786 Coq.Init.Datatypes <> Eq constr
+prf 5848:5865 <> Pos_compare_absurd
+binder 5877:5877 <> x:122
+binder 5879:5879 <> y:123
+binder 5881:5881 <> c:124
+R5884:5884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5915:5919 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5921:5921 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5920:5920 VST.floyd.computable_theorems <> c:124 var
+R5922:5923 Coq.Init.Datatypes <> Eq constr
+R5885:5886 Coq.Init.Logic <> eq ind
+R5913:5914 Coq.Init.Datatypes <> Eq constr
+R5889:5904 Coq.PArith.BinPos Pos compare_cont def
+R5910:5910 VST.floyd.computable_theorems <> y:123 var
+R5908:5908 VST.floyd.computable_theorems <> x:122 var
+R5906:5906 VST.floyd.computable_theorems <> c:124 var
+prf 6074:6092 <> Pos_compare_cont_eq
+binder 6104:6104 <> x:125
+binder 6106:6106 <> y:126
+binder 6108:6108 <> c:127
+R6141:6144 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6145:6146 Coq.Init.Logic <> eq ind
+R6150:6150 VST.floyd.computable_theorems <> y:126 var
+R6148:6148 VST.floyd.computable_theorems <> x:125 var
+R6111:6112 Coq.Init.Logic <> eq ind
+R6139:6140 Coq.Init.Datatypes <> Eq constr
+R6115:6130 Coq.PArith.BinPos Pos compare_cont def
+R6136:6136 VST.floyd.computable_theorems <> y:126 var
+R6134:6134 VST.floyd.computable_theorems <> x:125 var
+R6132:6132 VST.floyd.computable_theorems <> c:127 var
+R6246:6263 VST.floyd.computable_theorems <> Pos_compare_absurd thm
+R6246:6263 VST.floyd.computable_theorems <> Pos_compare_absurd thm
+R6290:6307 VST.floyd.computable_theorems <> Pos_compare_absurd thm
+R6290:6307 VST.floyd.computable_theorems <> Pos_compare_absurd thm
+prf 6360:6373 <> Pos_compare_eq
+binder 6385:6385 <> x:128
+binder 6387:6387 <> y:129
+R6413:6416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6417:6418 Coq.Init.Logic <> eq ind
+R6422:6422 VST.floyd.computable_theorems <> y:129 var
+R6420:6420 VST.floyd.computable_theorems <> x:128 var
+R6390:6391 Coq.Init.Logic <> eq ind
+R6411:6412 Coq.Init.Datatypes <> Eq constr
+R6394:6404 Coq.PArith.BinPos Pos compare def
+R6408:6408 VST.floyd.computable_theorems <> y:129 var
+R6406:6406 VST.floyd.computable_theorems <> x:128 var
+R6446:6464 VST.floyd.computable_theorems <> Pos_compare_cont_eq thm
+R6446:6464 VST.floyd.computable_theorems <> Pos_compare_cont_eq thm
+prf 6494:6502 <> Zmax_comm
+binder 6512:6512 <> n:130
+binder 6514:6514 <> m:131
+R6526:6528 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6517:6521 Coq.ZArith.BinInt Z max def
+R6525:6525 VST.floyd.computable_theorems <> m:131 var
+R6523:6523 VST.floyd.computable_theorems <> n:130 var
+R6529:6533 Coq.ZArith.BinInt Z max def
+R6537:6537 VST.floyd.computable_theorems <> n:130 var
+R6535:6535 VST.floyd.computable_theorems <> m:131 var
+R6579:6585 Coq.Init.Logic <> eq_refl constr
+R6579:6585 Coq.Init.Logic <> eq_refl constr
+R6579:6585 Coq.Init.Logic <> eq_refl constr
+R6579:6585 Coq.Init.Logic <> eq_refl constr
+R6579:6585 Coq.Init.Logic <> eq_refl constr
+R6579:6585 Coq.Init.Logic <> eq_refl constr
+R6579:6585 Coq.Init.Logic <> eq_refl constr
+R6579:6585 Coq.Init.Logic <> eq_refl constr
+R6579:6585 Coq.Init.Logic <> eq_refl constr
+R6579:6585 Coq.Init.Logic <> eq_refl constr
+R6598:6602 Coq.ZArith.BinInt Z max def
+R6640:6658 VST.floyd.computable_theorems <> Pos_compare_antisym def
+R6640:6658 VST.floyd.computable_theorems <> Pos_compare_antisym def
+R6640:6658 VST.floyd.computable_theorems <> Pos_compare_antisym def
+R6672:6682 Coq.PArith.BinPos Pos compare def
+R6672:6682 Coq.PArith.BinPos Pos compare def
+R6727:6740 VST.floyd.computable_theorems <> Pos_compare_eq thm
+R6727:6740 VST.floyd.computable_theorems <> Pos_compare_eq thm
+R6758:6764 Coq.Init.Logic <> f_equal thm
+R6758:6764 Coq.Init.Logic <> f_equal thm
+R6793:6797 Coq.ZArith.BinInt Z max def
+R6835:6853 VST.floyd.computable_theorems <> Pos_compare_antisym def
+R6835:6853 VST.floyd.computable_theorems <> Pos_compare_antisym def
+R6835:6853 VST.floyd.computable_theorems <> Pos_compare_antisym def
+R6867:6877 Coq.PArith.BinPos Pos compare def
+R6867:6877 Coq.PArith.BinPos Pos compare def
+R6922:6935 VST.floyd.computable_theorems <> Pos_compare_eq thm
+R6922:6935 VST.floyd.computable_theorems <> Pos_compare_eq thm
+R6953:6959 Coq.Init.Logic <> f_equal thm
+R6953:6959 Coq.Init.Logic <> f_equal thm
+prf 6994:7002 <> Zle_max_r
+R7018:7018 Coq.Numbers.BinNums <> Z ind
+binder 7012:7012 <> n:132
+binder 7014:7014 <> m:133
+R7022:7025 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R7021:7021 VST.floyd.computable_theorems <> m:133 var
+R7026:7030 Coq.ZArith.BinInt Z max def
+R7034:7034 VST.floyd.computable_theorems <> m:133 var
+R7032:7032 VST.floyd.computable_theorems <> n:132 var
+R7060:7069 Coq.ZArith.BinInt Z max_comm thm
+R7060:7069 Coq.ZArith.BinInt Z max_comm thm
+R7060:7069 Coq.ZArith.BinInt Z max_comm thm
+R7078:7086 VST.floyd.computable_theorems <> Zle_max_l thm
+R7078:7086 VST.floyd.computable_theorems <> Zle_max_l thm
+def 7133:7139 <> le_pred
+R7155:7157 Coq.Init.Datatypes <> nat ind
+binder 7149:7149 <> n:134
+binder 7151:7151 <> m:135
+R7166:7169 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7176:7179 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7170:7173 Coq.Init.Peano <> pred syndef
+R7175:7175 VST.floyd.computable_theorems <> n:134 var
+R7180:7183 Coq.Init.Peano <> pred syndef
+R7185:7185 VST.floyd.computable_theorems <> m:135 var
+R7161:7164 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7160:7160 VST.floyd.computable_theorems <> n:134 var
+R7165:7165 VST.floyd.computable_theorems <> m:135 var
+R7201:7203 Coq.Init.Datatypes <> nat ind
+binder 7195:7195 <> n:136
+binder 7197:7197 <> m:137
+R7212:7215 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7211:7211 VST.floyd.computable_theorems <> n:136 var
+R7216:7216 VST.floyd.computable_theorems <> m:137 var
+binder 7207:7207 <> H:138
+R7222:7227 Coq.Init.Peano <> le_ind scheme
+R7626:7626 VST.floyd.computable_theorems <> H:138 var
+R7624:7624 VST.floyd.computable_theorems <> m:137 var
+R7296:7298 Coq.Init.Datatypes <> nat ind
+binder 7291:7292 <> m0:139
+R7308:7311 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7307:7307 VST.floyd.computable_theorems <> n:136 var
+R7312:7313 VST.floyd.computable_theorems <> m0:139 var
+binder 7302:7303 <> H0:140
+R7330:7333 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7324:7327 Coq.Init.Peano <> pred syndef
+R7329:7329 VST.floyd.computable_theorems <> n:136 var
+R7334:7337 Coq.Init.Peano <> pred syndef
+R7339:7340 VST.floyd.computable_theorems <> m0:139 var
+binder 7317:7320 <> IHle:141
+R7360:7361 VST.floyd.computable_theorems <> m0:139 var
+R7384:7387 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7405:7408 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7415:7418 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7409:7412 Coq.Init.Peano <> pred syndef
+R7414:7414 VST.floyd.computable_theorems <> n:136 var
+R7419:7422 Coq.Init.Peano <> pred syndef
+R7425:7425 Coq.Init.Datatypes <> S constr
+R7427:7428 VST.floyd.computable_theorems <> n0:142 var
+R7394:7397 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7388:7391 Coq.Init.Peano <> pred syndef
+R7393:7393 VST.floyd.computable_theorems <> n:136 var
+R7398:7401 Coq.Init.Peano <> pred syndef
+R7403:7404 VST.floyd.computable_theorems <> n0:142 var
+R7378:7381 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7377:7377 VST.floyd.computable_theorems <> n:136 var
+R7382:7383 VST.floyd.computable_theorems <> n0:142 var
+R7460:7463 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7459:7459 VST.floyd.computable_theorems <> n:136 var
+R7482:7485 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7476:7479 Coq.Init.Peano <> pred syndef
+R7481:7481 VST.floyd.computable_theorems <> n:136 var
+R7486:7489 Coq.Init.Peano <> pred syndef
+binder 7468:7472 <> IHle0:143
+R7497:7501 VST.floyd.computable_theorems <> IHle0:143 var
+R7508:7508 Coq.Init.Datatypes <> S constr
+R7533:7536 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7532:7532 VST.floyd.computable_theorems <> n:136 var
+R7537:7537 Coq.Init.Datatypes <> S constr
+R7558:7561 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7552:7555 Coq.Init.Peano <> pred syndef
+R7557:7557 VST.floyd.computable_theorems <> n:136 var
+R7562:7565 Coq.Init.Peano <> pred syndef
+R7568:7568 Coq.Init.Datatypes <> S constr
+binder 7544:7548 <> IHle0:144
+R7585:7588 Coq.Init.Peano <> le_S constr
+R7602:7606 VST.floyd.computable_theorems <> IHle0:144 var
+R7591:7594 Coq.Init.Peano <> pred syndef
+R7596:7596 VST.floyd.computable_theorems <> n:136 var
+R7618:7621 VST.floyd.computable_theorems <> IHle:141 var
+R7615:7616 VST.floyd.computable_theorems <> H0:140 var
+R7268:7271 Coq.Init.Peano <> le_n constr
+R7274:7277 Coq.Init.Peano <> pred syndef
+R7279:7279 VST.floyd.computable_theorems <> n:136 var
+R7241:7243 Coq.Init.Datatypes <> nat ind
+binder 7236:7237 <> m0:145
+R7254:7257 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7248:7251 Coq.Init.Peano <> pred syndef
+R7253:7253 VST.floyd.computable_theorems <> n:136 var
+R7258:7261 Coq.Init.Peano <> pred syndef
+R7263:7264 VST.floyd.computable_theorems <> m0:145 var
+R7229:7229 VST.floyd.computable_theorems <> n:136 var
+def 7641:7646 <> le_S_n
+R7663:7665 Coq.Init.Datatypes <> nat ind
+binder 7657:7657 <> n:146
+binder 7659:7659 <> m:147
+R7678:7681 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7683:7686 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7682:7682 VST.floyd.computable_theorems <> n:146 var
+R7687:7687 VST.floyd.computable_theorems <> m:147 var
+R7671:7674 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7668:7668 Coq.Init.Datatypes <> S constr
+R7670:7670 VST.floyd.computable_theorems <> n:146 var
+R7675:7675 Coq.Init.Datatypes <> S constr
+R7677:7677 VST.floyd.computable_theorems <> m:147 var
+binder 7700:7700 <> n:148
+binder 7702:7702 <> m:149
+R7707:7713 VST.floyd.computable_theorems <> le_pred def
+R7722:7722 Coq.Init.Datatypes <> S constr
+R7724:7724 VST.floyd.computable_theorems <> m:149 var
+R7716:7716 Coq.Init.Datatypes <> S constr
+R7718:7718 VST.floyd.computable_theorems <> n:148 var
+def 7740:7744 <> max_l
+R7760:7762 Coq.Init.Datatypes <> nat ind
+binder 7754:7754 <> n:150
+binder 7756:7756 <> m:151
+R7771:7774 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7782:7784 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7775:7777 Coq.Init.Peano <> max syndef
+R7781:7781 VST.floyd.computable_theorems <> m:151 var
+R7779:7779 VST.floyd.computable_theorems <> n:150 var
+R7785:7785 VST.floyd.computable_theorems <> n:150 var
+R7766:7769 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7765:7765 VST.floyd.computable_theorems <> m:151 var
+R7770:7770 VST.floyd.computable_theorems <> n:150 var
+R7798:7800 Coq.Init.Datatypes <> nat ind
+binder 7794:7794 <> n:152
+R7805:7811 Coq.Init.Datatypes <> nat_ind scheme
+R9226:9226 VST.floyd.computable_theorems <> n:152 var
+R8966:8968 Coq.Init.Datatypes <> nat ind
+binder 8961:8962 <> n0:153
+R8989:8991 Coq.Init.Datatypes <> nat ind
+binder 8985:8985 <> m:154
+R9001:9004 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9013:9015 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9005:9007 Coq.Init.Peano <> max syndef
+R9012:9012 VST.floyd.computable_theorems <> m:154 var
+R9009:9010 VST.floyd.computable_theorems <> n0:153 var
+R9016:9017 VST.floyd.computable_theorems <> n0:153 var
+R8995:8998 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R8994:8994 VST.floyd.computable_theorems <> m:154 var
+R8999:9000 VST.floyd.computable_theorems <> n0:153 var
+binder 8972:8974 <> IHn:155
+R9025:9027 Coq.Init.Datatypes <> nat ind
+binder 9021:9021 <> m:156
+R9042:9042 VST.floyd.computable_theorems <> m:156 var
+R9068:9071 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9085:9087 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9072:9074 Coq.Init.Peano <> max syndef
+R9083:9084 VST.floyd.computable_theorems <> n1:157 var
+R9077:9077 Coq.Init.Datatypes <> S constr
+R9079:9080 VST.floyd.computable_theorems <> n0:153 var
+R9088:9088 Coq.Init.Datatypes <> S constr
+R9090:9091 VST.floyd.computable_theorems <> n0:153 var
+R9060:9063 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R9058:9059 VST.floyd.computable_theorems <> n1:157 var
+R9064:9064 Coq.Init.Datatypes <> S constr
+R9066:9067 VST.floyd.computable_theorems <> n0:153 var
+R9118:9121 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R9122:9122 Coq.Init.Datatypes <> S constr
+R9124:9125 VST.floyd.computable_theorems <> n0:153 var
+R9130:9136 Coq.Init.Logic <> eq_refl constr
+R9143:9143 Coq.Init.Datatypes <> S constr
+R9170:9173 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R9166:9166 Coq.Init.Datatypes <> S constr
+R9174:9174 Coq.Init.Datatypes <> S constr
+R9176:9177 VST.floyd.computable_theorems <> n0:153 var
+binder 9162:9162 <> H:158
+R9182:9188 Coq.Init.Logic <> f_equal thm
+R9193:9195 VST.floyd.computable_theorems <> IHn:155 var
+R9201:9206 VST.floyd.computable_theorems <> le_S_n def
+R9214:9214 VST.floyd.computable_theorems <> H:158 var
+R9211:9212 VST.floyd.computable_theorems <> n0:153 var
+R9190:9190 Coq.Init.Datatypes <> S constr
+R7883:7885 Coq.Init.Datatypes <> nat ind
+binder 7879:7879 <> m:159
+R7899:7899 VST.floyd.computable_theorems <> m:159 var
+R7922:7925 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7934:7936 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7926:7928 Coq.Init.Peano <> max syndef
+R7932:7933 VST.floyd.computable_theorems <> n0:160 var
+R7917:7920 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7915:7916 VST.floyd.computable_theorems <> n0:160 var
+R7964:7967 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7973:7979 Coq.Init.Logic <> eq_refl constr
+R7986:7986 Coq.Init.Datatypes <> S constr
+R8013:8016 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R8009:8009 Coq.Init.Datatypes <> S constr
+binder 8005:8005 <> H:161
+R8044:8047 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8052:8054 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8048:8048 Coq.Init.Datatypes <> S constr
+R8040:8042 Coq.Init.Logic <> ::type_scope:x_'='_x not
+binder 8034:8035 <> H0:162
+R8060:8061 VST.floyd.computable_theorems <> H0:162 var
+R8063:8069 Coq.Init.Logic <> eq_refl constr
+R8087:8087 VST.floyd.computable_theorems <> H:161 var
+R8094:8097 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R8116:8119 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8124:8126 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8120:8120 Coq.Init.Datatypes <> S constr
+R8112:8114 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8110:8111 VST.floyd.computable_theorems <> n0:164 var
+R8146:8149 Coq.Init.Peano <> le_n constr
+R8180:8182 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8176:8176 Coq.Init.Datatypes <> S constr
+binder 8171:8172 <> H0:165
+R8215:8217 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8211:8211 Coq.Init.Datatypes <> S constr
+binder 8206:8207 <> H1:166
+R8247:8251 Coq.Init.Logic <> False ind
+binder 8242:8243 <> H2:167
+R8281:8285 Coq.Init.Logic <> False ind
+binder 8276:8277 <> H3:168
+R8290:8298 Coq.Init.Logic <> False_ind scheme
+R8311:8312 VST.floyd.computable_theorems <> H3:168 var
+R8305:8307 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8301:8301 Coq.Init.Datatypes <> S constr
+R8315:8316 VST.floyd.computable_theorems <> H2:167 var
+R8336:8341 Coq.Init.Logic <> eq_ind scheme
+R8514:8515 VST.floyd.computable_theorems <> H1:166 var
+R8510:8510 Coq.Init.Logic <> I constr
+R8378:8380 Coq.Init.Datatypes <> nat ind
+binder 8374:8374 <> e:169
+R8411:8411 VST.floyd.computable_theorems <> e:169 var
+R8445:8449 Coq.Init.Logic <> False ind
+R8473:8473 Coq.Init.Datatypes <> S constr
+R8480:8483 Coq.Init.Logic <> True ind
+R8344:8344 Coq.Init.Datatypes <> S constr
+R8519:8520 VST.floyd.computable_theorems <> H0:165 var
+R8533:8536 Coq.Init.Peano <> le_S constr
+R8573:8575 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8569:8569 Coq.Init.Datatypes <> S constr
+binder 8564:8565 <> H1:171
+R8608:8610 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8604:8604 Coq.Init.Datatypes <> S constr
+binder 8599:8600 <> H2:172
+R8640:8644 Coq.Init.Logic <> False ind
+binder 8635:8636 <> H3:173
+R8674:8678 Coq.Init.Logic <> False ind
+binder 8669:8670 <> H4:174
+R8683:8691 Coq.Init.Logic <> False_ind scheme
+R8718:8719 VST.floyd.computable_theorems <> H4:174 var
+R8704:8707 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8712:8714 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8708:8708 Coq.Init.Datatypes <> S constr
+R8698:8701 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R8694:8694 Coq.Init.Datatypes <> S constr
+R8722:8723 VST.floyd.computable_theorems <> H3:173 var
+R8743:8748 Coq.Init.Logic <> eq_ind scheme
+R8921:8922 VST.floyd.computable_theorems <> H2:172 var
+R8917:8917 Coq.Init.Logic <> I constr
+R8785:8787 Coq.Init.Datatypes <> nat ind
+binder 8781:8781 <> e:175
+R8818:8818 VST.floyd.computable_theorems <> e:175 var
+R8852:8856 Coq.Init.Logic <> False ind
+R8880:8880 Coq.Init.Datatypes <> S constr
+R8887:8890 Coq.Init.Logic <> True ind
+R8751:8751 Coq.Init.Datatypes <> S constr
+R8926:8927 VST.floyd.computable_theorems <> H1:171 var
+R7823:7825 Coq.Init.Datatypes <> nat ind
+binder 7818:7819 <> n0:177
+R7841:7843 Coq.Init.Datatypes <> nat ind
+binder 7837:7837 <> m:178
+R7853:7856 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7865:7867 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7857:7859 Coq.Init.Peano <> max syndef
+R7864:7864 VST.floyd.computable_theorems <> m:178 var
+R7861:7862 VST.floyd.computable_theorems <> n0:177 var
+R7868:7869 VST.floyd.computable_theorems <> n0:177 var
+R7847:7850 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R7846:7846 VST.floyd.computable_theorems <> m:178 var
+R7851:7852 VST.floyd.computable_theorems <> n0:177 var
+def 9241:9245 <> max_r
+R9266:9268 Coq.Init.Datatypes <> nat ind
+binder 9260:9260 <> n:179
+binder 9262:9262 <> m:180
+R9277:9280 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9288:9290 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9281:9283 Coq.Init.Peano <> max syndef
+R9287:9287 VST.floyd.computable_theorems <> m:180 var
+R9285:9285 VST.floyd.computable_theorems <> n:179 var
+R9291:9291 VST.floyd.computable_theorems <> m:180 var
+R9272:9275 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R9271:9271 VST.floyd.computable_theorems <> n:179 var
+R9276:9276 VST.floyd.computable_theorems <> m:180 var
+R9304:9306 Coq.Init.Datatypes <> nat ind
+binder 9300:9300 <> n:181
+R9311:9317 Coq.Init.Datatypes <> nat_ind scheme
+R10729:10729 VST.floyd.computable_theorems <> n:181 var
+R9550:9552 Coq.Init.Datatypes <> nat ind
+binder 9545:9546 <> n0:182
+R9573:9575 Coq.Init.Datatypes <> nat ind
+binder 9569:9569 <> m:183
+R9585:9588 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9597:9599 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9589:9591 Coq.Init.Peano <> max syndef
+R9596:9596 VST.floyd.computable_theorems <> m:183 var
+R9593:9594 VST.floyd.computable_theorems <> n0:182 var
+R9600:9600 VST.floyd.computable_theorems <> m:183 var
+R9580:9583 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R9578:9579 VST.floyd.computable_theorems <> n0:182 var
+R9584:9584 VST.floyd.computable_theorems <> m:183 var
+binder 9556:9558 <> IHn:184
+R9608:9610 Coq.Init.Datatypes <> nat ind
+binder 9604:9604 <> m:185
+R9625:9625 VST.floyd.computable_theorems <> m:185 var
+R9651:9654 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9668:9670 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9655:9657 Coq.Init.Peano <> max syndef
+R9666:9667 VST.floyd.computable_theorems <> n1:186 var
+R9660:9660 Coq.Init.Datatypes <> S constr
+R9662:9663 VST.floyd.computable_theorems <> n0:182 var
+R9671:9672 VST.floyd.computable_theorems <> n1:186 var
+R9645:9648 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R9641:9641 Coq.Init.Datatypes <> S constr
+R9643:9644 VST.floyd.computable_theorems <> n0:182 var
+R9649:9650 VST.floyd.computable_theorems <> n1:186 var
+R9709:9712 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R9705:9705 Coq.Init.Datatypes <> S constr
+R9707:9708 VST.floyd.computable_theorems <> n0:182 var
+binder 9701:9701 <> H:187
+R9740:9743 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9748:9750 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9744:9744 Coq.Init.Datatypes <> S constr
+R9746:9747 VST.floyd.computable_theorems <> n0:182 var
+R9736:9738 Coq.Init.Logic <> ::type_scope:x_'='_x not
+binder 9730:9731 <> H0:188
+R9756:9757 VST.floyd.computable_theorems <> H0:188 var
+R9759:9765 Coq.Init.Logic <> eq_refl constr
+R9783:9783 VST.floyd.computable_theorems <> H:187 var
+R9790:9793 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R9812:9815 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9820:9822 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9816:9816 Coq.Init.Datatypes <> S constr
+R9818:9819 VST.floyd.computable_theorems <> n0:182 var
+R9808:9810 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9806:9807 VST.floyd.computable_theorems <> n1:190 var
+R9842:9845 Coq.Init.Peano <> le_n constr
+R9876:9878 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9872:9872 Coq.Init.Datatypes <> S constr
+R9874:9875 VST.floyd.computable_theorems <> n0:182 var
+binder 9867:9868 <> H0:191
+R9911:9913 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9907:9907 Coq.Init.Datatypes <> S constr
+R9909:9910 VST.floyd.computable_theorems <> n0:182 var
+binder 9902:9903 <> H1:192
+R9943:9947 Coq.Init.Logic <> False ind
+binder 9938:9939 <> H2:193
+R9977:9981 Coq.Init.Logic <> False ind
+binder 9972:9973 <> H3:194
+R9986:9994 Coq.Init.Logic <> False_ind scheme
+R10007:10008 VST.floyd.computable_theorems <> H3:194 var
+R10001:10003 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9997:9997 Coq.Init.Datatypes <> S constr
+R9999:10000 VST.floyd.computable_theorems <> n0:182 var
+R10011:10012 VST.floyd.computable_theorems <> H2:193 var
+R10032:10037 Coq.Init.Logic <> eq_ind scheme
+R10210:10211 VST.floyd.computable_theorems <> H1:192 var
+R10206:10206 Coq.Init.Logic <> I constr
+R10074:10076 Coq.Init.Datatypes <> nat ind
+binder 10070:10070 <> e:195
+R10107:10107 VST.floyd.computable_theorems <> e:195 var
+R10141:10145 Coq.Init.Logic <> False ind
+R10169:10169 Coq.Init.Datatypes <> S constr
+R10176:10179 Coq.Init.Logic <> True ind
+R10040:10040 Coq.Init.Datatypes <> S constr
+R10042:10043 VST.floyd.computable_theorems <> n0:182 var
+R10215:10216 VST.floyd.computable_theorems <> H0:191 var
+R10229:10232 Coq.Init.Peano <> le_S constr
+R10269:10271 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10265:10265 Coq.Init.Datatypes <> S constr
+binder 10260:10261 <> H1:197
+R10304:10306 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10300:10300 Coq.Init.Datatypes <> S constr
+binder 10295:10296 <> H2:198
+R10336:10340 Coq.Init.Logic <> False ind
+binder 10331:10332 <> H3:199
+R10370:10374 Coq.Init.Logic <> False ind
+binder 10365:10366 <> H4:200
+R10379:10387 Coq.Init.Logic <> False_ind scheme
+R10414:10415 VST.floyd.computable_theorems <> H4:200 var
+R10400:10403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10408:10410 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10404:10404 Coq.Init.Datatypes <> S constr
+R10406:10407 VST.floyd.computable_theorems <> n0:182 var
+R10394:10397 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R10390:10390 Coq.Init.Datatypes <> S constr
+R10392:10393 VST.floyd.computable_theorems <> n0:182 var
+R10418:10419 VST.floyd.computable_theorems <> H3:199 var
+R10439:10444 Coq.Init.Logic <> eq_ind scheme
+R10617:10618 VST.floyd.computable_theorems <> H2:198 var
+R10613:10613 Coq.Init.Logic <> I constr
+R10481:10483 Coq.Init.Datatypes <> nat ind
+binder 10477:10477 <> e:201
+R10514:10514 VST.floyd.computable_theorems <> e:201 var
+R10548:10552 Coq.Init.Logic <> False ind
+R10576:10576 Coq.Init.Datatypes <> S constr
+R10583:10586 Coq.Init.Logic <> True ind
+R10447:10447 Coq.Init.Datatypes <> S constr
+R10622:10623 VST.floyd.computable_theorems <> H1:197 var
+R10646:10646 Coq.Init.Datatypes <> S constr
+R10673:10676 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R10669:10669 Coq.Init.Datatypes <> S constr
+R10671:10672 VST.floyd.computable_theorems <> n0:182 var
+R10677:10677 Coq.Init.Datatypes <> S constr
+binder 10665:10665 <> H:203
+R10685:10691 Coq.Init.Logic <> f_equal thm
+R10696:10698 VST.floyd.computable_theorems <> IHn:184 var
+R10704:10709 VST.floyd.computable_theorems <> le_S_n def
+R10717:10717 VST.floyd.computable_theorems <> H:203 var
+R10711:10712 VST.floyd.computable_theorems <> n0:182 var
+R10693:10693 Coq.Init.Datatypes <> S constr
+R9388:9390 Coq.Init.Datatypes <> nat ind
+binder 9384:9384 <> m:204
+R9404:9404 VST.floyd.computable_theorems <> m:204 var
+R9427:9430 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9439:9441 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9431:9433 Coq.Init.Peano <> max syndef
+R9437:9438 VST.floyd.computable_theorems <> n0:205 var
+R9442:9443 VST.floyd.computable_theorems <> n0:205 var
+R9421:9424 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R9425:9426 VST.floyd.computable_theorems <> n0:205 var
+R9470:9473 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R9479:9485 Coq.Init.Logic <> eq_refl constr
+R9492:9492 Coq.Init.Datatypes <> S constr
+R9509:9512 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R9513:9513 Coq.Init.Datatypes <> S constr
+R9521:9527 Coq.Init.Logic <> eq_refl constr
+R9329:9331 Coq.Init.Datatypes <> nat ind
+binder 9324:9325 <> n0:206
+R9347:9349 Coq.Init.Datatypes <> nat ind
+binder 9343:9343 <> m:207
+R9359:9362 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9371:9373 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9363:9365 Coq.Init.Peano <> max syndef
+R9370:9370 VST.floyd.computable_theorems <> m:207 var
+R9367:9368 VST.floyd.computable_theorems <> n0:206 var
+R9374:9374 VST.floyd.computable_theorems <> m:207 var
+R9354:9357 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R9352:9353 VST.floyd.computable_theorems <> n0:206 var
+R9358:9358 VST.floyd.computable_theorems <> m:207 var
+def 10744:10749 <> le_n_S
+R10766:10768 Coq.Init.Datatypes <> nat ind
+binder 10760:10760 <> n:208
+binder 10762:10762 <> m:209
+R10777:10780 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10784:10787 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R10781:10781 Coq.Init.Datatypes <> S constr
+R10783:10783 VST.floyd.computable_theorems <> n:208 var
+R10788:10788 Coq.Init.Datatypes <> S constr
+R10790:10790 VST.floyd.computable_theorems <> m:209 var
+R10772:10775 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R10771:10771 VST.floyd.computable_theorems <> n:208 var
+R10776:10776 VST.floyd.computable_theorems <> m:209 var
+R10806:10808 Coq.Init.Datatypes <> nat ind
+binder 10800:10800 <> n:210
+binder 10802:10802 <> m:211
+R10817:10820 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R10816:10816 VST.floyd.computable_theorems <> n:210 var
+R10821:10821 VST.floyd.computable_theorems <> m:211 var
+binder 10812:10812 <> H:212
+R10827:10832 Coq.Init.Peano <> le_ind scheme
+R10964:10964 VST.floyd.computable_theorems <> H:212 var
+R10962:10962 VST.floyd.computable_theorems <> m:211 var
+R10892:10894 Coq.Init.Datatypes <> nat ind
+binder 10887:10888 <> m0:213
+R10903:10906 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R10902:10902 VST.floyd.computable_theorems <> n:210 var
+R10907:10908 VST.floyd.computable_theorems <> m0:213 var
+R10922:10925 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R10919:10919 Coq.Init.Datatypes <> S constr
+R10921:10921 VST.floyd.computable_theorems <> n:210 var
+R10926:10926 Coq.Init.Datatypes <> S constr
+R10928:10929 VST.floyd.computable_theorems <> m0:213 var
+binder 10912:10915 <> IHle:214
+R10938:10941 Coq.Init.Peano <> le_S constr
+R10956:10959 VST.floyd.computable_theorems <> IHle:214 var
+R10950:10950 Coq.Init.Datatypes <> S constr
+R10952:10953 VST.floyd.computable_theorems <> m0:213 var
+R10944:10944 Coq.Init.Datatypes <> S constr
+R10946:10946 VST.floyd.computable_theorems <> n:210 var
+R10867:10870 Coq.Init.Peano <> le_n constr
+R10873:10873 Coq.Init.Datatypes <> S constr
+R10875:10875 VST.floyd.computable_theorems <> n:210 var
+R10846:10848 Coq.Init.Datatypes <> nat ind
+binder 10841:10842 <> m0:215
+R10856:10859 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R10853:10853 Coq.Init.Datatypes <> S constr
+R10855:10855 VST.floyd.computable_theorems <> n:210 var
+R10860:10860 Coq.Init.Datatypes <> S constr
+R10862:10863 VST.floyd.computable_theorems <> m0:215 var
+R10834:10834 VST.floyd.computable_theorems <> n:210 var
+def 10979:10984 <> lt_n_S
+R11000:11002 Coq.Init.Datatypes <> nat ind
+binder 10994:10994 <> n:216
+binder 10996:10996 <> m:217
+R11010:11013 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11017:11019 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R11014:11014 Coq.Init.Datatypes <> S constr
+R11016:11016 VST.floyd.computable_theorems <> n:216 var
+R11020:11020 Coq.Init.Datatypes <> S constr
+R11022:11022 VST.floyd.computable_theorems <> m:217 var
+R11006:11008 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R11005:11005 VST.floyd.computable_theorems <> n:216 var
+R11009:11009 VST.floyd.computable_theorems <> m:217 var
+R11038:11040 Coq.Init.Datatypes <> nat ind
+binder 11032:11032 <> n:218
+binder 11034:11034 <> m:219
+R11049:11051 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R11048:11048 VST.floyd.computable_theorems <> n:218 var
+R11052:11052 VST.floyd.computable_theorems <> m:219 var
+binder 11044:11044 <> H:220
+R11058:11063 VST.floyd.computable_theorems <> le_n_S def
+R11073:11073 VST.floyd.computable_theorems <> H:220 var
+R11071:11071 VST.floyd.computable_theorems <> m:219 var
+R11066:11066 Coq.Init.Datatypes <> S constr
+R11068:11068 VST.floyd.computable_theorems <> n:218 var
+def 11088:11095 <> le_trans
+R11113:11115 Coq.Init.Datatypes <> nat ind
+binder 11105:11105 <> n:221
+binder 11107:11107 <> m:222
+binder 11109:11109 <> p:223
+R11124:11127 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11134:11137 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11139:11142 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11138:11138 VST.floyd.computable_theorems <> n:221 var
+R11143:11143 VST.floyd.computable_theorems <> p:223 var
+R11129:11132 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11128:11128 VST.floyd.computable_theorems <> m:222 var
+R11133:11133 VST.floyd.computable_theorems <> p:223 var
+R11119:11122 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11118:11118 VST.floyd.computable_theorems <> n:221 var
+R11123:11123 VST.floyd.computable_theorems <> m:222 var
+R11161:11163 Coq.Init.Datatypes <> nat ind
+binder 11153:11153 <> n:224
+binder 11155:11155 <> m:225
+binder 11157:11157 <> p:226
+R11172:11175 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11171:11171 VST.floyd.computable_theorems <> n:224 var
+R11176:11176 VST.floyd.computable_theorems <> m:225 var
+binder 11167:11167 <> H:227
+R11186:11189 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11185:11185 VST.floyd.computable_theorems <> m:225 var
+R11190:11190 VST.floyd.computable_theorems <> p:226 var
+binder 11180:11181 <> H0:228
+R11196:11201 Coq.Init.Peano <> le_ind scheme
+R11303:11304 VST.floyd.computable_theorems <> H0:228 var
+R11301:11301 VST.floyd.computable_theorems <> p:226 var
+R11246:11248 Coq.Init.Datatypes <> nat ind
+binder 11241:11242 <> m0:229
+R11257:11260 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11256:11256 VST.floyd.computable_theorems <> m:225 var
+R11261:11262 VST.floyd.computable_theorems <> m0:229 var
+R11274:11277 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11273:11273 VST.floyd.computable_theorems <> n:224 var
+R11278:11279 VST.floyd.computable_theorems <> m0:229 var
+binder 11266:11269 <> IHle:230
+R11285:11288 Coq.Init.Peano <> le_S constr
+R11295:11298 VST.floyd.computable_theorems <> IHle:230 var
+R11292:11293 VST.floyd.computable_theorems <> m0:229 var
+R11290:11290 VST.floyd.computable_theorems <> n:224 var
+R11231:11231 VST.floyd.computable_theorems <> H:227 var
+R11215:11217 Coq.Init.Datatypes <> nat ind
+binder 11210:11211 <> p0:231
+R11223:11226 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11222:11222 VST.floyd.computable_theorems <> n:224 var
+R11227:11228 VST.floyd.computable_theorems <> p0:231 var
+R11203:11203 VST.floyd.computable_theorems <> m:225 var
+def 11319:11326 <> le_Sn_le
+R11342:11344 Coq.Init.Datatypes <> nat ind
+binder 11336:11336 <> n:232
+binder 11338:11338 <> m:233
+R11355:11358 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11360:11363 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11359:11359 VST.floyd.computable_theorems <> n:232 var
+R11364:11364 VST.floyd.computable_theorems <> m:233 var
+R11350:11353 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11347:11347 Coq.Init.Datatypes <> S constr
+R11349:11349 VST.floyd.computable_theorems <> n:232 var
+R11354:11354 VST.floyd.computable_theorems <> m:233 var
+R11380:11382 Coq.Init.Datatypes <> nat ind
+binder 11374:11374 <> n:234
+binder 11376:11376 <> m:235
+R11393:11396 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11390:11390 Coq.Init.Datatypes <> S constr
+R11392:11392 VST.floyd.computable_theorems <> n:234 var
+R11397:11397 VST.floyd.computable_theorems <> m:235 var
+binder 11386:11386 <> H:236
+R11403:11410 VST.floyd.computable_theorems <> le_trans def
+R11442:11442 VST.floyd.computable_theorems <> H:236 var
+R11423:11426 Coq.Init.Peano <> le_S constr
+R11433:11436 Coq.Init.Peano <> le_n constr
+R11438:11438 VST.floyd.computable_theorems <> n:234 var
+R11430:11430 VST.floyd.computable_theorems <> n:234 var
+R11428:11428 VST.floyd.computable_theorems <> n:234 var
+R11420:11420 VST.floyd.computable_theorems <> m:235 var
+R11415:11415 Coq.Init.Datatypes <> S constr
+R11417:11417 VST.floyd.computable_theorems <> n:234 var
+R11412:11412 VST.floyd.computable_theorems <> n:234 var
+def 11457:11466 <> lt_le_weak
+R11482:11484 Coq.Init.Datatypes <> nat ind
+binder 11476:11476 <> n:237
+binder 11478:11478 <> m:238
+R11492:11495 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11497:11500 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11496:11496 VST.floyd.computable_theorems <> n:237 var
+R11501:11501 VST.floyd.computable_theorems <> m:238 var
+R11488:11490 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R11487:11487 VST.floyd.computable_theorems <> n:237 var
+R11491:11491 VST.floyd.computable_theorems <> m:238 var
+R11517:11519 Coq.Init.Datatypes <> nat ind
+binder 11511:11511 <> n:239
+binder 11513:11513 <> m:240
+R11528:11530 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R11527:11527 VST.floyd.computable_theorems <> n:239 var
+R11531:11531 VST.floyd.computable_theorems <> m:240 var
+binder 11523:11523 <> H:241
+R11537:11544 VST.floyd.computable_theorems <> le_Sn_le def
+R11550:11550 VST.floyd.computable_theorems <> H:241 var
+R11548:11548 VST.floyd.computable_theorems <> m:240 var
+R11546:11546 VST.floyd.computable_theorems <> n:239 var
+prf 11560:11567 <> le_or_lt
+R11583:11585 Coq.Init.Datatypes <> nat ind
+binder 11577:11577 <> n:242
+binder 11579:11579 <> m:243
+R11594:11597 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11589:11592 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11588:11588 VST.floyd.computable_theorems <> n:242 var
+R11593:11593 VST.floyd.computable_theorems <> m:243 var
+R11599:11601 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R11598:11598 VST.floyd.computable_theorems <> m:243 var
+R11602:11602 VST.floyd.computable_theorems <> n:242 var
+R11691:11692 Coq.Init.Peano <> lt def
+R11768:11773 VST.floyd.computable_theorems <> le_n_S def
+R11768:11773 VST.floyd.computable_theorems <> le_n_S def
+R11788:11793 VST.floyd.computable_theorems <> lt_n_S def
+R11788:11793 VST.floyd.computable_theorems <> lt_n_S def
+prf 11818:11825 <> le_max_l
+R11841:11843 Coq.Init.Datatypes <> nat ind
+binder 11835:11835 <> n:244
+binder 11837:11837 <> m:245
+R11847:11850 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11846:11846 VST.floyd.computable_theorems <> n:244 var
+R11851:11853 Coq.Init.Peano <> max syndef
+R11857:11857 VST.floyd.computable_theorems <> m:245 var
+R11855:11855 VST.floyd.computable_theorems <> n:244 var
+R11885:11892 VST.floyd.computable_theorems <> le_or_lt thm
+R11885:11892 VST.floyd.computable_theorems <> le_or_lt thm
+R11908:11912 VST.floyd.computable_theorems <> max_r def
+R11908:11912 VST.floyd.computable_theorems <> max_r def
+R11908:11912 VST.floyd.computable_theorems <> max_r def
+R11908:11912 VST.floyd.computable_theorems <> max_r def
+R11929:11933 VST.floyd.computable_theorems <> max_l def
+R11929:11933 VST.floyd.computable_theorems <> max_l def
+R11929:11933 VST.floyd.computable_theorems <> max_l def
+R11929:11933 VST.floyd.computable_theorems <> max_l def
+R11948:11957 VST.floyd.computable_theorems <> lt_le_weak def
+R11948:11957 VST.floyd.computable_theorems <> lt_le_weak def
+prf 11982:11989 <> le_max_r
+R12005:12007 Coq.Init.Datatypes <> nat ind
+binder 11999:11999 <> n:246
+binder 12001:12001 <> m:247
+R12011:12014 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12010:12010 VST.floyd.computable_theorems <> m:247 var
+R12015:12017 Coq.Init.Peano <> max syndef
+R12021:12021 VST.floyd.computable_theorems <> m:247 var
+R12019:12019 VST.floyd.computable_theorems <> n:246 var
+R12049:12056 VST.floyd.computable_theorems <> le_or_lt thm
+R12049:12056 VST.floyd.computable_theorems <> le_or_lt thm
+R12072:12076 VST.floyd.computable_theorems <> max_r def
+R12072:12076 VST.floyd.computable_theorems <> max_r def
+R12072:12076 VST.floyd.computable_theorems <> max_r def
+R12072:12076 VST.floyd.computable_theorems <> max_r def
+R12093:12097 VST.floyd.computable_theorems <> max_l def
+R12093:12097 VST.floyd.computable_theorems <> max_l def
+R12093:12097 VST.floyd.computable_theorems <> max_l def
+R12093:12097 VST.floyd.computable_theorems <> max_l def
+R12112:12121 VST.floyd.computable_theorems <> lt_le_weak def
+R12112:12121 VST.floyd.computable_theorems <> lt_le_weak def
+R12136:12145 VST.floyd.computable_theorems <> lt_le_weak def
+R12136:12145 VST.floyd.computable_theorems <> lt_le_weak def
+prf 12170:12186 <> rank_type_members
+binder 12198:12199 <> ce:248
+binder 12201:12202 <> id:249
+binder 12204:12204 <> t:250
+binder 12206:12206 <> m:251
+R12221:12224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12240:12243 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12226:12234 compcert.cfrontend.Ctypes <> rank_type def
+R12239:12239 VST.floyd.computable_theorems <> t:250 var
+R12236:12237 VST.floyd.computable_theorems <> ce:248 var
+R12244:12255 compcert.cfrontend.Ctypes <> rank_members def
+R12260:12260 VST.floyd.computable_theorems <> m:251 var
+R12257:12258 VST.floyd.computable_theorems <> ce:248 var
+R12209:12210 Coq.Lists.List <> In def
+R12220:12220 VST.floyd.computable_theorems <> m:251 var
+R12212:12212 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12215:12216 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12218:12218 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12213:12214 VST.floyd.computable_theorems <> id:249 var
+R12217:12217 VST.floyd.computable_theorems <> t:250 var
+R12340:12347 VST.floyd.computable_theorems <> le_max_l thm
+R12340:12347 VST.floyd.computable_theorems <> le_max_l thm
+R12359:12366 VST.floyd.computable_theorems <> le_trans def
+R12359:12366 VST.floyd.computable_theorems <> le_trans def
+R12395:12402 VST.floyd.computable_theorems <> le_max_r thm
+R12395:12402 VST.floyd.computable_theorems <> le_max_r thm

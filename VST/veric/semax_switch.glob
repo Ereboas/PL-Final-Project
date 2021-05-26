@@ -1,0 +1,1236 @@
+DIGEST 31a72a506dbbb1f07080a2acd504b393
+FVST.veric.semax_switch
+R15:34 VST.veric.juicy_base <> <> lib
+R52:68 VST.msl.normalize <> <> lib
+R86:104 VST.veric.juicy_mem <> <> lib
+R106:131 VST.veric.juicy_mem_lemmas <> <> lib
+R133:155 VST.veric.juicy_mem_ops <> <> lib
+R173:196 VST.veric.res_predicates <> <> lib
+R214:232 VST.veric.extend_tc <> <> lib
+R250:272 VST.veric.Clight_seplog <> <> lib
+R290:319 VST.veric.Clight_assert_lemmas <> <> lib
+R337:357 VST.veric.Clight_core <> <> lib
+R375:393 VST.sepcomp.extspec <> <> lib
+R411:433 VST.sepcomp.step_lemmas <> <> lib
+R451:473 VST.veric.juicy_extspec <> <> lib
+R491:509 VST.veric.tycontext <> <> lib
+R527:541 VST.veric.expr2 <> <> lib
+R559:579 VST.veric.expr_lemmas <> <> lib
+R597:611 VST.veric.semax <> <> lib
+R629:650 VST.veric.semax_lemmas <> <> lib
+R668:690 VST.veric.Clight_lemmas <> <> lib
+prf 700:724 <> closed_wrt_modvars_switch
+binder 736:736 <> a:1
+binder 738:739 <> sl:2
+binder 741:741 <> n:3
+binder 743:743 <> F:4
+R783:788 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R789:806 VST.veric.semax <> closed_wrt_modvars def
+R856:856 VST.veric.semax_switch <> F:4 var
+R809:832 compcert.cfrontend.Clight <> seq_of_labeled_statement def
+R835:847 compcert.cfrontend.Clight <> select_switch def
+R851:852 VST.veric.semax_switch <> sl:2 var
+R849:849 VST.veric.semax_switch <> n:3 var
+R748:765 VST.veric.semax <> closed_wrt_modvars def
+R782:782 VST.veric.semax_switch <> F:4 var
+R768:774 compcert.cfrontend.Clight <> Sswitch constr
+R778:779 VST.veric.semax_switch <> sl:2 var
+R776:776 VST.veric.semax_switch <> a:1 var
+R873:890 VST.veric.semax <> closed_wrt_modvars def
+R893:904 VST.veric.tycontext <> modifiedvars def
+R1025:1030 VST.veric.mpred <> idset0 def
+R1025:1030 VST.veric.mpred <> idset0 def
+R1046:1051 VST.veric.coqlib4 <> isSome def
+R1053:1053 compcert.lib.Maps <> :::x_'!'_x not
+R1099:1102 compcert.lib.Maps <> :::x_'!'_x not
+R1054:1066 VST.veric.tycontext <> modifiedvars' def
+R1069:1092 compcert.cfrontend.Clight <> seq_of_labeled_statement def
+R1046:1051 VST.veric.coqlib4 <> isSome def
+R1053:1053 compcert.lib.Maps <> :::x_'!'_x not
+R1099:1102 compcert.lib.Maps <> :::x_'!'_x not
+R1054:1066 VST.veric.tycontext <> modifiedvars' def
+R1069:1092 compcert.cfrontend.Clight <> seq_of_labeled_statement def
+R1118:1130 compcert.cfrontend.Clight <> select_switch def
+R1150:1167 compcert.cfrontend.Clight <> select_switch_case def
+R1150:1167 compcert.cfrontend.Clight <> select_switch_case def
+R1285:1287 compcert.lib.Coqlib <> zeq def
+R1285:1287 compcert.lib.Coqlib <> zeq def
+R1376:1394 VST.veric.tycontext <> modifiedvars'_union thm
+R1376:1394 VST.veric.tycontext <> modifiedvars'_union thm
+R1376:1394 VST.veric.tycontext <> modifiedvars'_union thm
+R1420:1438 VST.veric.tycontext <> modifiedvars'_union thm
+R1420:1438 VST.veric.tycontext <> modifiedvars'_union thm
+R1420:1438 VST.veric.tycontext <> modifiedvars'_union thm
+R1574:1576 compcert.lib.Coqlib <> zeq def
+R1574:1576 compcert.lib.Coqlib <> zeq def
+R1604:1622 VST.veric.tycontext <> modifiedvars'_union thm
+R1604:1622 VST.veric.tycontext <> modifiedvars'_union thm
+R1604:1622 VST.veric.tycontext <> modifiedvars'_union thm
+R1731:1749 VST.veric.tycontext <> modifiedvars'_union thm
+R1731:1749 VST.veric.tycontext <> modifiedvars'_union thm
+R1731:1749 VST.veric.tycontext <> modifiedvars'_union thm
+prf 1804:1816 <> frame_tc_expr
+R1833:1841 VST.veric.mpred <> compspecs class
+binder 1829:1830 <> CS:5
+R1850:1854 VST.veric.mpred <> mpred def
+binder 1845:1845 <> Q:6
+binder 1847:1847 <> F:7
+binder 1857:1861 <> Delta:8
+binder 1863:1863 <> e:9
+binder 1865:1867 <> rho:10
+R1897:1902 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1908:1912 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R1904:1906 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R1903:1903 VST.veric.semax_switch <> Q:6 var
+R1907:1907 VST.veric.semax_switch <> F:7 var
+R1913:1919 VST.veric.extend_tc <> tc_expr def
+R1929:1931 VST.veric.semax_switch <> rho:10 var
+R1927:1927 VST.veric.semax_switch <> e:9 var
+R1921:1925 VST.veric.semax_switch <> Delta:8 var
+R1873:1877 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R1872:1872 VST.veric.semax_switch <> Q:6 var
+R1878:1884 VST.veric.extend_tc <> tc_expr def
+R1894:1896 VST.veric.semax_switch <> rho:10 var
+R1892:1892 VST.veric.semax_switch <> e:9 var
+R1886:1890 VST.veric.semax_switch <> Delta:8 var
+R1956:1968 VST.msl.predicates_hered <> derives_trans thm
+R1978:1991 VST.msl.predicates_sl <> sepcon_derives thm
+R2011:2022 VST.msl.predicates_hered <> derives_refl thm
+R1956:1968 VST.msl.predicates_hered <> derives_trans thm
+R1978:1991 VST.msl.predicates_sl <> sepcon_derives thm
+R2011:2022 VST.msl.predicates_hered <> derives_refl thm
+R2037:2049 VST.msl.predicates_sl <> extend_sepcon thm
+R2058:2071 VST.veric.extend_tc <> extend_tc_expr thm
+R2037:2049 VST.msl.predicates_sl <> extend_sepcon thm
+R2058:2071 VST.veric.extend_tc <> extend_tc_expr thm
+prf 2086:2096 <> subp_trans'
+binder 2108:2108 <> A:11
+R2115:2121 VST.msl.ageable <> ageable class
+R2123:2123 VST.veric.semax_switch <> A:11 var
+binder 2111:2112 <> NA:12
+R2134:2137 VST.msl.predicates_hered <> pred def
+R2139:2139 VST.veric.semax_switch <> A:11 var
+binder 2127:2127 <> P:13
+binder 2129:2129 <> Q:14
+binder 2131:2131 <> R:15
+binder 2142:2142 <> w:16
+R2171:2178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2199:2207 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2208:2215 VST.msl.predicates_hered <> app_pred def
+R2227:2227 VST.veric.semax_switch <> w:16 var
+R2219:2223 VST.msl.subtypes <> ::pred:x_'>=>'_x not
+R2218:2218 VST.veric.semax_switch <> P:13 var
+R2224:2224 VST.veric.semax_switch <> R:15 var
+R2179:2186 VST.msl.predicates_hered <> app_pred def
+R2198:2198 VST.veric.semax_switch <> w:16 var
+R2190:2194 VST.msl.subtypes <> ::pred:x_'>=>'_x not
+R2189:2189 VST.veric.semax_switch <> Q:14 var
+R2195:2195 VST.veric.semax_switch <> R:15 var
+R2151:2158 VST.msl.predicates_hered <> app_pred def
+R2170:2170 VST.veric.semax_switch <> w:16 var
+R2162:2166 VST.msl.subtypes <> ::pred:x_'>=>'_x not
+R2161:2161 VST.veric.semax_switch <> P:13 var
+R2167:2167 VST.veric.semax_switch <> Q:14 var
+prf 2301:2309 <> prop_subp
+binder 2322:2322 <> A:17
+R2329:2335 VST.msl.ageable <> ageable class
+R2337:2337 VST.veric.semax_switch <> A:17 var
+binder 2325:2326 <> NA:18
+binder 2341:2341 <> P:19
+binder 2343:2343 <> Q:20
+R2356:2358 Coq.Init.Datatypes <> nat ind
+binder 2353:2353 <> w:21
+R2366:2366 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2373:2377 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2378:2385 VST.msl.predicates_hered <> app_pred def
+R2404:2404 VST.veric.semax_switch <> w:21 var
+R2392:2396 VST.msl.subtypes <> ::pred:x_'>=>'_x not
+R2388:2390 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R2391:2391 VST.veric.semax_switch <> P:19 var
+R2397:2399 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R2400:2400 VST.veric.semax_switch <> Q:20 var
+R2368:2371 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2372:2372 VST.veric.semax_switch <> Q:20 var
+R2367:2367 VST.veric.semax_switch <> P:19 var
+prf 2459:2474 <> andp_subp'_right
+binder 2486:2486 <> A:22
+R2493:2499 VST.msl.ageable <> ageable class
+R2501:2501 VST.veric.semax_switch <> A:22 var
+binder 2489:2490 <> NA:23
+R2512:2515 VST.msl.predicates_hered <> pred def
+R2517:2517 VST.veric.semax_switch <> A:22 var
+binder 2505:2505 <> P:24
+binder 2507:2507 <> Q:25
+binder 2509:2509 <> R:26
+binder 2520:2520 <> w:27
+R2549:2556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2577:2585 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2586:2593 VST.msl.predicates_hered <> app_pred def
+R2610:2610 VST.veric.semax_switch <> w:27 var
+R2597:2601 VST.msl.subtypes <> ::pred:x_'>=>'_x not
+R2596:2596 VST.veric.semax_switch <> P:24 var
+R2603:2606 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R2602:2602 VST.veric.semax_switch <> Q:25 var
+R2607:2607 VST.veric.semax_switch <> R:26 var
+R2557:2564 VST.msl.predicates_hered <> app_pred def
+R2576:2576 VST.veric.semax_switch <> w:27 var
+R2568:2572 VST.msl.subtypes <> ::pred:x_'>=>'_x not
+R2567:2567 VST.veric.semax_switch <> P:24 var
+R2573:2573 VST.veric.semax_switch <> R:26 var
+R2529:2536 VST.msl.predicates_hered <> app_pred def
+R2548:2548 VST.veric.semax_switch <> w:27 var
+R2540:2544 VST.msl.subtypes <> ::pred:x_'>=>'_x not
+R2539:2539 VST.veric.semax_switch <> P:24 var
+R2545:2545 VST.veric.semax_switch <> Q:25 var
+prf 2688:2700 <> prop_true_imp
+binder 2713:2713 <> A:28
+R2722:2728 VST.msl.ageable <> ageable class
+R2730:2730 VST.veric.semax_switch <> A:28 var
+binder 2717:2719 <> agA:29
+binder 2734:2734 <> P:30
+R2747:2750 VST.msl.predicates_hered <> pred def
+R2752:2752 VST.veric.semax_switch <> A:28 var
+binder 2744:2744 <> Q:31
+R2760:2765 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2783:2785 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2771:2775 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R2767:2769 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R2770:2770 VST.veric.semax_switch <> P:30 var
+R2776:2776 VST.veric.semax_switch <> Q:31 var
+R2786:2786 VST.veric.semax_switch <> Q:31 var
+R2759:2759 VST.veric.semax_switch <> P:30 var
+R2810:2817 VST.msl.predicates_hered <> pred_ext thm
+R2810:2817 VST.msl.predicates_hered <> pred_ext thm
+R2873:2891 VST.msl.predicates_hered <> pred_nec_hereditary thm
+R2873:2891 VST.msl.predicates_hered <> pred_nec_hereditary thm
+prf 2913:2926 <> prop_imp_right
+binder 2936:2936 <> A:32
+R2944:2950 VST.msl.ageable <> ageable class
+R2952:2952 VST.veric.semax_switch <> A:32 var
+binder 2939:2941 <> agA:33
+binder 2956:2956 <> P:34
+R2971:2974 VST.msl.predicates_hered <> pred def
+R2976:2976 VST.veric.semax_switch <> A:32 var
+binder 2966:2966 <> Q:35
+binder 2968:2968 <> R:36
+R2983:2983 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2998:3005 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3007:3011 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R3006:3006 VST.veric.semax_switch <> Q:35 var
+R3016:3020 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R3012:3014 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R3015:3015 VST.veric.semax_switch <> P:34 var
+R3021:3021 VST.veric.semax_switch <> R:36 var
+R2985:2989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2997:2997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2991:2995 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R2990:2990 VST.veric.semax_switch <> Q:35 var
+R2996:2996 VST.veric.semax_switch <> R:36 var
+R2984:2984 VST.veric.semax_switch <> P:34 var
+R3079:3097 VST.msl.predicates_hered <> pred_nec_hereditary thm
+R3079:3097 VST.msl.predicates_hered <> pred_nec_hereditary thm
+prf 3119:3127 <> imp_right
+binder 3138:3138 <> A:37
+R3146:3152 VST.msl.ageable <> ageable class
+R3154:3154 VST.veric.semax_switch <> A:37 var
+binder 3141:3143 <> agA:38
+R3166:3169 VST.msl.predicates_hered <> pred def
+R3171:3171 VST.veric.semax_switch <> A:37 var
+binder 3158:3158 <> P:39
+binder 3160:3160 <> Q:40
+binder 3162:3162 <> R:41
+R3189:3194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3196:3200 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R3195:3195 VST.veric.semax_switch <> P:39 var
+R3202:3206 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R3201:3201 VST.veric.semax_switch <> Q:40 var
+R3207:3207 VST.veric.semax_switch <> R:41 var
+R3183:3187 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R3178:3181 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R3177:3177 VST.veric.semax_switch <> P:39 var
+R3182:3182 VST.veric.semax_switch <> Q:40 var
+R3188:3188 VST.veric.semax_switch <> R:41 var
+R3272:3290 VST.msl.predicates_hered <> pred_nec_hereditary thm
+R3272:3290 VST.msl.predicates_hered <> pred_nec_hereditary thm
+prf 3312:3326 <> prop_andp_subp'
+binder 3339:3339 <> A:42
+R3356:3362 VST.msl.ageable <> ageable class
+R3364:3364 VST.veric.semax_switch <> A:42 var
+binder 3350:3352 <> agA:43
+binder 3368:3368 <> P:44
+R3382:3385 VST.msl.predicates_hered <> pred def
+R3387:3389 Coq.Init.Datatypes <> nat ind
+binder 3379:3379 <> S:45
+R3399:3402 VST.msl.predicates_hered <> pred def
+R3404:3404 VST.veric.semax_switch <> A:42 var
+binder 3393:3393 <> Q:46
+binder 3395:3395 <> R:47
+R3435:3441 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3444:3450 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R3443:3443 VST.veric.semax_switch <> S:45 var
+R3460:3464 VST.msl.subtypes <> ::pred:x_'>=>'_x not
+R3455:3458 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R3451:3453 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R3454:3454 VST.veric.semax_switch <> P:44 var
+R3459:3459 VST.veric.semax_switch <> Q:46 var
+R3465:3465 VST.veric.semax_switch <> R:47 var
+R3412:3415 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3417:3421 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R3416:3416 VST.veric.semax_switch <> S:45 var
+R3423:3427 VST.msl.subtypes <> ::pred:x_'>=>'_x not
+R3422:3422 VST.veric.semax_switch <> Q:46 var
+R3428:3428 VST.veric.semax_switch <> R:47 var
+R3411:3411 VST.veric.semax_switch <> P:44 var
+prf 3544:3556 <> tc_expr_sound
+R3563:3571 VST.veric.mpred <> compspecs class
+binder 3559:3560 <> CS:48
+binder 3583:3587 <> Delta:49
+binder 3589:3589 <> e:50
+binder 3591:3593 <> rho:51
+R3623:3632 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3652:3656 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R3633:3639 VST.veric.extend_tc <> tc_expr def
+R3649:3651 VST.veric.semax_switch <> rho:51 var
+R3647:3647 VST.veric.semax_switch <> e:50 var
+R3641:3645 VST.veric.semax_switch <> Delta:49 var
+R3657:3659 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R3660:3665 VST.veric.Cop2 <> tc_val def
+R3679:3687 VST.veric.expr <> eval_expr def
+R3691:3693 VST.veric.semax_switch <> rho:51 var
+R3689:3689 VST.veric.semax_switch <> e:50 var
+R3668:3673 compcert.cfrontend.Clight <> typeof def
+R3675:3675 VST.veric.semax_switch <> e:50 var
+R3596:3612 VST.veric.seplog <> typecheck_environ def
+R3620:3622 VST.veric.semax_switch <> rho:51 var
+R3614:3618 VST.veric.semax_switch <> Delta:49 var
+R3725:3744 VST.veric.expr_lemmas4 <> typecheck_expr_sound thm
+R3725:3744 VST.veric.expr_lemmas4 <> typecheck_expr_sound thm
+prf 3766:3776 <> unfash_allp
+binder 3788:3788 <> A:52
+R3797:3803 VST.msl.ageable <> ageable class
+R3805:3805 VST.veric.semax_switch <> A:52 var
+binder 3792:3794 <> agA:53
+binder 3809:3809 <> B:54
+R3817:3820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3821:3824 VST.msl.predicates_hered <> pred def
+R3826:3828 Coq.Init.Datatypes <> nat ind
+R3816:3816 VST.veric.semax_switch <> B:54 var
+binder 3813:3813 <> f:55
+R3856:3858 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3835:3840 VST.msl.subtypes <> unfash def
+R3849:3852 VST.msl.predicates_hered <> allp def
+R3854:3854 VST.veric.semax_switch <> f:55 var
+R3844:3846 VST.veric.semax_switch <> agA:53 var
+R3859:3862 VST.msl.predicates_hered <> allp def
+R3871:3871 VST.veric.semax_switch <> B:54 var
+binder 3869:3869 <> x:56
+R3876:3881 VST.msl.subtypes <> unfash def
+R3884:3884 VST.veric.semax_switch <> f:55 var
+R3886:3886 VST.veric.semax_switch <> x:56 var
+R3912:3919 VST.msl.predicates_hered <> pred_ext thm
+R3912:3919 VST.msl.predicates_hered <> pred_ext thm
+prf 3999:4005 <> fash_TT
+binder 4016:4016 <> A:57
+R4025:4031 VST.msl.ageable <> ageable class
+R4033:4033 VST.veric.semax_switch <> A:57 var
+binder 4020:4022 <> agA:58
+R4053:4055 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4038:4043 VST.msl.subtypes <> unfash def
+R4051:4052 VST.msl.predicates_hered <> TT def
+R4047:4049 VST.veric.semax_switch <> agA:58 var
+R4045:4045 VST.veric.semax_switch <> A:57 var
+R4056:4057 VST.msl.predicates_hered <> TT def
+R4081:4088 VST.msl.predicates_hered <> pred_ext thm
+R4109:4109 Coq.Init.Logic <> I constr
+R4081:4088 VST.msl.predicates_hered <> pred_ext thm
+R4109:4109 Coq.Init.Logic <> I constr
+R4109:4109 Coq.Init.Logic <> I constr
+prf 4124:4132 <> allp_andp
+binder 4146:4146 <> A:59
+R4154:4160 VST.msl.ageable <> ageable class
+R4162:4162 VST.veric.semax_switch <> A:59 var
+binder 4150:4151 <> NA:60
+binder 4166:4166 <> B:61
+R4180:4180 VST.veric.semax_switch <> B:61 var
+binder 4176:4177 <> b0:62
+R4188:4191 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4192:4195 VST.msl.predicates_hered <> pred def
+R4197:4197 VST.veric.semax_switch <> A:59 var
+R4187:4187 VST.veric.semax_switch <> B:61 var
+binder 4184:4184 <> P:63
+R4204:4207 VST.msl.predicates_hered <> pred def
+R4209:4209 VST.veric.semax_switch <> A:59 var
+binder 4201:4201 <> Q:64
+R4228:4230 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4223:4226 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R4217:4220 VST.msl.predicates_hered <> allp def
+R4222:4222 VST.veric.semax_switch <> P:63 var
+R4227:4227 VST.veric.semax_switch <> Q:64 var
+R4231:4234 VST.msl.predicates_hered <> allp def
+binder 4241:4241 <> x:65
+R4249:4252 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R4246:4246 VST.veric.semax_switch <> P:63 var
+R4248:4248 VST.veric.semax_switch <> x:65 var
+R4253:4253 VST.veric.semax_switch <> Q:64 var
+R4284:4291 VST.msl.predicates_hered <> pred_ext thm
+R4284:4291 VST.msl.predicates_hered <> pred_ext thm
+prf 4392:4406 <> unfash_prop_imp
+binder 4419:4419 <> A:66
+R4428:4434 VST.msl.ageable <> ageable class
+R4436:4436 VST.veric.semax_switch <> A:66 var
+binder 4423:4425 <> agA:67
+binder 4440:4440 <> P:68
+R4453:4456 VST.msl.predicates_hered <> pred def
+R4458:4460 Coq.Init.Datatypes <> nat ind
+binder 4450:4450 <> Q:69
+R4495:4497 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4468:4473 VST.msl.subtypes <> unfash def
+R4488:4492 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R4482:4485 VST.msl.predicates_hered <> prop def
+R4487:4487 VST.veric.semax_switch <> P:68 var
+R4493:4493 VST.veric.semax_switch <> Q:69 var
+R4477:4479 VST.veric.semax_switch <> agA:67 var
+R4504:4508 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R4498:4501 VST.msl.predicates_hered <> prop def
+R4503:4503 VST.veric.semax_switch <> P:68 var
+R4510:4515 VST.msl.subtypes <> unfash def
+R4523:4523 VST.veric.semax_switch <> Q:69 var
+R4519:4521 VST.veric.semax_switch <> agA:67 var
+R4553:4560 VST.msl.predicates_hered <> pred_ext thm
+R4553:4560 VST.msl.predicates_hered <> pred_ext thm
+R4598:4608 VST.msl.predicates_hered <> necR_level' thm
+R4598:4608 VST.msl.predicates_hered <> necR_level' thm
+R4644:4652 VST.msl.ageable <> necR_refl thm
+R4644:4652 VST.msl.ageable <> necR_refl thm
+R4669:4687 VST.msl.predicates_hered <> pred_nec_hereditary thm
+R4669:4687 VST.msl.predicates_hered <> pred_nec_hereditary thm
+prf 4741:4750 <> unfash_imp
+binder 4763:4763 <> A:70
+R4771:4777 VST.msl.ageable <> ageable class
+R4779:4779 VST.veric.semax_switch <> A:70 var
+binder 4767:4768 <> NA:71
+R4788:4791 VST.msl.predicates_hered <> pred def
+R4793:4795 Coq.Init.Datatypes <> nat ind
+binder 4783:4783 <> P:72
+binder 4785:4785 <> Q:73
+R4823:4825 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4803:4808 VST.msl.subtypes <> unfash def
+R4816:4820 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R4815:4815 VST.veric.semax_switch <> P:72 var
+R4821:4821 VST.veric.semax_switch <> Q:73 var
+R4810:4810 VST.veric.semax_switch <> A:70 var
+R4826:4826 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R4840:4845 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R4828:4833 VST.msl.subtypes <> unfash def
+R4839:4839 VST.veric.semax_switch <> P:72 var
+R4835:4835 VST.veric.semax_switch <> A:70 var
+R4847:4852 VST.msl.subtypes <> unfash def
+R4858:4858 VST.veric.semax_switch <> Q:73 var
+R4854:4854 VST.veric.semax_switch <> A:70 var
+R4888:4895 VST.msl.predicates_hered <> pred_ext thm
+R4888:4895 VST.msl.predicates_hered <> pred_ext thm
+R4933:4943 VST.msl.predicates_hered <> necR_level' thm
+R4933:4943 VST.msl.predicates_hered <> necR_level' thm
+R4967:4972 VST.msl.age_to <> age_to def
+R4967:4972 VST.msl.age_to <> age_to def
+R4996:5006 VST.msl.age_to <> age_to_necR thm
+R4996:5006 VST.msl.age_to <> age_to_necR thm
+R5036:5047 VST.msl.age_to <> level_age_to thm
+R5036:5047 VST.msl.age_to <> level_age_to thm
+R5036:5047 VST.msl.age_to <> level_age_to thm
+R5036:5047 VST.msl.age_to <> level_age_to thm
+R5062:5071 VST.msl.ageable <> necR_level thm
+R5062:5071 VST.msl.ageable <> necR_level thm
+R5113:5124 VST.msl.age_to <> level_age_to thm
+R5113:5124 VST.msl.age_to <> level_age_to thm
+R5113:5124 VST.msl.age_to <> level_age_to thm
+R5113:5124 VST.msl.age_to <> level_age_to thm
+R5144:5153 VST.msl.ageable <> necR_level thm
+R5144:5153 VST.msl.ageable <> necR_level thm
+prf 5184:5194 <> unfash_andp
+binder 5206:5206 <> A:74
+R5215:5221 VST.msl.ageable <> ageable class
+R5223:5223 VST.veric.semax_switch <> A:74 var
+binder 5210:5212 <> agA:75
+R5232:5235 VST.msl.predicates_hered <> pred def
+R5237:5239 Coq.Init.Datatypes <> nat ind
+binder 5227:5227 <> P:76
+binder 5229:5229 <> Q:77
+R5270:5272 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5247:5252 VST.msl.subtypes <> unfash def
+R5261:5264 VST.msl.predicates_hered <> andp def
+R5268:5268 VST.veric.semax_switch <> Q:77 var
+R5266:5266 VST.veric.semax_switch <> P:76 var
+R5256:5258 VST.veric.semax_switch <> agA:75 var
+R5254:5254 VST.veric.semax_switch <> A:74 var
+R5273:5276 VST.msl.predicates_hered <> andp def
+R5298:5303 VST.msl.subtypes <> unfash def
+R5311:5311 VST.veric.semax_switch <> Q:77 var
+R5307:5309 VST.veric.semax_switch <> agA:75 var
+R5305:5305 VST.veric.semax_switch <> A:74 var
+R5280:5285 VST.msl.subtypes <> unfash def
+R5293:5293 VST.veric.semax_switch <> P:76 var
+R5289:5291 VST.veric.semax_switch <> agA:75 var
+R5287:5287 VST.veric.semax_switch <> A:74 var
+R5337:5344 VST.msl.predicates_hered <> pred_ext thm
+R5337:5344 VST.msl.predicates_hered <> pred_ext thm
+prf 5425:5434 <> andp_imp_e
+binder 5447:5447 <> A:78
+R5464:5470 VST.msl.ageable <> ageable class
+R5472:5472 VST.veric.semax_switch <> A:78 var
+binder 5458:5460 <> agA:79
+R5482:5485 VST.msl.predicates_hered <> pred def
+R5487:5487 VST.veric.semax_switch <> A:78 var
+binder 5476:5476 <> P:80
+binder 5478:5478 <> Q:81
+R5508:5512 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R5495:5499 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R5507:5507 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R5494:5494 VST.veric.semax_switch <> P:80 var
+R5501:5505 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R5500:5500 VST.veric.semax_switch <> P:80 var
+R5506:5506 VST.veric.semax_switch <> Q:81 var
+R5513:5513 VST.veric.semax_switch <> Q:81 var
+prf 5576:5586 <> andp_imp_e'
+binder 5599:5599 <> A:82
+R5616:5622 VST.msl.ageable <> ageable class
+R5624:5624 VST.veric.semax_switch <> A:82 var
+binder 5610:5612 <> agA:83
+R5634:5637 VST.msl.predicates_hered <> pred def
+R5639:5639 VST.veric.semax_switch <> A:82 var
+binder 5628:5628 <> P:84
+binder 5630:5630 <> Q:85
+R5660:5664 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R5647:5651 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R5659:5659 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R5646:5646 VST.veric.semax_switch <> P:84 var
+R5653:5657 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R5652:5652 VST.veric.semax_switch <> P:84 var
+R5658:5658 VST.veric.semax_switch <> Q:85 var
+R5666:5669 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R5665:5665 VST.veric.semax_switch <> P:84 var
+R5670:5670 VST.veric.semax_switch <> Q:85 var
+R5694:5703 VST.msl.predicates_hered <> andp_right thm
+R5694:5703 VST.msl.predicates_hered <> andp_right thm
+R5712:5721 VST.msl.predicates_hered <> andp_left1 thm
+R5712:5721 VST.msl.predicates_hered <> andp_left1 thm
+prf 5775:5787 <> switch_rguard
+R5807:5816 VST.veric.juicy_extspec <> OracleKind class
+binder 5799:5803 <> Espec:86
+R5826:5835 VST.veric.tycontext <> ret_assert rec
+binder 5822:5822 <> R:87
+R5847:5850 compcert.cfrontend.Clight <> genv rec
+binder 5841:5843 <> psi:88
+R5860:5865 VST.veric.mpred <> assert def
+binder 5856:5856 <> F:89
+R5874:5881 compcert.cfrontend.Clight <> function rec
+binder 5871:5871 <> f:90
+R5896:5904 VST.veric.seplog <> tycontext ind
+binder 5887:5892 <> Delta':91
+R5914:5917 compcert.cfrontend.Clight <> cont ind
+binder 5910:5910 <> k:92
+R5980:5985 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R6074:6074 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R5922:5927 VST.veric.semax <> rguard def
+R5979:5979 VST.veric.semax_switch <> k:92 var
+R5957:5972 VST.veric.Clight_seplog <> frame_ret_assert def
+R5976:5976 VST.veric.semax_switch <> F:89 var
+R5974:5974 VST.veric.semax_switch <> R:87 var
+R5946:5946 VST.veric.semax_switch <> f:90 var
+R5939:5944 VST.veric.semax_switch <> Delta':91 var
+R5935:5937 VST.veric.semax_switch <> psi:88 var
+R5929:5933 VST.veric.semax_switch <> Espec:86 var
+R5986:5991 VST.veric.semax <> rguard def
+R6064:6070 compcert.cfrontend.Clight <> Kswitch constr
+R6072:6072 VST.veric.semax_switch <> k:92 var
+R6017:6032 VST.veric.Clight_seplog <> frame_ret_assert def
+R6056:6056 VST.veric.semax_switch <> F:89 var
+R6035:6051 VST.veric.Clight_seplog <> switch_ret_assert def
+R6053:6053 VST.veric.semax_switch <> R:87 var
+R6011:6011 VST.veric.semax_switch <> f:90 var
+R6004:6009 VST.veric.semax_switch <> Delta':91 var
+R5999:6001 VST.veric.semax_switch <> psi:88 var
+R5993:5997 VST.veric.semax_switch <> Espec:86 var
+R6099:6104 VST.veric.semax <> rguard def
+R6113:6122 VST.msl.predicates_hered <> allp_right thm
+R6113:6122 VST.msl.predicates_hered <> allp_right thm
+R6141:6150 VST.msl.predicates_hered <> allp_right thm
+R6141:6150 VST.msl.predicates_hered <> allp_right thm
+R6169:6178 VST.msl.predicates_hered <> allp_right thm
+R6169:6178 VST.msl.predicates_hered <> allp_right thm
+R6198:6207 VST.msl.predicates_hered <> allp_right thm
+R6198:6207 VST.msl.predicates_hered <> allp_right thm
+R6272:6280 VST.veric.tycontext <> EK_normal constr
+R6285:6293 VST.veric.tycontext <> EK_normal constr
+R6317:6324 VST.veric.tycontext <> EK_break constr
+R6329:6337 VST.veric.tycontext <> EK_normal constr
+R6361:6371 VST.veric.tycontext <> EK_continue constr
+R6376:6386 VST.veric.tycontext <> EK_continue constr
+R6410:6418 VST.veric.tycontext <> EK_return constr
+R6423:6431 VST.veric.tycontext <> EK_return constr
+R6272:6280 VST.veric.tycontext <> EK_normal constr
+R6285:6293 VST.veric.tycontext <> EK_normal constr
+R6317:6324 VST.veric.tycontext <> EK_break constr
+R6329:6337 VST.veric.tycontext <> EK_normal constr
+R6361:6371 VST.veric.tycontext <> EK_continue constr
+R6376:6386 VST.veric.tycontext <> EK_continue constr
+R6410:6418 VST.veric.tycontext <> EK_return constr
+R6423:6431 VST.veric.tycontext <> EK_return constr
+R6510:6518 VST.veric.tycontext <> EK_normal constr
+R6523:6526 Coq.Init.Datatypes <> None constr
+R6550:6557 VST.veric.tycontext <> EK_break constr
+R6562:6565 Coq.Init.Datatypes <> None constr
+R6589:6599 VST.veric.tycontext <> EK_continue constr
+R6604:6607 Coq.Init.Datatypes <> None constr
+R6631:6639 VST.veric.tycontext <> EK_return constr
+R6510:6518 VST.veric.tycontext <> EK_normal constr
+R6523:6526 Coq.Init.Datatypes <> None constr
+R6550:6557 VST.veric.tycontext <> EK_break constr
+R6562:6565 Coq.Init.Datatypes <> None constr
+R6589:6599 VST.veric.tycontext <> EK_continue constr
+R6604:6607 Coq.Init.Datatypes <> None constr
+R6631:6639 VST.veric.tycontext <> EK_return constr
+R6680:6688 VST.msl.predicates_hered <> allp_left thm
+R6680:6688 VST.msl.predicates_hered <> allp_left thm
+R6707:6715 VST.msl.predicates_hered <> allp_left thm
+R6707:6715 VST.msl.predicates_hered <> allp_left thm
+R6734:6742 VST.msl.predicates_hered <> allp_left thm
+R6734:6742 VST.msl.predicates_hered <> allp_left thm
+R6761:6769 VST.msl.predicates_hered <> allp_left thm
+R6761:6769 VST.msl.predicates_hered <> allp_left thm
+R6795:6807 VST.veric.tycontext <> construct_rho def
+R6810:6820 VST.veric.tycontext <> filter_genv def
+R6795:6807 VST.veric.tycontext <> construct_rho def
+R6810:6820 VST.veric.tycontext <> filter_genv def
+R6851:6859 VST.veric.Clight_seplog <> funassert def
+R6851:6859 VST.veric.Clight_seplog <> funassert def
+R6892:6912 VST.veric.semax_lemmas <> proj_frame_ret_assert thm
+R6892:6912 VST.veric.semax_lemmas <> proj_frame_ret_assert thm
+R6892:6912 VST.veric.semax_lemmas <> proj_frame_ret_assert thm
+R6892:6912 VST.veric.semax_lemmas <> proj_frame_ret_assert thm
+R6892:6912 VST.veric.semax_lemmas <> proj_frame_ret_assert thm
+R6930:6941 VST.msl.subtypes <> fash_derives thm
+R6930:6941 VST.msl.subtypes <> fash_derives thm
+R7029:7037 VST.veric.semax_switch <> imp_right thm
+R7057:7067 VST.msl.predicates_hered <> imp_derives thm
+R7029:7037 VST.veric.semax_switch <> imp_right thm
+R7083:7093 VST.msl.predicates_hered <> imp_derives thm
+R7083:7093 VST.msl.predicates_hered <> imp_derives thm
+R7117:7126 VST.msl.predicates_hered <> andp_assoc thm
+R7117:7126 VST.msl.predicates_hered <> andp_assoc thm
+R7117:7126 VST.msl.predicates_hered <> andp_assoc thm
+R7117:7126 VST.msl.predicates_hered <> andp_assoc thm
+R7117:7126 VST.msl.predicates_hered <> andp_assoc thm
+R7117:7126 VST.msl.predicates_hered <> andp_assoc thm
+R7117:7126 VST.msl.predicates_hered <> andp_assoc thm
+R7143:7154 VST.msl.predicates_hered <> andp_derives thm
+R7143:7154 VST.msl.predicates_hered <> andp_derives thm
+R7143:7154 VST.msl.predicates_hered <> andp_derives thm
+R7143:7154 VST.msl.predicates_hered <> andp_derives thm
+R7143:7154 VST.msl.predicates_hered <> andp_derives thm
+R7143:7154 VST.msl.predicates_hered <> andp_derives thm
+R7143:7154 VST.msl.predicates_hered <> andp_derives thm
+R7143:7154 VST.msl.predicates_hered <> andp_derives thm
+R7143:7154 VST.msl.predicates_hered <> andp_derives thm
+R7143:7154 VST.msl.predicates_hered <> andp_derives thm
+R7196:7206 VST.msl.predicates_hered <> imp_derives thm
+R7196:7206 VST.msl.predicates_hered <> imp_derives thm
+R7230:7239 VST.msl.predicates_hered <> andp_assoc thm
+R7230:7239 VST.msl.predicates_hered <> andp_assoc thm
+R7230:7239 VST.msl.predicates_hered <> andp_assoc thm
+R7230:7239 VST.msl.predicates_hered <> andp_assoc thm
+R7230:7239 VST.msl.predicates_hered <> andp_assoc thm
+R7230:7239 VST.msl.predicates_hered <> andp_assoc thm
+R7230:7239 VST.msl.predicates_hered <> andp_assoc thm
+R7256:7267 VST.msl.predicates_hered <> andp_derives thm
+R7256:7267 VST.msl.predicates_hered <> andp_derives thm
+R7256:7267 VST.msl.predicates_hered <> andp_derives thm
+R7256:7267 VST.msl.predicates_hered <> andp_derives thm
+R7256:7267 VST.msl.predicates_hered <> andp_derives thm
+R7256:7267 VST.msl.predicates_hered <> andp_derives thm
+R7256:7267 VST.msl.predicates_hered <> andp_derives thm
+R7256:7267 VST.msl.predicates_hered <> andp_derives thm
+R7256:7267 VST.msl.predicates_hered <> andp_derives thm
+R7256:7267 VST.msl.predicates_hered <> andp_derives thm
+prf 7314:7328 <> unfash_fash_imp
+binder 7340:7340 <> A:97
+R7347:7353 VST.msl.ageable <> ageable class
+R7355:7355 VST.veric.semax_switch <> A:97 var
+binder 7343:7344 <> NA:98
+binder 7358:7358 <> P:99
+binder 7360:7360 <> Q:100
+R7390:7394 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R7366:7371 VST.msl.subtypes <> unfash def
+R7378:7380 VST.msl.subtypes <> ::pred:'#'_x not
+R7388:7388 VST.msl.subtypes <> ::pred:'#'_x not
+R7382:7386 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R7381:7381 VST.veric.semax_switch <> P:99 var
+R7387:7387 VST.veric.semax_switch <> Q:100 var
+R7373:7373 VST.veric.semax_switch <> A:97 var
+R7396:7400 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R7395:7395 VST.veric.semax_switch <> P:99 var
+R7401:7401 VST.veric.semax_switch <> Q:100 var
+R7486:7495 VST.msl.ageable <> necR_level thm
+R7486:7495 VST.msl.ageable <> necR_level thm
+prf 7516:7539 <> assert_safe_step_nostore
+R7556:7564 VST.veric.mpred <> compspecs class
+binder 7552:7553 <> cs:101
+binder 7567:7571 <> Espec:102
+binder 7573:7575 <> psi:103
+binder 7577:7577 <> f:104
+binder 7579:7580 <> vx:105
+binder 7582:7584 <> vx2:106
+binder 7586:7587 <> tx:107
+binder 7589:7591 <> tx2:108
+binder 7593:7594 <> c1:109
+binder 7596:7597 <> k1:110
+binder 7599:7600 <> c2:111
+binder 7602:7603 <> k2:112
+binder 7605:7609 <> Delta:113
+binder 7611:7611 <> e:114
+binder 7613:7615 <> rho:115
+R7620:7620 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7797:7803 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7921:7925 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R7897:7901 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R7804:7814 VST.veric.semax <> assert_safe def
+R7857:7869 VST.veric.tycontext <> construct_rho def
+R7893:7895 VST.veric.semax_switch <> tx2:108 var
+R7889:7891 VST.veric.semax_switch <> vx2:106 var
+R7872:7882 VST.veric.tycontext <> filter_genv def
+R7884:7886 VST.veric.semax_switch <> psi:103 var
+R7837:7840 VST.veric.semax <> Cont constr
+R7843:7846 compcert.cfrontend.Clight <> Kseq constr
+R7851:7852 VST.veric.semax_switch <> k2:112 var
+R7848:7849 VST.veric.semax_switch <> c2:111 var
+R7832:7834 VST.veric.semax_switch <> tx2:108 var
+R7828:7830 VST.veric.semax_switch <> vx2:106 var
+R7826:7826 VST.veric.semax_switch <> f:104 var
+R7822:7824 VST.veric.semax_switch <> psi:103 var
+R7816:7820 VST.veric.semax_switch <> Espec:102 var
+R7902:7908 VST.veric.extend_tc <> tc_expr def
+R7918:7920 VST.veric.semax_switch <> rho:115 var
+R7916:7916 VST.veric.semax_switch <> e:114 var
+R7910:7914 VST.veric.semax_switch <> Delta:113 var
+R7926:7936 VST.veric.semax <> assert_safe def
+R7977:7989 VST.veric.tycontext <> construct_rho def
+R8012:8013 VST.veric.semax_switch <> tx:107 var
+R8009:8010 VST.veric.semax_switch <> vx:105 var
+R7992:8002 VST.veric.tycontext <> filter_genv def
+R8004:8006 VST.veric.semax_switch <> psi:103 var
+R7957:7960 VST.veric.semax <> Cont constr
+R7963:7966 compcert.cfrontend.Clight <> Kseq constr
+R7971:7972 VST.veric.semax_switch <> k1:110 var
+R7968:7969 VST.veric.semax_switch <> c1:109 var
+R7953:7954 VST.veric.semax_switch <> tx:107 var
+R7950:7951 VST.veric.semax_switch <> vx:105 var
+R7948:7948 VST.veric.semax_switch <> f:104 var
+R7944:7946 VST.veric.semax_switch <> psi:103 var
+R7938:7942 VST.veric.semax_switch <> Espec:102 var
+binder 7628:7629 <> jm:116
+binder 7631:7633 <> jm':117
+R7654:7661 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7703:7711 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7712:7718 VST.veric.Clight_core <> cl_step def
+R7788:7792 VST.veric.juicy_mem <> m_dry def
+R7794:7795 VST.veric.semax_switch <> jm:116 var
+R7764:7768 VST.veric.Clight_core <> State constr
+R7782:7784 VST.veric.semax_switch <> tx2:108 var
+R7778:7780 VST.veric.semax_switch <> vx2:106 var
+R7775:7776 VST.veric.semax_switch <> k2:112 var
+R7772:7773 VST.veric.semax_switch <> c2:111 var
+R7770:7770 VST.veric.semax_switch <> f:104 var
+R7753:7757 VST.veric.juicy_mem <> m_dry def
+R7759:7760 VST.veric.semax_switch <> jm:116 var
+R7725:7729 VST.veric.Clight_core <> State constr
+R7742:7743 VST.veric.semax_switch <> tx:107 var
+R7739:7740 VST.veric.semax_switch <> vx:105 var
+R7736:7737 VST.veric.semax_switch <> k1:110 var
+R7733:7734 VST.veric.semax_switch <> c1:109 var
+R7731:7731 VST.veric.semax_switch <> f:104 var
+R7720:7722 VST.veric.semax_switch <> psi:103 var
+R7662:7669 VST.msl.predicates_hered <> app_pred def
+R7694:7698 VST.veric.juicy_mem <> m_phi def
+R7700:7701 VST.veric.semax_switch <> jm:116 var
+R7672:7678 VST.veric.extend_tc <> tc_expr def
+R7688:7690 VST.veric.semax_switch <> rho:115 var
+R7686:7686 VST.veric.semax_switch <> e:114 var
+R7680:7684 VST.veric.semax_switch <> Delta:113 var
+R7643:7645 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7636:7639 VST.msl.ageable <> age1 meth
+R7641:7642 VST.veric.semax_switch <> jm:116 var
+R7646:7649 Coq.Init.Datatypes <> Some constr
+R7651:7653 VST.veric.semax_switch <> jm':117 var
+R8151:8155 VST.msl.ageable <> level meth
+R8158:8162 VST.veric.juicy_mem <> m_phi def
+R8151:8155 VST.msl.ageable <> level meth
+R8158:8162 VST.veric.juicy_mem <> m_phi def
+R8205:8215 VST.msl.ageable <> levelS_age1 thm
+R8205:8215 VST.msl.ageable <> levelS_age1 thm
+R8251:8268 VST.veric.juicy_mem <> can_age1_juicy_mem thm
+R8251:8268 VST.veric.juicy_mem <> can_age1_juicy_mem thm
+R8372:8381 VST.veric.juicy_mem <> age_jm_dry thm
+R8372:8381 VST.veric.juicy_mem <> age_jm_dry thm
+R8372:8381 VST.veric.juicy_mem <> age_jm_dry thm
+R8425:8443 VST.veric.semax_lemmas <> age1_resource_decay thm
+R8425:8443 VST.veric.semax_lemmas <> age1_resource_decay thm
+R8472:8480 VST.msl.ageable <> age_level thm
+R8472:8480 VST.msl.ageable <> age_level thm
+R8503:8515 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R8518:8527 VST.veric.juicy_mem <> age_jm_phi thm
+R8503:8515 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R8518:8527 VST.veric.juicy_mem <> age_jm_phi thm
+R8549:8557 VST.msl.ageable <> age_level thm
+R8549:8557 VST.msl.ageable <> age_level thm
+R8579:8599 VST.veric.juicy_mem <> level_juice_level_phi thm
+R8579:8599 VST.veric.juicy_mem <> level_juice_level_phi thm
+R8579:8599 VST.veric.juicy_mem <> level_juice_level_phi thm
+R8657:8671 VST.msl.predicates_hered <> pred_hereditary def
+R8704:8708 VST.veric.juicy_mem <> m_phi def
+R8723:8732 VST.veric.juicy_mem <> age_jm_phi thm
+R8657:8671 VST.msl.predicates_hered <> pred_hereditary def
+R8723:8732 VST.veric.juicy_mem <> age_jm_phi thm
+R8748:8764 VST.veric.semax_lemmas <> assert_safe_jsafe thm
+R8748:8764 VST.veric.semax_lemmas <> assert_safe_jsafe thm
+prf 8785:8796 <> semax_switch
+R8814:8822 VST.veric.mpred <> compspecs class
+binder 8810:8811 <> CS:118
+binder 8825:8829 <> Espec:119
+binder 8831:8835 <> Delta:120
+R8841:8846 VST.veric.mpred <> assert def
+binder 8838:8838 <> Q:121
+binder 8849:8849 <> a:122
+binder 8851:8852 <> sl:123
+binder 8854:8854 <> R:124
+R8891:8899 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8900:8900 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8942:8951 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8952:8952 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9160:9169 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9170:9174 VST.veric.semax <> semax def
+R9205:9205 VST.veric.semax_switch <> R:124 var
+R9191:9197 compcert.cfrontend.Clight <> Sswitch constr
+R9201:9202 VST.veric.semax_switch <> sl:123 var
+R9199:9199 VST.veric.semax_switch <> a:122 var
+R9188:9188 VST.veric.semax_switch <> Q:121 var
+R9182:9186 VST.veric.semax_switch <> Delta:120 var
+R9176:9180 VST.veric.semax_switch <> Espec:119 var
+binder 8960:8960 <> n:125
+R8968:8972 VST.veric.semax <> semax def
+R9140:9156 VST.veric.Clight_seplog <> switch_ret_assert def
+R9158:9158 VST.veric.semax_switch <> R:124 var
+R9062:9085 compcert.cfrontend.Clight <> seq_of_labeled_statement def
+R9088:9100 compcert.cfrontend.Clight <> select_switch def
+R9119:9120 VST.veric.semax_switch <> sl:123 var
+R9103:9114 compcert.lib.Integers Int unsigned def
+R9116:9116 VST.veric.semax_switch <> n:125 var
+binder 8991:8993 <> rho:126
+R8998:9001 VST.msl.predicates_hered <> andp def
+R9038:9038 VST.veric.semax_switch <> Q:121 var
+R9040:9042 VST.veric.semax_switch <> rho:126 var
+R9004:9007 VST.msl.predicates_hered <> prop def
+R9025:9027 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9010:9018 VST.veric.expr <> eval_expr def
+R9022:9024 VST.veric.semax_switch <> rho:126 var
+R9020:9020 VST.veric.semax_switch <> a:122 var
+R9028:9031 compcert.common.Values <> Vint constr
+R9033:9033 VST.veric.semax_switch <> n:125 var
+R8980:8984 VST.veric.semax_switch <> Delta:120 var
+R8974:8978 VST.veric.semax_switch <> Espec:119 var
+binder 8908:8910 <> rho:127
+R8918:8922 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R8913:8913 VST.veric.semax_switch <> Q:121 var
+R8915:8917 VST.veric.semax_switch <> rho:127 var
+R8923:8929 VST.veric.extend_tc <> tc_expr def
+R8939:8941 VST.veric.semax_switch <> rho:127 var
+R8937:8937 VST.veric.semax_switch <> a:122 var
+R8931:8935 VST.veric.semax_switch <> Delta:120 var
+R8884:8886 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8862:8872 VST.veric.expr <> is_int_type def
+R8875:8880 compcert.cfrontend.Clight <> typeof def
+R8882:8882 VST.veric.semax_switch <> a:122 var
+R8887:8890 Coq.Init.Datatypes <> true constr
+R9231:9238 VST.veric.semax_lemmas <> semax_eq thm
+R9231:9238 VST.veric.semax_lemmas <> semax_eq thm
+R9231:9238 VST.veric.semax_lemmas <> semax_eq thm
+R9247:9256 VST.msl.predicates_hered <> allp_right thm
+R9247:9256 VST.msl.predicates_hered <> allp_right thm
+R9276:9285 VST.msl.predicates_hered <> allp_right thm
+R9276:9285 VST.msl.predicates_hered <> allp_right thm
+R9308:9317 VST.msl.predicates_hered <> allp_right thm
+R9308:9317 VST.msl.predicates_hered <> allp_right thm
+R9337:9350 VST.veric.semax_switch <> prop_imp_right thm
+R9337:9350 VST.veric.semax_switch <> prop_imp_right thm
+R9376:9384 VST.veric.semax_switch <> imp_right thm
+R9376:9384 VST.veric.semax_switch <> imp_right thm
+R9395:9400 VST.msl.predicates_hered <> TT_and thm
+R9395:9400 VST.msl.predicates_hered <> TT_and thm
+R9395:9400 VST.msl.predicates_hered <> TT_and thm
+R9409:9418 VST.msl.predicates_hered <> allp_right thm
+R9409:9418 VST.msl.predicates_hered <> allp_right thm
+R9436:9445 VST.msl.predicates_hered <> allp_right thm
+R9436:9445 VST.msl.predicates_hered <> allp_right thm
+R9463:9472 VST.msl.predicates_hered <> allp_right thm
+R9463:9472 VST.msl.predicates_hered <> allp_right thm
+R9490:9498 VST.veric.semax_switch <> imp_right thm
+R9490:9498 VST.veric.semax_switch <> imp_right thm
+R9512:9521 VST.msl.predicates_hered <> andp_assoc thm
+R9534:9542 VST.msl.predicates_hered <> andp_comm thm
+R9545:9551 VST.veric.semax <> believe def
+R9573:9582 VST.msl.predicates_hered <> andp_assoc thm
+R9592:9605 VST.msl.predicates_hered <> prop_andp_left thm
+R9512:9521 VST.msl.predicates_hered <> andp_assoc thm
+R9512:9521 VST.msl.predicates_hered <> andp_assoc thm
+R9534:9542 VST.msl.predicates_hered <> andp_comm thm
+R9545:9551 VST.veric.semax <> believe def
+R9534:9542 VST.msl.predicates_hered <> andp_comm thm
+R9545:9551 VST.veric.semax <> believe def
+R9573:9582 VST.msl.predicates_hered <> andp_assoc thm
+R9573:9582 VST.msl.predicates_hered <> andp_assoc thm
+R9592:9605 VST.msl.predicates_hered <> prop_andp_left thm
+R9622:9626 VST.veric.semax <> guard def
+R9629:9634 VST.veric.semax <> _guard def
+R9643:9652 VST.msl.predicates_hered <> allp_right thm
+R9643:9652 VST.msl.predicates_hered <> allp_right thm
+R9671:9680 VST.msl.predicates_hered <> allp_right thm
+R9671:9680 VST.msl.predicates_hered <> allp_right thm
+R9701:9710 VST.msl.predicates_hered <> andp_assoc thm
+R9701:9710 VST.msl.predicates_hered <> andp_assoc thm
+R9701:9710 VST.msl.predicates_hered <> andp_assoc thm
+R9719:9733 VST.veric.semax_switch <> prop_andp_subp' thm
+R9719:9733 VST.veric.semax_switch <> prop_andp_subp' thm
+R9765:9777 VST.veric.tycontext <> construct_rho def
+R9780:9790 VST.veric.tycontext <> filter_genv def
+R9765:9777 VST.veric.tycontext <> construct_rho def
+R9780:9790 VST.veric.tycontext <> filter_genv def
+R9837:9849 VST.veric.semax_switch <> frame_tc_expr thm
+R9837:9849 VST.veric.semax_switch <> frame_tc_expr thm
+R9886:9896 VST.msl.predicates_sl <> sepcon_comm thm
+R9886:9896 VST.msl.predicates_sl <> sepcon_comm thm
+R9886:9896 VST.msl.predicates_sl <> sepcon_comm thm
+R9911:9917 VST.msl.subtypes <> subp_i1 thm
+R9911:9917 VST.msl.subtypes <> subp_i1 thm
+R9927:9939 VST.msl.predicates_hered <> derives_trans thm
+R9927:9939 VST.msl.predicates_hered <> derives_trans thm
+R9949:9960 VST.msl.predicates_hered <> andp_derives thm
+R9970:9981 VST.msl.predicates_hered <> derives_refl thm
+R9949:9960 VST.msl.predicates_hered <> andp_derives thm
+R9970:9981 VST.msl.predicates_hered <> derives_refl thm
+R9995:10006 VST.msl.predicates_hered <> andp_derives thm
+R10019:10030 VST.msl.predicates_hered <> derives_refl thm
+R9995:10006 VST.msl.predicates_hered <> andp_derives thm
+R10019:10030 VST.msl.predicates_hered <> derives_refl thm
+R10041:10050 VST.msl.predicates_hered <> andp_right thm
+R10061:10072 VST.msl.predicates_hered <> derives_refl thm
+R10041:10050 VST.msl.predicates_hered <> andp_right thm
+R10061:10072 VST.msl.predicates_hered <> derives_refl thm
+R10087:10099 VST.msl.predicates_hered <> derives_trans thm
+R10087:10099 VST.msl.predicates_hered <> derives_trans thm
+R10125:10137 VST.veric.semax_switch <> tc_expr_sound thm
+R10125:10137 VST.veric.semax_switch <> tc_expr_sound thm
+R10155:10175 VST.veric.semax_lemmas <> typecheck_environ_sub thm
+R10155:10175 VST.veric.semax_lemmas <> typecheck_environ_sub thm
+R10193:10201 VST.msl.predicates_hered <> andp_comm thm
+R10193:10201 VST.msl.predicates_hered <> andp_comm thm
+R10193:10201 VST.msl.predicates_hered <> andp_comm thm
+R10213:10221 VST.msl.predicates_hered <> andp_comm thm
+R10225:10227 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R10213:10221 VST.msl.predicates_hered <> andp_comm thm
+R10225:10227 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R10213:10221 VST.msl.predicates_hered <> andp_comm thm
+R10225:10227 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R10242:10251 VST.msl.predicates_hered <> andp_assoc thm
+R10242:10251 VST.msl.predicates_hered <> andp_assoc thm
+R10242:10251 VST.msl.predicates_hered <> andp_assoc thm
+R10242:10251 VST.msl.predicates_hered <> andp_assoc thm
+R10242:10251 VST.msl.predicates_hered <> andp_assoc thm
+R10260:10279 VST.msl.normalize <> derives_extract_prop thm
+R10260:10279 VST.msl.normalize <> derives_extract_prop thm
+R10303:10308 compcert.cfrontend.Clight <> typeof def
+R10303:10308 compcert.cfrontend.Clight <> typeof def
+R10337:10345 VST.veric.expr <> eval_expr def
+R10337:10345 VST.veric.expr <> eval_expr def
+R10430:10437 VST.veric.semax_lemmas <> semax_eq thm
+R10430:10437 VST.veric.semax_lemmas <> semax_eq thm
+R10430:10437 VST.veric.semax_lemmas <> semax_eq thm
+R10467:10471 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R10467:10471 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R10489:10494 VST.msl.predicates_hered <> TT_and thm
+R10489:10494 VST.msl.predicates_hered <> TT_and thm
+R10489:10494 VST.msl.predicates_hered <> TT_and thm
+R10511:10523 VST.msl.predicates_hered <> derives_trans thm
+R10533:10544 VST.msl.predicates_hered <> andp_derives thm
+R10557:10568 VST.msl.predicates_hered <> derives_refl thm
+R10511:10523 VST.msl.predicates_hered <> derives_trans thm
+R10533:10544 VST.msl.predicates_hered <> andp_derives thm
+R10557:10568 VST.msl.predicates_hered <> derives_refl thm
+R10583:10595 VST.msl.predicates_hered <> derives_trans thm
+R10609:10622 VST.msl.subtypes_sl <> unfash_derives thm
+R10583:10595 VST.msl.predicates_hered <> derives_trans thm
+R10609:10622 VST.msl.subtypes_sl <> unfash_derives thm
+R10644:10650 VST.veric.semax_switch <> fash_TT thm
+R10644:10650 VST.veric.semax_switch <> fash_TT thm
+R10644:10650 VST.veric.semax_switch <> fash_TT thm
+R10677:10687 VST.veric.semax_switch <> unfash_allp thm
+R10677:10687 VST.veric.semax_switch <> unfash_allp thm
+R10677:10687 VST.veric.semax_switch <> unfash_allp thm
+R10699:10707 VST.veric.semax_switch <> allp_andp thm
+R10699:10707 VST.veric.semax_switch <> allp_andp thm
+R10699:10707 VST.veric.semax_switch <> allp_andp thm
+R10721:10729 VST.msl.predicates_hered <> allp_left thm
+R10721:10729 VST.msl.predicates_hered <> allp_left thm
+R10749:10759 VST.veric.semax_switch <> unfash_allp thm
+R10749:10759 VST.veric.semax_switch <> unfash_allp thm
+R10749:10759 VST.veric.semax_switch <> unfash_allp thm
+R10771:10779 VST.veric.semax_switch <> allp_andp thm
+R10771:10779 VST.veric.semax_switch <> allp_andp thm
+R10771:10779 VST.veric.semax_switch <> allp_andp thm
+R10796:10804 VST.msl.predicates_hered <> allp_left thm
+R10796:10804 VST.msl.predicates_hered <> allp_left thm
+R10827:10837 VST.veric.semax_switch <> unfash_allp thm
+R10827:10837 VST.veric.semax_switch <> unfash_allp thm
+R10827:10837 VST.veric.semax_switch <> unfash_allp thm
+R10849:10857 VST.veric.semax_switch <> allp_andp thm
+R10849:10857 VST.veric.semax_switch <> allp_andp thm
+R10849:10857 VST.veric.semax_switch <> allp_andp thm
+R10871:10879 VST.msl.predicates_hered <> allp_left thm
+R10871:10879 VST.msl.predicates_hered <> allp_left thm
+R10899:10913 VST.veric.semax_switch <> unfash_prop_imp thm
+R10899:10913 VST.veric.semax_switch <> unfash_prop_imp thm
+R10899:10913 VST.veric.semax_switch <> unfash_prop_imp thm
+R10924:10936 VST.veric.semax_switch <> prop_true_imp thm
+R10924:10936 VST.veric.semax_switch <> prop_true_imp thm
+R10924:10936 VST.veric.semax_switch <> prop_true_imp thm
+R10955:10964 VST.veric.semax_switch <> unfash_imp thm
+R10955:10964 VST.veric.semax_switch <> unfash_imp thm
+R10955:10964 VST.veric.semax_switch <> unfash_imp thm
+R10975:10985 VST.veric.semax_switch <> unfash_andp thm
+R10975:10985 VST.veric.semax_switch <> unfash_andp thm
+R10975:10985 VST.veric.semax_switch <> unfash_andp thm
+R10997:11005 VST.msl.predicates_hered <> andp_comm thm
+R11008:11013 VST.msl.predicates_sl <> sepcon def
+R10997:11005 VST.msl.predicates_hered <> andp_comm thm
+R11008:11013 VST.msl.predicates_sl <> sepcon def
+R10997:11005 VST.msl.predicates_hered <> andp_comm thm
+R11008:11013 VST.msl.predicates_sl <> sepcon def
+R11031:11039 VST.msl.predicates_hered <> andp_comm thm
+R11042:11050 VST.veric.Clight_seplog <> funassert def
+R11031:11039 VST.msl.predicates_hered <> andp_comm thm
+R11042:11050 VST.veric.Clight_seplog <> funassert def
+R11031:11039 VST.msl.predicates_hered <> andp_comm thm
+R11042:11050 VST.veric.Clight_seplog <> funassert def
+R11071:11080 VST.msl.predicates_hered <> andp_assoc thm
+R11071:11080 VST.msl.predicates_hered <> andp_assoc thm
+R11071:11080 VST.msl.predicates_hered <> andp_assoc thm
+R11071:11080 VST.msl.predicates_hered <> andp_assoc thm
+R11071:11080 VST.msl.predicates_hered <> andp_assoc thm
+R11071:11080 VST.msl.predicates_hered <> andp_assoc thm
+R11090:11102 VST.msl.predicates_hered <> derives_trans thm
+R11090:11102 VST.msl.predicates_hered <> derives_trans thm
+R11111:11122 VST.msl.predicates_hered <> andp_derives thm
+R11135:11146 VST.msl.predicates_hered <> derives_refl thm
+R11111:11122 VST.msl.predicates_hered <> andp_derives thm
+R11135:11146 VST.msl.predicates_hered <> derives_refl thm
+R11156:11167 VST.msl.predicates_hered <> andp_derives thm
+R11180:11191 VST.msl.predicates_hered <> derives_refl thm
+R11156:11167 VST.msl.predicates_hered <> andp_derives thm
+R11180:11191 VST.msl.predicates_hered <> derives_refl thm
+R11201:11212 VST.msl.predicates_hered <> andp_derives thm
+R11225:11236 VST.msl.predicates_hered <> derives_refl thm
+R11201:11212 VST.msl.predicates_hered <> andp_derives thm
+R11225:11236 VST.msl.predicates_hered <> derives_refl thm
+R11248:11256 VST.msl.predicates_hered <> andp_comm thm
+R11248:11256 VST.msl.predicates_hered <> andp_comm thm
+R11248:11256 VST.msl.predicates_hered <> andp_comm thm
+R11265:11274 VST.veric.semax_switch <> andp_imp_e thm
+R11265:11274 VST.veric.semax_switch <> andp_imp_e thm
+R11285:11295 VST.veric.semax_switch <> unfash_allp thm
+R11285:11295 VST.veric.semax_switch <> unfash_allp thm
+R11285:11295 VST.veric.semax_switch <> unfash_allp thm
+R11308:11316 VST.veric.semax_switch <> allp_andp thm
+R11319:11325 compcert.cfrontend.Clight <> Kswitch constr
+R11308:11316 VST.veric.semax_switch <> allp_andp thm
+R11319:11325 compcert.cfrontend.Clight <> Kswitch constr
+R11308:11316 VST.veric.semax_switch <> allp_andp thm
+R11319:11325 compcert.cfrontend.Clight <> Kswitch constr
+R11308:11316 VST.veric.semax_switch <> allp_andp thm
+R11319:11325 compcert.cfrontend.Clight <> Kswitch constr
+R11308:11316 VST.veric.semax_switch <> allp_andp thm
+R11319:11325 compcert.cfrontend.Clight <> Kswitch constr
+R11308:11316 VST.veric.semax_switch <> allp_andp thm
+R11319:11325 compcert.cfrontend.Clight <> Kswitch constr
+R11354:11360 compcert.cfrontend.Clight <> Kswitch constr
+R11338:11346 VST.msl.predicates_hered <> allp_left thm
+R11354:11360 compcert.cfrontend.Clight <> Kswitch constr
+R11338:11346 VST.msl.predicates_hered <> allp_left thm
+R11374:11384 VST.veric.semax_switch <> unfash_allp thm
+R11374:11384 VST.veric.semax_switch <> unfash_allp thm
+R11374:11384 VST.veric.semax_switch <> unfash_allp thm
+R11397:11405 VST.veric.semax_switch <> allp_andp thm
+R11397:11405 VST.veric.semax_switch <> allp_andp thm
+R11397:11405 VST.veric.semax_switch <> allp_andp thm
+R11397:11405 VST.veric.semax_switch <> allp_andp thm
+R11397:11405 VST.veric.semax_switch <> allp_andp thm
+R11397:11405 VST.veric.semax_switch <> allp_andp thm
+R11417:11425 VST.msl.predicates_hered <> allp_left thm
+R11417:11425 VST.msl.predicates_hered <> allp_left thm
+R11443:11453 VST.veric.semax_switch <> unfash_allp thm
+R11443:11453 VST.veric.semax_switch <> unfash_allp thm
+R11443:11453 VST.veric.semax_switch <> unfash_allp thm
+R11466:11474 VST.veric.semax_switch <> allp_andp thm
+R11466:11474 VST.veric.semax_switch <> allp_andp thm
+R11466:11474 VST.veric.semax_switch <> allp_andp thm
+R11466:11474 VST.veric.semax_switch <> allp_andp thm
+R11466:11474 VST.veric.semax_switch <> allp_andp thm
+R11466:11474 VST.veric.semax_switch <> allp_andp thm
+R11486:11494 VST.msl.predicates_hered <> allp_left thm
+R11486:11494 VST.msl.predicates_hered <> allp_left thm
+R11577:11588 compcert.lib.Integers Int unsigned def
+R11541:11565 VST.veric.semax_switch <> closed_wrt_modvars_switch thm
+R11512:11525 VST.msl.predicates_hered <> prop_true_andp thm
+R11512:11525 VST.msl.predicates_hered <> prop_true_andp thm
+R11577:11588 compcert.lib.Integers Int unsigned def
+R11541:11565 VST.veric.semax_switch <> closed_wrt_modvars_switch thm
+R11512:11525 VST.msl.predicates_hered <> prop_true_andp thm
+R11609:11621 VST.msl.predicates_hered <> derives_trans thm
+R11609:11621 VST.msl.predicates_hered <> derives_trans thm
+R11630:11641 VST.msl.predicates_hered <> andp_derives thm
+R11654:11665 VST.msl.predicates_hered <> derives_refl thm
+R11630:11641 VST.msl.predicates_hered <> andp_derives thm
+R11654:11665 VST.msl.predicates_hered <> derives_refl thm
+R11675:11686 VST.msl.predicates_hered <> andp_derives thm
+R11699:11710 VST.msl.predicates_hered <> derives_refl thm
+R11675:11686 VST.msl.predicates_hered <> andp_derives thm
+R11699:11710 VST.msl.predicates_hered <> derives_refl thm
+R11720:11731 VST.msl.predicates_hered <> andp_derives thm
+R11741:11752 VST.msl.predicates_hered <> derives_refl thm
+R11720:11731 VST.msl.predicates_hered <> andp_derives thm
+R11741:11752 VST.msl.predicates_hered <> derives_refl thm
+R11766:11779 VST.msl.subtypes_sl <> unfash_derives thm
+R11766:11779 VST.msl.subtypes_sl <> unfash_derives thm
+R11788:11800 VST.veric.semax_switch <> switch_rguard thm
+R11788:11800 VST.veric.semax_switch <> switch_rguard thm
+R11810:11822 VST.msl.predicates_hered <> derives_trans thm
+R11810:11822 VST.msl.predicates_hered <> derives_trans thm
+R11831:11842 VST.msl.predicates_hered <> andp_derives thm
+R11855:11866 VST.msl.predicates_hered <> derives_refl thm
+R11831:11842 VST.msl.predicates_hered <> andp_derives thm
+R11855:11866 VST.msl.predicates_hered <> derives_refl thm
+R11876:11887 VST.msl.predicates_hered <> andp_derives thm
+R11900:11911 VST.msl.predicates_hered <> derives_refl thm
+R11876:11887 VST.msl.predicates_hered <> andp_derives thm
+R11900:11911 VST.msl.predicates_hered <> derives_refl thm
+R11923:11932 VST.veric.semax_switch <> unfash_imp thm
+R11923:11932 VST.veric.semax_switch <> unfash_imp thm
+R11923:11932 VST.veric.semax_switch <> unfash_imp thm
+R11943:11951 VST.msl.predicates_hered <> andp_comm thm
+R11943:11951 VST.msl.predicates_hered <> andp_comm thm
+R11943:11951 VST.msl.predicates_hered <> andp_comm thm
+R11960:11969 VST.veric.semax_switch <> andp_imp_e thm
+R11960:11969 VST.veric.semax_switch <> andp_imp_e thm
+R11979:11983 VST.veric.semax <> guard def
+R11986:11991 VST.veric.semax <> _guard def
+R12002:12012 VST.veric.semax_switch <> unfash_allp thm
+R12002:12012 VST.veric.semax_switch <> unfash_allp thm
+R12002:12012 VST.veric.semax_switch <> unfash_allp thm
+R12025:12033 VST.veric.semax_switch <> allp_andp thm
+R12025:12033 VST.veric.semax_switch <> allp_andp thm
+R12025:12033 VST.veric.semax_switch <> allp_andp thm
+R12025:12033 VST.veric.semax_switch <> allp_andp thm
+R12025:12033 VST.veric.semax_switch <> allp_andp thm
+R12046:12054 VST.msl.predicates_hered <> allp_left thm
+R12046:12054 VST.msl.predicates_hered <> allp_left thm
+R12073:12083 VST.veric.semax_switch <> unfash_allp thm
+R12073:12083 VST.veric.semax_switch <> unfash_allp thm
+R12073:12083 VST.veric.semax_switch <> unfash_allp thm
+R12096:12104 VST.veric.semax_switch <> allp_andp thm
+R12096:12104 VST.veric.semax_switch <> allp_andp thm
+R12096:12104 VST.veric.semax_switch <> allp_andp thm
+R12096:12104 VST.veric.semax_switch <> allp_andp thm
+R12096:12104 VST.veric.semax_switch <> allp_andp thm
+R12117:12125 VST.msl.predicates_hered <> allp_left thm
+R12117:12125 VST.msl.predicates_hered <> allp_left thm
+R12155:12168 VST.msl.predicates_hered <> prop_true_andp thm
+R12172:12174 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12155:12168 VST.msl.predicates_hered <> prop_true_andp thm
+R12172:12174 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12155:12168 VST.msl.predicates_hered <> prop_true_andp thm
+R12172:12174 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12195:12207 VST.msl.predicates_hered <> derives_trans thm
+R12195:12207 VST.msl.predicates_hered <> derives_trans thm
+R12216:12227 VST.msl.predicates_hered <> andp_derives thm
+R12237:12248 VST.msl.predicates_hered <> derives_refl thm
+R12216:12227 VST.msl.predicates_hered <> andp_derives thm
+R12237:12248 VST.msl.predicates_hered <> derives_refl thm
+R12261:12270 VST.msl.predicates_hered <> andp_right thm
+R12279:12290 VST.msl.predicates_hered <> derives_refl thm
+R12261:12270 VST.msl.predicates_hered <> andp_right thm
+R12279:12290 VST.msl.predicates_hered <> derives_refl thm
+R12279:12290 VST.msl.predicates_hered <> derives_refl thm
+R12302:12311 VST.msl.predicates_hered <> andp_assoc thm
+R12302:12311 VST.msl.predicates_hered <> andp_assoc thm
+R12302:12311 VST.msl.predicates_hered <> andp_assoc thm
+R12302:12311 VST.msl.predicates_hered <> andp_assoc thm
+R12302:12311 VST.msl.predicates_hered <> andp_assoc thm
+R12323:12331 VST.msl.predicates_hered <> andp_comm thm
+R12334:12339 VST.msl.predicates_sl <> sepcon def
+R12323:12331 VST.msl.predicates_hered <> andp_comm thm
+R12334:12339 VST.msl.predicates_sl <> sepcon def
+R12323:12331 VST.msl.predicates_hered <> andp_comm thm
+R12334:12339 VST.msl.predicates_sl <> sepcon def
+R12360:12369 VST.msl.predicates_hered <> andp_assoc thm
+R12372:12380 VST.veric.Clight_seplog <> funassert def
+R12360:12369 VST.msl.predicates_hered <> andp_assoc thm
+R12372:12380 VST.veric.Clight_seplog <> funassert def
+R12360:12369 VST.msl.predicates_hered <> andp_assoc thm
+R12372:12380 VST.veric.Clight_seplog <> funassert def
+R12417:12421 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R12435:12435 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R12397:12405 VST.veric.Clight_seplog <> funassert def
+R12427:12429 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R12417:12421 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R12435:12435 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R12397:12405 VST.veric.Clight_seplog <> funassert def
+R12427:12429 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R12458:12471 VST.msl.predicates_hered <> prop_true_andp thm
+R12458:12471 VST.msl.predicates_hered <> prop_true_andp thm
+R12458:12471 VST.msl.predicates_hered <> prop_true_andp thm
+R12502:12511 VST.msl.predicates_hered <> andp_assoc thm
+R12502:12511 VST.msl.predicates_hered <> andp_assoc thm
+R12502:12511 VST.msl.predicates_hered <> andp_assoc thm
+R12521:12533 VST.msl.predicates_hered <> derives_trans thm
+R12521:12533 VST.msl.predicates_hered <> derives_trans thm
+R12542:12553 VST.msl.predicates_hered <> andp_derives thm
+R12542:12553 VST.msl.predicates_hered <> andp_derives thm
+R12577:12588 VST.msl.predicates_hered <> andp_derives thm
+R12601:12612 VST.msl.predicates_hered <> derives_refl thm
+R12577:12588 VST.msl.predicates_hered <> andp_derives thm
+R12601:12612 VST.msl.predicates_hered <> derives_refl thm
+R12622:12636 VST.veric.semax_switch <> unfash_fash_imp thm
+R12622:12636 VST.veric.semax_switch <> unfash_fash_imp thm
+R12646:12658 VST.msl.predicates_hered <> derives_trans thm
+R12646:12658 VST.msl.predicates_hered <> derives_trans thm
+R12667:12678 VST.msl.predicates_hered <> andp_derives thm
+R12691:12702 VST.msl.predicates_hered <> derives_refl thm
+R12667:12678 VST.msl.predicates_hered <> andp_derives thm
+R12691:12702 VST.msl.predicates_hered <> derives_refl thm
+R12714:12722 VST.msl.predicates_hered <> andp_comm thm
+R12714:12722 VST.msl.predicates_hered <> andp_comm thm
+R12714:12722 VST.msl.predicates_hered <> andp_comm thm
+R12731:12740 VST.veric.semax_switch <> andp_imp_e thm
+R12731:12740 VST.veric.semax_switch <> andp_imp_e thm
+R12750:12770 VST.veric.semax_lemmas <> typecheck_environ_sub thm
+R12750:12770 VST.veric.semax_lemmas <> typecheck_environ_sub thm
+R12826:12849 VST.veric.semax_switch <> assert_safe_step_nostore thm
+R12826:12849 VST.veric.semax_switch <> assert_safe_step_nostore thm
+R12875:12881 VST.veric.extend_tc <> tc_expr def
+R12901:12905 VST.veric.juicy_mem <> m_phi def
+R12923:12938 VST.veric.extend_tc <> tc_expr_cenv_sub thm
+R12875:12881 VST.veric.extend_tc <> tc_expr def
+R12901:12905 VST.veric.juicy_mem <> m_phi def
+R12923:12938 VST.veric.extend_tc <> tc_expr_cenv_sub thm
+R13017:13032 VST.veric.expr_lemmas4 <> eval_expr_relate thm
+R13017:13032 VST.veric.expr_lemmas4 <> eval_expr_relate thm
+R13074:13096 VST.veric.expr_lemmas <> eval_expr_cenv_sub_Vint thm
+R13074:13096 VST.veric.expr_lemmas <> eval_expr_cenv_sub_Vint thm
+R13074:13096 VST.veric.expr_lemmas <> eval_expr_cenv_sub_Vint thm

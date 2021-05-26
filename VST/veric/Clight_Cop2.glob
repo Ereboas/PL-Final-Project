@@ -1,0 +1,2146 @@
+DIGEST b904a9ac4f5a3f9bab11c0a4b6e87be6
+FVST.veric.Clight_Cop2
+R1222:1235 VST.veric.Cop2 <> <> lib
+R1253:1273 VST.veric.Clight_base <> <> lib
+R1291:1309 VST.veric.tycontext <> <> lib
+def 2358:2373 <> sem_cast_pointer
+R2380:2382 compcert.common.Values <> val ind
+binder 2376:2376 <> v:1
+R2387:2392 Coq.Init.Datatypes <> option ind
+R2394:2396 compcert.common.Values <> val ind
+R2401:2404 Coq.Init.Datatypes <> Some constr
+R2406:2406 VST.veric.Clight_Cop2 <> v:1 var
+def 2421:2432 <> sem_cast_i2i
+binder 2434:2436 <> sz2:2
+binder 2438:2440 <> si2:3
+R2447:2449 compcert.common.Values <> val ind
+binder 2443:2443 <> v:4
+R2454:2459 Coq.Init.Datatypes <> option ind
+R2461:2463 compcert.common.Values <> val ind
+R2474:2474 VST.veric.Clight_Cop2 <> v:4 var
+R2489:2492 compcert.common.Values <> Vint constr
+R2499:2502 Coq.Init.Datatypes <> Some constr
+R2505:2508 compcert.common.Values <> Vint constr
+R2511:2526 compcert.cfrontend.Cop <> cast_int_int def
+R2532:2534 VST.veric.Clight_Cop2 <> si2:3 var
+R2528:2530 VST.veric.Clight_Cop2 <> sz2:2 var
+R2553:2556 Coq.Init.Datatypes <> None constr
+def 2581:2595 <> sem_cast_i2bool
+R2601:2603 compcert.common.Values <> val ind
+binder 2598:2598 <> v:6
+R2608:2613 Coq.Init.Datatypes <> option ind
+R2615:2617 compcert.common.Values <> val ind
+R2635:2635 VST.veric.Clight_Cop2 <> v:6 var
+R2650:2653 compcert.common.Values <> Vint constr
+R2670:2673 Coq.Init.Datatypes <> Some constr
+R2675:2678 compcert.common.Values <> Vint constr
+R2683:2688 compcert.lib.Integers Int eq def
+R2692:2699 compcert.lib.Integers Int zero def
+R2720:2726 compcert.lib.Integers Int one def
+R2706:2713 compcert.lib.Integers Int zero def
+R2738:2741 compcert.common.Values <> Vptr constr
+R2765:2775 compcert.x86_32.Archi <> ptr64 def
+R2792:2795 Coq.Init.Datatypes <> Some constr
+R2797:2800 compcert.common.Values <> Vone def
+R2782:2785 Coq.Init.Datatypes <> None constr
+R2815:2818 Coq.Init.Datatypes <> None constr
+def 2843:2857 <> sem_cast_l2bool
+R2863:2865 compcert.common.Values <> val ind
+binder 2860:2860 <> v:8
+R2870:2875 Coq.Init.Datatypes <> option ind
+R2877:2879 compcert.common.Values <> val ind
+R2896:2896 VST.veric.Clight_Cop2 <> v:8 var
+R2911:2915 compcert.common.Values <> Vlong constr
+R2932:2935 Coq.Init.Datatypes <> Some constr
+R2937:2940 compcert.common.Values <> Vint constr
+R2945:2952 compcert.lib.Integers Int64 eq def
+R2956:2965 compcert.lib.Integers Int64 zero def
+R2986:2992 compcert.lib.Integers Int one def
+R2972:2979 compcert.lib.Integers Int zero def
+R3004:3007 compcert.common.Values <> Vptr constr
+R3031:3034 Coq.Init.Datatypes <> negb def
+R3036:3046 compcert.x86_32.Archi <> ptr64 def
+R3063:3066 Coq.Init.Datatypes <> Some constr
+R3068:3071 compcert.common.Values <> Vone def
+R3053:3056 Coq.Init.Datatypes <> None constr
+R3086:3089 Coq.Init.Datatypes <> None constr
+def 3114:3125 <> sem_cast_l2l
+R3132:3134 compcert.common.Values <> val ind
+binder 3128:3128 <> v:10
+R3139:3144 Coq.Init.Datatypes <> option ind
+R3146:3148 compcert.common.Values <> val ind
+R3160:3160 VST.veric.Clight_Cop2 <> v:10 var
+R3175:3179 compcert.common.Values <> Vlong constr
+R3186:3189 Coq.Init.Datatypes <> Some constr
+R3192:3196 compcert.common.Values <> Vlong constr
+R3214:3217 Coq.Init.Datatypes <> None constr
+def 3242:3253 <> sem_cast_i2l
+binder 3255:3256 <> si:12
+R3263:3265 compcert.common.Values <> val ind
+binder 3259:3259 <> v:13
+R3270:3275 Coq.Init.Datatypes <> option ind
+R3277:3279 compcert.common.Values <> val ind
+R3291:3291 VST.veric.Clight_Cop2 <> v:13 var
+R3306:3309 compcert.common.Values <> Vint constr
+R3316:3319 Coq.Init.Datatypes <> Some constr
+R3321:3325 compcert.common.Values <> Vlong constr
+R3328:3344 compcert.cfrontend.Cop <> cast_int_long def
+R3346:3347 VST.veric.Clight_Cop2 <> si:12 var
+R3366:3369 Coq.Init.Datatypes <> None constr
+def 3394:3405 <> sem_cast_l2i
+binder 3407:3408 <> sz:15
+binder 3410:3411 <> si:16
+R3418:3420 compcert.common.Values <> val ind
+binder 3414:3414 <> v:17
+R3425:3430 Coq.Init.Datatypes <> option ind
+R3432:3434 compcert.common.Values <> val ind
+R3445:3445 VST.veric.Clight_Cop2 <> v:17 var
+R3460:3464 compcert.common.Values <> Vlong constr
+R3471:3474 Coq.Init.Datatypes <> Some constr
+R3476:3479 compcert.common.Values <> Vint constr
+R3482:3497 compcert.cfrontend.Cop <> cast_int_int def
+R3506:3513 compcert.lib.Integers Int repr def
+R3516:3529 compcert.lib.Integers Int64 unsigned def
+R3502:3503 VST.veric.Clight_Cop2 <> si:16 var
+R3499:3500 VST.veric.Clight_Cop2 <> sz:15 var
+R3550:3553 Coq.Init.Datatypes <> None constr
+def 3578:3592 <> sem_cast_struct
+binder 3594:3596 <> id1:19
+binder 3598:3600 <> id2:20
+R3607:3609 compcert.common.Values <> val ind
+binder 3603:3603 <> v:21
+R3614:3619 Coq.Init.Datatypes <> option ind
+R3621:3623 compcert.common.Values <> val ind
+R3634:3634 VST.veric.Clight_Cop2 <> v:21 var
+R3649:3652 compcert.common.Values <> Vptr constr
+R3676:3683 compcert.common.AST <> ident_eq def
+R3689:3691 VST.veric.Clight_Cop2 <> id2:20 var
+R3685:3687 VST.veric.Clight_Cop2 <> id1:19 var
+R3710:3713 Coq.Init.Datatypes <> None constr
+R3698:3701 Coq.Init.Datatypes <> Some constr
+R3703:3703 VST.veric.Clight_Cop2 <> v:21 var
+R3728:3731 Coq.Init.Datatypes <> None constr
+def 3756:3769 <> sem_cast_union
+binder 3771:3773 <> id1:23
+binder 3775:3777 <> id2:24
+R3784:3786 compcert.common.Values <> val ind
+binder 3780:3780 <> v:25
+R3791:3796 Coq.Init.Datatypes <> option ind
+R3798:3800 compcert.common.Values <> val ind
+R3811:3811 VST.veric.Clight_Cop2 <> v:25 var
+R3826:3829 compcert.common.Values <> Vptr constr
+R3853:3860 compcert.common.AST <> ident_eq def
+R3866:3868 VST.veric.Clight_Cop2 <> id2:24 var
+R3862:3864 VST.veric.Clight_Cop2 <> id1:23 var
+R3887:3890 Coq.Init.Datatypes <> None constr
+R3875:3878 Coq.Init.Datatypes <> Some constr
+R3880:3880 VST.veric.Clight_Cop2 <> v:25 var
+R3905:3908 Coq.Init.Datatypes <> None constr
+def 3933:3944 <> sem_cast_f2f
+R3950:3952 compcert.common.Values <> val ind
+binder 3947:3947 <> v:27
+R3957:3962 Coq.Init.Datatypes <> option ind
+R3964:3966 compcert.common.Values <> val ind
+R3983:3983 VST.veric.Clight_Cop2 <> v:27 var
+R3998:4003 compcert.common.Values <> Vfloat constr
+R4010:4013 Coq.Init.Datatypes <> Some constr
+R4016:4021 compcert.common.Values <> Vfloat constr
+R4039:4042 Coq.Init.Datatypes <> None constr
+def 4067:4078 <> sem_cast_s2s
+R4084:4086 compcert.common.Values <> val ind
+binder 4081:4081 <> v:29
+R4091:4096 Coq.Init.Datatypes <> option ind
+R4098:4100 compcert.common.Values <> val ind
+R4117:4117 VST.veric.Clight_Cop2 <> v:29 var
+R4132:4138 compcert.common.Values <> Vsingle constr
+R4145:4148 Coq.Init.Datatypes <> Some constr
+R4151:4157 compcert.common.Values <> Vsingle constr
+R4175:4178 Coq.Init.Datatypes <> None constr
+def 4203:4214 <> sem_cast_s2f
+R4220:4222 compcert.common.Values <> val ind
+binder 4217:4217 <> v:31
+R4227:4232 Coq.Init.Datatypes <> option ind
+R4234:4236 compcert.common.Values <> val ind
+R4253:4253 VST.veric.Clight_Cop2 <> v:31 var
+R4268:4274 compcert.common.Values <> Vsingle constr
+R4281:4284 Coq.Init.Datatypes <> Some constr
+R4287:4292 compcert.common.Values <> Vfloat constr
+R4295:4309 compcert.lib.Floats Float of_single def
+R4328:4331 Coq.Init.Datatypes <> None constr
+def 4357:4368 <> sem_cast_f2s
+R4374:4376 compcert.common.Values <> val ind
+binder 4371:4371 <> v:33
+R4381:4386 Coq.Init.Datatypes <> option ind
+R4388:4390 compcert.common.Values <> val ind
+R4407:4407 VST.veric.Clight_Cop2 <> v:33 var
+R4422:4427 compcert.common.Values <> Vfloat constr
+R4434:4437 Coq.Init.Datatypes <> Some constr
+R4440:4446 compcert.common.Values <> Vsingle constr
+R4449:4463 compcert.lib.Floats Float to_single def
+R4482:4485 Coq.Init.Datatypes <> None constr
+def 4511:4522 <> sem_cast_i2f
+binder 4524:4526 <> si1:35
+R4532:4534 compcert.common.Values <> val ind
+binder 4529:4529 <> v:36
+R4539:4544 Coq.Init.Datatypes <> option ind
+R4546:4548 compcert.common.Values <> val ind
+R4565:4565 VST.veric.Clight_Cop2 <> v:36 var
+R4580:4583 compcert.common.Values <> Vint constr
+R4590:4593 Coq.Init.Datatypes <> Some constr
+R4596:4601 compcert.common.Values <> Vfloat constr
+R4604:4621 compcert.cfrontend.Cop <> cast_int_float def
+R4623:4625 VST.veric.Clight_Cop2 <> si1:35 var
+R4644:4647 Coq.Init.Datatypes <> None constr
+def 4673:4684 <> sem_cast_i2s
+binder 4686:4688 <> si1:38
+R4694:4696 compcert.common.Values <> val ind
+binder 4691:4691 <> v:39
+R4701:4706 Coq.Init.Datatypes <> option ind
+R4708:4710 compcert.common.Values <> val ind
+R4727:4727 VST.veric.Clight_Cop2 <> v:39 var
+R4742:4745 compcert.common.Values <> Vint constr
+R4752:4755 Coq.Init.Datatypes <> Some constr
+R4758:4764 compcert.common.Values <> Vsingle constr
+R4767:4785 compcert.cfrontend.Cop <> cast_int_single def
+R4787:4789 VST.veric.Clight_Cop2 <> si1:38 var
+R4808:4811 Coq.Init.Datatypes <> None constr
+def 4837:4848 <> sem_cast_f2i
+binder 4850:4852 <> sz2:41
+binder 4854:4856 <> si2:42
+R4862:4864 compcert.common.Values <> val ind
+binder 4859:4859 <> v:43
+R4869:4874 Coq.Init.Datatypes <> option ind
+R4876:4878 compcert.common.Values <> val ind
+R4895:4895 VST.veric.Clight_Cop2 <> v:43 var
+R4910:4915 compcert.common.Values <> Vfloat constr
+R4938:4955 compcert.cfrontend.Cop <> cast_float_int def
+R4957:4959 VST.veric.Clight_Cop2 <> si2:42 var
+R4980:4983 Coq.Init.Datatypes <> Some constr
+R4990:4993 Coq.Init.Datatypes <> Some constr
+R4996:4999 compcert.common.Values <> Vint constr
+R5002:5017 compcert.cfrontend.Cop <> cast_int_int def
+R5023:5025 VST.veric.Clight_Cop2 <> si2:42 var
+R5019:5021 VST.veric.Clight_Cop2 <> sz2:41 var
+R5043:5046 Coq.Init.Datatypes <> None constr
+R5051:5054 Coq.Init.Datatypes <> None constr
+R5083:5086 Coq.Init.Datatypes <> None constr
+def 5111:5122 <> sem_cast_s2i
+binder 5124:5126 <> sz2:45
+binder 5128:5130 <> si2:46
+R5136:5138 compcert.common.Values <> val ind
+binder 5133:5133 <> v:47
+R5143:5148 Coq.Init.Datatypes <> option ind
+R5150:5152 compcert.common.Values <> val ind
+R5169:5169 VST.veric.Clight_Cop2 <> v:47 var
+R5184:5190 compcert.common.Values <> Vsingle constr
+R5213:5231 compcert.cfrontend.Cop <> cast_single_int def
+R5233:5235 VST.veric.Clight_Cop2 <> si2:46 var
+R5256:5259 Coq.Init.Datatypes <> Some constr
+R5266:5269 Coq.Init.Datatypes <> Some constr
+R5272:5275 compcert.common.Values <> Vint constr
+R5278:5293 compcert.cfrontend.Cop <> cast_int_int def
+R5299:5301 VST.veric.Clight_Cop2 <> si2:46 var
+R5295:5297 VST.veric.Clight_Cop2 <> sz2:45 var
+R5319:5322 Coq.Init.Datatypes <> None constr
+R5327:5330 Coq.Init.Datatypes <> None constr
+R5359:5362 Coq.Init.Datatypes <> None constr
+def 5387:5401 <> sem_cast_f2bool
+R5407:5409 compcert.common.Values <> val ind
+binder 5404:5404 <> v:49
+R5414:5419 Coq.Init.Datatypes <> option ind
+R5421:5423 compcert.common.Values <> val ind
+R5440:5440 VST.veric.Clight_Cop2 <> v:49 var
+R5455:5460 compcert.common.Values <> Vfloat constr
+R5477:5480 Coq.Init.Datatypes <> Some constr
+R5482:5485 compcert.common.Values <> Vint constr
+R5490:5498 compcert.lib.Floats Float cmp def
+R5506:5515 compcert.lib.Floats Float zero def
+R5500:5502 compcert.lib.Integers <> Ceq constr
+R5536:5542 compcert.lib.Integers Int one def
+R5522:5529 compcert.lib.Integers Int zero def
+R5559:5562 Coq.Init.Datatypes <> None constr
+def 5587:5601 <> sem_cast_s2bool
+R5607:5609 compcert.common.Values <> val ind
+binder 5604:5604 <> v:51
+R5614:5619 Coq.Init.Datatypes <> option ind
+R5621:5623 compcert.common.Values <> val ind
+R5640:5640 VST.veric.Clight_Cop2 <> v:51 var
+R5655:5661 compcert.common.Values <> Vsingle constr
+R5678:5681 Coq.Init.Datatypes <> Some constr
+R5683:5686 compcert.common.Values <> Vint constr
+R5691:5701 compcert.lib.Floats Float32 cmp def
+R5709:5720 compcert.lib.Floats Float32 zero def
+R5703:5705 compcert.lib.Integers <> Ceq constr
+R5741:5747 compcert.lib.Integers Int one def
+R5727:5734 compcert.lib.Integers Int zero def
+R5764:5767 Coq.Init.Datatypes <> None constr
+def 5793:5804 <> sem_cast_l2f
+binder 5806:5808 <> si1:53
+R5814:5816 compcert.common.Values <> val ind
+binder 5811:5811 <> v:54
+R5821:5826 Coq.Init.Datatypes <> option ind
+R5828:5830 compcert.common.Values <> val ind
+R5847:5847 VST.veric.Clight_Cop2 <> v:54 var
+R5862:5866 compcert.common.Values <> Vlong constr
+R5873:5876 Coq.Init.Datatypes <> Some constr
+R5879:5884 compcert.common.Values <> Vfloat constr
+R5887:5905 compcert.cfrontend.Cop <> cast_long_float def
+R5907:5909 VST.veric.Clight_Cop2 <> si1:53 var
+R5928:5931 Coq.Init.Datatypes <> None constr
+def 5957:5968 <> sem_cast_l2s
+binder 5970:5972 <> si1:56
+R5978:5980 compcert.common.Values <> val ind
+binder 5975:5975 <> v:57
+R5985:5990 Coq.Init.Datatypes <> option ind
+R5992:5994 compcert.common.Values <> val ind
+R6011:6011 VST.veric.Clight_Cop2 <> v:57 var
+R6026:6030 compcert.common.Values <> Vlong constr
+R6037:6040 Coq.Init.Datatypes <> Some constr
+R6043:6049 compcert.common.Values <> Vsingle constr
+R6052:6071 compcert.cfrontend.Cop <> cast_long_single def
+R6073:6075 VST.veric.Clight_Cop2 <> si1:56 var
+R6094:6097 Coq.Init.Datatypes <> None constr
+def 6123:6134 <> sem_cast_f2l
+binder 6136:6138 <> si2:59
+R6144:6146 compcert.common.Values <> val ind
+binder 6141:6141 <> v:60
+R6151:6156 Coq.Init.Datatypes <> option ind
+R6158:6160 compcert.common.Values <> val ind
+R6177:6177 VST.veric.Clight_Cop2 <> v:60 var
+R6192:6197 compcert.common.Values <> Vfloat constr
+R6220:6238 compcert.cfrontend.Cop <> cast_float_long def
+R6240:6242 VST.veric.Clight_Cop2 <> si2:59 var
+R6263:6266 Coq.Init.Datatypes <> Some constr
+R6273:6276 Coq.Init.Datatypes <> Some constr
+R6279:6283 compcert.common.Values <> Vlong constr
+R6300:6303 Coq.Init.Datatypes <> None constr
+R6308:6311 Coq.Init.Datatypes <> None constr
+R6340:6343 Coq.Init.Datatypes <> None constr
+def 6368:6379 <> sem_cast_s2l
+binder 6381:6383 <> si2:62
+R6389:6391 compcert.common.Values <> val ind
+binder 6386:6386 <> v:63
+R6396:6401 Coq.Init.Datatypes <> option ind
+R6403:6405 compcert.common.Values <> val ind
+R6422:6422 VST.veric.Clight_Cop2 <> v:63 var
+R6437:6443 compcert.common.Values <> Vsingle constr
+R6466:6485 compcert.cfrontend.Cop <> cast_single_long def
+R6487:6489 VST.veric.Clight_Cop2 <> si2:62 var
+R6510:6513 Coq.Init.Datatypes <> Some constr
+R6520:6523 Coq.Init.Datatypes <> Some constr
+R6526:6530 compcert.common.Values <> Vlong constr
+R6547:6550 Coq.Init.Datatypes <> None constr
+R6555:6558 Coq.Init.Datatypes <> None constr
+R6587:6590 Coq.Init.Datatypes <> None constr
+def 6615:6627 <> classify_cast
+R6641:6644 compcert.cfrontend.Ctypes <> type ind
+binder 6630:6634 <> tfrom:65
+binder 6636:6638 <> tto:66
+R6649:6667 compcert.cfrontend.Cop <> classify_cast_cases ind
+R6685:6689 VST.veric.Clight_Cop2 <> tfrom:65 var
+R6680:6682 VST.veric.Clight_Cop2 <> tto:66 var
+R6718:6722 compcert.cfrontend.Ctypes <> Tvoid constr
+R6730:6743 compcert.cfrontend.Cop <> cast_case_void constr
+R6768:6771 compcert.cfrontend.Ctypes <> Tint constr
+R6773:6777 compcert.cfrontend.Ctypes <> IBool constr
+R6784:6787 compcert.cfrontend.Ctypes <> Tint constr
+R6798:6813 compcert.cfrontend.Cop <> cast_case_i2bool constr
+R6819:6822 compcert.cfrontend.Ctypes <> Tint constr
+R6824:6828 compcert.cfrontend.Ctypes <> IBool constr
+R6835:6839 compcert.cfrontend.Ctypes <> Tlong constr
+R6848:6863 compcert.cfrontend.Cop <> cast_case_l2bool constr
+R6869:6872 compcert.cfrontend.Ctypes <> Tint constr
+R6874:6878 compcert.cfrontend.Ctypes <> IBool constr
+R6885:6890 compcert.cfrontend.Ctypes <> Tfloat constr
+R6892:6894 compcert.cfrontend.Ctypes <> F64 constr
+R6901:6916 compcert.cfrontend.Cop <> cast_case_f2bool constr
+R6922:6925 compcert.cfrontend.Ctypes <> Tint constr
+R6927:6931 compcert.cfrontend.Ctypes <> IBool constr
+R6938:6943 compcert.cfrontend.Ctypes <> Tfloat constr
+R6945:6947 compcert.cfrontend.Ctypes <> F32 constr
+R6954:6969 compcert.cfrontend.Cop <> cast_case_s2bool constr
+R6975:6978 compcert.cfrontend.Ctypes <> Tint constr
+R6980:6984 compcert.cfrontend.Ctypes <> IBool constr
+R6992:6999 compcert.cfrontend.Ctypes <> Tpointer constr
+R7007:7012 compcert.cfrontend.Ctypes <> Tarray constr
+R7022:7030 compcert.cfrontend.Ctypes <> Tfunction constr
+R7052:7059 VST.veric.Cop2 <> eqb_type def
+R7067:7081 VST.veric.Cop2 <> int_or_ptr_type def
+R7061:7065 VST.veric.Clight_Cop2 <> tfrom:65 var
+R7126:7136 compcert.x86_32.Archi <> ptr64 def
+R7165:7180 compcert.cfrontend.Cop <> cast_case_i2bool constr
+R7143:7158 compcert.cfrontend.Cop <> cast_case_l2bool constr
+R7094:7110 compcert.cfrontend.Cop <> cast_case_default constr
+R7052:7059 VST.veric.Cop2 <> eqb_type def
+R7067:7081 VST.veric.Cop2 <> int_or_ptr_type def
+R7061:7065 VST.veric.Clight_Cop2 <> tfrom:65 var
+R7126:7136 compcert.x86_32.Archi <> ptr64 def
+R7165:7180 compcert.cfrontend.Cop <> cast_case_i2bool constr
+R7143:7158 compcert.cfrontend.Cop <> cast_case_l2bool constr
+R7094:7110 compcert.cfrontend.Cop <> cast_case_default constr
+R7052:7059 VST.veric.Cop2 <> eqb_type def
+R7067:7081 VST.veric.Cop2 <> int_or_ptr_type def
+R7061:7065 VST.veric.Clight_Cop2 <> tfrom:65 var
+R7126:7136 compcert.x86_32.Archi <> ptr64 def
+R7165:7180 compcert.cfrontend.Cop <> cast_case_i2bool constr
+R7143:7158 compcert.cfrontend.Cop <> cast_case_l2bool constr
+R7094:7110 compcert.cfrontend.Cop <> cast_case_default constr
+R7222:7225 compcert.cfrontend.Ctypes <> Tint constr
+R7238:7241 compcert.cfrontend.Ctypes <> Tint constr
+R7261:7271 compcert.x86_32.Archi <> ptr64 def
+R7314:7323 compcert.cfrontend.Ctypes <> intsize_eq thm
+R7329:7331 compcert.cfrontend.Ctypes <> I32 constr
+R7367:7379 compcert.cfrontend.Cop <> cast_case_i2i constr
+R7338:7354 compcert.cfrontend.Cop <> cast_case_pointer constr
+R7278:7290 compcert.cfrontend.Cop <> cast_case_i2i constr
+R7393:7396 compcert.cfrontend.Ctypes <> Tint constr
+R7409:7413 compcert.cfrontend.Ctypes <> Tlong constr
+R7422:7434 compcert.cfrontend.Cop <> cast_case_l2i constr
+R7448:7451 compcert.cfrontend.Ctypes <> Tint constr
+R7464:7469 compcert.cfrontend.Ctypes <> Tfloat constr
+R7471:7473 compcert.cfrontend.Ctypes <> F64 constr
+R7480:7492 compcert.cfrontend.Cop <> cast_case_f2i constr
+R7506:7509 compcert.cfrontend.Ctypes <> Tint constr
+R7522:7527 compcert.cfrontend.Ctypes <> Tfloat constr
+R7529:7531 compcert.cfrontend.Ctypes <> F32 constr
+R7538:7550 compcert.cfrontend.Cop <> cast_case_s2i constr
+R7564:7567 compcert.cfrontend.Ctypes <> Tint constr
+R7581:7588 compcert.cfrontend.Ctypes <> Tpointer constr
+R7596:7601 compcert.cfrontend.Ctypes <> Tarray constr
+R7611:7619 compcert.cfrontend.Ctypes <> Tfunction constr
+R7640:7650 compcert.x86_32.Archi <> ptr64 def
+R7693:7702 compcert.cfrontend.Ctypes <> intsize_eq thm
+R7708:7710 compcert.cfrontend.Ctypes <> I32 constr
+R7746:7758 compcert.cfrontend.Cop <> cast_case_i2i constr
+R7717:7733 compcert.cfrontend.Cop <> cast_case_pointer constr
+R7657:7669 compcert.cfrontend.Cop <> cast_case_l2i constr
+R7640:7650 compcert.x86_32.Archi <> ptr64 def
+R7693:7702 compcert.cfrontend.Ctypes <> intsize_eq thm
+R7708:7710 compcert.cfrontend.Ctypes <> I32 constr
+R7746:7758 compcert.cfrontend.Cop <> cast_case_i2i constr
+R7717:7733 compcert.cfrontend.Cop <> cast_case_pointer constr
+R7657:7669 compcert.cfrontend.Cop <> cast_case_l2i constr
+R7640:7650 compcert.x86_32.Archi <> ptr64 def
+R7693:7702 compcert.cfrontend.Ctypes <> intsize_eq thm
+R7708:7710 compcert.cfrontend.Ctypes <> I32 constr
+R7746:7758 compcert.cfrontend.Cop <> cast_case_i2i constr
+R7717:7733 compcert.cfrontend.Cop <> cast_case_pointer constr
+R7657:7669 compcert.cfrontend.Cop <> cast_case_l2i constr
+R7790:7794 compcert.cfrontend.Ctypes <> Tlong constr
+R7801:7805 compcert.cfrontend.Ctypes <> Tlong constr
+R7823:7833 compcert.x86_32.Archi <> ptr64 def
+R7863:7875 compcert.cfrontend.Cop <> cast_case_l2l constr
+R7840:7856 compcert.cfrontend.Cop <> cast_case_pointer constr
+R7881:7885 compcert.cfrontend.Ctypes <> Tlong constr
+R7892:7895 compcert.cfrontend.Ctypes <> Tint constr
+R7910:7922 compcert.cfrontend.Cop <> cast_case_i2l constr
+R7932:7936 compcert.cfrontend.Ctypes <> Tlong constr
+R7945:7950 compcert.cfrontend.Ctypes <> Tfloat constr
+R7952:7954 compcert.cfrontend.Ctypes <> F64 constr
+R7961:7973 compcert.cfrontend.Cop <> cast_case_f2l constr
+R7983:7987 compcert.cfrontend.Ctypes <> Tlong constr
+R7996:8001 compcert.cfrontend.Ctypes <> Tfloat constr
+R8003:8005 compcert.cfrontend.Ctypes <> F32 constr
+R8012:8024 compcert.cfrontend.Cop <> cast_case_s2l constr
+R8034:8038 compcert.cfrontend.Ctypes <> Tlong constr
+R8048:8055 compcert.cfrontend.Ctypes <> Tpointer constr
+R8063:8068 compcert.cfrontend.Ctypes <> Tarray constr
+R8078:8086 compcert.cfrontend.Ctypes <> Tfunction constr
+R8107:8117 compcert.x86_32.Archi <> ptr64 def
+R8161:8173 compcert.cfrontend.Cop <> cast_case_i2l constr
+R8131:8147 compcert.cfrontend.Cop <> cast_case_pointer constr
+R8107:8117 compcert.x86_32.Archi <> ptr64 def
+R8161:8173 compcert.cfrontend.Cop <> cast_case_i2l constr
+R8131:8147 compcert.cfrontend.Cop <> cast_case_pointer constr
+R8107:8117 compcert.x86_32.Archi <> ptr64 def
+R8161:8173 compcert.cfrontend.Cop <> cast_case_i2l constr
+R8131:8147 compcert.cfrontend.Cop <> cast_case_pointer constr
+R8202:8207 compcert.cfrontend.Ctypes <> Tfloat constr
+R8209:8211 compcert.cfrontend.Ctypes <> F64 constr
+R8216:8219 compcert.cfrontend.Ctypes <> Tint constr
+R8234:8246 compcert.cfrontend.Cop <> cast_case_i2f constr
+R8256:8261 compcert.cfrontend.Ctypes <> Tfloat constr
+R8263:8265 compcert.cfrontend.Ctypes <> F32 constr
+R8270:8273 compcert.cfrontend.Ctypes <> Tint constr
+R8288:8300 compcert.cfrontend.Cop <> cast_case_i2s constr
+R8310:8315 compcert.cfrontend.Ctypes <> Tfloat constr
+R8317:8319 compcert.cfrontend.Ctypes <> F64 constr
+R8324:8328 compcert.cfrontend.Ctypes <> Tlong constr
+R8339:8351 compcert.cfrontend.Cop <> cast_case_l2f constr
+R8361:8366 compcert.cfrontend.Ctypes <> Tfloat constr
+R8368:8370 compcert.cfrontend.Ctypes <> F32 constr
+R8375:8379 compcert.cfrontend.Ctypes <> Tlong constr
+R8390:8402 compcert.cfrontend.Cop <> cast_case_l2s constr
+R8412:8417 compcert.cfrontend.Ctypes <> Tfloat constr
+R8419:8421 compcert.cfrontend.Ctypes <> F64 constr
+R8426:8431 compcert.cfrontend.Ctypes <> Tfloat constr
+R8433:8435 compcert.cfrontend.Ctypes <> F64 constr
+R8442:8454 compcert.cfrontend.Cop <> cast_case_f2f constr
+R8460:8465 compcert.cfrontend.Ctypes <> Tfloat constr
+R8467:8469 compcert.cfrontend.Ctypes <> F32 constr
+R8474:8479 compcert.cfrontend.Ctypes <> Tfloat constr
+R8481:8483 compcert.cfrontend.Ctypes <> F32 constr
+R8490:8502 compcert.cfrontend.Cop <> cast_case_s2s constr
+R8508:8513 compcert.cfrontend.Ctypes <> Tfloat constr
+R8515:8517 compcert.cfrontend.Ctypes <> F64 constr
+R8522:8527 compcert.cfrontend.Ctypes <> Tfloat constr
+R8529:8531 compcert.cfrontend.Ctypes <> F32 constr
+R8538:8550 compcert.cfrontend.Cop <> cast_case_s2f constr
+R8556:8561 compcert.cfrontend.Ctypes <> Tfloat constr
+R8563:8565 compcert.cfrontend.Ctypes <> F32 constr
+R8570:8575 compcert.cfrontend.Ctypes <> Tfloat constr
+R8577:8579 compcert.cfrontend.Ctypes <> F64 constr
+R8586:8598 compcert.cfrontend.Cop <> cast_case_f2s constr
+R8629:8636 compcert.cfrontend.Ctypes <> Tpointer constr
+R8643:8646 compcert.cfrontend.Ctypes <> Tint constr
+R8667:8674 VST.veric.Cop2 <> eqb_type def
+R8680:8694 VST.veric.Cop2 <> int_or_ptr_type def
+R8676:8678 VST.veric.Clight_Cop2 <> tto:66 var
+R8805:8815 compcert.x86_32.Archi <> ptr64 def
+R8867:8883 compcert.cfrontend.Cop <> cast_case_pointer constr
+R8833:8845 compcert.cfrontend.Cop <> cast_case_i2l constr
+R8711:8721 compcert.x86_32.Archi <> ptr64 def
+R8773:8789 compcert.cfrontend.Cop <> cast_case_pointer constr
+R8739:8755 compcert.cfrontend.Cop <> cast_case_default constr
+R8889:8896 compcert.cfrontend.Ctypes <> Tpointer constr
+R8903:8907 compcert.cfrontend.Ctypes <> Tlong constr
+R8925:8932 VST.veric.Cop2 <> eqb_type def
+R8938:8952 VST.veric.Cop2 <> int_or_ptr_type def
+R8934:8936 VST.veric.Clight_Cop2 <> tto:66 var
+R9063:9073 compcert.x86_32.Archi <> ptr64 def
+R9125:9137 compcert.cfrontend.Cop <> cast_case_l2i constr
+R9143:9150 compcert.cfrontend.Ctypes <> Unsigned constr
+R9139:9141 compcert.cfrontend.Ctypes <> I32 constr
+R9091:9107 compcert.cfrontend.Cop <> cast_case_pointer constr
+R8969:8979 compcert.x86_32.Archi <> ptr64 def
+R9031:9047 compcert.cfrontend.Cop <> cast_case_default constr
+R8997:9013 compcert.cfrontend.Cop <> cast_case_pointer constr
+R9156:9163 compcert.cfrontend.Ctypes <> Tpointer constr
+R9171:9178 compcert.cfrontend.Ctypes <> Tpointer constr
+R9186:9191 compcert.cfrontend.Ctypes <> Tarray constr
+R9201:9209 compcert.cfrontend.Ctypes <> Tfunction constr
+R9229:9245 compcert.cfrontend.Cop <> cast_case_pointer constr
+R9229:9245 compcert.cfrontend.Cop <> cast_case_pointer constr
+R9229:9245 compcert.cfrontend.Cop <> cast_case_pointer constr
+R9284:9290 compcert.cfrontend.Ctypes <> Tstruct constr
+R9299:9305 compcert.cfrontend.Ctypes <> Tstruct constr
+R9316:9331 compcert.cfrontend.Cop <> cast_case_struct constr
+R9345:9350 compcert.cfrontend.Ctypes <> Tunion constr
+R9359:9364 compcert.cfrontend.Ctypes <> Tunion constr
+R9375:9389 compcert.cfrontend.Cop <> cast_case_union constr
+R9429:9445 compcert.cfrontend.Cop <> cast_case_default constr
+R9465:9477 VST.veric.Clight_Cop2 <> classify_cast def
+def 9505:9512 <> sem_cast
+R9522:9525 compcert.cfrontend.Ctypes <> type ind
+binder 9515:9516 <> t1:69
+binder 9518:9519 <> t2:70
+R9532:9535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9536:9541 Coq.Init.Datatypes <> option ind
+R9543:9545 compcert.common.Values <> val ind
+R9529:9531 compcert.common.Values <> val ind
+R9559:9571 VST.veric.Clight_Cop2 <> classify_cast def
+R9576:9577 VST.veric.Clight_Cop2 <> t2:70 var
+R9573:9574 VST.veric.Clight_Cop2 <> t1:69 var
+R9588:9604 compcert.cfrontend.Cop <> cast_case_pointer constr
+R9609:9624 VST.veric.Clight_Cop2 <> sem_cast_pointer def
+R9630:9646 compcert.cfrontend.Cop <> cast_case_i2i constr
+R9659:9670 VST.veric.Clight_Cop2 <> sem_cast_i2i def
+R9684:9700 compcert.cfrontend.Cop <> cast_case_f2f constr
+R9705:9716 VST.veric.Clight_Cop2 <> sem_cast_f2f def
+R9722:9738 compcert.cfrontend.Cop <> cast_case_s2s constr
+R9743:9754 VST.veric.Clight_Cop2 <> sem_cast_s2s def
+R9760:9776 compcert.cfrontend.Cop <> cast_case_s2f constr
+R9781:9792 VST.veric.Clight_Cop2 <> sem_cast_s2f def
+R9798:9814 compcert.cfrontend.Cop <> cast_case_f2s constr
+R9819:9830 VST.veric.Clight_Cop2 <> sem_cast_f2s def
+R9836:9852 compcert.cfrontend.Cop <> cast_case_i2f constr
+R9861:9872 VST.veric.Clight_Cop2 <> sem_cast_i2f def
+R9882:9898 compcert.cfrontend.Cop <> cast_case_i2s constr
+R9907:9918 VST.veric.Clight_Cop2 <> sem_cast_i2s def
+R9928:9944 compcert.cfrontend.Cop <> cast_case_f2i constr
+R9957:9968 VST.veric.Clight_Cop2 <> sem_cast_f2i def
+R9982:9998 compcert.cfrontend.Cop <> cast_case_s2i constr
+R10011:10022 VST.veric.Clight_Cop2 <> sem_cast_s2i def
+R10036:10055 compcert.cfrontend.Cop <> cast_case_i2bool constr
+R10060:10074 VST.veric.Clight_Cop2 <> sem_cast_i2bool def
+R10080:10099 compcert.cfrontend.Cop <> cast_case_l2bool constr
+R10104:10118 VST.veric.Clight_Cop2 <> sem_cast_l2bool def
+R10124:10143 compcert.cfrontend.Cop <> cast_case_f2bool constr
+R10148:10162 VST.veric.Clight_Cop2 <> sem_cast_f2bool def
+R10168:10187 compcert.cfrontend.Cop <> cast_case_s2bool constr
+R10192:10206 VST.veric.Clight_Cop2 <> sem_cast_s2bool def
+R10212:10228 compcert.cfrontend.Cop <> cast_case_l2l constr
+R10233:10244 VST.veric.Clight_Cop2 <> sem_cast_l2l def
+R10250:10266 compcert.cfrontend.Cop <> cast_case_i2l constr
+R10274:10285 VST.veric.Clight_Cop2 <> sem_cast_i2l def
+R10294:10310 compcert.cfrontend.Cop <> cast_case_l2i constr
+R10321:10332 VST.veric.Clight_Cop2 <> sem_cast_l2i def
+R10344:10360 compcert.cfrontend.Cop <> cast_case_l2f constr
+R10369:10380 VST.veric.Clight_Cop2 <> sem_cast_l2f def
+R10390:10406 compcert.cfrontend.Cop <> cast_case_l2s constr
+R10415:10426 VST.veric.Clight_Cop2 <> sem_cast_l2s def
+R10436:10452 compcert.cfrontend.Cop <> cast_case_f2l constr
+R10461:10472 VST.veric.Clight_Cop2 <> sem_cast_f2l def
+R10482:10498 compcert.cfrontend.Cop <> cast_case_s2l constr
+R10507:10518 VST.veric.Clight_Cop2 <> sem_cast_s2l def
+R10528:10547 compcert.cfrontend.Cop <> cast_case_struct constr
+R10560:10574 VST.veric.Clight_Cop2 <> sem_cast_struct def
+R10588:10606 compcert.cfrontend.Cop <> cast_case_union constr
+R10619:10632 VST.veric.Clight_Cop2 <> sem_cast_union def
+R10646:10663 compcert.cfrontend.Cop <> cast_case_void constr
+binder 10678:10678 <> v:71
+R10683:10686 Coq.Init.Datatypes <> Some constr
+R10688:10688 VST.veric.Clight_Cop2 <> v:71 var
+R10694:10714 compcert.cfrontend.Cop <> cast_case_default constr
+binder 10729:10729 <> v:72
+R10734:10737 Coq.Init.Datatypes <> None constr
+def 10895:10905 <> sem_notbool
+R10911:10914 compcert.cfrontend.Ctypes <> type ind
+binder 10908:10908 <> t:73
+R10921:10923 compcert.common.Values <> val ind
+binder 10918:10918 <> v:74
+R10928:10933 Coq.Init.Datatypes <> option ind
+R10935:10937 compcert.common.Values <> val ind
+R10944:10953 compcert.lib.Coqlib <> option_map def
+R10988:11000 VST.veric.Cop2 <> bool_val def
+R11004:11004 VST.veric.Clight_Cop2 <> v:74 var
+R11002:11002 VST.veric.Clight_Cop2 <> t:73 var
+binder 10960:10960 <> b:75
+R10965:10975 compcert.common.Values Val of_bool def
+R10978:10981 Coq.Init.Datatypes <> negb def
+R10983:10983 VST.veric.Clight_Cop2 <> b:75 var
+def 11041:11049 <> sem_neg_i
+R11055:11057 compcert.common.Values <> val ind
+binder 11052:11052 <> v:76
+R11062:11067 Coq.Init.Datatypes <> option ind
+R11069:11071 compcert.common.Values <> val ind
+R11088:11088 VST.veric.Clight_Cop2 <> v:76 var
+R11103:11106 compcert.common.Values <> Vint constr
+R11113:11116 Coq.Init.Datatypes <> Some constr
+R11119:11122 compcert.common.Values <> Vint constr
+R11125:11131 compcert.lib.Integers Int neg def
+R11150:11153 Coq.Init.Datatypes <> None constr
+def 11178:11186 <> sem_neg_f
+R11192:11194 compcert.common.Values <> val ind
+binder 11189:11189 <> v:78
+R11199:11204 Coq.Init.Datatypes <> option ind
+R11206:11208 compcert.common.Values <> val ind
+R11226:11226 VST.veric.Clight_Cop2 <> v:78 var
+R11241:11246 compcert.common.Values <> Vfloat constr
+R11253:11256 Coq.Init.Datatypes <> Some constr
+R11259:11264 compcert.common.Values <> Vfloat constr
+R11267:11275 compcert.lib.Floats Float neg def
+R11294:11297 Coq.Init.Datatypes <> None constr
+def 11322:11330 <> sem_neg_s
+R11336:11338 compcert.common.Values <> val ind
+binder 11333:11333 <> v:80
+R11343:11348 Coq.Init.Datatypes <> option ind
+R11350:11352 compcert.common.Values <> val ind
+R11370:11370 VST.veric.Clight_Cop2 <> v:80 var
+R11385:11391 compcert.common.Values <> Vsingle constr
+R11398:11401 Coq.Init.Datatypes <> Some constr
+R11404:11410 compcert.common.Values <> Vsingle constr
+R11413:11423 compcert.lib.Floats Float32 neg def
+R11442:11445 Coq.Init.Datatypes <> None constr
+def 11470:11478 <> sem_neg_l
+R11484:11486 compcert.common.Values <> val ind
+binder 11481:11481 <> v:82
+R11491:11496 Coq.Init.Datatypes <> option ind
+R11498:11500 compcert.common.Values <> val ind
+R11517:11517 VST.veric.Clight_Cop2 <> v:82 var
+R11532:11536 compcert.common.Values <> Vlong constr
+R11543:11546 Coq.Init.Datatypes <> Some constr
+R11549:11553 compcert.common.Values <> Vlong constr
+R11556:11564 compcert.lib.Integers Int64 neg def
+R11583:11586 Coq.Init.Datatypes <> None constr
+def 11611:11617 <> sem_neg
+R11623:11626 compcert.cfrontend.Ctypes <> type ind
+binder 11620:11620 <> t:84
+R11634:11637 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11638:11643 Coq.Init.Datatypes <> option ind
+R11645:11647 compcert.common.Values <> val ind
+R11631:11633 compcert.common.Values <> val ind
+R11660:11675 compcert.cfrontend.Cop <> classify_neg def
+R11677:11677 VST.veric.Clight_Cop2 <> t:84 var
+R11688:11701 compcert.cfrontend.Cop <> neg_case_i constr
+R11709:11717 VST.veric.Clight_Cop2 <> sem_neg_i def
+R11723:11736 compcert.cfrontend.Cop <> neg_case_f constr
+R11741:11749 VST.veric.Clight_Cop2 <> sem_neg_f def
+R11755:11768 compcert.cfrontend.Cop <> neg_case_s constr
+R11773:11781 VST.veric.Clight_Cop2 <> sem_neg_s def
+R11787:11800 compcert.cfrontend.Cop <> neg_case_l constr
+R11808:11816 VST.veric.Clight_Cop2 <> sem_neg_l def
+R11822:11832 compcert.cfrontend.Cop <> neg_default constr
+binder 11841:11841 <> v:85
+R11846:11849 Coq.Init.Datatypes <> None constr
+def 11870:11883 <> sem_absfloat_i
+binder 11885:11886 <> sg:86
+R11892:11894 compcert.common.Values <> val ind
+binder 11889:11889 <> v:87
+R11899:11904 Coq.Init.Datatypes <> option ind
+R11906:11908 compcert.common.Values <> val ind
+R11921:11921 VST.veric.Clight_Cop2 <> v:87 var
+R11936:11939 compcert.common.Values <> Vint constr
+R11946:11949 Coq.Init.Datatypes <> Some constr
+R11952:11957 compcert.common.Values <> Vfloat constr
+R11960:11968 compcert.lib.Floats Float abs def
+R11971:11988 compcert.cfrontend.Cop <> cast_int_float def
+R11990:11991 VST.veric.Clight_Cop2 <> sg:86 var
+R12011:12014 Coq.Init.Datatypes <> None constr
+def 12039:12052 <> sem_absfloat_f
+R12058:12060 compcert.common.Values <> val ind
+binder 12055:12055 <> v:89
+R12077:12077 VST.veric.Clight_Cop2 <> v:89 var
+R12092:12097 compcert.common.Values <> Vfloat constr
+R12104:12107 Coq.Init.Datatypes <> Some constr
+R12110:12115 compcert.common.Values <> Vfloat constr
+R12118:12126 compcert.lib.Floats Float abs def
+R12145:12148 Coq.Init.Datatypes <> None constr
+def 12173:12186 <> sem_absfloat_s
+R12192:12194 compcert.common.Values <> val ind
+binder 12189:12189 <> v:91
+R12212:12212 VST.veric.Clight_Cop2 <> v:91 var
+R12227:12233 compcert.common.Values <> Vsingle constr
+R12240:12243 Coq.Init.Datatypes <> Some constr
+R12246:12251 compcert.common.Values <> Vfloat constr
+R12254:12262 compcert.lib.Floats Float abs def
+R12265:12279 compcert.lib.Floats Float of_single def
+R12299:12302 Coq.Init.Datatypes <> None constr
+def 12327:12340 <> sem_absfloat_l
+binder 12342:12343 <> sg:93
+binder 12345:12345 <> v:94
+R12362:12362 VST.veric.Clight_Cop2 <> v:94 var
+R12377:12381 compcert.common.Values <> Vlong constr
+R12388:12391 Coq.Init.Datatypes <> Some constr
+R12394:12399 compcert.common.Values <> Vfloat constr
+R12402:12410 compcert.lib.Floats Float abs def
+R12413:12431 compcert.cfrontend.Cop <> cast_long_float def
+R12433:12434 VST.veric.Clight_Cop2 <> sg:93 var
+R12454:12457 Coq.Init.Datatypes <> None constr
+def 12482:12493 <> sem_absfloat
+R12500:12503 compcert.cfrontend.Ctypes <> type ind
+binder 12496:12497 <> ty:96
+R12512:12515 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12516:12521 Coq.Init.Datatypes <> option ind
+R12523:12525 compcert.common.Values <> val ind
+R12509:12511 compcert.common.Values <> val ind
+R12538:12553 compcert.cfrontend.Cop <> classify_neg def
+R12555:12556 VST.veric.Clight_Cop2 <> ty:96 var
+R12567:12580 compcert.cfrontend.Cop <> neg_case_i constr
+R12588:12601 VST.veric.Clight_Cop2 <> sem_absfloat_i def
+R12610:12623 compcert.cfrontend.Cop <> neg_case_f constr
+R12628:12641 VST.veric.Clight_Cop2 <> sem_absfloat_f def
+R12647:12660 compcert.cfrontend.Cop <> neg_case_s constr
+R12665:12678 VST.veric.Clight_Cop2 <> sem_absfloat_s def
+R12685:12698 compcert.cfrontend.Cop <> neg_case_l constr
+R12706:12719 VST.veric.Clight_Cop2 <> sem_absfloat_l def
+R12728:12738 compcert.cfrontend.Cop <> neg_default constr
+binder 12747:12747 <> v:97
+R12752:12755 Coq.Init.Datatypes <> None constr
+def 12807:12818 <> sem_notint_i
+R12823:12825 compcert.common.Values <> val ind
+binder 12821:12821 <> v:98
+R12830:12835 Coq.Init.Datatypes <> option ind
+R12837:12839 compcert.common.Values <> val ind
+R12856:12856 VST.veric.Clight_Cop2 <> v:98 var
+R12871:12874 compcert.common.Values <> Vint constr
+R12881:12884 Coq.Init.Datatypes <> Some constr
+R12887:12890 compcert.common.Values <> Vint constr
+R12893:12899 compcert.lib.Integers Int not def
+R12918:12921 Coq.Init.Datatypes <> None constr
+def 12946:12957 <> sem_notint_l
+R12962:12964 compcert.common.Values <> val ind
+binder 12960:12960 <> v:100
+R12969:12974 Coq.Init.Datatypes <> option ind
+R12976:12978 compcert.common.Values <> val ind
+R12995:12995 VST.veric.Clight_Cop2 <> v:100 var
+R13010:13014 compcert.common.Values <> Vlong constr
+R13021:13024 Coq.Init.Datatypes <> Some constr
+R13027:13031 compcert.common.Values <> Vlong constr
+R13034:13042 compcert.lib.Integers Int64 not def
+R13061:13064 Coq.Init.Datatypes <> None constr
+def 13089:13098 <> sem_notint
+R13104:13107 compcert.cfrontend.Ctypes <> type ind
+binder 13101:13101 <> t:102
+R13116:13119 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13120:13125 Coq.Init.Datatypes <> option ind
+R13127:13129 compcert.common.Values <> val ind
+R13113:13115 compcert.common.Values <> val ind
+R13142:13160 compcert.cfrontend.Cop <> classify_notint def
+R13162:13162 VST.veric.Clight_Cop2 <> t:102 var
+R13173:13189 compcert.cfrontend.Cop <> notint_case_i constr
+R13197:13208 VST.veric.Clight_Cop2 <> sem_notint_i def
+R13214:13230 compcert.cfrontend.Cop <> notint_case_l constr
+R13238:13249 VST.veric.Clight_Cop2 <> sem_notint_l def
+R13255:13268 compcert.cfrontend.Cop <> notint_default constr
+binder 13277:13277 <> v:103
+R13282:13285 Coq.Init.Datatypes <> None constr
+def 13306:13313 <> both_int
+R13322:13325 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13329:13332 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13333:13338 Coq.Init.Datatypes <> option ind
+R13340:13342 compcert.common.Values <> val ind
+R13326:13328 compcert.lib.Integers <> int syndef
+R13319:13321 compcert.lib.Integers <> int syndef
+binder 13316:13316 <> f:104
+R13362:13365 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13366:13371 Coq.Init.Datatypes <> option ind
+R13373:13375 compcert.common.Values <> val ind
+R13359:13361 compcert.common.Values <> val ind
+binder 13346:13350 <> cast1:105
+binder 13352:13356 <> cast2:106
+R13386:13388 compcert.common.Values <> val ind
+binder 13379:13380 <> v1:107
+binder 13382:13383 <> v2:108
+R13411:13415 VST.veric.Clight_Cop2 <> cast2:106 var
+R13417:13418 VST.veric.Clight_Cop2 <> v2:108 var
+R13401:13405 VST.veric.Clight_Cop2 <> cast1:105 var
+R13407:13408 VST.veric.Clight_Cop2 <> v1:107 var
+R13425:13428 Coq.Init.Datatypes <> Some constr
+R13431:13434 compcert.common.Values <> Vint constr
+R13442:13445 Coq.Init.Datatypes <> Some constr
+R13448:13451 compcert.common.Values <> Vint constr
+R13461:13461 VST.veric.Clight_Cop2 <> f:104 var
+R13481:13484 Coq.Init.Datatypes <> None constr
+def 13503:13511 <> both_long
+R13522:13525 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13531:13534 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13535:13540 Coq.Init.Datatypes <> option ind
+R13542:13544 compcert.common.Values <> val ind
+R13526:13530 compcert.lib.Integers <> int64 syndef
+R13517:13521 compcert.lib.Integers <> int64 syndef
+binder 13514:13514 <> f:109
+R13564:13567 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13568:13573 Coq.Init.Datatypes <> option ind
+R13575:13577 compcert.common.Values <> val ind
+R13561:13563 compcert.common.Values <> val ind
+binder 13548:13552 <> cast1:110
+binder 13554:13558 <> cast2:111
+R13588:13590 compcert.common.Values <> val ind
+binder 13581:13582 <> v1:112
+binder 13584:13585 <> v2:113
+R13613:13617 VST.veric.Clight_Cop2 <> cast2:111 var
+R13619:13620 VST.veric.Clight_Cop2 <> v2:113 var
+R13603:13607 VST.veric.Clight_Cop2 <> cast1:110 var
+R13609:13610 VST.veric.Clight_Cop2 <> v1:112 var
+R13627:13630 Coq.Init.Datatypes <> Some constr
+R13633:13637 compcert.common.Values <> Vlong constr
+R13645:13648 Coq.Init.Datatypes <> Some constr
+R13651:13655 compcert.common.Values <> Vlong constr
+R13665:13665 VST.veric.Clight_Cop2 <> f:109 var
+R13685:13688 Coq.Init.Datatypes <> None constr
+def 13707:13716 <> both_float
+R13727:13730 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13736:13739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13740:13745 Coq.Init.Datatypes <> option ind
+R13747:13749 compcert.common.Values <> val ind
+R13731:13735 compcert.lib.Floats <> float def
+R13722:13726 compcert.lib.Floats <> float def
+binder 13719:13719 <> f:114
+R13769:13772 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13773:13778 Coq.Init.Datatypes <> option ind
+R13780:13782 compcert.common.Values <> val ind
+R13766:13768 compcert.common.Values <> val ind
+binder 13753:13757 <> cast1:115
+binder 13759:13763 <> cast2:116
+R13793:13795 compcert.common.Values <> val ind
+binder 13786:13787 <> v1:117
+binder 13789:13790 <> v2:118
+R13818:13822 VST.veric.Clight_Cop2 <> cast2:116 var
+R13824:13825 VST.veric.Clight_Cop2 <> v2:118 var
+R13808:13812 VST.veric.Clight_Cop2 <> cast1:115 var
+R13814:13815 VST.veric.Clight_Cop2 <> v1:117 var
+R13832:13835 Coq.Init.Datatypes <> Some constr
+R13838:13843 compcert.common.Values <> Vfloat constr
+R13851:13854 Coq.Init.Datatypes <> Some constr
+R13857:13862 compcert.common.Values <> Vfloat constr
+R13872:13872 VST.veric.Clight_Cop2 <> f:114 var
+R13892:13895 Coq.Init.Datatypes <> None constr
+def 13914:13924 <> both_single
+R13937:13940 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13948:13951 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13952:13957 Coq.Init.Datatypes <> option ind
+R13959:13961 compcert.common.Values <> val ind
+R13941:13947 compcert.lib.Floats <> float32 def
+R13930:13936 compcert.lib.Floats <> float32 def
+binder 13927:13927 <> f:119
+R13981:13984 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13985:13990 Coq.Init.Datatypes <> option ind
+R13992:13994 compcert.common.Values <> val ind
+R13978:13980 compcert.common.Values <> val ind
+binder 13965:13969 <> cast1:120
+binder 13971:13975 <> cast2:121
+R14005:14007 compcert.common.Values <> val ind
+binder 13998:13999 <> v1:122
+binder 14001:14002 <> v2:123
+R14030:14034 VST.veric.Clight_Cop2 <> cast2:121 var
+R14036:14037 VST.veric.Clight_Cop2 <> v2:123 var
+R14020:14024 VST.veric.Clight_Cop2 <> cast1:120 var
+R14026:14027 VST.veric.Clight_Cop2 <> v1:122 var
+R14044:14047 Coq.Init.Datatypes <> Some constr
+R14050:14056 compcert.common.Values <> Vsingle constr
+R14064:14067 Coq.Init.Datatypes <> Some constr
+R14070:14076 compcert.common.Values <> Vsingle constr
+R14086:14086 VST.veric.Clight_Cop2 <> f:119 var
+R14106:14109 Coq.Init.Datatypes <> None constr
+def 14129:14140 <> sem_binarith
+R14166:14169 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14173:14176 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14180:14183 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14184:14189 Coq.Init.Datatypes <> option ind
+R14191:14193 compcert.common.Values <> val ind
+R14177:14179 compcert.lib.Integers <> int syndef
+R14170:14172 compcert.lib.Integers <> int syndef
+R14156:14165 compcert.cfrontend.Ctypes <> signedness ind
+binder 14147:14153 <> sem_int:124
+R14221:14224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14230:14233 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14239:14242 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14243:14248 Coq.Init.Datatypes <> option ind
+R14250:14252 compcert.common.Values <> val ind
+R14234:14238 compcert.lib.Integers <> int64 syndef
+R14225:14229 compcert.lib.Integers <> int64 syndef
+R14211:14220 compcert.cfrontend.Ctypes <> signedness ind
+binder 14201:14208 <> sem_long:125
+R14276:14279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14285:14288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14289:14294 Coq.Init.Datatypes <> option ind
+R14296:14298 compcert.common.Values <> val ind
+R14280:14284 compcert.lib.Floats <> float def
+R14271:14275 compcert.lib.Floats <> float def
+binder 14260:14268 <> sem_float:126
+R14325:14328 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14336:14339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14340:14345 Coq.Init.Datatypes <> option ind
+R14347:14349 compcert.common.Values <> val ind
+R14329:14335 compcert.lib.Floats <> float32 def
+R14318:14324 compcert.lib.Floats <> float32 def
+binder 14306:14315 <> sem_single:127
+R14361:14364 compcert.cfrontend.Ctypes <> type ind
+binder 14357:14358 <> t1:128
+R14372:14375 compcert.cfrontend.Ctypes <> type ind
+binder 14368:14369 <> t2:129
+R14395:14397 compcert.common.Values <> val ind
+binder 14391:14392 <> v1:130
+R14405:14407 compcert.common.Values <> val ind
+binder 14401:14402 <> v2:131
+R14411:14416 Coq.Init.Datatypes <> option ind
+R14418:14420 compcert.common.Values <> val ind
+R14437:14457 compcert.cfrontend.Cop <> classify_binarith def
+R14462:14463 VST.veric.Clight_Cop2 <> t2:129 var
+R14459:14460 VST.veric.Clight_Cop2 <> t1:128 var
+binder 14432:14432 <> c:132
+R14479:14495 compcert.cfrontend.Cop <> binarith_type def
+R14497:14497 VST.veric.Clight_Cop2 <> c:132 var
+binder 14474:14474 <> t:133
+R14510:14510 VST.veric.Clight_Cop2 <> c:132 var
+R14521:14534 compcert.cfrontend.Cop <> bin_case_i constr
+R14542:14549 VST.veric.Clight_Cop2 <> both_int def
+R14581:14588 VST.veric.Clight_Cop2 <> sem_cast def
+R14593:14593 VST.veric.Clight_Cop2 <> t:133 var
+R14590:14591 VST.veric.Clight_Cop2 <> t2:129 var
+R14565:14572 VST.veric.Clight_Cop2 <> sem_cast def
+R14577:14577 VST.veric.Clight_Cop2 <> t:133 var
+R14574:14575 VST.veric.Clight_Cop2 <> t1:128 var
+R14552:14558 VST.veric.Clight_Cop2 <> sem_int:124 var
+R14600:14613 compcert.cfrontend.Cop <> bin_case_f constr
+R14618:14627 VST.veric.Clight_Cop2 <> both_float def
+R14658:14665 VST.veric.Clight_Cop2 <> sem_cast def
+R14670:14670 VST.veric.Clight_Cop2 <> t:133 var
+R14667:14668 VST.veric.Clight_Cop2 <> t2:129 var
+R14642:14649 VST.veric.Clight_Cop2 <> sem_cast def
+R14654:14654 VST.veric.Clight_Cop2 <> t:133 var
+R14651:14652 VST.veric.Clight_Cop2 <> t1:128 var
+R14630:14638 VST.veric.Clight_Cop2 <> sem_float:126 var
+R14677:14690 compcert.cfrontend.Cop <> bin_case_s constr
+R14695:14705 VST.veric.Clight_Cop2 <> both_single def
+R14737:14744 VST.veric.Clight_Cop2 <> sem_cast def
+R14749:14749 VST.veric.Clight_Cop2 <> t:133 var
+R14746:14747 VST.veric.Clight_Cop2 <> t2:129 var
+R14721:14728 VST.veric.Clight_Cop2 <> sem_cast def
+R14733:14733 VST.veric.Clight_Cop2 <> t:133 var
+R14730:14731 VST.veric.Clight_Cop2 <> t1:128 var
+R14708:14717 VST.veric.Clight_Cop2 <> sem_single:127 var
+R14756:14769 compcert.cfrontend.Cop <> bin_case_l constr
+R14777:14785 VST.veric.Clight_Cop2 <> both_long def
+R14818:14825 VST.veric.Clight_Cop2 <> sem_cast def
+R14830:14830 VST.veric.Clight_Cop2 <> t:133 var
+R14827:14828 VST.veric.Clight_Cop2 <> t2:129 var
+R14802:14809 VST.veric.Clight_Cop2 <> sem_cast def
+R14814:14814 VST.veric.Clight_Cop2 <> t:133 var
+R14811:14812 VST.veric.Clight_Cop2 <> t1:128 var
+R14788:14795 VST.veric.Clight_Cop2 <> sem_long:125 var
+R14837:14847 compcert.cfrontend.Cop <> bin_default constr
+R14863:14866 Coq.Init.Datatypes <> None constr
+def 14887:14901 <> sem_add_ptr_int
+R14908:14916 VST.veric.mpred <> compspecs class
+binder 14904:14905 <> CS:135
+binder 14919:14920 <> ty:136
+binder 14922:14923 <> si:137
+binder 14925:14926 <> v1:138
+binder 14928:14929 <> v2:139
+R14939:14951 compcert.cfrontend.Ctypes <> complete_type def
+R14961:14962 VST.veric.Clight_Cop2 <> ty:136 var
+R14953:14959 VST.veric.mpred <> cenv_cs meth
+R15019:15022 Coq.Init.Datatypes <> None constr
+R14972:14990 compcert.cfrontend.Cop <> sem_add_ptr_int def
+R15009:15010 VST.veric.Clight_Cop2 <> v2:139 var
+R15006:15007 VST.veric.Clight_Cop2 <> v1:138 var
+R15003:15004 VST.veric.Clight_Cop2 <> si:137 var
+R15000:15001 VST.veric.Clight_Cop2 <> ty:136 var
+R14992:14998 VST.veric.mpred <> cenv_cs meth
+def 15037:15051 <> sem_add_int_ptr
+R15058:15066 VST.veric.mpred <> compspecs class
+binder 15054:15055 <> CS:140
+binder 15069:15070 <> ty:141
+binder 15072:15073 <> si:142
+binder 15075:15076 <> v1:143
+binder 15078:15079 <> v2:144
+R15088:15100 compcert.cfrontend.Ctypes <> complete_type def
+R15110:15111 VST.veric.Clight_Cop2 <> ty:141 var
+R15102:15108 VST.veric.mpred <> cenv_cs meth
+R15168:15171 Coq.Init.Datatypes <> None constr
+R15121:15139 compcert.cfrontend.Cop <> sem_add_ptr_int def
+R15158:15159 VST.veric.Clight_Cop2 <> v1:143 var
+R15155:15156 VST.veric.Clight_Cop2 <> v2:144 var
+R15152:15153 VST.veric.Clight_Cop2 <> si:142 var
+R15149:15150 VST.veric.Clight_Cop2 <> ty:141 var
+R15141:15147 VST.veric.mpred <> cenv_cs meth
+def 15186:15201 <> sem_add_ptr_long
+R15208:15216 VST.veric.mpred <> compspecs class
+binder 15204:15205 <> CS:145
+binder 15219:15220 <> ty:146
+binder 15222:15223 <> v1:147
+binder 15225:15226 <> v2:148
+R15235:15247 compcert.cfrontend.Ctypes <> complete_type def
+R15257:15258 VST.veric.Clight_Cop2 <> ty:146 var
+R15249:15255 VST.veric.mpred <> cenv_cs meth
+R15313:15316 Coq.Init.Datatypes <> None constr
+R15268:15287 compcert.cfrontend.Cop <> sem_add_ptr_long def
+R15303:15304 VST.veric.Clight_Cop2 <> v2:148 var
+R15300:15301 VST.veric.Clight_Cop2 <> v1:147 var
+R15297:15298 VST.veric.Clight_Cop2 <> ty:146 var
+R15289:15295 VST.veric.mpred <> cenv_cs meth
+def 15331:15346 <> sem_add_long_ptr
+R15353:15361 VST.veric.mpred <> compspecs class
+binder 15349:15350 <> CS:149
+binder 15364:15365 <> ty:150
+binder 15367:15368 <> v1:151
+binder 15370:15371 <> v2:152
+R15380:15392 compcert.cfrontend.Ctypes <> complete_type def
+R15402:15403 VST.veric.Clight_Cop2 <> ty:150 var
+R15394:15400 VST.veric.mpred <> cenv_cs meth
+R15458:15461 Coq.Init.Datatypes <> None constr
+R15413:15432 compcert.cfrontend.Cop <> sem_add_ptr_long def
+R15448:15449 VST.veric.Clight_Cop2 <> v1:151 var
+R15445:15446 VST.veric.Clight_Cop2 <> v2:152 var
+R15442:15443 VST.veric.Clight_Cop2 <> ty:150 var
+R15434:15440 VST.veric.mpred <> cenv_cs meth
+def 15496:15502 <> sem_add
+R15509:15517 VST.veric.mpred <> compspecs class
+binder 15505:15506 <> CS:153
+R15524:15527 compcert.cfrontend.Ctypes <> type ind
+binder 15521:15522 <> t1:154
+R15534:15537 compcert.cfrontend.Ctypes <> type ind
+binder 15531:15532 <> t2:155
+R15545:15546 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15550:15551 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15552:15557 Coq.Init.Datatypes <> option ind
+R15559:15561 compcert.common.Values <> val ind
+R15547:15549 compcert.common.Values <> val ind
+R15542:15544 compcert.common.Values <> val ind
+R15574:15585 compcert.cfrontend.Cop <> classify_add def
+R15590:15591 VST.veric.Clight_Cop2 <> t2:155 var
+R15587:15588 VST.veric.Clight_Cop2 <> t1:154 var
+R15602:15612 compcert.cfrontend.Cop <> add_case_pi constr
+R15670:15684 VST.veric.Clight_Cop2 <> sem_add_ptr_int def
+R15696:15706 compcert.cfrontend.Cop <> add_case_pl constr
+R15761:15776 VST.veric.Clight_Cop2 <> sem_add_ptr_long def
+R15785:15795 compcert.cfrontend.Cop <> add_case_ip constr
+R15853:15867 VST.veric.Clight_Cop2 <> sem_add_int_ptr def
+R15879:15889 compcert.cfrontend.Cop <> add_case_lp constr
+R15944:15959 VST.veric.Clight_Cop2 <> sem_add_long_ptr def
+R15968:15978 compcert.cfrontend.Cop <> add_default constr
+R15989:16000 VST.veric.Clight_Cop2 <> sem_binarith def
+R16229:16230 VST.veric.Clight_Cop2 <> t2:155 var
+R16226:16227 VST.veric.Clight_Cop2 <> t1:154 var
+binder 16175:16176 <> n1:156
+binder 16178:16179 <> n2:157
+R16184:16187 Coq.Init.Datatypes <> Some constr
+R16189:16195 compcert.common.Values <> Vsingle constr
+R16197:16207 compcert.lib.Floats Float32 add def
+R16212:16213 VST.veric.Clight_Cop2 <> n2:157 var
+R16209:16210 VST.veric.Clight_Cop2 <> n1:156 var
+binder 16122:16123 <> n1:158
+binder 16125:16126 <> n2:159
+R16131:16134 Coq.Init.Datatypes <> Some constr
+R16136:16141 compcert.common.Values <> Vfloat constr
+R16143:16151 compcert.lib.Floats Float add def
+R16156:16157 VST.veric.Clight_Cop2 <> n2:159 var
+R16153:16154 VST.veric.Clight_Cop2 <> n1:158 var
+binder 16067:16068 <> sg:160
+binder 16070:16071 <> n1:161
+binder 16073:16074 <> n2:162
+R16079:16082 Coq.Init.Datatypes <> Some constr
+R16084:16088 compcert.common.Values <> Vlong constr
+R16090:16098 compcert.lib.Integers Int64 add def
+R16103:16104 VST.veric.Clight_Cop2 <> n2:162 var
+R16100:16101 VST.veric.Clight_Cop2 <> n1:161 var
+binder 16015:16016 <> sg:163
+binder 16018:16019 <> n1:164
+binder 16021:16022 <> n2:165
+R16027:16030 Coq.Init.Datatypes <> Some constr
+R16032:16035 compcert.common.Values <> Vint constr
+R16037:16043 compcert.lib.Integers Int add def
+R16048:16049 VST.veric.Clight_Cop2 <> n2:165 var
+R16045:16046 VST.veric.Clight_Cop2 <> n1:164 var
+def 16275:16284 <> sem_sub_pi
+R16291:16299 VST.veric.mpred <> compspecs class
+binder 16287:16288 <> CS:166
+R16306:16309 compcert.cfrontend.Ctypes <> type ind
+binder 16303:16304 <> ty:167
+R16317:16326 compcert.cfrontend.Ctypes <> signedness ind
+binder 16313:16314 <> si:168
+R16338:16340 compcert.common.Values <> val ind
+binder 16330:16331 <> v1:169
+binder 16333:16334 <> v2:170
+R16345:16350 Coq.Init.Datatypes <> option ind
+R16352:16354 compcert.common.Values <> val ind
+R16366:16378 compcert.cfrontend.Ctypes <> complete_type def
+R16388:16389 VST.veric.Clight_Cop2 <> ty:167 var
+R16380:16386 VST.veric.mpred <> cenv_cs meth
+R16929:16932 Coq.Init.Datatypes <> None constr
+R16412:16413 VST.veric.Clight_Cop2 <> v2:170 var
+R16408:16409 VST.veric.Clight_Cop2 <> v1:169 var
+R16428:16431 compcert.common.Values <> Vptr constr
+R16442:16445 compcert.common.Values <> Vint constr
+R16473:16485 compcert.cfrontend.Cop <> ptrofs_of_int def
+R16487:16488 VST.veric.Clight_Cop2 <> si:168 var
+binder 16467:16468 <> n2:173
+R16506:16509 Coq.Init.Datatypes <> Some constr
+R16512:16515 compcert.common.Values <> Vptr constr
+R16521:16530 compcert.lib.Integers Ptrofs sub def
+R16538:16547 compcert.lib.Integers Ptrofs mul def
+R16575:16576 VST.veric.Clight_Cop2 <> n2:173 var
+R16550:16560 compcert.lib.Integers Ptrofs repr def
+R16563:16568 compcert.cfrontend.Ctypes <> sizeof def
+R16570:16571 VST.veric.Clight_Cop2 <> ty:167 var
+R16589:16592 compcert.common.Values <> Vint constr
+R16598:16601 compcert.common.Values <> Vint constr
+R16622:16632 compcert.x86_32.Archi <> ptr64 def
+R16649:16652 Coq.Init.Datatypes <> Some constr
+R16655:16658 compcert.common.Values <> Vint constr
+R16661:16667 compcert.lib.Integers Int sub def
+R16673:16679 compcert.lib.Integers Int mul def
+R16682:16689 compcert.lib.Integers Int repr def
+R16692:16697 compcert.cfrontend.Ctypes <> sizeof def
+R16699:16700 VST.veric.Clight_Cop2 <> ty:167 var
+R16639:16642 Coq.Init.Datatypes <> None constr
+R16718:16722 compcert.common.Values <> Vlong constr
+R16728:16731 compcert.common.Values <> Vint constr
+R16759:16771 compcert.cfrontend.Cop <> cast_int_long def
+R16773:16774 VST.veric.Clight_Cop2 <> si:168 var
+binder 16753:16754 <> n2:174
+R16795:16805 compcert.x86_32.Archi <> ptr64 def
+R16885:16888 Coq.Init.Datatypes <> None constr
+R16812:16815 Coq.Init.Datatypes <> Some constr
+R16818:16822 compcert.common.Values <> Vlong constr
+R16825:16833 compcert.lib.Integers Int64 sub def
+R16839:16847 compcert.lib.Integers Int64 mul def
+R16874:16875 VST.veric.Clight_Cop2 <> n2:174 var
+R16850:16859 compcert.lib.Integers Int64 repr def
+R16862:16867 compcert.cfrontend.Ctypes <> sizeof def
+R16869:16870 VST.veric.Clight_Cop2 <> ty:167 var
+R16907:16910 Coq.Init.Datatypes <> None constr
+def 16947:16956 <> sem_sub_pl
+R16963:16971 VST.veric.mpred <> compspecs class
+binder 16959:16960 <> CS:175
+R16978:16981 compcert.cfrontend.Ctypes <> type ind
+binder 16975:16976 <> ty:176
+R16993:16995 compcert.common.Values <> val ind
+binder 16985:16986 <> v1:177
+binder 16988:16989 <> v2:178
+R17000:17005 Coq.Init.Datatypes <> option ind
+R17007:17009 compcert.common.Values <> val ind
+R17023:17035 compcert.cfrontend.Ctypes <> complete_type def
+R17045:17046 VST.veric.Clight_Cop2 <> ty:176 var
+R17037:17043 VST.veric.mpred <> cenv_cs meth
+R17600:17603 Coq.Init.Datatypes <> None constr
+R17069:17070 VST.veric.Clight_Cop2 <> v2:178 var
+R17065:17066 VST.veric.Clight_Cop2 <> v1:177 var
+R17085:17088 compcert.common.Values <> Vptr constr
+R17099:17103 compcert.common.Values <> Vlong constr
+R17131:17145 compcert.lib.Integers Ptrofs of_int64 def
+binder 17125:17126 <> n2:181
+R17163:17166 Coq.Init.Datatypes <> Some constr
+R17169:17172 compcert.common.Values <> Vptr constr
+R17178:17187 compcert.lib.Integers Ptrofs sub def
+R17195:17204 compcert.lib.Integers Ptrofs mul def
+R17232:17233 VST.veric.Clight_Cop2 <> n2:181 var
+R17207:17217 compcert.lib.Integers Ptrofs repr def
+R17220:17225 compcert.cfrontend.Ctypes <> sizeof def
+R17227:17228 VST.veric.Clight_Cop2 <> ty:176 var
+R17246:17249 compcert.common.Values <> Vint constr
+R17255:17259 compcert.common.Values <> Vlong constr
+R17287:17294 compcert.lib.Integers Int repr def
+R17297:17310 compcert.lib.Integers Int64 unsigned def
+binder 17281:17282 <> n2:182
+R17332:17342 compcert.x86_32.Archi <> ptr64 def
+R17359:17362 Coq.Init.Datatypes <> Some constr
+R17365:17368 compcert.common.Values <> Vint constr
+R17371:17377 compcert.lib.Integers Int sub def
+R17383:17389 compcert.lib.Integers Int mul def
+R17414:17415 VST.veric.Clight_Cop2 <> n2:182 var
+R17392:17399 compcert.lib.Integers Int repr def
+R17402:17407 compcert.cfrontend.Ctypes <> sizeof def
+R17409:17410 VST.veric.Clight_Cop2 <> ty:176 var
+R17349:17352 Coq.Init.Datatypes <> None constr
+R17428:17432 compcert.common.Values <> Vlong constr
+R17438:17442 compcert.common.Values <> Vlong constr
+R17463:17473 compcert.x86_32.Archi <> ptr64 def
+R17553:17556 Coq.Init.Datatypes <> None constr
+R17480:17483 Coq.Init.Datatypes <> Some constr
+R17486:17490 compcert.common.Values <> Vlong constr
+R17493:17501 compcert.lib.Integers Int64 sub def
+R17507:17515 compcert.lib.Integers Int64 mul def
+R17518:17527 compcert.lib.Integers Int64 repr def
+R17530:17535 compcert.cfrontend.Ctypes <> sizeof def
+R17537:17538 VST.veric.Clight_Cop2 <> ty:176 var
+R17575:17578 Coq.Init.Datatypes <> None constr
+def 17618:17627 <> sem_sub_pp
+R17634:17642 VST.veric.mpred <> compspecs class
+binder 17630:17631 <> CS:183
+R17649:17652 compcert.cfrontend.Ctypes <> type ind
+binder 17646:17647 <> ty:184
+R17664:17666 compcert.common.Values <> val ind
+binder 17656:17657 <> v1:185
+binder 17659:17660 <> v2:186
+R17671:17676 Coq.Init.Datatypes <> option ind
+R17678:17680 compcert.common.Values <> val ind
+R17693:17705 compcert.cfrontend.Ctypes <> complete_type def
+R17715:17716 VST.veric.Clight_Cop2 <> ty:184 var
+R17707:17713 VST.veric.mpred <> cenv_cs meth
+R18074:18077 Coq.Init.Datatypes <> None constr
+R17738:17739 VST.veric.Clight_Cop2 <> v2:186 var
+R17735:17736 VST.veric.Clight_Cop2 <> v1:185 var
+R17754:17757 compcert.common.Values <> Vptr constr
+R17768:17771 compcert.common.Values <> Vptr constr
+R17797:17804 compcert.common.Values <> eq_block def
+R18027:18030 Coq.Init.Datatypes <> None constr
+R17839:17844 compcert.cfrontend.Ctypes <> sizeof def
+R17846:17847 VST.veric.Clight_Cop2 <> ty:184 var
+binder 17833:17834 <> sz:189
+R17875:17878 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R17867:17869 compcert.lib.Coqlib <> zlt def
+R17873:17874 VST.veric.Clight_Cop2 <> sz:189 var
+R17879:17881 compcert.lib.Coqlib <> zle def
+R17886:17902 compcert.lib.Integers Ptrofs max_signed def
+R17883:17884 VST.veric.Clight_Cop2 <> sz:189 var
+R18007:18010 Coq.Init.Datatypes <> None constr
+R17921:17924 Coq.Init.Datatypes <> Some constr
+R17927:17933 compcert.common.Values <> Vptrofs def
+R17936:17946 compcert.lib.Integers Ptrofs divs def
+R17972:17982 compcert.lib.Integers Ptrofs repr def
+R17984:17985 VST.veric.Clight_Cop2 <> sz:189 var
+R17949:17958 compcert.lib.Integers Ptrofs sub def
+R18048:18051 Coq.Init.Datatypes <> None constr
+def 18092:18106 <> sem_sub_default
+R18115:18118 compcert.cfrontend.Ctypes <> type ind
+binder 18109:18110 <> t1:190
+binder 18112:18113 <> t2:191
+R18130:18132 compcert.common.Values <> val ind
+binder 18122:18123 <> v1:192
+binder 18125:18126 <> v2:193
+R18137:18142 Coq.Init.Datatypes <> option ind
+R18144:18146 compcert.common.Values <> val ind
+R18152:18163 VST.veric.Clight_Cop2 <> sem_binarith def
+R18398:18399 VST.veric.Clight_Cop2 <> v2:193 var
+R18395:18396 VST.veric.Clight_Cop2 <> v1:192 var
+R18392:18393 VST.veric.Clight_Cop2 <> t2:191 var
+R18389:18390 VST.veric.Clight_Cop2 <> t1:190 var
+binder 18338:18339 <> n1:194
+binder 18341:18342 <> n2:195
+R18347:18350 Coq.Init.Datatypes <> Some constr
+R18352:18358 compcert.common.Values <> Vsingle constr
+R18360:18370 compcert.lib.Floats Float32 sub def
+R18375:18376 VST.veric.Clight_Cop2 <> n2:195 var
+R18372:18373 VST.veric.Clight_Cop2 <> n1:194 var
+binder 18285:18286 <> n1:196
+binder 18288:18289 <> n2:197
+R18294:18297 Coq.Init.Datatypes <> Some constr
+R18299:18304 compcert.common.Values <> Vfloat constr
+R18306:18314 compcert.lib.Floats Float sub def
+R18319:18320 VST.veric.Clight_Cop2 <> n2:197 var
+R18316:18317 VST.veric.Clight_Cop2 <> n1:196 var
+binder 18230:18231 <> sg:198
+binder 18233:18234 <> n1:199
+binder 18236:18237 <> n2:200
+R18242:18245 Coq.Init.Datatypes <> Some constr
+R18247:18251 compcert.common.Values <> Vlong constr
+R18253:18261 compcert.lib.Integers Int64 sub def
+R18266:18267 VST.veric.Clight_Cop2 <> n2:200 var
+R18263:18264 VST.veric.Clight_Cop2 <> n1:199 var
+binder 18178:18179 <> sg:201
+binder 18181:18182 <> n1:202
+binder 18184:18185 <> n2:203
+R18190:18193 Coq.Init.Datatypes <> Some constr
+R18195:18198 compcert.common.Values <> Vint constr
+R18200:18206 compcert.lib.Integers Int sub def
+R18211:18212 VST.veric.Clight_Cop2 <> n2:203 var
+R18208:18209 VST.veric.Clight_Cop2 <> n1:202 var
+def 18414:18420 <> sem_sub
+R18427:18435 VST.veric.mpred <> compspecs class
+binder 18423:18424 <> CS:204
+R18442:18445 compcert.cfrontend.Ctypes <> type ind
+binder 18439:18440 <> t1:205
+R18452:18455 compcert.cfrontend.Ctypes <> type ind
+binder 18449:18450 <> t2:206
+R18463:18466 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18470:18473 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18474:18479 Coq.Init.Datatypes <> option ind
+R18481:18483 compcert.common.Values <> val ind
+R18467:18469 compcert.common.Values <> val ind
+R18460:18462 compcert.common.Values <> val ind
+R18496:18511 compcert.cfrontend.Cop <> classify_sub def
+R18516:18517 VST.veric.Clight_Cop2 <> t2:206 var
+R18513:18514 VST.veric.Clight_Cop2 <> t1:205 var
+R18528:18542 compcert.cfrontend.Cop <> sub_case_pi constr
+R18552:18561 VST.veric.Clight_Cop2 <> sem_sub_pi def
+R18605:18619 compcert.cfrontend.Cop <> sub_case_pl constr
+R18627:18636 VST.veric.Clight_Cop2 <> sem_sub_pl def
+R18674:18688 compcert.cfrontend.Cop <> sub_case_pp constr
+R18696:18705 VST.veric.Clight_Cop2 <> sem_sub_pp def
+R18750:18760 compcert.cfrontend.Cop <> sub_default constr
+R18765:18779 VST.veric.Clight_Cop2 <> sem_sub_default def
+R18784:18785 VST.veric.Clight_Cop2 <> t2:206 var
+R18781:18782 VST.veric.Clight_Cop2 <> t1:205 var
+def 18852:18858 <> sem_mul
+R18864:18867 compcert.cfrontend.Ctypes <> type ind
+binder 18861:18862 <> t1:207
+R18874:18877 compcert.cfrontend.Ctypes <> type ind
+binder 18871:18872 <> t2:208
+R18884:18886 compcert.common.Values <> val ind
+binder 18881:18882 <> v1:209
+R18895:18897 compcert.common.Values <> val ind
+binder 18891:18892 <> v2:210
+R18903:18908 Coq.Init.Datatypes <> option ind
+R18910:18912 compcert.common.Values <> val ind
+R18919:18930 VST.veric.Clight_Cop2 <> sem_binarith def
+R19145:19146 VST.veric.Clight_Cop2 <> v2:210 var
+R19142:19143 VST.veric.Clight_Cop2 <> v1:209 var
+R19139:19140 VST.veric.Clight_Cop2 <> t2:208 var
+R19136:19137 VST.veric.Clight_Cop2 <> t1:207 var
+binder 19089:19090 <> n1:211
+binder 19092:19093 <> n2:212
+R19098:19101 Coq.Init.Datatypes <> Some constr
+R19103:19109 compcert.common.Values <> Vsingle constr
+R19111:19121 compcert.lib.Floats Float32 mul def
+R19126:19127 VST.veric.Clight_Cop2 <> n2:212 var
+R19123:19124 VST.veric.Clight_Cop2 <> n1:211 var
+binder 19040:19041 <> n1:213
+binder 19043:19044 <> n2:214
+R19049:19052 Coq.Init.Datatypes <> Some constr
+R19054:19059 compcert.common.Values <> Vfloat constr
+R19061:19069 compcert.lib.Floats Float mul def
+R19074:19075 VST.veric.Clight_Cop2 <> n2:214 var
+R19071:19072 VST.veric.Clight_Cop2 <> n1:213 var
+binder 18989:18990 <> sg:215
+binder 18992:18993 <> n1:216
+binder 18995:18996 <> n2:217
+R19001:19004 Coq.Init.Datatypes <> Some constr
+R19006:19010 compcert.common.Values <> Vlong constr
+R19012:19020 compcert.lib.Integers Int64 mul def
+R19025:19026 VST.veric.Clight_Cop2 <> n2:217 var
+R19022:19023 VST.veric.Clight_Cop2 <> n1:216 var
+binder 18941:18942 <> sg:218
+binder 18944:18945 <> n1:219
+binder 18947:18948 <> n2:220
+R18953:18956 Coq.Init.Datatypes <> Some constr
+R18958:18961 compcert.common.Values <> Vint constr
+R18963:18969 compcert.lib.Integers Int mul def
+R18974:18975 VST.veric.Clight_Cop2 <> n2:220 var
+R18971:18972 VST.veric.Clight_Cop2 <> n1:219 var
+def 19161:19167 <> sem_div
+R19173:19176 compcert.cfrontend.Ctypes <> type ind
+binder 19170:19171 <> t1:221
+R19183:19186 compcert.cfrontend.Ctypes <> type ind
+binder 19180:19181 <> t2:222
+R19193:19195 compcert.common.Values <> val ind
+binder 19190:19191 <> v1:223
+R19204:19206 compcert.common.Values <> val ind
+binder 19200:19201 <> v2:224
+R19211:19216 Coq.Init.Datatypes <> option ind
+R19218:19220 compcert.common.Values <> val ind
+R19227:19238 VST.veric.Clight_Cop2 <> sem_binarith def
+R19565:19566 VST.veric.Clight_Cop2 <> v2:224 var
+R19562:19563 VST.veric.Clight_Cop2 <> v1:223 var
+R19559:19560 VST.veric.Clight_Cop2 <> t2:222 var
+R19556:19557 VST.veric.Clight_Cop2 <> t1:221 var
+binder 19509:19510 <> n1:225
+binder 19512:19513 <> n2:226
+R19518:19521 Coq.Init.Datatypes <> Some constr
+R19523:19529 compcert.common.Values <> Vsingle constr
+R19531:19541 compcert.lib.Floats Float32 div def
+R19546:19547 VST.veric.Clight_Cop2 <> n2:226 var
+R19543:19544 VST.veric.Clight_Cop2 <> n1:225 var
+binder 19460:19461 <> n1:227
+binder 19463:19464 <> n2:228
+R19469:19472 Coq.Init.Datatypes <> Some constr
+R19474:19479 compcert.common.Values <> Vfloat constr
+R19481:19489 compcert.lib.Floats Float div def
+R19494:19495 VST.veric.Clight_Cop2 <> n2:228 var
+R19491:19492 VST.veric.Clight_Cop2 <> n1:227 var
+binder 19352:19353 <> sg:229
+binder 19355:19356 <> n1:230
+binder 19358:19359 <> n2:231
+R19364:19367 Coq.Init.Datatypes <> Some constr
+R19369:19373 compcert.common.Values <> Vlong constr
+R19382:19383 VST.veric.Clight_Cop2 <> sg:229 var
+R19392:19397 compcert.cfrontend.Ctypes <> Signed constr
+R19402:19411 compcert.lib.Integers Int64 divs def
+R19415:19422 compcert.cfrontend.Ctypes <> Unsigned constr
+R19427:19436 compcert.lib.Integers Int64 divu def
+R19445:19446 VST.veric.Clight_Cop2 <> n2:231 var
+R19442:19443 VST.veric.Clight_Cop2 <> n1:230 var
+binder 19249:19250 <> sg:233
+binder 19252:19253 <> n1:234
+binder 19255:19256 <> n2:235
+R19261:19264 Coq.Init.Datatypes <> Some constr
+R19266:19269 compcert.common.Values <> Vint constr
+R19278:19279 VST.veric.Clight_Cop2 <> sg:233 var
+R19288:19293 compcert.cfrontend.Ctypes <> Signed constr
+R19298:19305 compcert.lib.Integers Int divs def
+R19309:19316 compcert.cfrontend.Ctypes <> Unsigned constr
+R19321:19328 compcert.lib.Integers Int divu def
+R19337:19338 VST.veric.Clight_Cop2 <> n2:235 var
+R19334:19335 VST.veric.Clight_Cop2 <> n1:234 var
+def 19581:19587 <> sem_mod
+R19593:19596 compcert.cfrontend.Ctypes <> type ind
+binder 19590:19591 <> t1:237
+R19603:19606 compcert.cfrontend.Ctypes <> type ind
+binder 19600:19601 <> t2:238
+R19613:19615 compcert.common.Values <> val ind
+binder 19610:19611 <> v1:239
+R19624:19626 compcert.common.Values <> val ind
+binder 19620:19621 <> v2:240
+R19631:19636 Coq.Init.Datatypes <> option ind
+R19638:19640 compcert.common.Values <> val ind
+R19647:19658 VST.veric.Clight_Cop2 <> sem_binarith def
+R19932:19933 VST.veric.Clight_Cop2 <> v2:240 var
+R19929:19930 VST.veric.Clight_Cop2 <> v1:239 var
+R19926:19927 VST.veric.Clight_Cop2 <> t2:238 var
+R19923:19924 VST.veric.Clight_Cop2 <> t1:237 var
+binder 19904:19905 <> n1:241
+binder 19907:19908 <> n2:242
+R19913:19916 Coq.Init.Datatypes <> None constr
+binder 19880:19881 <> n1:243
+binder 19883:19884 <> n2:244
+R19889:19892 Coq.Init.Datatypes <> None constr
+binder 19772:19773 <> sg:245
+binder 19775:19776 <> n1:246
+binder 19778:19779 <> n2:247
+R19784:19787 Coq.Init.Datatypes <> Some constr
+R19789:19793 compcert.common.Values <> Vlong constr
+R19802:19803 VST.veric.Clight_Cop2 <> sg:245 var
+R19812:19817 compcert.cfrontend.Ctypes <> Signed constr
+R19822:19831 compcert.lib.Integers Int64 mods def
+R19835:19842 compcert.cfrontend.Ctypes <> Unsigned constr
+R19847:19856 compcert.lib.Integers Int64 modu def
+R19865:19866 VST.veric.Clight_Cop2 <> n2:247 var
+R19862:19863 VST.veric.Clight_Cop2 <> n1:246 var
+binder 19669:19670 <> sg:249
+binder 19672:19673 <> n1:250
+binder 19675:19676 <> n2:251
+R19681:19684 Coq.Init.Datatypes <> Some constr
+R19686:19689 compcert.common.Values <> Vint constr
+R19698:19699 VST.veric.Clight_Cop2 <> sg:249 var
+R19708:19713 compcert.cfrontend.Ctypes <> Signed constr
+R19718:19725 compcert.lib.Integers Int mods def
+R19729:19736 compcert.cfrontend.Ctypes <> Unsigned constr
+R19741:19748 compcert.lib.Integers Int modu def
+R19757:19758 VST.veric.Clight_Cop2 <> n2:251 var
+R19754:19755 VST.veric.Clight_Cop2 <> n1:250 var
+def 19948:19954 <> sem_and
+R19960:19963 compcert.cfrontend.Ctypes <> type ind
+binder 19957:19958 <> t1:253
+R19970:19973 compcert.cfrontend.Ctypes <> type ind
+binder 19967:19968 <> t2:254
+R19980:19982 compcert.common.Values <> val ind
+binder 19977:19978 <> v1:255
+R19990:19992 compcert.common.Values <> val ind
+binder 19986:19987 <> v2:256
+R19997:20002 Coq.Init.Datatypes <> option ind
+R20004:20006 compcert.common.Values <> val ind
+R20013:20024 VST.veric.Clight_Cop2 <> sem_binarith def
+R20186:20187 VST.veric.Clight_Cop2 <> v2:256 var
+R20183:20184 VST.veric.Clight_Cop2 <> v1:255 var
+R20180:20181 VST.veric.Clight_Cop2 <> t2:254 var
+R20177:20178 VST.veric.Clight_Cop2 <> t1:253 var
+binder 20158:20159 <> n1:257
+binder 20161:20162 <> n2:258
+R20167:20170 Coq.Init.Datatypes <> None constr
+binder 20134:20135 <> n1:259
+binder 20137:20138 <> n2:260
+R20143:20146 Coq.Init.Datatypes <> None constr
+binder 20083:20084 <> sg:261
+binder 20086:20087 <> n1:262
+binder 20089:20090 <> n2:263
+R20095:20098 Coq.Init.Datatypes <> Some constr
+R20100:20104 compcert.common.Values <> Vlong constr
+R20106:20114 compcert.lib.Integers Int64 and def
+R20119:20120 VST.veric.Clight_Cop2 <> n2:263 var
+R20116:20117 VST.veric.Clight_Cop2 <> n1:262 var
+binder 20035:20036 <> sg:264
+binder 20038:20039 <> n1:265
+binder 20041:20042 <> n2:266
+R20047:20050 Coq.Init.Datatypes <> Some constr
+R20052:20055 compcert.common.Values <> Vint constr
+R20057:20063 compcert.lib.Integers Int and def
+R20068:20069 VST.veric.Clight_Cop2 <> n2:266 var
+R20065:20066 VST.veric.Clight_Cop2 <> n1:265 var
+def 20202:20207 <> sem_or
+R20213:20216 compcert.cfrontend.Ctypes <> type ind
+binder 20210:20211 <> t1:267
+R20223:20226 compcert.cfrontend.Ctypes <> type ind
+binder 20220:20221 <> t2:268
+R20233:20235 compcert.common.Values <> val ind
+binder 20230:20231 <> v1:269
+R20244:20246 compcert.common.Values <> val ind
+binder 20240:20241 <> v2:270
+R20251:20256 Coq.Init.Datatypes <> option ind
+R20258:20260 compcert.common.Values <> val ind
+R20267:20278 VST.veric.Clight_Cop2 <> sem_binarith def
+R20438:20439 VST.veric.Clight_Cop2 <> v2:270 var
+R20435:20436 VST.veric.Clight_Cop2 <> v1:269 var
+R20432:20433 VST.veric.Clight_Cop2 <> t2:268 var
+R20429:20430 VST.veric.Clight_Cop2 <> t1:267 var
+binder 20410:20411 <> n1:271
+binder 20413:20414 <> n2:272
+R20419:20422 Coq.Init.Datatypes <> None constr
+binder 20386:20387 <> n1:273
+binder 20389:20390 <> n2:274
+R20395:20398 Coq.Init.Datatypes <> None constr
+binder 20336:20337 <> sg:275
+binder 20339:20340 <> n1:276
+binder 20342:20343 <> n2:277
+R20348:20351 Coq.Init.Datatypes <> Some constr
+R20353:20357 compcert.common.Values <> Vlong constr
+R20359:20366 compcert.lib.Integers Int64 or def
+R20371:20372 VST.veric.Clight_Cop2 <> n2:277 var
+R20368:20369 VST.veric.Clight_Cop2 <> n1:276 var
+binder 20289:20290 <> sg:278
+binder 20292:20293 <> n1:279
+binder 20295:20296 <> n2:280
+R20301:20304 Coq.Init.Datatypes <> Some constr
+R20306:20309 compcert.common.Values <> Vint constr
+R20311:20316 compcert.lib.Integers Int or def
+R20321:20322 VST.veric.Clight_Cop2 <> n2:280 var
+R20318:20319 VST.veric.Clight_Cop2 <> n1:279 var
+def 20454:20460 <> sem_xor
+R20466:20469 compcert.cfrontend.Ctypes <> type ind
+binder 20463:20464 <> t1:281
+R20476:20479 compcert.cfrontend.Ctypes <> type ind
+binder 20473:20474 <> t2:282
+R20486:20488 compcert.common.Values <> val ind
+binder 20483:20484 <> v1:283
+R20497:20499 compcert.common.Values <> val ind
+binder 20493:20494 <> v2:284
+R20504:20509 Coq.Init.Datatypes <> option ind
+R20511:20513 compcert.common.Values <> val ind
+R20520:20531 VST.veric.Clight_Cop2 <> sem_binarith def
+R20693:20694 VST.veric.Clight_Cop2 <> v2:284 var
+R20690:20691 VST.veric.Clight_Cop2 <> v1:283 var
+R20687:20688 VST.veric.Clight_Cop2 <> t2:282 var
+R20684:20685 VST.veric.Clight_Cop2 <> t1:281 var
+binder 20665:20666 <> n1:285
+binder 20668:20669 <> n2:286
+R20674:20677 Coq.Init.Datatypes <> None constr
+binder 20641:20642 <> n1:287
+binder 20644:20645 <> n2:288
+R20650:20653 Coq.Init.Datatypes <> None constr
+binder 20590:20591 <> sg:289
+binder 20593:20594 <> n1:290
+binder 20596:20597 <> n2:291
+R20602:20605 Coq.Init.Datatypes <> Some constr
+R20607:20611 compcert.common.Values <> Vlong constr
+R20613:20621 compcert.lib.Integers Int64 xor def
+R20626:20627 VST.veric.Clight_Cop2 <> n2:291 var
+R20623:20624 VST.veric.Clight_Cop2 <> n1:290 var
+binder 20542:20543 <> sg:292
+binder 20545:20546 <> n1:293
+binder 20548:20549 <> n2:294
+R20554:20557 Coq.Init.Datatypes <> Some constr
+R20559:20562 compcert.common.Values <> Vint constr
+R20564:20570 compcert.lib.Integers Int xor def
+R20575:20576 VST.veric.Clight_Cop2 <> n2:294 var
+R20572:20573 VST.veric.Clight_Cop2 <> n1:293 var
+def 20915:20926 <> sem_shift_ii
+binder 20928:20934 <> sem_int:295
+R20940:20949 compcert.cfrontend.Ctypes <> signedness ind
+binder 20937:20938 <> sg:296
+binder 20952:20953 <> v1:297
+binder 20955:20956 <> v2:298
+R20960:20965 Coq.Init.Datatypes <> option ind
+R20967:20969 compcert.common.Values <> val ind
+R20990:20991 VST.veric.Clight_Cop2 <> v2:298 var
+R20986:20987 VST.veric.Clight_Cop2 <> v1:297 var
+R21006:21009 compcert.common.Values <> Vint constr
+R21015:21018 compcert.common.Values <> Vint constr
+R21083:21086 Coq.Init.Datatypes <> Some constr
+R21088:21091 compcert.common.Values <> Vint constr
+R21093:21099 VST.veric.Clight_Cop2 <> sem_int:295 var
+R21101:21102 VST.veric.Clight_Cop2 <> sg:296 var
+R21142:21145 Coq.Init.Datatypes <> None constr
+def 21170:21181 <> sem_shift_il
+binder 21183:21189 <> sem_int:301
+R21195:21204 compcert.cfrontend.Ctypes <> signedness ind
+binder 21192:21193 <> sg:302
+binder 21207:21208 <> v1:303
+binder 21210:21211 <> v2:304
+R21215:21220 Coq.Init.Datatypes <> option ind
+R21222:21224 compcert.common.Values <> val ind
+R21239:21240 VST.veric.Clight_Cop2 <> v2:304 var
+R21235:21236 VST.veric.Clight_Cop2 <> v1:303 var
+R21255:21258 compcert.common.Values <> Vint constr
+R21264:21268 compcert.common.Values <> Vlong constr
+R21338:21341 Coq.Init.Datatypes <> Some constr
+R21343:21346 compcert.common.Values <> Vint constr
+R21348:21354 VST.veric.Clight_Cop2 <> sem_int:301 var
+R21363:21374 compcert.lib.Integers Int64 loword def
+R21356:21357 VST.veric.Clight_Cop2 <> sg:302 var
+R21412:21415 Coq.Init.Datatypes <> None constr
+def 21440:21451 <> sem_shift_li
+binder 21453:21460 <> sem_long:307
+R21466:21475 compcert.cfrontend.Ctypes <> signedness ind
+binder 21463:21464 <> sg:308
+binder 21478:21479 <> v1:309
+binder 21481:21482 <> v2:310
+R21486:21491 Coq.Init.Datatypes <> option ind
+R21493:21495 compcert.common.Values <> val ind
+R21510:21511 VST.veric.Clight_Cop2 <> v2:310 var
+R21506:21507 VST.veric.Clight_Cop2 <> v1:309 var
+R21526:21530 compcert.common.Values <> Vlong constr
+R21536:21539 compcert.common.Values <> Vint constr
+R21608:21611 Coq.Init.Datatypes <> Some constr
+R21613:21617 compcert.common.Values <> Vlong constr
+R21619:21626 VST.veric.Clight_Cop2 <> sem_long:307 var
+R21635:21644 compcert.lib.Integers Int64 repr def
+R21647:21658 compcert.lib.Integers Int unsigned def
+R21628:21629 VST.veric.Clight_Cop2 <> sg:308 var
+R21697:21700 Coq.Init.Datatypes <> None constr
+def 21725:21736 <> sem_shift_ll
+binder 21738:21745 <> sem_long:313
+R21751:21760 compcert.cfrontend.Ctypes <> signedness ind
+binder 21748:21749 <> sg:314
+binder 21763:21764 <> v1:315
+binder 21766:21767 <> v2:316
+R21771:21776 Coq.Init.Datatypes <> option ind
+R21778:21780 compcert.common.Values <> val ind
+R21796:21797 VST.veric.Clight_Cop2 <> v2:316 var
+R21792:21793 VST.veric.Clight_Cop2 <> v1:315 var
+R21812:21816 compcert.common.Values <> Vlong constr
+R21822:21826 compcert.common.Values <> Vlong constr
+R21896:21899 Coq.Init.Datatypes <> Some constr
+R21901:21905 compcert.common.Values <> Vlong constr
+R21907:21914 VST.veric.Clight_Cop2 <> sem_long:313 var
+R21916:21917 VST.veric.Clight_Cop2 <> sg:314 var
+R21957:21960 Coq.Init.Datatypes <> None constr
+def 21985:21993 <> sem_shift
+R22004:22007 compcert.cfrontend.Ctypes <> type ind
+binder 22000:22001 <> t1:319
+R22015:22018 compcert.cfrontend.Ctypes <> type ind
+binder 22011:22012 <> t2:320
+R22041:22044 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22048:22051 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22055:22058 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22059:22061 compcert.lib.Integers <> int syndef
+R22052:22054 compcert.lib.Integers <> int syndef
+R22045:22047 compcert.lib.Integers <> int syndef
+R22031:22040 compcert.cfrontend.Ctypes <> signedness ind
+binder 22022:22028 <> sem_int:321
+R22089:22092 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22098:22101 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22107:22110 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22111:22115 compcert.lib.Integers <> int64 syndef
+R22102:22106 compcert.lib.Integers <> int64 syndef
+R22093:22097 compcert.lib.Integers <> int64 syndef
+R22079:22088 compcert.cfrontend.Ctypes <> signedness ind
+binder 22069:22076 <> sem_long:322
+R22123:22126 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22130:22133 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22134:22139 Coq.Init.Datatypes <> option ind
+R22141:22143 compcert.common.Values <> val ind
+R22127:22129 compcert.common.Values <> val ind
+R22120:22122 compcert.common.Values <> val ind
+R22156:22173 compcert.cfrontend.Cop <> classify_shift def
+R22178:22179 VST.veric.Clight_Cop2 <> t2:320 var
+R22175:22176 VST.veric.Clight_Cop2 <> t1:319 var
+R22190:22206 compcert.cfrontend.Cop <> shift_case_ii constr
+R22214:22225 VST.veric.Clight_Cop2 <> sem_shift_ii def
+R22227:22233 VST.veric.Clight_Cop2 <> sem_int:321 var
+R22242:22258 compcert.cfrontend.Cop <> shift_case_il constr
+R22266:22277 VST.veric.Clight_Cop2 <> sem_shift_il def
+R22279:22285 VST.veric.Clight_Cop2 <> sem_int:321 var
+R22294:22310 compcert.cfrontend.Cop <> shift_case_li constr
+R22318:22329 VST.veric.Clight_Cop2 <> sem_shift_li def
+R22331:22338 VST.veric.Clight_Cop2 <> sem_long:322 var
+R22347:22363 compcert.cfrontend.Cop <> shift_case_ll constr
+R22371:22382 VST.veric.Clight_Cop2 <> sem_shift_ll def
+R22384:22391 VST.veric.Clight_Cop2 <> sem_long:322 var
+R22400:22412 compcert.cfrontend.Cop <> shift_default constr
+binder 22421:22422 <> v1:323
+binder 22424:22425 <> v2:324
+R22430:22433 Coq.Init.Datatypes <> None constr
+def 22454:22460 <> sem_shl
+R22466:22469 compcert.cfrontend.Ctypes <> type ind
+binder 22463:22464 <> t1:325
+R22476:22479 compcert.cfrontend.Ctypes <> type ind
+binder 22473:22474 <> t2:326
+R22486:22488 compcert.common.Values <> val ind
+binder 22483:22484 <> v1:327
+R22496:22498 compcert.common.Values <> val ind
+binder 22492:22493 <> v2:328
+R22504:22509 Coq.Init.Datatypes <> option ind
+R22511:22513 compcert.common.Values <> val ind
+R22520:22528 VST.veric.Clight_Cop2 <> sem_shift def
+R22618:22619 VST.veric.Clight_Cop2 <> v2:328 var
+R22615:22616 VST.veric.Clight_Cop2 <> v1:327 var
+binder 22582:22583 <> sg:329
+binder 22585:22586 <> n1:330
+binder 22588:22589 <> n2:331
+R22594:22602 compcert.lib.Integers Int64 shl def
+R22607:22608 VST.veric.Clight_Cop2 <> n2:331 var
+R22604:22605 VST.veric.Clight_Cop2 <> n1:330 var
+binder 22546:22547 <> sg:332
+binder 22549:22550 <> n1:333
+binder 22552:22553 <> n2:334
+R22558:22564 compcert.lib.Integers Int shl def
+R22569:22570 VST.veric.Clight_Cop2 <> n2:334 var
+R22566:22567 VST.veric.Clight_Cop2 <> n1:333 var
+R22534:22535 VST.veric.Clight_Cop2 <> t2:326 var
+R22531:22532 VST.veric.Clight_Cop2 <> t1:325 var
+def 22634:22640 <> sem_shr
+R22646:22649 compcert.cfrontend.Ctypes <> type ind
+binder 22643:22644 <> t1:335
+R22656:22659 compcert.cfrontend.Ctypes <> type ind
+binder 22653:22654 <> t2:336
+R22666:22668 compcert.common.Values <> val ind
+binder 22663:22664 <> v1:337
+R22676:22678 compcert.common.Values <> val ind
+binder 22672:22673 <> v2:338
+R22684:22689 Coq.Init.Datatypes <> option ind
+R22691:22693 compcert.common.Values <> val ind
+R22700:22708 VST.veric.Clight_Cop2 <> sem_shift def
+R22914:22915 VST.veric.Clight_Cop2 <> v2:338 var
+R22911:22912 VST.veric.Clight_Cop2 <> v1:337 var
+binder 22819:22820 <> sg:339
+binder 22822:22823 <> n1:340
+binder 22825:22826 <> n2:341
+R22837:22838 VST.veric.Clight_Cop2 <> sg:339 var
+R22845:22850 compcert.cfrontend.Ctypes <> Signed constr
+R22855:22863 compcert.lib.Integers Int64 shr def
+R22868:22869 VST.veric.Clight_Cop2 <> n2:341 var
+R22865:22866 VST.veric.Clight_Cop2 <> n1:340 var
+R22873:22880 compcert.cfrontend.Ctypes <> Unsigned constr
+R22885:22894 compcert.lib.Integers Int64 shru def
+R22899:22900 VST.veric.Clight_Cop2 <> n2:341 var
+R22896:22897 VST.veric.Clight_Cop2 <> n1:340 var
+binder 22726:22727 <> sg:343
+binder 22729:22730 <> n1:344
+binder 22732:22733 <> n2:345
+R22744:22745 VST.veric.Clight_Cop2 <> sg:343 var
+R22752:22757 compcert.cfrontend.Ctypes <> Signed constr
+R22762:22768 compcert.lib.Integers Int shr def
+R22773:22774 VST.veric.Clight_Cop2 <> n2:345 var
+R22770:22771 VST.veric.Clight_Cop2 <> n1:344 var
+R22778:22785 compcert.cfrontend.Ctypes <> Unsigned constr
+R22790:22797 compcert.lib.Integers Int shru def
+R22802:22803 VST.veric.Clight_Cop2 <> n2:345 var
+R22799:22800 VST.veric.Clight_Cop2 <> n1:344 var
+R22714:22715 VST.veric.Clight_Cop2 <> t2:336 var
+R22711:22712 VST.veric.Clight_Cop2 <> t1:335 var
+def 23115:23119 <> true2
+R23126:23130 compcert.common.Values <> block def
+binder 23122:23122 <> b:347
+R23138:23138 Coq.Numbers.BinNums <> Z ind
+binder 23134:23134 <> i:348
+R23144:23147 Coq.Init.Datatypes <> true constr
+def 23162:23171 <> sem_cmp_pp
+binder 23173:23173 <> c:349
+binder 23175:23176 <> v1:350
+binder 23178:23179 <> v2:351
+R23186:23195 compcert.lib.Coqlib <> option_map def
+R23216:23226 compcert.x86_32.Archi <> ptr64 def
+R23275:23287 compcert.common.Values Val cmpu_bool def
+R23300:23301 VST.veric.Clight_Cop2 <> v2:351 var
+R23297:23298 VST.veric.Clight_Cop2 <> v1:350 var
+R23295:23295 VST.veric.Clight_Cop2 <> c:349 var
+R23289:23293 VST.veric.Clight_Cop2 <> true2 def
+R23237:23250 compcert.common.Values Val cmplu_bool def
+R23263:23264 VST.veric.Clight_Cop2 <> v2:351 var
+R23260:23261 VST.veric.Clight_Cop2 <> v1:350 var
+R23258:23258 VST.veric.Clight_Cop2 <> c:349 var
+R23252:23256 VST.veric.Clight_Cop2 <> true2 def
+R23197:23207 compcert.common.Values Val of_bool def
+def 23317:23326 <> sem_cmp_pi
+binder 23328:23329 <> si:352
+binder 23331:23331 <> c:353
+binder 23333:23334 <> v1:354
+binder 23336:23337 <> v2:355
+R23354:23355 VST.veric.Clight_Cop2 <> v2:355 var
+R23370:23373 compcert.common.Values <> Vint constr
+R23381:23390 VST.veric.Clight_Cop2 <> sem_cmp_pp def
+R23398:23404 compcert.common.Values <> Vptrofs def
+R23407:23419 compcert.cfrontend.Cop <> ptrofs_of_int def
+R23421:23422 VST.veric.Clight_Cop2 <> si:352 var
+R23394:23395 VST.veric.Clight_Cop2 <> v1:354 var
+R23392:23392 VST.veric.Clight_Cop2 <> c:353 var
+R23437:23440 compcert.common.Values <> Vptr constr
+R23452:23462 compcert.x86_32.Archi <> ptr64 def
+R23479:23488 VST.veric.Clight_Cop2 <> sem_cmp_pp def
+R23495:23496 VST.veric.Clight_Cop2 <> v2:355 var
+R23492:23493 VST.veric.Clight_Cop2 <> v1:354 var
+R23490:23490 VST.veric.Clight_Cop2 <> c:353 var
+R23469:23472 Coq.Init.Datatypes <> None constr
+R23511:23514 Coq.Init.Datatypes <> None constr
+def 23539:23548 <> sem_cmp_ip
+binder 23550:23551 <> si:357
+binder 23553:23553 <> c:358
+binder 23555:23556 <> v1:359
+binder 23558:23559 <> v2:360
+R23576:23577 VST.veric.Clight_Cop2 <> v1:359 var
+R23592:23595 compcert.common.Values <> Vint constr
+R23603:23612 VST.veric.Clight_Cop2 <> sem_cmp_pp def
+R23648:23649 VST.veric.Clight_Cop2 <> v2:360 var
+R23617:23623 compcert.common.Values <> Vptrofs def
+R23626:23638 compcert.cfrontend.Cop <> ptrofs_of_int def
+R23640:23641 VST.veric.Clight_Cop2 <> si:357 var
+R23614:23614 VST.veric.Clight_Cop2 <> c:358 var
+R23659:23662 compcert.common.Values <> Vptr constr
+R23674:23684 compcert.x86_32.Archi <> ptr64 def
+R23701:23710 VST.veric.Clight_Cop2 <> sem_cmp_pp def
+R23717:23718 VST.veric.Clight_Cop2 <> v2:360 var
+R23714:23715 VST.veric.Clight_Cop2 <> v1:359 var
+R23712:23712 VST.veric.Clight_Cop2 <> c:358 var
+R23691:23694 Coq.Init.Datatypes <> None constr
+R23733:23736 Coq.Init.Datatypes <> None constr
+def 23761:23770 <> sem_cmp_pl
+binder 23772:23772 <> c:362
+binder 23774:23775 <> v1:363
+binder 23777:23778 <> v2:364
+R23795:23796 VST.veric.Clight_Cop2 <> v2:364 var
+R23811:23815 compcert.common.Values <> Vlong constr
+R23823:23832 VST.veric.Clight_Cop2 <> sem_cmp_pp def
+R23840:23846 compcert.common.Values <> Vptrofs def
+R23849:23863 compcert.lib.Integers Ptrofs of_int64 def
+R23836:23837 VST.veric.Clight_Cop2 <> v1:363 var
+R23834:23834 VST.veric.Clight_Cop2 <> c:362 var
+R23878:23881 compcert.common.Values <> Vptr constr
+R23893:23903 compcert.x86_32.Archi <> ptr64 def
+R23934:23937 Coq.Init.Datatypes <> None constr
+R23910:23919 VST.veric.Clight_Cop2 <> sem_cmp_pp def
+R23926:23927 VST.veric.Clight_Cop2 <> v2:364 var
+R23923:23924 VST.veric.Clight_Cop2 <> v1:363 var
+R23921:23921 VST.veric.Clight_Cop2 <> c:362 var
+R23952:23955 Coq.Init.Datatypes <> None constr
+def 23980:23989 <> sem_cmp_lp
+binder 23991:23991 <> c:366
+binder 23993:23994 <> v1:367
+binder 23996:23997 <> v2:368
+R24015:24016 VST.veric.Clight_Cop2 <> v1:367 var
+R24031:24035 compcert.common.Values <> Vlong constr
+R24043:24052 VST.veric.Clight_Cop2 <> sem_cmp_pp def
+R24087:24088 VST.veric.Clight_Cop2 <> v2:368 var
+R24057:24063 compcert.common.Values <> Vptrofs def
+R24066:24080 compcert.lib.Integers Ptrofs of_int64 def
+R24054:24054 VST.veric.Clight_Cop2 <> c:366 var
+R24098:24101 compcert.common.Values <> Vptr constr
+R24113:24123 compcert.x86_32.Archi <> ptr64 def
+R24154:24157 Coq.Init.Datatypes <> None constr
+R24130:24139 VST.veric.Clight_Cop2 <> sem_cmp_pp def
+R24146:24147 VST.veric.Clight_Cop2 <> v2:368 var
+R24143:24144 VST.veric.Clight_Cop2 <> v1:367 var
+R24141:24141 VST.veric.Clight_Cop2 <> c:366 var
+R24172:24175 Coq.Init.Datatypes <> None constr
+def 24200:24214 <> sem_cmp_default
+binder 24216:24216 <> c:370
+binder 24218:24219 <> t1:371
+binder 24221:24222 <> t2:372
+R24228:24239 VST.veric.Clight_Cop2 <> sem_binarith def
+R24666:24667 VST.veric.Clight_Cop2 <> t2:372 var
+R24663:24664 VST.veric.Clight_Cop2 <> t1:371 var
+binder 24594:24595 <> n1:373
+binder 24597:24598 <> n2:374
+R24615:24618 Coq.Init.Datatypes <> Some constr
+R24620:24630 compcert.common.Values Val of_bool def
+R24632:24642 compcert.lib.Floats Float32 cmp def
+R24649:24650 VST.veric.Clight_Cop2 <> n2:374 var
+R24646:24647 VST.veric.Clight_Cop2 <> n1:373 var
+R24644:24644 VST.veric.Clight_Cop2 <> c:370 var
+binder 24522:24523 <> n1:375
+binder 24525:24526 <> n2:376
+R24543:24546 Coq.Init.Datatypes <> Some constr
+R24548:24558 compcert.common.Values Val of_bool def
+R24560:24568 compcert.lib.Floats Float cmp def
+R24575:24576 VST.veric.Clight_Cop2 <> n2:376 var
+R24572:24573 VST.veric.Clight_Cop2 <> n1:375 var
+R24570:24570 VST.veric.Clight_Cop2 <> c:370 var
+binder 24386:24387 <> sg:377
+binder 24389:24390 <> n1:378
+binder 24392:24393 <> n2:379
+R24410:24413 Coq.Init.Datatypes <> Some constr
+R24415:24425 compcert.common.Values Val of_bool def
+R24433:24434 VST.veric.Clight_Cop2 <> sg:377 var
+R24441:24446 compcert.cfrontend.Ctypes <> Signed constr
+R24451:24459 compcert.lib.Integers Int64 cmp def
+R24466:24467 VST.veric.Clight_Cop2 <> n2:379 var
+R24463:24464 VST.veric.Clight_Cop2 <> n1:378 var
+R24461:24461 VST.veric.Clight_Cop2 <> c:370 var
+R24471:24478 compcert.cfrontend.Ctypes <> Unsigned constr
+R24483:24492 compcert.lib.Integers Int64 cmpu def
+R24499:24500 VST.veric.Clight_Cop2 <> n2:379 var
+R24496:24497 VST.veric.Clight_Cop2 <> n1:378 var
+R24494:24494 VST.veric.Clight_Cop2 <> c:370 var
+binder 24254:24255 <> sg:381
+binder 24257:24258 <> n1:382
+binder 24260:24261 <> n2:383
+R24278:24281 Coq.Init.Datatypes <> Some constr
+R24283:24293 compcert.common.Values Val of_bool def
+R24301:24302 VST.veric.Clight_Cop2 <> sg:381 var
+R24309:24314 compcert.cfrontend.Ctypes <> Signed constr
+R24319:24325 compcert.lib.Integers Int cmp def
+R24332:24333 VST.veric.Clight_Cop2 <> n2:383 var
+R24329:24330 VST.veric.Clight_Cop2 <> n1:382 var
+R24327:24327 VST.veric.Clight_Cop2 <> c:370 var
+R24337:24344 compcert.cfrontend.Ctypes <> Unsigned constr
+R24349:24356 compcert.lib.Integers Int cmpu def
+R24363:24364 VST.veric.Clight_Cop2 <> n2:383 var
+R24360:24361 VST.veric.Clight_Cop2 <> n1:382 var
+R24358:24358 VST.veric.Clight_Cop2 <> c:370 var
+def 24683:24689 <> sem_cmp
+R24694:24703 compcert.lib.Integers <> comparison ind
+binder 24692:24692 <> c:385
+R24711:24714 compcert.cfrontend.Ctypes <> type ind
+binder 24707:24708 <> t1:386
+R24722:24725 compcert.cfrontend.Ctypes <> type ind
+binder 24718:24719 <> t2:387
+R24733:24736 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24740:24744 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24745:24750 Coq.Init.Datatypes <> option ind
+R24752:24754 compcert.common.Values <> val ind
+R24737:24739 compcert.common.Values <> val ind
+R24730:24732 compcert.common.Values <> val ind
+R24767:24782 compcert.cfrontend.Cop <> classify_cmp def
+R24787:24788 VST.veric.Clight_Cop2 <> t2:387 var
+R24784:24785 VST.veric.Clight_Cop2 <> t1:386 var
+R24799:24813 compcert.cfrontend.Cop <> cmp_case_pp constr
+R24827:24829 Coq.Init.Datatypes <> orb def
+R24862:24869 VST.veric.Cop2 <> eqb_type def
+R24874:24888 VST.veric.Cop2 <> int_or_ptr_type def
+R24871:24872 VST.veric.Clight_Cop2 <> t2:387 var
+R24832:24839 VST.veric.Cop2 <> eqb_type def
+R24844:24858 VST.veric.Cop2 <> int_or_ptr_type def
+R24841:24842 VST.veric.Clight_Cop2 <> t1:386 var
+R24937:24946 VST.veric.Clight_Cop2 <> sem_cmp_pp def
+R24948:24948 VST.veric.Clight_Cop2 <> c:385 var
+R24921:24924 Coq.Init.Datatypes <> None constr
+R24954:24968 compcert.cfrontend.Cop <> cmp_case_pi constr
+R24985:24992 VST.veric.Cop2 <> eqb_type def
+R24997:25011 VST.veric.Cop2 <> int_or_ptr_type def
+R24994:24995 VST.veric.Clight_Cop2 <> t1:386 var
+R25058:25067 VST.veric.Clight_Cop2 <> sem_cmp_pi def
+R25072:25072 VST.veric.Clight_Cop2 <> c:385 var
+R25042:25045 Coq.Init.Datatypes <> None constr
+R25078:25092 compcert.cfrontend.Cop <> cmp_case_ip constr
+R25109:25116 VST.veric.Cop2 <> eqb_type def
+R25121:25135 VST.veric.Cop2 <> int_or_ptr_type def
+R25118:25119 VST.veric.Clight_Cop2 <> t2:387 var
+R25182:25191 VST.veric.Clight_Cop2 <> sem_cmp_ip def
+R25196:25196 VST.veric.Clight_Cop2 <> c:385 var
+R25166:25169 Coq.Init.Datatypes <> None constr
+R25202:25216 compcert.cfrontend.Cop <> cmp_case_pl constr
+R25230:25237 VST.veric.Cop2 <> eqb_type def
+R25242:25256 VST.veric.Cop2 <> int_or_ptr_type def
+R25239:25240 VST.veric.Clight_Cop2 <> t1:386 var
+R25303:25312 VST.veric.Clight_Cop2 <> sem_cmp_pl def
+R25314:25314 VST.veric.Clight_Cop2 <> c:385 var
+R25287:25290 Coq.Init.Datatypes <> None constr
+R25320:25334 compcert.cfrontend.Cop <> cmp_case_lp constr
+R25348:25355 VST.veric.Cop2 <> eqb_type def
+R25360:25374 VST.veric.Cop2 <> int_or_ptr_type def
+R25357:25358 VST.veric.Clight_Cop2 <> t2:387 var
+R25421:25430 VST.veric.Clight_Cop2 <> sem_cmp_lp def
+R25432:25432 VST.veric.Clight_Cop2 <> c:385 var
+R25405:25408 Coq.Init.Datatypes <> None constr
+R25438:25452 compcert.cfrontend.Cop <> cmp_default constr
+R25457:25471 VST.veric.Clight_Cop2 <> sem_cmp_default def
+R25478:25479 VST.veric.Clight_Cop2 <> t2:387 var
+R25475:25476 VST.veric.Clight_Cop2 <> t1:386 var
+R25473:25473 VST.veric.Clight_Cop2 <> c:385 var
+def 25559:25577 <> sem_unary_operation
+R25596:25614 compcert.cfrontend.Cop <> unary_operation ind
+binder 25592:25593 <> op:388
+R25622:25625 compcert.cfrontend.Ctypes <> type ind
+binder 25618:25619 <> ty:389
+R25632:25634 compcert.common.Values <> val ind
+binder 25629:25629 <> v:390
+R25638:25643 Coq.Init.Datatypes <> option ind
+R25645:25647 compcert.common.Values <> val ind
+R25660:25661 VST.veric.Clight_Cop2 <> op:388 var
+R25672:25683 compcert.cfrontend.Cop <> Onotbool constr
+R25688:25698 VST.veric.Clight_Cop2 <> sem_notbool def
+R25703:25703 VST.veric.Clight_Cop2 <> v:390 var
+R25700:25701 VST.veric.Clight_Cop2 <> ty:389 var
+R25709:25719 compcert.cfrontend.Cop <> Onotint constr
+R25724:25733 VST.veric.Clight_Cop2 <> sem_notint def
+R25738:25738 VST.veric.Clight_Cop2 <> v:390 var
+R25735:25736 VST.veric.Clight_Cop2 <> ty:389 var
+R25744:25751 compcert.cfrontend.Cop <> Oneg constr
+R25756:25762 VST.veric.Clight_Cop2 <> sem_neg def
+R25767:25767 VST.veric.Clight_Cop2 <> v:390 var
+R25764:25765 VST.veric.Clight_Cop2 <> ty:389 var
+R25773:25785 compcert.cfrontend.Cop <> Oabsfloat constr
+R25790:25801 VST.veric.Clight_Cop2 <> sem_absfloat def
+R25806:25806 VST.veric.Clight_Cop2 <> v:390 var
+R25803:25804 VST.veric.Clight_Cop2 <> ty:389 var
+def 25870:25890 <> sem_binary_operation'
+R25901:25909 VST.veric.mpred <> compspecs class
+binder 25897:25898 <> CS:392
+R25917:25936 compcert.cfrontend.Cop <> binary_operation ind
+binder 25913:25914 <> op:393
+R25947:25950 compcert.cfrontend.Ctypes <> type ind
+binder 25944:25945 <> t1:394
+R25958:25961 compcert.cfrontend.Ctypes <> type ind
+binder 25954:25955 <> t2:395
+R25969:25972 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25976:25979 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25980:25985 Coq.Init.Datatypes <> option ind
+R25987:25989 compcert.common.Values <> val ind
+R25973:25975 compcert.common.Values <> val ind
+R25966:25968 compcert.common.Values <> val ind
+R26002:26003 VST.veric.Clight_Cop2 <> op:393 var
+R26014:26021 compcert.cfrontend.Cop <> Oadd constr
+R26026:26032 VST.veric.Clight_Cop2 <> sem_add def
+R26037:26038 VST.veric.Clight_Cop2 <> t2:395 var
+R26034:26035 VST.veric.Clight_Cop2 <> t1:394 var
+R26044:26051 compcert.cfrontend.Cop <> Osub constr
+R26056:26062 VST.veric.Clight_Cop2 <> sem_sub def
+R26067:26068 VST.veric.Clight_Cop2 <> t2:395 var
+R26064:26065 VST.veric.Clight_Cop2 <> t1:394 var
+R26074:26081 compcert.cfrontend.Cop <> Omul constr
+R26086:26092 VST.veric.Clight_Cop2 <> sem_mul def
+R26097:26098 VST.veric.Clight_Cop2 <> t2:395 var
+R26094:26095 VST.veric.Clight_Cop2 <> t1:394 var
+R26104:26111 compcert.cfrontend.Cop <> Omod constr
+R26116:26122 VST.veric.Clight_Cop2 <> sem_mod def
+R26127:26128 VST.veric.Clight_Cop2 <> t2:395 var
+R26124:26125 VST.veric.Clight_Cop2 <> t1:394 var
+R26134:26141 compcert.cfrontend.Cop <> Odiv constr
+R26146:26152 VST.veric.Clight_Cop2 <> sem_div def
+R26157:26158 VST.veric.Clight_Cop2 <> t2:395 var
+R26154:26155 VST.veric.Clight_Cop2 <> t1:394 var
+R26164:26171 compcert.cfrontend.Cop <> Oand constr
+R26176:26182 VST.veric.Clight_Cop2 <> sem_and def
+R26187:26188 VST.veric.Clight_Cop2 <> t2:395 var
+R26184:26185 VST.veric.Clight_Cop2 <> t1:394 var
+R26194:26200 compcert.cfrontend.Cop <> Oor constr
+R26206:26211 VST.veric.Clight_Cop2 <> sem_or def
+R26216:26217 VST.veric.Clight_Cop2 <> t2:395 var
+R26213:26214 VST.veric.Clight_Cop2 <> t1:394 var
+R26223:26230 compcert.cfrontend.Cop <> Oxor constr
+R26236:26242 VST.veric.Clight_Cop2 <> sem_xor def
+R26247:26248 VST.veric.Clight_Cop2 <> t2:395 var
+R26244:26245 VST.veric.Clight_Cop2 <> t1:394 var
+R26254:26261 compcert.cfrontend.Cop <> Oshl constr
+R26266:26272 VST.veric.Clight_Cop2 <> sem_shl def
+R26277:26278 VST.veric.Clight_Cop2 <> t2:395 var
+R26274:26275 VST.veric.Clight_Cop2 <> t1:394 var
+R26284:26291 compcert.cfrontend.Cop <> Oshr constr
+R26297:26303 VST.veric.Clight_Cop2 <> sem_shr def
+R26308:26309 VST.veric.Clight_Cop2 <> t2:395 var
+R26305:26306 VST.veric.Clight_Cop2 <> t1:394 var
+R26315:26321 compcert.cfrontend.Cop <> Oeq constr
+R26326:26332 VST.veric.Clight_Cop2 <> sem_cmp def
+R26341:26342 VST.veric.Clight_Cop2 <> t2:395 var
+R26338:26339 VST.veric.Clight_Cop2 <> t1:394 var
+R26334:26336 compcert.lib.Integers <> Ceq constr
+R26348:26354 compcert.cfrontend.Cop <> One constr
+R26359:26365 VST.veric.Clight_Cop2 <> sem_cmp def
+R26374:26375 VST.veric.Clight_Cop2 <> t2:395 var
+R26371:26372 VST.veric.Clight_Cop2 <> t1:394 var
+R26367:26369 compcert.lib.Integers <> Cne constr
+R26381:26387 compcert.cfrontend.Cop <> Olt constr
+R26392:26398 VST.veric.Clight_Cop2 <> sem_cmp def
+R26407:26408 VST.veric.Clight_Cop2 <> t2:395 var
+R26404:26405 VST.veric.Clight_Cop2 <> t1:394 var
+R26400:26402 compcert.lib.Integers <> Clt constr
+R26414:26420 compcert.cfrontend.Cop <> Ogt constr
+R26425:26431 VST.veric.Clight_Cop2 <> sem_cmp def
+R26440:26441 VST.veric.Clight_Cop2 <> t2:395 var
+R26437:26438 VST.veric.Clight_Cop2 <> t1:394 var
+R26433:26435 compcert.lib.Integers <> Cgt constr
+R26447:26453 compcert.cfrontend.Cop <> Ole constr
+R26458:26464 VST.veric.Clight_Cop2 <> sem_cmp def
+R26473:26474 VST.veric.Clight_Cop2 <> t2:395 var
+R26470:26471 VST.veric.Clight_Cop2 <> t1:394 var
+R26466:26468 compcert.lib.Integers <> Cle constr
+R26480:26486 compcert.cfrontend.Cop <> Oge constr
+R26491:26497 VST.veric.Clight_Cop2 <> sem_cmp def
+R26506:26507 VST.veric.Clight_Cop2 <> t2:395 var
+R26503:26504 VST.veric.Clight_Cop2 <> t1:394 var
+R26499:26501 compcert.lib.Integers <> Cge constr
+def 26528:26539 <> sem_incrdecr
+R26546:26554 VST.veric.mpred <> compspecs class
+binder 26542:26543 <> CS:397
+R26562:26577 compcert.cfrontend.Cop <> incr_or_decr ind
+binder 26558:26559 <> id:398
+R26585:26588 compcert.cfrontend.Ctypes <> type ind
+binder 26581:26582 <> ty:399
+R26614:26617 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26619:26622 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26623:26626 Coq.Init.Datatypes <> bool ind
+R26618:26618 Coq.Numbers.BinNums <> Z ind
+R26609:26613 compcert.common.Values <> block def
+binder 26593:26605 <> valid_pointer:400
+R26634:26636 compcert.common.Values <> val ind
+binder 26631:26631 <> v:401
+R26651:26652 VST.veric.Clight_Cop2 <> id:398 var
+R26663:26670 compcert.cfrontend.Cop <> Incr constr
+R26675:26681 VST.veric.Clight_Cop2 <> sem_add def
+R26701:26704 compcert.common.Values <> Vint constr
+R26706:26712 compcert.lib.Integers Int one def
+R26698:26698 VST.veric.Clight_Cop2 <> v:401 var
+R26686:26696 compcert.cfrontend.Ctypes <> type_int32s def
+R26683:26684 VST.veric.Clight_Cop2 <> ty:399 var
+R26719:26722 compcert.cfrontend.Cop <> Decr constr
+R26727:26733 VST.veric.Clight_Cop2 <> sem_sub def
+R26753:26756 compcert.common.Values <> Vint constr
+R26758:26764 compcert.lib.Integers Int one def
+R26750:26750 VST.veric.Clight_Cop2 <> v:401 var
+R26738:26748 compcert.cfrontend.Ctypes <> type_int32s def
+R26735:26736 VST.veric.Clight_Cop2 <> ty:399 var
+R26836:26852 compcert.cfrontend.Cop <> classify_cast def
+R26878:26894 compcert.cfrontend.Cop <> classify_bool def
+R26913:26928 compcert.cfrontend.Cop <> classify_neg def
+R26947:26965 compcert.cfrontend.Cop <> classify_notint def
+R26984:27004 compcert.cfrontend.Cop <> classify_binarith def
+R27028:27043 compcert.cfrontend.Cop <> classify_add def
+R27067:27082 compcert.cfrontend.Cop <> classify_sub def
+R27106:27123 compcert.cfrontend.Cop <> classify_shift def
+R27147:27162 compcert.cfrontend.Cop <> classify_cmp def
+R27186:27201 compcert.cfrontend.Cop <> classify_fun def
+R27220:27227 VST.veric.Clight_Cop2 <> sem_cast def
+R27328:27338 VST.veric.Clight_Cop2 <> sem_notbool def
+R27374:27380 VST.veric.Clight_Cop2 <> sem_neg def
+R27415:27424 VST.veric.Clight_Cop2 <> sem_notint def
+R27459:27465 VST.veric.Clight_Cop2 <> sem_add def
+R27511:27517 VST.veric.Clight_Cop2 <> sem_sub def
+R27563:27571 VST.veric.Clight_Cop2 <> sem_shift def
+R27619:27625 VST.veric.Clight_Cop2 <> sem_shl def
+R27669:27675 VST.veric.Clight_Cop2 <> sem_shr def
+R27719:27725 VST.veric.Clight_Cop2 <> sem_cmp def
+R27770:27788 VST.veric.Clight_Cop2 <> sem_unary_operation def
+R27827:27847 VST.veric.Clight_Cop2 <> sem_binary_operation' def
+R27970:27984 VST.veric.Clight_Cop2 <> sem_cmp_default def
+R28029:28040 VST.veric.Clight_Cop2 <> sem_binarith def
+R28121:28132 compcert.cfrontend.Cop <> sem_cast def

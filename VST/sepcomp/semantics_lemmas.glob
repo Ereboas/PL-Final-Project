@@ -1,0 +1,3009 @@
+DIGEST 43459ac409a6db28aa07b5433592c141
+FVST.sepcomp.semantics_lemmas
+R15:33 compcert.lib.Coqlib <> <> lib
+R51:67 compcert.lib.Maps <> <> lib
+R85:105 compcert.lib.Integers <> <> lib
+R123:141 compcert.lib.Axioms <> <> lib
+R160:181 compcert.common.Values <> <> lib
+R199:220 compcert.common.Memory <> <> lib
+R238:259 compcert.common.Events <> <> lib
+R277:295 compcert.common.AST <> <> lib
+R313:338 compcert.common.Globalenvs <> <> lib
+R356:377 VST.msl.Extensionality <> <> lib
+R395:411 Coq.micromega.Lia <> <> lib
+R430:451 VST.sepcomp.mem_lemmas <> <> lib
+R469:489 VST.sepcomp.semantics <> <> lib
+R508:522 VST.msl.Coqlib2 <> <> lib
+prf 609:621 <> mem_step_refl
+binder 623:623 <> m:1
+R626:633 VST.sepcomp.semantics <> mem_step ind
+R637:637 VST.sepcomp.semantics_lemmas <> m:1 var
+R635:635 VST.sepcomp.semantics_lemmas <> m:1 var
+R649:665 VST.sepcomp.semantics <> mem_step_freelist constr
+R671:673 Coq.Init.Datatypes <> nil constr
+R649:665 VST.sepcomp.semantics <> mem_step_freelist constr
+R671:673 Coq.Init.Datatypes <> nil constr
+prf 698:710 <> mem_step_free
+binder 726:726 <> m:2
+binder 728:728 <> b:3
+binder 730:731 <> lo:4
+binder 733:734 <> hi:5
+binder 736:737 <> m':6
+R768:771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R772:779 VST.sepcomp.semantics <> mem_step ind
+R783:784 VST.sepcomp.semantics_lemmas <> m':6 var
+R781:781 VST.sepcomp.semantics_lemmas <> m:2 var
+R758:760 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R740:747 compcert.common.Memory Mem free def
+R756:757 VST.sepcomp.semantics_lemmas <> hi:5 var
+R753:754 VST.sepcomp.semantics_lemmas <> lo:4 var
+R751:751 VST.sepcomp.semantics_lemmas <> b:3 var
+R749:749 VST.sepcomp.semantics_lemmas <> m:2 var
+R761:764 Coq.Init.Datatypes <> Some constr
+R766:767 VST.sepcomp.semantics_lemmas <> m':6 var
+R811:827 VST.sepcomp.semantics <> mem_step_freelist constr
+R843:844 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R834:834 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R836:836 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R839:839 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R842:842 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R845:847 Coq.Init.Datatypes <> nil constr
+R811:827 VST.sepcomp.semantics <> mem_step_freelist constr
+R843:844 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R834:834 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R836:836 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R839:839 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R842:842 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R845:847 Coq.Init.Datatypes <> nil constr
+prf 896:909 <> mem_step_store
+binder 925:925 <> m:7
+binder 927:928 <> ch:8
+binder 930:930 <> b:9
+binder 932:932 <> a:10
+binder 934:934 <> v:11
+binder 936:937 <> m':12
+R970:973 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R974:981 VST.sepcomp.semantics <> mem_step ind
+R985:986 VST.sepcomp.semantics_lemmas <> m':12 var
+R983:983 VST.sepcomp.semantics_lemmas <> m:7 var
+R960:962 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R940:948 compcert.common.Memory Mem store def
+R959:959 VST.sepcomp.semantics_lemmas <> v:11 var
+R957:957 VST.sepcomp.semantics_lemmas <> a:10 var
+R955:955 VST.sepcomp.semantics_lemmas <> b:9 var
+R953:953 VST.sepcomp.semantics_lemmas <> m:7 var
+R950:951 VST.sepcomp.semantics_lemmas <> ch:8 var
+R963:966 Coq.Init.Datatypes <> Some constr
+R968:969 VST.sepcomp.semantics_lemmas <> m':12 var
+R1012:1030 VST.sepcomp.semantics <> mem_step_storebytes constr
+R1012:1030 VST.sepcomp.semantics <> mem_step_storebytes constr
+R1040:1059 compcert.common.Memory Mem store_storebytes thm
+R1040:1059 compcert.common.Memory Mem store_storebytes thm
+rec 1088:1103 <> memstep_preserve
+proj 1139:1152 <> preserve_trans
+proj 1207:1218 <> preserve_mem
+R1111:1114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1118:1121 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1115:1117 compcert.common.Memory <> mem syndef
+R1108:1110 compcert.common.Memory <> mem syndef
+binder 1106:1106 <> P:13
+binder 1162:1163 <> m1:15
+binder 1165:1166 <> m2:16
+binder 1168:1169 <> m3:17
+R1179:1182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1190:1193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1194:1194 VST.sepcomp.semantics_lemmas <> P:13 var
+R1199:1200 VST.sepcomp.semantics_lemmas <> m3:17 var
+R1196:1197 VST.sepcomp.semantics_lemmas <> m1:15 var
+R1183:1183 VST.sepcomp.semantics_lemmas <> P:13 var
+R1188:1189 VST.sepcomp.semantics_lemmas <> m3:17 var
+R1185:1186 VST.sepcomp.semantics_lemmas <> m2:16 var
+R1172:1172 VST.sepcomp.semantics_lemmas <> P:13 var
+R1177:1178 VST.sepcomp.semantics_lemmas <> m2:16 var
+R1174:1175 VST.sepcomp.semantics_lemmas <> m1:15 var
+binder 1228:1228 <> m:19
+binder 1230:1231 <> m':20
+R1247:1250 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1251:1251 VST.sepcomp.semantics_lemmas <> P:13 var
+R1255:1256 VST.sepcomp.semantics_lemmas <> m':20 var
+R1253:1253 VST.sepcomp.semantics_lemmas <> m:19 var
+R1234:1241 VST.sepcomp.semantics <> mem_step ind
+R1245:1246 VST.sepcomp.semantics_lemmas <> m':20 var
+R1243:1243 VST.sepcomp.semantics_lemmas <> m:19 var
+prf 1270:1282 <> preserve_refl
+binder 1285:1285 <> P:22
+R1293:1308 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+R1310:1310 VST.sepcomp.semantics_lemmas <> P:22 var
+binder 1289:1290 <> HP:23
+binder 1321:1321 <> m:24
+R1324:1324 VST.sepcomp.semantics_lemmas <> P:22 var
+R1328:1328 VST.sepcomp.semantics_lemmas <> m:24 var
+R1326:1326 VST.sepcomp.semantics_lemmas <> m:24 var
+R1354:1365 VST.sepcomp.semantics_lemmas <> preserve_mem proj
+R1354:1365 VST.sepcomp.semantics_lemmas <> preserve_mem proj
+R1380:1392 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R1380:1392 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+prf 1407:1419 <> preserve_free
+binder 1422:1422 <> P:25
+R1430:1445 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+R1447:1447 VST.sepcomp.semantics_lemmas <> P:25 var
+binder 1426:1427 <> HP:26
+binder 1464:1464 <> m:27
+binder 1466:1466 <> b:28
+binder 1468:1469 <> lo:29
+binder 1471:1472 <> hi:30
+binder 1474:1475 <> m':31
+R1506:1509 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1510:1510 VST.sepcomp.semantics_lemmas <> P:25 var
+R1514:1515 VST.sepcomp.semantics_lemmas <> m':31 var
+R1512:1512 VST.sepcomp.semantics_lemmas <> m:27 var
+R1496:1498 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1478:1485 compcert.common.Memory Mem free def
+R1494:1495 VST.sepcomp.semantics_lemmas <> hi:30 var
+R1491:1492 VST.sepcomp.semantics_lemmas <> lo:29 var
+R1489:1489 VST.sepcomp.semantics_lemmas <> b:28 var
+R1487:1487 VST.sepcomp.semantics_lemmas <> m:27 var
+R1499:1502 Coq.Init.Datatypes <> Some constr
+R1504:1505 VST.sepcomp.semantics_lemmas <> m':31 var
+R1542:1553 VST.sepcomp.semantics_lemmas <> preserve_mem proj
+R1542:1553 VST.sepcomp.semantics_lemmas <> preserve_mem proj
+R1569:1581 VST.sepcomp.semantics_lemmas <> mem_step_free thm
+R1569:1581 VST.sepcomp.semantics_lemmas <> mem_step_free thm
+prf 1605:1617 <> preserve_conj
+binder 1620:1620 <> P:32
+binder 1622:1622 <> Q:33
+R1629:1644 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+R1646:1646 VST.sepcomp.semantics_lemmas <> P:32 var
+binder 1626:1627 <> HP:34
+R1654:1669 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+R1671:1671 VST.sepcomp.semantics_lemmas <> Q:33 var
+binder 1650:1651 <> HQ:35
+R1683:1698 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+binder 1705:1705 <> m:36
+binder 1707:1708 <> m':37
+R1719:1722 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1713:1713 VST.sepcomp.semantics_lemmas <> P:32 var
+R1717:1718 VST.sepcomp.semantics_lemmas <> m':37 var
+R1715:1715 VST.sepcomp.semantics_lemmas <> m:36 var
+R1723:1723 VST.sepcomp.semantics_lemmas <> Q:33 var
+R1727:1728 VST.sepcomp.semantics_lemmas <> m':37 var
+R1725:1725 VST.sepcomp.semantics_lemmas <> m:36 var
+prf 1950:1962 <> preserve_impl
+binder 1965:1965 <> A:38
+R1972:1975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1979:1982 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1986:1989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1983:1985 compcert.common.Memory <> mem syndef
+R1976:1978 compcert.common.Memory <> mem syndef
+R1971:1971 VST.sepcomp.semantics_lemmas <> A:38 var
+binder 1969:1969 <> P:39
+R2000:2001 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1999:1999 VST.sepcomp.semantics_lemmas <> A:38 var
+binder 1997:1997 <> Q:40
+R2017:2017 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2057:2061 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2062:2077 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+binder 2084:2084 <> m:41
+binder 2086:2087 <> m':42
+binder 2099:2099 <> a:43
+R2105:2108 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2109:2109 VST.sepcomp.semantics_lemmas <> P:39 var
+R2115:2116 VST.sepcomp.semantics_lemmas <> m':42 var
+R2113:2113 VST.sepcomp.semantics_lemmas <> m:41 var
+R2111:2111 VST.sepcomp.semantics_lemmas <> a:43 var
+R2102:2102 VST.sepcomp.semantics_lemmas <> Q:40 var
+R2104:2104 VST.sepcomp.semantics_lemmas <> a:43 var
+binder 2025:2025 <> a:44
+R2031:2034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2035:2050 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+R2053:2053 VST.sepcomp.semantics_lemmas <> P:39 var
+R2055:2055 VST.sepcomp.semantics_lemmas <> a:44 var
+R2028:2028 VST.sepcomp.semantics_lemmas <> Q:40 var
+R2030:2030 VST.sepcomp.semantics_lemmas <> a:44 var
+prf 2205:2223 <> preserve_exensional
+binder 2226:2226 <> P:45
+binder 2228:2228 <> Q:46
+R2235:2250 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+R2252:2252 VST.sepcomp.semantics_lemmas <> P:45 var
+binder 2232:2233 <> HP:47
+R2260:2260 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2259:2259 VST.sepcomp.semantics_lemmas <> P:45 var
+R2261:2261 VST.sepcomp.semantics_lemmas <> Q:46 var
+binder 2256:2257 <> PQ:48
+R2265:2280 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+R2282:2282 VST.sepcomp.semantics_lemmas <> Q:46 var
+prf 2358:2370 <> preserve_univ
+binder 2373:2373 <> A:49
+R2380:2383 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2387:2390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2394:2397 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2391:2393 compcert.common.Memory <> mem syndef
+R2384:2386 compcert.common.Memory <> mem syndef
+R2379:2379 VST.sepcomp.semantics_lemmas <> A:49 var
+binder 2377:2377 <> P:50
+R2413:2413 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2446:2450 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2451:2466 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+binder 2473:2473 <> m:51
+binder 2475:2476 <> m':52
+binder 2488:2488 <> a:53
+R2491:2491 VST.sepcomp.semantics_lemmas <> P:50 var
+R2497:2498 VST.sepcomp.semantics_lemmas <> m':52 var
+R2495:2495 VST.sepcomp.semantics_lemmas <> m:51 var
+R2493:2493 VST.sepcomp.semantics_lemmas <> a:53 var
+binder 2421:2421 <> a:54
+R2424:2439 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+R2442:2442 VST.sepcomp.semantics_lemmas <> P:50 var
+R2444:2444 VST.sepcomp.semantics_lemmas <> a:54 var
+R2524:2542 VST.sepcomp.semantics_lemmas <> preserve_exensional thm
+R2524:2542 VST.sepcomp.semantics_lemmas <> preserve_exensional thm
+R2554:2566 VST.sepcomp.semantics_lemmas <> preserve_impl thm
+binder 2599:2599 <> a:55
+R2602:2605 Coq.Init.Logic <> True ind
+binder 2575:2575 <> a:56
+binder 2577:2577 <> m:57
+binder 2579:2580 <> m':58
+R2590:2591 VST.sepcomp.semantics_lemmas <> m':58 var
+R2588:2588 VST.sepcomp.semantics_lemmas <> m:57 var
+R2586:2586 VST.sepcomp.semantics_lemmas <> a:56 var
+R2554:2566 VST.sepcomp.semantics_lemmas <> preserve_impl thm
+binder 2599:2599 <> a:59
+R2602:2605 Coq.Init.Logic <> True ind
+binder 2575:2575 <> a:60
+binder 2577:2577 <> m:61
+binder 2579:2580 <> m':62
+R2590:2591 VST.sepcomp.semantics_lemmas <> m':62 var
+R2588:2588 VST.sepcomp.semantics_lemmas <> m:61 var
+R2586:2586 VST.sepcomp.semantics_lemmas <> a:60 var
+R2670:2677 VST.msl.Axioms <> prop_ext prfax
+R2670:2677 VST.msl.Axioms <> prop_ext prfax
+prf 2705:2724 <> mem_forward_preserve
+R2727:2742 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+R2744:2754 VST.sepcomp.mem_lemmas <> mem_forward def
+R2785:2801 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+R2785:2801 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+R2836:2853 VST.sepcomp.mem_lemmas <> storebytes_forward thm
+R2836:2853 VST.sepcomp.mem_lemmas <> storebytes_forward thm
+R2878:2890 VST.sepcomp.mem_lemmas <> alloc_forward thm
+R2878:2890 VST.sepcomp.mem_lemmas <> alloc_forward thm
+R2915:2930 VST.sepcomp.mem_lemmas <> freelist_forward thm
+R2915:2930 VST.sepcomp.mem_lemmas <> freelist_forward thm
+R2955:2971 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+R2955:2971 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+prf 3001:3017 <> readonly_preserve
+binder 3019:3019 <> b:63
+R3022:3037 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+binder 3044:3044 <> m:64
+binder 3046:3047 <> m':65
+R3068:3072 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3111:3111 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3052:3062 VST.sepcomp.mem_lemmas <> mem_forward def
+R3066:3067 VST.sepcomp.semantics_lemmas <> m':65 var
+R3064:3064 VST.sepcomp.semantics_lemmas <> m:64 var
+R3092:3095 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3096:3103 VST.sepcomp.mem_lemmas <> readonly def
+R3109:3110 VST.sepcomp.semantics_lemmas <> m':65 var
+R3107:3107 VST.sepcomp.semantics_lemmas <> b:63 var
+R3105:3105 VST.sepcomp.semantics_lemmas <> m:64 var
+R3073:3087 compcert.common.Memory Mem valid_block def
+R3091:3091 VST.sepcomp.semantics_lemmas <> b:63 var
+R3089:3089 VST.sepcomp.semantics_lemmas <> m:64 var
+R3194:3210 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+R3194:3210 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+R3235:3248 VST.sepcomp.mem_lemmas <> readonly_trans thm
+R3235:3248 VST.sepcomp.mem_lemmas <> readonly_trans thm
+R3339:3356 VST.sepcomp.mem_lemmas <> storebytes_forward thm
+R3339:3356 VST.sepcomp.mem_lemmas <> storebytes_forward thm
+R3383:3401 VST.sepcomp.mem_lemmas <> storebytes_readonly thm
+R3383:3401 VST.sepcomp.mem_lemmas <> storebytes_readonly thm
+R3455:3467 VST.sepcomp.mem_lemmas <> alloc_forward thm
+R3455:3467 VST.sepcomp.mem_lemmas <> alloc_forward thm
+R3494:3507 VST.sepcomp.mem_lemmas <> alloc_readonly thm
+R3494:3507 VST.sepcomp.mem_lemmas <> alloc_readonly thm
+R3561:3576 VST.sepcomp.mem_lemmas <> freelist_forward thm
+R3561:3576 VST.sepcomp.mem_lemmas <> freelist_forward thm
+R3603:3619 VST.sepcomp.mem_lemmas <> freelist_readonly thm
+R3603:3619 VST.sepcomp.mem_lemmas <> freelist_readonly thm
+R3701:3717 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+R3701:3717 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+R3752:3765 VST.sepcomp.mem_lemmas <> readonly_trans thm
+R3752:3765 VST.sepcomp.mem_lemmas <> readonly_trans thm
+prf 3822:3839 <> readonly_preserve'
+R3845:3860 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+binder 3867:3867 <> m:66
+binder 3869:3870 <> m':67
+R3891:3895 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3944:3944 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3875:3885 VST.sepcomp.mem_lemmas <> mem_forward def
+R3889:3890 VST.sepcomp.semantics_lemmas <> m':67 var
+R3887:3887 VST.sepcomp.semantics_lemmas <> m:66 var
+binder 3903:3903 <> b:68
+R3925:3928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3929:3936 VST.sepcomp.mem_lemmas <> readonly def
+R3942:3943 VST.sepcomp.semantics_lemmas <> m':67 var
+R3940:3940 VST.sepcomp.semantics_lemmas <> b:68 var
+R3938:3938 VST.sepcomp.semantics_lemmas <> m:66 var
+R3906:3920 compcert.common.Memory Mem valid_block def
+R3924:3924 VST.sepcomp.semantics_lemmas <> b:68 var
+R3922:3922 VST.sepcomp.semantics_lemmas <> m:66 var
+R3962:3980 VST.sepcomp.semantics_lemmas <> preserve_exensional thm
+R3962:3980 VST.sepcomp.semantics_lemmas <> preserve_exensional thm
+R3990:4002 VST.sepcomp.semantics_lemmas <> preserve_univ thm
+R3990:4002 VST.sepcomp.semantics_lemmas <> preserve_univ thm
+R4020:4036 VST.sepcomp.semantics_lemmas <> readonly_preserve thm
+R4020:4036 VST.sepcomp.semantics_lemmas <> readonly_preserve thm
+R4087:4094 VST.msl.Axioms <> prop_ext prfax
+R4087:4094 VST.msl.Axioms <> prop_ext prfax
+R4137:4138 Coq.Numbers.BinNums <> xH constr
+R4137:4138 Coq.Numbers.BinNums <> xH constr
+prf 4212:4241 <> storebytes_unch_loc_unwritable
+binder 4243:4243 <> b:69
+binder 4245:4247 <> ofs:70
+binder 4257:4257 <> l:71
+binder 4259:4259 <> m:72
+binder 4261:4262 <> m':73
+R4292:4294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4268:4281 compcert.common.Memory Mem storebytes def
+R4291:4291 VST.sepcomp.semantics_lemmas <> l:71 var
+R4287:4289 VST.sepcomp.semantics_lemmas <> ofs:70 var
+R4285:4285 VST.sepcomp.semantics_lemmas <> b:69 var
+R4283:4283 VST.sepcomp.semantics_lemmas <> m:72 var
+R4295:4298 Coq.Init.Datatypes <> Some constr
+R4300:4301 VST.sepcomp.semantics_lemmas <> m':73 var
+binder 4265:4265 <> L:74
+R4311:4326 compcert.common.Memory Mem unchanged_on rec
+R4351:4352 VST.sepcomp.semantics_lemmas <> m':73 var
+R4349:4349 VST.sepcomp.semantics_lemmas <> m:72 var
+R4329:4344 compcert.common.Events <> loc_not_writable def
+R4346:4346 VST.sepcomp.semantics_lemmas <> m:72 var
+R4396:4419 compcert.common.Memory Mem nextblock_storebytes thm
+R4441:4451 Coq.PArith.BinPos Pos le_refl thm
+R4396:4419 compcert.common.Memory Mem nextblock_storebytes thm
+R4396:4419 compcert.common.Memory Mem nextblock_storebytes thm
+R4441:4451 Coq.PArith.BinPos Pos le_refl thm
+R4480:4500 compcert.common.Memory Mem perm_storebytes_1 thm
+R4480:4500 compcert.common.Memory Mem perm_storebytes_1 thm
+R4525:4545 compcert.common.Memory Mem perm_storebytes_2 thm
+R4525:4545 compcert.common.Memory Mem perm_storebytes_2 thm
+R4572:4598 compcert.common.Memory Mem storebytes_mem_contents thm
+R4572:4598 compcert.common.Memory Mem storebytes_mem_contents thm
+R4572:4598 compcert.common.Memory Mem storebytes_mem_contents thm
+R4622:4646 compcert.common.Memory Mem storebytes_range_perm thm
+R4622:4646 compcert.common.Memory Mem storebytes_range_perm thm
+R4666:4673 compcert.common.Values <> eq_block def
+R4666:4673 compcert.common.Values <> eq_block def
+R4703:4705 compcert.lib.Coqlib <> zle def
+R4703:4705 compcert.lib.Coqlib <> zle def
+R4734:4736 compcert.lib.Coqlib <> zlt def
+R4747:4749 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4750:4757 Coq.ZArith.BinInt Z of_nat def
+R4760:4765 Coq.Lists.List <> length syndef
+R4734:4736 compcert.lib.Coqlib <> zlt def
+R4747:4749 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4750:4757 Coq.ZArith.BinInt Z of_nat def
+R4760:4765 Coq.Lists.List <> length syndef
+R4796:4807 compcert.common.Memory Mem perm_max thm
+R4796:4807 compcert.common.Memory Mem perm_max thm
+R4838:4845 compcert.lib.Maps PMap gss thm
+R4838:4845 compcert.lib.Maps PMap gss thm
+R4838:4845 compcert.lib.Maps PMap gss thm
+R4854:4867 compcert.common.Memory Mem setN_other thm
+R4854:4867 compcert.common.Memory Mem setN_other thm
+R4895:4902 compcert.lib.Maps PMap gss thm
+R4895:4902 compcert.lib.Maps PMap gss thm
+R4895:4902 compcert.lib.Maps PMap gss thm
+R4911:4924 compcert.common.Memory Mem setN_other thm
+R4911:4924 compcert.common.Memory Mem setN_other thm
+R4952:4959 compcert.lib.Maps PMap gso thm
+R4952:4959 compcert.lib.Maps PMap gso thm
+R4952:4959 compcert.lib.Maps PMap gso thm
+R4952:4959 compcert.lib.Maps PMap gso thm
+prf 4983:5012 <> unch_on_loc_not_writable_trans
+binder 5014:5015 <> m1:75
+binder 5017:5018 <> m2:76
+binder 5020:5021 <> m3:77
+R5036:5051 compcert.common.Memory Mem unchanged_on rec
+R5078:5079 VST.sepcomp.semantics_lemmas <> m2:76 var
+R5075:5076 VST.sepcomp.semantics_lemmas <> m1:75 var
+R5054:5069 compcert.common.Events <> loc_not_writable def
+R5071:5072 VST.sepcomp.semantics_lemmas <> m1:75 var
+binder 5032:5032 <> Q:78
+R5095:5110 compcert.common.Memory Mem unchanged_on rec
+R5137:5138 VST.sepcomp.semantics_lemmas <> m3:77 var
+R5134:5135 VST.sepcomp.semantics_lemmas <> m2:76 var
+R5113:5128 compcert.common.Events <> loc_not_writable def
+R5130:5131 VST.sepcomp.semantics_lemmas <> m2:76 var
+binder 5091:5091 <> W:79
+R5152:5162 VST.sepcomp.mem_lemmas <> mem_forward def
+R5167:5168 VST.sepcomp.semantics_lemmas <> m2:76 var
+R5164:5165 VST.sepcomp.semantics_lemmas <> m1:75 var
+binder 5150:5150 <> F:80
+R5177:5192 compcert.common.Memory Mem unchanged_on rec
+R5219:5220 VST.sepcomp.semantics_lemmas <> m3:77 var
+R5216:5217 VST.sepcomp.semantics_lemmas <> m1:75 var
+R5195:5210 compcert.common.Events <> loc_not_writable def
+R5212:5213 VST.sepcomp.semantics_lemmas <> m1:75 var
+R5312:5320 compcert.lib.Coqlib <> Ple_trans thm
+R5312:5320 compcert.lib.Coqlib <> Ple_trans thm
+R5366:5370 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5345:5352 compcert.common.Memory Mem perm def
+R5371:5378 compcert.common.Memory Mem perm def
+R5366:5370 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5345:5352 compcert.common.Memory Mem perm def
+R5371:5378 compcert.common.Memory Mem perm def
+R5624:5643 compcert.common.Memory Mem perm_valid_block thm
+R5624:5643 compcert.common.Memory Mem perm_valid_block thm
+R5690:5709 compcert.common.Memory Mem perm_valid_block thm
+R5690:5709 compcert.common.Memory Mem perm_valid_block thm
+prf 5739:5763 <> loc_not_writable_preserve
+R5769:5784 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+binder 5791:5791 <> m:81
+binder 5793:5794 <> m':82
+R5815:5818 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5799:5809 VST.sepcomp.mem_lemmas <> mem_forward def
+R5813:5814 VST.sepcomp.semantics_lemmas <> m':82 var
+R5811:5811 VST.sepcomp.semantics_lemmas <> m:81 var
+R5819:5834 compcert.common.Memory Mem unchanged_on rec
+R5859:5860 VST.sepcomp.semantics_lemmas <> m':82 var
+R5857:5857 VST.sepcomp.semantics_lemmas <> m:81 var
+R5837:5852 compcert.common.Events <> loc_not_writable def
+R5854:5854 VST.sepcomp.semantics_lemmas <> m:81 var
+R5963:5979 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+R5963:5979 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+R6014:6043 VST.sepcomp.semantics_lemmas <> unch_on_loc_not_writable_trans thm
+R6014:6043 VST.sepcomp.semantics_lemmas <> unch_on_loc_not_writable_trans thm
+R6108:6125 VST.sepcomp.mem_lemmas <> storebytes_forward thm
+R6108:6125 VST.sepcomp.mem_lemmas <> storebytes_forward thm
+R6152:6181 VST.sepcomp.semantics_lemmas <> storebytes_unch_loc_unwritable thm
+R6152:6181 VST.sepcomp.semantics_lemmas <> storebytes_unch_loc_unwritable thm
+R6223:6235 VST.sepcomp.mem_lemmas <> alloc_forward thm
+R6223:6235 VST.sepcomp.mem_lemmas <> alloc_forward thm
+R6262:6283 compcert.common.Memory Mem alloc_unchanged_on thm
+R6262:6283 compcert.common.Memory Mem alloc_unchanged_on thm
+R6325:6340 VST.sepcomp.mem_lemmas <> freelist_forward thm
+R6325:6340 VST.sepcomp.mem_lemmas <> freelist_forward thm
+R6429:6449 compcert.common.Memory Mem unchanged_on_refl thm
+R6429:6449 compcert.common.Memory Mem unchanged_on_refl thm
+R6494:6501 compcert.common.Memory Mem free def
+R6494:6501 compcert.common.Memory Mem free def
+R6567:6596 VST.sepcomp.semantics_lemmas <> unch_on_loc_not_writable_trans thm
+R6567:6596 VST.sepcomp.semantics_lemmas <> unch_on_loc_not_writable_trans thm
+R6612:6632 compcert.common.Memory Mem free_unchanged_on thm
+R6612:6632 compcert.common.Memory Mem free_unchanged_on thm
+R6702:6713 compcert.common.Memory Mem perm_max thm
+R6702:6713 compcert.common.Memory Mem perm_max thm
+R6723:6738 compcert.common.Memory Mem perm_implies thm
+R6723:6738 compcert.common.Memory Mem perm_implies thm
+R6748:6766 compcert.common.Memory Mem free_range_perm thm
+R6748:6766 compcert.common.Memory Mem free_range_perm thm
+R6838:6849 VST.sepcomp.mem_lemmas <> free_forward thm
+R6838:6849 VST.sepcomp.mem_lemmas <> free_forward thm
+R6931:6947 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+R6931:6947 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+R6997:7026 VST.sepcomp.semantics_lemmas <> unch_on_loc_not_writable_trans thm
+R6997:7026 VST.sepcomp.semantics_lemmas <> unch_on_loc_not_writable_trans thm
+prf 7054:7066 <> freelist_perm
+binder 7076:7076 <> l:83
+binder 7078:7078 <> m:84
+binder 7080:7081 <> m':85
+R7105:7107 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7088:7100 compcert.common.Memory Mem free_list def
+R7104:7104 VST.sepcomp.semantics_lemmas <> l:83 var
+R7102:7102 VST.sepcomp.semantics_lemmas <> m:84 var
+R7108:7111 Coq.Init.Datatypes <> Some constr
+R7113:7114 VST.sepcomp.semantics_lemmas <> m':85 var
+binder 7084:7084 <> L:86
+binder 7117:7117 <> b:87
+R7123:7137 compcert.common.Memory Mem valid_block def
+R7141:7141 VST.sepcomp.semantics_lemmas <> b:87 var
+R7139:7139 VST.sepcomp.semantics_lemmas <> m:84 var
+binder 7120:7120 <> B:88
+binder 7150:7152 <> ofs:89
+R7159:7166 compcert.common.Memory Mem perm def
+R7181:7188 compcert.common.Memtype <> Nonempty constr
+R7177:7179 compcert.common.Memtype <> Max constr
+R7173:7175 VST.sepcomp.semantics_lemmas <> ofs:89 var
+R7171:7171 VST.sepcomp.semantics_lemmas <> b:87 var
+R7168:7169 VST.sepcomp.semantics_lemmas <> m':85 var
+binder 7155:7156 <> P':90
+binder 7191:7191 <> k:91
+binder 7193:7193 <> p:92
+R7222:7226 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7202:7209 compcert.common.Memory Mem perm def
+R7221:7221 VST.sepcomp.semantics_lemmas <> p:92 var
+R7219:7219 VST.sepcomp.semantics_lemmas <> k:91 var
+R7215:7217 VST.sepcomp.semantics_lemmas <> ofs:89 var
+R7213:7213 VST.sepcomp.semantics_lemmas <> b:87 var
+R7211:7211 VST.sepcomp.semantics_lemmas <> m:84 var
+R7227:7234 compcert.common.Memory Mem perm def
+R7247:7247 VST.sepcomp.semantics_lemmas <> p:92 var
+R7245:7245 VST.sepcomp.semantics_lemmas <> k:91 var
+R7241:7243 VST.sepcomp.semantics_lemmas <> ofs:89 var
+R7239:7239 VST.sepcomp.semantics_lemmas <> b:87 var
+R7236:7237 VST.sepcomp.semantics_lemmas <> m':85 var
+R7349:7356 compcert.common.Memory Mem free def
+R7349:7356 compcert.common.Memory Mem free def
+R7443:7464 compcert.common.Memory Mem valid_block_free_1 thm
+R7443:7464 compcert.common.Memory Mem valid_block_free_1 thm
+R7530:7534 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7510:7517 compcert.common.Memory Mem perm def
+R7535:7542 compcert.common.Memory Mem perm def
+R7530:7534 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7510:7517 compcert.common.Memory Mem perm def
+R7535:7542 compcert.common.Memory Mem perm def
+R7584:7601 compcert.common.Memory Mem perm_free_list thm
+R7584:7601 compcert.common.Memory Mem perm_free_list thm
+R7661:7668 compcert.common.Values <> eq_block def
+R7661:7668 compcert.common.Values <> eq_block def
+R7700:7702 compcert.lib.Coqlib <> zlt def
+R7700:7702 compcert.lib.Coqlib <> zlt def
+R7743:7757 compcert.common.Memory Mem perm_free_1 thm
+R7743:7757 compcert.common.Memory Mem perm_free_1 thm
+R7804:7818 compcert.common.Memory Mem perm_free_3 thm
+R7804:7818 compcert.common.Memory Mem perm_free_3 thm
+R7852:7854 compcert.lib.Coqlib <> zle def
+R7852:7854 compcert.lib.Coqlib <> zle def
+R7894:7908 compcert.common.Memory Mem perm_free_1 thm
+R7894:7908 compcert.common.Memory Mem perm_free_1 thm
+R7970:7984 compcert.common.Memory Mem perm_free_3 thm
+R7970:7984 compcert.common.Memory Mem perm_free_3 thm
+R8040:8054 compcert.common.Memory Mem perm_free_2 thm
+R8079:8086 compcert.common.Memtype <> Nonempty constr
+R8075:8077 compcert.common.Memtype <> Max constr
+R8040:8054 compcert.common.Memory Mem perm_free_2 thm
+R8079:8086 compcert.common.Memtype <> Nonempty constr
+R8075:8077 compcert.common.Memtype <> Max constr
+R8131:8145 compcert.common.Memory Mem perm_free_2 thm
+R8170:8177 compcert.common.Memtype <> Nonempty constr
+R8166:8168 compcert.common.Memtype <> Max constr
+R8131:8145 compcert.common.Memory Mem perm_free_2 thm
+R8170:8177 compcert.common.Memtype <> Nonempty constr
+R8166:8168 compcert.common.Memtype <> Max constr
+R8215:8230 compcert.common.Memory Mem perm_implies thm
+R8215:8230 compcert.common.Memory Mem perm_implies thm
+R8240:8251 compcert.common.Memory Mem perm_max thm
+R8240:8251 compcert.common.Memory Mem perm_max thm
+R8317:8331 compcert.common.Memory Mem perm_free_1 thm
+R8317:8331 compcert.common.Memory Mem perm_free_1 thm
+R8386:8400 compcert.common.Memory Mem perm_free_3 thm
+R8386:8400 compcert.common.Memory Mem perm_free_3 thm
+prf 8459:8471 <> perm_preserve
+R8477:8492 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+binder 8499:8499 <> m:93
+binder 8501:8502 <> m':94
+R8524:8527 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8508:8518 VST.sepcomp.mem_lemmas <> mem_forward def
+R8522:8523 VST.sepcomp.semantics_lemmas <> m':94 var
+R8520:8520 VST.sepcomp.semantics_lemmas <> m:93 var
+binder 8535:8535 <> b:95
+R8557:8560 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8568:8570 <> ofs:96
+R8603:8640 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8648:8648 <> k:97
+binder 8650:8650 <> p:98
+R8673:8677 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8653:8660 compcert.common.Memory Mem perm def
+R8672:8672 VST.sepcomp.semantics_lemmas <> p:98 var
+R8670:8670 VST.sepcomp.semantics_lemmas <> k:97 var
+R8666:8668 VST.sepcomp.semantics_lemmas <> ofs:96 var
+R8664:8664 VST.sepcomp.semantics_lemmas <> b:95 var
+R8662:8662 VST.sepcomp.semantics_lemmas <> m:93 var
+R8678:8685 compcert.common.Memory Mem perm def
+R8698:8698 VST.sepcomp.semantics_lemmas <> p:98 var
+R8696:8696 VST.sepcomp.semantics_lemmas <> k:97 var
+R8692:8694 VST.sepcomp.semantics_lemmas <> ofs:96 var
+R8690:8690 VST.sepcomp.semantics_lemmas <> b:95 var
+R8687:8688 VST.sepcomp.semantics_lemmas <> m':94 var
+R8573:8580 compcert.common.Memory Mem perm def
+R8595:8602 compcert.common.Memtype <> Nonempty constr
+R8591:8593 compcert.common.Memtype <> Max constr
+R8587:8589 VST.sepcomp.semantics_lemmas <> ofs:96 var
+R8585:8585 VST.sepcomp.semantics_lemmas <> b:95 var
+R8582:8583 VST.sepcomp.semantics_lemmas <> m':94 var
+R8538:8552 compcert.common.Memory Mem valid_block def
+R8556:8556 VST.sepcomp.semantics_lemmas <> b:95 var
+R8554:8554 VST.sepcomp.semantics_lemmas <> m:93 var
+R8746:8762 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+R8746:8762 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+R8853:8857 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8832:8839 compcert.common.Memory Mem perm def
+R8858:8865 compcert.common.Memory Mem perm def
+R8853:8857 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8832:8839 compcert.common.Memory Mem perm def
+R8858:8865 compcert.common.Memory Mem perm def
+R8983:8997 compcert.common.Memory Mem valid_block def
+R8983:8997 compcert.common.Memory Mem valid_block def
+R9141:9158 VST.sepcomp.mem_lemmas <> storebytes_forward thm
+R9141:9158 VST.sepcomp.mem_lemmas <> storebytes_forward thm
+R9200:9220 compcert.common.Memory Mem perm_storebytes_1 thm
+R9200:9220 compcert.common.Memory Mem perm_storebytes_1 thm
+R9247:9267 compcert.common.Memory Mem perm_storebytes_2 thm
+R9247:9267 compcert.common.Memory Mem perm_storebytes_2 thm
+R9309:9321 VST.sepcomp.mem_lemmas <> alloc_forward thm
+R9309:9321 VST.sepcomp.mem_lemmas <> alloc_forward thm
+R9363:9378 compcert.common.Memory Mem perm_alloc_1 thm
+R9363:9378 compcert.common.Memory Mem perm_alloc_1 thm
+R9405:9420 compcert.common.Memory Mem perm_alloc_4 thm
+R9405:9420 compcert.common.Memory Mem perm_alloc_4 thm
+R9470:9490 compcert.common.Memory Mem fresh_block_alloc thm
+R9470:9490 compcert.common.Memory Mem fresh_block_alloc thm
+R9535:9550 VST.sepcomp.mem_lemmas <> freelist_forward thm
+R9535:9550 VST.sepcomp.mem_lemmas <> freelist_forward thm
+R9577:9589 VST.sepcomp.semantics_lemmas <> freelist_perm thm
+R9577:9589 VST.sepcomp.semantics_lemmas <> freelist_perm thm
+R9679:9695 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+R9679:9695 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+R9758:9762 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9738:9745 compcert.common.Memory Mem perm def
+R9763:9770 compcert.common.Memory Mem perm def
+R9758:9762 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9738:9745 compcert.common.Memory Mem perm def
+R9763:9770 compcert.common.Memory Mem perm def
+R9895:9909 compcert.common.Memory Mem valid_block def
+R9895:9909 compcert.common.Memory Mem valid_block def
+prf 10019:10034 <> mem_step_forward
+binder 10036:10036 <> m:99
+binder 10038:10039 <> m':100
+R10055:10058 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10059:10069 VST.sepcomp.mem_lemmas <> mem_forward def
+R10073:10074 VST.sepcomp.semantics_lemmas <> m':100 var
+R10071:10071 VST.sepcomp.semantics_lemmas <> m:99 var
+R10042:10049 VST.sepcomp.semantics <> mem_step ind
+R10053:10054 VST.sepcomp.semantics_lemmas <> m':100 var
+R10051:10051 VST.sepcomp.semantics_lemmas <> m:99 var
+R10091:10102 VST.sepcomp.semantics_lemmas <> preserve_mem proj
+R10091:10102 VST.sepcomp.semantics_lemmas <> preserve_mem proj
+R10121:10140 VST.sepcomp.semantics_lemmas <> mem_forward_preserve thm
+R10121:10140 VST.sepcomp.semantics_lemmas <> mem_forward_preserve thm
+prf 10164:10180 <> freelist_perm_inv
+binder 10190:10190 <> l:101
+binder 10192:10192 <> m:102
+binder 10194:10195 <> m':103
+R10219:10221 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10202:10214 compcert.common.Memory Mem free_list def
+R10218:10218 VST.sepcomp.semantics_lemmas <> l:101 var
+R10216:10216 VST.sepcomp.semantics_lemmas <> m:102 var
+R10222:10225 Coq.Init.Datatypes <> Some constr
+R10227:10228 VST.sepcomp.semantics_lemmas <> m':103 var
+binder 10198:10198 <> L:104
+binder 10231:10231 <> b:105
+R10237:10251 compcert.common.Memory Mem valid_block def
+R10255:10255 VST.sepcomp.semantics_lemmas <> b:105 var
+R10253:10253 VST.sepcomp.semantics_lemmas <> m:102 var
+binder 10234:10234 <> B:106
+binder 10264:10266 <> ofs:107
+binder 10268:10268 <> k:108
+binder 10270:10270 <> p:109
+R10276:10283 compcert.common.Memory Mem perm def
+R10295:10295 VST.sepcomp.semantics_lemmas <> p:109 var
+R10293:10293 VST.sepcomp.semantics_lemmas <> k:108 var
+R10289:10291 VST.sepcomp.semantics_lemmas <> ofs:107 var
+R10287:10287 VST.sepcomp.semantics_lemmas <> b:105 var
+R10285:10285 VST.sepcomp.semantics_lemmas <> m:102 var
+binder 10273:10273 <> P:110
+R10334:10337 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10305:10312 compcert.common.Memory Mem perm def
+R10326:10333 compcert.common.Memtype <> Freeable constr
+R10322:10324 compcert.common.Memtype <> Max constr
+R10318:10320 VST.sepcomp.semantics_lemmas <> ofs:107 var
+R10316:10316 VST.sepcomp.semantics_lemmas <> b:105 var
+R10314:10314 VST.sepcomp.semantics_lemmas <> m:102 var
+R10338:10345 compcert.common.Memory Mem perm def
+R10358:10358 VST.sepcomp.semantics_lemmas <> p:109 var
+R10356:10356 VST.sepcomp.semantics_lemmas <> k:108 var
+R10352:10354 VST.sepcomp.semantics_lemmas <> ofs:107 var
+R10350:10350 VST.sepcomp.semantics_lemmas <> b:105 var
+R10347:10348 VST.sepcomp.semantics_lemmas <> m':103 var
+R10460:10467 compcert.common.Memory Mem free def
+R10460:10467 compcert.common.Memory Mem free def
+R10535:10551 compcert.common.Memory Mem perm_free_inv thm
+R10616:10627 compcert.common.Memory Mem perm_max thm
+R10616:10627 compcert.common.Memory Mem perm_max thm
+R10638:10656 compcert.common.Memory Mem free_range_perm thm
+R10638:10656 compcert.common.Memory Mem free_range_perm thm
+R10701:10722 compcert.common.Memory Mem valid_block_free_1 thm
+R10701:10722 compcert.common.Memory Mem valid_block_free_1 thm
+R10806:10820 compcert.common.Memory Mem perm_free_3 thm
+R10806:10820 compcert.common.Memory Mem perm_free_3 thm
+prf 10844:10867 <> preserves_max_eq_or_free
+R10873:10888 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+binder 10895:10895 <> m:111
+binder 10897:10898 <> m':112
+R10920:10957 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10904:10914 VST.sepcomp.mem_lemmas <> mem_forward def
+R10918:10919 VST.sepcomp.semantics_lemmas <> m':112 var
+R10916:10916 VST.sepcomp.semantics_lemmas <> m:111 var
+binder 10965:10965 <> b:113
+R10972:10986 compcert.common.Memory Mem valid_block def
+R10990:10990 VST.sepcomp.semantics_lemmas <> b:113 var
+R10988:10988 VST.sepcomp.semantics_lemmas <> m:111 var
+binder 10968:10969 <> VB:114
+binder 10993:10995 <> ofs:115
+R11033:11033 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11092:11132 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11258:11258 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+binder 11041:11041 <> k:116
+binder 11043:11043 <> p:117
+R11066:11070 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11046:11053 compcert.common.Memory Mem perm def
+R11065:11065 VST.sepcomp.semantics_lemmas <> p:117 var
+R11063:11063 VST.sepcomp.semantics_lemmas <> k:116 var
+R11059:11061 VST.sepcomp.semantics_lemmas <> ofs:115 var
+R11057:11057 VST.sepcomp.semantics_lemmas <> b:113 var
+R11055:11055 VST.sepcomp.semantics_lemmas <> m:111 var
+R11071:11078 compcert.common.Memory Mem perm def
+R11091:11091 VST.sepcomp.semantics_lemmas <> p:117 var
+R11089:11089 VST.sepcomp.semantics_lemmas <> k:116 var
+R11085:11087 VST.sepcomp.semantics_lemmas <> ofs:115 var
+R11083:11083 VST.sepcomp.semantics_lemmas <> b:113 var
+R11080:11081 VST.sepcomp.semantics_lemmas <> m':112 var
+R11162:11201 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11133:11140 compcert.common.Memory Mem perm def
+R11154:11161 compcert.common.Memtype <> Freeable constr
+R11150:11152 compcert.common.Memtype <> Max constr
+R11146:11148 VST.sepcomp.semantics_lemmas <> ofs:115 var
+R11144:11144 VST.sepcomp.semantics_lemmas <> b:113 var
+R11142:11142 VST.sepcomp.semantics_lemmas <> m:111 var
+R11202:11217 compcert.common.Memory Mem perm_order'' def
+R11225:11225 compcert.lib.Maps <> :::x_'!!'_x not
+R11243:11247 compcert.lib.Maps <> :::x_'!!'_x not
+R11249:11256 compcert.lib.Maps <> :::x_'!!'_x not
+R11248:11248 VST.sepcomp.semantics_lemmas <> b:113 var
+R11226:11239 compcert.common.Memory Mem mem_access proj
+R11241:11242 VST.sepcomp.semantics_lemmas <> m':112 var
+R11254:11256 compcert.common.Memtype <> Max constr
+R11250:11252 VST.sepcomp.semantics_lemmas <> ofs:115 var
+R11219:11222 Coq.Init.Datatypes <> None constr
+R11306:11322 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+R11306:11322 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+R11394:11408 compcert.common.Memory Mem valid_block def
+R11394:11408 compcert.common.Memory Mem valid_block def
+R11710:11712 compcert.common.Memtype <> Max constr
+R11710:11712 compcert.common.Memtype <> Max constr
+R11727:11734 compcert.common.Memory Mem perm def
+R11756:11756 compcert.lib.Maps <> :::x_'!!'_x not
+R11774:11778 compcert.lib.Maps <> :::x_'!!'_x not
+R11780:11787 compcert.lib.Maps <> :::x_'!!'_x not
+R11757:11770 compcert.common.Memory Mem mem_access proj
+R11785:11787 compcert.common.Memtype <> Max constr
+R11756:11756 compcert.lib.Maps <> :::x_'!!'_x not
+R11774:11778 compcert.lib.Maps <> :::x_'!!'_x not
+R11780:11787 compcert.lib.Maps <> :::x_'!!'_x not
+R11757:11770 compcert.common.Memory Mem mem_access proj
+R11785:11787 compcert.common.Memtype <> Max constr
+R11831:11831 compcert.lib.Maps <> :::x_'!!'_x not
+R11849:11853 compcert.lib.Maps <> :::x_'!!'_x not
+R11855:11862 compcert.lib.Maps <> :::x_'!!'_x not
+R11832:11845 compcert.common.Memory Mem mem_access proj
+R11860:11862 compcert.common.Memtype <> Max constr
+R11831:11831 compcert.lib.Maps <> :::x_'!!'_x not
+R11849:11853 compcert.lib.Maps <> :::x_'!!'_x not
+R11855:11862 compcert.lib.Maps <> :::x_'!!'_x not
+R11832:11845 compcert.common.Memory Mem mem_access proj
+R11860:11862 compcert.common.Memtype <> Max constr
+R11934:11942 compcert.common.Memtype <> perm_refl constr
+R11934:11942 compcert.common.Memtype <> perm_refl constr
+R12021:12038 VST.sepcomp.mem_lemmas <> storebytes_forward thm
+R12021:12038 VST.sepcomp.mem_lemmas <> storebytes_forward thm
+R12100:12120 compcert.common.Memory Mem perm_storebytes_1 thm
+R12100:12120 compcert.common.Memory Mem perm_storebytes_1 thm
+R12149:12169 compcert.common.Memory Mem perm_storebytes_2 thm
+R12149:12169 compcert.common.Memory Mem perm_storebytes_2 thm
+R12211:12223 VST.sepcomp.mem_lemmas <> alloc_forward thm
+R12211:12223 VST.sepcomp.mem_lemmas <> alloc_forward thm
+R12285:12300 compcert.common.Memory Mem perm_alloc_1 thm
+R12285:12300 compcert.common.Memory Mem perm_alloc_1 thm
+R12329:12344 compcert.common.Memory Mem perm_alloc_4 thm
+R12329:12344 compcert.common.Memory Mem perm_alloc_4 thm
+R12394:12414 compcert.common.Memory Mem fresh_block_alloc thm
+R12394:12414 compcert.common.Memory Mem fresh_block_alloc thm
+R12456:12471 VST.sepcomp.mem_lemmas <> freelist_forward thm
+R12456:12471 VST.sepcomp.mem_lemmas <> freelist_forward thm
+R12501:12512 compcert.common.Memory Mem perm_dec thm
+R12527:12534 compcert.common.Memtype <> Nonempty constr
+R12523:12525 compcert.common.Memtype <> Max constr
+R12501:12512 compcert.common.Memory Mem perm_dec thm
+R12527:12534 compcert.common.Memtype <> Nonempty constr
+R12523:12525 compcert.common.Memtype <> Max constr
+R12565:12577 VST.sepcomp.semantics_lemmas <> freelist_perm thm
+R12565:12577 VST.sepcomp.semantics_lemmas <> freelist_perm thm
+R12609:12620 compcert.common.Memory Mem perm_dec thm
+R12634:12641 compcert.common.Memtype <> Freeable constr
+R12630:12632 compcert.common.Memtype <> Max constr
+R12609:12620 compcert.common.Memory Mem perm_dec thm
+R12634:12641 compcert.common.Memtype <> Freeable constr
+R12630:12632 compcert.common.Memtype <> Max constr
+R12691:12698 compcert.common.Memory Mem perm def
+R12735:12735 compcert.lib.Maps <> :::x_'!!'_x not
+R12753:12757 compcert.lib.Maps <> :::x_'!!'_x not
+R12759:12766 compcert.lib.Maps <> :::x_'!!'_x not
+R12736:12749 compcert.common.Memory Mem mem_access proj
+R12764:12766 compcert.common.Memtype <> Max constr
+R12735:12735 compcert.lib.Maps <> :::x_'!!'_x not
+R12753:12757 compcert.lib.Maps <> :::x_'!!'_x not
+R12759:12766 compcert.lib.Maps <> :::x_'!!'_x not
+R12736:12749 compcert.common.Memory Mem mem_access proj
+R12764:12766 compcert.common.Memtype <> Max constr
+R12867:12879 VST.sepcomp.mem_lemmas <> perm_freelist thm
+R12867:12879 VST.sepcomp.mem_lemmas <> perm_freelist thm
+R12909:12925 VST.sepcomp.semantics_lemmas <> freelist_perm_inv thm
+R13053:13069 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+R13053:13069 VST.sepcomp.mem_lemmas <> mem_forward_trans thm
+R13115:13129 compcert.common.Memory Mem valid_block def
+R13115:13129 compcert.common.Memory Mem valid_block def
+R13476:13483 compcert.common.Memory Mem perm def
+R13517:13519 compcert.common.Memtype <> Max constr
+R13517:13519 compcert.common.Memtype <> Max constr
+R13539:13539 compcert.lib.Maps <> :::x_'!!'_x not
+R13557:13561 compcert.lib.Maps <> :::x_'!!'_x not
+R13563:13570 compcert.lib.Maps <> :::x_'!!'_x not
+R13540:13553 compcert.common.Memory Mem mem_access proj
+R13568:13570 compcert.common.Memtype <> Max constr
+R13539:13539 compcert.lib.Maps <> :::x_'!!'_x not
+R13557:13561 compcert.lib.Maps <> :::x_'!!'_x not
+R13563:13570 compcert.lib.Maps <> :::x_'!!'_x not
+R13540:13553 compcert.common.Memory Mem mem_access proj
+R13568:13570 compcert.common.Memtype <> Max constr
+R13616:13616 compcert.lib.Maps <> :::x_'!!'_x not
+R13635:13639 compcert.lib.Maps <> :::x_'!!'_x not
+R13641:13648 compcert.lib.Maps <> :::x_'!!'_x not
+R13617:13630 compcert.common.Memory Mem mem_access proj
+R13646:13648 compcert.common.Memtype <> Max constr
+R13616:13616 compcert.lib.Maps <> :::x_'!!'_x not
+R13635:13639 compcert.lib.Maps <> :::x_'!!'_x not
+R13641:13648 compcert.lib.Maps <> :::x_'!!'_x not
+R13617:13630 compcert.common.Memory Mem mem_access proj
+R13646:13648 compcert.common.Memtype <> Max constr
+R13722:13730 compcert.common.Memtype <> perm_refl constr
+R13722:13730 compcert.common.Memtype <> perm_refl constr
+prf 13776:13798 <> mem_step_max_eq_or_free
+binder 13800:13800 <> m:118
+binder 13802:13803 <> m':119
+R13812:13819 VST.sepcomp.semantics <> mem_step ind
+R13823:13824 VST.sepcomp.semantics_lemmas <> m':119 var
+R13821:13821 VST.sepcomp.semantics_lemmas <> m:118 var
+binder 13806:13809 <> STEP:120
+binder 13827:13827 <> b:121
+R13834:13848 compcert.common.Memory Mem valid_block def
+R13852:13852 VST.sepcomp.semantics_lemmas <> b:121 var
+R13850:13850 VST.sepcomp.semantics_lemmas <> m:118 var
+binder 13830:13831 <> VB:122
+binder 13855:13857 <> ofs:123
+R13867:13867 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R13926:13938 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14013:14013 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+binder 13875:13875 <> k:124
+binder 13877:13877 <> p:125
+R13900:13904 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13880:13887 compcert.common.Memory Mem perm def
+R13899:13899 VST.sepcomp.semantics_lemmas <> p:125 var
+R13897:13897 VST.sepcomp.semantics_lemmas <> k:124 var
+R13893:13895 VST.sepcomp.semantics_lemmas <> ofs:123 var
+R13891:13891 VST.sepcomp.semantics_lemmas <> b:121 var
+R13889:13889 VST.sepcomp.semantics_lemmas <> m:118 var
+R13905:13912 compcert.common.Memory Mem perm def
+R13925:13925 VST.sepcomp.semantics_lemmas <> p:125 var
+R13923:13923 VST.sepcomp.semantics_lemmas <> k:124 var
+R13919:13921 VST.sepcomp.semantics_lemmas <> ofs:123 var
+R13917:13917 VST.sepcomp.semantics_lemmas <> b:121 var
+R13914:13915 VST.sepcomp.semantics_lemmas <> m':119 var
+R13968:13971 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13939:13946 compcert.common.Memory Mem perm def
+R13960:13967 compcert.common.Memtype <> Freeable constr
+R13956:13958 compcert.common.Memtype <> Max constr
+R13952:13954 VST.sepcomp.semantics_lemmas <> ofs:123 var
+R13950:13950 VST.sepcomp.semantics_lemmas <> b:121 var
+R13948:13948 VST.sepcomp.semantics_lemmas <> m:118 var
+R13976:13979 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14012:14012 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13972:13975 Coq.Init.Datatypes <> None constr
+R13980:13980 compcert.lib.Maps <> :::x_'!!'_x not
+R13998:14002 compcert.lib.Maps <> :::x_'!!'_x not
+R14004:14011 compcert.lib.Maps <> :::x_'!!'_x not
+R14003:14003 VST.sepcomp.semantics_lemmas <> b:121 var
+R13981:13994 compcert.common.Memory Mem mem_access proj
+R13996:13997 VST.sepcomp.semantics_lemmas <> m':119 var
+R14009:14011 compcert.common.Memtype <> Max constr
+R14005:14007 VST.sepcomp.semantics_lemmas <> ofs:123 var
+R14039:14050 VST.sepcomp.semantics_lemmas <> preserve_mem proj
+R14059:14082 VST.sepcomp.semantics_lemmas <> preserves_max_eq_or_free thm
+R14059:14082 VST.sepcomp.semantics_lemmas <> preserves_max_eq_or_free thm
+R14206:14206 compcert.lib.Maps <> :::x_'!!'_x not
+R14224:14228 compcert.lib.Maps <> :::x_'!!'_x not
+R14230:14237 compcert.lib.Maps <> :::x_'!!'_x not
+R14207:14220 compcert.common.Memory Mem mem_access proj
+R14235:14237 compcert.common.Memtype <> Max constr
+R14206:14206 compcert.lib.Maps <> :::x_'!!'_x not
+R14224:14228 compcert.lib.Maps <> :::x_'!!'_x not
+R14230:14237 compcert.lib.Maps <> :::x_'!!'_x not
+R14207:14220 compcert.common.Memory Mem mem_access proj
+R14235:14237 compcert.common.Memtype <> Max constr
+prf 14277:14292 <> memsem_preserves
+binder 14295:14295 <> C:126
+R14303:14308 VST.sepcomp.semantics <> MemSem rec
+R14310:14310 VST.sepcomp.semantics_lemmas <> C:126 var
+binder 14299:14299 <> s:127
+binder 14313:14313 <> P:128
+R14319:14334 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+R14336:14336 VST.sepcomp.semantics_lemmas <> P:128 var
+binder 14316:14317 <> HP:129
+binder 14353:14353 <> c:130
+binder 14355:14355 <> m:131
+binder 14357:14358 <> c':132
+binder 14360:14361 <> m':133
+R14384:14386 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14387:14387 VST.sepcomp.semantics_lemmas <> P:128 var
+R14391:14392 VST.sepcomp.semantics_lemmas <> m':133 var
+R14389:14389 VST.sepcomp.semantics_lemmas <> m:131 var
+R14364:14371 VST.sepcomp.semantics <> corestep proj
+R14382:14383 VST.sepcomp.semantics_lemmas <> m':133 var
+R14379:14380 VST.sepcomp.semantics_lemmas <> c':132 var
+R14377:14377 VST.sepcomp.semantics_lemmas <> m:131 var
+R14375:14375 VST.sepcomp.semantics_lemmas <> c:130 var
+R14373:14373 VST.sepcomp.semantics_lemmas <> s:127 var
+R14418:14429 VST.sepcomp.semantics <> corestep_mem proj
+R14418:14429 VST.sepcomp.semantics <> corestep_mem proj
+R14446:14457 VST.sepcomp.semantics_lemmas <> preserve_mem proj
+R14446:14457 VST.sepcomp.semantics_lemmas <> preserve_mem proj
+prf 14485:14496 <> corestep_fwd
+binder 14499:14499 <> C:134
+R14506:14511 VST.sepcomp.semantics <> MemSem rec
+R14513:14513 VST.sepcomp.semantics_lemmas <> C:134 var
+binder 14503:14503 <> s:135
+binder 14516:14516 <> c:136
+binder 14518:14518 <> m:137
+binder 14520:14521 <> c':138
+binder 14523:14524 <> m':139
+R14533:14540 VST.sepcomp.semantics <> corestep proj
+R14551:14552 VST.sepcomp.semantics_lemmas <> m':139 var
+R14548:14549 VST.sepcomp.semantics_lemmas <> c':138 var
+R14546:14546 VST.sepcomp.semantics_lemmas <> m:137 var
+R14544:14544 VST.sepcomp.semantics_lemmas <> c:136 var
+R14542:14542 VST.sepcomp.semantics_lemmas <> s:135 var
+binder 14530:14531 <> CS:140
+R14557:14567 VST.sepcomp.mem_lemmas <> mem_forward def
+R14571:14572 VST.sepcomp.semantics_lemmas <> m':139 var
+R14569:14569 VST.sepcomp.semantics_lemmas <> m:137 var
+R14589:14604 VST.sepcomp.semantics_lemmas <> memsem_preserves thm
+R14589:14604 VST.sepcomp.semantics_lemmas <> memsem_preserves thm
+R14630:14649 VST.sepcomp.semantics_lemmas <> mem_forward_preserve thm
+R14630:14649 VST.sepcomp.semantics_lemmas <> mem_forward_preserve thm
+prf 14664:14678 <> corestep_rdonly
+binder 14681:14681 <> C:141
+R14688:14693 VST.sepcomp.semantics <> MemSem rec
+R14695:14695 VST.sepcomp.semantics_lemmas <> C:141 var
+binder 14685:14685 <> s:142
+binder 14698:14698 <> c:143
+binder 14700:14700 <> m:144
+binder 14702:14703 <> c':145
+binder 14705:14706 <> m':146
+R14715:14722 VST.sepcomp.semantics <> corestep proj
+R14733:14734 VST.sepcomp.semantics_lemmas <> m':146 var
+R14730:14731 VST.sepcomp.semantics_lemmas <> c':145 var
+R14728:14728 VST.sepcomp.semantics_lemmas <> m:144 var
+R14726:14726 VST.sepcomp.semantics_lemmas <> c:143 var
+R14724:14724 VST.sepcomp.semantics_lemmas <> s:142 var
+binder 14712:14713 <> CS:147
+binder 14737:14737 <> b:148
+R14743:14757 compcert.common.Memory Mem valid_block def
+R14761:14761 VST.sepcomp.semantics_lemmas <> b:148 var
+R14759:14759 VST.sepcomp.semantics_lemmas <> m:144 var
+binder 14740:14741 <> VB:149
+R14765:14772 VST.sepcomp.mem_lemmas <> readonly def
+R14778:14779 VST.sepcomp.semantics_lemmas <> m':146 var
+R14776:14776 VST.sepcomp.semantics_lemmas <> b:148 var
+R14774:14774 VST.sepcomp.semantics_lemmas <> m:144 var
+R14797:14812 VST.sepcomp.semantics_lemmas <> memsem_preserves thm
+R14818:14835 VST.sepcomp.semantics_lemmas <> readonly_preserve' thm
+R14797:14812 VST.sepcomp.semantics_lemmas <> memsem_preserves thm
+R14818:14835 VST.sepcomp.semantics_lemmas <> readonly_preserve' thm
+prf 14864:14881 <> mem_step_nextblock
+R14885:14900 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+binder 14907:14907 <> m:150
+binder 14909:14910 <> m':151
+R14930:14933 Coq.PArith.BinPos <> ::positive_scope:x_'<='_x not
+R14915:14927 compcert.common.Memory Mem nextblock proj
+R14929:14929 VST.sepcomp.semantics_lemmas <> m:150 var
+R14934:14946 compcert.common.Memory Mem nextblock proj
+R14948:14949 VST.sepcomp.semantics_lemmas <> m':151 var
+R15014:15037 compcert.common.Memory Mem nextblock_storebytes thm
+R15014:15037 compcert.common.Memory Mem nextblock_storebytes thm
+R15073:15091 compcert.common.Memory Mem nextblock_alloc thm
+R15073:15091 compcert.common.Memory Mem nextblock_alloc thm
+R15134:15151 VST.sepcomp.mem_lemmas <> nextblock_freelist thm
+R15134:15151 VST.sepcomp.mem_lemmas <> nextblock_freelist thm
+prf 15198:15216 <> mem_step_nextblock'
+binder 15228:15228 <> m:152
+binder 15230:15231 <> m':153
+R15252:15258 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15275:15278 Coq.PArith.BinPos <> ::positive_scope:x_'<='_x not
+R15260:15272 compcert.common.Memory Mem nextblock proj
+R15274:15274 VST.sepcomp.semantics_lemmas <> m:152 var
+R15279:15291 compcert.common.Memory Mem nextblock proj
+R15293:15294 VST.sepcomp.semantics_lemmas <> m':153 var
+R15239:15246 VST.sepcomp.semantics <> mem_step ind
+R15250:15251 VST.sepcomp.semantics_lemmas <> m':153 var
+R15248:15248 VST.sepcomp.semantics_lemmas <> m:152 var
+R15320:15337 VST.sepcomp.semantics_lemmas <> mem_step_nextblock thm
+R15320:15337 VST.sepcomp.semantics_lemmas <> mem_step_nextblock thm
+prf 18389:18412 <> mem_step_obeys_cur_write
+binder 18424:18424 <> m:154
+binder 18426:18426 <> b:155
+binder 18428:18430 <> ofs:156
+binder 18432:18433 <> m':157
+R18459:18465 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18497:18503 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18517:18521 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18568:18571 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18522:18529 compcert.lib.Maps ZMap get def
+R18536:18543 compcert.lib.Maps PMap get def
+R18548:18563 compcert.common.Memory Mem mem_contents proj
+R18565:18565 VST.sepcomp.semantics_lemmas <> m:154 var
+R18545:18545 VST.sepcomp.semantics_lemmas <> b:155 var
+R18531:18533 VST.sepcomp.semantics_lemmas <> ofs:156 var
+R18572:18579 compcert.lib.Maps ZMap get def
+R18586:18593 compcert.lib.Maps PMap get def
+R18598:18613 compcert.common.Memory Mem mem_contents proj
+R18615:18616 VST.sepcomp.semantics_lemmas <> m':157 var
+R18595:18595 VST.sepcomp.semantics_lemmas <> b:155 var
+R18581:18583 VST.sepcomp.semantics_lemmas <> ofs:156 var
+R18504:18511 VST.sepcomp.semantics <> mem_step ind
+R18515:18516 VST.sepcomp.semantics_lemmas <> m':157 var
+R18513:18513 VST.sepcomp.semantics_lemmas <> m:154 var
+R18466:18467 Coq.Init.Logic <> ::type_scope:'~'_x not
+R18468:18475 compcert.common.Memory Mem perm def
+R18489:18496 compcert.common.Memtype <> Writable constr
+R18485:18487 compcert.common.Memtype <> Cur constr
+R18481:18483 VST.sepcomp.semantics_lemmas <> ofs:156 var
+R18479:18479 VST.sepcomp.semantics_lemmas <> b:155 var
+R18477:18477 VST.sepcomp.semantics_lemmas <> m:154 var
+R18440:18454 compcert.common.Memory Mem valid_block def
+R18458:18458 VST.sepcomp.semantics_lemmas <> b:155 var
+R18456:18456 VST.sepcomp.semantics_lemmas <> m:154 var
+R18715:18728 compcert.common.Memory Mem storebytes def
+R18739:18752 compcert.common.Memory Mem storebytes def
+R18772:18789 compcert.common.Memory Mem range_perm_dec thm
+R18845:18852 compcert.common.Memtype <> Writable constr
+R18841:18843 compcert.common.Memtype <> Cur constr
+R18815:18817 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R18818:18825 Coq.ZArith.BinInt Z of_nat def
+R18828:18833 Coq.Lists.List <> length syndef
+R18835:18837 Coq.Init.Datatypes <> nil constr
+R18772:18789 compcert.common.Memory Mem range_perm_dec thm
+R18845:18852 compcert.common.Memtype <> Writable constr
+R18841:18843 compcert.common.Memtype <> Cur constr
+R18815:18817 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R18818:18825 Coq.ZArith.BinInt Z of_nat def
+R18828:18833 Coq.Lists.List <> length syndef
+R18835:18837 Coq.Init.Datatypes <> nil constr
+R18884:18886 compcert.lib.Coqlib <> peq def
+R18884:18886 compcert.lib.Coqlib <> peq def
+R18914:18921 compcert.lib.Maps PMap gss thm
+R18914:18921 compcert.lib.Maps PMap gss thm
+R18914:18921 compcert.lib.Maps PMap gss thm
+R18939:18946 compcert.lib.Maps PMap gso thm
+R18939:18946 compcert.lib.Maps PMap gso thm
+R18939:18946 compcert.lib.Maps PMap gso thm
+R18939:18946 compcert.lib.Maps PMap gso thm
+R18965:18966 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18980:18980 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18987:18989 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18982:18983 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18984:18986 Coq.Init.Datatypes <> nil constr
+R18965:18966 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18980:18980 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18987:18989 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18982:18983 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R18984:18986 Coq.Init.Datatypes <> nil constr
+R19011:19030 compcert.common.Memory Mem storebytes_split thm
+R19011:19030 compcert.common.Memory Mem storebytes_split thm
+R19144:19157 compcert.common.Memory Mem storebytes def
+R19173:19186 compcert.common.Memory Mem storebytes def
+R19200:19217 compcert.common.Memory Mem range_perm_dec thm
+R19280:19287 compcert.common.Memtype <> Writable constr
+R19276:19278 compcert.common.Memtype <> Cur constr
+R19243:19245 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R19246:19253 Coq.ZArith.BinInt Z of_nat def
+R19256:19261 Coq.Lists.List <> length syndef
+R19265:19268 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19269:19271 Coq.Init.Datatypes <> nil constr
+R19200:19217 compcert.common.Memory Mem range_perm_dec thm
+R19280:19287 compcert.common.Memtype <> Writable constr
+R19276:19278 compcert.common.Memtype <> Cur constr
+R19243:19245 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R19246:19253 Coq.ZArith.BinInt Z of_nat def
+R19256:19261 Coq.Lists.List <> length syndef
+R19265:19268 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19269:19271 Coq.Init.Datatypes <> nil constr
+R19318:19320 compcert.lib.Coqlib <> peq def
+R19318:19320 compcert.lib.Coqlib <> peq def
+R19348:19355 compcert.lib.Maps PMap gss thm
+R19348:19355 compcert.lib.Maps PMap gss thm
+R19348:19355 compcert.lib.Maps PMap gss thm
+R19369:19371 compcert.lib.Coqlib <> zeq def
+R19369:19371 compcert.lib.Coqlib <> zeq def
+R19440:19447 compcert.lib.Maps ZMap gso thm
+R19440:19447 compcert.lib.Maps ZMap gso thm
+R19440:19447 compcert.lib.Maps ZMap gso thm
+R19440:19447 compcert.lib.Maps ZMap gso thm
+R19465:19472 compcert.lib.Maps PMap gso thm
+R19465:19472 compcert.lib.Maps PMap gso thm
+R19465:19472 compcert.lib.Maps PMap gso thm
+R19465:19472 compcert.lib.Maps PMap gso thm
+R19504:19531 compcert.common.Memory Mem storebytes_valid_block_1 thm
+R19504:19531 compcert.common.Memory Mem storebytes_valid_block_1 thm
+R19580:19600 compcert.common.Memory Mem perm_storebytes_2 thm
+R19580:19600 compcert.common.Memory Mem perm_storebytes_2 thm
+R19619:19636 VST.sepcomp.mem_lemmas <> AllocContentsOther thm
+R19619:19636 VST.sepcomp.mem_lemmas <> AllocContentsOther thm
+R19698:19713 compcert.common.Memory Mem alloc_result thm
+R19729:19743 compcert.common.Memory Mem valid_block def
+R19698:19713 compcert.common.Memory Mem alloc_result thm
+R19765:19774 compcert.lib.Coqlib <> Plt_strict thm
+R19765:19774 compcert.lib.Coqlib <> Plt_strict thm
+R19888:19895 compcert.common.Memory Mem free def
+R19888:19895 compcert.common.Memory Mem free def
+R19959:19971 VST.sepcomp.mem_lemmas <> free_contents thm
+R19959:19971 VST.sepcomp.mem_lemmas <> free_contents thm
+R20023:20041 compcert.common.Memory Mem free_range_perm thm
+R20023:20041 compcert.common.Memory Mem free_range_perm thm
+R20088:20103 compcert.common.Memory Mem perm_implies thm
+R20088:20103 compcert.common.Memory Mem perm_implies thm
+R20161:20175 compcert.common.Memory Mem valid_block def
+R20190:20207 compcert.common.Memory Mem nextblock_free thm
+R20190:20207 compcert.common.Memory Mem nextblock_free thm
+R20281:20295 compcert.common.Memory Mem perm_free_3 thm
+R20281:20295 compcert.common.Memory Mem perm_free_3 thm
+R20316:20330 compcert.common.Memory Mem valid_block def
+R20316:20330 compcert.common.Memory Mem valid_block def
+R20351:20368 VST.sepcomp.semantics_lemmas <> mem_step_nextblock thm
+R20351:20368 VST.sepcomp.semantics_lemmas <> mem_step_nextblock thm
+R20388:20402 compcert.common.Memory Mem valid_block def
+R20420:20434 Coq.PArith.BinPos Pos lt_le_trans thm
+R20420:20434 Coq.PArith.BinPos Pos lt_le_trans thm
+R20583:20603 compcert.common.Memory Mem perm_storebytes_2 thm
+R20583:20603 compcert.common.Memory Mem perm_storebytes_2 thm
+R20626:20643 compcert.common.Memory Mem perm_alloc_inv thm
+R20626:20643 compcert.common.Memory Mem perm_alloc_inv thm
+R20681:20688 compcert.common.Values <> eq_block def
+R20681:20688 compcert.common.Values <> eq_block def
+R20728:20743 compcert.common.Memory Mem alloc_result thm
+R20728:20743 compcert.common.Memory Mem alloc_result thm
+R20775:20784 compcert.lib.Coqlib <> Plt_strict thm
+R20775:20784 compcert.lib.Coqlib <> Plt_strict thm
+R20818:20835 compcert.common.Memory Mem perm_free_list thm
+R20818:20835 compcert.common.Memory Mem perm_free_list thm
+R20933:20950 VST.sepcomp.semantics_lemmas <> mem_step_nextblock thm
+R20933:20950 VST.sepcomp.semantics_lemmas <> mem_step_nextblock thm
+R20971:20985 compcert.common.Memory Mem valid_block def
+R21003:21017 Coq.PArith.BinPos Pos lt_le_trans thm
+R21003:21017 Coq.PArith.BinPos Pos lt_le_trans thm
+R18715:18728 compcert.common.Memory Mem storebytes def
+R19173:19186 compcert.common.Memory Mem storebytes def
+prf 21039:21046 <> ple_load
+binder 21048:21048 <> m:158
+binder 21050:21051 <> ch:159
+binder 21053:21053 <> a:160
+binder 21055:21055 <> v:161
+R21090:21092 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21074:21082 compcert.common.Memory Mem loadv def
+R21089:21089 VST.sepcomp.semantics_lemmas <> a:160 var
+R21087:21087 VST.sepcomp.semantics_lemmas <> m:158 var
+R21084:21085 VST.sepcomp.semantics_lemmas <> ch:159 var
+R21093:21096 Coq.Init.Datatypes <> Some constr
+R21098:21098 VST.sepcomp.semantics_lemmas <> v:161 var
+binder 21070:21071 <> LD:162
+binder 21113:21114 <> m1:163
+R21122:21132 VST.sepcomp.semantics <> perm_lesseq rec
+R21136:21137 VST.sepcomp.semantics_lemmas <> m1:163 var
+R21134:21134 VST.sepcomp.semantics_lemmas <> m:158 var
+binder 21117:21119 <> PLE:164
+R21169:21171 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21152:21160 compcert.common.Memory Mem loadv def
+R21168:21168 VST.sepcomp.semantics_lemmas <> a:160 var
+R21165:21166 VST.sepcomp.semantics_lemmas <> m1:163 var
+R21162:21163 VST.sepcomp.semantics_lemmas <> ch:159 var
+R21172:21175 Coq.Init.Datatypes <> Some constr
+R21177:21177 VST.sepcomp.semantics_lemmas <> v:161 var
+R21194:21202 compcert.common.Memory Mem loadv def
+R21240:21247 compcert.common.Memory Mem load def
+R21257:21264 compcert.common.Memory Mem load def
+R21279:21286 compcert.common.Memory Mem load def
+R21338:21344 VST.msl.Coqlib2 <> if_true thm
+R21338:21344 VST.msl.Coqlib2 <> if_true thm
+R21338:21344 VST.msl.Coqlib2 <> if_true thm
+R21338:21344 VST.msl.Coqlib2 <> if_true thm
+R21410:21424 compcert.common.Memdata <> size_chunk_conv thm
+R21410:21424 compcert.common.Memdata <> size_chunk_conv thm
+R21410:21424 compcert.common.Memdata <> size_chunk_conv thm
+R21464:21477 compcert.common.Memdata <> size_chunk_nat def
+R21464:21477 compcert.common.Memdata <> size_chunk_nat def
+R21497:21511 compcert.lib.Integers Ptrofs unsigned def
+R21497:21511 compcert.lib.Integers Ptrofs unsigned def
+R21612:21616 Coq.ZArith.Znat <> inj_S syndef
+R21612:21616 Coq.ZArith.Znat <> inj_S syndef
+R21612:21616 Coq.ZArith.Znat <> inj_S syndef
+R21643:21647 Coq.ZArith.Znat <> inj_S syndef
+R21643:21647 Coq.ZArith.Znat <> inj_S syndef
+R21643:21647 Coq.ZArith.Znat <> inj_S syndef
+R21821:21821 compcert.lib.Maps <> :::x_'!!'_x not
+R21838:21842 compcert.lib.Maps <> :::x_'!!'_x not
+R21844:21851 compcert.lib.Maps <> :::x_'!!'_x not
+R21822:21835 compcert.common.Memory Mem mem_access proj
+R21849:21851 compcert.common.Memtype <> Cur constr
+R21821:21821 compcert.lib.Maps <> :::x_'!!'_x not
+R21838:21842 compcert.lib.Maps <> :::x_'!!'_x not
+R21844:21851 compcert.lib.Maps <> :::x_'!!'_x not
+R21822:21835 compcert.common.Memory Mem mem_access proj
+R21849:21851 compcert.common.Memtype <> Cur constr
+R21884:21884 compcert.lib.Maps <> :::x_'!!'_x not
+R21902:21906 compcert.lib.Maps <> :::x_'!!'_x not
+R21908:21915 compcert.lib.Maps <> :::x_'!!'_x not
+R21885:21898 compcert.common.Memory Mem mem_access proj
+R21913:21915 compcert.common.Memtype <> Cur constr
+R21884:21884 compcert.lib.Maps <> :::x_'!!'_x not
+R21902:21906 compcert.lib.Maps <> :::x_'!!'_x not
+R21908:21915 compcert.lib.Maps <> :::x_'!!'_x not
+R21885:21898 compcert.common.Memory Mem mem_access proj
+R21913:21915 compcert.common.Memtype <> Cur constr
+R21240:21247 compcert.common.Memory Mem load def
+R21279:21286 compcert.common.Memory Mem load def
+prf 21982:21990 <> ple_store
+binder 22002:22003 <> ch:165
+binder 22005:22005 <> m:166
+binder 22007:22008 <> v1:167
+binder 22010:22011 <> v2:168
+binder 22013:22014 <> m':169
+binder 22016:22017 <> m1:170
+R22028:22038 VST.sepcomp.semantics <> perm_lesseq rec
+R22042:22043 VST.sepcomp.semantics_lemmas <> m1:170 var
+R22040:22040 VST.sepcomp.semantics_lemmas <> m:166 var
+binder 22023:22025 <> PLE:171
+R22081:22087 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22088:22094 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22098:22099 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 22095:22097 <> m1':172
+R22118:22121 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22100:22110 VST.sepcomp.semantics <> perm_lesseq rec
+R22115:22117 VST.sepcomp.semantics_lemmas <> m1':172 var
+R22112:22113 VST.sepcomp.semantics_lemmas <> m':169 var
+R22144:22146 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22122:22131 compcert.common.Memory Mem storev def
+R22142:22143 VST.sepcomp.semantics_lemmas <> v2:168 var
+R22139:22140 VST.sepcomp.semantics_lemmas <> v1:167 var
+R22136:22137 VST.sepcomp.semantics_lemmas <> m1:170 var
+R22133:22134 VST.sepcomp.semantics_lemmas <> ch:165 var
+R22147:22150 Coq.Init.Datatypes <> Some constr
+R22152:22154 VST.sepcomp.semantics_lemmas <> m1':172 var
+R22071:22073 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22050:22059 compcert.common.Memory Mem storev def
+R22069:22070 VST.sepcomp.semantics_lemmas <> v2:168 var
+R22066:22067 VST.sepcomp.semantics_lemmas <> v1:167 var
+R22064:22064 VST.sepcomp.semantics_lemmas <> m:166 var
+R22061:22062 VST.sepcomp.semantics_lemmas <> ch:165 var
+R22074:22077 Coq.Init.Datatypes <> Some constr
+R22079:22080 VST.sepcomp.semantics_lemmas <> m':169 var
+R22179:22188 compcert.common.Memory Mem storev def
+R22239:22247 compcert.common.Memory Mem store def
+R22257:22265 compcert.common.Memory Mem store def
+R22280:22288 compcert.common.Memory Mem store def
+R22301:22320 compcert.common.Memory Mem valid_access_dec thm
+R22350:22357 compcert.common.Memtype <> Writable constr
+R22330:22344 compcert.lib.Integers Ptrofs unsigned def
+R22301:22320 compcert.common.Memory Mem valid_access_dec thm
+R22350:22357 compcert.common.Memtype <> Writable constr
+R22330:22344 compcert.lib.Integers Ptrofs unsigned def
+R22378:22397 compcert.common.Memory Mem valid_access_dec thm
+R22433:22440 compcert.common.Memtype <> Writable constr
+R22408:22422 compcert.lib.Integers Ptrofs unsigned def
+R22378:22397 compcert.common.Memory Mem valid_access_dec thm
+R22433:22440 compcert.common.Memtype <> Writable constr
+R22408:22422 compcert.lib.Integers Ptrofs unsigned def
+R22535:22542 compcert.common.Memory Mem perm def
+R22570:22584 compcert.lib.Integers Ptrofs unsigned def
+R22570:22584 compcert.lib.Integers Ptrofs unsigned def
+R22605:22612 compcert.common.Values <> eq_block def
+R22605:22612 compcert.common.Values <> eq_block def
+R22637:22644 compcert.lib.Maps PMap gss thm
+R22637:22644 compcert.lib.Maps PMap gss thm
+R22637:22644 compcert.lib.Maps PMap gss thm
+R22637:22644 compcert.lib.Maps PMap gss thm
+R22637:22644 compcert.lib.Maps PMap gss thm
+R22655:22664 compcert.common.Memdata <> encode_val def
+R22655:22664 compcert.common.Memdata <> encode_val def
+R22723:22726 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22689:22692 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R22696:22698 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R22700:22702 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R22703:22710 Coq.ZArith.BinInt Z of_nat def
+R22713:22718 Coq.Lists.List <> length syndef
+R22727:22729 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22765:22765 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22731:22734 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R22738:22740 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R22742:22744 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R22745:22752 Coq.ZArith.BinInt Z of_nat def
+R22755:22760 Coq.Lists.List <> length syndef
+R22723:22726 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22689:22692 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R22696:22698 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R22700:22702 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R22703:22710 Coq.ZArith.BinInt Z of_nat def
+R22713:22718 Coq.Lists.List <> length syndef
+R22727:22729 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22765:22765 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22731:22734 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R22738:22740 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R22742:22744 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R22745:22752 Coq.ZArith.BinInt Z of_nat def
+R22755:22760 Coq.Lists.List <> length syndef
+R22809:22809 compcert.lib.Maps <> :::x_'!!'_x not
+R22829:22833 compcert.lib.Maps <> :::x_'!!'_x not
+R22810:22825 compcert.common.Memory Mem mem_contents proj
+R22809:22809 compcert.lib.Maps <> :::x_'!!'_x not
+R22829:22833 compcert.lib.Maps <> :::x_'!!'_x not
+R22810:22825 compcert.common.Memory Mem mem_contents proj
+R22852:22852 compcert.lib.Maps <> :::x_'!!'_x not
+R22871:22875 compcert.lib.Maps <> :::x_'!!'_x not
+R22853:22868 compcert.common.Memory Mem mem_contents proj
+R22852:22852 compcert.lib.Maps <> :::x_'!!'_x not
+R22871:22875 compcert.lib.Maps <> :::x_'!!'_x not
+R22853:22868 compcert.common.Memory Mem mem_contents proj
+R22980:22984 Coq.ZArith.Znat <> inj_S syndef
+R22980:22984 Coq.ZArith.Znat <> inj_S syndef
+R22980:22984 Coq.ZArith.Znat <> inj_S syndef
+R23003:23005 compcert.lib.Coqlib <> zeq def
+R23003:23005 compcert.lib.Coqlib <> zeq def
+R23035:23050 compcert.common.Memory Mem setN_outside thm
+R23035:23050 compcert.common.Memory Mem setN_outside thm
+R23035:23050 compcert.common.Memory Mem setN_outside thm
+R23035:23050 compcert.common.Memory Mem setN_outside thm
+R23035:23050 compcert.common.Memory Mem setN_outside thm
+R23069:23076 compcert.lib.Maps ZMap gss thm
+R23069:23076 compcert.lib.Maps ZMap gss thm
+R23069:23076 compcert.lib.Maps ZMap gss thm
+R23069:23076 compcert.lib.Maps ZMap gss thm
+R23069:23076 compcert.lib.Maps ZMap gss thm
+R23111:23126 compcert.common.Memory Mem setN_outside thm
+R23111:23126 compcert.common.Memory Mem setN_outside thm
+R23111:23126 compcert.common.Memory Mem setN_outside thm
+R23111:23126 compcert.common.Memory Mem setN_outside thm
+R23111:23126 compcert.common.Memory Mem setN_outside thm
+R23171:23178 compcert.lib.Maps PMap gso thm
+R23171:23178 compcert.lib.Maps PMap gso thm
+R23171:23178 compcert.lib.Maps PMap gso thm
+R23171:23178 compcert.lib.Maps PMap gso thm
+R23171:23178 compcert.lib.Maps PMap gso thm
+R23264:23279 compcert.common.Memory Mem valid_access def
+R23432:23432 compcert.lib.Maps <> :::x_'!!'_x not
+R23449:23453 compcert.lib.Maps <> :::x_'!!'_x not
+R23455:23462 compcert.lib.Maps <> :::x_'!!'_x not
+R23433:23446 compcert.common.Memory Mem mem_access proj
+R23460:23462 compcert.common.Memtype <> Cur constr
+R23432:23432 compcert.lib.Maps <> :::x_'!!'_x not
+R23449:23453 compcert.lib.Maps <> :::x_'!!'_x not
+R23455:23462 compcert.lib.Maps <> :::x_'!!'_x not
+R23433:23446 compcert.common.Memory Mem mem_access proj
+R23460:23462 compcert.common.Memtype <> Cur constr
+R23502:23502 compcert.lib.Maps <> :::x_'!!'_x not
+R23520:23524 compcert.lib.Maps <> :::x_'!!'_x not
+R23526:23533 compcert.lib.Maps <> :::x_'!!'_x not
+R23503:23516 compcert.common.Memory Mem mem_access proj
+R23531:23533 compcert.common.Memtype <> Cur constr
+R23502:23502 compcert.lib.Maps <> :::x_'!!'_x not
+R23520:23524 compcert.lib.Maps <> :::x_'!!'_x not
+R23526:23533 compcert.lib.Maps <> :::x_'!!'_x not
+R23503:23516 compcert.common.Memory Mem mem_access proj
+R23531:23533 compcert.common.Memtype <> Cur constr
+R23502:23502 compcert.lib.Maps <> :::x_'!!'_x not
+R23520:23524 compcert.lib.Maps <> :::x_'!!'_x not
+R23526:23533 compcert.lib.Maps <> :::x_'!!'_x not
+R23503:23516 compcert.common.Memory Mem mem_access proj
+R23531:23533 compcert.common.Memtype <> Cur constr
+R22239:22247 compcert.common.Memory Mem store def
+R22280:22288 compcert.common.Memory Mem store def
+prf 23600:23614 <> free_access_inv
+binder 23616:23616 <> m:173
+binder 23618:23618 <> b:174
+binder 23620:23621 <> lo:175
+binder 23623:23624 <> hi:176
+binder 23626:23627 <> m':177
+R23652:23654 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23634:23641 compcert.common.Memory Mem free def
+R23650:23651 VST.sepcomp.semantics_lemmas <> hi:176 var
+R23647:23648 VST.sepcomp.semantics_lemmas <> lo:175 var
+R23645:23645 VST.sepcomp.semantics_lemmas <> b:174 var
+R23643:23643 VST.sepcomp.semantics_lemmas <> m:173 var
+R23655:23658 Coq.Init.Datatypes <> Some constr
+R23660:23661 VST.sepcomp.semantics_lemmas <> m':177 var
+binder 23630:23631 <> FR:178
+binder 23664:23665 <> b':179
+binder 23667:23669 <> ofs:180
+binder 23671:23671 <> k:181
+binder 23673:23673 <> p:182
+R23712:23714 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23681:23681 compcert.lib.Maps <> :::x_'!!'_x not
+R23699:23703 compcert.lib.Maps <> :::x_'!!'_x not
+R23706:23711 compcert.lib.Maps <> :::x_'!!'_x not
+R23704:23705 VST.sepcomp.semantics_lemmas <> b':179 var
+R23682:23695 compcert.common.Memory Mem mem_access proj
+R23697:23698 VST.sepcomp.semantics_lemmas <> m':177 var
+R23711:23711 VST.sepcomp.semantics_lemmas <> k:181 var
+R23707:23709 VST.sepcomp.semantics_lemmas <> ofs:180 var
+R23715:23718 Coq.Init.Datatypes <> Some constr
+R23720:23720 VST.sepcomp.semantics_lemmas <> p:182 var
+binder 23678:23678 <> P:183
+R23755:23757 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23725:23725 compcert.lib.Maps <> :::x_'!!'_x not
+R23742:23746 compcert.lib.Maps <> :::x_'!!'_x not
+R23749:23754 compcert.lib.Maps <> :::x_'!!'_x not
+R23747:23748 VST.sepcomp.semantics_lemmas <> b':179 var
+R23726:23739 compcert.common.Memory Mem mem_access proj
+R23741:23741 VST.sepcomp.semantics_lemmas <> m:173 var
+R23754:23754 VST.sepcomp.semantics_lemmas <> k:181 var
+R23750:23752 VST.sepcomp.semantics_lemmas <> ofs:180 var
+R23758:23761 Coq.Init.Datatypes <> Some constr
+R23763:23763 VST.sepcomp.semantics_lemmas <> p:182 var
+R23779:23793 compcert.common.Memory Mem free_result thm
+R23779:23793 compcert.common.Memory Mem free_result thm
+R23829:23839 compcert.lib.Maps PMap gsspec thm
+R23829:23839 compcert.lib.Maps PMap gsspec thm
+R23829:23839 compcert.lib.Maps PMap gsspec thm
+R23857:23859 compcert.lib.Coqlib <> peq def
+R23857:23859 compcert.lib.Coqlib <> peq def
+R23904:23907 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R23894:23896 compcert.lib.Coqlib <> zle def
+R23908:23910 compcert.lib.Coqlib <> zlt def
+R23904:23907 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R23894:23896 compcert.lib.Coqlib <> zle def
+R23908:23910 compcert.lib.Coqlib <> zlt def
+prf 23949:23968 <> free_access_inv_None
+binder 23970:23970 <> m:184
+binder 23972:23972 <> b:185
+binder 23974:23975 <> lo:186
+binder 23977:23978 <> hi:187
+binder 23980:23981 <> m':188
+R24006:24008 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23988:23995 compcert.common.Memory Mem free def
+R24004:24005 VST.sepcomp.semantics_lemmas <> hi:187 var
+R24001:24002 VST.sepcomp.semantics_lemmas <> lo:186 var
+R23999:23999 VST.sepcomp.semantics_lemmas <> b:185 var
+R23997:23997 VST.sepcomp.semantics_lemmas <> m:184 var
+R24009:24012 Coq.Init.Datatypes <> Some constr
+R24014:24015 VST.sepcomp.semantics_lemmas <> m':188 var
+binder 23984:23985 <> FR:189
+binder 24018:24019 <> b':190
+binder 24021:24023 <> ofs:191
+binder 24025:24025 <> k:192
+R24064:24066 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24033:24033 compcert.lib.Maps <> :::x_'!!'_x not
+R24051:24055 compcert.lib.Maps <> :::x_'!!'_x not
+R24058:24063 compcert.lib.Maps <> :::x_'!!'_x not
+R24056:24057 VST.sepcomp.semantics_lemmas <> b':190 var
+R24034:24047 compcert.common.Memory Mem mem_access proj
+R24049:24050 VST.sepcomp.semantics_lemmas <> m':188 var
+R24063:24063 VST.sepcomp.semantics_lemmas <> k:192 var
+R24059:24061 VST.sepcomp.semantics_lemmas <> ofs:191 var
+R24067:24070 Coq.Init.Datatypes <> None constr
+binder 24030:24030 <> P:193
+R24076:24076 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R24164:24171 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R24252:24252 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R24083:24086 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R24079:24081 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24077:24078 VST.sepcomp.semantics_lemmas <> b':190 var
+R24082:24082 VST.sepcomp.semantics_lemmas <> b:185 var
+R24098:24101 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R24087:24090 Coq.ZArith.BinInt Z le def
+R24095:24097 VST.sepcomp.semantics_lemmas <> ofs:191 var
+R24092:24093 VST.sepcomp.semantics_lemmas <> lo:186 var
+R24113:24117 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R24102:24105 Coq.ZArith.BinInt Z lt def
+R24111:24112 VST.sepcomp.semantics_lemmas <> hi:187 var
+R24107:24109 VST.sepcomp.semantics_lemmas <> ofs:191 var
+R24148:24150 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24118:24118 compcert.lib.Maps <> :::x_'!!'_x not
+R24135:24139 compcert.lib.Maps <> :::x_'!!'_x not
+R24142:24147 compcert.lib.Maps <> :::x_'!!'_x not
+R24140:24141 VST.sepcomp.semantics_lemmas <> b':190 var
+R24119:24132 compcert.common.Memory Mem mem_access proj
+R24134:24134 VST.sepcomp.semantics_lemmas <> m:184 var
+R24147:24147 VST.sepcomp.semantics_lemmas <> k:192 var
+R24143:24145 VST.sepcomp.semantics_lemmas <> ofs:191 var
+R24151:24154 Coq.Init.Datatypes <> Some constr
+R24156:24163 compcert.common.Memtype <> Freeable constr
+R24172:24172 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R24210:24214 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R24180:24183 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R24175:24178 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R24173:24174 VST.sepcomp.semantics_lemmas <> b':190 var
+R24179:24179 VST.sepcomp.semantics_lemmas <> b:185 var
+R24195:24198 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R24184:24187 Coq.ZArith.BinInt Z lt def
+R24193:24194 VST.sepcomp.semantics_lemmas <> lo:186 var
+R24189:24191 VST.sepcomp.semantics_lemmas <> ofs:191 var
+R24199:24202 Coq.ZArith.BinInt Z le def
+R24207:24209 VST.sepcomp.semantics_lemmas <> ofs:191 var
+R24204:24205 VST.sepcomp.semantics_lemmas <> hi:187 var
+R24245:24247 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24215:24215 compcert.lib.Maps <> :::x_'!!'_x not
+R24232:24236 compcert.lib.Maps <> :::x_'!!'_x not
+R24239:24244 compcert.lib.Maps <> :::x_'!!'_x not
+R24237:24238 VST.sepcomp.semantics_lemmas <> b':190 var
+R24216:24229 compcert.common.Memory Mem mem_access proj
+R24231:24231 VST.sepcomp.semantics_lemmas <> m:184 var
+R24244:24244 VST.sepcomp.semantics_lemmas <> k:192 var
+R24240:24242 VST.sepcomp.semantics_lemmas <> ofs:191 var
+R24248:24251 Coq.Init.Datatypes <> None constr
+R24274:24288 compcert.common.Memory Mem free_result thm
+R24274:24288 compcert.common.Memory Mem free_result thm
+R24340:24350 compcert.lib.Maps PMap gsspec thm
+R24340:24350 compcert.lib.Maps PMap gsspec thm
+R24340:24350 compcert.lib.Maps PMap gsspec thm
+R24368:24370 compcert.lib.Coqlib <> peq def
+R24368:24370 compcert.lib.Coqlib <> peq def
+R24408:24411 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R24398:24400 compcert.lib.Coqlib <> zle def
+R24412:24414 compcert.lib.Coqlib <> zlt def
+R24408:24411 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R24398:24400 compcert.lib.Coqlib <> zle def
+R24412:24414 compcert.lib.Coqlib <> zlt def
+R24487:24489 compcert.lib.Coqlib <> zle def
+R24487:24489 compcert.lib.Coqlib <> zle def
+R24560:24562 compcert.lib.Coqlib <> zlt def
+R24560:24562 compcert.lib.Coqlib <> zlt def
+R24639:24646 compcert.common.Memory Mem perm def
+R24660:24667 compcert.common.Memtype <> Freeable constr
+R24656:24658 compcert.common.Memtype <> Cur constr
+R24639:24646 compcert.common.Memory Mem perm def
+R24660:24667 compcert.common.Memtype <> Freeable constr
+R24656:24658 compcert.common.Memtype <> Cur constr
+R24678:24696 compcert.common.Memory Mem free_range_perm thm
+R24678:24696 compcert.common.Memory Mem free_range_perm thm
+R24751:24762 compcert.common.Memory Mem perm_max thm
+R24751:24762 compcert.common.Memory Mem perm_max thm
+R24784:24791 compcert.common.Memory Mem perm def
+R24810:24810 compcert.lib.Maps <> :::x_'!!'_x not
+R24827:24831 compcert.lib.Maps <> :::x_'!!'_x not
+R24833:24840 compcert.lib.Maps <> :::x_'!!'_x not
+R24811:24824 compcert.common.Memory Mem mem_access proj
+R24838:24840 compcert.common.Memtype <> Max constr
+R24810:24810 compcert.lib.Maps <> :::x_'!!'_x not
+R24827:24831 compcert.lib.Maps <> :::x_'!!'_x not
+R24833:24840 compcert.lib.Maps <> :::x_'!!'_x not
+R24811:24824 compcert.common.Memory Mem mem_access proj
+R24838:24840 compcert.common.Memtype <> Max constr
+R24960:24967 compcert.common.Memory Mem perm def
+R24986:24986 compcert.lib.Maps <> :::x_'!!'_x not
+R25003:25007 compcert.lib.Maps <> :::x_'!!'_x not
+R25009:25016 compcert.lib.Maps <> :::x_'!!'_x not
+R24987:25000 compcert.common.Memory Mem mem_access proj
+R25014:25016 compcert.common.Memtype <> Cur constr
+R24986:24986 compcert.lib.Maps <> :::x_'!!'_x not
+R25003:25007 compcert.lib.Maps <> :::x_'!!'_x not
+R25009:25016 compcert.lib.Maps <> :::x_'!!'_x not
+R24987:25000 compcert.common.Memory Mem mem_access proj
+R25014:25016 compcert.common.Memtype <> Cur constr
+R25171:25173 compcert.lib.Coqlib <> zle def
+R25194:25196 compcert.lib.Coqlib <> zlt def
+R25171:25173 compcert.lib.Coqlib <> zle def
+R25194:25196 compcert.lib.Coqlib <> zlt def
+R25194:25196 compcert.lib.Coqlib <> zlt def
+prf 25298:25305 <> ple_free
+binder 25315:25315 <> m:194
+binder 25317:25318 <> m':195
+binder 25320:25320 <> b:196
+binder 25322:25323 <> lo:197
+binder 25325:25326 <> hi:198
+R25351:25353 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25333:25340 compcert.common.Memory Mem free def
+R25349:25350 VST.sepcomp.semantics_lemmas <> hi:198 var
+R25346:25347 VST.sepcomp.semantics_lemmas <> lo:197 var
+R25344:25344 VST.sepcomp.semantics_lemmas <> b:196 var
+R25342:25342 VST.sepcomp.semantics_lemmas <> m:194 var
+R25354:25357 Coq.Init.Datatypes <> Some constr
+R25359:25360 VST.sepcomp.semantics_lemmas <> m':195 var
+binder 25329:25330 <> FL:199
+binder 25363:25364 <> m1:200
+R25371:25381 VST.sepcomp.semantics <> perm_lesseq rec
+R25385:25386 VST.sepcomp.semantics_lemmas <> m1:200 var
+R25383:25383 VST.sepcomp.semantics_lemmas <> m:194 var
+binder 25367:25369 <> PLE:201
+R25396:25402 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R25406:25407 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 25403:25405 <> m1':202
+R25438:25441 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R25427:25429 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25408:25415 compcert.common.Memory Mem free def
+R25425:25426 VST.sepcomp.semantics_lemmas <> hi:198 var
+R25422:25423 VST.sepcomp.semantics_lemmas <> lo:197 var
+R25420:25420 VST.sepcomp.semantics_lemmas <> b:196 var
+R25417:25418 VST.sepcomp.semantics_lemmas <> m1:200 var
+R25430:25433 Coq.Init.Datatypes <> Some constr
+R25435:25437 VST.sepcomp.semantics_lemmas <> m1':202 var
+R25442:25452 VST.sepcomp.semantics <> perm_lesseq rec
+R25457:25459 VST.sepcomp.semantics_lemmas <> m1':202 var
+R25454:25455 VST.sepcomp.semantics_lemmas <> m':195 var
+R25491:25509 compcert.common.Memory Mem free_range_perm thm
+R25491:25509 compcert.common.Memory Mem free_range_perm thm
+R25548:25561 compcert.common.Memory Mem range_perm def
+R25578:25585 compcert.common.Memtype <> Freeable constr
+R25574:25576 compcert.common.Memtype <> Cur constr
+R25548:25561 compcert.common.Memory Mem range_perm def
+R25578:25585 compcert.common.Memtype <> Freeable constr
+R25574:25576 compcert.common.Memtype <> Cur constr
+R25684:25691 compcert.common.Memory Mem perm def
+R25713:25713 compcert.lib.Maps <> :::x_'!!'_x not
+R25730:25734 compcert.lib.Maps <> :::x_'!!'_x not
+R25736:25743 compcert.lib.Maps <> :::x_'!!'_x not
+R25714:25727 compcert.common.Memory Mem mem_access proj
+R25741:25743 compcert.common.Memtype <> Cur constr
+R25713:25713 compcert.lib.Maps <> :::x_'!!'_x not
+R25730:25734 compcert.lib.Maps <> :::x_'!!'_x not
+R25736:25743 compcert.lib.Maps <> :::x_'!!'_x not
+R25714:25727 compcert.common.Memory Mem mem_access proj
+R25741:25743 compcert.common.Memtype <> Cur constr
+R25792:25792 compcert.lib.Maps <> :::x_'!!'_x not
+R25810:25814 compcert.lib.Maps <> :::x_'!!'_x not
+R25816:25823 compcert.lib.Maps <> :::x_'!!'_x not
+R25793:25806 compcert.common.Memory Mem mem_access proj
+R25821:25823 compcert.common.Memtype <> Cur constr
+R25792:25792 compcert.lib.Maps <> :::x_'!!'_x not
+R25810:25814 compcert.lib.Maps <> :::x_'!!'_x not
+R25816:25823 compcert.lib.Maps <> :::x_'!!'_x not
+R25793:25806 compcert.common.Memory Mem mem_access proj
+R25821:25823 compcert.common.Memtype <> Cur constr
+R25869:25884 compcert.common.Memtype <> perm_order_trans thm
+R25869:25884 compcert.common.Memtype <> perm_order_trans thm
+R25916:25934 compcert.common.Memory Mem range_perm_free thm
+R25916:25934 compcert.common.Memory Mem range_perm_free thm
+R26108:26108 compcert.lib.Maps <> :::x_'!!'_x not
+R26126:26130 compcert.lib.Maps <> :::x_'!!'_x not
+R26133:26140 compcert.lib.Maps <> :::x_'!!'_x not
+R26109:26122 compcert.common.Memory Mem mem_access proj
+R26138:26140 compcert.common.Memtype <> Cur constr
+R26108:26108 compcert.lib.Maps <> :::x_'!!'_x not
+R26126:26130 compcert.lib.Maps <> :::x_'!!'_x not
+R26133:26140 compcert.lib.Maps <> :::x_'!!'_x not
+R26109:26122 compcert.common.Memory Mem mem_access proj
+R26138:26140 compcert.common.Memtype <> Cur constr
+R26214:26228 VST.sepcomp.semantics_lemmas <> free_access_inv thm
+R26214:26228 VST.sepcomp.semantics_lemmas <> free_access_inv thm
+R26214:26228 VST.sepcomp.semantics_lemmas <> free_access_inv thm
+R26281:26281 compcert.lib.Maps <> :::x_'!!'_x not
+R26299:26303 compcert.lib.Maps <> :::x_'!!'_x not
+R26306:26313 compcert.lib.Maps <> :::x_'!!'_x not
+R26282:26295 compcert.common.Memory Mem mem_access proj
+R26311:26313 compcert.common.Memtype <> Cur constr
+R26281:26281 compcert.lib.Maps <> :::x_'!!'_x not
+R26299:26303 compcert.lib.Maps <> :::x_'!!'_x not
+R26306:26313 compcert.lib.Maps <> :::x_'!!'_x not
+R26282:26295 compcert.common.Memory Mem mem_access proj
+R26311:26313 compcert.common.Memtype <> Cur constr
+R26388:26402 VST.sepcomp.semantics_lemmas <> free_access_inv thm
+R26388:26402 VST.sepcomp.semantics_lemmas <> free_access_inv thm
+R26388:26402 VST.sepcomp.semantics_lemmas <> free_access_inv thm
+R26476:26476 compcert.lib.Maps <> :::x_'!!'_x not
+R26494:26498 compcert.lib.Maps <> :::x_'!!'_x not
+R26501:26508 compcert.lib.Maps <> :::x_'!!'_x not
+R26477:26490 compcert.common.Memory Mem mem_access proj
+R26506:26508 compcert.common.Memtype <> Cur constr
+R26476:26476 compcert.lib.Maps <> :::x_'!!'_x not
+R26494:26498 compcert.lib.Maps <> :::x_'!!'_x not
+R26501:26508 compcert.lib.Maps <> :::x_'!!'_x not
+R26477:26490 compcert.common.Memory Mem mem_access proj
+R26506:26508 compcert.common.Memtype <> Cur constr
+R26581:26595 VST.sepcomp.semantics_lemmas <> free_access_inv thm
+R26581:26595 VST.sepcomp.semantics_lemmas <> free_access_inv thm
+R26581:26595 VST.sepcomp.semantics_lemmas <> free_access_inv thm
+R26648:26667 VST.sepcomp.semantics_lemmas <> free_access_inv_None thm
+R26648:26667 VST.sepcomp.semantics_lemmas <> free_access_inv_None thm
+R26763:26777 compcert.common.Memory Mem free_result thm
+R26763:26777 compcert.common.Memory Mem free_result thm
+R26763:26777 compcert.common.Memory Mem free_result thm
+R26830:26837 compcert.lib.Maps PMap gss thm
+R26830:26837 compcert.lib.Maps PMap gss thm
+R26830:26837 compcert.lib.Maps PMap gss thm
+R26879:26881 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26869:26871 compcert.lib.Coqlib <> zle def
+R26882:26884 compcert.lib.Coqlib <> zlt def
+R26879:26881 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R26869:26871 compcert.lib.Coqlib <> zle def
+R26882:26884 compcert.lib.Coqlib <> zlt def
+R26964:26966 compcert.lib.Coqlib <> zle def
+R26987:26989 compcert.lib.Coqlib <> zlt def
+R26964:26966 compcert.lib.Coqlib <> zle def
+R26987:26989 compcert.lib.Coqlib <> zlt def
+R26987:26989 compcert.lib.Coqlib <> zlt def
+R27195:27195 compcert.lib.Maps <> :::x_'!!'_x not
+R27213:27217 compcert.lib.Maps <> :::x_'!!'_x not
+R27220:27227 compcert.lib.Maps <> :::x_'!!'_x not
+R27196:27209 compcert.common.Memory Mem mem_access proj
+R27225:27227 compcert.common.Memtype <> Max constr
+R27195:27195 compcert.lib.Maps <> :::x_'!!'_x not
+R27213:27217 compcert.lib.Maps <> :::x_'!!'_x not
+R27220:27227 compcert.lib.Maps <> :::x_'!!'_x not
+R27196:27209 compcert.common.Memory Mem mem_access proj
+R27225:27227 compcert.common.Memtype <> Max constr
+R27301:27315 VST.sepcomp.semantics_lemmas <> free_access_inv thm
+R27301:27315 VST.sepcomp.semantics_lemmas <> free_access_inv thm
+R27301:27315 VST.sepcomp.semantics_lemmas <> free_access_inv thm
+R27368:27368 compcert.lib.Maps <> :::x_'!!'_x not
+R27386:27390 compcert.lib.Maps <> :::x_'!!'_x not
+R27393:27400 compcert.lib.Maps <> :::x_'!!'_x not
+R27369:27382 compcert.common.Memory Mem mem_access proj
+R27398:27400 compcert.common.Memtype <> Max constr
+R27368:27368 compcert.lib.Maps <> :::x_'!!'_x not
+R27386:27390 compcert.lib.Maps <> :::x_'!!'_x not
+R27393:27400 compcert.lib.Maps <> :::x_'!!'_x not
+R27369:27382 compcert.common.Memory Mem mem_access proj
+R27398:27400 compcert.common.Memtype <> Max constr
+R27475:27489 VST.sepcomp.semantics_lemmas <> free_access_inv thm
+R27475:27489 VST.sepcomp.semantics_lemmas <> free_access_inv thm
+R27475:27489 VST.sepcomp.semantics_lemmas <> free_access_inv thm
+R27563:27563 compcert.lib.Maps <> :::x_'!!'_x not
+R27581:27585 compcert.lib.Maps <> :::x_'!!'_x not
+R27588:27595 compcert.lib.Maps <> :::x_'!!'_x not
+R27564:27577 compcert.common.Memory Mem mem_access proj
+R27593:27595 compcert.common.Memtype <> Max constr
+R27563:27563 compcert.lib.Maps <> :::x_'!!'_x not
+R27581:27585 compcert.lib.Maps <> :::x_'!!'_x not
+R27588:27595 compcert.lib.Maps <> :::x_'!!'_x not
+R27564:27577 compcert.common.Memory Mem mem_access proj
+R27593:27595 compcert.common.Memtype <> Max constr
+R27668:27682 VST.sepcomp.semantics_lemmas <> free_access_inv thm
+R27668:27682 VST.sepcomp.semantics_lemmas <> free_access_inv thm
+R27668:27682 VST.sepcomp.semantics_lemmas <> free_access_inv thm
+R27735:27754 VST.sepcomp.semantics_lemmas <> free_access_inv_None thm
+R27735:27754 VST.sepcomp.semantics_lemmas <> free_access_inv_None thm
+R27850:27864 compcert.common.Memory Mem free_result thm
+R27850:27864 compcert.common.Memory Mem free_result thm
+R27850:27864 compcert.common.Memory Mem free_result thm
+R27917:27924 compcert.lib.Maps PMap gss thm
+R27917:27924 compcert.lib.Maps PMap gss thm
+R27917:27924 compcert.lib.Maps PMap gss thm
+R27966:27968 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27956:27958 compcert.lib.Coqlib <> zle def
+R27969:27971 compcert.lib.Coqlib <> zlt def
+R27966:27968 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R27956:27958 compcert.lib.Coqlib <> zle def
+R27969:27971 compcert.lib.Coqlib <> zlt def
+R28051:28053 compcert.lib.Coqlib <> zle def
+R28074:28076 compcert.lib.Coqlib <> zlt def
+R28051:28053 compcert.lib.Coqlib <> zle def
+R28074:28076 compcert.lib.Coqlib <> zlt def
+R28074:28076 compcert.lib.Coqlib <> zlt def
+R28212:28226 compcert.common.Memory Mem free_result thm
+R28212:28226 compcert.common.Memory Mem free_result thm
+R28212:28226 compcert.common.Memory Mem free_result thm
+R28252:28266 compcert.common.Memory Mem free_result thm
+R28252:28266 compcert.common.Memory Mem free_result thm
+R28252:28266 compcert.common.Memory Mem free_result thm
+R28321:28335 compcert.common.Memory Mem perm_free_3 thm
+R28321:28335 compcert.common.Memory Mem perm_free_3 thm
+R28364:28378 compcert.common.Memory Mem free_result thm
+R28364:28378 compcert.common.Memory Mem free_result thm
+R28364:28378 compcert.common.Memory Mem free_result thm
+R28404:28418 compcert.common.Memory Mem free_result thm
+R28404:28418 compcert.common.Memory Mem free_result thm
+R28404:28418 compcert.common.Memory Mem free_result thm
+prf 28467:28478 <> ple_freelist
+binder 28488:28488 <> l:203
+binder 28490:28490 <> m:204
+binder 28492:28493 <> m':205
+R28517:28519 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28500:28512 compcert.common.Memory Mem free_list def
+R28516:28516 VST.sepcomp.semantics_lemmas <> l:203 var
+R28514:28514 VST.sepcomp.semantics_lemmas <> m:204 var
+R28520:28523 Coq.Init.Datatypes <> Some constr
+R28525:28526 VST.sepcomp.semantics_lemmas <> m':205 var
+binder 28496:28497 <> FL:206
+binder 28529:28530 <> m1:207
+R28537:28547 VST.sepcomp.semantics <> perm_lesseq rec
+R28551:28552 VST.sepcomp.semantics_lemmas <> m1:207 var
+R28549:28549 VST.sepcomp.semantics_lemmas <> m:204 var
+binder 28533:28535 <> PLE:208
+R28562:28568 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R28572:28573 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 28569:28571 <> m1':209
+R28603:28606 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R28592:28594 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28574:28586 compcert.common.Memory Mem free_list def
+R28591:28591 VST.sepcomp.semantics_lemmas <> l:203 var
+R28588:28589 VST.sepcomp.semantics_lemmas <> m1:207 var
+R28595:28598 Coq.Init.Datatypes <> Some constr
+R28600:28602 VST.sepcomp.semantics_lemmas <> m1':209 var
+R28607:28617 VST.sepcomp.semantics <> perm_lesseq rec
+R28622:28624 VST.sepcomp.semantics_lemmas <> m1':209 var
+R28619:28620 VST.sepcomp.semantics_lemmas <> m':205 var
+R28739:28746 compcert.common.Memory Mem free def
+R28739:28746 compcert.common.Memory Mem free def
+R28817:28824 VST.sepcomp.semantics_lemmas <> ple_free thm
+R28817:28824 VST.sepcomp.semantics_lemmas <> ple_free thm
+prf 28898:28911 <> ple_storebytes
+binder 28923:28923 <> m:210
+binder 28925:28925 <> b:211
+binder 28927:28929 <> ofs:212
+binder 28931:28935 <> bytes:213
+binder 28937:28938 <> m':214
+binder 28940:28941 <> m1:215
+R28952:28962 VST.sepcomp.semantics <> perm_lesseq rec
+R28966:28967 VST.sepcomp.semantics_lemmas <> m1:215 var
+R28964:28964 VST.sepcomp.semantics_lemmas <> m:210 var
+binder 28947:28949 <> PLE:216
+R29012:29018 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29019:29025 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R29029:29030 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 29026:29028 <> m1':217
+R29049:29052 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R29031:29041 VST.sepcomp.semantics <> perm_lesseq rec
+R29046:29048 VST.sepcomp.semantics_lemmas <> m1':217 var
+R29043:29044 VST.sepcomp.semantics_lemmas <> m':214 var
+R29082:29084 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29053:29066 compcert.common.Memory Mem storebytes def
+R29077:29081 VST.sepcomp.semantics_lemmas <> bytes:213 var
+R29073:29075 VST.sepcomp.semantics_lemmas <> ofs:212 var
+R29071:29071 VST.sepcomp.semantics_lemmas <> b:211 var
+R29068:29069 VST.sepcomp.semantics_lemmas <> m1:215 var
+R29085:29088 Coq.Init.Datatypes <> Some constr
+R29090:29092 VST.sepcomp.semantics_lemmas <> m1':217 var
+R29002:29004 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28974:28987 compcert.common.Memory Mem storebytes def
+R28997:29001 VST.sepcomp.semantics_lemmas <> bytes:213 var
+R28993:28995 VST.sepcomp.semantics_lemmas <> ofs:212 var
+R28991:28991 VST.sepcomp.semantics_lemmas <> b:211 var
+R28989:28989 VST.sepcomp.semantics_lemmas <> m:210 var
+R29005:29008 Coq.Init.Datatypes <> Some constr
+R29010:29011 VST.sepcomp.semantics_lemmas <> m':214 var
+R29122:29135 compcert.common.Memory Mem storebytes def
+R29145:29158 compcert.common.Memory Mem storebytes def
+R29173:29186 compcert.common.Memory Mem storebytes def
+R29199:29216 compcert.common.Memory Mem range_perm_dec thm
+R29262:29269 compcert.common.Memtype <> Writable constr
+R29258:29260 compcert.common.Memtype <> Cur constr
+R29230:29232 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29233:29240 Coq.ZArith.BinInt Z of_nat def
+R29243:29248 Coq.Lists.List <> length syndef
+R29199:29216 compcert.common.Memory Mem range_perm_dec thm
+R29262:29269 compcert.common.Memtype <> Writable constr
+R29258:29260 compcert.common.Memtype <> Cur constr
+R29230:29232 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29233:29240 Coq.ZArith.BinInt Z of_nat def
+R29243:29248 Coq.Lists.List <> length syndef
+R29308:29325 compcert.common.Memory Mem range_perm_dec thm
+R29372:29379 compcert.common.Memtype <> Writable constr
+R29368:29370 compcert.common.Memtype <> Cur constr
+R29340:29342 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29343:29350 Coq.ZArith.BinInt Z of_nat def
+R29353:29358 Coq.Lists.List <> length syndef
+R29308:29325 compcert.common.Memory Mem range_perm_dec thm
+R29372:29379 compcert.common.Memtype <> Writable constr
+R29368:29370 compcert.common.Memtype <> Cur constr
+R29340:29342 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29343:29350 Coq.ZArith.BinInt Z of_nat def
+R29353:29358 Coq.Lists.List <> length syndef
+R29555:29565 compcert.lib.Maps PMap gsspec thm
+R29555:29565 compcert.lib.Maps PMap gsspec thm
+R29555:29565 compcert.lib.Maps PMap gsspec thm
+R29576:29586 compcert.lib.Maps PMap gsspec thm
+R29576:29586 compcert.lib.Maps PMap gsspec thm
+R29576:29586 compcert.lib.Maps PMap gsspec thm
+R29603:29605 compcert.lib.Coqlib <> peq def
+R29603:29605 compcert.lib.Coqlib <> peq def
+R29637:29639 compcert.lib.Coqlib <> zlt def
+R29637:29639 compcert.lib.Coqlib <> zlt def
+R29669:29684 compcert.common.Memory Mem setN_outside thm
+R29669:29684 compcert.common.Memory Mem setN_outside thm
+R29669:29684 compcert.common.Memory Mem setN_outside thm
+R29669:29684 compcert.common.Memory Mem setN_outside thm
+R29714:29729 compcert.common.Memory Mem setN_outside thm
+R29714:29729 compcert.common.Memory Mem setN_outside thm
+R29714:29729 compcert.common.Memory Mem setN_outside thm
+R29714:29729 compcert.common.Memory Mem setN_outside thm
+R29799:29801 compcert.lib.Coqlib <> zle def
+R29807:29807 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29808:29815 Coq.ZArith.BinInt Z of_nat def
+R29818:29823 Coq.Lists.List <> length syndef
+R29799:29801 compcert.lib.Coqlib <> zle def
+R29807:29807 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R29808:29815 Coq.ZArith.BinInt Z of_nat def
+R29818:29823 Coq.Lists.List <> length syndef
+R29857:29872 compcert.common.Memory Mem setN_outside thm
+R29857:29872 compcert.common.Memory Mem setN_outside thm
+R29857:29872 compcert.common.Memory Mem setN_outside thm
+R29857:29872 compcert.common.Memory Mem setN_outside thm
+R29899:29914 compcert.common.Memory Mem setN_outside thm
+R29899:29914 compcert.common.Memory Mem setN_outside thm
+R29899:29914 compcert.common.Memory Mem setN_outside thm
+R29899:29914 compcert.common.Memory Mem setN_outside thm
+R30004:30004 compcert.lib.Maps <> :::x_'!!'_x not
+R30024:30028 compcert.lib.Maps <> :::x_'!!'_x not
+R30005:30020 compcert.common.Memory Mem mem_contents proj
+R30004:30004 compcert.lib.Maps <> :::x_'!!'_x not
+R30024:30028 compcert.lib.Maps <> :::x_'!!'_x not
+R30005:30020 compcert.common.Memory Mem mem_contents proj
+R30071:30071 compcert.lib.Maps <> :::x_'!!'_x not
+R30090:30094 compcert.lib.Maps <> :::x_'!!'_x not
+R30072:30087 compcert.common.Memory Mem mem_contents proj
+R30071:30071 compcert.lib.Maps <> :::x_'!!'_x not
+R30090:30094 compcert.lib.Maps <> :::x_'!!'_x not
+R30072:30087 compcert.common.Memory Mem mem_contents proj
+R30251:30255 Coq.ZArith.Znat <> inj_S syndef
+R30251:30255 Coq.ZArith.Znat <> inj_S syndef
+R30251:30255 Coq.ZArith.Znat <> inj_S syndef
+R30286:30288 compcert.lib.Coqlib <> zeq def
+R30286:30288 compcert.lib.Coqlib <> zeq def
+R30337:30352 compcert.common.Memory Mem setN_outside thm
+R30337:30352 compcert.common.Memory Mem setN_outside thm
+R30337:30352 compcert.common.Memory Mem setN_outside thm
+R30337:30352 compcert.common.Memory Mem setN_outside thm
+R30337:30352 compcert.common.Memory Mem setN_outside thm
+R30371:30378 compcert.lib.Maps ZMap gss thm
+R30371:30378 compcert.lib.Maps ZMap gss thm
+R30371:30378 compcert.lib.Maps ZMap gss thm
+R30371:30378 compcert.lib.Maps ZMap gss thm
+R30371:30378 compcert.lib.Maps ZMap gss thm
+R30590:30597 compcert.common.Memory Mem perm def
+R30617:30617 compcert.lib.Maps <> :::x_'!!'_x not
+R30635:30639 compcert.lib.Maps <> :::x_'!!'_x not
+R30641:30649 compcert.lib.Maps <> :::x_'!!'_x not
+R30618:30631 compcert.common.Memory Mem mem_access proj
+R30647:30649 compcert.common.Memtype <> Cur constr
+R30617:30617 compcert.lib.Maps <> :::x_'!!'_x not
+R30635:30639 compcert.lib.Maps <> :::x_'!!'_x not
+R30641:30649 compcert.lib.Maps <> :::x_'!!'_x not
+R30618:30631 compcert.common.Memory Mem mem_access proj
+R30647:30649 compcert.common.Memtype <> Cur constr
+R30665:30665 compcert.lib.Maps <> :::x_'!!'_x not
+R30682:30686 compcert.lib.Maps <> :::x_'!!'_x not
+R30688:30696 compcert.lib.Maps <> :::x_'!!'_x not
+R30666:30679 compcert.common.Memory Mem mem_access proj
+R30694:30696 compcert.common.Memtype <> Cur constr
+R30665:30665 compcert.lib.Maps <> :::x_'!!'_x not
+R30682:30686 compcert.lib.Maps <> :::x_'!!'_x not
+R30688:30696 compcert.lib.Maps <> :::x_'!!'_x not
+R30666:30679 compcert.common.Memory Mem mem_access proj
+R30694:30696 compcert.common.Memtype <> Cur constr
+R30719:30734 compcert.common.Memtype <> perm_order_trans thm
+R30719:30734 compcert.common.Memtype <> perm_order_trans thm
+R30771:30771 compcert.lib.Maps <> :::x_'!!'_x not
+R30788:30792 compcert.lib.Maps <> :::x_'!!'_x not
+R30794:30802 compcert.lib.Maps <> :::x_'!!'_x not
+R30772:30785 compcert.common.Memory Mem mem_access proj
+R30800:30802 compcert.common.Memtype <> Cur constr
+R30771:30771 compcert.lib.Maps <> :::x_'!!'_x not
+R30788:30792 compcert.lib.Maps <> :::x_'!!'_x not
+R30794:30802 compcert.lib.Maps <> :::x_'!!'_x not
+R30772:30785 compcert.common.Memory Mem mem_access proj
+R30800:30802 compcert.common.Memtype <> Cur constr
+R29122:29135 compcert.common.Memory Mem storebytes def
+R29173:29186 compcert.common.Memory Mem storebytes def
+prf 30842:30854 <> ple_loadbytes
+binder 30856:30856 <> m:218
+binder 30858:30858 <> b:219
+binder 30860:30862 <> ofs:220
+binder 30864:30864 <> n:221
+binder 30866:30870 <> bytes:222
+R30912:30914 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30889:30901 compcert.common.Memory Mem loadbytes def
+R30911:30911 VST.sepcomp.semantics_lemmas <> n:221 var
+R30907:30909 VST.sepcomp.semantics_lemmas <> ofs:220 var
+R30905:30905 VST.sepcomp.semantics_lemmas <> b:219 var
+R30903:30903 VST.sepcomp.semantics_lemmas <> m:218 var
+R30915:30918 Coq.Init.Datatypes <> Some constr
+R30920:30924 VST.sepcomp.semantics_lemmas <> bytes:222 var
+binder 30885:30886 <> LD:223
+binder 30939:30940 <> m1:224
+R30948:30958 VST.sepcomp.semantics <> perm_lesseq rec
+R30962:30963 VST.sepcomp.semantics_lemmas <> m1:224 var
+R30960:30960 VST.sepcomp.semantics_lemmas <> m:218 var
+binder 30943:30945 <> PLE:225
+R30971:30974 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R30975:30975 VST.sepcomp.semantics_lemmas <> n:221 var
+binder 30967:30967 <> N:226
+R31015:31017 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30991:31003 compcert.common.Memory Mem loadbytes def
+R31014:31014 VST.sepcomp.semantics_lemmas <> n:221 var
+R31010:31012 VST.sepcomp.semantics_lemmas <> ofs:220 var
+R31008:31008 VST.sepcomp.semantics_lemmas <> b:219 var
+R31005:31006 VST.sepcomp.semantics_lemmas <> m1:224 var
+R31018:31021 Coq.Init.Datatypes <> Some constr
+R31023:31027 VST.sepcomp.semantics_lemmas <> bytes:222 var
+R31049:31061 compcert.common.Memory Mem loadbytes def
+R31071:31083 compcert.common.Memory Mem loadbytes def
+R31093:31105 compcert.common.Memory Mem loadbytes def
+R31114:31124 VST.sepcomp.mem_lemmas <> loadbytes_D thm
+R31114:31124 VST.sepcomp.mem_lemmas <> loadbytes_D thm
+R31184:31201 compcert.common.Memory Mem range_perm_dec thm
+R31226:31233 compcert.common.Memtype <> Readable constr
+R31222:31224 compcert.common.Memtype <> Cur constr
+R31216:31218 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R31184:31201 compcert.common.Memory Mem range_perm_dec thm
+R31226:31233 compcert.common.Memtype <> Readable constr
+R31222:31224 compcert.common.Memtype <> Cur constr
+R31216:31218 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R31269:31282 compcert.common.Memory Mem getN_exten thm
+R31269:31282 compcert.common.Memory Mem getN_exten thm
+R31334:31341 Coq.ZArith.Znat Z2Nat id thm
+R31334:31341 Coq.ZArith.Znat Z2Nat id thm
+R31334:31341 Coq.ZArith.Znat Z2Nat id thm
+R31334:31341 Coq.ZArith.Znat Z2Nat id thm
+R31469:31476 compcert.common.Memory Mem perm def
+R31496:31496 compcert.lib.Maps <> :::x_'!!'_x not
+R31514:31518 compcert.lib.Maps <> :::x_'!!'_x not
+R31520:31528 compcert.lib.Maps <> :::x_'!!'_x not
+R31497:31510 compcert.common.Memory Mem mem_access proj
+R31526:31528 compcert.common.Memtype <> Cur constr
+R31496:31496 compcert.lib.Maps <> :::x_'!!'_x not
+R31514:31518 compcert.lib.Maps <> :::x_'!!'_x not
+R31520:31528 compcert.lib.Maps <> :::x_'!!'_x not
+R31497:31510 compcert.common.Memory Mem mem_access proj
+R31526:31528 compcert.common.Memtype <> Cur constr
+R31544:31544 compcert.lib.Maps <> :::x_'!!'_x not
+R31561:31565 compcert.lib.Maps <> :::x_'!!'_x not
+R31567:31575 compcert.lib.Maps <> :::x_'!!'_x not
+R31545:31558 compcert.common.Memory Mem mem_access proj
+R31573:31575 compcert.common.Memtype <> Cur constr
+R31544:31544 compcert.lib.Maps <> :::x_'!!'_x not
+R31561:31565 compcert.lib.Maps <> :::x_'!!'_x not
+R31567:31575 compcert.lib.Maps <> :::x_'!!'_x not
+R31545:31558 compcert.common.Memory Mem mem_access proj
+R31573:31575 compcert.common.Memtype <> Cur constr
+R31598:31613 compcert.common.Memtype <> perm_order_trans thm
+R31598:31613 compcert.common.Memtype <> perm_order_trans thm
+R31652:31652 compcert.lib.Maps <> :::x_'!!'_x not
+R31669:31673 compcert.lib.Maps <> :::x_'!!'_x not
+R31675:31683 compcert.lib.Maps <> :::x_'!!'_x not
+R31653:31666 compcert.common.Memory Mem mem_access proj
+R31681:31683 compcert.common.Memtype <> Cur constr
+R31652:31652 compcert.lib.Maps <> :::x_'!!'_x not
+R31669:31673 compcert.lib.Maps <> :::x_'!!'_x not
+R31675:31683 compcert.lib.Maps <> :::x_'!!'_x not
+R31653:31666 compcert.common.Memory Mem mem_access proj
+R31681:31683 compcert.common.Memtype <> Cur constr
+R31049:31061 compcert.common.Memory Mem loadbytes def
+R31093:31105 compcert.common.Memory Mem loadbytes def
+prf 31725:31740 <> alloc_access_inv
+binder 31742:31742 <> m:227
+binder 31744:31744 <> b:228
+binder 31746:31747 <> lo:229
+binder 31749:31750 <> hi:230
+binder 31752:31753 <> m':231
+R31780:31782 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31763:31771 compcert.common.Memory Mem alloc def
+R31778:31779 VST.sepcomp.semantics_lemmas <> hi:230 var
+R31775:31776 VST.sepcomp.semantics_lemmas <> lo:229 var
+R31773:31773 VST.sepcomp.semantics_lemmas <> m:227 var
+R31783:31783 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31786:31787 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31789:31789 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31784:31785 VST.sepcomp.semantics_lemmas <> m':231 var
+R31788:31788 VST.sepcomp.semantics_lemmas <> b:228 var
+binder 31756:31760 <> ALLOC:232
+binder 31792:31793 <> b':233
+binder 31795:31797 <> ofs:234
+binder 31799:31799 <> k:235
+binder 31801:31801 <> p:236
+R31840:31842 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31809:31809 compcert.lib.Maps <> :::x_'!!'_x not
+R31827:31831 compcert.lib.Maps <> :::x_'!!'_x not
+R31834:31839 compcert.lib.Maps <> :::x_'!!'_x not
+R31832:31833 VST.sepcomp.semantics_lemmas <> b':233 var
+R31810:31823 compcert.common.Memory Mem mem_access proj
+R31825:31826 VST.sepcomp.semantics_lemmas <> m':231 var
+R31839:31839 VST.sepcomp.semantics_lemmas <> k:235 var
+R31835:31837 VST.sepcomp.semantics_lemmas <> ofs:234 var
+R31843:31846 Coq.Init.Datatypes <> Some constr
+R31848:31848 VST.sepcomp.semantics_lemmas <> p:236 var
+binder 31806:31806 <> P:237
+R31854:31854 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R31889:31896 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R31947:31947 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R31859:31862 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R31857:31857 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31855:31856 VST.sepcomp.semantics_lemmas <> b':233 var
+R31858:31858 VST.sepcomp.semantics_lemmas <> b:228 var
+R31874:31877 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R31863:31866 Coq.ZArith.BinInt Z le def
+R31871:31873 VST.sepcomp.semantics_lemmas <> ofs:234 var
+R31868:31869 VST.sepcomp.semantics_lemmas <> lo:229 var
+R31878:31881 Coq.ZArith.BinInt Z lt def
+R31887:31888 VST.sepcomp.semantics_lemmas <> hi:230 var
+R31883:31885 VST.sepcomp.semantics_lemmas <> ofs:234 var
+R31904:31907 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R31899:31902 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R31897:31898 VST.sepcomp.semantics_lemmas <> b':233 var
+R31903:31903 VST.sepcomp.semantics_lemmas <> b:228 var
+R31938:31940 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31908:31908 compcert.lib.Maps <> :::x_'!!'_x not
+R31925:31929 compcert.lib.Maps <> :::x_'!!'_x not
+R31932:31937 compcert.lib.Maps <> :::x_'!!'_x not
+R31930:31931 VST.sepcomp.semantics_lemmas <> b':233 var
+R31909:31922 compcert.common.Memory Mem mem_access proj
+R31924:31924 VST.sepcomp.semantics_lemmas <> m:227 var
+R31937:31937 VST.sepcomp.semantics_lemmas <> k:235 var
+R31933:31935 VST.sepcomp.semantics_lemmas <> ofs:234 var
+R31941:31944 Coq.Init.Datatypes <> Some constr
+R31946:31946 VST.sepcomp.semantics_lemmas <> p:236 var
+R31969:31977 compcert.common.Memory Mem alloc def
+R31987:31995 compcert.common.Memory Mem alloc def
+R32014:32022 compcert.common.Memory Mem alloc def
+R32056:32066 compcert.lib.Maps PMap gsspec thm
+R32056:32066 compcert.lib.Maps PMap gsspec thm
+R32056:32066 compcert.lib.Maps PMap gsspec thm
+R32084:32086 compcert.lib.Coqlib <> peq def
+R32092:32104 compcert.common.Memory Mem nextblock proj
+R32084:32086 compcert.lib.Coqlib <> peq def
+R32092:32104 compcert.common.Memory Mem nextblock proj
+R32173:32176 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R32163:32165 compcert.lib.Coqlib <> zle def
+R32177:32179 compcert.lib.Coqlib <> zlt def
+R32173:32176 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R32163:32165 compcert.lib.Coqlib <> zle def
+R32177:32179 compcert.lib.Coqlib <> zlt def
+R32235:32237 compcert.lib.Coqlib <> zle def
+R32258:32260 compcert.lib.Coqlib <> zlt def
+R32235:32237 compcert.lib.Coqlib <> zle def
+R32258:32260 compcert.lib.Coqlib <> zlt def
+R32258:32260 compcert.lib.Coqlib <> zlt def
+R31969:31977 compcert.common.Memory Mem alloc def
+R32014:32022 compcert.common.Memory Mem alloc def
+prf 32343:32363 <> alloc_access_inv_None
+binder 32365:32365 <> m:238
+binder 32367:32367 <> b:239
+binder 32369:32370 <> lo:240
+binder 32372:32373 <> hi:241
+binder 32375:32376 <> m':242
+R32403:32405 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32386:32394 compcert.common.Memory Mem alloc def
+R32401:32402 VST.sepcomp.semantics_lemmas <> hi:241 var
+R32398:32399 VST.sepcomp.semantics_lemmas <> lo:240 var
+R32396:32396 VST.sepcomp.semantics_lemmas <> m:238 var
+R32406:32406 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32409:32410 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32412:32412 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32407:32408 VST.sepcomp.semantics_lemmas <> m':242 var
+R32411:32411 VST.sepcomp.semantics_lemmas <> b:239 var
+binder 32379:32383 <> ALLOC:243
+binder 32415:32416 <> b':244
+binder 32418:32420 <> ofs:245
+binder 32422:32422 <> k:246
+R32461:32463 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32430:32430 compcert.lib.Maps <> :::x_'!!'_x not
+R32448:32452 compcert.lib.Maps <> :::x_'!!'_x not
+R32455:32460 compcert.lib.Maps <> :::x_'!!'_x not
+R32453:32454 VST.sepcomp.semantics_lemmas <> b':244 var
+R32431:32444 compcert.common.Memory Mem mem_access proj
+R32446:32447 VST.sepcomp.semantics_lemmas <> m':242 var
+R32460:32460 VST.sepcomp.semantics_lemmas <> k:246 var
+R32456:32458 VST.sepcomp.semantics_lemmas <> ofs:245 var
+R32464:32467 Coq.Init.Datatypes <> None constr
+binder 32427:32427 <> P:247
+R32501:32503 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32471:32471 compcert.lib.Maps <> :::x_'!!'_x not
+R32488:32492 compcert.lib.Maps <> :::x_'!!'_x not
+R32495:32500 compcert.lib.Maps <> :::x_'!!'_x not
+R32493:32494 VST.sepcomp.semantics_lemmas <> b':244 var
+R32472:32485 compcert.common.Memory Mem mem_access proj
+R32487:32487 VST.sepcomp.semantics_lemmas <> m:238 var
+R32500:32500 VST.sepcomp.semantics_lemmas <> k:246 var
+R32496:32498 VST.sepcomp.semantics_lemmas <> ofs:245 var
+R32504:32507 Coq.Init.Datatypes <> None constr
+R32529:32537 compcert.common.Memory Mem alloc def
+R32547:32555 compcert.common.Memory Mem alloc def
+R32574:32582 compcert.common.Memory Mem alloc def
+R32616:32626 compcert.lib.Maps PMap gsspec thm
+R32616:32626 compcert.lib.Maps PMap gsspec thm
+R32616:32626 compcert.lib.Maps PMap gsspec thm
+R32644:32646 compcert.lib.Coqlib <> peq def
+R32652:32664 compcert.common.Memory Mem nextblock proj
+R32644:32646 compcert.lib.Coqlib <> peq def
+R32652:32664 compcert.common.Memory Mem nextblock proj
+R32693:32714 compcert.common.Memory Mem nextblock_noaccess proj
+R32693:32714 compcert.common.Memory Mem nextblock_noaccess proj
+R32724:32726 compcert.lib.Coqlib <> Plt def
+R32529:32537 compcert.common.Memory Mem alloc def
+R32574:32582 compcert.common.Memory Mem alloc def
+prf 32751:32764 <> alloc_inc_perm
+binder 32774:32774 <> m:248
+binder 32776:32777 <> lo:249
+binder 32779:32780 <> hi:250
+binder 32782:32783 <> m':251
+binder 32785:32785 <> b:252
+R32814:32816 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32797:32805 compcert.common.Memory Mem alloc def
+R32812:32813 VST.sepcomp.semantics_lemmas <> hi:250 var
+R32809:32810 VST.sepcomp.semantics_lemmas <> lo:249 var
+R32807:32807 VST.sepcomp.semantics_lemmas <> m:248 var
+R32817:32817 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32820:32820 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32822:32822 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32818:32819 VST.sepcomp.semantics_lemmas <> m':251 var
+R32821:32821 VST.sepcomp.semantics_lemmas <> b:252 var
+binder 32794:32794 <> M:253
+binder 32825:32826 <> m1:254
+R32834:32844 VST.sepcomp.semantics <> perm_lesseq rec
+R32848:32849 VST.sepcomp.semantics_lemmas <> m1:254 var
+R32846:32846 VST.sepcomp.semantics_lemmas <> m:248 var
+binder 32829:32831 <> PLE:255
+R32859:32865 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R32875:32876 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R32872:32874 compcert.common.Memory <> mem syndef
+binder 32866:32868 <> m1':256
+R32904:32907 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R32895:32896 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32877:32885 compcert.common.Memory Mem alloc def
+R32893:32894 VST.sepcomp.semantics_lemmas <> hi:250 var
+R32890:32891 VST.sepcomp.semantics_lemmas <> lo:249 var
+R32887:32888 VST.sepcomp.semantics_lemmas <> m1:254 var
+R32897:32897 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32901:32901 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32903:32903 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32898:32900 VST.sepcomp.semantics_lemmas <> m1':256 var
+R32902:32902 VST.sepcomp.semantics_lemmas <> b:252 var
+R32908:32918 VST.sepcomp.semantics <> perm_lesseq rec
+R32923:32925 VST.sepcomp.semantics_lemmas <> m1':256 var
+R32920:32921 VST.sepcomp.semantics_lemmas <> m':251 var
+R32955:32963 compcert.common.Memory Mem alloc def
+R32955:32963 compcert.common.Memory Mem alloc def
+R33021:33021 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33021:33021 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33037:33052 compcert.common.Memory Mem alloc_result thm
+R33037:33052 compcert.common.Memory Mem alloc_result thm
+R33067:33082 compcert.common.Memory Mem alloc_result thm
+R33067:33082 compcert.common.Memory Mem alloc_result thm
+R33210:33218 compcert.common.Memory Mem alloc def
+R33228:33236 compcert.common.Memory Mem alloc def
+R33251:33259 compcert.common.Memory Mem alloc def
+R33423:33433 compcert.lib.Maps PMap gsspec thm
+R33423:33433 compcert.lib.Maps PMap gsspec thm
+R33423:33433 compcert.lib.Maps PMap gsspec thm
+R33445:33455 compcert.lib.Maps PMap gsspec thm
+R33445:33455 compcert.lib.Maps PMap gsspec thm
+R33445:33455 compcert.lib.Maps PMap gsspec thm
+R33472:33474 compcert.lib.Coqlib <> peq def
+R33479:33491 compcert.common.Memory Mem nextblock proj
+R33472:33474 compcert.lib.Coqlib <> peq def
+R33479:33491 compcert.common.Memory Mem nextblock proj
+R33542:33545 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R33532:33534 compcert.lib.Coqlib <> zle def
+R33546:33548 compcert.lib.Coqlib <> zlt def
+R33581:33584 Coq.Init.Datatypes <> None constr
+R33562:33565 Coq.Init.Datatypes <> Some constr
+R33567:33574 compcert.common.Memtype <> Freeable constr
+R33542:33545 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R33532:33534 compcert.lib.Coqlib <> zle def
+R33546:33548 compcert.lib.Coqlib <> zlt def
+R33581:33584 Coq.Init.Datatypes <> None constr
+R33562:33565 Coq.Init.Datatypes <> Some constr
+R33567:33574 compcert.common.Memtype <> Freeable constr
+R33610:33618 compcert.common.Memtype <> perm_refl constr
+R33610:33618 compcert.common.Memtype <> perm_refl constr
+R33713:33723 compcert.lib.Maps PMap gsspec thm
+R33713:33723 compcert.lib.Maps PMap gsspec thm
+R33713:33723 compcert.lib.Maps PMap gsspec thm
+R33735:33745 compcert.lib.Maps PMap gsspec thm
+R33735:33745 compcert.lib.Maps PMap gsspec thm
+R33735:33745 compcert.lib.Maps PMap gsspec thm
+R33762:33764 compcert.lib.Coqlib <> peq def
+R33769:33781 compcert.common.Memory Mem nextblock proj
+R33762:33764 compcert.lib.Coqlib <> peq def
+R33769:33781 compcert.common.Memory Mem nextblock proj
+R33832:33835 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R33822:33824 compcert.lib.Coqlib <> zle def
+R33836:33838 compcert.lib.Coqlib <> zlt def
+R33871:33874 Coq.Init.Datatypes <> None constr
+R33852:33855 Coq.Init.Datatypes <> Some constr
+R33857:33864 compcert.common.Memtype <> Freeable constr
+R33832:33835 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R33822:33824 compcert.lib.Coqlib <> zle def
+R33836:33838 compcert.lib.Coqlib <> zlt def
+R33871:33874 Coq.Init.Datatypes <> None constr
+R33852:33855 Coq.Init.Datatypes <> Some constr
+R33857:33864 compcert.common.Memtype <> Freeable constr
+R33900:33908 compcert.common.Memtype <> perm_refl constr
+R33900:33908 compcert.common.Memtype <> perm_refl constr
+R33922:33929 compcert.common.Memory Mem perm def
+R33961:33971 compcert.lib.Maps PMap gsspec thm
+R33961:33971 compcert.lib.Maps PMap gsspec thm
+R33961:33971 compcert.lib.Maps PMap gsspec thm
+R33993:33995 compcert.lib.Coqlib <> peq def
+R34000:34012 compcert.common.Memory Mem nextblock proj
+R33993:33995 compcert.lib.Coqlib <> peq def
+R34000:34012 compcert.common.Memory Mem nextblock proj
+R34065:34072 compcert.lib.Maps PMap gss thm
+R34065:34072 compcert.lib.Maps PMap gss thm
+R34065:34072 compcert.lib.Maps PMap gss thm
+R34065:34072 compcert.lib.Maps PMap gss thm
+R34065:34072 compcert.lib.Maps PMap gss thm
+R34098:34105 compcert.lib.Maps PMap gso thm
+R34098:34105 compcert.lib.Maps PMap gso thm
+R34098:34105 compcert.lib.Maps PMap gso thm
+R34098:34105 compcert.lib.Maps PMap gso thm
+R34141:34148 compcert.lib.Maps PMap gso thm
+R34141:34148 compcert.lib.Maps PMap gso thm
+R34141:34148 compcert.lib.Maps PMap gso thm
+R34141:34148 compcert.lib.Maps PMap gso thm
+R33210:33218 compcert.common.Memory Mem alloc def
+R33251:33259 compcert.common.Memory Mem alloc def
+prf 34226:34241 <> perm_lesseq_refl
+binder 34253:34253 <> m:257
+R34256:34266 VST.sepcomp.semantics <> perm_lesseq rec
+R34270:34270 VST.sepcomp.semantics_lemmas <> m:257 var
+R34268:34268 VST.sepcomp.semantics_lemmas <> m:257 var
+R34336:34351 compcert.common.Memory Mem perm_order'' def
+R34336:34351 compcert.common.Memory Mem perm_order'' def
+R34410:34425 compcert.common.Memory Mem perm_order'' def
+R34410:34425 compcert.common.Memory Mem perm_order'' def
+def 34558:34569 <> corestep_fun
+binder 34572:34572 <> C:258
+binder 34574:34574 <> M:259
+R34592:34604 VST.sepcomp.semantics <> CoreSemantics rec
+R34608:34608 VST.sepcomp.semantics_lemmas <> M:259 var
+R34606:34606 VST.sepcomp.semantics_lemmas <> C:258 var
+binder 34585:34587 <> sem:260
+R34635:34635 VST.sepcomp.semantics_lemmas <> M:259 var
+binder 34624:34624 <> m:261
+binder 34626:34627 <> m':262
+binder 34629:34631 <> m'':263
+binder 34638:34638 <> c:264
+binder 34640:34641 <> c':265
+binder 34643:34645 <> c'':266
+R34672:34677 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34702:34707 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34714:34717 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R34710:34710 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34708:34709 VST.sepcomp.semantics_lemmas <> c':265 var
+R34711:34713 VST.sepcomp.semantics_lemmas <> c'':266 var
+R34720:34720 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34718:34719 VST.sepcomp.semantics_lemmas <> m':262 var
+R34721:34723 VST.sepcomp.semantics_lemmas <> m'':263 var
+R34678:34685 VST.sepcomp.semantics <> corestep proj
+R34699:34701 VST.sepcomp.semantics_lemmas <> m'':263 var
+R34695:34697 VST.sepcomp.semantics_lemmas <> c'':266 var
+R34693:34693 VST.sepcomp.semantics_lemmas <> m:261 var
+R34691:34691 VST.sepcomp.semantics_lemmas <> c:264 var
+R34687:34689 VST.sepcomp.semantics_lemmas <> sem:260 var
+R34650:34657 VST.sepcomp.semantics <> corestep proj
+R34670:34671 VST.sepcomp.semantics_lemmas <> m':262 var
+R34667:34668 VST.sepcomp.semantics_lemmas <> c':265 var
+R34665:34665 VST.sepcomp.semantics_lemmas <> m:261 var
+R34663:34663 VST.sepcomp.semantics_lemmas <> c:264 var
+R34659:34661 VST.sepcomp.semantics_lemmas <> sem:260 var
+sec 34758:34766 <> corestepN
+binder 34780:34780 <> C:267
+binder 34782:34782 <> M:268
+binder 34784:34784 <> E:269
+R34798:34810 VST.sepcomp.semantics <> CoreSemantics rec
+R34814:34814 VST.sepcomp.semantics_lemmas <> M:268 var
+R34812:34812 VST.sepcomp.semantics_lemmas <> C:267 var
+binder 34793:34795 <> Sem:270
+def 34830:34838 <> corestepN
+R34843:34845 Coq.Init.Datatypes <> nat ind
+binder 34841:34841 <> n:271
+R34851:34854 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34856:34859 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34861:34864 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34866:34869 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34865:34865 VST.sepcomp.semantics_lemmas <> corestepN.M var
+R34860:34860 VST.sepcomp.semantics_lemmas <> corestepN.C var
+R34855:34855 VST.sepcomp.semantics_lemmas <> corestepN.M var
+R34850:34850 VST.sepcomp.semantics_lemmas <> corestepN.C var
+R34888:34888 VST.sepcomp.semantics_lemmas <> n:271 var
+R34903:34903 Coq.Init.Datatypes <> O constr
+binder 34912:34912 <> c:274
+binder 34914:34914 <> m:275
+binder 34916:34917 <> c':276
+binder 34919:34920 <> m':277
+R34930:34932 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34925:34925 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34927:34927 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34929:34929 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34926:34926 VST.sepcomp.semantics_lemmas <> c:274 var
+R34928:34928 VST.sepcomp.semantics_lemmas <> m:275 var
+R34933:34933 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34936:34936 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34939:34939 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34934:34935 VST.sepcomp.semantics_lemmas <> c':276 var
+R34937:34938 VST.sepcomp.semantics_lemmas <> m':277 var
+R34949:34949 Coq.Init.Datatypes <> S constr
+binder 34960:34961 <> c1:278
+binder 34963:34964 <> m1:279
+binder 34966:34967 <> c3:280
+binder 34969:34970 <> m3:281
+R34975:34981 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R34984:34985 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 34982:34983 <> c2:282
+R34986:34992 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R34995:35004 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 34993:34994 <> m2:283
+R35029:35040 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R35005:35012 VST.sepcomp.semantics <> corestep proj
+R35027:35028 VST.sepcomp.semantics_lemmas <> m2:283 var
+R35024:35025 VST.sepcomp.semantics_lemmas <> c2:282 var
+R35021:35022 VST.sepcomp.semantics_lemmas <> m1:279 var
+R35018:35019 VST.sepcomp.semantics_lemmas <> c1:278 var
+R35014:35016 VST.sepcomp.semantics_lemmas <> corestepN.Sem var
+R35041:35049 VST.sepcomp.semantics_lemmas <> corestepN:272 def
+R35062:35063 VST.sepcomp.semantics_lemmas <> m3:281 var
+R35059:35060 VST.sepcomp.semantics_lemmas <> c3:280 var
+R35056:35057 VST.sepcomp.semantics_lemmas <> m2:283 var
+R35053:35054 VST.sepcomp.semantics_lemmas <> c2:282 var
+prf 35083:35095 <> corestepN_add
+binder 35106:35106 <> n:284
+binder 35108:35108 <> m:285
+binder 35110:35111 <> c1:286
+binder 35113:35114 <> m1:287
+binder 35116:35117 <> c3:288
+binder 35119:35120 <> m3:289
+R35154:35162 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R35127:35135 VST.sepcomp.semantics_lemmas <> corestepN def
+R35152:35153 VST.sepcomp.semantics_lemmas <> m3:289 var
+R35149:35150 VST.sepcomp.semantics_lemmas <> c3:288 var
+R35146:35147 VST.sepcomp.semantics_lemmas <> m1:287 var
+R35143:35144 VST.sepcomp.semantics_lemmas <> c1:286 var
+R35139:35139 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R35138:35138 VST.sepcomp.semantics_lemmas <> n:284 var
+R35140:35140 VST.sepcomp.semantics_lemmas <> m:285 var
+R35163:35169 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R35172:35173 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 35170:35171 <> c2:290
+R35174:35180 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R35183:35190 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 35181:35182 <> m2:291
+R35214:35223 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R35191:35199 VST.sepcomp.semantics_lemmas <> corestepN def
+R35212:35213 VST.sepcomp.semantics_lemmas <> m2:291 var
+R35209:35210 VST.sepcomp.semantics_lemmas <> c2:290 var
+R35206:35207 VST.sepcomp.semantics_lemmas <> m1:287 var
+R35203:35204 VST.sepcomp.semantics_lemmas <> c1:286 var
+R35201:35201 VST.sepcomp.semantics_lemmas <> n:284 var
+R35224:35232 VST.sepcomp.semantics_lemmas <> corestepN def
+R35245:35246 VST.sepcomp.semantics_lemmas <> m3:289 var
+R35242:35243 VST.sepcomp.semantics_lemmas <> c3:288 var
+R35239:35240 VST.sepcomp.semantics_lemmas <> m2:291 var
+R35236:35237 VST.sepcomp.semantics_lemmas <> c2:290 var
+R35234:35234 VST.sepcomp.semantics_lemmas <> m:285 var
+R35353:35354 Coq.Init.Logic <> ex ind
+R35356:35358 Coq.Init.Logic <> and ind
+R35353:35354 Coq.Init.Logic <> ex ind
+R35356:35358 Coq.Init.Logic <> and ind
+R35440:35441 Coq.Init.Logic <> ex ind
+R35443:35445 Coq.Init.Logic <> and ind
+R35440:35441 Coq.Init.Logic <> ex ind
+R35443:35445 Coq.Init.Logic <> and ind
+R35509:35510 Coq.Init.Logic <> ex ind
+R35512:35514 Coq.Init.Logic <> and ind
+R35509:35510 Coq.Init.Logic <> ex ind
+R35512:35514 Coq.Init.Logic <> and ind
+def 35634:35646 <> corestep_plus
+binder 35648:35648 <> c:292
+binder 35650:35650 <> m:293
+binder 35652:35653 <> c':294
+binder 35655:35656 <> m':295
+R35665:35671 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R35673:35674 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 35672:35672 <> n:296
+R35675:35683 VST.sepcomp.semantics_lemmas <> corestepN def
+R35698:35699 VST.sepcomp.semantics_lemmas <> m':295 var
+R35695:35696 VST.sepcomp.semantics_lemmas <> c':294 var
+R35693:35693 VST.sepcomp.semantics_lemmas <> m:293 var
+R35691:35691 VST.sepcomp.semantics_lemmas <> c:292 var
+R35686:35686 Coq.Init.Datatypes <> S constr
+R35688:35688 VST.sepcomp.semantics_lemmas <> n:296 var
+def 35716:35728 <> corestep_star
+binder 35730:35730 <> c:297
+binder 35732:35732 <> m:298
+binder 35734:35735 <> c':299
+binder 35737:35738 <> m':300
+R35747:35753 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R35755:35756 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 35754:35754 <> n:301
+R35757:35765 VST.sepcomp.semantics_lemmas <> corestepN def
+R35776:35777 VST.sepcomp.semantics_lemmas <> m':300 var
+R35773:35774 VST.sepcomp.semantics_lemmas <> c':299 var
+R35771:35771 VST.sepcomp.semantics_lemmas <> m:298 var
+R35769:35769 VST.sepcomp.semantics_lemmas <> c:297 var
+R35767:35767 VST.sepcomp.semantics_lemmas <> n:301 var
+prf 35789:35806 <> corestep_plus_star
+binder 35817:35818 <> c1:302
+binder 35820:35821 <> c2:303
+binder 35823:35824 <> m1:304
+binder 35826:35827 <> m2:305
+R35859:35862 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35863:35875 VST.sepcomp.semantics_lemmas <> corestep_star def
+R35886:35887 VST.sepcomp.semantics_lemmas <> m2:305 var
+R35883:35884 VST.sepcomp.semantics_lemmas <> c2:303 var
+R35880:35881 VST.sepcomp.semantics_lemmas <> m1:304 var
+R35877:35878 VST.sepcomp.semantics_lemmas <> c1:302 var
+R35834:35846 VST.sepcomp.semantics_lemmas <> corestep_plus def
+R35857:35858 VST.sepcomp.semantics_lemmas <> m2:305 var
+R35854:35855 VST.sepcomp.semantics_lemmas <> c2:303 var
+R35851:35852 VST.sepcomp.semantics_lemmas <> m1:304 var
+R35848:35849 VST.sepcomp.semantics_lemmas <> c1:302 var
+prf 35963:35981 <> corestep_plus_trans
+binder 35992:35993 <> c1:306
+binder 35995:35996 <> c2:307
+binder 35998:35999 <> c3:308
+binder 36001:36002 <> m1:309
+binder 36004:36005 <> m2:310
+binder 36007:36008 <> m3:311
+R36040:36043 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36069:36076 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36077:36089 VST.sepcomp.semantics_lemmas <> corestep_plus def
+R36100:36101 VST.sepcomp.semantics_lemmas <> m3:311 var
+R36097:36098 VST.sepcomp.semantics_lemmas <> c3:308 var
+R36094:36095 VST.sepcomp.semantics_lemmas <> m1:309 var
+R36091:36092 VST.sepcomp.semantics_lemmas <> c1:306 var
+R36044:36056 VST.sepcomp.semantics_lemmas <> corestep_plus def
+R36067:36068 VST.sepcomp.semantics_lemmas <> m3:311 var
+R36064:36065 VST.sepcomp.semantics_lemmas <> c3:308 var
+R36061:36062 VST.sepcomp.semantics_lemmas <> m2:310 var
+R36058:36059 VST.sepcomp.semantics_lemmas <> c2:307 var
+R36015:36027 VST.sepcomp.semantics_lemmas <> corestep_plus def
+R36038:36039 VST.sepcomp.semantics_lemmas <> m2:310 var
+R36035:36036 VST.sepcomp.semantics_lemmas <> c2:307 var
+R36032:36033 VST.sepcomp.semantics_lemmas <> m1:309 var
+R36029:36030 VST.sepcomp.semantics_lemmas <> c1:306 var
+R36182:36194 VST.sepcomp.semantics_lemmas <> corestepN_add thm
+R36204:36204 Coq.Init.Datatypes <> S constr
+R36197:36197 Coq.Init.Datatypes <> S constr
+R36182:36194 VST.sepcomp.semantics_lemmas <> corestepN_add thm
+R36204:36204 Coq.Init.Datatypes <> S constr
+R36197:36197 Coq.Init.Datatypes <> S constr
+prf 36312:36335 <> corestep_star_plus_trans
+binder 36346:36347 <> c1:312
+binder 36349:36350 <> c2:313
+binder 36352:36353 <> c3:314
+binder 36355:36356 <> m1:315
+binder 36358:36359 <> m2:316
+binder 36361:36362 <> m3:317
+R36394:36397 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36423:36430 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36431:36443 VST.sepcomp.semantics_lemmas <> corestep_plus def
+R36454:36455 VST.sepcomp.semantics_lemmas <> m3:317 var
+R36451:36452 VST.sepcomp.semantics_lemmas <> c3:314 var
+R36448:36449 VST.sepcomp.semantics_lemmas <> m1:315 var
+R36445:36446 VST.sepcomp.semantics_lemmas <> c1:312 var
+R36398:36410 VST.sepcomp.semantics_lemmas <> corestep_plus def
+R36421:36422 VST.sepcomp.semantics_lemmas <> m3:317 var
+R36418:36419 VST.sepcomp.semantics_lemmas <> c3:314 var
+R36415:36416 VST.sepcomp.semantics_lemmas <> m2:316 var
+R36412:36413 VST.sepcomp.semantics_lemmas <> c2:313 var
+R36369:36381 VST.sepcomp.semantics_lemmas <> corestep_star def
+R36392:36393 VST.sepcomp.semantics_lemmas <> m2:316 var
+R36389:36390 VST.sepcomp.semantics_lemmas <> c2:313 var
+R36386:36387 VST.sepcomp.semantics_lemmas <> m1:315 var
+R36383:36384 VST.sepcomp.semantics_lemmas <> c1:312 var
+R36536:36548 VST.sepcomp.semantics_lemmas <> corestepN_add thm
+R36554:36554 Coq.Init.Datatypes <> S constr
+R36536:36548 VST.sepcomp.semantics_lemmas <> corestepN_add thm
+R36554:36554 Coq.Init.Datatypes <> S constr
+R36598:36606 Coq.Init.Peano <> plus_n_Sm thm
+R36598:36606 Coq.Init.Peano <> plus_n_Sm thm
+R36598:36606 Coq.Init.Peano <> plus_n_Sm thm
+prf 36695:36718 <> corestep_plus_star_trans
+binder 36728:36729 <> c1:318
+binder 36731:36732 <> c2:319
+binder 36734:36735 <> c3:320
+binder 36737:36738 <> m1:321
+binder 36740:36741 <> m2:322
+binder 36743:36744 <> m3:323
+R36776:36779 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36805:36812 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36813:36825 VST.sepcomp.semantics_lemmas <> corestep_plus def
+R36836:36837 VST.sepcomp.semantics_lemmas <> m3:323 var
+R36833:36834 VST.sepcomp.semantics_lemmas <> c3:320 var
+R36830:36831 VST.sepcomp.semantics_lemmas <> m1:321 var
+R36827:36828 VST.sepcomp.semantics_lemmas <> c1:318 var
+R36780:36792 VST.sepcomp.semantics_lemmas <> corestep_star def
+R36803:36804 VST.sepcomp.semantics_lemmas <> m3:323 var
+R36800:36801 VST.sepcomp.semantics_lemmas <> c3:320 var
+R36797:36798 VST.sepcomp.semantics_lemmas <> m2:322 var
+R36794:36795 VST.sepcomp.semantics_lemmas <> c2:319 var
+R36751:36763 VST.sepcomp.semantics_lemmas <> corestep_plus def
+R36774:36775 VST.sepcomp.semantics_lemmas <> m2:322 var
+R36771:36772 VST.sepcomp.semantics_lemmas <> c2:319 var
+R36768:36769 VST.sepcomp.semantics_lemmas <> m1:321 var
+R36765:36766 VST.sepcomp.semantics_lemmas <> c1:318 var
+R36918:36930 VST.sepcomp.semantics_lemmas <> corestepN_add thm
+R36933:36933 Coq.Init.Datatypes <> S constr
+R36918:36930 VST.sepcomp.semantics_lemmas <> corestepN_add thm
+R36933:36933 Coq.Init.Datatypes <> S constr
+R36977:36985 Coq.Init.Peano <> plus_Sn_m thm
+R36977:36985 Coq.Init.Peano <> plus_Sn_m thm
+R36977:36985 Coq.Init.Peano <> plus_Sn_m thm
+prf 37074:37092 <> corestep_star_trans
+binder 37102:37103 <> c1:324
+binder 37105:37106 <> c2:325
+binder 37108:37109 <> c3:326
+binder 37111:37112 <> m1:327
+binder 37114:37115 <> m2:328
+binder 37117:37118 <> m3:329
+R37150:37153 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37179:37186 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37187:37199 VST.sepcomp.semantics_lemmas <> corestep_star def
+R37210:37211 VST.sepcomp.semantics_lemmas <> m3:329 var
+R37207:37208 VST.sepcomp.semantics_lemmas <> c3:326 var
+R37204:37205 VST.sepcomp.semantics_lemmas <> m1:327 var
+R37201:37202 VST.sepcomp.semantics_lemmas <> c1:324 var
+R37154:37166 VST.sepcomp.semantics_lemmas <> corestep_star def
+R37177:37178 VST.sepcomp.semantics_lemmas <> m3:329 var
+R37174:37175 VST.sepcomp.semantics_lemmas <> c3:326 var
+R37171:37172 VST.sepcomp.semantics_lemmas <> m2:328 var
+R37168:37169 VST.sepcomp.semantics_lemmas <> c2:325 var
+R37125:37137 VST.sepcomp.semantics_lemmas <> corestep_star def
+R37148:37149 VST.sepcomp.semantics_lemmas <> m2:328 var
+R37145:37146 VST.sepcomp.semantics_lemmas <> c2:325 var
+R37142:37143 VST.sepcomp.semantics_lemmas <> m1:327 var
+R37139:37140 VST.sepcomp.semantics_lemmas <> c1:324 var
+R37292:37304 VST.sepcomp.semantics_lemmas <> corestepN_add thm
+R37292:37304 VST.sepcomp.semantics_lemmas <> corestepN_add thm
+prf 37416:37432 <> corestep_plus_one
+binder 37442:37442 <> c:330
+binder 37444:37444 <> m:331
+binder 37446:37447 <> c':332
+binder 37449:37450 <> m':333
+R37480:37483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37484:37496 VST.sepcomp.semantics_lemmas <> corestep_plus def
+R37505:37506 VST.sepcomp.semantics_lemmas <> m':333 var
+R37502:37503 VST.sepcomp.semantics_lemmas <> c':332 var
+R37500:37500 VST.sepcomp.semantics_lemmas <> m:331 var
+R37498:37498 VST.sepcomp.semantics_lemmas <> c:330 var
+R37457:37464 VST.sepcomp.semantics <> corestep proj
+R37478:37479 VST.sepcomp.semantics_lemmas <> m':333 var
+R37475:37476 VST.sepcomp.semantics_lemmas <> c':332 var
+R37473:37473 VST.sepcomp.semantics_lemmas <> m:331 var
+R37471:37471 VST.sepcomp.semantics_lemmas <> c:330 var
+R37467:37469 VST.sepcomp.semantics_lemmas <> corestepN.Sem var
+R37533:37545 VST.sepcomp.semantics_lemmas <> corestep_plus def
+R37548:37556 VST.sepcomp.semantics_lemmas <> corestepN def
+R37577:37577 Coq.Init.Datatypes <> O constr
+R37577:37577 Coq.Init.Datatypes <> O constr
+prf 37625:37641 <> corestep_plus_two
+binder 37651:37651 <> c:334
+binder 37653:37653 <> m:335
+binder 37655:37656 <> c':336
+binder 37658:37659 <> m':337
+binder 37661:37663 <> c'':338
+binder 37665:37667 <> m'':339
+R37697:37700 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37728:37735 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37736:37748 VST.sepcomp.semantics_lemmas <> corestep_plus def
+R37758:37760 VST.sepcomp.semantics_lemmas <> m'':339 var
+R37754:37756 VST.sepcomp.semantics_lemmas <> c'':338 var
+R37752:37752 VST.sepcomp.semantics_lemmas <> m:335 var
+R37750:37750 VST.sepcomp.semantics_lemmas <> c:334 var
+R37701:37708 VST.sepcomp.semantics <> corestep proj
+R37725:37727 VST.sepcomp.semantics_lemmas <> m'':339 var
+R37721:37723 VST.sepcomp.semantics_lemmas <> c'':338 var
+R37718:37719 VST.sepcomp.semantics_lemmas <> m':337 var
+R37715:37716 VST.sepcomp.semantics_lemmas <> c':336 var
+R37711:37713 VST.sepcomp.semantics_lemmas <> corestepN.Sem var
+R37674:37681 VST.sepcomp.semantics <> corestep proj
+R37695:37696 VST.sepcomp.semantics_lemmas <> m':337 var
+R37692:37693 VST.sepcomp.semantics_lemmas <> c':336 var
+R37690:37690 VST.sepcomp.semantics_lemmas <> m:335 var
+R37688:37688 VST.sepcomp.semantics_lemmas <> c:334 var
+R37684:37686 VST.sepcomp.semantics_lemmas <> corestepN.Sem var
+R37792:37792 Coq.Init.Datatypes <> S constr
+R37794:37794 Coq.Init.Datatypes <> O constr
+R37792:37792 Coq.Init.Datatypes <> S constr
+R37794:37794 Coq.Init.Datatypes <> O constr
+prf 37909:37926 <> corestep_star_zero
+binder 37936:37936 <> c:340
+binder 37938:37938 <> m:341
+R37941:37953 VST.sepcomp.semantics_lemmas <> corestep_star def
+R37962:37962 VST.sepcomp.semantics_lemmas <> m:341 var
+R37960:37960 VST.sepcomp.semantics_lemmas <> c:340 var
+R37958:37958 VST.sepcomp.semantics_lemmas <> m:341 var
+R37956:37956 VST.sepcomp.semantics_lemmas <> c:340 var
+R37989:37989 Coq.Init.Datatypes <> O constr
+R37989:37989 Coq.Init.Datatypes <> O constr
+prf 38019:38035 <> corestep_star_one
+binder 38045:38045 <> c:342
+binder 38047:38047 <> m:343
+binder 38049:38050 <> c':344
+binder 38052:38053 <> m':345
+R38083:38086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38087:38099 VST.sepcomp.semantics_lemmas <> corestep_star def
+R38108:38109 VST.sepcomp.semantics_lemmas <> m':345 var
+R38105:38106 VST.sepcomp.semantics_lemmas <> c':344 var
+R38103:38103 VST.sepcomp.semantics_lemmas <> m:343 var
+R38101:38101 VST.sepcomp.semantics_lemmas <> c:342 var
+R38060:38067 VST.sepcomp.semantics <> corestep proj
+R38081:38082 VST.sepcomp.semantics_lemmas <> m':345 var
+R38078:38079 VST.sepcomp.semantics_lemmas <> c':344 var
+R38076:38076 VST.sepcomp.semantics_lemmas <> m:343 var
+R38074:38074 VST.sepcomp.semantics_lemmas <> c:342 var
+R38070:38072 VST.sepcomp.semantics_lemmas <> corestepN.Sem var
+R38141:38141 Coq.Init.Datatypes <> S constr
+R38143:38143 Coq.Init.Datatypes <> O constr
+R38141:38141 Coq.Init.Datatypes <> S constr
+R38143:38143 Coq.Init.Datatypes <> O constr
+prf 38214:38232 <> corestep_plus_split
+binder 38242:38242 <> c:346
+binder 38244:38244 <> m:347
+binder 38246:38247 <> c':348
+binder 38249:38250 <> m':349
+R38280:38287 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38288:38294 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R38298:38299 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 38295:38297 <> c'':350
+R38300:38306 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R38310:38311 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 38307:38309 <> m'':351
+R38337:38346 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R38312:38319 VST.sepcomp.semantics <> corestep proj
+R38334:38336 VST.sepcomp.semantics_lemmas <> m'':351 var
+R38330:38332 VST.sepcomp.semantics_lemmas <> c'':350 var
+R38328:38328 VST.sepcomp.semantics_lemmas <> m:347 var
+R38326:38326 VST.sepcomp.semantics_lemmas <> c:346 var
+R38322:38324 VST.sepcomp.semantics_lemmas <> corestepN.Sem var
+R38347:38359 VST.sepcomp.semantics_lemmas <> corestep_star def
+R38372:38373 VST.sepcomp.semantics_lemmas <> m':349 var
+R38369:38370 VST.sepcomp.semantics_lemmas <> c':348 var
+R38365:38367 VST.sepcomp.semantics_lemmas <> m'':351 var
+R38361:38363 VST.sepcomp.semantics_lemmas <> c'':350 var
+R38257:38269 VST.sepcomp.semantics_lemmas <> corestep_plus def
+R38278:38279 VST.sepcomp.semantics_lemmas <> m':349 var
+R38275:38276 VST.sepcomp.semantics_lemmas <> c':348 var
+R38273:38273 VST.sepcomp.semantics_lemmas <> m:347 var
+R38271:38271 VST.sepcomp.semantics_lemmas <> c:346 var
+R38530:38538 VST.sepcomp.semantics_lemmas corestepN <> sec
+sec 38550:38557 <> memstepN
+binder 38571:38571 <> C:352
+R38583:38588 VST.sepcomp.semantics <> MemSem rec
+R38590:38590 VST.sepcomp.semantics_lemmas <> C:352 var
+binder 38580:38580 <> M:353
+prf 38601:38613 <> corestepN_mem
+binder 38615:38615 <> n:354
+binder 38625:38625 <> c:355
+binder 38627:38627 <> m:356
+binder 38629:38630 <> c':357
+binder 38632:38633 <> m':358
+R38659:38662 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38663:38670 VST.sepcomp.semantics <> mem_step ind
+R38674:38675 VST.sepcomp.semantics_lemmas <> m':358 var
+R38672:38672 VST.sepcomp.semantics_lemmas <> m:356 var
+R38636:38644 VST.sepcomp.semantics_lemmas <> corestepN def
+R38657:38658 VST.sepcomp.semantics_lemmas <> m':358 var
+R38654:38655 VST.sepcomp.semantics_lemmas <> c':357 var
+R38652:38652 VST.sepcomp.semantics_lemmas <> m:356 var
+R38650:38650 VST.sepcomp.semantics_lemmas <> c:355 var
+R38648:38648 VST.sepcomp.semantics_lemmas <> n:354 var
+R38646:38646 VST.sepcomp.semantics_lemmas <> memstepN.M var
+R38714:38726 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R38714:38726 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R38769:38782 VST.sepcomp.semantics <> mem_step_trans constr
+R38769:38782 VST.sepcomp.semantics <> mem_step_trans constr
+R38794:38805 VST.sepcomp.semantics <> corestep_mem proj
+R38794:38805 VST.sepcomp.semantics <> corestep_mem proj
+prf 38860:38876 <> corestep_plus_mem
+binder 38878:38878 <> c:359
+binder 38880:38880 <> m:360
+binder 38882:38883 <> c':361
+binder 38885:38886 <> m':362
+R38891:38903 VST.sepcomp.semantics_lemmas <> corestep_plus def
+R38914:38915 VST.sepcomp.semantics_lemmas <> m':362 var
+R38911:38912 VST.sepcomp.semantics_lemmas <> c':361 var
+R38909:38909 VST.sepcomp.semantics_lemmas <> m:360 var
+R38907:38907 VST.sepcomp.semantics_lemmas <> c:359 var
+R38905:38905 VST.sepcomp.semantics_lemmas <> memstepN.M var
+binder 38889:38889 <> H:363
+R38919:38926 VST.sepcomp.semantics <> mem_step ind
+R38930:38931 VST.sepcomp.semantics_lemmas <> m':362 var
+R38928:38928 VST.sepcomp.semantics_lemmas <> m:360 var
+R38962:38974 VST.sepcomp.semantics_lemmas <> corestepN_mem thm
+R38962:38974 VST.sepcomp.semantics_lemmas <> corestepN_mem thm
+prf 39002:39018 <> corestep_star_mem
+binder 39020:39020 <> c:364
+binder 39022:39022 <> m:365
+binder 39024:39025 <> c':366
+binder 39027:39028 <> m':367
+R39033:39045 VST.sepcomp.semantics_lemmas <> corestep_star def
+R39056:39057 VST.sepcomp.semantics_lemmas <> m':367 var
+R39053:39054 VST.sepcomp.semantics_lemmas <> c':366 var
+R39051:39051 VST.sepcomp.semantics_lemmas <> m:365 var
+R39049:39049 VST.sepcomp.semantics_lemmas <> c:364 var
+R39047:39047 VST.sepcomp.semantics_lemmas <> memstepN.M var
+binder 39031:39031 <> H:368
+R39061:39068 VST.sepcomp.semantics <> mem_step ind
+R39072:39073 VST.sepcomp.semantics_lemmas <> m':367 var
+R39070:39070 VST.sepcomp.semantics_lemmas <> m:365 var
+R39104:39116 VST.sepcomp.semantics_lemmas <> corestepN_mem thm
+R39104:39116 VST.sepcomp.semantics_lemmas <> corestepN_mem thm
+prf 39144:39160 <> memsem_preservesN
+binder 39162:39162 <> P:369
+R39169:39184 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+R39186:39186 VST.sepcomp.semantics_lemmas <> P:369 var
+binder 39165:39166 <> HP:370
+binder 39195:39195 <> n:371
+binder 39197:39197 <> c:372
+binder 39199:39199 <> m:373
+binder 39201:39202 <> c':374
+binder 39204:39205 <> m':375
+R39211:39219 VST.sepcomp.semantics_lemmas <> corestepN def
+R39232:39233 VST.sepcomp.semantics_lemmas <> m':375 var
+R39229:39230 VST.sepcomp.semantics_lemmas <> c':374 var
+R39227:39227 VST.sepcomp.semantics_lemmas <> m:373 var
+R39225:39225 VST.sepcomp.semantics_lemmas <> c:372 var
+R39223:39223 VST.sepcomp.semantics_lemmas <> n:371 var
+R39221:39221 VST.sepcomp.semantics_lemmas <> memstepN.M var
+binder 39208:39208 <> H:376
+R39237:39237 VST.sepcomp.semantics_lemmas <> P:369 var
+R39241:39242 VST.sepcomp.semantics_lemmas <> m':375 var
+R39239:39239 VST.sepcomp.semantics_lemmas <> m:373 var
+R39251:39263 VST.sepcomp.semantics_lemmas <> corestepN_mem thm
+R39251:39263 VST.sepcomp.semantics_lemmas <> corestepN_mem thm
+prf 39302:39322 <> memsem_preserves_plus
+binder 39324:39324 <> P:377
+R39330:39345 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+R39347:39347 VST.sepcomp.semantics_lemmas <> P:377 var
+binder 39327:39328 <> HP:378
+binder 39356:39356 <> c:379
+binder 39358:39358 <> m:380
+binder 39360:39361 <> c':381
+binder 39363:39364 <> m':382
+R39370:39382 VST.sepcomp.semantics_lemmas <> corestep_plus def
+R39393:39394 VST.sepcomp.semantics_lemmas <> m':382 var
+R39390:39391 VST.sepcomp.semantics_lemmas <> c':381 var
+R39388:39388 VST.sepcomp.semantics_lemmas <> m:380 var
+R39386:39386 VST.sepcomp.semantics_lemmas <> c:379 var
+R39384:39384 VST.sepcomp.semantics_lemmas <> memstepN.M var
+binder 39367:39367 <> H:383
+R39398:39398 VST.sepcomp.semantics_lemmas <> P:377 var
+R39402:39403 VST.sepcomp.semantics_lemmas <> m':382 var
+R39400:39400 VST.sepcomp.semantics_lemmas <> m:380 var
+R39425:39441 VST.sepcomp.semantics_lemmas <> memsem_preservesN thm
+R39425:39441 VST.sepcomp.semantics_lemmas <> memsem_preservesN thm
+prf 39476:39496 <> memsem_preserves_star
+binder 39498:39498 <> P:384
+R39504:39519 VST.sepcomp.semantics_lemmas <> memstep_preserve rec
+R39521:39521 VST.sepcomp.semantics_lemmas <> P:384 var
+binder 39501:39502 <> HP:385
+binder 39530:39530 <> c:386
+binder 39532:39532 <> m:387
+binder 39534:39535 <> c':388
+binder 39537:39538 <> m':389
+R39544:39556 VST.sepcomp.semantics_lemmas <> corestep_star def
+R39567:39568 VST.sepcomp.semantics_lemmas <> m':389 var
+R39564:39565 VST.sepcomp.semantics_lemmas <> c':388 var
+R39562:39562 VST.sepcomp.semantics_lemmas <> m:387 var
+R39560:39560 VST.sepcomp.semantics_lemmas <> c:386 var
+R39558:39558 VST.sepcomp.semantics_lemmas <> memstepN.M var
+binder 39541:39541 <> H:390
+R39572:39572 VST.sepcomp.semantics_lemmas <> P:384 var
+R39576:39577 VST.sepcomp.semantics_lemmas <> m':389 var
+R39574:39574 VST.sepcomp.semantics_lemmas <> m:387 var
+R39599:39615 VST.sepcomp.semantics_lemmas <> memsem_preservesN thm
+R39599:39615 VST.sepcomp.semantics_lemmas <> memsem_preservesN thm
+prf 39650:39662 <> corestepN_fwd
+binder 39664:39664 <> n:391
+binder 39667:39667 <> c:392
+binder 39669:39669 <> m:393
+binder 39671:39672 <> c':394
+binder 39674:39675 <> m':395
+R39684:39692 VST.sepcomp.semantics_lemmas <> corestepN def
+R39705:39706 VST.sepcomp.semantics_lemmas <> m':395 var
+R39702:39703 VST.sepcomp.semantics_lemmas <> c':394 var
+R39700:39700 VST.sepcomp.semantics_lemmas <> m:393 var
+R39698:39698 VST.sepcomp.semantics_lemmas <> c:392 var
+R39696:39696 VST.sepcomp.semantics_lemmas <> n:391 var
+R39694:39694 VST.sepcomp.semantics_lemmas <> memstepN.M var
+binder 39681:39682 <> CS:396
+R39710:39720 VST.sepcomp.mem_lemmas <> mem_forward def
+R39724:39725 VST.sepcomp.semantics_lemmas <> m':395 var
+R39722:39722 VST.sepcomp.semantics_lemmas <> m:393 var
+R39742:39758 VST.sepcomp.semantics_lemmas <> memsem_preservesN thm
+R39742:39758 VST.sepcomp.semantics_lemmas <> memsem_preservesN thm
+R39784:39803 VST.sepcomp.semantics_lemmas <> mem_forward_preserve thm
+R39784:39803 VST.sepcomp.semantics_lemmas <> mem_forward_preserve thm
+prf 39818:39834 <> corestep_plus_fwd
+binder 39836:39836 <> c:397
+binder 39838:39838 <> m:398
+binder 39840:39841 <> c':399
+binder 39843:39844 <> m':400
+R39853:39865 VST.sepcomp.semantics_lemmas <> corestep_plus def
+R39876:39877 VST.sepcomp.semantics_lemmas <> m':400 var
+R39873:39874 VST.sepcomp.semantics_lemmas <> c':399 var
+R39871:39871 VST.sepcomp.semantics_lemmas <> m:398 var
+R39869:39869 VST.sepcomp.semantics_lemmas <> c:397 var
+R39867:39867 VST.sepcomp.semantics_lemmas <> memstepN.M var
+binder 39850:39851 <> CS:401
+R39881:39891 VST.sepcomp.mem_lemmas <> mem_forward def
+R39895:39896 VST.sepcomp.semantics_lemmas <> m':400 var
+R39893:39893 VST.sepcomp.semantics_lemmas <> m:398 var
+R39926:39938 VST.sepcomp.semantics_lemmas <> corestepN_fwd thm
+R39926:39938 VST.sepcomp.semantics_lemmas <> corestepN_fwd thm
+prf 39966:39982 <> corestep_star_fwd
+binder 39984:39984 <> c:402
+binder 39986:39986 <> m:403
+binder 39988:39989 <> c':404
+binder 39991:39992 <> m':405
+R40001:40013 VST.sepcomp.semantics_lemmas <> corestep_star def
+R40024:40025 VST.sepcomp.semantics_lemmas <> m':405 var
+R40021:40022 VST.sepcomp.semantics_lemmas <> c':404 var
+R40019:40019 VST.sepcomp.semantics_lemmas <> m:403 var
+R40017:40017 VST.sepcomp.semantics_lemmas <> c:402 var
+R40015:40015 VST.sepcomp.semantics_lemmas <> memstepN.M var
+binder 39998:39999 <> CS:406
+R40029:40039 VST.sepcomp.mem_lemmas <> mem_forward def
+R40043:40044 VST.sepcomp.semantics_lemmas <> m':405 var
+R40041:40041 VST.sepcomp.semantics_lemmas <> m:403 var
+R40074:40086 VST.sepcomp.semantics_lemmas <> corestepN_fwd thm
+R40074:40086 VST.sepcomp.semantics_lemmas <> corestepN_fwd thm
+prf 40114:40129 <> corestepN_rdonly
+binder 40131:40131 <> n:407
+binder 40133:40133 <> c:408
+binder 40135:40135 <> m:409
+binder 40137:40138 <> c':410
+binder 40140:40141 <> m':411
+R40151:40159 VST.sepcomp.semantics_lemmas <> corestepN def
+R40172:40173 VST.sepcomp.semantics_lemmas <> m':411 var
+R40169:40170 VST.sepcomp.semantics_lemmas <> c':410 var
+R40167:40167 VST.sepcomp.semantics_lemmas <> m:409 var
+R40165:40165 VST.sepcomp.semantics_lemmas <> c:408 var
+R40163:40163 VST.sepcomp.semantics_lemmas <> n:407 var
+R40161:40161 VST.sepcomp.semantics_lemmas <> memstepN.M var
+binder 40148:40149 <> CS:412
+binder 40176:40176 <> b:413
+R40182:40196 compcert.common.Memory Mem valid_block def
+R40200:40200 VST.sepcomp.semantics_lemmas <> b:413 var
+R40198:40198 VST.sepcomp.semantics_lemmas <> m:409 var
+binder 40179:40180 <> VB:414
+R40204:40211 VST.sepcomp.mem_lemmas <> readonly def
+R40217:40218 VST.sepcomp.semantics_lemmas <> m':411 var
+R40215:40215 VST.sepcomp.semantics_lemmas <> b:413 var
+R40213:40213 VST.sepcomp.semantics_lemmas <> m:409 var
+R40236:40252 VST.sepcomp.semantics_lemmas <> memsem_preservesN thm
+R40256:40273 VST.sepcomp.semantics_lemmas <> readonly_preserve' thm
+R40236:40252 VST.sepcomp.semantics_lemmas <> memsem_preservesN thm
+R40256:40273 VST.sepcomp.semantics_lemmas <> readonly_preserve' thm
+prf 40302:40321 <> corestep_plus_rdonly
+binder 40323:40323 <> c:415
+binder 40325:40325 <> m:416
+binder 40327:40328 <> c':417
+binder 40330:40331 <> m':418
+R40340:40352 VST.sepcomp.semantics_lemmas <> corestep_plus def
+R40363:40364 VST.sepcomp.semantics_lemmas <> m':418 var
+R40360:40361 VST.sepcomp.semantics_lemmas <> c':417 var
+R40358:40358 VST.sepcomp.semantics_lemmas <> m:416 var
+R40356:40356 VST.sepcomp.semantics_lemmas <> c:415 var
+R40354:40354 VST.sepcomp.semantics_lemmas <> memstepN.M var
+binder 40337:40338 <> CS:419
+binder 40367:40367 <> b:420
+R40373:40387 compcert.common.Memory Mem valid_block def
+R40391:40391 VST.sepcomp.semantics_lemmas <> b:420 var
+R40389:40389 VST.sepcomp.semantics_lemmas <> m:416 var
+binder 40370:40371 <> VB:421
+R40395:40402 VST.sepcomp.mem_lemmas <> readonly def
+R40408:40409 VST.sepcomp.semantics_lemmas <> m':418 var
+R40406:40406 VST.sepcomp.semantics_lemmas <> b:420 var
+R40404:40404 VST.sepcomp.semantics_lemmas <> m:416 var
+R40439:40454 VST.sepcomp.semantics_lemmas <> corestepN_rdonly thm
+R40439:40454 VST.sepcomp.semantics_lemmas <> corestepN_rdonly thm
+prf 40482:40501 <> corestep_star_rdonly
+binder 40503:40503 <> c:422
+binder 40505:40505 <> m:423
+binder 40507:40508 <> c':424
+binder 40510:40511 <> m':425
+R40520:40532 VST.sepcomp.semantics_lemmas <> corestep_star def
+R40543:40544 VST.sepcomp.semantics_lemmas <> m':425 var
+R40540:40541 VST.sepcomp.semantics_lemmas <> c':424 var
+R40538:40538 VST.sepcomp.semantics_lemmas <> m:423 var
+R40536:40536 VST.sepcomp.semantics_lemmas <> c:422 var
+R40534:40534 VST.sepcomp.semantics_lemmas <> memstepN.M var
+binder 40517:40518 <> CS:426
+binder 40546:40546 <> b:427
+R40552:40566 compcert.common.Memory Mem valid_block def
+R40570:40570 VST.sepcomp.semantics_lemmas <> b:427 var
+R40568:40568 VST.sepcomp.semantics_lemmas <> m:423 var
+binder 40549:40550 <> VB:428
+R40574:40581 VST.sepcomp.mem_lemmas <> readonly def
+R40587:40588 VST.sepcomp.semantics_lemmas <> m':425 var
+R40585:40585 VST.sepcomp.semantics_lemmas <> b:427 var
+R40583:40583 VST.sepcomp.semantics_lemmas <> m:423 var
+R40618:40633 VST.sepcomp.semantics_lemmas <> corestepN_rdonly thm
+R40618:40633 VST.sepcomp.semantics_lemmas <> corestepN_rdonly thm
+R40659:40666 VST.sepcomp.semantics_lemmas memstepN <> sec

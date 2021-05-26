@@ -1,0 +1,219 @@
+DIGEST 4fa439cb4f9c217d538acda265d7a9cb
+FVST.floyd.Clightnotations
+R1212:1243 compcert.exportclight.Clightdefs <> <> lib
+R1270:1275 Coq.Strings.String <> <> lib
+R1277:1280 Coq.Lists.List <> <> lib
+R1282:1287 Coq.ZArith.ZArith <> <> lib
+R1319:1326 compcert.lib.Integers <> <> lib
+R1328:1333 compcert.lib.Floats <> <> lib
+R1335:1338 compcert.lib.Maps <> <> lib
+R1340:1345 compcert.common.Errors <> <> lib
+R1347:1349 compcert.common.AST <> <> lib
+R1351:1356 compcert.cfrontend.Ctypes <> <> lib
+R1358:1360 compcert.cfrontend.Cop <> <> lib
+R1362:1367 compcert.cfrontend.Clight <> <> lib
+R2720:2727 compcert.lib.Integers Int repr def
+not 2712:2712 <> ::int_repr_scope:x
+R2798:2807 compcert.lib.Integers Int64 repr def
+not 2790:2790 <> ::int64_repr_scope:x
+not 2873:2873 <> ::print_stmt_for_scope:'({'_x_'})'
+R3055:3062 compcert.cfrontend.Clight <> Sbuiltin constr
+R3065:3068 Coq.Init.Datatypes <> Some constr
+not 3024:3024 <> ::print_stmt_for_scope:x_'='_'builtin'_x_'('_x_')'
+R3329:3336 compcert.cfrontend.Clight <> Sbuiltin constr
+R3338:3341 Coq.Init.Datatypes <> None constr
+not 3303:3303 <> ::print_stmt_for_scope:'builtin'_x_'('_x_')'
+R3573:3577 compcert.cfrontend.Clight <> Scall constr
+R3580:3583 Coq.Init.Datatypes <> Some constr
+not 3552:3552 <> ::print_stmt_for_scope:x_'='_x_'('_x_')'
+R3809:3813 compcert.cfrontend.Clight <> Scall constr
+R3815:3818 Coq.Init.Datatypes <> None constr
+not 3793:3793 <> ::print_stmt_for_scope:x_'('_x_')'
+R4002:4010 compcert.cfrontend.Clight <> Ssequence constr
+not 3988:3988 <> ::print_stmt_for_scope:x_','_x
+R4181:4184 compcert.cfrontend.Clight <> Sset constr
+not 4167:4167 <> ::print_stmt_for_scope:x_'='_x
+R4303:4309 compcert.cfrontend.Clight <> Sassign constr
+not 4289:4289 <> ::print_stmt_for_scope:x_'='_x
+R4427:4431 compcert.cfrontend.Clight <> Sskip constr
+not 4410:4410 <> ::print_stmt_for_scope:'/*nothing*/'
+R4536:4540 compcert.cfrontend.Clight <> Sgoto constr
+not 4517:4517 <> ::C_scope:'goto'_x_';'
+R4685:4690 compcert.cfrontend.Clight <> Slabel constr
+not 4670:4670 <> ::C_scope:x_':'_x
+R4847:4853 compcert.cfrontend.Clight <> Sreturn constr
+R4856:4859 Coq.Init.Datatypes <> Some constr
+not 4824:4824 <> ::C_scope:'return'_x_';'
+R4986:4992 compcert.cfrontend.Clight <> Sreturn constr
+R4994:4997 Coq.Init.Datatypes <> None constr
+not 4972:4972 <> ::C_scope:'return;'
+R5102:5108 compcert.cfrontend.Clight <> Sswitch constr
+not 5067:5067 <> ::C_scope:'switch'_'('_x_')'_'{'_x_'}'
+R5305:5313 compcert.cfrontend.Clight <> Scontinue constr
+not 5290:5290 <> ::C_scope:'continue;'
+R5396:5401 compcert.cfrontend.Clight <> Sbreak constr
+not 5384:5384 <> ::C_scope:'break;'
+R5499:5503 compcert.cfrontend.Clight <> Sloop constr
+not 5469:5469 <> ::C_scope:'for'_'('_';'_';'_x_')'_'{'_x_'}'
+R5729:5733 compcert.cfrontend.Clight <> Sloop constr
+R5736:5744 compcert.cfrontend.Clight <> Ssequence constr
+R5747:5757 compcert.cfrontend.Clight <> Sifthenelse constr
+R5773:5777 compcert.cfrontend.Clight <> Sskip constr
+R5766:5771 compcert.cfrontend.Clight <> Sbreak constr
+not 5697:5697 <> ::C_scope:'for'_'('_';'_x_';'_x_')'_'{'_x_'}'
+R6002:6006 compcert.cfrontend.Clight <> Sloop constr
+R6013:6017 compcert.cfrontend.Clight <> Sskip constr
+not 5975:5975 <> ::C_scope:'for'_'('_';'_';'_')'_'{'_x_'}'
+R6194:6197 compcert.cfrontend.Clight <> Sfor def
+not 6159:6159 <> ::C_scope:'for'_'('_x_';'_x_';'_x_')'_'{'_x_'}'
+R6468:6478 compcert.cfrontend.Clight <> Sifthenelse constr
+not 6426:6426 <> ::C_scope:'if'_'('_x_')'_'{'_x_'}'_'else'_'{'_x_'}'
+R6714:6724 compcert.cfrontend.Clight <> Sifthenelse constr
+R6737:6741 compcert.cfrontend.Clight <> Sskip constr
+not 6685:6685 <> ::C_scope:'if'_'(!'_x_')'_'{'_x_'}'
+R6919:6929 compcert.cfrontend.Clight <> Sifthenelse constr
+R6947:6951 compcert.cfrontend.Clight <> Sskip constr
+not 6891:6891 <> ::C_scope:'if'_'('_x_')'_'{'_x_'}'
+R7106:7114 compcert.cfrontend.Clight <> Ssequence constr
+not 7094:7094 <> ::C_scope:x_x
+R7458:7465 compcert.cfrontend.Clight <> Sbuiltin constr
+R7468:7471 Coq.Init.Datatypes <> Some constr
+not 7426:7426 <> ::C_scope:x_'='_'builtin'_x_'('_x_');'
+R7721:7728 compcert.cfrontend.Clight <> Sbuiltin constr
+R7730:7733 Coq.Init.Datatypes <> None constr
+not 7694:7694 <> ::C_scope:'builtin'_x_'('_x_');'
+R7954:7958 compcert.cfrontend.Clight <> Scall constr
+R7961:7964 Coq.Init.Datatypes <> Some constr
+not 7932:7932 <> ::C_scope:x_'='_x_'('_x_');'
+R8179:8183 compcert.cfrontend.Clight <> Scall constr
+R8185:8188 Coq.Init.Datatypes <> None constr
+not 8162:8162 <> ::C_scope:x_'('_x_');'
+R8362:8365 compcert.cfrontend.Clight <> Sset constr
+not 8346:8346 <> ::C_scope:x_'='_x_';'
+R8528:8534 compcert.cfrontend.Clight <> Sassign constr
+not 8512:8512 <> ::C_scope:x_'='_x_';'
+R8692:8696 compcert.cfrontend.Clight <> Sskip constr
+not 8677:8677 <> ::C_scope:'/*skip*/;'
+R8793:8800 compcert.cfrontend.Clight <> Ealignof constr
+not 8767:8767 <> ::expr_scope:'__alignof__('_x_')'
+R9028:9034 compcert.cfrontend.Clight <> Esizeof constr
+not 9007:9007 <> ::expr_scope:'sizeof('_x_')'
+R9252:9256 compcert.cfrontend.Clight <> Ecast constr
+not 9236:9236 <> ::expr_scope:'('_x_')'_x
+R9490:9495 compcert.cfrontend.Clight <> Ebinop constr
+R9497:9499 compcert.cfrontend.Cop <> Olt constr
+not 9476:9476 <> ::expr_scope:x_'<'_x
+R9622:9627 compcert.cfrontend.Clight <> Ebinop constr
+R9629:9631 compcert.cfrontend.Cop <> Ogt constr
+not 9608:9608 <> ::expr_scope:x_'>'_x
+R9755:9760 compcert.cfrontend.Clight <> Ebinop constr
+R9762:9764 compcert.cfrontend.Cop <> Oge constr
+not 9740:9740 <> ::expr_scope:x_'>='_x
+R9888:9893 compcert.cfrontend.Clight <> Ebinop constr
+R9895:9898 compcert.cfrontend.Cop <> Omod constr
+not 9874:9874 <> ::expr_scope:x_'%'_x
+R10114:10119 compcert.cfrontend.Clight <> Ebinop constr
+R10121:10124 compcert.cfrontend.Cop <> Oxor constr
+not 10100:10100 <> ::expr_scope:x_'^'_x
+R10268:10273 compcert.cfrontend.Clight <> Ebinop constr
+R10275:10278 compcert.cfrontend.Cop <> Osub constr
+not 10254:10254 <> ::expr_scope:x_'-'_x
+R10422:10427 compcert.cfrontend.Clight <> Ebinop constr
+R10429:10432 compcert.cfrontend.Cop <> Oshr constr
+not 10407:10407 <> ::expr_scope:x_'>>'_x
+R10650:10655 compcert.cfrontend.Clight <> Ebinop constr
+R10657:10659 compcert.cfrontend.Cop <> Ole constr
+not 10635:10635 <> ::expr_scope:x_'<='_x
+R10783:10788 compcert.cfrontend.Clight <> Ebinop constr
+R10790:10792 compcert.cfrontend.Cop <> Oor constr
+not 10769:10769 <> ::expr_scope:x_'|'_x
+R11008:11013 compcert.cfrontend.Clight <> Ebinop constr
+R11015:11018 compcert.cfrontend.Cop <> Odiv constr
+not 10994:10994 <> ::expr_scope:x_'/'_x
+R11162:11167 compcert.cfrontend.Clight <> Ebinop constr
+R11169:11172 compcert.cfrontend.Cop <> Oshl constr
+not 11147:11147 <> ::expr_scope:x_'<<'_x
+R11389:11394 compcert.cfrontend.Clight <> Ebinop constr
+R11396:11399 compcert.cfrontend.Cop <> Oand constr
+not 11375:11375 <> ::expr_scope:x_'&'_x
+R11616:11621 compcert.cfrontend.Clight <> Ebinop constr
+R11623:11629 compcert.cfrontend.Cop <> One constr
+not 11601:11601 <> ::expr_scope:x_'!='_x
+R11846:11851 compcert.cfrontend.Clight <> Ebinop constr
+R11853:11856 compcert.cfrontend.Cop <> Omul constr
+not 11832:11832 <> ::expr_scope:x_'*'_x
+R12000:12005 compcert.cfrontend.Clight <> Ebinop constr
+R12007:12009 compcert.cfrontend.Cop <> Oeq constr
+not 11985:11985 <> ::expr_scope:x_'=='_x
+R12226:12231 compcert.cfrontend.Clight <> Ebinop constr
+R12233:12236 compcert.cfrontend.Cop <> Oadd constr
+not 12212:12212 <> ::expr_scope:x_'+'_x
+R12376:12382 compcert.cfrontend.Clight <> Eaddrof constr
+not 12365:12365 <> ::expr_scope:'&'_x
+R12595:12599 compcert.cfrontend.Clight <> Eunop constr
+R12601:12609 compcert.cfrontend.Cop <> Oabsfloat constr
+not 12569:12569 <> ::expr_scope:'__builtin_fabs'_x
+R12822:12826 compcert.cfrontend.Clight <> Eunop constr
+R12828:12834 compcert.cfrontend.Cop <> Onotint constr
+not 12811:12811 <> ::expr_scope:'~'_x
+R12958:12962 compcert.cfrontend.Clight <> Eunop constr
+R12964:12971 compcert.cfrontend.Cop <> Onotbool constr
+not 12947:12947 <> ::expr_scope:'!'_x
+R13095:13099 compcert.cfrontend.Clight <> Eunop constr
+R13101:13104 compcert.cfrontend.Cop <> Oneg constr
+not 13084:13084 <> ::expr_scope:'-'_x
+R13246:13250 compcert.cfrontend.Clight <> Eunop constr
+R13252:13260 compcert.cfrontend.Cop <> Oabsfloat constr
+not 13217:13217 <> ::expr_scope:'__builtin_fabs('_x_')'
+R13482:13492 compcert.cfrontend.Clight <> Econst_long constr
+not 13465:13465 <> ::expr_scope:x_'LL'
+R13635:13645 compcert.cfrontend.Clight <> Econst_long constr
+R13665:13669 compcert.cfrontend.Ctypes <> Tlong constr
+R13671:13678 compcert.cfrontend.Ctypes <> Unsigned constr
+not 13617:13617 <> ::expr_scope:x_'LLU'
+R13804:13816 compcert.cfrontend.Clight <> Econst_single constr
+not 13788:13788 <> ::expr_scope:x_'f'
+R13965:13976 compcert.cfrontend.Clight <> Econst_float constr
+not 13953:13953 <> ::expr_scope:x
+R14101:14110 compcert.cfrontend.Clight <> Econst_int constr
+not 14089:14089 <> ::expr_scope:x
+R14226:14235 compcert.cfrontend.Clight <> Econst_int constr
+R14253:14256 compcert.cfrontend.Ctypes <> Tint constr
+R14262:14269 compcert.cfrontend.Ctypes <> Unsigned constr
+R14258:14260 compcert.cfrontend.Ctypes <> I32 constr
+not 14210:14210 <> ::expr_scope:x_'U'
+R14394:14399 compcert.cfrontend.Clight <> Efield constr
+not 14377:14377 <> ::expr_scope:x_'.'_x
+R14603:14608 compcert.cfrontend.Clight <> Ederef constr
+not 14592:14592 <> ::expr_scope:'*'_x
+R14804:14811 compcert.cfrontend.Clight <> Etempvar constr
+not 14795:14795 <> ::expr_scope:x
+R14914:14917 compcert.cfrontend.Clight <> Evar constr
+not 14905:14905 <> ::expr_scope:x
+R15036:15041 compcert.cfrontend.Clight <> LScons constr
+not 15014:15014 <> ::print_cases_scope:x_':'_x_x
+R15249:15254 compcert.cfrontend.Clight <> LScons constr
+R15277:15281 compcert.cfrontend.Clight <> Sskip constr
+not 15233:15233 <> ::print_cases_scope:x_':'_x
+R15428:15432 compcert.cfrontend.Clight <> LSnil constr
+not 15422:15422 <> ::print_cases_scope:
+R15541:15544 Coq.Init.Datatypes <> Some constr
+not 15524:15524 <> ::print_case_label_scope:'case'_x
+R15691:15694 Coq.Init.Datatypes <> None constr
+not 15676:15676 <> ::print_case_label_scope:'default'
+R15802:15807 compcert.cfrontend.Clight <> Efield constr
+R15810:15815 compcert.cfrontend.Clight <> Ederef constr
+not 15781:15781 <> ::expr_scope:x_'->'_x
+R15992:15997 compcert.cfrontend.Clight <> Ederef constr
+R16000:16005 compcert.cfrontend.Clight <> Ebinop constr
+R16007:16010 compcert.cfrontend.Cop <> Oadd constr
+not 15970:15970 <> ::expr_scope:x_'['_x_']'
+R16156:16159 Coq.Init.Datatypes <> cons constr
+R16178:16181 Coq.Init.Datatypes <> cons constr
+R16197:16199 Coq.Init.Datatypes <> nil constr
+R16201:16204 compcert.cfrontend.Clight <> expr ind
+R16183:16186 compcert.cfrontend.Clight <> expr ind
+R16161:16164 compcert.cfrontend.Clight <> expr ind
+not 16138:16138 <> ::print_expr_list_true_scope:x_','_'..'_','_x
+R16342:16347 compcert.cfrontend.Clight <> Swhile def
+not 16311:16311 <> ::C_scope:'while'_'('_x_')'_'{'_x_'}'

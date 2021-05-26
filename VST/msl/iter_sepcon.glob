@@ -1,0 +1,1106 @@
+DIGEST 26f73244bb473ff7c29aed6757cacad3
+FVST.msl.iter_sepcon
+R189:200 VST.msl.base <> <> lib
+R218:239 VST.msl.Extensionality <> <> lib
+R257:274 VST.msl.simple_CCC <> <> lib
+R292:305 VST.msl.seplog <> <> lib
+R323:343 VST.msl.log_normalize <> <> lib
+R361:374 Coq.Lists.List <> <> lib
+R392:414 Coq.Sorting.Permutation <> <> lib
+R432:452 Coq.Classes.Morphisms <> <> lib
+prf 462:480 <> In_Permutation_cons
+binder 491:491 <> A:1
+R506:509 Coq.Init.Datatypes <> list ind
+R511:511 VST.msl.iter_sepcon <> A:1 var
+binder 502:502 <> l:2
+R519:519 VST.msl.iter_sepcon <> A:1 var
+binder 515:515 <> x:3
+R531:536 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R537:543 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R546:547 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 544:545 <> l':4
+R548:558 Coq.Sorting.Permutation <> Permutation ind
+R564:567 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R563:563 VST.msl.iter_sepcon <> x:3 var
+R568:569 VST.msl.iter_sepcon <> l':4 var
+R560:560 VST.msl.iter_sepcon <> l:2 var
+R525:526 Coq.Lists.List <> In def
+R530:530 VST.msl.iter_sepcon <> l:2 var
+R528:528 VST.msl.iter_sepcon <> x:3 var
+R723:726 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R723:726 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+prf 781:796 <> incl_Permutation
+binder 799:799 <> A:5
+R824:827 Coq.Init.Datatypes <> list ind
+R829:829 VST.msl.iter_sepcon <> A:5 var
+binder 817:818 <> l1:6
+binder 820:821 <> l2:7
+R841:844 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R855:858 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R859:865 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R868:869 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 866:867 <> l':8
+R870:880 Coq.Sorting.Permutation <> Permutation ind
+R888:891 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R886:887 VST.msl.iter_sepcon <> l2:7 var
+R892:893 VST.msl.iter_sepcon <> l':8 var
+R882:883 VST.msl.iter_sepcon <> l1:6 var
+R845:848 Coq.Lists.List <> incl def
+R853:854 VST.msl.iter_sepcon <> l1:6 var
+R850:851 VST.msl.iter_sepcon <> l2:7 var
+R833:837 Coq.Lists.List <> NoDup ind
+R839:840 VST.msl.iter_sepcon <> l2:7 var
+R993:1006 Coq.Lists.List <> NoDup_cons_iff thm
+R993:1006 Coq.Lists.List <> NoDup_cons_iff thm
+R993:1006 Coq.Lists.List <> NoDup_cons_iff thm
+R1045:1046 Coq.Lists.List <> In def
+R1045:1046 Coq.Lists.List <> In def
+R1090:1093 Coq.Lists.List <> incl def
+R1090:1093 Coq.Lists.List <> incl def
+R1208:1209 Coq.Lists.List <> In def
+R1245:1253 Coq.Lists.List <> in_app_or thm
+R1208:1209 Coq.Lists.List <> In def
+R1245:1253 Coq.Lists.List <> in_app_or thm
+R1304:1322 VST.msl.iter_sepcon <> In_Permutation_cons thm
+R1304:1322 VST.msl.iter_sepcon <> In_Permutation_cons thm
+R1406:1418 Coq.Lists.List <> app_comm_cons thm
+R1406:1418 Coq.Lists.List <> app_comm_cons thm
+R1406:1418 Coq.Lists.List <> app_comm_cons thm
+R1437:1454 Coq.Sorting.Permutation <> Permutation_middle thm
+R1437:1454 Coq.Sorting.Permutation <> Permutation_middle thm
+def 1524:1537 <> sepcon_unique1
+binder 1540:1540 <> X:9
+binder 1542:1542 <> A:10
+R1547:1552 VST.msl.seplog <> SepLog class
+R1554:1554 VST.msl.iter_sepcon <> A:10 var
+binder 1547:1554 <> H:12
+R1562:1565 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1566:1566 VST.msl.iter_sepcon <> A:10 var
+R1561:1561 VST.msl.iter_sepcon <> X:9 var
+binder 1558:1558 <> P:13
+binder 1587:1587 <> x:14
+R1599:1603 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1593:1595 VST.msl.seplog <> ::logic:x_'*'_x not
+R1590:1590 VST.msl.iter_sepcon <> P:13 var
+R1592:1592 VST.msl.iter_sepcon <> x:14 var
+R1596:1596 VST.msl.iter_sepcon <> P:13 var
+R1598:1598 VST.msl.iter_sepcon <> x:14 var
+R1604:1605 VST.msl.seplog <> FF meth
+def 1620:1633 <> sepcon_unique2
+binder 1636:1636 <> X:15
+binder 1638:1638 <> Y:16
+binder 1640:1640 <> A:17
+R1645:1650 VST.msl.seplog <> SepLog class
+R1652:1652 VST.msl.iter_sepcon <> A:17 var
+binder 1645:1652 <> H:19
+R1660:1663 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1665:1668 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1669:1669 VST.msl.iter_sepcon <> A:17 var
+R1664:1664 VST.msl.iter_sepcon <> Y:16 var
+R1659:1659 VST.msl.iter_sepcon <> X:15 var
+binder 1656:1656 <> P:20
+binder 1690:1690 <> x:21
+binder 1692:1693 <> y1:22
+binder 1695:1696 <> y2:23
+R1714:1718 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1705:1707 VST.msl.seplog <> ::logic:x_'*'_x not
+R1699:1699 VST.msl.iter_sepcon <> P:20 var
+R1703:1704 VST.msl.iter_sepcon <> y1:22 var
+R1701:1701 VST.msl.iter_sepcon <> x:21 var
+R1708:1708 VST.msl.iter_sepcon <> P:20 var
+R1712:1713 VST.msl.iter_sepcon <> y2:23 var
+R1710:1710 VST.msl.iter_sepcon <> x:21 var
+R1719:1720 VST.msl.seplog <> FF meth
+sec 1732:1741 <> IterSepCon
+binder 1756:1756 <> A:24
+binder 1778:1778 <> B:25
+R1805:1810 VST.msl.seplog <> NatDed class
+R1812:1812 VST.msl.iter_sepcon <> IterSepCon.A var
+binder 1800:1801 <> ND:26
+R1832:1837 VST.msl.seplog <> SepLog class
+R1839:1839 VST.msl.iter_sepcon <> IterSepCon.A var
+binder 1827:1828 <> SL:27
+R1859:1870 VST.msl.seplog <> ClassicalSep class
+R1872:1872 VST.msl.iter_sepcon <> IterSepCon.A var
+binder 1854:1856 <> ClS:28
+R1893:1905 VST.msl.seplog <> CorableSepLog class
+R1907:1907 VST.msl.iter_sepcon <> IterSepCon.A var
+binder 1887:1890 <> CoSL:29
+sec 1920:1932 IterSepCon SingleSepPred
+R1952:1955 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1956:1956 VST.msl.iter_sepcon <> IterSepCon.A var
+R1951:1951 VST.msl.iter_sepcon <> IterSepCon.B var
+binder 1947:1947 <> p:30
+def 1970:1980 <> iter_sepcon
+R1987:1990 Coq.Init.Datatypes <> list ind
+R1992:1992 VST.msl.iter_sepcon <> IterSepCon.B var
+binder 1983:1983 <> l:31
+R1997:1997 VST.msl.iter_sepcon <> IterSepCon.A var
+R2010:2010 VST.msl.iter_sepcon <> l:31 var
+R2023:2025 Coq.Init.Datatypes <> nil constr
+R2030:2032 VST.msl.seplog <> emp meth
+R2041:2044 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2054:2056 VST.msl.seplog <> ::logic:x_'*'_x not
+R2051:2051 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+R2057:2067 VST.msl.iter_sepcon <> iter_sepcon:32 def
+prf 2086:2100 <> iter_sepcon_app
+R2121:2124 Coq.Init.Datatypes <> list ind
+R2126:2126 VST.msl.iter_sepcon <> IterSepCon.B var
+binder 2113:2114 <> l1:34
+binder 2116:2117 <> l2:35
+R2152:2154 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2130:2140 VST.msl.iter_sepcon <> iter_sepcon def
+R2145:2148 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2143:2144 VST.msl.iter_sepcon <> l1:34 var
+R2149:2150 VST.msl.iter_sepcon <> l2:35 var
+R2169:2171 VST.msl.seplog <> ::logic:x_'*'_x not
+R2155:2165 VST.msl.iter_sepcon <> iter_sepcon def
+R2167:2168 VST.msl.iter_sepcon <> l1:34 var
+R2172:2182 VST.msl.iter_sepcon <> iter_sepcon def
+R2184:2185 VST.msl.iter_sepcon <> l2:35 var
+R2234:2243 VST.msl.log_normalize <> emp_sepcon thm
+R2234:2243 VST.msl.log_normalize <> emp_sepcon thm
+R2234:2243 VST.msl.log_normalize <> emp_sepcon thm
+R2274:2285 VST.msl.seplog <> sepcon_assoc meth
+R2274:2285 VST.msl.seplog <> sepcon_assoc meth
+R2274:2285 VST.msl.seplog <> sepcon_assoc meth
+prf 2306:2325 <> iter_sepcon_app_comm
+R2344:2347 Coq.Init.Datatypes <> list ind
+R2349:2349 VST.msl.iter_sepcon <> IterSepCon.B var
+binder 2336:2337 <> l1:36
+binder 2339:2340 <> l2:37
+R2375:2377 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2353:2363 VST.msl.iter_sepcon <> iter_sepcon def
+R2368:2371 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2366:2367 VST.msl.iter_sepcon <> l1:36 var
+R2372:2373 VST.msl.iter_sepcon <> l2:37 var
+R2378:2388 VST.msl.iter_sepcon <> iter_sepcon def
+R2393:2396 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2391:2392 VST.msl.iter_sepcon <> l2:37 var
+R2397:2398 VST.msl.iter_sepcon <> l1:36 var
+R2430:2444 VST.msl.iter_sepcon <> iter_sepcon_app thm
+R2430:2444 VST.msl.iter_sepcon <> iter_sepcon_app thm
+R2430:2444 VST.msl.iter_sepcon <> iter_sepcon_app thm
+R2430:2444 VST.msl.iter_sepcon <> iter_sepcon_app thm
+R2430:2444 VST.msl.iter_sepcon <> iter_sepcon_app thm
+R2455:2465 VST.msl.seplog <> sepcon_comm meth
+R2455:2465 VST.msl.seplog <> sepcon_comm meth
+R2455:2465 VST.msl.seplog <> sepcon_comm meth
+prf 2486:2508 <> iter_sepcon_permutation
+R2528:2531 Coq.Init.Datatypes <> list ind
+R2533:2533 VST.msl.iter_sepcon <> IterSepCon.B var
+binder 2520:2521 <> l1:38
+binder 2523:2524 <> l2:39
+R2554:2557 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2572:2574 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2558:2568 VST.msl.iter_sepcon <> iter_sepcon def
+R2570:2571 VST.msl.iter_sepcon <> l1:38 var
+R2575:2585 VST.msl.iter_sepcon <> iter_sepcon def
+R2587:2588 VST.msl.iter_sepcon <> l2:39 var
+R2537:2547 Coq.Sorting.Permutation <> Permutation ind
+R2552:2553 VST.msl.iter_sepcon <> l2:39 var
+R2549:2550 VST.msl.iter_sepcon <> l1:38 var
+R2687:2698 VST.msl.seplog <> sepcon_assoc meth
+R2687:2698 VST.msl.seplog <> sepcon_assoc meth
+R2687:2698 VST.msl.seplog <> sepcon_assoc meth
+R2687:2698 VST.msl.seplog <> sepcon_assoc meth
+R2687:2698 VST.msl.seplog <> sepcon_assoc meth
+R2710:2720 VST.msl.seplog <> sepcon_comm meth
+R2723:2723 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+R2710:2720 VST.msl.seplog <> sepcon_comm meth
+R2723:2723 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+R2710:2720 VST.msl.seplog <> sepcon_comm meth
+R2723:2723 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+prf 2782:2800 <> iter_sepcon_in_true
+R2815:2818 Coq.Init.Datatypes <> list ind
+R2820:2820 VST.msl.iter_sepcon <> IterSepCon.B var
+binder 2811:2811 <> l:40
+binder 2823:2823 <> x:41
+R2832:2835 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2849:2853 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2836:2846 VST.msl.iter_sepcon <> iter_sepcon def
+R2848:2848 VST.msl.iter_sepcon <> l:40 var
+R2857:2859 VST.msl.seplog <> ::logic:x_'*'_x not
+R2854:2854 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+R2856:2856 VST.msl.iter_sepcon <> x:41 var
+R2860:2861 VST.msl.seplog <> TT meth
+R2826:2827 Coq.Lists.List <> In def
+R2831:2831 VST.msl.iter_sepcon <> l:40 var
+R2829:2829 VST.msl.iter_sepcon <> x:41 var
+R2887:2894 Coq.Lists.List <> in_split thm
+R2887:2894 Coq.Lists.List <> in_split thm
+R2946:2965 VST.msl.iter_sepcon <> iter_sepcon_app_comm thm
+R2946:2965 VST.msl.iter_sepcon <> iter_sepcon_app_comm thm
+R2946:2965 VST.msl.iter_sepcon <> iter_sepcon_app_comm thm
+R2979:2991 Coq.Lists.List <> app_comm_cons thm
+R2979:2991 Coq.Lists.List <> app_comm_cons thm
+R2979:2991 Coq.Lists.List <> app_comm_cons thm
+R3009:3022 VST.msl.seplog <> sepcon_derives meth
+R3009:3022 VST.msl.seplog <> sepcon_derives meth
+R3037:3044 VST.msl.log_normalize <> TT_right thm
+R3037:3044 VST.msl.log_normalize <> TT_right thm
+prf 3059:3079 <> iter_sepcon_incl_true
+R3095:3098 Coq.Init.Datatypes <> list ind
+R3100:3100 VST.msl.iter_sepcon <> IterSepCon.B var
+binder 3090:3090 <> l:42
+binder 3092:3092 <> s:43
+R3115:3118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3127:3130 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3144:3148 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R3131:3141 VST.msl.iter_sepcon <> iter_sepcon def
+R3143:3143 VST.msl.iter_sepcon <> l:42 var
+R3162:3164 VST.msl.seplog <> ::logic:x_'*'_x not
+R3149:3159 VST.msl.iter_sepcon <> iter_sepcon def
+R3161:3161 VST.msl.iter_sepcon <> s:43 var
+R3165:3166 VST.msl.seplog <> TT meth
+R3119:3122 Coq.Lists.List <> incl def
+R3126:3126 VST.msl.iter_sepcon <> l:42 var
+R3124:3124 VST.msl.iter_sepcon <> s:43 var
+R3108:3112 Coq.Lists.List <> NoDup ind
+R3114:3114 VST.msl.iter_sepcon <> s:43 var
+R3196:3211 VST.msl.iter_sepcon <> incl_Permutation thm
+R3196:3211 VST.msl.iter_sepcon <> incl_Permutation thm
+R3242:3264 VST.msl.iter_sepcon <> iter_sepcon_permutation thm
+R3242:3264 VST.msl.iter_sepcon <> iter_sepcon_permutation thm
+R3285:3299 VST.msl.iter_sepcon <> iter_sepcon_app thm
+R3285:3299 VST.msl.iter_sepcon <> iter_sepcon_app thm
+R3285:3299 VST.msl.iter_sepcon <> iter_sepcon_app thm
+R3310:3323 VST.msl.seplog <> sepcon_derives meth
+R3310:3323 VST.msl.seplog <> sepcon_derives meth
+R3338:3345 VST.msl.log_normalize <> TT_right thm
+R3338:3345 VST.msl.log_normalize <> TT_right thm
+prf 3360:3383 <> iter_sepcon_unique_nodup
+R3398:3401 Coq.Init.Datatypes <> list ind
+R3403:3403 VST.msl.iter_sepcon <> IterSepCon.B var
+binder 3394:3394 <> l:44
+R3423:3426 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3440:3444 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R3427:3437 VST.msl.iter_sepcon <> iter_sepcon def
+R3439:3439 VST.msl.iter_sepcon <> l:44 var
+R3445:3447 VST.msl.seplog <> ::logic:'!!'_x not
+R3455:3455 VST.msl.seplog <> ::logic:'!!'_x not
+R3448:3452 Coq.Lists.List <> NoDup ind
+R3454:3454 VST.msl.iter_sepcon <> l:44 var
+R3407:3420 VST.msl.iter_sepcon <> sepcon_unique1 def
+R3422:3422 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+R3498:3507 VST.msl.seplog <> prop_right meth
+R3498:3507 VST.msl.seplog <> prop_right meth
+R3565:3569 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R3549:3551 VST.msl.seplog <> ::logic:x_'*'_x not
+R3546:3546 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+R3552:3562 VST.msl.iter_sepcon <> iter_sepcon def
+R3570:3572 VST.msl.seplog <> ::logic:'!!'_x not
+R3581:3581 VST.msl.seplog <> ::logic:'!!'_x not
+R3573:3574 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3575:3576 Coq.Lists.List <> In def
+R3565:3569 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R3549:3551 VST.msl.seplog <> ::logic:x_'*'_x not
+R3546:3546 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+R3552:3562 VST.msl.iter_sepcon <> iter_sepcon def
+R3570:3572 VST.msl.seplog <> ::logic:'!!'_x not
+R3581:3581 VST.msl.seplog <> ::logic:'!!'_x not
+R3573:3574 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3575:3576 Coq.Lists.List <> In def
+R3599:3612 VST.msl.log_normalize <> not_prop_right thm
+R3599:3612 VST.msl.log_normalize <> not_prop_right thm
+R3635:3653 VST.msl.iter_sepcon <> iter_sepcon_in_true thm
+R3635:3653 VST.msl.iter_sepcon <> iter_sepcon_in_true thm
+R3703:3705 VST.msl.seplog <> ::logic:x_'*'_x not
+R3697:3699 VST.msl.seplog <> ::logic:x_'*'_x not
+R3694:3694 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+R3700:3700 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+R3706:3707 VST.msl.seplog <> TT meth
+R3674:3686 VST.msl.seplog <> derives_trans meth
+R3703:3705 VST.msl.seplog <> ::logic:x_'*'_x not
+R3697:3699 VST.msl.seplog <> ::logic:x_'*'_x not
+R3694:3694 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+R3700:3700 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+R3706:3707 VST.msl.seplog <> TT meth
+R3674:3686 VST.msl.seplog <> derives_trans meth
+R3727:3738 VST.msl.seplog <> sepcon_assoc meth
+R3727:3738 VST.msl.seplog <> sepcon_assoc meth
+R3727:3738 VST.msl.seplog <> sepcon_assoc meth
+R3747:3760 VST.msl.seplog <> sepcon_derives meth
+R3747:3760 VST.msl.seplog <> sepcon_derives meth
+R3769:3780 VST.msl.seplog <> derives_refl meth
+R3769:3780 VST.msl.seplog <> derives_refl meth
+R3843:3845 VST.msl.seplog <> ::logic:x_'*'_x not
+R3841:3842 VST.msl.seplog <> FF meth
+R3846:3847 VST.msl.seplog <> TT meth
+R3821:3833 VST.msl.seplog <> derives_trans meth
+R3843:3845 VST.msl.seplog <> ::logic:x_'*'_x not
+R3841:3842 VST.msl.seplog <> FF meth
+R3846:3847 VST.msl.seplog <> TT meth
+R3821:3833 VST.msl.seplog <> derives_trans meth
+R3865:3878 VST.msl.seplog <> sepcon_derives meth
+R3865:3878 VST.msl.seplog <> sepcon_derives meth
+R3895:3905 VST.msl.seplog <> sepcon_comm meth
+R3908:3916 VST.msl.log_normalize <> sepcon_FF thm
+R3895:3905 VST.msl.seplog <> sepcon_comm meth
+R3895:3905 VST.msl.seplog <> sepcon_comm meth
+R3908:3916 VST.msl.log_normalize <> sepcon_FF thm
+R3908:3916 VST.msl.log_normalize <> sepcon_FF thm
+R3925:3936 VST.msl.seplog <> derives_refl meth
+R3925:3936 VST.msl.seplog <> derives_refl meth
+R3984:3987 VST.msl.seplog <> ::logic:x_'&&'_x not
+R3973:3975 VST.msl.seplog <> ::logic:'!!'_x not
+R3983:3983 VST.msl.seplog <> ::logic:'!!'_x not
+R3976:3980 Coq.Lists.List <> NoDup ind
+R3988:3990 VST.msl.seplog <> ::logic:'!!'_x not
+R3999:3999 VST.msl.seplog <> ::logic:'!!'_x not
+R3991:3992 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3993:3994 Coq.Lists.List <> In def
+R3953:3965 VST.msl.seplog <> derives_trans meth
+R3984:3987 VST.msl.seplog <> ::logic:x_'&&'_x not
+R3973:3975 VST.msl.seplog <> ::logic:'!!'_x not
+R3983:3983 VST.msl.seplog <> ::logic:'!!'_x not
+R3976:3980 Coq.Lists.List <> NoDup ind
+R3988:3990 VST.msl.seplog <> ::logic:'!!'_x not
+R3999:3999 VST.msl.seplog <> ::logic:'!!'_x not
+R3991:3992 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3993:3994 Coq.Lists.List <> In def
+R3953:3965 VST.msl.seplog <> derives_trans meth
+R4013:4022 VST.msl.seplog <> andp_right meth
+R4013:4022 VST.msl.seplog <> andp_right meth
+R4040:4047 VST.msl.log_normalize <> add_andp thm
+R4040:4047 VST.msl.log_normalize <> add_andp thm
+R4040:4047 VST.msl.log_normalize <> add_andp thm
+prf 4116:4131 <> iter_sepcon_emp'
+R4146:4149 Coq.Init.Datatypes <> list ind
+R4151:4151 VST.msl.iter_sepcon <> IterSepCon.B var
+binder 4142:4142 <> l:45
+R4155:4155 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4185:4189 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4203:4205 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4190:4200 VST.msl.iter_sepcon <> iter_sepcon def
+R4202:4202 VST.msl.iter_sepcon <> l:45 var
+R4206:4208 VST.msl.seplog <> emp meth
+binder 4163:4163 <> x:46
+R4172:4175 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4179:4181 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4176:4176 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+R4178:4178 VST.msl.iter_sepcon <> x:46 var
+R4182:4184 VST.msl.seplog <> emp meth
+R4166:4167 Coq.Lists.List <> In def
+R4171:4171 VST.msl.iter_sepcon <> l:45 var
+R4169:4169 VST.msl.iter_sepcon <> x:46 var
+R4272:4281 VST.msl.seplog <> sepcon_emp meth
+R4272:4281 VST.msl.seplog <> sepcon_emp meth
+R4272:4281 VST.msl.seplog <> sepcon_emp meth
+prf 4341:4355 <> iter_sepcon_emp
+R4373:4376 Coq.Init.Datatypes <> list ind
+R4378:4378 VST.msl.iter_sepcon <> IterSepCon.B var
+binder 4366:4366 <> l:47
+binder 4368:4369 <> l':48
+R4382:4382 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4404:4408 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4417:4420 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4430:4433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4447:4451 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R4434:4444 VST.msl.iter_sepcon <> iter_sepcon def
+R4446:4446 VST.msl.iter_sepcon <> l:47 var
+R4452:4462 VST.msl.iter_sepcon <> iter_sepcon def
+R4464:4465 VST.msl.iter_sepcon <> l':48 var
+R4421:4424 Coq.Lists.List <> incl def
+R4429:4429 VST.msl.iter_sepcon <> l:47 var
+R4426:4427 VST.msl.iter_sepcon <> l':48 var
+R4409:4413 Coq.Lists.List <> NoDup ind
+R4415:4416 VST.msl.iter_sepcon <> l':48 var
+binder 4390:4390 <> x:49
+R4396:4400 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R4393:4393 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+R4395:4395 VST.msl.iter_sepcon <> x:49 var
+R4401:4403 VST.msl.seplog <> emp meth
+R4589:4598 VST.msl.log_normalize <> emp_sepcon thm
+R4600:4602 VST.msl.seplog <> emp meth
+R4589:4598 VST.msl.log_normalize <> emp_sepcon thm
+R4600:4602 VST.msl.seplog <> emp meth
+R4589:4598 VST.msl.log_normalize <> emp_sepcon thm
+R4600:4602 VST.msl.seplog <> emp meth
+R4616:4629 VST.msl.seplog <> sepcon_derives meth
+R4616:4629 VST.msl.seplog <> sepcon_derives meth
+R4700:4701 Coq.Lists.List <> In def
+R4700:4701 Coq.Lists.List <> In def
+R4761:4768 Coq.Lists.List <> in_split thm
+R4761:4768 Coq.Lists.List <> in_split thm
+R4833:4836 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4833:4836 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4991:5000 Coq.Lists.List <> in_app_iff thm
+R4991:5000 Coq.Lists.List <> in_app_iff thm
+R4991:5000 Coq.Lists.List <> in_app_iff thm
+R5036:5045 Coq.Lists.List <> in_app_iff thm
+R5036:5045 Coq.Lists.List <> in_app_iff thm
+R5036:5045 Coq.Lists.List <> in_app_iff thm
+R5067:5070 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5071:5075 Coq.Init.Logic <> False ind
+R5063:5065 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5067:5070 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5071:5075 Coq.Init.Logic <> False ind
+R5063:5065 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5147:5161 VST.msl.iter_sepcon <> iter_sepcon_app thm
+R5147:5161 VST.msl.iter_sepcon <> iter_sepcon_app thm
+R5147:5161 VST.msl.iter_sepcon <> iter_sepcon_app thm
+R5193:5203 VST.msl.seplog <> sepcon_comm meth
+R5206:5206 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+R5216:5227 VST.msl.seplog <> sepcon_assoc meth
+R5231:5241 VST.msl.seplog <> sepcon_comm meth
+R5246:5246 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+R5193:5203 VST.msl.seplog <> sepcon_comm meth
+R5206:5206 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+R5193:5203 VST.msl.seplog <> sepcon_comm meth
+R5206:5206 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+R5216:5227 VST.msl.seplog <> sepcon_assoc meth
+R5216:5227 VST.msl.seplog <> sepcon_assoc meth
+R5231:5241 VST.msl.seplog <> sepcon_comm meth
+R5246:5246 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+R5231:5241 VST.msl.seplog <> sepcon_comm meth
+R5246:5246 VST.msl.iter_sepcon <> IterSepCon.SingleSepPred.p var
+R5263:5276 VST.msl.seplog <> sepcon_derives meth
+R5263:5276 VST.msl.seplog <> sepcon_derives meth
+prf 5297:5311 <> iter_sepcon_nil
+R5329:5331 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5314:5324 VST.msl.iter_sepcon <> iter_sepcon def
+R5326:5328 Coq.Init.Datatypes <> nil constr
+R5332:5334 VST.msl.seplog <> emp meth
+R5375:5387 VST.msl.iter_sepcon IterSepCon.SingleSepPred <> sec
+prf 5397:5412 <> iter_sepcon_func
+binder 5422:5422 <> l:50
+binder 5424:5424 <> P:51
+binder 5426:5426 <> Q:52
+R5429:5429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5449:5453 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5469:5471 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5454:5464 VST.msl.iter_sepcon <> iter_sepcon def
+R5468:5468 VST.msl.iter_sepcon <> l:50 var
+R5466:5466 VST.msl.iter_sepcon <> P:51 var
+R5472:5482 VST.msl.iter_sepcon <> iter_sepcon def
+R5486:5486 VST.msl.iter_sepcon <> l:50 var
+R5484:5484 VST.msl.iter_sepcon <> Q:52 var
+binder 5437:5437 <> x:53
+R5443:5445 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5440:5440 VST.msl.iter_sepcon <> P:51 var
+R5442:5442 VST.msl.iter_sepcon <> x:53 var
+R5446:5446 VST.msl.iter_sepcon <> Q:52 var
+R5448:5448 VST.msl.iter_sepcon <> x:53 var
+prf 5554:5576 <> iter_sepcon_func_strong
+binder 5586:5586 <> l:54
+binder 5588:5588 <> P:55
+binder 5590:5590 <> Q:56
+R5593:5593 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5623:5627 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5643:5645 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5628:5638 VST.msl.iter_sepcon <> iter_sepcon def
+R5642:5642 VST.msl.iter_sepcon <> l:54 var
+R5640:5640 VST.msl.iter_sepcon <> P:55 var
+R5646:5656 VST.msl.iter_sepcon <> iter_sepcon def
+R5660:5660 VST.msl.iter_sepcon <> l:54 var
+R5658:5658 VST.msl.iter_sepcon <> Q:56 var
+binder 5601:5601 <> x:57
+R5610:5613 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5617:5619 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5614:5614 VST.msl.iter_sepcon <> P:55 var
+R5616:5616 VST.msl.iter_sepcon <> x:57 var
+R5620:5620 VST.msl.iter_sepcon <> Q:56 var
+R5622:5622 VST.msl.iter_sepcon <> x:57 var
+R5604:5605 Coq.Lists.List <> In def
+R5609:5609 VST.msl.iter_sepcon <> l:54 var
+R5607:5607 VST.msl.iter_sepcon <> x:57 var
+inst 5843:5872 <> iter_sepcon_permutation_proper
+R5876:5881 Coq.Classes.Morphisms <> Proper class
+R5939:5949 VST.msl.iter_sepcon <> iter_sepcon def
+R5884:5884 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5908:5913 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5885:5902 Coq.Classes.Morphisms <> pointwise_relation def
+R5906:5907 Coq.Init.Logic <> eq ind
+R5904:5904 VST.msl.iter_sepcon <> IterSepCon.B var
+R5914:5914 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5929:5934 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5916:5926 Coq.Sorting.Permutation <> Permutation ind
+R5928:5928 VST.msl.iter_sepcon <> IterSepCon.B var
+R5935:5936 Coq.Init.Logic <> eq ind
+R5989:5999 VST.msl.iter_sepcon <> iter_sepcon def
+R5989:5999 VST.msl.iter_sepcon <> iter_sepcon def
+R6018:6040 VST.msl.iter_sepcon <> iter_sepcon_permutation thm
+R6018:6040 VST.msl.iter_sepcon <> iter_sepcon_permutation thm
+R6059:6074 VST.msl.iter_sepcon <> iter_sepcon_func thm
+R6059:6074 VST.msl.iter_sepcon <> iter_sepcon_func thm
+R6100:6109 VST.msl.iter_sepcon IterSepCon <> sec
+prf 6119:6133 <> iter_sepcon_map
+binder 6144:6144 <> A:58
+binder 6146:6146 <> B:59
+binder 6148:6148 <> C:60
+R6163:6168 VST.msl.seplog <> NatDed class
+R6170:6170 VST.msl.iter_sepcon <> A:58 var
+binder 6158:6159 <> ND:61
+R6179:6184 VST.msl.seplog <> SepLog class
+R6186:6186 VST.msl.iter_sepcon <> A:58 var
+binder 6174:6175 <> SL:62
+R6194:6197 Coq.Init.Datatypes <> list ind
+R6199:6199 VST.msl.iter_sepcon <> C:60 var
+binder 6190:6190 <> l:63
+R6208:6211 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6212:6212 VST.msl.iter_sepcon <> A:58 var
+R6207:6207 VST.msl.iter_sepcon <> B:59 var
+binder 6203:6203 <> f:64
+R6220:6223 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6224:6224 VST.msl.iter_sepcon <> B:59 var
+R6219:6219 VST.msl.iter_sepcon <> C:60 var
+binder 6216:6216 <> g:65
+R6289:6291 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6253:6263 VST.msl.iter_sepcon <> iter_sepcon def
+R6288:6288 VST.msl.iter_sepcon <> l:63 var
+R6274:6274 VST.msl.iter_sepcon <> C:60 var
+binder 6270:6270 <> x:66
+R6279:6279 VST.msl.iter_sepcon <> f:64 var
+R6282:6282 VST.msl.iter_sepcon <> g:65 var
+R6284:6284 VST.msl.iter_sepcon <> x:66 var
+R6292:6302 VST.msl.iter_sepcon <> iter_sepcon def
+R6307:6309 Coq.Lists.List <> map def
+R6313:6313 VST.msl.iter_sepcon <> l:63 var
+R6311:6311 VST.msl.iter_sepcon <> g:65 var
+R6304:6304 VST.msl.iter_sepcon <> f:64 var
+def 6445:6451 <> uncurry
+binder 6454:6454 <> A:67
+binder 6456:6456 <> B:68
+binder 6458:6458 <> C:69
+R6466:6469 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6471:6474 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6475:6475 VST.msl.iter_sepcon <> C:69 var
+R6470:6470 VST.msl.iter_sepcon <> B:68 var
+R6465:6465 VST.msl.iter_sepcon <> A:67 var
+binder 6462:6462 <> f:70
+R6484:6484 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6483:6483 VST.msl.iter_sepcon <> A:67 var
+R6485:6485 VST.msl.iter_sepcon <> B:68 var
+binder 6479:6480 <> xy:71
+R6490:6490 VST.msl.iter_sepcon <> C:69 var
+R6497:6497 VST.msl.iter_sepcon <> f:70 var
+R6509:6511 Coq.Init.Datatypes <> snd def
+R6513:6514 VST.msl.iter_sepcon <> xy:71 var
+R6500:6502 Coq.Init.Datatypes <> fst def
+R6504:6505 VST.msl.iter_sepcon <> xy:71 var
+sec 6527:6537 <> IterSepCon2
+binder 6552:6552 <> A:72
+binder 6574:6575 <> B1:73
+binder 6577:6578 <> B2:74
+R6605:6610 VST.msl.seplog <> NatDed class
+R6612:6612 VST.msl.iter_sepcon <> IterSepCon2.A var
+binder 6600:6601 <> ND:75
+R6632:6637 VST.msl.seplog <> SepLog class
+R6639:6639 VST.msl.iter_sepcon <> IterSepCon2.A var
+binder 6627:6628 <> SL:76
+R6659:6670 VST.msl.seplog <> ClassicalSep class
+R6672:6672 VST.msl.iter_sepcon <> IterSepCon2.A var
+binder 6654:6656 <> ClS:77
+R6693:6705 VST.msl.seplog <> CorableSepLog class
+R6707:6707 VST.msl.iter_sepcon <> IterSepCon2.A var
+binder 6687:6690 <> CoSL:78
+R6728:6731 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6734:6737 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6738:6738 VST.msl.iter_sepcon <> IterSepCon2.A var
+R6732:6733 VST.msl.iter_sepcon <> IterSepCon2.B2 var
+R6726:6727 VST.msl.iter_sepcon <> IterSepCon2.B1 var
+binder 6722:6722 <> p:79
+def 6752:6763 <> iter_sepcon2
+R6770:6773 Coq.Init.Datatypes <> list ind
+R6775:6776 VST.msl.iter_sepcon <> IterSepCon2.B1 var
+binder 6766:6766 <> l:80
+R6788:6791 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6792:6792 VST.msl.iter_sepcon <> IterSepCon2.A var
+R6781:6784 Coq.Init.Datatypes <> list ind
+R6786:6787 VST.msl.iter_sepcon <> IterSepCon2.B2 var
+R6807:6807 VST.msl.iter_sepcon <> l:80 var
+R6820:6822 Coq.Init.Datatypes <> nil constr
+binder 6831:6832 <> l2:83
+R6850:6851 VST.msl.iter_sepcon <> l2:83 var
+R6867:6869 Coq.Init.Datatypes <> nil constr
+R6874:6876 VST.msl.seplog <> emp meth
+R6892:6893 VST.msl.seplog <> FF meth
+R6913:6916 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+binder 6927:6928 <> l':85
+R6946:6947 VST.msl.iter_sepcon <> l':85 var
+R6963:6965 Coq.Init.Datatypes <> nil constr
+R6970:6971 VST.msl.seplog <> FF meth
+R6983:6986 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6998:7000 VST.msl.seplog <> ::logic:x_'*'_x not
+R6993:6993 VST.msl.iter_sepcon <> IterSepCon2.p var
+R7001:7012 VST.msl.iter_sepcon <> iter_sepcon2:81 def
+prf 7045:7061 <> iter_sepcon2_spec
+binder 7071:7072 <> l1:87
+binder 7074:7075 <> l2:88
+R7098:7100 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7080:7091 VST.msl.iter_sepcon <> iter_sepcon2 def
+R7096:7097 VST.msl.iter_sepcon <> l2:88 var
+R7093:7094 VST.msl.iter_sepcon <> l1:87 var
+R7101:7103 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R7121:7122 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R7107:7110 Coq.Init.Datatypes <> list ind
+R7115:7117 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7113:7114 VST.msl.iter_sepcon <> IterSepCon2.B1 var
+R7118:7119 VST.msl.iter_sepcon <> IterSepCon2.B2 var
+binder 7104:7104 <> l:89
+R7160:7163 VST.msl.seplog <> ::logic:x_'&&'_x not
+R7123:7126 VST.msl.seplog <> ::logic:'!!'_x not
+R7159:7159 VST.msl.seplog <> ::logic:'!!'_x not
+R7141:7144 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7129:7131 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7127:7128 VST.msl.iter_sepcon <> l1:87 var
+R7132:7134 Coq.Lists.List <> map def
+R7140:7140 VST.msl.iter_sepcon <> l:89 var
+R7136:7138 Coq.Init.Datatypes <> fst def
+R7147:7149 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7145:7146 VST.msl.iter_sepcon <> l2:88 var
+R7150:7152 Coq.Lists.List <> map def
+R7158:7158 VST.msl.iter_sepcon <> l:89 var
+R7154:7156 Coq.Init.Datatypes <> snd def
+R7164:7174 VST.msl.iter_sepcon <> iter_sepcon def
+R7188:7188 VST.msl.iter_sepcon <> l:89 var
+R7177:7183 VST.msl.iter_sepcon <> uncurry def
+R7185:7185 VST.msl.iter_sepcon <> IterSepCon2.p var
+R7216:7223 VST.msl.seplog <> pred_ext meth
+R7216:7223 VST.msl.seplog <> pred_ext meth
+R7289:7297 VST.msl.seplog <> exp_right meth
+R7299:7301 Coq.Init.Datatypes <> nil constr
+R7289:7297 VST.msl.seplog <> exp_right meth
+R7299:7301 Coq.Init.Datatypes <> nil constr
+R7324:7333 VST.msl.seplog <> andp_right meth
+R7324:7333 VST.msl.seplog <> andp_right meth
+R7354:7363 VST.msl.seplog <> prop_right meth
+R7354:7363 VST.msl.seplog <> prop_right meth
+R7397:7403 VST.msl.log_normalize <> FF_left thm
+R7397:7403 VST.msl.log_normalize <> FF_left thm
+R7431:7437 VST.msl.log_normalize <> FF_left thm
+R7431:7437 VST.msl.log_normalize <> FF_left thm
+R7494:7506 VST.msl.seplog <> derives_trans meth
+R7516:7529 VST.msl.seplog <> sepcon_derives meth
+R7539:7550 VST.msl.seplog <> derives_refl meth
+R7494:7506 VST.msl.seplog <> derives_trans meth
+R7516:7529 VST.msl.seplog <> sepcon_derives meth
+R7539:7550 VST.msl.seplog <> derives_refl meth
+R7629:7637 VST.msl.seplog <> exp_right meth
+R7646:7649 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7640:7640 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7642:7643 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7645:7645 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7629:7637 VST.msl.seplog <> exp_right meth
+R7646:7649 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7640:7640 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7642:7643 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7645:7645 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7680:7689 VST.msl.seplog <> andp_right meth
+R7699:7708 VST.msl.seplog <> prop_right meth
+R7680:7689 VST.msl.seplog <> andp_right meth
+R7699:7708 VST.msl.seplog <> prop_right meth
+R7739:7750 VST.msl.seplog <> derives_refl meth
+R7739:7750 VST.msl.seplog <> derives_refl meth
+R7763:7770 VST.msl.seplog <> exp_left meth
+R7763:7770 VST.msl.seplog <> exp_left meth
+R7883:7895 VST.msl.seplog <> derives_trans meth
+R7905:7918 VST.msl.seplog <> sepcon_derives meth
+R7928:7939 VST.msl.seplog <> derives_refl meth
+R7883:7895 VST.msl.seplog <> derives_trans meth
+R7905:7918 VST.msl.seplog <> sepcon_derives meth
+R7928:7939 VST.msl.seplog <> derives_refl meth
+R7980:7991 VST.msl.seplog <> derives_refl meth
+R7980:7991 VST.msl.seplog <> derives_refl meth
+R8004:8014 VST.msl.iter_sepcon IterSepCon2 <> sec
+sec 8026:8039 <> IterPredSepCon
+binder 8054:8054 <> A:90
+binder 8076:8076 <> B:91
+R8103:8108 VST.msl.seplog <> NatDed class
+R8110:8110 VST.msl.iter_sepcon <> IterPredSepCon.A var
+binder 8098:8099 <> ND:92
+R8130:8135 VST.msl.seplog <> SepLog class
+R8137:8137 VST.msl.iter_sepcon <> IterPredSepCon.A var
+binder 8125:8126 <> SL:93
+R8157:8168 VST.msl.seplog <> ClassicalSep class
+R8170:8170 VST.msl.iter_sepcon <> IterPredSepCon.A var
+binder 8152:8154 <> ClS:94
+def 8186:8196 <> pred_sepcon
+R8203:8206 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8207:8207 VST.msl.iter_sepcon <> IterPredSepCon.A var
+R8202:8202 VST.msl.iter_sepcon <> IterPredSepCon.B var
+binder 8199:8199 <> p:95
+R8215:8218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8214:8214 VST.msl.iter_sepcon <> IterPredSepCon.B var
+binder 8211:8211 <> P:96
+R8226:8226 VST.msl.iter_sepcon <> IterPredSepCon.A var
+R8233:8235 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R8245:8246 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R8239:8242 Coq.Init.Datatypes <> list ind
+R8244:8244 VST.msl.iter_sepcon <> IterPredSepCon.B var
+binder 8236:8236 <> l:97
+R8290:8293 VST.msl.seplog <> ::logic:x_'&&'_x not
+R8276:8279 VST.msl.seplog <> ::logic:x_'&&'_x not
+R8247:8250 VST.msl.seplog <> ::logic:'!!'_x not
+R8275:8275 VST.msl.seplog <> ::logic:'!!'_x not
+binder 8258:8258 <> x:98
+R8267:8271 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8261:8262 Coq.Lists.List <> In def
+R8266:8266 VST.msl.iter_sepcon <> l:97 var
+R8264:8264 VST.msl.iter_sepcon <> x:98 var
+R8272:8272 VST.msl.iter_sepcon <> P:96 var
+R8274:8274 VST.msl.iter_sepcon <> x:98 var
+R8280:8282 VST.msl.seplog <> ::logic:'!!'_x not
+R8283:8287 Coq.Lists.List <> NoDup ind
+R8289:8289 VST.msl.iter_sepcon <> l:97 var
+R8294:8304 VST.msl.iter_sepcon <> iter_sepcon def
+R8308:8308 VST.msl.iter_sepcon <> l:97 var
+R8306:8306 VST.msl.iter_sepcon <> p:95 var
+prf 8318:8331 <> pred_sepcon_eq
+R8346:8349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8345:8345 VST.msl.iter_sepcon <> IterPredSepCon.B var
+binder 8342:8342 <> P:99
+R8361:8364 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8365:8365 VST.msl.iter_sepcon <> IterPredSepCon.A var
+R8360:8360 VST.msl.iter_sepcon <> IterPredSepCon.B var
+binder 8357:8357 <> p:100
+R8388:8396 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8472:8472 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8373:8383 VST.msl.iter_sepcon <> pred_sepcon def
+R8387:8387 VST.msl.iter_sepcon <> P:99 var
+R8385:8385 VST.msl.iter_sepcon <> p:100 var
+R8397:8399 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R8409:8410 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R8403:8406 Coq.Init.Datatypes <> list ind
+R8408:8408 VST.msl.iter_sepcon <> IterPredSepCon.B var
+binder 8400:8400 <> l:101
+R8453:8456 VST.msl.seplog <> ::logic:x_'&&'_x not
+R8411:8414 VST.msl.seplog <> ::logic:'!!'_x not
+R8452:8452 VST.msl.seplog <> ::logic:'!!'_x not
+R8415:8415 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8440:8444 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 8423:8423 <> x:102
+R8432:8436 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8426:8427 Coq.Lists.List <> In def
+R8431:8431 VST.msl.iter_sepcon <> l:101 var
+R8429:8429 VST.msl.iter_sepcon <> x:102 var
+R8437:8437 VST.msl.iter_sepcon <> P:99 var
+R8439:8439 VST.msl.iter_sepcon <> x:102 var
+R8445:8449 Coq.Lists.List <> NoDup ind
+R8451:8451 VST.msl.iter_sepcon <> l:101 var
+R8457:8467 VST.msl.iter_sepcon <> iter_sepcon def
+R8471:8471 VST.msl.iter_sepcon <> l:101 var
+R8469:8469 VST.msl.iter_sepcon <> p:100 var
+R8499:8509 VST.msl.iter_sepcon <> pred_sepcon def
+R8547:8554 VST.msl.log_normalize <> prop_and thm
+R8547:8554 VST.msl.log_normalize <> prop_and thm
+R8547:8554 VST.msl.log_normalize <> prop_and thm
+prf 8575:8599 <> pred_sepcon_strong_proper
+binder 8609:8610 <> P1:103
+binder 8612:8613 <> P2:104
+binder 8615:8616 <> p1:105
+binder 8618:8619 <> p2:106
+R8624:8624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8648:8654 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8655:8655 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8693:8699 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8717:8719 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8700:8710 VST.msl.iter_sepcon <> pred_sepcon def
+R8715:8716 VST.msl.iter_sepcon <> P1:103 var
+R8712:8713 VST.msl.iter_sepcon <> p1:105 var
+R8720:8730 VST.msl.iter_sepcon <> pred_sepcon def
+R8735:8736 VST.msl.iter_sepcon <> P2:104 var
+R8732:8733 VST.msl.iter_sepcon <> p2:106 var
+binder 8663:8663 <> x:107
+R8670:8673 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8678:8681 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8686:8688 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8682:8683 VST.msl.iter_sepcon <> p1:105 var
+R8685:8685 VST.msl.iter_sepcon <> x:107 var
+R8689:8690 VST.msl.iter_sepcon <> p2:106 var
+R8692:8692 VST.msl.iter_sepcon <> x:107 var
+R8674:8675 VST.msl.iter_sepcon <> P2:104 var
+R8677:8677 VST.msl.iter_sepcon <> x:107 var
+R8666:8667 VST.msl.iter_sepcon <> P1:103 var
+R8669:8669 VST.msl.iter_sepcon <> x:107 var
+binder 8632:8632 <> x:108
+R8639:8643 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8635:8636 VST.msl.iter_sepcon <> P1:103 var
+R8638:8638 VST.msl.iter_sepcon <> x:108 var
+R8644:8645 VST.msl.iter_sepcon <> P2:104 var
+R8647:8647 VST.msl.iter_sepcon <> x:108 var
+binder 8763:8764 <> P1:109
+binder 8766:8767 <> P2:110
+binder 8769:8770 <> p1:111
+binder 8772:8773 <> p2:112
+R8780:8780 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8804:8812 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8813:8813 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8851:8859 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8877:8881 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R8860:8870 VST.msl.iter_sepcon <> pred_sepcon def
+R8875:8876 VST.msl.iter_sepcon <> P1:109 var
+R8872:8873 VST.msl.iter_sepcon <> p1:111 var
+R8882:8892 VST.msl.iter_sepcon <> pred_sepcon def
+R8897:8898 VST.msl.iter_sepcon <> P2:110 var
+R8894:8895 VST.msl.iter_sepcon <> p2:112 var
+binder 8821:8821 <> x:113
+R8828:8831 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8836:8839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8844:8846 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8840:8841 VST.msl.iter_sepcon <> p1:111 var
+R8843:8843 VST.msl.iter_sepcon <> x:113 var
+R8847:8848 VST.msl.iter_sepcon <> p2:112 var
+R8850:8850 VST.msl.iter_sepcon <> x:113 var
+R8832:8833 VST.msl.iter_sepcon <> P2:110 var
+R8835:8835 VST.msl.iter_sepcon <> x:113 var
+R8824:8825 VST.msl.iter_sepcon <> P1:109 var
+R8827:8827 VST.msl.iter_sepcon <> x:113 var
+binder 8788:8788 <> x:114
+R8795:8799 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8791:8792 VST.msl.iter_sepcon <> P1:109 var
+R8794:8794 VST.msl.iter_sepcon <> x:114 var
+R8800:8801 VST.msl.iter_sepcon <> P2:110 var
+R8803:8803 VST.msl.iter_sepcon <> x:114 var
+binder 8763:8764 <> P1:115
+binder 8766:8767 <> P2:116
+binder 8769:8770 <> p1:117
+binder 8772:8773 <> p2:118
+R8780:8780 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8804:8812 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8813:8813 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8851:8859 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8877:8881 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R8860:8870 VST.msl.iter_sepcon <> pred_sepcon def
+R8875:8876 VST.msl.iter_sepcon <> P1:115 var
+R8872:8873 VST.msl.iter_sepcon <> p1:117 var
+R8882:8892 VST.msl.iter_sepcon <> pred_sepcon def
+R8897:8898 VST.msl.iter_sepcon <> P2:116 var
+R8894:8895 VST.msl.iter_sepcon <> p2:118 var
+binder 8821:8821 <> x:119
+R8828:8831 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8836:8839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8844:8846 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8840:8841 VST.msl.iter_sepcon <> p1:117 var
+R8843:8843 VST.msl.iter_sepcon <> x:119 var
+R8847:8848 VST.msl.iter_sepcon <> p2:118 var
+R8850:8850 VST.msl.iter_sepcon <> x:119 var
+R8832:8833 VST.msl.iter_sepcon <> P2:116 var
+R8835:8835 VST.msl.iter_sepcon <> x:119 var
+R8824:8825 VST.msl.iter_sepcon <> P1:115 var
+R8827:8827 VST.msl.iter_sepcon <> x:119 var
+binder 8788:8788 <> x:120
+R8795:8799 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8791:8792 VST.msl.iter_sepcon <> P1:115 var
+R8794:8794 VST.msl.iter_sepcon <> x:120 var
+R8800:8801 VST.msl.iter_sepcon <> P2:116 var
+R8803:8803 VST.msl.iter_sepcon <> x:120 var
+R8921:8928 VST.msl.seplog <> pred_ext meth
+R8921:8928 VST.msl.seplog <> pred_ext meth
+R9008:9018 VST.msl.iter_sepcon <> pred_sepcon def
+R9029:9036 VST.msl.seplog <> exp_left meth
+R9055:9063 VST.msl.seplog <> exp_right meth
+R9029:9036 VST.msl.seplog <> exp_left meth
+R9055:9063 VST.msl.seplog <> exp_right meth
+R9103:9103 VST.msl.iter_sepcon <> IterPredSepCon.B var
+binder 9099:9099 <> x:121
+R9112:9116 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9106:9107 Coq.Lists.List <> In def
+R9109:9109 VST.msl.iter_sepcon <> x:121 var
+R9120:9120 VST.msl.iter_sepcon <> x:121 var
+R9103:9103 VST.msl.iter_sepcon <> IterPredSepCon.B var
+binder 9099:9099 <> x:122
+R9112:9116 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9106:9107 Coq.Lists.List <> In def
+R9109:9109 VST.msl.iter_sepcon <> x:122 var
+R9120:9120 VST.msl.iter_sepcon <> x:122 var
+R9188:9210 VST.msl.iter_sepcon <> iter_sepcon_func_strong thm
+R9220:9231 VST.msl.seplog <> derives_refl meth
+R9188:9210 VST.msl.iter_sepcon <> iter_sepcon_func_strong thm
+R9188:9210 VST.msl.iter_sepcon <> iter_sepcon_func_strong thm
+R9188:9210 VST.msl.iter_sepcon <> iter_sepcon_func_strong thm
+R9220:9231 VST.msl.seplog <> derives_refl meth
+inst 9321:9338 <> pred_sepcon_proper
+R9341:9346 Coq.Classes.Morphisms <> Proper class
+R9410:9420 VST.msl.iter_sepcon <> pred_sepcon def
+R9372:9376 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R9349:9366 Coq.Classes.Morphisms <> pointwise_relation def
+R9370:9371 Coq.Init.Logic <> eq ind
+R9368:9368 VST.msl.iter_sepcon <> IterPredSepCon.B var
+R9401:9405 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R9377:9394 Coq.Classes.Morphisms <> pointwise_relation def
+R9398:9400 Coq.Init.Logic <> iff def
+R9396:9396 VST.msl.iter_sepcon <> IterPredSepCon.B var
+R9406:9407 Coq.Init.Logic <> eq ind
+R9470:9494 VST.msl.iter_sepcon <> pred_sepcon_strong_proper thm
+R9470:9494 VST.msl.iter_sepcon <> pred_sepcon_strong_proper thm
+prf 9573:9584 <> pred_sepcon1
+binder 9594:9594 <> p:123
+binder 9596:9597 <> x0:124
+R9633:9635 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9602:9612 VST.msl.iter_sepcon <> pred_sepcon def
+binder 9621:9621 <> x:125
+R9627:9629 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9626:9626 VST.msl.iter_sepcon <> x:125 var
+R9630:9631 VST.msl.iter_sepcon <> x0:124 var
+R9614:9614 VST.msl.iter_sepcon <> p:123 var
+R9636:9636 VST.msl.iter_sepcon <> p:123 var
+R9638:9639 VST.msl.iter_sepcon <> x0:124 var
+R9668:9678 VST.msl.iter_sepcon <> pred_sepcon def
+R9689:9696 VST.msl.seplog <> pred_ext meth
+R9689:9696 VST.msl.seplog <> pred_ext meth
+R9709:9716 VST.msl.seplog <> exp_left meth
+R9709:9716 VST.msl.seplog <> exp_left meth
+R9874:9876 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9874:9876 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9927:9936 VST.msl.seplog <> sepcon_emp meth
+R9927:9936 VST.msl.seplog <> sepcon_emp meth
+R9927:9936 VST.msl.seplog <> sepcon_emp meth
+R9962:9966 Coq.Init.Logic <> proj1 thm
+R9962:9966 Coq.Init.Logic <> proj1 thm
+R10051:10055 Coq.Init.Logic <> proj1 thm
+R10051:10055 Coq.Init.Logic <> proj1 thm
+R10207:10215 VST.msl.seplog <> exp_right meth
+R10220:10223 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10224:10226 Coq.Init.Datatypes <> nil constr
+R10207:10215 VST.msl.seplog <> exp_right meth
+R10220:10223 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10224:10226 Coq.Init.Datatypes <> nil constr
+R10248:10257 VST.msl.seplog <> andp_right meth
+R10248:10257 VST.msl.seplog <> andp_right meth
+R10248:10257 VST.msl.seplog <> andp_right meth
+R10248:10257 VST.msl.seplog <> andp_right meth
+R10248:10257 VST.msl.seplog <> andp_right meth
+R10248:10257 VST.msl.seplog <> andp_right meth
+R10272:10281 VST.msl.seplog <> prop_right meth
+R10272:10281 VST.msl.seplog <> prop_right meth
+R10395:10404 VST.msl.seplog <> prop_right meth
+R10395:10404 VST.msl.seplog <> prop_right meth
+R10483:10492 VST.msl.seplog <> sepcon_emp meth
+R10483:10492 VST.msl.seplog <> sepcon_emp meth
+R10483:10492 VST.msl.seplog <> sepcon_emp meth
+prf 11901:11926 <> pred_sepcon_unique_sepcon1
+R11941:11944 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11940:11940 VST.msl.iter_sepcon <> IterPredSepCon.B var
+binder 11937:11937 <> P:126
+binder 11951:11951 <> p:127
+binder 11953:11954 <> x0:128
+R11975:11980 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12003:12007 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R11996:11998 VST.msl.seplog <> ::logic:x_'*'_x not
+R11981:11991 VST.msl.iter_sepcon <> pred_sepcon def
+R11995:11995 VST.msl.iter_sepcon <> P:126 var
+R11993:11993 VST.msl.iter_sepcon <> p:127 var
+R11999:11999 VST.msl.iter_sepcon <> p:127 var
+R12001:12002 VST.msl.iter_sepcon <> x0:128 var
+R12008:12011 VST.msl.seplog <> ::logic:'!!'_x not
+R12018:12018 VST.msl.seplog <> ::logic:'!!'_x not
+R12012:12013 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12014:12014 VST.msl.iter_sepcon <> P:126 var
+R12016:12017 VST.msl.iter_sepcon <> x0:128 var
+R11959:11972 VST.msl.iter_sepcon <> sepcon_unique1 def
+R11974:11974 VST.msl.iter_sepcon <> p:127 var
+R12046:12059 VST.msl.log_normalize <> not_prop_right thm
+R12046:12059 VST.msl.log_normalize <> not_prop_right thm
+R12078:12088 VST.msl.iter_sepcon <> pred_sepcon def
+R12134:12146 VST.msl.seplog <> derives_trans meth
+R12156:12169 VST.msl.seplog <> sepcon_derives meth
+R12179:12197 VST.msl.iter_sepcon <> iter_sepcon_in_true thm
+R12213:12224 VST.msl.seplog <> derives_refl meth
+R12134:12146 VST.msl.seplog <> derives_trans meth
+R12156:12169 VST.msl.seplog <> sepcon_derives meth
+R12179:12197 VST.msl.iter_sepcon <> iter_sepcon_in_true thm
+R12213:12224 VST.msl.seplog <> derives_refl meth
+R12241:12251 VST.msl.seplog <> sepcon_comm meth
+R12257:12268 VST.msl.seplog <> sepcon_assoc meth
+R12241:12251 VST.msl.seplog <> sepcon_comm meth
+R12241:12251 VST.msl.seplog <> sepcon_comm meth
+R12257:12268 VST.msl.seplog <> sepcon_assoc meth
+R12257:12268 VST.msl.seplog <> sepcon_assoc meth
+R12280:12292 VST.msl.seplog <> derives_trans meth
+R12302:12315 VST.msl.seplog <> sepcon_derives meth
+R12335:12346 VST.msl.seplog <> derives_refl meth
+R12280:12292 VST.msl.seplog <> derives_trans meth
+R12302:12315 VST.msl.seplog <> sepcon_derives meth
+R12335:12346 VST.msl.seplog <> derives_refl meth
+prf 12378:12393 <> prop_forall_allp
+R12408:12411 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12407:12407 VST.msl.iter_sepcon <> IterPredSepCon.B var
+binder 12404:12404 <> P:129
+R12439:12441 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12421:12424 VST.msl.seplog <> ::logic:'!!'_x not
+R12438:12438 VST.msl.seplog <> ::logic:'!!'_x not
+binder 12432:12432 <> x:130
+R12435:12435 VST.msl.iter_sepcon <> P:129 var
+R12437:12437 VST.msl.iter_sepcon <> x:130 var
+R12442:12445 VST.msl.seplog <> ::logic:'ALL'_x_'..'_x_','_x not
+R12450:12451 VST.msl.seplog <> ::logic:'ALL'_x_'..'_x_','_x not
+R12449:12449 VST.msl.iter_sepcon <> IterPredSepCon.B var
+binder 12446:12446 <> x:131
+R12452:12454 VST.msl.seplog <> ::logic:'!!'_x not
+R12455:12455 VST.msl.iter_sepcon <> P:129 var
+R12457:12457 VST.msl.iter_sepcon <> x:131 var
+R12485:12492 VST.msl.seplog <> pred_ext meth
+R12485:12492 VST.msl.seplog <> pred_ext meth
+R12505:12514 VST.msl.seplog <> allp_right meth
+R12505:12514 VST.msl.seplog <> allp_right meth
+R12535:12546 VST.msl.log_normalize <> prop_derives thm
+R12535:12546 VST.msl.log_normalize <> prop_derives thm
+R12577:12590 VST.msl.seplog <> allp_prop_left meth
+R12577:12590 VST.msl.seplog <> allp_prop_left meth
+prf 12605:12617 <> prop_impl_imp
+binder 12628:12628 <> P:132
+binder 12630:12630 <> Q:133
+R12653:12655 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12642:12645 VST.msl.seplog <> ::logic:'!!'_x not
+R12652:12652 VST.msl.seplog <> ::logic:'!!'_x not
+R12647:12650 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12651:12651 VST.msl.iter_sepcon <> Q:133 var
+R12646:12646 VST.msl.iter_sepcon <> P:132 var
+R12660:12664 VST.msl.seplog <> ::logic:x_'-->'_x not
+R12656:12658 VST.msl.seplog <> ::logic:'!!'_x not
+R12659:12659 VST.msl.iter_sepcon <> P:132 var
+R12665:12667 VST.msl.seplog <> ::logic:'!!'_x not
+R12668:12668 VST.msl.iter_sepcon <> Q:133 var
+R12696:12703 VST.msl.seplog <> pred_ext meth
+R12696:12703 VST.msl.seplog <> pred_ext meth
+R12716:12731 VST.msl.seplog <> imp_andp_adjoint meth
+R12716:12731 VST.msl.seplog <> imp_andp_adjoint meth
+R12759:12776 VST.msl.seplog <> prop_imp_prop_left meth
+R12759:12776 VST.msl.seplog <> prop_imp_prop_left meth
+prf 12791:12811 <> pred_sepcon_prop_true
+R12826:12829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12825:12825 VST.msl.iter_sepcon <> IterPredSepCon.B var
+binder 12822:12822 <> P:134
+binder 12836:12836 <> p:135
+binder 12838:12838 <> x:136
+R12846:12851 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12867:12871 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R12852:12862 VST.msl.iter_sepcon <> pred_sepcon def
+R12866:12866 VST.msl.iter_sepcon <> P:134 var
+R12864:12864 VST.msl.iter_sepcon <> p:135 var
+R12875:12877 VST.msl.seplog <> ::logic:x_'*'_x not
+R12872:12872 VST.msl.iter_sepcon <> p:135 var
+R12874:12874 VST.msl.iter_sepcon <> x:136 var
+R12878:12879 VST.msl.seplog <> TT meth
+R12843:12843 VST.msl.iter_sepcon <> P:134 var
+R12845:12845 VST.msl.iter_sepcon <> x:136 var
+R12908:12918 VST.msl.iter_sepcon <> pred_sepcon def
+R13006:13024 VST.msl.iter_sepcon <> iter_sepcon_in_true thm
+R13006:13024 VST.msl.iter_sepcon <> iter_sepcon_in_true thm
+prf 13886:13902 <> pred_sepcon_False
+binder 13912:13912 <> p:137
+R13947:13949 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13917:13927 VST.msl.iter_sepcon <> pred_sepcon def
+R13941:13945 Coq.Init.Logic <> False ind
+R13929:13929 VST.msl.iter_sepcon <> p:137 var
+R13950:13952 VST.msl.seplog <> emp meth
+R13981:13991 VST.msl.iter_sepcon <> pred_sepcon def
+R14002:14009 VST.msl.seplog <> pred_ext meth
+R14002:14009 VST.msl.seplog <> pred_ext meth
+R14022:14029 VST.msl.seplog <> exp_left meth
+R14022:14029 VST.msl.seplog <> exp_left meth
+R14078:14089 VST.msl.seplog <> derives_refl meth
+R14078:14089 VST.msl.seplog <> derives_refl meth
+R14147:14155 VST.msl.seplog <> exp_right meth
+R14157:14159 Coq.Init.Datatypes <> nil constr
+R14147:14155 VST.msl.seplog <> exp_right meth
+R14157:14159 Coq.Init.Datatypes <> nil constr
+R14188:14197 VST.msl.seplog <> andp_right meth
+R14188:14197 VST.msl.seplog <> andp_right meth
+R14210:14219 VST.msl.seplog <> prop_right meth
+R14210:14219 VST.msl.seplog <> prop_right meth
+R14245:14256 VST.msl.seplog <> derives_refl meth
+R14245:14256 VST.msl.seplog <> derives_refl meth
+R14269:14282 VST.msl.iter_sepcon IterPredSepCon <> sec

@@ -1,0 +1,260 @@
+DIGEST 3a5f61ba44093586d21fce9ff159f846
+FVST.veric.base
+R15:29 Coq.Arith.EqNat <> <> lib
+R47:69 Coq.Relations.Relations <> <> lib
+R88:106 compcert.lib.Axioms <> <> lib
+R124:142 compcert.lib.Coqlib <> <> lib
+R160:180 compcert.lib.Integers <> <> lib
+R198:216 compcert.lib.Floats <> <> lib
+R234:250 compcert.lib.Maps <> <> lib
+R268:286 compcert.common.AST <> <> lib
+R304:325 compcert.common.Values <> <> lib
+R343:365 compcert.common.Memdata <> <> lib
+R383:405 compcert.common.Memtype <> <> lib
+R423:444 compcert.common.Memory <> <> lib
+R462:487 compcert.common.Globalenvs <> <> lib
+R507:521 VST.msl.Coqlib2 <> <> lib
+R540:556 VST.veric.coqlib4 <> <> lib
+def 601:610 <> id_in_list
+R617:621 compcert.common.AST <> ident def
+binder 613:614 <> id:1
+R630:633 Coq.Init.Datatypes <> list ind
+R635:639 compcert.common.AST <> ident def
+binder 625:627 <> ids:2
+R644:647 Coq.Init.Datatypes <> bool ind
+R659:661 VST.veric.base <> ids:2 var
+R669:670 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R679:681 Coq.Init.Datatypes <> orb def
+R699:708 VST.veric.base <> id_in_list:3 def
+R710:711 VST.veric.base <> id:1 var
+R684:690 Coq.PArith.BinPos Pos eqb def
+R692:693 VST.veric.base <> id:1 var
+R726:730 Coq.Init.Datatypes <> false constr
+def 747:766 <> compute_list_norepet
+R774:777 Coq.Init.Datatypes <> list ind
+R779:783 compcert.common.AST <> ident def
+binder 769:771 <> ids:5
+R788:791 Coq.Init.Datatypes <> bool ind
+R803:805 VST.veric.base <> ids:5 var
+R817:820 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R832:841 VST.veric.base <> id_in_list def
+R867:886 VST.veric.base <> compute_list_norepet:6 def
+R856:860 Coq.Init.Datatypes <> false constr
+R896:898 Coq.Init.Datatypes <> nil constr
+R903:906 Coq.Init.Datatypes <> true constr
+prf 921:935 <> id_in_list_true
+binder 945:945 <> i:8
+binder 947:949 <> ids:9
+R975:978 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R979:980 Coq.Lists.List <> In def
+R984:986 VST.veric.base <> ids:9 var
+R982:982 VST.veric.base <> i:8 var
+R968:970 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R952:961 VST.veric.base <> id_in_list def
+R965:967 VST.veric.base <> ids:9 var
+R963:963 VST.veric.base <> i:8 var
+R971:974 Coq.Init.Datatypes <> true constr
+R1040:1051 Coq.Bool.Bool <> orb_true_iff thm
+R1040:1051 Coq.Bool.Bool <> orb_true_iff thm
+R1084:1095 Coq.PArith.BinPos <> Peqb_true_eq thm
+R1084:1095 Coq.PArith.BinPos <> Peqb_true_eq thm
+prf 1128:1143 <> id_in_list_false
+binder 1153:1153 <> i:10
+binder 1155:1157 <> ids:11
+R1184:1187 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1188:1188 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1189:1190 Coq.Lists.List <> In def
+R1194:1196 VST.veric.base <> ids:11 var
+R1192:1192 VST.veric.base <> i:10 var
+R1176:1178 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1160:1169 VST.veric.base <> id_in_list def
+R1173:1175 VST.veric.base <> ids:11 var
+R1171:1171 VST.veric.base <> i:10 var
+R1179:1183 Coq.Init.Datatypes <> false constr
+R1250:1262 Coq.Bool.Bool <> orb_false_iff thm
+R1250:1262 Coq.Bool.Bool <> orb_false_iff thm
+R1313:1324 Coq.PArith.BinPos Pos eqb_refl thm
+R1313:1324 Coq.PArith.BinPos Pos eqb_refl thm
+R1313:1324 Coq.PArith.BinPos Pos eqb_refl thm
+prf 1371:1392 <> compute_list_norepet_e
+binder 1402:1404 <> ids:12
+R1443:1446 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1447:1458 compcert.lib.Coqlib <> list_norepet ind
+R1460:1462 VST.veric.base <> ids:12 var
+R1436:1438 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1412:1431 VST.veric.base <> compute_list_norepet def
+R1433:1435 VST.veric.base <> ids:12 var
+R1439:1442 Coq.Init.Datatypes <> true constr
+R1537:1546 VST.veric.base <> id_in_list def
+R1537:1546 VST.veric.base <> id_in_list def
+R1600:1615 VST.veric.base <> id_in_list_false thm
+R1600:1615 VST.veric.base <> id_in_list_false thm
+prf 1642:1663 <> compute_list_norepet_i
+binder 1673:1675 <> ids:13
+R1699:1702 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1727:1729 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1703:1722 VST.veric.base <> compute_list_norepet def
+R1724:1726 VST.veric.base <> ids:13 var
+R1730:1733 Coq.Init.Datatypes <> true constr
+R1683:1694 compcert.lib.Coqlib <> list_norepet ind
+R1696:1698 VST.veric.base <> ids:13 var
+R1821:1830 VST.veric.base <> id_in_list def
+R1821:1830 VST.veric.base <> id_in_list def
+R1864:1878 VST.veric.base <> id_in_list_true thm
+R1864:1878 VST.veric.base <> id_in_list_true thm
+prf 1910:1925 <> list_norepet_rev
+binder 1937:1937 <> A:14
+R1943:1946 Coq.Init.Datatypes <> list ind
+R1948:1948 VST.veric.base <> A:14 var
+binder 1940:1940 <> l:15
+R1972:1974 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1952:1963 compcert.lib.Coqlib <> list_norepet ind
+R1966:1968 Coq.Lists.List <> rev def
+R1970:1970 VST.veric.base <> l:15 var
+R1975:1986 compcert.lib.Coqlib <> list_norepet ind
+R1988:1988 VST.veric.base <> l:15 var
+R2030:2037 VST.msl.Axioms <> prop_ext prfax
+R2030:2037 VST.msl.Axioms <> prop_ext prfax
+R2061:2076 compcert.lib.Coqlib <> list_norepet_app thm
+R2061:2076 compcert.lib.Coqlib <> list_norepet_app thm
+R2180:2181 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2182:2184 Coq.Init.Datatypes <> nil constr
+R2153:2171 compcert.lib.Coqlib <> list_disjoint_notin thm
+R2180:2181 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2182:2184 Coq.Init.Datatypes <> nil constr
+R2153:2171 compcert.lib.Coqlib <> list_disjoint_notin thm
+R2194:2210 compcert.lib.Coqlib <> list_disjoint_sym thm
+R2194:2210 compcert.lib.Coqlib <> list_disjoint_sym thm
+R2285:2290 Coq.Lists.List <> In_rev syndef
+R2285:2290 Coq.Lists.List <> In_rev syndef
+R2285:2290 Coq.Lists.List <> In_rev syndef
+R2320:2335 compcert.lib.Coqlib <> list_norepet_app thm
+R2320:2335 compcert.lib.Coqlib <> list_norepet_app thm
+R2320:2335 compcert.lib.Coqlib <> list_norepet_app thm
+R2460:2465 Coq.Lists.List <> In_rev syndef
+R2460:2465 Coq.Lists.List <> In_rev syndef
+R2460:2465 Coq.Lists.List <> In_rev syndef
+prf 2506:2517 <> block_eq_dec
+R2534:2538 compcert.common.Values <> block def
+binder 2527:2528 <> b1:16
+binder 2530:2531 <> b2:17
+R2541:2541 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2549:2553 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2562:2562 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2544:2546 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2542:2543 VST.veric.base <> b1:16 var
+R2547:2548 VST.veric.base <> b2:17 var
+R2556:2559 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2554:2555 VST.veric.base <> b1:16 var
+R2560:2561 VST.veric.base <> b2:17 var
+R2579:2588 compcert.lib.Coqlib <> peq def
+R2579:2588 compcert.lib.Coqlib <> peq def
+prf 2604:2622 <> rev_if_be_singleton
+binder 2634:2634 <> x:18
+R2655:2658 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2665:2665 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2637:2645 compcert.common.Memdata <> rev_if_be def
+R2649:2650 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2648:2648 VST.veric.base <> x:18 var
+R2651:2653 Coq.Init.Datatypes <> nil constr
+R2660:2661 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2659:2659 VST.veric.base <> x:18 var
+R2662:2664 Coq.Init.Datatypes <> nil constr
+R2689:2697 compcert.common.Memdata <> rev_if_be def
+R2709:2724 compcert.x86_32.Archi <> big_endian def
+R2709:2724 compcert.x86_32.Archi <> big_endian def
+prf 2745:2755 <> rev_if_be_1
+binder 2765:2765 <> i:19
+R2786:2789 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2796:2796 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2768:2776 compcert.common.Memdata <> rev_if_be def
+R2780:2781 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2779:2779 VST.veric.base <> i:19 var
+R2782:2784 Coq.Init.Datatypes <> nil constr
+R2791:2792 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2790:2790 VST.veric.base <> i:19 var
+R2793:2795 Coq.Init.Datatypes <> nil constr
+R2813:2821 compcert.common.Memdata <> rev_if_be def
+R2841:2856 compcert.x86_32.Archi <> big_endian def
+R2841:2856 compcert.x86_32.Archi <> big_endian def
+prf 2884:2898 <> decode_byte_val
+binder 2910:2910 <> m:20
+R2953:2969 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2913:2922 compcert.common.Memdata <> decode_val def
+R2945:2948 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2939:2942 compcert.common.Memdata <> Byte constr
+R2944:2944 VST.veric.base <> m:20 var
+R2949:2951 Coq.Init.Datatypes <> nil constr
+R2924:2936 compcert.common.AST <> Mint8unsigned constr
+R2970:2973 compcert.common.Values <> Vint constr
+R2976:2987 compcert.lib.Integers Int zero_ext def
+R2992:2999 compcert.lib.Integers Int repr def
+R3002:3014 compcert.lib.Integers Byte unsigned def
+R3016:3016 VST.veric.base <> m:20 var
+R3044:3053 compcert.common.Memdata <> decode_val def
+R3079:3088 compcert.common.Memdata <> decode_int def
+R3099:3117 VST.veric.base <> rev_if_be_singleton thm
+R3099:3117 VST.veric.base <> rev_if_be_singleton thm
+R3099:3117 VST.veric.base <> rev_if_be_singleton thm
+R3127:3138 compcert.common.Memdata <> int_of_bytes def
+R3165:3173 Coq.ZArith.BinInt Z add_0_r thm
+R3165:3173 Coq.ZArith.BinInt Z add_0_r thm
+prf 3188:3195 <> Vint_inj
+binder 3205:3205 <> x:21
+binder 3207:3207 <> y:22
+R3225:3228 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3230:3230 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3229:3229 VST.veric.base <> x:21 var
+R3231:3231 VST.veric.base <> y:22 var
+R3216:3218 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3210:3213 compcert.common.Values <> Vint constr
+R3215:3215 VST.veric.base <> x:21 var
+R3219:3222 compcert.common.Values <> Vint constr
+R3224:3224 VST.veric.base <> y:22 var
+def 3270:3276 <> nullval
+R3280:3282 compcert.common.Values <> val ind
+R3293:3303 compcert.x86_32.Archi <> ptr64 def
+R3332:3335 compcert.common.Values <> Vint constr
+R3337:3344 compcert.lib.Integers Int zero def
+R3310:3314 compcert.common.Values <> Vlong constr
+R3316:3325 compcert.lib.Integers Int64 zero def
+def 3359:3369 <> val_to_bool
+R3375:3377 compcert.common.Values <> val ind
+binder 3372:3372 <> v:23
+R3382:3387 Coq.Init.Datatypes <> option ind
+R3389:3392 Coq.Init.Datatypes <> bool ind
+R3405:3405 VST.veric.base <> v:23 var
+R3418:3421 compcert.common.Values <> Vint constr
+R3428:3431 Coq.Init.Datatypes <> Some constr
+R3434:3437 Coq.Init.Datatypes <> negb def
+R3440:3445 compcert.lib.Integers Int eq def
+R3449:3456 compcert.lib.Integers Int zero def
+R3466:3469 compcert.common.Values <> Vptr constr
+R3478:3481 Coq.Init.Datatypes <> Some constr
+R3483:3486 Coq.Init.Datatypes <> true constr
+R3499:3502 Coq.Init.Datatypes <> None constr
+def 3523:3534 <> bool_of_valf
+R3540:3542 compcert.common.Values <> val ind
+binder 3537:3537 <> v:25
+R3546:3551 Coq.Init.Datatypes <> option ind
+R3553:3556 Coq.Init.Datatypes <> bool ind
+R3567:3567 VST.veric.base <> v:25 var
+R3578:3581 compcert.common.Values <> Vint constr
+R3588:3591 Coq.Init.Datatypes <> Some constr
+R3594:3597 Coq.Init.Datatypes <> negb def
+R3600:3605 compcert.lib.Integers Int eq def
+R3609:3616 compcert.lib.Integers Int zero def
+R3624:3628 compcert.common.Values <> Vlong constr
+R3635:3638 Coq.Init.Datatypes <> Some constr
+R3641:3644 Coq.Init.Datatypes <> negb def
+R3647:3654 compcert.lib.Integers Int64 eq def
+R3658:3667 compcert.lib.Integers Int64 zero def
+R3675:3680 compcert.common.Values <> Vfloat constr
+R3687:3690 Coq.Init.Datatypes <> None constr
+R3696:3702 compcert.common.Values <> Vsingle constr
+R3709:3712 Coq.Init.Datatypes <> None constr
+R3718:3721 compcert.common.Values <> Vptr constr
+R3730:3733 Coq.Init.Datatypes <> Some constr
+R3735:3738 Coq.Init.Datatypes <> true constr
+R3744:3749 compcert.common.Values <> Vundef constr
+R3754:3757 Coq.Init.Datatypes <> None constr

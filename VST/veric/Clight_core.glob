@@ -1,0 +1,1759 @@
+DIGEST 3bfc5c6715e0182e2466b297facab30a
+FVST.veric.Clight_core
+R15:35 VST.sepcomp.semantics <> <> lib
+R53:73 VST.veric.Clight_base <> <> lib
+R91:113 VST.veric.Clight_lemmas <> <> lib
+R124:149 compcert.common.Globalenvs <> <> lib
+R167:188 compcert.common.Events <> <> lib
+R206:230 compcert.cfrontend.Clight <> <> lib
+R269:296 VST.sepcomp.semantics_lemmas <> <> lib
+R314:335 VST.sepcomp.mem_lemmas <> <> lib
+R353:379 VST.sepcomp.event_semantics <> <> lib
+def 394:409 <> ef_deterministic
+R416:432 compcert.common.AST <> external_function ind
+binder 412:413 <> ef:1
+R437:440 Coq.Init.Datatypes <> bool ind
+R453:454 VST.veric.Clight_core <> ef:1 var
+R465:475 compcert.common.AST <> EF_external constr
+R488:492 Coq.Init.Datatypes <> false constr
+R498:507 compcert.common.AST <> EF_builtin constr
+R520:523 Coq.Init.Datatypes <> true constr
+R529:538 compcert.common.AST <> EF_runtime constr
+R551:555 Coq.Init.Datatypes <> false constr
+R561:568 compcert.common.AST <> EF_vload constr
+R579:583 Coq.Init.Datatypes <> false constr
+R589:597 compcert.common.AST <> EF_vstore constr
+R608:612 Coq.Init.Datatypes <> false constr
+R618:626 compcert.common.AST <> EF_malloc constr
+R631:634 Coq.Init.Datatypes <> true constr
+R640:646 compcert.common.AST <> EF_free constr
+R651:654 Coq.Init.Datatypes <> true constr
+R660:668 compcert.common.AST <> EF_memcpy constr
+R679:682 Coq.Init.Datatypes <> true constr
+R688:695 compcert.common.AST <> EF_annot constr
+R716:719 Coq.Init.Datatypes <> true constr
+R725:736 compcert.common.AST <> EF_annot_val constr
+R754:757 Coq.Init.Datatypes <> true constr
+R763:775 compcert.common.AST <> EF_inline_asm constr
+R793:797 Coq.Init.Datatypes <> false constr
+R803:810 compcert.common.AST <> EF_debug constr
+R831:834 Coq.Init.Datatypes <> true constr
+ax 850:869 <> ef_deterministic_fun
+binder 880:881 <> ef:3
+R912:916 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 925:926 <> ge:4
+binder 928:931 <> args:5
+binder 933:933 <> m:6
+binder 935:936 <> t1:7
+binder 938:939 <> t2:8
+binder 941:945 <> vres1:9
+binder 947:951 <> vres2:10
+binder 953:954 <> m1:11
+binder 956:957 <> m2:12
+R1007:1012 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1058:1063 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1077:1079 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1064:1064 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1070:1070 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1073:1073 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1076:1076 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1065:1069 VST.veric.Clight_core <> vres1:9 var
+R1071:1072 VST.veric.Clight_core <> t1:7 var
+R1074:1075 VST.veric.Clight_core <> m1:11 var
+R1080:1080 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1086:1086 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1089:1089 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1092:1092 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1081:1085 VST.veric.Clight_core <> vres2:10 var
+R1087:1088 VST.veric.Clight_core <> t2:8 var
+R1090:1091 VST.veric.Clight_core <> m2:12 var
+R1013:1032 compcert.common.Events <> external_call def
+R1056:1057 VST.veric.Clight_core <> m2:12 var
+R1050:1054 VST.veric.Clight_core <> vres2:10 var
+R1047:1048 VST.veric.Clight_core <> t2:8 var
+R1045:1045 VST.veric.Clight_core <> m:6 var
+R1040:1043 VST.veric.Clight_core <> args:5 var
+R1037:1038 VST.veric.Clight_core <> ge:4 var
+R1034:1035 VST.veric.Clight_core <> ef:3 var
+R962:981 compcert.common.Events <> external_call def
+R1005:1006 VST.veric.Clight_core <> m1:11 var
+R999:1003 VST.veric.Clight_core <> vres1:9 var
+R996:997 VST.veric.Clight_core <> t1:7 var
+R994:994 VST.veric.Clight_core <> m:6 var
+R989:992 VST.veric.Clight_core <> args:5 var
+R986:987 VST.veric.Clight_core <> ge:4 var
+R983:984 VST.veric.Clight_core <> ef:3 var
+R905:907 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R886:901 VST.veric.Clight_core <> ef_deterministic def
+R903:904 VST.veric.Clight_core <> ef:3 var
+R908:911 Coq.Init.Datatypes <> true constr
+ax 1102:1132 <> inline_external_call_mem_events
+binder 1145:1146 <> ef:14
+binder 1148:1149 <> ge:15
+binder 1151:1155 <> vargs:16
+binder 1157:1157 <> m:17
+binder 1159:1159 <> t:18
+binder 1161:1164 <> vres:19
+binder 1166:1167 <> m':20
+R1192:1198 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1236:1242 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1243:1243 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R1249:1251 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R1270:1270 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 1244:1248 <> trace:21
+R1252:1258 VST.sepcomp.event_semantics <> ev_elim def
+R1268:1269 VST.veric.Clight_core <> m':20 var
+R1262:1266 VST.veric.Clight_core <> trace:21 var
+R1260:1260 VST.veric.Clight_core <> m:17 var
+R1199:1211 compcert.common.Events <> external_call def
+R1234:1235 VST.veric.Clight_core <> m':20 var
+R1229:1232 VST.veric.Clight_core <> vres:19 var
+R1227:1227 VST.veric.Clight_core <> t:18 var
+R1225:1225 VST.veric.Clight_core <> m:17 var
+R1219:1223 VST.veric.Clight_core <> vargs:16 var
+R1216:1217 VST.veric.Clight_core <> ge:15 var
+R1213:1214 VST.veric.Clight_core <> ef:14 var
+R1185:1187 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1173:1181 compcert.common.AST <> ef_inline def
+R1183:1184 VST.veric.Clight_core <> ef:14 var
+R1188:1191 Coq.Init.Datatypes <> true constr
+ind 1284:1288 <> state
+constr 1304:1308 <> State
+constr 1386:1394 <> Callstate
+constr 1438:1448 <> Returnstate
+R1320:1335 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1345:1348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1353:1356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1360:1363 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1372:1375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1376:1380 VST.veric.Clight_core <> state:23 ind
+R1364:1371 compcert.cfrontend.Clight <> temp_env def
+R1357:1359 compcert.cfrontend.Clight <> env def
+R1349:1352 compcert.cfrontend.Clight <> cont ind
+R1336:1344 compcert.cfrontend.Clight <> statement ind
+R1312:1319 compcert.cfrontend.Clight <> function rec
+R1404:1407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1416:1419 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1424:1427 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1428:1432 VST.veric.Clight_core <> state:23 ind
+R1420:1423 compcert.cfrontend.Clight <> cont ind
+R1408:1411 Coq.Init.Datatypes <> list ind
+R1413:1415 compcert.common.Values <> val ind
+R1398:1403 compcert.cfrontend.Clight <> fundef def
+R1455:1458 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1463:1466 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1467:1471 VST.veric.Clight_core <> state:23 ind
+R1459:1462 compcert.cfrontend.Clight <> cont ind
+R1452:1454 compcert.common.Values <> val ind
+def 1486:1492 <> CC_core
+R1497:1501 VST.veric.Clight_core <> state ind
+def 1516:1534 <> CC_core_to_CC_state
+R1539:1543 VST.veric.Clight_core <> state ind
+binder 1537:1537 <> c:25
+R1549:1551 compcert.common.Memory <> mem syndef
+binder 1547:1547 <> m:26
+R1556:1567 compcert.cfrontend.Clight <> state ind
+R1580:1580 VST.veric.Clight_core <> c:25 var
+R1592:1596 VST.veric.Clight_core <> State constr
+R1613:1624 compcert.cfrontend.Clight <> State constr
+R1638:1638 VST.veric.Clight_core <> m:26 var
+R1645:1653 VST.veric.Clight_core <> Callstate constr
+R1668:1683 compcert.cfrontend.Clight <> Callstate constr
+R1695:1695 VST.veric.Clight_core <> m:26 var
+R1701:1711 VST.veric.Clight_core <> Returnstate constr
+R1720:1737 compcert.cfrontend.Clight <> Returnstate constr
+R1743:1743 VST.veric.Clight_core <> m:26 var
+def 1763:1781 <> CC_state_to_CC_core
+R1786:1797 compcert.cfrontend.Clight <> state ind
+binder 1784:1784 <> c:28
+R1806:1808 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1801:1805 VST.veric.Clight_core <> state ind
+R1809:1811 compcert.common.Memory <> mem syndef
+R1824:1824 VST.veric.Clight_core <> c:28 var
+R1836:1847 compcert.cfrontend.Clight <> State constr
+R1866:1866 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1884:1885 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1887:1887 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1867:1871 VST.veric.Clight_core <> State constr
+R1894:1909 compcert.cfrontend.Clight <> Callstate constr
+R1926:1926 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1946:1947 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1949:1949 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1927:1935 VST.veric.Clight_core <> Callstate constr
+R1955:1972 compcert.cfrontend.Clight <> Returnstate constr
+R1983:1983 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1999:2000 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2002:2002 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1984:1994 VST.veric.Clight_core <> Returnstate constr
+prf 2018:2035 <> CC_core_CC_state_1
+binder 2045:2045 <> c:30
+binder 2047:2047 <> m:31
+R2099:2101 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2053:2071 VST.veric.Clight_core <> CC_state_to_CC_core def
+R2075:2093 VST.veric.Clight_core <> CC_core_to_CC_state def
+R2097:2097 VST.veric.Clight_core <> m:31 var
+R2095:2095 VST.veric.Clight_core <> c:30 var
+R2102:2102 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2104:2104 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2106:2106 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2103:2103 VST.veric.Clight_core <> c:30 var
+R2105:2105 VST.veric.Clight_core <> m:31 var
+prf 2157:2174 <> CC_core_CC_state_2
+binder 2184:2184 <> s:32
+binder 2186:2186 <> c:33
+binder 2188:2188 <> m:34
+R2224:2227 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2229:2230 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2228:2228 VST.veric.Clight_core <> s:32 var
+R2231:2249 VST.veric.Clight_core <> CC_core_to_CC_state def
+R2253:2253 VST.veric.Clight_core <> m:34 var
+R2251:2251 VST.veric.Clight_core <> c:33 var
+R2216:2218 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2194:2212 VST.veric.Clight_core <> CC_state_to_CC_core def
+R2215:2215 VST.veric.Clight_core <> s:32 var
+R2219:2219 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2221:2221 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2223:2223 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2220:2220 VST.veric.Clight_core <> c:33 var
+R2222:2222 VST.veric.Clight_core <> m:34 var
+prf 2450:2467 <> CC_core_CC_state_3
+binder 2477:2477 <> s:35
+binder 2479:2479 <> c:36
+binder 2481:2481 <> m:37
+R2513:2516 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2539:2541 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2517:2535 VST.veric.Clight_core <> CC_state_to_CC_core def
+R2538:2538 VST.veric.Clight_core <> s:35 var
+R2542:2542 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2544:2544 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2546:2546 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2543:2543 VST.veric.Clight_core <> c:36 var
+R2545:2545 VST.veric.Clight_core <> m:37 var
+R2488:2489 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2487:2487 VST.veric.Clight_core <> s:35 var
+R2490:2508 VST.veric.Clight_core <> CC_core_to_CC_state def
+R2512:2512 VST.veric.Clight_core <> m:37 var
+R2510:2510 VST.veric.Clight_core <> c:36 var
+R2579:2596 VST.veric.Clight_core <> CC_core_CC_state_1 thm
+R2579:2596 VST.veric.Clight_core <> CC_core_CC_state_1 thm
+prf 2612:2629 <> CC_core_CC_state_4
+binder 2639:2639 <> s:38
+R2642:2648 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2650:2651 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2649:2649 <> c:39
+R2652:2658 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2660:2661 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2659:2659 <> m:40
+R2663:2666 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2662:2662 VST.veric.Clight_core <> s:38 var
+R2667:2685 VST.veric.Clight_core <> CC_core_to_CC_state def
+R2689:2689 VST.veric.Clight_core <> m:40 var
+R2687:2687 VST.veric.Clight_core <> c:39 var
+R2742:2746 VST.veric.Clight_core <> State constr
+R2742:2746 VST.veric.Clight_core <> State constr
+R2805:2813 VST.veric.Clight_core <> Callstate constr
+R2805:2813 VST.veric.Clight_core <> Callstate constr
+R2871:2881 VST.veric.Clight_core <> Returnstate constr
+R2871:2881 VST.veric.Clight_core <> Returnstate constr
+prf 2928:2950 <> CC_core_to_CC_state_inj
+binder 2960:2960 <> c:41
+binder 2962:2962 <> m:42
+binder 2964:2965 <> c':43
+binder 2967:2968 <> m':44
+R3027:3030 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3038:3038 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3031:3031 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3034:3034 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3037:3037 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3032:3033 VST.veric.Clight_core <> c':43 var
+R3035:3036 VST.veric.Clight_core <> m':44 var
+R3039:3039 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3041:3041 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3043:3043 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3040:3040 VST.veric.Clight_core <> c:41 var
+R3042:3042 VST.veric.Clight_core <> m:42 var
+R2999:3001 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2976:2994 VST.veric.Clight_core <> CC_core_to_CC_state def
+R2998:2998 VST.veric.Clight_core <> m:42 var
+R2996:2996 VST.veric.Clight_core <> c:41 var
+R3002:3020 VST.veric.Clight_core <> CC_core_to_CC_state def
+R3025:3026 VST.veric.Clight_core <> m':44 var
+R3022:3023 VST.veric.Clight_core <> c':43 var
+R3077:3094 VST.veric.Clight_core <> CC_core_CC_state_3 thm
+R3077:3094 VST.veric.Clight_core <> CC_core_CC_state_3 thm
+R3111:3128 VST.veric.Clight_core <> CC_core_CC_state_1 thm
+R3111:3128 VST.veric.Clight_core <> CC_core_CC_state_1 thm
+R3111:3128 VST.veric.Clight_core <> CC_core_CC_state_1 thm
+def 3172:3180 <> cl_halted
+R3186:3192 VST.veric.Clight_core <> CC_core def
+binder 3183:3183 <> c:45
+R3197:3202 Coq.Init.Datatypes <> option ind
+R3204:3206 compcert.common.Values <> val ind
+R3220:3220 VST.veric.Clight_core <> c:45 var
+R3231:3241 VST.veric.Clight_core <> Returnstate constr
+R3245:3249 compcert.cfrontend.Clight <> Kstop constr
+R3254:3257 Coq.Init.Datatypes <> Some constr
+R3270:3273 Coq.Init.Datatypes <> None constr
+def 3294:3307 <> empty_function
+R3311:3318 compcert.cfrontend.Clight <> function rec
+R3323:3332 compcert.cfrontend.Clight <> mkfunction constr
+R3363:3367 compcert.cfrontend.Clight <> Sskip constr
+R3359:3361 Coq.Init.Datatypes <> nil constr
+R3355:3357 Coq.Init.Datatypes <> nil constr
+R3351:3353 Coq.Init.Datatypes <> nil constr
+R3340:3349 compcert.common.AST <> cc_default def
+R3334:3338 compcert.cfrontend.Ctypes <> Tvoid constr
+def 3380:3392 <> temp_bindings
+R3398:3405 Coq.Numbers.BinNums <> positive ind
+binder 3395:3395 <> i:47
+R3413:3416 Coq.Init.Datatypes <> list ind
+R3418:3420 compcert.common.Values <> val ind
+binder 3409:3410 <> vl:48
+R3433:3434 VST.veric.Clight_core <> vl:48 var
+R3444:3446 Coq.Init.Datatypes <> nil constr
+R3451:3461 compcert.lib.Maps PTree empty def
+R3463:3465 compcert.common.Values <> val ind
+R3471:3472 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3480:3488 compcert.lib.Maps PTree set def
+R3495:3507 VST.veric.Clight_core <> temp_bindings:49 def
+R3511:3511 Coq.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R3510:3510 VST.veric.Clight_core <> i:47 var
+R3490:3490 VST.veric.Clight_core <> i:47 var
+def 3545:3559 <> params_of_types
+R3565:3572 Coq.Numbers.BinNums <> positive ind
+binder 3562:3562 <> i:51
+R3580:3583 Coq.Init.Datatypes <> list ind
+R3585:3588 compcert.cfrontend.Ctypes <> type ind
+binder 3576:3576 <> l:52
+R3593:3596 Coq.Init.Datatypes <> list ind
+R3604:3606 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3599:3603 compcert.common.AST <> ident def
+R3607:3610 compcert.cfrontend.Ctypes <> type ind
+R3624:3624 VST.veric.Clight_core <> l:52 var
+R3635:3637 Coq.Init.Datatypes <> nil constr
+R3642:3644 Coq.Init.Datatypes <> nil constr
+R3651:3654 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3666:3669 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3660:3660 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3662:3663 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3665:3665 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3661:3661 VST.veric.Clight_core <> i:51 var
+R3670:3684 VST.veric.Clight_core <> params_of_types:53 def
+R3701:3701 VST.veric.Clight_core <> l:52 var
+R3688:3688 Coq.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R3687:3687 VST.veric.Clight_core <> i:51 var
+def 3720:3732 <> typelist2list
+R3739:3746 compcert.cfrontend.Ctypes <> typelist ind
+binder 3735:3736 <> tl:55
+R3751:3754 Coq.Init.Datatypes <> list ind
+R3756:3759 compcert.cfrontend.Ctypes <> type ind
+R3772:3773 VST.veric.Clight_core <> tl:55 var
+R3784:3788 compcert.cfrontend.Ctypes <> Tcons constr
+R3798:3799 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3800:3812 VST.veric.Clight_core <> typelist2list:56 def
+R3820:3823 compcert.cfrontend.Ctypes <> Tnil constr
+R3828:3830 Coq.Init.Datatypes <> nil constr
+def 3851:3866 <> params_of_fundef
+R3872:3877 compcert.cfrontend.Clight <> fundef def
+binder 3869:3869 <> f:58
+R3882:3885 Coq.Init.Datatypes <> list ind
+R3887:3890 compcert.cfrontend.Ctypes <> type ind
+R3903:3903 VST.veric.Clight_core <> f:58 var
+R3914:3921 compcert.cfrontend.Ctypes <> Internal constr
+R3926:3934 compcert.cfrontend.Clight <> fn_params proj
+R3926:3934 compcert.cfrontend.Clight <> fn_params proj
+R3955:3957 Coq.Lists.List <> map def
+R3959:3961 Coq.Init.Datatypes <> snd def
+R3977:3984 compcert.cfrontend.Ctypes <> External constr
+R3997:4009 VST.veric.Clight_core <> typelist2list def
+def 4032:4046 <> cl_initial_core
+R4053:4056 compcert.cfrontend.Clight <> genv rec
+binder 4049:4050 <> ge:60
+R4063:4065 compcert.common.Values <> val ind
+binder 4060:4060 <> v:61
+R4075:4078 Coq.Init.Datatypes <> list ind
+R4080:4082 compcert.common.Values <> val ind
+binder 4069:4072 <> args:62
+R4087:4092 Coq.Init.Datatypes <> option ind
+R4094:4100 VST.veric.Clight_core <> CC_core def
+R4113:4113 VST.veric.Clight_core <> v:61 var
+R4124:4127 compcert.common.Values <> Vptr constr
+R4143:4155 compcert.lib.Integers Ptrofs eq_dec thm
+R4159:4169 compcert.lib.Integers Ptrofs zero def
+R4305:4308 Coq.Init.Datatypes <> None constr
+R4188:4206 compcert.common.Globalenvs Genv find_funct_ptr def
+R4208:4209 VST.veric.Clight_core <> ge:60 var
+R4226:4229 Coq.Init.Datatypes <> Some constr
+R4244:4247 Coq.Init.Datatypes <> Some constr
+R4250:4258 VST.veric.Clight_core <> Callstate constr
+R4267:4271 compcert.cfrontend.Clight <> Kstop constr
+R4262:4265 VST.veric.Clight_core <> args:62 var
+R4287:4290 Coq.Init.Datatypes <> None constr
+R4319:4322 Coq.Init.Datatypes <> None constr
+def 4343:4357 <> stuck_signature
+R4361:4369 compcert.common.AST <> signature rec
+R4374:4384 compcert.common.AST <> mksignature constr
+R4400:4409 compcert.common.AST <> cc_default def
+R4390:4398 compcert.common.AST <> Tvoid constr
+R4386:4388 Coq.Init.Datatypes <> nil constr
+def 5019:5032 <> cl_at_external
+R5038:5044 VST.veric.Clight_core <> CC_core def
+binder 5035:5035 <> c:64
+R5049:5054 Coq.Init.Datatypes <> option ind
+R5074:5076 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5057:5073 compcert.common.AST <> external_function ind
+R5077:5080 Coq.Init.Datatypes <> list ind
+R5082:5084 compcert.common.Values <> val ind
+R5098:5098 VST.veric.Clight_core <> c:64 var
+R5109:5117 VST.veric.Clight_core <> Callstate constr
+R5120:5127 compcert.cfrontend.Ctypes <> External constr
+R5158:5166 compcert.common.AST <> ef_inline def
+R5186:5189 Coq.Init.Datatypes <> Some constr
+R5191:5191 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5194:5195 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5200:5200 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5176:5179 Coq.Init.Datatypes <> None constr
+R5211:5214 Coq.Init.Datatypes <> None constr
+def 5233:5249 <> cl_after_external
+R5258:5263 Coq.Init.Datatypes <> option ind
+R5265:5267 compcert.common.Values <> val ind
+binder 5252:5255 <> vret:66
+R5274:5280 VST.veric.Clight_core <> CC_core def
+binder 5271:5271 <> c:67
+R5285:5290 Coq.Init.Datatypes <> option ind
+R5292:5298 VST.veric.Clight_core <> CC_core def
+R5312:5312 VST.veric.Clight_core <> c:67 var
+R5324:5332 VST.veric.Clight_core <> Callstate constr
+R5335:5342 compcert.cfrontend.Ctypes <> External constr
+R5370:5373 Coq.Init.Datatypes <> Some constr
+R5376:5386 VST.veric.Clight_core <> Returnstate constr
+R5395:5398 VST.veric.Clight_core <> vret:66 var
+R5405:5408 Coq.Init.Datatypes <> Some constr
+R5424:5429 compcert.common.Values <> Vundef constr
+R5449:5452 Coq.Init.Datatypes <> None constr
+ind 5473:5476 <> step
+constr 5532:5542 <> step_assign
+constr 5872:5879 <> step_set
+constr 6052:6060 <> step_call
+constr 6497:6508 <> step_builtin
+constr 6848:6855 <> step_seq
+constr 6992:7004 <> step_skip_seq
+constr 7118:7134 <> step_continue_seq
+constr 7259:7272 <> step_break_seq
+constr 7391:7405 <> step_ifthenelse
+constr 7635:7643 <> step_loop
+constr 7774:7800 <> step_skip_or_continue_loop1
+constr 7973:7988 <> step_break_loop1
+constr 8117:8131 <> step_skip_loop2
+constr 8266:8281 <> step_break_loop2
+constr 8409:8421 <> step_return_0
+constr 8607:8619 <> step_return_1
+constr 8901:8914 <> step_skip_call
+constr 9106:9116 <> step_switch
+constr 9370:9391 <> step_skip_break_switch
+constr 9538:9557 <> step_continue_switch
+constr 9682:9691 <> step_label
+constr 9809:9817 <> step_goto
+constr 10004:10025 <> step_internal_function
+constr 10203:10224 <> step_external_function
+constr 10492:10507 <> step_returnstate
+R5483:5486 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5492:5495 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5499:5502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5508:5511 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5515:5518 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5512:5514 compcert.common.Memory <> mem syndef
+R5503:5507 VST.veric.Clight_core <> state ind
+R5496:5498 compcert.common.Memory <> mem syndef
+R5487:5491 VST.veric.Clight_core <> state ind
+R5479:5482 compcert.cfrontend.Clight <> genv rec
+binder 5554:5555 <> ge:72
+binder 5557:5557 <> f:73
+binder 5559:5560 <> a1:74
+binder 5562:5563 <> a2:75
+binder 5565:5565 <> k:76
+binder 5567:5567 <> e:77
+binder 5569:5570 <> le:78
+binder 5572:5572 <> m:79
+binder 5574:5576 <> loc:80
+binder 5578:5580 <> ofs:81
+binder 5582:5583 <> v2:82
+binder 5585:5585 <> v:83
+binder 5587:5588 <> m':84
+R5629:5638 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5664:5673 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5720:5729 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5770:5779 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5780:5783 VST.veric.Clight_core <> step:70 ind
+R5864:5865 VST.veric.Clight_core <> m':84 var
+R5842:5846 VST.veric.Clight_core <> State constr
+R5860:5861 VST.veric.Clight_core <> le:78 var
+R5858:5858 VST.veric.Clight_core <> e:77 var
+R5856:5856 VST.veric.Clight_core <> k:76 var
+R5850:5854 compcert.cfrontend.Clight <> Sskip constr
+R5848:5848 VST.veric.Clight_core <> f:73 var
+R5821:5821 VST.veric.Clight_core <> m:79 var
+R5789:5793 VST.veric.Clight_core <> State constr
+R5817:5818 VST.veric.Clight_core <> le:78 var
+R5815:5815 VST.veric.Clight_core <> e:77 var
+R5813:5813 VST.veric.Clight_core <> k:76 var
+R5798:5804 compcert.cfrontend.Clight <> Sassign constr
+R5809:5810 VST.veric.Clight_core <> a2:75 var
+R5806:5807 VST.veric.Clight_core <> a1:74 var
+R5795:5795 VST.veric.Clight_core <> f:73 var
+R5785:5786 VST.veric.Clight_core <> ge:72 var
+R5730:5739 compcert.cfrontend.Clight <> assign_loc ind
+R5768:5769 VST.veric.Clight_core <> m':84 var
+R5766:5766 VST.veric.Clight_core <> v:83 var
+R5762:5764 VST.veric.Clight_core <> ofs:81 var
+R5758:5760 VST.veric.Clight_core <> loc:80 var
+R5756:5756 VST.veric.Clight_core <> m:79 var
+R5745:5750 compcert.cfrontend.Clight <> typeof def
+R5752:5753 VST.veric.Clight_core <> a1:74 var
+R5741:5742 VST.veric.Clight_core <> ge:72 var
+R5711:5713 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5674:5681 compcert.cfrontend.Cop <> sem_cast def
+R5710:5710 VST.veric.Clight_core <> m:79 var
+R5699:5704 compcert.cfrontend.Clight <> typeof def
+R5706:5707 VST.veric.Clight_core <> a1:74 var
+R5687:5692 compcert.cfrontend.Clight <> typeof def
+R5694:5695 VST.veric.Clight_core <> a2:75 var
+R5683:5684 VST.veric.Clight_core <> v2:82 var
+R5714:5717 Coq.Init.Datatypes <> Some constr
+R5719:5719 VST.veric.Clight_core <> v:83 var
+R5639:5647 compcert.cfrontend.Clight <> eval_expr ind
+R5662:5663 VST.veric.Clight_core <> v2:82 var
+R5659:5660 VST.veric.Clight_core <> a2:75 var
+R5657:5657 VST.veric.Clight_core <> m:79 var
+R5654:5655 VST.veric.Clight_core <> le:78 var
+R5652:5652 VST.veric.Clight_core <> e:77 var
+R5649:5650 VST.veric.Clight_core <> ge:72 var
+R5597:5607 compcert.cfrontend.Clight <> eval_lvalue ind
+R5626:5628 VST.veric.Clight_core <> ofs:81 var
+R5622:5624 VST.veric.Clight_core <> loc:80 var
+R5619:5620 VST.veric.Clight_core <> a1:74 var
+R5617:5617 VST.veric.Clight_core <> m:79 var
+R5614:5615 VST.veric.Clight_core <> le:78 var
+R5612:5612 VST.veric.Clight_core <> e:77 var
+R5609:5610 VST.veric.Clight_core <> ge:72 var
+binder 5891:5892 <> ge:85
+binder 5894:5894 <> f:86
+binder 5896:5897 <> id:87
+binder 5899:5899 <> a:88
+binder 5901:5901 <> k:89
+binder 5903:5903 <> e:90
+binder 5905:5906 <> le:91
+binder 5908:5908 <> m:92
+binder 5910:5910 <> v:93
+R5942:5951 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5952:5955 VST.veric.Clight_core <> step:70 ind
+R6045:6045 VST.veric.Clight_core <> m:92 var
+R6006:6010 VST.veric.Clight_core <> State constr
+R6025:6033 compcert.lib.Maps PTree set def
+R6040:6041 VST.veric.Clight_core <> le:91 var
+R6038:6038 VST.veric.Clight_core <> v:93 var
+R6035:6036 VST.veric.Clight_core <> id:87 var
+R6022:6022 VST.veric.Clight_core <> e:90 var
+R6020:6020 VST.veric.Clight_core <> k:89 var
+R6014:6018 compcert.cfrontend.Clight <> Sskip constr
+R6012:6012 VST.veric.Clight_core <> f:86 var
+R5989:5989 VST.veric.Clight_core <> m:92 var
+R5961:5965 VST.veric.Clight_core <> State constr
+R5985:5986 VST.veric.Clight_core <> le:91 var
+R5983:5983 VST.veric.Clight_core <> e:90 var
+R5981:5981 VST.veric.Clight_core <> k:89 var
+R5970:5973 compcert.cfrontend.Clight <> Sset constr
+R5978:5978 VST.veric.Clight_core <> a:88 var
+R5975:5976 VST.veric.Clight_core <> id:87 var
+R5967:5967 VST.veric.Clight_core <> f:86 var
+R5957:5958 VST.veric.Clight_core <> ge:85 var
+R5919:5927 compcert.cfrontend.Clight <> eval_expr ind
+R5941:5941 VST.veric.Clight_core <> v:93 var
+R5939:5939 VST.veric.Clight_core <> a:88 var
+R5937:5937 VST.veric.Clight_core <> m:92 var
+R5934:5935 VST.veric.Clight_core <> le:91 var
+R5932:5932 VST.veric.Clight_core <> e:90 var
+R5929:5930 VST.veric.Clight_core <> ge:85 var
+binder 6072:6073 <> ge:94
+binder 6075:6075 <> f:95
+binder 6077:6081 <> optid:96
+binder 6083:6083 <> a:97
+binder 6085:6086 <> al:98
+binder 6088:6088 <> k:99
+binder 6090:6090 <> e:100
+binder 6092:6093 <> le:101
+binder 6095:6095 <> m:102
+binder 6097:6102 <> tyargs:103
+binder 6104:6108 <> tyres:104
+binder 6110:6114 <> cconv:105
+binder 6116:6117 <> vf:106
+binder 6119:6123 <> vargs:107
+binder 6125:6126 <> fd:108
+R6190:6199 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6224:6233 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6273:6282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6314:6323 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6372:6381 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6382:6385 VST.veric.Clight_core <> step:70 ind
+R6490:6490 VST.veric.Clight_core <> m:102 var
+R6447:6455 VST.veric.Clight_core <> Callstate constr
+R6467:6471 compcert.cfrontend.Clight <> Kcall constr
+R6486:6486 VST.veric.Clight_core <> k:99 var
+R6483:6484 VST.veric.Clight_core <> le:101 var
+R6481:6481 VST.veric.Clight_core <> e:100 var
+R6479:6479 VST.veric.Clight_core <> f:95 var
+R6473:6477 VST.veric.Clight_core <> optid:96 var
+R6460:6464 VST.veric.Clight_core <> vargs:107 var
+R6457:6458 VST.veric.Clight_core <> fd:108 var
+R6426:6426 VST.veric.Clight_core <> m:102 var
+R6391:6395 VST.veric.Clight_core <> State constr
+R6422:6423 VST.veric.Clight_core <> le:101 var
+R6420:6420 VST.veric.Clight_core <> e:100 var
+R6418:6418 VST.veric.Clight_core <> k:99 var
+R6400:6404 compcert.cfrontend.Clight <> Scall constr
+R6414:6415 VST.veric.Clight_core <> al:98 var
+R6412:6412 VST.veric.Clight_core <> a:97 var
+R6406:6410 VST.veric.Clight_core <> optid:96 var
+R6397:6397 VST.veric.Clight_core <> f:95 var
+R6387:6388 VST.veric.Clight_core <> ge:94 var
+R6341:6343 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6324:6337 compcert.cfrontend.Clight <> type_of_fundef def
+R6339:6340 VST.veric.Clight_core <> fd:108 var
+R6344:6352 compcert.cfrontend.Ctypes <> Tfunction constr
+R6367:6371 VST.veric.Clight_core <> cconv:105 var
+R6361:6365 VST.veric.Clight_core <> tyres:104 var
+R6354:6359 VST.veric.Clight_core <> tyargs:103 var
+R6304:6306 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6283:6297 compcert.common.Globalenvs Genv find_funct def
+R6302:6303 VST.veric.Clight_core <> vf:106 var
+R6299:6300 VST.veric.Clight_core <> ge:94 var
+R6307:6310 Coq.Init.Datatypes <> Some constr
+R6312:6313 VST.veric.Clight_core <> fd:108 var
+R6234:6246 compcert.cfrontend.Clight <> eval_exprlist ind
+R6268:6272 VST.veric.Clight_core <> vargs:107 var
+R6261:6266 VST.veric.Clight_core <> tyargs:103 var
+R6258:6259 VST.veric.Clight_core <> al:98 var
+R6256:6256 VST.veric.Clight_core <> m:102 var
+R6253:6254 VST.veric.Clight_core <> le:101 var
+R6251:6251 VST.veric.Clight_core <> e:100 var
+R6248:6249 VST.veric.Clight_core <> ge:94 var
+R6200:6208 compcert.cfrontend.Clight <> eval_expr ind
+R6222:6223 VST.veric.Clight_core <> vf:106 var
+R6220:6220 VST.veric.Clight_core <> a:97 var
+R6218:6218 VST.veric.Clight_core <> m:102 var
+R6215:6216 VST.veric.Clight_core <> le:101 var
+R6213:6213 VST.veric.Clight_core <> e:100 var
+R6210:6211 VST.veric.Clight_core <> ge:94 var
+R6158:6160 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6135:6146 compcert.cfrontend.Cop <> classify_fun def
+R6149:6154 compcert.cfrontend.Clight <> typeof def
+R6156:6156 VST.veric.Clight_core <> a:97 var
+R6161:6170 compcert.cfrontend.Cop <> fun_case_f constr
+R6185:6189 VST.veric.Clight_core <> cconv:105 var
+R6179:6183 VST.veric.Clight_core <> tyres:104 var
+R6172:6177 VST.veric.Clight_core <> tyargs:103 var
+binder 6520:6521 <> ge:109
+binder 6523:6523 <> f:110
+binder 6525:6529 <> optid:111
+binder 6531:6532 <> ef:112
+binder 6534:6539 <> tyargs:113
+binder 6541:6542 <> al:114
+binder 6544:6544 <> k:115
+binder 6546:6546 <> e:116
+binder 6548:6549 <> le:117
+binder 6551:6551 <> m:118
+binder 6553:6557 <> vargs:119
+binder 6559:6559 <> t:120
+binder 6561:6564 <> vres:121
+binder 6566:6567 <> m':122
+R6618:6627 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6667:6676 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6714:6723 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6724:6727 VST.veric.Clight_core <> step:70 ind
+R6840:6841 VST.veric.Clight_core <> m':122 var
+R6793:6797 VST.veric.Clight_core <> State constr
+R6812:6822 compcert.cfrontend.Clight <> set_opttemp def
+R6835:6836 VST.veric.Clight_core <> le:117 var
+R6830:6833 VST.veric.Clight_core <> vres:121 var
+R6824:6828 VST.veric.Clight_core <> optid:111 var
+R6809:6809 VST.veric.Clight_core <> e:116 var
+R6807:6807 VST.veric.Clight_core <> k:115 var
+R6801:6805 compcert.cfrontend.Clight <> Sskip constr
+R6799:6799 VST.veric.Clight_core <> f:110 var
+R6779:6779 VST.veric.Clight_core <> m:118 var
+R6733:6737 VST.veric.Clight_core <> State constr
+R6775:6776 VST.veric.Clight_core <> le:117 var
+R6773:6773 VST.veric.Clight_core <> e:116 var
+R6771:6771 VST.veric.Clight_core <> k:115 var
+R6742:6749 compcert.cfrontend.Clight <> Sbuiltin constr
+R6767:6768 VST.veric.Clight_core <> al:114 var
+R6760:6765 VST.veric.Clight_core <> tyargs:113 var
+R6757:6758 VST.veric.Clight_core <> ef:112 var
+R6751:6755 VST.veric.Clight_core <> optid:111 var
+R6739:6739 VST.veric.Clight_core <> f:110 var
+R6729:6730 VST.veric.Clight_core <> ge:109 var
+R6677:6689 compcert.common.Events <> external_call def
+R6712:6713 VST.veric.Clight_core <> m':122 var
+R6707:6710 VST.veric.Clight_core <> vres:121 var
+R6705:6705 VST.veric.Clight_core <> t:120 var
+R6703:6703 VST.veric.Clight_core <> m:118 var
+R6697:6701 VST.veric.Clight_core <> vargs:119 var
+R6694:6695 VST.veric.Clight_core <> ge:109 var
+R6691:6692 VST.veric.Clight_core <> ef:112 var
+R6628:6640 compcert.cfrontend.Clight <> eval_exprlist ind
+R6662:6666 VST.veric.Clight_core <> vargs:119 var
+R6655:6660 VST.veric.Clight_core <> tyargs:113 var
+R6652:6653 VST.veric.Clight_core <> al:114 var
+R6650:6650 VST.veric.Clight_core <> m:118 var
+R6647:6648 VST.veric.Clight_core <> le:117 var
+R6645:6645 VST.veric.Clight_core <> e:116 var
+R6642:6643 VST.veric.Clight_core <> ge:109 var
+R6611:6613 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6588:6591 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R6576:6584 compcert.common.AST <> ef_inline def
+R6586:6587 VST.veric.Clight_core <> ef:112 var
+R6592:6607 VST.veric.Clight_core <> ef_deterministic def
+R6609:6610 VST.veric.Clight_core <> ef:112 var
+R6614:6617 Coq.Init.Datatypes <> true constr
+binder 6866:6867 <> ge:123
+binder 6869:6869 <> f:124
+binder 6871:6872 <> s1:125
+binder 6874:6875 <> s2:126
+binder 6877:6877 <> k:127
+binder 6879:6879 <> e:128
+binder 6881:6882 <> le:129
+binder 6884:6884 <> m:130
+R6893:6896 VST.veric.Clight_core <> step:70 ind
+R6985:6985 VST.veric.Clight_core <> m:130 var
+R6956:6960 VST.veric.Clight_core <> State constr
+R6981:6982 VST.veric.Clight_core <> le:129 var
+R6979:6979 VST.veric.Clight_core <> e:128 var
+R6968:6971 compcert.cfrontend.Clight <> Kseq constr
+R6976:6976 VST.veric.Clight_core <> k:127 var
+R6973:6974 VST.veric.Clight_core <> s2:126 var
+R6964:6965 VST.veric.Clight_core <> s1:125 var
+R6962:6962 VST.veric.Clight_core <> f:124 var
+R6936:6936 VST.veric.Clight_core <> m:130 var
+R6902:6906 VST.veric.Clight_core <> State constr
+R6932:6933 VST.veric.Clight_core <> le:129 var
+R6930:6930 VST.veric.Clight_core <> e:128 var
+R6928:6928 VST.veric.Clight_core <> k:127 var
+R6911:6919 compcert.cfrontend.Clight <> Ssequence constr
+R6924:6925 VST.veric.Clight_core <> s2:126 var
+R6921:6922 VST.veric.Clight_core <> s1:125 var
+R6908:6908 VST.veric.Clight_core <> f:124 var
+R6898:6899 VST.veric.Clight_core <> ge:123 var
+binder 7014:7015 <> ge:131
+binder 7017:7017 <> f:132
+binder 7019:7019 <> s:133
+binder 7021:7021 <> k:134
+binder 7023:7023 <> e:135
+binder 7025:7026 <> le:136
+binder 7028:7028 <> m:137
+R7037:7040 VST.veric.Clight_core <> step:70 ind
+R7112:7112 VST.veric.Clight_core <> m:137 var
+R7094:7098 VST.veric.Clight_core <> State constr
+R7108:7109 VST.veric.Clight_core <> le:136 var
+R7106:7106 VST.veric.Clight_core <> e:135 var
+R7104:7104 VST.veric.Clight_core <> k:134 var
+R7102:7102 VST.veric.Clight_core <> s:133 var
+R7100:7100 VST.veric.Clight_core <> f:132 var
+R7077:7077 VST.veric.Clight_core <> m:137 var
+R7046:7050 VST.veric.Clight_core <> State constr
+R7073:7074 VST.veric.Clight_core <> le:136 var
+R7071:7071 VST.veric.Clight_core <> e:135 var
+R7061:7064 compcert.cfrontend.Clight <> Kseq constr
+R7068:7068 VST.veric.Clight_core <> k:134 var
+R7066:7066 VST.veric.Clight_core <> s:133 var
+R7054:7058 compcert.cfrontend.Clight <> Sskip constr
+R7052:7052 VST.veric.Clight_core <> f:132 var
+R7042:7043 VST.veric.Clight_core <> ge:131 var
+binder 7144:7145 <> ge:138
+binder 7147:7147 <> f:139
+binder 7149:7149 <> s:140
+binder 7151:7151 <> k:141
+binder 7153:7153 <> e:142
+binder 7155:7156 <> le:143
+binder 7158:7158 <> m:144
+R7167:7170 VST.veric.Clight_core <> step:70 ind
+R7253:7253 VST.veric.Clight_core <> m:144 var
+R7227:7231 VST.veric.Clight_core <> State constr
+R7249:7250 VST.veric.Clight_core <> le:143 var
+R7247:7247 VST.veric.Clight_core <> e:142 var
+R7245:7245 VST.veric.Clight_core <> k:141 var
+R7235:7243 compcert.cfrontend.Clight <> Scontinue constr
+R7233:7233 VST.veric.Clight_core <> f:139 var
+R7211:7211 VST.veric.Clight_core <> m:144 var
+R7176:7180 VST.veric.Clight_core <> State constr
+R7207:7208 VST.veric.Clight_core <> le:143 var
+R7205:7205 VST.veric.Clight_core <> e:142 var
+R7195:7198 compcert.cfrontend.Clight <> Kseq constr
+R7202:7202 VST.veric.Clight_core <> k:141 var
+R7200:7200 VST.veric.Clight_core <> s:140 var
+R7184:7192 compcert.cfrontend.Clight <> Scontinue constr
+R7182:7182 VST.veric.Clight_core <> f:139 var
+R7172:7173 VST.veric.Clight_core <> ge:138 var
+binder 7282:7283 <> ge:145
+binder 7285:7285 <> f:146
+binder 7287:7287 <> s:147
+binder 7289:7289 <> k:148
+binder 7291:7291 <> e:149
+binder 7293:7294 <> le:150
+binder 7296:7296 <> m:151
+R7305:7308 VST.veric.Clight_core <> step:70 ind
+R7384:7384 VST.veric.Clight_core <> m:151 var
+R7361:7365 VST.veric.Clight_core <> State constr
+R7380:7381 VST.veric.Clight_core <> le:150 var
+R7378:7378 VST.veric.Clight_core <> e:149 var
+R7376:7376 VST.veric.Clight_core <> k:148 var
+R7369:7374 compcert.cfrontend.Clight <> Sbreak constr
+R7367:7367 VST.veric.Clight_core <> f:146 var
+R7346:7346 VST.veric.Clight_core <> m:151 var
+R7314:7318 VST.veric.Clight_core <> State constr
+R7342:7343 VST.veric.Clight_core <> le:150 var
+R7340:7340 VST.veric.Clight_core <> e:149 var
+R7330:7333 compcert.cfrontend.Clight <> Kseq constr
+R7337:7337 VST.veric.Clight_core <> k:148 var
+R7335:7335 VST.veric.Clight_core <> s:147 var
+R7322:7327 compcert.cfrontend.Clight <> Sbreak constr
+R7320:7320 VST.veric.Clight_core <> f:146 var
+R7310:7311 VST.veric.Clight_core <> ge:145 var
+binder 7416:7417 <> ge:152
+binder 7419:7419 <> f:153
+binder 7421:7421 <> a:154
+binder 7423:7424 <> s1:155
+binder 7426:7427 <> s2:156
+binder 7429:7429 <> k:157
+binder 7431:7431 <> e:158
+binder 7433:7434 <> le:159
+binder 7436:7436 <> m:160
+binder 7438:7439 <> v1:161
+binder 7441:7441 <> b:162
+R7474:7483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7517:7526 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7527:7530 VST.veric.Clight_core <> step:70 ind
+R7628:7628 VST.veric.Clight_core <> m:160 var
+R7589:7593 VST.veric.Clight_core <> State constr
+R7624:7625 VST.veric.Clight_core <> le:159 var
+R7622:7622 VST.veric.Clight_core <> e:158 var
+R7620:7620 VST.veric.Clight_core <> k:157 var
+R7601:7601 VST.veric.Clight_core <> b:162 var
+R7616:7617 VST.veric.Clight_core <> s2:156 var
+R7608:7609 VST.veric.Clight_core <> s1:155 var
+R7595:7595 VST.veric.Clight_core <> f:153 var
+R7574:7574 VST.veric.Clight_core <> m:160 var
+R7536:7540 VST.veric.Clight_core <> State constr
+R7570:7571 VST.veric.Clight_core <> le:159 var
+R7568:7568 VST.veric.Clight_core <> e:158 var
+R7566:7566 VST.veric.Clight_core <> k:157 var
+R7545:7555 compcert.cfrontend.Clight <> Sifthenelse constr
+R7562:7563 VST.veric.Clight_core <> s2:156 var
+R7559:7560 VST.veric.Clight_core <> s1:155 var
+R7557:7557 VST.veric.Clight_core <> a:154 var
+R7542:7542 VST.veric.Clight_core <> f:153 var
+R7532:7533 VST.veric.Clight_core <> ge:152 var
+R7508:7510 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7484:7491 compcert.cfrontend.Cop <> bool_val def
+R7507:7507 VST.veric.Clight_core <> m:160 var
+R7497:7502 compcert.cfrontend.Clight <> typeof def
+R7504:7504 VST.veric.Clight_core <> a:154 var
+R7493:7494 VST.veric.Clight_core <> v1:161 var
+R7511:7514 Coq.Init.Datatypes <> Some constr
+R7516:7516 VST.veric.Clight_core <> b:162 var
+R7450:7458 compcert.cfrontend.Clight <> eval_expr ind
+R7472:7473 VST.veric.Clight_core <> v1:161 var
+R7470:7470 VST.veric.Clight_core <> a:154 var
+R7468:7468 VST.veric.Clight_core <> m:160 var
+R7465:7466 VST.veric.Clight_core <> le:159 var
+R7463:7463 VST.veric.Clight_core <> e:158 var
+R7460:7461 VST.veric.Clight_core <> ge:152 var
+binder 7653:7654 <> ge:163
+binder 7656:7656 <> f:164
+binder 7658:7659 <> s1:165
+binder 7661:7662 <> s2:166
+binder 7664:7664 <> k:167
+binder 7666:7666 <> e:168
+binder 7668:7669 <> le:169
+binder 7671:7671 <> m:170
+R7680:7683 VST.veric.Clight_core <> step:70 ind
+R7768:7768 VST.veric.Clight_core <> m:170 var
+R7734:7738 VST.veric.Clight_core <> State constr
+R7764:7765 VST.veric.Clight_core <> le:169 var
+R7762:7762 VST.veric.Clight_core <> e:168 var
+R7746:7751 compcert.cfrontend.Clight <> Kloop1 constr
+R7759:7759 VST.veric.Clight_core <> k:167 var
+R7756:7757 VST.veric.Clight_core <> s2:166 var
+R7753:7754 VST.veric.Clight_core <> s1:165 var
+R7742:7743 VST.veric.Clight_core <> s1:165 var
+R7740:7740 VST.veric.Clight_core <> f:164 var
+R7719:7719 VST.veric.Clight_core <> m:170 var
+R7689:7693 VST.veric.Clight_core <> State constr
+R7715:7716 VST.veric.Clight_core <> le:169 var
+R7713:7713 VST.veric.Clight_core <> e:168 var
+R7711:7711 VST.veric.Clight_core <> k:167 var
+R7698:7702 compcert.cfrontend.Clight <> Sloop constr
+R7707:7708 VST.veric.Clight_core <> s2:166 var
+R7704:7705 VST.veric.Clight_core <> s1:165 var
+R7695:7695 VST.veric.Clight_core <> f:164 var
+R7685:7686 VST.veric.Clight_core <> ge:163 var
+binder 7811:7812 <> ge:171
+binder 7814:7814 <> f:172
+binder 7816:7817 <> s1:173
+binder 7819:7820 <> s2:174
+binder 7822:7822 <> k:175
+binder 7824:7824 <> e:176
+binder 7826:7827 <> le:177
+binder 7829:7829 <> m:178
+binder 7831:7831 <> x:179
+R7866:7875 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7876:7879 VST.veric.Clight_core <> step:70 ind
+R7967:7967 VST.veric.Clight_core <> m:178 var
+R7933:7937 VST.veric.Clight_core <> State constr
+R7963:7964 VST.veric.Clight_core <> le:177 var
+R7961:7961 VST.veric.Clight_core <> e:176 var
+R7945:7950 compcert.cfrontend.Clight <> Kloop2 constr
+R7958:7958 VST.veric.Clight_core <> k:175 var
+R7955:7956 VST.veric.Clight_core <> s2:174 var
+R7952:7953 VST.veric.Clight_core <> s1:173 var
+R7941:7942 VST.veric.Clight_core <> s2:174 var
+R7939:7939 VST.veric.Clight_core <> f:172 var
+R7918:7918 VST.veric.Clight_core <> m:178 var
+R7885:7889 VST.veric.Clight_core <> State constr
+R7914:7915 VST.veric.Clight_core <> le:177 var
+R7912:7912 VST.veric.Clight_core <> e:176 var
+R7896:7901 compcert.cfrontend.Clight <> Kloop1 constr
+R7909:7909 VST.veric.Clight_core <> k:175 var
+R7906:7907 VST.veric.Clight_core <> s2:174 var
+R7903:7904 VST.veric.Clight_core <> s1:173 var
+R7893:7893 VST.veric.Clight_core <> x:179 var
+R7891:7891 VST.veric.Clight_core <> f:172 var
+R7881:7882 VST.veric.Clight_core <> ge:171 var
+R7849:7852 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7841:7843 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7840:7840 VST.veric.Clight_core <> x:179 var
+R7844:7848 compcert.cfrontend.Clight <> Sskip constr
+R7854:7856 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7853:7853 VST.veric.Clight_core <> x:179 var
+R7857:7865 compcert.cfrontend.Clight <> Scontinue constr
+binder 7999:8000 <> ge:180
+binder 8002:8002 <> f:181
+binder 8004:8005 <> s1:182
+binder 8007:8008 <> s2:183
+binder 8010:8010 <> k:184
+binder 8012:8012 <> e:185
+binder 8014:8015 <> le:186
+binder 8017:8017 <> m:187
+R8026:8029 VST.veric.Clight_core <> step:70 ind
+R8111:8111 VST.veric.Clight_core <> m:187 var
+R8089:8093 VST.veric.Clight_core <> State constr
+R8107:8108 VST.veric.Clight_core <> le:186 var
+R8105:8105 VST.veric.Clight_core <> e:185 var
+R8103:8103 VST.veric.Clight_core <> k:184 var
+R8097:8101 compcert.cfrontend.Clight <> Sskip constr
+R8095:8095 VST.veric.Clight_core <> f:181 var
+R8073:8073 VST.veric.Clight_core <> m:187 var
+R8035:8039 VST.veric.Clight_core <> State constr
+R8069:8070 VST.veric.Clight_core <> le:186 var
+R8067:8067 VST.veric.Clight_core <> e:185 var
+R8051:8056 compcert.cfrontend.Clight <> Kloop1 constr
+R8064:8064 VST.veric.Clight_core <> k:184 var
+R8061:8062 VST.veric.Clight_core <> s2:183 var
+R8058:8059 VST.veric.Clight_core <> s1:182 var
+R8043:8048 compcert.cfrontend.Clight <> Sbreak constr
+R8041:8041 VST.veric.Clight_core <> f:181 var
+R8031:8032 VST.veric.Clight_core <> ge:180 var
+binder 8141:8142 <> ge:188
+binder 8144:8144 <> f:189
+binder 8146:8147 <> s1:190
+binder 8149:8150 <> s2:191
+binder 8152:8152 <> k:192
+binder 8154:8154 <> e:193
+binder 8156:8157 <> le:194
+binder 8159:8159 <> m:195
+R8168:8171 VST.veric.Clight_core <> step:70 ind
+R8260:8260 VST.veric.Clight_core <> m:195 var
+R8230:8234 VST.veric.Clight_core <> State constr
+R8256:8257 VST.veric.Clight_core <> le:194 var
+R8254:8254 VST.veric.Clight_core <> e:193 var
+R8252:8252 VST.veric.Clight_core <> k:192 var
+R8239:8243 compcert.cfrontend.Clight <> Sloop constr
+R8248:8249 VST.veric.Clight_core <> s2:191 var
+R8245:8246 VST.veric.Clight_core <> s1:190 var
+R8236:8236 VST.veric.Clight_core <> f:189 var
+R8214:8214 VST.veric.Clight_core <> m:195 var
+R8177:8181 VST.veric.Clight_core <> State constr
+R8210:8211 VST.veric.Clight_core <> le:194 var
+R8208:8208 VST.veric.Clight_core <> e:193 var
+R8192:8197 compcert.cfrontend.Clight <> Kloop2 constr
+R8205:8205 VST.veric.Clight_core <> k:192 var
+R8202:8203 VST.veric.Clight_core <> s2:191 var
+R8199:8200 VST.veric.Clight_core <> s1:190 var
+R8185:8189 compcert.cfrontend.Clight <> Sskip constr
+R8183:8183 VST.veric.Clight_core <> f:189 var
+R8173:8174 VST.veric.Clight_core <> ge:188 var
+binder 8291:8292 <> ge:196
+binder 8294:8294 <> f:197
+binder 8296:8297 <> s1:198
+binder 8299:8300 <> s2:199
+binder 8302:8302 <> k:200
+binder 8304:8304 <> e:201
+binder 8306:8307 <> le:202
+binder 8309:8309 <> m:203
+R8318:8321 VST.veric.Clight_core <> step:70 ind
+R8402:8402 VST.veric.Clight_core <> m:203 var
+R8380:8384 VST.veric.Clight_core <> State constr
+R8398:8399 VST.veric.Clight_core <> le:202 var
+R8396:8396 VST.veric.Clight_core <> e:201 var
+R8394:8394 VST.veric.Clight_core <> k:200 var
+R8388:8392 compcert.cfrontend.Clight <> Sskip constr
+R8386:8386 VST.veric.Clight_core <> f:197 var
+R8365:8365 VST.veric.Clight_core <> m:203 var
+R8327:8331 VST.veric.Clight_core <> State constr
+R8361:8362 VST.veric.Clight_core <> le:202 var
+R8359:8359 VST.veric.Clight_core <> e:201 var
+R8343:8348 compcert.cfrontend.Clight <> Kloop2 constr
+R8356:8356 VST.veric.Clight_core <> k:200 var
+R8353:8354 VST.veric.Clight_core <> s2:199 var
+R8350:8351 VST.veric.Clight_core <> s1:198 var
+R8335:8340 compcert.cfrontend.Clight <> Sbreak constr
+R8333:8333 VST.veric.Clight_core <> f:197 var
+R8323:8324 VST.veric.Clight_core <> ge:196 var
+binder 8431:8432 <> ge:204
+binder 8434:8434 <> f:205
+binder 8436:8436 <> k:206
+binder 8438:8438 <> e:207
+binder 8440:8441 <> le:208
+binder 8443:8443 <> m:209
+binder 8445:8446 <> m':210
+R8501:8510 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8511:8514 VST.veric.Clight_core <> step:70 ind
+R8600:8601 VST.veric.Clight_core <> m':210 var
+R8566:8576 VST.veric.Clight_core <> Returnstate constr
+R8586:8594 compcert.cfrontend.Clight <> call_cont def
+R8596:8596 VST.veric.Clight_core <> k:206 var
+R8578:8583 compcert.common.Values <> Vundef constr
+R8551:8551 VST.veric.Clight_core <> m:209 var
+R8520:8524 VST.veric.Clight_core <> State constr
+R8547:8548 VST.veric.Clight_core <> le:208 var
+R8545:8545 VST.veric.Clight_core <> e:207 var
+R8543:8543 VST.veric.Clight_core <> k:206 var
+R8529:8535 compcert.cfrontend.Clight <> Sreturn constr
+R8537:8540 Coq.Init.Datatypes <> None constr
+R8526:8526 VST.veric.Clight_core <> f:205 var
+R8516:8517 VST.veric.Clight_core <> ge:204 var
+R8491:8493 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8455:8467 compcert.common.Memory Mem free_list def
+R8472:8484 compcert.cfrontend.Clight <> blocks_of_env def
+R8489:8489 VST.veric.Clight_core <> e:207 var
+R8486:8487 VST.veric.Clight_core <> ge:204 var
+R8469:8469 VST.veric.Clight_core <> m:209 var
+R8494:8497 Coq.Init.Datatypes <> Some constr
+R8499:8500 VST.veric.Clight_core <> m':210 var
+binder 8629:8630 <> ge:211
+binder 8632:8632 <> f:212
+binder 8634:8634 <> a:213
+binder 8636:8636 <> k:214
+binder 8638:8638 <> e:215
+binder 8640:8641 <> le:216
+binder 8643:8643 <> m:217
+binder 8645:8645 <> v:218
+binder 8647:8648 <> v':219
+binder 8650:8651 <> m':220
+R8683:8692 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8740:8749 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8796:8805 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8806:8809 VST.veric.Clight_core <> step:70 ind
+R8894:8895 VST.veric.Clight_core <> m':220 var
+R8864:8874 VST.veric.Clight_core <> Returnstate constr
+R8880:8888 compcert.cfrontend.Clight <> call_cont def
+R8890:8890 VST.veric.Clight_core <> k:214 var
+R8876:8877 VST.veric.Clight_core <> v':219 var
+R8850:8850 VST.veric.Clight_core <> m:217 var
+R8815:8819 VST.veric.Clight_core <> State constr
+R8846:8847 VST.veric.Clight_core <> le:216 var
+R8844:8844 VST.veric.Clight_core <> e:215 var
+R8842:8842 VST.veric.Clight_core <> k:214 var
+R8824:8830 compcert.cfrontend.Clight <> Sreturn constr
+R8833:8836 Coq.Init.Datatypes <> Some constr
+R8838:8838 VST.veric.Clight_core <> a:213 var
+R8821:8821 VST.veric.Clight_core <> f:212 var
+R8811:8812 VST.veric.Clight_core <> ge:211 var
+R8786:8788 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8750:8762 compcert.common.Memory Mem free_list def
+R8767:8779 compcert.cfrontend.Clight <> blocks_of_env def
+R8784:8784 VST.veric.Clight_core <> e:215 var
+R8781:8782 VST.veric.Clight_core <> ge:211 var
+R8764:8764 VST.veric.Clight_core <> m:217 var
+R8789:8792 Coq.Init.Datatypes <> Some constr
+R8794:8795 VST.veric.Clight_core <> m':220 var
+R8730:8732 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8693:8700 compcert.cfrontend.Cop <> sem_cast def
+R8729:8729 VST.veric.Clight_core <> m:217 var
+R8718:8726 compcert.cfrontend.Clight <> fn_return proj
+R8715:8715 VST.veric.Clight_core <> f:212 var
+R8705:8710 compcert.cfrontend.Clight <> typeof def
+R8712:8712 VST.veric.Clight_core <> a:213 var
+R8702:8702 VST.veric.Clight_core <> v:218 var
+R8733:8736 Coq.Init.Datatypes <> Some constr
+R8738:8739 VST.veric.Clight_core <> v':219 var
+R8660:8668 compcert.cfrontend.Clight <> eval_expr ind
+R8682:8682 VST.veric.Clight_core <> v:218 var
+R8680:8680 VST.veric.Clight_core <> a:213 var
+R8678:8678 VST.veric.Clight_core <> m:217 var
+R8675:8676 VST.veric.Clight_core <> le:216 var
+R8673:8673 VST.veric.Clight_core <> e:215 var
+R8670:8671 VST.veric.Clight_core <> ge:211 var
+binder 8924:8925 <> ge:221
+binder 8927:8927 <> f:222
+binder 8929:8929 <> k:223
+binder 8931:8931 <> e:224
+binder 8933:8934 <> le:225
+binder 8936:8936 <> m:226
+binder 8938:8939 <> m':227
+R8962:8971 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9018:9027 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9028:9031 VST.veric.Clight_core <> step:70 ind
+R9098:9099 VST.veric.Clight_core <> m':227 var
+R9076:9086 VST.veric.Clight_core <> Returnstate constr
+R9095:9095 VST.veric.Clight_core <> k:223 var
+R9088:9093 compcert.common.Values <> Vundef constr
+R9059:9059 VST.veric.Clight_core <> m:226 var
+R9037:9041 VST.veric.Clight_core <> State constr
+R9055:9056 VST.veric.Clight_core <> le:225 var
+R9053:9053 VST.veric.Clight_core <> e:224 var
+R9051:9051 VST.veric.Clight_core <> k:223 var
+R9045:9049 compcert.cfrontend.Clight <> Sskip constr
+R9043:9043 VST.veric.Clight_core <> f:222 var
+R9033:9034 VST.veric.Clight_core <> ge:221 var
+R9008:9010 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8972:8984 compcert.common.Memory Mem free_list def
+R8989:9001 compcert.cfrontend.Clight <> blocks_of_env def
+R9006:9006 VST.veric.Clight_core <> e:224 var
+R9003:9004 VST.veric.Clight_core <> ge:221 var
+R8986:8986 VST.veric.Clight_core <> m:226 var
+R9011:9014 Coq.Init.Datatypes <> Some constr
+R9016:9017 VST.veric.Clight_core <> m':227 var
+R8948:8959 compcert.cfrontend.Clight <> is_call_cont def
+R8961:8961 VST.veric.Clight_core <> k:223 var
+binder 9126:9127 <> ge:228
+binder 9129:9129 <> f:229
+binder 9131:9131 <> a:230
+binder 9133:9134 <> sl:231
+binder 9136:9136 <> k:232
+binder 9138:9138 <> e:233
+binder 9140:9141 <> le:234
+binder 9143:9143 <> m:235
+binder 9145:9145 <> v:236
+binder 9147:9147 <> n:237
+R9179:9188 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9225:9234 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9235:9238 VST.veric.Clight_core <> step:70 ind
+R9364:9364 VST.veric.Clight_core <> m:235 var
+R9290:9294 VST.veric.Clight_core <> State constr
+R9360:9361 VST.veric.Clight_core <> le:234 var
+R9358:9358 VST.veric.Clight_core <> e:233 var
+R9347:9353 compcert.cfrontend.Clight <> Kswitch constr
+R9355:9355 VST.veric.Clight_core <> k:232 var
+R9299:9322 compcert.cfrontend.Clight <> seq_of_labeled_statement def
+R9325:9337 compcert.cfrontend.Clight <> select_switch def
+R9341:9342 VST.veric.Clight_core <> sl:231 var
+R9339:9339 VST.veric.Clight_core <> n:237 var
+R9296:9296 VST.veric.Clight_core <> f:229 var
+R9275:9275 VST.veric.Clight_core <> m:235 var
+R9244:9248 VST.veric.Clight_core <> State constr
+R9271:9272 VST.veric.Clight_core <> le:234 var
+R9269:9269 VST.veric.Clight_core <> e:233 var
+R9267:9267 VST.veric.Clight_core <> k:232 var
+R9253:9259 compcert.cfrontend.Clight <> Sswitch constr
+R9263:9264 VST.veric.Clight_core <> sl:231 var
+R9261:9261 VST.veric.Clight_core <> a:230 var
+R9250:9250 VST.veric.Clight_core <> f:229 var
+R9240:9241 VST.veric.Clight_core <> ge:228 var
+R9216:9218 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9189:9202 compcert.cfrontend.Cop <> sem_switch_arg def
+R9207:9212 compcert.cfrontend.Clight <> typeof def
+R9214:9214 VST.veric.Clight_core <> a:230 var
+R9204:9204 VST.veric.Clight_core <> v:236 var
+R9219:9222 Coq.Init.Datatypes <> Some constr
+R9224:9224 VST.veric.Clight_core <> n:237 var
+R9156:9164 compcert.cfrontend.Clight <> eval_expr ind
+R9178:9178 VST.veric.Clight_core <> v:236 var
+R9176:9176 VST.veric.Clight_core <> a:230 var
+R9174:9174 VST.veric.Clight_core <> m:235 var
+R9171:9172 VST.veric.Clight_core <> le:234 var
+R9169:9169 VST.veric.Clight_core <> e:233 var
+R9166:9167 VST.veric.Clight_core <> ge:228 var
+binder 9401:9402 <> ge:238
+binder 9404:9404 <> f:239
+binder 9406:9406 <> x:240
+binder 9408:9408 <> k:241
+binder 9410:9410 <> e:242
+binder 9412:9413 <> le:243
+binder 9415:9415 <> m:244
+R9447:9456 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9457:9460 VST.veric.Clight_core <> step:70 ind
+R9532:9532 VST.veric.Clight_core <> m:244 var
+R9510:9514 VST.veric.Clight_core <> State constr
+R9528:9529 VST.veric.Clight_core <> le:243 var
+R9526:9526 VST.veric.Clight_core <> e:242 var
+R9524:9524 VST.veric.Clight_core <> k:241 var
+R9518:9522 compcert.cfrontend.Clight <> Sskip constr
+R9516:9516 VST.veric.Clight_core <> f:239 var
+R9494:9494 VST.veric.Clight_core <> m:244 var
+R9466:9470 VST.veric.Clight_core <> State constr
+R9490:9491 VST.veric.Clight_core <> le:243 var
+R9488:9488 VST.veric.Clight_core <> e:242 var
+R9477:9483 compcert.cfrontend.Clight <> Kswitch constr
+R9485:9485 VST.veric.Clight_core <> k:241 var
+R9474:9474 VST.veric.Clight_core <> x:240 var
+R9472:9472 VST.veric.Clight_core <> f:239 var
+R9462:9463 VST.veric.Clight_core <> ge:238 var
+R9433:9436 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9425:9427 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9424:9424 VST.veric.Clight_core <> x:240 var
+R9428:9432 compcert.cfrontend.Clight <> Sskip constr
+R9438:9440 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9437:9437 VST.veric.Clight_core <> x:240 var
+R9441:9446 compcert.cfrontend.Clight <> Sbreak constr
+binder 9567:9568 <> ge:245
+binder 9570:9570 <> f:246
+binder 9572:9572 <> k:247
+binder 9574:9574 <> e:248
+binder 9576:9577 <> le:249
+binder 9579:9579 <> m:250
+R9588:9591 VST.veric.Clight_core <> step:70 ind
+R9675:9675 VST.veric.Clight_core <> m:250 var
+R9649:9653 VST.veric.Clight_core <> State constr
+R9671:9672 VST.veric.Clight_core <> le:249 var
+R9669:9669 VST.veric.Clight_core <> e:248 var
+R9667:9667 VST.veric.Clight_core <> k:247 var
+R9657:9665 compcert.cfrontend.Clight <> Scontinue constr
+R9655:9655 VST.veric.Clight_core <> f:246 var
+R9633:9633 VST.veric.Clight_core <> m:250 var
+R9597:9601 VST.veric.Clight_core <> State constr
+R9629:9630 VST.veric.Clight_core <> le:249 var
+R9627:9627 VST.veric.Clight_core <> e:248 var
+R9616:9622 compcert.cfrontend.Clight <> Kswitch constr
+R9624:9624 VST.veric.Clight_core <> k:247 var
+R9605:9613 compcert.cfrontend.Clight <> Scontinue constr
+R9603:9603 VST.veric.Clight_core <> f:246 var
+R9593:9594 VST.veric.Clight_core <> ge:245 var
+binder 9701:9702 <> ge:251
+binder 9704:9704 <> f:252
+binder 9706:9708 <> lbl:253
+binder 9710:9710 <> s:254
+binder 9712:9712 <> k:255
+binder 9714:9714 <> e:256
+binder 9716:9717 <> le:257
+binder 9719:9719 <> m:258
+R9728:9731 VST.veric.Clight_core <> step:70 ind
+R9802:9802 VST.veric.Clight_core <> m:258 var
+R9784:9788 VST.veric.Clight_core <> State constr
+R9798:9799 VST.veric.Clight_core <> le:257 var
+R9796:9796 VST.veric.Clight_core <> e:256 var
+R9794:9794 VST.veric.Clight_core <> k:255 var
+R9792:9792 VST.veric.Clight_core <> s:254 var
+R9790:9790 VST.veric.Clight_core <> f:252 var
+R9768:9768 VST.veric.Clight_core <> m:258 var
+R9737:9741 VST.veric.Clight_core <> State constr
+R9764:9765 VST.veric.Clight_core <> le:257 var
+R9762:9762 VST.veric.Clight_core <> e:256 var
+R9760:9760 VST.veric.Clight_core <> k:255 var
+R9746:9751 compcert.cfrontend.Clight <> Slabel constr
+R9757:9757 VST.veric.Clight_core <> s:254 var
+R9753:9755 VST.veric.Clight_core <> lbl:253 var
+R9743:9743 VST.veric.Clight_core <> f:252 var
+R9733:9734 VST.veric.Clight_core <> ge:251 var
+binder 9827:9828 <> ge:259
+binder 9830:9830 <> f:260
+binder 9832:9834 <> lbl:261
+binder 9836:9836 <> k:262
+binder 9838:9838 <> e:263
+binder 9840:9841 <> le:264
+binder 9843:9843 <> m:265
+binder 9845:9846 <> s':266
+binder 9848:9849 <> k':267
+R9914:9923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9924:9927 VST.veric.Clight_core <> step:70 ind
+R9997:9997 VST.veric.Clight_core <> m:265 var
+R9977:9981 VST.veric.Clight_core <> State constr
+R9993:9994 VST.veric.Clight_core <> le:264 var
+R9991:9991 VST.veric.Clight_core <> e:263 var
+R9988:9989 VST.veric.Clight_core <> k':267 var
+R9985:9986 VST.veric.Clight_core <> s':266 var
+R9983:9983 VST.veric.Clight_core <> f:260 var
+R9961:9961 VST.veric.Clight_core <> m:265 var
+R9933:9937 VST.veric.Clight_core <> State constr
+R9957:9958 VST.veric.Clight_core <> le:264 var
+R9955:9955 VST.veric.Clight_core <> e:263 var
+R9953:9953 VST.veric.Clight_core <> k:262 var
+R9942:9946 compcert.cfrontend.Clight <> Sgoto constr
+R9948:9950 VST.veric.Clight_core <> lbl:261 var
+R9939:9939 VST.veric.Clight_core <> f:260 var
+R9929:9930 VST.veric.Clight_core <> ge:259 var
+R9898:9900 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9858:9867 compcert.cfrontend.Clight <> find_label def
+R9886:9894 compcert.cfrontend.Clight <> call_cont def
+R9896:9896 VST.veric.Clight_core <> k:262 var
+R9876:9882 compcert.cfrontend.Clight <> fn_body proj
+R9873:9873 VST.veric.Clight_core <> f:260 var
+R9869:9871 VST.veric.Clight_core <> lbl:261 var
+R9901:9904 Coq.Init.Datatypes <> Some constr
+R9906:9906 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9909:9910 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9913:9913 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9907:9908 VST.veric.Clight_core <> s':266 var
+R9911:9912 VST.veric.Clight_core <> k':267 var
+binder 10035:10036 <> ge:268
+binder 10038:10038 <> f:269
+binder 10040:10044 <> vargs:270
+binder 10046:10046 <> k:271
+binder 10048:10048 <> m:272
+binder 10050:10050 <> e:273
+binder 10052:10053 <> le:274
+binder 10055:10056 <> m1:275
+R10101:10110 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10111:10114 VST.veric.Clight_core <> step:70 ind
+R10195:10196 VST.veric.Clight_core <> m1:275 var
+R10167:10171 VST.veric.Clight_core <> State constr
+R10191:10192 VST.veric.Clight_core <> le:274 var
+R10189:10189 VST.veric.Clight_core <> e:273 var
+R10187:10187 VST.veric.Clight_core <> k:271 var
+R10178:10184 compcert.cfrontend.Clight <> fn_body proj
+R10175:10175 VST.veric.Clight_core <> f:269 var
+R10173:10173 VST.veric.Clight_core <> f:269 var
+R10152:10152 VST.veric.Clight_core <> m:272 var
+R10120:10128 VST.veric.Clight_core <> Callstate constr
+R10149:10149 VST.veric.Clight_core <> k:271 var
+R10143:10147 VST.veric.Clight_core <> vargs:270 var
+R10131:10138 compcert.cfrontend.Ctypes <> Internal constr
+R10140:10140 VST.veric.Clight_core <> f:269 var
+R10116:10117 VST.veric.Clight_core <> ge:268 var
+R10065:10079 compcert.cfrontend.Clight <> function_entry2 ind
+R10099:10100 VST.veric.Clight_core <> m1:275 var
+R10096:10097 VST.veric.Clight_core <> le:274 var
+R10094:10094 VST.veric.Clight_core <> e:273 var
+R10092:10092 VST.veric.Clight_core <> m:272 var
+R10086:10090 VST.veric.Clight_core <> vargs:270 var
+R10084:10084 VST.veric.Clight_core <> f:269 var
+R10081:10082 VST.veric.Clight_core <> ge:268 var
+R10239:10242 compcert.cfrontend.Clight <> genv rec
+binder 10235:10236 <> ge:276
+binder 10245:10246 <> ef:277
+binder 10248:10252 <> targs:278
+binder 10254:10257 <> tres:279
+binder 10259:10263 <> cconv:280
+binder 10265:10269 <> vargs:281
+binder 10271:10271 <> k:282
+binder 10273:10273 <> m:283
+binder 10275:10275 <> t:284
+binder 10277:10280 <> vres:285
+binder 10282:10283 <> m':286
+R10335:10344 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10382:10391 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10392:10395 VST.veric.Clight_core <> step:70 ind
+R10484:10485 VST.veric.Clight_core <> m':286 var
+R10464:10474 VST.veric.Clight_core <> Returnstate constr
+R10481:10481 VST.veric.Clight_core <> k:282 var
+R10476:10479 VST.veric.Clight_core <> vres:285 var
+R10451:10451 VST.veric.Clight_core <> m:283 var
+R10401:10409 VST.veric.Clight_core <> Callstate constr
+R10448:10448 VST.veric.Clight_core <> k:282 var
+R10442:10446 VST.veric.Clight_core <> vargs:281 var
+R10412:10419 compcert.cfrontend.Ctypes <> External constr
+R10435:10439 VST.veric.Clight_core <> cconv:280 var
+R10430:10433 VST.veric.Clight_core <> tres:279 var
+R10424:10428 VST.veric.Clight_core <> targs:278 var
+R10421:10422 VST.veric.Clight_core <> ef:277 var
+R10397:10398 VST.veric.Clight_core <> ge:276 var
+R10345:10357 compcert.common.Events <> external_call def
+R10380:10381 VST.veric.Clight_core <> m':286 var
+R10375:10378 VST.veric.Clight_core <> vres:285 var
+R10373:10373 VST.veric.Clight_core <> t:284 var
+R10371:10371 VST.veric.Clight_core <> m:283 var
+R10365:10369 VST.veric.Clight_core <> vargs:281 var
+R10362:10363 VST.veric.Clight_core <> ge:276 var
+R10359:10360 VST.veric.Clight_core <> ef:277 var
+R10328:10330 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10304:10308 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R10292:10300 compcert.common.AST <> ef_inline def
+R10302:10303 VST.veric.Clight_core <> ef:277 var
+R10309:10324 VST.veric.Clight_core <> ef_deterministic def
+R10326:10327 VST.veric.Clight_core <> ef:277 var
+R10331:10334 Coq.Init.Datatypes <> true constr
+binder 10517:10518 <> ge:287
+binder 10520:10520 <> v:288
+binder 10522:10526 <> optid:289
+binder 10528:10528 <> f:290
+binder 10530:10530 <> e:291
+binder 10532:10533 <> le:292
+binder 10535:10535 <> k:293
+binder 10537:10537 <> m:294
+R10546:10549 VST.veric.Clight_core <> step:70 ind
+R10651:10651 VST.veric.Clight_core <> m:294 var
+R10607:10611 VST.veric.Clight_core <> State constr
+R10626:10636 compcert.cfrontend.Clight <> set_opttemp def
+R10646:10647 VST.veric.Clight_core <> le:292 var
+R10644:10644 VST.veric.Clight_core <> v:288 var
+R10638:10642 VST.veric.Clight_core <> optid:289 var
+R10623:10623 VST.veric.Clight_core <> e:291 var
+R10621:10621 VST.veric.Clight_core <> k:293 var
+R10615:10619 compcert.cfrontend.Clight <> Sskip constr
+R10613:10613 VST.veric.Clight_core <> f:290 var
+R10593:10593 VST.veric.Clight_core <> m:294 var
+R10555:10565 VST.veric.Clight_core <> Returnstate constr
+R10570:10574 compcert.cfrontend.Clight <> Kcall constr
+R10589:10589 VST.veric.Clight_core <> k:293 var
+R10586:10587 VST.veric.Clight_core <> le:292 var
+R10584:10584 VST.veric.Clight_core <> e:291 var
+R10582:10582 VST.veric.Clight_core <> f:290 var
+R10576:10580 VST.veric.Clight_core <> optid:289 var
+R10567:10567 VST.veric.Clight_core <> v:288 var
+R10551:10552 VST.veric.Clight_core <> ge:287 var
+def 10666:10672 <> cl_step
+R10679:10682 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10690:10693 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10697:10700 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10708:10711 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10715:10718 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10712:10714 compcert.common.Memory <> mem syndef
+R10701:10707 VST.veric.Clight_core <> CC_core def
+R10694:10696 compcert.common.Memory <> mem syndef
+R10683:10689 VST.veric.Clight_core <> CC_core def
+R10675:10678 compcert.cfrontend.Clight <> genv rec
+R10727:10730 VST.veric.Clight_core <> step ind
+prf 10740:10752 <> cl_step_equiv
+binder 10762:10763 <> ge:295
+R10769:10775 VST.veric.Clight_core <> CC_core def
+binder 10766:10766 <> q:296
+R10782:10784 compcert.common.Memory <> mem syndef
+binder 10779:10779 <> m:297
+binder 10787:10788 <> q':298
+binder 10790:10791 <> m':299
+R10819:10824 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10842:10845 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10846:10852 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10854:10855 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 10853:10853 <> t:300
+R10856:10866 compcert.cfrontend.Clight <> step ind
+R10935:10953 VST.veric.Clight_core <> CC_core_to_CC_state def
+R10958:10959 VST.veric.Clight_core <> m':299 var
+R10955:10956 VST.veric.Clight_core <> q':298 var
+R10932:10932 VST.veric.Clight_core <> t:300 var
+R10907:10925 VST.veric.Clight_core <> CC_core_to_CC_state def
+R10929:10929 VST.veric.Clight_core <> m:297 var
+R10927:10927 VST.veric.Clight_core <> q:296 var
+R10872:10893 compcert.cfrontend.Clight <> function_entry2 ind
+R10895:10896 VST.veric.Clight_core <> ge:295 var
+R10868:10869 VST.veric.Clight_core <> ge:295 var
+R10825:10828 VST.veric.Clight_core <> step ind
+R10840:10841 VST.veric.Clight_core <> m':299 var
+R10837:10838 VST.veric.Clight_core <> q':298 var
+R10835:10835 VST.veric.Clight_core <> m:297 var
+R10833:10833 VST.veric.Clight_core <> q:296 var
+R10830:10831 VST.veric.Clight_core <> ge:295 var
+R10812:10814 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10796:10809 VST.veric.Clight_core <> cl_at_external def
+R10811:10811 VST.veric.Clight_core <> q:296 var
+R10815:10818 Coq.Init.Datatypes <> None constr
+R11054:11056 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11057:11075 VST.veric.Clight_core <> CC_core_to_CC_state def
+R11054:11056 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11057:11075 VST.veric.Clight_core <> CC_core_to_CC_state def
+prf 11169:11195 <> cl_corestep_not_at_external
+binder 11207:11208 <> ge:301
+binder 11210:11210 <> m:302
+binder 11212:11212 <> q:303
+binder 11214:11215 <> m':304
+binder 11217:11218 <> q':305
+R11252:11255 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11272:11274 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11256:11269 VST.veric.Clight_core <> cl_at_external def
+R11271:11271 VST.veric.Clight_core <> q:303 var
+R11275:11278 Coq.Init.Datatypes <> None constr
+R11232:11238 VST.veric.Clight_core <> cl_step def
+R11250:11251 VST.veric.Clight_core <> m':304 var
+R11247:11248 VST.veric.Clight_core <> q':305 var
+R11245:11245 VST.veric.Clight_core <> m:302 var
+R11243:11243 VST.veric.Clight_core <> q:303 var
+R11240:11241 VST.veric.Clight_core <> ge:301 var
+R11344:11356 Coq.Bool.Bool <> andb_true_iff thm
+R11344:11356 Coq.Bool.Bool <> andb_true_iff thm
+R11344:11356 Coq.Bool.Bool <> andb_true_iff thm
+prf 11408:11429 <> cl_corestep_not_halted
+binder 11442:11443 <> ge:306
+binder 11445:11445 <> m:307
+binder 11447:11447 <> q:308
+binder 11449:11450 <> m':309
+binder 11452:11453 <> q':310
+R11459:11461 compcert.lib.Integers <> int syndef
+binder 11456:11456 <> i:311
+R11485:11488 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11489:11490 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11502:11505 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11491:11499 VST.veric.Clight_core <> cl_halted def
+R11501:11501 VST.veric.Clight_core <> q:308 var
+R11506:11509 Coq.Init.Datatypes <> None constr
+R11465:11471 VST.veric.Clight_core <> cl_step def
+R11483:11484 VST.veric.Clight_core <> m':309 var
+R11480:11481 VST.veric.Clight_core <> q':310 var
+R11478:11478 VST.veric.Clight_core <> m:307 var
+R11476:11476 VST.veric.Clight_core <> q:308 var
+R11473:11474 VST.veric.Clight_core <> ge:306 var
+prf 11582:11606 <> cl_after_at_external_excl
+binder 11619:11622 <> retv:312
+binder 11624:11624 <> q:313
+binder 11626:11627 <> q':314
+R11664:11667 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11685:11687 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11668:11681 VST.veric.Clight_core <> cl_at_external def
+R11683:11684 VST.veric.Clight_core <> q':314 var
+R11688:11691 Coq.Init.Datatypes <> None constr
+R11654:11656 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11630:11646 VST.veric.Clight_core <> cl_after_external def
+R11653:11653 VST.veric.Clight_core <> q:313 var
+R11648:11651 VST.veric.Clight_core <> retv:312 var
+R11657:11660 Coq.Init.Datatypes <> Some constr
+R11662:11663 VST.veric.Clight_core <> q':314 var
+R11735:11751 VST.veric.Clight_core <> cl_after_external def
+def 11836:11846 <> cl_core_sem
+R11853:11856 compcert.cfrontend.Clight <> genv rec
+binder 11849:11850 <> ge:315
+R11864:11876 VST.sepcomp.semantics <> CoreSemantics rec
+R11886:11888 compcert.common.Memory <> mem syndef
+R11878:11884 VST.veric.Clight_core <> CC_core def
+R11896:11914 VST.sepcomp.semantics <> Build_CoreSemantics constr
+R12231:12257 VST.veric.Clight_core <> cl_corestep_not_at_external thm
+R12259:12260 VST.veric.Clight_core <> ge:315 var
+R12199:12220 VST.veric.Clight_core <> cl_corestep_not_halted thm
+R12222:12223 VST.veric.Clight_core <> ge:315 var
+R12182:12188 VST.veric.Clight_core <> cl_step def
+R12190:12191 VST.veric.Clight_core <> ge:315 var
+binder 12148:12148 <> c:316
+R12167:12170 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R12156:12164 VST.veric.Clight_core <> cl_halted def
+R12166:12166 VST.veric.Clight_core <> c:316 var
+R12171:12174 Coq.Init.Datatypes <> None constr
+binder 12103:12105 <> ret:317
+binder 12107:12107 <> c:318
+R12114:12130 VST.veric.Clight_core <> cl_after_external def
+R12136:12136 VST.veric.Clight_core <> c:318 var
+R12132:12134 VST.veric.Clight_core <> ret:317 var
+binder 12069:12069 <> c:319
+R12076:12089 VST.veric.Clight_core <> cl_at_external def
+R12091:12091 VST.veric.Clight_core <> c:319 var
+binder 11962:11962 <> m:320
+binder 11964:11964 <> c:321
+binder 11966:11967 <> m':322
+binder 11969:11969 <> v:323
+binder 11971:11974 <> args:324
+R12004:12006 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11979:11993 VST.veric.Clight_core <> cl_initial_core def
+R12000:12003 VST.veric.Clight_core <> args:324 var
+R11998:11998 VST.veric.Clight_core <> v:323 var
+R11995:11996 VST.veric.Clight_core <> ge:315 var
+R12007:12010 Coq.Init.Datatypes <> Some constr
+R12012:12012 VST.veric.Clight_core <> c:321 var
+prf 12305:12328 <> alloc_variables_mem_step
+binder 12338:12341 <> cenv:325
+binder 12343:12346 <> vars:326
+binder 12348:12348 <> m:327
+binder 12350:12350 <> e:328
+binder 12352:12353 <> e2:329
+binder 12355:12356 <> m':330
+R12368:12382 compcert.cfrontend.Clight <> alloc_variables ind
+R12401:12402 VST.veric.Clight_core <> m':330 var
+R12398:12399 VST.veric.Clight_core <> e2:329 var
+R12393:12396 VST.veric.Clight_core <> vars:326 var
+R12391:12391 VST.veric.Clight_core <> m:327 var
+R12389:12389 VST.veric.Clight_core <> e:328 var
+R12384:12387 VST.veric.Clight_core <> cenv:325 var
+binder 12365:12365 <> M:331
+R12406:12413 VST.sepcomp.semantics <> mem_step ind
+R12417:12418 VST.veric.Clight_core <> m':330 var
+R12415:12415 VST.veric.Clight_core <> m:327 var
+R12459:12471 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R12459:12471 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R12483:12496 VST.sepcomp.semantics <> mem_step_trans constr
+R12483:12496 VST.sepcomp.semantics <> mem_step_trans constr
+R12510:12523 VST.sepcomp.semantics <> mem_step_alloc constr
+R12510:12523 VST.sepcomp.semantics <> mem_step_alloc constr
+prf 12564:12583 <> CC_core_to_State_mem
+binder 12597:12597 <> f:332
+binder 12599:12602 <> STEP:333
+binder 12604:12604 <> k:334
+binder 12606:12606 <> e:335
+binder 12608:12609 <> le:336
+binder 12611:12611 <> m:337
+binder 12613:12613 <> c:338
+binder 12615:12616 <> m':339
+R12678:12685 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12687:12689 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12686:12686 VST.veric.Clight_core <> m:337 var
+R12690:12691 VST.veric.Clight_core <> m':339 var
+R12651:12653 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12623:12634 compcert.cfrontend.Clight <> State constr
+R12650:12650 VST.veric.Clight_core <> m:337 var
+R12647:12648 VST.veric.Clight_core <> le:336 var
+R12645:12645 VST.veric.Clight_core <> e:335 var
+R12643:12643 VST.veric.Clight_core <> k:334 var
+R12638:12641 VST.veric.Clight_core <> STEP:333 var
+R12636:12636 VST.veric.Clight_core <> f:332 var
+R12654:12672 VST.veric.Clight_core <> CC_core_to_CC_state def
+R12676:12677 VST.veric.Clight_core <> m':339 var
+R12674:12674 VST.veric.Clight_core <> c:338 var
+prf 12766:12789 <> bind_parameters_mem_step
+binder 12799:12802 <> cenv:340
+binder 12804:12804 <> e:341
+binder 12806:12806 <> m:342
+binder 12808:12811 <> pars:343
+binder 12813:12817 <> vargs:344
+binder 12819:12820 <> m':345
+R12832:12846 compcert.cfrontend.Clight <> bind_parameters ind
+R12868:12869 VST.veric.Clight_core <> m':345 var
+R12862:12866 VST.veric.Clight_core <> vargs:344 var
+R12857:12860 VST.veric.Clight_core <> pars:343 var
+R12855:12855 VST.veric.Clight_core <> m:342 var
+R12853:12853 VST.veric.Clight_core <> e:341 var
+R12848:12851 VST.veric.Clight_core <> cenv:340 var
+binder 12829:12829 <> M:346
+R12873:12880 VST.sepcomp.semantics <> mem_step ind
+R12884:12885 VST.veric.Clight_core <> m':345 var
+R12882:12882 VST.veric.Clight_core <> m:342 var
+R12926:12938 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R12926:12938 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R12960:12973 VST.sepcomp.semantics <> mem_step_trans constr
+R12960:12973 VST.sepcomp.semantics <> mem_step_trans constr
+R13015:13028 VST.sepcomp.semantics_lemmas <> mem_step_store thm
+R13015:13028 VST.sepcomp.semantics_lemmas <> mem_step_store thm
+R13053:13066 VST.sepcomp.semantics <> mem_step_trans constr
+R13053:13066 VST.sepcomp.semantics <> mem_step_trans constr
+R13095:13113 VST.sepcomp.semantics <> mem_step_storebytes constr
+R13095:13113 VST.sepcomp.semantics <> mem_step_storebytes constr
+prf 13141:13156 <> ev_elim_mem_step
+binder 13167:13167 <> m:347
+binder 13169:13169 <> t:348
+binder 13171:13172 <> m':349
+R13189:13192 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13193:13200 VST.sepcomp.semantics <> mem_step ind
+R13204:13205 VST.veric.Clight_core <> m':349 var
+R13202:13202 VST.veric.Clight_core <> m:347 var
+R13175:13181 VST.sepcomp.event_semantics <> ev_elim def
+R13187:13188 VST.veric.Clight_core <> m':349 var
+R13185:13185 VST.veric.Clight_core <> t:348 var
+R13183:13183 VST.veric.Clight_core <> m:347 var
+R13296:13308 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R13296:13308 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R13335:13348 VST.sepcomp.semantics <> mem_step_trans constr
+R13335:13348 VST.sepcomp.semantics <> mem_step_trans constr
+R13373:13391 VST.sepcomp.semantics <> mem_step_storebytes constr
+R13373:13391 VST.sepcomp.semantics <> mem_step_storebytes constr
+R13429:13442 VST.sepcomp.semantics <> mem_step_trans constr
+R13429:13442 VST.sepcomp.semantics <> mem_step_trans constr
+R13467:13480 VST.sepcomp.semantics <> mem_step_alloc constr
+R13467:13480 VST.sepcomp.semantics <> mem_step_alloc constr
+R13518:13531 VST.sepcomp.semantics <> mem_step_trans constr
+R13518:13531 VST.sepcomp.semantics <> mem_step_trans constr
+R13556:13572 VST.sepcomp.semantics <> mem_step_freelist constr
+R13556:13572 VST.sepcomp.semantics <> mem_step_freelist constr
+prf 13598:13626 <> inline_external_call_mem_step
+binder 13639:13640 <> ef:350
+binder 13642:13643 <> ge:351
+binder 13645:13649 <> vargs:352
+binder 13651:13651 <> m:353
+binder 13653:13653 <> t:354
+binder 13655:13658 <> vres:355
+binder 13660:13661 <> m':356
+R13686:13692 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13730:13736 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13737:13744 VST.sepcomp.semantics <> mem_step ind
+R13748:13749 VST.veric.Clight_core <> m':356 var
+R13746:13746 VST.veric.Clight_core <> m:353 var
+R13693:13705 compcert.common.Events <> external_call def
+R13728:13729 VST.veric.Clight_core <> m':356 var
+R13723:13726 VST.veric.Clight_core <> vres:355 var
+R13721:13721 VST.veric.Clight_core <> t:354 var
+R13719:13719 VST.veric.Clight_core <> m:353 var
+R13713:13717 VST.veric.Clight_core <> vargs:352 var
+R13710:13711 VST.veric.Clight_core <> ge:351 var
+R13707:13708 VST.veric.Clight_core <> ef:350 var
+R13679:13681 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13667:13675 compcert.common.AST <> ef_inline def
+R13677:13678 VST.veric.Clight_core <> ef:350 var
+R13682:13685 Coq.Init.Datatypes <> true constr
+R13777:13807 VST.veric.Clight_core <> inline_external_call_mem_events prfax
+R13777:13807 VST.veric.Clight_core <> inline_external_call_mem_events prfax
+R13846:13861 VST.veric.Clight_core <> ev_elim_mem_step thm
+R13846:13861 VST.veric.Clight_core <> ev_elim_mem_step thm
+def 13901:13910 <> CLC_memsem
+R13917:13920 compcert.cfrontend.Clight <> genv rec
+binder 13913:13914 <> ge:357
+R13927:13932 VST.sepcomp.semantics <> MemSem rec
+R13959:13965 VST.veric.Clight_core <> CC_core def
+R14001:14011 VST.veric.Clight_core <> cl_core_sem def
+R13974:13985 VST.sepcomp.semantics <> Build_MemSem constr
+R14001:14011 VST.veric.Clight_core <> cl_core_sem def
+R13974:13985 VST.sepcomp.semantics <> Build_MemSem constr
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14091:14107 VST.sepcomp.semantics <> mem_step_freelist constr
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14056:14068 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14091:14107 VST.sepcomp.semantics <> mem_step_freelist constr
+R14091:14107 VST.sepcomp.semantics <> mem_step_freelist constr
+R14091:14107 VST.sepcomp.semantics <> mem_step_freelist constr
+R14091:14107 VST.sepcomp.semantics <> mem_step_freelist constr
+R14091:14107 VST.sepcomp.semantics <> mem_step_freelist constr
+R14091:14107 VST.sepcomp.semantics <> mem_step_freelist constr
+R14091:14107 VST.sepcomp.semantics <> mem_step_freelist constr
+R14143:14152 compcert.common.Memory Mem storev def
+R14167:14186 compcert.common.Memory Mem store_storebytes thm
+R14167:14186 compcert.common.Memory Mem store_storebytes thm
+R14203:14221 VST.sepcomp.semantics <> mem_step_storebytes constr
+R14203:14221 VST.sepcomp.semantics <> mem_step_storebytes constr
+R14239:14257 VST.sepcomp.semantics <> mem_step_storebytes constr
+R14239:14257 VST.sepcomp.semantics <> mem_step_storebytes constr
+R14278:14290 Coq.Bool.Bool <> andb_true_iff thm
+R14278:14290 Coq.Bool.Bool <> andb_true_iff thm
+R14278:14290 Coq.Bool.Bool <> andb_true_iff thm
+R14318:14346 VST.veric.Clight_core <> inline_external_call_mem_step thm
+R14318:14346 VST.veric.Clight_core <> inline_external_call_mem_step thm
+R14403:14415 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14403:14415 VST.sepcomp.semantics_lemmas <> mem_step_refl thm
+R14426:14439 VST.sepcomp.semantics <> mem_step_trans constr
+R14426:14439 VST.sepcomp.semantics <> mem_step_trans constr
+R14449:14462 VST.sepcomp.semantics <> mem_step_alloc constr
+R14449:14462 VST.sepcomp.semantics <> mem_step_alloc constr
+R14495:14507 Coq.Bool.Bool <> andb_true_iff thm
+R14495:14507 Coq.Bool.Bool <> andb_true_iff thm
+R14495:14507 Coq.Bool.Bool <> andb_true_iff thm
+R14535:14563 VST.veric.Clight_core <> inline_external_call_mem_step thm
+R14535:14563 VST.veric.Clight_core <> inline_external_call_mem_step thm
+def 14590:14600 <> at_external
+binder 14602:14602 <> c:358
+R14607:14620 VST.veric.Clight_core <> cl_at_external def
+R14623:14625 Coq.Init.Datatypes <> fst def
+R14628:14646 VST.veric.Clight_core <> CC_state_to_CC_core def
+R14648:14648 VST.veric.Clight_core <> c:358 var

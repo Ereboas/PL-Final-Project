@@ -1,0 +1,477 @@
+DIGEST 035598a412cca4ab3e3530366e60cb7f
+FVST.floyd.typecheck_lemmas
+R16:29 VST.floyd.base <> <> lib
+prf 64:84 <> denote_tc_assert_andp
+R101:109 VST.veric.mpred <> compspecs class
+binder 97:98 <> CS:1
+R119:127 VST.veric.expr <> tc_assert ind
+binder 113:113 <> a:2
+binder 115:115 <> b:3
+R163:165 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R133:148 VST.veric.SeparationLogic <> denote_tc_assert def
+R151:157 VST.veric.expr <> tc_andp def
+R161:161 VST.floyd.typecheck_lemmas <> b:3 var
+R159:159 VST.floyd.typecheck_lemmas <> a:2 var
+R166:169 VST.msl.seplog <> andp meth
+R193:208 VST.veric.SeparationLogic <> denote_tc_assert def
+R210:210 VST.floyd.typecheck_lemmas <> b:3 var
+R172:187 VST.veric.SeparationLogic <> denote_tc_assert def
+R189:189 VST.floyd.typecheck_lemmas <> a:2 var
+R270:296 VST.veric.expr2 <> denote_tc_assert_andp thm
+R270:296 VST.veric.expr2 <> denote_tc_assert_andp thm
+prf 311:330 <> denote_tc_assert_orp
+R347:355 VST.veric.mpred <> compspecs class
+binder 343:344 <> CS:4
+R365:373 VST.veric.expr <> tc_assert ind
+binder 359:359 <> a:5
+binder 361:361 <> b:6
+R408:410 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R379:394 VST.veric.SeparationLogic <> denote_tc_assert def
+R397:402 VST.veric.expr <> tc_orp def
+R406:406 VST.floyd.typecheck_lemmas <> b:6 var
+R404:404 VST.floyd.typecheck_lemmas <> a:5 var
+R411:413 VST.msl.seplog <> orp meth
+R437:452 VST.veric.SeparationLogic <> denote_tc_assert def
+R454:454 VST.floyd.typecheck_lemmas <> b:6 var
+R416:431 VST.veric.SeparationLogic <> denote_tc_assert def
+R433:433 VST.floyd.typecheck_lemmas <> a:5 var
+R514:547 VST.veric.binop_lemmas2 <> denote_tc_assert_orp thm
+R514:547 VST.veric.binop_lemmas2 <> denote_tc_assert_orp thm
+prf 562:582 <> denote_tc_assert_bool
+R599:607 VST.veric.mpred <> compspecs class
+binder 595:596 <> CS:7
+binder 610:610 <> b:8
+binder 612:612 <> c:9
+R645:662 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R615:630 VST.veric.SeparationLogic <> denote_tc_assert def
+R633:639 VST.veric.expr <> tc_bool def
+R643:643 VST.floyd.typecheck_lemmas <> c:9 var
+R641:641 VST.floyd.typecheck_lemmas <> b:8 var
+R663:666 VST.msl.seplog <> prop meth
+R670:670 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R669:669 VST.floyd.typecheck_lemmas <> b:8 var
+R671:674 Coq.Init.Datatypes <> true constr
+R733:739 VST.veric.expr <> tc_bool def
+R764:771 VST.msl.seplog <> pred_ext meth
+R791:802 VST.msl.seplog <> derives_refl meth
+R764:771 VST.msl.seplog <> pred_ext meth
+R791:802 VST.msl.seplog <> derives_refl meth
+R813:820 VST.msl.seplog <> pred_ext meth
+R813:820 VST.msl.seplog <> pred_ext meth
+R831:837 VST.msl.log_normalize <> FF_left thm
+R831:837 VST.msl.log_normalize <> FF_left thm
+prf 872:898 <> neutral_isCastResultType_64
+R920:925 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R938:946 VST.veric.mpred <> compspecs class
+binder 934:935 <> cs:10
+binder 950:950 <> P:11
+binder 952:952 <> t:12
+binder 954:955 <> t':13
+binder 957:957 <> v:14
+binder 959:961 <> rho:15
+R994:1000 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1002:1006 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1001:1001 VST.floyd.typecheck_lemmas <> P:11 var
+R1007:1022 VST.veric.SeparationLogic <> denote_tc_assert def
+R1050:1052 VST.floyd.typecheck_lemmas <> rho:15 var
+R1025:1040 VST.veric.expr <> isCastResultType def
+R1047:1047 VST.floyd.typecheck_lemmas <> v:14 var
+R1045:1045 VST.floyd.typecheck_lemmas <> t:12 var
+R1042:1043 VST.floyd.typecheck_lemmas <> t':13 var
+R987:989 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R967:981 VST.veric.expr <> is_neutral_cast def
+R986:986 VST.floyd.typecheck_lemmas <> t:12 var
+R983:984 VST.floyd.typecheck_lemmas <> t':13 var
+R990:993 Coq.Init.Datatypes <> true constr
+R913:915 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R902:912 compcert.x86_32.Archi <> ptr64 def
+R916:919 Coq.Init.Datatypes <> true constr
+R1087:1102 VST.veric.expr <> isCastResultType def
+R1105:1117 VST.veric.Clight_Cop2 <> classify_cast def
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1343:1350 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1282:1289 VST.msl.log_normalize <> TT_right thm
+R1370:1377 VST.veric.Cop2 <> eqb_type def
+R1392:1399 VST.msl.log_normalize <> TT_right thm
+R1370:1377 VST.veric.Cop2 <> eqb_type def
+R1392:1399 VST.msl.log_normalize <> TT_right thm
+R1392:1399 VST.msl.log_normalize <> TT_right thm
+R1411:1425 VST.veric.expr <> is_neutral_cast def
+R1443:1450 VST.veric.Cop2 <> eqb_type def
+R1468:1482 VST.veric.Cop2 <> int_or_ptr_type def
+R1453:1460 compcert.cfrontend.Ctypes <> Tpointer constr
+R1443:1450 VST.veric.Cop2 <> eqb_type def
+R1468:1482 VST.veric.Cop2 <> int_or_ptr_type def
+R1453:1460 compcert.cfrontend.Ctypes <> Tpointer constr
+R1504:1516 VST.veric.Cop2 <> eqb_type_true thm
+R1504:1516 VST.veric.Cop2 <> eqb_type_true thm
+R1504:1516 VST.veric.Cop2 <> eqb_type_true thm
+R1537:1544 VST.veric.Cop2 <> eqb_type def
+R1562:1576 VST.veric.Cop2 <> int_or_ptr_type def
+R1547:1554 compcert.cfrontend.Ctypes <> Tpointer constr
+R1537:1544 VST.veric.Cop2 <> eqb_type def
+R1562:1576 VST.veric.Cop2 <> int_or_ptr_type def
+R1547:1554 compcert.cfrontend.Ctypes <> Tpointer constr
+R1596:1603 VST.msl.log_normalize <> TT_right thm
+R1596:1603 VST.msl.log_normalize <> TT_right thm
+R1619:1631 VST.veric.Cop2 <> eqb_type_true thm
+R1619:1631 VST.veric.Cop2 <> eqb_type_true thm
+R1619:1631 VST.veric.Cop2 <> eqb_type_true thm
+R1687:1694 VST.veric.Cop2 <> eqb_type def
+R1712:1726 VST.veric.Cop2 <> int_or_ptr_type def
+R1697:1704 compcert.cfrontend.Ctypes <> Tpointer constr
+R1687:1694 VST.veric.Cop2 <> eqb_type def
+R1712:1726 VST.veric.Cop2 <> int_or_ptr_type def
+R1697:1704 compcert.cfrontend.Ctypes <> Tpointer constr
+R1746:1758 VST.veric.Cop2 <> eqb_type_true thm
+R1746:1758 VST.veric.Cop2 <> eqb_type_true thm
+R1746:1758 VST.veric.Cop2 <> eqb_type_true thm
+R1782:1806 VST.veric.expr_lemmas4 <> eqb_type_sym thm
+R1782:1806 VST.veric.expr_lemmas4 <> eqb_type_sym thm
+R1782:1806 VST.veric.expr_lemmas4 <> eqb_type_sym thm
+R1846:1857 Coq.Bool.Bool <> orb_true_iff thm
+R1846:1857 Coq.Bool.Bool <> orb_true_iff thm
+R1846:1857 Coq.Bool.Bool <> orb_true_iff thm
+R1872:1886 VST.veric.expr <> is_pointer_type def
+R1933:1940 VST.msl.log_normalize <> TT_right thm
+R1933:1940 VST.msl.log_normalize <> TT_right thm
+R1933:1940 VST.msl.log_normalize <> TT_right thm
+prf 1957:1983 <> neutral_isCastResultType_32
+R2006:2011 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2024:2032 VST.veric.mpred <> compspecs class
+binder 2020:2021 <> cs:16
+binder 2036:2036 <> P:17
+binder 2038:2038 <> t:18
+binder 2040:2041 <> t':19
+binder 2043:2043 <> v:20
+binder 2045:2047 <> rho:21
+R2080:2086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2088:2092 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2087:2087 VST.floyd.typecheck_lemmas <> P:17 var
+R2093:2108 VST.veric.SeparationLogic <> denote_tc_assert def
+R2136:2138 VST.floyd.typecheck_lemmas <> rho:21 var
+R2111:2126 VST.veric.expr <> isCastResultType def
+R2133:2133 VST.floyd.typecheck_lemmas <> v:20 var
+R2131:2131 VST.floyd.typecheck_lemmas <> t:18 var
+R2128:2129 VST.floyd.typecheck_lemmas <> t':19 var
+R2073:2075 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2053:2067 VST.veric.expr <> is_neutral_cast def
+R2072:2072 VST.floyd.typecheck_lemmas <> t:18 var
+R2069:2070 VST.floyd.typecheck_lemmas <> t':19 var
+R2076:2079 Coq.Init.Datatypes <> true constr
+R1998:2000 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1987:1997 compcert.x86_32.Archi <> ptr64 def
+R2001:2005 Coq.Init.Datatypes <> false constr
+R2173:2188 VST.veric.expr <> isCastResultType def
+R2191:2203 VST.veric.Clight_Cop2 <> classify_cast def
+R2227:2242 VST.veric.expr <> isCastResultType def
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2456:2463 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2395:2402 VST.msl.log_normalize <> TT_right thm
+R2498:2505 VST.msl.log_normalize <> TT_right thm
+R2498:2505 VST.msl.log_normalize <> TT_right thm
+R2498:2505 VST.msl.log_normalize <> TT_right thm
+R2539:2546 VST.msl.log_normalize <> TT_right thm
+R2539:2546 VST.msl.log_normalize <> TT_right thm
+R2539:2546 VST.msl.log_normalize <> TT_right thm
+R2558:2572 VST.veric.expr <> is_neutral_cast def
+R2588:2599 Coq.Bool.Bool <> orb_true_iff thm
+R2588:2599 Coq.Bool.Bool <> orb_true_iff thm
+R2588:2599 Coq.Bool.Bool <> orb_true_iff thm
+R2628:2640 VST.veric.Cop2 <> eqb_type_true thm
+R2628:2640 VST.veric.Cop2 <> eqb_type_true thm
+R2628:2640 VST.veric.Cop2 <> eqb_type_true thm
+R2658:2670 VST.veric.Cop2 <> eqb_type_refl thm
+R2658:2670 VST.veric.Cop2 <> eqb_type_refl thm
+R2658:2670 VST.veric.Cop2 <> eqb_type_refl thm
+R2680:2687 VST.msl.log_normalize <> TT_right thm
+R2680:2687 VST.msl.log_normalize <> TT_right thm
+R2698:2710 Coq.Bool.Bool <> andb_true_iff thm
+R2698:2710 Coq.Bool.Bool <> andb_true_iff thm
+R2698:2710 Coq.Bool.Bool <> andb_true_iff thm
+R2738:2750 Coq.Bool.Bool <> negb_true_iff thm
+R2738:2750 Coq.Bool.Bool <> negb_true_iff thm
+R2738:2750 Coq.Bool.Bool <> negb_true_iff thm
+R2786:2793 VST.veric.Cop2 <> eqb_type def
+R2812:2819 compcert.cfrontend.Ctypes <> Tpointer constr
+R2796:2803 compcert.cfrontend.Ctypes <> Tpointer constr
+R2840:2847 VST.msl.log_normalize <> TT_right thm
+R2786:2793 VST.veric.Cop2 <> eqb_type def
+R2812:2819 compcert.cfrontend.Ctypes <> Tpointer constr
+R2796:2803 compcert.cfrontend.Ctypes <> Tpointer constr
+R2840:2847 VST.msl.log_normalize <> TT_right thm
+R2840:2847 VST.msl.log_normalize <> TT_right thm
+R2857:2871 VST.veric.expr <> is_pointer_type def
+R2895:2902 VST.msl.log_normalize <> TT_right thm
+R2895:2902 VST.msl.log_normalize <> TT_right thm
+prf 2917:2940 <> neutral_isCastResultType
+R2957:2965 VST.veric.mpred <> compspecs class
+binder 2953:2954 <> cs:22
+binder 2969:2969 <> P:23
+binder 2971:2971 <> t:24
+binder 2973:2974 <> t':25
+binder 2976:2976 <> v:26
+binder 2978:2980 <> rho:27
+R3013:3019 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3021:3025 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R3020:3020 VST.floyd.typecheck_lemmas <> P:23 var
+R3026:3041 VST.veric.SeparationLogic <> denote_tc_assert def
+R3069:3071 VST.floyd.typecheck_lemmas <> rho:27 var
+R3044:3059 VST.veric.expr <> isCastResultType def
+R3066:3066 VST.floyd.typecheck_lemmas <> v:26 var
+R3064:3064 VST.floyd.typecheck_lemmas <> t:24 var
+R3061:3062 VST.floyd.typecheck_lemmas <> t':25 var
+R3006:3008 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2986:3000 VST.veric.expr <> is_neutral_cast def
+R3005:3005 VST.floyd.typecheck_lemmas <> t:24 var
+R3002:3003 VST.floyd.typecheck_lemmas <> t':25 var
+R3009:3012 Coq.Init.Datatypes <> true constr
+R3090:3100 compcert.x86_32.Archi <> ptr64 def
+R3090:3100 compcert.x86_32.Archi <> ptr64 def
+R3118:3144 VST.floyd.typecheck_lemmas <> neutral_isCastResultType_64 thm
+R3118:3144 VST.floyd.typecheck_lemmas <> neutral_isCastResultType_64 thm
+R3159:3185 VST.floyd.typecheck_lemmas <> neutral_isCastResultType_32 thm
+R3159:3185 VST.floyd.typecheck_lemmas <> neutral_isCastResultType_32 thm
+prf 3204:3214 <> tc_andp_TT2
+binder 3225:3225 <> e:28
+R3243:3245 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3228:3234 VST.veric.expr <> tc_andp def
+R3238:3242 VST.veric.expr <> tc_TT constr
+R3236:3236 VST.floyd.typecheck_lemmas <> e:28 var
+R3246:3246 VST.floyd.typecheck_lemmas <> e:28 var
+R3271:3277 VST.veric.expr <> tc_andp def
+prf 3318:3328 <> tc_andp_TT1
+binder 3339:3339 <> e:29
+R3357:3359 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3342:3348 VST.veric.expr <> tc_andp def
+R3356:3356 VST.floyd.typecheck_lemmas <> e:29 var
+R3350:3354 VST.veric.expr <> tc_TT constr
+R3360:3360 VST.floyd.typecheck_lemmas <> e:29 var
+R3385:3391 VST.veric.expr <> tc_andp def
+R3425:3435 VST.floyd.typecheck_lemmas <> tc_andp_TT1 thm
+R3437:3447 VST.floyd.typecheck_lemmas <> tc_andp_TT2 thm
+def 3469:3487 <> typecheck_LR_strong
+R3494:3502 VST.veric.mpred <> compspecs class
+binder 3490:3491 <> cs:30
+binder 3505:3509 <> Delta:31
+binder 3511:3511 <> e:32
+binder 3513:3514 <> lr:33
+R3527:3528 VST.floyd.typecheck_lemmas <> lr:33 var
+R3539:3542 VST.floyd.base <> LLLL constr
+R3547:3562 VST.veric.expr <> typecheck_lvalue def
+R3570:3570 VST.floyd.typecheck_lemmas <> e:32 var
+R3564:3568 VST.floyd.typecheck_lemmas <> Delta:31 var
+R3576:3579 VST.floyd.base <> RRRR constr
+R3584:3597 VST.veric.expr <> typecheck_expr def
+R3605:3605 VST.floyd.typecheck_lemmas <> e:32 var
+R3599:3603 VST.floyd.typecheck_lemmas <> Delta:31 var
+def 3626:3637 <> typecheck_LR
+R3644:3652 VST.veric.mpred <> compspecs class
+binder 3640:3641 <> cs:35
+binder 3655:3659 <> Delta:36
+binder 3661:3661 <> e:37
+binder 3663:3664 <> lr:38
+R3677:3677 VST.floyd.typecheck_lemmas <> e:37 var
+R3688:3693 compcert.cfrontend.Clight <> Ederef constr
+R3714:3715 VST.floyd.typecheck_lemmas <> lr:38 var
+R3729:3732 VST.floyd.base <> LLLL constr
+R3737:3743 VST.veric.expr <> tc_andp def
+R3806:3812 VST.veric.expr <> tc_bool def
+R3844:3857 VST.veric.expr <> op_result_type constr
+R3859:3859 VST.floyd.typecheck_lemmas <> e:37 var
+R3815:3829 VST.veric.expr <> is_pointer_type def
+R3832:3837 compcert.cfrontend.Clight <> typeof def
+R3763:3776 VST.veric.expr <> typecheck_expr def
+R3778:3782 VST.floyd.typecheck_lemmas <> Delta:36 var
+R3870:3873 VST.floyd.base <> RRRR constr
+R3884:3894 compcert.cfrontend.Ctypes <> access_mode def
+R3920:3931 compcert.cfrontend.Ctypes <> By_reference constr
+R3954:3960 VST.veric.expr <> tc_andp def
+R4031:4037 VST.veric.expr <> tc_bool def
+R4069:4082 VST.veric.expr <> op_result_type constr
+R4084:4084 VST.floyd.typecheck_lemmas <> e:37 var
+R4040:4054 VST.veric.expr <> is_pointer_type def
+R4057:4062 compcert.cfrontend.Clight <> typeof def
+R3984:3997 VST.veric.expr <> typecheck_expr def
+R3999:4003 VST.floyd.typecheck_lemmas <> Delta:36 var
+R4110:4114 VST.veric.expr <> tc_FF constr
+R4117:4129 VST.veric.expr <> deref_byvalue constr
+R4170:4188 VST.floyd.typecheck_lemmas <> typecheck_LR_strong def
+R4198:4199 VST.floyd.typecheck_lemmas <> lr:38 var
+R4196:4196 VST.floyd.typecheck_lemmas <> e:37 var
+R4190:4194 VST.floyd.typecheck_lemmas <> Delta:36 var
+def 4220:4231 <> tc_LR_strong
+R4238:4246 VST.veric.mpred <> compspecs class
+binder 4234:4235 <> cs:41
+binder 4249:4253 <> Delta:42
+binder 4255:4255 <> e:43
+binder 4257:4258 <> lr:44
+R4263:4278 VST.veric.SeparationLogic <> denote_tc_assert def
+R4281:4299 VST.floyd.typecheck_lemmas <> typecheck_LR_strong def
+R4309:4310 VST.floyd.typecheck_lemmas <> lr:44 var
+R4307:4307 VST.floyd.typecheck_lemmas <> e:43 var
+R4301:4305 VST.floyd.typecheck_lemmas <> Delta:42 var
+def 4326:4330 <> tc_LR
+R4337:4345 VST.veric.mpred <> compspecs class
+binder 4333:4334 <> cs:45
+binder 4348:4352 <> Delta:46
+binder 4354:4354 <> e:47
+binder 4356:4357 <> lr:48
+R4362:4377 VST.veric.SeparationLogic <> denote_tc_assert def
+R4380:4391 VST.floyd.typecheck_lemmas <> typecheck_LR def
+R4401:4402 VST.floyd.typecheck_lemmas <> lr:48 var
+R4399:4399 VST.floyd.typecheck_lemmas <> e:47 var
+R4393:4397 VST.floyd.typecheck_lemmas <> Delta:46 var
+def 4418:4424 <> eval_LR
+R4431:4439 VST.veric.mpred <> compspecs class
+binder 4427:4428 <> cs:49
+binder 4442:4442 <> e:50
+binder 4444:4445 <> lr:51
+R4458:4459 VST.floyd.typecheck_lemmas <> lr:51 var
+R4470:4473 VST.floyd.base <> LLLL constr
+R4478:4488 VST.veric.expr <> eval_lvalue def
+R4490:4490 VST.floyd.typecheck_lemmas <> e:50 var
+R4496:4499 VST.floyd.base <> RRRR constr
+R4504:4512 VST.veric.expr <> eval_expr def
+R4514:4514 VST.floyd.typecheck_lemmas <> e:50 var
+prf 4530:4547 <> tc_LR_tc_LR_strong
+R4562:4570 VST.veric.mpred <> compspecs class
+binder 4558:4559 <> cs:53
+binder 4573:4577 <> Delta:54
+binder 4579:4579 <> e:55
+binder 4581:4582 <> lr:56
+binder 4584:4586 <> rho:57
+R4642:4646 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R4611:4614 VST.msl.seplog <> ::logic:x_'&&'_x not
+R4591:4595 VST.floyd.typecheck_lemmas <> tc_LR def
+R4608:4610 VST.floyd.typecheck_lemmas <> rho:57 var
+R4605:4606 VST.floyd.typecheck_lemmas <> lr:56 var
+R4603:4603 VST.floyd.typecheck_lemmas <> e:55 var
+R4597:4601 VST.floyd.typecheck_lemmas <> Delta:54 var
+R4615:4617 VST.msl.seplog <> ::logic:'!!'_x not
+R4618:4622 VST.veric.val_lemmas <> isptr def
+R4625:4631 VST.floyd.typecheck_lemmas <> eval_LR def
+R4638:4640 VST.floyd.typecheck_lemmas <> rho:57 var
+R4635:4636 VST.floyd.typecheck_lemmas <> lr:56 var
+R4633:4633 VST.floyd.typecheck_lemmas <> e:55 var
+R4647:4658 VST.floyd.typecheck_lemmas <> tc_LR_strong def
+R4671:4673 VST.floyd.typecheck_lemmas <> rho:57 var
+R4668:4669 VST.floyd.typecheck_lemmas <> lr:56 var
+R4666:4666 VST.floyd.typecheck_lemmas <> e:55 var
+R4660:4664 VST.floyd.typecheck_lemmas <> Delta:54 var
+R4702:4706 VST.floyd.typecheck_lemmas <> tc_LR def
+R4709:4720 VST.floyd.typecheck_lemmas <> tc_LR_strong def
+R4723:4734 VST.floyd.typecheck_lemmas <> typecheck_LR def
+R4737:4755 VST.floyd.typecheck_lemmas <> typecheck_LR_strong def
+R4789:4798 VST.msl.seplog <> andp_left1 meth
+R4789:4798 VST.msl.seplog <> andp_left1 meth
+R4789:4798 VST.msl.seplog <> andp_left1 meth
+R4789:4798 VST.msl.seplog <> andp_left1 meth
+R4789:4798 VST.msl.seplog <> andp_left1 meth
+R4789:4798 VST.msl.seplog <> andp_left1 meth
+R4789:4798 VST.msl.seplog <> andp_left1 meth
+R4789:4798 VST.msl.seplog <> andp_left1 meth
+R4789:4798 VST.msl.seplog <> andp_left1 meth
+R4789:4798 VST.msl.seplog <> andp_left1 meth
+R4789:4798 VST.msl.seplog <> andp_left1 meth
+R4789:4798 VST.msl.seplog <> andp_left1 meth
+R4789:4798 VST.msl.seplog <> andp_left1 meth
+R4789:4798 VST.msl.seplog <> andp_left1 meth
+R4789:4798 VST.msl.seplog <> andp_left1 meth
+R4817:4825 VST.veric.SeparationLogic <> tc_lvalue def
+R4828:4834 VST.veric.SeparationLogic <> tc_expr def
+R4872:4892 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+R4872:4892 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+R4872:4892 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+R4872:4892 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+R4872:4892 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+R4872:4892 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+R4917:4931 VST.veric.SeparationLogic <> denote_tc_isptr def
+R4975:4985 compcert.cfrontend.Ctypes <> access_mode def
+R5008:5017 VST.msl.seplog <> andp_left1 meth
+R4975:4985 compcert.cfrontend.Ctypes <> access_mode def
+R5008:5017 VST.msl.seplog <> andp_left1 meth
+R5008:5017 VST.msl.seplog <> andp_left1 meth
+R5008:5017 VST.msl.seplog <> andp_left1 meth
+R5008:5017 VST.msl.seplog <> andp_left1 meth
+R5040:5060 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+R5040:5060 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+R5040:5060 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+R5040:5060 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+R5040:5060 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+R5040:5060 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+R5085:5099 VST.veric.SeparationLogic <> denote_tc_isptr def

@@ -1,0 +1,362 @@
+DIGEST a0ad9fa6584d8ed76b55e242fb3ac377
+FVST.sepcomp.extspec
+R15:31 Coq.Lists.ListSet <> <> lib
+R49:67 compcert.common.AST <> <> lib
+R85:106 compcert.common.Values <> <> lib
+R124:145 compcert.common.Memory <> <> lib
+R163:188 compcert.common.Globalenvs <> <> lib
+R206:222 compcert.lib.Maps <> <> lib
+def 290:304 <> PTree_injective
+binder 307:307 <> A:1
+R314:320 compcert.lib.Maps PTree t def
+R322:322 VST.sepcomp.extspec <> A:1 var
+binder 311:311 <> t:2
+binder 344:346 <> id1:3
+binder 348:350 <> id2:4
+binder 352:352 <> b:5
+R371:374 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R391:394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R398:400 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R395:397 VST.sepcomp.extspec <> id1:3 var
+R401:403 VST.sepcomp.extspec <> id2:4 var
+R382:384 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R376:378 compcert.lib.Maps <> :::x_'!'_x not
+R379:381 VST.sepcomp.extspec <> id2:4 var
+R375:375 VST.sepcomp.extspec <> t:2 var
+R385:388 Coq.Init.Datatypes <> Some constr
+R390:390 VST.sepcomp.extspec <> b:5 var
+R362:364 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R356:358 compcert.lib.Maps <> :::x_'!'_x not
+R359:361 VST.sepcomp.extspec <> id1:3 var
+R355:355 VST.sepcomp.extspec <> t:2 var
+R365:368 Coq.Init.Datatypes <> Some constr
+R370:370 VST.sepcomp.extspec <> b:5 var
+def 418:432 <> injective_PTree
+binder 434:434 <> A:6
+R439:441 Coq.Init.Specif <> sig ind
+R445:459 VST.sepcomp.extspec <> PTree_injective def
+R461:461 VST.sepcomp.extspec <> A:6 var
+rec 476:497 <> external_specification
+proj 521:533 <> ext_spec_type
+proj 551:562 <> ext_spec_pre
+proj 669:681 <> ext_spec_post
+proj 790:802 <> ext_spec_exit
+binder 500:500 <> M:7
+binder 502:502 <> E:8
+binder 504:504 <> Z:9
+R538:541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R537:537 VST.sepcomp.extspec <> E:8 var
+R575:575 VST.sepcomp.extspec <> E:8 var
+binder 572:572 <> e:12
+R597:600 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R622:625 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R634:637 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R646:649 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R651:654 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R656:659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R655:655 VST.sepcomp.extspec <> M:7 var
+R650:650 VST.sepcomp.extspec <> Z:9 var
+R638:641 Coq.Init.Datatypes <> list ind
+R643:645 compcert.common.Values <> val ind
+R626:629 Coq.Init.Datatypes <> list ind
+R631:633 compcert.common.AST <> typ ind
+R601:615 VST.sepcomp.extspec <> injective_PTree def
+R617:621 compcert.common.Values <> block def
+R582:594 VST.sepcomp.extspec <> ext_spec_type:11 meth
+R596:596 VST.sepcomp.extspec <> e:12 var
+R694:694 VST.sepcomp.extspec <> E:8 var
+binder 691:691 <> e:14
+R716:719 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R741:744 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R752:755 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R766:769 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R771:774 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R776:780 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R775:775 VST.sepcomp.extspec <> M:7 var
+R770:770 VST.sepcomp.extspec <> Z:9 var
+R756:761 Coq.Init.Datatypes <> option ind
+R763:765 compcert.common.Values <> val ind
+R745:751 compcert.common.AST <> rettype ind
+R720:734 VST.sepcomp.extspec <> injective_PTree def
+R736:740 compcert.common.Values <> block def
+R701:713 VST.sepcomp.extspec <> ext_spec_type:11 meth
+R715:715 VST.sepcomp.extspec <> e:14 var
+R815:818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R820:823 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R825:829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R824:824 VST.sepcomp.extspec <> M:7 var
+R819:819 VST.sepcomp.extspec <> Z:9 var
+R805:810 Coq.Init.Datatypes <> option ind
+R812:814 compcert.common.Values <> val ind
+R849:861 VST.sepcomp.extspec <> ext_spec_type proj
+R849:861 VST.sepcomp.extspec <> ext_spec_type proj
+R886:897 VST.sepcomp.extspec <> ext_spec_pre proj
+R886:897 VST.sepcomp.extspec <> ext_spec_pre proj
+R934:946 VST.sepcomp.extspec <> ext_spec_post proj
+R934:946 VST.sepcomp.extspec <> ext_spec_post proj
+R983:995 VST.sepcomp.extspec <> ext_spec_exit proj
+R983:995 VST.sepcomp.extspec <> ext_spec_exit proj
+def 1026:1033 <> ext_spec
+R1038:1059 VST.sepcomp.extspec <> external_specification rec
+R1065:1081 compcert.common.AST <> external_function ind
+R1061:1063 compcert.common.Memory <> mem syndef
+prf 1091:1104 <> extfunct_eqdec
+R1117:1133 compcert.common.AST <> external_function ind
+binder 1107:1109 <> ef1:17
+binder 1111:1113 <> ef2:18
+R1138:1138 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1146:1150 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1159:1159 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1142:1142 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1139:1141 VST.sepcomp.extspec <> ef1:17 var
+R1143:1145 VST.sepcomp.extspec <> ef2:18 var
+R1151:1151 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1155:1155 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1152:1154 VST.sepcomp.extspec <> ef1:17 var
+R1156:1158 VST.sepcomp.extspec <> ef2:18 var
+R1203:1221 compcert.lib.Integers Int eq_dec thm
+def 1270:1280 <> ef_ext_spec
+binder 1283:1283 <> M:19
+binder 1285:1285 <> Z:20
+R1300:1321 VST.sepcomp.extspec <> external_specification rec
+R1347:1347 VST.sepcomp.extspec <> Z:20 var
+R1325:1345 compcert.common.AST <> external_function ind
+R1323:1323 VST.sepcomp.extspec <> M:19 var
+def 1362:1368 <> spec_of
+binder 1373:1373 <> M:21
+binder 1375:1375 <> Z:22
+R1391:1411 compcert.common.AST <> external_function ind
+binder 1386:1387 <> ef:23
+R1422:1432 VST.sepcomp.extspec <> ef_ext_spec def
+R1436:1436 VST.sepcomp.extspec <> Z:22 var
+R1434:1434 VST.sepcomp.extspec <> M:21 var
+binder 1415:1418 <> spec:24
+R1444:1444 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1465:1466 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1488:1488 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1445:1456 VST.sepcomp.extspec <> ext_spec_pre proj
+R1463:1464 VST.sepcomp.extspec <> ef:23 var
+R1458:1461 VST.sepcomp.extspec <> spec:24 var
+R1467:1479 VST.sepcomp.extspec <> ext_spec_post proj
+R1486:1487 VST.sepcomp.extspec <> ef:23 var
+R1481:1484 VST.sepcomp.extspec <> spec:24 var
+def 1503:1513 <> oval_inject
+binder 1515:1515 <> j:25
+R1525:1530 Coq.Init.Datatypes <> option ind
+R1532:1534 compcert.common.Values <> val ind
+binder 1518:1518 <> v:26
+binder 1520:1521 <> tv:27
+R1551:1552 VST.sepcomp.extspec <> tv:27 var
+R1548:1548 VST.sepcomp.extspec <> v:26 var
+R1565:1568 Coq.Init.Datatypes <> None constr
+R1571:1574 Coq.Init.Datatypes <> None constr
+R1579:1582 Coq.Init.Logic <> True ind
+R1590:1593 Coq.Init.Datatypes <> Some constr
+R1599:1602 Coq.Init.Datatypes <> Some constr
+R1611:1620 compcert.common.Values Val inject ind
+R1622:1622 VST.sepcomp.extspec <> j:25 var
+R1645:1649 Coq.Init.Logic <> False ind
+mod 1666:1682 <> ExtSpecProperties
+def 1697:1699 ExtSpecProperties det
+binder 1702:1702 <> M:30
+binder 1704:1704 <> E:31
+binder 1706:1706 <> Z:32
+R1724:1745 VST.sepcomp.extspec <> external_specification rec
+R1751:1751 VST.sepcomp.extspec <> Z:32 var
+R1749:1749 VST.sepcomp.extspec <> E:31 var
+R1747:1747 VST.sepcomp.extspec <> M:30 var
+binder 1717:1720 <> spec:33
+binder 1766:1767 <> ef:34
+R1777:1789 VST.sepcomp.extspec <> ext_spec_type proj
+R1796:1797 VST.sepcomp.extspec <> ef:34 var
+R1791:1794 VST.sepcomp.extspec <> spec:33 var
+binder 1770:1770 <> x:35
+binder 1772:1773 <> x':36
+binder 1800:1801 <> ge:37
+binder 1803:1805 <> tys:38
+binder 1807:1807 <> z:39
+binder 1809:1812 <> vals:40
+binder 1814:1814 <> m:41
+binder 1825:1828 <> oty':42
+binder 1830:1832 <> ov':43
+binder 1834:1835 <> z':44
+binder 1837:1838 <> m':45
+binder 1840:1844 <> oty'':46
+binder 1846:1849 <> ov'':47
+binder 1851:1853 <> z'':48
+binder 1855:1857 <> m'':49
+R1900:1905 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1947:1952 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1992:1997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2044:2049 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2060:2063 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2054:2054 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2050:2053 VST.sepcomp.extspec <> oty':42 var
+R2055:2059 VST.sepcomp.extspec <> oty'':46 var
+R2072:2075 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2067:2067 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2064:2066 VST.sepcomp.extspec <> ov':43 var
+R2068:2071 VST.sepcomp.extspec <> ov'':47 var
+R2082:2085 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2078:2078 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2076:2077 VST.sepcomp.extspec <> z':44 var
+R2079:2081 VST.sepcomp.extspec <> z'':48 var
+R2088:2088 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2086:2087 VST.sepcomp.extspec <> m':45 var
+R2089:2091 VST.sepcomp.extspec <> m'':49 var
+R1998:2010 VST.sepcomp.extspec <> ext_spec_post proj
+R2041:2043 VST.sepcomp.extspec <> m'':49 var
+R2037:2039 VST.sepcomp.extspec <> z'':48 var
+R2032:2035 VST.sepcomp.extspec <> ov'':47 var
+R2026:2030 VST.sepcomp.extspec <> oty'':46 var
+R2023:2024 VST.sepcomp.extspec <> ge:37 var
+R2020:2021 VST.sepcomp.extspec <> x':36 var
+R2017:2018 VST.sepcomp.extspec <> ef:34 var
+R2012:2015 VST.sepcomp.extspec <> spec:33 var
+R1953:1964 VST.sepcomp.extspec <> ext_spec_pre proj
+R1991:1991 VST.sepcomp.extspec <> m:41 var
+R1989:1989 VST.sepcomp.extspec <> z:39 var
+R1984:1987 VST.sepcomp.extspec <> vals:40 var
+R1980:1982 VST.sepcomp.extspec <> tys:38 var
+R1977:1978 VST.sepcomp.extspec <> ge:37 var
+R1974:1975 VST.sepcomp.extspec <> x':36 var
+R1971:1972 VST.sepcomp.extspec <> ef:34 var
+R1966:1969 VST.sepcomp.extspec <> spec:33 var
+R1906:1918 VST.sepcomp.extspec <> ext_spec_post proj
+R1945:1946 VST.sepcomp.extspec <> m':45 var
+R1942:1943 VST.sepcomp.extspec <> z':44 var
+R1938:1940 VST.sepcomp.extspec <> ov':43 var
+R1933:1936 VST.sepcomp.extspec <> oty':42 var
+R1930:1931 VST.sepcomp.extspec <> ge:37 var
+R1928:1928 VST.sepcomp.extspec <> x:35 var
+R1925:1926 VST.sepcomp.extspec <> ef:34 var
+R1920:1923 VST.sepcomp.extspec <> spec:33 var
+R1862:1873 VST.sepcomp.extspec <> ext_spec_pre proj
+R1899:1899 VST.sepcomp.extspec <> m:41 var
+R1897:1897 VST.sepcomp.extspec <> z:39 var
+R1892:1895 VST.sepcomp.extspec <> vals:40 var
+R1888:1890 VST.sepcomp.extspec <> tys:38 var
+R1885:1886 VST.sepcomp.extspec <> ge:37 var
+R1883:1883 VST.sepcomp.extspec <> x:35 var
+R1880:1881 VST.sepcomp.extspec <> ef:34 var
+R1875:1878 VST.sepcomp.extspec <> spec:33 var
+rec 2102:2107 ExtSpecProperties closed
+proj 2147:2154 ExtSpecProperties P_closed
+proj 2394:2401 ExtSpecProperties Q_closed
+proj 2627:2637 ExtSpecProperties exit_closed
+binder 2110:2110 <> Z:50
+R2128:2135 VST.sepcomp.extspec <> ext_spec def
+R2137:2137 VST.sepcomp.extspec <> Z:50 var
+binder 2121:2124 <> spec:51
+binder 2171:2172 <> ef:53
+R2179:2191 VST.sepcomp.extspec <> ext_spec_type proj
+R2198:2199 VST.sepcomp.extspec <> ef:53 var
+R2193:2196 VST.sepcomp.extspec <> spec:51 var
+binder 2175:2175 <> x:54
+binder 2202:2203 <> ge:55
+binder 2205:2205 <> j:56
+binder 2207:2209 <> tys:57
+binder 2211:2214 <> vals:58
+binder 2216:2216 <> z:59
+binder 2218:2218 <> m:60
+binder 2220:2224 <> tvals:61
+binder 2226:2227 <> tm:62
+R2274:2283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2312:2321 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2339:2348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2349:2360 VST.sepcomp.extspec <> ext_spec_pre proj
+R2387:2388 VST.sepcomp.extspec <> tm:62 var
+R2385:2385 VST.sepcomp.extspec <> z:59 var
+R2379:2383 VST.sepcomp.extspec <> tvals:61 var
+R2375:2377 VST.sepcomp.extspec <> tys:57 var
+R2372:2373 VST.sepcomp.extspec <> ge:55 var
+R2370:2370 VST.sepcomp.extspec <> x:54 var
+R2367:2368 VST.sepcomp.extspec <> ef:53 var
+R2362:2365 VST.sepcomp.extspec <> spec:51 var
+R2322:2331 compcert.common.Memory Mem inject def
+R2337:2338 VST.sepcomp.extspec <> tm:62 var
+R2335:2335 VST.sepcomp.extspec <> m:60 var
+R2333:2333 VST.sepcomp.extspec <> j:56 var
+R2284:2298 compcert.common.Values Val inject_list ind
+R2307:2311 VST.sepcomp.extspec <> tvals:61 var
+R2302:2305 VST.sepcomp.extspec <> vals:58 var
+R2300:2300 VST.sepcomp.extspec <> j:56 var
+R2236:2247 VST.sepcomp.extspec <> ext_spec_pre proj
+R2273:2273 VST.sepcomp.extspec <> m:60 var
+R2271:2271 VST.sepcomp.extspec <> z:59 var
+R2266:2269 VST.sepcomp.extspec <> vals:58 var
+R2262:2264 VST.sepcomp.extspec <> tys:57 var
+R2259:2260 VST.sepcomp.extspec <> ge:55 var
+R2257:2257 VST.sepcomp.extspec <> x:54 var
+R2254:2255 VST.sepcomp.extspec <> ef:53 var
+R2249:2252 VST.sepcomp.extspec <> spec:51 var
+binder 2418:2419 <> ef:64
+R2426:2438 VST.sepcomp.extspec <> ext_spec_type proj
+R2445:2446 VST.sepcomp.extspec <> ef:64 var
+R2440:2443 VST.sepcomp.extspec <> spec:51 var
+binder 2422:2422 <> x:65
+binder 2449:2450 <> ge:66
+binder 2452:2452 <> j:67
+binder 2454:2456 <> oty:68
+binder 2458:2459 <> ov:69
+binder 2461:2461 <> z:70
+binder 2463:2463 <> m:71
+binder 2465:2467 <> otv:72
+binder 2469:2470 <> tm:73
+R2516:2525 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2546:2555 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2573:2582 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2583:2595 VST.sepcomp.extspec <> ext_spec_post proj
+R2620:2621 VST.sepcomp.extspec <> tm:73 var
+R2618:2618 VST.sepcomp.extspec <> z:70 var
+R2614:2616 VST.sepcomp.extspec <> otv:72 var
+R2610:2612 VST.sepcomp.extspec <> oty:68 var
+R2607:2608 VST.sepcomp.extspec <> ge:66 var
+R2605:2605 VST.sepcomp.extspec <> x:65 var
+R2602:2603 VST.sepcomp.extspec <> ef:64 var
+R2597:2600 VST.sepcomp.extspec <> spec:51 var
+R2556:2565 compcert.common.Memory Mem inject def
+R2571:2572 VST.sepcomp.extspec <> tm:73 var
+R2569:2569 VST.sepcomp.extspec <> m:71 var
+R2567:2567 VST.sepcomp.extspec <> j:67 var
+R2526:2536 VST.sepcomp.extspec <> oval_inject def
+R2543:2545 VST.sepcomp.extspec <> otv:72 var
+R2540:2541 VST.sepcomp.extspec <> ov:69 var
+R2538:2538 VST.sepcomp.extspec <> j:67 var
+R2479:2491 VST.sepcomp.extspec <> ext_spec_post proj
+R2515:2515 VST.sepcomp.extspec <> m:71 var
+R2513:2513 VST.sepcomp.extspec <> z:70 var
+R2510:2511 VST.sepcomp.extspec <> ov:69 var
+R2506:2508 VST.sepcomp.extspec <> oty:68 var
+R2503:2504 VST.sepcomp.extspec <> ge:66 var
+R2501:2501 VST.sepcomp.extspec <> x:65 var
+R2498:2499 VST.sepcomp.extspec <> ef:64 var
+R2493:2496 VST.sepcomp.extspec <> spec:51 var
+binder 2654:2654 <> j:75
+binder 2656:2657 <> ov:76
+binder 2659:2659 <> z:77
+binder 2661:2661 <> m:78
+binder 2663:2665 <> otv:79
+binder 2667:2668 <> tm:80
+R2702:2711 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2732:2741 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2759:2768 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2769:2781 VST.sepcomp.extspec <> ext_spec_exit proj
+R2794:2795 VST.sepcomp.extspec <> tm:80 var
+R2792:2792 VST.sepcomp.extspec <> z:77 var
+R2788:2790 VST.sepcomp.extspec <> otv:79 var
+R2783:2786 VST.sepcomp.extspec <> spec:51 var
+R2742:2751 compcert.common.Memory Mem inject def
+R2757:2758 VST.sepcomp.extspec <> tm:80 var
+R2755:2755 VST.sepcomp.extspec <> m:78 var
+R2753:2753 VST.sepcomp.extspec <> j:75 var
+R2712:2722 VST.sepcomp.extspec <> oval_inject def
+R2729:2731 VST.sepcomp.extspec <> otv:79 var
+R2726:2727 VST.sepcomp.extspec <> ov:76 var
+R2724:2724 VST.sepcomp.extspec <> j:75 var
+R2677:2689 VST.sepcomp.extspec <> ext_spec_exit proj
+R2701:2701 VST.sepcomp.extspec <> m:78 var
+R2699:2699 VST.sepcomp.extspec <> z:77 var
+R2696:2697 VST.sepcomp.extspec <> ov:76 var
+R2691:2694 VST.sepcomp.extspec <> spec:51 var
+R2805:2821 VST.sepcomp.extspec ExtSpecProperties <> mod

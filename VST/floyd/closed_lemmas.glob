@@ -1,0 +1,3645 @@
+DIGEST 9f4cb3b53709a7b49059953bf1255d94
+FVST.floyd.closed_lemmas
+R15:29 VST.floyd.base2 <> <> lib
+R47:69 VST.floyd.client_lemmas <> <> lib
+prf 567:580 <> closed_env_set
+binder 592:592 <> B:1
+binder 595:595 <> i:2
+binder 597:597 <> v:3
+R610:613 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R614:614 VST.floyd.closed_lemmas <> B:1 var
+R603:609 VST.veric.mpred <> environ ind
+binder 600:600 <> P:4
+binder 617:619 <> rho:5
+R651:659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R679:681 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R660:660 VST.floyd.closed_lemmas <> P:4 var
+R663:669 VST.veric.mpred <> env_set def
+R677:677 VST.floyd.closed_lemmas <> v:3 var
+R675:675 VST.floyd.closed_lemmas <> i:2 var
+R671:673 VST.floyd.closed_lemmas <> rho:5 var
+R682:682 VST.floyd.closed_lemmas <> P:4 var
+R684:686 VST.floyd.closed_lemmas <> rho:5 var
+R627:641 VST.veric.SeparationLogic <> closed_wrt_vars def
+R650:650 VST.floyd.closed_lemmas <> P:4 var
+R644:645 Coq.Init.Logic <> eq ind
+R647:647 VST.floyd.closed_lemmas <> i:2 var
+R775:782 compcert.common.AST <> ident_eq def
+R775:782 compcert.common.AST <> ident_eq def
+R819:825 VST.veric.mpred Map gso thm
+R819:825 VST.veric.mpred Map gso thm
+R819:825 VST.veric.mpred Map gso thm
+R819:825 VST.veric.mpred Map gso thm
+R853:866 VST.floyd.closed_lemmas <> closed_env_set thm
+prf 912:927 <> subst_eval_id_eq
+binder 938:939 <> id:6
+binder 941:941 <> v:7
+R967:969 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R944:948 VST.veric.seplog <> subst def
+R956:962 VST.veric.mpred <> eval_id def
+R964:965 VST.floyd.closed_lemmas <> id:6 var
+R953:953 VST.floyd.closed_lemmas <> v:7 var
+R950:951 VST.floyd.closed_lemmas <> id:6 var
+R970:970 VST.floyd.closed_lemmas <> v:7 var
+R987:991 VST.veric.seplog <> subst def
+R994:1000 VST.veric.mpred <> eval_id def
+R1042:1050 VST.veric.val_lemmas <> force_val def
+R1053:1059 VST.veric.mpred <> env_set def
+R1077:1083 VST.veric.mpred Map gss thm
+R1077:1083 VST.veric.mpred Map gss thm
+R1077:1083 VST.veric.mpred Map gss thm
+prf 1104:1120 <> subst_eval_id_neq
+binder 1132:1133 <> id:8
+binder 1135:1135 <> v:9
+binder 1137:1137 <> j:10
+R1145:1148 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1171:1173 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1149:1153 VST.veric.seplog <> subst def
+R1161:1167 VST.veric.mpred <> eval_id def
+R1169:1169 VST.floyd.closed_lemmas <> j:10 var
+R1158:1158 VST.floyd.closed_lemmas <> v:9 var
+R1155:1156 VST.floyd.closed_lemmas <> id:8 var
+R1174:1180 VST.veric.mpred <> eval_id def
+R1182:1182 VST.floyd.closed_lemmas <> j:10 var
+R1142:1143 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1140:1141 VST.floyd.closed_lemmas <> id:8 var
+R1144:1144 VST.floyd.closed_lemmas <> j:10 var
+R1203:1207 VST.veric.seplog <> subst def
+R1210:1216 VST.veric.mpred <> eval_id def
+R1258:1266 VST.veric.val_lemmas <> force_val def
+R1269:1275 VST.veric.mpred <> env_set def
+R1293:1299 VST.veric.mpred Map gso thm
+R1293:1299 VST.veric.mpred Map gso thm
+R1293:1299 VST.veric.mpred Map gso thm
+R1293:1299 VST.veric.mpred Map gso thm
+R1327:1342 VST.floyd.closed_lemmas <> subst_eval_id_eq thm
+R1366:1382 VST.floyd.closed_lemmas <> subst_eval_id_neq thm
+def 2063:2077 <> subst_eval_expr
+def 3166:3182 <> subst_eval_lvalue
+R2085:2093 VST.veric.mpred <> compspecs class
+binder 2081:2082 <> cs:11
+R2101:2105 compcert.common.AST <> ident def
+binder 2098:2098 <> j:12
+R2119:2122 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2123:2125 compcert.common.Values <> val ind
+R2112:2118 VST.veric.mpred <> environ ind
+binder 2109:2109 <> v:13
+R2132:2135 compcert.cfrontend.Clight <> expr ind
+binder 2129:2129 <> e:14
+R3189:3197 VST.veric.mpred <> compspecs class
+binder 3185:3186 <> cs:15
+R3204:3208 compcert.common.AST <> ident def
+binder 3201:3201 <> j:16
+R3222:3225 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3226:3228 compcert.common.Values <> val ind
+R3215:3221 VST.veric.mpred <> environ ind
+binder 3212:3212 <> v:17
+R3235:3238 compcert.cfrontend.Clight <> expr ind
+binder 3232:3232 <> e:18
+R2147:2150 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2151:2153 compcert.common.Values <> val ind
+R2140:2146 VST.veric.mpred <> environ ind
+R3250:3253 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3254:3256 compcert.common.Values <> val ind
+R3243:3249 VST.veric.mpred <> environ ind
+R2165:2165 VST.floyd.closed_lemmas <> e:14 var
+R2175:2184 compcert.cfrontend.Clight <> Econst_int constr
+R2194:2195 VST.veric.lift LiftNotation :::'`('_x_')' not
+R2202:2202 VST.veric.lift LiftNotation :::'`('_x_')' not
+R2196:2199 compcert.common.Values <> Vint constr
+R2207:2217 compcert.cfrontend.Clight <> Econst_long constr
+R2227:2228 VST.veric.lift LiftNotation :::'`('_x_')' not
+R2236:2236 VST.veric.lift LiftNotation :::'`('_x_')' not
+R2229:2233 compcert.common.Values <> Vlong constr
+R2241:2252 compcert.cfrontend.Clight <> Econst_float constr
+R2262:2263 VST.veric.lift LiftNotation :::'`('_x_')' not
+R2272:2272 VST.veric.lift LiftNotation :::'`('_x_')' not
+R2264:2269 compcert.common.Values <> Vfloat constr
+R2277:2289 compcert.cfrontend.Clight <> Econst_single constr
+R2299:2300 VST.veric.lift LiftNotation :::'`('_x_')' not
+R2310:2310 VST.veric.lift LiftNotation :::'`('_x_')' not
+R2301:2307 compcert.common.Values <> Vsingle constr
+R2315:2322 compcert.cfrontend.Clight <> Etempvar constr
+R2336:2344 VST.veric.Cop2 <> eqb_ident def
+R2346:2346 VST.floyd.closed_lemmas <> j:12 var
+R2363:2369 VST.veric.mpred <> eval_id def
+R2356:2356 VST.floyd.closed_lemmas <> v:13 var
+R2377:2383 compcert.cfrontend.Clight <> Eaddrof constr
+R2393:2409 VST.floyd.closed_lemmas <> subst_eval_lvalue:20 def
+R2413:2413 VST.floyd.closed_lemmas <> v:13 var
+R2411:2411 VST.floyd.closed_lemmas <> j:12 var
+R2420:2424 compcert.cfrontend.Clight <> Eunop constr
+R2438:2439 VST.veric.lift LiftNotation :::'`('_x_')' not
+R2463:2487 VST.veric.lift LiftNotation :::'`('_x_')' not
+R2440:2448 VST.veric.expr <> eval_unop def
+R2454:2459 compcert.cfrontend.Clight <> typeof def
+R2466:2480 VST.floyd.closed_lemmas <> subst_eval_expr:19 def
+R2484:2484 VST.floyd.closed_lemmas <> v:13 var
+R2482:2482 VST.floyd.closed_lemmas <> j:12 var
+R2492:2497 compcert.cfrontend.Clight <> Ebinop constr
+R2532:2533 VST.veric.lift LiftNotation :::'`('_x_')' not
+R2571:2621 VST.veric.lift LiftNotation :::'`('_x_')' not
+R2534:2543 VST.veric.expr <> eval_binop def
+R2561:2566 compcert.cfrontend.Clight <> typeof def
+R2549:2554 compcert.cfrontend.Clight <> typeof def
+R2599:2613 VST.floyd.closed_lemmas <> subst_eval_expr:19 def
+R2617:2617 VST.floyd.closed_lemmas <> v:13 var
+R2615:2615 VST.floyd.closed_lemmas <> j:12 var
+R2574:2588 VST.floyd.closed_lemmas <> subst_eval_expr:19 def
+R2592:2592 VST.floyd.closed_lemmas <> v:13 var
+R2590:2590 VST.floyd.closed_lemmas <> j:12 var
+R2626:2630 compcert.cfrontend.Clight <> Ecast constr
+R2640:2641 VST.veric.lift LiftNotation :::'`('_x_')' not
+R2665:2689 VST.veric.lift LiftNotation :::'`('_x_')' not
+R2642:2650 VST.veric.expr <> eval_cast def
+R2653:2658 compcert.cfrontend.Clight <> typeof def
+R2668:2682 VST.floyd.closed_lemmas <> subst_eval_expr:19 def
+R2686:2686 VST.floyd.closed_lemmas <> v:13 var
+R2684:2684 VST.floyd.closed_lemmas <> j:12 var
+R2694:2697 compcert.cfrontend.Clight <> Evar constr
+R2708:2715 VST.veric.expr <> eval_var def
+R2726:2731 compcert.cfrontend.Clight <> Ederef constr
+R2741:2755 VST.floyd.closed_lemmas <> subst_eval_expr:19 def
+R2759:2759 VST.floyd.closed_lemmas <> v:13 var
+R2757:2757 VST.floyd.closed_lemmas <> j:12 var
+R2766:2771 compcert.cfrontend.Clight <> Efield constr
+R2783:2784 VST.veric.lift LiftNotation :::'`('_x_')' not
+R2808:2834 VST.veric.lift LiftNotation :::'`('_x_')' not
+R2785:2794 VST.veric.expr <> eval_field def
+R2797:2802 compcert.cfrontend.Clight <> typeof def
+R2811:2827 VST.floyd.closed_lemmas <> subst_eval_lvalue:20 def
+R2831:2831 VST.floyd.closed_lemmas <> v:13 var
+R2829:2829 VST.floyd.closed_lemmas <> j:12 var
+R2839:2845 compcert.cfrontend.Clight <> Esizeof constr
+R2855:2856 VST.veric.lift LiftNotation :::'`('_x_')' not
+R2991:2991 VST.veric.lift LiftNotation :::'`('_x_')' not
+R2860:2872 compcert.cfrontend.Ctypes <> complete_type def
+R2874:2880 VST.veric.mpred <> cenv_cs meth
+R2985:2990 compcert.common.Values <> Vundef constr
+R2918:2924 compcert.common.Values <> Vptrofs def
+R2927:2937 compcert.lib.Integers Ptrofs repr def
+R2940:2945 VST.veric.expr <> sizeof def
+R2996:3003 compcert.cfrontend.Clight <> Ealignof constr
+R3013:3014 VST.veric.lift LiftNotation :::'`('_x_')' not
+R3152:3152 VST.veric.lift LiftNotation :::'`('_x_')' not
+R3018:3030 compcert.cfrontend.Ctypes <> complete_type def
+R3032:3038 VST.veric.mpred <> cenv_cs meth
+R3146:3151 compcert.common.Values <> Vundef constr
+R3077:3083 compcert.common.Values <> Vptrofs def
+R3086:3096 compcert.lib.Integers Ptrofs repr def
+R3099:3105 VST.veric.expr <> alignof def
+R3268:3268 VST.floyd.closed_lemmas <> e:18 var
+R3278:3281 compcert.cfrontend.Clight <> Evar constr
+R3292:3299 VST.veric.expr <> eval_var def
+R3310:3315 compcert.cfrontend.Clight <> Ederef constr
+R3325:3339 VST.floyd.closed_lemmas <> subst_eval_expr:19 def
+R3343:3343 VST.floyd.closed_lemmas <> v:17 var
+R3341:3341 VST.floyd.closed_lemmas <> j:16 var
+R3350:3355 compcert.cfrontend.Clight <> Efield constr
+R3367:3368 VST.veric.lift LiftNotation :::'`('_x_')' not
+R3392:3418 VST.veric.lift LiftNotation :::'`('_x_')' not
+R3369:3378 VST.veric.expr <> eval_field def
+R3381:3386 compcert.cfrontend.Clight <> typeof def
+R3395:3411 VST.floyd.closed_lemmas <> subst_eval_lvalue:20 def
+R3415:3415 VST.floyd.closed_lemmas <> v:17 var
+R3413:3413 VST.floyd.closed_lemmas <> j:16 var
+R3429:3429 VST.veric.lift LiftNotation :::'`'_x not
+R3430:3435 compcert.common.Values <> Vundef constr
+prf 3450:3467 <> subst_eval_expr_eq
+prf 3557:3576 <> subst_eval_lvalue_eq
+R3486:3494 VST.veric.mpred <> compspecs class
+binder 3482:3483 <> cs:23
+binder 3497:3497 <> j:24
+binder 3499:3499 <> v:25
+binder 3501:3501 <> e:26
+R3527:3529 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3504:3508 VST.veric.seplog <> subst def
+R3515:3523 VST.veric.expr <> eval_expr def
+R3525:3525 VST.floyd.closed_lemmas <> e:26 var
+R3512:3512 VST.floyd.closed_lemmas <> v:25 var
+R3510:3510 VST.floyd.closed_lemmas <> j:24 var
+R3530:3544 VST.floyd.closed_lemmas <> subst_eval_expr def
+R3550:3550 VST.floyd.closed_lemmas <> e:26 var
+R3548:3548 VST.floyd.closed_lemmas <> v:25 var
+R3546:3546 VST.floyd.closed_lemmas <> j:24 var
+R3595:3603 VST.veric.mpred <> compspecs class
+binder 3591:3592 <> cs:27
+binder 3606:3606 <> j:28
+binder 3608:3608 <> v:29
+binder 3610:3610 <> e:30
+R3638:3640 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3613:3617 VST.veric.seplog <> subst def
+R3624:3634 VST.veric.expr <> eval_lvalue def
+R3636:3636 VST.floyd.closed_lemmas <> e:30 var
+R3621:3621 VST.floyd.closed_lemmas <> v:29 var
+R3619:3619 VST.floyd.closed_lemmas <> j:28 var
+R3641:3657 VST.floyd.closed_lemmas <> subst_eval_lvalue def
+R3663:3663 VST.floyd.closed_lemmas <> e:30 var
+R3661:3661 VST.floyd.closed_lemmas <> v:29 var
+R3659:3659 VST.floyd.closed_lemmas <> j:28 var
+R3764:3772 VST.veric.Cop2 <> eqb_ident def
+R3787:3791 VST.veric.seplog <> subst def
+R3794:3800 VST.veric.mpred <> eval_id def
+R3803:3809 VST.veric.mpred <> env_set def
+R3812:3816 VST.veric.mpred <> te_of def
+R3856:3867 Coq.PArith.BinPos Pos eqb_spec thm
+R3856:3867 Coq.PArith.BinPos Pos eqb_spec thm
+R3907:3913 VST.veric.mpred Map gss thm
+R3907:3913 VST.veric.mpred Map gss thm
+R3907:3913 VST.veric.mpred Map gss thm
+R3942:3948 VST.veric.mpred Map gso thm
+R3942:3948 VST.veric.mpred Map gso thm
+R3942:3948 VST.veric.mpred Map gso thm
+R3942:3948 VST.veric.mpred Map gso thm
+R4044:4048 VST.veric.seplog <> subst def
+R4124:4128 VST.veric.seplog <> subst def
+R4232:4236 VST.veric.seplog <> subst def
+R4370:4374 VST.veric.seplog <> subst def
+R4515:4519 VST.veric.seplog <> subst def
+R4567:4584 VST.floyd.closed_lemmas <> subst_eval_expr_eq thm
+R4587:4606 VST.floyd.closed_lemmas <> subst_eval_lvalue_eq thm
+prf 4625:4640 <> closed_wrt_subst
+binder 4653:4653 <> A:31
+binder 4656:4657 <> id:32
+binder 4659:4659 <> e:33
+R4672:4675 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4676:4676 VST.floyd.closed_lemmas <> A:31 var
+R4665:4671 VST.veric.mpred <> environ ind
+binder 4662:4662 <> P:34
+R4705:4708 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4721:4723 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4709:4713 VST.veric.seplog <> subst def
+R4720:4720 VST.floyd.closed_lemmas <> P:34 var
+R4718:4718 VST.floyd.closed_lemmas <> e:33 var
+R4715:4716 VST.floyd.closed_lemmas <> id:32 var
+R4724:4724 VST.floyd.closed_lemmas <> P:34 var
+R4680:4694 VST.veric.SeparationLogic <> closed_wrt_vars def
+R4704:4704 VST.floyd.closed_lemmas <> P:34 var
+R4697:4698 Coq.Init.Logic <> eq ind
+R4700:4701 VST.floyd.closed_lemmas <> id:32 var
+R4749:4753 VST.veric.seplog <> subst def
+R4756:4770 VST.veric.SeparationLogic <> closed_wrt_vars def
+R4835:4840 VST.msl.eq_dec <> eq_dec def
+R4835:4840 VST.msl.eq_dec <> eq_dec def
+R4870:4876 VST.veric.mpred Map gso thm
+R4870:4876 VST.veric.mpred Map gso thm
+R4870:4876 VST.veric.mpred Map gso thm
+R4870:4876 VST.veric.mpred Map gso thm
+prf 4897:4916 <> closed_wrt_map_subst
+binder 4930:4930 <> A:35
+binder 4939:4940 <> id:36
+binder 4942:4942 <> e:37
+R4948:4951 Coq.Init.Datatypes <> list ind
+R4961:4964 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4965:4965 VST.floyd.closed_lemmas <> A:35 var
+R4954:4960 VST.veric.mpred <> environ ind
+binder 4945:4945 <> Q:38
+R5013:5025 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5044:5046 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5026:5028 Coq.Lists.List <> map def
+R5043:5043 VST.floyd.closed_lemmas <> Q:38 var
+R5031:5035 VST.veric.seplog <> subst def
+R5040:5040 VST.floyd.closed_lemmas <> e:37 var
+R5037:5038 VST.floyd.closed_lemmas <> id:36 var
+R5047:5047 VST.floyd.closed_lemmas <> Q:38 var
+R4979:4984 Coq.Lists.List <> Forall ind
+R5012:5012 VST.floyd.closed_lemmas <> Q:38 var
+R4987:5001 VST.veric.SeparationLogic <> closed_wrt_vars def
+R5004:5005 Coq.Init.Logic <> eq ind
+R5007:5008 VST.floyd.closed_lemmas <> id:36 var
+R5126:5141 VST.floyd.closed_lemmas <> closed_wrt_subst thm
+R5126:5141 VST.floyd.closed_lemmas <> closed_wrt_subst thm
+R5169:5188 VST.floyd.closed_lemmas <> closed_wrt_map_subst thm
+R5241:5256 VST.floyd.closed_lemmas <> closed_wrt_subst thm
+prf 5302:5322 <> closed_wrt_map_subst'
+binder 5336:5336 <> A:39
+binder 5345:5346 <> id:40
+binder 5348:5348 <> e:41
+R5354:5357 Coq.Init.Datatypes <> list ind
+R5367:5370 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5371:5371 VST.floyd.closed_lemmas <> A:39 var
+R5360:5366 VST.veric.mpred <> environ ind
+binder 5351:5351 <> Q:42
+R5419:5431 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5469:5471 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5433:5435 Coq.Lists.List <> map def
+R5468:5468 VST.floyd.closed_lemmas <> Q:42 var
+R5456:5460 VST.veric.seplog <> subst def
+R5465:5465 VST.floyd.closed_lemmas <> e:41 var
+R5462:5463 VST.floyd.closed_lemmas <> id:40 var
+R5438:5448 VST.veric.mpred <> LiftEnviron canonstruc
+R5450:5450 VST.floyd.closed_lemmas <> A:39 var
+R5472:5472 VST.floyd.closed_lemmas <> Q:42 var
+R5385:5390 Coq.Lists.List <> Forall ind
+R5418:5418 VST.floyd.closed_lemmas <> Q:42 var
+R5393:5407 VST.veric.SeparationLogic <> closed_wrt_vars def
+R5410:5411 Coq.Init.Logic <> eq ind
+R5413:5414 VST.floyd.closed_lemmas <> id:40 var
+R5489:5508 VST.floyd.closed_lemmas <> closed_wrt_map_subst thm
+R5489:5508 VST.floyd.closed_lemmas <> closed_wrt_map_subst thm
+R5607:5627 VST.floyd.closed_lemmas <> closed_wrt_map_subst' thm
+prf 5672:5697 <> closed_wrt_subst_eval_expr
+R5714:5722 VST.veric.mpred <> compspecs class
+binder 5710:5711 <> cs:43
+binder 5725:5725 <> j:44
+binder 5727:5727 <> v:45
+binder 5729:5729 <> e:46
+R5771:5777 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5799:5801 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5778:5792 VST.floyd.closed_lemmas <> subst_eval_expr def
+R5798:5798 VST.floyd.closed_lemmas <> e:46 var
+R5796:5796 VST.floyd.closed_lemmas <> v:45 var
+R5794:5794 VST.floyd.closed_lemmas <> j:44 var
+R5802:5810 VST.veric.expr <> eval_expr def
+R5812:5812 VST.floyd.closed_lemmas <> e:46 var
+R5735:5749 VST.veric.SeparationLogic <> closed_wrt_vars def
+R5759:5767 VST.veric.expr <> eval_expr def
+R5769:5769 VST.floyd.closed_lemmas <> e:46 var
+R5752:5753 Coq.Init.Logic <> eq ind
+R5755:5755 VST.floyd.closed_lemmas <> j:44 var
+R5841:5858 VST.floyd.closed_lemmas <> subst_eval_expr_eq thm
+R5841:5858 VST.floyd.closed_lemmas <> subst_eval_expr_eq thm
+R5841:5858 VST.floyd.closed_lemmas <> subst_eval_expr_eq thm
+R5867:5882 VST.floyd.closed_lemmas <> closed_wrt_subst thm
+R5867:5882 VST.floyd.closed_lemmas <> closed_wrt_subst thm
+prf 5902:5929 <> closed_wrt_subst_eval_lvalue
+R5946:5954 VST.veric.mpred <> compspecs class
+binder 5942:5943 <> cs:47
+binder 5957:5957 <> j:48
+binder 5959:5959 <> v:49
+binder 5961:5961 <> e:50
+R6005:6011 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6035:6037 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6012:6028 VST.floyd.closed_lemmas <> subst_eval_lvalue def
+R6034:6034 VST.floyd.closed_lemmas <> e:50 var
+R6032:6032 VST.floyd.closed_lemmas <> v:49 var
+R6030:6030 VST.floyd.closed_lemmas <> j:48 var
+R6038:6048 VST.veric.expr <> eval_lvalue def
+R6050:6050 VST.floyd.closed_lemmas <> e:50 var
+R5967:5981 VST.veric.SeparationLogic <> closed_wrt_vars def
+R5991:6001 VST.veric.expr <> eval_lvalue def
+R6003:6003 VST.floyd.closed_lemmas <> e:50 var
+R5984:5985 Coq.Init.Logic <> eq ind
+R5987:5987 VST.floyd.closed_lemmas <> j:48 var
+R6079:6098 VST.floyd.closed_lemmas <> subst_eval_lvalue_eq thm
+R6079:6098 VST.floyd.closed_lemmas <> subst_eval_lvalue_eq thm
+R6079:6098 VST.floyd.closed_lemmas <> subst_eval_lvalue_eq thm
+R6107:6122 VST.floyd.closed_lemmas <> closed_wrt_subst thm
+R6107:6122 VST.floyd.closed_lemmas <> closed_wrt_subst thm
+R6150:6175 VST.floyd.closed_lemmas <> closed_wrt_subst_eval_expr thm
+R6234:6261 VST.floyd.closed_lemmas <> closed_wrt_subst_eval_lvalue thm
+R6319:6336 VST.veric.SeparationLogic <> closed_wrt_modvars def
+prf 6355:6370 <> closed_wrt_local
+binder 6380:6380 <> S:51
+binder 6382:6382 <> P:52
+R6404:6407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6408:6422 VST.veric.SeparationLogic <> closed_wrt_vars def
+R6427:6431 VST.veric.SeparationLogic <> local def
+R6433:6433 VST.floyd.closed_lemmas <> P:52 var
+R6424:6424 VST.floyd.closed_lemmas <> S:51 var
+R6385:6399 VST.veric.SeparationLogic <> closed_wrt_vars def
+R6403:6403 VST.floyd.closed_lemmas <> P:52 var
+R6401:6401 VST.floyd.closed_lemmas <> S:51 var
+R6503:6507 VST.veric.SeparationLogic <> local def
+R6510:6514 VST.veric.mpred <> lift1 def
+prf 6544:6560 <> closed_wrtl_local
+binder 6570:6570 <> S:53
+binder 6572:6572 <> P:54
+R6595:6598 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6599:6614 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R6619:6623 VST.veric.SeparationLogic <> local def
+R6625:6625 VST.floyd.closed_lemmas <> P:54 var
+R6616:6616 VST.floyd.closed_lemmas <> S:53 var
+R6575:6590 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R6594:6594 VST.floyd.closed_lemmas <> P:54 var
+R6592:6592 VST.floyd.closed_lemmas <> S:53 var
+R6695:6699 VST.veric.SeparationLogic <> local def
+R6702:6706 VST.veric.mpred <> lift1 def
+prf 6794:6809 <> closed_wrt_lift0
+binder 6820:6820 <> A:55
+binder 6823:6823 <> S:56
+R6829:6829 VST.floyd.closed_lemmas <> A:55 var
+binder 6826:6826 <> Q:57
+R6833:6847 VST.veric.SeparationLogic <> closed_wrt_vars def
+R6852:6856 VST.veric.mpred <> lift0 def
+R6858:6858 VST.floyd.closed_lemmas <> Q:57 var
+R6849:6849 VST.floyd.closed_lemmas <> S:56 var
+R6898:6902 VST.veric.mpred <> lift0 def
+prf 6922:6938 <> closed_wrtl_lift0
+binder 6949:6949 <> A:58
+binder 6952:6952 <> S:59
+R6958:6958 VST.floyd.closed_lemmas <> A:58 var
+binder 6955:6955 <> Q:60
+R6962:6977 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R6982:6986 VST.veric.mpred <> lift0 def
+R6988:6988 VST.floyd.closed_lemmas <> Q:60 var
+R6979:6979 VST.floyd.closed_lemmas <> S:59 var
+R7028:7032 VST.veric.mpred <> lift0 def
+prf 7111:7127 <> closed_wrt_lift0C
+binder 7138:7138 <> B:61
+binder 7141:7141 <> S:62
+R7147:7147 VST.floyd.closed_lemmas <> B:61 var
+binder 7144:7144 <> Q:63
+R7154:7168 VST.veric.SeparationLogic <> closed_wrt_vars def
+R7174:7178 VST.veric.lift <> liftx def
+R7196:7196 VST.floyd.closed_lemmas <> Q:63 var
+R7181:7191 VST.veric.mpred <> LiftEnviron canonstruc
+R7193:7193 VST.floyd.closed_lemmas <> B:61 var
+R7170:7170 VST.floyd.closed_lemmas <> S:62 var
+prf 7259:7276 <> closed_wrtl_lift0C
+binder 7287:7287 <> B:64
+binder 7290:7290 <> S:65
+R7296:7296 VST.floyd.closed_lemmas <> B:64 var
+binder 7293:7293 <> Q:66
+R7303:7318 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R7324:7328 VST.veric.lift <> liftx def
+R7346:7346 VST.floyd.closed_lemmas <> Q:66 var
+R7331:7341 VST.veric.mpred <> LiftEnviron canonstruc
+R7343:7343 VST.floyd.closed_lemmas <> B:64 var
+R7320:7320 VST.floyd.closed_lemmas <> S:65 var
+prf 7469:7484 <> closed_wrt_lift1
+binder 7495:7495 <> A:67
+binder 7498:7498 <> B:68
+binder 7501:7501 <> S:69
+R7508:7511 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7512:7512 VST.floyd.closed_lemmas <> B:68 var
+R7507:7507 VST.floyd.closed_lemmas <> A:67 var
+binder 7504:7504 <> f:70
+binder 7515:7515 <> P:71
+R7545:7556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7557:7571 VST.veric.SeparationLogic <> closed_wrt_vars def
+R7576:7580 VST.veric.mpred <> lift1 def
+R7584:7584 VST.floyd.closed_lemmas <> P:71 var
+R7582:7582 VST.floyd.closed_lemmas <> f:70 var
+R7573:7573 VST.floyd.closed_lemmas <> S:69 var
+R7526:7540 VST.veric.SeparationLogic <> closed_wrt_vars def
+R7544:7544 VST.floyd.closed_lemmas <> P:71 var
+R7542:7542 VST.floyd.closed_lemmas <> S:69 var
+R7647:7651 VST.veric.mpred <> lift1 def
+prf 7680:7696 <> closed_wrtl_lift1
+binder 7707:7707 <> A:72
+binder 7710:7710 <> B:73
+binder 7713:7713 <> S:74
+R7720:7723 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7724:7724 VST.floyd.closed_lemmas <> B:73 var
+R7719:7719 VST.floyd.closed_lemmas <> A:72 var
+binder 7716:7716 <> f:75
+binder 7727:7727 <> P:76
+R7758:7769 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7770:7785 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R7790:7794 VST.veric.mpred <> lift1 def
+R7798:7798 VST.floyd.closed_lemmas <> P:76 var
+R7796:7796 VST.floyd.closed_lemmas <> f:75 var
+R7787:7787 VST.floyd.closed_lemmas <> S:74 var
+R7738:7753 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R7757:7757 VST.floyd.closed_lemmas <> P:76 var
+R7755:7755 VST.floyd.closed_lemmas <> S:74 var
+R7861:7865 VST.veric.mpred <> lift1 def
+prf 7953:7969 <> closed_wrt_lift1C
+binder 7980:7980 <> A:77
+binder 7983:7983 <> B:78
+binder 7986:7986 <> S:79
+R7993:7996 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7997:7997 VST.floyd.closed_lemmas <> B:78 var
+R7992:7992 VST.floyd.closed_lemmas <> A:77 var
+binder 7989:7989 <> f:80
+binder 8000:8000 <> P:81
+R8030:8041 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8042:8056 VST.veric.SeparationLogic <> closed_wrt_vars def
+R8062:8066 VST.veric.lift <> liftx def
+R8097:8097 VST.floyd.closed_lemmas <> P:81 var
+R8095:8095 VST.floyd.closed_lemmas <> f:80 var
+R8069:8074 VST.veric.lift <> Tarrow canonstruc
+R8079:8089 VST.veric.mpred <> LiftEnviron canonstruc
+R8091:8091 VST.floyd.closed_lemmas <> B:78 var
+R8076:8076 VST.floyd.closed_lemmas <> A:77 var
+R8058:8058 VST.floyd.closed_lemmas <> S:79 var
+R8011:8025 VST.veric.SeparationLogic <> closed_wrt_vars def
+R8029:8029 VST.floyd.closed_lemmas <> P:81 var
+R8027:8027 VST.floyd.closed_lemmas <> S:79 var
+prf 8192:8209 <> closed_wrtl_lift1C
+binder 8220:8220 <> A:82
+binder 8223:8223 <> B:83
+binder 8226:8226 <> S:84
+R8233:8236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8237:8237 VST.floyd.closed_lemmas <> B:83 var
+R8232:8232 VST.floyd.closed_lemmas <> A:82 var
+binder 8229:8229 <> f:85
+binder 8240:8240 <> P:86
+R8271:8282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8283:8298 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R8304:8308 VST.veric.lift <> liftx def
+R8339:8339 VST.floyd.closed_lemmas <> P:86 var
+R8337:8337 VST.floyd.closed_lemmas <> f:85 var
+R8311:8316 VST.veric.lift <> Tarrow canonstruc
+R8321:8331 VST.veric.mpred <> LiftEnviron canonstruc
+R8333:8333 VST.floyd.closed_lemmas <> B:83 var
+R8318:8318 VST.floyd.closed_lemmas <> A:82 var
+R8300:8300 VST.floyd.closed_lemmas <> S:84 var
+R8251:8266 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R8270:8270 VST.floyd.closed_lemmas <> P:86 var
+R8268:8268 VST.floyd.closed_lemmas <> S:84 var
+prf 8495:8510 <> closed_wrt_lift2
+binder 8521:8522 <> A1:87
+binder 8524:8525 <> A2:88
+binder 8528:8528 <> B:89
+binder 8531:8531 <> S:90
+R8539:8542 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8545:8548 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8549:8549 VST.floyd.closed_lemmas <> B:89 var
+R8543:8544 VST.floyd.closed_lemmas <> A2:88 var
+R8537:8538 VST.floyd.closed_lemmas <> A1:87 var
+binder 8534:8534 <> f:91
+binder 8552:8553 <> P1:92
+binder 8555:8556 <> P2:93
+R8587:8598 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8619:8630 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8631:8645 VST.veric.SeparationLogic <> closed_wrt_vars def
+R8650:8654 VST.veric.mpred <> lift2 def
+R8661:8662 VST.floyd.closed_lemmas <> P2:93 var
+R8658:8659 VST.floyd.closed_lemmas <> P1:92 var
+R8656:8656 VST.floyd.closed_lemmas <> f:91 var
+R8647:8647 VST.floyd.closed_lemmas <> S:90 var
+R8599:8613 VST.veric.SeparationLogic <> closed_wrt_vars def
+R8617:8618 VST.floyd.closed_lemmas <> P2:93 var
+R8615:8615 VST.floyd.closed_lemmas <> S:90 var
+R8567:8581 VST.veric.SeparationLogic <> closed_wrt_vars def
+R8585:8586 VST.floyd.closed_lemmas <> P1:92 var
+R8583:8583 VST.floyd.closed_lemmas <> S:90 var
+R8749:8753 VST.veric.mpred <> lift2 def
+prf 8782:8798 <> closed_wrtl_lift2
+binder 8809:8810 <> A1:94
+binder 8812:8813 <> A2:95
+binder 8816:8816 <> B:96
+binder 8819:8819 <> S:97
+R8827:8830 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8833:8836 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8837:8837 VST.floyd.closed_lemmas <> B:96 var
+R8831:8832 VST.floyd.closed_lemmas <> A2:95 var
+R8825:8826 VST.floyd.closed_lemmas <> A1:94 var
+binder 8822:8822 <> f:98
+binder 8840:8841 <> P1:99
+binder 8843:8844 <> P2:100
+R8876:8887 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8909:8920 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8921:8936 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R8941:8945 VST.veric.mpred <> lift2 def
+R8952:8953 VST.floyd.closed_lemmas <> P2:100 var
+R8949:8950 VST.floyd.closed_lemmas <> P1:99 var
+R8947:8947 VST.floyd.closed_lemmas <> f:98 var
+R8938:8938 VST.floyd.closed_lemmas <> S:97 var
+R8888:8903 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R8907:8908 VST.floyd.closed_lemmas <> P2:100 var
+R8905:8905 VST.floyd.closed_lemmas <> S:97 var
+R8855:8870 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R8874:8875 VST.floyd.closed_lemmas <> P1:99 var
+R8872:8872 VST.floyd.closed_lemmas <> S:97 var
+R9040:9044 VST.veric.mpred <> lift2 def
+prf 9132:9148 <> closed_wrt_lift2C
+binder 9159:9160 <> A1:101
+binder 9162:9163 <> A2:102
+binder 9166:9166 <> B:103
+binder 9169:9169 <> S:104
+R9177:9180 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9183:9186 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9187:9187 VST.floyd.closed_lemmas <> B:103 var
+R9181:9182 VST.floyd.closed_lemmas <> A2:102 var
+R9175:9176 VST.floyd.closed_lemmas <> A1:101 var
+binder 9172:9172 <> f:105
+binder 9190:9191 <> P1:106
+binder 9193:9194 <> P2:107
+R9225:9236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9257:9268 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9269:9283 VST.veric.SeparationLogic <> closed_wrt_vars def
+R9289:9293 VST.veric.lift <> liftx def
+R9340:9341 VST.floyd.closed_lemmas <> P2:107 var
+R9337:9338 VST.floyd.closed_lemmas <> P1:106 var
+R9335:9335 VST.floyd.closed_lemmas <> f:105 var
+R9296:9301 VST.veric.lift <> Tarrow canonstruc
+R9307:9312 VST.veric.lift <> Tarrow canonstruc
+R9318:9328 VST.veric.mpred <> LiftEnviron canonstruc
+R9330:9330 VST.floyd.closed_lemmas <> B:103 var
+R9314:9315 VST.floyd.closed_lemmas <> A2:102 var
+R9303:9304 VST.floyd.closed_lemmas <> A1:101 var
+R9285:9285 VST.floyd.closed_lemmas <> S:104 var
+R9237:9251 VST.veric.SeparationLogic <> closed_wrt_vars def
+R9255:9256 VST.floyd.closed_lemmas <> P2:107 var
+R9253:9253 VST.floyd.closed_lemmas <> S:104 var
+R9205:9219 VST.veric.SeparationLogic <> closed_wrt_vars def
+R9223:9224 VST.floyd.closed_lemmas <> P1:106 var
+R9221:9221 VST.floyd.closed_lemmas <> S:104 var
+prf 9460:9477 <> closed_wrtl_lift2C
+binder 9488:9489 <> A1:108
+binder 9491:9492 <> A2:109
+binder 9495:9495 <> B:110
+binder 9498:9498 <> S:111
+R9506:9509 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9512:9515 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9516:9516 VST.floyd.closed_lemmas <> B:110 var
+R9510:9511 VST.floyd.closed_lemmas <> A2:109 var
+R9504:9505 VST.floyd.closed_lemmas <> A1:108 var
+binder 9501:9501 <> f:112
+binder 9519:9520 <> P1:113
+binder 9522:9523 <> P2:114
+R9555:9566 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9588:9599 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9600:9615 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R9621:9625 VST.veric.lift <> liftx def
+R9672:9673 VST.floyd.closed_lemmas <> P2:114 var
+R9669:9670 VST.floyd.closed_lemmas <> P1:113 var
+R9667:9667 VST.floyd.closed_lemmas <> f:112 var
+R9628:9633 VST.veric.lift <> Tarrow canonstruc
+R9639:9644 VST.veric.lift <> Tarrow canonstruc
+R9650:9660 VST.veric.mpred <> LiftEnviron canonstruc
+R9662:9662 VST.floyd.closed_lemmas <> B:110 var
+R9646:9647 VST.floyd.closed_lemmas <> A2:109 var
+R9635:9636 VST.floyd.closed_lemmas <> A1:108 var
+R9617:9617 VST.floyd.closed_lemmas <> S:111 var
+R9567:9582 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R9586:9587 VST.floyd.closed_lemmas <> P2:114 var
+R9584:9584 VST.floyd.closed_lemmas <> S:111 var
+R9534:9549 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R9553:9554 VST.floyd.closed_lemmas <> P1:113 var
+R9551:9551 VST.floyd.closed_lemmas <> S:111 var
+prf 9853:9868 <> closed_wrt_lift3
+binder 9879:9880 <> A1:115
+binder 9882:9883 <> A2:116
+binder 9885:9886 <> A3:117
+binder 9889:9889 <> B:118
+binder 9892:9892 <> S:119
+R9900:9903 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9906:9909 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9912:9915 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9916:9916 VST.floyd.closed_lemmas <> B:118 var
+R9910:9911 VST.floyd.closed_lemmas <> A3:117 var
+R9904:9905 VST.floyd.closed_lemmas <> A2:116 var
+R9898:9899 VST.floyd.closed_lemmas <> A1:115 var
+binder 9895:9895 <> f:120
+binder 9919:9920 <> P1:121
+binder 9922:9923 <> P2:122
+binder 9925:9926 <> P3:123
+R9957:9968 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9989:10000 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10021:10032 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10033:10047 VST.veric.SeparationLogic <> closed_wrt_vars def
+R10052:10056 VST.veric.mpred <> lift3 def
+R10066:10067 VST.floyd.closed_lemmas <> P3:123 var
+R10063:10064 VST.floyd.closed_lemmas <> P2:122 var
+R10060:10061 VST.floyd.closed_lemmas <> P1:121 var
+R10058:10058 VST.floyd.closed_lemmas <> f:120 var
+R10049:10049 VST.floyd.closed_lemmas <> S:119 var
+R10001:10015 VST.veric.SeparationLogic <> closed_wrt_vars def
+R10019:10020 VST.floyd.closed_lemmas <> P3:123 var
+R10017:10017 VST.floyd.closed_lemmas <> S:119 var
+R9969:9983 VST.veric.SeparationLogic <> closed_wrt_vars def
+R9987:9988 VST.floyd.closed_lemmas <> P2:122 var
+R9985:9985 VST.floyd.closed_lemmas <> S:119 var
+R9937:9951 VST.veric.SeparationLogic <> closed_wrt_vars def
+R9955:9956 VST.floyd.closed_lemmas <> P1:121 var
+R9953:9953 VST.floyd.closed_lemmas <> S:119 var
+R10178:10182 VST.veric.mpred <> lift3 def
+prf 10211:10227 <> closed_wrtl_lift3
+binder 10238:10239 <> A1:124
+binder 10241:10242 <> A2:125
+binder 10244:10245 <> A3:126
+binder 10248:10248 <> B:127
+binder 10251:10251 <> S:128
+R10259:10262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10265:10268 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10271:10274 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10275:10275 VST.floyd.closed_lemmas <> B:127 var
+R10269:10270 VST.floyd.closed_lemmas <> A3:126 var
+R10263:10264 VST.floyd.closed_lemmas <> A2:125 var
+R10257:10258 VST.floyd.closed_lemmas <> A1:124 var
+binder 10254:10254 <> f:129
+binder 10278:10279 <> P1:130
+binder 10281:10282 <> P2:131
+binder 10284:10285 <> P3:132
+R10317:10328 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10350:10361 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10383:10394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10395:10410 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R10415:10419 VST.veric.mpred <> lift3 def
+R10429:10430 VST.floyd.closed_lemmas <> P3:132 var
+R10426:10427 VST.floyd.closed_lemmas <> P2:131 var
+R10423:10424 VST.floyd.closed_lemmas <> P1:130 var
+R10421:10421 VST.floyd.closed_lemmas <> f:129 var
+R10412:10412 VST.floyd.closed_lemmas <> S:128 var
+R10362:10377 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R10381:10382 VST.floyd.closed_lemmas <> P3:132 var
+R10379:10379 VST.floyd.closed_lemmas <> S:128 var
+R10329:10344 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R10348:10349 VST.floyd.closed_lemmas <> P2:131 var
+R10346:10346 VST.floyd.closed_lemmas <> S:128 var
+R10296:10311 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R10315:10316 VST.floyd.closed_lemmas <> P1:130 var
+R10313:10313 VST.floyd.closed_lemmas <> S:128 var
+R10541:10545 VST.veric.mpred <> lift3 def
+prf 10633:10649 <> closed_wrt_lift3C
+binder 10660:10661 <> A1:133
+binder 10663:10664 <> A2:134
+binder 10666:10667 <> A3:135
+binder 10670:10670 <> B:136
+binder 10673:10673 <> S:137
+R10681:10684 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10687:10690 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10693:10696 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10697:10697 VST.floyd.closed_lemmas <> B:136 var
+R10691:10692 VST.floyd.closed_lemmas <> A3:135 var
+R10685:10686 VST.floyd.closed_lemmas <> A2:134 var
+R10679:10680 VST.floyd.closed_lemmas <> A1:133 var
+binder 10676:10676 <> f:138
+binder 10700:10701 <> P1:139
+binder 10703:10704 <> P2:140
+binder 10706:10707 <> P3:141
+R10738:10749 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10770:10781 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10802:10813 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10814:10828 VST.veric.SeparationLogic <> closed_wrt_vars def
+R10834:10838 VST.veric.lift <> liftx def
+R10900:10901 VST.floyd.closed_lemmas <> P3:141 var
+R10897:10898 VST.floyd.closed_lemmas <> P2:140 var
+R10894:10895 VST.floyd.closed_lemmas <> P1:139 var
+R10892:10892 VST.floyd.closed_lemmas <> f:138 var
+R10841:10846 VST.veric.lift <> Tarrow canonstruc
+R10852:10857 VST.veric.lift <> Tarrow canonstruc
+R10863:10868 VST.veric.lift <> Tarrow canonstruc
+R10874:10884 VST.veric.mpred <> LiftEnviron canonstruc
+R10886:10886 VST.floyd.closed_lemmas <> B:136 var
+R10870:10871 VST.floyd.closed_lemmas <> A3:135 var
+R10859:10860 VST.floyd.closed_lemmas <> A2:134 var
+R10848:10849 VST.floyd.closed_lemmas <> A1:133 var
+R10830:10830 VST.floyd.closed_lemmas <> S:137 var
+R10782:10796 VST.veric.SeparationLogic <> closed_wrt_vars def
+R10800:10801 VST.floyd.closed_lemmas <> P3:141 var
+R10798:10798 VST.floyd.closed_lemmas <> S:137 var
+R10750:10764 VST.veric.SeparationLogic <> closed_wrt_vars def
+R10768:10769 VST.floyd.closed_lemmas <> P2:140 var
+R10766:10766 VST.floyd.closed_lemmas <> S:137 var
+R10718:10732 VST.veric.SeparationLogic <> closed_wrt_vars def
+R10736:10737 VST.floyd.closed_lemmas <> P1:139 var
+R10734:10734 VST.floyd.closed_lemmas <> S:137 var
+prf 11045:11062 <> closed_wrtl_lift3C
+binder 11073:11074 <> A1:142
+binder 11076:11077 <> A2:143
+binder 11079:11080 <> A3:144
+binder 11083:11083 <> B:145
+binder 11086:11086 <> S:146
+R11094:11097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11100:11103 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11106:11109 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11110:11110 VST.floyd.closed_lemmas <> B:145 var
+R11104:11105 VST.floyd.closed_lemmas <> A3:144 var
+R11098:11099 VST.floyd.closed_lemmas <> A2:143 var
+R11092:11093 VST.floyd.closed_lemmas <> A1:142 var
+binder 11089:11089 <> f:147
+binder 11113:11114 <> P1:148
+binder 11116:11117 <> P2:149
+binder 11119:11120 <> P3:150
+R11152:11163 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11185:11196 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11218:11229 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11230:11245 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R11251:11255 VST.veric.lift <> liftx def
+R11317:11318 VST.floyd.closed_lemmas <> P3:150 var
+R11314:11315 VST.floyd.closed_lemmas <> P2:149 var
+R11311:11312 VST.floyd.closed_lemmas <> P1:148 var
+R11309:11309 VST.floyd.closed_lemmas <> f:147 var
+R11258:11263 VST.veric.lift <> Tarrow canonstruc
+R11269:11274 VST.veric.lift <> Tarrow canonstruc
+R11280:11285 VST.veric.lift <> Tarrow canonstruc
+R11291:11301 VST.veric.mpred <> LiftEnviron canonstruc
+R11303:11303 VST.floyd.closed_lemmas <> B:145 var
+R11287:11288 VST.floyd.closed_lemmas <> A3:144 var
+R11276:11277 VST.floyd.closed_lemmas <> A2:143 var
+R11265:11266 VST.floyd.closed_lemmas <> A1:142 var
+R11247:11247 VST.floyd.closed_lemmas <> S:146 var
+R11197:11212 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R11216:11217 VST.floyd.closed_lemmas <> P3:150 var
+R11214:11214 VST.floyd.closed_lemmas <> S:146 var
+R11164:11179 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R11183:11184 VST.floyd.closed_lemmas <> P2:149 var
+R11181:11181 VST.floyd.closed_lemmas <> S:146 var
+R11131:11146 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R11150:11151 VST.floyd.closed_lemmas <> P1:148 var
+R11148:11148 VST.floyd.closed_lemmas <> S:146 var
+prf 11522:11537 <> closed_wrt_lift4
+binder 11548:11549 <> A1:151
+binder 11551:11552 <> A2:152
+binder 11554:11555 <> A3:153
+binder 11557:11558 <> A4:154
+binder 11561:11561 <> B:155
+binder 11564:11564 <> S:156
+R11572:11575 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11578:11581 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11584:11587 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11590:11593 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11594:11594 VST.floyd.closed_lemmas <> B:155 var
+R11588:11589 VST.floyd.closed_lemmas <> A4:154 var
+R11582:11583 VST.floyd.closed_lemmas <> A3:153 var
+R11576:11577 VST.floyd.closed_lemmas <> A2:152 var
+R11570:11571 VST.floyd.closed_lemmas <> A1:151 var
+binder 11567:11567 <> f:157
+binder 11604:11605 <> P1:158
+binder 11607:11608 <> P2:159
+binder 11610:11611 <> P3:160
+binder 11613:11614 <> P4:161
+R11645:11656 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11677:11688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11709:11720 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11741:11752 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11753:11767 VST.veric.SeparationLogic <> closed_wrt_vars def
+R11772:11776 VST.veric.mpred <> lift4 def
+R11789:11790 VST.floyd.closed_lemmas <> P4:161 var
+R11786:11787 VST.floyd.closed_lemmas <> P3:160 var
+R11783:11784 VST.floyd.closed_lemmas <> P2:159 var
+R11780:11781 VST.floyd.closed_lemmas <> P1:158 var
+R11778:11778 VST.floyd.closed_lemmas <> f:157 var
+R11769:11769 VST.floyd.closed_lemmas <> S:156 var
+R11721:11735 VST.veric.SeparationLogic <> closed_wrt_vars def
+R11739:11740 VST.floyd.closed_lemmas <> P4:161 var
+R11737:11737 VST.floyd.closed_lemmas <> S:156 var
+R11689:11703 VST.veric.SeparationLogic <> closed_wrt_vars def
+R11707:11708 VST.floyd.closed_lemmas <> P3:160 var
+R11705:11705 VST.floyd.closed_lemmas <> S:156 var
+R11657:11671 VST.veric.SeparationLogic <> closed_wrt_vars def
+R11675:11676 VST.floyd.closed_lemmas <> P2:159 var
+R11673:11673 VST.floyd.closed_lemmas <> S:156 var
+R11625:11639 VST.veric.SeparationLogic <> closed_wrt_vars def
+R11643:11644 VST.floyd.closed_lemmas <> P1:158 var
+R11641:11641 VST.floyd.closed_lemmas <> S:156 var
+R11925:11929 VST.veric.mpred <> lift4 def
+prf 11958:11974 <> closed_wrtl_lift4
+binder 11985:11986 <> A1:162
+binder 11988:11989 <> A2:163
+binder 11991:11992 <> A3:164
+binder 11994:11995 <> A4:165
+binder 11998:11998 <> B:166
+binder 12001:12001 <> S:167
+R12009:12012 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12015:12018 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12021:12024 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12027:12030 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12031:12031 VST.floyd.closed_lemmas <> B:166 var
+R12025:12026 VST.floyd.closed_lemmas <> A4:165 var
+R12019:12020 VST.floyd.closed_lemmas <> A3:164 var
+R12013:12014 VST.floyd.closed_lemmas <> A2:163 var
+R12007:12008 VST.floyd.closed_lemmas <> A1:162 var
+binder 12004:12004 <> f:168
+binder 12041:12042 <> P1:169
+binder 12044:12045 <> P2:170
+binder 12047:12048 <> P3:171
+binder 12050:12051 <> P4:172
+R12083:12094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12116:12127 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12149:12160 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12182:12193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12194:12209 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R12214:12218 VST.veric.mpred <> lift4 def
+R12231:12232 VST.floyd.closed_lemmas <> P4:172 var
+R12228:12229 VST.floyd.closed_lemmas <> P3:171 var
+R12225:12226 VST.floyd.closed_lemmas <> P2:170 var
+R12222:12223 VST.floyd.closed_lemmas <> P1:169 var
+R12220:12220 VST.floyd.closed_lemmas <> f:168 var
+R12211:12211 VST.floyd.closed_lemmas <> S:167 var
+R12161:12176 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R12180:12181 VST.floyd.closed_lemmas <> P4:172 var
+R12178:12178 VST.floyd.closed_lemmas <> S:167 var
+R12128:12143 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R12147:12148 VST.floyd.closed_lemmas <> P3:171 var
+R12145:12145 VST.floyd.closed_lemmas <> S:167 var
+R12095:12110 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R12114:12115 VST.floyd.closed_lemmas <> P2:170 var
+R12112:12112 VST.floyd.closed_lemmas <> S:167 var
+R12062:12077 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R12081:12082 VST.floyd.closed_lemmas <> P1:169 var
+R12079:12079 VST.floyd.closed_lemmas <> S:167 var
+R12367:12371 VST.veric.mpred <> lift4 def
+prf 12460:12476 <> closed_wrt_lift4C
+binder 12487:12488 <> A1:173
+binder 12490:12491 <> A2:174
+binder 12493:12494 <> A3:175
+binder 12496:12497 <> A4:176
+binder 12500:12500 <> B:177
+binder 12503:12503 <> S:178
+R12511:12514 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12517:12520 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12523:12526 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12529:12532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12533:12533 VST.floyd.closed_lemmas <> B:177 var
+R12527:12528 VST.floyd.closed_lemmas <> A4:176 var
+R12521:12522 VST.floyd.closed_lemmas <> A3:175 var
+R12515:12516 VST.floyd.closed_lemmas <> A2:174 var
+R12509:12510 VST.floyd.closed_lemmas <> A1:173 var
+binder 12506:12506 <> f:179
+binder 12536:12537 <> P1:180
+binder 12539:12540 <> P2:181
+binder 12542:12543 <> P3:182
+binder 12545:12546 <> P4:183
+R12577:12588 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12609:12620 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12641:12652 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12673:12684 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12685:12699 VST.veric.SeparationLogic <> closed_wrt_vars def
+R12705:12709 VST.veric.lift <> liftx def
+R12786:12787 VST.floyd.closed_lemmas <> P4:183 var
+R12783:12784 VST.floyd.closed_lemmas <> P3:182 var
+R12780:12781 VST.floyd.closed_lemmas <> P2:181 var
+R12777:12778 VST.floyd.closed_lemmas <> P1:180 var
+R12775:12775 VST.floyd.closed_lemmas <> f:179 var
+R12712:12717 VST.veric.lift <> Tarrow canonstruc
+R12723:12728 VST.veric.lift <> Tarrow canonstruc
+R12734:12739 VST.veric.lift <> Tarrow canonstruc
+R12745:12750 VST.veric.lift <> Tarrow canonstruc
+R12756:12766 VST.veric.mpred <> LiftEnviron canonstruc
+R12768:12768 VST.floyd.closed_lemmas <> B:177 var
+R12752:12753 VST.floyd.closed_lemmas <> A4:176 var
+R12741:12742 VST.floyd.closed_lemmas <> A3:175 var
+R12730:12731 VST.floyd.closed_lemmas <> A2:174 var
+R12719:12720 VST.floyd.closed_lemmas <> A1:173 var
+R12701:12701 VST.floyd.closed_lemmas <> S:178 var
+R12653:12667 VST.veric.SeparationLogic <> closed_wrt_vars def
+R12671:12672 VST.floyd.closed_lemmas <> P4:183 var
+R12669:12669 VST.floyd.closed_lemmas <> S:178 var
+R12621:12635 VST.veric.SeparationLogic <> closed_wrt_vars def
+R12639:12640 VST.floyd.closed_lemmas <> P3:182 var
+R12637:12637 VST.floyd.closed_lemmas <> S:178 var
+R12589:12603 VST.veric.SeparationLogic <> closed_wrt_vars def
+R12607:12608 VST.floyd.closed_lemmas <> P2:181 var
+R12605:12605 VST.floyd.closed_lemmas <> S:178 var
+R12557:12571 VST.veric.SeparationLogic <> closed_wrt_vars def
+R12575:12576 VST.floyd.closed_lemmas <> P1:180 var
+R12573:12573 VST.floyd.closed_lemmas <> S:178 var
+R12922:12926 VST.veric.lift <> liftx def
+R12943:12946 VST.veric.lift <> lift def
+prf 12975:12992 <> closed_wrtl_lift4C
+binder 13003:13004 <> A1:184
+binder 13006:13007 <> A2:185
+binder 13009:13010 <> A3:186
+binder 13012:13013 <> A4:187
+binder 13016:13016 <> B:188
+binder 13019:13019 <> S:189
+R13027:13030 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13033:13036 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13039:13042 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13045:13048 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13049:13049 VST.floyd.closed_lemmas <> B:188 var
+R13043:13044 VST.floyd.closed_lemmas <> A4:187 var
+R13037:13038 VST.floyd.closed_lemmas <> A3:186 var
+R13031:13032 VST.floyd.closed_lemmas <> A2:185 var
+R13025:13026 VST.floyd.closed_lemmas <> A1:184 var
+binder 13022:13022 <> f:190
+binder 13052:13053 <> P1:191
+binder 13055:13056 <> P2:192
+binder 13058:13059 <> P3:193
+binder 13061:13062 <> P4:194
+R13094:13105 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13127:13138 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13160:13171 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13193:13204 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13205:13220 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R13226:13230 VST.veric.lift <> liftx def
+R13307:13308 VST.floyd.closed_lemmas <> P4:194 var
+R13304:13305 VST.floyd.closed_lemmas <> P3:193 var
+R13301:13302 VST.floyd.closed_lemmas <> P2:192 var
+R13298:13299 VST.floyd.closed_lemmas <> P1:191 var
+R13296:13296 VST.floyd.closed_lemmas <> f:190 var
+R13233:13238 VST.veric.lift <> Tarrow canonstruc
+R13244:13249 VST.veric.lift <> Tarrow canonstruc
+R13255:13260 VST.veric.lift <> Tarrow canonstruc
+R13266:13271 VST.veric.lift <> Tarrow canonstruc
+R13277:13287 VST.veric.mpred <> LiftEnviron canonstruc
+R13289:13289 VST.floyd.closed_lemmas <> B:188 var
+R13273:13274 VST.floyd.closed_lemmas <> A4:187 var
+R13262:13263 VST.floyd.closed_lemmas <> A3:186 var
+R13251:13252 VST.floyd.closed_lemmas <> A2:185 var
+R13240:13241 VST.floyd.closed_lemmas <> A1:184 var
+R13222:13222 VST.floyd.closed_lemmas <> S:189 var
+R13172:13187 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R13191:13192 VST.floyd.closed_lemmas <> P4:194 var
+R13189:13189 VST.floyd.closed_lemmas <> S:189 var
+R13139:13154 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R13158:13159 VST.floyd.closed_lemmas <> P3:193 var
+R13156:13156 VST.floyd.closed_lemmas <> S:189 var
+R13106:13121 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R13125:13126 VST.floyd.closed_lemmas <> P2:192 var
+R13123:13123 VST.floyd.closed_lemmas <> S:189 var
+R13073:13088 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R13092:13093 VST.floyd.closed_lemmas <> P1:191 var
+R13090:13090 VST.floyd.closed_lemmas <> S:189 var
+R13443:13447 VST.veric.lift <> liftx def
+R13464:13467 VST.veric.lift <> lift def
+prf 13557:13572 <> closed_wrt_const
+binder 13583:13583 <> A:195
+R13589:13589 VST.floyd.closed_lemmas <> A:195 var
+binder 13586:13586 <> P:196
+binder 13592:13592 <> S:197
+R13595:13609 VST.veric.SeparationLogic <> closed_wrt_vars def
+R13623:13629 VST.veric.mpred <> environ ind
+binder 13618:13620 <> rho:198
+R13634:13634 VST.floyd.closed_lemmas <> P:196 var
+R13611:13611 VST.floyd.closed_lemmas <> S:197 var
+prf 13690:13706 <> closed_wrtl_const
+binder 13717:13717 <> A:199
+R13723:13723 VST.floyd.closed_lemmas <> A:199 var
+binder 13720:13720 <> P:200
+binder 13726:13726 <> S:201
+R13729:13744 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R13758:13764 VST.veric.mpred <> environ ind
+binder 13753:13755 <> rho:202
+R13769:13769 VST.floyd.closed_lemmas <> P:200 var
+R13746:13746 VST.floyd.closed_lemmas <> S:201 var
+prf 13884:13902 <> closed_wrt_eval_var
+binder 13914:13914 <> S:203
+binder 13916:13917 <> id:204
+binder 13919:13919 <> t:205
+R13922:13936 VST.veric.SeparationLogic <> closed_wrt_vars def
+R13941:13948 VST.veric.expr <> eval_var def
+R13953:13953 VST.floyd.closed_lemmas <> t:205 var
+R13950:13951 VST.floyd.closed_lemmas <> id:204 var
+R13938:13938 VST.floyd.closed_lemmas <> S:203 var
+R13971:13985 VST.veric.SeparationLogic <> closed_wrt_vars def
+R13988:13995 VST.veric.expr <> eval_var def
+prf 14073:14092 <> closed_wrtl_eval_var
+binder 14104:14104 <> S:206
+binder 14106:14107 <> id:207
+binder 14109:14109 <> t:208
+R14118:14121 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14122:14137 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R14142:14149 VST.veric.expr <> eval_var def
+R14154:14154 VST.floyd.closed_lemmas <> t:208 var
+R14151:14152 VST.floyd.closed_lemmas <> id:207 var
+R14139:14139 VST.floyd.closed_lemmas <> S:206 var
+R14112:14113 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14114:14114 VST.floyd.closed_lemmas <> S:206 var
+R14116:14117 VST.floyd.closed_lemmas <> id:207 var
+R14172:14187 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R14190:14197 VST.veric.expr <> eval_var def
+prf 14672:14686 <> closed_wrt_lvar
+binder 14698:14698 <> S:209
+binder 14700:14701 <> id:210
+binder 14703:14703 <> t:211
+binder 14705:14705 <> v:212
+R14708:14722 VST.veric.SeparationLogic <> closed_wrt_vars def
+R14727:14739 VST.floyd.canon <> locald_denote def
+R14742:14745 VST.floyd.canon <> lvar constr
+R14752:14752 VST.floyd.closed_lemmas <> v:212 var
+R14750:14750 VST.floyd.closed_lemmas <> t:211 var
+R14747:14748 VST.floyd.closed_lemmas <> id:210 var
+R14724:14724 VST.floyd.closed_lemmas <> S:209 var
+R14802:14808 VST.veric.mpred Map get def
+R14811:14815 VST.veric.mpred <> ve_of def
+R14802:14808 VST.veric.mpred Map get def
+R14811:14815 VST.veric.mpred <> ve_of def
+prf 14884:14899 <> closed_wrt_gvars
+binder 14911:14911 <> S:213
+binder 14913:14914 <> gv:214
+R14917:14931 VST.veric.SeparationLogic <> closed_wrt_vars def
+R14936:14948 VST.floyd.canon <> locald_denote def
+R14951:14955 VST.floyd.canon <> gvars constr
+R14957:14958 VST.floyd.closed_lemmas <> gv:214 var
+R14933:14933 VST.floyd.closed_lemmas <> S:213 var
+prf 15063:15079 <> closed_wrtl_gvars
+binder 15091:15091 <> S:215
+binder 15093:15094 <> gv:216
+R15097:15112 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R15117:15129 VST.floyd.canon <> locald_denote def
+R15132:15136 VST.floyd.canon <> gvars constr
+R15138:15139 VST.floyd.closed_lemmas <> gv:216 var
+R15114:15114 VST.floyd.closed_lemmas <> S:215 var
+prf 15245:15260 <> closed_wrtl_lvar
+R15277:15285 VST.veric.mpred <> compspecs class
+binder 15273:15274 <> cs:217
+binder 15288:15288 <> S:218
+binder 15290:15291 <> id:219
+binder 15293:15293 <> t:220
+binder 15295:15295 <> v:221
+R15308:15311 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15312:15327 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R15332:15344 VST.floyd.canon <> locald_denote def
+R15347:15350 VST.floyd.canon <> lvar constr
+R15357:15357 VST.floyd.closed_lemmas <> v:221 var
+R15355:15355 VST.floyd.closed_lemmas <> t:220 var
+R15352:15353 VST.floyd.closed_lemmas <> id:219 var
+R15329:15329 VST.floyd.closed_lemmas <> S:218 var
+R15302:15303 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15304:15304 VST.floyd.closed_lemmas <> S:218 var
+R15306:15307 VST.floyd.closed_lemmas <> id:219 var
+R15404:15414 VST.floyd.canon <> lvar_denote def
+def 15529:15549 <> expr_closed_wrt_lvars
+R15560:15563 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15555:15559 compcert.common.AST <> ident def
+binder 15552:15552 <> S:222
+R15574:15577 compcert.cfrontend.Clight <> expr ind
+binder 15571:15571 <> e:223
+R15604:15612 VST.veric.mpred <> compspecs class
+binder 15600:15601 <> cs:224
+binder 15615:15617 <> rho:225
+binder 15619:15621 <> ve':226
+R15629:15629 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15684:15693 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15709:15711 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15694:15702 VST.veric.expr <> eval_expr def
+R15706:15708 VST.floyd.closed_lemmas <> rho:225 var
+R15704:15704 VST.floyd.closed_lemmas <> e:223 var
+R15712:15720 VST.veric.expr <> eval_expr def
+R15725:15733 VST.veric.mpred <> mkEnviron constr
+R15752:15756 VST.veric.mpred <> te_of def
+R15758:15760 VST.floyd.closed_lemmas <> rho:225 var
+R15747:15749 VST.floyd.closed_lemmas <> ve':226 var
+R15736:15740 VST.veric.mpred <> ge_of def
+R15742:15744 VST.floyd.closed_lemmas <> rho:225 var
+R15722:15722 VST.floyd.closed_lemmas <> e:223 var
+binder 15637:15637 <> i:227
+R15643:15646 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R15640:15640 VST.floyd.closed_lemmas <> S:222 var
+R15642:15642 VST.floyd.closed_lemmas <> i:227 var
+R15668:15670 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15647:15653 VST.veric.mpred Map get def
+R15667:15667 VST.floyd.closed_lemmas <> i:227 var
+R15656:15660 VST.veric.mpred <> ve_of def
+R15662:15664 VST.floyd.closed_lemmas <> rho:225 var
+R15671:15677 VST.veric.mpred Map get def
+R15683:15683 VST.floyd.closed_lemmas <> i:227 var
+R15679:15681 VST.floyd.closed_lemmas <> ve':226 var
+def 15777:15799 <> lvalue_closed_wrt_lvars
+R15810:15813 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15805:15809 compcert.common.AST <> ident def
+binder 15802:15802 <> S:228
+R15824:15827 compcert.cfrontend.Clight <> expr ind
+binder 15821:15821 <> e:229
+R15854:15862 VST.veric.mpred <> compspecs class
+binder 15850:15851 <> cs:230
+binder 15865:15867 <> rho:231
+binder 15869:15871 <> ve':232
+R15879:15879 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15934:15943 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15961:15963 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15944:15954 VST.veric.expr <> eval_lvalue def
+R15958:15960 VST.floyd.closed_lemmas <> rho:231 var
+R15956:15956 VST.floyd.closed_lemmas <> e:229 var
+R15964:15974 VST.veric.expr <> eval_lvalue def
+R15979:15987 VST.veric.mpred <> mkEnviron constr
+R16007:16011 VST.veric.mpred <> te_of def
+R16013:16015 VST.floyd.closed_lemmas <> rho:231 var
+R16001:16003 VST.floyd.closed_lemmas <> ve':232 var
+R15990:15994 VST.veric.mpred <> ge_of def
+R15996:15998 VST.floyd.closed_lemmas <> rho:231 var
+R15976:15976 VST.floyd.closed_lemmas <> e:229 var
+binder 15887:15887 <> i:233
+R15893:15896 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R15890:15890 VST.floyd.closed_lemmas <> S:228 var
+R15892:15892 VST.floyd.closed_lemmas <> i:233 var
+R15918:15920 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15897:15903 VST.veric.mpred Map get def
+R15917:15917 VST.floyd.closed_lemmas <> i:233 var
+R15906:15910 VST.veric.mpred <> ve_of def
+R15912:15914 VST.floyd.closed_lemmas <> rho:231 var
+R15921:15927 VST.veric.mpred Map get def
+R15933:15933 VST.floyd.closed_lemmas <> i:233 var
+R15929:15931 VST.floyd.closed_lemmas <> ve':232 var
+prf 16027:16044 <> closed_wrt_cmp_ptr
+R16060:16068 VST.veric.mpred <> compspecs class
+binder 16056:16057 <> cs:234
+binder 16071:16071 <> S:235
+binder 16073:16074 <> e1:236
+binder 16076:16077 <> e2:237
+binder 16079:16079 <> c:238
+R16109:16114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16140:16145 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16146:16160 VST.veric.SeparationLogic <> closed_wrt_vars def
+R16165:16166 VST.veric.lift LiftNotation :::'`('_x_')' not
+R16183:16213 VST.veric.lift LiftNotation :::'`('_x_')' not
+R16167:16180 VST.veric.SeparationLogic <> cmp_ptr_no_mem def
+R16182:16182 VST.floyd.closed_lemmas <> c:238 var
+R16201:16209 VST.veric.expr <> eval_expr def
+R16211:16212 VST.floyd.closed_lemmas <> e2:237 var
+R16186:16194 VST.veric.expr <> eval_expr def
+R16196:16197 VST.floyd.closed_lemmas <> e1:236 var
+R16162:16162 VST.floyd.closed_lemmas <> S:235 var
+R16115:16134 VST.veric.expr <> expr_closed_wrt_vars def
+R16138:16139 VST.floyd.closed_lemmas <> e2:237 var
+R16136:16136 VST.floyd.closed_lemmas <> S:235 var
+R16084:16103 VST.veric.expr <> expr_closed_wrt_vars def
+R16107:16108 VST.floyd.closed_lemmas <> e1:236 var
+R16105:16105 VST.floyd.closed_lemmas <> S:235 var
+R16239:16253 VST.veric.SeparationLogic <> closed_wrt_vars def
+R16290:16309 VST.veric.expr <> expr_closed_wrt_vars def
+R16379:16392 VST.veric.SeparationLogic <> cmp_ptr_no_mem def
+prf 16442:16460 <> closed_wrtl_cmp_ptr
+R16476:16484 VST.veric.mpred <> compspecs class
+binder 16472:16473 <> cs:239
+binder 16487:16487 <> S:240
+binder 16489:16490 <> e1:241
+binder 16492:16493 <> e2:242
+binder 16495:16495 <> c:243
+R16526:16531 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16558:16563 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16564:16579 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R16584:16585 VST.veric.lift LiftNotation :::'`('_x_')' not
+R16602:16632 VST.veric.lift LiftNotation :::'`('_x_')' not
+R16586:16599 VST.veric.SeparationLogic <> cmp_ptr_no_mem def
+R16601:16601 VST.floyd.closed_lemmas <> c:243 var
+R16620:16628 VST.veric.expr <> eval_expr def
+R16630:16631 VST.floyd.closed_lemmas <> e2:242 var
+R16605:16613 VST.veric.expr <> eval_expr def
+R16615:16616 VST.floyd.closed_lemmas <> e1:241 var
+R16581:16581 VST.floyd.closed_lemmas <> S:240 var
+R16532:16552 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R16556:16557 VST.floyd.closed_lemmas <> e2:242 var
+R16554:16554 VST.floyd.closed_lemmas <> S:240 var
+R16500:16520 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R16524:16525 VST.floyd.closed_lemmas <> e1:241 var
+R16522:16522 VST.floyd.closed_lemmas <> S:240 var
+R16658:16673 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R16710:16730 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R16806:16819 VST.veric.SeparationLogic <> cmp_ptr_no_mem def
+prf 16931:16948 <> closed_wrt_eval_id
+binder 16958:16958 <> S:244
+binder 16960:16960 <> i:245
+R16972:16975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16976:16990 VST.veric.SeparationLogic <> closed_wrt_vars def
+R16995:17001 VST.veric.mpred <> eval_id def
+R17003:17003 VST.floyd.closed_lemmas <> i:245 var
+R16992:16992 VST.floyd.closed_lemmas <> S:244 var
+R16967:16968 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16969:16969 VST.floyd.closed_lemmas <> S:244 var
+R16971:16971 VST.floyd.closed_lemmas <> i:245 var
+R17043:17049 VST.veric.mpred <> eval_id def
+R17052:17060 VST.veric.val_lemmas <> force_val def
+prf 17131:17149 <> closed_wrtl_eval_id
+binder 17159:17159 <> S:246
+binder 17161:17161 <> i:247
+R17168:17183 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R17188:17194 VST.veric.mpred <> eval_id def
+R17196:17196 VST.floyd.closed_lemmas <> i:247 var
+R17185:17185 VST.floyd.closed_lemmas <> S:246 var
+R17236:17242 VST.veric.mpred <> eval_id def
+R17245:17253 VST.veric.val_lemmas <> force_val def
+prf 17343:17357 <> closed_wrt_temp
+binder 17367:17367 <> S:248
+binder 17369:17369 <> i:249
+binder 17371:17371 <> v:250
+R17383:17386 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17387:17401 VST.veric.SeparationLogic <> closed_wrt_vars def
+R17406:17418 VST.floyd.canon <> locald_denote def
+R17421:17424 VST.floyd.canon <> temp constr
+R17428:17428 VST.floyd.closed_lemmas <> v:250 var
+R17426:17426 VST.floyd.closed_lemmas <> i:249 var
+R17403:17403 VST.floyd.closed_lemmas <> S:248 var
+R17378:17379 Coq.Init.Logic <> ::type_scope:'~'_x not
+R17380:17380 VST.floyd.closed_lemmas <> S:248 var
+R17382:17382 VST.floyd.closed_lemmas <> i:249 var
+R17488:17494 VST.veric.mpred <> eval_id def
+prf 17566:17581 <> closed_wrtl_temp
+binder 17591:17591 <> S:251
+binder 17593:17593 <> i:252
+binder 17595:17595 <> v:253
+R17602:17617 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R17622:17634 VST.floyd.canon <> locald_denote def
+R17637:17640 VST.floyd.canon <> temp constr
+R17644:17644 VST.floyd.closed_lemmas <> v:253 var
+R17642:17642 VST.floyd.closed_lemmas <> i:252 var
+R17619:17619 VST.floyd.closed_lemmas <> S:251 var
+R17671:17683 VST.floyd.canon <> locald_denote def
+R17713:17719 VST.veric.mpred <> eval_id def
+prf 17803:17824 <> closed_wrt_get_result1
+R17846:17849 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17841:17845 compcert.common.AST <> ident def
+binder 17838:17838 <> S:254
+binder 17856:17856 <> i:255
+R17865:17868 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17869:17883 VST.veric.SeparationLogic <> closed_wrt_vars def
+R17888:17898 VST.veric.SeparationLogic <> get_result1 def
+R17900:17900 VST.floyd.closed_lemmas <> i:255 var
+R17885:17885 VST.floyd.closed_lemmas <> S:254 var
+R17860:17861 Coq.Init.Logic <> ::type_scope:'~'_x not
+R17862:17862 VST.floyd.closed_lemmas <> S:254 var
+R17864:17864 VST.floyd.closed_lemmas <> i:255 var
+R17926:17936 VST.veric.SeparationLogic <> get_result1 def
+R17984:18001 VST.floyd.closed_lemmas <> closed_wrt_eval_id thm
+R17984:18001 VST.floyd.closed_lemmas <> closed_wrt_eval_id thm
+prf 18028:18050 <> closed_wrtl_get_result1
+R18072:18075 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18067:18071 compcert.common.AST <> ident def
+binder 18064:18064 <> S:256
+binder 18082:18082 <> i:257
+R18086:18101 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R18106:18116 VST.veric.SeparationLogic <> get_result1 def
+R18118:18118 VST.floyd.closed_lemmas <> i:257 var
+R18103:18103 VST.floyd.closed_lemmas <> S:256 var
+R18144:18154 VST.veric.SeparationLogic <> get_result1 def
+prf 18277:18292 <> closed_wrt_tc_FF
+R18308:18316 VST.veric.mpred <> compspecs class
+binder 18304:18305 <> cs:258
+binder 18319:18319 <> S:259
+binder 18321:18321 <> e:260
+R18324:18338 VST.veric.SeparationLogic <> closed_wrt_vars def
+R18343:18358 VST.veric.SeparationLogic <> denote_tc_assert def
+R18361:18365 VST.veric.expr <> tc_FF constr
+R18367:18367 VST.floyd.closed_lemmas <> e:260 var
+R18340:18340 VST.floyd.closed_lemmas <> S:259 var
+prf 18425:18441 <> closed_wrtl_tc_FF
+R18457:18465 VST.veric.mpred <> compspecs class
+binder 18453:18454 <> cs:261
+binder 18468:18468 <> S:262
+binder 18470:18470 <> e:263
+R18473:18488 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R18493:18508 VST.veric.SeparationLogic <> denote_tc_assert def
+R18511:18515 VST.veric.expr <> tc_FF constr
+R18517:18517 VST.floyd.closed_lemmas <> e:263 var
+R18490:18490 VST.floyd.closed_lemmas <> S:262 var
+prf 18634:18649 <> closed_wrt_tc_TT
+R18665:18673 VST.veric.mpred <> compspecs class
+binder 18661:18662 <> cs:264
+binder 18676:18676 <> S:265
+R18679:18693 VST.veric.SeparationLogic <> closed_wrt_vars def
+R18698:18713 VST.veric.SeparationLogic <> denote_tc_assert def
+R18716:18720 VST.veric.expr <> tc_TT constr
+R18695:18695 VST.floyd.closed_lemmas <> S:265 var
+prf 18778:18794 <> closed_wrtl_tc_TT
+R18810:18818 VST.veric.mpred <> compspecs class
+binder 18806:18807 <> cs:266
+binder 18821:18821 <> S:267
+R18824:18839 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R18844:18859 VST.veric.SeparationLogic <> denote_tc_assert def
+R18862:18866 VST.veric.expr <> tc_TT constr
+R18841:18841 VST.floyd.closed_lemmas <> S:267 var
+prf 18983:18997 <> closed_wrt_andp
+binder 19007:19007 <> S:268
+R19022:19023 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19024:19028 VST.veric.mpred <> mpred def
+R19015:19021 VST.veric.mpred <> environ ind
+binder 19010:19010 <> P:269
+binder 19012:19012 <> Q:270
+R19053:19056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19076:19081 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19082:19096 VST.veric.SeparationLogic <> closed_wrt_vars def
+R19102:19105 VST.msl.seplog <> ::logic:x_'&&'_x not
+R19101:19101 VST.floyd.closed_lemmas <> P:269 var
+R19106:19106 VST.floyd.closed_lemmas <> Q:270 var
+R19098:19098 VST.floyd.closed_lemmas <> S:268 var
+R19057:19071 VST.veric.SeparationLogic <> closed_wrt_vars def
+R19075:19075 VST.floyd.closed_lemmas <> Q:270 var
+R19073:19073 VST.floyd.closed_lemmas <> S:268 var
+R19034:19048 VST.veric.SeparationLogic <> closed_wrt_vars def
+R19052:19052 VST.floyd.closed_lemmas <> P:269 var
+R19050:19050 VST.floyd.closed_lemmas <> S:268 var
+prf 19177:19192 <> closed_wrtl_andp
+binder 19202:19202 <> S:271
+R19217:19218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19219:19223 VST.veric.mpred <> mpred def
+R19210:19216 VST.veric.mpred <> environ ind
+binder 19205:19205 <> P:272
+binder 19207:19207 <> Q:273
+R19249:19252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19273:19278 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19279:19294 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R19300:19303 VST.msl.seplog <> ::logic:x_'&&'_x not
+R19299:19299 VST.floyd.closed_lemmas <> P:272 var
+R19304:19304 VST.floyd.closed_lemmas <> Q:273 var
+R19296:19296 VST.floyd.closed_lemmas <> S:271 var
+R19253:19268 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R19272:19272 VST.floyd.closed_lemmas <> Q:273 var
+R19270:19270 VST.floyd.closed_lemmas <> S:271 var
+R19229:19244 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R19248:19248 VST.floyd.closed_lemmas <> P:272 var
+R19246:19246 VST.floyd.closed_lemmas <> S:271 var
+prf 19432:19445 <> closed_wrt_exp
+binder 19456:19456 <> A:274
+binder 19459:19459 <> S:275
+R19466:19469 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19477:19478 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19479:19483 VST.veric.mpred <> mpred def
+R19470:19476 VST.veric.mpred <> environ ind
+R19465:19465 VST.floyd.closed_lemmas <> A:274 var
+binder 19462:19462 <> P:276
+R19489:19489 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19523:19529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19530:19544 VST.veric.SeparationLogic <> closed_wrt_vars def
+R19549:19551 VST.msl.seplog <> exp meth
+R19553:19553 VST.floyd.closed_lemmas <> P:276 var
+R19546:19546 VST.floyd.closed_lemmas <> S:275 var
+binder 19497:19497 <> a:277
+R19500:19514 VST.veric.SeparationLogic <> closed_wrt_vars def
+R19519:19519 VST.floyd.closed_lemmas <> P:276 var
+R19521:19521 VST.floyd.closed_lemmas <> a:277 var
+R19516:19516 VST.floyd.closed_lemmas <> S:275 var
+R19603:19611 VST.msl.log_normalize <> exp_congr thm
+R19603:19611 VST.msl.log_normalize <> exp_congr thm
+prf 19671:19685 <> closed_wrtl_exp
+binder 19696:19696 <> A:278
+binder 19699:19699 <> S:279
+R19706:19709 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19717:19718 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19719:19723 VST.veric.mpred <> mpred def
+R19710:19716 VST.veric.mpred <> environ ind
+R19705:19705 VST.floyd.closed_lemmas <> A:278 var
+binder 19702:19702 <> P:280
+R19729:19729 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19764:19770 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19771:19786 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R19791:19793 VST.msl.seplog <> exp meth
+R19795:19795 VST.floyd.closed_lemmas <> P:280 var
+R19788:19788 VST.floyd.closed_lemmas <> S:279 var
+binder 19737:19737 <> a:281
+R19740:19755 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R19760:19760 VST.floyd.closed_lemmas <> P:280 var
+R19762:19762 VST.floyd.closed_lemmas <> a:281 var
+R19757:19757 VST.floyd.closed_lemmas <> S:279 var
+R19845:19853 VST.msl.log_normalize <> exp_congr thm
+R19845:19853 VST.msl.log_normalize <> exp_congr thm
+prf 19967:19980 <> closed_wrt_imp
+binder 19990:19990 <> S:282
+R20005:20006 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20007:20011 VST.veric.mpred <> mpred def
+R19998:20004 VST.veric.mpred <> environ ind
+binder 19993:19993 <> P:283
+binder 19995:19995 <> Q:284
+R20036:20039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20059:20064 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20065:20079 VST.veric.SeparationLogic <> closed_wrt_vars def
+R20085:20089 VST.msl.seplog <> ::logic:x_'-->'_x not
+R20084:20084 VST.floyd.closed_lemmas <> P:283 var
+R20090:20090 VST.floyd.closed_lemmas <> Q:284 var
+R20081:20081 VST.floyd.closed_lemmas <> S:282 var
+R20040:20054 VST.veric.SeparationLogic <> closed_wrt_vars def
+R20058:20058 VST.floyd.closed_lemmas <> Q:284 var
+R20056:20056 VST.floyd.closed_lemmas <> S:282 var
+R20017:20031 VST.veric.SeparationLogic <> closed_wrt_vars def
+R20035:20035 VST.floyd.closed_lemmas <> P:283 var
+R20033:20033 VST.floyd.closed_lemmas <> S:282 var
+prf 20161:20175 <> closed_wrtl_imp
+binder 20185:20185 <> S:285
+R20200:20201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20202:20206 VST.veric.mpred <> mpred def
+R20193:20199 VST.veric.mpred <> environ ind
+binder 20188:20188 <> P:286
+binder 20190:20190 <> Q:287
+R20232:20235 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20256:20261 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20262:20277 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R20283:20287 VST.msl.seplog <> ::logic:x_'-->'_x not
+R20282:20282 VST.floyd.closed_lemmas <> P:286 var
+R20288:20288 VST.floyd.closed_lemmas <> Q:287 var
+R20279:20279 VST.floyd.closed_lemmas <> S:285 var
+R20236:20251 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R20255:20255 VST.floyd.closed_lemmas <> Q:287 var
+R20253:20253 VST.floyd.closed_lemmas <> S:285 var
+R20212:20227 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R20231:20231 VST.floyd.closed_lemmas <> P:286 var
+R20229:20229 VST.floyd.closed_lemmas <> S:285 var
+prf 20414:20430 <> closed_wrt_sepcon
+binder 20440:20440 <> S:288
+R20455:20456 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20457:20461 VST.veric.mpred <> mpred def
+R20448:20454 VST.veric.mpred <> environ ind
+binder 20443:20443 <> P:289
+binder 20445:20445 <> Q:290
+R20486:20489 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20509:20514 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20515:20529 VST.veric.SeparationLogic <> closed_wrt_vars def
+R20535:20537 VST.msl.seplog <> ::logic:x_'*'_x not
+R20534:20534 VST.floyd.closed_lemmas <> P:289 var
+R20538:20538 VST.floyd.closed_lemmas <> Q:290 var
+R20531:20531 VST.floyd.closed_lemmas <> S:288 var
+R20490:20504 VST.veric.SeparationLogic <> closed_wrt_vars def
+R20508:20508 VST.floyd.closed_lemmas <> Q:290 var
+R20506:20506 VST.floyd.closed_lemmas <> S:288 var
+R20467:20481 VST.veric.SeparationLogic <> closed_wrt_vars def
+R20485:20485 VST.floyd.closed_lemmas <> P:289 var
+R20483:20483 VST.floyd.closed_lemmas <> S:288 var
+prf 20609:20626 <> closed_wrtl_sepcon
+binder 20636:20636 <> S:291
+R20651:20652 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20653:20657 VST.veric.mpred <> mpred def
+R20644:20650 VST.veric.mpred <> environ ind
+binder 20639:20639 <> P:292
+binder 20641:20641 <> Q:293
+R20683:20686 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20707:20712 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20713:20728 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R20734:20736 VST.msl.seplog <> ::logic:x_'*'_x not
+R20733:20733 VST.floyd.closed_lemmas <> P:292 var
+R20737:20737 VST.floyd.closed_lemmas <> Q:293 var
+R20730:20730 VST.floyd.closed_lemmas <> S:291 var
+R20687:20702 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R20706:20706 VST.floyd.closed_lemmas <> Q:293 var
+R20704:20704 VST.floyd.closed_lemmas <> S:291 var
+R20663:20678 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R20682:20682 VST.floyd.closed_lemmas <> P:292 var
+R20680:20680 VST.floyd.closed_lemmas <> S:291 var
+prf 20869:20882 <> closed_wrt_emp
+binder 20885:20885 <> A:294
+R20893:20898 VST.msl.seplog <> NatDed class
+R20900:20900 VST.floyd.closed_lemmas <> A:294 var
+binder 20889:20890 <> ND:295
+R20908:20913 VST.msl.seplog <> SepLog class
+R20915:20915 VST.floyd.closed_lemmas <> A:294 var
+binder 20904:20905 <> SL:296
+binder 20928:20928 <> S:297
+R20931:20945 VST.veric.SeparationLogic <> closed_wrt_vars def
+R20949:20951 VST.msl.seplog <> emp meth
+R20947:20947 VST.floyd.closed_lemmas <> S:297 var
+prf 20999:21013 <> closed_wrtl_emp
+binder 21016:21016 <> A:298
+R21024:21029 VST.msl.seplog <> NatDed class
+R21031:21031 VST.floyd.closed_lemmas <> A:298 var
+binder 21020:21021 <> ND:299
+R21039:21044 VST.msl.seplog <> SepLog class
+R21046:21046 VST.floyd.closed_lemmas <> A:298 var
+binder 21035:21036 <> SL:300
+binder 21059:21059 <> S:301
+R21062:21077 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R21081:21083 VST.msl.seplog <> emp meth
+R21079:21079 VST.floyd.closed_lemmas <> S:301 var
+def 21137:21156 <> closed_wrt_emp_mpred
+R21162:21175 VST.floyd.closed_lemmas <> closed_wrt_emp thm
+R21190:21195 VST.veric.SeparationLogic <> Sveric inst
+R21183:21188 VST.veric.SeparationLogic <> Nveric inst
+R21177:21181 VST.veric.mpred <> mpred def
+def 21209:21229 <> closed_wrtl_emp_mpred
+R21235:21249 VST.floyd.closed_lemmas <> closed_wrtl_emp thm
+R21264:21269 VST.veric.SeparationLogic <> Sveric inst
+R21257:21262 VST.veric.SeparationLogic <> Nveric inst
+R21251:21255 VST.veric.mpred <> mpred def
+prf 21346:21360 <> closed_wrt_allp
+binder 21370:21370 <> A:302
+binder 21372:21372 <> S:303
+binder 21374:21374 <> P:304
+R21379:21379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21416:21422 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21423:21437 VST.veric.SeparationLogic <> closed_wrt_vars def
+R21442:21445 VST.msl.seplog <> allp meth
+R21447:21447 VST.floyd.closed_lemmas <> P:304 var
+R21439:21439 VST.floyd.closed_lemmas <> S:303 var
+R21390:21390 VST.floyd.closed_lemmas <> A:302 var
+binder 21387:21387 <> x:305
+R21393:21407 VST.veric.SeparationLogic <> closed_wrt_vars def
+R21412:21412 VST.floyd.closed_lemmas <> P:304 var
+R21414:21414 VST.floyd.closed_lemmas <> x:305 var
+R21409:21409 VST.floyd.closed_lemmas <> S:303 var
+R21497:21504 VST.msl.seplog <> pred_ext meth
+R21513:21522 VST.msl.seplog <> allp_right meth
+R21541:21549 VST.msl.seplog <> allp_left meth
+R21592:21604 VST.msl.log_normalize <> derives_refl' thm
+R21497:21504 VST.msl.seplog <> pred_ext meth
+R21513:21522 VST.msl.seplog <> allp_right meth
+R21513:21522 VST.msl.seplog <> allp_right meth
+R21541:21549 VST.msl.seplog <> allp_left meth
+R21541:21549 VST.msl.seplog <> allp_left meth
+R21592:21604 VST.msl.log_normalize <> derives_refl' thm
+R21592:21604 VST.msl.log_normalize <> derives_refl' thm
+prf 21630:21645 <> closed_wrtl_allp
+binder 21655:21655 <> A:306
+binder 21657:21657 <> S:307
+binder 21659:21659 <> P:308
+R21664:21664 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21702:21708 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21709:21724 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R21729:21732 VST.msl.seplog <> allp meth
+R21734:21734 VST.floyd.closed_lemmas <> P:308 var
+R21726:21726 VST.floyd.closed_lemmas <> S:307 var
+R21675:21675 VST.floyd.closed_lemmas <> A:306 var
+binder 21672:21672 <> x:309
+R21678:21693 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R21698:21698 VST.floyd.closed_lemmas <> P:308 var
+R21700:21700 VST.floyd.closed_lemmas <> x:309 var
+R21695:21695 VST.floyd.closed_lemmas <> S:307 var
+R21784:21791 VST.msl.seplog <> pred_ext meth
+R21800:21809 VST.msl.seplog <> allp_right meth
+R21828:21836 VST.msl.seplog <> allp_left meth
+R21879:21891 VST.msl.log_normalize <> derives_refl' thm
+R21784:21791 VST.msl.seplog <> pred_ext meth
+R21800:21809 VST.msl.seplog <> allp_right meth
+R21800:21809 VST.msl.seplog <> allp_right meth
+R21828:21836 VST.msl.seplog <> allp_left meth
+R21828:21836 VST.msl.seplog <> allp_left meth
+R21879:21891 VST.msl.log_normalize <> derives_refl' thm
+R21879:21891 VST.msl.log_normalize <> derives_refl' thm
+prf 23432:23446 <> closed_wrt_not1
+R23464:23468 compcert.common.AST <> ident def
+binder 23459:23459 <> i:310
+binder 23461:23461 <> j:311
+R23479:23485 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23486:23488 Coq.Init.Logic <> not def
+R23491:23492 Coq.Init.Logic <> eq ind
+R23496:23496 VST.floyd.closed_lemmas <> j:311 var
+R23494:23494 VST.floyd.closed_lemmas <> i:310 var
+R23476:23477 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R23475:23475 VST.floyd.closed_lemmas <> i:310 var
+R23478:23478 VST.floyd.closed_lemmas <> j:311 var
+prf 23598:23615 <> closed_wrt_tc_andp
+R23632:23640 VST.veric.mpred <> compspecs class
+binder 23628:23629 <> cs:312
+binder 23643:23643 <> S:313
+binder 23645:23645 <> a:314
+binder 23647:23647 <> b:315
+R23690:23695 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23734:23739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23740:23754 VST.veric.SeparationLogic <> closed_wrt_vars def
+R23759:23774 VST.veric.SeparationLogic <> denote_tc_assert def
+R23777:23783 VST.veric.expr <> tc_andp def
+R23787:23787 VST.floyd.closed_lemmas <> b:315 var
+R23785:23785 VST.floyd.closed_lemmas <> a:314 var
+R23756:23756 VST.floyd.closed_lemmas <> S:313 var
+R23696:23710 VST.veric.SeparationLogic <> closed_wrt_vars def
+R23715:23730 VST.veric.SeparationLogic <> denote_tc_assert def
+R23732:23732 VST.floyd.closed_lemmas <> b:315 var
+R23712:23712 VST.floyd.closed_lemmas <> S:313 var
+R23652:23666 VST.veric.SeparationLogic <> closed_wrt_vars def
+R23671:23686 VST.veric.SeparationLogic <> denote_tc_assert def
+R23688:23688 VST.floyd.closed_lemmas <> a:314 var
+R23668:23668 VST.floyd.closed_lemmas <> S:313 var
+R23838:23858 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+R23838:23858 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+R23838:23858 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+R23838:23858 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+prf 23896:23912 <> closed_wrt_tc_orp
+R23929:23937 VST.veric.mpred <> compspecs class
+binder 23925:23926 <> cs:316
+binder 23940:23940 <> S:317
+binder 23942:23942 <> a:318
+binder 23944:23944 <> b:319
+R23987:23992 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24031:24036 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24037:24051 VST.veric.SeparationLogic <> closed_wrt_vars def
+R24056:24071 VST.veric.SeparationLogic <> denote_tc_assert def
+R24074:24079 VST.veric.expr <> tc_orp def
+R24083:24083 VST.floyd.closed_lemmas <> b:319 var
+R24081:24081 VST.floyd.closed_lemmas <> a:318 var
+R24053:24053 VST.floyd.closed_lemmas <> S:317 var
+R23993:24007 VST.veric.SeparationLogic <> closed_wrt_vars def
+R24012:24027 VST.veric.SeparationLogic <> denote_tc_assert def
+R24029:24029 VST.floyd.closed_lemmas <> b:319 var
+R24009:24009 VST.floyd.closed_lemmas <> S:317 var
+R23949:23963 VST.veric.SeparationLogic <> closed_wrt_vars def
+R23968:23983 VST.veric.SeparationLogic <> denote_tc_assert def
+R23985:23985 VST.floyd.closed_lemmas <> a:318 var
+R23965:23965 VST.floyd.closed_lemmas <> S:317 var
+R24134:24153 VST.floyd.typecheck_lemmas <> denote_tc_assert_orp thm
+R24134:24153 VST.floyd.typecheck_lemmas <> denote_tc_assert_orp thm
+R24134:24153 VST.floyd.typecheck_lemmas <> denote_tc_assert_orp thm
+R24134:24153 VST.floyd.typecheck_lemmas <> denote_tc_assert_orp thm
+prf 24191:24208 <> closed_wrt_tc_bool
+R24225:24233 VST.veric.mpred <> compspecs class
+binder 24221:24222 <> cs:320
+binder 24236:24236 <> S:321
+binder 24238:24238 <> b:322
+binder 24240:24240 <> e:323
+R24243:24257 VST.veric.SeparationLogic <> closed_wrt_vars def
+R24262:24277 VST.veric.SeparationLogic <> denote_tc_assert def
+R24280:24286 VST.veric.expr <> tc_bool def
+R24290:24290 VST.floyd.closed_lemmas <> e:323 var
+R24288:24288 VST.floyd.closed_lemmas <> b:322 var
+R24259:24259 VST.floyd.closed_lemmas <> S:321 var
+prf 24363:24391 <> closed_wrt_tc_int_or_ptr_type
+R24408:24416 VST.veric.mpred <> compspecs class
+binder 24404:24405 <> cs:324
+binder 24419:24419 <> S:325
+binder 24421:24421 <> t:326
+R24427:24441 VST.veric.SeparationLogic <> closed_wrt_vars def
+R24446:24461 VST.veric.SeparationLogic <> denote_tc_assert def
+R24464:24481 VST.veric.expr <> tc_int_or_ptr_type def
+R24483:24483 VST.floyd.closed_lemmas <> t:326 var
+R24443:24443 VST.floyd.closed_lemmas <> S:325 var
+R24511:24528 VST.floyd.closed_lemmas <> closed_wrt_tc_bool thm
+R24511:24528 VST.floyd.closed_lemmas <> closed_wrt_tc_bool thm
+prf 24667:24685 <> closed_wrtl_tc_andp
+R24702:24710 VST.veric.mpred <> compspecs class
+binder 24698:24699 <> cs:327
+binder 24713:24713 <> S:328
+binder 24715:24715 <> a:329
+binder 24717:24717 <> b:330
+R24761:24766 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24806:24811 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24812:24827 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R24832:24847 VST.veric.SeparationLogic <> denote_tc_assert def
+R24850:24856 VST.veric.expr <> tc_andp def
+R24860:24860 VST.floyd.closed_lemmas <> b:330 var
+R24858:24858 VST.floyd.closed_lemmas <> a:329 var
+R24829:24829 VST.floyd.closed_lemmas <> S:328 var
+R24767:24782 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R24787:24802 VST.veric.SeparationLogic <> denote_tc_assert def
+R24804:24804 VST.floyd.closed_lemmas <> b:330 var
+R24784:24784 VST.floyd.closed_lemmas <> S:328 var
+R24722:24737 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R24742:24757 VST.veric.SeparationLogic <> denote_tc_assert def
+R24759:24759 VST.floyd.closed_lemmas <> a:329 var
+R24739:24739 VST.floyd.closed_lemmas <> S:328 var
+R24911:24931 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+R24911:24931 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+R24911:24931 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+R24911:24931 VST.floyd.typecheck_lemmas <> denote_tc_assert_andp thm
+prf 24969:24986 <> closed_wrtl_tc_orp
+R25003:25011 VST.veric.mpred <> compspecs class
+binder 24999:25000 <> cs:331
+binder 25014:25014 <> S:332
+binder 25016:25016 <> a:333
+binder 25018:25018 <> b:334
+R25062:25067 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25107:25112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25113:25128 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R25133:25148 VST.veric.SeparationLogic <> denote_tc_assert def
+R25151:25156 VST.veric.expr <> tc_orp def
+R25160:25160 VST.floyd.closed_lemmas <> b:334 var
+R25158:25158 VST.floyd.closed_lemmas <> a:333 var
+R25130:25130 VST.floyd.closed_lemmas <> S:332 var
+R25068:25083 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R25088:25103 VST.veric.SeparationLogic <> denote_tc_assert def
+R25105:25105 VST.floyd.closed_lemmas <> b:334 var
+R25085:25085 VST.floyd.closed_lemmas <> S:332 var
+R25023:25038 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R25043:25058 VST.veric.SeparationLogic <> denote_tc_assert def
+R25060:25060 VST.floyd.closed_lemmas <> a:333 var
+R25040:25040 VST.floyd.closed_lemmas <> S:332 var
+R25211:25230 VST.floyd.typecheck_lemmas <> denote_tc_assert_orp thm
+R25211:25230 VST.floyd.typecheck_lemmas <> denote_tc_assert_orp thm
+R25211:25230 VST.floyd.typecheck_lemmas <> denote_tc_assert_orp thm
+R25211:25230 VST.floyd.typecheck_lemmas <> denote_tc_assert_orp thm
+prf 25267:25285 <> closed_wrtl_tc_bool
+R25302:25310 VST.veric.mpred <> compspecs class
+binder 25298:25299 <> cs:335
+binder 25313:25313 <> S:336
+binder 25315:25315 <> b:337
+binder 25317:25317 <> e:338
+R25320:25335 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R25340:25355 VST.veric.SeparationLogic <> denote_tc_assert def
+R25358:25364 VST.veric.expr <> tc_bool def
+R25368:25368 VST.floyd.closed_lemmas <> e:338 var
+R25366:25366 VST.floyd.closed_lemmas <> b:337 var
+R25337:25337 VST.floyd.closed_lemmas <> S:336 var
+prf 25523:25543 <> closed_wrt_tc_test_eq
+R25560:25568 VST.veric.mpred <> compspecs class
+binder 25556:25557 <> cs:339
+binder 25571:25571 <> S:340
+binder 25573:25573 <> e:341
+binder 25575:25576 <> e':342
+R25613:25626 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25652:25657 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25658:25672 VST.veric.SeparationLogic <> closed_wrt_vars def
+R25682:25697 VST.veric.SeparationLogic <> denote_tc_assert def
+R25708:25717 VST.veric.expr <> tc_test_eq def
+R25721:25722 VST.floyd.closed_lemmas <> e':342 var
+R25719:25719 VST.floyd.closed_lemmas <> e:341 var
+R25674:25674 VST.floyd.closed_lemmas <> S:340 var
+R25627:25646 VST.veric.expr <> expr_closed_wrt_vars def
+R25650:25651 VST.floyd.closed_lemmas <> e':342 var
+R25648:25648 VST.floyd.closed_lemmas <> S:340 var
+R25589:25608 VST.veric.expr <> expr_closed_wrt_vars def
+R25612:25612 VST.floyd.closed_lemmas <> e:341 var
+R25610:25610 VST.floyd.closed_lemmas <> S:340 var
+R25764:25802 VST.veric.binop_lemmas2 <> denote_tc_assert_test_eq' thm
+R25764:25802 VST.veric.binop_lemmas2 <> denote_tc_assert_test_eq' thm
+R25764:25802 VST.veric.binop_lemmas2 <> denote_tc_assert_test_eq' thm
+R25764:25802 VST.veric.binop_lemmas2 <> denote_tc_assert_test_eq' thm
+prf 25857:25878 <> closed_wrtl_tc_test_eq
+R25895:25903 VST.veric.mpred <> compspecs class
+binder 25891:25892 <> cs:343
+binder 25906:25906 <> S:344
+binder 25908:25908 <> e:345
+binder 25910:25911 <> e':346
+R25949:25962 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25989:25994 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25995:26010 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R26020:26035 VST.veric.SeparationLogic <> denote_tc_assert def
+R26046:26055 VST.veric.expr <> tc_test_eq def
+R26059:26060 VST.floyd.closed_lemmas <> e':346 var
+R26057:26057 VST.floyd.closed_lemmas <> e:345 var
+R26012:26012 VST.floyd.closed_lemmas <> S:344 var
+R25963:25983 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R25987:25988 VST.floyd.closed_lemmas <> e':346 var
+R25985:25985 VST.floyd.closed_lemmas <> S:344 var
+R25924:25944 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R25948:25948 VST.floyd.closed_lemmas <> e:345 var
+R25946:25946 VST.floyd.closed_lemmas <> S:344 var
+R26102:26140 VST.veric.binop_lemmas2 <> denote_tc_assert_test_eq' thm
+R26102:26140 VST.veric.binop_lemmas2 <> denote_tc_assert_test_eq' thm
+R26102:26140 VST.veric.binop_lemmas2 <> denote_tc_assert_test_eq' thm
+R26102:26140 VST.veric.binop_lemmas2 <> denote_tc_assert_test_eq' thm
+prf 26266:26289 <> closed_wrt_tc_test_order
+R26306:26314 VST.veric.mpred <> compspecs class
+binder 26302:26303 <> cs:347
+binder 26317:26317 <> S:348
+binder 26319:26319 <> e:349
+binder 26321:26322 <> e':350
+R26359:26372 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26398:26403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26404:26418 VST.veric.SeparationLogic <> closed_wrt_vars def
+R26428:26443 VST.veric.SeparationLogic <> denote_tc_assert def
+R26454:26466 VST.veric.expr <> tc_test_order def
+R26470:26471 VST.floyd.closed_lemmas <> e':350 var
+R26468:26468 VST.floyd.closed_lemmas <> e:349 var
+R26420:26420 VST.floyd.closed_lemmas <> S:348 var
+R26373:26392 VST.veric.expr <> expr_closed_wrt_vars def
+R26396:26397 VST.floyd.closed_lemmas <> e':350 var
+R26394:26394 VST.floyd.closed_lemmas <> S:348 var
+R26335:26354 VST.veric.expr <> expr_closed_wrt_vars def
+R26358:26358 VST.floyd.closed_lemmas <> e:349 var
+R26356:26356 VST.floyd.closed_lemmas <> S:348 var
+R26513:26554 VST.veric.binop_lemmas2 <> denote_tc_assert_test_order' thm
+R26513:26554 VST.veric.binop_lemmas2 <> denote_tc_assert_test_order' thm
+R26513:26554 VST.veric.binop_lemmas2 <> denote_tc_assert_test_order' thm
+R26513:26554 VST.veric.binop_lemmas2 <> denote_tc_assert_test_order' thm
+prf 26609:26633 <> closed_wrtl_tc_test_order
+R26650:26658 VST.veric.mpred <> compspecs class
+binder 26646:26647 <> cs:351
+binder 26661:26661 <> S:352
+binder 26663:26663 <> e:353
+binder 26665:26666 <> e':354
+R26704:26717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26744:26749 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26750:26765 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R26775:26790 VST.veric.SeparationLogic <> denote_tc_assert def
+R26801:26813 VST.veric.expr <> tc_test_order def
+R26817:26818 VST.floyd.closed_lemmas <> e':354 var
+R26815:26815 VST.floyd.closed_lemmas <> e:353 var
+R26767:26767 VST.floyd.closed_lemmas <> S:352 var
+R26718:26738 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R26742:26743 VST.floyd.closed_lemmas <> e':354 var
+R26740:26740 VST.floyd.closed_lemmas <> S:352 var
+R26679:26699 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R26703:26703 VST.floyd.closed_lemmas <> e:353 var
+R26701:26701 VST.floyd.closed_lemmas <> S:352 var
+R26860:26901 VST.veric.binop_lemmas2 <> denote_tc_assert_test_order' thm
+R26860:26901 VST.veric.binop_lemmas2 <> denote_tc_assert_test_order' thm
+R26860:26901 VST.veric.binop_lemmas2 <> denote_tc_assert_test_order' thm
+R26860:26901 VST.veric.binop_lemmas2 <> denote_tc_assert_test_order' thm
+prf 27033:27053 <> expr_closed_const_int
+R27070:27078 VST.veric.mpred <> compspecs class
+binder 27066:27067 <> cs:355
+binder 27081:27081 <> S:356
+binder 27083:27083 <> i:357
+binder 27085:27085 <> t:358
+R27088:27107 VST.veric.expr <> expr_closed_wrt_vars def
+R27112:27121 compcert.cfrontend.Clight <> Econst_int constr
+R27125:27125 VST.floyd.closed_lemmas <> t:358 var
+R27123:27123 VST.floyd.closed_lemmas <> i:357 var
+R27109:27109 VST.floyd.closed_lemmas <> S:356 var
+R27151:27170 VST.veric.expr <> expr_closed_wrt_vars def
+prf 27224:27245 <> expr_closedl_const_int
+binder 27257:27257 <> S:359
+binder 27259:27259 <> i:360
+binder 27261:27261 <> t:361
+R27264:27284 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R27289:27298 compcert.cfrontend.Clight <> Econst_int constr
+R27302:27302 VST.floyd.closed_lemmas <> t:361 var
+R27300:27300 VST.floyd.closed_lemmas <> i:360 var
+R27286:27286 VST.floyd.closed_lemmas <> S:359 var
+R27328:27348 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+prf 27472:27491 <> closed_wrt_tc_iszero
+R27508:27516 VST.veric.mpred <> compspecs class
+binder 27504:27505 <> cs:362
+binder 27520:27520 <> S:363
+binder 27522:27522 <> e:364
+R27549:27556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27557:27571 VST.veric.SeparationLogic <> closed_wrt_vars def
+R27576:27597 VST.veric.expr2 <> denote_tc_assert def
+R27600:27608 VST.veric.expr <> tc_iszero def
+R27610:27610 VST.floyd.closed_lemmas <> e:364 var
+R27573:27573 VST.floyd.closed_lemmas <> S:363 var
+R27525:27544 VST.veric.expr <> expr_closed_wrt_vars def
+R27548:27548 VST.floyd.closed_lemmas <> e:364 var
+R27546:27546 VST.floyd.closed_lemmas <> S:363 var
+R27638:27675 VST.veric.binop_lemmas2 <> denote_tc_assert_iszero' thm
+R27638:27675 VST.veric.binop_lemmas2 <> denote_tc_assert_iszero' thm
+R27638:27675 VST.veric.binop_lemmas2 <> denote_tc_assert_iszero' thm
+prf 27820:27840 <> closed_wrtl_tc_iszero
+R27857:27865 VST.veric.mpred <> compspecs class
+binder 27853:27854 <> cs:365
+binder 27869:27869 <> S:366
+binder 27871:27871 <> e:367
+R27899:27906 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27907:27922 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R27927:27948 VST.veric.expr2 <> denote_tc_assert def
+R27951:27959 VST.veric.expr <> tc_iszero def
+R27961:27961 VST.floyd.closed_lemmas <> e:367 var
+R27924:27924 VST.floyd.closed_lemmas <> S:366 var
+R27874:27894 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R27898:27898 VST.floyd.closed_lemmas <> e:367 var
+R27896:27896 VST.floyd.closed_lemmas <> S:366 var
+R27989:28026 VST.veric.binop_lemmas2 <> denote_tc_assert_iszero' thm
+R27989:28026 VST.veric.binop_lemmas2 <> denote_tc_assert_iszero' thm
+R27989:28026 VST.veric.binop_lemmas2 <> denote_tc_assert_iszero' thm
+prf 28171:28189 <> closed_wrt_tc_isptr
+R28205:28213 VST.veric.mpred <> compspecs class
+binder 28201:28202 <> cs:368
+binder 28216:28216 <> S:369
+binder 28218:28218 <> e:370
+R28250:28258 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28259:28273 VST.veric.SeparationLogic <> closed_wrt_vars def
+R28278:28293 VST.veric.SeparationLogic <> denote_tc_assert def
+R28296:28303 VST.veric.expr <> tc_isptr constr
+R28305:28305 VST.floyd.closed_lemmas <> e:370 var
+R28275:28275 VST.floyd.closed_lemmas <> S:369 var
+R28226:28245 VST.veric.expr <> expr_closed_wrt_vars def
+R28249:28249 VST.floyd.closed_lemmas <> e:370 var
+R28247:28247 VST.floyd.closed_lemmas <> S:369 var
+prf 28455:28474 <> closed_wrtl_tc_isptr
+R28490:28498 VST.veric.mpred <> compspecs class
+binder 28486:28487 <> cs:371
+binder 28501:28501 <> S:372
+binder 28503:28503 <> e:373
+R28536:28544 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28545:28560 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R28565:28580 VST.veric.SeparationLogic <> denote_tc_assert def
+R28583:28590 VST.veric.expr <> tc_isptr constr
+R28592:28592 VST.floyd.closed_lemmas <> e:373 var
+R28562:28562 VST.floyd.closed_lemmas <> S:372 var
+R28511:28531 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R28535:28535 VST.floyd.closed_lemmas <> e:373 var
+R28533:28533 VST.floyd.closed_lemmas <> S:372 var
+prf 28756:28774 <> closed_wrt_tc_isint
+R28790:28798 VST.veric.mpred <> compspecs class
+binder 28786:28787 <> cs:374
+binder 28801:28801 <> S:375
+binder 28803:28803 <> e:376
+R28835:28843 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28844:28858 VST.veric.SeparationLogic <> closed_wrt_vars def
+R28863:28878 VST.veric.SeparationLogic <> denote_tc_assert def
+R28881:28888 VST.veric.expr <> tc_isint constr
+R28890:28890 VST.floyd.closed_lemmas <> e:376 var
+R28860:28860 VST.floyd.closed_lemmas <> S:375 var
+R28811:28830 VST.veric.expr <> expr_closed_wrt_vars def
+R28834:28834 VST.floyd.closed_lemmas <> e:376 var
+R28832:28832 VST.floyd.closed_lemmas <> S:375 var
+prf 29040:29059 <> closed_wrtl_tc_isint
+R29075:29083 VST.veric.mpred <> compspecs class
+binder 29071:29072 <> cs:377
+binder 29086:29086 <> S:378
+binder 29088:29088 <> e:379
+R29121:29129 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29130:29145 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R29150:29165 VST.veric.SeparationLogic <> denote_tc_assert def
+R29168:29175 VST.veric.expr <> tc_isint constr
+R29177:29177 VST.floyd.closed_lemmas <> e:379 var
+R29147:29147 VST.floyd.closed_lemmas <> S:378 var
+R29096:29116 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R29120:29120 VST.floyd.closed_lemmas <> e:379 var
+R29118:29118 VST.floyd.closed_lemmas <> S:378 var
+prf 29330:29349 <> closed_wrt_tc_islong
+R29365:29373 VST.veric.mpred <> compspecs class
+binder 29361:29362 <> cs:380
+binder 29376:29376 <> S:381
+binder 29378:29378 <> e:382
+R29410:29418 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29419:29433 VST.veric.SeparationLogic <> closed_wrt_vars def
+R29438:29453 VST.veric.SeparationLogic <> denote_tc_assert def
+R29456:29464 VST.veric.expr <> tc_islong constr
+R29466:29466 VST.floyd.closed_lemmas <> e:382 var
+R29435:29435 VST.floyd.closed_lemmas <> S:381 var
+R29386:29405 VST.veric.expr <> expr_closed_wrt_vars def
+R29409:29409 VST.floyd.closed_lemmas <> e:382 var
+R29407:29407 VST.floyd.closed_lemmas <> S:381 var
+prf 29617:29637 <> closed_wrtl_tc_islong
+R29653:29661 VST.veric.mpred <> compspecs class
+binder 29649:29650 <> cs:383
+binder 29664:29664 <> S:384
+binder 29666:29666 <> e:385
+R29699:29707 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29708:29723 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R29728:29743 VST.veric.SeparationLogic <> denote_tc_assert def
+R29746:29754 VST.veric.expr <> tc_islong constr
+R29756:29756 VST.floyd.closed_lemmas <> e:385 var
+R29725:29725 VST.floyd.closed_lemmas <> S:384 var
+R29674:29694 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R29698:29698 VST.floyd.closed_lemmas <> e:385 var
+R29696:29696 VST.floyd.closed_lemmas <> S:384 var
+prf 29910:29936 <> closed_wrt_isCastResultType
+R29953:29961 VST.veric.mpred <> compspecs class
+binder 29949:29950 <> cs:386
+binder 29964:29964 <> S:387
+binder 29966:29966 <> e:388
+binder 29968:29968 <> t:389
+binder 29970:29971 <> t0:390
+R30008:30021 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30022:30036 VST.veric.SeparationLogic <> closed_wrt_vars def
+R30058:30073 VST.veric.SeparationLogic <> denote_tc_assert def
+R30076:30091 VST.veric.expr <> isCastResultType def
+R30115:30115 VST.floyd.closed_lemmas <> e:388 var
+R30112:30113 VST.floyd.closed_lemmas <> t0:390 var
+R30094:30107 VST.veric.expr <> implicit_deref def
+R30109:30109 VST.floyd.closed_lemmas <> t:389 var
+R30038:30038 VST.floyd.closed_lemmas <> S:387 var
+R29984:30003 VST.veric.expr <> expr_closed_wrt_vars def
+R30007:30007 VST.floyd.closed_lemmas <> e:388 var
+R30005:30005 VST.floyd.closed_lemmas <> S:387 var
+R30144:30163 VST.veric.expr_lemmas3 <> isCastR thm
+R30144:30163 VST.veric.expr_lemmas3 <> isCastR thm
+R30144:30163 VST.veric.expr_lemmas3 <> isCastR thm
+R30176:30188 VST.veric.Clight_Cop2 <> classify_cast def
+R30191:30204 VST.veric.expr <> implicit_deref def
+R30176:30188 VST.veric.Clight_Cop2 <> classify_cast def
+R30191:30204 VST.veric.expr <> implicit_deref def
+R30472:30492 VST.floyd.closed_lemmas <> closed_wrt_tc_test_eq thm
+R30472:30492 VST.floyd.closed_lemmas <> closed_wrt_tc_test_eq thm
+prf 30552:30569 <> closed_wrtl_tc_Zge
+R30587:30595 VST.veric.mpred <> compspecs class
+binder 30583:30584 <> cs:391
+binder 30598:30598 <> S:392
+binder 30600:30600 <> e:393
+binder 30602:30602 <> i:394
+R30633:30639 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30640:30655 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R30661:30676 VST.veric.SeparationLogic <> denote_tc_assert def
+R30679:30684 VST.veric.expr <> tc_Zge constr
+R30688:30688 VST.floyd.closed_lemmas <> i:394 var
+R30686:30686 VST.floyd.closed_lemmas <> e:393 var
+R30657:30657 VST.floyd.closed_lemmas <> S:392 var
+R30608:30628 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R30632:30632 VST.floyd.closed_lemmas <> e:393 var
+R30630:30630 VST.floyd.closed_lemmas <> S:392 var
+prf 30781:30798 <> closed_wrtl_tc_Zle
+R30816:30824 VST.veric.mpred <> compspecs class
+binder 30812:30813 <> cs:395
+binder 30827:30827 <> S:396
+binder 30829:30829 <> e:397
+binder 30831:30831 <> i:398
+R30862:30868 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30869:30884 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R30890:30905 VST.veric.SeparationLogic <> denote_tc_assert def
+R30908:30913 VST.veric.expr <> tc_Zle constr
+R30917:30917 VST.floyd.closed_lemmas <> i:398 var
+R30915:30915 VST.floyd.closed_lemmas <> e:397 var
+R30886:30886 VST.floyd.closed_lemmas <> S:396 var
+R30837:30857 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R30861:30861 VST.floyd.closed_lemmas <> e:397 var
+R30859:30859 VST.floyd.closed_lemmas <> S:396 var
+prf 31071:31098 <> closed_wrtl_isCastResultType
+R31115:31123 VST.veric.mpred <> compspecs class
+binder 31111:31112 <> cs:399
+binder 31126:31126 <> S:400
+binder 31128:31128 <> e:401
+binder 31130:31130 <> t:402
+binder 31132:31133 <> t0:403
+R31171:31184 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31185:31200 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R31222:31237 VST.veric.SeparationLogic <> denote_tc_assert def
+R31240:31255 VST.veric.expr <> isCastResultType def
+R31279:31279 VST.floyd.closed_lemmas <> e:401 var
+R31276:31277 VST.floyd.closed_lemmas <> t0:403 var
+R31258:31271 VST.veric.expr <> implicit_deref def
+R31273:31273 VST.floyd.closed_lemmas <> t:402 var
+R31202:31202 VST.floyd.closed_lemmas <> S:400 var
+R31146:31166 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R31170:31170 VST.floyd.closed_lemmas <> e:401 var
+R31168:31168 VST.floyd.closed_lemmas <> S:400 var
+R31308:31327 VST.veric.expr_lemmas3 <> isCastR thm
+R31308:31327 VST.veric.expr_lemmas3 <> isCastR thm
+R31308:31327 VST.veric.expr_lemmas3 <> isCastR thm
+R31338:31359 VST.veric.expr2 <> denote_tc_assert def
+R31366:31381 VST.veric.SeparationLogic <> denote_tc_assert def
+R31338:31359 VST.veric.expr2 <> denote_tc_assert def
+R31366:31381 VST.veric.SeparationLogic <> denote_tc_assert def
+R31394:31406 VST.veric.Clight_Cop2 <> classify_cast def
+R31409:31422 VST.veric.expr <> implicit_deref def
+R31394:31406 VST.veric.Clight_Cop2 <> classify_cast def
+R31409:31422 VST.veric.expr <> implicit_deref def
+R31675:31696 VST.floyd.closed_lemmas <> closed_wrtl_tc_test_eq thm
+R31675:31696 VST.floyd.closed_lemmas <> closed_wrtl_tc_test_eq thm
+prf 31837:31857 <> closed_wrt_tc_temp_id
+R31875:31883 VST.veric.mpred <> compspecs class
+binder 31871:31872 <> cs:404
+binder 31886:31890 <> Delta:405
+binder 31892:31892 <> S:406
+binder 31894:31894 <> e:407
+binder 31896:31897 <> id:408
+binder 31899:31899 <> t:409
+R31926:31954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31993:32009 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32010:32024 VST.veric.SeparationLogic <> closed_wrt_vars def
+R32029:32038 VST.veric.SeparationLogic <> tc_temp_id def
+R32051:32051 VST.floyd.closed_lemmas <> e:407 var
+R32045:32049 VST.floyd.closed_lemmas <> Delta:405 var
+R32043:32043 VST.floyd.closed_lemmas <> t:409 var
+R32040:32041 VST.floyd.closed_lemmas <> id:408 var
+R32026:32026 VST.floyd.closed_lemmas <> S:406 var
+R31955:31974 VST.veric.expr <> expr_closed_wrt_vars def
+R31979:31986 compcert.cfrontend.Clight <> Etempvar constr
+R31991:31991 VST.floyd.closed_lemmas <> t:409 var
+R31988:31989 VST.floyd.closed_lemmas <> id:408 var
+R31976:31976 VST.floyd.closed_lemmas <> S:406 var
+R31902:31921 VST.veric.expr <> expr_closed_wrt_vars def
+R31925:31925 VST.floyd.closed_lemmas <> e:407 var
+R31923:31923 VST.floyd.closed_lemmas <> S:406 var
+R32077:32086 VST.veric.SeparationLogic <> tc_temp_id def
+R32096:32112 VST.veric.expr <> typecheck_temp_id def
+R32126:32126 compcert.lib.Maps <> :::x_'!'_x not
+R32143:32146 compcert.lib.Maps <> :::x_'!'_x not
+R32127:32136 VST.veric.seplog <> temp_types def
+R32126:32126 compcert.lib.Maps <> :::x_'!'_x not
+R32143:32146 compcert.lib.Maps <> :::x_'!'_x not
+R32127:32136 VST.veric.seplog <> temp_types def
+prf 32211:32232 <> closed_wrtl_tc_temp_id
+R32250:32258 VST.veric.mpred <> compspecs class
+binder 32246:32247 <> cs:410
+binder 32261:32265 <> Delta:411
+binder 32267:32267 <> S:412
+binder 32269:32269 <> e:413
+binder 32271:32272 <> id:414
+binder 32274:32274 <> t:415
+R32302:32330 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32370:32386 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32387:32402 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R32407:32416 VST.veric.SeparationLogic <> tc_temp_id def
+R32429:32429 VST.floyd.closed_lemmas <> e:413 var
+R32423:32427 VST.floyd.closed_lemmas <> Delta:411 var
+R32421:32421 VST.floyd.closed_lemmas <> t:415 var
+R32418:32419 VST.floyd.closed_lemmas <> id:414 var
+R32404:32404 VST.floyd.closed_lemmas <> S:412 var
+R32331:32351 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R32356:32363 compcert.cfrontend.Clight <> Etempvar constr
+R32368:32368 VST.floyd.closed_lemmas <> t:415 var
+R32365:32366 VST.floyd.closed_lemmas <> id:414 var
+R32353:32353 VST.floyd.closed_lemmas <> S:412 var
+R32277:32297 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R32301:32301 VST.floyd.closed_lemmas <> e:413 var
+R32299:32299 VST.floyd.closed_lemmas <> S:412 var
+R32455:32464 VST.veric.SeparationLogic <> tc_temp_id def
+R32474:32490 VST.veric.expr <> typecheck_temp_id def
+R32504:32504 compcert.lib.Maps <> :::x_'!'_x not
+R32521:32524 compcert.lib.Maps <> :::x_'!'_x not
+R32505:32514 VST.veric.seplog <> temp_types def
+R32504:32504 compcert.lib.Maps <> :::x_'!'_x not
+R32521:32524 compcert.lib.Maps <> :::x_'!'_x not
+R32505:32514 VST.veric.seplog <> temp_types def
+prf 32658:32676 <> expr_closed_tempvar
+R32692:32700 VST.veric.mpred <> compspecs class
+binder 32688:32689 <> cs:416
+binder 32703:32703 <> S:417
+binder 32705:32705 <> i:418
+binder 32707:32707 <> t:419
+R32715:32718 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32719:32738 VST.veric.expr <> expr_closed_wrt_vars def
+R32743:32750 compcert.cfrontend.Clight <> Etempvar constr
+R32754:32754 VST.floyd.closed_lemmas <> t:419 var
+R32752:32752 VST.floyd.closed_lemmas <> i:418 var
+R32740:32740 VST.floyd.closed_lemmas <> S:417 var
+R32710:32711 Coq.Init.Logic <> ::type_scope:'~'_x not
+R32712:32712 VST.floyd.closed_lemmas <> S:417 var
+R32714:32714 VST.floyd.closed_lemmas <> i:418 var
+R32800:32806 VST.veric.mpred <> eval_id def
+prf 32867:32886 <> expr_closedl_tempvar
+binder 32897:32897 <> S:420
+binder 32899:32899 <> i:421
+binder 32901:32901 <> t:422
+R32904:32924 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R32929:32936 compcert.cfrontend.Clight <> Etempvar constr
+R32940:32940 VST.floyd.closed_lemmas <> t:422 var
+R32938:32938 VST.floyd.closed_lemmas <> i:421 var
+R32926:32926 VST.floyd.closed_lemmas <> S:420 var
+R32986:32992 VST.veric.mpred <> eval_id def
+R33089:33091 Coq.Init.Logic <> not def
+R33095:33096 Coq.Init.Logic <> eq ind
+R33098:33102 compcert.common.AST <> ident def
+prf 33174:33189 <> expr_closed_cast
+R33204:33212 VST.veric.mpred <> compspecs class
+binder 33200:33201 <> cs:423
+binder 33215:33215 <> S:424
+binder 33217:33217 <> e:425
+binder 33219:33219 <> t:426
+R33251:33259 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33260:33279 VST.veric.expr <> expr_closed_wrt_vars def
+R33284:33288 compcert.cfrontend.Clight <> Ecast constr
+R33292:33292 VST.floyd.closed_lemmas <> t:426 var
+R33290:33290 VST.floyd.closed_lemmas <> e:425 var
+R33281:33281 VST.floyd.closed_lemmas <> S:424 var
+R33227:33246 VST.veric.expr <> expr_closed_wrt_vars def
+R33250:33250 VST.floyd.closed_lemmas <> e:425 var
+R33248:33248 VST.floyd.closed_lemmas <> S:424 var
+R33311:33330 VST.veric.expr <> expr_closed_wrt_vars def
+prf 33412:33428 <> expr_closedl_cast
+binder 33438:33438 <> S:427
+binder 33440:33440 <> e:428
+binder 33442:33442 <> t:429
+R33475:33483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33484:33504 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R33509:33513 compcert.cfrontend.Clight <> Ecast constr
+R33517:33517 VST.floyd.closed_lemmas <> t:429 var
+R33515:33515 VST.floyd.closed_lemmas <> e:428 var
+R33506:33506 VST.floyd.closed_lemmas <> S:427 var
+R33450:33470 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R33474:33474 VST.floyd.closed_lemmas <> e:428 var
+R33472:33472 VST.floyd.closed_lemmas <> S:427 var
+R33536:33556 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+prf 33700:33716 <> expr_closed_field
+R33731:33739 VST.veric.mpred <> compspecs class
+binder 33727:33728 <> cs:430
+binder 33742:33742 <> S:431
+binder 33744:33744 <> e:432
+binder 33746:33746 <> f:433
+binder 33748:33748 <> t:434
+R33779:33784 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33785:33804 VST.veric.expr <> expr_closed_wrt_vars def
+R33809:33814 compcert.cfrontend.Clight <> Efield constr
+R33820:33820 VST.floyd.closed_lemmas <> t:434 var
+R33818:33818 VST.floyd.closed_lemmas <> f:433 var
+R33816:33816 VST.floyd.closed_lemmas <> e:432 var
+R33806:33806 VST.floyd.closed_lemmas <> S:431 var
+R33753:33774 VST.veric.expr <> lvalue_closed_wrt_vars def
+R33778:33778 VST.floyd.closed_lemmas <> e:432 var
+R33776:33776 VST.floyd.closed_lemmas <> S:431 var
+R33839:33860 VST.veric.expr <> lvalue_closed_wrt_vars def
+R33863:33882 VST.veric.expr <> expr_closed_wrt_vars def
+prf 33959:33976 <> expr_closedl_field
+binder 33986:33986 <> S:435
+binder 33988:33988 <> e:436
+binder 33990:33990 <> f:437
+binder 33992:33992 <> t:438
+R34024:34029 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34030:34050 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R34055:34060 compcert.cfrontend.Clight <> Efield constr
+R34066:34066 VST.floyd.closed_lemmas <> t:438 var
+R34064:34064 VST.floyd.closed_lemmas <> f:437 var
+R34062:34062 VST.floyd.closed_lemmas <> e:436 var
+R34052:34052 VST.floyd.closed_lemmas <> S:435 var
+R33997:34019 VST.floyd.closed_lemmas <> lvalue_closed_wrt_lvars def
+R34023:34023 VST.floyd.closed_lemmas <> e:436 var
+R34021:34021 VST.floyd.closed_lemmas <> S:435 var
+R34085:34107 VST.floyd.closed_lemmas <> lvalue_closed_wrt_lvars def
+R34110:34130 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+prf 34268:34284 <> expr_closed_binop
+R34299:34307 VST.veric.mpred <> compspecs class
+binder 34295:34296 <> cs:439
+binder 34310:34310 <> S:440
+binder 34312:34313 <> op:441
+binder 34315:34316 <> e1:442
+binder 34318:34319 <> e2:443
+binder 34321:34321 <> t:444
+R34354:34362 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34388:34396 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34397:34416 VST.veric.expr <> expr_closed_wrt_vars def
+R34421:34426 compcert.cfrontend.Clight <> Ebinop constr
+R34437:34437 VST.floyd.closed_lemmas <> t:444 var
+R34434:34435 VST.floyd.closed_lemmas <> e2:443 var
+R34431:34432 VST.floyd.closed_lemmas <> e1:442 var
+R34428:34429 VST.floyd.closed_lemmas <> op:441 var
+R34418:34418 VST.floyd.closed_lemmas <> S:440 var
+R34363:34382 VST.veric.expr <> expr_closed_wrt_vars def
+R34386:34387 VST.floyd.closed_lemmas <> e2:443 var
+R34384:34384 VST.floyd.closed_lemmas <> S:440 var
+R34329:34348 VST.veric.expr <> expr_closed_wrt_vars def
+R34352:34353 VST.floyd.closed_lemmas <> e1:442 var
+R34350:34350 VST.floyd.closed_lemmas <> S:440 var
+R34456:34475 VST.veric.expr <> expr_closed_wrt_vars def
+prf 34540:34557 <> expr_closedl_binop
+binder 34567:34567 <> S:445
+binder 34569:34570 <> op:446
+binder 34572:34573 <> e1:447
+binder 34575:34576 <> e2:448
+binder 34578:34578 <> t:449
+R34612:34620 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34647:34655 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34656:34676 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R34681:34686 compcert.cfrontend.Clight <> Ebinop constr
+R34697:34697 VST.floyd.closed_lemmas <> t:449 var
+R34694:34695 VST.floyd.closed_lemmas <> e2:448 var
+R34691:34692 VST.floyd.closed_lemmas <> e1:447 var
+R34688:34689 VST.floyd.closed_lemmas <> op:446 var
+R34678:34678 VST.floyd.closed_lemmas <> S:445 var
+R34621:34641 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R34645:34646 VST.floyd.closed_lemmas <> e2:448 var
+R34643:34643 VST.floyd.closed_lemmas <> S:445 var
+R34586:34606 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R34610:34611 VST.floyd.closed_lemmas <> e1:447 var
+R34608:34608 VST.floyd.closed_lemmas <> S:445 var
+R34716:34736 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+prf 34862:34877 <> expr_closed_unop
+R34892:34900 VST.veric.mpred <> compspecs class
+binder 34888:34889 <> cs:450
+binder 34903:34903 <> S:451
+binder 34905:34906 <> op:452
+binder 34908:34908 <> e:453
+binder 34910:34910 <> t:454
+R34942:34950 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34951:34970 VST.veric.expr <> expr_closed_wrt_vars def
+R34975:34979 compcert.cfrontend.Clight <> Eunop constr
+R34986:34986 VST.floyd.closed_lemmas <> t:454 var
+R34984:34984 VST.floyd.closed_lemmas <> e:453 var
+R34981:34982 VST.floyd.closed_lemmas <> op:452 var
+R34972:34972 VST.floyd.closed_lemmas <> S:451 var
+R34918:34937 VST.veric.expr <> expr_closed_wrt_vars def
+R34941:34941 VST.floyd.closed_lemmas <> e:453 var
+R34939:34939 VST.floyd.closed_lemmas <> S:451 var
+R35005:35024 VST.veric.expr <> expr_closed_wrt_vars def
+prf 35089:35105 <> expr_closedl_unop
+binder 35115:35115 <> S:455
+binder 35117:35118 <> op:456
+binder 35120:35120 <> e:457
+binder 35122:35122 <> t:458
+R35155:35163 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35164:35184 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R35189:35193 compcert.cfrontend.Clight <> Eunop constr
+R35200:35200 VST.floyd.closed_lemmas <> t:458 var
+R35198:35198 VST.floyd.closed_lemmas <> e:457 var
+R35195:35196 VST.floyd.closed_lemmas <> op:456 var
+R35186:35186 VST.floyd.closed_lemmas <> S:455 var
+R35130:35150 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R35154:35154 VST.floyd.closed_lemmas <> e:457 var
+R35152:35152 VST.floyd.closed_lemmas <> S:455 var
+R35219:35239 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+prf 35363:35386 <> closed_wrt_stackframe_of
+R35403:35411 VST.veric.mpred <> compspecs class
+binder 35399:35400 <> cs:459
+binder 35414:35414 <> S:460
+binder 35416:35416 <> f:461
+R35419:35433 VST.veric.SeparationLogic <> closed_wrt_vars def
+R35438:35450 VST.veric.SeparationLogic <> stackframe_of def
+R35452:35452 VST.floyd.closed_lemmas <> f:461 var
+R35435:35435 VST.floyd.closed_lemmas <> S:460 var
+R35478:35490 VST.veric.SeparationLogic <> stackframe_of def
+R35504:35510 compcert.cfrontend.Clight <> fn_vars proj
+R35504:35510 compcert.cfrontend.Clight <> fn_vars proj
+R35528:35541 VST.floyd.closed_lemmas <> closed_wrt_emp thm
+R35528:35541 VST.floyd.closed_lemmas <> closed_wrt_emp thm
+R35550:35566 VST.floyd.closed_lemmas <> closed_wrt_sepcon thm
+R35550:35566 VST.floyd.closed_lemmas <> closed_wrt_sepcon thm
+R35611:35619 VST.veric.SeparationLogic <> var_block def
+def 35713:35720 <> included
+binder 35723:35723 <> U:462
+R35734:35737 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35733:35733 VST.floyd.closed_lemmas <> U:462 var
+binder 35727:35727 <> S:463
+binder 35729:35730 <> S':464
+binder 35754:35754 <> x:465
+R35760:35763 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35764:35765 VST.floyd.closed_lemmas <> S':464 var
+R35767:35767 VST.floyd.closed_lemmas <> x:465 var
+R35757:35757 VST.floyd.closed_lemmas <> S:463 var
+R35759:35759 VST.floyd.closed_lemmas <> x:465 var
+prf 35777:35789 <> closed_wrt_TT
+R35810:35813 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35805:35809 compcert.common.AST <> ident def
+binder 35802:35802 <> S:466
+R35823:35837 VST.veric.SeparationLogic <> closed_wrt_vars def
+R35843:35844 VST.msl.seplog <> TT meth
+R35854:35857 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35858:35862 VST.veric.mpred <> mpred def
+R35847:35853 VST.veric.mpred <> environ ind
+R35839:35839 VST.floyd.closed_lemmas <> S:466 var
+prf 35921:35934 <> closed_wrtl_TT
+R35955:35958 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35950:35954 compcert.common.AST <> ident def
+binder 35947:35947 <> S:467
+R35968:35983 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R35989:35990 VST.msl.seplog <> TT meth
+R36000:36003 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36004:36008 VST.veric.mpred <> mpred def
+R35993:35999 VST.veric.mpred <> environ ind
+R35985:35985 VST.floyd.closed_lemmas <> S:467 var
+prf 36120:36136 <> closed_wrt_subset
+R36160:36163 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36155:36159 compcert.common.AST <> ident def
+binder 36149:36149 <> S:468
+binder 36151:36152 <> S':469
+R36174:36181 VST.floyd.closed_lemmas <> included def
+R36186:36186 VST.floyd.closed_lemmas <> S:468 var
+R36183:36184 VST.floyd.closed_lemmas <> S':469 var
+binder 36171:36171 <> H:470
+binder 36189:36189 <> B:471
+R36202:36205 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36206:36206 VST.floyd.closed_lemmas <> B:471 var
+R36195:36201 VST.veric.mpred <> environ ind
+binder 36192:36192 <> f:472
+R36236:36239 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36240:36254 VST.veric.SeparationLogic <> closed_wrt_vars def
+R36259:36259 VST.floyd.closed_lemmas <> f:472 var
+R36256:36257 VST.floyd.closed_lemmas <> S':469 var
+R36217:36231 VST.veric.SeparationLogic <> closed_wrt_vars def
+R36235:36235 VST.floyd.closed_lemmas <> f:472 var
+R36233:36233 VST.floyd.closed_lemmas <> S:468 var
+prf 36368:36385 <> closed_wrtl_subset
+R36409:36412 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36404:36408 compcert.common.AST <> ident def
+binder 36398:36398 <> S:473
+binder 36400:36401 <> S':474
+R36423:36430 VST.floyd.closed_lemmas <> included def
+R36435:36435 VST.floyd.closed_lemmas <> S:473 var
+R36432:36433 VST.floyd.closed_lemmas <> S':474 var
+binder 36420:36420 <> H:475
+binder 36438:36438 <> B:476
+R36451:36454 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36455:36455 VST.floyd.closed_lemmas <> B:476 var
+R36444:36450 VST.veric.mpred <> environ ind
+binder 36441:36441 <> f:477
+R36486:36489 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36490:36505 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R36510:36510 VST.floyd.closed_lemmas <> f:477 var
+R36507:36508 VST.floyd.closed_lemmas <> S':474 var
+R36466:36481 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R36485:36485 VST.floyd.closed_lemmas <> f:477 var
+R36483:36483 VST.floyd.closed_lemmas <> S:473 var
+prf 36680:36703 <> closed_wrt_Forall_subset
+binder 36715:36715 <> S:478
+binder 36717:36718 <> S':479
+R36724:36731 VST.floyd.closed_lemmas <> included def
+R36736:36736 VST.floyd.closed_lemmas <> S:478 var
+R36733:36734 VST.floyd.closed_lemmas <> S':479 var
+binder 36721:36721 <> H:480
+binder 36739:36739 <> B:481
+R36745:36748 Coq.Init.Datatypes <> list ind
+R36758:36761 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36762:36762 VST.floyd.closed_lemmas <> B:481 var
+R36751:36757 VST.veric.mpred <> environ ind
+binder 36742:36742 <> f:482
+R36796:36800 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36801:36806 Coq.Lists.List <> Forall ind
+R36829:36829 VST.floyd.closed_lemmas <> f:482 var
+R36809:36823 VST.veric.SeparationLogic <> closed_wrt_vars def
+R36825:36826 VST.floyd.closed_lemmas <> S':479 var
+R36768:36773 Coq.Lists.List <> Forall ind
+R36795:36795 VST.floyd.closed_lemmas <> f:482 var
+R36776:36790 VST.veric.SeparationLogic <> closed_wrt_vars def
+R36792:36792 VST.floyd.closed_lemmas <> S:478 var
+R36900:36916 VST.floyd.closed_lemmas <> closed_wrt_subset thm
+R36900:36916 VST.floyd.closed_lemmas <> closed_wrt_subset thm
+prf 36949:36973 <> closed_wrtl_Forall_subset
+binder 36985:36985 <> S:483
+binder 36987:36988 <> S':484
+R36994:37001 VST.floyd.closed_lemmas <> included def
+R37006:37006 VST.floyd.closed_lemmas <> S:483 var
+R37003:37004 VST.floyd.closed_lemmas <> S':484 var
+binder 36991:36991 <> H:485
+binder 37009:37009 <> B:486
+R37015:37018 Coq.Init.Datatypes <> list ind
+R37028:37031 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37032:37032 VST.floyd.closed_lemmas <> B:486 var
+R37021:37027 VST.veric.mpred <> environ ind
+binder 37012:37012 <> f:487
+R37067:37071 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37072:37077 Coq.Lists.List <> Forall ind
+R37101:37101 VST.floyd.closed_lemmas <> f:487 var
+R37080:37095 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R37097:37098 VST.floyd.closed_lemmas <> S':484 var
+R37038:37043 Coq.Lists.List <> Forall ind
+R37066:37066 VST.floyd.closed_lemmas <> f:487 var
+R37046:37061 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R37063:37063 VST.floyd.closed_lemmas <> S:483 var
+R37172:37189 VST.floyd.closed_lemmas <> closed_wrtl_subset thm
+R37172:37189 VST.floyd.closed_lemmas <> closed_wrtl_subset thm
+prf 37223:37243 <> lvalue_closed_tempvar
+R37259:37267 VST.veric.mpred <> compspecs class
+binder 37255:37256 <> cs:488
+binder 37270:37270 <> S:489
+binder 37272:37272 <> i:490
+binder 37274:37274 <> t:491
+R37282:37285 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37286:37307 VST.veric.expr <> lvalue_closed_wrt_vars def
+R37312:37319 compcert.cfrontend.Clight <> Etempvar constr
+R37323:37323 VST.floyd.closed_lemmas <> t:491 var
+R37321:37321 VST.floyd.closed_lemmas <> i:490 var
+R37309:37309 VST.floyd.closed_lemmas <> S:489 var
+R37277:37278 Coq.Init.Logic <> ::type_scope:'~'_x not
+R37279:37279 VST.floyd.closed_lemmas <> S:489 var
+R37281:37281 VST.floyd.closed_lemmas <> i:490 var
+prf 37393:37414 <> lvalue_closedl_tempvar
+binder 37425:37425 <> S:492
+binder 37427:37427 <> i:493
+binder 37429:37429 <> t:494
+R37432:37454 VST.floyd.closed_lemmas <> lvalue_closed_wrt_lvars def
+R37459:37466 compcert.cfrontend.Clight <> Etempvar constr
+R37470:37470 VST.floyd.closed_lemmas <> t:494 var
+R37468:37468 VST.floyd.closed_lemmas <> i:493 var
+R37456:37456 VST.floyd.closed_lemmas <> S:492 var
+prf 37609:37626 <> expr_closed_addrof
+R37641:37649 VST.veric.mpred <> compspecs class
+binder 37637:37638 <> cs:495
+binder 37652:37652 <> S:496
+binder 37654:37654 <> e:497
+binder 37656:37656 <> t:498
+R37690:37698 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37699:37718 VST.veric.expr <> expr_closed_wrt_vars def
+R37723:37729 compcert.cfrontend.Clight <> Eaddrof constr
+R37733:37733 VST.floyd.closed_lemmas <> t:498 var
+R37731:37731 VST.floyd.closed_lemmas <> e:497 var
+R37720:37720 VST.floyd.closed_lemmas <> S:496 var
+R37664:37685 VST.veric.expr <> lvalue_closed_wrt_vars def
+R37689:37689 VST.floyd.closed_lemmas <> e:497 var
+R37687:37687 VST.floyd.closed_lemmas <> S:496 var
+R37752:37773 VST.veric.expr <> lvalue_closed_wrt_vars def
+R37776:37795 VST.veric.expr <> expr_closed_wrt_vars def
+prf 37861:37879 <> expr_closedl_addrof
+binder 37889:37889 <> S:499
+binder 37891:37891 <> e:500
+binder 37893:37893 <> t:501
+R37928:37936 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37937:37957 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R37962:37968 compcert.cfrontend.Clight <> Eaddrof constr
+R37972:37972 VST.floyd.closed_lemmas <> t:501 var
+R37970:37970 VST.floyd.closed_lemmas <> e:500 var
+R37959:37959 VST.floyd.closed_lemmas <> S:499 var
+R37901:37923 VST.floyd.closed_lemmas <> lvalue_closed_wrt_lvars def
+R37927:37927 VST.floyd.closed_lemmas <> e:500 var
+R37925:37925 VST.floyd.closed_lemmas <> S:499 var
+R37991:38013 VST.floyd.closed_lemmas <> lvalue_closed_wrt_lvars def
+R38016:38036 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+prf 38165:38183 <> lvalue_closed_field
+R38198:38206 VST.veric.mpred <> compspecs class
+binder 38194:38195 <> cs:502
+binder 38209:38209 <> S:503
+binder 38211:38211 <> e:504
+binder 38213:38213 <> f:505
+binder 38215:38215 <> t:506
+R38246:38251 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38252:38273 VST.veric.expr <> lvalue_closed_wrt_vars def
+R38278:38283 compcert.cfrontend.Clight <> Efield constr
+R38289:38289 VST.floyd.closed_lemmas <> t:506 var
+R38287:38287 VST.floyd.closed_lemmas <> f:505 var
+R38285:38285 VST.floyd.closed_lemmas <> e:504 var
+R38275:38275 VST.floyd.closed_lemmas <> S:503 var
+R38220:38241 VST.veric.expr <> lvalue_closed_wrt_vars def
+R38245:38245 VST.floyd.closed_lemmas <> e:504 var
+R38243:38243 VST.floyd.closed_lemmas <> S:503 var
+R38308:38329 VST.veric.expr <> lvalue_closed_wrt_vars def
+R38332:38351 VST.veric.expr <> expr_closed_wrt_vars def
+prf 38426:38445 <> lvalue_closedl_field
+binder 38455:38455 <> S:507
+binder 38457:38457 <> e:508
+binder 38459:38459 <> f:509
+binder 38461:38461 <> t:510
+R38493:38498 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38499:38521 VST.floyd.closed_lemmas <> lvalue_closed_wrt_lvars def
+R38526:38531 compcert.cfrontend.Clight <> Efield constr
+R38537:38537 VST.floyd.closed_lemmas <> t:510 var
+R38535:38535 VST.floyd.closed_lemmas <> f:509 var
+R38533:38533 VST.floyd.closed_lemmas <> e:508 var
+R38523:38523 VST.floyd.closed_lemmas <> S:507 var
+R38466:38488 VST.floyd.closed_lemmas <> lvalue_closed_wrt_lvars def
+R38492:38492 VST.floyd.closed_lemmas <> e:508 var
+R38490:38490 VST.floyd.closed_lemmas <> S:507 var
+R38556:38578 VST.floyd.closed_lemmas <> lvalue_closed_wrt_lvars def
+R38581:38601 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+prf 38741:38759 <> lvalue_closed_deref
+R38774:38782 VST.veric.mpred <> compspecs class
+binder 38770:38771 <> cs:511
+binder 38785:38785 <> S:512
+binder 38787:38787 <> e:513
+binder 38789:38789 <> t:514
+R38818:38823 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38824:38845 VST.veric.expr <> lvalue_closed_wrt_vars def
+R38850:38855 compcert.cfrontend.Clight <> Ederef constr
+R38859:38859 VST.floyd.closed_lemmas <> t:514 var
+R38857:38857 VST.floyd.closed_lemmas <> e:513 var
+R38847:38847 VST.floyd.closed_lemmas <> S:512 var
+R38794:38813 VST.veric.expr <> expr_closed_wrt_vars def
+R38817:38817 VST.floyd.closed_lemmas <> e:513 var
+R38815:38815 VST.floyd.closed_lemmas <> S:512 var
+R38878:38899 VST.veric.expr <> lvalue_closed_wrt_vars def
+R38902:38921 VST.veric.expr <> expr_closed_wrt_vars def
+prf 38987:39006 <> lvalue_closedl_deref
+binder 39016:39016 <> S:515
+binder 39018:39018 <> e:516
+binder 39020:39020 <> t:517
+R39050:39055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39056:39078 VST.floyd.closed_lemmas <> lvalue_closed_wrt_lvars def
+R39083:39088 compcert.cfrontend.Clight <> Ederef constr
+R39092:39092 VST.floyd.closed_lemmas <> t:517 var
+R39090:39090 VST.floyd.closed_lemmas <> e:516 var
+R39080:39080 VST.floyd.closed_lemmas <> S:515 var
+R39025:39045 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+R39049:39049 VST.floyd.closed_lemmas <> e:516 var
+R39047:39047 VST.floyd.closed_lemmas <> S:515 var
+R39111:39133 VST.floyd.closed_lemmas <> lvalue_closed_wrt_lvars def
+R39136:39156 VST.floyd.closed_lemmas <> expr_closed_wrt_lvars def
+def 39289:39304 <> closed_eval_expr
+def 39872:39889 <> closed_eval_lvalue
+R39310:39314 compcert.common.AST <> ident def
+binder 39307:39307 <> j:518
+R39321:39324 compcert.cfrontend.Clight <> expr ind
+binder 39318:39318 <> e:519
+R39895:39899 compcert.common.AST <> ident def
+binder 39892:39892 <> j:520
+R39906:39909 compcert.cfrontend.Clight <> expr ind
+binder 39903:39903 <> e:521
+R39329:39332 Coq.Init.Datatypes <> bool ind
+R39914:39917 Coq.Init.Datatypes <> bool ind
+R39344:39344 VST.floyd.closed_lemmas <> e:519 var
+R39354:39363 compcert.cfrontend.Clight <> Econst_int constr
+R39373:39376 Coq.Init.Datatypes <> true constr
+R39381:39391 compcert.cfrontend.Clight <> Econst_long constr
+R39401:39404 Coq.Init.Datatypes <> true constr
+R39409:39420 compcert.cfrontend.Clight <> Econst_float constr
+R39430:39433 Coq.Init.Datatypes <> true constr
+R39438:39450 compcert.cfrontend.Clight <> Econst_single constr
+R39460:39463 Coq.Init.Datatypes <> true constr
+R39468:39475 compcert.cfrontend.Clight <> Etempvar constr
+R39486:39489 Coq.Init.Datatypes <> negb def
+R39492:39500 VST.veric.Cop2 <> eqb_ident def
+R39502:39502 VST.floyd.closed_lemmas <> j:518 var
+R39511:39517 compcert.cfrontend.Clight <> Eaddrof constr
+R39527:39544 VST.floyd.closed_lemmas <> closed_eval_lvalue:523 def
+R39546:39546 VST.floyd.closed_lemmas <> j:518 var
+R39553:39557 compcert.cfrontend.Clight <> Eunop constr
+R39571:39586 VST.floyd.closed_lemmas <> closed_eval_expr:522 def
+R39588:39588 VST.floyd.closed_lemmas <> j:518 var
+R39595:39600 compcert.cfrontend.Clight <> Ebinop constr
+R39618:39621 Coq.Init.Datatypes <> andb def
+R39648:39663 VST.floyd.closed_lemmas <> closed_eval_expr:522 def
+R39665:39665 VST.floyd.closed_lemmas <> j:518 var
+R39624:39639 VST.floyd.closed_lemmas <> closed_eval_expr:522 def
+R39641:39641 VST.floyd.closed_lemmas <> j:518 var
+R39674:39678 compcert.cfrontend.Clight <> Ecast constr
+R39688:39703 VST.floyd.closed_lemmas <> closed_eval_expr:522 def
+R39705:39705 VST.floyd.closed_lemmas <> j:518 var
+R39712:39715 compcert.cfrontend.Clight <> Evar constr
+R39726:39729 Coq.Init.Datatypes <> true constr
+R39734:39739 compcert.cfrontend.Clight <> Ederef constr
+R39749:39764 VST.floyd.closed_lemmas <> closed_eval_expr:522 def
+R39766:39766 VST.floyd.closed_lemmas <> j:518 var
+R39773:39778 compcert.cfrontend.Clight <> Efield constr
+R39790:39807 VST.floyd.closed_lemmas <> closed_eval_lvalue:523 def
+R39809:39809 VST.floyd.closed_lemmas <> j:518 var
+R39816:39822 compcert.cfrontend.Clight <> Esizeof constr
+R39831:39834 Coq.Init.Datatypes <> true constr
+R39839:39846 compcert.cfrontend.Clight <> Ealignof constr
+R39855:39858 Coq.Init.Datatypes <> true constr
+R39929:39929 VST.floyd.closed_lemmas <> e:521 var
+R39939:39942 compcert.cfrontend.Clight <> Evar constr
+R39953:39956 Coq.Init.Datatypes <> true constr
+R39961:39966 compcert.cfrontend.Clight <> Ederef constr
+R39976:39991 VST.floyd.closed_lemmas <> closed_eval_expr:522 def
+R39993:39993 VST.floyd.closed_lemmas <> j:520 var
+R40000:40005 compcert.cfrontend.Clight <> Efield constr
+R40017:40034 VST.floyd.closed_lemmas <> closed_eval_lvalue:523 def
+R40036:40036 VST.floyd.closed_lemmas <> j:520 var
+R40049:40053 Coq.Init.Datatypes <> false constr
+prf 40068:40085 <> closed_eval_expr_e
+prf 40193:40212 <> closed_eval_lvalue_e
+R40104:40112 VST.veric.mpred <> compspecs class
+binder 40100:40101 <> cs:526
+binder 40115:40115 <> j:527
+binder 40117:40117 <> e:528
+R40147:40150 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40151:40165 VST.veric.SeparationLogic <> closed_wrt_vars def
+R40175:40183 VST.veric.expr <> eval_expr def
+R40185:40185 VST.floyd.closed_lemmas <> e:528 var
+R40168:40169 Coq.Init.Logic <> eq ind
+R40171:40171 VST.floyd.closed_lemmas <> j:527 var
+R40140:40142 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40120:40135 VST.floyd.closed_lemmas <> closed_eval_expr def
+R40139:40139 VST.floyd.closed_lemmas <> e:528 var
+R40137:40137 VST.floyd.closed_lemmas <> j:527 var
+R40143:40146 Coq.Init.Datatypes <> true constr
+R40231:40239 VST.veric.mpred <> compspecs class
+binder 40227:40228 <> cs:529
+binder 40242:40242 <> j:530
+binder 40244:40244 <> e:531
+R40276:40279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40280:40294 VST.veric.SeparationLogic <> closed_wrt_vars def
+R40304:40314 VST.veric.expr <> eval_lvalue def
+R40316:40316 VST.floyd.closed_lemmas <> e:531 var
+R40297:40298 Coq.Init.Logic <> eq ind
+R40300:40300 VST.floyd.closed_lemmas <> j:530 var
+R40269:40271 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40247:40264 VST.floyd.closed_lemmas <> closed_eval_lvalue def
+R40268:40268 VST.floyd.closed_lemmas <> e:531 var
+R40266:40266 VST.floyd.closed_lemmas <> j:530 var
+R40272:40275 Coq.Init.Datatypes <> true constr
+R40436:40444 VST.veric.Cop2 <> eqb_ident def
+R40436:40444 VST.veric.Cop2 <> eqb_ident def
+R40471:40481 Coq.PArith.BinPos Pos eqb_neq thm
+R40471:40481 Coq.PArith.BinPos Pos eqb_neq thm
+R40530:40542 Coq.Bool.Bool <> andb_true_iff thm
+R40530:40542 Coq.Bool.Bool <> andb_true_iff thm
+R40530:40542 Coq.Bool.Bool <> andb_true_iff thm
+R40693:40707 VST.veric.SeparationLogic <> closed_wrt_vars def
+R40718:40726 VST.veric.expr <> eval_expr def
+R40710:40711 Coq.Init.Logic <> eq ind
+R40744:40761 VST.floyd.closed_lemmas <> closed_eval_expr_e thm
+R40802:40816 VST.veric.SeparationLogic <> closed_wrt_vars def
+R40827:40837 VST.veric.expr <> eval_lvalue def
+R40819:40820 Coq.Init.Logic <> eq ind
+R40855:40874 VST.floyd.closed_lemmas <> closed_eval_lvalue_e thm
+prf 40907:40926 <> closed_wrt_eval_expr
+R40941:40949 VST.veric.mpred <> compspecs class
+binder 40937:40938 <> cs:532
+binder 40952:40952 <> S:533
+binder 40954:40954 <> e:534
+R40983:40988 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40989:41003 VST.veric.SeparationLogic <> closed_wrt_vars def
+R41008:41016 VST.veric.expr <> eval_expr def
+R41018:41018 VST.floyd.closed_lemmas <> e:534 var
+R41005:41005 VST.floyd.closed_lemmas <> S:533 var
+R40959:40978 VST.veric.expr <> expr_closed_wrt_vars def
+R40982:40982 VST.floyd.closed_lemmas <> e:534 var
+R40980:40980 VST.floyd.closed_lemmas <> S:533 var
+R41036:41055 VST.veric.expr <> expr_closed_wrt_vars def
+R41058:41072 VST.veric.SeparationLogic <> closed_wrt_vars def
+prf 41160:41176 <> closed_wrt_lvalue
+R41191:41199 VST.veric.mpred <> compspecs class
+binder 41187:41188 <> cs:535
+binder 41202:41202 <> S:536
+binder 41204:41204 <> e:537
+R41246:41251 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41283:41286 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41287:41301 VST.veric.SeparationLogic <> closed_wrt_vars def
+R41306:41316 VST.veric.expr <> eval_lvalue def
+R41318:41318 VST.floyd.closed_lemmas <> e:537 var
+R41303:41303 VST.floyd.closed_lemmas <> S:536 var
+R41252:41266 VST.veric.SeparationLogic <> closed_wrt_vars def
+R41271:41279 VST.veric.expr <> eval_expr def
+R41281:41281 VST.floyd.closed_lemmas <> e:537 var
+R41268:41268 VST.floyd.closed_lemmas <> S:536 var
+R41231:41233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41209:41219 compcert.cfrontend.Ctypes <> access_mode def
+R41222:41227 compcert.cfrontend.Clight <> typeof def
+R41229:41229 VST.floyd.closed_lemmas <> e:537 var
+R41234:41245 compcert.cfrontend.Ctypes <> By_reference constr
+R41386:41400 VST.veric.SeparationLogic <> closed_wrt_vars def
+prf 41534:41548 <> closed_wrt_ideq
+R41563:41571 VST.veric.mpred <> compspecs class
+binder 41559:41560 <> cs:538
+binder 41574:41574 <> a:539
+binder 41576:41576 <> b:540
+binder 41578:41578 <> e:541
+R41589:41594 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41622:41627 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41628:41642 VST.veric.SeparationLogic <> closed_wrt_vars def
+binder 41656:41658 <> rho:542
+R41663:41666 VST.msl.seplog <> ::logic:'!!'_x not
+R41698:41698 VST.msl.seplog <> ::logic:'!!'_x not
+R41680:41682 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41667:41673 VST.veric.mpred <> eval_id def
+R41677:41679 VST.floyd.closed_lemmas <> rho:542 var
+R41675:41675 VST.floyd.closed_lemmas <> b:540 var
+R41683:41691 VST.veric.expr <> eval_expr def
+R41695:41697 VST.floyd.closed_lemmas <> rho:542 var
+R41693:41693 VST.floyd.closed_lemmas <> e:541 var
+R41645:41646 Coq.Init.Logic <> eq ind
+R41648:41648 VST.floyd.closed_lemmas <> a:539 var
+R41615:41617 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41595:41610 VST.floyd.closed_lemmas <> closed_eval_expr def
+R41614:41614 VST.floyd.closed_lemmas <> e:541 var
+R41612:41612 VST.floyd.closed_lemmas <> a:539 var
+R41618:41621 Coq.Init.Datatypes <> true constr
+R41584:41587 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R41583:41583 VST.floyd.closed_lemmas <> a:539 var
+R41588:41588 VST.floyd.closed_lemmas <> b:540 var
+R41814:41820 VST.veric.mpred <> eval_id def
+R41866:41883 VST.floyd.closed_lemmas <> closed_eval_expr_e thm
+R41866:41883 VST.floyd.closed_lemmas <> closed_eval_expr_e thm
+R41929:41943 VST.veric.SeparationLogic <> closed_wrt_vars def
+R41946:41947 Coq.Init.Logic <> eq ind
+R41971:41985 VST.floyd.closed_lemmas <> closed_wrt_ideq thm
+prf 42068:42088 <> closed_wrt_tc_nonzero
+R42104:42112 VST.veric.mpred <> compspecs class
+binder 42100:42101 <> cs:543
+binder 42115:42115 <> S:544
+binder 42117:42117 <> e:545
+R42156:42164 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R42165:42179 VST.veric.SeparationLogic <> closed_wrt_vars def
+R42184:42199 VST.veric.SeparationLogic <> denote_tc_assert def
+R42202:42211 VST.veric.expr <> tc_nonzero def
+R42213:42213 VST.floyd.closed_lemmas <> e:545 var
+R42181:42181 VST.floyd.closed_lemmas <> S:544 var
+R42125:42139 VST.veric.SeparationLogic <> closed_wrt_vars def
+R42144:42152 VST.veric.expr <> eval_expr def
+R42154:42154 VST.floyd.closed_lemmas <> e:545 var
+R42141:42141 VST.floyd.closed_lemmas <> S:544 var
+R42288:42325 VST.veric.binop_lemmas2 <> denote_tc_assert_nonzero thm
+R42288:42325 VST.veric.binop_lemmas2 <> denote_tc_assert_nonzero thm
+R42288:42325 VST.veric.binop_lemmas2 <> denote_tc_assert_nonzero thm
+R42288:42325 VST.veric.binop_lemmas2 <> denote_tc_assert_nonzero thm
+R42288:42325 VST.veric.binop_lemmas2 <> denote_tc_assert_nonzero thm
+R42288:42325 VST.veric.binop_lemmas2 <> denote_tc_assert_nonzero thm
+prf 42406:42428 <> closed_wrt_binarithType
+R42445:42453 VST.veric.mpred <> compspecs class
+binder 42441:42442 <> cs:546
+binder 42456:42456 <> S:547
+binder 42458:42459 <> t1:548
+binder 42461:42462 <> t2:549
+binder 42464:42464 <> t:550
+binder 42466:42466 <> a:551
+binder 42468:42468 <> b:552
+R42473:42487 VST.veric.SeparationLogic <> closed_wrt_vars def
+R42492:42507 VST.veric.SeparationLogic <> denote_tc_assert def
+R42510:42521 VST.veric.expr <> binarithType def
+R42533:42533 VST.floyd.closed_lemmas <> b:552 var
+R42531:42531 VST.floyd.closed_lemmas <> a:551 var
+R42529:42529 VST.floyd.closed_lemmas <> t:550 var
+R42526:42527 VST.floyd.closed_lemmas <> t2:549 var
+R42523:42524 VST.floyd.closed_lemmas <> t1:548 var
+R42489:42489 VST.floyd.closed_lemmas <> S:547 var
+R42562:42573 VST.veric.expr <> binarithType def
+R42587:42607 compcert.cfrontend.Cop <> classify_binarith def
+R42587:42607 compcert.cfrontend.Cop <> classify_binarith def
+prf 42701:42722 <> closed_wrt_tc_samebase
+R42739:42747 VST.veric.mpred <> compspecs class
+binder 42735:42736 <> cs:553
+binder 42750:42750 <> S:554
+binder 42752:42753 <> e1:555
+binder 42755:42756 <> e2:556
+R42792:42796 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R42829:42833 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R42834:42848 VST.veric.SeparationLogic <> closed_wrt_vars def
+R42853:42868 VST.veric.SeparationLogic <> denote_tc_assert def
+R42871:42881 VST.veric.expr <> tc_samebase constr
+R42886:42887 VST.floyd.closed_lemmas <> e2:556 var
+R42883:42884 VST.floyd.closed_lemmas <> e1:555 var
+R42850:42850 VST.floyd.closed_lemmas <> S:554 var
+R42797:42811 VST.veric.SeparationLogic <> closed_wrt_vars def
+R42816:42824 VST.veric.expr <> eval_expr def
+R42826:42827 VST.floyd.closed_lemmas <> e2:556 var
+R42813:42813 VST.floyd.closed_lemmas <> S:554 var
+R42760:42774 VST.veric.SeparationLogic <> closed_wrt_vars def
+R42779:42787 VST.veric.expr <> eval_expr def
+R42789:42790 VST.floyd.closed_lemmas <> e1:555 var
+R42776:42776 VST.floyd.closed_lemmas <> S:554 var
+prf 43015:43031 <> closed_wrt_tc_ilt
+R43048:43056 VST.veric.mpred <> compspecs class
+binder 43044:43045 <> cs:557
+binder 43059:43059 <> S:558
+binder 43061:43061 <> e:559
+binder 43063:43063 <> n:560
+R43101:43108 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R43109:43123 VST.veric.SeparationLogic <> closed_wrt_vars def
+R43128:43143 VST.veric.SeparationLogic <> denote_tc_assert def
+R43146:43151 VST.veric.expr <> tc_ilt def
+R43155:43155 VST.floyd.closed_lemmas <> n:560 var
+R43153:43153 VST.floyd.closed_lemmas <> e:559 var
+R43125:43125 VST.floyd.closed_lemmas <> S:558 var
+R43070:43084 VST.veric.SeparationLogic <> closed_wrt_vars def
+R43089:43097 VST.veric.expr <> eval_expr def
+R43099:43099 VST.floyd.closed_lemmas <> e:559 var
+R43086:43086 VST.floyd.closed_lemmas <> S:558 var
+R43205:43239 VST.veric.binop_lemmas2 <> denote_tc_assert_ilt' thm
+R43205:43239 VST.veric.binop_lemmas2 <> denote_tc_assert_ilt' thm
+R43205:43239 VST.veric.binop_lemmas2 <> denote_tc_assert_ilt' thm
+R43205:43239 VST.veric.binop_lemmas2 <> denote_tc_assert_ilt' thm
+prf 43331:43347 <> closed_wrt_tc_llt
+R43364:43372 VST.veric.mpred <> compspecs class
+binder 43360:43361 <> cs:561
+binder 43375:43375 <> S:562
+binder 43377:43377 <> e:563
+binder 43379:43379 <> n:564
+R43417:43424 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R43425:43439 VST.veric.SeparationLogic <> closed_wrt_vars def
+R43444:43459 VST.veric.SeparationLogic <> denote_tc_assert def
+R43462:43467 VST.veric.expr <> tc_llt def
+R43471:43471 VST.floyd.closed_lemmas <> n:564 var
+R43469:43469 VST.floyd.closed_lemmas <> e:563 var
+R43441:43441 VST.floyd.closed_lemmas <> S:562 var
+R43386:43400 VST.veric.SeparationLogic <> closed_wrt_vars def
+R43405:43413 VST.veric.expr <> eval_expr def
+R43415:43415 VST.floyd.closed_lemmas <> e:563 var
+R43402:43402 VST.floyd.closed_lemmas <> S:562 var
+R43521:43555 VST.veric.binop_lemmas2 <> denote_tc_assert_llt' thm
+R43521:43555 VST.veric.binop_lemmas2 <> denote_tc_assert_llt' thm
+R43521:43555 VST.veric.binop_lemmas2 <> denote_tc_assert_llt' thm
+R43521:43555 VST.veric.binop_lemmas2 <> denote_tc_assert_llt' thm
+prf 43647:43663 <> closed_wrt_tc_Zge
+R43680:43688 VST.veric.mpred <> compspecs class
+binder 43676:43677 <> cs:565
+binder 43691:43691 <> S:566
+binder 43693:43693 <> e:567
+binder 43695:43695 <> n:568
+R43733:43740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R43741:43755 VST.veric.SeparationLogic <> closed_wrt_vars def
+R43760:43775 VST.veric.SeparationLogic <> denote_tc_assert def
+R43778:43783 VST.veric.expr <> tc_Zge constr
+R43787:43787 VST.floyd.closed_lemmas <> n:568 var
+R43785:43785 VST.floyd.closed_lemmas <> e:567 var
+R43757:43757 VST.floyd.closed_lemmas <> S:566 var
+R43702:43716 VST.veric.SeparationLogic <> closed_wrt_vars def
+R43721:43729 VST.veric.expr <> eval_expr def
+R43731:43731 VST.floyd.closed_lemmas <> e:567 var
+R43718:43718 VST.floyd.closed_lemmas <> S:566 var
+prf 43909:43925 <> closed_wrt_tc_Zle
+R43942:43950 VST.veric.mpred <> compspecs class
+binder 43938:43939 <> cs:569
+binder 43953:43953 <> S:570
+binder 43955:43955 <> e:571
+binder 43957:43957 <> n:572
+R43995:44002 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R44003:44017 VST.veric.SeparationLogic <> closed_wrt_vars def
+R44022:44037 VST.veric.SeparationLogic <> denote_tc_assert def
+R44040:44045 VST.veric.expr <> tc_Zle constr
+R44049:44049 VST.floyd.closed_lemmas <> n:572 var
+R44047:44047 VST.floyd.closed_lemmas <> e:571 var
+R44019:44019 VST.floyd.closed_lemmas <> S:570 var
+R43964:43978 VST.veric.SeparationLogic <> closed_wrt_vars def
+R43983:43991 VST.veric.expr <> eval_expr def
+R43993:43993 VST.floyd.closed_lemmas <> e:571 var
+R43980:43980 VST.floyd.closed_lemmas <> S:570 var
+prf 44172:44193 <> closed_wrt_replace_nth
+binder 44206:44206 <> B:573
+binder 44209:44209 <> S:574
+binder 44211:44211 <> n:575
+binder 44213:44213 <> R:576
+R44227:44230 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R44231:44231 VST.floyd.closed_lemmas <> B:573 var
+R44220:44226 VST.veric.mpred <> environ ind
+binder 44216:44217 <> R1:577
+R44259:44266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R44295:44302 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R44303:44308 Coq.Lists.List <> Forall ind
+R44331:44341 VST.floyd.canon <> replace_nth def
+R44347:44348 VST.floyd.closed_lemmas <> R1:577 var
+R44345:44345 VST.floyd.closed_lemmas <> R:576 var
+R44343:44343 VST.floyd.closed_lemmas <> n:575 var
+R44311:44325 VST.veric.SeparationLogic <> closed_wrt_vars def
+R44327:44327 VST.floyd.closed_lemmas <> S:574 var
+R44267:44272 Coq.Lists.List <> Forall ind
+R44294:44294 VST.floyd.closed_lemmas <> R:576 var
+R44275:44289 VST.veric.SeparationLogic <> closed_wrt_vars def
+R44291:44291 VST.floyd.closed_lemmas <> S:574 var
+R44239:44253 VST.veric.SeparationLogic <> closed_wrt_vars def
+R44257:44258 VST.floyd.closed_lemmas <> R1:577 var
+R44255:44255 VST.floyd.closed_lemmas <> S:574 var
+prf 44535:44557 <> closed_wrt_tc_nodivover
+R44574:44582 VST.veric.mpred <> compspecs class
+binder 44570:44571 <> cs:578
+binder 44585:44585 <> S:579
+binder 44587:44588 <> e1:580
+binder 44590:44591 <> e2:581
+R44627:44631 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R44664:44668 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R44669:44683 VST.veric.SeparationLogic <> closed_wrt_vars def
+R44688:44703 VST.veric.SeparationLogic <> denote_tc_assert def
+R44706:44717 VST.veric.expr <> tc_nodivover def
+R44722:44723 VST.floyd.closed_lemmas <> e2:581 var
+R44719:44720 VST.floyd.closed_lemmas <> e1:580 var
+R44685:44685 VST.floyd.closed_lemmas <> S:579 var
+R44632:44646 VST.veric.SeparationLogic <> closed_wrt_vars def
+R44651:44659 VST.veric.expr <> eval_expr def
+R44661:44662 VST.floyd.closed_lemmas <> e2:581 var
+R44648:44648 VST.floyd.closed_lemmas <> S:579 var
+R44595:44609 VST.veric.SeparationLogic <> closed_wrt_vars def
+R44614:44622 VST.veric.expr <> eval_expr def
+R44624:44625 VST.floyd.closed_lemmas <> e1:580 var
+R44611:44611 VST.floyd.closed_lemmas <> S:579 var
+R44774:44813 VST.veric.binop_lemmas2 <> denote_tc_assert_nodivover thm
+R44774:44813 VST.veric.binop_lemmas2 <> denote_tc_assert_nodivover thm
+R44774:44813 VST.veric.binop_lemmas2 <> denote_tc_assert_nodivover thm
+R44774:44813 VST.veric.binop_lemmas2 <> denote_tc_assert_nodivover thm
+R44774:44813 VST.veric.binop_lemmas2 <> denote_tc_assert_nodivover thm
+R44774:44813 VST.veric.binop_lemmas2 <> denote_tc_assert_nodivover thm
+prf 44917:44942 <> closed_wrt_tc_nosignedover
+binder 44954:44955 <> op:582
+R44962:44970 VST.veric.mpred <> compspecs class
+binder 44958:44959 <> CS:583
+binder 44973:44973 <> S:584
+binder 44975:44976 <> e1:585
+binder 44978:44979 <> e2:586
+R45016:45021 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R45054:45059 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R45060:45074 VST.veric.SeparationLogic <> closed_wrt_vars def
+R45079:45094 VST.veric.SeparationLogic <> denote_tc_assert def
+R45097:45111 VST.veric.expr <> tc_nosignedover constr
+R45119:45120 VST.floyd.closed_lemmas <> e2:586 var
+R45116:45117 VST.floyd.closed_lemmas <> e1:585 var
+R45113:45114 VST.floyd.closed_lemmas <> op:582 var
+R45076:45076 VST.floyd.closed_lemmas <> S:584 var
+R45022:45036 VST.veric.SeparationLogic <> closed_wrt_vars def
+R45041:45049 VST.veric.expr <> eval_expr def
+R45051:45052 VST.floyd.closed_lemmas <> e2:586 var
+R45038:45038 VST.floyd.closed_lemmas <> S:584 var
+R44984:44998 VST.veric.SeparationLogic <> closed_wrt_vars def
+R45003:45011 VST.veric.expr <> eval_expr def
+R45013:45014 VST.floyd.closed_lemmas <> e1:585 var
+R45000:45000 VST.floyd.closed_lemmas <> S:584 var
+prf 45276:45298 <> closed_wrt_tc_nobinover
+binder 45310:45311 <> op:587
+R45318:45326 VST.veric.mpred <> compspecs class
+binder 45314:45315 <> CS:588
+binder 45329:45329 <> S:589
+binder 45331:45332 <> e1:590
+binder 45334:45335 <> e2:591
+R45372:45377 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R45410:45415 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R45416:45430 VST.veric.SeparationLogic <> closed_wrt_vars def
+R45435:45450 VST.veric.SeparationLogic <> denote_tc_assert def
+R45453:45464 VST.veric.expr <> tc_nobinover def
+R45472:45473 VST.floyd.closed_lemmas <> e2:591 var
+R45469:45470 VST.floyd.closed_lemmas <> e1:590 var
+R45466:45467 VST.floyd.closed_lemmas <> op:587 var
+R45432:45432 VST.floyd.closed_lemmas <> S:589 var
+R45378:45392 VST.veric.SeparationLogic <> closed_wrt_vars def
+R45397:45405 VST.veric.expr <> eval_expr def
+R45407:45408 VST.floyd.closed_lemmas <> e2:591 var
+R45394:45394 VST.floyd.closed_lemmas <> S:589 var
+R45340:45354 VST.veric.SeparationLogic <> closed_wrt_vars def
+R45359:45367 VST.veric.expr <> eval_expr def
+R45369:45370 VST.floyd.closed_lemmas <> e1:590 var
+R45356:45356 VST.floyd.closed_lemmas <> S:589 var
+R45500:45511 VST.veric.expr <> tc_nobinover def
+R45521:45534 VST.veric.expr <> if_expr_signed def
+R45547:45552 compcert.cfrontend.Clight <> typeof def
+R45547:45552 compcert.cfrontend.Clight <> typeof def
+R45617:45625 VST.veric.expr <> eval_expr def
+R45630:45640 VST.veric.mpred <> any_environ def
+R45672:45680 VST.veric.expr <> eval_expr def
+R45685:45695 VST.veric.mpred <> any_environ def
+R45617:45625 VST.veric.expr <> eval_expr def
+R45630:45640 VST.veric.mpred <> any_environ def
+R45672:45680 VST.veric.expr <> eval_expr def
+R45685:45695 VST.veric.mpred <> any_environ def
+R45672:45680 VST.veric.expr <> eval_expr def
+R45685:45695 VST.veric.mpred <> any_environ def
+R45772:45780 VST.veric.expr <> eval_expr def
+R45785:45795 VST.veric.mpred <> any_environ def
+R45827:45835 VST.veric.expr <> eval_expr def
+R45840:45850 VST.veric.mpred <> any_environ def
+R45772:45780 VST.veric.expr <> eval_expr def
+R45785:45795 VST.veric.mpred <> any_environ def
+R45827:45835 VST.veric.expr <> eval_expr def
+R45840:45850 VST.veric.mpred <> any_environ def
+R45827:45835 VST.veric.expr <> eval_expr def
+R45840:45850 VST.veric.mpred <> any_environ def
+R45827:45835 VST.veric.expr <> eval_expr def
+R45840:45850 VST.veric.mpred <> any_environ def
+R45827:45835 VST.veric.expr <> eval_expr def
+R45840:45850 VST.veric.mpred <> any_environ def
+R45827:45835 VST.veric.expr <> eval_expr def
+R45840:45850 VST.veric.mpred <> any_environ def
+R45827:45835 VST.veric.expr <> eval_expr def
+R45840:45850 VST.veric.mpred <> any_environ def
+prf 45993:46010 <> closed_wrt_tc_expr
+prf 46140:46159 <> closed_wrt_tc_lvalue
+R46027:46035 VST.veric.mpred <> compspecs class
+binder 46023:46024 <> cs:592
+binder 46038:46042 <> Delta:593
+binder 46044:46044 <> j:594
+binder 46046:46046 <> e:595
+R46076:46092 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R46093:46107 VST.veric.SeparationLogic <> closed_wrt_vars def
+R46117:46123 VST.veric.SeparationLogic <> tc_expr def
+R46131:46131 VST.floyd.closed_lemmas <> e:595 var
+R46125:46129 VST.floyd.closed_lemmas <> Delta:593 var
+R46110:46111 Coq.Init.Logic <> eq ind
+R46113:46113 VST.floyd.closed_lemmas <> j:594 var
+R46069:46071 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R46049:46064 VST.floyd.closed_lemmas <> closed_eval_expr def
+R46068:46068 VST.floyd.closed_lemmas <> e:595 var
+R46066:46066 VST.floyd.closed_lemmas <> j:594 var
+R46072:46075 Coq.Init.Datatypes <> true constr
+R46176:46184 VST.veric.mpred <> compspecs class
+binder 46172:46173 <> cs:596
+binder 46187:46191 <> Delta:597
+binder 46193:46193 <> j:598
+binder 46195:46195 <> e:599
+R46227:46243 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R46244:46258 VST.veric.SeparationLogic <> closed_wrt_vars def
+R46268:46276 VST.veric.SeparationLogic <> tc_lvalue def
+R46284:46284 VST.floyd.closed_lemmas <> e:599 var
+R46278:46282 VST.floyd.closed_lemmas <> Delta:597 var
+R46261:46262 Coq.Init.Logic <> eq ind
+R46264:46264 VST.floyd.closed_lemmas <> j:598 var
+R46220:46222 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R46198:46215 VST.floyd.closed_lemmas <> closed_eval_lvalue def
+R46219:46219 VST.floyd.closed_lemmas <> e:599 var
+R46217:46217 VST.floyd.closed_lemmas <> j:598 var
+R46223:46226 Coq.Init.Datatypes <> true constr
+R46330:46336 VST.veric.SeparationLogic <> tc_expr def
+R46476:46486 compcert.cfrontend.Ctypes <> access_mode def
+R46530:46541 VST.veric.expr <> get_var_type def
+R46476:46486 compcert.cfrontend.Ctypes <> access_mode def
+R46530:46541 VST.veric.expr <> get_var_type def
+R46592:46592 compcert.lib.Maps <> :::x_'!'_x not
+R46609:46612 compcert.lib.Maps <> :::x_'!'_x not
+R46593:46602 VST.veric.seplog <> temp_types def
+R46592:46592 compcert.lib.Maps <> :::x_'!'_x not
+R46609:46612 compcert.lib.Maps <> :::x_'!'_x not
+R46593:46602 VST.veric.seplog <> temp_types def
+R46674:46677 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R46654:46668 VST.veric.expr <> is_neutral_cast def
+R46678:46691 VST.veric.expr <> same_base_type def
+R46674:46677 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R46654:46668 VST.veric.expr <> is_neutral_cast def
+R46678:46691 VST.veric.expr <> same_base_type def
+R46794:46807 VST.veric.Cop2 <> eqb_ident_spec thm
+R46794:46807 VST.veric.Cop2 <> eqb_ident_spec thm
+R46827:46835 VST.veric.Cop2 <> eqb_ident def
+R46827:46835 VST.veric.Cop2 <> eqb_ident def
+R46896:46916 VST.veric.SeparationLogic <> denote_tc_initialized def
+R46946:46955 VST.msl.Extensionality <> exists_ext thm
+R46946:46955 VST.msl.Extensionality <> exists_ext thm
+R47007:47017 compcert.cfrontend.Ctypes <> access_mode def
+R47007:47017 compcert.cfrontend.Ctypes <> access_mode def
+R47063:47080 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47063:47080 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47109:47127 VST.floyd.closed_lemmas <> closed_wrt_tc_isptr thm
+R47109:47127 VST.floyd.closed_lemmas <> closed_wrt_tc_isptr thm
+R47156:47173 VST.floyd.closed_lemmas <> closed_eval_expr_e thm
+R47156:47173 VST.floyd.closed_lemmas <> closed_eval_expr_e thm
+R47191:47208 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47191:47208 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47294:47311 VST.floyd.closed_lemmas <> closed_eval_expr_e thm
+R47294:47311 VST.floyd.closed_lemmas <> closed_eval_expr_e thm
+R47333:47350 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47333:47350 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47333:47350 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47333:47350 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47379:47394 VST.veric.expr <> isUnOpResultType def
+R47421:47426 compcert.cfrontend.Clight <> typeof def
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47559:47597 VST.veric.binop_lemmas2 <> denote_tc_assert_test_eq' thm
+R47421:47426 compcert.cfrontend.Clight <> typeof def
+R47421:47426 compcert.cfrontend.Clight <> typeof def
+R47421:47426 compcert.cfrontend.Clight <> typeof def
+R47421:47426 compcert.cfrontend.Clight <> typeof def
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47508:47525 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47559:47597 VST.veric.binop_lemmas2 <> denote_tc_assert_test_eq' thm
+R47559:47597 VST.veric.binop_lemmas2 <> denote_tc_assert_test_eq' thm
+R47694:47706 Coq.Bool.Bool <> andb_true_iff thm
+R47694:47706 Coq.Bool.Bool <> andb_true_iff thm
+R47694:47706 Coq.Bool.Bool <> andb_true_iff thm
+R47777:47794 VST.floyd.closed_lemmas <> closed_eval_expr_e thm
+R47808:47825 VST.floyd.closed_lemmas <> closed_eval_expr_e thm
+R47777:47794 VST.floyd.closed_lemmas <> closed_eval_expr_e thm
+R47808:47825 VST.floyd.closed_lemmas <> closed_eval_expr_e thm
+R47848:47865 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47848:47865 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47848:47865 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47848:47865 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47848:47865 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47848:47865 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R47894:47910 VST.veric.expr <> isBinOpResultType def
+R47969:47989 compcert.cfrontend.Cop <> classify_binarith def
+R48004:48009 compcert.cfrontend.Clight <> typeof def
+R47992:47997 compcert.cfrontend.Clight <> typeof def
+R48091:48106 compcert.cfrontend.Cop <> classify_cmp def
+R48121:48126 compcert.cfrontend.Clight <> typeof def
+R48109:48114 compcert.cfrontend.Clight <> typeof def
+R47969:47989 compcert.cfrontend.Cop <> classify_binarith def
+R48004:48009 compcert.cfrontend.Clight <> typeof def
+R47992:47997 compcert.cfrontend.Clight <> typeof def
+R47969:47989 compcert.cfrontend.Cop <> classify_binarith def
+R48004:48009 compcert.cfrontend.Clight <> typeof def
+R47992:47997 compcert.cfrontend.Clight <> typeof def
+R47969:47989 compcert.cfrontend.Cop <> classify_binarith def
+R48004:48009 compcert.cfrontend.Clight <> typeof def
+R47992:47997 compcert.cfrontend.Clight <> typeof def
+R47969:47989 compcert.cfrontend.Cop <> classify_binarith def
+R48004:48009 compcert.cfrontend.Clight <> typeof def
+R47992:47997 compcert.cfrontend.Clight <> typeof def
+R47969:47989 compcert.cfrontend.Cop <> classify_binarith def
+R48004:48009 compcert.cfrontend.Clight <> typeof def
+R47992:47997 compcert.cfrontend.Clight <> typeof def
+R47969:47989 compcert.cfrontend.Cop <> classify_binarith def
+R48004:48009 compcert.cfrontend.Clight <> typeof def
+R47992:47997 compcert.cfrontend.Clight <> typeof def
+R47969:47989 compcert.cfrontend.Cop <> classify_binarith def
+R48004:48009 compcert.cfrontend.Clight <> typeof def
+R47992:47997 compcert.cfrontend.Clight <> typeof def
+R47969:47989 compcert.cfrontend.Cop <> classify_binarith def
+R48004:48009 compcert.cfrontend.Clight <> typeof def
+R47992:47997 compcert.cfrontend.Clight <> typeof def
+R47969:47989 compcert.cfrontend.Cop <> classify_binarith def
+R48004:48009 compcert.cfrontend.Clight <> typeof def
+R47992:47997 compcert.cfrontend.Clight <> typeof def
+R47969:47989 compcert.cfrontend.Cop <> classify_binarith def
+R48004:48009 compcert.cfrontend.Clight <> typeof def
+R47992:47997 compcert.cfrontend.Clight <> typeof def
+R47969:47989 compcert.cfrontend.Cop <> classify_binarith def
+R48004:48009 compcert.cfrontend.Clight <> typeof def
+R47992:47997 compcert.cfrontend.Clight <> typeof def
+R47969:47989 compcert.cfrontend.Cop <> classify_binarith def
+R48004:48009 compcert.cfrontend.Clight <> typeof def
+R47992:47997 compcert.cfrontend.Clight <> typeof def
+R47969:47989 compcert.cfrontend.Cop <> classify_binarith def
+R48004:48009 compcert.cfrontend.Clight <> typeof def
+R47992:47997 compcert.cfrontend.Clight <> typeof def
+R47969:47989 compcert.cfrontend.Cop <> classify_binarith def
+R48004:48009 compcert.cfrontend.Clight <> typeof def
+R47992:47997 compcert.cfrontend.Clight <> typeof def
+R47969:47989 compcert.cfrontend.Cop <> classify_binarith def
+R48004:48009 compcert.cfrontend.Clight <> typeof def
+R47992:47997 compcert.cfrontend.Clight <> typeof def
+R48091:48106 compcert.cfrontend.Cop <> classify_cmp def
+R48121:48126 compcert.cfrontend.Clight <> typeof def
+R48109:48114 compcert.cfrontend.Clight <> typeof def
+R48091:48106 compcert.cfrontend.Cop <> classify_cmp def
+R48121:48126 compcert.cfrontend.Clight <> typeof def
+R48109:48114 compcert.cfrontend.Clight <> typeof def
+R48091:48106 compcert.cfrontend.Cop <> classify_cmp def
+R48121:48126 compcert.cfrontend.Clight <> typeof def
+R48109:48114 compcert.cfrontend.Clight <> typeof def
+R48091:48106 compcert.cfrontend.Cop <> classify_cmp def
+R48121:48126 compcert.cfrontend.Clight <> typeof def
+R48109:48114 compcert.cfrontend.Clight <> typeof def
+R48091:48106 compcert.cfrontend.Cop <> classify_cmp def
+R48121:48126 compcert.cfrontend.Clight <> typeof def
+R48109:48114 compcert.cfrontend.Clight <> typeof def
+R48091:48106 compcert.cfrontend.Cop <> classify_cmp def
+R48121:48126 compcert.cfrontend.Clight <> typeof def
+R48109:48114 compcert.cfrontend.Clight <> typeof def
+R48091:48106 compcert.cfrontend.Cop <> classify_cmp def
+R48121:48126 compcert.cfrontend.Clight <> typeof def
+R48109:48114 compcert.cfrontend.Clight <> typeof def
+R48091:48106 compcert.cfrontend.Cop <> classify_cmp def
+R48121:48126 compcert.cfrontend.Clight <> typeof def
+R48109:48114 compcert.cfrontend.Clight <> typeof def
+R48091:48106 compcert.cfrontend.Cop <> classify_cmp def
+R48121:48126 compcert.cfrontend.Clight <> typeof def
+R48109:48114 compcert.cfrontend.Clight <> typeof def
+R48091:48106 compcert.cfrontend.Cop <> classify_cmp def
+R48121:48126 compcert.cfrontend.Clight <> typeof def
+R48109:48114 compcert.cfrontend.Clight <> typeof def
+R48191:48206 compcert.cfrontend.Cop <> classify_add def
+R48221:48226 compcert.cfrontend.Clight <> typeof def
+R48209:48214 compcert.cfrontend.Clight <> typeof def
+R48191:48206 compcert.cfrontend.Cop <> classify_add def
+R48221:48226 compcert.cfrontend.Clight <> typeof def
+R48209:48214 compcert.cfrontend.Clight <> typeof def
+R48266:48281 compcert.cfrontend.Cop <> classify_sub def
+R48296:48301 compcert.cfrontend.Clight <> typeof def
+R48284:48289 compcert.cfrontend.Clight <> typeof def
+R48266:48281 compcert.cfrontend.Cop <> classify_sub def
+R48296:48301 compcert.cfrontend.Clight <> typeof def
+R48284:48289 compcert.cfrontend.Clight <> typeof def
+R48341:48358 compcert.cfrontend.Cop <> classify_shift def
+R48373:48378 compcert.cfrontend.Clight <> typeof def
+R48361:48366 compcert.cfrontend.Clight <> typeof def
+R48341:48358 compcert.cfrontend.Cop <> classify_shift def
+R48373:48378 compcert.cfrontend.Clight <> typeof def
+R48361:48366 compcert.cfrontend.Clight <> typeof def
+R48418:48435 compcert.cfrontend.Cop <> classify_shift def
+R48450:48455 compcert.cfrontend.Clight <> typeof def
+R48438:48443 compcert.cfrontend.Clight <> typeof def
+R48418:48435 compcert.cfrontend.Cop <> classify_shift def
+R48450:48455 compcert.cfrontend.Clight <> typeof def
+R48438:48443 compcert.cfrontend.Clight <> typeof def
+R48494:48511 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R48494:48511 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R48560:48577 VST.floyd.closed_lemmas <> closed_eval_expr_e thm
+R48560:48577 VST.floyd.closed_lemmas <> closed_eval_expr_e thm
+R48593:48608 VST.veric.expr <> isCastResultType def
+R48622:48634 VST.veric.Clight_Cop2 <> classify_cast def
+R48637:48642 compcert.cfrontend.Clight <> typeof def
+R48622:48634 VST.veric.Clight_Cop2 <> classify_cast def
+R48637:48642 compcert.cfrontend.Clight <> typeof def
+R48835:48855 VST.floyd.closed_lemmas <> closed_wrt_tc_test_eq thm
+R48835:48855 VST.floyd.closed_lemmas <> closed_wrt_tc_test_eq thm
+R48955:48965 compcert.cfrontend.Ctypes <> access_mode def
+R48955:48965 compcert.cfrontend.Ctypes <> access_mode def
+R49010:49027 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R49010:49027 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R49010:49027 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R49010:49027 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R49094:49099 compcert.cfrontend.Clight <> typeof def
+R49148:49150 compcert.lib.Maps <> :::x_'!'_x not
+R49141:49147 VST.veric.mpred <> cenv_cs meth
+R49094:49099 compcert.cfrontend.Clight <> typeof def
+R49148:49150 compcert.lib.Maps <> :::x_'!'_x not
+R49141:49147 VST.veric.mpred <> cenv_cs meth
+R49148:49150 compcert.lib.Maps <> :::x_'!'_x not
+R49141:49147 VST.veric.mpred <> cenv_cs meth
+R49192:49203 compcert.cfrontend.Ctypes <> field_offset def
+R49216:49225 compcert.cfrontend.Ctypes <> co_members proj
+R49205:49211 VST.veric.mpred <> cenv_cs meth
+R49192:49203 compcert.cfrontend.Ctypes <> field_offset def
+R49216:49225 compcert.cfrontend.Ctypes <> co_members proj
+R49205:49211 VST.veric.mpred <> cenv_cs meth
+R49296:49304 VST.veric.SeparationLogic <> tc_lvalue def
+R49368:49379 VST.veric.expr <> get_var_type def
+R49368:49379 VST.veric.expr <> get_var_type def
+R49475:49492 VST.floyd.closed_lemmas <> closed_eval_expr_e thm
+R49475:49492 VST.floyd.closed_lemmas <> closed_eval_expr_e thm
+R49553:49572 VST.floyd.closed_lemmas <> closed_eval_lvalue_e thm
+R49553:49572 VST.floyd.closed_lemmas <> closed_eval_lvalue_e thm
+R49595:49612 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R49595:49612 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R49595:49612 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R49595:49612 VST.floyd.closed_lemmas <> closed_wrt_tc_andp thm
+R49644:49649 compcert.cfrontend.Clight <> typeof def
+R49698:49700 compcert.lib.Maps <> :::x_'!'_x not
+R49691:49697 VST.veric.mpred <> cenv_cs meth
+R49644:49649 compcert.cfrontend.Clight <> typeof def
+R49698:49700 compcert.lib.Maps <> :::x_'!'_x not
+R49691:49697 VST.veric.mpred <> cenv_cs meth
+R49698:49700 compcert.lib.Maps <> :::x_'!'_x not
+R49691:49697 VST.veric.mpred <> cenv_cs meth
+R49742:49753 compcert.cfrontend.Ctypes <> field_offset def
+R49766:49775 compcert.cfrontend.Ctypes <> co_members proj
+R49755:49761 VST.veric.mpred <> cenv_cs meth
+R49742:49753 compcert.cfrontend.Ctypes <> field_offset def
+R49766:49775 compcert.cfrontend.Ctypes <> co_members proj
+R49755:49761 VST.veric.mpred <> cenv_cs meth
+prf 49907:49923 <> closed_wrt_lift1'
+binder 49940:49940 <> A:600
+binder 49942:49942 <> B:601
+R49962:49965 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R49957:49961 compcert.common.AST <> ident def
+binder 49953:49953 <> S:602
+R49978:49981 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R49982:49982 VST.floyd.closed_lemmas <> B:601 var
+R49977:49977 VST.floyd.closed_lemmas <> A:600 var
+binder 49973:49973 <> f:603
+R50006:50009 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R50010:50010 VST.floyd.closed_lemmas <> A:600 var
+R49999:50005 VST.veric.mpred <> environ ind
+binder 49995:49995 <> P:604
+R50040:50043 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R50044:50058 VST.veric.SeparationLogic <> closed_wrt_vars def
+R50063:50063 VST.veric.lift LiftNotation :::'`'_x not
+R50065:50066 VST.veric.lift LiftNotation :::'`'_x not
+R50064:50064 VST.floyd.closed_lemmas <> f:603 var
+R50066:50066 VST.floyd.closed_lemmas <> P:604 var
+R50060:50060 VST.floyd.closed_lemmas <> S:602 var
+R50021:50035 VST.veric.SeparationLogic <> closed_wrt_vars def
+R50039:50039 VST.floyd.closed_lemmas <> P:604 var
+R50037:50037 VST.floyd.closed_lemmas <> S:602 var
+R50091:50106 VST.floyd.closed_lemmas <> closed_wrt_lift1 thm
+R50091:50106 VST.floyd.closed_lemmas <> closed_wrt_lift1 thm
+prf 50206:50226 <> closed_wrt_Econst_int
+R50243:50251 VST.veric.mpred <> compspecs class
+binder 50239:50240 <> cs:605
+binder 50254:50254 <> S:606
+binder 50256:50256 <> i:607
+binder 50258:50258 <> t:608
+R50261:50275 VST.veric.SeparationLogic <> closed_wrt_vars def
+R50280:50288 VST.veric.expr <> eval_expr def
+R50291:50300 compcert.cfrontend.Clight <> Econst_int constr
+R50304:50304 VST.floyd.closed_lemmas <> t:608 var
+R50302:50302 VST.floyd.closed_lemmas <> i:607 var
+R50277:50277 VST.floyd.closed_lemmas <> S:606 var
+prf 50406:50421 <> closed_wrt_PROPx
+binder 50432:50432 <> S:609
+binder 50434:50434 <> P:610
+binder 50436:50436 <> Q:611
+R50458:50461 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R50462:50476 VST.veric.SeparationLogic <> closed_wrt_vars def
+R50481:50485 VST.floyd.canon <> PROPx def
+R50489:50489 VST.floyd.closed_lemmas <> Q:611 var
+R50487:50487 VST.floyd.closed_lemmas <> P:610 var
+R50478:50478 VST.floyd.closed_lemmas <> S:609 var
+R50439:50453 VST.veric.SeparationLogic <> closed_wrt_vars def
+R50457:50457 VST.floyd.closed_lemmas <> Q:611 var
+R50455:50455 VST.floyd.closed_lemmas <> S:609 var
+R50514:50528 VST.floyd.closed_lemmas <> closed_wrt_andp thm
+R50514:50528 VST.floyd.closed_lemmas <> closed_wrt_andp thm
+prf 50574:50590 <> closed_wrtl_PROPx
+binder 50601:50601 <> S:612
+binder 50603:50603 <> P:613
+binder 50605:50605 <> Q:614
+R50628:50631 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R50632:50647 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R50652:50656 VST.floyd.canon <> PROPx def
+R50660:50660 VST.floyd.closed_lemmas <> Q:614 var
+R50658:50658 VST.floyd.closed_lemmas <> P:613 var
+R50649:50649 VST.floyd.closed_lemmas <> S:612 var
+R50608:50623 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R50627:50627 VST.floyd.closed_lemmas <> Q:614 var
+R50625:50625 VST.floyd.closed_lemmas <> S:612 var
+R50685:50700 VST.floyd.closed_lemmas <> closed_wrtl_andp thm
+R50685:50700 VST.floyd.closed_lemmas <> closed_wrtl_andp thm
+prf 50805:50821 <> closed_wrt_LOCALx
+binder 50832:50832 <> S:615
+binder 50834:50834 <> Q:616
+binder 50836:50836 <> R:617
+R50887:50910 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R50930:50953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R50954:50968 VST.veric.SeparationLogic <> closed_wrt_vars def
+R50973:50978 VST.floyd.canon <> LOCALx def
+R50982:50982 VST.floyd.closed_lemmas <> R:617 var
+R50980:50980 VST.floyd.closed_lemmas <> Q:616 var
+R50970:50970 VST.floyd.closed_lemmas <> S:615 var
+R50911:50925 VST.veric.SeparationLogic <> closed_wrt_vars def
+R50929:50929 VST.floyd.closed_lemmas <> R:617 var
+R50927:50927 VST.floyd.closed_lemmas <> S:615 var
+R50839:50844 Coq.Lists.List <> Forall ind
+R50867:50869 Coq.Lists.List <> map def
+R50885:50885 VST.floyd.closed_lemmas <> Q:616 var
+R50871:50883 VST.floyd.canon <> locald_denote def
+R50847:50861 VST.veric.SeparationLogic <> closed_wrt_vars def
+R50863:50863 VST.floyd.closed_lemmas <> S:615 var
+R51007:51021 VST.floyd.closed_lemmas <> closed_wrt_andp thm
+R51007:51021 VST.floyd.closed_lemmas <> closed_wrt_andp thm
+R51152:51166 VST.floyd.closed_lemmas <> closed_wrt_andp thm
+R51152:51166 VST.floyd.closed_lemmas <> closed_wrt_andp thm
+prf 51200:51217 <> closed_wrtl_LOCALx
+binder 51228:51228 <> S:618
+binder 51230:51230 <> Q:619
+binder 51232:51232 <> R:620
+R51284:51307 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R51328:51351 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R51352:51367 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R51372:51377 VST.floyd.canon <> LOCALx def
+R51381:51381 VST.floyd.closed_lemmas <> R:620 var
+R51379:51379 VST.floyd.closed_lemmas <> Q:619 var
+R51369:51369 VST.floyd.closed_lemmas <> S:618 var
+R51308:51323 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R51327:51327 VST.floyd.closed_lemmas <> R:620 var
+R51325:51325 VST.floyd.closed_lemmas <> S:618 var
+R51235:51240 Coq.Lists.List <> Forall ind
+R51264:51266 Coq.Lists.List <> map def
+R51282:51282 VST.floyd.closed_lemmas <> Q:619 var
+R51268:51280 VST.floyd.canon <> locald_denote def
+R51243:51258 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R51260:51260 VST.floyd.closed_lemmas <> S:618 var
+R51406:51421 VST.floyd.closed_lemmas <> closed_wrtl_andp thm
+R51406:51421 VST.floyd.closed_lemmas <> closed_wrtl_andp thm
+R51552:51567 VST.floyd.closed_lemmas <> closed_wrtl_andp thm
+R51552:51567 VST.floyd.closed_lemmas <> closed_wrtl_andp thm
+prf 52017:52031 <> closed_wrt_SEPx
+binder 52041:52041 <> S:621
+binder 52043:52043 <> P:622
+R52051:52065 VST.veric.SeparationLogic <> closed_wrt_vars def
+R52070:52073 VST.floyd.canon <> SEPx def
+R52075:52075 VST.floyd.closed_lemmas <> P:622 var
+R52067:52067 VST.floyd.closed_lemmas <> S:621 var
+R52101:52104 VST.floyd.canon <> SEPx def
+prf 52137:52152 <> closed_wrtl_SEPx
+binder 52162:52162 <> S:623
+binder 52164:52164 <> P:624
+R52172:52187 VST.veric.SeparationLogic <> closed_wrt_lvars def
+R52192:52195 VST.floyd.canon <> SEPx def
+R52197:52197 VST.floyd.closed_lemmas <> P:624 var
+R52189:52189 VST.floyd.closed_lemmas <> S:623 var
+R52223:52226 VST.floyd.canon <> SEPx def
+prf 52314:52330 <> not_not_a_param_i
+R52346:52349 Coq.Init.Datatypes <> list ind
+R52357:52359 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R52352:52356 compcert.common.AST <> ident def
+R52360:52363 compcert.cfrontend.Ctypes <> type ind
+binder 52343:52343 <> L:625
+binder 52367:52367 <> i:626
+R52396:52402 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52403:52404 Coq.Init.Logic <> ::type_scope:'~'_x not
+R52405:52415 VST.veric.SeparationLogic <> not_a_param def
+R52419:52419 VST.floyd.closed_lemmas <> i:626 var
+R52417:52417 VST.floyd.closed_lemmas <> L:625 var
+R52373:52374 Coq.Lists.List <> In def
+R52379:52381 Coq.Lists.List <> map def
+R52394:52394 VST.floyd.closed_lemmas <> L:625 var
+R52385:52387 Coq.Init.Datatypes <> fst def
+R52376:52376 VST.floyd.closed_lemmas <> i:626 var
+prf 52513:52523 <> in_map_fst1
+R52538:52542 compcert.common.AST <> ident def
+binder 52535:52535 <> i:627
+R52549:52552 compcert.cfrontend.Ctypes <> type ind
+binder 52546:52546 <> t:628
+binder 52555:52555 <> L:629
+R52561:52562 Coq.Lists.List <> In def
+R52567:52569 Coq.Lists.List <> map def
+R52588:52589 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R52583:52583 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R52585:52585 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R52587:52587 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R52584:52584 VST.floyd.closed_lemmas <> i:627 var
+R52586:52586 VST.floyd.closed_lemmas <> t:628 var
+R52590:52590 VST.floyd.closed_lemmas <> L:629 var
+R52573:52575 Coq.Init.Datatypes <> fst def
+R52564:52564 VST.floyd.closed_lemmas <> i:627 var
+prf 52676:52686 <> in_map_fst2
+R52701:52705 compcert.common.AST <> ident def
+binder 52698:52698 <> i:630
+binder 52708:52708 <> a:631
+R52714:52717 Coq.Init.Datatypes <> list ind
+R52725:52725 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R52720:52724 compcert.common.AST <> ident def
+R52726:52729 compcert.cfrontend.Ctypes <> type ind
+binder 52711:52711 <> L:632
+R52760:52766 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52767:52768 Coq.Lists.List <> In def
+R52773:52775 Coq.Lists.List <> map def
+R52790:52791 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R52789:52789 VST.floyd.closed_lemmas <> a:631 var
+R52792:52792 VST.floyd.closed_lemmas <> L:632 var
+R52779:52781 Coq.Init.Datatypes <> fst def
+R52770:52770 VST.floyd.closed_lemmas <> i:630 var
+R52737:52738 Coq.Lists.List <> In def
+R52743:52745 Coq.Lists.List <> map def
+R52758:52758 VST.floyd.closed_lemmas <> L:632 var
+R52749:52751 Coq.Init.Datatypes <> fst def
+R52740:52740 VST.floyd.closed_lemmas <> i:630 var
+prf 52872:52886 <> Forall_map_cons
+binder 52899:52899 <> A:633
+binder 52901:52901 <> B:634
+R52909:52912 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52908:52908 VST.floyd.closed_lemmas <> A:633 var
+binder 52905:52905 <> F:635
+R52924:52927 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52928:52928 VST.floyd.closed_lemmas <> A:633 var
+R52923:52923 VST.floyd.closed_lemmas <> B:634 var
+binder 52920:52920 <> g:636
+binder 52931:52931 <> b:637
+binder 52933:52934 <> bl:638
+R52946:52949 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52969:52974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52975:52980 Coq.Lists.List <> Forall ind
+R52985:52987 Coq.Lists.List <> map def
+R52993:52994 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R52992:52992 VST.floyd.closed_lemmas <> b:637 var
+R52995:52996 VST.floyd.closed_lemmas <> bl:638 var
+R52989:52989 VST.floyd.closed_lemmas <> g:636 var
+R52982:52982 VST.floyd.closed_lemmas <> F:635 var
+R52950:52955 Coq.Lists.List <> Forall ind
+R52960:52962 Coq.Lists.List <> map def
+R52966:52967 VST.floyd.closed_lemmas <> bl:638 var
+R52964:52964 VST.floyd.closed_lemmas <> g:636 var
+R52957:52957 VST.floyd.closed_lemmas <> F:635 var
+R52939:52939 VST.floyd.closed_lemmas <> F:635 var
+R52942:52942 VST.floyd.closed_lemmas <> g:636 var
+R52944:52944 VST.floyd.closed_lemmas <> b:637 var
+prf 53054:53067 <> Forall_map_nil
+binder 53080:53080 <> A:639
+binder 53082:53082 <> B:640
+R53090:53093 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R53089:53089 VST.floyd.closed_lemmas <> A:639 var
+binder 53086:53086 <> F:641
+R53105:53108 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R53109:53109 VST.floyd.closed_lemmas <> A:639 var
+R53104:53104 VST.floyd.closed_lemmas <> B:640 var
+binder 53101:53101 <> g:642
+R53115:53120 Coq.Lists.List <> Forall ind
+R53125:53127 Coq.Lists.List <> map def
+R53131:53133 Coq.Init.Datatypes <> nil constr
+R53129:53129 VST.floyd.closed_lemmas <> g:642 var
+R53122:53122 VST.floyd.closed_lemmas <> F:641 var

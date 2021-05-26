@@ -1,0 +1,1451 @@
+DIGEST a74c4a4c02624f253f255f64eae0b59e
+FVST.msl.combiner_sa
+R162:173 VST.msl.base <> <> lib
+R191:204 VST.msl.sepalg <> <> lib
+R222:237 VST.msl.functors <> <> lib
+R255:279 VST.msl.sepalg_generators <> <> lib
+R297:319 VST.msl.sepalg_functors <> <> lib
+def 428:433 <> midObj
+binder 436:436 <> A:1
+R444:447 VST.msl.sepalg <> Join class
+R449:449 VST.msl.combiner_sa <> A:1 var
+binder 440:441 <> JA:2
+R457:457 VST.msl.combiner_sa <> A:1 var
+binder 453:453 <> a:3
+R481:484 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R470:470 Coq.Init.Logic <> ::type_scope:'~'_x not
+R471:478 VST.msl.sepalg <> identity def
+R480:480 VST.msl.combiner_sa <> a:3 var
+R485:486 Coq.Init.Logic <> ::type_scope:'~'_x not
+R487:490 VST.msl.sepalg <> full def
+R492:492 VST.msl.combiner_sa <> a:3 var
+def 507:515 <> ijoinable
+binder 517:517 <> A:4
+R524:527 VST.msl.sepalg <> Join class
+R529:529 VST.msl.combiner_sa <> A:4 var
+binder 520:521 <> JA:5
+R542:542 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R545:547 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R549:551 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R561:561 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R548:548 VST.msl.combiner_sa <> A:4 var
+binder 543:544 <> sh:6
+R552:557 VST.msl.combiner_sa <> midObj def
+R559:560 VST.msl.combiner_sa <> sh:6 var
+def 576:580 <> ijoin
+binder 583:583 <> A:7
+R591:594 VST.msl.sepalg <> Join class
+R596:596 VST.msl.combiner_sa <> A:7 var
+binder 587:588 <> JA:8
+R611:619 VST.msl.combiner_sa <> ijoinable def
+R621:621 VST.msl.combiner_sa <> A:7 var
+binder 600:601 <> j1:9
+binder 603:604 <> j2:10
+binder 606:607 <> j3:11
+R642:642 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R645:646 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R649:650 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R653:653 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R643:644 VST.msl.combiner_sa <> j1:9 var
+R647:648 VST.msl.combiner_sa <> j2:10 var
+R651:652 VST.msl.combiner_sa <> j3:11 var
+R662:662 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R676:677 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R691:692 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R706:706 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R663:668 Coq.Init.Specif <> existT constr
+R678:683 Coq.Init.Specif <> existT constr
+R693:698 Coq.Init.Specif <> existT constr
+R711:714 VST.msl.sepalg <> join def
+prf 739:746 <> ijoin_eq
+binder 749:749 <> A:12
+R757:760 VST.msl.sepalg <> Join class
+R762:762 VST.msl.combiner_sa <> A:12 var
+binder 753:754 <> JA:13
+R769:776 VST.msl.sepalg <> Perm_alg class
+R778:778 VST.msl.combiner_sa <> A:12 var
+binder 765:766 <> PA:14
+binder 790:791 <> j1:15
+binder 793:794 <> j2:16
+binder 796:797 <> j3:17
+binder 799:801 <> j3':18
+R820:825 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R841:846 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R849:851 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R847:848 VST.msl.combiner_sa <> j3:17 var
+R852:854 VST.msl.combiner_sa <> j3':18 var
+R826:830 VST.msl.combiner_sa <> ijoin def
+R838:840 VST.msl.combiner_sa <> j3':18 var
+R835:836 VST.msl.combiner_sa <> j2:16 var
+R832:833 VST.msl.combiner_sa <> j1:15 var
+R806:810 VST.msl.combiner_sa <> ijoin def
+R818:819 VST.msl.combiner_sa <> j3:17 var
+R815:816 VST.msl.combiner_sa <> j2:16 var
+R812:813 VST.msl.combiner_sa <> j1:15 var
+R926:930 VST.msl.combiner_sa <> ijoin def
+R946:955 VST.msl.Extensionality <> existT_ext thm
+R946:955 VST.msl.Extensionality <> existT_ext thm
+R967:973 VST.msl.sepalg <> join_eq meth
+R967:973 VST.msl.sepalg <> join_eq meth
+prf 995:1003 <> ijoin_com
+binder 1006:1006 <> A:19
+R1014:1017 VST.msl.sepalg <> Join class
+R1019:1019 VST.msl.combiner_sa <> A:19 var
+binder 1010:1011 <> JA:20
+R1026:1033 VST.msl.sepalg <> Perm_alg class
+R1035:1035 VST.msl.combiner_sa <> A:19 var
+binder 1022:1023 <> PA:21
+binder 1047:1048 <> j1:22
+binder 1050:1051 <> j2:23
+binder 1053:1054 <> j3:24
+R1073:1076 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1077:1081 VST.msl.combiner_sa <> ijoin def
+R1089:1090 VST.msl.combiner_sa <> j3:24 var
+R1086:1087 VST.msl.combiner_sa <> j1:22 var
+R1083:1084 VST.msl.combiner_sa <> j2:23 var
+R1059:1063 VST.msl.combiner_sa <> ijoin def
+R1071:1072 VST.msl.combiner_sa <> j3:24 var
+R1068:1069 VST.msl.combiner_sa <> j2:23 var
+R1065:1066 VST.msl.combiner_sa <> j1:22 var
+R1177:1185 VST.msl.sepalg <> join_comm meth
+R1177:1185 VST.msl.sepalg <> join_comm meth
+prf 1202:1212 <> ijoin_assoc
+binder 1215:1215 <> A:25
+R1223:1226 VST.msl.sepalg <> Join class
+R1228:1228 VST.msl.combiner_sa <> A:25 var
+binder 1219:1220 <> JA:26
+R1235:1242 VST.msl.sepalg <> Perm_alg class
+R1244:1244 VST.msl.combiner_sa <> A:25 var
+binder 1231:1232 <> PA:27
+R1251:1257 VST.msl.sepalg <> Sep_alg class
+R1259:1259 VST.msl.combiner_sa <> A:25 var
+binder 1247:1248 <> SA:28
+R1266:1273 VST.msl.sepalg <> Disj_alg class
+R1275:1275 VST.msl.combiner_sa <> A:25 var
+binder 1262:1263 <> CA:29
+binder 1287:1287 <> a:30
+binder 1289:1289 <> b:31
+binder 1291:1291 <> c:32
+binder 1293:1293 <> d:33
+binder 1295:1295 <> e:34
+R1311:1316 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1328:1333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1334:1334 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1336:1338 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1350:1352 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1379:1379 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1339:1347 VST.msl.combiner_sa <> ijoinable def
+R1349:1349 VST.msl.combiner_sa <> A:25 var
+binder 1335:1335 <> f:35
+R1364:1367 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1353:1357 VST.msl.combiner_sa <> ijoin def
+R1363:1363 VST.msl.combiner_sa <> f:35 var
+R1361:1361 VST.msl.combiner_sa <> c:32 var
+R1359:1359 VST.msl.combiner_sa <> b:31 var
+R1368:1372 VST.msl.combiner_sa <> ijoin def
+R1378:1378 VST.msl.combiner_sa <> e:34 var
+R1376:1376 VST.msl.combiner_sa <> f:35 var
+R1374:1374 VST.msl.combiner_sa <> a:30 var
+R1317:1321 VST.msl.combiner_sa <> ijoin def
+R1327:1327 VST.msl.combiner_sa <> e:34 var
+R1325:1325 VST.msl.combiner_sa <> c:32 var
+R1323:1323 VST.msl.combiner_sa <> d:33 var
+R1300:1304 VST.msl.combiner_sa <> ijoin def
+R1310:1310 VST.msl.combiner_sa <> d:33 var
+R1308:1308 VST.msl.combiner_sa <> b:31 var
+R1306:1306 VST.msl.combiner_sa <> a:30 var
+R1465:1469 VST.msl.combiner_sa <> ijoin def
+R1489:1498 VST.msl.sepalg <> join_assoc meth
+R1489:1498 VST.msl.sepalg <> join_assoc meth
+R1530:1530 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1542:1547 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1555:1555 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1531:1531 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1532:1539 VST.msl.sepalg <> identity def
+R1548:1548 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1549:1552 VST.msl.sepalg <> full def
+R1530:1530 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1542:1547 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1555:1555 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1531:1531 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1532:1539 VST.msl.sepalg <> identity def
+R1548:1548 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1549:1552 VST.msl.sepalg <> full def
+R1570:1575 VST.msl.combiner_sa <> midObj def
+R1621:1634 VST.msl.sepalg <> split_identity thm
+R1621:1634 VST.msl.sepalg <> split_identity thm
+R1773:1785 VST.msl.sepalg <> unit_identity thm
+R1773:1785 VST.msl.sepalg <> unit_identity thm
+R1815:1820 Coq.Init.Specif <> existT constr
+R1822:1827 VST.msl.combiner_sa <> midObj def
+R1815:1820 Coq.Init.Specif <> existT constr
+R1822:1827 VST.msl.combiner_sa <> midObj def
+prf 1859:1868 <> ijoin_canc
+binder 1871:1871 <> A:36
+R1880:1883 VST.msl.sepalg <> Join class
+R1885:1885 VST.msl.combiner_sa <> A:36 var
+binder 1876:1877 <> JA:37
+R1892:1898 VST.msl.sepalg <> Sep_alg class
+R1900:1900 VST.msl.combiner_sa <> A:36 var
+binder 1888:1889 <> SA:38
+R1907:1914 VST.msl.sepalg <> Canc_alg class
+R1916:1916 VST.msl.combiner_sa <> A:36 var
+binder 1903:1904 <> CA:39
+binder 1927:1927 <> a:40
+binder 1929:1930 <> a':41
+binder 1932:1932 <> b:42
+binder 1934:1934 <> c:43
+R1950:1955 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1968:1973 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1975:1977 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1974:1974 VST.msl.combiner_sa <> a:40 var
+R1978:1979 VST.msl.combiner_sa <> a':41 var
+R1956:1960 VST.msl.combiner_sa <> ijoin def
+R1967:1967 VST.msl.combiner_sa <> c:43 var
+R1965:1965 VST.msl.combiner_sa <> b:42 var
+R1962:1963 VST.msl.combiner_sa <> a':41 var
+R1939:1943 VST.msl.combiner_sa <> ijoin def
+R1949:1949 VST.msl.combiner_sa <> c:43 var
+R1947:1947 VST.msl.combiner_sa <> b:42 var
+R1945:1945 VST.msl.combiner_sa <> a:40 var
+R2057:2061 VST.msl.combiner_sa <> ijoin def
+R2077:2086 VST.msl.Extensionality <> existT_ext thm
+R2077:2086 VST.msl.Extensionality <> existT_ext thm
+R2098:2106 VST.msl.sepalg <> join_canc def
+R2098:2106 VST.msl.sepalg <> join_canc def
+prf 2128:2142 <> ijoin_identity1
+binder 2145:2145 <> A:44
+R2154:2157 VST.msl.sepalg <> Join class
+R2159:2159 VST.msl.combiner_sa <> A:44 var
+binder 2150:2151 <> JA:45
+R2166:2173 VST.msl.sepalg <> Perm_alg class
+R2175:2175 VST.msl.combiner_sa <> A:44 var
+binder 2162:2163 <> PA:46
+R2182:2188 VST.msl.sepalg <> Sep_alg class
+R2190:2190 VST.msl.combiner_sa <> A:44 var
+binder 2178:2179 <> SA:47
+R2197:2204 VST.msl.sepalg <> Disj_alg class
+R2206:2206 VST.msl.combiner_sa <> A:44 var
+binder 2193:2194 <> CA:48
+binder 2217:2217 <> a:49
+binder 2219:2219 <> b:50
+R2235:2240 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2241:2245 Coq.Init.Logic <> False ind
+R2224:2228 VST.msl.combiner_sa <> ijoin def
+R2234:2234 VST.msl.combiner_sa <> b:50 var
+R2232:2232 VST.msl.combiner_sa <> b:50 var
+R2230:2230 VST.msl.combiner_sa <> a:49 var
+R2327:2339 VST.msl.sepalg <> unit_identity thm
+R2327:2339 VST.msl.sepalg <> unit_identity thm
+prf 2369:2383 <> ijoin_identity2
+binder 2386:2386 <> A:51
+R2394:2397 VST.msl.sepalg <> Join class
+R2399:2399 VST.msl.combiner_sa <> A:51 var
+binder 2390:2391 <> JA:52
+R2406:2413 VST.msl.sepalg <> Perm_alg class
+R2415:2415 VST.msl.combiner_sa <> A:51 var
+binder 2402:2403 <> PA:53
+R2422:2428 VST.msl.sepalg <> Sep_alg class
+R2430:2430 VST.msl.combiner_sa <> A:51 var
+binder 2418:2419 <> SA:54
+R2437:2444 VST.msl.sepalg <> Disj_alg class
+R2446:2446 VST.msl.combiner_sa <> A:51 var
+binder 2433:2434 <> DA:55
+binder 2457:2457 <> a:56
+binder 2459:2459 <> b:57
+R2475:2480 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2481:2485 Coq.Init.Logic <> False ind
+R2464:2468 VST.msl.combiner_sa <> ijoin def
+R2474:2474 VST.msl.combiner_sa <> b:57 var
+R2472:2472 VST.msl.combiner_sa <> a:56 var
+R2470:2470 VST.msl.combiner_sa <> a:56 var
+R2580:2588 VST.msl.sepalg <> join_self def
+R2580:2588 VST.msl.sepalg <> join_self def
+sec 2625:2635 <> CombineJoin
+var 2648:2648 CombineJoin A
+var 2667:2668 CombineJoin JA
+R2671:2674 VST.msl.sepalg <> Join class
+R2676:2676 VST.msl.combiner_sa <> CombineJoin.A var
+var 2688:2691 CombineJoin pa_A
+R2695:2702 VST.msl.sepalg <> Perm_alg class
+R2704:2704 VST.msl.combiner_sa <> CombineJoin.A var
+var 2716:2719 CombineJoin sa_A
+R2723:2729 VST.msl.sepalg <> Sep_alg class
+R2731:2731 VST.msl.combiner_sa <> CombineJoin.A var
+var 2743:2746 CombineJoin ca_A
+R2750:2757 VST.msl.sepalg <> Canc_alg class
+R2759:2759 VST.msl.combiner_sa <> CombineJoin.A var
+var 2771:2774 CombineJoin da_A
+R2778:2785 VST.msl.sepalg <> Disj_alg class
+R2787:2787 VST.msl.combiner_sa <> CombineJoin.A var
+var 3004:3008 CombineJoin A_top
+R3012:3012 VST.msl.combiner_sa <> CombineJoin.A var
+var 3024:3033 CombineJoin A_top_full
+R3037:3040 VST.msl.sepalg <> full def
+R3042:3046 VST.msl.combiner_sa <> CombineJoin.A_top var
+var 3059:3060 CombineJoin T1
+var 3079:3080 CombineJoin T2
+var 3099:3100 CombineJoin J1
+R3103:3106 VST.msl.sepalg <> Join class
+R3108:3109 VST.msl.combiner_sa <> CombineJoin.T1 var
+var 3121:3125 CombineJoin pa_T1
+R3128:3135 VST.msl.sepalg <> Perm_alg class
+R3137:3138 VST.msl.combiner_sa <> CombineJoin.T1 var
+var 3150:3154 CombineJoin sa_T1
+R3157:3163 VST.msl.sepalg <> Sep_alg class
+R3165:3166 VST.msl.combiner_sa <> CombineJoin.T1 var
+var 3179:3186 CombineJoin combjoin
+R3192:3195 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3198:3201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3204:3207 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3202:3203 VST.msl.combiner_sa <> CombineJoin.T2 var
+R3196:3197 VST.msl.combiner_sa <> CombineJoin.T1 var
+R3190:3191 VST.msl.combiner_sa <> CombineJoin.T1 var
+var 3224:3234 CombineJoin combjoin_eq
+binder 3245:3246 <> v1:72
+binder 3248:3250 <> v1':73
+binder 3252:3253 <> v2:74
+binder 3255:3257 <> v2':75
+R3280:3285 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3305:3310 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3313:3315 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3311:3312 VST.msl.combiner_sa <> v2:74 var
+R3316:3318 VST.msl.combiner_sa <> v2':75 var
+R3286:3293 VST.msl.combiner_sa <> CombineJoin.combjoin var
+R3302:3304 VST.msl.combiner_sa <> v2':75 var
+R3298:3300 VST.msl.combiner_sa <> v1':73 var
+R3295:3296 VST.msl.combiner_sa <> v1:72 var
+R3262:3269 VST.msl.combiner_sa <> CombineJoin.combjoin var
+R3278:3279 VST.msl.combiner_sa <> v2:74 var
+R3274:3276 VST.msl.combiner_sa <> v1':73 var
+R3271:3272 VST.msl.combiner_sa <> v1:72 var
+var 3331:3344 CombineJoin combjoin_assoc
+binder 3355:3356 <> v1:77
+binder 3358:3359 <> v2:78
+binder 3361:3362 <> v3:79
+binder 3364:3365 <> v4:80
+binder 3367:3368 <> v5:81
+R3387:3393 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3411:3417 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3418:3418 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R3421:3423 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R3426:3428 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R3463:3463 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R3424:3425 VST.msl.combiner_sa <> CombineJoin.T1 var
+binder 3419:3420 <> v':82
+R3442:3445 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3429:3432 VST.msl.sepalg <> join def
+R3440:3441 VST.msl.combiner_sa <> v':82 var
+R3437:3438 VST.msl.combiner_sa <> v4:80 var
+R3434:3435 VST.msl.combiner_sa <> v2:78 var
+R3446:3453 VST.msl.combiner_sa <> CombineJoin.combjoin var
+R3461:3462 VST.msl.combiner_sa <> v5:81 var
+R3458:3459 VST.msl.combiner_sa <> v':82 var
+R3455:3456 VST.msl.combiner_sa <> v1:77 var
+R3394:3401 VST.msl.combiner_sa <> CombineJoin.combjoin var
+R3409:3410 VST.msl.combiner_sa <> v5:81 var
+R3406:3407 VST.msl.combiner_sa <> v4:80 var
+R3403:3404 VST.msl.combiner_sa <> v3:79 var
+R3374:3377 VST.msl.sepalg <> join def
+R3385:3386 VST.msl.combiner_sa <> v3:79 var
+R3382:3383 VST.msl.combiner_sa <> v2:78 var
+R3379:3380 VST.msl.combiner_sa <> v1:77 var
+var 3476:3487 CombineJoin combjoin_com
+binder 3498:3499 <> v1:84
+binder 3501:3502 <> v2:85
+binder 3504:3505 <> v3:86
+R3528:3534 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3535:3542 VST.msl.combiner_sa <> CombineJoin.combjoin var
+R3550:3551 VST.msl.combiner_sa <> v3:86 var
+R3547:3548 VST.msl.combiner_sa <> v1:84 var
+R3544:3545 VST.msl.combiner_sa <> v2:85 var
+R3511:3518 VST.msl.combiner_sa <> CombineJoin.combjoin var
+R3526:3527 VST.msl.combiner_sa <> v3:86 var
+R3523:3524 VST.msl.combiner_sa <> v2:85 var
+R3520:3521 VST.msl.combiner_sa <> v1:84 var
+var 3564:3576 CombineJoin combjoin_canc
+binder 3587:3588 <> v1:88
+binder 3590:3592 <> v1':89
+binder 3594:3595 <> v2:90
+binder 3597:3598 <> v3:91
+R3622:3629 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3648:3655 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3658:3660 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3656:3657 VST.msl.combiner_sa <> v1:88 var
+R3661:3663 VST.msl.combiner_sa <> v1':89 var
+R3630:3637 VST.msl.combiner_sa <> CombineJoin.combjoin var
+R3646:3647 VST.msl.combiner_sa <> v3:91 var
+R3643:3644 VST.msl.combiner_sa <> v2:90 var
+R3639:3641 VST.msl.combiner_sa <> v1':89 var
+R3605:3612 VST.msl.combiner_sa <> CombineJoin.combjoin var
+R3620:3621 VST.msl.combiner_sa <> v3:91 var
+R3617:3618 VST.msl.combiner_sa <> v2:90 var
+R3614:3615 VST.msl.combiner_sa <> v1:88 var
+def 3905:3910 <> covers
+R3921:3929 VST.msl.combiner_sa <> ijoinable def
+R3931:3931 VST.msl.combiner_sa <> CombineJoin.A var
+binder 3913:3914 <> j1:93
+binder 3916:3917 <> j2:94
+R3946:3949 VST.msl.sepalg <> join def
+R3975:3979 VST.msl.combiner_sa <> CombineJoin.A_top var
+R3964:3969 Coq.Init.Specif <> projT1 def
+R3971:3972 VST.msl.combiner_sa <> j2:94 var
+R3952:3957 Coq.Init.Specif <> projT1 def
+R3959:3960 VST.msl.combiner_sa <> j1:93 var
+ind 3993:4000 <> combiner
+constr 4016:4021 <> CEmpty
+constr 4027:4031 <> CPart
+constr 4084:4088 <> CFull
+R4048:4056 VST.msl.combiner_sa <> ijoinable def
+R4058:4058 VST.msl.combiner_sa <> CombineJoin.A var
+binder 4043:4044 <> sh:97
+R4066:4067 VST.msl.combiner_sa <> CombineJoin.T1 var
+binder 4062:4062 <> v:98
+R4071:4078 VST.msl.combiner_sa <> combiner:95 ind
+R4104:4105 VST.msl.combiner_sa <> CombineJoin.T2 var
+binder 4100:4100 <> v:99
+R4109:4116 VST.msl.combiner_sa <> combiner:95 ind
+inst 4129:4141 <> Join_combiner
+R4145:4148 VST.msl.sepalg <> Join class
+R4150:4157 VST.msl.combiner_sa <> combiner ind
+binder 4168:4169 <> c1:100
+binder 4171:4172 <> c2:101
+binder 4174:4175 <> c3:102
+R4188:4188 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4191:4191 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4194:4194 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4197:4197 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4189:4190 VST.msl.combiner_sa <> c1:100 var
+R4192:4193 VST.msl.combiner_sa <> c2:101 var
+R4195:4196 VST.msl.combiner_sa <> c3:102 var
+R4208:4208 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4215:4216 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4223:4224 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4231:4231 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4209:4214 VST.msl.combiner_sa <> CEmpty constr
+R4217:4222 VST.msl.combiner_sa <> CEmpty constr
+R4225:4230 VST.msl.combiner_sa <> CEmpty constr
+R4236:4239 Coq.Init.Logic <> True ind
+R4245:4245 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4252:4253 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4263:4264 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4276:4276 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4246:4251 VST.msl.combiner_sa <> CEmpty constr
+R4254:4258 VST.msl.combiner_sa <> CPart constr
+R4265:4269 VST.msl.combiner_sa <> CPart constr
+R4287:4290 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4282:4284 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4292:4294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4302:4302 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4312:4313 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4320:4321 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4333:4333 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4303:4307 VST.msl.combiner_sa <> CPart constr
+R4314:4319 VST.msl.combiner_sa <> CEmpty constr
+R4322:4326 VST.msl.combiner_sa <> CPart constr
+R4345:4348 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4340:4342 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4350:4352 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4360:4360 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4367:4368 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4376:4377 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4386:4386 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4361:4366 VST.msl.combiner_sa <> CEmpty constr
+R4369:4373 VST.msl.combiner_sa <> CFull constr
+R4378:4382 VST.msl.combiner_sa <> CFull constr
+R4392:4394 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4402:4402 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4410:4411 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4418:4419 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4428:4428 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4403:4407 VST.msl.combiner_sa <> CFull constr
+R4412:4417 VST.msl.combiner_sa <> CEmpty constr
+R4420:4424 VST.msl.combiner_sa <> CFull constr
+R4434:4436 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4444:4444 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4454:4455 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4467:4468 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4482:4482 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4445:4449 VST.msl.combiner_sa <> CPart constr
+R4456:4460 VST.msl.combiner_sa <> CPart constr
+R4469:4473 VST.msl.combiner_sa <> CPart constr
+R4501:4504 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4487:4491 VST.msl.combiner_sa <> ijoin def
+R4505:4508 VST.msl.sepalg <> join def
+R4523:4523 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4533:4534 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4546:4547 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4557:4557 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4524:4528 VST.msl.combiner_sa <> CPart constr
+R4535:4539 VST.msl.combiner_sa <> CPart constr
+R4548:4552 VST.msl.combiner_sa <> CFull constr
+R4579:4582 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4562:4569 VST.msl.combiner_sa <> CombineJoin.combjoin var
+R4583:4588 VST.msl.combiner_sa <> covers def
+R4604:4608 Coq.Init.Logic <> False ind
+prf 4623:4633 <> combineJ_eq
+R4654:4661 VST.msl.combiner_sa <> combiner ind
+binder 4643:4643 <> x:103
+binder 4645:4645 <> y:104
+binder 4647:4647 <> z:105
+binder 4649:4650 <> z':106
+R4676:4679 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4691:4694 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4696:4698 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4695:4695 VST.msl.combiner_sa <> z:105 var
+R4699:4700 VST.msl.combiner_sa <> z':106 var
+R4680:4683 VST.msl.sepalg <> join def
+R4689:4690 VST.msl.combiner_sa <> z':106 var
+R4687:4687 VST.msl.combiner_sa <> y:104 var
+R4685:4685 VST.msl.combiner_sa <> x:103 var
+R4666:4669 VST.msl.sepalg <> join def
+R4675:4675 VST.msl.combiner_sa <> z:105 var
+R4673:4673 VST.msl.combiner_sa <> y:104 var
+R4671:4671 VST.msl.combiner_sa <> x:103 var
+R4835:4842 VST.msl.combiner_sa <> ijoin_eq thm
+R4835:4842 VST.msl.combiner_sa <> ijoin_eq thm
+R4861:4867 VST.msl.sepalg <> join_eq meth
+R4861:4867 VST.msl.sepalg <> join_eq meth
+R4889:4893 Coq.Init.Logic <> False ind
+R5026:5032 VST.msl.sepalg <> join_eq meth
+R5026:5032 VST.msl.sepalg <> join_eq meth
+R5068:5073 VST.msl.combiner_sa <> midObj def
+R5102:5106 Coq.Init.Logic <> False ind
+R5237:5243 VST.msl.sepalg <> join_eq meth
+R5237:5243 VST.msl.sepalg <> join_eq meth
+R5277:5282 VST.msl.combiner_sa <> midObj def
+R5311:5321 VST.msl.combiner_sa <> CombineJoin.combjoin_eq var
+R5311:5321 VST.msl.combiner_sa <> CombineJoin.combjoin_eq var
+R5311:5321 VST.msl.combiner_sa <> CombineJoin.combjoin_eq var
+prf 5353:5366 <> combineJ_assoc
+R5388:5395 VST.msl.combiner_sa <> combiner ind
+binder 5376:5376 <> a:107
+binder 5378:5378 <> b:108
+binder 5380:5380 <> c:109
+binder 5382:5382 <> d:110
+binder 5384:5384 <> e:111
+R5410:5413 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5424:5447 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5448:5448 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R5450:5452 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R5461:5463 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R5488:5488 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R5453:5460 VST.msl.combiner_sa <> combiner ind
+binder 5449:5449 <> f:112
+R5474:5477 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5464:5467 VST.msl.sepalg <> join def
+R5473:5473 VST.msl.combiner_sa <> f:112 var
+R5471:5471 VST.msl.combiner_sa <> c:109 var
+R5469:5469 VST.msl.combiner_sa <> b:108 var
+R5478:5481 VST.msl.sepalg <> join def
+R5487:5487 VST.msl.combiner_sa <> e:111 var
+R5485:5485 VST.msl.combiner_sa <> f:112 var
+R5483:5483 VST.msl.combiner_sa <> a:107 var
+R5414:5417 VST.msl.sepalg <> join def
+R5423:5423 VST.msl.combiner_sa <> e:111 var
+R5421:5421 VST.msl.combiner_sa <> c:109 var
+R5419:5419 VST.msl.combiner_sa <> d:110 var
+R5400:5403 VST.msl.sepalg <> join def
+R5409:5409 VST.msl.combiner_sa <> d:110 var
+R5407:5407 VST.msl.combiner_sa <> b:108 var
+R5405:5405 VST.msl.combiner_sa <> a:107 var
+R5540:5543 VST.msl.sepalg <> join def
+R5615:5620 VST.msl.combiner_sa <> CEmpty constr
+R5615:5620 VST.msl.combiner_sa <> CEmpty constr
+R5646:5650 VST.msl.combiner_sa <> CPart constr
+R5646:5650 VST.msl.combiner_sa <> CPart constr
+R5684:5688 VST.msl.combiner_sa <> CFull constr
+R5684:5688 VST.msl.combiner_sa <> CFull constr
+R5718:5722 VST.msl.combiner_sa <> CPart constr
+R5718:5722 VST.msl.combiner_sa <> CPart constr
+R5756:5760 VST.msl.combiner_sa <> CPart constr
+R5756:5760 VST.msl.combiner_sa <> CPart constr
+R5794:5798 VST.msl.combiner_sa <> CFull constr
+R5794:5798 VST.msl.combiner_sa <> CFull constr
+R5828:5832 VST.msl.combiner_sa <> CFull constr
+R5828:5832 VST.msl.combiner_sa <> CFull constr
+R5861:5866 VST.msl.combiner_sa <> CEmpty constr
+R5861:5866 VST.msl.combiner_sa <> CEmpty constr
+R5892:5896 VST.msl.combiner_sa <> CPart constr
+R5892:5896 VST.msl.combiner_sa <> CPart constr
+R5930:5934 VST.msl.combiner_sa <> CPart constr
+R5930:5934 VST.msl.combiner_sa <> CPart constr
+R5968:5972 VST.msl.combiner_sa <> CPart constr
+R5968:5972 VST.msl.combiner_sa <> CPart constr
+R6006:6010 VST.msl.combiner_sa <> CPart constr
+R6006:6010 VST.msl.combiner_sa <> CPart constr
+R6047:6052 VST.msl.combiner_sa <> CEmpty constr
+R6047:6052 VST.msl.combiner_sa <> CEmpty constr
+R6082:6092 VST.msl.combiner_sa <> ijoin_assoc thm
+R6082:6092 VST.msl.combiner_sa <> ijoin_assoc thm
+R6139:6148 VST.msl.sepalg <> join_assoc meth
+R6139:6148 VST.msl.sepalg <> join_assoc meth
+R6183:6187 VST.msl.combiner_sa <> CPart constr
+R6183:6187 VST.msl.combiner_sa <> CPart constr
+R6307:6316 VST.msl.sepalg <> join_assoc meth
+R6307:6316 VST.msl.sepalg <> join_assoc meth
+R6352:6352 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6366:6371 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6381:6381 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6353:6353 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6354:6361 VST.msl.sepalg <> identity def
+R6372:6372 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6373:6376 VST.msl.sepalg <> full def
+R6352:6352 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6366:6371 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6381:6381 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6353:6353 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6354:6361 VST.msl.sepalg <> identity def
+R6372:6372 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6373:6376 VST.msl.sepalg <> full def
+R6421:6434 VST.msl.sepalg <> split_identity thm
+R6421:6434 VST.msl.sepalg <> split_identity thm
+R6467:6472 VST.msl.combiner_sa <> midObj def
+R6538:6542 VST.msl.combiner_sa <> CombineJoin.A_top var
+R6538:6542 VST.msl.combiner_sa <> CombineJoin.A_top var
+R6572:6576 VST.msl.combiner_sa <> CombineJoin.A_top var
+R6572:6576 VST.msl.combiner_sa <> CombineJoin.A_top var
+R6610:6622 VST.msl.sepalg <> unit_identity thm
+R6610:6622 VST.msl.sepalg <> unit_identity thm
+R6643:6648 VST.msl.combiner_sa <> midObj def
+R6680:6693 VST.msl.combiner_sa <> CombineJoin.combjoin_assoc var
+R6680:6693 VST.msl.combiner_sa <> CombineJoin.combjoin_assoc var
+R6736:6740 VST.msl.combiner_sa <> CPart constr
+R6743:6748 Coq.Init.Specif <> existT constr
+R6736:6740 VST.msl.combiner_sa <> CPart constr
+R6743:6748 Coq.Init.Specif <> existT constr
+prf 6795:6806 <> combineJ_com
+R6824:6831 VST.msl.combiner_sa <> combiner ind
+binder 6816:6816 <> a:113
+binder 6818:6818 <> b:114
+binder 6820:6820 <> c:115
+R6848:6851 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6852:6855 VST.msl.sepalg <> join def
+R6861:6861 VST.msl.combiner_sa <> c:115 var
+R6859:6859 VST.msl.combiner_sa <> a:113 var
+R6857:6857 VST.msl.combiner_sa <> b:114 var
+R6838:6841 VST.msl.sepalg <> join def
+R6847:6847 VST.msl.combiner_sa <> c:115 var
+R6845:6845 VST.msl.combiner_sa <> b:114 var
+R6843:6843 VST.msl.combiner_sa <> a:113 var
+R6898:6901 VST.msl.sepalg <> join def
+R6989:6997 VST.msl.combiner_sa <> ijoin_com thm
+R6989:6997 VST.msl.combiner_sa <> ijoin_com thm
+R7010:7018 VST.msl.sepalg <> join_comm meth
+R7010:7018 VST.msl.sepalg <> join_comm meth
+prf 7035:7047 <> combineJ_canc
+R7054:7061 VST.msl.sepalg <> Canc_alg class
+R7063:7064 VST.msl.combiner_sa <> CombineJoin.T1 var
+binder 7050:7051 <> C1:116
+R7087:7094 VST.msl.combiner_sa <> combiner ind
+binder 7075:7076 <> a1:117
+binder 7078:7079 <> a2:118
+binder 7081:7081 <> b:119
+binder 7083:7083 <> c:120
+R7115:7118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7130:7133 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7136:7136 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7134:7135 VST.msl.combiner_sa <> a1:117 var
+R7137:7138 VST.msl.combiner_sa <> a2:118 var
+R7119:7122 VST.msl.sepalg <> join def
+R7129:7129 VST.msl.combiner_sa <> c:120 var
+R7127:7127 VST.msl.combiner_sa <> b:119 var
+R7124:7125 VST.msl.combiner_sa <> a2:118 var
+R7104:7107 VST.msl.sepalg <> join def
+R7114:7114 VST.msl.combiner_sa <> c:120 var
+R7112:7112 VST.msl.combiner_sa <> b:119 var
+R7109:7110 VST.msl.combiner_sa <> a1:117 var
+R7176:7179 VST.msl.sepalg <> join def
+R7260:7274 VST.msl.combiner_sa <> ijoin_identity1 thm
+R7260:7274 VST.msl.combiner_sa <> ijoin_identity1 thm
+R7297:7311 VST.msl.combiner_sa <> ijoin_identity1 thm
+R7297:7311 VST.msl.combiner_sa <> ijoin_identity1 thm
+R7338:7347 VST.msl.combiner_sa <> ijoin_canc thm
+R7338:7347 VST.msl.combiner_sa <> ijoin_canc thm
+R7379:7387 VST.msl.sepalg <> join_canc def
+R7379:7387 VST.msl.sepalg <> join_canc def
+R7440:7448 VST.msl.sepalg <> join_canc def
+R7440:7448 VST.msl.sepalg <> join_canc def
+R7473:7485 VST.msl.combiner_sa <> CombineJoin.combjoin_canc var
+R7473:7485 VST.msl.combiner_sa <> CombineJoin.combjoin_canc var
+R7558:7567 VST.msl.Extensionality <> existT_ext thm
+R7558:7567 VST.msl.Extensionality <> existT_ext thm
+prf 7584:7605 <> combineJ_ex_identities
+binder 7615:7615 <> a:121
+R7619:7619 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R7621:7623 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R7632:7635 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R7646:7646 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R7624:7631 VST.msl.combiner_sa <> combiner ind
+binder 7620:7620 <> e:122
+R7636:7639 VST.msl.sepalg <> join def
+R7645:7645 VST.msl.combiner_sa <> a:121 var
+R7643:7643 VST.msl.combiner_sa <> a:121 var
+R7641:7641 VST.msl.combiner_sa <> e:122 var
+R7699:7704 VST.msl.combiner_sa <> CEmpty constr
+R7699:7704 VST.msl.combiner_sa <> CEmpty constr
+R7699:7704 VST.msl.combiner_sa <> CEmpty constr
+R7699:7704 VST.msl.combiner_sa <> CEmpty constr
+prf 7737:7750 <> combineJ_self'
+R7757:7764 VST.msl.sepalg <> Disj_alg class
+R7766:7766 VST.msl.combiner_sa <> CombineJoin.A var
+binder 7753:7754 <> DA:123
+R7785:7792 VST.msl.combiner_sa <> combiner ind
+binder 7779:7779 <> a:124
+binder 7781:7781 <> b:125
+R7805:7808 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7809:7816 VST.msl.sepalg <> identity def
+R7818:7818 VST.msl.combiner_sa <> a:124 var
+R7795:7798 VST.msl.sepalg <> join def
+R7804:7804 VST.msl.combiner_sa <> b:125 var
+R7802:7802 VST.msl.combiner_sa <> a:124 var
+R7800:7800 VST.msl.combiner_sa <> a:124 var
+R7919:7933 VST.msl.combiner_sa <> ijoin_identity2 thm
+R7919:7933 VST.msl.combiner_sa <> ijoin_identity2 thm
+R8035:8043 VST.msl.sepalg <> join_self def
+R8035:8043 VST.msl.sepalg <> join_self def
+prf 8091:8103 <> combineJ_self
+R8110:8117 VST.msl.sepalg <> Disj_alg class
+R8119:8119 VST.msl.combiner_sa <> CombineJoin.A var
+binder 8106:8107 <> DA:126
+R8144:8151 VST.msl.combiner_sa <> combiner ind
+binder 8138:8138 <> a:127
+binder 8140:8140 <> b:128
+R8164:8167 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8169:8171 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8168:8168 VST.msl.combiner_sa <> a:127 var
+R8172:8172 VST.msl.combiner_sa <> b:128 var
+R8154:8157 VST.msl.sepalg <> join def
+R8163:8163 VST.msl.combiner_sa <> b:128 var
+R8161:8161 VST.msl.combiner_sa <> a:127 var
+R8159:8159 VST.msl.combiner_sa <> a:127 var
+R8199:8212 VST.msl.combiner_sa <> combineJ_self' thm
+R8199:8212 VST.msl.combiner_sa <> combineJ_self' thm
+inst 8237:8249 <> Perm_combiner
+R8253:8260 VST.msl.sepalg <> Perm_alg class
+R8262:8269 VST.msl.combiner_sa <> combiner ind
+R8300:8310 VST.msl.combiner_sa <> combineJ_eq thm
+R8300:8310 VST.msl.combiner_sa <> combineJ_eq thm
+R8321:8334 VST.msl.combiner_sa <> combineJ_assoc thm
+R8321:8334 VST.msl.combiner_sa <> combineJ_assoc thm
+R8345:8356 VST.msl.combiner_sa <> combineJ_com thm
+R8345:8356 VST.msl.combiner_sa <> combineJ_com thm
+R8684:8693 VST.msl.Extensionality <> existT_ext thm
+R8684:8693 VST.msl.Extensionality <> existT_ext thm
+R8703:8707 VST.msl.combiner_sa <> ijoin def
+R8727:8741 VST.msl.sepalg <> join_positivity meth
+R8727:8741 VST.msl.sepalg <> join_positivity meth
+R8760:8774 VST.msl.sepalg <> join_positivity meth
+R8760:8774 VST.msl.sepalg <> join_positivity meth
+inst 8799:8810 <> Sep_combiner
+R8813:8819 VST.msl.sepalg <> Sep_alg class
+R8821:8828 VST.msl.combiner_sa <> combiner ind
+R8867:8872 VST.msl.combiner_sa <> CEmpty constr
+R8846:8850 VST.msl.sepalg <> mkSep constr
+R8867:8872 VST.msl.combiner_sa <> CEmpty constr
+R8846:8850 VST.msl.sepalg <> mkSep constr
+inst 8937:8949 <> Sing_combiner
+R8952:8959 VST.msl.sepalg <> Sing_alg class
+R8961:8968 VST.msl.combiner_sa <> combiner ind
+R8987:8992 VST.msl.sepalg <> mkSing constr
+R8994:8999 VST.msl.combiner_sa <> CEmpty constr
+R8987:8992 VST.msl.sepalg <> mkSing constr
+R8994:8999 VST.msl.combiner_sa <> CEmpty constr
+inst 9030:9042 <> Canc_combiner
+R9049:9056 VST.msl.sepalg <> Canc_alg class
+R9058:9059 VST.msl.combiner_sa <> CombineJoin.T1 var
+binder 9045:9046 <> C1:129
+R9063:9070 VST.msl.sepalg <> Canc_alg class
+R9072:9079 VST.msl.combiner_sa <> combiner ind
+R9111:9123 VST.msl.combiner_sa <> combineJ_canc thm
+R9111:9123 VST.msl.combiner_sa <> combineJ_canc thm
+inst 9148:9160 <> Disj_combiner
+R9167:9174 VST.msl.sepalg <> Disj_alg class
+R9176:9176 VST.msl.combiner_sa <> CombineJoin.A var
+binder 9163:9164 <> D1:130
+R9180:9187 VST.msl.sepalg <> Disj_alg class
+R9189:9196 VST.msl.combiner_sa <> combiner ind
+R9220:9233 VST.msl.combiner_sa <> combineJ_self' thm
+R9220:9233 VST.msl.combiner_sa <> combineJ_self' thm
+prf 9285:9301 <> identity_combiner
+R9308:9315 VST.msl.sepalg <> Canc_alg class
+R9317:9318 VST.msl.combiner_sa <> CombineJoin.T1 var
+binder 9304:9305 <> C1:131
+R9333:9340 VST.msl.combiner_sa <> combiner ind
+binder 9329:9329 <> d:132
+R9355:9360 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9362:9364 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9361:9361 VST.msl.combiner_sa <> d:132 var
+R9365:9370 VST.msl.combiner_sa <> CEmpty constr
+R9345:9352 VST.msl.sepalg <> identity def
+R9354:9354 VST.msl.combiner_sa <> d:132 var
+R9400:9418 VST.msl.sepalg <> identity_unit_equiv thm
+R9400:9418 VST.msl.sepalg <> identity_unit_equiv thm
+R9400:9418 VST.msl.sepalg <> identity_unit_equiv thm
+R9463:9477 VST.msl.combiner_sa <> ijoin_identity1 thm
+R9463:9477 VST.msl.combiner_sa <> ijoin_identity1 thm
+prf 9499:9515 <> combiner_identity
+R9522:9529 VST.msl.sepalg <> Canc_alg class
+R9531:9532 VST.msl.combiner_sa <> CombineJoin.T1 var
+binder 9518:9519 <> C1:133
+R9538:9545 VST.msl.sepalg <> identity def
+R9547:9552 VST.msl.combiner_sa <> CEmpty constr
+R9582:9600 VST.msl.sepalg <> identity_unit_equiv thm
+R9582:9600 VST.msl.sepalg <> identity_unit_equiv thm
+R9582:9600 VST.msl.sepalg <> identity_unit_equiv thm
+prf 9637:9649 <> combiner_full
+R9656:9663 VST.msl.sepalg <> Canc_alg class
+R9665:9666 VST.msl.combiner_sa <> CombineJoin.T1 var
+binder 9652:9653 <> C1:134
+binder 9677:9678 <> t2:135
+R9683:9686 VST.msl.sepalg <> full def
+R9689:9693 VST.msl.combiner_sa <> CFull constr
+R9695:9696 VST.msl.combiner_sa <> t2:135 var
+R9716:9719 VST.msl.sepalg <> full def
+R9784:9800 VST.msl.combiner_sa <> combiner_identity thm
+R9784:9800 VST.msl.combiner_sa <> combiner_identity thm
+R10562:10572 VST.msl.combiner_sa CombineJoin <> sec
+R10586:10593 VST.msl.combiner_sa <> combiner ind
+R10586:10593 VST.msl.combiner_sa <> combiner ind
+R10616:10628 VST.msl.combiner_sa <> Join_combiner inst
+R10616:10628 VST.msl.combiner_sa <> Join_combiner inst
+R10670:10675 VST.msl.combiner_sa <> CEmpty constr
+R10670:10675 VST.msl.combiner_sa <> CEmpty constr
+R10701:10705 VST.msl.combiner_sa <> CPart constr
+R10701:10705 VST.msl.combiner_sa <> CPart constr
+R10735:10739 VST.msl.combiner_sa <> CFull constr
+R10735:10739 VST.msl.combiner_sa <> CFull constr
+sec 10854:10874 <> ParameterizedCombiner
+var 10925:10925 ParameterizedCombiner S
+var 10946:10947 ParameterizedCombiner JS
+R10951:10954 VST.msl.sepalg <> Join class
+R10956:10956 VST.msl.combiner_sa <> ParameterizedCombiner.S var
+var 10970:10973 ParameterizedCombiner pa_S
+R10977:10984 VST.msl.sepalg <> Perm_alg class
+R10986:10986 VST.msl.combiner_sa <> ParameterizedCombiner.S var
+var 11000:11003 ParameterizedCombiner sa_S
+R11007:11013 VST.msl.sepalg <> Sep_alg class
+R11015:11015 VST.msl.combiner_sa <> ParameterizedCombiner.S var
+var 11029:11032 ParameterizedCombiner ca_S
+R11036:11043 VST.msl.sepalg <> Canc_alg class
+R11045:11045 VST.msl.combiner_sa <> ParameterizedCombiner.S var
+var 11059:11062 ParameterizedCombiner da_S
+R11066:11073 VST.msl.sepalg <> Disj_alg class
+R11075:11075 VST.msl.combiner_sa <> ParameterizedCombiner.S var
+var 11090:11091 ParameterizedCombiner T1
+R11095:11101 VST.msl.functors MixVariantFunctor functor rec
+var 11115:11116 ParameterizedCombiner J1
+binder 11126:11126 <> A:143
+R11129:11132 VST.msl.sepalg <> Join class
+R11135:11136 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R11138:11138 VST.msl.combiner_sa <> A:143 var
+var 11153:11157 ParameterizedCombiner Perm1
+binder 11167:11167 <> A:145
+R11170:11177 VST.msl.sepalg <> Perm_alg class
+R11180:11181 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R11183:11183 VST.msl.combiner_sa <> A:145 var
+var 11198:11201 ParameterizedCombiner Sep1
+binder 11211:11211 <> A:147
+R11214:11220 VST.msl.sepalg <> Sep_alg class
+R11223:11224 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R11226:11226 VST.msl.combiner_sa <> A:147 var
+var 11241:11242 ParameterizedCombiner T2
+R11246:11252 VST.msl.functors MixVariantFunctor functor rec
+def 11269:11277 <> fcombiner
+binder 11280:11280 <> A:150
+R11305:11312 VST.msl.combiner_sa <> combiner ind
+R11327:11328 VST.msl.combiner_sa <> ParameterizedCombiner.T2 var
+R11330:11330 VST.msl.combiner_sa <> A:150 var
+R11320:11321 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R11323:11323 VST.msl.combiner_sa <> A:150 var
+R11316:11317 VST.msl.combiner_sa <> ParameterizedCombiner.JS var
+R11314:11314 VST.msl.combiner_sa <> ParameterizedCombiner.S var
+def 11348:11361 <> fcombiner_fmap
+binder 11364:11364 <> A:151
+binder 11366:11366 <> B:152
+R11381:11384 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11385:11385 VST.msl.combiner_sa <> B:152 var
+R11380:11380 VST.msl.combiner_sa <> A:151 var
+binder 11377:11377 <> f:153
+R11393:11396 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11397:11397 VST.msl.combiner_sa <> A:151 var
+R11392:11392 VST.msl.combiner_sa <> B:152 var
+binder 11389:11389 <> g:154
+R11410:11418 VST.msl.combiner_sa <> fcombiner def
+R11420:11420 VST.msl.combiner_sa <> A:151 var
+binder 11405:11406 <> fa:155
+R11425:11433 VST.msl.combiner_sa <> fcombiner def
+R11435:11435 VST.msl.combiner_sa <> B:152 var
+R11452:11453 VST.msl.combiner_sa <> fa:155 var
+R11470:11475 VST.msl.combiner_sa <> CEmpty constr
+R11480:11485 VST.msl.combiner_sa <> CEmpty constr
+R11497:11501 VST.msl.combiner_sa <> CPart constr
+R11512:11516 VST.msl.combiner_sa <> CPart constr
+R11522:11525 VST.msl.functors MixVariantFunctor fmap proj
+R11532:11532 VST.msl.combiner_sa <> g:154 var
+R11530:11530 VST.msl.combiner_sa <> f:153 var
+R11527:11528 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R11548:11552 VST.msl.combiner_sa <> CFull constr
+R11561:11565 VST.msl.combiner_sa <> CFull constr
+R11568:11571 VST.msl.functors MixVariantFunctor fmap proj
+R11578:11578 VST.msl.combiner_sa <> g:154 var
+R11576:11576 VST.msl.combiner_sa <> f:153 var
+R11573:11574 VST.msl.combiner_sa <> ParameterizedCombiner.T2 var
+R11608:11621 VST.msl.combiner_sa <> fcombiner_fmap def
+R11608:11621 VST.msl.combiner_sa <> fcombiner_fmap def
+prf 11645:11655 <> ff_combiner
+R11659:11670 VST.msl.functors MixVariantFunctor functorFacts rec
+R11682:11695 VST.msl.combiner_sa <> fcombiner_fmap def
+R11672:11680 VST.msl.combiner_sa <> fcombiner def
+R11772:11785 VST.msl.combiner_sa <> fcombiner_fmap def
+R11810:11816 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R11810:11816 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R11810:11816 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R11810:11816 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R11810:11816 VST.msl.functors MixVariantFunctorLemmas fmap_id thm
+R11846:11854 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+R11846:11854 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+R11846:11854 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+R11846:11854 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+R11846:11854 VST.msl.functors MixVariantFunctorLemmas fmap_comp thm
+def 11880:11889 <> f_combiner
+R11893:11899 VST.msl.functors MixVariantFunctor functor rec
+R11904:11910 VST.msl.functors MixVariantFunctor Functor constr
+R11912:11922 VST.msl.combiner_sa <> ff_combiner thm
+var 11937:11941 ParameterizedCombiner top_S
+R11945:11945 VST.msl.combiner_sa <> ParameterizedCombiner.S var
+var 11959:11967 ParameterizedCombiner topS_full
+R11971:11974 VST.msl.sepalg <> full def
+R11976:11980 VST.msl.combiner_sa <> ParameterizedCombiner.top_S var
+var 11994:12001 ParameterizedCombiner combjoin
+binder 12012:12012 <> A:159
+R12015:12015 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12020:12024 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12025:12025 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12030:12034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12035:12035 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12040:12044 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12036:12037 VST.msl.combiner_sa <> ParameterizedCombiner.T2 var
+R12039:12039 VST.msl.combiner_sa <> A:159 var
+R12026:12027 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R12029:12029 VST.msl.combiner_sa <> A:159 var
+R12016:12017 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R12019:12019 VST.msl.combiner_sa <> A:159 var
+var 12062:12072 ParameterizedCombiner combjoin_eq
+binder 12083:12083 <> A:161
+binder 12085:12086 <> v1:162
+binder 12088:12090 <> v1':163
+binder 12092:12093 <> v2:164
+binder 12095:12097 <> v2':165
+R12124:12131 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12153:12160 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12163:12165 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12161:12162 VST.msl.combiner_sa <> v2:164 var
+R12166:12168 VST.msl.combiner_sa <> v2':165 var
+R12132:12139 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin var
+R12150:12152 VST.msl.combiner_sa <> v2':165 var
+R12146:12148 VST.msl.combiner_sa <> v1':163 var
+R12143:12144 VST.msl.combiner_sa <> v1:162 var
+R12141:12141 VST.msl.combiner_sa <> A:161 var
+R12104:12111 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin var
+R12122:12123 VST.msl.combiner_sa <> v2:164 var
+R12118:12120 VST.msl.combiner_sa <> v1':163 var
+R12115:12116 VST.msl.combiner_sa <> v1:162 var
+R12113:12113 VST.msl.combiner_sa <> A:161 var
+var 12182:12195 ParameterizedCombiner combjoin_assoc
+binder 12206:12206 <> A:167
+R12222:12223 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R12225:12225 VST.msl.combiner_sa <> A:167 var
+binder 12209:12210 <> v1:168
+binder 12212:12213 <> v2:169
+binder 12215:12216 <> v3:170
+binder 12218:12219 <> v4:171
+R12233:12234 VST.msl.combiner_sa <> ParameterizedCombiner.T2 var
+R12236:12236 VST.msl.combiner_sa <> A:167 var
+binder 12229:12230 <> v5:172
+R12257:12264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12284:12291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12292:12292 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R12295:12298 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R12303:12306 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R12343:12343 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R12299:12300 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R12302:12302 VST.msl.combiner_sa <> A:167 var
+binder 12293:12294 <> v':173
+R12320:12323 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12307:12310 VST.msl.sepalg <> join def
+R12318:12319 VST.msl.combiner_sa <> v':173 var
+R12315:12316 VST.msl.combiner_sa <> v4:171 var
+R12312:12313 VST.msl.combiner_sa <> v2:169 var
+R12324:12331 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin var
+R12341:12342 VST.msl.combiner_sa <> v5:172 var
+R12338:12339 VST.msl.combiner_sa <> v':173 var
+R12335:12336 VST.msl.combiner_sa <> v1:168 var
+R12333:12333 VST.msl.combiner_sa <> A:167 var
+R12265:12272 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin var
+R12282:12283 VST.msl.combiner_sa <> v5:172 var
+R12279:12280 VST.msl.combiner_sa <> v4:171 var
+R12276:12277 VST.msl.combiner_sa <> v3:170 var
+R12274:12274 VST.msl.combiner_sa <> A:167 var
+R12244:12247 VST.msl.sepalg <> join def
+R12255:12256 VST.msl.combiner_sa <> v3:170 var
+R12252:12253 VST.msl.combiner_sa <> v2:169 var
+R12249:12250 VST.msl.combiner_sa <> v1:168 var
+var 12357:12368 ParameterizedCombiner combjoin_com
+binder 12379:12379 <> A:175
+binder 12381:12382 <> v1:176
+binder 12384:12385 <> v2:177
+binder 12387:12388 <> v3:178
+R12414:12421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12422:12429 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin var
+R12439:12440 VST.msl.combiner_sa <> v3:178 var
+R12436:12437 VST.msl.combiner_sa <> v1:176 var
+R12433:12434 VST.msl.combiner_sa <> v2:177 var
+R12431:12431 VST.msl.combiner_sa <> A:175 var
+R12395:12402 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin var
+R12412:12413 VST.msl.combiner_sa <> v3:178 var
+R12409:12410 VST.msl.combiner_sa <> v2:177 var
+R12406:12407 VST.msl.combiner_sa <> v1:176 var
+R12404:12404 VST.msl.combiner_sa <> A:175 var
+var 12454:12466 ParameterizedCombiner combjoin_canc
+binder 12477:12477 <> A:180
+binder 12479:12480 <> v1:181
+binder 12482:12484 <> v1':182
+binder 12486:12487 <> v2:183
+binder 12489:12490 <> v3:184
+R12516:12523 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12544:12551 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12554:12556 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12552:12553 VST.msl.combiner_sa <> v1:181 var
+R12557:12559 VST.msl.combiner_sa <> v1':182 var
+R12524:12531 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin var
+R12542:12543 VST.msl.combiner_sa <> v3:184 var
+R12539:12540 VST.msl.combiner_sa <> v2:183 var
+R12535:12537 VST.msl.combiner_sa <> v1':182 var
+R12533:12533 VST.msl.combiner_sa <> A:180 var
+R12497:12504 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin var
+R12514:12515 VST.msl.combiner_sa <> v3:184 var
+R12511:12512 VST.msl.combiner_sa <> v2:183 var
+R12508:12509 VST.msl.combiner_sa <> v1:181 var
+R12506:12506 VST.msl.combiner_sa <> A:180 var
+var 12573:12578 ParameterizedCombiner saf_T1
+R12582:12590 VST.msl.sepalg_functors <> pafunctor rec
+R12595:12596 VST.msl.combiner_sa <> ParameterizedCombiner.J1 var
+R12592:12593 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+inst 12611:12624 <> Join_fcombiner
+binder 12627:12627 <> A:187
+R12638:12641 VST.msl.sepalg <> Join class
+R12644:12652 VST.msl.combiner_sa <> fcombiner def
+R12654:12654 VST.msl.combiner_sa <> A:187 var
+R12664:12676 VST.msl.combiner_sa <> Join_combiner inst
+R12692:12699 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin var
+R12685:12686 VST.msl.combiner_sa <> ParameterizedCombiner.J1 var
+R12678:12682 VST.msl.combiner_sa <> ParameterizedCombiner.top_S var
+inst 12718:12731 <> Perm_fcombiner
+binder 12734:12734 <> A:188
+R12744:12751 VST.msl.sepalg <> Perm_alg class
+R12754:12762 VST.msl.combiner_sa <> fcombiner def
+R12764:12764 VST.msl.combiner_sa <> A:188 var
+R12783:12795 VST.msl.combiner_sa <> Perm_combiner inst
+R12783:12795 VST.msl.combiner_sa <> Perm_combiner inst
+R12815:12825 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin_eq var
+R12815:12825 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin_eq var
+R12834:12847 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin_assoc var
+R12834:12847 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin_assoc var
+inst 12874:12886 <> Sep_fcombiner
+binder 12889:12889 <> A:189
+R12899:12905 VST.msl.sepalg <> Sep_alg class
+R12908:12916 VST.msl.combiner_sa <> fcombiner def
+R12918:12918 VST.msl.combiner_sa <> A:189 var
+R12937:12948 VST.msl.combiner_sa <> Sep_combiner inst
+R12937:12948 VST.msl.combiner_sa <> Sep_combiner inst
+inst 12980:12993 <> Canc_fcombiner
+binder 12996:12996 <> A:190
+R13010:13017 VST.msl.sepalg <> Canc_alg class
+R13020:13021 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R13023:13023 VST.msl.combiner_sa <> A:190 var
+binder 13006:13007 <> CA:191
+R13028:13035 VST.msl.sepalg <> Canc_alg class
+R13038:13046 VST.msl.combiner_sa <> fcombiner def
+R13048:13048 VST.msl.combiner_sa <> A:190 var
+R13068:13080 VST.msl.combiner_sa <> Canc_combiner inst
+R13068:13080 VST.msl.combiner_sa <> Canc_combiner inst
+R13095:13107 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin_canc var
+R13095:13107 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin_canc var
+def 13131:13142 <> combjoin_hom
+binder 13145:13145 <> A:192
+binder 13156:13156 <> B:193
+R13179:13182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13183:13184 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R13186:13186 VST.msl.combiner_sa <> B:193 var
+R13175:13176 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R13178:13178 VST.msl.combiner_sa <> A:192 var
+binder 13171:13171 <> f:194
+R13198:13201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13202:13203 VST.msl.combiner_sa <> ParameterizedCombiner.T2 var
+R13205:13205 VST.msl.combiner_sa <> B:193 var
+R13194:13195 VST.msl.combiner_sa <> ParameterizedCombiner.T2 var
+R13197:13197 VST.msl.combiner_sa <> A:192 var
+binder 13190:13190 <> g:195
+binder 13231:13231 <> x:196
+binder 13233:13233 <> y:197
+binder 13235:13235 <> z:198
+R13262:13273 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13274:13281 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin var
+R13298:13298 VST.msl.combiner_sa <> g:195 var
+R13300:13300 VST.msl.combiner_sa <> z:198 var
+R13292:13292 VST.msl.combiner_sa <> f:194 var
+R13294:13294 VST.msl.combiner_sa <> y:197 var
+R13286:13286 VST.msl.combiner_sa <> f:194 var
+R13288:13288 VST.msl.combiner_sa <> x:196 var
+R13283:13283 VST.msl.combiner_sa <> B:193 var
+R13246:13253 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin var
+R13261:13261 VST.msl.combiner_sa <> z:198 var
+R13259:13259 VST.msl.combiner_sa <> y:197 var
+R13257:13257 VST.msl.combiner_sa <> x:196 var
+R13255:13255 VST.msl.combiner_sa <> A:192 var
+R13316:13327 VST.msl.combiner_sa <> combjoin_hom def
+R13316:13327 VST.msl.combiner_sa <> combjoin_hom def
+var 13352:13369 ParameterizedCombiner fmaps_combjoin_hom
+binder 13379:13379 <> A:199
+binder 13381:13381 <> B:200
+R13389:13392 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13393:13393 VST.msl.combiner_sa <> B:200 var
+R13388:13388 VST.msl.combiner_sa <> A:199 var
+binder 13384:13384 <> f:201
+R13401:13404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13405:13405 VST.msl.combiner_sa <> A:199 var
+R13400:13400 VST.msl.combiner_sa <> B:200 var
+binder 13397:13397 <> g:202
+R13413:13424 VST.msl.combiner_sa <> combjoin_hom def
+R13441:13444 VST.msl.functors MixVariantFunctor fmap proj
+R13451:13451 VST.msl.combiner_sa <> g:202 var
+R13449:13449 VST.msl.combiner_sa <> f:201 var
+R13446:13447 VST.msl.combiner_sa <> ParameterizedCombiner.T2 var
+R13427:13430 VST.msl.functors MixVariantFunctor fmap proj
+R13437:13437 VST.msl.combiner_sa <> g:202 var
+R13435:13435 VST.msl.combiner_sa <> f:201 var
+R13432:13433 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+prf 13464:13481 <> fmap_fcombiner_hom
+binder 13491:13491 <> A:204
+binder 13493:13493 <> B:205
+R13501:13504 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13505:13505 VST.msl.combiner_sa <> B:205 var
+R13500:13500 VST.msl.combiner_sa <> A:204 var
+binder 13496:13496 <> f:206
+R13513:13516 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13517:13517 VST.msl.combiner_sa <> A:204 var
+R13512:13512 VST.msl.combiner_sa <> B:205 var
+binder 13509:13509 <> g:207
+R13525:13532 VST.msl.sepalg_generators <> join_hom def
+R13585:13588 VST.msl.functors MixVariantFunctor fmap proj
+R13603:13603 VST.msl.combiner_sa <> g:207 var
+R13601:13601 VST.msl.combiner_sa <> f:206 var
+R13590:13599 VST.msl.combiner_sa <> f_combiner def
+R13566:13579 VST.msl.combiner_sa <> Join_fcombiner inst
+R13581:13581 VST.msl.combiner_sa <> B:205 var
+R13541:13554 VST.msl.combiner_sa <> Join_fcombiner inst
+R13556:13556 VST.msl.combiner_sa <> A:204 var
+R13840:13851 VST.msl.sepalg_functors <> paf_join_hom proj
+R13840:13851 VST.msl.sepalg_functors <> paf_join_hom proj
+R13895:13912 VST.msl.combiner_sa <> ParameterizedCombiner.fmaps_combjoin_hom var
+R13895:13912 VST.msl.combiner_sa <> ParameterizedCombiner.fmaps_combjoin_hom var
+def 13973:13991 <> combjoin_unmap_left
+binder 13994:13994 <> A:208
+binder 13996:13996 <> B:209
+R14019:14022 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14023:14024 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R14026:14026 VST.msl.combiner_sa <> B:209 var
+R14015:14016 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R14018:14018 VST.msl.combiner_sa <> A:208 var
+binder 14011:14011 <> f:210
+R14038:14041 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14042:14043 VST.msl.combiner_sa <> ParameterizedCombiner.T2 var
+R14045:14045 VST.msl.combiner_sa <> B:209 var
+R14034:14035 VST.msl.combiner_sa <> ParameterizedCombiner.T2 var
+R14037:14037 VST.msl.combiner_sa <> A:208 var
+binder 14030:14030 <> g:211
+R14077:14078 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R14080:14080 VST.msl.combiner_sa <> B:209 var
+binder 14072:14073 <> x':212
+R14087:14088 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R14090:14090 VST.msl.combiner_sa <> A:208 var
+binder 14084:14084 <> y:213
+R14098:14099 VST.msl.combiner_sa <> ParameterizedCombiner.T2 var
+R14101:14101 VST.msl.combiner_sa <> A:208 var
+binder 14094:14094 <> z:214
+R14138:14149 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14150:14150 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R14152:14154 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R14159:14162 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R14220:14220 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R14155:14156 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R14158:14158 VST.msl.combiner_sa <> A:208 var
+binder 14151:14151 <> x:215
+R14163:14163 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14166:14168 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14173:14175 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14219:14219 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14169:14170 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R14172:14172 VST.msl.combiner_sa <> A:208 var
+binder 14164:14165 <> y0:216
+R14193:14196 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14176:14183 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin var
+R14192:14192 VST.msl.combiner_sa <> z:214 var
+R14189:14190 VST.msl.combiner_sa <> y0:216 var
+R14187:14187 VST.msl.combiner_sa <> x:215 var
+R14185:14185 VST.msl.combiner_sa <> A:208 var
+R14205:14208 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14200:14202 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14197:14197 VST.msl.combiner_sa <> f:210 var
+R14199:14199 VST.msl.combiner_sa <> x:215 var
+R14203:14204 VST.msl.combiner_sa <> x':212 var
+R14213:14215 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14209:14209 VST.msl.combiner_sa <> f:210 var
+R14211:14212 VST.msl.combiner_sa <> y0:216 var
+R14216:14216 VST.msl.combiner_sa <> f:210 var
+R14218:14218 VST.msl.combiner_sa <> y:213 var
+R14113:14120 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin var
+R14134:14134 VST.msl.combiner_sa <> g:211 var
+R14136:14136 VST.msl.combiner_sa <> z:214 var
+R14128:14128 VST.msl.combiner_sa <> f:210 var
+R14130:14130 VST.msl.combiner_sa <> y:213 var
+R14124:14125 VST.msl.combiner_sa <> x':212 var
+R14122:14122 VST.msl.combiner_sa <> B:209 var
+R14235:14253 VST.msl.combiner_sa <> combjoin_unmap_left def
+R14235:14253 VST.msl.combiner_sa <> combjoin_unmap_left def
+var 14278:14306 ParameterizedCombiner combjoin_preserves_unmap_left
+binder 14317:14317 <> A:217
+binder 14319:14319 <> B:218
+R14327:14330 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14331:14331 VST.msl.combiner_sa <> B:218 var
+R14326:14326 VST.msl.combiner_sa <> A:217 var
+binder 14322:14322 <> f:219
+R14339:14342 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14343:14343 VST.msl.combiner_sa <> A:217 var
+R14338:14338 VST.msl.combiner_sa <> B:218 var
+binder 14335:14335 <> g:220
+R14351:14369 VST.msl.combiner_sa <> combjoin_unmap_left def
+R14386:14389 VST.msl.functors MixVariantFunctor fmap proj
+R14396:14396 VST.msl.combiner_sa <> g:220 var
+R14394:14394 VST.msl.combiner_sa <> f:219 var
+R14391:14392 VST.msl.combiner_sa <> ParameterizedCombiner.T2 var
+R14372:14375 VST.msl.functors MixVariantFunctor fmap proj
+R14382:14382 VST.msl.combiner_sa <> g:220 var
+R14380:14380 VST.msl.combiner_sa <> f:219 var
+R14377:14378 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+def 14414:14433 <> combjoin_unmap_right
+binder 14436:14436 <> A:222
+binder 14438:14438 <> B:223
+R14461:14464 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14465:14466 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R14468:14468 VST.msl.combiner_sa <> B:223 var
+R14457:14458 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R14460:14460 VST.msl.combiner_sa <> A:222 var
+binder 14453:14453 <> f:224
+R14480:14483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14484:14485 VST.msl.combiner_sa <> ParameterizedCombiner.T2 var
+R14487:14487 VST.msl.combiner_sa <> B:223 var
+R14476:14477 VST.msl.combiner_sa <> ParameterizedCombiner.T2 var
+R14479:14479 VST.msl.combiner_sa <> A:222 var
+binder 14472:14472 <> g:225
+R14519:14520 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R14522:14522 VST.msl.combiner_sa <> A:222 var
+binder 14514:14514 <> x:226
+binder 14516:14516 <> y:227
+R14531:14532 VST.msl.combiner_sa <> ParameterizedCombiner.T2 var
+R14534:14534 VST.msl.combiner_sa <> B:223 var
+binder 14526:14527 <> z':228
+R14571:14582 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14583:14583 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R14586:14588 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R14593:14596 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R14653:14653 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R14589:14590 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+R14592:14592 VST.msl.combiner_sa <> A:222 var
+binder 14584:14585 <> y0:229
+R14597:14597 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14599:14601 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14606:14608 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14652:14652 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14602:14603 VST.msl.combiner_sa <> ParameterizedCombiner.T2 var
+R14605:14605 VST.msl.combiner_sa <> A:222 var
+binder 14598:14598 <> z:230
+R14626:14629 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14609:14616 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin var
+R14625:14625 VST.msl.combiner_sa <> z:230 var
+R14622:14623 VST.msl.combiner_sa <> y0:229 var
+R14620:14620 VST.msl.combiner_sa <> x:226 var
+R14618:14618 VST.msl.combiner_sa <> A:222 var
+R14640:14643 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14634:14636 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14630:14630 VST.msl.combiner_sa <> f:224 var
+R14632:14633 VST.msl.combiner_sa <> y0:229 var
+R14637:14637 VST.msl.combiner_sa <> f:224 var
+R14639:14639 VST.msl.combiner_sa <> y:227 var
+R14647:14649 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14644:14644 VST.msl.combiner_sa <> g:225 var
+R14646:14646 VST.msl.combiner_sa <> z:230 var
+R14650:14651 VST.msl.combiner_sa <> z':228 var
+R14546:14553 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin var
+R14569:14570 VST.msl.combiner_sa <> z':228 var
+R14564:14564 VST.msl.combiner_sa <> f:224 var
+R14566:14566 VST.msl.combiner_sa <> y:227 var
+R14558:14558 VST.msl.combiner_sa <> f:224 var
+R14560:14560 VST.msl.combiner_sa <> x:226 var
+R14555:14555 VST.msl.combiner_sa <> B:223 var
+R14668:14687 VST.msl.combiner_sa <> combjoin_unmap_right def
+R14668:14687 VST.msl.combiner_sa <> combjoin_unmap_right def
+var 14712:14741 ParameterizedCombiner combjoin_preserves_unmap_right
+binder 14752:14752 <> A:231
+binder 14754:14754 <> B:232
+R14762:14765 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14766:14766 VST.msl.combiner_sa <> B:232 var
+R14761:14761 VST.msl.combiner_sa <> A:231 var
+binder 14757:14757 <> f:233
+R14774:14777 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14778:14778 VST.msl.combiner_sa <> A:231 var
+R14773:14773 VST.msl.combiner_sa <> B:232 var
+binder 14770:14770 <> g:234
+R14786:14805 VST.msl.combiner_sa <> combjoin_unmap_right def
+R14822:14825 VST.msl.functors MixVariantFunctor fmap proj
+R14832:14832 VST.msl.combiner_sa <> g:234 var
+R14830:14830 VST.msl.combiner_sa <> f:233 var
+R14827:14828 VST.msl.combiner_sa <> ParameterizedCombiner.T2 var
+R14808:14811 VST.msl.functors MixVariantFunctor fmap proj
+R14818:14818 VST.msl.combiner_sa <> g:234 var
+R14816:14816 VST.msl.combiner_sa <> f:233 var
+R14813:14814 VST.msl.combiner_sa <> ParameterizedCombiner.T1 var
+prf 14845:14879 <> fmap_fcombiner_preserves_unmap_left
+binder 14889:14889 <> A:236
+binder 14891:14891 <> B:237
+R14899:14902 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14903:14903 VST.msl.combiner_sa <> B:237 var
+R14898:14898 VST.msl.combiner_sa <> A:236 var
+binder 14894:14894 <> f:238
+R14911:14914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14915:14915 VST.msl.combiner_sa <> A:236 var
+R14910:14910 VST.msl.combiner_sa <> B:237 var
+binder 14907:14907 <> g:239
+R14923:14932 VST.msl.sepalg_functors <> unmap_left def
+R14973:14976 VST.msl.functors MixVariantFunctor fmap proj
+R14991:14991 VST.msl.combiner_sa <> g:239 var
+R14989:14989 VST.msl.combiner_sa <> f:238 var
+R14978:14987 VST.msl.combiner_sa <> f_combiner def
+R14954:14967 VST.msl.combiner_sa <> Join_fcombiner inst
+R14969:14969 VST.msl.combiner_sa <> B:237 var
+R14935:14948 VST.msl.combiner_sa <> Join_fcombiner inst
+R14950:14950 VST.msl.combiner_sa <> A:236 var
+R15054:15057 VST.msl.sepalg <> join def
+R15127:15132 VST.msl.combiner_sa <> CEmpty constr
+R15127:15132 VST.msl.combiner_sa <> CEmpty constr
+R15144:15149 VST.msl.combiner_sa <> CEmpty constr
+R15144:15149 VST.msl.combiner_sa <> CEmpty constr
+R15177:15182 VST.msl.combiner_sa <> CEmpty constr
+R15177:15182 VST.msl.combiner_sa <> CEmpty constr
+R15194:15198 VST.msl.combiner_sa <> CPart constr
+R15194:15198 VST.msl.combiner_sa <> CPart constr
+R15274:15279 VST.msl.combiner_sa <> CEmpty constr
+R15274:15279 VST.msl.combiner_sa <> CEmpty constr
+R15291:15295 VST.msl.combiner_sa <> CFull constr
+R15291:15295 VST.msl.combiner_sa <> CFull constr
+R15367:15371 VST.msl.combiner_sa <> CPart constr
+R15367:15371 VST.msl.combiner_sa <> CPart constr
+R15389:15394 VST.msl.combiner_sa <> CEmpty constr
+R15389:15394 VST.msl.combiner_sa <> CEmpty constr
+R15483:15506 VST.msl.sepalg_functors <> paf_preserves_unmap_left proj
+R15508:15513 VST.msl.combiner_sa <> ParameterizedCombiner.saf_T1 var
+R15483:15506 VST.msl.sepalg_functors <> paf_preserves_unmap_left proj
+R15508:15513 VST.msl.combiner_sa <> ParameterizedCombiner.saf_T1 var
+R15591:15595 VST.msl.combiner_sa <> CPart constr
+R15591:15595 VST.msl.combiner_sa <> CPart constr
+R15612:15616 VST.msl.combiner_sa <> CPart constr
+R15612:15616 VST.msl.combiner_sa <> CPart constr
+R15734:15762 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin_preserves_unmap_left var
+R15734:15762 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin_preserves_unmap_left var
+R15797:15825 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin_preserves_unmap_left var
+R15862:15866 VST.msl.combiner_sa <> CPart constr
+R15862:15866 VST.msl.combiner_sa <> CPart constr
+R15883:15887 VST.msl.combiner_sa <> CPart constr
+R15883:15887 VST.msl.combiner_sa <> CPart constr
+R15988:15992 VST.msl.combiner_sa <> CFull constr
+R15988:15992 VST.msl.combiner_sa <> CFull constr
+R16007:16012 VST.msl.combiner_sa <> CEmpty constr
+R16007:16012 VST.msl.combiner_sa <> CEmpty constr
+prf 16085:16120 <> fmap_fcombiner_preserves_unmap_right
+binder 16130:16130 <> A:240
+binder 16132:16132 <> B:241
+R16140:16143 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16144:16144 VST.msl.combiner_sa <> B:241 var
+R16139:16139 VST.msl.combiner_sa <> A:240 var
+binder 16135:16135 <> f:242
+R16152:16155 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16156:16156 VST.msl.combiner_sa <> A:240 var
+R16151:16151 VST.msl.combiner_sa <> B:241 var
+binder 16148:16148 <> g:243
+R16164:16174 VST.msl.sepalg_functors <> unmap_right def
+R16215:16218 VST.msl.functors MixVariantFunctor fmap proj
+R16233:16233 VST.msl.combiner_sa <> g:243 var
+R16231:16231 VST.msl.combiner_sa <> f:242 var
+R16220:16229 VST.msl.combiner_sa <> f_combiner def
+R16196:16209 VST.msl.combiner_sa <> Join_fcombiner inst
+R16211:16211 VST.msl.combiner_sa <> B:241 var
+R16177:16190 VST.msl.combiner_sa <> Join_fcombiner inst
+R16192:16192 VST.msl.combiner_sa <> A:240 var
+R16296:16299 VST.msl.sepalg <> join def
+R16369:16374 VST.msl.combiner_sa <> CEmpty constr
+R16369:16374 VST.msl.combiner_sa <> CEmpty constr
+R16386:16391 VST.msl.combiner_sa <> CEmpty constr
+R16386:16391 VST.msl.combiner_sa <> CEmpty constr
+R16419:16423 VST.msl.combiner_sa <> CPart constr
+R16419:16423 VST.msl.combiner_sa <> CPart constr
+R16440:16444 VST.msl.combiner_sa <> CPart constr
+R16440:16444 VST.msl.combiner_sa <> CPart constr
+R16518:16522 VST.msl.combiner_sa <> CFull constr
+R16518:16522 VST.msl.combiner_sa <> CFull constr
+R16536:16540 VST.msl.combiner_sa <> CFull constr
+R16536:16540 VST.msl.combiner_sa <> CFull constr
+R16611:16616 VST.msl.combiner_sa <> CEmpty constr
+R16611:16616 VST.msl.combiner_sa <> CEmpty constr
+R16628:16632 VST.msl.combiner_sa <> CPart constr
+R16628:16632 VST.msl.combiner_sa <> CPart constr
+R16726:16750 VST.msl.sepalg_functors <> paf_preserves_unmap_right proj
+R16752:16757 VST.msl.combiner_sa <> ParameterizedCombiner.saf_T1 var
+R16726:16750 VST.msl.sepalg_functors <> paf_preserves_unmap_right proj
+R16752:16757 VST.msl.combiner_sa <> ParameterizedCombiner.saf_T1 var
+R16835:16839 VST.msl.combiner_sa <> CPart constr
+R16835:16839 VST.msl.combiner_sa <> CPart constr
+R16858:16862 VST.msl.combiner_sa <> CPart constr
+R16858:16862 VST.msl.combiner_sa <> CPart constr
+R16979:17008 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin_preserves_unmap_right var
+R16979:17008 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin_preserves_unmap_right var
+R17043:17072 VST.msl.combiner_sa <> ParameterizedCombiner.combjoin_preserves_unmap_right var
+R17109:17113 VST.msl.combiner_sa <> CPart constr
+R17109:17113 VST.msl.combiner_sa <> CPart constr
+R17132:17136 VST.msl.combiner_sa <> CFull constr
+R17132:17136 VST.msl.combiner_sa <> CFull constr
+R17232:17237 VST.msl.combiner_sa <> CEmpty constr
+R17232:17237 VST.msl.combiner_sa <> CEmpty constr
+R17249:17253 VST.msl.combiner_sa <> CFull constr
+R17249:17253 VST.msl.combiner_sa <> CFull constr
+def 17332:17343 <> paf_combiner
+R17347:17355 VST.msl.sepalg_functors <> pafunctor rec
+R17368:17381 VST.msl.combiner_sa <> Join_fcombiner inst
+R17357:17366 VST.msl.combiner_sa <> f_combiner def
+R17419:17436 VST.msl.combiner_sa <> fmap_fcombiner_hom thm
+R17419:17436 VST.msl.combiner_sa <> fmap_fcombiner_hom thm
+R17449:17483 VST.msl.combiner_sa <> fmap_fcombiner_preserves_unmap_left thm
+R17449:17483 VST.msl.combiner_sa <> fmap_fcombiner_preserves_unmap_left thm
+R17496:17531 VST.msl.combiner_sa <> fmap_fcombiner_preserves_unmap_right thm
+R17496:17531 VST.msl.combiner_sa <> fmap_fcombiner_preserves_unmap_right thm
+R17545:17565 VST.msl.combiner_sa ParameterizedCombiner <> sec
+R17579:17587 VST.msl.combiner_sa <> fcombiner def
+R17579:17587 VST.msl.combiner_sa <> fcombiner def
+R17612:17623 VST.msl.combiner_sa <> combjoin_hom def
+R17612:17623 VST.msl.combiner_sa <> combjoin_hom def
+R17656:17674 VST.msl.combiner_sa <> combjoin_unmap_left def
+R17656:17674 VST.msl.combiner_sa <> combjoin_unmap_left def
+R17707:17726 VST.msl.combiner_sa <> combjoin_unmap_right def
+R17707:17726 VST.msl.combiner_sa <> combjoin_unmap_right def
+R17759:17768 VST.msl.combiner_sa <> f_combiner def
+R17759:17768 VST.msl.combiner_sa <> f_combiner def

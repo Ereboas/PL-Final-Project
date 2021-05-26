@@ -1,0 +1,204 @@
+DIGEST 6bdeb03e4c9f3e27b734379e0dfbac98
+FVST.floyd.diagnosis
+R15:29 VST.floyd.base2 <> <> lib
+R47:69 VST.floyd.client_lemmas <> <> lib
+R87:110 VST.floyd.reptype_lemmas <> <> lib
+prf 145:163 <> no_post_exists_unit
+binder 175:175 <> P:1
+binder 177:177 <> Q:2
+binder 179:179 <> R:3
+R211:216 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R184:188 VST.floyd.canon <> PROPx def
+R193:198 VST.floyd.canon <> LOCALx def
+R203:206 VST.floyd.canon <> SEPx def
+R208:208 VST.floyd.diagnosis <> R:3 var
+R200:200 VST.floyd.diagnosis <> Q:2 var
+R190:190 VST.floyd.diagnosis <> P:1 var
+R217:219 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R226:227 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R222:225 Coq.Init.Datatypes <> unit ind
+R228:232 VST.floyd.canon <> PROPx def
+R237:242 VST.floyd.canon <> LOCALx def
+R247:250 VST.floyd.canon <> SEPx def
+R252:252 VST.floyd.diagnosis <> R:3 var
+R244:244 VST.floyd.diagnosis <> Q:2 var
+R234:234 VST.floyd.diagnosis <> P:1 var
+R278:285 VST.msl.seplog <> pred_ext meth
+R278:285 VST.msl.seplog <> pred_ext meth
+R309:310 Coq.Init.Datatypes <> tt constr
+R294:302 VST.msl.seplog <> exp_right meth
+R309:310 Coq.Init.Datatypes <> tt constr
+R294:302 VST.msl.seplog <> exp_right meth
+R325:332 VST.msl.seplog <> exp_left meth
+R325:332 VST.msl.seplog <> exp_left meth
+ind 357:361 <> Stuck
+R478:482 VST.floyd.diagnosis <> Stuck ind
+def 502:522 <> not_in_canonical_form
+R527:528 Coq.Init.Datatypes <> tt constr
+def 542:555 <> Error__Funspec
+R562:566 compcert.common.AST <> ident def
+binder 558:559 <> id:6
+R576:579 Coq.Init.Datatypes <> unit ind
+binder 570:573 <> what:7
+R591:594 Coq.Init.Datatypes <> unit ind
+binder 583:588 <> reason:8
+R600:604 VST.floyd.diagnosis <> Stuck ind
+def 618:638 <> Cannot_unfold_funspec
+R650:650 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R645:649 compcert.common.AST <> ident def
+R651:657 VST.veric.mpred <> funspec ind
+binder 641:642 <> fs:9
+R663:667 VST.floyd.diagnosis <> Stuck ind
+def 681:707 <> for_some_undiagnosed_reason
+R719:719 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R714:718 compcert.common.AST <> ident def
+R720:726 VST.veric.mpred <> funspec ind
+binder 710:711 <> fs:10
+R732:733 Coq.Init.Datatypes <> tt constr
+def 747:762 <> because_of_LOCAL
+R775:776 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R768:774 VST.veric.mpred <> environ ind
+binder 765:765 <> Q:11
+R786:787 Coq.Init.Datatypes <> tt constr
+def 801:814 <> because_of_SEP
+R827:828 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R829:833 VST.veric.mpred <> mpred def
+R820:826 VST.veric.mpred <> environ ind
+binder 817:817 <> R:12
+R839:840 Coq.Init.Datatypes <> tt constr
+def 854:878 <> because_temp_out_of_scope
+R884:888 compcert.common.AST <> ident def
+binder 881:881 <> i:13
+R894:895 Coq.Init.Datatypes <> tt constr
+def 909:942 <> because_Precondition_not_canonical
+R955:956 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R957:961 VST.veric.mpred <> mpred def
+R948:954 VST.veric.mpred <> environ ind
+binder 945:945 <> R:14
+R967:968 Coq.Init.Datatypes <> tt constr
+def 982:1016 <> because_Postcondition_not_canonical
+R1029:1030 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1031:1035 VST.veric.mpred <> mpred def
+R1022:1028 VST.veric.mpred <> environ ind
+binder 1019:1019 <> R:15
+R1041:1042 Coq.Init.Datatypes <> tt constr
+def 1056:1123 <> WITH_clause_should_avoid_using_reptype_otherwise_Coq_is_way_too_slow
+R1128:1129 Coq.Init.Datatypes <> tt constr
+R1218:1221 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1212:1212 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1215:1215 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1217:1217 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1218:1221 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1212:1212 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1215:1215 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1217:1217 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1275:1277 Coq.Init.Datatypes <> nil constr
+R1275:1277 Coq.Init.Datatypes <> nil constr
+R1293:1306 VST.floyd.diagnosis <> Error__Funspec def
+R1370:1394 VST.floyd.diagnosis <> because_temp_out_of_scope def
+R1312:1332 VST.floyd.diagnosis <> not_in_canonical_form def
+R1454:1456 Coq.Init.Datatypes <> nil constr
+R1454:1456 Coq.Init.Datatypes <> nil constr
+R1479:1482 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1470:1473 VST.floyd.canon <> temp constr
+R1479:1482 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1470:1473 VST.floyd.canon <> temp constr
+R1635:1638 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1625:1628 VST.floyd.canon <> lvar constr
+R1635:1638 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1625:1628 VST.floyd.canon <> lvar constr
+R1675:1678 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1675:1678 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1695:1708 VST.floyd.diagnosis <> Error__Funspec def
+R1759:1774 VST.floyd.diagnosis <> because_of_LOCAL def
+R1714:1734 VST.floyd.diagnosis <> not_in_canonical_form def
+R1827:1829 Coq.Init.Datatypes <> nil constr
+R1827:1829 Coq.Init.Datatypes <> nil constr
+R1844:1847 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1844:1847 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1876:1879 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1876:1879 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1896:1909 VST.floyd.diagnosis <> Error__Funspec def
+R1959:1972 VST.floyd.diagnosis <> because_of_SEP def
+R1915:1935 VST.floyd.diagnosis <> not_in_canonical_form def
+R2280:2280 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2280:2280 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2412:2416 VST.floyd.canon <> PROPx def
+R2422:2427 VST.floyd.canon <> LOCALx def
+R2433:2436 VST.floyd.canon <> SEPx def
+R2412:2416 VST.floyd.canon <> PROPx def
+R2422:2427 VST.floyd.canon <> LOCALx def
+R2433:2436 VST.floyd.canon <> SEPx def
+R2610:2623 VST.floyd.diagnosis <> Error__Funspec def
+R2673:2706 VST.floyd.diagnosis <> because_Precondition_not_canonical def
+R2629:2649 VST.floyd.diagnosis <> not_in_canonical_form def
+R2786:2804 VST.floyd.diagnosis <> no_post_exists_unit thm
+R2847:2849 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R2853:2854 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R2855:2857 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R2861:2862 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R2847:2849 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R2853:2854 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R2855:2857 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R2861:2862 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R2882:2892 VST.msl.log_normalize <> exp_uncurry thm
+R2936:2938 VST.msl.seplog <> exp meth
+R2936:2938 VST.msl.seplog <> exp meth
+R3297:3310 VST.floyd.diagnosis <> Error__Funspec def
+R3360:3394 VST.floyd.diagnosis <> because_Postcondition_not_canonical def
+R3316:3336 VST.floyd.diagnosis <> not_in_canonical_form def
+R3154:3154 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3154:3154 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3463:3467 VST.floyd.canon <> PROPx def
+R3473:3478 VST.floyd.canon <> LOCALx def
+R3484:3487 VST.floyd.canon <> SEPx def
+R3463:3467 VST.floyd.canon <> PROPx def
+R3473:3478 VST.floyd.canon <> LOCALx def
+R3484:3487 VST.floyd.canon <> SEPx def
+R3581:3582 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3562:3562 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3571:3573 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3580:3580 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3563:3570 VST.veric.SeparationLogic <> ret_temp def
+R3583:3585 Coq.Init.Datatypes <> nil constr
+R3754:3760 VST.floyd.reptype_lemmas <> reptype def
+R3754:3760 VST.floyd.reptype_lemmas <> reptype def
+R3786:3799 VST.floyd.diagnosis <> Error__Funspec def
+R3873:3874 Coq.Init.Datatypes <> tt constr
+R3804:3871 VST.floyd.diagnosis <> WITH_clause_should_avoid_using_reptype_otherwise_Coq_is_way_too_slow def
+R3921:3921 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3925:3926 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3969:3970 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3927:3936 VST.veric.mpred <> mk_funspec constr
+R3938:3938 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3946:3946 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3954:3954 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3921:3921 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3925:3926 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3969:3970 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3927:3936 VST.veric.mpred <> mk_funspec constr
+R3938:3938 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3946:3946 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3954:3954 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4434:4454 VST.floyd.diagnosis <> Cannot_unfold_funspec def
+R4198:4211 VST.floyd.diagnosis <> Error__Funspec def
+R4275:4301 VST.floyd.diagnosis <> for_some_undiagnosed_reason def
+R4216:4236 VST.floyd.diagnosis <> not_in_canonical_form def
+R4788:4791 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4788:4791 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4844:4848 Coq.Init.Logic <> False ind
+R4966:4970 compcert.cfrontend.Clight <> Scall constr
+R4975:4978 compcert.cfrontend.Clight <> Evar constr
+R4966:4970 compcert.cfrontend.Clight <> Scall constr
+R4975:4978 compcert.cfrontend.Clight <> Evar constr
+R5216:5224 compcert.cfrontend.Clight <> Ssequence constr
+R5216:5224 compcert.cfrontend.Clight <> Ssequence constr
+R5011:5011 compcert.lib.Maps <> :::x_'!'_x not
+R5028:5031 compcert.lib.Maps <> :::x_'!'_x not
+R5012:5021 VST.veric.seplog <> glob_specs def
+R5096:5099 Coq.Init.Datatypes <> Some constr
+R5096:5099 Coq.Init.Datatypes <> Some constr
+R5141:5144 Coq.Init.Datatypes <> None constr
+R5141:5144 Coq.Init.Datatypes <> None constr
+R5383:5387 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R5383:5387 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax

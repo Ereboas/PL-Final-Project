@@ -1,0 +1,2049 @@
+DIGEST 25eaac7019d67cf099a2cf29fff4d37f
+FVST.veric.own
+R15:35 VST.msl.log_normalize <> <> lib
+R53:65 VST.msl.ghost <> <> lib
+R83:102 VST.msl.ghost_seplog <> <> lib
+R120:133 VST.veric.base <> <> lib
+R151:165 VST.veric.rmaps <> <> lib
+R183:206 VST.veric.compcert_rmaps <> <> lib
+R224:247 VST.veric.res_predicates <> <> lib
+syndef 306:317 <> ghost_approx
+R325:334 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R356:361 VST.veric.compcert_rmaps RML.R approx def
+R364:368 VST.msl.ageable <> level meth
+R337:342 VST.veric.compcert_rmaps RML.R approx def
+R345:349 VST.msl.ageable <> level meth
+def 473:480 <> ghost_is
+binder 482:482 <> g:1
+R485:488 VST.msl.predicates_hered <> pred def
+R490:493 VST.veric.compcert_rmaps RML.R rmap defax
+binder 504:504 <> m:2
+R519:521 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R509:516 VST.veric.compcert_rmaps RML.R ghost_of def
+R518:518 VST.veric.own <> m:2 var
+R522:533 VST.veric.own <> ghost_approx syndef
+R535:535 VST.veric.own <> m:2 var
+R535:535 VST.veric.own <> m:2 var
+R537:537 VST.veric.own <> g:1 var
+R586:598 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R586:598 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R586:598 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R626:634 VST.msl.ageable <> age_level thm
+R626:634 VST.msl.ageable <> age_level thm
+R654:668 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R671:687 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R690:706 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R654:668 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R654:668 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R671:687 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R671:687 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R690:706 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R690:706 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+def 740:742 <> Own
+binder 744:744 <> g:3
+R747:750 VST.msl.predicates_hered <> pred def
+R752:755 VST.veric.compcert_rmaps RML.R rmap defax
+R769:772 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R760:763 VST.msl.predicates_hered <> allp def
+R765:768 VST.veric.res_predicates <> noat def
+R773:780 VST.veric.own <> ghost_is def
+R782:782 VST.veric.own <> g:3 var
+prf 792:797 <> Own_op
+binder 807:807 <> a:4
+binder 809:809 <> b:5
+binder 811:811 <> c:6
+R824:827 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R833:835 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R828:830 VST.veric.own <> Own def
+R832:832 VST.veric.own <> c:6 var
+R841:843 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R836:838 VST.veric.own <> Own def
+R840:840 VST.veric.own <> a:4 var
+R844:846 VST.veric.own <> Own def
+R848:848 VST.veric.own <> b:5 var
+R814:817 VST.msl.sepalg <> join def
+R823:823 VST.veric.own <> c:6 var
+R821:821 VST.veric.own <> b:5 var
+R819:819 VST.veric.own <> a:4 var
+R874:881 VST.msl.predicates_hered <> pred_ext thm
+R874:881 VST.msl.predicates_hered <> pred_ext thm
+R923:931 VST.veric.compcert_rmaps RML make_rmap thm
+R969:973 VST.msl.ageable <> level meth
+R950:961 VST.veric.own <> ghost_approx syndef
+R934:944 VST.veric.compcert_rmaps RML.R resource_at def
+R923:931 VST.veric.compcert_rmaps RML make_rmap thm
+R969:973 VST.msl.ageable <> level meth
+R950:961 VST.veric.own <> ghost_approx syndef
+R934:944 VST.veric.compcert_rmaps RML.R resource_at def
+R1040:1057 VST.veric.compcert_rmaps RML resource_at_approx thm
+R1040:1057 VST.veric.compcert_rmaps RML resource_at_approx thm
+R1076:1090 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R1093:1108 VST.veric.compcert_rmaps RML approx_oo_approx thm
+R1076:1090 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R1076:1090 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R1093:1108 VST.veric.compcert_rmaps RML approx_oo_approx thm
+R1093:1108 VST.veric.compcert_rmaps RML approx_oo_approx thm
+R1133:1141 VST.veric.compcert_rmaps RML make_rmap thm
+R1179:1183 VST.msl.ageable <> level meth
+R1160:1171 VST.veric.own <> ghost_approx syndef
+R1144:1154 VST.veric.compcert_rmaps RML.R resource_at def
+R1133:1141 VST.veric.compcert_rmaps RML make_rmap thm
+R1179:1183 VST.msl.ageable <> level meth
+R1160:1171 VST.veric.own <> ghost_approx syndef
+R1144:1154 VST.veric.compcert_rmaps RML.R resource_at def
+R1250:1267 VST.veric.compcert_rmaps RML resource_at_approx thm
+R1250:1267 VST.veric.compcert_rmaps RML resource_at_approx thm
+R1286:1300 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R1303:1318 VST.veric.compcert_rmaps RML approx_oo_approx thm
+R1286:1300 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R1286:1300 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R1303:1318 VST.veric.compcert_rmaps RML approx_oo_approx thm
+R1303:1318 VST.veric.compcert_rmaps RML approx_oo_approx thm
+R1367:1383 VST.veric.compcert_rmaps RML resource_at_join2 thm
+R1367:1383 VST.veric.compcert_rmaps RML resource_at_join2 thm
+R1439:1452 VST.msl.sepalg <> identity_unit' thm
+R1439:1452 VST.msl.sepalg <> identity_unit' thm
+R1504:1518 VST.veric.compcert_rmaps RML ghost_fmap_join thm
+R1504:1518 VST.veric.compcert_rmaps RML ghost_fmap_join thm
+R1685:1700 VST.veric.compcert_rmaps RML resource_at_join thm
+R1685:1700 VST.veric.compcert_rmaps RML resource_at_join thm
+R1784:1793 VST.msl.age_sepalg <> join_level thm
+R1784:1793 VST.msl.age_sepalg <> join_level thm
+R1830:1842 VST.veric.compcert_rmaps RML ghost_of_join thm
+R1830:1842 VST.veric.compcert_rmaps RML ghost_of_join thm
+R1892:1898 VST.msl.sepalg <> join_eq meth
+R1892:1898 VST.msl.sepalg <> join_eq meth
+R1938:1952 VST.veric.compcert_rmaps RML ghost_fmap_join thm
+R1938:1952 VST.veric.compcert_rmaps RML ghost_fmap_join thm
+def 1976:1984 <> make_join
+R1993:1997 VST.veric.compcert_rmaps RML.R ghost def
+binder 1987:1987 <> a:7
+binder 1989:1989 <> c:8
+R2002:2006 VST.veric.compcert_rmaps RML.R ghost def
+R2022:2022 VST.veric.own <> c:8 var
+R2019:2019 VST.veric.own <> a:7 var
+R2033:2035 Coq.Init.Datatypes <> nil constr
+R2043:2043 VST.veric.own <> c:8 var
+R2052:2054 Coq.Init.Datatypes <> nil constr
+R2059:2061 Coq.Init.Datatypes <> nil constr
+R2071:2074 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2067:2070 Coq.Init.Datatypes <> None constr
+R2080:2083 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2091:2094 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2095:2103 VST.veric.own <> make_join:9 def
+R2116:2119 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2128:2131 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2124:2127 Coq.Init.Datatypes <> None constr
+R2142:2145 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2138:2141 Coq.Init.Datatypes <> None constr
+R2146:2154 VST.veric.own <> make_join:9 def
+R2179:2182 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2166:2169 Coq.Init.Datatypes <> Some constr
+R2171:2171 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2174:2175 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2178:2178 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2199:2202 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2187:2190 Coq.Init.Datatypes <> Some constr
+R2192:2192 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2195:2196 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2198:2198 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2222:2225 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2209:2212 Coq.Init.Datatypes <> Some constr
+R2214:2214 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2217:2218 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2221:2221 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2226:2234 VST.veric.own <> make_join:9 def
+prf 2256:2268 <> make_join_nil
+binder 2279:2279 <> a:12
+R2297:2299 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2282:2290 VST.veric.own <> make_join def
+R2294:2296 Coq.Init.Datatypes <> nil constr
+R2292:2292 VST.veric.own <> a:12 var
+R2300:2302 Coq.Init.Datatypes <> nil constr
+prf 2373:2390 <> make_join_nil_cons
+binder 2401:2401 <> o:13
+binder 2403:2403 <> a:14
+binder 2405:2405 <> c:15
+R2438:2440 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2408:2416 VST.veric.own <> make_join def
+R2432:2435 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2428:2431 Coq.Init.Datatypes <> None constr
+R2436:2436 VST.veric.own <> c:15 var
+R2420:2423 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2419:2419 VST.veric.own <> o:13 var
+R2424:2424 VST.veric.own <> a:14 var
+R2445:2448 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2441:2444 Coq.Init.Datatypes <> None constr
+R2449:2457 VST.veric.own <> make_join def
+R2461:2461 VST.veric.own <> c:15 var
+R2459:2459 VST.veric.own <> a:14 var
+prf 2512:2529 <> ghost_joins_approx
+binder 2539:2539 <> n:16
+binder 2541:2541 <> a:17
+binder 2543:2543 <> c:18
+R2627:2632 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2643:2651 VST.veric.own <> make_join def
+R2655:2655 VST.veric.own <> c:18 var
+R2653:2653 VST.veric.own <> a:17 var
+binder 2637:2638 <> c':19
+R2758:2765 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2662:2666 VST.msl.sepalg <> joins def
+R2714:2723 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R2755:2756 VST.veric.own <> c':19 var
+R2741:2746 VST.veric.compcert_rmaps RML.R approx def
+R2749:2749 Coq.Init.Datatypes <> S constr
+R2751:2751 VST.veric.own <> n:16 var
+R2726:2731 VST.veric.compcert_rmaps RML.R approx def
+R2734:2734 Coq.Init.Datatypes <> S constr
+R2736:2736 VST.veric.own <> n:16 var
+R2669:2678 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R2710:2710 VST.veric.own <> a:17 var
+R2696:2701 VST.veric.compcert_rmaps RML.R approx def
+R2704:2704 Coq.Init.Datatypes <> S constr
+R2706:2706 VST.veric.own <> n:16 var
+R2681:2686 VST.veric.compcert_rmaps RML.R approx def
+R2689:2689 Coq.Init.Datatypes <> S constr
+R2691:2691 VST.veric.own <> n:16 var
+binder 2773:2773 <> b:20
+R2829:2838 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2839:2843 VST.msl.sepalg <> joins def
+R2883:2892 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R2916:2916 VST.veric.own <> c:18 var
+R2906:2911 VST.veric.compcert_rmaps RML.R approx def
+R2913:2913 VST.veric.own <> n:16 var
+R2895:2900 VST.veric.compcert_rmaps RML.R approx def
+R2902:2902 VST.veric.own <> n:16 var
+R2846:2855 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R2879:2879 VST.veric.own <> b:20 var
+R2869:2874 VST.veric.compcert_rmaps RML.R approx def
+R2876:2876 VST.veric.own <> n:16 var
+R2858:2863 VST.veric.compcert_rmaps RML.R approx def
+R2865:2865 VST.veric.own <> n:16 var
+R2776:2780 VST.msl.sepalg <> joins def
+R2785:2794 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R2826:2827 VST.veric.own <> c':19 var
+R2812:2817 VST.veric.compcert_rmaps RML.R approx def
+R2820:2820 Coq.Init.Datatypes <> S constr
+R2822:2822 VST.veric.own <> n:16 var
+R2797:2802 VST.veric.compcert_rmaps RML.R approx def
+R2805:2805 Coq.Init.Datatypes <> S constr
+R2807:2807 VST.veric.own <> n:16 var
+R2782:2782 VST.veric.own <> b:20 var
+R2548:2552 VST.msl.sepalg <> joins def
+R2592:2601 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R2625:2625 VST.veric.own <> c:18 var
+R2615:2620 VST.veric.compcert_rmaps RML.R approx def
+R2622:2622 VST.veric.own <> n:16 var
+R2604:2609 VST.veric.compcert_rmaps RML.R approx def
+R2611:2611 VST.veric.own <> n:16 var
+R2555:2564 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R2588:2588 VST.veric.own <> a:17 var
+R2578:2583 VST.veric.compcert_rmaps RML.R approx def
+R2585:2585 VST.veric.own <> n:16 var
+R2567:2572 VST.veric.compcert_rmaps RML.R approx def
+R2574:2574 VST.veric.own <> n:16 var
+R3001:3013 VST.veric.own <> make_join_nil thm
+R3001:3013 VST.veric.own <> make_join_nil thm
+R3001:3013 VST.veric.own <> make_join_nil thm
+R3241:3246 VST.veric.compcert_rmaps RML.R approx def
+R3256:3261 VST.veric.compcert_rmaps RML.R approx def
+R3214:3228 VST.veric.compcert_rmaps RML ghost_fmap_join thm
+R3241:3246 VST.veric.compcert_rmaps RML.R approx def
+R3256:3261 VST.veric.compcert_rmaps RML.R approx def
+R3214:3228 VST.veric.compcert_rmaps RML ghost_fmap_join thm
+R3286:3300 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R3303:3319 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R3322:3338 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R3286:3300 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R3286:3300 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R3303:3319 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R3303:3319 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R3322:3338 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R3322:3338 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R3709:3718 compcert.lib.Coqlib <> option_map def
+R3726:3726 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3728:3729 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3731:3731 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 3730:3730 <> b:21
+binder 3727:3727 <> a:22
+binder 3725:3731 <> pat:23
+R3736:3736 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3738:3739 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3774:3774 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3737:3737 VST.veric.own <> a:22 var
+R3740:3749 VST.veric.compcert_rmaps RML.R preds_fmap def
+R3773:3773 VST.veric.own <> b:21 var
+R3763:3768 VST.veric.compcert_rmaps RML.R approx def
+R3752:3757 VST.veric.compcert_rmaps RML.R approx def
+R3872:3886 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R3889:3905 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R3908:3924 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R3872:3886 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R3872:3886 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R3889:3905 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R3889:3905 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R3908:3924 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R3908:3924 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R4156:4170 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R4173:4189 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R4192:4208 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R4156:4170 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R4156:4170 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R4173:4189 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R4173:4189 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R4192:4208 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R4192:4208 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R4282:4299 VST.veric.own <> make_join_nil_cons thm
+R4282:4299 VST.veric.own <> make_join_nil_cons thm
+R4282:4299 VST.veric.own <> make_join_nil_cons thm
+R4708:4711 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4697:4700 Coq.Init.Datatypes <> Some constr
+R4702:4702 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4704:4705 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4707:4707 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4708:4711 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4697:4700 Coq.Init.Datatypes <> Some constr
+R4702:4702 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4704:4705 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4707:4707 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4961:4970 compcert.lib.Coqlib <> option_map def
+R4978:4978 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4980:4981 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4983:4983 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 4982:4982 <> b:24
+binder 4979:4979 <> a:25
+binder 4977:4983 <> pat:26
+R4988:4988 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4990:4991 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5026:5026 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4989:4989 VST.veric.own <> a:25 var
+R4992:5001 VST.veric.compcert_rmaps RML.R preds_fmap def
+R5025:5025 VST.veric.own <> b:24 var
+R5015:5020 VST.veric.compcert_rmaps RML.R approx def
+R5004:5009 VST.veric.compcert_rmaps RML.R approx def
+R5139:5153 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R5156:5172 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R5175:5191 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R5139:5153 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R5139:5153 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R5156:5172 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R5156:5172 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R5175:5191 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R5175:5191 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R5371:5385 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R5388:5404 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R5407:5423 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R5371:5385 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R5371:5385 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R5388:5404 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R5388:5404 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R5407:5423 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R5407:5423 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+def 5478:5481 <> bupd
+R5487:5490 VST.msl.predicates_hered <> pred def
+R5492:5495 VST.veric.compcert_rmaps RML.R rmap defax
+binder 5484:5484 <> P:27
+R5499:5502 VST.msl.predicates_hered <> pred def
+R5504:5507 VST.veric.compcert_rmaps RML.R rmap defax
+binder 5518:5518 <> m:28
+binder 5530:5530 <> c:29
+R5570:5577 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5578:5584 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5586:5587 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5585:5585 <> b:30
+R5614:5621 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5588:5592 VST.msl.sepalg <> joins def
+R5597:5608 VST.veric.own <> ghost_approx syndef
+R5610:5610 VST.veric.own <> m:28 var
+R5610:5610 VST.veric.own <> m:28 var
+R5612:5612 VST.veric.own <> c:29 var
+R5594:5594 VST.veric.own <> b:30 var
+R5622:5628 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5631:5632 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5629:5630 <> m':31
+R5651:5654 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5641:5643 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5633:5637 VST.msl.ageable <> level meth
+R5639:5640 VST.veric.own <> m':31 var
+R5644:5648 VST.msl.ageable <> level meth
+R5650:5650 VST.veric.own <> m:28 var
+R5685:5688 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5669:5671 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5655:5665 VST.veric.compcert_rmaps RML.R resource_at def
+R5667:5668 VST.veric.own <> m':31 var
+R5672:5682 VST.veric.compcert_rmaps RML.R resource_at def
+R5684:5684 VST.veric.own <> m:28 var
+R5704:5707 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5700:5702 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5689:5696 VST.veric.compcert_rmaps RML.R ghost_of def
+R5698:5699 VST.veric.own <> m':31 var
+R5703:5703 VST.veric.own <> b:30 var
+R5708:5708 VST.veric.own <> P:27 var
+R5710:5711 VST.veric.own <> m':31 var
+R5533:5537 VST.msl.sepalg <> joins def
+R5553:5564 VST.veric.own <> ghost_approx syndef
+R5566:5566 VST.veric.own <> m:28 var
+R5566:5566 VST.veric.own <> m:28 var
+R5568:5568 VST.veric.own <> c:29 var
+R5540:5547 VST.veric.compcert_rmaps RML.R ghost_of def
+R5549:5549 VST.veric.own <> m:28 var
+R5765:5777 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R5765:5777 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R5765:5777 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R5806:5820 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R5806:5820 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R5806:5820 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R5841:5858 VST.veric.own <> ghost_joins_approx thm
+R5841:5858 VST.veric.own <> ghost_joins_approx thm
+R5899:5907 VST.msl.ageable <> age_level thm
+R5899:5907 VST.msl.ageable <> age_level thm
+R5899:5907 VST.msl.ageable <> age_level thm
+R5990:5998 VST.msl.ageable <> age_level thm
+R5990:5998 VST.msl.ageable <> age_level thm
+R6018:6029 VST.veric.own <> ghost_approx syndef
+R6018:6029 VST.veric.own <> ghost_approx syndef
+R6110:6119 VST.msl.age_sepalg <> levelS_age thm
+R6125:6129 VST.msl.ageable <> level meth
+R6110:6119 VST.msl.age_sepalg <> levelS_age thm
+R6125:6129 VST.msl.ageable <> level meth
+R6295:6312 VST.veric.compcert_rmaps RML resource_at_approx thm
+R6249:6264 VST.veric.compcert_rmaps RML age1_resource_at thm
+R6249:6264 VST.veric.compcert_rmaps RML age1_resource_at thm
+R6295:6312 VST.veric.compcert_rmaps RML resource_at_approx thm
+R6249:6264 VST.veric.compcert_rmaps RML age1_resource_at thm
+R6380:6397 VST.veric.compcert_rmaps RML resource_at_approx thm
+R6330:6345 VST.veric.compcert_rmaps RML age1_resource_at thm
+R6330:6345 VST.veric.compcert_rmaps RML age1_resource_at thm
+R6380:6397 VST.veric.compcert_rmaps RML resource_at_approx thm
+R6330:6345 VST.veric.compcert_rmaps RML age1_resource_at thm
+R6430:6442 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R6430:6442 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R6430:6442 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R6500:6508 Coq.Init.Specif <> proj2_sig def
+R6500:6508 Coq.Init.Specif <> proj2_sig def
+prf 6533:6542 <> bupd_intro
+binder 6552:6552 <> P:32
+R6556:6560 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R6555:6555 VST.veric.own <> P:32 var
+R6561:6564 VST.veric.own <> bupd def
+R6566:6566 VST.veric.own <> P:32 var
+prf 6613:6621 <> bupd_mono
+binder 6631:6631 <> P:33
+binder 6633:6633 <> Q:34
+R6643:6646 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6653:6657 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R6647:6650 VST.veric.own <> bupd def
+R6652:6652 VST.veric.own <> P:33 var
+R6658:6661 VST.veric.own <> bupd def
+R6663:6663 VST.veric.own <> Q:34 var
+R6637:6641 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R6636:6636 VST.veric.own <> P:33 var
+R6642:6642 VST.veric.own <> Q:34 var
+prf 6827:6838 <> bupd_frame_r
+binder 6848:6848 <> P:35
+binder 6850:6850 <> Q:36
+R6863:6867 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R6859:6861 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R6853:6856 VST.veric.own <> bupd def
+R6858:6858 VST.veric.own <> P:35 var
+R6862:6862 VST.veric.own <> Q:36 var
+R6868:6871 VST.veric.own <> bupd def
+R6875:6877 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R6874:6874 VST.veric.own <> P:35 var
+R6878:6878 VST.veric.own <> Q:36 var
+R6958:6967 VST.msl.age_sepalg <> join_level thm
+R6958:6967 VST.msl.age_sepalg <> join_level thm
+R7006:7018 VST.veric.compcert_rmaps RML ghost_of_join thm
+R7006:7018 VST.veric.compcert_rmaps RML ghost_of_join thm
+R7073:7082 VST.msl.sepalg <> join_assoc meth
+R7073:7082 VST.msl.sepalg <> join_assoc meth
+R7225:7239 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R7125:7144 VST.veric.compcert_rmaps RML ghost_same_level_gen thm
+R7157:7164 VST.veric.compcert_rmaps RML.R ghost_of def
+R7147:7151 VST.msl.ageable <> level meth
+R7125:7144 VST.veric.compcert_rmaps RML ghost_same_level_gen thm
+R7157:7164 VST.veric.compcert_rmaps RML.R ghost_of def
+R7147:7151 VST.msl.ageable <> level meth
+R7225:7239 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R7225:7239 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R7225:7239 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R7225:7239 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R7125:7144 VST.veric.compcert_rmaps RML ghost_same_level_gen thm
+R7157:7164 VST.veric.compcert_rmaps RML.R ghost_of def
+R7147:7151 VST.msl.ageable <> level meth
+R7377:7386 VST.msl.sepalg <> join_assoc meth
+R7404:7412 VST.msl.sepalg <> join_comm meth
+R7389:7397 VST.msl.sepalg <> join_comm meth
+R7377:7386 VST.msl.sepalg <> join_assoc meth
+R7404:7412 VST.msl.sepalg <> join_comm meth
+R7389:7397 VST.msl.sepalg <> join_comm meth
+R7473:7481 VST.msl.sepalg <> join_comm meth
+R7473:7481 VST.msl.sepalg <> join_comm meth
+R7505:7513 VST.veric.compcert_rmaps RML make_rmap thm
+R7535:7539 VST.msl.ageable <> level meth
+R7516:7526 VST.veric.compcert_rmaps RML.R resource_at def
+R7505:7513 VST.veric.compcert_rmaps RML make_rmap thm
+R7535:7539 VST.msl.ageable <> level meth
+R7516:7526 VST.veric.compcert_rmaps RML.R resource_at def
+R7604:7621 VST.veric.compcert_rmaps RML resource_at_approx thm
+R7604:7621 VST.veric.compcert_rmaps RML resource_at_approx thm
+R7637:7656 VST.veric.compcert_rmaps RML ghost_same_level_gen thm
+R7637:7656 VST.veric.compcert_rmaps RML ghost_same_level_gen thm
+R7675:7689 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R7700:7714 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R7675:7689 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R7675:7689 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R7700:7714 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R7700:7714 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R7751:7759 VST.msl.sepalg <> join_comm meth
+R7751:7759 VST.msl.sepalg <> join_comm meth
+R7850:7866 VST.veric.compcert_rmaps RML resource_at_join2 thm
+R7850:7866 VST.veric.compcert_rmaps RML resource_at_join2 thm
+R7920:7935 VST.veric.compcert_rmaps RML resource_at_join thm
+R7920:7935 VST.veric.compcert_rmaps RML resource_at_join thm
+prf 7956:7967 <> bupd_frame_l
+binder 7977:7977 <> P:37
+binder 7979:7979 <> Q:38
+R7992:7996 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R7983:7985 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R7982:7982 VST.veric.own <> P:37 var
+R7986:7989 VST.veric.own <> bupd def
+R7991:7991 VST.veric.own <> Q:38 var
+R7997:8000 VST.veric.own <> bupd def
+R8004:8006 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R8003:8003 VST.veric.own <> P:37 var
+R8007:8007 VST.veric.own <> Q:38 var
+R8036:8046 VST.msl.predicates_sl <> sepcon_comm thm
+R8050:8060 VST.msl.predicates_sl <> sepcon_comm thm
+R8074:8085 VST.veric.own <> bupd_frame_r thm
+R8036:8046 VST.msl.predicates_sl <> sepcon_comm thm
+R8036:8046 VST.msl.predicates_sl <> sepcon_comm thm
+R8050:8060 VST.msl.predicates_sl <> sepcon_comm thm
+R8050:8060 VST.msl.predicates_sl <> sepcon_comm thm
+R8074:8085 VST.veric.own <> bupd_frame_r thm
+prf 8100:8109 <> bupd_trans
+binder 8119:8119 <> P:39
+R8135:8139 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R8122:8125 VST.veric.own <> bupd def
+R8128:8131 VST.veric.own <> bupd def
+R8133:8133 VST.veric.own <> P:39 var
+R8140:8143 VST.veric.own <> bupd def
+R8145:8145 VST.veric.own <> P:39 var
+prf 8338:8346 <> bupd_prop
+binder 8357:8357 <> P:40
+R8371:8373 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8360:8363 VST.veric.own <> bupd def
+R8366:8368 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R8369:8369 VST.veric.own <> P:40 var
+R8374:8376 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R8377:8377 VST.veric.own <> P:40 var
+R8405:8412 VST.msl.predicates_hered <> pred_ext thm
+R8405:8412 VST.msl.predicates_hered <> pred_ext thm
+R8459:8462 VST.msl.sepalg <> core meth
+R8465:8472 VST.veric.compcert_rmaps RML.R ghost_of def
+R8459:8462 VST.msl.sepalg <> core meth
+R8465:8472 VST.veric.compcert_rmaps RML.R ghost_of def
+R8542:8551 VST.veric.compcert_rmaps RML.R ghost_core prfax
+R8573:8582 VST.veric.compcert_rmaps RML.R ghost_core prfax
+R8542:8551 VST.veric.compcert_rmaps RML.R ghost_core prfax
+R8542:8551 VST.veric.compcert_rmaps RML.R ghost_core prfax
+R8573:8582 VST.veric.compcert_rmaps RML.R ghost_core prfax
+R8573:8582 VST.veric.compcert_rmaps RML.R ghost_core prfax
+R8595:8603 VST.msl.sepalg <> join_comm meth
+R8606:8614 VST.msl.sepalg <> core_unit meth
+R8595:8603 VST.msl.sepalg <> join_comm meth
+R8606:8614 VST.msl.sepalg <> core_unit meth
+prf 8669:8677 <> subp_bupd
+R8692:8695 VST.msl.predicates_hered <> pred def
+R8697:8699 Coq.Init.Datatypes <> nat ind
+binder 8688:8688 <> G:41
+R8710:8713 VST.msl.predicates_hered <> pred def
+R8715:8718 VST.veric.compcert_rmaps RML.R rmap defax
+binder 8703:8703 <> P:42
+binder 8705:8706 <> P':43
+R8736:8743 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8745:8749 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R8744:8744 VST.veric.own <> G:41 var
+R8757:8761 VST.msl.subtypes <> ::pred:x_'>=>'_x not
+R8751:8754 VST.veric.own <> bupd def
+R8756:8756 VST.veric.own <> P:42 var
+R8762:8765 VST.veric.own <> bupd def
+R8767:8768 VST.veric.own <> P':43 var
+R8723:8727 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R8722:8722 VST.veric.own <> G:41 var
+R8729:8733 VST.msl.subtypes <> ::pred:x_'>=>'_x not
+R8728:8728 VST.veric.own <> P:42 var
+R8734:8735 VST.veric.own <> P':43 var
+R8936:8945 VST.msl.ageable <> necR_level thm
+R8936:8945 VST.msl.ageable <> necR_level thm
+R8989:8997 VST.msl.ageable <> necR_refl thm
+R8989:8997 VST.msl.ageable <> necR_refl thm
+prf 9022:9029 <> eqp_bupd
+R9044:9047 VST.msl.predicates_hered <> pred def
+R9049:9051 Coq.Init.Datatypes <> nat ind
+binder 9040:9040 <> G:44
+R9062:9065 VST.msl.predicates_hered <> pred def
+R9067:9070 VST.veric.compcert_rmaps RML.R rmap defax
+binder 9055:9055 <> P:45
+binder 9057:9058 <> P':46
+R9088:9095 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9097:9102 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R9121:9121 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R9096:9096 VST.veric.own <> G:44 var
+R9109:9113 VST.msl.subtypes <> ::pred:x_'<=>'_x not
+R9103:9106 VST.veric.own <> bupd def
+R9108:9108 VST.veric.own <> P:45 var
+R9114:9117 VST.veric.own <> bupd def
+R9119:9120 VST.veric.own <> P':46 var
+R9114:9117 VST.veric.own <> bupd def
+R9119:9120 VST.veric.own <> P':46 var
+R9103:9106 VST.veric.own <> bupd def
+R9108:9108 VST.veric.own <> P:45 var
+R9075:9079 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R9074:9074 VST.veric.own <> G:44 var
+R9081:9085 VST.msl.subtypes <> ::pred:x_'<=>'_x not
+R9080:9080 VST.veric.own <> P:45 var
+R9086:9087 VST.veric.own <> P':46 var
+R9086:9087 VST.veric.own <> P':46 var
+R9080:9080 VST.veric.own <> P:45 var
+R9151:9158 VST.msl.subtypes <> fash_and thm
+R9151:9158 VST.msl.subtypes <> fash_and thm
+R9151:9158 VST.msl.subtypes <> fash_and thm
+R9174:9183 VST.msl.predicates_hered <> andp_right thm
+R9192:9200 VST.veric.own <> subp_bupd thm
+R9210:9222 VST.msl.predicates_hered <> derives_trans thm
+R9249:9258 VST.msl.predicates_hered <> andp_left1 thm
+R9268:9277 VST.msl.predicates_hered <> andp_left2 thm
+R9287:9298 VST.msl.predicates_hered <> derives_refl thm
+R9174:9183 VST.msl.predicates_hered <> andp_right thm
+R9192:9200 VST.veric.own <> subp_bupd thm
+R9192:9200 VST.veric.own <> subp_bupd thm
+R9210:9222 VST.msl.predicates_hered <> derives_trans thm
+R9210:9222 VST.msl.predicates_hered <> derives_trans thm
+R9249:9258 VST.msl.predicates_hered <> andp_left1 thm
+R9268:9277 VST.msl.predicates_hered <> andp_left2 thm
+R9287:9298 VST.msl.predicates_hered <> derives_refl thm
+R9287:9298 VST.msl.predicates_hered <> derives_refl thm
+def 9318:9335 <> ghost_fp_update_ND
+binder 9337:9337 <> a:47
+binder 9339:9339 <> B:48
+binder 9353:9353 <> n:49
+binder 9355:9355 <> c:50
+R9402:9409 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9410:9416 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9418:9419 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9417:9417 <> b:51
+R9423:9426 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9420:9420 VST.veric.own <> B:48 var
+R9422:9422 VST.veric.own <> b:51 var
+R9427:9431 VST.msl.sepalg <> joins def
+R9470:9470 VST.veric.own <> c:50 var
+R9434:9443 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R9467:9467 VST.veric.own <> b:51 var
+R9457:9462 VST.veric.compcert_rmaps RML.R approx def
+R9464:9464 VST.veric.own <> n:49 var
+R9446:9451 VST.veric.compcert_rmaps RML.R approx def
+R9453:9453 VST.veric.own <> n:49 var
+R9358:9362 VST.msl.sepalg <> joins def
+R9401:9401 VST.veric.own <> c:50 var
+R9365:9374 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R9398:9398 VST.veric.own <> a:47 var
+R9388:9393 VST.veric.compcert_rmaps RML.R approx def
+R9395:9395 VST.veric.own <> n:49 var
+R9377:9382 VST.veric.compcert_rmaps RML.R approx def
+R9384:9384 VST.veric.own <> n:49 var
+prf 9480:9492 <> Own_update_ND
+binder 9502:9502 <> a:52
+binder 9504:9504 <> B:53
+R9529:9534 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9540:9544 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R9535:9537 VST.veric.own <> Own def
+R9539:9539 VST.veric.own <> a:52 var
+R9545:9548 VST.veric.own <> bupd def
+R9551:9553 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R9559:9560 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+binder 9554:9554 <> b:54
+R9568:9571 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R9561:9563 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R9567:9567 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R9564:9564 VST.veric.own <> B:53 var
+R9566:9566 VST.veric.own <> b:54 var
+R9572:9574 VST.veric.own <> Own def
+R9576:9576 VST.veric.own <> b:54 var
+R9507:9524 VST.veric.own <> ghost_fp_update_ND def
+R9528:9528 VST.veric.own <> B:53 var
+R9526:9526 VST.veric.own <> a:52 var
+R9702:9713 VST.veric.own <> ghost_approx syndef
+R9691:9695 VST.msl.ageable <> level meth
+R9702:9713 VST.veric.own <> ghost_approx syndef
+R9691:9695 VST.msl.ageable <> level meth
+R9772:9781 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R9804:9809 VST.veric.compcert_rmaps RML.R approx def
+R9812:9816 VST.msl.ageable <> level meth
+R9784:9789 VST.veric.compcert_rmaps RML.R approx def
+R9792:9796 VST.msl.ageable <> level meth
+R9772:9781 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R9804:9809 VST.veric.compcert_rmaps RML.R approx def
+R9812:9816 VST.msl.ageable <> level meth
+R9784:9789 VST.veric.compcert_rmaps RML.R approx def
+R9792:9796 VST.msl.ageable <> level meth
+R9853:9861 VST.veric.compcert_rmaps RML make_rmap thm
+R9941:9945 VST.msl.ageable <> level meth
+R9885:9894 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R9917:9922 VST.veric.compcert_rmaps RML.R approx def
+R9925:9929 VST.msl.ageable <> level meth
+R9897:9902 VST.veric.compcert_rmaps RML.R approx def
+R9905:9909 VST.msl.ageable <> level meth
+R9864:9874 VST.veric.compcert_rmaps RML.R resource_at def
+R9853:9861 VST.veric.compcert_rmaps RML make_rmap thm
+R9941:9945 VST.msl.ageable <> level meth
+R9885:9894 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R9917:9922 VST.veric.compcert_rmaps RML.R approx def
+R9925:9929 VST.msl.ageable <> level meth
+R9897:9902 VST.veric.compcert_rmaps RML.R approx def
+R9905:9909 VST.msl.ageable <> level meth
+R9864:9874 VST.veric.compcert_rmaps RML.R resource_at def
+R10007:10024 VST.veric.compcert_rmaps RML resource_at_approx thm
+R10007:10024 VST.veric.compcert_rmaps RML resource_at_approx thm
+R10041:10055 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R10058:10073 VST.veric.compcert_rmaps RML approx_oo_approx thm
+R10041:10055 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R10041:10055 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R10058:10073 VST.veric.compcert_rmaps RML approx_oo_approx thm
+R10058:10073 VST.veric.compcert_rmaps RML approx_oo_approx thm
+def 10250:10264 <> ghost_fp_update
+R10273:10277 VST.veric.compcert_rmaps RML.R ghost def
+binder 10267:10267 <> a:55
+binder 10269:10269 <> b:56
+binder 10292:10292 <> n:57
+binder 10294:10294 <> c:58
+R10341:10359 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10360:10364 VST.msl.sepalg <> joins def
+R10403:10403 VST.veric.own <> c:58 var
+R10367:10376 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R10400:10400 VST.veric.own <> b:56 var
+R10390:10395 VST.veric.compcert_rmaps RML.R approx def
+R10397:10397 VST.veric.own <> n:57 var
+R10379:10384 VST.veric.compcert_rmaps RML.R approx def
+R10386:10386 VST.veric.own <> n:57 var
+R10297:10301 VST.msl.sepalg <> joins def
+R10340:10340 VST.veric.own <> c:58 var
+R10304:10313 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R10337:10337 VST.veric.own <> a:55 var
+R10327:10332 VST.veric.compcert_rmaps RML.R approx def
+R10334:10334 VST.veric.own <> n:57 var
+R10316:10321 VST.veric.compcert_rmaps RML.R approx def
+R10323:10323 VST.veric.own <> n:57 var
+inst 10416:10439 <> ghost_fp_update_preorder
+R10442:10465 Coq.Classes.RelationClasses <> PreOrder class
+R10467:10481 VST.veric.own <> ghost_fp_update def
+prf 10532:10553 <> ghost_fp_update_approx
+binder 10563:10563 <> a:59
+binder 10565:10565 <> b:60
+binder 10567:10567 <> n:61
+R10589:10594 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10595:10609 VST.veric.own <> ghost_fp_update def
+R10649:10658 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R10682:10682 VST.veric.own <> b:60 var
+R10672:10677 VST.veric.compcert_rmaps RML.R approx def
+R10679:10679 VST.veric.own <> n:61 var
+R10661:10666 VST.veric.compcert_rmaps RML.R approx def
+R10668:10668 VST.veric.own <> n:61 var
+R10612:10621 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R10645:10645 VST.veric.own <> a:59 var
+R10635:10640 VST.veric.compcert_rmaps RML.R approx def
+R10642:10642 VST.veric.own <> n:61 var
+R10624:10629 VST.veric.compcert_rmaps RML.R approx def
+R10631:10631 VST.veric.own <> n:61 var
+R10570:10584 VST.veric.own <> ghost_fp_update def
+R10588:10588 VST.veric.own <> b:60 var
+R10586:10586 VST.veric.own <> a:59 var
+R10727:10741 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R10727:10741 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R10727:10741 VST.veric.compcert_rmaps RML ghost_fmap_fmap thm
+R10768:10771 VST.msl.base <> :::x_'oo'_x not
+R10760:10765 VST.veric.compcert_rmaps RML.R approx def
+R10772:10777 VST.veric.compcert_rmaps RML.R approx def
+R10788:10793 VST.veric.compcert_rmaps RML.R approx def
+R10796:10798 Coq.Init.Peano <> min syndef
+R10768:10771 VST.msl.base <> :::x_'oo'_x not
+R10760:10765 VST.veric.compcert_rmaps RML.R approx def
+R10772:10777 VST.veric.compcert_rmaps RML.R approx def
+R10788:10793 VST.veric.compcert_rmaps RML.R approx def
+R10796:10798 Coq.Init.Peano <> min syndef
+R10831:10834 VST.msl.base <> :::x_'oo'_x not
+R10823:10828 VST.veric.compcert_rmaps RML.R approx def
+R10835:10840 VST.veric.compcert_rmaps RML.R approx def
+R10851:10856 VST.veric.compcert_rmaps RML.R approx def
+R10859:10861 Coq.Init.Peano <> min syndef
+R10831:10834 VST.msl.base <> :::x_'oo'_x not
+R10823:10828 VST.veric.compcert_rmaps RML.R approx def
+R10835:10840 VST.veric.compcert_rmaps RML.R approx def
+R10851:10856 VST.veric.compcert_rmaps RML.R approx def
+R10859:10861 Coq.Init.Peano <> min syndef
+R10897:10908 Coq.Arith.Min <> min_spec def
+R10952:10968 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R10980:10996 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R10897:10908 Coq.Arith.Min <> min_spec def
+R10952:10968 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R10952:10968 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R10952:10968 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R10980:10996 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R10980:10996 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R10980:10996 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R11027:11038 Coq.Arith.Min <> min_spec def
+R11082:11098 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R11110:11126 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R11027:11038 Coq.Arith.Min <> min_spec def
+R11082:11098 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R11082:11098 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R11082:11098 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R11110:11126 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R11110:11126 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R11110:11126 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+prf 11155:11164 <> Own_update
+binder 11174:11174 <> a:62
+binder 11176:11176 <> b:63
+R11198:11203 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11209:11213 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R11204:11206 VST.veric.own <> Own def
+R11208:11208 VST.veric.own <> a:62 var
+R11214:11217 VST.veric.own <> bupd def
+R11220:11222 VST.veric.own <> Own def
+R11224:11224 VST.veric.own <> b:63 var
+R11179:11193 VST.veric.own <> ghost_fp_update def
+R11197:11197 VST.veric.own <> b:63 var
+R11195:11195 VST.veric.own <> a:62 var
+R11252:11264 VST.msl.predicates_hered <> derives_trans thm
+R11252:11264 VST.msl.predicates_hered <> derives_trans thm
+R11279:11291 VST.veric.own <> Own_update_ND thm
+R11296:11297 Coq.Init.Logic <> eq ind
+R11279:11291 VST.veric.own <> Own_update_ND thm
+R11296:11297 Coq.Init.Logic <> eq ind
+R11388:11396 VST.veric.own <> bupd_mono thm
+R11388:11396 VST.veric.own <> bupd_mono thm
+R11417:11424 VST.msl.predicates_hered <> exp_left thm
+R11417:11424 VST.msl.predicates_hered <> exp_left thm
+R11417:11424 VST.msl.predicates_hered <> exp_left thm
+R11445:11458 VST.msl.predicates_hered <> prop_andp_left thm
+R11445:11458 VST.msl.predicates_hered <> prop_andp_left thm
+prf 11495:11502 <> Own_unit
+R11508:11512 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R11505:11507 VST.msl.predicates_sl <> emp def
+R11513:11515 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R11521:11522 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+binder 11516:11516 <> a:64
+R11537:11540 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R11523:11525 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R11536:11536 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R11526:11533 VST.msl.sepalg <> identity def
+R11535:11535 VST.veric.own <> a:64 var
+R11541:11543 VST.veric.own <> Own def
+R11545:11545 VST.veric.own <> a:64 var
+R11591:11598 VST.veric.compcert_rmaps RML.R ghost_of def
+R11591:11598 VST.veric.compcert_rmaps RML.R ghost_of def
+R11631:11647 VST.veric.compcert_rmaps RML ghost_of_identity thm
+R11631:11647 VST.veric.compcert_rmaps RML ghost_of_identity thm
+R11673:11692 VST.veric.compcert_rmaps RML resource_at_identity thm
+R11673:11692 VST.veric.compcert_rmaps RML resource_at_identity thm
+R11713:11727 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R11713:11727 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R11713:11727 VST.veric.compcert_rmaps RML ghost_of_approx thm
+prf 11748:11758 <> Own_dealloc
+binder 11768:11768 <> a:65
+R11776:11780 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R11771:11773 VST.veric.own <> Own def
+R11775:11775 VST.veric.own <> a:65 var
+R11781:11784 VST.veric.own <> bupd def
+R11786:11788 VST.msl.predicates_sl <> emp def
+R11828:11831 VST.msl.sepalg <> core meth
+R11835:11846 VST.veric.own <> ghost_approx syndef
+R11879:11887 VST.msl.sepalg <> core_unit meth
+R11828:11831 VST.msl.sepalg <> core meth
+R11835:11846 VST.veric.own <> ghost_approx syndef
+R11879:11887 VST.msl.sepalg <> core_unit meth
+R11904:11912 VST.veric.compcert_rmaps RML make_rmap thm
+R11957:11961 VST.msl.ageable <> level meth
+R11931:11934 VST.msl.sepalg <> core meth
+R11937:11948 VST.veric.own <> ghost_approx syndef
+R11915:11925 VST.veric.compcert_rmaps RML.R resource_at def
+R11904:11912 VST.veric.compcert_rmaps RML make_rmap thm
+R11957:11961 VST.msl.ageable <> level meth
+R11931:11934 VST.msl.sepalg <> core meth
+R11937:11948 VST.veric.own <> ghost_approx syndef
+R11915:11925 VST.veric.compcert_rmaps RML.R resource_at def
+R12016:12033 VST.veric.compcert_rmaps RML resource_at_approx thm
+R12016:12033 VST.veric.compcert_rmaps RML resource_at_approx thm
+R12050:12059 VST.veric.compcert_rmaps RML.R ghost_core prfax
+R12050:12059 VST.veric.compcert_rmaps RML.R ghost_core prfax
+R12050:12059 VST.veric.compcert_rmaps RML.R ghost_core prfax
+R12111:12134 VST.veric.compcert_rmaps RML all_resource_at_identity thm
+R12111:12134 VST.veric.compcert_rmaps RML all_resource_at_identity thm
+R12181:12193 VST.msl.sepalg <> core_identity thm
+R12181:12193 VST.msl.sepalg <> core_identity thm
+def 12213:12221 <> singleton
+binder 12224:12224 <> A:66
+binder 12227:12227 <> k:67
+R12234:12234 VST.veric.own <> A:66 var
+binder 12230:12230 <> x:68
+R12239:12242 Coq.Init.Datatypes <> list ind
+R12245:12250 Coq.Init.Datatypes <> option ind
+R12252:12252 VST.veric.own <> A:66 var
+R12271:12274 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12258:12263 Coq.Lists.List <> repeat def
+R12270:12270 VST.veric.own <> k:67 var
+R12265:12268 Coq.Init.Datatypes <> None constr
+R12281:12284 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12275:12278 Coq.Init.Datatypes <> Some constr
+R12280:12280 VST.veric.own <> x:68 var
+R12285:12287 Coq.Init.Datatypes <> nil constr
+def 12302:12306 <> gname
+R12311:12313 Coq.Init.Datatypes <> nat ind
+def 12328:12330 <> own
+R12337:12341 VST.msl.ghost <> Ghost class
+binder 12333:12334 <> RA:69
+R12348:12352 VST.veric.own <> gname def
+binder 12345:12345 <> n:70
+R12359:12359 VST.msl.ghost <> G meth
+binder 12356:12356 <> a:71
+R12367:12371 VST.veric.compcert_rmaps RML.R preds ind
+binder 12363:12364 <> pp:72
+R12379:12381 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R12387:12388 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+binder 12382:12382 <> v:73
+R12389:12391 VST.veric.own <> Own def
+R12394:12402 VST.veric.own <> singleton def
+R12406:12406 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12432:12433 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12436:12436 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12407:12412 Coq.Init.Specif <> existT constr
+R12420:12424 Coq.Init.Specif <> exist constr
+R12430:12430 VST.veric.own <> v:73 var
+R12428:12428 VST.veric.own <> a:71 var
+R12416:12417 VST.veric.own <> RA:69 var
+R12434:12435 VST.veric.own <> pp:72 var
+R12404:12404 VST.veric.own <> n:70 var
+def 12452:12459 <> list_set
+binder 12462:12462 <> A:74
+R12470:12473 Coq.Init.Datatypes <> list ind
+R12476:12481 Coq.Init.Datatypes <> option ind
+R12483:12483 VST.veric.own <> A:74 var
+binder 12466:12466 <> m:75
+binder 12487:12487 <> k:76
+binder 12489:12489 <> v:77
+R12493:12496 Coq.Init.Datatypes <> list ind
+R12499:12504 Coq.Init.Datatypes <> option ind
+R12506:12506 VST.veric.own <> A:74 var
+R12524:12527 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12514:12519 Coq.Lists.List <> firstn def
+R12523:12523 VST.veric.own <> m:75 var
+R12521:12521 VST.veric.own <> k:76 var
+R12554:12557 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12528:12533 Coq.Lists.List <> repeat def
+R12542:12544 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R12541:12541 VST.veric.own <> k:76 var
+R12545:12550 Coq.Lists.List <> length syndef
+R12552:12552 VST.veric.own <> m:75 var
+R12535:12538 Coq.Init.Datatypes <> None constr
+R12564:12567 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12558:12561 Coq.Init.Datatypes <> Some constr
+R12563:12563 VST.veric.own <> v:77 var
+R12568:12572 Coq.Lists.List <> skipn def
+R12580:12580 VST.veric.own <> m:75 var
+R12575:12575 Coq.Init.Datatypes <> S constr
+R12577:12577 VST.veric.own <> k:76 var
+prf 12590:12607 <> singleton_join_gen
+binder 12617:12617 <> k:78
+binder 12619:12619 <> a:79
+binder 12621:12621 <> c:80
+R12627:12631 VST.veric.compcert_rmaps RML.R ghost def
+binder 12624:12624 <> m:81
+R12644:12647 VST.msl.sepalg <> join def
+R12674:12677 Coq.Init.Datatypes <> Some constr
+R12679:12679 VST.veric.own <> c:80 var
+R12659:12661 Coq.Lists.List <> nth def
+R12667:12670 Coq.Init.Datatypes <> None constr
+R12665:12665 VST.veric.own <> m:81 var
+R12663:12663 VST.veric.own <> k:78 var
+R12650:12653 Coq.Init.Datatypes <> Some constr
+R12655:12655 VST.veric.own <> a:79 var
+binder 12637:12641 <> Hjoin:82
+R12686:12689 VST.msl.sepalg <> join def
+R12710:12717 VST.veric.own <> list_set def
+R12723:12723 VST.veric.own <> c:80 var
+R12721:12721 VST.veric.own <> k:78 var
+R12719:12719 VST.veric.own <> m:81 var
+R12707:12707 VST.veric.own <> m:81 var
+R12692:12700 VST.veric.own <> singleton def
+R12704:12704 VST.veric.own <> a:79 var
+R12702:12702 VST.veric.own <> k:78 var
+prf 12957:12966 <> map_repeat
+binder 12978:12978 <> A:83
+binder 12980:12980 <> B:84
+R12989:12992 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12993:12993 VST.veric.own <> B:84 var
+R12988:12988 VST.veric.own <> A:83 var
+binder 12984:12984 <> f:85
+binder 12996:12996 <> x:86
+binder 12998:12998 <> n:87
+R13019:13021 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13001:13003 Coq.Lists.List <> map def
+R13008:13013 Coq.Lists.List <> repeat def
+R13017:13017 VST.veric.own <> n:87 var
+R13015:13015 VST.veric.own <> x:86 var
+R13005:13005 VST.veric.own <> f:85 var
+R13022:13027 Coq.Lists.List <> repeat def
+R13035:13035 VST.veric.own <> n:87 var
+R13030:13030 VST.veric.own <> f:85 var
+R13032:13032 VST.veric.own <> x:86 var
+prf 13106:13125 <> ghost_fmap_singleton
+binder 13135:13135 <> f:88
+binder 13137:13137 <> g:89
+binder 13139:13139 <> k:90
+binder 13141:13141 <> v:91
+R13174:13178 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13144:13153 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R13160:13168 VST.veric.own <> singleton def
+R13172:13172 VST.veric.own <> v:91 var
+R13170:13170 VST.veric.own <> k:90 var
+R13157:13157 VST.veric.own <> g:89 var
+R13155:13155 VST.veric.own <> f:88 var
+R13179:13187 VST.veric.own <> singleton def
+R13198:13198 VST.veric.own <> v:91 var
+R13205:13205 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13207:13208 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13210:13210 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13215:13215 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13217:13218 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13235:13235 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13219:13228 VST.veric.compcert_rmaps RML.R preds_fmap def
+R13232:13232 VST.veric.own <> g:89 var
+R13230:13230 VST.veric.own <> f:88 var
+R13189:13189 VST.veric.own <> k:90 var
+R13267:13276 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R13279:13287 VST.veric.own <> singleton def
+R13300:13306 Coq.Lists.List <> map_app thm
+R13309:13318 VST.veric.own <> map_repeat thm
+R13300:13306 Coq.Lists.List <> map_app thm
+R13300:13306 Coq.Lists.List <> map_app thm
+R13309:13318 VST.veric.own <> map_repeat thm
+R13309:13318 VST.veric.own <> map_repeat thm
+prf 13339:13362 <> ghost_fmap_singleton_inv
+binder 13373:13373 <> f:93
+binder 13375:13375 <> g:94
+binder 13377:13377 <> a:95
+binder 13379:13379 <> k:96
+binder 13381:13381 <> v:97
+R13418:13423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13424:13430 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13433:13434 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 13431:13432 <> v':98
+R13453:13456 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13436:13438 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13435:13435 VST.veric.own <> a:95 var
+R13439:13447 VST.veric.own <> singleton def
+R13451:13452 VST.veric.own <> v':98 var
+R13449:13449 VST.veric.own <> k:96 var
+R13458:13460 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13457:13457 VST.veric.own <> v:97 var
+R13475:13476 VST.veric.own <> v':98 var
+binder 13466:13466 <> a:99
+binder 13469:13469 <> b:100
+R13481:13481 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13483:13484 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13501:13501 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13482:13482 VST.veric.own <> a:99 var
+R13485:13494 VST.veric.compcert_rmaps RML.R preds_fmap def
+R13500:13500 VST.veric.own <> b:100 var
+R13498:13498 VST.veric.own <> g:94 var
+R13496:13496 VST.veric.own <> f:93 var
+R13402:13404 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13386:13395 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R13401:13401 VST.veric.own <> a:95 var
+R13399:13399 VST.veric.own <> g:94 var
+R13397:13397 VST.veric.own <> f:93 var
+R13405:13413 VST.veric.own <> singleton def
+R13417:13417 VST.veric.own <> v:97 var
+R13415:13415 VST.veric.own <> k:96 var
+R13520:13528 VST.veric.own <> singleton def
+prf 13805:13815 <> ghost_alloc
+R13830:13834 VST.msl.ghost <> Ghost class
+binder 13826:13827 <> RA:101
+binder 13837:13837 <> a:102
+binder 13839:13840 <> pp:103
+R13856:13861 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13865:13869 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R13862:13864 VST.msl.predicates_sl <> emp def
+R13870:13873 VST.veric.own <> bupd def
+R13876:13878 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R13887:13888 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R13882:13886 VST.veric.own <> gname def
+binder 13879:13879 <> g:104
+R13889:13891 VST.veric.own <> own def
+R13897:13898 VST.veric.own <> pp:103 var
+R13895:13895 VST.veric.own <> a:102 var
+R13893:13893 VST.veric.own <> g:104 var
+R13843:13853 VST.msl.ghost <> valid meth
+R13855:13855 VST.veric.own <> a:102 var
+R13928:13940 VST.msl.predicates_hered <> derives_trans thm
+R13950:13957 VST.veric.own <> Own_unit thm
+R13928:13940 VST.msl.predicates_hered <> derives_trans thm
+R13950:13957 VST.veric.own <> Own_unit thm
+R13970:13977 VST.msl.predicates_hered <> exp_left thm
+R13970:13977 VST.msl.predicates_hered <> exp_left thm
+R13998:14011 VST.msl.predicates_hered <> prop_andp_left thm
+R13998:14011 VST.msl.predicates_hered <> prop_andp_left thm
+R14034:14046 VST.msl.predicates_hered <> derives_trans thm
+R14034:14046 VST.msl.predicates_hered <> derives_trans thm
+binder 14088:14088 <> b:105
+R14093:14099 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14101:14102 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 14100:14100 <> g:106
+R14104:14106 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14103:14103 VST.veric.own <> b:105 var
+R14107:14115 VST.veric.own <> singleton def
+R14119:14119 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14145:14146 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14149:14149 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14120:14125 Coq.Init.Specif <> existT constr
+R14133:14137 Coq.Init.Specif <> exist constr
+R14117:14117 VST.veric.own <> g:106 var
+R14059:14071 VST.veric.own <> Own_update_ND thm
+binder 14088:14088 <> b:107
+R14093:14099 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14101:14102 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 14100:14100 <> g:108
+R14104:14106 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14103:14103 VST.veric.own <> b:107 var
+R14107:14115 VST.veric.own <> singleton def
+R14119:14119 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14145:14146 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14149:14149 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14120:14125 Coq.Init.Specif <> existT constr
+R14133:14137 Coq.Init.Specif <> exist constr
+R14117:14117 VST.veric.own <> g:108 var
+R14059:14071 VST.veric.own <> Own_update_ND thm
+R14183:14191 VST.veric.own <> singleton def
+R14204:14204 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14230:14231 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14234:14234 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14205:14210 Coq.Init.Specif <> existT constr
+R14218:14222 Coq.Init.Specif <> exist constr
+R14194:14199 Coq.Lists.List <> length syndef
+R14183:14191 VST.veric.own <> singleton def
+R14204:14204 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14230:14231 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14234:14234 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14205:14210 Coq.Init.Specif <> existT constr
+R14218:14222 Coq.Init.Specif <> exist constr
+R14194:14199 Coq.Lists.List <> length syndef
+R14269:14281 VST.msl.sepalg <> identity_core thm
+R14289:14298 VST.veric.compcert_rmaps RML.R ghost_core prfax
+R14269:14281 VST.msl.sepalg <> identity_core thm
+R14269:14281 VST.msl.sepalg <> identity_core thm
+R14289:14298 VST.veric.compcert_rmaps RML.R ghost_core prfax
+R14289:14298 VST.veric.compcert_rmaps RML.R ghost_core prfax
+R14350:14369 VST.veric.own <> ghost_fmap_singleton thm
+R14387:14404 VST.veric.own <> singleton_join_gen thm
+R14350:14369 VST.veric.own <> ghost_fmap_singleton thm
+R14350:14369 VST.veric.own <> ghost_fmap_singleton thm
+R14387:14404 VST.veric.own <> singleton_join_gen thm
+R14419:14430 Coq.Lists.List <> nth_overflow thm
+R14419:14430 Coq.Lists.List <> nth_overflow thm
+R14419:14430 Coq.Lists.List <> nth_overflow thm
+R14464:14472 VST.veric.own <> bupd_mono thm
+R14475:14482 VST.msl.predicates_hered <> exp_left thm
+R14464:14472 VST.veric.own <> bupd_mono thm
+R14475:14482 VST.msl.predicates_hered <> exp_left thm
+R14505:14518 VST.msl.predicates_hered <> prop_andp_left thm
+R14505:14518 VST.msl.predicates_hered <> prop_andp_left thm
+R14550:14558 VST.msl.predicates_hered <> exp_right thm
+R14550:14558 VST.msl.predicates_hered <> exp_right thm
+R14579:14587 VST.msl.predicates_hered <> exp_right thm
+R14579:14587 VST.msl.predicates_hered <> exp_right thm
+prf 14609:14622 <> singleton_join
+binder 14632:14632 <> a:109
+binder 14634:14634 <> b:110
+binder 14636:14636 <> c:111
+binder 14638:14638 <> k:112
+R14695:14699 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14643:14646 VST.msl.sepalg <> join def
+R14681:14689 VST.veric.own <> singleton def
+R14693:14693 VST.veric.own <> c:111 var
+R14691:14691 VST.veric.own <> k:112 var
+R14665:14673 VST.veric.own <> singleton def
+R14677:14677 VST.veric.own <> b:110 var
+R14675:14675 VST.veric.own <> k:112 var
+R14649:14657 VST.veric.own <> singleton def
+R14661:14661 VST.veric.own <> a:109 var
+R14659:14659 VST.veric.own <> k:112 var
+R14700:14703 VST.msl.sepalg <> join def
+R14709:14709 VST.veric.own <> c:111 var
+R14707:14707 VST.veric.own <> b:110 var
+R14705:14705 VST.veric.own <> a:109 var
+R14728:14736 VST.veric.own <> singleton def
+prf 14938:14955 <> singleton_join_inv
+binder 14965:14965 <> k:113
+binder 14967:14967 <> a:114
+binder 14969:14969 <> b:115
+binder 14971:14971 <> c:116
+R15014:15017 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15018:15024 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15027:15028 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 15025:15026 <> c':117
+R15040:15043 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15029:15032 VST.msl.sepalg <> join def
+R15038:15039 VST.veric.own <> c':117 var
+R15036:15036 VST.veric.own <> b:115 var
+R15034:15034 VST.veric.own <> a:114 var
+R15045:15047 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15044:15044 VST.veric.own <> c:116 var
+R15048:15056 VST.veric.own <> singleton def
+R15060:15061 VST.veric.own <> c':117 var
+R15058:15058 VST.veric.own <> k:113 var
+R14976:14979 VST.msl.sepalg <> join def
+R15013:15013 VST.veric.own <> c:116 var
+R14998:15006 VST.veric.own <> singleton def
+R15010:15010 VST.veric.own <> b:115 var
+R15008:15008 VST.veric.own <> k:113 var
+R14982:14990 VST.veric.own <> singleton def
+R14994:14994 VST.veric.own <> a:114 var
+R14992:14992 VST.veric.own <> k:113 var
+R15080:15088 VST.veric.own <> singleton def
+R15138:15140 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15141:15143 Coq.Init.Datatypes <> nil constr
+R15138:15140 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15141:15143 Coq.Init.Datatypes <> nil constr
+R15198:15200 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15201:15204 Coq.Init.Datatypes <> None constr
+R15198:15200 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15201:15204 Coq.Init.Datatypes <> None constr
+prf 15300:15312 <> ghost_valid_2
+R15327:15331 VST.msl.ghost <> Ghost class
+binder 15323:15324 <> RA:118
+binder 15334:15334 <> g:119
+binder 15336:15337 <> a1:120
+binder 15339:15340 <> a2:121
+binder 15342:15343 <> pp:122
+R15373:15377 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R15359:15361 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R15348:15350 VST.veric.own <> own def
+R15357:15358 VST.veric.own <> pp:122 var
+R15354:15355 VST.veric.own <> a1:120 var
+R15352:15352 VST.veric.own <> g:119 var
+R15362:15364 VST.veric.own <> own def
+R15371:15372 VST.veric.own <> pp:122 var
+R15368:15369 VST.veric.own <> a2:121 var
+R15366:15366 VST.veric.own <> g:119 var
+R15378:15379 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R15380:15392 VST.msl.ghost <> valid_2 def
+R15397:15398 VST.veric.own <> a2:121 var
+R15394:15395 VST.veric.own <> a1:120 var
+R15440:15452 VST.veric.compcert_rmaps RML ghost_of_join thm
+R15440:15452 VST.veric.compcert_rmaps RML ghost_of_join thm
+R15509:15528 VST.veric.own <> ghost_fmap_singleton thm
+R15509:15528 VST.veric.own <> ghost_fmap_singleton thm
+R15509:15528 VST.veric.own <> ghost_fmap_singleton thm
+R15509:15528 VST.veric.own <> ghost_fmap_singleton thm
+R15509:15528 VST.veric.own <> ghost_fmap_singleton thm
+R15544:15561 VST.veric.own <> singleton_join_inv thm
+R15544:15561 VST.veric.own <> singleton_join_inv thm
+prf 15667:15674 <> ghost_op
+R15689:15693 VST.msl.ghost <> Ghost class
+binder 15685:15686 <> RA:123
+binder 15696:15696 <> g:124
+R15709:15709 VST.msl.ghost <> G meth
+binder 15699:15700 <> a1:125
+binder 15702:15703 <> a2:126
+binder 15705:15706 <> a3:127
+binder 15712:15713 <> pp:128
+R15729:15734 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15746:15748 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15735:15737 VST.veric.own <> own def
+R15744:15745 VST.veric.own <> pp:128 var
+R15741:15742 VST.veric.own <> a3:127 var
+R15739:15739 VST.veric.own <> g:124 var
+R15760:15762 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R15749:15751 VST.veric.own <> own def
+R15758:15759 VST.veric.own <> pp:128 var
+R15755:15756 VST.veric.own <> a1:125 var
+R15753:15753 VST.veric.own <> g:124 var
+R15763:15765 VST.veric.own <> own def
+R15772:15773 VST.veric.own <> pp:128 var
+R15769:15770 VST.veric.own <> a2:126 var
+R15767:15767 VST.veric.own <> g:124 var
+R15716:15719 VST.msl.sepalg <> join def
+R15727:15728 VST.veric.own <> a3:127 var
+R15724:15725 VST.veric.own <> a2:126 var
+R15721:15722 VST.veric.own <> a1:125 var
+R15799:15806 VST.msl.predicates_hered <> pred_ext thm
+R15799:15806 VST.msl.predicates_hered <> pred_ext thm
+R15819:15826 VST.msl.predicates_hered <> exp_left thm
+R15819:15826 VST.msl.predicates_hered <> exp_left thm
+R15849:15854 VST.veric.own <> Own_op thm
+R15864:15877 VST.msl.predicates_sl <> sepcon_derives thm
+R15887:15895 VST.msl.predicates_hered <> exp_right thm
+R15849:15854 VST.veric.own <> Own_op thm
+R15849:15854 VST.veric.own <> Own_op thm
+R15849:15854 VST.veric.own <> Own_op thm
+R15864:15877 VST.msl.predicates_sl <> sepcon_derives thm
+R15887:15895 VST.msl.predicates_hered <> exp_right thm
+R15887:15895 VST.msl.predicates_hered <> exp_right thm
+R15917:15930 VST.veric.own <> singleton_join thm
+R15917:15930 VST.veric.own <> singleton_join thm
+R15976:15988 VST.msl.predicates_hered <> derives_trans thm
+R15998:16007 VST.msl.predicates_hered <> andp_right thm
+R16010:16021 VST.msl.predicates_hered <> derives_refl thm
+R16030:16042 VST.veric.own <> ghost_valid_2 thm
+R15976:15988 VST.msl.predicates_hered <> derives_trans thm
+R15998:16007 VST.msl.predicates_hered <> andp_right thm
+R16010:16021 VST.msl.predicates_hered <> derives_refl thm
+R16030:16042 VST.veric.own <> ghost_valid_2 thm
+R16057:16070 VST.msl.predicates_hered <> prop_andp_left thm
+R16057:16070 VST.msl.predicates_hered <> prop_andp_left thm
+R16104:16110 VST.msl.sepalg <> join_eq meth
+R16104:16110 VST.msl.sepalg <> join_eq meth
+R16143:16145 VST.veric.own <> own def
+R16156:16166 VST.msl.predicates_sl <> exp_sepcon1 thm
+R16175:16182 VST.msl.predicates_hered <> exp_left thm
+R16156:16166 VST.msl.predicates_sl <> exp_sepcon1 thm
+R16156:16166 VST.msl.predicates_sl <> exp_sepcon1 thm
+R16175:16182 VST.msl.predicates_hered <> exp_left thm
+R16204:16214 VST.msl.predicates_sl <> exp_sepcon2 thm
+R16223:16230 VST.msl.predicates_hered <> exp_left thm
+R16204:16214 VST.msl.predicates_sl <> exp_sepcon2 thm
+R16204:16214 VST.msl.predicates_sl <> exp_sepcon2 thm
+R16223:16230 VST.msl.predicates_hered <> exp_left thm
+R16256:16261 VST.veric.own <> Own_op thm
+R16272:16280 VST.msl.predicates_hered <> exp_right thm
+R16256:16261 VST.veric.own <> Own_op thm
+R16256:16261 VST.veric.own <> Own_op thm
+R16256:16261 VST.veric.own <> Own_op thm
+R16272:16280 VST.msl.predicates_hered <> exp_right thm
+R16302:16315 VST.veric.own <> singleton_join thm
+R16302:16315 VST.veric.own <> singleton_join thm
+R16371:16380 VST.msl.ghost <> join_valid meth
+R16371:16380 VST.msl.ghost <> join_valid meth
+R16399:16408 VST.msl.ghost <> join_valid meth
+R16399:16408 VST.msl.ghost <> join_valid meth
+prf 16438:16448 <> ghost_valid
+R16463:16467 VST.msl.ghost <> Ghost class
+binder 16459:16460 <> RA:129
+binder 16470:16470 <> g:130
+binder 16472:16472 <> a:131
+binder 16474:16475 <> pp:132
+R16490:16494 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R16480:16482 VST.veric.own <> own def
+R16488:16489 VST.veric.own <> pp:132 var
+R16486:16486 VST.veric.own <> a:131 var
+R16484:16484 VST.veric.own <> g:130 var
+R16495:16496 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R16497:16507 VST.msl.ghost <> valid meth
+R16509:16509 VST.veric.own <> a:131 var
+R16543:16559 VST.msl.normalize <> andp_TT thm
+R16562:16563 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R16543:16559 VST.msl.normalize <> andp_TT thm
+R16562:16563 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R16543:16559 VST.msl.normalize <> andp_TT thm
+R16562:16563 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R16598:16606 VST.msl.sepalg <> core_unit meth
+R16580:16587 VST.veric.own <> ghost_op thm
+R16580:16587 VST.veric.own <> ghost_op thm
+R16598:16606 VST.msl.sepalg <> core_unit meth
+R16580:16587 VST.veric.own <> ghost_op thm
+R16618:16630 VST.msl.predicates_hered <> derives_trans thm
+R16640:16649 VST.msl.predicates_hered <> andp_right thm
+R16652:16663 VST.msl.predicates_hered <> derives_refl thm
+R16672:16684 VST.veric.own <> ghost_valid_2 thm
+R16618:16630 VST.msl.predicates_hered <> derives_trans thm
+R16640:16649 VST.msl.predicates_hered <> andp_right thm
+R16652:16663 VST.msl.predicates_hered <> derives_refl thm
+R16672:16684 VST.veric.own <> ghost_valid_2 thm
+R16697:16710 VST.msl.predicates_hered <> prop_andp_left thm
+R16739:16753 VST.msl.predicates_hered <> prop_andp_right thm
+R16697:16710 VST.msl.predicates_hered <> prop_andp_left thm
+R16739:16753 VST.msl.predicates_hered <> prop_andp_right thm
+R16770:16782 VST.msl.sepalg <> core_identity thm
+R16770:16782 VST.msl.sepalg <> core_identity thm
+prf 16815:16836 <> singleton_join_inv_gen
+binder 16846:16846 <> k:133
+binder 16848:16848 <> a:134
+R16856:16860 VST.veric.compcert_rmaps RML.R ghost def
+binder 16851:16851 <> b:135
+binder 16853:16853 <> c:136
+R16890:16895 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16939:16946 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16896:16899 VST.msl.sepalg <> join def
+R16926:16928 Coq.Lists.List <> nth def
+R16934:16937 Coq.Init.Datatypes <> None constr
+R16932:16932 VST.veric.own <> c:136 var
+R16930:16930 VST.veric.own <> k:133 var
+R16911:16913 Coq.Lists.List <> nth def
+R16919:16922 Coq.Init.Datatypes <> None constr
+R16917:16917 VST.veric.own <> b:135 var
+R16915:16915 VST.veric.own <> k:133 var
+R16902:16905 Coq.Init.Datatypes <> Some constr
+R16907:16907 VST.veric.own <> a:134 var
+R16947:16953 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R16956:16957 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 16954:16955 <> c':137
+R16980:16983 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16970:16972 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16958:16960 Coq.Lists.List <> nth def
+R16966:16969 Coq.Init.Datatypes <> None constr
+R16964:16964 VST.veric.own <> c:136 var
+R16962:16962 VST.veric.own <> k:133 var
+R16973:16976 Coq.Init.Datatypes <> Some constr
+R16978:16979 VST.veric.own <> c':137 var
+R16985:16987 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16984:16984 VST.veric.own <> c:136 var
+R16988:16995 VST.veric.own <> list_set def
+R17001:17002 VST.veric.own <> c':137 var
+R16999:16999 VST.veric.own <> k:133 var
+R16997:16997 VST.veric.own <> b:135 var
+R16866:16869 VST.msl.sepalg <> join def
+R16889:16889 VST.veric.own <> c:136 var
+R16887:16887 VST.veric.own <> b:135 var
+R16872:16880 VST.veric.own <> singleton def
+R16884:16884 VST.veric.own <> a:134 var
+R16882:16882 VST.veric.own <> k:133 var
+R17021:17029 VST.veric.own <> singleton def
+R17137:17144 VST.veric.own <> list_set def
+R17170:17179 VST.veric.compcert_rmaps RML.R ghost_core prfax
+R17170:17179 VST.veric.compcert_rmaps RML.R ghost_core prfax
+R17170:17179 VST.veric.compcert_rmaps RML.R ghost_core prfax
+R17203:17215 VST.msl.sepalg <> core_identity thm
+R17203:17215 VST.msl.sepalg <> core_identity thm
+R17266:17273 Coq.Lists.List <> app_nth2 thm
+R17284:17296 Coq.Lists.List <> repeat_length thm
+R17266:17273 Coq.Lists.List <> app_nth2 thm
+R17266:17273 Coq.Lists.List <> app_nth2 thm
+R17266:17273 Coq.Lists.List <> app_nth2 thm
+R17284:17296 Coq.Lists.List <> repeat_length thm
+R17284:17296 Coq.Lists.List <> repeat_length thm
+R17284:17296 Coq.Lists.List <> repeat_length thm
+R17284:17296 Coq.Lists.List <> repeat_length thm
+R17317:17326 Coq.Arith.Minus <> minus_diag syndef
+R17317:17326 Coq.Arith.Minus <> minus_diag syndef
+R17317:17326 Coq.Arith.Minus <> minus_diag syndef
+R17380:17382 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17380:17382 Coq.Init.Logic <> ::type_scope:x_'='_x not
+prf 17480:17494 <> ghost_update_ND
+R17509:17513 VST.msl.ghost <> Ghost class
+binder 17505:17506 <> RA:138
+binder 17516:17516 <> g:139
+R17522:17522 VST.msl.ghost <> G meth
+binder 17519:17519 <> a:140
+binder 17525:17525 <> B:141
+binder 17527:17528 <> pp:142
+R17549:17552 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17563:17567 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R17553:17555 VST.veric.own <> own def
+R17561:17562 VST.veric.own <> pp:142 var
+R17559:17559 VST.veric.own <> a:140 var
+R17557:17557 VST.veric.own <> g:139 var
+R17568:17571 VST.veric.own <> bupd def
+R17574:17576 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R17582:17583 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+binder 17577:17577 <> b:143
+R17591:17594 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R17584:17586 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R17590:17590 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R17587:17587 VST.veric.own <> B:141 var
+R17589:17589 VST.veric.own <> b:143 var
+R17595:17597 VST.veric.own <> own def
+R17603:17604 VST.veric.own <> pp:142 var
+R17601:17601 VST.veric.own <> b:143 var
+R17599:17599 VST.veric.own <> g:139 var
+R17533:17544 VST.msl.ghost <> fp_update_ND def
+R17548:17548 VST.veric.own <> B:141 var
+R17546:17546 VST.veric.own <> a:140 var
+R17633:17640 VST.msl.predicates_hered <> exp_left thm
+R17633:17640 VST.msl.predicates_hered <> exp_left thm
+R17663:17675 VST.msl.predicates_hered <> derives_trans thm
+R17663:17675 VST.msl.predicates_hered <> derives_trans thm
+binder 17723:17723 <> b:144
+R17728:17734 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R17741:17742 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 17735:17736 <> b':145
+binder 17738:17740 <> Hvb:146
+R17747:17750 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R17745:17746 VST.veric.own <> b':145 var
+R17752:17754 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17751:17751 VST.veric.own <> b:144 var
+R17755:17763 VST.veric.own <> singleton def
+R17767:17767 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17796:17797 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17800:17800 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17768:17773 Coq.Init.Specif <> existT constr
+R17781:17785 Coq.Init.Specif <> exist constr
+R17792:17794 VST.veric.own <> Hvb:146 var
+R17789:17790 VST.veric.own <> b':145 var
+R17688:17700 VST.veric.own <> Own_update_ND thm
+binder 17723:17723 <> b:147
+R17728:17734 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R17741:17742 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 17735:17736 <> b':148
+binder 17738:17740 <> Hvb:149
+R17747:17750 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R17745:17746 VST.veric.own <> b':148 var
+R17752:17754 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17751:17751 VST.veric.own <> b:147 var
+R17755:17763 VST.veric.own <> singleton def
+R17767:17767 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17796:17797 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17800:17800 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17768:17773 Coq.Init.Specif <> existT constr
+R17781:17785 Coq.Init.Specif <> exist constr
+R17792:17794 VST.veric.own <> Hvb:149 var
+R17789:17790 VST.veric.own <> b':148 var
+R17688:17700 VST.veric.own <> Own_update_ND thm
+R17837:17856 VST.veric.own <> ghost_fmap_singleton thm
+R17837:17856 VST.veric.own <> ghost_fmap_singleton thm
+R17837:17856 VST.veric.own <> ghost_fmap_singleton thm
+R17878:17899 VST.veric.own <> singleton_join_inv_gen thm
+R17878:17899 VST.veric.own <> singleton_join_inv_gen thm
+R17954:17957 VST.msl.sepalg <> core meth
+R17954:17957 VST.msl.sepalg <> core meth
+R18011:18019 VST.msl.sepalg <> join_comm meth
+R18022:18030 VST.msl.sepalg <> core_unit meth
+R18011:18019 VST.msl.sepalg <> join_comm meth
+R18022:18030 VST.msl.sepalg <> core_unit meth
+R18057:18067 VST.msl.ghost <> valid meth
+R18057:18067 VST.msl.ghost <> valid meth
+R18123:18132 VST.msl.ghost <> join_valid meth
+R18123:18132 VST.msl.ghost <> join_valid meth
+R18158:18166 VST.veric.own <> singleton def
+R18170:18170 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18198:18199 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18202:18202 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18171:18176 Coq.Init.Specif <> existT constr
+R18184:18188 Coq.Init.Specif <> exist constr
+R18158:18166 VST.veric.own <> singleton def
+R18170:18170 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18198:18199 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18202:18202 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18171:18176 Coq.Init.Specif <> existT constr
+R18184:18188 Coq.Init.Specif <> exist constr
+R18234:18253 VST.veric.own <> ghost_fmap_singleton thm
+R18234:18253 VST.veric.own <> ghost_fmap_singleton thm
+R18234:18253 VST.veric.own <> ghost_fmap_singleton thm
+R18277:18294 VST.veric.own <> singleton_join_gen thm
+R18277:18294 VST.veric.own <> singleton_join_gen thm
+R18515:18525 VST.msl.ghost <> valid meth
+R18548:18557 VST.msl.ghost <> join_valid meth
+R18515:18525 VST.msl.ghost <> valid meth
+R18548:18557 VST.msl.ghost <> join_valid meth
+R18582:18590 VST.veric.own <> singleton def
+R18594:18594 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18622:18623 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18626:18626 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18595:18600 Coq.Init.Specif <> existT constr
+R18608:18612 Coq.Init.Specif <> exist constr
+R18582:18590 VST.veric.own <> singleton def
+R18594:18594 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18622:18623 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18626:18626 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18595:18600 Coq.Init.Specif <> existT constr
+R18608:18612 Coq.Init.Specif <> exist constr
+R18658:18677 VST.veric.own <> ghost_fmap_singleton thm
+R18658:18677 VST.veric.own <> ghost_fmap_singleton thm
+R18658:18677 VST.veric.own <> ghost_fmap_singleton thm
+R18701:18718 VST.veric.own <> singleton_join_gen thm
+R18701:18718 VST.veric.own <> singleton_join_gen thm
+R18745:18745 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18747:18748 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18750:18750 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18834:18842 VST.veric.own <> bupd_mono thm
+R18845:18852 VST.msl.predicates_hered <> exp_left thm
+R18834:18842 VST.veric.own <> bupd_mono thm
+R18845:18852 VST.msl.predicates_hered <> exp_left thm
+R18872:18885 VST.msl.predicates_hered <> prop_andp_left thm
+R18872:18885 VST.msl.predicates_hered <> prop_andp_left thm
+R18929:18937 VST.msl.predicates_hered <> exp_right thm
+R18947:18961 VST.msl.predicates_hered <> prop_andp_right thm
+R18929:18937 VST.msl.predicates_hered <> exp_right thm
+R18947:18961 VST.msl.predicates_hered <> prop_andp_right thm
+R18981:18989 VST.msl.predicates_hered <> exp_right thm
+R18981:18989 VST.msl.predicates_hered <> exp_right thm
+prf 19030:19041 <> ghost_update
+R19056:19060 VST.msl.ghost <> Ghost class
+binder 19052:19053 <> RA:150
+binder 19063:19063 <> g:151
+R19071:19071 VST.msl.ghost <> G meth
+binder 19066:19066 <> a:152
+binder 19068:19068 <> b:153
+binder 19074:19075 <> pp:154
+R19093:19096 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19107:19111 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R19097:19099 VST.veric.own <> own def
+R19105:19106 VST.veric.own <> pp:154 var
+R19103:19103 VST.veric.own <> a:152 var
+R19101:19101 VST.veric.own <> g:151 var
+R19112:19115 VST.veric.own <> bupd def
+R19118:19120 VST.veric.own <> own def
+R19126:19127 VST.veric.own <> pp:154 var
+R19124:19124 VST.veric.own <> b:153 var
+R19122:19122 VST.veric.own <> g:151 var
+R19080:19088 VST.msl.ghost <> fp_update def
+R19092:19092 VST.veric.own <> b:153 var
+R19090:19090 VST.veric.own <> a:152 var
+R19155:19167 VST.msl.predicates_hered <> derives_trans thm
+R19155:19167 VST.msl.predicates_hered <> derives_trans thm
+R19181:19195 VST.veric.own <> ghost_update_ND thm
+R19202:19203 Coq.Init.Logic <> eq ind
+R19181:19195 VST.veric.own <> ghost_update_ND thm
+R19202:19203 Coq.Init.Logic <> eq ind
+R19295:19303 VST.veric.own <> bupd_mono thm
+R19295:19303 VST.veric.own <> bupd_mono thm
+R19316:19323 VST.msl.predicates_hered <> exp_left thm
+R19339:19352 VST.msl.predicates_hered <> prop_andp_left thm
+R19316:19323 VST.msl.predicates_hered <> exp_left thm
+R19339:19352 VST.msl.predicates_hered <> prop_andp_left thm
+prf 19389:19401 <> ghost_dealloc
+R19416:19420 VST.msl.ghost <> Ghost class
+binder 19412:19413 <> RA:155
+binder 19423:19423 <> g:156
+binder 19425:19425 <> a:157
+binder 19427:19428 <> pp:158
+R19443:19447 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R19433:19435 VST.veric.own <> own def
+R19441:19442 VST.veric.own <> pp:158 var
+R19439:19439 VST.veric.own <> a:157 var
+R19437:19437 VST.veric.own <> g:156 var
+R19448:19451 VST.veric.own <> bupd def
+R19453:19455 VST.msl.predicates_sl <> emp def
+R19482:19484 VST.veric.own <> own def
+R19495:19502 VST.msl.predicates_hered <> exp_left thm
+R19518:19528 VST.veric.own <> Own_dealloc thm
+R19495:19502 VST.msl.predicates_hered <> exp_left thm
+R19518:19528 VST.veric.own <> Own_dealloc thm
+prf 19543:19555 <> list_set_same
+binder 19567:19567 <> A:159
+binder 19570:19570 <> n:160
+binder 19572:19572 <> l:161
+R19579:19579 VST.veric.own <> A:159 var
+binder 19575:19575 <> a:162
+R19604:19609 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19624:19626 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19610:19617 VST.veric.own <> list_set def
+R19623:19623 VST.veric.own <> a:162 var
+R19621:19621 VST.veric.own <> n:160 var
+R19619:19619 VST.veric.own <> l:161 var
+R19627:19627 VST.veric.own <> l:161 var
+R19595:19597 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19583:19585 Coq.Lists.List <> nth def
+R19591:19594 Coq.Init.Datatypes <> None constr
+R19589:19589 VST.veric.own <> l:161 var
+R19587:19587 VST.veric.own <> n:160 var
+R19598:19601 Coq.Init.Datatypes <> Some constr
+R19603:19603 VST.veric.own <> a:162 var
+R19646:19653 VST.veric.own <> list_set def
+def 19989:19993 <> cored
+R19996:19999 VST.msl.predicates_hered <> pred def
+R20001:20004 VST.veric.compcert_rmaps RML.R rmap defax
+R20009:20012 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R20026:20027 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R20017:20020 VST.msl.predicates_hered <> pred def
+R20022:20025 VST.veric.compcert_rmaps RML.R rmap defax
+binder 20013:20013 <> P:163
+R20028:20031 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R20045:20048 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R20036:20039 VST.msl.predicates_hered <> pred def
+R20041:20044 VST.veric.compcert_rmaps RML.R rmap defax
+binder 20032:20032 <> Q:164
+R20055:20059 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R20050:20053 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R20049:20049 VST.veric.own <> P:163 var
+R20054:20054 VST.veric.own <> Q:164 var
+R20061:20063 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R20060:20060 VST.veric.own <> P:163 var
+R20064:20064 VST.veric.own <> Q:164 var
+def 20087:20090 <> is_w
+binder 20092:20092 <> w:165
+R20095:20098 VST.msl.predicates_hered <> pred def
+R20100:20103 VST.veric.compcert_rmaps RML.R rmap defax
+binder 20112:20113 <> w':166
+R20118:20121 VST.msl.ageable <> necR def
+R20125:20126 VST.veric.own <> w':166 var
+R20123:20123 VST.veric.own <> w:165 var
+R20178:20187 VST.msl.ageable <> necR_trans thm
+R20178:20187 VST.msl.ageable <> necR_trans thm
+prf 20230:20239 <> cored_unit
+binder 20249:20249 <> w:167
+R20259:20261 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20252:20256 VST.veric.own <> cored def
+R20258:20258 VST.veric.own <> w:167 var
+R20262:20265 VST.msl.sepalg <> join def
+R20271:20271 VST.veric.own <> w:167 var
+R20269:20269 VST.veric.own <> w:167 var
+R20267:20267 VST.veric.own <> w:167 var
+R20296:20303 VST.msl.Axioms <> prop_ext prfax
+R20320:20324 VST.veric.own <> cored def
+R20296:20303 VST.msl.Axioms <> prop_ext prfax
+R20361:20364 VST.veric.own <> is_w def
+R20352:20355 VST.veric.own <> is_w def
+R20361:20364 VST.veric.own <> is_w def
+R20352:20355 VST.veric.own <> is_w def
+R20410:20418 VST.msl.ageable <> necR_refl thm
+R20410:20418 VST.msl.ageable <> necR_refl thm
+R20442:20450 VST.msl.ageable <> necR_refl thm
+R20442:20450 VST.msl.ageable <> necR_refl thm
+R20442:20450 VST.msl.ageable <> necR_refl thm
+R20485:20494 VST.msl.age_sepalg <> join_level thm
+R20485:20494 VST.msl.age_sepalg <> join_level thm
+R20517:20528 VST.msl.ageable <> necR_linear' thm
+R20548:20556 VST.msl.ageable <> necR_refl thm
+R20517:20528 VST.msl.ageable <> necR_linear' thm
+R20548:20556 VST.msl.ageable <> necR_refl thm
+R20548:20556 VST.msl.ageable <> necR_refl thm
+R20548:20556 VST.msl.ageable <> necR_refl thm
+R20576:20587 VST.msl.ageable <> necR_linear' thm
+R20607:20615 VST.msl.ageable <> necR_refl thm
+R20576:20587 VST.msl.ageable <> necR_linear' thm
+R20607:20615 VST.msl.ageable <> necR_refl thm
+R20607:20615 VST.msl.ageable <> necR_refl thm
+R20607:20615 VST.msl.ageable <> necR_refl thm
+R20718:20725 VST.msl.age_sepalg <> nec_join thm
+R20718:20725 VST.msl.age_sepalg <> nec_join thm
+R20781:20790 VST.msl.age_sepalg <> join_level thm
+R20781:20790 VST.msl.age_sepalg <> join_level thm
+R20813:20824 VST.msl.ageable <> necR_linear' thm
+R20813:20824 VST.msl.ageable <> necR_linear' thm
+R20867:20878 VST.msl.ageable <> necR_linear' thm
+R20867:20878 VST.msl.ageable <> necR_linear' thm
+prf 20939:20947 <> cored_dup
+binder 20957:20957 <> P:168
+R20970:20974 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R20961:20964 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R20960:20960 VST.veric.own <> P:168 var
+R20965:20969 VST.veric.own <> cored def
+R20975:20975 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R20986:20990 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R21001:21001 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R20977:20980 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R20976:20976 VST.veric.own <> P:168 var
+R20981:20985 VST.veric.own <> cored def
+R20992:20995 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R20991:20991 VST.veric.own <> P:168 var
+R20996:21000 VST.veric.own <> cored def
+R21035:21042 VST.msl.predicates_hered <> andp_dup thm
+R21044:21048 VST.veric.own <> cored def
+R21035:21042 VST.msl.predicates_hered <> andp_dup thm
+R21044:21048 VST.veric.own <> cored def
+R21035:21042 VST.msl.predicates_hered <> andp_dup thm
+R21044:21048 VST.veric.own <> cored def
+R21070:21079 VST.msl.predicates_hered <> andp_assoc thm
+R21070:21079 VST.msl.predicates_hered <> andp_assoc thm
+R21070:21079 VST.msl.predicates_hered <> andp_assoc thm
+R21099:21103 VST.veric.own <> cored def
+R21120:21131 VST.msl.predicates_hered <> modus_ponens thm
+R21120:21131 VST.msl.predicates_hered <> modus_ponens thm
+R21144:21153 VST.msl.predicates_hered <> andp_left1 thm
+R21156:21167 VST.msl.predicates_hered <> derives_refl thm
+R21144:21153 VST.msl.predicates_hered <> andp_left1 thm
+R21156:21167 VST.msl.predicates_hered <> derives_refl thm
+R21181:21190 VST.msl.predicates_hered <> andp_left2 thm
+R21193:21201 VST.msl.predicates_hered <> allp_left thm
+R21204:21212 VST.msl.predicates_hered <> allp_left thm
+R21181:21190 VST.msl.predicates_hered <> andp_left2 thm
+R21193:21201 VST.msl.predicates_hered <> allp_left thm
+R21204:21212 VST.msl.predicates_hered <> allp_left thm
+R21227:21234 VST.msl.predicates_hered <> andp_dup thm
+R21243:21254 VST.msl.predicates_hered <> derives_refl thm
+R21227:21234 VST.msl.predicates_hered <> andp_dup thm
+R21227:21234 VST.msl.predicates_hered <> andp_dup thm
+R21243:21254 VST.msl.predicates_hered <> derives_refl thm
+prf 21269:21278 <> cored_core
+binder 21288:21288 <> w:169
+R21291:21295 VST.veric.own <> cored def
+R21298:21301 VST.msl.sepalg <> core meth
+R21303:21303 VST.veric.own <> w:169 var
+R21331:21340 VST.veric.own <> cored_unit thm
+R21331:21340 VST.veric.own <> cored_unit thm
+R21331:21340 VST.veric.own <> cored_unit thm
+R21351:21364 VST.msl.sepalg <> identity_unit' thm
+R21367:21379 VST.msl.sepalg <> core_identity thm
+R21351:21364 VST.msl.sepalg <> identity_unit' thm
+R21367:21379 VST.msl.sepalg <> core_identity thm
+prf 21394:21409 <> cored_duplicable
+R21417:21419 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21412:21416 VST.veric.own <> cored def
+R21425:21427 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R21420:21424 VST.veric.own <> cored def
+R21428:21432 VST.veric.own <> cored def
+R21450:21457 VST.msl.predicates_hered <> pred_ext thm
+R21450:21457 VST.msl.predicates_hered <> pred_ext thm
+R21475:21482 VST.msl.predicates_hered <> andp_dup thm
+R21475:21482 VST.msl.predicates_hered <> andp_dup thm
+R21475:21482 VST.msl.predicates_hered <> andp_dup thm
+R21501:21513 VST.msl.predicates_hered <> derives_trans thm
+R21523:21531 VST.veric.own <> cored_dup thm
+R21501:21513 VST.msl.predicates_hered <> derives_trans thm
+R21523:21531 VST.veric.own <> cored_dup thm
+R21546:21559 VST.msl.predicates_sl <> sepcon_derives thm
+R21568:21577 VST.msl.predicates_hered <> andp_left1 thm
+R21546:21559 VST.msl.predicates_sl <> sepcon_derives thm
+R21568:21577 VST.msl.predicates_hered <> andp_left1 thm
+R21568:21577 VST.msl.predicates_hered <> andp_left1 thm
+R21634:21643 VST.veric.own <> cored_unit thm
+R21634:21643 VST.veric.own <> cored_unit thm
+R21634:21643 VST.veric.own <> cored_unit thm
+R21665:21674 VST.msl.sepalg <> join_assoc meth
+R21665:21674 VST.msl.sepalg <> join_assoc meth
+R21712:21718 VST.msl.sepalg <> join_eq meth
+R21712:21718 VST.msl.sepalg <> join_eq meth
+R21760:21769 VST.msl.sepalg <> join_assoc meth
+R21775:21783 VST.msl.sepalg <> join_comm meth
+R21760:21769 VST.msl.sepalg <> join_assoc meth
+R21775:21783 VST.msl.sepalg <> join_comm meth
+R21819:21825 VST.msl.sepalg <> join_eq meth
+R21842:21850 VST.msl.sepalg <> join_comm meth
+R21819:21825 VST.msl.sepalg <> join_eq meth
+R21842:21850 VST.msl.sepalg <> join_comm meth
+R21878:21887 VST.msl.sepalg <> join_assoc meth
+R21906:21914 VST.msl.sepalg <> join_comm meth
+R21890:21898 VST.msl.sepalg <> join_comm meth
+R21878:21887 VST.msl.sepalg <> join_assoc meth
+R21906:21914 VST.msl.sepalg <> join_comm meth
+R21890:21898 VST.msl.sepalg <> join_comm meth
+R21950:21956 VST.msl.sepalg <> join_eq meth
+R21950:21956 VST.msl.sepalg <> join_eq meth
+prf 22002:22010 <> cored_emp
+R22018:22022 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R22013:22017 VST.veric.own <> cored def
+R22023:22026 VST.veric.own <> bupd def
+R22028:22030 VST.msl.predicates_sl <> emp def
+R22057:22066 VST.veric.own <> cored_unit thm
+R22057:22066 VST.veric.own <> cored_unit thm
+R22057:22066 VST.veric.own <> cored_unit thm
+R22091:22093 Coq.Init.Datatypes <> nil constr
+R22091:22093 Coq.Init.Datatypes <> nil constr
+R22140:22148 VST.veric.compcert_rmaps RML make_rmap thm
+R22171:22175 VST.msl.ageable <> level meth
+R22166:22168 Coq.Init.Datatypes <> nil constr
+R22151:22161 VST.veric.compcert_rmaps RML.R resource_at def
+R22140:22148 VST.veric.compcert_rmaps RML make_rmap thm
+R22171:22175 VST.msl.ageable <> level meth
+R22166:22168 Coq.Init.Datatypes <> nil constr
+R22151:22161 VST.veric.compcert_rmaps RML.R resource_at def
+R22244:22261 VST.veric.compcert_rmaps RML resource_at_approx thm
+R22244:22261 VST.veric.compcert_rmaps RML resource_at_approx thm
+R22307:22330 VST.veric.compcert_rmaps RML all_resource_at_identity thm
+R22307:22330 VST.veric.compcert_rmaps RML all_resource_at_identity thm
+R22367:22382 VST.veric.compcert_rmaps RML resource_at_join thm
+R22367:22382 VST.veric.compcert_rmaps RML resource_at_join thm
+R22422:22430 VST.msl.sepalg <> join_self def
+R22433:22450 VST.msl.shares <> identity_share_bot thm
+R22422:22430 VST.msl.sepalg <> join_self def
+R22433:22450 VST.msl.shares <> identity_share_bot thm
+R22478:22488 VST.veric.compcert_rmaps RML NO_identity thm
+R22478:22488 VST.veric.compcert_rmaps RML NO_identity thm
+R22503:22511 VST.msl.sepalg <> join_self def
+R22514:22531 VST.msl.shares <> identity_share_bot thm
+R22503:22511 VST.msl.sepalg <> join_self def
+R22514:22531 VST.msl.shares <> identity_share_bot thm
+R22567:22587 VST.veric.shares <> bot_unreadable thm
+R22567:22587 VST.veric.shares <> bot_unreadable thm
+R22602:22614 VST.veric.compcert_rmaps RML PURE_identity thm
+R22602:22614 VST.veric.compcert_rmaps RML PURE_identity thm
+R22637:22646 VST.veric.compcert_rmaps RML.R ghost_core prfax
+R22648:22650 Coq.Init.Datatypes <> nil constr
+R22660:22672 VST.msl.sepalg <> core_identity thm
+R22637:22646 VST.veric.compcert_rmaps RML.R ghost_core prfax
+R22648:22650 Coq.Init.Datatypes <> nil constr
+R22637:22646 VST.veric.compcert_rmaps RML.R ghost_core prfax
+R22648:22650 Coq.Init.Datatypes <> nil constr
+R22660:22672 VST.msl.sepalg <> core_identity thm
+prf 22687:22695 <> emp_cored
+R22702:22706 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R22699:22701 VST.msl.predicates_sl <> emp def
+R22707:22711 VST.veric.own <> cored def
+R22773:22784 VST.msl.age_sepalg <> nec_identity thm
+R22787:22800 VST.msl.sepalg <> identity_unit' thm
+R22773:22784 VST.msl.age_sepalg <> nec_identity thm
+R22787:22800 VST.msl.sepalg <> identity_unit' thm
+prf 22827:22844 <> join_singleton_inv
+binder 22854:22854 <> k:170
+binder 22856:22856 <> a:171
+binder 22858:22858 <> b:172
+binder 22860:22861 <> RA:173
+binder 22863:22863 <> c:174
+binder 22865:22865 <> v:175
+binder 22867:22868 <> pp:176
+R22934:22939 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22994:22997 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22941:22943 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22940:22940 VST.veric.own <> a:171 var
+R22944:22952 VST.veric.own <> singleton def
+R22956:22956 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22989:22990 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22993:22993 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22957:22962 Coq.Init.Specif <> existT constr
+R22970:22974 Coq.Init.Specif <> exist constr
+R22987:22987 VST.veric.own <> v:175 var
+R22979:22982 VST.msl.sepalg <> core meth
+R22984:22984 VST.veric.own <> c:174 var
+R22966:22967 VST.veric.own <> RA:173 var
+R22991:22992 VST.veric.own <> pp:176 var
+R22954:22954 VST.veric.own <> k:170 var
+R22999:23001 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22998:22998 VST.veric.own <> b:172 var
+R23002:23010 VST.veric.own <> singleton def
+R23014:23014 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23047:23048 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23051:23051 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23015:23020 Coq.Init.Specif <> existT constr
+R23028:23032 Coq.Init.Specif <> exist constr
+R23045:23045 VST.veric.own <> v:175 var
+R23037:23040 VST.msl.sepalg <> core meth
+R23042:23042 VST.veric.own <> c:174 var
+R23024:23025 VST.veric.own <> RA:173 var
+R23049:23050 VST.veric.own <> pp:176 var
+R23012:23012 VST.veric.own <> k:170 var
+R22873:22876 VST.msl.sepalg <> join def
+R22883:22891 VST.veric.own <> singleton def
+R22895:22895 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22928:22929 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22932:22932 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22896:22901 Coq.Init.Specif <> existT constr
+R22909:22913 Coq.Init.Specif <> exist constr
+R22926:22926 VST.veric.own <> v:175 var
+R22918:22921 VST.msl.sepalg <> core meth
+R22923:22923 VST.veric.own <> c:174 var
+R22905:22906 VST.veric.own <> RA:173 var
+R22930:22931 VST.veric.own <> pp:176 var
+R22893:22893 VST.veric.own <> k:170 var
+R22880:22880 VST.veric.own <> b:172 var
+R22878:22878 VST.veric.own <> a:171 var
+R23083:23091 VST.veric.own <> singleton def
+R23151:23154 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23145:23147 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23148:23150 Coq.Init.Datatypes <> nil constr
+R23157:23159 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23160:23162 Coq.Init.Datatypes <> nil constr
+R23151:23154 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23145:23147 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23148:23150 Coq.Init.Datatypes <> nil constr
+R23157:23159 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23160:23162 Coq.Init.Datatypes <> nil constr
+R23309:23317 VST.msl.sepalg <> core_unit meth
+R23309:23317 VST.msl.sepalg <> core_unit meth
+R23342:23350 VST.msl.sepalg <> join_core meth
+R23353:23361 VST.msl.sepalg <> core_idem thm
+R23342:23350 VST.msl.sepalg <> join_core meth
+R23342:23350 VST.msl.sepalg <> join_core meth
+R23353:23361 VST.msl.sepalg <> core_idem thm
+R23353:23361 VST.msl.sepalg <> core_idem thm
+R23389:23396 VST.msl.sepalg <> unit_for def
+R23415:23429 VST.msl.sepalg <> join_positivity meth
+R23415:23429 VST.msl.sepalg <> join_positivity meth
+R23483:23491 VST.msl.Axioms <> proof_irr thm
+R23483:23491 VST.msl.Axioms <> proof_irr thm
+prf 23601:23609 <> own_cored
+R23624:23628 VST.msl.ghost <> Ghost class
+binder 23620:23621 <> RA:177
+binder 23631:23631 <> g:178
+binder 23633:23633 <> a:179
+binder 23635:23636 <> pp:180
+R23649:23652 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23663:23667 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R23653:23655 VST.veric.own <> own def
+R23661:23662 VST.veric.own <> pp:180 var
+R23659:23659 VST.veric.own <> a:179 var
+R23657:23657 VST.veric.own <> g:178 var
+R23668:23672 VST.veric.own <> cored def
+R23639:23642 VST.msl.sepalg <> join def
+R23648:23648 VST.veric.own <> a:179 var
+R23646:23646 VST.veric.own <> a:179 var
+R23644:23644 VST.veric.own <> a:179 var
+R23725:23734 VST.veric.own <> cored_unit thm
+R23725:23734 VST.veric.own <> cored_unit thm
+R23725:23734 VST.veric.own <> cored_unit thm
+R23757:23773 VST.veric.compcert_rmaps RML resource_at_join2 thm
+R23757:23773 VST.veric.compcert_rmaps RML resource_at_join2 thm
+R23799:23812 VST.msl.sepalg <> identity_unit' thm
+R23799:23812 VST.msl.sepalg <> identity_unit' thm
+R23826:23850 VST.veric.compcert_rmaps RML necR_resource_at_identity thm
+R23826:23850 VST.veric.compcert_rmaps RML necR_resource_at_identity thm
+R23876:23895 VST.veric.own <> ghost_fmap_singleton thm
+R23876:23895 VST.veric.own <> ghost_fmap_singleton thm
+R23876:23895 VST.veric.own <> ghost_fmap_singleton thm
+R23908:23921 VST.veric.own <> singleton_join thm
+R23908:23921 VST.veric.own <> singleton_join thm
+R23971:23989 VST.veric.tycontext <> <> lib
+R24007:24029 VST.veric.Clight_seplog <> <> lib
+prf 24040:24062 <> own_super_non_expansive
+R24077:24081 VST.msl.ghost <> Ghost class
+binder 24073:24074 <> RA:181
+binder 24084:24084 <> n:182
+binder 24086:24086 <> g:183
+binder 24088:24088 <> a:184
+binder 24090:24091 <> pp:185
+R24117:24119 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24096:24101 VST.veric.compcert_rmaps RML.R approx def
+R24106:24108 VST.veric.own <> own def
+R24114:24115 VST.veric.own <> pp:185 var
+R24112:24112 VST.veric.own <> a:184 var
+R24110:24110 VST.veric.own <> g:183 var
+R24103:24103 VST.veric.own <> n:182 var
+R24120:24125 VST.veric.compcert_rmaps RML.R approx def
+R24130:24132 VST.veric.own <> own def
+R24139:24148 VST.veric.compcert_rmaps RML.R preds_fmap def
+R24172:24173 VST.veric.own <> pp:185 var
+R24162:24167 VST.veric.compcert_rmaps RML.R approx def
+R24169:24169 VST.veric.own <> n:182 var
+R24151:24156 VST.veric.compcert_rmaps RML.R approx def
+R24158:24158 VST.veric.own <> n:182 var
+R24136:24136 VST.veric.own <> a:184 var
+R24134:24134 VST.veric.own <> g:183 var
+R24127:24127 VST.veric.own <> n:182 var
+R24202:24204 VST.veric.own <> own def
+R24218:24227 VST.veric.seplog <> approx_exp thm
+R24218:24227 VST.veric.seplog <> approx_exp thm
+R24218:24227 VST.veric.seplog <> approx_exp thm
+R24218:24227 VST.veric.seplog <> approx_exp thm
+R24218:24227 VST.veric.seplog <> approx_exp thm
+R24266:24268 VST.veric.own <> Own def
+R24282:24292 VST.veric.seplog <> approx_andp thm
+R24282:24292 VST.veric.seplog <> approx_andp thm
+R24282:24292 VST.veric.seplog <> approx_andp thm
+R24282:24292 VST.veric.seplog <> approx_andp thm
+R24282:24292 VST.veric.seplog <> approx_andp thm
+R24312:24319 VST.msl.predicates_hered <> pred_ext thm
+R24312:24319 VST.msl.predicates_hered <> pred_ext thm
+R24379:24393 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R24379:24393 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R24379:24393 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R24413:24432 VST.veric.own <> ghost_fmap_singleton thm
+R24436:24450 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R24413:24432 VST.veric.own <> ghost_fmap_singleton thm
+R24413:24432 VST.veric.own <> ghost_fmap_singleton thm
+R24413:24432 VST.veric.own <> ghost_fmap_singleton thm
+R24413:24432 VST.veric.own <> ghost_fmap_singleton thm
+R24413:24432 VST.veric.own <> ghost_fmap_singleton thm
+R24436:24450 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R24436:24450 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R24436:24450 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R24436:24450 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R24465:24480 VST.veric.compcert_rmaps RML approx_oo_approx thm
+R24483:24499 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R24502:24518 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R24465:24480 VST.veric.compcert_rmaps RML approx_oo_approx thm
+R24465:24480 VST.veric.compcert_rmaps RML approx_oo_approx thm
+R24483:24499 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R24483:24499 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R24502:24518 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R24502:24518 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R24546:24565 VST.veric.own <> ghost_fmap_singleton thm
+R24546:24565 VST.veric.own <> ghost_fmap_singleton thm
+R24546:24565 VST.veric.own <> ghost_fmap_singleton thm
+R24585:24599 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R24585:24599 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R24585:24599 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R24620:24636 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R24639:24655 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R24620:24636 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R24620:24636 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R24639:24655 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R24639:24655 VST.veric.compcert_rmaps RML approx'_oo_approx thm

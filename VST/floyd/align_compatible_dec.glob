@@ -1,0 +1,759 @@
+DIGEST 426b7ede6c15b7e169e6330b0b890b7e
+FVST.floyd.align_compatible_dec
+R15:29 VST.floyd.base2 <> <> lib
+R47:69 VST.floyd.client_lemmas <> <> lib
+R87:105 VST.floyd.fieldlist <> <> lib
+R123:146 VST.floyd.type_induction <> <> lib
+R164:191 VST.floyd.nested_pred_lemmas <> <> lib
+modtype 221:227 <> ACR_DEC
+ax 243:266 ACR_DEC align_compatible_rec_dec
+R285:293 VST.veric.mpred <> compspecs class
+binder 281:282 <> cs:1
+binder 310:310 <> t:2
+binder 312:312 <> z:3
+R315:315 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R348:352 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R387:387 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R316:335 VST.veric.align_mem <> align_compatible_rec ind
+R347:347 VST.floyd.align_compatible_dec <> z:3 var
+R345:345 VST.floyd.align_compatible_dec <> t:2 var
+R337:343 VST.veric.mpred <> cenv_cs meth
+R353:354 Coq.Init.Logic <> ::type_scope:'~'_x not
+R355:374 VST.veric.align_mem <> align_compatible_rec ind
+R386:386 VST.floyd.align_compatible_dec <> z:3 var
+R384:384 VST.floyd.align_compatible_dec <> t:2 var
+R376:382 VST.veric.mpred <> cenv_cs meth
+R395:401 VST.floyd.align_compatible_dec ACR_DEC <> modtype
+R438:444 VST.floyd.align_compatible_dec ACR_DEC <> mod
+mod 412:435 <> align_compatible_rec_dec
+sec 456:479 align_compatible_rec_dec align_compatible_rec_dec
+R496:504 VST.veric.mpred <> compspecs class
+binder 492:493 <> cs:5
+def 520:527 align_compatible_rec_dec dec_type
+R532:535 Coq.Init.Specif <> sigT ind
+R546:549 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R545:545 Coq.Numbers.BinNums <> Z ind
+binder 542:542 <> P:6
+R568:568 Coq.Numbers.BinNums <> Z ind
+binder 565:565 <> z:7
+R571:571 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R575:579 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R585:585 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R572:572 VST.floyd.align_compatible_dec <> P:6 var
+R574:574 VST.floyd.align_compatible_dec <> z:7 var
+R580:581 Coq.Init.Logic <> ::type_scope:'~'_x not
+R582:582 VST.floyd.align_compatible_dec <> P:6 var
+R584:584 VST.floyd.align_compatible_dec <> z:7 var
+def 601:612 align_compatible_rec_dec dec_by_value
+R619:630 compcert.common.AST <> memory_chunk ind
+binder 615:616 <> ch:8
+R634:641 VST.floyd.align_compatible_dec align_compatible_rec_dec dec_type def
+R648:653 Coq.Init.Specif <> existT constr
+binder 758:758 <> z:9
+R763:773 Coq.ZArith.Znumtheory <> Zdivide_dec thm
+R800:800 VST.floyd.align_compatible_dec <> z:9 var
+R776:794 compcert.common.Memdata <> align_chunk def
+R796:797 VST.floyd.align_compatible_dec <> ch:8 var
+binder 715:715 <> z:10
+R720:720 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R743:745 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R747:747 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R721:739 compcert.common.Memdata <> align_chunk def
+R741:742 VST.floyd.align_compatible_dec <> ch:8 var
+R746:746 VST.floyd.align_compatible_dec <> z:10 var
+R664:667 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R663:663 Coq.Numbers.BinNums <> Z ind
+binder 660:660 <> P:11
+R686:686 Coq.Numbers.BinNums <> Z ind
+binder 683:683 <> z:12
+R689:689 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R693:697 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R703:703 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R690:690 VST.floyd.align_compatible_dec <> P:11 var
+R692:692 VST.floyd.align_compatible_dec <> z:12 var
+R698:699 Coq.Init.Logic <> ::type_scope:'~'_x not
+R700:700 VST.floyd.align_compatible_dec <> P:11 var
+R702:702 VST.floyd.align_compatible_dec <> z:12 var
+def 846:854 align_compatible_rec_dec dec_False
+R857:864 VST.floyd.align_compatible_dec align_compatible_rec_dec dec_type def
+R871:876 Coq.Init.Specif <> existT constr
+binder 951:951 <> z:13
+R956:960 Coq.Init.Specif <> right constr
+binder 967:967 <> H:14
+R972:972 VST.floyd.align_compatible_dec <> H:14 var
+binder 934:934 <> z:15
+R939:943 Coq.Init.Logic <> False ind
+R887:890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R886:886 Coq.Numbers.BinNums <> Z ind
+binder 883:883 <> P:16
+R909:909 Coq.Numbers.BinNums <> Z ind
+binder 906:906 <> z:17
+R912:912 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R916:920 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R926:926 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R913:913 VST.floyd.align_compatible_dec <> P:16 var
+R915:915 VST.floyd.align_compatible_dec <> z:17 var
+R921:922 Coq.Init.Logic <> ::type_scope:'~'_x not
+R923:923 VST.floyd.align_compatible_dec <> P:16 var
+R925:925 VST.floyd.align_compatible_dec <> z:17 var
+def 989:996 align_compatible_rec_dec dec_True
+R999:1006 VST.floyd.align_compatible_dec align_compatible_rec_dec dec_type def
+R1013:1018 Coq.Init.Specif <> existT constr
+binder 1092:1092 <> z:18
+R1097:1100 Coq.Init.Specif <> left constr
+R1102:1102 Coq.Init.Logic <> I constr
+binder 1076:1076 <> z:19
+R1081:1084 Coq.Init.Logic <> True ind
+R1029:1032 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1028:1028 Coq.Numbers.BinNums <> Z ind
+binder 1025:1025 <> P:20
+R1051:1051 Coq.Numbers.BinNums <> Z ind
+binder 1048:1048 <> z:21
+R1054:1054 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1058:1062 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1068:1068 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1055:1055 VST.floyd.align_compatible_dec <> P:20 var
+R1057:1057 VST.floyd.align_compatible_dec <> z:21 var
+R1063:1064 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1065:1065 VST.floyd.align_compatible_dec <> P:20 var
+R1067:1067 VST.floyd.align_compatible_dec <> z:21 var
+def 1116:1127 align_compatible_rec_dec cons_in_list
+binder 1130:1130 <> A:22
+R1137:1137 VST.floyd.align_compatible_dec <> A:22 var
+binder 1134:1134 <> a:23
+R1149:1152 Coq.Init.Datatypes <> list ind
+R1154:1154 VST.floyd.align_compatible_dec <> A:22 var
+binder 1141:1143 <> al':24
+binder 1145:1146 <> al:25
+binder 1168:1168 <> x:26
+R1179:1182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1183:1184 Coq.Lists.List <> In def
+R1188:1189 VST.floyd.align_compatible_dec <> al:25 var
+R1186:1186 VST.floyd.align_compatible_dec <> x:26 var
+R1171:1172 Coq.Lists.List <> In def
+R1176:1178 VST.floyd.align_compatible_dec <> al':24 var
+R1174:1174 VST.floyd.align_compatible_dec <> x:26 var
+binder 1158:1158 <> H:27
+R1197:1200 Coq.Init.Datatypes <> list ind
+R1202:1202 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1204:1204 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1206:1207 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1216:1216 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1205:1205 VST.floyd.align_compatible_dec <> A:22 var
+binder 1203:1203 <> x:28
+R1208:1209 Coq.Lists.List <> In def
+R1213:1215 VST.floyd.align_compatible_dec <> al':24 var
+R1211:1211 VST.floyd.align_compatible_dec <> x:28 var
+binder 1193:1194 <> bl:29
+R1221:1224 Coq.Init.Datatypes <> list ind
+R1226:1226 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1228:1229 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1231:1233 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1241:1241 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1230:1230 VST.floyd.align_compatible_dec <> A:22 var
+binder 1227:1227 <> x:30
+R1234:1235 Coq.Lists.List <> In def
+R1239:1240 VST.floyd.align_compatible_dec <> al:25 var
+R1237:1237 VST.floyd.align_compatible_dec <> x:30 var
+R1254:1255 VST.floyd.align_compatible_dec <> bl:29 var
+R1266:1268 Coq.Init.Datatypes <> nil constr
+R1273:1275 Coq.Init.Datatypes <> nil constr
+R1290:1293 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1281:1285 Coq.Init.Specif <> exist constr
+R1317:1321 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1300:1304 Coq.Init.Specif <> exist constr
+R1311:1311 VST.floyd.align_compatible_dec <> H:27 var
+R1322:1333 VST.floyd.align_compatible_dec <> cons_in_list:31 def
+R1344:1344 VST.floyd.align_compatible_dec <> H:27 var
+R1341:1342 VST.floyd.align_compatible_dec <> al:25 var
+R1337:1339 VST.floyd.align_compatible_dec <> al':24 var
+R1335:1335 VST.floyd.align_compatible_dec <> a:23 var
+def 1367:1378 align_compatible_rec_dec make_in_list
+binder 1381:1381 <> A:33
+R1389:1392 Coq.Init.Datatypes <> list ind
+R1394:1394 VST.floyd.align_compatible_dec <> A:33 var
+binder 1385:1386 <> al:34
+R1399:1402 Coq.Init.Datatypes <> list ind
+R1404:1404 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1406:1407 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1409:1411 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1419:1419 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1408:1408 VST.floyd.align_compatible_dec <> A:33 var
+binder 1405:1405 <> x:35
+R1412:1413 Coq.Lists.List <> In def
+R1417:1418 VST.floyd.align_compatible_dec <> al:34 var
+R1415:1415 VST.floyd.align_compatible_dec <> x:35 var
+R1433:1434 VST.floyd.align_compatible_dec <> al:34 var
+R1457:1460 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1461:1464 Coq.Init.Datatypes <> list ind
+R1466:1466 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1468:1470 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1472:1474 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1482:1482 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1471:1471 VST.floyd.align_compatible_dec <> A:33 var
+binder 1467:1467 <> x:38
+R1475:1476 Coq.Lists.List <> In def
+R1480:1481 VST.floyd.align_compatible_dec <> ax:37 var
+R1478:1478 VST.floyd.align_compatible_dec <> x:38 var
+R1452:1454 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1450:1451 VST.floyd.align_compatible_dec <> al:34 var
+R1455:1456 VST.floyd.align_compatible_dec <> ax:37 var
+R1503:1505 Coq.Init.Datatypes <> nil constr
+R1519:1521 Coq.Init.Datatypes <> nil constr
+R1537:1538 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1555:1557 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1553:1554 VST.floyd.align_compatible_dec <> al:34 var
+R1559:1560 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+binder 1550:1550 <> H:39
+R1619:1647 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1590:1594 Coq.Init.Specif <> exist constr
+R1601:1609 Coq.Init.Logic <> or_introl constr
+R1611:1617 Coq.Init.Logic <> eq_refl constr
+R1648:1654 Coq.Init.Logic <> eq_rect scheme
+R1964:1964 VST.floyd.align_compatible_dec <> H:39 var
+R1955:1958 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1729:1740 VST.floyd.align_compatible_dec align_compatible_rec_dec cons_in_list def
+R1910:1921 VST.floyd.align_compatible_dec <> make_in_list:36 def
+R1761:1761 VST.floyd.align_compatible_dec <> A:33 var
+binder 1757:1757 <> x:40
+R1770:1771 Coq.Lists.List <> In def
+R1773:1773 VST.floyd.align_compatible_dec <> x:40 var
+binder 1765:1766 <> H0:41
+R1816:1823 Coq.Init.Logic <> eq_ind_r def
+R1875:1875 VST.floyd.align_compatible_dec <> H:39 var
+R1857:1863 Coq.Lists.List <> in_cons thm
+R1871:1872 VST.floyd.align_compatible_dec <> H0:41 var
+R1836:1839 Coq.Init.Datatypes <> list ind
+R1841:1841 VST.floyd.align_compatible_dec <> A:33 var
+binder 1830:1832 <> al0:42
+R1846:1847 Coq.Lists.List <> In def
+R1851:1853 VST.floyd.align_compatible_dec <> al0:42 var
+R1849:1849 VST.floyd.align_compatible_dec <> x:40 var
+R1748:1749 VST.floyd.align_compatible_dec <> al:34 var
+R1668:1671 Coq.Init.Datatypes <> list ind
+R1673:1673 VST.floyd.align_compatible_dec <> A:33 var
+binder 1664:1664 <> l:43
+R1678:1681 Coq.Init.Datatypes <> list ind
+R1683:1683 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1685:1687 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1689:1691 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1698:1698 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1688:1688 VST.floyd.align_compatible_dec <> A:33 var
+binder 1684:1684 <> x:44
+R1692:1693 Coq.Lists.List <> In def
+R1697:1697 VST.floyd.align_compatible_dec <> l:43 var
+R1695:1695 VST.floyd.align_compatible_dec <> x:44 var
+R1656:1657 VST.floyd.align_compatible_dec <> al:34 var
+R1982:1988 Coq.Init.Logic <> eq_refl constr
+prf 2001:2015 align_compatible_rec_dec in_make_in_list
+binder 2026:2026 <> A:45
+R2033:2033 VST.floyd.align_compatible_dec <> A:45 var
+binder 2030:2030 <> a:46
+R2041:2044 Coq.Init.Datatypes <> list ind
+R2046:2046 VST.floyd.align_compatible_dec <> A:45 var
+binder 2037:2038 <> al:47
+binder 2049:2049 <> H:48
+R2055:2056 Coq.Lists.List <> In def
+R2090:2101 VST.floyd.align_compatible_dec align_compatible_rec_dec make_in_list def
+R2103:2104 VST.floyd.align_compatible_dec <> al:47 var
+R2059:2063 Coq.Init.Specif <> exist constr
+R2086:2086 VST.floyd.align_compatible_dec <> H:48 var
+R2084:2084 VST.floyd.align_compatible_dec <> a:46 var
+binder 2070:2070 <> x:49
+R2075:2076 Coq.Lists.List <> In def
+R2080:2081 VST.floyd.align_compatible_dec <> al:47 var
+R2078:2078 VST.floyd.align_compatible_dec <> x:49 var
+R2192:2203 VST.floyd.align_compatible_dec align_compatible_rec_dec make_in_list def
+R2212:2223 VST.floyd.align_compatible_dec align_compatible_rec_dec make_in_list def
+R2212:2223 VST.floyd.align_compatible_dec align_compatible_rec_dec make_in_list def
+R2261:2267 Coq.Init.Logic <> eq_rect scheme
+R2278:2289 VST.floyd.align_compatible_dec align_compatible_rec_dec make_in_list def
+R2278:2289 VST.floyd.align_compatible_dec align_compatible_rec_dec make_in_list def
+R2309:2316 Coq.Init.Logic <> eq_ind_r def
+R2326:2331 Coq.Init.Logic <> eq_ind scheme
+R2403:2411 VST.msl.Extensionality <> exist_ext thm
+R2403:2411 VST.msl.Extensionality <> exist_ext thm
+R2448:2459 VST.floyd.align_compatible_dec align_compatible_rec_dec cons_in_list def
+R2468:2479 VST.floyd.align_compatible_dec align_compatible_rec_dec cons_in_list def
+R2468:2479 VST.floyd.align_compatible_dec align_compatible_rec_dec cons_in_list def
+prf 2520:2547 align_compatible_rec_dec field_type_in_members_strong
+binder 2558:2558 <> i:50
+binder 2560:2560 <> t:51
+binder 2562:2562 <> m:52
+R2600:2613 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2614:2615 Coq.Lists.List <> In def
+R2623:2623 VST.floyd.align_compatible_dec <> m:52 var
+R2617:2617 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2619:2619 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2621:2621 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2618:2618 VST.floyd.align_compatible_dec <> i:50 var
+R2620:2620 VST.floyd.align_compatible_dec <> t:51 var
+R2586:2588 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2565:2581 compcert.cfrontend.Ctypes <> field_type def
+R2585:2585 VST.floyd.align_compatible_dec <> m:52 var
+R2583:2583 VST.floyd.align_compatible_dec <> i:50 var
+R2589:2597 compcert.common.Errors <> OK constr
+R2599:2599 VST.floyd.align_compatible_dec <> t:51 var
+prf 2760:2783 align_compatible_rec_dec align_compatible_dec_aux
+binder 2796:2796 <> n:53
+binder 2798:2798 <> t:54
+R2830:2837 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2845:2845 <> z:55
+R2848:2848 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2881:2885 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2920:2920 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2849:2868 VST.veric.align_mem <> align_compatible_rec ind
+R2880:2880 VST.floyd.align_compatible_dec <> z:55 var
+R2878:2878 VST.floyd.align_compatible_dec <> t:54 var
+R2870:2876 VST.veric.mpred <> cenv_cs meth
+R2886:2887 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2888:2907 VST.veric.align_mem <> align_compatible_rec ind
+R2919:2919 VST.floyd.align_compatible_dec <> z:55 var
+R2917:2917 VST.floyd.align_compatible_dec <> t:54 var
+R2909:2915 VST.veric.mpred <> cenv_cs meth
+R2821:2823 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R2802:2810 compcert.cfrontend.Ctypes <> rank_type def
+R2820:2820 VST.floyd.align_compatible_dec <> t:54 var
+R2812:2818 VST.veric.mpred <> cenv_cs meth
+R2824:2824 VST.floyd.align_compatible_dec <> n:53 var
+R3118:3137 VST.veric.align_mem <> align_compatible_rec ind
+R3118:3137 VST.veric.align_mem <> align_compatible_rec ind
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3251:3261 Coq.ZArith.Znumtheory <> Zdivide_dec thm
+R3264:3282 compcert.common.Memdata <> align_chunk def
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3251:3261 Coq.ZArith.Znumtheory <> Zdivide_dec thm
+R3264:3282 compcert.common.Memdata <> align_chunk def
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3251:3261 Coq.ZArith.Znumtheory <> Zdivide_dec thm
+R3264:3282 compcert.common.Memdata <> align_chunk def
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3251:3261 Coq.ZArith.Znumtheory <> Zdivide_dec thm
+R3264:3282 compcert.common.Memdata <> align_chunk def
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3251:3261 Coq.ZArith.Znumtheory <> Zdivide_dec thm
+R3264:3282 compcert.common.Memdata <> align_chunk def
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3251:3261 Coq.ZArith.Znumtheory <> Zdivide_dec thm
+R3264:3282 compcert.common.Memdata <> align_chunk def
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3251:3261 Coq.ZArith.Znumtheory <> Zdivide_dec thm
+R3264:3282 compcert.common.Memdata <> align_chunk def
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3251:3261 Coq.ZArith.Znumtheory <> Zdivide_dec thm
+R3264:3282 compcert.common.Memdata <> align_chunk def
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3251:3261 Coq.ZArith.Znumtheory <> Zdivide_dec thm
+R3264:3282 compcert.common.Memdata <> align_chunk def
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3251:3261 Coq.ZArith.Znumtheory <> Zdivide_dec thm
+R3264:3282 compcert.common.Memdata <> align_chunk def
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3251:3261 Coq.ZArith.Znumtheory <> Zdivide_dec thm
+R3264:3282 compcert.common.Memdata <> align_chunk def
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3251:3261 Coq.ZArith.Znumtheory <> Zdivide_dec thm
+R3264:3282 compcert.common.Memdata <> align_chunk def
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3251:3261 Coq.ZArith.Znumtheory <> Zdivide_dec thm
+R3264:3282 compcert.common.Memdata <> align_chunk def
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3251:3261 Coq.ZArith.Znumtheory <> Zdivide_dec thm
+R3264:3282 compcert.common.Memdata <> align_chunk def
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3160:3171 compcert.common.AST <> memory_chunk ind
+R3196:3198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3183:3193 compcert.cfrontend.Ctypes <> access_mode def
+R3199:3206 compcert.cfrontend.Ctypes <> By_value constr
+R3539:3553 VST.veric.coqlib4 <> Zrange_pred_dec thm
+binder 3560:3562 <> ofs:56
+R3567:3586 VST.veric.align_mem <> align_compatible_rec ind
+R3601:3603 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3613:3615 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3604:3609 VST.veric.expr <> sizeof def
+R3616:3618 VST.floyd.align_compatible_dec <> ofs:56 var
+R3588:3594 VST.veric.mpred <> cenv_cs meth
+R3539:3553 VST.veric.coqlib4 <> Zrange_pred_dec thm
+binder 3560:3562 <> ofs:57
+R3567:3586 VST.veric.align_mem <> align_compatible_rec ind
+R3601:3603 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3613:3615 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R3604:3609 VST.veric.expr <> sizeof def
+R3616:3618 VST.floyd.align_compatible_dec <> ofs:57 var
+R3588:3594 VST.veric.mpred <> cenv_cs meth
+R3715:3741 VST.veric.align_mem <> align_compatible_rec_Tarray constr
+R3715:3741 VST.veric.align_mem <> align_compatible_rec_Tarray constr
+R3798:3828 VST.veric.align_mem <> align_compatible_rec_Tarray_inv thm
+R3798:3828 VST.veric.align_mem <> align_compatible_rec_Tarray_inv thm
+R3894:3896 compcert.lib.Maps <> :::x_'!'_x not
+R3887:3893 VST.veric.mpred <> cenv_cs meth
+R3894:3896 compcert.lib.Maps <> :::x_'!'_x not
+R3887:3893 VST.veric.mpred <> cenv_cs meth
+binder 4007:4008 <> id:58
+R4019:4037 compcert.cfrontend.Ctypes <> field_offset def
+R4051:4060 compcert.cfrontend.Ctypes <> co_members proj
+R4047:4048 VST.floyd.align_compatible_dec <> id:58 var
+R4039:4045 VST.veric.mpred <> cenv_cs meth
+R4094:4102 compcert.common.Errors <> OK constr
+binder 4007:4008 <> id:59
+R4019:4037 compcert.cfrontend.Ctypes <> field_offset def
+R4051:4060 compcert.cfrontend.Ctypes <> co_members proj
+R4047:4048 VST.floyd.align_compatible_dec <> id:59 var
+R4039:4045 VST.veric.mpred <> cenv_cs meth
+R4094:4102 compcert.common.Errors <> OK constr
+R4146:4146 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4149:4150 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4161:4163 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4184:4184 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4156:4156 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4151:4155 compcert.common.AST <> ident def
+R4157:4160 compcert.cfrontend.Ctypes <> type ind
+binder 4147:4148 <> it:60
+R4164:4165 Coq.Lists.List <> In def
+R4171:4180 compcert.cfrontend.Ctypes <> co_members proj
+R4167:4168 VST.floyd.align_compatible_dec <> it:60 var
+binder 4143:4143 <> x:61
+R4205:4224 VST.veric.align_mem <> align_compatible_rec ind
+R4256:4258 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4263:4265 Coq.Init.Datatypes <> fst def
+R4268:4276 Coq.Init.Specif <> proj1_sig def
+R4278:4278 VST.floyd.align_compatible_dec <> x:61 var
+R4235:4237 Coq.Init.Datatypes <> snd def
+R4240:4248 Coq.Init.Specif <> proj1_sig def
+R4250:4250 VST.floyd.align_compatible_dec <> x:61 var
+R4226:4232 VST.veric.mpred <> cenv_cs meth
+R4146:4146 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4149:4150 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4161:4163 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4184:4184 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4156:4156 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4151:4155 compcert.common.AST <> ident def
+R4157:4160 compcert.cfrontend.Ctypes <> type ind
+binder 4147:4148 <> it:62
+R4164:4165 Coq.Lists.List <> In def
+R4171:4180 compcert.cfrontend.Ctypes <> co_members proj
+R4167:4168 VST.floyd.align_compatible_dec <> it:62 var
+binder 4143:4143 <> x:63
+R4205:4224 VST.veric.align_mem <> align_compatible_rec ind
+R4256:4258 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4263:4265 Coq.Init.Datatypes <> fst def
+R4268:4276 Coq.Init.Specif <> proj1_sig def
+R4278:4278 VST.floyd.align_compatible_dec <> x:63 var
+R4235:4237 Coq.Init.Datatypes <> snd def
+R4240:4248 Coq.Init.Specif <> proj1_sig def
+R4250:4250 VST.floyd.align_compatible_dec <> x:63 var
+R4226:4232 VST.veric.mpred <> cenv_cs meth
+binder 4304:4304 <> x:64
+R4307:4307 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4311:4315 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4321:4321 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4310:4310 VST.floyd.align_compatible_dec <> x:64 var
+R4316:4317 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4320:4320 VST.floyd.align_compatible_dec <> x:64 var
+binder 4304:4304 <> x:65
+R4307:4307 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4311:4315 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4321:4321 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4310:4310 VST.floyd.align_compatible_dec <> x:65 var
+R4316:4317 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4320:4320 VST.floyd.align_compatible_dec <> x:65 var
+R4405:4421 compcert.cfrontend.Ctypes <> rank_union_member thm
+R4441:4455 VST.veric.mpred <> cenv_consistent meth
+R4423:4429 VST.veric.mpred <> cenv_cs meth
+R4405:4421 compcert.cfrontend.Ctypes <> rank_union_member thm
+R4441:4455 VST.veric.mpred <> cenv_consistent meth
+R4423:4429 VST.veric.mpred <> cenv_cs meth
+R4512:4521 Coq.Lists.List <> Forall_dec thm
+R4529:4540 VST.floyd.align_compatible_dec align_compatible_rec_dec make_in_list def
+R4543:4552 compcert.cfrontend.Ctypes <> co_members proj
+R4512:4521 Coq.Lists.List <> Forall_dec thm
+R4529:4540 VST.floyd.align_compatible_dec align_compatible_rec_dec make_in_list def
+R4543:4552 compcert.cfrontend.Ctypes <> co_members proj
+R4605:4632 VST.veric.align_mem <> align_compatible_rec_Tstruct constr
+R4605:4632 VST.veric.align_mem <> align_compatible_rec_Tstruct constr
+R4664:4668 Coq.Init.Logic <> proj1 thm
+R4671:4683 Coq.Lists.List <> Forall_forall thm
+R4664:4668 Coq.Init.Logic <> proj1 thm
+R4671:4683 Coq.Lists.List <> Forall_forall thm
+R4731:4735 Coq.Init.Specif <> exist constr
+R4748:4775 VST.floyd.align_compatible_dec align_compatible_rec_dec field_type_in_members_strong thm
+R4739:4739 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4742:4742 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4745:4745 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4731:4735 Coq.Init.Specif <> exist constr
+R4748:4775 VST.floyd.align_compatible_dec align_compatible_rec_dec field_type_in_members_strong thm
+R4739:4739 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4742:4742 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4745:4745 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4807:4821 VST.floyd.align_compatible_dec align_compatible_rec_dec in_make_in_list thm
+R4807:4821 VST.floyd.align_compatible_dec align_compatible_rec_dec in_make_in_list thm
+R4948:4960 Coq.Lists.List <> Forall_forall thm
+R4948:4960 Coq.Lists.List <> Forall_forall thm
+R5025:5056 VST.veric.align_mem <> align_compatible_rec_Tstruct_inv thm
+R5025:5056 VST.veric.align_mem <> align_compatible_rec_Tstruct_inv thm
+R5124:5150 VST.floyd.base <> get_co_members_no_replicate thm
+R5124:5150 VST.floyd.base <> get_co_members_no_replicate thm
+R5164:5169 VST.floyd.base <> get_co def
+R5202:5221 VST.veric.mpred <> members_no_replicate def
+R5258:5267 compcert.cfrontend.Ctypes <> co_members proj
+R5258:5267 compcert.cfrontend.Ctypes <> co_members proj
+R5341:5350 VST.veric.base <> id_in_list def
+R5355:5357 Coq.Lists.List <> map def
+R5359:5361 Coq.Init.Datatypes <> fst def
+R5341:5350 VST.veric.base <> id_in_list def
+R5355:5357 Coq.Lists.List <> map def
+R5359:5361 Coq.Init.Datatypes <> fst def
+R5426:5441 VST.floyd.fieldlist <> id_in_list_false thm
+R5426:5441 VST.floyd.fieldlist <> id_in_list_false thm
+R5462:5466 Coq.Init.Logic <> False ind
+R5488:5493 VST.floyd.fieldlist <> in_map def
+R5495:5497 Coq.Init.Datatypes <> fst def
+R5488:5493 VST.floyd.fieldlist <> in_map def
+R5495:5497 Coq.Init.Datatypes <> fst def
+R5594:5603 VST.veric.base <> id_in_list def
+R5608:5610 Coq.Lists.List <> map def
+R5612:5614 Coq.Init.Datatypes <> fst def
+R5594:5603 VST.veric.base <> id_in_list def
+R5608:5610 Coq.Lists.List <> map def
+R5612:5614 Coq.Init.Datatypes <> fst def
+R5695:5713 compcert.cfrontend.Ctypes <> field_offset def
+R5727:5736 compcert.cfrontend.Ctypes <> co_members proj
+R5715:5721 VST.veric.mpred <> cenv_cs meth
+R5695:5713 compcert.cfrontend.Ctypes <> field_offset def
+R5727:5736 compcert.cfrontend.Ctypes <> co_members proj
+R5715:5721 VST.veric.mpred <> cenv_cs meth
+R5767:5771 Coq.Init.Logic <> False ind
+R5782:5800 compcert.cfrontend.Ctypes <> field_offset def
+R5850:5859 compcert.cfrontend.Ctypes <> co_members proj
+R5850:5859 compcert.cfrontend.Ctypes <> co_members proj
+R6023:6025 compcert.lib.Maps <> :::x_'!'_x not
+R6016:6022 VST.veric.mpred <> cenv_cs meth
+R6023:6025 compcert.lib.Maps <> :::x_'!'_x not
+R6016:6022 VST.veric.mpred <> cenv_cs meth
+R6145:6145 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R6148:6149 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R6160:6162 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R6183:6183 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R6155:6155 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6150:6154 compcert.common.AST <> ident def
+R6156:6159 compcert.cfrontend.Ctypes <> type ind
+binder 6146:6147 <> it:66
+R6163:6164 Coq.Lists.List <> In def
+R6170:6179 compcert.cfrontend.Ctypes <> co_members proj
+R6166:6167 VST.floyd.align_compatible_dec <> it:66 var
+binder 6142:6142 <> x:67
+R6204:6223 VST.veric.align_mem <> align_compatible_rec ind
+R6234:6236 Coq.Init.Datatypes <> snd def
+R6239:6247 Coq.Init.Specif <> proj1_sig def
+R6249:6249 VST.floyd.align_compatible_dec <> x:67 var
+R6225:6231 VST.veric.mpred <> cenv_cs meth
+R6145:6145 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R6148:6149 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R6160:6162 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R6183:6183 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R6155:6155 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6150:6154 compcert.common.AST <> ident def
+R6156:6159 compcert.cfrontend.Ctypes <> type ind
+binder 6146:6147 <> it:68
+R6163:6164 Coq.Lists.List <> In def
+R6170:6179 compcert.cfrontend.Ctypes <> co_members proj
+R6166:6167 VST.floyd.align_compatible_dec <> it:68 var
+binder 6142:6142 <> x:69
+R6204:6223 VST.veric.align_mem <> align_compatible_rec ind
+R6234:6236 Coq.Init.Datatypes <> snd def
+R6239:6247 Coq.Init.Specif <> proj1_sig def
+R6249:6249 VST.floyd.align_compatible_dec <> x:69 var
+R6225:6231 VST.veric.mpred <> cenv_cs meth
+binder 6276:6276 <> x:70
+R6279:6279 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6283:6287 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6293:6293 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6282:6282 VST.floyd.align_compatible_dec <> x:70 var
+R6288:6289 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6292:6292 VST.floyd.align_compatible_dec <> x:70 var
+binder 6276:6276 <> x:71
+R6279:6279 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6283:6287 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6293:6293 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6282:6282 VST.floyd.align_compatible_dec <> x:71 var
+R6288:6289 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6292:6292 VST.floyd.align_compatible_dec <> x:71 var
+R6377:6393 compcert.cfrontend.Ctypes <> rank_union_member thm
+R6413:6427 VST.veric.mpred <> cenv_consistent meth
+R6395:6401 VST.veric.mpred <> cenv_cs meth
+R6377:6393 compcert.cfrontend.Ctypes <> rank_union_member thm
+R6413:6427 VST.veric.mpred <> cenv_consistent meth
+R6395:6401 VST.veric.mpred <> cenv_cs meth
+R6484:6493 Coq.Lists.List <> Forall_dec thm
+R6501:6512 VST.floyd.align_compatible_dec align_compatible_rec_dec make_in_list def
+R6515:6524 compcert.cfrontend.Ctypes <> co_members proj
+R6484:6493 Coq.Lists.List <> Forall_dec thm
+R6501:6512 VST.floyd.align_compatible_dec align_compatible_rec_dec make_in_list def
+R6515:6524 compcert.cfrontend.Ctypes <> co_members proj
+R6577:6603 VST.veric.align_mem <> align_compatible_rec_Tunion constr
+R6577:6603 VST.veric.align_mem <> align_compatible_rec_Tunion constr
+R6635:6639 Coq.Init.Logic <> proj1 thm
+R6642:6654 Coq.Lists.List <> Forall_forall thm
+R6635:6639 Coq.Init.Logic <> proj1 thm
+R6642:6654 Coq.Lists.List <> Forall_forall thm
+R6702:6706 Coq.Init.Specif <> exist constr
+R6719:6746 VST.floyd.align_compatible_dec align_compatible_rec_dec field_type_in_members_strong thm
+R6710:6710 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6713:6713 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6716:6716 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6702:6706 Coq.Init.Specif <> exist constr
+R6719:6746 VST.floyd.align_compatible_dec align_compatible_rec_dec field_type_in_members_strong thm
+R6710:6710 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6713:6713 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6716:6716 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6778:6792 VST.floyd.align_compatible_dec align_compatible_rec_dec in_make_in_list thm
+R6778:6792 VST.floyd.align_compatible_dec align_compatible_rec_dec in_make_in_list thm
+R6839:6851 Coq.Lists.List <> Forall_forall thm
+R6839:6851 Coq.Lists.List <> Forall_forall thm
+R6916:6946 VST.veric.align_mem <> align_compatible_rec_Tunion_inv thm
+R6916:6946 VST.veric.align_mem <> align_compatible_rec_Tunion_inv thm
+R7014:7040 VST.floyd.base <> get_co_members_no_replicate thm
+R7014:7040 VST.floyd.base <> get_co_members_no_replicate thm
+R7054:7059 VST.floyd.base <> get_co def
+R7092:7111 VST.veric.mpred <> members_no_replicate def
+R7148:7157 compcert.cfrontend.Ctypes <> co_members proj
+R7148:7157 compcert.cfrontend.Ctypes <> co_members proj
+R7231:7240 VST.veric.base <> id_in_list def
+R7245:7247 Coq.Lists.List <> map def
+R7249:7251 Coq.Init.Datatypes <> fst def
+R7231:7240 VST.veric.base <> id_in_list def
+R7245:7247 Coq.Lists.List <> map def
+R7249:7251 Coq.Init.Datatypes <> fst def
+R7316:7331 VST.floyd.fieldlist <> id_in_list_false thm
+R7316:7331 VST.floyd.fieldlist <> id_in_list_false thm
+R7352:7356 Coq.Init.Logic <> False ind
+R7378:7383 VST.floyd.fieldlist <> in_map def
+R7385:7387 Coq.Init.Datatypes <> fst def
+R7378:7383 VST.floyd.fieldlist <> in_map def
+R7385:7387 Coq.Init.Datatypes <> fst def
+R7484:7493 VST.veric.base <> id_in_list def
+R7498:7500 Coq.Lists.List <> map def
+R7502:7504 Coq.Init.Datatypes <> fst def
+R7484:7493 VST.veric.base <> id_in_list def
+R7498:7500 Coq.Lists.List <> map def
+R7502:7504 Coq.Init.Datatypes <> fst def
+prf 7554:7577 align_compatible_rec_dec align_compatible_rec_dec
+binder 7587:7587 <> t:72
+binder 7589:7589 <> z:73
+R7592:7592 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7625:7629 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7664:7664 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7593:7612 VST.veric.align_mem <> align_compatible_rec ind
+R7624:7624 VST.floyd.align_compatible_dec <> z:73 var
+R7622:7622 VST.floyd.align_compatible_dec <> t:72 var
+R7614:7620 VST.veric.mpred <> cenv_cs meth
+R7630:7631 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7632:7651 VST.veric.align_mem <> align_compatible_rec ind
+R7663:7663 VST.floyd.align_compatible_dec <> z:73 var
+R7661:7661 VST.floyd.align_compatible_dec <> t:72 var
+R7653:7659 VST.veric.mpred <> cenv_cs meth
+R7719:7719 Coq.Init.Datatypes <> S constr
+R7722:7730 compcert.cfrontend.Ctypes <> rank_type def
+R7732:7738 VST.veric.mpred <> cenv_cs meth
+R7688:7711 VST.floyd.align_compatible_dec align_compatible_rec_dec align_compatible_dec_aux thm
+R7719:7719 Coq.Init.Datatypes <> S constr
+R7722:7730 compcert.cfrontend.Ctypes <> rank_type def
+R7732:7738 VST.veric.mpred <> cenv_cs meth
+R7688:7711 VST.floyd.align_compatible_dec align_compatible_rec_dec align_compatible_dec_aux thm
+R7760:7783 VST.floyd.align_compatible_dec align_compatible_rec_dec.align_compatible_rec_dec <> sec
+R7791:7814 VST.floyd.align_compatible_dec align_compatible_rec_dec <> mod
+prf 7824:7843 <> align_compatible_dec
+R7858:7866 VST.veric.mpred <> compspecs class
+binder 7854:7855 <> cs:74
+binder 7869:7869 <> t:75
+binder 7871:7871 <> p:76
+R7874:7874 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7895:7899 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7922:7922 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7875:7890 VST.veric.SeparationLogic <> align_compatible def
+R7894:7894 VST.floyd.align_compatible_dec <> p:76 var
+R7892:7892 VST.floyd.align_compatible_dec <> t:75 var
+R7900:7901 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7902:7917 VST.veric.SeparationLogic <> align_compatible def
+R7921:7921 VST.floyd.align_compatible_dec <> p:76 var
+R7919:7919 VST.floyd.align_compatible_dec <> t:75 var
+R7980:7995 VST.veric.SeparationLogic <> align_compatible def
+R8030:8078 VST.floyd.align_compatible_dec <> align_compatible_rec_dec defax
+R8030:8078 VST.floyd.align_compatible_dec <> align_compatible_rec_dec defax

@@ -1,0 +1,762 @@
+DIGEST c028178d27a40bd005e02ce67e31db1b
+FVST.veric.Clight_assert_lemmas
+R15:28 VST.veric.base <> <> lib
+R46:69 VST.veric.compcert_rmaps <> <> lib
+R87:109 VST.veric.Clight_seplog <> <> lib
+R127:149 VST.veric.assert_lemmas <> <> lib
+R168:186 VST.veric.tycontext <> <> lib
+R204:218 VST.veric.expr2 <> <> lib
+R236:254 VST.veric.extend_tc <> <> lib
+prf 288:304 <> corable_funassert
+binder 316:316 <> G:1
+binder 318:320 <> rho:2
+R323:329 VST.msl.corable <> corable def
+R332:340 VST.veric.Clight_seplog <> funassert def
+R344:346 VST.veric.Clight_assert_lemmas <> rho:2 var
+R342:342 VST.veric.Clight_assert_lemmas <> G:1 var
+R374:396 VST.veric.assert_lemmas <> corable_funspecs_assert thm
+R374:396 VST.veric.assert_lemmas <> corable_funspecs_assert thm
+def 456:466 <> allp_fun_id
+R477:485 VST.veric.seplog <> tycontext ind
+binder 469:473 <> Delta:3
+R495:501 VST.veric.mpred <> environ ind
+binder 489:491 <> rho:4
+R505:508 VST.msl.predicates_hered <> pred def
+R510:513 VST.veric.compcert_rmaps RML.R rmap defax
+R519:522 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R533:535 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R528:532 compcert.common.AST <> ident def
+binder 523:524 <> id:5
+R536:539 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R552:556 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R545:551 VST.veric.mpred <> funspec ind
+binder 540:541 <> fs:6
+R595:602 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R692:692 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R557:560 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R594:594 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R584:586 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R561:561 compcert.lib.Maps <> :::x_'!'_x not
+R578:581 compcert.lib.Maps <> :::x_'!'_x not
+R582:583 VST.veric.Clight_assert_lemmas <> id:5 var
+R562:571 VST.veric.seplog <> glob_specs def
+R573:577 VST.veric.Clight_assert_lemmas <> Delta:3 var
+R587:590 Coq.Init.Datatypes <> Some constr
+R592:593 VST.veric.Clight_assert_lemmas <> fs:6 var
+R603:605 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R615:616 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R610:614 compcert.common.Values <> block def
+binder 606:606 <> b:7
+R653:656 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R617:620 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R652:652 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R643:645 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R621:627 VST.veric.mpred Map get def
+R641:642 VST.veric.Clight_assert_lemmas <> id:5 var
+R630:634 VST.veric.mpred <> ge_of def
+R636:638 VST.veric.Clight_assert_lemmas <> rho:4 var
+R646:649 Coq.Init.Datatypes <> Some constr
+R651:651 VST.veric.Clight_assert_lemmas <> b:7 var
+R657:667 VST.veric.seplog <> func_ptr_si def
+R673:676 compcert.common.Values <> Vptr constr
+R680:690 compcert.lib.Integers Ptrofs zero def
+R678:678 VST.veric.Clight_assert_lemmas <> b:7 var
+R669:670 VST.veric.Clight_assert_lemmas <> fs:6 var
+def 707:723 <> allp_fun_id_sigcc
+R734:742 VST.veric.seplog <> tycontext ind
+binder 726:730 <> Delta:8
+R752:758 VST.veric.mpred <> environ ind
+binder 746:748 <> rho:9
+R762:765 VST.msl.predicates_hered <> pred def
+R767:770 VST.veric.compcert_rmaps RML.R rmap defax
+R776:779 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R790:794 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R1001:1001 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R785:789 compcert.common.AST <> ident def
+binder 780:781 <> id:10
+R795:798 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R811:815 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R804:810 VST.veric.mpred <> funspec ind
+binder 799:800 <> fs:11
+R854:861 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R1000:1000 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R816:819 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R853:853 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R843:845 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R820:820 compcert.lib.Maps <> :::x_'!'_x not
+R837:840 compcert.lib.Maps <> :::x_'!'_x not
+R841:842 VST.veric.Clight_assert_lemmas <> id:10 var
+R821:830 VST.veric.seplog <> glob_specs def
+R832:836 VST.veric.Clight_assert_lemmas <> Delta:8 var
+R846:849 Coq.Init.Datatypes <> Some constr
+R851:852 VST.veric.Clight_assert_lemmas <> fs:11 var
+R862:864 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R874:875 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R869:873 compcert.common.Values <> block def
+binder 865:865 <> b:12
+R912:920 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R876:879 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R911:911 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R902:904 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R880:886 VST.veric.mpred Map get def
+R900:901 VST.veric.Clight_assert_lemmas <> id:10 var
+R889:893 VST.veric.mpred <> ge_of def
+R895:897 VST.veric.Clight_assert_lemmas <> rho:9 var
+R905:908 Coq.Init.Datatypes <> Some constr
+R910:910 VST.veric.Clight_assert_lemmas <> b:12 var
+R927:928 VST.veric.Clight_assert_lemmas <> fs:11 var
+R939:948 VST.veric.mpred <> mk_funspec constr
+R970:977 VST.veric.seplog <> sigcc_at def
+R986:986 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R988:989 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R991:991 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R987:987 VST.veric.Clight_assert_lemmas <> b:12 var
+prf 1012:1048 <> allp_fun_id_ex_implies_allp_fun_sigcc
+binder 1050:1054 <> Delta:14
+binder 1056:1058 <> rho:15
+R1085:1090 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R1064:1074 VST.veric.Clight_assert_lemmas <> allp_fun_id def
+R1082:1084 VST.veric.Clight_assert_lemmas <> rho:15 var
+R1076:1080 VST.veric.Clight_assert_lemmas <> Delta:14 var
+R1091:1107 VST.veric.Clight_assert_lemmas <> allp_fun_id_sigcc def
+R1115:1117 VST.veric.Clight_assert_lemmas <> rho:15 var
+R1109:1113 VST.veric.Clight_assert_lemmas <> Delta:14 var
+R1135:1146 VST.msl.predicates_hered <> allp_derives thm
+R1135:1146 VST.msl.predicates_hered <> allp_derives thm
+R1168:1179 VST.msl.predicates_hered <> allp_derives thm
+R1168:1179 VST.msl.predicates_hered <> allp_derives thm
+R1201:1211 VST.msl.predicates_hered <> imp_derives thm
+R1201:1211 VST.msl.predicates_hered <> imp_derives thm
+R1231:1241 VST.msl.predicates_hered <> exp_derives thm
+R1231:1241 VST.msl.predicates_hered <> exp_derives thm
+R1262:1273 VST.msl.predicates_hered <> andp_derives thm
+R1262:1273 VST.msl.predicates_hered <> andp_derives thm
+R1294:1301 VST.veric.seplog <> func_ptr def
+prf 1478:1496 <> corable_allp_fun_id
+binder 1506:1510 <> Delta:16
+binder 1512:1514 <> rho:17
+R1519:1525 VST.msl.corable <> corable def
+R1528:1538 VST.veric.Clight_assert_lemmas <> allp_fun_id def
+R1546:1548 VST.veric.Clight_assert_lemmas <> rho:17 var
+R1540:1544 VST.veric.Clight_assert_lemmas <> Delta:16 var
+R1577:1588 VST.msl.corable <> corable_allp thm
+R1577:1588 VST.msl.corable <> corable_allp thm
+R1610:1621 VST.msl.corable <> corable_allp thm
+R1610:1621 VST.msl.corable <> corable_allp thm
+R1643:1653 VST.msl.corable <> corable_imp thm
+R1663:1674 VST.msl.corable <> corable_prop thm
+R1643:1653 VST.msl.corable <> corable_imp thm
+R1663:1674 VST.msl.corable <> corable_prop thm
+R1688:1698 VST.msl.corable <> corable_exp thm
+R1688:1698 VST.msl.corable <> corable_exp thm
+R1719:1730 VST.msl.corable <> corable_andp thm
+R1740:1751 VST.msl.corable <> corable_prop thm
+R1719:1730 VST.msl.corable <> corable_andp thm
+R1740:1751 VST.msl.corable <> corable_prop thm
+R1765:1783 VST.veric.assert_lemmas <> corable_func_ptr_si thm
+R1765:1783 VST.veric.assert_lemmas <> corable_func_ptr_si thm
+prf 1798:1822 <> corable_allp_fun_id_sigcc
+binder 1832:1836 <> Delta:18
+binder 1838:1840 <> rho:19
+R1845:1851 VST.msl.corable <> corable def
+R1854:1870 VST.veric.Clight_assert_lemmas <> allp_fun_id_sigcc def
+R1878:1880 VST.veric.Clight_assert_lemmas <> rho:19 var
+R1872:1876 VST.veric.Clight_assert_lemmas <> Delta:18 var
+R1909:1920 VST.msl.corable <> corable_allp thm
+R1909:1920 VST.msl.corable <> corable_allp thm
+R1942:1953 VST.msl.corable <> corable_allp thm
+R1942:1953 VST.msl.corable <> corable_allp thm
+R1975:1985 VST.msl.corable <> corable_imp thm
+R1995:2006 VST.msl.corable <> corable_prop thm
+R1975:1985 VST.msl.corable <> corable_imp thm
+R1995:2006 VST.msl.corable <> corable_prop thm
+R2020:2030 VST.msl.corable <> corable_exp thm
+R2020:2030 VST.msl.corable <> corable_exp thm
+R2051:2062 VST.msl.corable <> corable_andp thm
+R2072:2083 VST.msl.corable <> corable_prop thm
+R2051:2062 VST.msl.corable <> corable_andp thm
+R2072:2083 VST.msl.corable <> corable_prop thm
+R2110:2120 VST.msl.corable <> corable_exp thm
+R2110:2120 VST.msl.corable <> corable_exp thm
+R2140:2153 VST.veric.assert_lemmas <> corable_pureat thm
+R2140:2153 VST.veric.assert_lemmas <> corable_pureat thm
+prf 2168:2188 <> allp_fun_id_sigcc_sub
+binder 2198:2202 <> Delta:20
+binder 2204:2209 <> Delta':21
+binder 2211:2213 <> rho:22
+R2244:2249 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2278:2282 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R2250:2266 VST.veric.Clight_assert_lemmas <> allp_fun_id_sigcc def
+R2275:2277 VST.veric.Clight_assert_lemmas <> rho:22 var
+R2268:2273 VST.veric.Clight_assert_lemmas <> Delta':21 var
+R2283:2299 VST.veric.Clight_assert_lemmas <> allp_fun_id_sigcc def
+R2307:2309 VST.veric.Clight_assert_lemmas <> rho:22 var
+R2301:2305 VST.veric.Clight_assert_lemmas <> Delta:20 var
+R2218:2230 VST.veric.expr <> tycontext_sub def
+R2238:2243 VST.veric.Clight_assert_lemmas <> Delta':21 var
+R2232:2236 VST.veric.Clight_assert_lemmas <> Delta:20 var
+R2337:2348 VST.msl.predicates_hered <> allp_derives thm
+R2337:2348 VST.msl.predicates_hered <> allp_derives thm
+R2526:2526 Coq.Init.Logic <> I constr
+R2526:2526 Coq.Init.Logic <> I constr
+prf 2702:2716 <> allp_fun_id_sub
+binder 2726:2730 <> Delta:23
+binder 2732:2737 <> Delta':24
+binder 2739:2741 <> rho:25
+R2772:2777 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2800:2804 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R2778:2788 VST.veric.Clight_assert_lemmas <> allp_fun_id def
+R2797:2799 VST.veric.Clight_assert_lemmas <> rho:25 var
+R2790:2795 VST.veric.Clight_assert_lemmas <> Delta':24 var
+R2805:2815 VST.veric.Clight_assert_lemmas <> allp_fun_id def
+R2823:2825 VST.veric.Clight_assert_lemmas <> rho:25 var
+R2817:2821 VST.veric.Clight_assert_lemmas <> Delta:23 var
+R2746:2758 VST.veric.expr <> tycontext_sub def
+R2766:2771 VST.veric.Clight_assert_lemmas <> Delta':24 var
+R2760:2764 VST.veric.Clight_assert_lemmas <> Delta:23 var
+R2853:2864 VST.msl.predicates_hered <> allp_derives thm
+R2853:2864 VST.msl.predicates_hered <> allp_derives thm
+R3042:3042 Coq.Init.Logic <> I constr
+R3042:3042 Coq.Init.Logic <> I constr
+R3244:3263 VST.veric.seplog <> funspec_sub_si_trans thm
+R3244:3263 VST.veric.seplog <> funspec_sub_si_trans thm
+prf 3306:3326 <> funassert_allp_fun_id
+binder 3328:3332 <> Delta:26
+binder 3334:3336 <> rho:27
+R3358:3362 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R3339:3347 VST.veric.Clight_seplog <> funassert def
+R3355:3357 VST.veric.Clight_assert_lemmas <> rho:27 var
+R3349:3353 VST.veric.Clight_assert_lemmas <> Delta:26 var
+R3363:3373 VST.veric.Clight_assert_lemmas <> allp_fun_id def
+R3381:3383 VST.veric.Clight_assert_lemmas <> rho:27 var
+R3375:3379 VST.veric.Clight_assert_lemmas <> Delta:26 var
+R3399:3408 VST.msl.predicates_hered <> andp_left1 thm
+R3399:3408 VST.msl.predicates_hered <> andp_left1 thm
+R3419:3430 VST.msl.predicates_hered <> allp_derives thm
+R3419:3430 VST.msl.predicates_hered <> allp_derives thm
+R3452:3463 VST.msl.predicates_hered <> allp_derives thm
+R3452:3463 VST.msl.predicates_hered <> allp_derives thm
+R3485:3495 VST.msl.predicates_hered <> imp_derives thm
+R3485:3495 VST.msl.predicates_hered <> imp_derives thm
+R3515:3525 VST.msl.predicates_hered <> exp_derives thm
+R3515:3525 VST.msl.predicates_hered <> exp_derives thm
+R3546:3557 VST.msl.predicates_hered <> andp_derives thm
+R3546:3557 VST.msl.predicates_hered <> andp_derives thm
+R3578:3586 VST.msl.predicates_hered <> exp_right thm
+R3578:3586 VST.msl.predicates_hered <> exp_right thm
+R3609:3623 VST.msl.predicates_hered <> prop_andp_right thm
+R3609:3623 VST.msl.predicates_hered <> prop_andp_right thm
+R3644:3652 VST.msl.predicates_hered <> exp_right thm
+R3644:3652 VST.msl.predicates_hered <> exp_right thm
+R3676:3685 VST.msl.predicates_hered <> andp_right thm
+R3676:3685 VST.msl.predicates_hered <> andp_right thm
+R3706:3718 VST.msl.predicates_hered <> derives_trans thm
+R3706:3718 VST.msl.predicates_hered <> derives_trans thm
+R3730:3748 VST.veric.seplog <> funspec_sub_si_refl thm
+R3730:3748 VST.veric.seplog <> funspec_sub_si_refl thm
+prf 3772:3796 <> funassert_allp_fun_id_sub
+binder 3806:3810 <> Delta:28
+binder 3812:3817 <> Delta':29
+binder 3819:3821 <> rho:30
+R3852:3857 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3878:3882 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R3858:3866 VST.veric.Clight_seplog <> funassert def
+R3875:3877 VST.veric.Clight_assert_lemmas <> rho:30 var
+R3868:3873 VST.veric.Clight_assert_lemmas <> Delta':29 var
+R3883:3893 VST.veric.Clight_assert_lemmas <> allp_fun_id def
+R3901:3903 VST.veric.Clight_assert_lemmas <> rho:30 var
+R3895:3899 VST.veric.Clight_assert_lemmas <> Delta:28 var
+R3826:3838 VST.veric.expr <> tycontext_sub def
+R3846:3851 VST.veric.Clight_assert_lemmas <> Delta':29 var
+R3840:3844 VST.veric.Clight_assert_lemmas <> Delta:28 var
+R3930:3942 VST.msl.predicates_hered <> derives_trans thm
+R3930:3942 VST.msl.predicates_hered <> derives_trans thm
+R3951:3971 VST.veric.Clight_assert_lemmas <> funassert_allp_fun_id thm
+R3951:3971 VST.veric.Clight_assert_lemmas <> funassert_allp_fun_id thm
+R3982:3996 VST.veric.Clight_assert_lemmas <> allp_fun_id_sub thm
+R3982:3996 VST.veric.Clight_assert_lemmas <> allp_fun_id_sub thm
+prf 4020:4046 <> funassert_allp_fun_id_sigcc
+binder 4048:4052 <> Delta:31
+binder 4054:4056 <> rho:32
+R4080:4084 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R4061:4069 VST.veric.Clight_seplog <> funassert def
+R4077:4079 VST.veric.Clight_assert_lemmas <> rho:32 var
+R4071:4075 VST.veric.Clight_assert_lemmas <> Delta:31 var
+R4085:4101 VST.veric.Clight_assert_lemmas <> allp_fun_id_sigcc def
+R4109:4111 VST.veric.Clight_assert_lemmas <> rho:32 var
+R4103:4107 VST.veric.Clight_assert_lemmas <> Delta:31 var
+R4128:4140 VST.msl.predicates_hered <> derives_trans thm
+R4128:4140 VST.msl.predicates_hered <> derives_trans thm
+R4149:4169 VST.veric.Clight_assert_lemmas <> funassert_allp_fun_id thm
+R4149:4169 VST.veric.Clight_assert_lemmas <> funassert_allp_fun_id thm
+R4178:4214 VST.veric.Clight_assert_lemmas <> allp_fun_id_ex_implies_allp_fun_sigcc thm
+R4178:4214 VST.veric.Clight_assert_lemmas <> allp_fun_id_ex_implies_allp_fun_sigcc thm
+prf 4229:4259 <> funassert_allp_fun_id_sigcc_sub
+binder 4269:4273 <> Delta:33
+binder 4275:4280 <> Delta':34
+binder 4282:4284 <> rho:35
+R4315:4320 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4341:4345 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R4321:4329 VST.veric.Clight_seplog <> funassert def
+R4338:4340 VST.veric.Clight_assert_lemmas <> rho:35 var
+R4331:4336 VST.veric.Clight_assert_lemmas <> Delta':34 var
+R4346:4362 VST.veric.Clight_assert_lemmas <> allp_fun_id_sigcc def
+R4370:4372 VST.veric.Clight_assert_lemmas <> rho:35 var
+R4364:4368 VST.veric.Clight_assert_lemmas <> Delta:33 var
+R4289:4301 VST.veric.expr <> tycontext_sub def
+R4309:4314 VST.veric.Clight_assert_lemmas <> Delta':34 var
+R4303:4307 VST.veric.Clight_assert_lemmas <> Delta:33 var
+R4399:4411 VST.msl.predicates_hered <> derives_trans thm
+R4399:4411 VST.msl.predicates_hered <> derives_trans thm
+R4420:4446 VST.veric.Clight_assert_lemmas <> funassert_allp_fun_id_sigcc thm
+R4420:4446 VST.veric.Clight_assert_lemmas <> funassert_allp_fun_id_sigcc thm
+R4457:4477 VST.veric.Clight_assert_lemmas <> allp_fun_id_sigcc_sub thm
+R4457:4477 VST.veric.Clight_assert_lemmas <> allp_fun_id_sigcc_sub thm
+prf 4790:4801 <> prop_derives
+binder 4804:4804 <> A:36
+R4810:4816 VST.msl.ageable <> ageable class
+R4818:4818 VST.veric.Clight_assert_lemmas <> A:36 var
+binder 4807:4807 <> H:37
+binder 4831:4831 <> P:38
+binder 4833:4833 <> Q:39
+R4843:4843 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4850:4854 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4861:4865 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R4855:4858 VST.msl.predicates_hered <> prop def
+R4860:4860 VST.veric.Clight_assert_lemmas <> P:38 var
+R4866:4869 VST.msl.predicates_hered <> prop def
+R4871:4871 VST.veric.Clight_assert_lemmas <> Q:39 var
+R4845:4848 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4849:4849 VST.veric.Clight_assert_lemmas <> Q:39 var
+R4844:4844 VST.veric.Clight_assert_lemmas <> P:38 var
+sec 4931:4939 <> STABILITY
+var 4951:4952 STABILITY CS
+R4955:4963 VST.veric.mpred <> compspecs class
+var 4976:4980 STABILITY Delta
+var 4982:4987 STABILITY Delta'
+R4990:4998 VST.veric.seplog <> tycontext ind
+var 5012:5018 STABILITY extends
+R5021:5033 VST.veric.expr <> tycontext_sub def
+R5041:5046 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R5035:5039 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+prf 5056:5068 <> tc_bool_e_sub
+binder 5078:5078 <> b:44
+binder 5080:5081 <> b':45
+binder 5083:5085 <> err:46
+binder 5087:5089 <> rho:47
+binder 5091:5093 <> phi:48
+R5098:5098 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5120:5126 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5167:5172 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5173:5188 VST.veric.expr2 <> denote_tc_assert def
+R5211:5213 VST.veric.Clight_assert_lemmas <> phi:48 var
+R5207:5209 VST.veric.Clight_assert_lemmas <> rho:47 var
+R5191:5197 VST.veric.expr <> tc_bool def
+R5202:5204 VST.veric.Clight_assert_lemmas <> err:46 var
+R5199:5200 VST.veric.Clight_assert_lemmas <> b':45 var
+R5127:5142 VST.veric.expr2 <> denote_tc_assert def
+R5164:5166 VST.veric.Clight_assert_lemmas <> phi:48 var
+R5160:5162 VST.veric.Clight_assert_lemmas <> rho:47 var
+R5145:5151 VST.veric.expr <> tc_bool def
+R5155:5157 VST.veric.Clight_assert_lemmas <> err:46 var
+R5153:5153 VST.veric.Clight_assert_lemmas <> b:44 var
+R5107:5110 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5113:5115 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5111:5112 VST.veric.Clight_assert_lemmas <> b':45 var
+R5116:5119 Coq.Init.Datatypes <> true constr
+R5100:5102 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5099:5099 VST.veric.Clight_assert_lemmas <> b:44 var
+R5103:5106 Coq.Init.Datatypes <> true constr
+R5265:5271 Coq.Init.Logic <> eq_refl constr
+R5265:5271 Coq.Init.Logic <> eq_refl constr
+R5299:5299 Coq.Init.Logic <> I constr
+R5299:5299 Coq.Init.Logic <> I constr
+prf 5332:5342 <> tc_bool_e_i
+binder 5354:5354 <> b:49
+binder 5356:5356 <> c:50
+binder 5358:5360 <> rho:51
+binder 5362:5364 <> phi:52
+R5378:5383 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5384:5391 VST.msl.predicates_hered <> app_pred def
+R5430:5432 VST.veric.Clight_assert_lemmas <> phi:52 var
+R5394:5409 VST.veric.expr2 <> denote_tc_assert def
+R5425:5427 VST.veric.Clight_assert_lemmas <> rho:51 var
+R5412:5418 VST.veric.expr <> tc_bool def
+R5422:5422 VST.veric.Clight_assert_lemmas <> c:50 var
+R5420:5420 VST.veric.Clight_assert_lemmas <> b:49 var
+R5371:5373 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5370:5370 VST.veric.Clight_assert_lemmas <> b:49 var
+R5374:5377 Coq.Init.Datatypes <> true constr
+R5463:5463 Coq.Init.Logic <> I constr
+R5463:5463 Coq.Init.Logic <> I constr
+prf 5478:5495 <> tc_expr_lvalue_sub
+binder 5505:5507 <> rho:53
+R5539:5544 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 5552:5552 <> e:54
+R5603:5610 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5578:5582 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R5559:5565 VST.veric.extend_tc <> tc_expr def
+R5575:5577 VST.veric.Clight_assert_lemmas <> rho:53 var
+R5573:5573 VST.veric.Clight_assert_lemmas <> e:54 var
+R5567:5571 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R5583:5589 VST.veric.extend_tc <> tc_expr def
+R5600:5602 VST.veric.Clight_assert_lemmas <> rho:53 var
+R5598:5598 VST.veric.Clight_assert_lemmas <> e:54 var
+R5591:5596 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R5632:5636 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R5611:5619 VST.veric.extend_tc <> tc_lvalue def
+R5629:5631 VST.veric.Clight_assert_lemmas <> rho:53 var
+R5627:5627 VST.veric.Clight_assert_lemmas <> e:54 var
+R5621:5625 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R5637:5645 VST.veric.extend_tc <> tc_lvalue def
+R5656:5658 VST.veric.Clight_assert_lemmas <> rho:53 var
+R5654:5654 VST.veric.Clight_assert_lemmas <> e:54 var
+R5647:5652 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R5512:5528 VST.veric.seplog <> typecheck_environ def
+R5536:5538 VST.veric.Clight_assert_lemmas <> rho:53 var
+R5530:5534 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R5733:5739 VST.veric.extend_tc <> tc_expr def
+R5742:5750 VST.veric.extend_tc <> tc_lvalue def
+R5776:5779 VST.msl.predicates_hered <> prop def
+R5877:5887 compcert.cfrontend.Ctypes <> access_mode def
+R5877:5887 compcert.cfrontend.Ctypes <> access_mode def
+R5917:5928 VST.veric.expr <> get_var_type def
+R5930:5934 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R5917:5928 VST.veric.expr <> get_var_type def
+R5930:5934 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R6036:6038 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6015:6026 VST.veric.expr <> get_var_type def
+R6028:6033 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R6039:6042 Coq.Init.Datatypes <> Some constr
+R6072:6078 VST.veric.expr <> tc_bool def
+R6036:6038 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6015:6026 VST.veric.expr <> get_var_type def
+R6028:6033 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R6039:6042 Coq.Init.Datatypes <> Some constr
+R6112:6123 VST.veric.expr <> get_var_type def
+R6157:6157 compcert.lib.Maps <> :::x_'!'_x not
+R6173:6174 compcert.lib.Maps <> :::x_'!'_x not
+R6158:6166 VST.veric.seplog <> var_types def
+R6168:6172 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R6157:6157 compcert.lib.Maps <> :::x_'!'_x not
+R6173:6174 compcert.lib.Maps <> :::x_'!'_x not
+R6158:6166 VST.veric.seplog <> var_types def
+R6168:6172 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R6197:6197 compcert.lib.Maps <> :::x_'!'_x not
+R6214:6217 compcert.lib.Maps <> :::x_'!'_x not
+R6198:6207 VST.veric.seplog <> glob_types def
+R6209:6213 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R6197:6197 compcert.lib.Maps <> :::x_'!'_x not
+R6214:6217 compcert.lib.Maps <> :::x_'!'_x not
+R6198:6207 VST.veric.seplog <> glob_types def
+R6209:6213 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R6323:6334 VST.veric.expr <> get_var_type def
+R6336:6340 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R6323:6334 VST.veric.expr <> get_var_type def
+R6336:6340 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R6442:6444 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6421:6432 VST.veric.expr <> get_var_type def
+R6434:6439 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R6445:6448 Coq.Init.Datatypes <> Some constr
+R6478:6484 VST.veric.expr <> tc_bool def
+R6442:6444 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6421:6432 VST.veric.expr <> get_var_type def
+R6434:6439 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R6445:6448 Coq.Init.Datatypes <> Some constr
+R6518:6529 VST.veric.expr <> get_var_type def
+R6563:6563 compcert.lib.Maps <> :::x_'!'_x not
+R6579:6580 compcert.lib.Maps <> :::x_'!'_x not
+R6564:6572 VST.veric.seplog <> var_types def
+R6574:6578 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R6563:6563 compcert.lib.Maps <> :::x_'!'_x not
+R6579:6580 compcert.lib.Maps <> :::x_'!'_x not
+R6564:6572 VST.veric.seplog <> var_types def
+R6574:6578 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R6603:6603 compcert.lib.Maps <> :::x_'!'_x not
+R6620:6623 compcert.lib.Maps <> :::x_'!'_x not
+R6604:6613 VST.veric.seplog <> glob_types def
+R6615:6619 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R6603:6603 compcert.lib.Maps <> :::x_'!'_x not
+R6620:6623 compcert.lib.Maps <> :::x_'!'_x not
+R6604:6613 VST.veric.seplog <> glob_types def
+R6615:6619 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R6729:6729 compcert.lib.Maps <> :::x_'!'_x not
+R6746:6747 compcert.lib.Maps <> :::x_'!'_x not
+R6730:6739 VST.veric.seplog <> temp_types def
+R6741:6745 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R6729:6729 compcert.lib.Maps <> :::x_'!'_x not
+R6746:6747 compcert.lib.Maps <> :::x_'!'_x not
+R6730:6739 VST.veric.seplog <> temp_types def
+R6741:6745 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R6868:6868 compcert.lib.Maps <> :::x_'!'_x not
+R6886:6887 compcert.lib.Maps <> :::x_'!'_x not
+R6869:6878 VST.veric.seplog <> temp_types def
+R6880:6885 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R6868:6868 compcert.lib.Maps <> :::x_'!'_x not
+R6886:6887 compcert.lib.Maps <> :::x_'!'_x not
+R6869:6878 VST.veric.seplog <> temp_types def
+R6880:6885 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R6982:6992 compcert.cfrontend.Ctypes <> access_mode def
+R6982:6992 compcert.cfrontend.Ctypes <> access_mode def
+R7044:7064 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7044:7064 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7044:7064 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7044:7064 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7044:7064 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7158:7164 VST.veric.extend_tc <> tc_expr def
+R7224:7230 VST.veric.expr <> tc_bool def
+R7397:7417 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7397:7417 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7397:7417 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7397:7417 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7397:7417 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7397:7417 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7397:7417 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7397:7417 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7397:7417 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7397:7417 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7467:7473 VST.veric.extend_tc <> tc_expr def
+R7507:7510 VST.msl.predicates_hered <> prop def
+R7530:7536 VST.veric.expr <> tc_bool def
+R7681:7701 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7681:7701 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7681:7701 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7681:7701 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7681:7701 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7681:7701 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7781:7787 VST.veric.expr <> tc_bool def
+R7834:7854 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7834:7854 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7834:7854 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7834:7854 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7834:7854 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7834:7854 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7944:7964 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7944:7964 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7944:7964 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7944:7964 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7944:7964 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7944:7964 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7944:7964 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7944:7964 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7944:7964 VST.veric.expr2 <> denote_tc_assert_andp thm
+R7944:7964 VST.veric.expr2 <> denote_tc_assert_andp thm
+R8120:8140 VST.veric.expr2 <> denote_tc_assert_andp thm
+R8120:8140 VST.veric.expr2 <> denote_tc_assert_andp thm
+R8120:8140 VST.veric.expr2 <> denote_tc_assert_andp thm
+R8120:8140 VST.veric.expr2 <> denote_tc_assert_andp thm
+R8120:8140 VST.veric.expr2 <> denote_tc_assert_andp thm
+R8120:8140 VST.veric.expr2 <> denote_tc_assert_andp thm
+R8237:8247 compcert.cfrontend.Ctypes <> access_mode def
+R8237:8247 compcert.cfrontend.Ctypes <> access_mode def
+R8306:8326 VST.veric.expr2 <> denote_tc_assert_andp thm
+R8306:8326 VST.veric.expr2 <> denote_tc_assert_andp thm
+R8306:8326 VST.veric.expr2 <> denote_tc_assert_andp thm
+R8306:8326 VST.veric.expr2 <> denote_tc_assert_andp thm
+R8306:8326 VST.veric.expr2 <> denote_tc_assert_andp thm
+R8306:8326 VST.veric.expr2 <> denote_tc_assert_andp thm
+R8418:8438 VST.veric.expr2 <> denote_tc_assert_andp thm
+R8418:8438 VST.veric.expr2 <> denote_tc_assert_andp thm
+R8418:8438 VST.veric.expr2 <> denote_tc_assert_andp thm
+R8418:8438 VST.veric.expr2 <> denote_tc_assert_andp thm
+R8418:8438 VST.veric.expr2 <> denote_tc_assert_andp thm
+R8418:8438 VST.veric.expr2 <> denote_tc_assert_andp thm
+prf 8535:8545 <> tc_expr_sub
+binder 8559:8559 <> e:55
+binder 8561:8563 <> rho:56
+R8593:8596 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8616:8620 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R8597:8603 VST.veric.extend_tc <> tc_expr def
+R8613:8615 VST.veric.Clight_assert_lemmas <> rho:56 var
+R8611:8611 VST.veric.Clight_assert_lemmas <> e:55 var
+R8605:8609 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R8621:8627 VST.veric.extend_tc <> tc_expr def
+R8638:8640 VST.veric.Clight_assert_lemmas <> rho:56 var
+R8636:8636 VST.veric.Clight_assert_lemmas <> e:55 var
+R8629:8634 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R8566:8582 VST.veric.seplog <> typecheck_environ def
+R8590:8592 VST.veric.Clight_assert_lemmas <> rho:56 var
+R8584:8588 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R8664:8681 VST.veric.Clight_assert_lemmas <> tc_expr_lvalue_sub thm
+R8664:8681 VST.veric.Clight_assert_lemmas <> tc_expr_lvalue_sub thm
+prf 8702:8714 <> tc_lvalue_sub
+binder 8728:8728 <> e:57
+binder 8730:8732 <> rho:58
+R8762:8765 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8787:8791 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R8766:8774 VST.veric.extend_tc <> tc_lvalue def
+R8784:8786 VST.veric.Clight_assert_lemmas <> rho:58 var
+R8782:8782 VST.veric.Clight_assert_lemmas <> e:57 var
+R8776:8780 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R8792:8800 VST.veric.extend_tc <> tc_lvalue def
+R8811:8813 VST.veric.Clight_assert_lemmas <> rho:58 var
+R8809:8809 VST.veric.Clight_assert_lemmas <> e:57 var
+R8802:8807 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R8735:8751 VST.veric.seplog <> typecheck_environ def
+R8759:8761 VST.veric.Clight_assert_lemmas <> rho:58 var
+R8753:8757 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R8837:8854 VST.veric.Clight_assert_lemmas <> tc_expr_lvalue_sub thm
+R8837:8854 VST.veric.Clight_assert_lemmas <> tc_expr_lvalue_sub thm
+prf 8875:8888 <> tc_temp_id_sub
+binder 8902:8903 <> id:59
+binder 8905:8905 <> t:60
+binder 8907:8907 <> e:61
+binder 8909:8911 <> rho:62
+R8944:8948 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R8917:8926 VST.veric.extend_tc <> tc_temp_id def
+R8941:8943 VST.veric.Clight_assert_lemmas <> rho:62 var
+R8939:8939 VST.veric.Clight_assert_lemmas <> e:61 var
+R8933:8937 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R8931:8931 VST.veric.Clight_assert_lemmas <> t:60 var
+R8928:8929 VST.veric.Clight_assert_lemmas <> id:59 var
+R8949:8958 VST.veric.extend_tc <> tc_temp_id def
+R8974:8976 VST.veric.Clight_assert_lemmas <> rho:62 var
+R8972:8972 VST.veric.Clight_assert_lemmas <> e:61 var
+R8965:8970 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R8963:8963 VST.veric.Clight_assert_lemmas <> t:60 var
+R8960:8961 VST.veric.Clight_assert_lemmas <> id:59 var
+R9016:9025 VST.veric.extend_tc <> tc_temp_id def
+R9043:9059 VST.veric.expr <> typecheck_temp_id def
+R9139:9139 compcert.lib.Maps <> :::x_'!'_x not
+R9156:9158 compcert.lib.Maps <> :::x_'!'_x not
+R9140:9149 VST.veric.seplog <> temp_types def
+R9151:9155 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R9139:9139 compcert.lib.Maps <> :::x_'!'_x not
+R9156:9158 compcert.lib.Maps <> :::x_'!'_x not
+R9140:9149 VST.veric.seplog <> temp_types def
+R9151:9155 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R9193:9193 compcert.lib.Maps <> :::x_'!'_x not
+R9211:9213 compcert.lib.Maps <> :::x_'!'_x not
+R9194:9203 VST.veric.seplog <> temp_types def
+R9205:9210 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R9193:9193 compcert.lib.Maps <> :::x_'!'_x not
+R9211:9213 compcert.lib.Maps <> :::x_'!'_x not
+R9194:9203 VST.veric.seplog <> temp_types def
+R9205:9210 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R9266:9286 VST.veric.expr2 <> denote_tc_assert_andp thm
+R9266:9286 VST.veric.expr2 <> denote_tc_assert_andp thm
+R9266:9286 VST.veric.expr2 <> denote_tc_assert_andp thm
+R9266:9286 VST.veric.expr2 <> denote_tc_assert_andp thm
+R9316:9328 VST.veric.Clight_assert_lemmas <> tc_bool_e_sub thm
+R9341:9345 Coq.Init.Logic <> proj1 thm
+R9316:9328 VST.veric.Clight_assert_lemmas <> tc_bool_e_sub thm
+R9341:9345 Coq.Init.Logic <> proj1 thm
+binder 9366:9366 <> x:63
+R9371:9371 VST.veric.Clight_assert_lemmas <> x:63 var
+binder 9366:9366 <> x:64
+R9371:9371 VST.veric.Clight_assert_lemmas <> x:64 var
+R9407:9415 VST.veric.expr2 <> tc_bool_e thm
+R9407:9415 VST.veric.expr2 <> tc_bool_e thm
+R9432:9455 VST.veric.expr2 <> neutral_isCastResultType thm
+R9432:9455 VST.veric.expr2 <> neutral_isCastResultType thm
+prf 9481:9499 <> tc_temp_id_load_sub
+binder 9512:9513 <> id:65
+binder 9515:9515 <> t:66
+binder 9517:9517 <> v:67
+binder 9519:9521 <> rho:68
+R9559:9566 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R9527:9541 VST.veric.extend_tc <> tc_temp_id_load def
+R9556:9558 VST.veric.Clight_assert_lemmas <> rho:68 var
+R9554:9554 VST.veric.Clight_assert_lemmas <> v:67 var
+R9548:9552 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R9546:9546 VST.veric.Clight_assert_lemmas <> t:66 var
+R9543:9544 VST.veric.Clight_assert_lemmas <> id:65 var
+R9567:9581 VST.veric.extend_tc <> tc_temp_id_load def
+R9597:9599 VST.veric.Clight_assert_lemmas <> rho:68 var
+R9595:9595 VST.veric.Clight_assert_lemmas <> v:67 var
+R9588:9593 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R9586:9586 VST.veric.Clight_assert_lemmas <> t:66 var
+R9583:9584 VST.veric.Clight_assert_lemmas <> id:65 var
+R9639:9653 VST.veric.extend_tc <> tc_temp_id_load def
+R9782:9782 compcert.lib.Maps <> :::x_'!'_x not
+R9800:9802 compcert.lib.Maps <> :::x_'!'_x not
+R9783:9792 VST.veric.seplog <> temp_types def
+R9794:9799 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R9782:9782 compcert.lib.Maps <> :::x_'!'_x not
+R9800:9802 compcert.lib.Maps <> :::x_'!'_x not
+R9783:9792 VST.veric.seplog <> temp_types def
+R9794:9799 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+prf 9864:9878 <> tc_exprlist_sub
+binder 9890:9890 <> e:69
+binder 9892:9892 <> t:70
+binder 9894:9896 <> rho:71
+R9926:9929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9955:9959 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R9930:9940 VST.veric.extend_tc <> tc_exprlist def
+R9952:9954 VST.veric.Clight_assert_lemmas <> rho:71 var
+R9950:9950 VST.veric.Clight_assert_lemmas <> t:70 var
+R9948:9948 VST.veric.Clight_assert_lemmas <> e:69 var
+R9942:9946 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R9960:9970 VST.veric.extend_tc <> tc_exprlist def
+R9983:9985 VST.veric.Clight_assert_lemmas <> rho:71 var
+R9981:9981 VST.veric.Clight_assert_lemmas <> t:70 var
+R9979:9979 VST.veric.Clight_assert_lemmas <> e:69 var
+R9972:9977 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R9899:9915 VST.veric.seplog <> typecheck_environ def
+R9923:9925 VST.veric.Clight_assert_lemmas <> rho:71 var
+R9917:9921 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R10087:10097 VST.veric.extend_tc <> tc_exprlist def
+R10118:10121 VST.msl.predicates_hered <> prop def
+R10150:10170 VST.veric.expr2 <> denote_tc_assert_andp thm
+R10150:10170 VST.veric.expr2 <> denote_tc_assert_andp thm
+R10150:10170 VST.veric.expr2 <> denote_tc_assert_andp thm
+R10150:10170 VST.veric.expr2 <> denote_tc_assert_andp thm
+R10150:10170 VST.veric.expr2 <> denote_tc_assert_andp thm
+R10150:10170 VST.veric.expr2 <> denote_tc_assert_andp thm
+R10150:10170 VST.veric.expr2 <> denote_tc_assert_andp thm
+R10150:10170 VST.veric.expr2 <> denote_tc_assert_andp thm
+R10150:10170 VST.veric.expr2 <> denote_tc_assert_andp thm
+R10150:10170 VST.veric.expr2 <> denote_tc_assert_andp thm
+R10224:10234 VST.veric.Clight_assert_lemmas <> tc_expr_sub thm
+R10224:10234 VST.veric.Clight_assert_lemmas <> tc_expr_sub thm
+def 10272:10282 <> typeof_temp
+R10292:10300 VST.veric.seplog <> tycontext ind
+binder 10285:10289 <> Delta:72
+R10308:10312 compcert.common.AST <> ident def
+binder 10304:10305 <> id:73
+R10317:10322 Coq.Init.Datatypes <> option ind
+R10324:10327 compcert.cfrontend.Ctypes <> type ind
+R10339:10339 compcert.lib.Maps <> :::x_'!'_x not
+R10356:10359 compcert.lib.Maps <> :::x_'!'_x not
+R10360:10361 VST.veric.Clight_assert_lemmas <> id:73 var
+R10340:10349 VST.veric.seplog <> temp_types def
+R10351:10355 VST.veric.Clight_assert_lemmas <> Delta:72 var
+R10371:10374 Coq.Init.Datatypes <> Some constr
+R10381:10384 Coq.Init.Datatypes <> Some constr
+R10391:10394 Coq.Init.Datatypes <> None constr
+R10399:10402 Coq.Init.Datatypes <> None constr
+prf 10417:10431 <> typeof_temp_sub
+binder 10444:10444 <> i:74
+binder 10446:10446 <> t:75
+R10481:10488 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10509:10511 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10489:10499 VST.veric.Clight_assert_lemmas <> typeof_temp def
+R10508:10508 VST.veric.Clight_assert_lemmas <> i:74 var
+R10501:10506 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R10512:10515 Coq.Init.Datatypes <> Some constr
+R10517:10517 VST.veric.Clight_assert_lemmas <> t:75 var
+R10472:10474 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10453:10463 VST.veric.Clight_assert_lemmas <> typeof_temp def
+R10471:10471 VST.veric.Clight_assert_lemmas <> i:74 var
+R10465:10469 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R10475:10478 Coq.Init.Datatypes <> Some constr
+R10480:10480 VST.veric.Clight_assert_lemmas <> t:75 var
+R10544:10550 VST.veric.Clight_assert_lemmas <> STABILITY.extends var
+R10588:10598 VST.veric.Clight_assert_lemmas <> typeof_temp def
+R10616:10616 compcert.lib.Maps <> :::x_'!'_x not
+R10633:10636 compcert.lib.Maps <> :::x_'!'_x not
+R10617:10626 VST.veric.seplog <> temp_types def
+R10628:10632 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R10616:10616 compcert.lib.Maps <> :::x_'!'_x not
+R10633:10636 compcert.lib.Maps <> :::x_'!'_x not
+R10617:10626 VST.veric.seplog <> temp_types def
+R10628:10632 VST.veric.Clight_assert_lemmas <> STABILITY.Delta var
+R10658:10658 compcert.lib.Maps <> :::x_'!'_x not
+R10676:10679 compcert.lib.Maps <> :::x_'!'_x not
+R10659:10668 VST.veric.seplog <> temp_types def
+R10670:10675 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R10658:10658 compcert.lib.Maps <> :::x_'!'_x not
+R10676:10679 compcert.lib.Maps <> :::x_'!'_x not
+R10659:10668 VST.veric.seplog <> temp_types def
+R10670:10675 VST.veric.Clight_assert_lemmas <> STABILITY.Delta' var
+R10739:10747 VST.veric.Clight_assert_lemmas STABILITY <> sec

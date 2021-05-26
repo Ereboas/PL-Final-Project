@@ -1,0 +1,3276 @@
+DIGEST 43eded535ba35dd209d489a44c69455b
+FVST.msl.predicates_hered
+R102:113 VST.msl.base <> <> lib
+R131:145 VST.msl.ageable <> <> lib
+def 370:379 <> hereditary
+binder 382:382 <> A:1
+R389:390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R392:393 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R391:391 VST.msl.predicates_hered <> A:1 var
+R388:388 VST.msl.predicates_hered <> A:1 var
+binder 386:386 <> R:2
+R404:405 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R403:403 VST.msl.predicates_hered <> A:1 var
+binder 401:401 <> p:3
+R429:429 VST.msl.predicates_hered <> A:1 var
+binder 424:424 <> a:4
+binder 426:427 <> a':5
+R438:441 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R445:448 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R449:449 VST.msl.predicates_hered <> p:3 var
+R451:452 VST.msl.predicates_hered <> a':5 var
+R442:442 VST.msl.predicates_hered <> p:3 var
+R444:444 VST.msl.predicates_hered <> a:4 var
+R432:432 VST.msl.predicates_hered <> R:2 var
+R436:437 VST.msl.predicates_hered <> a':5 var
+R434:434 VST.msl.predicates_hered <> a:4 var
+def 515:518 <> pred
+binder 521:521 <> A:6
+R533:539 VST.msl.ageable <> ageable class
+R541:541 VST.msl.predicates_hered <> A:6 var
+binder 530:531 <> AG:7
+R549:550 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R552:552 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R562:564 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R581:582 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R554:557 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R553:553 VST.msl.predicates_hered <> A:6 var
+binder 551:551 <> p:8
+R565:574 VST.msl.predicates_hered <> hereditary def
+R580:580 VST.msl.predicates_hered <> p:8 var
+R576:578 VST.msl.ageable <> age def
+def 851:858 <> app_pred
+binder 861:861 <> A:9
+R866:872 VST.msl.ageable <> ageable class
+R874:874 VST.msl.predicates_hered <> A:9 var
+binder 866:874 <> H:10
+R880:883 VST.msl.predicates_hered <> pred def
+R885:885 VST.msl.predicates_hered <> A:9 var
+binder 878:878 <> p:11
+R891:894 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R890:890 VST.msl.predicates_hered <> A:9 var
+R903:911 Coq.Init.Specif <> proj1_sig def
+R913:913 VST.msl.predicates_hered <> p:11 var
+def 927:941 <> pred_hereditary
+R945:951 VST.msl.ageable <> ageable class
+binder 945:951 <> H:13
+R957:960 VST.msl.predicates_hered <> pred def
+R962:962 VST.msl.predicates_hered <> A:12 var
+binder 955:955 <> p:14
+R968:976 Coq.Init.Specif <> proj2_sig def
+R978:978 VST.msl.predicates_hered <> p:14 var
+R981:1017 VST.msl.predicates_hered <> app_pred def
+R1034:1037 VST.msl.predicates_hered <> pred def
+prf 1085:1098 <> nec_hereditary
+binder 1101:1101 <> A:15
+R1106:1112 VST.msl.ageable <> ageable class
+R1114:1114 VST.msl.predicates_hered <> A:15 var
+binder 1106:1114 <> H:16
+R1122:1125 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1121:1121 VST.msl.predicates_hered <> A:15 var
+binder 1118:1118 <> p:17
+R1150:1155 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1168:1168 VST.msl.predicates_hered <> A:15 var
+binder 1163:1163 <> a:18
+binder 1165:1166 <> a':19
+R1180:1183 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1187:1190 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1191:1191 VST.msl.predicates_hered <> p:17 var
+R1193:1194 VST.msl.predicates_hered <> a':19 var
+R1184:1184 VST.msl.predicates_hered <> p:17 var
+R1186:1186 VST.msl.predicates_hered <> a:18 var
+R1171:1174 VST.msl.ageable <> necR def
+R1178:1179 VST.msl.predicates_hered <> a':19 var
+R1176:1176 VST.msl.predicates_hered <> a:18 var
+R1134:1143 VST.msl.predicates_hered <> hereditary def
+R1149:1149 VST.msl.predicates_hered <> p:17 var
+R1145:1147 VST.msl.ageable <> age def
+prf 1273:1291 <> pred_nec_hereditary
+binder 1294:1294 <> A:20
+R1299:1305 VST.msl.ageable <> ageable class
+R1307:1307 VST.msl.predicates_hered <> A:20 var
+binder 1299:1307 <> H:21
+R1313:1316 VST.msl.predicates_hered <> pred def
+R1318:1318 VST.msl.predicates_hered <> A:20 var
+binder 1311:1311 <> p:22
+R1337:1337 VST.msl.predicates_hered <> A:20 var
+binder 1332:1332 <> a:23
+binder 1334:1335 <> a':24
+R1349:1352 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1356:1359 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1360:1360 VST.msl.predicates_hered <> p:22 var
+R1362:1363 VST.msl.predicates_hered <> a':24 var
+R1353:1353 VST.msl.predicates_hered <> p:22 var
+R1355:1355 VST.msl.predicates_hered <> a:23 var
+R1340:1343 VST.msl.ageable <> necR def
+R1347:1348 VST.msl.predicates_hered <> a':24 var
+R1345:1345 VST.msl.predicates_hered <> a:23 var
+R1381:1394 VST.msl.predicates_hered <> nec_hereditary thm
+R1397:1411 VST.msl.predicates_hered <> pred_hereditary def
+R1381:1394 VST.msl.predicates_hered <> nec_hereditary thm
+R1397:1411 VST.msl.predicates_hered <> pred_hereditary def
+def 1439:1444 <> mkPred
+binder 1447:1447 <> A:25
+R1452:1458 VST.msl.ageable <> ageable class
+R1460:1460 VST.msl.predicates_hered <> A:25 var
+binder 1452:1460 <> H:26
+R1467:1470 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1466:1466 VST.msl.predicates_hered <> A:25 var
+binder 1464:1464 <> p:27
+R1479:1482 VST.msl.predicates_hered <> pred def
+R1484:1484 VST.msl.predicates_hered <> A:25 var
+binder 1495:1495 <> x:28
+binder 1507:1508 <> x':29
+R1520:1523 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1524:1524 VST.msl.predicates_hered <> p:27 var
+R1526:1527 VST.msl.predicates_hered <> x':29 var
+R1511:1514 VST.msl.ageable <> necR def
+R1518:1519 VST.msl.predicates_hered <> x':29 var
+R1516:1516 VST.msl.predicates_hered <> x:28 var
+R1583:1590 Coq.Relations.Relation_Operators <> rt_trans constr
+R1583:1590 Coq.Relations.Relation_Operators <> rt_trans constr
+R1615:1621 Coq.Relations.Relation_Operators <> rt_step constr
+R1615:1621 Coq.Relations.Relation_Operators <> rt_step constr
+def 1689:1695 <> derives
+binder 1698:1698 <> A:30
+R1703:1709 VST.msl.ageable <> ageable class
+R1711:1711 VST.msl.predicates_hered <> A:30 var
+binder 1703:1711 <> H:31
+R1719:1722 VST.msl.predicates_hered <> pred def
+R1724:1724 VST.msl.predicates_hered <> A:30 var
+binder 1715:1715 <> P:32
+binder 1717:1717 <> Q:33
+R1739:1739 VST.msl.predicates_hered <> A:30 var
+binder 1737:1737 <> a:34
+R1745:1748 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1749:1749 VST.msl.predicates_hered <> Q:33 var
+R1751:1751 VST.msl.predicates_hered <> a:34 var
+R1742:1742 VST.msl.predicates_hered <> P:32 var
+R1744:1744 VST.msl.predicates_hered <> a:34 var
+R1764:1770 VST.msl.predicates_hered <> derives def
+R1764:1770 VST.msl.predicates_hered <> derives def
+def 1926:1934 <> valid_rel
+binder 1937:1937 <> A:35
+R1942:1948 VST.msl.ageable <> ageable class
+R1950:1950 VST.msl.predicates_hered <> A:35 var
+binder 1942:1950 <> H:36
+R1956:1963 Coq.Relations.Relation_Definitions <> relation def
+R1965:1965 VST.msl.predicates_hered <> A:35 var
+binder 1954:1954 <> R:37
+R1994:1997 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1980:1985 Coq.Relations.Relation_Definitions <> commut def
+R1993:1993 VST.msl.predicates_hered <> R:37 var
+R1989:1991 VST.msl.ageable <> age def
+R1987:1987 VST.msl.predicates_hered <> A:35 var
+R1998:2003 Coq.Relations.Relation_Definitions <> commut def
+R2009:2011 VST.msl.ageable <> age def
+R2007:2007 VST.msl.predicates_hered <> R:37 var
+R2005:2005 VST.msl.predicates_hered <> A:35 var
+def 2064:2071 <> modality
+binder 2074:2074 <> A:38
+R2079:2085 VST.msl.ageable <> ageable class
+R2087:2087 VST.msl.predicates_hered <> A:38 var
+binder 2079:2087 <> H:39
+R2093:2094 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2096:2096 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2107:2109 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2121:2122 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2097:2104 Coq.Relations.Relation_Definitions <> relation def
+R2106:2106 VST.msl.predicates_hered <> A:38 var
+binder 2095:2095 <> R:40
+R2110:2118 VST.msl.predicates_hered <> valid_rel def
+R2120:2120 VST.msl.predicates_hered <> R:40 var
+def 2211:2218 <> app_mode
+binder 2221:2221 <> A:41
+R2226:2232 VST.msl.ageable <> ageable class
+R2234:2234 VST.msl.predicates_hered <> A:41 var
+binder 2226:2234 <> H:42
+R2240:2247 VST.msl.predicates_hered <> modality def
+binder 2238:2238 <> m:43
+R2253:2256 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2258:2261 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2257:2257 VST.msl.predicates_hered <> A:41 var
+R2252:2252 VST.msl.predicates_hered <> A:41 var
+R2270:2278 Coq.Init.Specif <> proj1_sig def
+R2280:2280 VST.msl.predicates_hered <> m:43 var
+def 2294:2303 <> mode_valid
+binder 2306:2306 <> A:44
+R2311:2317 VST.msl.ageable <> ageable class
+R2319:2319 VST.msl.predicates_hered <> A:44 var
+binder 2311:2319 <> H:45
+R2325:2332 VST.msl.predicates_hered <> modality def
+binder 2323:2323 <> m:46
+R2338:2346 Coq.Init.Specif <> proj2_sig def
+R2348:2348 VST.msl.predicates_hered <> m:46 var
+R2365:2372 VST.msl.predicates_hered <> modality def
+R2375:2415 VST.msl.predicates_hered <> app_mode def
+prf 2474:2496 <> valid_rel_commut_later1
+binder 2499:2499 <> A:47
+R2504:2510 VST.msl.ageable <> ageable class
+R2512:2512 VST.msl.predicates_hered <> A:47 var
+binder 2504:2512 <> H:48
+binder 2524:2524 <> R:49
+R2540:2545 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2546:2551 Coq.Relations.Relation_Definitions <> commut def
+R2562:2562 VST.msl.predicates_hered <> R:49 var
+R2555:2560 VST.msl.ageable <> laterR def
+R2553:2553 VST.msl.predicates_hered <> A:47 var
+R2529:2537 VST.msl.predicates_hered <> valid_rel def
+R2539:2539 VST.msl.predicates_hered <> R:49 var
+R2705:2710 Coq.Relations.Relation_Operators <> t_step constr
+R2705:2710 Coq.Relations.Relation_Operators <> t_step constr
+R2813:2819 Coq.Relations.Relation_Operators <> t_trans constr
+R2813:2819 Coq.Relations.Relation_Operators <> t_trans constr
+prf 2841:2863 <> valid_rel_commut_later2
+binder 2866:2866 <> A:50
+R2871:2877 VST.msl.ageable <> ageable class
+R2879:2879 VST.msl.predicates_hered <> A:50 var
+binder 2871:2879 <> H:51
+binder 2891:2891 <> R:52
+R2907:2912 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2913:2918 Coq.Relations.Relation_Definitions <> commut def
+R2924:2929 VST.msl.ageable <> laterR def
+R2922:2922 VST.msl.predicates_hered <> R:52 var
+R2920:2920 VST.msl.predicates_hered <> A:50 var
+R2896:2904 VST.msl.predicates_hered <> valid_rel def
+R2906:2906 VST.msl.predicates_hered <> R:52 var
+R3072:3077 Coq.Relations.Relation_Operators <> t_step constr
+R3072:3077 Coq.Relations.Relation_Operators <> t_step constr
+R3180:3186 Coq.Relations.Relation_Operators <> t_trans constr
+R3180:3186 Coq.Relations.Relation_Operators <> t_trans constr
+prf 3208:3228 <> valid_rel_commut_nec1
+binder 3231:3231 <> A:53
+R3236:3242 VST.msl.ageable <> ageable class
+R3244:3244 VST.msl.predicates_hered <> A:53 var
+binder 3236:3244 <> H:54
+binder 3256:3256 <> R:55
+R3272:3277 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3278:3283 Coq.Relations.Relation_Definitions <> commut def
+R3292:3292 VST.msl.predicates_hered <> R:55 var
+R3287:3290 VST.msl.ageable <> necR def
+R3285:3285 VST.msl.predicates_hered <> A:53 var
+R3261:3269 VST.msl.predicates_hered <> valid_rel def
+R3271:3271 VST.msl.predicates_hered <> R:55 var
+R3333:3349 VST.msl.ageable <> nec_refl_or_later thm
+R3333:3349 VST.msl.ageable <> nec_refl_or_later thm
+R3408:3430 VST.msl.predicates_hered <> valid_rel_commut_later1 thm
+R3408:3430 VST.msl.predicates_hered <> valid_rel_commut_later1 thm
+R3478:3483 VST.msl.ageable <> Rt_Rft thm
+R3478:3483 VST.msl.ageable <> Rt_Rft thm
+prf 3504:3524 <> valid_rel_commut_nec2
+binder 3527:3527 <> A:56
+R3532:3538 VST.msl.ageable <> ageable class
+R3540:3540 VST.msl.predicates_hered <> A:56 var
+binder 3532:3540 <> H:57
+binder 3552:3552 <> R:58
+R3568:3573 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3574:3579 Coq.Relations.Relation_Definitions <> commut def
+R3585:3588 VST.msl.ageable <> necR def
+R3583:3583 VST.msl.predicates_hered <> R:58 var
+R3581:3581 VST.msl.predicates_hered <> A:56 var
+R3557:3565 VST.msl.predicates_hered <> valid_rel def
+R3567:3567 VST.msl.predicates_hered <> R:58 var
+R3629:3645 VST.msl.ageable <> nec_refl_or_later thm
+R3629:3645 VST.msl.ageable <> nec_refl_or_later thm
+R3704:3726 VST.msl.predicates_hered <> valid_rel_commut_later2 thm
+R3704:3726 VST.msl.predicates_hered <> valid_rel_commut_later2 thm
+R3774:3779 VST.msl.ageable <> Rt_Rft thm
+R3774:3779 VST.msl.ageable <> Rt_Rft thm
+prf 3800:3812 <> valid_rel_age
+binder 3815:3815 <> A:59
+R3820:3826 VST.msl.ageable <> ageable class
+R3828:3828 VST.msl.predicates_hered <> A:59 var
+binder 3820:3828 <> H:60
+R3833:3841 VST.msl.predicates_hered <> valid_rel def
+R3843:3845 VST.msl.ageable <> age def
+prf 3909:3923 <> valid_rel_later
+binder 3926:3926 <> A:61
+R3931:3937 VST.msl.ageable <> ageable class
+R3939:3939 VST.msl.predicates_hered <> A:61 var
+binder 3931:3939 <> H:62
+R3944:3952 VST.msl.predicates_hered <> valid_rel def
+R3954:3959 VST.msl.ageable <> laterR def
+R4064:4069 Coq.Relations.Relation_Operators <> t_step constr
+R4064:4069 Coq.Relations.Relation_Operators <> t_step constr
+R4172:4178 Coq.Relations.Relation_Operators <> t_trans constr
+R4172:4178 Coq.Relations.Relation_Operators <> t_trans constr
+R4254:4259 Coq.Relations.Relation_Operators <> t_step constr
+R4254:4259 Coq.Relations.Relation_Operators <> t_step constr
+R4362:4368 Coq.Relations.Relation_Operators <> t_trans constr
+R4362:4368 Coq.Relations.Relation_Operators <> t_trans constr
+prf 4390:4402 <> valid_rel_nec
+binder 4405:4405 <> A:63
+R4410:4416 VST.msl.ageable <> ageable class
+R4418:4418 VST.msl.predicates_hered <> A:63 var
+binder 4410:4418 <> H:64
+R4423:4431 VST.msl.predicates_hered <> valid_rel def
+R4433:4436 VST.msl.ageable <> necR def
+R4541:4547 Coq.Relations.Relation_Operators <> rt_step constr
+R4541:4547 Coq.Relations.Relation_Operators <> rt_step constr
+R4679:4686 Coq.Relations.Relation_Operators <> rt_trans constr
+R4679:4686 Coq.Relations.Relation_Operators <> rt_trans constr
+R4762:4768 Coq.Relations.Relation_Operators <> rt_step constr
+R4762:4768 Coq.Relations.Relation_Operators <> rt_step constr
+R4900:4907 Coq.Relations.Relation_Operators <> rt_trans constr
+R4900:4907 Coq.Relations.Relation_Operators <> rt_trans constr
+def 4978:4981 <> ageM
+binder 4984:4984 <> A:65
+R4989:4995 VST.msl.ageable <> ageable class
+R4997:4997 VST.msl.predicates_hered <> A:65 var
+binder 4989:4997 <> H:66
+R5002:5009 VST.msl.predicates_hered <> modality def
+R5016:5020 Coq.Init.Specif <> exist constr
+R5028:5040 VST.msl.predicates_hered <> valid_rel_age thm
+R5024:5026 VST.msl.ageable <> age def
+def 5054:5059 <> laterM
+binder 5062:5062 <> A:67
+R5067:5073 VST.msl.ageable <> ageable class
+R5075:5075 VST.msl.predicates_hered <> A:67 var
+binder 5067:5075 <> H:68
+R5080:5087 VST.msl.predicates_hered <> modality def
+R5094:5098 Coq.Init.Specif <> exist constr
+R5109:5123 VST.msl.predicates_hered <> valid_rel_later thm
+R5102:5107 VST.msl.ageable <> laterR def
+R5268:5271 VST.msl.ageable <> necR def
+R5309:5318 VST.msl.predicates_hered <> hereditary def
+R5350:5364 VST.msl.predicates_hered <> pred_hereditary def
+def 5522:5525 <> prop
+binder 5528:5528 <> A:69
+R5533:5539 VST.msl.ageable <> ageable class
+R5541:5541 VST.msl.predicates_hered <> A:69 var
+binder 5533:5541 <> H:70
+binder 5546:5546 <> P:71
+R5557:5560 VST.msl.predicates_hered <> pred def
+R5562:5562 VST.msl.predicates_hered <> A:69 var
+R5578:5578 VST.msl.predicates_hered <> P:71 var
+def 5594:5595 <> TT
+binder 5598:5598 <> A:72
+R5603:5609 VST.msl.ageable <> ageable class
+R5611:5611 VST.msl.predicates_hered <> A:72 var
+binder 5603:5611 <> H:73
+R5615:5618 VST.msl.predicates_hered <> pred def
+R5620:5620 VST.msl.predicates_hered <> A:72 var
+R5625:5628 VST.msl.predicates_hered <> prop def
+R5630:5633 Coq.Init.Logic <> True ind
+def 5647:5648 <> FF
+binder 5652:5652 <> A:74
+R5657:5663 VST.msl.ageable <> ageable class
+R5665:5665 VST.msl.predicates_hered <> A:74 var
+binder 5657:5665 <> H:75
+R5669:5672 VST.msl.predicates_hered <> pred def
+R5674:5674 VST.msl.predicates_hered <> A:74 var
+R5679:5682 VST.msl.predicates_hered <> prop def
+R5684:5688 Coq.Init.Logic <> False ind
+def 5711:5713 <> imp
+binder 5716:5716 <> A:76
+R5721:5727 VST.msl.ageable <> ageable class
+R5729:5729 VST.msl.predicates_hered <> A:76 var
+binder 5721:5729 <> H:77
+R5737:5740 VST.msl.predicates_hered <> pred def
+R5742:5742 VST.msl.predicates_hered <> A:76 var
+binder 5733:5733 <> P:78
+binder 5735:5735 <> Q:79
+R5747:5750 VST.msl.predicates_hered <> pred def
+R5752:5752 VST.msl.predicates_hered <> A:76 var
+R5766:5766 VST.msl.predicates_hered <> A:76 var
+binder 5764:5764 <> a:80
+R5781:5781 VST.msl.predicates_hered <> A:76 var
+binder 5778:5779 <> a':81
+R5793:5796 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5801:5804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5805:5805 VST.msl.predicates_hered <> Q:79 var
+R5807:5808 VST.msl.predicates_hered <> a':81 var
+R5797:5797 VST.msl.predicates_hered <> P:78 var
+R5799:5800 VST.msl.predicates_hered <> a':81 var
+R5784:5787 VST.msl.ageable <> necR def
+R5791:5792 VST.msl.predicates_hered <> a':81 var
+R5789:5789 VST.msl.predicates_hered <> a:80 var
+R5854:5861 Coq.Relations.Relation_Operators <> rt_trans constr
+R5854:5861 Coq.Relations.Relation_Operators <> rt_trans constr
+R5886:5892 Coq.Relations.Relation_Operators <> rt_step constr
+R5886:5892 Coq.Relations.Relation_Operators <> rt_step constr
+def 5925:5927 <> orp
+binder 5930:5930 <> A:82
+R5935:5941 VST.msl.ageable <> ageable class
+R5943:5943 VST.msl.predicates_hered <> A:82 var
+binder 5935:5943 <> H:83
+R5951:5954 VST.msl.predicates_hered <> pred def
+R5956:5956 VST.msl.predicates_hered <> A:82 var
+binder 5947:5947 <> P:84
+binder 5949:5949 <> Q:85
+R5961:5964 VST.msl.predicates_hered <> pred def
+R5966:5966 VST.msl.predicates_hered <> A:82 var
+R5980:5980 VST.msl.predicates_hered <> A:82 var
+binder 5978:5978 <> a:86
+R5988:5991 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5985:5985 VST.msl.predicates_hered <> P:84 var
+R5987:5987 VST.msl.predicates_hered <> a:86 var
+R5992:5992 VST.msl.predicates_hered <> Q:85 var
+R5994:5994 VST.msl.predicates_hered <> a:86 var
+R6029:6043 VST.msl.predicates_hered <> pred_hereditary def
+R6029:6043 VST.msl.predicates_hered <> pred_hereditary def
+R6069:6083 VST.msl.predicates_hered <> pred_hereditary def
+R6069:6083 VST.msl.predicates_hered <> pred_hereditary def
+def 6118:6121 <> andp
+binder 6124:6124 <> A:87
+R6129:6135 VST.msl.ageable <> ageable class
+R6137:6137 VST.msl.predicates_hered <> A:87 var
+binder 6129:6137 <> H:88
+R6145:6148 VST.msl.predicates_hered <> pred def
+R6150:6150 VST.msl.predicates_hered <> A:87 var
+binder 6141:6141 <> P:89
+binder 6143:6143 <> Q:90
+R6155:6158 VST.msl.predicates_hered <> pred def
+R6160:6160 VST.msl.predicates_hered <> A:87 var
+R6174:6174 VST.msl.predicates_hered <> A:87 var
+binder 6172:6172 <> a:91
+R6182:6185 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6179:6179 VST.msl.predicates_hered <> P:89 var
+R6181:6181 VST.msl.predicates_hered <> a:91 var
+R6186:6186 VST.msl.predicates_hered <> Q:90 var
+R6188:6188 VST.msl.predicates_hered <> a:91 var
+def 6252:6255 <> allp
+binder 6258:6258 <> A:92
+R6263:6269 VST.msl.ageable <> ageable class
+R6271:6271 VST.msl.predicates_hered <> A:92 var
+binder 6263:6271 <> H:93
+binder 6275:6275 <> B:94
+R6289:6292 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6293:6296 VST.msl.predicates_hered <> pred def
+R6298:6298 VST.msl.predicates_hered <> A:92 var
+R6288:6288 VST.msl.predicates_hered <> B:94 var
+binder 6285:6285 <> f:95
+R6303:6306 VST.msl.predicates_hered <> pred def
+R6308:6308 VST.msl.predicates_hered <> A:92 var
+binder 6319:6319 <> a:96
+binder 6331:6331 <> b:97
+R6334:6334 VST.msl.predicates_hered <> f:95 var
+R6338:6338 VST.msl.predicates_hered <> a:96 var
+R6336:6336 VST.msl.predicates_hered <> b:97 var
+R6366:6380 VST.msl.predicates_hered <> pred_hereditary def
+R6366:6380 VST.msl.predicates_hered <> pred_hereditary def
+def 6433:6435 <> exp
+binder 6438:6438 <> A:98
+R6443:6449 VST.msl.ageable <> ageable class
+R6451:6451 VST.msl.predicates_hered <> A:98 var
+binder 6443:6451 <> H:99
+binder 6455:6455 <> B:100
+R6469:6472 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6473:6476 VST.msl.predicates_hered <> pred def
+R6478:6478 VST.msl.predicates_hered <> A:98 var
+R6468:6468 VST.msl.predicates_hered <> B:100 var
+binder 6465:6465 <> f:101
+R6483:6486 VST.msl.predicates_hered <> pred def
+R6488:6488 VST.msl.predicates_hered <> A:98 var
+binder 6499:6499 <> a:102
+R6504:6510 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6512:6513 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 6511:6511 <> b:103
+R6514:6514 VST.msl.predicates_hered <> f:101 var
+R6518:6518 VST.msl.predicates_hered <> a:102 var
+R6516:6516 VST.msl.predicates_hered <> b:103 var
+R6570:6584 VST.msl.predicates_hered <> pred_hereditary def
+R6570:6584 VST.msl.predicates_hered <> pred_hereditary def
+def 6751:6753 <> box
+binder 6756:6756 <> A:104
+R6761:6767 VST.msl.ageable <> ageable class
+R6769:6769 VST.msl.predicates_hered <> A:104 var
+binder 6761:6769 <> H:105
+R6775:6782 VST.msl.predicates_hered <> modality def
+binder 6773:6773 <> M:106
+R6788:6791 VST.msl.predicates_hered <> pred def
+R6793:6793 VST.msl.predicates_hered <> A:104 var
+binder 6786:6786 <> P:107
+R6798:6801 VST.msl.predicates_hered <> pred def
+R6803:6803 VST.msl.predicates_hered <> A:104 var
+R6816:6816 VST.msl.predicates_hered <> A:104 var
+binder 6814:6814 <> a:108
+binder 6828:6829 <> a':109
+R6838:6841 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6842:6842 VST.msl.predicates_hered <> P:107 var
+R6844:6845 VST.msl.predicates_hered <> a':109 var
+R6832:6832 VST.msl.predicates_hered <> M:106 var
+R6836:6837 VST.msl.predicates_hered <> a':109 var
+R6834:6834 VST.msl.predicates_hered <> a:108 var
+R6943:6957 VST.msl.predicates_hered <> pred_hereditary def
+R6943:6957 VST.msl.predicates_hered <> pred_hereditary def
+def 7368:7374 <> diamond
+binder 7377:7377 <> A:110
+R7382:7388 VST.msl.ageable <> ageable class
+R7390:7390 VST.msl.predicates_hered <> A:110 var
+binder 7382:7390 <> H:111
+R7396:7403 VST.msl.predicates_hered <> modality def
+binder 7394:7394 <> M:112
+R7409:7412 VST.msl.predicates_hered <> pred def
+R7414:7414 VST.msl.predicates_hered <> A:110 var
+binder 7407:7407 <> P:113
+R7419:7422 VST.msl.predicates_hered <> pred def
+R7424:7424 VST.msl.predicates_hered <> A:110 var
+R7437:7437 VST.msl.predicates_hered <> A:110 var
+binder 7435:7435 <> a:114
+R7442:7448 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7451:7452 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7449:7450 <> a':115
+R7459:7462 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7453:7453 VST.msl.predicates_hered <> M:112 var
+R7458:7458 VST.msl.predicates_hered <> a:114 var
+R7455:7456 VST.msl.predicates_hered <> a':115 var
+R7463:7463 VST.msl.predicates_hered <> P:113 var
+R7465:7466 VST.msl.predicates_hered <> a':115 var
+R7618:7632 VST.msl.predicates_hered <> pred_hereditary def
+R7618:7632 VST.msl.predicates_hered <> pred_hereditary def
+def 7665:7668 <> boxy
+binder 7671:7671 <> A:116
+R7676:7682 VST.msl.ageable <> ageable class
+R7684:7684 VST.msl.predicates_hered <> A:116 var
+binder 7676:7684 <> H:117
+R7691:7698 VST.msl.predicates_hered <> modality def
+binder 7688:7688 <> m:118
+R7705:7708 VST.msl.predicates_hered <> pred def
+R7710:7710 VST.msl.predicates_hered <> A:116 var
+binder 7702:7702 <> p:119
+R7730:7732 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7723:7725 VST.msl.predicates_hered <> box def
+R7729:7729 VST.msl.predicates_hered <> p:119 var
+R7727:7727 VST.msl.predicates_hered <> m:118 var
+R7733:7733 VST.msl.predicates_hered <> p:119 var
+R7850:7856 VST.msl.predicates_hered <> derives def
+not 7834:7834 <> ::pred_derives:x_'|--'_x
+R7980:7982 VST.msl.predicates_hered <> exp def
+binder 7989:7989 <> x:120
+R7998:8000 VST.msl.predicates_hered <> exp def
+binder 8007:8007 <> y:121
+not 7955:7955 <> ::pred:'EX'_x_'..'_x_','_x
+R8124:8127 VST.msl.predicates_hered <> allp def
+binder 8134:8134 <> x:122
+R8143:8146 VST.msl.predicates_hered <> allp def
+binder 8153:8153 <> y:123
+not 8098:8098 <> ::pred:'ALL'_x_'..'_x_','_x
+R8249:8251 VST.msl.predicates_hered <> orp def
+not 8241:8241 <> ::pred:x_'||'_x
+R8309:8312 VST.msl.predicates_hered <> andp def
+not 8301:8301 <> ::pred:x_'&&'_x
+R8381:8383 VST.msl.predicates_hered <> imp def
+not 8365:8365 <> ::pred:x_'-->'_x
+R8459:8462 VST.msl.predicates_hered <> andp def
+R8475:8477 VST.msl.predicates_hered <> imp def
+R8465:8467 VST.msl.predicates_hered <> imp def
+not 8442:8442 <> ::pred:x_'<-->'_x
+R8629:8631 VST.msl.predicates_hered <> box def
+R8633:8638 VST.msl.predicates_hered <> laterM def
+not 8616:8616 <> ::pred:'|>'_x
+R8707:8710 VST.msl.predicates_hered <> prop def
+not 8694:8694 <> ::pred:'!!'_x
+prf 8790:8801 <> modus_ponens
+binder 8804:8804 <> A:124
+R8809:8815 VST.msl.ageable <> ageable class
+R8817:8817 VST.msl.predicates_hered <> A:124 var
+binder 8809:8817 <> H:125
+R8836:8839 VST.msl.predicates_hered <> pred def
+R8841:8841 VST.msl.predicates_hered <> A:124 var
+binder 8830:8830 <> X:126
+binder 8832:8832 <> P:127
+binder 8834:8834 <> Q:128
+R8854:8859 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8875:8880 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8882:8886 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R8881:8881 VST.msl.predicates_hered <> X:126 var
+R8887:8887 VST.msl.predicates_hered <> Q:128 var
+R8861:8866 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R8874:8874 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R8860:8860 VST.msl.predicates_hered <> X:126 var
+R8868:8872 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R8867:8867 VST.msl.predicates_hered <> P:127 var
+R8873:8873 VST.msl.predicates_hered <> Q:128 var
+R8848:8852 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R8847:8847 VST.msl.predicates_hered <> X:126 var
+R8853:8853 VST.msl.predicates_hered <> P:127 var
+R8906:8912 VST.msl.predicates_hered <> derives def
+R8915:8917 VST.msl.predicates_hered <> imp def
+prf 8956:8965 <> andp_right
+binder 8968:8968 <> A:129
+R8973:8979 VST.msl.ageable <> ageable class
+R8981:8981 VST.msl.predicates_hered <> A:129 var
+binder 8973:8981 <> H:130
+R9000:9003 VST.msl.predicates_hered <> pred def
+R9005:9005 VST.msl.predicates_hered <> A:129 var
+binder 8994:8994 <> X:131
+binder 8996:8996 <> P:132
+binder 8998:8998 <> Q:133
+R9018:9023 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9031:9036 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9038:9042 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R9037:9037 VST.msl.predicates_hered <> X:131 var
+R9044:9047 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R9043:9043 VST.msl.predicates_hered <> P:132 var
+R9048:9048 VST.msl.predicates_hered <> Q:133 var
+R9025:9029 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R9024:9024 VST.msl.predicates_hered <> X:131 var
+R9030:9030 VST.msl.predicates_hered <> Q:133 var
+R9012:9016 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R9011:9011 VST.msl.predicates_hered <> X:131 var
+R9017:9017 VST.msl.predicates_hered <> P:132 var
+R9067:9073 VST.msl.predicates_hered <> derives def
+R9076:9078 VST.msl.predicates_hered <> imp def
+R9081:9084 VST.msl.predicates_hered <> andp def
+prf 9120:9128 <> pred_ext'
+binder 9131:9131 <> A:134
+R9136:9142 VST.msl.ageable <> ageable class
+R9144:9144 VST.msl.predicates_hered <> A:134 var
+binder 9136:9144 <> H:135
+R9162:9165 VST.msl.predicates_hered <> pred def
+R9167:9167 VST.msl.predicates_hered <> A:134 var
+binder 9156:9157 <> p1:136
+binder 9159:9160 <> p2:137
+R9200:9207 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9210:9212 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9208:9209 VST.msl.predicates_hered <> p1:136 var
+R9213:9214 VST.msl.predicates_hered <> p2:137 var
+R9186:9188 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9175:9182 VST.msl.predicates_hered <> app_pred def
+R9184:9185 VST.msl.predicates_hered <> p1:136 var
+R9189:9196 VST.msl.predicates_hered <> app_pred def
+R9198:9199 VST.msl.predicates_hered <> p2:137 var
+R9337:9345 VST.msl.Axioms <> proof_irr thm
+R9337:9345 VST.msl.Axioms <> proof_irr thm
+prf 9372:9379 <> pred_ext
+binder 9390:9390 <> A:138
+R9394:9400 VST.msl.ageable <> ageable class
+R9402:9402 VST.msl.predicates_hered <> A:138 var
+binder 9394:9402 <> H:139
+R9410:9413 VST.msl.predicates_hered <> pred def
+R9415:9415 VST.msl.predicates_hered <> A:138 var
+binder 9406:9406 <> P:140
+binder 9408:9408 <> Q:141
+R9432:9435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9447:9450 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9452:9454 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9451:9451 VST.msl.predicates_hered <> P:140 var
+R9455:9455 VST.msl.predicates_hered <> Q:141 var
+R9436:9442 VST.msl.predicates_hered <> derives def
+R9446:9446 VST.msl.predicates_hered <> P:140 var
+R9444:9444 VST.msl.predicates_hered <> Q:141 var
+R9421:9427 VST.msl.predicates_hered <> derives def
+R9431:9431 VST.msl.predicates_hered <> Q:141 var
+R9429:9429 VST.msl.predicates_hered <> P:140 var
+R9532:9538 VST.msl.predicates_hered <> derives def
+R9568:9576 VST.msl.Extensionality <> exist_ext thm
+binder 9593:9593 <> p:142
+R9598:9607 VST.msl.predicates_hered <> hereditary def
+R9620:9620 VST.msl.predicates_hered <> p:142 var
+R9611:9613 VST.msl.ageable <> age def
+R9580:9581 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9568:9576 VST.msl.Extensionality <> exist_ext thm
+binder 9593:9593 <> p:143
+R9598:9607 VST.msl.predicates_hered <> hereditary def
+R9620:9620 VST.msl.predicates_hered <> p:143 var
+R9611:9613 VST.msl.ageable <> age def
+R9580:9581 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9653:9660 VST.msl.Axioms <> prop_ext prfax
+R9653:9660 VST.msl.Axioms <> prop_ext prfax
+prf 9686:9693 <> andp_dup
+binder 9696:9696 <> A:144
+R9704:9710 VST.msl.ageable <> ageable class
+R9712:9712 VST.msl.predicates_hered <> A:144 var
+binder 9699:9701 <> agA:145
+R9726:9729 VST.msl.predicates_hered <> pred def
+R9731:9731 VST.msl.predicates_hered <> A:144 var
+binder 9723:9723 <> P:146
+R9740:9742 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9735:9738 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R9734:9734 VST.msl.predicates_hered <> P:146 var
+R9739:9739 VST.msl.predicates_hered <> P:146 var
+R9743:9743 VST.msl.predicates_hered <> P:146 var
+R9767:9774 VST.msl.predicates_hered <> pred_ext thm
+R9767:9774 VST.msl.predicates_hered <> pred_ext thm
+prf 9832:9841 <> andp_left1
+binder 9843:9843 <> A:147
+R9851:9857 VST.msl.ageable <> ageable class
+R9859:9859 VST.msl.predicates_hered <> A:147 var
+binder 9846:9848 <> agA:148
+R9877:9880 VST.msl.predicates_hered <> pred def
+R9882:9882 VST.msl.predicates_hered <> A:147 var
+binder 9870:9870 <> P:149
+binder 9872:9872 <> Q:150
+binder 9874:9874 <> R:151
+R9893:9896 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9903:9907 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R9898:9901 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R9897:9897 VST.msl.predicates_hered <> P:149 var
+R9902:9902 VST.msl.predicates_hered <> Q:150 var
+R9908:9908 VST.msl.predicates_hered <> R:151 var
+R9887:9891 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R9886:9886 VST.msl.predicates_hered <> P:149 var
+R9892:9892 VST.msl.predicates_hered <> R:151 var
+prf 9963:9972 <> andp_left2
+binder 9974:9974 <> A:152
+R9982:9988 VST.msl.ageable <> ageable class
+R9990:9990 VST.msl.predicates_hered <> A:152 var
+binder 9977:9979 <> agA:153
+R10008:10011 VST.msl.predicates_hered <> pred def
+R10013:10013 VST.msl.predicates_hered <> A:152 var
+binder 10001:10001 <> P:154
+binder 10003:10003 <> Q:155
+binder 10005:10005 <> R:156
+R10024:10027 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10034:10038 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R10029:10032 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R10028:10028 VST.msl.predicates_hered <> P:154 var
+R10033:10033 VST.msl.predicates_hered <> Q:155 var
+R10039:10039 VST.msl.predicates_hered <> R:156 var
+R10018:10022 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R10017:10017 VST.msl.predicates_hered <> Q:155 var
+R10023:10023 VST.msl.predicates_hered <> R:156 var
+prf 10094:10101 <> orp_left
+binder 10103:10103 <> A:157
+R10111:10117 VST.msl.ageable <> ageable class
+R10119:10119 VST.msl.predicates_hered <> A:157 var
+binder 10106:10108 <> agA:158
+R10137:10140 VST.msl.predicates_hered <> pred def
+R10142:10142 VST.msl.predicates_hered <> A:157 var
+binder 10130:10130 <> P:159
+binder 10132:10132 <> Q:160
+binder 10134:10134 <> R:161
+R10153:10156 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10164:10167 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10174:10178 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R10169:10172 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R10168:10168 VST.msl.predicates_hered <> P:159 var
+R10173:10173 VST.msl.predicates_hered <> Q:160 var
+R10179:10179 VST.msl.predicates_hered <> R:161 var
+R10158:10162 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R10157:10157 VST.msl.predicates_hered <> Q:160 var
+R10163:10163 VST.msl.predicates_hered <> R:161 var
+R10147:10151 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R10146:10146 VST.msl.predicates_hered <> P:159 var
+R10152:10152 VST.msl.predicates_hered <> R:161 var
+prf 10234:10243 <> orp_right1
+binder 10245:10245 <> A:162
+R10253:10259 VST.msl.ageable <> ageable class
+R10261:10261 VST.msl.predicates_hered <> A:162 var
+binder 10248:10250 <> agA:163
+R10279:10282 VST.msl.predicates_hered <> pred def
+R10284:10284 VST.msl.predicates_hered <> A:162 var
+binder 10272:10272 <> P:164
+binder 10274:10274 <> Q:165
+binder 10276:10276 <> R:166
+R10295:10298 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10300:10304 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R10299:10299 VST.msl.predicates_hered <> P:164 var
+R10306:10309 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R10305:10305 VST.msl.predicates_hered <> Q:165 var
+R10310:10310 VST.msl.predicates_hered <> R:166 var
+R10289:10293 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R10288:10288 VST.msl.predicates_hered <> P:164 var
+R10294:10294 VST.msl.predicates_hered <> Q:165 var
+prf 10358:10367 <> orp_right2
+binder 10369:10369 <> A:167
+R10377:10383 VST.msl.ageable <> ageable class
+R10385:10385 VST.msl.predicates_hered <> A:167 var
+binder 10372:10374 <> agA:168
+R10403:10406 VST.msl.predicates_hered <> pred def
+R10408:10408 VST.msl.predicates_hered <> A:167 var
+binder 10396:10396 <> P:169
+binder 10398:10398 <> Q:170
+binder 10400:10400 <> R:171
+R10419:10422 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10424:10428 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R10423:10423 VST.msl.predicates_hered <> P:169 var
+R10430:10433 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R10429:10429 VST.msl.predicates_hered <> Q:170 var
+R10434:10434 VST.msl.predicates_hered <> R:171 var
+R10413:10417 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R10412:10412 VST.msl.predicates_hered <> P:169 var
+R10418:10418 VST.msl.predicates_hered <> R:171 var
+prf 10483:10491 <> orp_assoc
+binder 10494:10494 <> A:172
+R10499:10505 VST.msl.ageable <> ageable class
+R10507:10507 VST.msl.predicates_hered <> A:172 var
+binder 10499:10507 <> H:173
+R10526:10529 VST.msl.predicates_hered <> pred def
+R10531:10531 VST.msl.predicates_hered <> A:172 var
+binder 10519:10519 <> P:174
+binder 10521:10521 <> Q:175
+binder 10523:10523 <> R:176
+R10547:10549 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10534:10534 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R10541:10545 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R10536:10539 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R10535:10535 VST.msl.predicates_hered <> P:174 var
+R10540:10540 VST.msl.predicates_hered <> Q:175 var
+R10546:10546 VST.msl.predicates_hered <> R:176 var
+R10551:10555 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R10562:10562 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R10550:10550 VST.msl.predicates_hered <> P:174 var
+R10557:10560 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R10556:10556 VST.msl.predicates_hered <> Q:175 var
+R10561:10561 VST.msl.predicates_hered <> R:176 var
+R10588:10595 VST.msl.predicates_hered <> pred_ext thm
+R10611:10617 VST.msl.predicates_hered <> derives def
+R10620:10623 VST.msl.predicates_hered <> andp def
+R10588:10595 VST.msl.predicates_hered <> pred_ext thm
+prf 10656:10668 <> derives_trans
+binder 10671:10671 <> A:177
+R10675:10681 VST.msl.ageable <> ageable class
+R10683:10683 VST.msl.predicates_hered <> A:177 var
+binder 10675:10683 <> H:178
+R10705:10708 VST.msl.predicates_hered <> pred def
+R10710:10710 VST.msl.predicates_hered <> A:177 var
+binder 10698:10698 <> P:179
+binder 10700:10700 <> Q:180
+binder 10702:10702 <> R:181
+R10720:10723 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10731:10734 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10736:10740 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R10735:10735 VST.msl.predicates_hered <> P:179 var
+R10741:10741 VST.msl.predicates_hered <> R:181 var
+R10725:10729 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R10724:10724 VST.msl.predicates_hered <> Q:180 var
+R10730:10730 VST.msl.predicates_hered <> R:181 var
+R10714:10718 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R10713:10713 VST.msl.predicates_hered <> P:179 var
+R10719:10719 VST.msl.predicates_hered <> Q:180 var
+prf 10775:10783 <> exp_right
+binder 10796:10796 <> B:182
+binder 10798:10798 <> A:183
+R10812:10818 VST.msl.ageable <> ageable class
+R10820:10820 VST.msl.predicates_hered <> A:183 var
+binder 10807:10809 <> agA:184
+R10825:10825 VST.msl.predicates_hered <> B:182 var
+binder 10823:10823 <> x:185
+binder 10828:10828 <> p:186
+R10835:10838 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10839:10842 VST.msl.predicates_hered <> pred def
+R10844:10844 VST.msl.predicates_hered <> A:183 var
+R10834:10834 VST.msl.predicates_hered <> B:182 var
+binder 10831:10831 <> q:187
+R10861:10868 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10870:10874 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R10869:10869 VST.msl.predicates_hered <> p:186 var
+R10875:10877 VST.msl.predicates_hered <> exp def
+R10879:10879 VST.msl.predicates_hered <> q:187 var
+R10853:10857 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R10852:10852 VST.msl.predicates_hered <> p:186 var
+R10858:10858 VST.msl.predicates_hered <> q:187 var
+R10860:10860 VST.msl.predicates_hered <> x:185 var
+R10904:10916 VST.msl.predicates_hered <> derives_trans thm
+R10904:10916 VST.msl.predicates_hered <> derives_trans thm
+prf 10972:10979 <> exp_left
+binder 10992:10992 <> B:188
+binder 10994:10994 <> A:189
+R11008:11014 VST.msl.ageable <> ageable class
+R11016:11016 VST.msl.predicates_hered <> A:189 var
+binder 11003:11005 <> agA:190
+R11023:11026 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11027:11030 VST.msl.predicates_hered <> pred def
+R11032:11032 VST.msl.predicates_hered <> A:189 var
+R11022:11022 VST.msl.predicates_hered <> B:188 var
+binder 11019:11019 <> p:191
+binder 11035:11035 <> q:192
+R11040:11040 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11060:11067 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11073:11077 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R11068:11070 VST.msl.predicates_hered <> exp def
+R11072:11072 VST.msl.predicates_hered <> p:191 var
+R11078:11078 VST.msl.predicates_hered <> q:192 var
+binder 11048:11048 <> x:193
+R11054:11058 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R11051:11051 VST.msl.predicates_hered <> p:191 var
+R11053:11053 VST.msl.predicates_hered <> x:193 var
+R11059:11059 VST.msl.predicates_hered <> q:192 var
+prf 11142:11145 <> and1
+binder 11148:11148 <> A:194
+R11153:11159 VST.msl.ageable <> ageable class
+R11161:11161 VST.msl.predicates_hered <> A:194 var
+binder 11153:11161 <> H:195
+R11180:11183 VST.msl.predicates_hered <> pred def
+R11185:11185 VST.msl.predicates_hered <> A:194 var
+binder 11174:11174 <> X:196
+binder 11176:11176 <> P:197
+binder 11178:11178 <> Q:198
+R11192:11196 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R11191:11191 VST.msl.predicates_hered <> X:196 var
+R11203:11207 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11198:11201 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R11197:11197 VST.msl.predicates_hered <> P:197 var
+R11202:11202 VST.msl.predicates_hered <> Q:198 var
+R11208:11208 VST.msl.predicates_hered <> P:197 var
+R11227:11233 VST.msl.predicates_hered <> derives def
+R11236:11238 VST.msl.predicates_hered <> imp def
+R11241:11244 VST.msl.predicates_hered <> andp def
+prf 11283:11286 <> and2
+binder 11289:11289 <> A:199
+R11294:11300 VST.msl.ageable <> ageable class
+R11302:11302 VST.msl.predicates_hered <> A:199 var
+binder 11294:11302 <> H:200
+R11321:11324 VST.msl.predicates_hered <> pred def
+R11326:11326 VST.msl.predicates_hered <> A:199 var
+binder 11315:11315 <> X:201
+binder 11317:11317 <> P:202
+binder 11319:11319 <> Q:203
+R11333:11337 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R11332:11332 VST.msl.predicates_hered <> X:201 var
+R11344:11348 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11339:11342 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R11338:11338 VST.msl.predicates_hered <> P:202 var
+R11343:11343 VST.msl.predicates_hered <> Q:203 var
+R11349:11349 VST.msl.predicates_hered <> Q:203 var
+R11368:11374 VST.msl.predicates_hered <> derives def
+R11377:11379 VST.msl.predicates_hered <> imp def
+R11382:11385 VST.msl.predicates_hered <> andp def
+prf 11424:11427 <> and3
+binder 11430:11430 <> A:204
+R11435:11441 VST.msl.ageable <> ageable class
+R11443:11443 VST.msl.predicates_hered <> A:204 var
+binder 11435:11443 <> H:205
+R11464:11467 VST.msl.predicates_hered <> pred def
+R11469:11469 VST.msl.predicates_hered <> A:204 var
+binder 11456:11456 <> X:206
+binder 11458:11458 <> P:207
+binder 11460:11460 <> Q:208
+binder 11462:11462 <> R:209
+R11476:11480 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R11475:11475 VST.msl.predicates_hered <> X:206 var
+R11481:11481 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11489:11494 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11483:11487 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11482:11482 VST.msl.predicates_hered <> P:207 var
+R11488:11488 VST.msl.predicates_hered <> Q:208 var
+R11495:11495 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11503:11509 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11522:11522 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11497:11501 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11496:11496 VST.msl.predicates_hered <> P:207 var
+R11502:11502 VST.msl.predicates_hered <> R:209 var
+R11511:11515 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11510:11510 VST.msl.predicates_hered <> P:207 var
+R11517:11520 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R11516:11516 VST.msl.predicates_hered <> Q:208 var
+R11521:11521 VST.msl.predicates_hered <> R:209 var
+R11541:11547 VST.msl.predicates_hered <> derives def
+R11550:11552 VST.msl.predicates_hered <> imp def
+R11555:11558 VST.msl.predicates_hered <> andp def
+prf 11597:11599 <> or1
+binder 11602:11602 <> A:210
+R11607:11613 VST.msl.ageable <> ageable class
+R11615:11615 VST.msl.predicates_hered <> A:210 var
+binder 11607:11615 <> H:211
+R11634:11637 VST.msl.predicates_hered <> pred def
+R11639:11639 VST.msl.predicates_hered <> A:210 var
+binder 11628:11628 <> X:212
+binder 11630:11630 <> P:213
+binder 11632:11632 <> Q:214
+R11646:11650 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R11645:11645 VST.msl.predicates_hered <> X:212 var
+R11652:11656 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11651:11651 VST.msl.predicates_hered <> P:213 var
+R11658:11661 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R11657:11657 VST.msl.predicates_hered <> P:213 var
+R11662:11662 VST.msl.predicates_hered <> Q:214 var
+R11681:11687 VST.msl.predicates_hered <> derives def
+R11690:11692 VST.msl.predicates_hered <> imp def
+R11695:11697 VST.msl.predicates_hered <> orp def
+prf 11730:11732 <> or2
+binder 11735:11735 <> A:215
+R11740:11746 VST.msl.ageable <> ageable class
+R11748:11748 VST.msl.predicates_hered <> A:215 var
+binder 11740:11748 <> H:216
+R11767:11770 VST.msl.predicates_hered <> pred def
+R11772:11772 VST.msl.predicates_hered <> A:215 var
+binder 11761:11761 <> X:217
+binder 11763:11763 <> P:218
+binder 11765:11765 <> Q:219
+R11779:11783 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R11778:11778 VST.msl.predicates_hered <> X:217 var
+R11785:11789 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11784:11784 VST.msl.predicates_hered <> Q:219 var
+R11791:11794 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R11790:11790 VST.msl.predicates_hered <> P:218 var
+R11795:11795 VST.msl.predicates_hered <> Q:219 var
+R11814:11820 VST.msl.predicates_hered <> derives def
+R11823:11825 VST.msl.predicates_hered <> imp def
+R11828:11830 VST.msl.predicates_hered <> orp def
+prf 11863:11865 <> or3
+binder 11868:11868 <> A:220
+R11873:11879 VST.msl.ageable <> ageable class
+R11881:11881 VST.msl.predicates_hered <> A:220 var
+binder 11873:11881 <> H:221
+R11902:11905 VST.msl.predicates_hered <> pred def
+R11907:11907 VST.msl.predicates_hered <> A:220 var
+binder 11894:11894 <> X:222
+binder 11896:11896 <> P:223
+binder 11898:11898 <> Q:224
+binder 11900:11900 <> R:225
+R11914:11918 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R11913:11913 VST.msl.predicates_hered <> X:222 var
+R11919:11919 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11927:11932 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11921:11925 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11920:11920 VST.msl.predicates_hered <> P:223 var
+R11926:11926 VST.msl.predicates_hered <> R:225 var
+R11933:11933 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11941:11947 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11960:11960 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11935:11939 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11934:11934 VST.msl.predicates_hered <> Q:224 var
+R11940:11940 VST.msl.predicates_hered <> R:225 var
+R11954:11958 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R11949:11952 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R11948:11948 VST.msl.predicates_hered <> P:223 var
+R11953:11953 VST.msl.predicates_hered <> Q:224 var
+R11959:11959 VST.msl.predicates_hered <> R:225 var
+R11979:11985 VST.msl.predicates_hered <> derives def
+R11988:11990 VST.msl.predicates_hered <> imp def
+R11993:11995 VST.msl.predicates_hered <> orp def
+prf 12034:12039 <> TTrule
+binder 12042:12042 <> A:226
+R12047:12053 VST.msl.ageable <> ageable class
+R12055:12055 VST.msl.predicates_hered <> A:226 var
+binder 12047:12055 <> H:227
+binder 12067:12067 <> X:228
+binder 12069:12069 <> P:229
+R12075:12079 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R12074:12074 VST.msl.predicates_hered <> X:228 var
+R12081:12085 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R12080:12080 VST.msl.predicates_hered <> P:229 var
+R12086:12087 VST.msl.predicates_hered <> TT def
+R12106:12112 VST.msl.predicates_hered <> derives def
+R12115:12117 VST.msl.predicates_hered <> imp def
+R12120:12121 VST.msl.predicates_hered <> TT def
+prf 12154:12159 <> FFrule
+binder 12162:12162 <> A:230
+R12167:12173 VST.msl.ageable <> ageable class
+R12175:12175 VST.msl.predicates_hered <> A:230 var
+binder 12167:12175 <> H:231
+binder 12187:12187 <> X:232
+binder 12189:12189 <> P:233
+R12195:12199 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R12194:12194 VST.msl.predicates_hered <> X:232 var
+R12202:12206 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R12200:12201 VST.msl.predicates_hered <> FF def
+R12207:12207 VST.msl.predicates_hered <> P:233 var
+R12226:12232 VST.msl.predicates_hered <> derives def
+R12235:12237 VST.msl.predicates_hered <> imp def
+R12240:12241 VST.msl.predicates_hered <> FF def
+prf 12274:12285 <> distribution
+binder 12288:12288 <> A:234
+R12293:12299 VST.msl.ageable <> ageable class
+R12301:12301 VST.msl.predicates_hered <> A:234 var
+binder 12293:12301 <> H:235
+R12322:12325 VST.msl.predicates_hered <> pred def
+R12327:12327 VST.msl.predicates_hered <> A:234 var
+binder 12314:12314 <> X:236
+binder 12316:12316 <> P:237
+binder 12318:12318 <> Q:238
+binder 12320:12320 <> R:239
+R12334:12338 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R12333:12333 VST.msl.predicates_hered <> X:236 var
+R12352:12356 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R12340:12344 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R12351:12351 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R12339:12339 VST.msl.predicates_hered <> P:237 var
+R12346:12349 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R12345:12345 VST.msl.predicates_hered <> Q:238 var
+R12350:12350 VST.msl.predicates_hered <> R:239 var
+R12357:12357 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R12364:12369 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R12376:12376 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R12359:12362 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R12358:12358 VST.msl.predicates_hered <> P:237 var
+R12363:12363 VST.msl.predicates_hered <> Q:238 var
+R12371:12374 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R12370:12370 VST.msl.predicates_hered <> P:237 var
+R12375:12375 VST.msl.predicates_hered <> R:239 var
+R12395:12401 VST.msl.predicates_hered <> derives def
+R12404:12406 VST.msl.predicates_hered <> imp def
+R12409:12411 VST.msl.predicates_hered <> orp def
+R12414:12417 VST.msl.predicates_hered <> andp def
+prf 12518:12533 <> imp_andp_adjoint
+binder 12536:12536 <> A:240
+R12541:12547 VST.msl.ageable <> ageable class
+R12549:12549 VST.msl.predicates_hered <> A:240 var
+binder 12541:12549 <> H:241
+R12568:12571 VST.msl.predicates_hered <> pred def
+R12573:12573 VST.msl.predicates_hered <> A:240 var
+binder 12562:12562 <> P:242
+binder 12564:12564 <> Q:243
+binder 12566:12566 <> R:244
+R12593:12597 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12579:12579 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R12586:12591 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R12581:12584 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R12580:12580 VST.msl.predicates_hered <> P:242 var
+R12585:12585 VST.msl.predicates_hered <> Q:243 var
+R12592:12592 VST.msl.predicates_hered <> R:244 var
+R12599:12604 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R12612:12612 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R12598:12598 VST.msl.predicates_hered <> P:242 var
+R12606:12610 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R12605:12605 VST.msl.predicates_hered <> Q:243 var
+R12611:12611 VST.msl.predicates_hered <> R:244 var
+R12704:12722 VST.msl.predicates_hered <> pred_nec_hereditary thm
+R12704:12722 VST.msl.predicates_hered <> pred_nec_hereditary thm
+R12775:12777 VST.msl.predicates_hered <> imp def
+prf 12886:12891 <> box_e0
+binder 12894:12894 <> A:245
+R12899:12905 VST.msl.ageable <> ageable class
+R12907:12907 VST.msl.predicates_hered <> A:245 var
+binder 12899:12907 <> H:246
+R12922:12929 VST.msl.predicates_hered <> modality def
+binder 12919:12919 <> M:247
+binder 12932:12932 <> Q:248
+R12960:12963 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12971:12976 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R12964:12966 VST.msl.predicates_hered <> box def
+R12970:12970 VST.msl.predicates_hered <> Q:248 var
+R12968:12968 VST.msl.predicates_hered <> M:247 var
+R12977:12977 VST.msl.predicates_hered <> Q:248 var
+R12947:12955 Coq.Relations.Relation_Definitions <> reflexive def
+R12959:12959 VST.msl.predicates_hered <> M:247 var
+R13052:13057 VST.msl.predicates_hered <> box_e0 thm
+R13052:13057 VST.msl.predicates_hered <> box_e0 thm
+prf 13083:13088 <> boxy_i
+binder 13091:13091 <> A:249
+R13096:13102 VST.msl.ageable <> ageable class
+R13104:13104 VST.msl.predicates_hered <> A:249 var
+binder 13096:13104 <> H:250
+R13121:13124 VST.msl.predicates_hered <> pred def
+R13126:13126 VST.msl.predicates_hered <> A:249 var
+binder 13118:13118 <> Q:251
+R13133:13140 VST.msl.predicates_hered <> modality def
+binder 13130:13130 <> M:252
+R13161:13168 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13169:13169 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13204:13212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13213:13216 VST.msl.predicates_hered <> boxy def
+R13220:13220 VST.msl.predicates_hered <> Q:251 var
+R13218:13218 VST.msl.predicates_hered <> M:252 var
+binder 13177:13177 <> w:253
+binder 13179:13180 <> w':254
+R13189:13192 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13196:13199 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13200:13200 VST.msl.predicates_hered <> Q:251 var
+R13202:13203 VST.msl.predicates_hered <> w':254 var
+R13193:13193 VST.msl.predicates_hered <> Q:251 var
+R13195:13195 VST.msl.predicates_hered <> w:253 var
+R13183:13183 VST.msl.predicates_hered <> M:252 var
+R13187:13188 VST.msl.predicates_hered <> w':254 var
+R13185:13185 VST.msl.predicates_hered <> w:253 var
+R13148:13156 Coq.Relations.Relation_Definitions <> reflexive def
+R13160:13160 VST.msl.predicates_hered <> M:252 var
+R13245:13248 VST.msl.predicates_hered <> boxy def
+R13257:13264 VST.msl.predicates_hered <> pred_ext thm
+R13257:13264 VST.msl.predicates_hered <> pred_ext thm
+R13287:13292 VST.msl.predicates_hered <> box_e0 thm
+R13287:13292 VST.msl.predicates_hered <> box_e0 thm
+prf 13534:13544 <> box_diamond
+binder 13547:13547 <> A:255
+R13552:13558 VST.msl.ageable <> ageable class
+R13560:13560 VST.msl.predicates_hered <> A:255 var
+binder 13552:13560 <> H:256
+binder 13572:13572 <> M:257
+R13579:13582 VST.msl.predicates_hered <> pred def
+R13584:13584 VST.msl.predicates_hered <> A:255 var
+binder 13575:13575 <> P:258
+binder 13577:13577 <> Q:259
+R13609:13613 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13590:13590 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R13602:13607 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R13591:13597 VST.msl.predicates_hered <> diamond def
+R13601:13601 VST.msl.predicates_hered <> P:258 var
+R13599:13599 VST.msl.predicates_hered <> M:257 var
+R13608:13608 VST.msl.predicates_hered <> Q:259 var
+R13615:13620 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R13628:13628 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R13614:13614 VST.msl.predicates_hered <> P:258 var
+R13621:13623 VST.msl.predicates_hered <> box def
+R13627:13627 VST.msl.predicates_hered <> Q:259 var
+R13625:13625 VST.msl.predicates_hered <> M:257 var
+R13647:13653 VST.msl.predicates_hered <> derives def
+prf 13813:13819 <> ruleNec
+binder 13822:13822 <> A:260
+R13827:13833 VST.msl.ageable <> ageable class
+R13835:13835 VST.msl.predicates_hered <> A:260 var
+binder 13827:13835 <> H:261
+binder 13847:13847 <> M:262
+R13852:13855 VST.msl.predicates_hered <> pred def
+R13857:13857 VST.msl.predicates_hered <> A:260 var
+binder 13850:13850 <> P:263
+R13875:13880 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13881:13887 VST.msl.predicates_hered <> derives def
+R13893:13895 VST.msl.predicates_hered <> box def
+R13899:13899 VST.msl.predicates_hered <> P:263 var
+R13897:13897 VST.msl.predicates_hered <> M:262 var
+R13889:13890 VST.msl.predicates_hered <> TT def
+R13863:13869 VST.msl.predicates_hered <> derives def
+R13874:13874 VST.msl.predicates_hered <> P:263 var
+R13871:13872 VST.msl.predicates_hered <> TT def
+R13933:13943 VST.msl.predicates_hered <> box_diamond thm
+R13933:13943 VST.msl.predicates_hered <> box_diamond thm
+R13933:13943 VST.msl.predicates_hered <> box_diamond thm
+prf 13996:14001 <> axiomK
+binder 14004:14004 <> A:264
+R14009:14015 VST.msl.ageable <> ageable class
+R14017:14017 VST.msl.predicates_hered <> A:264 var
+binder 14009:14017 <> H:265
+binder 14028:14028 <> M:266
+R14035:14038 VST.msl.predicates_hered <> pred def
+R14040:14040 VST.msl.predicates_hered <> A:264 var
+binder 14031:14031 <> P:267
+binder 14033:14033 <> Q:268
+R14046:14046 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R14062:14068 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R14088:14088 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R14047:14049 VST.msl.predicates_hered <> box def
+R14055:14059 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R14054:14054 VST.msl.predicates_hered <> P:267 var
+R14060:14060 VST.msl.predicates_hered <> Q:268 var
+R14051:14051 VST.msl.predicates_hered <> M:266 var
+R14076:14080 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R14069:14071 VST.msl.predicates_hered <> box def
+R14075:14075 VST.msl.predicates_hered <> P:267 var
+R14073:14073 VST.msl.predicates_hered <> M:266 var
+R14081:14083 VST.msl.predicates_hered <> box def
+R14087:14087 VST.msl.predicates_hered <> Q:268 var
+R14085:14085 VST.msl.predicates_hered <> M:266 var
+R14176:14196 VST.msl.predicates_hered <> valid_rel_commut_nec2 thm
+R14176:14196 VST.msl.predicates_hered <> valid_rel_commut_nec2 thm
+prf 14306:14317 <> box_positive
+binder 14320:14320 <> A:269
+R14325:14331 VST.msl.ageable <> ageable class
+R14333:14333 VST.msl.predicates_hered <> A:269 var
+binder 14325:14333 <> H:270
+binder 14345:14345 <> M:271
+R14352:14355 VST.msl.predicates_hered <> pred def
+R14357:14357 VST.msl.predicates_hered <> A:269 var
+binder 14348:14348 <> P:272
+binder 14350:14350 <> Q:273
+R14370:14375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14383:14387 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R14376:14378 VST.msl.predicates_hered <> box def
+R14382:14382 VST.msl.predicates_hered <> P:272 var
+R14380:14380 VST.msl.predicates_hered <> M:271 var
+R14388:14390 VST.msl.predicates_hered <> box def
+R14394:14394 VST.msl.predicates_hered <> Q:273 var
+R14392:14392 VST.msl.predicates_hered <> M:271 var
+R14364:14368 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R14363:14363 VST.msl.predicates_hered <> P:272 var
+R14369:14369 VST.msl.predicates_hered <> Q:273 var
+R14413:14419 VST.msl.predicates_hered <> derives def
+R14422:14424 VST.msl.predicates_hered <> box def
+prf 14457:14472 <> diamond_positive
+binder 14475:14475 <> A:274
+R14480:14486 VST.msl.ageable <> ageable class
+R14488:14488 VST.msl.predicates_hered <> A:274 var
+binder 14480:14488 <> H:275
+binder 14500:14500 <> M:276
+R14507:14510 VST.msl.predicates_hered <> pred def
+R14512:14512 VST.msl.predicates_hered <> A:274 var
+binder 14503:14503 <> P:277
+binder 14505:14505 <> Q:278
+R14525:14530 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14542:14546 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R14531:14537 VST.msl.predicates_hered <> diamond def
+R14541:14541 VST.msl.predicates_hered <> P:277 var
+R14539:14539 VST.msl.predicates_hered <> M:276 var
+R14547:14553 VST.msl.predicates_hered <> diamond def
+R14557:14557 VST.msl.predicates_hered <> Q:278 var
+R14555:14555 VST.msl.predicates_hered <> M:276 var
+R14519:14523 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R14518:14518 VST.msl.predicates_hered <> P:277 var
+R14524:14524 VST.msl.predicates_hered <> Q:278 var
+R14576:14582 VST.msl.predicates_hered <> derives def
+R14585:14591 VST.msl.predicates_hered <> diamond def
+prf 14625:14638 <> box_refl_trans
+binder 14641:14641 <> A:279
+R14646:14652 VST.msl.ageable <> ageable class
+R14654:14654 VST.msl.predicates_hered <> A:279 var
+binder 14646:14654 <> H:280
+R14668:14675 VST.msl.predicates_hered <> modality def
+binder 14666:14666 <> m:281
+binder 14678:14678 <> p:282
+R14696:14701 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14716:14721 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14737:14739 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14722:14724 VST.msl.predicates_hered <> box def
+R14729:14731 VST.msl.predicates_hered <> box def
+R14735:14735 VST.msl.predicates_hered <> p:282 var
+R14733:14733 VST.msl.predicates_hered <> m:281 var
+R14726:14726 VST.msl.predicates_hered <> m:281 var
+R14740:14742 VST.msl.predicates_hered <> box def
+R14746:14746 VST.msl.predicates_hered <> p:282 var
+R14744:14744 VST.msl.predicates_hered <> m:281 var
+R14702:14711 Coq.Relations.Relation_Definitions <> transitive def
+R14715:14715 VST.msl.predicates_hered <> m:281 var
+R14683:14691 Coq.Relations.Relation_Definitions <> reflexive def
+R14695:14695 VST.msl.predicates_hered <> m:281 var
+R14774:14781 VST.msl.predicates_hered <> pred_ext thm
+R14774:14781 VST.msl.predicates_hered <> pred_ext thm
+R14810:14812 VST.msl.predicates_hered <> box def
+R14810:14812 VST.msl.predicates_hered <> box def
+prf 14979:14985 <> box_and
+binder 14988:14988 <> A:283
+R14993:14999 VST.msl.ageable <> ageable class
+R15001:15001 VST.msl.predicates_hered <> A:283 var
+binder 14993:15001 <> H:284
+binder 15012:15012 <> R:285
+R15019:15022 VST.msl.predicates_hered <> pred def
+R15024:15024 VST.msl.predicates_hered <> A:283 var
+binder 15015:15015 <> P:286
+binder 15017:15017 <> Q:287
+R15044:15046 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15030:15032 VST.msl.predicates_hered <> box def
+R15038:15041 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R15037:15037 VST.msl.predicates_hered <> P:286 var
+R15042:15042 VST.msl.predicates_hered <> Q:287 var
+R15034:15034 VST.msl.predicates_hered <> R:285 var
+R15054:15057 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R15047:15049 VST.msl.predicates_hered <> box def
+R15053:15053 VST.msl.predicates_hered <> P:286 var
+R15051:15051 VST.msl.predicates_hered <> R:285 var
+R15058:15060 VST.msl.predicates_hered <> box def
+R15064:15064 VST.msl.predicates_hered <> Q:287 var
+R15062:15062 VST.msl.predicates_hered <> R:285 var
+R15090:15097 VST.msl.predicates_hered <> pred_ext thm
+R15127:15130 VST.msl.predicates_hered <> andp def
+R15133:15135 VST.msl.predicates_hered <> box def
+R15090:15097 VST.msl.predicates_hered <> pred_ext thm
+prf 15179:15185 <> box_all
+binder 15188:15188 <> A:288
+R15193:15199 VST.msl.ageable <> ageable class
+R15201:15201 VST.msl.predicates_hered <> A:288 var
+binder 15193:15201 <> H:289
+binder 15213:15213 <> B:290
+binder 15215:15215 <> R:291
+R15221:15224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15225:15228 VST.msl.predicates_hered <> pred def
+R15230:15230 VST.msl.predicates_hered <> A:288 var
+R15220:15220 VST.msl.predicates_hered <> B:290 var
+binder 15218:15218 <> F:292
+R15250:15252 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15236:15238 VST.msl.predicates_hered <> box def
+R15243:15246 VST.msl.predicates_hered <> allp def
+R15248:15248 VST.msl.predicates_hered <> F:292 var
+R15240:15240 VST.msl.predicates_hered <> R:291 var
+R15253:15256 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R15260:15261 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R15259:15259 VST.msl.predicates_hered <> B:290 var
+binder 15257:15257 <> x:293
+R15262:15264 VST.msl.predicates_hered <> box def
+R15269:15269 VST.msl.predicates_hered <> F:292 var
+R15271:15271 VST.msl.predicates_hered <> x:293 var
+R15266:15266 VST.msl.predicates_hered <> R:291 var
+R15298:15305 VST.msl.predicates_hered <> pred_ext thm
+R15335:15338 VST.msl.predicates_hered <> allp def
+R15341:15343 VST.msl.predicates_hered <> box def
+R15298:15305 VST.msl.predicates_hered <> pred_ext thm
+prf 15387:15392 <> box_ex
+binder 15395:15395 <> A:294
+R15400:15406 VST.msl.ageable <> ageable class
+R15408:15408 VST.msl.predicates_hered <> A:294 var
+binder 15400:15408 <> H:295
+binder 15420:15420 <> B:296
+binder 15422:15422 <> R:297
+R15428:15429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15430:15433 VST.msl.predicates_hered <> pred def
+R15435:15435 VST.msl.predicates_hered <> A:294 var
+R15427:15427 VST.msl.predicates_hered <> B:296 var
+binder 15425:15425 <> F:298
+R15460:15464 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R15441:15443 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R15447:15448 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R15446:15446 VST.msl.predicates_hered <> B:296 var
+binder 15444:15444 <> x:299
+R15449:15451 VST.msl.predicates_hered <> box def
+R15456:15456 VST.msl.predicates_hered <> F:298 var
+R15458:15458 VST.msl.predicates_hered <> x:299 var
+R15453:15453 VST.msl.predicates_hered <> R:297 var
+R15465:15467 VST.msl.predicates_hered <> box def
+R15472:15474 VST.msl.predicates_hered <> exp def
+R15476:15476 VST.msl.predicates_hered <> F:298 var
+R15469:15469 VST.msl.predicates_hered <> R:297 var
+R15496:15502 VST.msl.predicates_hered <> derives def
+R15505:15507 VST.msl.predicates_hered <> exp def
+R15510:15512 VST.msl.predicates_hered <> box def
+prf 15546:15551 <> box_or
+binder 15554:15554 <> A:300
+R15559:15565 VST.msl.ageable <> ageable class
+R15567:15567 VST.msl.predicates_hered <> A:300 var
+binder 15559:15567 <> H:301
+binder 15579:15579 <> R:302
+R15586:15589 VST.msl.predicates_hered <> pred def
+R15591:15591 VST.msl.predicates_hered <> A:300 var
+binder 15582:15582 <> P:303
+binder 15584:15584 <> Q:304
+R15616:15620 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R15605:15608 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R15598:15600 VST.msl.predicates_hered <> box def
+R15604:15604 VST.msl.predicates_hered <> P:303 var
+R15602:15602 VST.msl.predicates_hered <> R:302 var
+R15609:15611 VST.msl.predicates_hered <> box def
+R15615:15615 VST.msl.predicates_hered <> Q:304 var
+R15613:15613 VST.msl.predicates_hered <> R:302 var
+R15621:15623 VST.msl.predicates_hered <> box def
+R15629:15632 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R15628:15628 VST.msl.predicates_hered <> P:303 var
+R15633:15633 VST.msl.predicates_hered <> Q:304 var
+R15625:15625 VST.msl.predicates_hered <> R:302 var
+R15653:15659 VST.msl.predicates_hered <> derives def
+R15662:15664 VST.msl.predicates_hered <> orp def
+R15667:15669 VST.msl.predicates_hered <> box def
+prf 15759:15768 <> diamond_or
+binder 15771:15771 <> A:305
+R15776:15782 VST.msl.ageable <> ageable class
+R15784:15784 VST.msl.predicates_hered <> A:305 var
+binder 15776:15784 <> H:306
+binder 15796:15796 <> R:307
+R15803:15806 VST.msl.predicates_hered <> pred def
+R15808:15808 VST.msl.predicates_hered <> A:305 var
+binder 15799:15799 <> P:308
+binder 15801:15801 <> Q:309
+R15832:15834 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15814:15820 VST.msl.predicates_hered <> diamond def
+R15826:15829 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R15825:15825 VST.msl.predicates_hered <> P:308 var
+R15830:15830 VST.msl.predicates_hered <> Q:309 var
+R15822:15822 VST.msl.predicates_hered <> R:307 var
+R15846:15849 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R15835:15841 VST.msl.predicates_hered <> diamond def
+R15845:15845 VST.msl.predicates_hered <> P:308 var
+R15843:15843 VST.msl.predicates_hered <> R:307 var
+R15850:15856 VST.msl.predicates_hered <> diamond def
+R15860:15860 VST.msl.predicates_hered <> Q:309 var
+R15858:15858 VST.msl.predicates_hered <> R:307 var
+R15886:15893 VST.msl.predicates_hered <> pred_ext thm
+R15923:15929 VST.msl.predicates_hered <> diamond def
+R15932:15934 VST.msl.predicates_hered <> orp def
+R15886:15893 VST.msl.predicates_hered <> pred_ext thm
+prf 15978:15987 <> diamond_ex
+binder 15990:15990 <> A:310
+R15995:16001 VST.msl.ageable <> ageable class
+R16003:16003 VST.msl.predicates_hered <> A:310 var
+binder 15995:16003 <> H:311
+binder 16015:16015 <> B:312
+binder 16017:16017 <> R:313
+R16023:16026 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16027:16030 VST.msl.predicates_hered <> pred def
+R16032:16032 VST.msl.predicates_hered <> A:310 var
+R16022:16022 VST.msl.predicates_hered <> B:312 var
+binder 16020:16020 <> F:314
+R16055:16057 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16038:16044 VST.msl.predicates_hered <> diamond def
+R16049:16051 VST.msl.predicates_hered <> exp def
+R16053:16053 VST.msl.predicates_hered <> F:314 var
+R16046:16046 VST.msl.predicates_hered <> R:313 var
+R16058:16060 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R16064:16065 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R16063:16063 VST.msl.predicates_hered <> B:312 var
+binder 16061:16061 <> x:315
+R16066:16072 VST.msl.predicates_hered <> diamond def
+R16077:16077 VST.msl.predicates_hered <> F:314 var
+R16079:16079 VST.msl.predicates_hered <> x:315 var
+R16074:16074 VST.msl.predicates_hered <> R:313 var
+R16106:16113 VST.msl.predicates_hered <> pred_ext thm
+R16143:16149 VST.msl.predicates_hered <> diamond def
+R16152:16154 VST.msl.predicates_hered <> exp def
+R16106:16113 VST.msl.predicates_hered <> pred_ext thm
+prf 16198:16208 <> diamond_and
+binder 16211:16211 <> A:316
+R16216:16222 VST.msl.ageable <> ageable class
+R16224:16224 VST.msl.predicates_hered <> A:316 var
+binder 16216:16224 <> H:317
+binder 16236:16236 <> R:318
+R16243:16246 VST.msl.predicates_hered <> pred def
+R16248:16248 VST.msl.predicates_hered <> A:316 var
+binder 16239:16239 <> P:319
+binder 16241:16241 <> Q:320
+R16272:16276 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R16254:16260 VST.msl.predicates_hered <> diamond def
+R16266:16269 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R16265:16265 VST.msl.predicates_hered <> P:319 var
+R16270:16270 VST.msl.predicates_hered <> Q:320 var
+R16262:16262 VST.msl.predicates_hered <> R:318 var
+R16288:16291 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R16277:16283 VST.msl.predicates_hered <> diamond def
+R16287:16287 VST.msl.predicates_hered <> P:319 var
+R16285:16285 VST.msl.predicates_hered <> R:318 var
+R16292:16298 VST.msl.predicates_hered <> diamond def
+R16302:16302 VST.msl.predicates_hered <> Q:320 var
+R16300:16300 VST.msl.predicates_hered <> R:318 var
+R16321:16327 VST.msl.predicates_hered <> derives def
+R16330:16333 VST.msl.predicates_hered <> andp def
+R16336:16342 VST.msl.predicates_hered <> diamond def
+prf 16376:16386 <> diamond_all
+binder 16389:16389 <> A:321
+R16394:16400 VST.msl.ageable <> ageable class
+R16402:16402 VST.msl.predicates_hered <> A:321 var
+binder 16394:16402 <> H:322
+binder 16414:16414 <> B:323
+binder 16416:16416 <> R:324
+R16422:16423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16424:16427 VST.msl.predicates_hered <> pred def
+R16429:16429 VST.msl.predicates_hered <> A:321 var
+R16421:16421 VST.msl.predicates_hered <> B:323 var
+binder 16419:16419 <> F:325
+R16453:16457 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R16435:16441 VST.msl.predicates_hered <> diamond def
+R16446:16449 VST.msl.predicates_hered <> allp def
+R16451:16451 VST.msl.predicates_hered <> F:325 var
+R16443:16443 VST.msl.predicates_hered <> R:324 var
+R16458:16461 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R16465:16466 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R16464:16464 VST.msl.predicates_hered <> B:323 var
+binder 16462:16462 <> x:326
+R16467:16473 VST.msl.predicates_hered <> diamond def
+R16478:16478 VST.msl.predicates_hered <> F:325 var
+R16480:16480 VST.msl.predicates_hered <> x:326 var
+R16475:16475 VST.msl.predicates_hered <> R:324 var
+R16500:16506 VST.msl.predicates_hered <> derives def
+R16509:16512 VST.msl.predicates_hered <> allp def
+R16515:16521 VST.msl.predicates_hered <> diamond def
+prf 16832:16840 <> later_age
+binder 16843:16843 <> A:327
+R16848:16854 VST.msl.ageable <> ageable class
+R16856:16856 VST.msl.predicates_hered <> A:327 var
+binder 16848:16856 <> H:328
+binder 16868:16868 <> P:329
+R16876:16878 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16873:16874 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R16875:16875 VST.msl.predicates_hered <> P:329 var
+R16879:16881 VST.msl.predicates_hered <> box def
+R16888:16888 VST.msl.predicates_hered <> P:329 var
+R16883:16886 VST.msl.predicates_hered <> ageM def
+R16914:16921 VST.msl.predicates_hered <> pred_ext thm
+R16914:16921 VST.msl.predicates_hered <> pred_ext thm
+R16979:16984 Coq.Relations.Relation_Operators <> t_step constr
+R16979:16984 Coq.Relations.Relation_Operators <> t_step constr
+R17054:17072 VST.msl.predicates_hered <> pred_nec_hereditary thm
+R17054:17072 VST.msl.predicates_hered <> pred_nec_hereditary thm
+R17090:17095 VST.msl.ageable <> Rt_Rft thm
+R17090:17095 VST.msl.ageable <> Rt_Rft thm
+prf 17145:17153 <> now_later
+binder 17156:17156 <> A:330
+R17161:17167 VST.msl.ageable <> ageable class
+R17169:17169 VST.msl.predicates_hered <> A:330 var
+binder 17161:17169 <> H:331
+binder 17181:17181 <> P:332
+R17187:17191 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R17186:17186 VST.msl.predicates_hered <> P:332 var
+R17192:17193 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R17194:17194 VST.msl.predicates_hered <> P:332 var
+R17228:17246 VST.msl.predicates_hered <> pred_nec_hereditary thm
+R17228:17246 VST.msl.predicates_hered <> pred_nec_hereditary thm
+R17270:17275 VST.msl.ageable <> Rt_Rft thm
+R17270:17275 VST.msl.ageable <> Rt_Rft thm
+prf 17296:17305 <> now_later2
+binder 17308:17308 <> A:333
+R17313:17319 VST.msl.ageable <> ageable class
+R17321:17321 VST.msl.predicates_hered <> A:333 var
+binder 17313:17321 <> H:334
+binder 17333:17333 <> G:335
+binder 17335:17335 <> P:336
+R17347:17352 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17354:17358 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R17353:17353 VST.msl.predicates_hered <> G:335 var
+R17359:17360 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R17361:17361 VST.msl.predicates_hered <> P:336 var
+R17341:17345 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R17340:17340 VST.msl.predicates_hered <> G:335 var
+R17346:17346 VST.msl.predicates_hered <> P:336 var
+R17388:17400 VST.msl.predicates_hered <> derives_trans thm
+R17388:17400 VST.msl.predicates_hered <> derives_trans thm
+R17424:17432 VST.msl.predicates_hered <> now_later thm
+R17424:17432 VST.msl.predicates_hered <> now_later thm
+prf 17485:17495 <> goedel_loeb
+binder 17498:17498 <> A:337
+R17503:17509 VST.msl.ageable <> ageable class
+R17511:17511 VST.msl.predicates_hered <> A:337 var
+binder 17503:17511 <> H:338
+R17528:17531 VST.msl.predicates_hered <> pred def
+R17533:17533 VST.msl.predicates_hered <> A:337 var
+binder 17524:17524 <> P:339
+binder 17526:17526 <> Q:340
+R17553:17558 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17560:17564 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R17559:17559 VST.msl.predicates_hered <> Q:340 var
+R17565:17565 VST.msl.predicates_hered <> P:339 var
+R17547:17551 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R17540:17543 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R17539:17539 VST.msl.predicates_hered <> Q:340 var
+R17544:17545 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R17546:17546 VST.msl.predicates_hered <> P:339 var
+R17552:17552 VST.msl.predicates_hered <> P:339 var
+R17619:17631 VST.msl.ageable <> age_induction def
+R17619:17631 VST.msl.ageable <> age_induction def
+R17701:17709 VST.msl.predicates_hered <> later_age thm
+R17701:17709 VST.msl.predicates_hered <> later_age thm
+R17701:17709 VST.msl.predicates_hered <> later_age thm
+R17755:17769 VST.msl.predicates_hered <> pred_hereditary def
+R17755:17769 VST.msl.predicates_hered <> pred_hereditary def
+prf 17797:17800 <> loeb
+binder 17803:17803 <> A:341
+R17808:17814 VST.msl.ageable <> ageable class
+R17816:17816 VST.msl.predicates_hered <> A:341 var
+binder 17808:17816 <> H:342
+R17831:17834 VST.msl.predicates_hered <> pred def
+R17836:17836 VST.msl.predicates_hered <> A:341 var
+binder 17829:17829 <> P:343
+R17854:17864 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17867:17871 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R17865:17866 VST.msl.predicates_hered <> TT def
+R17872:17872 VST.msl.predicates_hered <> P:343 var
+R17848:17852 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R17845:17846 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R17847:17847 VST.msl.predicates_hered <> P:343 var
+R17853:17853 VST.msl.predicates_hered <> P:343 var
+R17898:17908 VST.msl.predicates_hered <> goedel_loeb thm
+R17898:17908 VST.msl.predicates_hered <> goedel_loeb thm
+R17919:17928 VST.msl.predicates_hered <> andp_left2 thm
+R17919:17928 VST.msl.predicates_hered <> andp_left2 thm
+prf 17998:18014 <> later_commute_dia
+binder 18017:18017 <> A:344
+R18022:18028 VST.msl.ageable <> ageable class
+R18030:18030 VST.msl.predicates_hered <> A:344 var
+binder 18022:18030 <> H:345
+binder 18042:18042 <> M:346
+R18047:18050 VST.msl.predicates_hered <> pred def
+R18052:18052 VST.msl.predicates_hered <> A:344 var
+binder 18045:18045 <> P:347
+R18074:18078 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R18058:18064 VST.msl.predicates_hered <> diamond def
+R18069:18071 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R18072:18072 VST.msl.predicates_hered <> P:347 var
+R18066:18066 VST.msl.predicates_hered <> M:346 var
+R18079:18082 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R18094:18094 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R18083:18089 VST.msl.predicates_hered <> diamond def
+R18093:18093 VST.msl.predicates_hered <> P:347 var
+R18091:18091 VST.msl.predicates_hered <> M:346 var
+R18131:18139 VST.msl.predicates_hered <> later_age thm
+R18131:18139 VST.msl.predicates_hered <> later_age thm
+R18131:18139 VST.msl.predicates_hered <> later_age thm
+R18131:18139 VST.msl.predicates_hered <> later_age thm
+R18131:18139 VST.msl.predicates_hered <> later_age thm
+R18131:18139 VST.msl.predicates_hered <> later_age thm
+prf 18313:18325 <> later_commute
+binder 18328:18328 <> A:348
+R18333:18339 VST.msl.ageable <> ageable class
+R18341:18341 VST.msl.predicates_hered <> A:348 var
+binder 18333:18341 <> H:349
+binder 18353:18353 <> M:350
+R18358:18361 VST.msl.predicates_hered <> pred def
+R18363:18363 VST.msl.predicates_hered <> A:348 var
+binder 18356:18356 <> P:351
+R18380:18382 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18369:18371 VST.msl.predicates_hered <> box def
+R18376:18377 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R18378:18378 VST.msl.predicates_hered <> P:351 var
+R18373:18373 VST.msl.predicates_hered <> M:350 var
+R18383:18385 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R18393:18393 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R18386:18388 VST.msl.predicates_hered <> box def
+R18392:18392 VST.msl.predicates_hered <> P:351 var
+R18390:18390 VST.msl.predicates_hered <> M:350 var
+R18421:18428 VST.msl.predicates_hered <> pred_ext thm
+R18421:18428 VST.msl.predicates_hered <> pred_ext thm
+R18487:18509 VST.msl.predicates_hered <> valid_rel_commut_later2 thm
+R18487:18509 VST.msl.predicates_hered <> valid_rel_commut_later2 thm
+R18598:18620 VST.msl.predicates_hered <> valid_rel_commut_later1 thm
+R18598:18620 VST.msl.predicates_hered <> valid_rel_commut_later1 thm
+prf 18678:18686 <> later_and
+binder 18689:18689 <> A:352
+R18694:18700 VST.msl.ageable <> ageable class
+R18702:18702 VST.msl.predicates_hered <> A:352 var
+binder 18694:18702 <> H:353
+binder 18714:18714 <> P:354
+binder 18716:18716 <> Q:355
+R18731:18733 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18721:18723 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R18730:18730 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R18725:18728 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R18724:18724 VST.msl.predicates_hered <> P:354 var
+R18729:18729 VST.msl.predicates_hered <> Q:355 var
+R18737:18740 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R18734:18735 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R18736:18736 VST.msl.predicates_hered <> P:354 var
+R18741:18743 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R18744:18744 VST.msl.predicates_hered <> Q:355 var
+R18770:18776 VST.msl.predicates_hered <> box_and thm
+R18770:18776 VST.msl.predicates_hered <> box_and thm
+prf 18791:18798 <> later_or
+binder 18801:18801 <> A:356
+R18806:18812 VST.msl.ageable <> ageable class
+R18814:18814 VST.msl.predicates_hered <> A:356 var
+binder 18806:18814 <> H:357
+R18831:18834 VST.msl.predicates_hered <> pred def
+R18836:18836 VST.msl.predicates_hered <> A:356 var
+binder 18827:18827 <> P:358
+binder 18829:18829 <> Q:359
+R18852:18854 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18842:18844 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R18851:18851 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R18846:18849 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R18845:18845 VST.msl.predicates_hered <> P:358 var
+R18850:18850 VST.msl.predicates_hered <> Q:359 var
+R18858:18861 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R18855:18856 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R18857:18857 VST.msl.predicates_hered <> P:358 var
+R18862:18863 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R18864:18864 VST.msl.predicates_hered <> Q:359 var
+R18901:18909 VST.msl.predicates_hered <> later_age thm
+R18901:18909 VST.msl.predicates_hered <> later_age thm
+R18901:18909 VST.msl.predicates_hered <> later_age thm
+R18901:18909 VST.msl.predicates_hered <> later_age thm
+R18901:18909 VST.msl.predicates_hered <> later_age thm
+R18901:18909 VST.msl.predicates_hered <> later_age thm
+R18901:18909 VST.msl.predicates_hered <> later_age thm
+R18901:18909 VST.msl.predicates_hered <> later_age thm
+R18920:18927 VST.msl.predicates_hered <> pred_ext thm
+R18920:18927 VST.msl.predicates_hered <> pred_ext thm
+R18941:18946 VST.msl.predicates_hered <> box_or thm
+R18941:18946 VST.msl.predicates_hered <> box_or thm
+R18990:18993 VST.msl.ageable <> age1 meth
+R18990:18993 VST.msl.ageable <> age1 meth
+prf 19253:19260 <> later_ex
+binder 19263:19263 <> A:360
+R19268:19274 VST.msl.ageable <> ageable class
+R19276:19276 VST.msl.predicates_hered <> A:360 var
+binder 19268:19276 <> H:361
+binder 19288:19288 <> B:362
+R19294:19295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19296:19299 VST.msl.predicates_hered <> pred def
+R19301:19301 VST.msl.predicates_hered <> A:360 var
+R19293:19293 VST.msl.predicates_hered <> B:362 var
+binder 19291:19291 <> F:363
+R19308:19313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19323:19325 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19314:19316 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R19322:19322 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R19317:19319 VST.msl.predicates_hered <> exp def
+R19321:19321 VST.msl.predicates_hered <> F:363 var
+R19326:19328 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R19332:19333 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R19331:19331 VST.msl.predicates_hered <> B:362 var
+binder 19329:19329 <> x:364
+R19334:19336 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R19340:19340 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R19337:19337 VST.msl.predicates_hered <> F:363 var
+R19339:19339 VST.msl.predicates_hered <> x:364 var
+R19307:19307 VST.msl.predicates_hered <> B:362 var
+R19368:19375 VST.msl.predicates_hered <> pred_ext thm
+R19368:19375 VST.msl.predicates_hered <> pred_ext thm
+R19389:19394 VST.msl.predicates_hered <> box_ex thm
+R19389:19394 VST.msl.predicates_hered <> box_ex thm
+R19422:19430 VST.msl.predicates_hered <> later_age thm
+R19422:19430 VST.msl.predicates_hered <> later_age thm
+R19422:19430 VST.msl.predicates_hered <> later_age thm
+R19450:19453 VST.msl.ageable <> age1 meth
+R19450:19453 VST.msl.ageable <> age1 meth
+R19515:19523 VST.msl.predicates_hered <> later_age thm
+R19515:19523 VST.msl.predicates_hered <> later_age thm
+R19515:19523 VST.msl.predicates_hered <> later_age thm
+R19605:19613 VST.msl.predicates_hered <> later_age thm
+R19605:19613 VST.msl.predicates_hered <> later_age thm
+R19605:19613 VST.msl.predicates_hered <> later_age thm
+R19647:19649 VST.msl.ageable <> age def
+prf 19704:19713 <> later_ex''
+binder 19716:19716 <> A:365
+R19721:19727 VST.msl.ageable <> ageable class
+R19729:19729 VST.msl.predicates_hered <> A:365 var
+binder 19721:19729 <> H:366
+binder 19741:19741 <> B:367
+R19747:19748 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19749:19752 VST.msl.predicates_hered <> pred def
+R19754:19754 VST.msl.predicates_hered <> A:365 var
+R19746:19746 VST.msl.predicates_hered <> B:367 var
+binder 19744:19744 <> F:368
+R19769:19773 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R19760:19762 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R19768:19768 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R19763:19765 VST.msl.predicates_hered <> exp def
+R19767:19767 VST.msl.predicates_hered <> F:368 var
+R19774:19774 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R19790:19794 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R19775:19777 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R19781:19782 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R19780:19780 VST.msl.predicates_hered <> B:367 var
+binder 19778:19778 <> x:369
+R19783:19785 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R19789:19789 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R19786:19786 VST.msl.predicates_hered <> F:368 var
+R19788:19788 VST.msl.predicates_hered <> x:369 var
+R19795:19797 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R19798:19799 VST.msl.predicates_hered <> FF def
+R19828:19834 VST.msl.predicates_hered <> derives def
+R19876:19879 VST.msl.ageable <> age1 meth
+R19876:19879 VST.msl.ageable <> age1 meth
+R20063:20081 VST.msl.predicates_hered <> pred_nec_hereditary thm
+R20063:20081 VST.msl.predicates_hered <> pred_nec_hereditary thm
+R20095:20107 VST.msl.ageable <> age_later_nec thm
+R20095:20107 VST.msl.ageable <> age_later_nec thm
+prf 20219:20227 <> later_imp
+binder 20230:20230 <> A:370
+R20235:20241 VST.msl.ageable <> ageable class
+R20243:20243 VST.msl.predicates_hered <> A:370 var
+binder 20235:20243 <> H:371
+binder 20255:20255 <> P:372
+binder 20257:20257 <> Q:373
+R20273:20275 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20262:20264 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R20272:20272 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R20266:20270 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R20265:20265 VST.msl.predicates_hered <> P:372 var
+R20271:20271 VST.msl.predicates_hered <> Q:373 var
+R20279:20283 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R20276:20277 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R20278:20278 VST.msl.predicates_hered <> P:372 var
+R20284:20285 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R20286:20286 VST.msl.predicates_hered <> Q:373 var
+R20321:20329 VST.msl.predicates_hered <> later_age thm
+R20321:20329 VST.msl.predicates_hered <> later_age thm
+R20321:20329 VST.msl.predicates_hered <> later_age thm
+R20321:20329 VST.msl.predicates_hered <> later_age thm
+R20321:20329 VST.msl.predicates_hered <> later_age thm
+R20321:20329 VST.msl.predicates_hered <> later_age thm
+R20321:20329 VST.msl.predicates_hered <> later_age thm
+R20321:20329 VST.msl.predicates_hered <> later_age thm
+R20340:20347 VST.msl.predicates_hered <> pred_ext thm
+R20340:20347 VST.msl.predicates_hered <> pred_ext thm
+R20358:20363 VST.msl.predicates_hered <> axiomK thm
+R20358:20363 VST.msl.predicates_hered <> axiomK thm
+R20424:20436 VST.msl.predicates_hered <> valid_rel_nec thm
+prf 20559:20565 <> TT_boxy
+binder 20568:20568 <> A:374
+R20573:20579 VST.msl.ageable <> ageable class
+R20581:20581 VST.msl.predicates_hered <> A:374 var
+binder 20573:20581 <> H:375
+binder 20593:20593 <> M:376
+R20598:20601 VST.msl.predicates_hered <> boxy def
+R20605:20606 VST.msl.predicates_hered <> TT def
+R20603:20603 VST.msl.predicates_hered <> M:376 var
+R20639:20646 VST.msl.predicates_hered <> pred_ext thm
+R20639:20646 VST.msl.predicates_hered <> pred_ext thm
+prf 20688:20700 <> positive_boxy
+binder 20703:20703 <> A:377
+R20708:20714 VST.msl.ageable <> ageable class
+R20716:20716 VST.msl.predicates_hered <> A:377 var
+binder 20708:20716 <> H:378
+binder 20728:20728 <> P:379
+binder 20730:20730 <> Q:380
+binder 20732:20732 <> M:381
+R20745:20750 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20758:20763 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20765:20769 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R20764:20764 VST.msl.predicates_hered <> P:379 var
+R20770:20772 VST.msl.predicates_hered <> box def
+R20776:20776 VST.msl.predicates_hered <> Q:380 var
+R20774:20774 VST.msl.predicates_hered <> M:381 var
+R20752:20756 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R20751:20751 VST.msl.predicates_hered <> P:379 var
+R20757:20757 VST.msl.predicates_hered <> Q:380 var
+R20737:20740 VST.msl.predicates_hered <> boxy def
+R20744:20744 VST.msl.predicates_hered <> P:379 var
+R20742:20742 VST.msl.predicates_hered <> M:381 var
+R20821:20832 VST.msl.predicates_hered <> box_positive thm
+R20821:20832 VST.msl.predicates_hered <> box_positive thm
+prf 20855:20861 <> forallI
+binder 20864:20864 <> A:382
+R20869:20875 VST.msl.ageable <> ageable class
+R20877:20877 VST.msl.predicates_hered <> A:382 var
+binder 20869:20877 <> H:383
+binder 20889:20889 <> A:384
+binder 20891:20891 <> G:385
+binder 20893:20893 <> X:386
+R20898:20898 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20920:20926 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20928:20932 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R20927:20927 VST.msl.predicates_hered <> G:385 var
+R20933:20936 VST.msl.predicates_hered <> allp def
+R20938:20938 VST.msl.predicates_hered <> X:386 var
+R20908:20908 VST.msl.predicates_hered <> A:384 var
+binder 20906:20906 <> x:387
+R20912:20916 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R20911:20911 VST.msl.predicates_hered <> G:385 var
+R20917:20917 VST.msl.predicates_hered <> X:386 var
+R20919:20919 VST.msl.predicates_hered <> x:387 var
+prf 20995:21000 <> TT_and
+binder 21003:21003 <> A:388
+R21008:21014 VST.msl.ageable <> ageable class
+R21016:21016 VST.msl.predicates_hered <> A:388 var
+binder 21008:21016 <> H:389
+binder 21028:21028 <> P:390
+R21040:21042 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21035:21038 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R21033:21034 VST.msl.predicates_hered <> TT def
+R21039:21039 VST.msl.predicates_hered <> P:390 var
+R21043:21043 VST.msl.predicates_hered <> P:390 var
+R21069:21076 VST.msl.predicates_hered <> pred_ext thm
+R21069:21076 VST.msl.predicates_hered <> pred_ext thm
+prf 21148:21156 <> andp_comm
+binder 21159:21159 <> A:391
+R21164:21170 VST.msl.ageable <> ageable class
+R21172:21172 VST.msl.predicates_hered <> A:391 var
+binder 21164:21172 <> H:392
+binder 21184:21184 <> P:393
+binder 21186:21186 <> Q:394
+R21197:21199 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21192:21195 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R21191:21191 VST.msl.predicates_hered <> P:393 var
+R21196:21196 VST.msl.predicates_hered <> Q:394 var
+R21201:21204 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R21200:21200 VST.msl.predicates_hered <> Q:394 var
+R21205:21205 VST.msl.predicates_hered <> P:393 var
+R21231:21238 VST.msl.predicates_hered <> pred_ext thm
+R21248:21251 VST.msl.predicates_hered <> andp def
+R21231:21238 VST.msl.predicates_hered <> pred_ext thm
+prf 21303:21312 <> andp_assoc
+binder 21315:21315 <> A:395
+R21320:21326 VST.msl.ageable <> ageable class
+R21328:21328 VST.msl.predicates_hered <> A:395 var
+binder 21320:21328 <> H:396
+binder 21340:21340 <> P:397
+binder 21342:21342 <> Q:398
+binder 21344:21344 <> R:399
+R21362:21364 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21349:21349 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R21356:21360 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R21351:21354 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R21350:21350 VST.msl.predicates_hered <> P:397 var
+R21355:21355 VST.msl.predicates_hered <> Q:398 var
+R21361:21361 VST.msl.predicates_hered <> R:399 var
+R21366:21370 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R21377:21377 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R21365:21365 VST.msl.predicates_hered <> P:397 var
+R21372:21375 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R21371:21371 VST.msl.predicates_hered <> Q:398 var
+R21376:21376 VST.msl.predicates_hered <> R:399 var
+R21403:21410 VST.msl.predicates_hered <> pred_ext thm
+R21426:21432 VST.msl.predicates_hered <> derives def
+R21435:21438 VST.msl.predicates_hered <> andp def
+R21403:21410 VST.msl.predicates_hered <> pred_ext thm
+prf 21471:21476 <> ex_and
+binder 21488:21488 <> A:400
+R21493:21499 VST.msl.ageable <> ageable class
+R21501:21501 VST.msl.predicates_hered <> A:400 var
+binder 21493:21501 <> H:401
+binder 21504:21504 <> B:402
+R21510:21511 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21512:21515 VST.msl.predicates_hered <> pred def
+R21517:21517 VST.msl.predicates_hered <> A:400 var
+R21509:21509 VST.msl.predicates_hered <> B:402 var
+binder 21507:21507 <> P:403
+binder 21520:21520 <> Q:404
+R21537:21539 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21525:21525 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R21531:21535 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R21526:21528 VST.msl.predicates_hered <> exp def
+R21530:21530 VST.msl.predicates_hered <> P:403 var
+R21536:21536 VST.msl.predicates_hered <> Q:404 var
+R21540:21542 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R21546:21547 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R21545:21545 VST.msl.predicates_hered <> B:402 var
+binder 21543:21543 <> x:405
+R21551:21554 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R21548:21548 VST.msl.predicates_hered <> P:403 var
+R21550:21550 VST.msl.predicates_hered <> x:405 var
+R21555:21555 VST.msl.predicates_hered <> Q:404 var
+R21581:21588 VST.msl.predicates_hered <> pred_ext thm
+R21581:21588 VST.msl.predicates_hered <> pred_ext thm
+prf 21745:21750 <> FF_and
+binder 21762:21762 <> A:406
+R21767:21773 VST.msl.ageable <> ageable class
+R21775:21775 VST.msl.predicates_hered <> A:406 var
+binder 21767:21775 <> H:407
+R21781:21784 VST.msl.predicates_hered <> pred def
+R21786:21786 VST.msl.predicates_hered <> A:406 var
+binder 21779:21779 <> P:408
+R21799:21801 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21794:21797 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R21792:21793 VST.msl.predicates_hered <> FF def
+R21798:21798 VST.msl.predicates_hered <> P:408 var
+R21802:21803 VST.msl.predicates_hered <> FF def
+R21829:21836 VST.msl.predicates_hered <> pred_ext thm
+R21829:21836 VST.msl.predicates_hered <> pred_ext thm
+prf 21898:21903 <> boxy_e
+binder 21906:21906 <> A:409
+R21915:21921 VST.msl.ageable <> ageable class
+R21923:21923 VST.msl.predicates_hered <> A:409 var
+binder 21911:21911 <> H:410
+R21938:21945 VST.msl.predicates_hered <> modality def
+binder 21935:21935 <> M:411
+binder 21948:21948 <> P:412
+R21960:21974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 21982:21982 <> w:413
+binder 21984:21985 <> w':414
+R22003:22006 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22010:22013 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22014:22014 VST.msl.predicates_hered <> P:412 var
+R22016:22017 VST.msl.predicates_hered <> w':414 var
+R22007:22007 VST.msl.predicates_hered <> P:412 var
+R22009:22009 VST.msl.predicates_hered <> w:413 var
+R21988:21995 VST.msl.predicates_hered <> app_mode def
+R22001:22002 VST.msl.predicates_hered <> w':414 var
+R21999:21999 VST.msl.predicates_hered <> w:413 var
+R21997:21997 VST.msl.predicates_hered <> M:411 var
+R21952:21955 VST.msl.predicates_hered <> boxy def
+R21959:21959 VST.msl.predicates_hered <> P:412 var
+R21957:21957 VST.msl.predicates_hered <> M:411 var
+prf 22075:22083 <> boxy_andp
+binder 22086:22086 <> A:415
+R22095:22101 VST.msl.ageable <> ageable class
+R22103:22103 VST.msl.predicates_hered <> A:415 var
+binder 22091:22091 <> H:416
+R22123:22130 VST.msl.predicates_hered <> modality def
+binder 22120:22120 <> M:417
+R22159:22168 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 22176:22176 <> P:418
+binder 22178:22178 <> Q:419
+R22189:22192 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22201:22204 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22205:22208 VST.msl.predicates_hered <> boxy def
+R22214:22217 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R22213:22213 VST.msl.predicates_hered <> P:418 var
+R22218:22218 VST.msl.predicates_hered <> Q:419 var
+R22210:22210 VST.msl.predicates_hered <> M:417 var
+R22193:22196 VST.msl.predicates_hered <> boxy def
+R22200:22200 VST.msl.predicates_hered <> Q:419 var
+R22198:22198 VST.msl.predicates_hered <> M:417 var
+R22181:22184 VST.msl.predicates_hered <> boxy def
+R22188:22188 VST.msl.predicates_hered <> P:418 var
+R22186:22186 VST.msl.predicates_hered <> M:417 var
+R22135:22143 Coq.Relations.Relation_Definitions <> reflexive def
+R22148:22155 VST.msl.predicates_hered <> app_mode def
+R22157:22157 VST.msl.predicates_hered <> M:417 var
+R22267:22272 VST.msl.predicates_hered <> boxy_i thm
+R22267:22272 VST.msl.predicates_hered <> boxy_i thm
+R22323:22328 VST.msl.predicates_hered <> boxy_e thm
+R22323:22328 VST.msl.predicates_hered <> boxy_e thm
+R22323:22328 VST.msl.predicates_hered <> boxy_e thm
+prf 22382:22397 <> boxy_disjunction
+binder 22400:22400 <> A:420
+R22409:22415 VST.msl.ageable <> ageable class
+R22417:22417 VST.msl.predicates_hered <> A:420 var
+binder 22405:22405 <> H:421
+R22437:22444 VST.msl.predicates_hered <> modality def
+binder 22434:22434 <> M:422
+R22473:22482 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 22490:22490 <> P:423
+binder 22492:22492 <> Q:424
+R22503:22506 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22515:22518 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22519:22522 VST.msl.predicates_hered <> boxy def
+R22528:22531 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R22527:22527 VST.msl.predicates_hered <> P:423 var
+R22532:22532 VST.msl.predicates_hered <> Q:424 var
+R22524:22524 VST.msl.predicates_hered <> M:422 var
+R22507:22510 VST.msl.predicates_hered <> boxy def
+R22514:22514 VST.msl.predicates_hered <> Q:424 var
+R22512:22512 VST.msl.predicates_hered <> M:422 var
+R22495:22498 VST.msl.predicates_hered <> boxy def
+R22502:22502 VST.msl.predicates_hered <> P:423 var
+R22500:22500 VST.msl.predicates_hered <> M:422 var
+R22449:22457 Coq.Relations.Relation_Definitions <> reflexive def
+R22462:22469 VST.msl.predicates_hered <> app_mode def
+R22471:22471 VST.msl.predicates_hered <> M:422 var
+R22581:22586 VST.msl.predicates_hered <> boxy_i thm
+R22581:22586 VST.msl.predicates_hered <> boxy_i thm
+R22630:22635 VST.msl.predicates_hered <> boxy_e thm
+R22630:22635 VST.msl.predicates_hered <> boxy_e thm
+R22659:22664 VST.msl.predicates_hered <> boxy_e thm
+R22659:22664 VST.msl.predicates_hered <> boxy_e thm
+prf 22725:22732 <> boxy_exp
+binder 22735:22735 <> A:425
+R22746:22752 VST.msl.ageable <> ageable class
+R22754:22754 VST.msl.predicates_hered <> A:425 var
+binder 22740:22742 <> agA:426
+R22773:22780 VST.msl.predicates_hered <> modality def
+binder 22770:22770 <> M:427
+binder 22783:22783 <> T:428
+R22790:22793 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22794:22797 VST.msl.predicates_hered <> pred def
+R22799:22799 VST.msl.predicates_hered <> A:425 var
+R22789:22789 VST.msl.predicates_hered <> T:428 var
+binder 22786:22786 <> P:429
+R22832:22840 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22841:22841 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22864:22868 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22869:22872 VST.msl.predicates_hered <> boxy def
+R22877:22879 VST.msl.predicates_hered <> exp def
+R22881:22881 VST.msl.predicates_hered <> P:429 var
+R22874:22874 VST.msl.predicates_hered <> M:427 var
+binder 22849:22849 <> x:430
+R22852:22855 VST.msl.predicates_hered <> boxy def
+R22860:22860 VST.msl.predicates_hered <> P:429 var
+R22862:22862 VST.msl.predicates_hered <> x:430 var
+R22857:22857 VST.msl.predicates_hered <> M:427 var
+R22808:22816 Coq.Relations.Relation_Definitions <> reflexive def
+R22821:22828 VST.msl.predicates_hered <> app_mode def
+R22830:22830 VST.msl.predicates_hered <> M:427 var
+R22906:22911 VST.msl.predicates_hered <> boxy_i thm
+R22906:22911 VST.msl.predicates_hered <> boxy_i thm
+prf 23059:23067 <> boxy_prop
+binder 23070:23070 <> A:431
+R23079:23085 VST.msl.ageable <> ageable class
+R23087:23087 VST.msl.predicates_hered <> A:431 var
+binder 23075:23075 <> H:432
+R23103:23110 VST.msl.predicates_hered <> modality def
+binder 23100:23100 <> M:433
+binder 23113:23113 <> P:434
+R23140:23143 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23144:23147 VST.msl.predicates_hered <> boxy def
+R23152:23155 VST.msl.predicates_hered <> prop def
+R23157:23157 VST.msl.predicates_hered <> P:434 var
+R23149:23149 VST.msl.predicates_hered <> M:433 var
+R23116:23124 Coq.Relations.Relation_Definitions <> reflexive def
+R23129:23136 VST.msl.predicates_hered <> app_mode def
+R23138:23138 VST.msl.predicates_hered <> M:433 var
+R23182:23187 VST.msl.predicates_hered <> boxy_i thm
+R23182:23187 VST.msl.predicates_hered <> boxy_i thm
+prf 23208:23214 <> boxy_TT
+binder 23217:23217 <> A:435
+R23226:23232 VST.msl.ageable <> ageable class
+R23234:23234 VST.msl.predicates_hered <> A:435 var
+binder 23222:23222 <> H:436
+R23250:23257 VST.msl.predicates_hered <> modality def
+binder 23247:23247 <> M:437
+R23285:23288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23289:23292 VST.msl.predicates_hered <> boxy def
+R23296:23297 VST.msl.predicates_hered <> TT def
+R23294:23294 VST.msl.predicates_hered <> M:437 var
+R23261:23269 Coq.Relations.Relation_Definitions <> reflexive def
+R23274:23281 VST.msl.predicates_hered <> app_mode def
+R23283:23283 VST.msl.predicates_hered <> M:437 var
+R23321:23326 VST.msl.predicates_hered <> boxy_i thm
+R23321:23326 VST.msl.predicates_hered <> boxy_i thm
+prf 23355:23361 <> boxy_FF
+binder 23364:23364 <> A:438
+R23373:23379 VST.msl.ageable <> ageable class
+R23381:23381 VST.msl.predicates_hered <> A:438 var
+binder 23369:23369 <> H:439
+R23397:23404 VST.msl.predicates_hered <> modality def
+binder 23394:23394 <> M:440
+R23432:23435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23436:23439 VST.msl.predicates_hered <> boxy def
+R23443:23444 VST.msl.predicates_hered <> FF def
+R23441:23441 VST.msl.predicates_hered <> M:440 var
+R23408:23416 Coq.Relations.Relation_Definitions <> reflexive def
+R23421:23428 VST.msl.predicates_hered <> app_mode def
+R23430:23430 VST.msl.predicates_hered <> M:440 var
+R23468:23473 VST.msl.predicates_hered <> boxy_i thm
+R23468:23473 VST.msl.predicates_hered <> boxy_i thm
+prf 23576:23579 <> TT_i
+binder 23583:23583 <> A:441
+R23588:23594 VST.msl.ageable <> ageable class
+R23596:23596 VST.msl.predicates_hered <> A:441 var
+binder 23588:23596 <> H:442
+R23610:23610 VST.msl.predicates_hered <> A:441 var
+binder 23607:23607 <> w:443
+R23614:23621 VST.msl.predicates_hered <> app_pred def
+R23626:23626 VST.msl.predicates_hered <> w:443 var
+R23623:23624 VST.msl.predicates_hered <> TT def
+R23643:23644 VST.msl.predicates_hered <> TT def
+R23647:23650 VST.msl.predicates_hered <> prop def
+prf 23705:23718 <> prop_andp_left
+binder 23721:23721 <> A:444
+R23729:23735 VST.msl.ageable <> ageable class
+R23737:23737 VST.msl.predicates_hered <> A:444 var
+binder 23724:23726 <> agA:445
+binder 23749:23749 <> P:446
+binder 23758:23758 <> Q:447
+binder 23760:23760 <> R:448
+R23763:23763 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23776:23780 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23789:23793 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R23784:23787 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R23781:23782 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R23783:23783 VST.msl.predicates_hered <> P:446 var
+R23788:23788 VST.msl.predicates_hered <> Q:447 var
+R23794:23794 VST.msl.predicates_hered <> R:448 var
+R23765:23768 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23770:23774 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R23769:23769 VST.msl.predicates_hered <> Q:447 var
+R23775:23775 VST.msl.predicates_hered <> R:448 var
+R23764:23764 VST.msl.predicates_hered <> P:446 var
+prf 23865:23879 <> prop_andp_right
+binder 23882:23882 <> A:449
+R23890:23896 VST.msl.ageable <> ageable class
+R23898:23898 VST.msl.predicates_hered <> A:449 var
+binder 23885:23887 <> agA:450
+binder 23910:23910 <> P:451
+binder 23919:23919 <> Q:452
+binder 23921:23921 <> R:453
+R23925:23928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23936:23939 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23941:23945 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R23940:23940 VST.msl.predicates_hered <> Q:452 var
+R23949:23952 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R23946:23947 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R23948:23948 VST.msl.predicates_hered <> P:451 var
+R23953:23953 VST.msl.predicates_hered <> R:453 var
+R23930:23934 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R23929:23929 VST.msl.predicates_hered <> Q:452 var
+R23935:23935 VST.msl.predicates_hered <> R:453 var
+R23924:23924 VST.msl.predicates_hered <> P:451 var
+prf 24003:24016 <> prop_true_andp
+binder 24029:24029 <> P:454
+binder 24038:24038 <> A:455
+R24042:24048 VST.msl.ageable <> ageable class
+R24050:24050 VST.msl.predicates_hered <> A:455 var
+binder 24042:24050 <> H:456
+R24057:24060 VST.msl.predicates_hered <> pred def
+R24062:24062 VST.msl.predicates_hered <> A:455 var
+binder 24054:24054 <> Q:457
+R24067:24071 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24085:24085 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24081:24083 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24076:24079 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R24072:24074 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R24075:24075 VST.msl.predicates_hered <> P:454 var
+R24080:24080 VST.msl.predicates_hered <> Q:457 var
+R24084:24084 VST.msl.predicates_hered <> Q:457 var
+R24066:24066 VST.msl.predicates_hered <> P:454 var
+R24109:24116 VST.msl.predicates_hered <> pred_ext thm
+R24109:24116 VST.msl.predicates_hered <> pred_ext thm
+R24126:24132 VST.msl.predicates_hered <> derives def
+R24164:24170 VST.msl.predicates_hered <> derives def
+prf 24206:24220 <> prop_false_andp
+binder 24233:24233 <> P:458
+binder 24242:24242 <> A:459
+R24246:24252 VST.msl.ageable <> ageable class
+R24254:24254 VST.msl.predicates_hered <> A:459 var
+binder 24246:24254 <> H:460
+R24261:24264 VST.msl.predicates_hered <> pred def
+R24266:24266 VST.msl.predicates_hered <> A:459 var
+binder 24258:24258 <> Q:461
+R24275:24278 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24288:24290 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24283:24286 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R24279:24281 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R24282:24282 VST.msl.predicates_hered <> P:458 var
+R24287:24287 VST.msl.predicates_hered <> Q:461 var
+R24291:24292 VST.msl.predicates_hered <> FF def
+R24273:24273 Coq.Init.Logic <> ::type_scope:'~'_x not
+R24274:24274 VST.msl.predicates_hered <> P:458 var
+R24316:24323 VST.msl.predicates_hered <> pred_ext thm
+R24316:24323 VST.msl.predicates_hered <> pred_ext thm
+R24333:24339 VST.msl.predicates_hered <> derives def
+R24372:24378 VST.msl.predicates_hered <> derives def
+prf 24406:24416 <> prop_andp_e
+binder 24419:24419 <> A:462
+R24424:24430 VST.msl.ageable <> ageable class
+R24432:24432 VST.msl.predicates_hered <> A:462 var
+binder 24424:24432 <> H:463
+binder 24444:24444 <> P:464
+binder 24446:24446 <> Q:465
+R24451:24451 VST.msl.predicates_hered <> A:462 var
+binder 24449:24449 <> w:466
+R24468:24471 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24473:24476 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R24472:24472 VST.msl.predicates_hered <> P:464 var
+R24477:24477 VST.msl.predicates_hered <> Q:465 var
+R24479:24479 VST.msl.predicates_hered <> w:466 var
+R24455:24455 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R24460:24463 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R24465:24467 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R24456:24458 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R24459:24459 VST.msl.predicates_hered <> P:464 var
+R24464:24464 VST.msl.predicates_hered <> Q:465 var
+R24467:24467 VST.msl.predicates_hered <> w:466 var
+prf 24531:24541 <> prop_andp_i
+binder 24544:24544 <> A:467
+R24549:24555 VST.msl.ageable <> ageable class
+R24557:24557 VST.msl.predicates_hered <> A:467 var
+binder 24549:24557 <> H:468
+binder 24569:24569 <> P:469
+binder 24571:24571 <> Q:470
+R24576:24576 VST.msl.predicates_hered <> A:467 var
+binder 24574:24574 <> w:471
+R24597:24600 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24601:24601 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R24606:24609 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R24611:24613 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R24602:24604 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R24605:24605 VST.msl.predicates_hered <> P:469 var
+R24610:24610 VST.msl.predicates_hered <> Q:470 var
+R24613:24613 VST.msl.predicates_hered <> w:471 var
+R24581:24584 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R24580:24580 VST.msl.predicates_hered <> P:469 var
+R24585:24592 VST.msl.predicates_hered <> app_pred def
+R24596:24596 VST.msl.predicates_hered <> w:471 var
+R24594:24594 VST.msl.predicates_hered <> Q:470 var
+prf 24659:24671 <> later_derives
+binder 24674:24674 <> A:472
+R24685:24691 VST.msl.ageable <> ageable class
+R24693:24693 VST.msl.predicates_hered <> A:472 var
+binder 24679:24681 <> agA:473
+binder 24705:24705 <> P:474
+binder 24707:24707 <> Q:475
+R24711:24711 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24719:24724 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24738:24738 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24729:24733 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R24725:24727 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R24728:24728 VST.msl.predicates_hered <> P:474 var
+R24734:24736 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R24737:24737 VST.msl.predicates_hered <> Q:475 var
+R24713:24717 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R24712:24712 VST.msl.predicates_hered <> P:474 var
+R24718:24718 VST.msl.predicates_hered <> Q:475 var
+R24755:24761 VST.msl.predicates_hered <> derives def
+prf 24816:24824 <> boxy_allp
+binder 24827:24827 <> A:476
+R24838:24844 VST.msl.ageable <> ageable class
+R24846:24846 VST.msl.predicates_hered <> A:476 var
+binder 24832:24834 <> agA:477
+R24863:24870 VST.msl.predicates_hered <> modality def
+binder 24860:24860 <> M:478
+binder 24874:24874 <> B:479
+binder 24883:24883 <> F:480
+R24915:24923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24924:24924 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24951:24955 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24956:24959 VST.msl.predicates_hered <> boxy def
+R24964:24967 VST.msl.predicates_hered <> allp def
+R24969:24969 VST.msl.predicates_hered <> F:480 var
+R24961:24961 VST.msl.predicates_hered <> M:478 var
+R24935:24935 VST.msl.predicates_hered <> B:479 var
+binder 24933:24933 <> x:481
+R24939:24942 VST.msl.predicates_hered <> boxy def
+R24947:24947 VST.msl.predicates_hered <> F:480 var
+R24949:24949 VST.msl.predicates_hered <> x:481 var
+R24944:24944 VST.msl.predicates_hered <> M:478 var
+R24891:24899 Coq.Relations.Relation_Definitions <> reflexive def
+R24904:24911 VST.msl.predicates_hered <> app_mode def
+R24913:24913 VST.msl.predicates_hered <> M:478 var
+R25027:25032 VST.msl.predicates_hered <> boxy_i thm
+R25027:25032 VST.msl.predicates_hered <> boxy_i thm
+prf 25168:25177 <> later_allp
+binder 25180:25180 <> A:482
+R25191:25197 VST.msl.ageable <> ageable class
+R25199:25199 VST.msl.predicates_hered <> A:482 var
+binder 25185:25187 <> agA:483
+binder 25217:25217 <> B:484
+binder 25219:25219 <> P:485
+R25233:25235 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25222:25225 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R25232:25232 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R25226:25229 VST.msl.predicates_hered <> allp def
+R25231:25231 VST.msl.predicates_hered <> P:485 var
+R25236:25239 VST.msl.predicates_hered <> allp def
+R25248:25248 VST.msl.predicates_hered <> B:484 var
+binder 25246:25246 <> x:486
+R25253:25256 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R25260:25260 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R25257:25257 VST.msl.predicates_hered <> P:485 var
+R25259:25259 VST.msl.predicates_hered <> x:486 var
+R25285:25292 VST.msl.predicates_hered <> pred_ext thm
+R25302:25308 VST.msl.predicates_hered <> derives def
+R25285:25292 VST.msl.predicates_hered <> pred_ext thm
+prf 25355:25364 <> later_prop
+binder 25367:25367 <> A:487
+R25378:25384 VST.msl.ageable <> ageable class
+R25386:25386 VST.msl.predicates_hered <> A:487 var
+binder 25372:25374 <> agA:488
+binder 25404:25404 <> P:489
+R25424:25428 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R25413:25416 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R25423:25423 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R25417:25420 VST.msl.predicates_hered <> prop def
+R25422:25422 VST.msl.predicates_hered <> P:489 var
+R25435:25438 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R25429:25432 VST.msl.predicates_hered <> prop def
+R25434:25434 VST.msl.predicates_hered <> P:489 var
+R25439:25441 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R25442:25443 VST.msl.predicates_hered <> FF def
+R25472:25478 VST.msl.predicates_hered <> derives def
+R25520:25523 VST.msl.ageable <> age1 meth
+R25520:25523 VST.msl.ageable <> age1 meth
+R25581:25586 VST.msl.ageable <> laterR def
+prf 25717:25727 <> box_derives
+binder 25730:25730 <> A:490
+R25735:25741 VST.msl.ageable <> ageable class
+R25743:25743 VST.msl.predicates_hered <> A:490 var
+binder 25735:25743 <> H:491
+binder 25755:25755 <> M:492
+R25762:25765 VST.msl.predicates_hered <> pred def
+R25767:25767 VST.msl.predicates_hered <> A:490 var
+binder 25758:25758 <> P:493
+binder 25760:25760 <> Q:494
+R25780:25784 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25792:25796 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R25785:25787 VST.msl.predicates_hered <> box def
+R25791:25791 VST.msl.predicates_hered <> P:493 var
+R25789:25789 VST.msl.predicates_hered <> M:492 var
+R25797:25799 VST.msl.predicates_hered <> box def
+R25803:25803 VST.msl.predicates_hered <> Q:494 var
+R25801:25801 VST.msl.predicates_hered <> M:492 var
+R25774:25778 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R25773:25773 VST.msl.predicates_hered <> P:493 var
+R25779:25779 VST.msl.predicates_hered <> Q:494 var
+R25819:25830 VST.msl.predicates_hered <> box_positive thm
+R25819:25830 VST.msl.predicates_hered <> box_positive thm
+prf 25845:25856 <> allp_derives
+binder 25874:25874 <> A:495
+R25890:25896 VST.msl.ageable <> ageable class
+R25898:25898 VST.msl.predicates_hered <> A:495 var
+binder 25885:25887 <> agA:496
+binder 25902:25902 <> B:497
+R25918:25921 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25922:25925 VST.msl.predicates_hered <> pred def
+R25927:25927 VST.msl.predicates_hered <> A:495 var
+R25917:25917 VST.msl.predicates_hered <> B:497 var
+binder 25912:25912 <> P:498
+binder 25914:25914 <> Q:499
+R25946:25946 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25970:25975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25993:25993 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25982:25986 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R25976:25979 VST.msl.predicates_hered <> allp def
+R25981:25981 VST.msl.predicates_hered <> P:498 var
+R25987:25990 VST.msl.predicates_hered <> allp def
+R25992:25992 VST.msl.predicates_hered <> Q:499 var
+R25956:25956 VST.msl.predicates_hered <> B:497 var
+binder 25954:25954 <> x:500
+R25962:25966 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R25959:25959 VST.msl.predicates_hered <> P:498 var
+R25961:25961 VST.msl.predicates_hered <> x:500 var
+R25967:25967 VST.msl.predicates_hered <> Q:499 var
+R25969:25969 VST.msl.predicates_hered <> x:500 var
+prf 26054:26068 <> forall_pred_ext
+binder 26072:26072 <> A:501
+R26083:26089 VST.msl.ageable <> ageable class
+R26091:26091 VST.msl.predicates_hered <> A:501 var
+binder 26077:26079 <> agA:502
+binder 26102:26102 <> B:503
+R26111:26114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26115:26118 VST.msl.predicates_hered <> pred def
+R26120:26120 VST.msl.predicates_hered <> A:501 var
+R26110:26110 VST.msl.predicates_hered <> B:503 var
+binder 26105:26105 <> P:504
+binder 26107:26107 <> Q:505
+R26125:26125 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R26151:26156 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R26126:26129 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R26135:26137 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R26150:26150 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R26134:26134 VST.msl.predicates_hered <> B:503 var
+binder 26130:26130 <> x:506
+R26141:26146 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R26138:26138 VST.msl.predicates_hered <> P:504 var
+R26140:26140 VST.msl.predicates_hered <> x:506 var
+R26147:26147 VST.msl.predicates_hered <> Q:505 var
+R26149:26149 VST.msl.predicates_hered <> x:506 var
+R26147:26147 VST.msl.predicates_hered <> Q:505 var
+R26149:26149 VST.msl.predicates_hered <> x:506 var
+R26138:26138 VST.msl.predicates_hered <> P:504 var
+R26140:26140 VST.msl.predicates_hered <> x:506 var
+R26157:26157 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R26172:26179 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R26193:26193 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R26158:26161 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R26167:26168 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R26166:26166 VST.msl.predicates_hered <> B:503 var
+binder 26162:26162 <> x:507
+R26169:26169 VST.msl.predicates_hered <> P:504 var
+R26171:26171 VST.msl.predicates_hered <> x:507 var
+R26180:26183 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R26188:26189 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R26187:26187 VST.msl.predicates_hered <> B:503 var
+binder 26184:26184 <> x:508
+R26190:26190 VST.msl.predicates_hered <> Q:505 var
+R26192:26192 VST.msl.predicates_hered <> x:508 var
+R26180:26183 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R26188:26189 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R26187:26187 VST.msl.predicates_hered <> B:503 var
+binder 26184:26184 <> x:509
+R26190:26190 VST.msl.predicates_hered <> Q:505 var
+R26192:26192 VST.msl.predicates_hered <> x:509 var
+R26158:26161 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R26167:26168 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R26166:26166 VST.msl.predicates_hered <> B:503 var
+binder 26162:26162 <> x:510
+R26169:26169 VST.msl.predicates_hered <> P:504 var
+R26171:26171 VST.msl.predicates_hered <> x:510 var
+prf 26283:26297 <> exists_pred_ext
+binder 26301:26301 <> A:511
+R26312:26318 VST.msl.ageable <> ageable class
+R26320:26320 VST.msl.predicates_hered <> A:511 var
+binder 26306:26308 <> agA:512
+binder 26331:26331 <> B:513
+R26340:26343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26344:26347 VST.msl.predicates_hered <> pred def
+R26349:26349 VST.msl.predicates_hered <> A:511 var
+R26339:26339 VST.msl.predicates_hered <> B:513 var
+binder 26334:26334 <> P:514
+binder 26336:26336 <> Q:515
+R26354:26354 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R26380:26385 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R26355:26358 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R26364:26366 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R26379:26379 VST.msl.predicates_hered <> ::pred:'ALL'_x_'..'_x_','_x not
+R26363:26363 VST.msl.predicates_hered <> B:513 var
+binder 26359:26359 <> x:516
+R26370:26375 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R26367:26367 VST.msl.predicates_hered <> P:514 var
+R26369:26369 VST.msl.predicates_hered <> x:516 var
+R26376:26376 VST.msl.predicates_hered <> Q:515 var
+R26378:26378 VST.msl.predicates_hered <> x:516 var
+R26376:26376 VST.msl.predicates_hered <> Q:515 var
+R26378:26378 VST.msl.predicates_hered <> x:516 var
+R26367:26367 VST.msl.predicates_hered <> P:514 var
+R26369:26369 VST.msl.predicates_hered <> x:516 var
+R26386:26386 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R26400:26407 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R26420:26420 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R26387:26389 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R26395:26396 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R26394:26394 VST.msl.predicates_hered <> B:513 var
+binder 26390:26390 <> x:517
+R26397:26397 VST.msl.predicates_hered <> P:514 var
+R26399:26399 VST.msl.predicates_hered <> x:517 var
+R26408:26410 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R26415:26416 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R26414:26414 VST.msl.predicates_hered <> B:513 var
+binder 26411:26411 <> x:518
+R26417:26417 VST.msl.predicates_hered <> Q:515 var
+R26419:26419 VST.msl.predicates_hered <> x:518 var
+R26408:26410 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R26415:26416 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R26414:26414 VST.msl.predicates_hered <> B:513 var
+binder 26411:26411 <> x:519
+R26417:26417 VST.msl.predicates_hered <> Q:515 var
+R26419:26419 VST.msl.predicates_hered <> x:519 var
+R26387:26389 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R26395:26396 VST.msl.predicates_hered <> ::pred:'EX'_x_'..'_x_','_x not
+R26394:26394 VST.msl.predicates_hered <> B:513 var
+binder 26390:26390 <> x:520
+R26397:26397 VST.msl.predicates_hered <> P:514 var
+R26399:26399 VST.msl.predicates_hered <> x:520 var
+prf 26516:26527 <> imp_pred_ext
+binder 26531:26531 <> A:521
+R26542:26548 VST.msl.ageable <> ageable class
+R26550:26550 VST.msl.predicates_hered <> A:521 var
+binder 26536:26538 <> agA:522
+binder 26561:26561 <> B:523
+binder 26563:26564 <> B':524
+binder 26566:26566 <> P:525
+binder 26568:26568 <> Q:526
+R26611:26616 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R26578:26578 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R26588:26593 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R26610:26610 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R26580:26585 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R26579:26579 VST.msl.predicates_hered <> B:523 var
+R26586:26587 VST.msl.predicates_hered <> B':524 var
+R26586:26587 VST.msl.predicates_hered <> B':524 var
+R26579:26579 VST.msl.predicates_hered <> B:523 var
+R26595:26600 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R26609:26609 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R26594:26594 VST.msl.predicates_hered <> B:523 var
+R26602:26607 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R26601:26601 VST.msl.predicates_hered <> P:525 var
+R26608:26608 VST.msl.predicates_hered <> Q:526 var
+R26608:26608 VST.msl.predicates_hered <> Q:526 var
+R26601:26601 VST.msl.predicates_hered <> P:525 var
+R26617:26617 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R26625:26633 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R26642:26642 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R26619:26623 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R26618:26618 VST.msl.predicates_hered <> B:523 var
+R26624:26624 VST.msl.predicates_hered <> P:525 var
+R26636:26640 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R26634:26635 VST.msl.predicates_hered <> B':524 var
+R26641:26641 VST.msl.predicates_hered <> Q:526 var
+R26636:26640 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R26634:26635 VST.msl.predicates_hered <> B':524 var
+R26641:26641 VST.msl.predicates_hered <> Q:526 var
+R26619:26623 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R26618:26618 VST.msl.predicates_hered <> B:523 var
+R26624:26624 VST.msl.predicates_hered <> P:525 var
+prf 27017:27028 <> derives_refl
+binder 27031:27031 <> A:527
+R27042:27048 VST.msl.ageable <> ageable class
+R27050:27050 VST.msl.predicates_hered <> A:527 var
+binder 27042:27050 <> H:528
+R27067:27070 VST.msl.predicates_hered <> pred def
+R27072:27072 VST.msl.predicates_hered <> A:527 var
+binder 27064:27064 <> P:529
+R27078:27082 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R27077:27077 VST.msl.predicates_hered <> P:529 var
+R27083:27083 VST.msl.predicates_hered <> P:529 var
+prf 27153:27164 <> andp_derives
+binder 27167:27167 <> A:530
+R27172:27178 VST.msl.ageable <> ageable class
+R27180:27180 VST.msl.predicates_hered <> A:530 var
+binder 27172:27180 <> H:531
+R27204:27207 VST.msl.predicates_hered <> pred def
+R27209:27209 VST.msl.predicates_hered <> A:530 var
+binder 27193:27193 <> P:532
+binder 27195:27195 <> Q:533
+binder 27197:27198 <> P':534
+binder 27200:27201 <> Q':535
+R27220:27223 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27232:27235 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27242:27246 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R27237:27240 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R27236:27236 VST.msl.predicates_hered <> P:532 var
+R27241:27241 VST.msl.predicates_hered <> Q:533 var
+R27249:27252 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R27247:27248 VST.msl.predicates_hered <> P':534 var
+R27253:27254 VST.msl.predicates_hered <> Q':535 var
+R27225:27229 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R27224:27224 VST.msl.predicates_hered <> Q:533 var
+R27230:27231 VST.msl.predicates_hered <> Q':535 var
+R27213:27217 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R27212:27212 VST.msl.predicates_hered <> P:532 var
+R27218:27219 VST.msl.predicates_hered <> P':534 var
+prf 27313:27323 <> orp_derives
+binder 27326:27326 <> A:536
+R27331:27337 VST.msl.ageable <> ageable class
+R27339:27339 VST.msl.predicates_hered <> A:536 var
+binder 27331:27339 <> H:537
+R27363:27366 VST.msl.predicates_hered <> pred def
+R27368:27368 VST.msl.predicates_hered <> A:536 var
+binder 27352:27352 <> P:538
+binder 27354:27354 <> Q:539
+binder 27356:27357 <> P':540
+binder 27359:27360 <> Q':541
+R27379:27382 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27391:27394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27401:27405 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R27396:27399 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R27395:27395 VST.msl.predicates_hered <> P:538 var
+R27400:27400 VST.msl.predicates_hered <> Q:539 var
+R27408:27411 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R27406:27407 VST.msl.predicates_hered <> P':540 var
+R27412:27413 VST.msl.predicates_hered <> Q':541 var
+R27384:27388 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R27383:27383 VST.msl.predicates_hered <> Q:539 var
+R27389:27390 VST.msl.predicates_hered <> Q':541 var
+R27372:27376 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R27371:27371 VST.msl.predicates_hered <> P:538 var
+R27377:27378 VST.msl.predicates_hered <> P':540 var
+R27438:27445 VST.msl.predicates_hered <> orp_left thm
+R27438:27445 VST.msl.predicates_hered <> orp_left thm
+R27454:27463 VST.msl.predicates_hered <> orp_right1 thm
+R27454:27463 VST.msl.predicates_hered <> orp_right1 thm
+R27478:27487 VST.msl.predicates_hered <> orp_right2 thm
+R27478:27487 VST.msl.predicates_hered <> orp_right2 thm
+prf 27508:27518 <> exp_derives
+binder 27521:27521 <> A:542
+R27531:27537 VST.msl.ageable <> ageable class
+R27539:27539 VST.msl.predicates_hered <> A:542 var
+binder 27526:27527 <> HA:543
+binder 27557:27557 <> B:544
+R27564:27567 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27568:27571 VST.msl.predicates_hered <> pred def
+R27573:27573 VST.msl.predicates_hered <> A:542 var
+R27563:27563 VST.msl.predicates_hered <> B:544 var
+binder 27560:27560 <> P:545
+binder 27576:27576 <> Q:546
+R27580:27580 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27604:27609 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27625:27625 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27615:27619 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R27610:27612 VST.msl.predicates_hered <> exp def
+R27614:27614 VST.msl.predicates_hered <> P:545 var
+R27620:27622 VST.msl.predicates_hered <> exp def
+R27624:27624 VST.msl.predicates_hered <> Q:546 var
+R27590:27590 VST.msl.predicates_hered <> B:544 var
+binder 27588:27588 <> x:547
+R27596:27600 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R27593:27593 VST.msl.predicates_hered <> P:545 var
+R27595:27595 VST.msl.predicates_hered <> x:547 var
+R27601:27601 VST.msl.predicates_hered <> Q:546 var
+R27603:27603 VST.msl.predicates_hered <> x:547 var
+prf 27698:27704 <> box_ext
+binder 27707:27707 <> A:548
+R27718:27724 VST.msl.ageable <> ageable class
+R27726:27726 VST.msl.predicates_hered <> A:548 var
+binder 27712:27714 <> agA:549
+R27741:27748 VST.msl.predicates_hered <> modality def
+binder 27738:27738 <> M:550
+binder 27751:27751 <> P:551
+binder 27753:27753 <> Q:552
+R27776:27781 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R27760:27762 VST.msl.predicates_hered <> box def
+R27768:27773 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R27767:27767 VST.msl.predicates_hered <> P:551 var
+R27774:27774 VST.msl.predicates_hered <> Q:552 var
+R27774:27774 VST.msl.predicates_hered <> Q:552 var
+R27767:27767 VST.msl.predicates_hered <> P:551 var
+R27764:27764 VST.msl.predicates_hered <> M:550 var
+R27789:27794 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R27782:27784 VST.msl.predicates_hered <> box def
+R27788:27788 VST.msl.predicates_hered <> P:551 var
+R27786:27786 VST.msl.predicates_hered <> M:550 var
+R27795:27797 VST.msl.predicates_hered <> box def
+R27801:27801 VST.msl.predicates_hered <> Q:552 var
+R27799:27799 VST.msl.predicates_hered <> M:550 var
+R27795:27797 VST.msl.predicates_hered <> box def
+R27801:27801 VST.msl.predicates_hered <> Q:552 var
+R27799:27799 VST.msl.predicates_hered <> M:550 var
+R27782:27784 VST.msl.predicates_hered <> box def
+R27788:27788 VST.msl.predicates_hered <> P:551 var
+R27786:27786 VST.msl.predicates_hered <> M:550 var
+R27834:27840 VST.msl.predicates_hered <> box_and thm
+R27834:27840 VST.msl.predicates_hered <> box_and thm
+R27834:27840 VST.msl.predicates_hered <> box_and thm
+R27834:27840 VST.msl.predicates_hered <> box_and thm
+R27849:27858 VST.msl.predicates_hered <> andp_right thm
+R27868:27880 VST.msl.predicates_hered <> derives_trans thm
+R27893:27898 VST.msl.predicates_hered <> axiomK thm
+R27849:27858 VST.msl.predicates_hered <> andp_right thm
+R27868:27880 VST.msl.predicates_hered <> derives_trans thm
+R27868:27880 VST.msl.predicates_hered <> derives_trans thm
+R27893:27898 VST.msl.predicates_hered <> axiomK thm
+R27893:27898 VST.msl.predicates_hered <> axiomK thm
+R27893:27898 VST.msl.predicates_hered <> axiomK thm
+R27893:27898 VST.msl.predicates_hered <> axiomK thm
+prf 27935:27947 <> andp_pred_ext
+binder 27950:27950 <> A:553
+R27961:27967 VST.msl.ageable <> ageable class
+R27969:27969 VST.msl.predicates_hered <> A:553 var
+binder 27955:27957 <> agA:554
+binder 27980:27980 <> P:555
+binder 27982:27982 <> Q:556
+binder 27984:27985 <> P':557
+binder 27987:27988 <> Q':558
+R28024:28029 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R27998:27998 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R28008:28013 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R28023:28023 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R28000:28005 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R27999:27999 VST.msl.predicates_hered <> P:555 var
+R28006:28007 VST.msl.predicates_hered <> P':557 var
+R28006:28007 VST.msl.predicates_hered <> P':557 var
+R27999:27999 VST.msl.predicates_hered <> P:555 var
+R28015:28020 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R28014:28014 VST.msl.predicates_hered <> Q:556 var
+R28021:28022 VST.msl.predicates_hered <> Q':558 var
+R28021:28022 VST.msl.predicates_hered <> Q':558 var
+R28014:28014 VST.msl.predicates_hered <> Q:556 var
+R28030:28030 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R28037:28044 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R28053:28053 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R28032:28035 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R28031:28031 VST.msl.predicates_hered <> P:555 var
+R28036:28036 VST.msl.predicates_hered <> Q:556 var
+R28047:28050 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R28045:28046 VST.msl.predicates_hered <> P':557 var
+R28051:28052 VST.msl.predicates_hered <> Q':558 var
+R28047:28050 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R28045:28046 VST.msl.predicates_hered <> P':557 var
+R28051:28052 VST.msl.predicates_hered <> Q':558 var
+R28032:28035 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R28031:28031 VST.msl.predicates_hered <> P:555 var
+R28036:28036 VST.msl.predicates_hered <> Q:556 var
+def 28185:28191 <> exactly
+binder 28194:28194 <> A:559
+R28199:28205 VST.msl.ageable <> ageable class
+R28207:28207 VST.msl.predicates_hered <> A:559 var
+binder 28199:28207 <> H:560
+R28214:28214 VST.msl.predicates_hered <> A:559 var
+binder 28211:28211 <> x:561
+R28219:28222 VST.msl.predicates_hered <> pred def
+R28224:28224 VST.msl.predicates_hered <> A:559 var
+R28229:28232 VST.msl.ageable <> necR def
+R28234:28234 VST.msl.predicates_hered <> x:561 var
+prf 28315:28324 <> derives_TT
+binder 28327:28327 <> A:562
+R28332:28338 VST.msl.ageable <> ageable class
+R28340:28340 VST.msl.predicates_hered <> A:562 var
+binder 28332:28340 <> H:563
+R28355:28358 VST.msl.predicates_hered <> pred def
+R28360:28360 VST.msl.predicates_hered <> A:562 var
+binder 28352:28352 <> P:564
+R28365:28369 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R28364:28364 VST.msl.predicates_hered <> P:564 var
+R28370:28371 VST.msl.predicates_hered <> TT def
+prf 28451:28460 <> FF_derives
+binder 28463:28463 <> A:565
+R28468:28474 VST.msl.ageable <> ageable class
+R28476:28476 VST.msl.predicates_hered <> A:565 var
+binder 28468:28476 <> H:566
+binder 28487:28487 <> P:567
+R28492:28496 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R28490:28491 VST.msl.predicates_hered <> FF def
+R28497:28497 VST.msl.predicates_hered <> P:567 var
+prf 28599:28609 <> necR_level'
+binder 28612:28612 <> A:568
+R28621:28627 VST.msl.ageable <> ageable class
+R28629:28629 VST.msl.predicates_hered <> A:568 var
+binder 28617:28617 <> H:569
+R28647:28647 VST.msl.predicates_hered <> A:568 var
+binder 28641:28641 <> w:570
+binder 28643:28644 <> w':571
+R28660:28670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28672:28675 VST.msl.ageable <> necR def
+R28697:28701 VST.msl.ageable <> level meth
+R28703:28704 VST.msl.predicates_hered <> w':571 var
+R28687:28691 VST.msl.ageable <> level meth
+R28693:28693 VST.msl.predicates_hered <> w:570 var
+R28679:28684 VST.msl.ageable <> ag_nat def
+R28651:28654 VST.msl.ageable <> necR def
+R28658:28659 VST.msl.predicates_hered <> w':571 var
+R28656:28656 VST.msl.predicates_hered <> w:570 var
+R28749:28757 VST.msl.ageable <> age_level thm
+R28749:28757 VST.msl.ageable <> age_level thm
+R28789:28791 VST.msl.ageable <> age def
+R28794:28797 VST.msl.ageable <> age1 meth
+R28868:28872 VST.msl.ageable <> level meth
+R28868:28872 VST.msl.ageable <> level meth
+prf 28896:28906 <> derives_imp
+binder 28909:28909 <> A:572
+R28920:28926 VST.msl.ageable <> ageable class
+R28928:28928 VST.msl.predicates_hered <> A:572 var
+binder 28914:28916 <> agA:573
+binder 28941:28941 <> P:574
+binder 28943:28943 <> Q:575
+binder 28945:28945 <> w:576
+R28948:28948 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28956:28960 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28961:28961 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R28963:28967 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R28969:28971 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R28962:28962 VST.msl.predicates_hered <> P:574 var
+R28968:28968 VST.msl.predicates_hered <> Q:575 var
+R28971:28971 VST.msl.predicates_hered <> w:576 var
+R28950:28954 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R28949:28949 VST.msl.predicates_hered <> P:574 var
+R28955:28955 VST.msl.predicates_hered <> Q:575 var
+prf 29019:29027 <> exp_andp1
+binder 29030:29030 <> A:577
+R29035:29041 VST.msl.ageable <> ageable class
+R29043:29043 VST.msl.predicates_hered <> A:577 var
+binder 29035:29043 <> H:578
+binder 29055:29055 <> B:579
+R29062:29065 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29066:29069 VST.msl.predicates_hered <> pred def
+R29071:29071 VST.msl.predicates_hered <> A:577 var
+R29061:29061 VST.msl.predicates_hered <> B:579 var
+binder 29058:29058 <> p:580
+binder 29074:29074 <> q:581
+R29094:29096 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29083:29086 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R29078:29080 VST.msl.predicates_hered <> exp def
+R29082:29082 VST.msl.predicates_hered <> p:580 var
+R29087:29087 VST.msl.predicates_hered <> q:581 var
+R29098:29100 VST.msl.predicates_hered <> exp def
+binder 29107:29107 <> x:582
+R29115:29118 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R29112:29112 VST.msl.predicates_hered <> p:580 var
+R29114:29114 VST.msl.predicates_hered <> x:582 var
+R29119:29119 VST.msl.predicates_hered <> q:581 var
+R29150:29157 VST.msl.predicates_hered <> pred_ext thm
+R29150:29157 VST.msl.predicates_hered <> pred_ext thm
+prf 29288:29296 <> exp_andp2
+binder 29299:29299 <> A:583
+R29308:29314 VST.msl.ageable <> ageable class
+R29316:29316 VST.msl.predicates_hered <> A:583 var
+binder 29304:29305 <> HA:584
+binder 29328:29328 <> B:585
+binder 29330:29330 <> p:586
+R29337:29340 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29341:29344 VST.msl.predicates_hered <> pred def
+R29346:29346 VST.msl.predicates_hered <> A:583 var
+R29336:29336 VST.msl.predicates_hered <> B:585 var
+binder 29333:29333 <> q:587
+R29367:29369 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29352:29355 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R29351:29351 VST.msl.predicates_hered <> p:586 var
+R29356:29358 VST.msl.predicates_hered <> exp def
+R29360:29360 VST.msl.predicates_hered <> q:587 var
+R29371:29373 VST.msl.predicates_hered <> exp def
+binder 29380:29380 <> x:588
+R29386:29389 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R29385:29385 VST.msl.predicates_hered <> p:586 var
+R29390:29390 VST.msl.predicates_hered <> q:587 var
+R29392:29392 VST.msl.predicates_hered <> x:588 var
+R29423:29430 VST.msl.predicates_hered <> pred_ext thm
+R29423:29430 VST.msl.predicates_hered <> pred_ext thm
+prf 29558:29569 <> exp_imp_left
+binder 29572:29572 <> A:589
+R29583:29589 VST.msl.ageable <> ageable class
+R29591:29591 VST.msl.predicates_hered <> A:589 var
+binder 29577:29579 <> agA:590
+binder 29603:29603 <> B:591
+R29610:29613 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29614:29617 VST.msl.predicates_hered <> pred def
+R29619:29619 VST.msl.predicates_hered <> A:589 var
+R29609:29609 VST.msl.predicates_hered <> B:591 var
+binder 29606:29606 <> p:592
+binder 29622:29622 <> q:593
+R29648:29650 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29636:29640 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R29631:29633 VST.msl.predicates_hered <> exp def
+R29635:29635 VST.msl.predicates_hered <> p:592 var
+R29641:29641 VST.msl.predicates_hered <> q:593 var
+R29651:29654 VST.msl.predicates_hered <> allp def
+binder 29661:29661 <> x:594
+R29669:29673 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R29666:29666 VST.msl.predicates_hered <> p:592 var
+R29668:29668 VST.msl.predicates_hered <> x:594 var
+R29674:29674 VST.msl.predicates_hered <> q:593 var
+R29704:29711 VST.msl.predicates_hered <> pred_ext thm
+R29704:29711 VST.msl.predicates_hered <> pred_ext thm
+R29764:29773 VST.msl.ageable <> necR_trans thm
+R29764:29773 VST.msl.ageable <> necR_trans thm
+prf 29854:29860 <> app_ext
+binder 29864:29864 <> A:595
+R29875:29881 VST.msl.ageable <> ageable class
+R29883:29883 VST.msl.predicates_hered <> A:595 var
+binder 29875:29883 <> H:596
+R29902:29905 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29901:29901 VST.msl.predicates_hered <> A:595 var
+binder 29896:29896 <> F:597
+binder 29898:29898 <> G:598
+binder 29912:29913 <> p1:599
+binder 29915:29916 <> p2:600
+binder 29918:29918 <> w:601
+R29930:29930 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29940:29953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29994:29996 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29954:29961 VST.msl.predicates_hered <> app_pred def
+R29993:29993 VST.msl.predicates_hered <> w:601 var
+R29964:29968 Coq.Init.Specif <> exist constr
+R29989:29990 VST.msl.predicates_hered <> p1:599 var
+R29987:29987 VST.msl.predicates_hered <> F:597 var
+R29971:29980 VST.msl.predicates_hered <> hereditary def
+R29982:29984 VST.msl.ageable <> age def
+R29997:30004 VST.msl.predicates_hered <> app_pred def
+R30036:30036 VST.msl.predicates_hered <> w:601 var
+R30007:30011 Coq.Init.Specif <> exist constr
+R30032:30033 VST.msl.predicates_hered <> p2:600 var
+R30030:30030 VST.msl.predicates_hered <> G:598 var
+R30014:30023 VST.msl.predicates_hered <> hereditary def
+R30025:30027 VST.msl.ageable <> age def
+R29934:29936 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29931:29931 VST.msl.predicates_hered <> F:597 var
+R29933:29933 VST.msl.predicates_hered <> w:601 var
+R29937:29937 VST.msl.predicates_hered <> G:598 var
+R29939:29939 VST.msl.predicates_hered <> w:601 var
+prf 30071:30081 <> imp_derives
+binder 30084:30084 <> A:602
+R30095:30101 VST.msl.ageable <> ageable class
+R30103:30103 VST.msl.predicates_hered <> A:602 var
+binder 30089:30091 <> agA:603
+binder 30116:30116 <> P:604
+binder 30118:30119 <> P':605
+binder 30121:30121 <> Q:606
+binder 30123:30124 <> Q':607
+R30139:30146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30155:30162 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30170:30174 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R30164:30168 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R30163:30163 VST.msl.predicates_hered <> P:604 var
+R30169:30169 VST.msl.predicates_hered <> Q:606 var
+R30177:30181 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R30175:30176 VST.msl.predicates_hered <> P':605 var
+R30182:30183 VST.msl.predicates_hered <> Q':607 var
+R30148:30152 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R30147:30147 VST.msl.predicates_hered <> Q:606 var
+R30153:30154 VST.msl.predicates_hered <> Q':607 var
+R30133:30137 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R30131:30132 VST.msl.predicates_hered <> P':605 var
+R30138:30138 VST.msl.predicates_hered <> P:604 var
+prf 30262:30269 <> imp_lem0
+binder 30273:30273 <> A:608
+R30284:30290 VST.msl.ageable <> ageable class
+R30292:30292 VST.msl.predicates_hered <> A:608 var
+binder 30278:30280 <> agA:609
+binder 30304:30304 <> P:610
+binder 30306:30307 <> st:611
+R30323:30326 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30327:30327 VST.msl.predicates_hered <> P:610 var
+R30329:30330 VST.msl.predicates_hered <> st:611 var
+R30310:30310 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R30313:30317 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R30319:30322 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R30311:30312 VST.msl.predicates_hered <> TT def
+R30318:30318 VST.msl.predicates_hered <> P:610 var
+R30321:30322 VST.msl.predicates_hered <> st:611 var
+prf 30367:30378 <> conjoin_hyp0
+binder 30382:30382 <> A:612
+R30391:30397 VST.msl.ageable <> ageable class
+R30399:30399 VST.msl.predicates_hered <> A:612 var
+binder 30387:30387 <> H:613
+R30422:30425 VST.msl.predicates_hered <> pred def
+R30427:30427 VST.msl.predicates_hered <> A:612 var
+binder 30417:30417 <> P:614
+binder 30419:30419 <> Q:615
+binder 30430:30430 <> w:616
+R30437:30440 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30452:30455 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30456:30456 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R30459:30463 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R30465:30467 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R30457:30458 VST.msl.predicates_hered <> TT def
+R30464:30464 VST.msl.predicates_hered <> Q:615 var
+R30467:30467 VST.msl.predicates_hered <> w:616 var
+R30441:30441 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R30443:30447 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R30449:30451 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R30442:30442 VST.msl.predicates_hered <> P:614 var
+R30448:30448 VST.msl.predicates_hered <> Q:615 var
+R30451:30451 VST.msl.predicates_hered <> w:616 var
+R30434:30434 VST.msl.predicates_hered <> P:614 var
+R30436:30436 VST.msl.predicates_hered <> w:616 var
+R30525:30543 VST.msl.predicates_hered <> pred_nec_hereditary thm
+R30525:30543 VST.msl.predicates_hered <> pred_nec_hereditary thm
+prf 30565:30576 <> conjoin_hyp1
+binder 30579:30579 <> A:617
+R30590:30596 VST.msl.ageable <> ageable class
+R30598:30598 VST.msl.predicates_hered <> A:617 var
+binder 30584:30586 <> agA:618
+R30617:30620 VST.msl.predicates_hered <> pred def
+R30622:30622 VST.msl.predicates_hered <> A:617 var
+binder 30610:30610 <> P:619
+binder 30612:30612 <> Q:620
+binder 30614:30614 <> R:621
+binder 30626:30626 <> w:622
+R30644:30647 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30662:30665 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30666:30666 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R30668:30672 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R30674:30676 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R30667:30667 VST.msl.predicates_hered <> Q:620 var
+R30673:30673 VST.msl.predicates_hered <> R:621 var
+R30676:30676 VST.msl.predicates_hered <> w:622 var
+R30648:30648 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R30653:30657 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R30659:30661 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R30650:30651 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R30649:30649 VST.msl.predicates_hered <> P:619 var
+R30652:30652 VST.msl.predicates_hered <> Q:620 var
+R30658:30658 VST.msl.predicates_hered <> R:621 var
+R30661:30661 VST.msl.predicates_hered <> w:622 var
+R30641:30641 VST.msl.predicates_hered <> P:619 var
+R30643:30643 VST.msl.predicates_hered <> w:622 var
+R30747:30765 VST.msl.predicates_hered <> pred_nec_hereditary thm
+R30747:30765 VST.msl.predicates_hered <> pred_nec_hereditary thm
+prf 30787:30795 <> derives_e
+binder 30798:30798 <> A:623
+R30815:30821 VST.msl.ageable <> ageable class
+R30823:30823 VST.msl.predicates_hered <> A:623 var
+binder 30809:30811 <> agA:624
+binder 30834:30834 <> p:625
+binder 30836:30836 <> q:626
+R30843:30843 VST.msl.predicates_hered <> A:623 var
+binder 30839:30840 <> st:627
+R30853:30853 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30861:30865 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30870:30873 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30874:30874 VST.msl.predicates_hered <> q:626 var
+R30876:30877 VST.msl.predicates_hered <> st:627 var
+R30866:30866 VST.msl.predicates_hered <> p:625 var
+R30868:30869 VST.msl.predicates_hered <> st:627 var
+R30855:30859 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R30854:30854 VST.msl.predicates_hered <> p:625 var
+R30860:30860 VST.msl.predicates_hered <> q:626 var
+R30920:30927 VST.msl.predicates_hered <> imp_lem0 thm
+R30952:30959 VST.msl.predicates_hered <> app_pred def
+R30963:30967 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R30952:30959 VST.msl.predicates_hered <> app_pred def
+R30963:30967 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R31034:31041 VST.msl.predicates_hered <> app_pred def
+R31034:31041 VST.msl.predicates_hered <> app_pred def
+R31052:31059 VST.msl.predicates_hered <> app_pred def
+R31064:31068 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R31052:31059 VST.msl.predicates_hered <> app_pred def
+R31064:31068 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R31174:31185 VST.msl.predicates_hered <> conjoin_hyp1 thm
+R31111:31122 VST.msl.predicates_hered <> conjoin_hyp0 thm
+R31291:31299 VST.msl.predicates_hered <> derives_e thm
+prf 31316:31325 <> test_slurp
+binder 31328:31328 <> A:628
+R31339:31345 VST.msl.ageable <> ageable class
+R31347:31347 VST.msl.predicates_hered <> A:628 var
+binder 31333:31335 <> agA:629
+R31372:31375 VST.msl.predicates_hered <> pred def
+R31377:31377 VST.msl.predicates_hered <> A:628 var
+binder 31362:31362 <> P:630
+binder 31364:31364 <> Q:631
+binder 31366:31366 <> R:632
+binder 31368:31368 <> S:633
+binder 31380:31380 <> w:634
+R31415:31418 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31422:31425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31429:31432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31436:31439 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31440:31440 VST.msl.predicates_hered <> S:633 var
+R31442:31442 VST.msl.predicates_hered <> w:634 var
+R31433:31433 VST.msl.predicates_hered <> R:632 var
+R31435:31435 VST.msl.predicates_hered <> w:634 var
+R31426:31426 VST.msl.predicates_hered <> Q:631 var
+R31428:31428 VST.msl.predicates_hered <> w:634 var
+R31419:31419 VST.msl.predicates_hered <> P:630 var
+R31421:31421 VST.msl.predicates_hered <> w:634 var
+R31392:31392 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R31406:31410 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R31412:31414 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R31394:31398 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R31405:31405 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R31393:31393 VST.msl.predicates_hered <> P:630 var
+R31400:31403 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R31399:31399 VST.msl.predicates_hered <> Q:631 var
+R31404:31404 VST.msl.predicates_hered <> R:632 var
+R31411:31411 VST.msl.predicates_hered <> S:633 var
+R31414:31414 VST.msl.predicates_hered <> w:634 var
+R31470:31477 VST.msl.predicates_hered <> app_pred def
+R31493:31497 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R31481:31485 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R31492:31492 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R31487:31490 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R31470:31477 VST.msl.predicates_hered <> app_pred def
+R31493:31497 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R31481:31485 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R31492:31492 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R31487:31490 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+prf 31556:31565 <> later_andp
+binder 31568:31568 <> A:635
+R31577:31583 VST.msl.ageable <> ageable class
+R31585:31585 VST.msl.predicates_hered <> A:635 var
+binder 31573:31573 <> H:636
+binder 31598:31598 <> P:637
+binder 31600:31600 <> Q:638
+R31614:31616 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31603:31606 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R31613:31613 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R31608:31611 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R31607:31607 VST.msl.predicates_hered <> P:637 var
+R31612:31612 VST.msl.predicates_hered <> Q:638 var
+R31620:31623 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R31617:31618 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R31619:31619 VST.msl.predicates_hered <> P:637 var
+R31624:31625 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R31626:31626 VST.msl.predicates_hered <> Q:638 var
+R31650:31657 VST.msl.predicates_hered <> pred_ext thm
+R31650:31657 VST.msl.predicates_hered <> pred_ext thm
+prf 31770:31781 <> True_andp_eq
+binder 31784:31784 <> A:639
+R31788:31794 VST.msl.ageable <> ageable class
+R31796:31796 VST.msl.predicates_hered <> A:639 var
+binder 31788:31796 <> H:640
+binder 31810:31810 <> P:641
+R31823:31826 VST.msl.predicates_hered <> pred def
+R31828:31828 VST.msl.predicates_hered <> A:639 var
+binder 31820:31820 <> Q:642
+R31833:31836 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31852:31854 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31841:31844 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R31838:31839 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R31840:31840 VST.msl.predicates_hered <> P:641 var
+R31845:31845 VST.msl.predicates_hered <> Q:642 var
+R31855:31855 VST.msl.predicates_hered <> Q:642 var
+R31832:31832 VST.msl.predicates_hered <> P:641 var
+R31872:31879 VST.msl.predicates_hered <> pred_ext thm
+R31872:31879 VST.msl.predicates_hered <> pred_ext thm
+prf 31942:31957 <> distrib_orp_andp
+binder 31960:31960 <> A:643
+R31968:31974 VST.msl.ageable <> ageable class
+R31976:31976 VST.msl.predicates_hered <> A:643 var
+binder 31963:31965 <> agA:644
+binder 31990:31990 <> P:645
+binder 31992:31992 <> Q:646
+binder 31994:31994 <> R:647
+R32006:32008 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31997:31997 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R32002:32004 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R31999:32000 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R31998:31998 VST.msl.predicates_hered <> P:645 var
+R32001:32001 VST.msl.predicates_hered <> Q:646 var
+R32005:32005 VST.msl.predicates_hered <> R:647 var
+R32009:32009 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R32014:32017 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R32022:32022 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R32011:32012 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R32010:32010 VST.msl.predicates_hered <> P:645 var
+R32013:32013 VST.msl.predicates_hered <> R:647 var
+R32019:32020 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R32018:32018 VST.msl.predicates_hered <> Q:646 var
+R32021:32021 VST.msl.predicates_hered <> R:647 var
+R32048:32055 VST.msl.predicates_hered <> pred_ext thm
+R32048:32055 VST.msl.predicates_hered <> pred_ext thm
+prf 32183:32192 <> allp_right
+binder 32195:32195 <> B:648
+binder 32197:32197 <> A:649
+R32211:32217 VST.msl.ageable <> ageable class
+R32219:32219 VST.msl.predicates_hered <> A:649 var
+binder 32206:32208 <> agA:650
+R32236:32239 VST.msl.predicates_hered <> pred def
+R32241:32241 VST.msl.predicates_hered <> A:649 var
+binder 32233:32233 <> P:651
+R32249:32252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32253:32256 VST.msl.predicates_hered <> pred def
+R32258:32258 VST.msl.predicates_hered <> A:649 var
+R32248:32248 VST.msl.predicates_hered <> B:648 var
+binder 32245:32245 <> Q:652
+R32264:32264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32284:32291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32293:32297 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R32292:32292 VST.msl.predicates_hered <> P:651 var
+R32298:32301 VST.msl.predicates_hered <> allp def
+R32303:32303 VST.msl.predicates_hered <> Q:652 var
+binder 32272:32272 <> v:653
+R32276:32280 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R32275:32275 VST.msl.predicates_hered <> P:651 var
+R32281:32281 VST.msl.predicates_hered <> Q:652 var
+R32283:32283 VST.msl.predicates_hered <> v:653 var
+prf 32367:32375 <> allp_left
+binder 32378:32378 <> B:654
+binder 32381:32381 <> A:655
+R32389:32395 VST.msl.ageable <> ageable class
+R32397:32397 VST.msl.predicates_hered <> A:655 var
+binder 32384:32386 <> agA:656
+R32416:32419 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32420:32423 VST.msl.predicates_hered <> pred def
+R32425:32425 VST.msl.predicates_hered <> A:655 var
+R32415:32415 VST.msl.predicates_hered <> B:654 var
+binder 32412:32412 <> P:657
+binder 32428:32428 <> x:658
+binder 32430:32430 <> Q:659
+R32442:32445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32452:32456 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R32446:32449 VST.msl.predicates_hered <> allp def
+R32451:32451 VST.msl.predicates_hered <> P:657 var
+R32457:32457 VST.msl.predicates_hered <> Q:659 var
+R32436:32440 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R32433:32433 VST.msl.predicates_hered <> P:657 var
+R32435:32435 VST.msl.predicates_hered <> x:658 var
+R32441:32441 VST.msl.predicates_hered <> Q:659 var
+prf 32522:32531 <> later_imp2
+binder 32534:32534 <> A:660
+R32542:32548 VST.msl.ageable <> ageable class
+R32550:32550 VST.msl.predicates_hered <> A:660 var
+binder 32537:32539 <> agA:661
+R32566:32569 VST.msl.predicates_hered <> pred def
+R32571:32571 VST.msl.predicates_hered <> A:660 var
+binder 32561:32561 <> P:662
+binder 32563:32563 <> Q:663
+R32604:32606 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32591:32594 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R32603:32603 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R32596:32601 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R32595:32595 VST.msl.predicates_hered <> P:662 var
+R32602:32602 VST.msl.predicates_hered <> Q:663 var
+R32602:32602 VST.msl.predicates_hered <> Q:663 var
+R32595:32595 VST.msl.predicates_hered <> P:662 var
+R32611:32616 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R32607:32609 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R32610:32610 VST.msl.predicates_hered <> P:662 var
+R32617:32619 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R32620:32620 VST.msl.predicates_hered <> Q:663 var
+R32617:32619 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R32620:32620 VST.msl.predicates_hered <> Q:663 var
+R32607:32609 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R32610:32610 VST.msl.predicates_hered <> P:662 var
+R32659:32667 VST.msl.predicates_hered <> later_imp thm
+R32659:32667 VST.msl.predicates_hered <> later_imp thm
+R32659:32667 VST.msl.predicates_hered <> later_imp thm
+R32659:32667 VST.msl.predicates_hered <> later_imp thm
+R32659:32667 VST.msl.predicates_hered <> later_imp thm
+R32659:32667 VST.msl.predicates_hered <> later_imp thm
+R32681:32690 VST.msl.predicates_hered <> later_andp thm
+R32681:32690 VST.msl.predicates_hered <> later_andp thm
+R32681:32690 VST.msl.predicates_hered <> later_andp thm

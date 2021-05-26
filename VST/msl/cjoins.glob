@@ -1,0 +1,478 @@
+DIGEST a15709dbc02c9f90a80b794fb8003b34
+FVST.msl.cjoins
+R102:113 VST.msl.base <> <> lib
+R131:144 VST.msl.sepalg <> <> lib
+def 159:179 <> constructive_join_sub
+binder 182:182 <> A:1
+R192:195 VST.msl.sepalg <> Join class
+R197:197 VST.msl.cjoins <> A:1 var
+binder 186:189 <> JOIN:2
+R208:208 VST.msl.cjoins <> A:1 var
+binder 201:202 <> w1:3
+binder 204:205 <> w3:4
+R214:214 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R217:219 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R233:233 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 215:216 <> w2:5
+R220:223 VST.msl.sepalg <> join def
+R231:232 VST.msl.cjoins <> w3:4 var
+R228:229 VST.msl.cjoins <> w2:5 var
+R225:226 VST.msl.cjoins <> w1:3 var
+prf 243:260 <> cjoin_sub_join_sub
+binder 262:262 <> A:6
+R272:275 VST.msl.sepalg <> Join class
+R277:277 VST.msl.cjoins <> A:6 var
+binder 266:269 <> JOIN:7
+binder 293:294 <> w1:8
+binder 296:297 <> w3:9
+R328:331 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R332:339 VST.msl.sepalg <> join_sub def
+R344:345 VST.msl.cjoins <> w3:9 var
+R341:342 VST.msl.cjoins <> w1:8 var
+R301:321 VST.msl.cjoins <> constructive_join_sub def
+R326:327 VST.msl.cjoins <> w3:9 var
+R323:324 VST.msl.cjoins <> w1:8 var
+prf 414:426 <> cjoin_sub_irr
+binder 429:429 <> A:10
+R434:441 VST.msl.sepalg <> Perm_alg class
+R443:443 VST.msl.cjoins <> A:10 var
+binder 434:443 <> H:12
+R450:457 VST.msl.sepalg <> Canc_alg class
+R459:459 VST.msl.cjoins <> A:10 var
+binder 446:447 <> CA:13
+R482:482 VST.msl.cjoins <> A:10 var
+binder 475:476 <> w1:14
+binder 478:479 <> w3:15
+R493:513 VST.msl.cjoins <> constructive_join_sub def
+R518:519 VST.msl.cjoins <> w3:15 var
+R515:516 VST.msl.cjoins <> w1:14 var
+binder 486:487 <> j1:16
+binder 489:490 <> j2:17
+R535:537 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R523:531 Coq.Init.Specif <> proj1_sig def
+R533:534 VST.msl.cjoins <> j1:16 var
+R538:546 Coq.Init.Specif <> proj1_sig def
+R548:549 VST.msl.cjoins <> j2:17 var
+R628:636 VST.msl.sepalg <> join_canc def
+R653:661 VST.msl.sepalg <> join_comm meth
+R639:647 VST.msl.sepalg <> join_comm meth
+R628:636 VST.msl.sepalg <> join_canc def
+R653:661 VST.msl.sepalg <> join_comm meth
+R639:647 VST.msl.sepalg <> join_comm meth
+prf 681:695 <> cjoin_sub_trans
+binder 698:698 <> A:18
+R703:710 VST.msl.sepalg <> Perm_alg class
+R712:712 VST.msl.cjoins <> A:18 var
+binder 703:712 <> H:20
+binder 723:723 <> a:21
+binder 725:725 <> b:22
+binder 727:727 <> c:23
+R765:768 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R794:797 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R798:818 VST.msl.cjoins <> constructive_join_sub def
+R822:822 VST.msl.cjoins <> c:23 var
+R820:820 VST.msl.cjoins <> a:21 var
+R769:789 VST.msl.cjoins <> constructive_join_sub def
+R793:793 VST.msl.cjoins <> c:23 var
+R791:791 VST.msl.cjoins <> b:22 var
+R740:760 VST.msl.cjoins <> constructive_join_sub def
+R764:764 VST.msl.cjoins <> b:22 var
+R762:762 VST.msl.cjoins <> a:21 var
+R895:904 VST.msl.sepalg <> join_assoc meth
+R895:904 VST.msl.sepalg <> join_assoc meth
+prf 956:981 <> constructive_join_sub_refl
+binder 984:984 <> A:24
+R989:996 VST.msl.sepalg <> Perm_alg class
+R998:998 VST.msl.cjoins <> A:24 var
+binder 989:998 <> H:26
+R1005:1011 VST.msl.sepalg <> Sep_alg class
+R1013:1013 VST.msl.cjoins <> A:24 var
+binder 1001:1002 <> SA:27
+binder 1024:1024 <> x:28
+R1027:1047 VST.msl.cjoins <> constructive_join_sub def
+R1051:1051 VST.msl.cjoins <> x:28 var
+R1049:1049 VST.msl.cjoins <> x:28 var
+R1079:1091 VST.msl.sepalg <> join_ex_units thm
+R1079:1091 VST.msl.sepalg <> join_ex_units thm
+R1114:1122 VST.msl.sepalg <> join_comm meth
+R1114:1122 VST.msl.sepalg <> join_comm meth
+def 1199:1216 <> constructive_joins
+binder 1219:1219 <> A:29
+R1230:1233 VST.msl.sepalg <> Join class
+R1235:1235 VST.msl.cjoins <> A:29 var
+binder 1224:1227 <> JOIN:30
+R1247:1247 VST.msl.cjoins <> A:29 var
+binder 1239:1240 <> w1:31
+binder 1242:1243 <> w2:32
+R1253:1253 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R1256:1258 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R1272:1272 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 1254:1255 <> w3:33
+R1259:1262 VST.msl.sepalg <> join def
+R1270:1271 VST.msl.cjoins <> w3:33 var
+R1267:1268 VST.msl.cjoins <> w2:32 var
+R1264:1265 VST.msl.cjoins <> w1:31 var
+prf 1282:1293 <> cjoins_joins
+binder 1296:1296 <> A:34
+R1307:1310 VST.msl.sepalg <> Join class
+R1312:1312 VST.msl.cjoins <> A:34 var
+binder 1301:1304 <> JOIN:35
+binder 1324:1325 <> w1:36
+binder 1327:1328 <> w2:37
+R1356:1359 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1360:1364 VST.msl.sepalg <> joins def
+R1369:1370 VST.msl.cjoins <> w2:37 var
+R1366:1367 VST.msl.cjoins <> w1:36 var
+R1332:1349 VST.msl.cjoins <> constructive_joins def
+R1354:1355 VST.msl.cjoins <> w2:37 var
+R1351:1352 VST.msl.cjoins <> w1:36 var
+prf 1439:1448 <> cjoins_irr
+binder 1451:1451 <> A:38
+R1456:1463 VST.msl.sepalg <> Perm_alg class
+R1465:1465 VST.msl.cjoins <> A:38 var
+binder 1456:1465 <> H:40
+R1484:1484 VST.msl.cjoins <> A:38 var
+binder 1477:1478 <> w1:41
+binder 1480:1481 <> w2:42
+R1499:1516 VST.msl.cjoins <> constructive_joins def
+R1521:1522 VST.msl.cjoins <> w2:42 var
+R1518:1519 VST.msl.cjoins <> w1:41 var
+binder 1492:1493 <> j1:43
+binder 1495:1496 <> j2:44
+R1538:1540 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1526:1534 Coq.Init.Specif <> proj1_sig def
+R1536:1537 VST.msl.cjoins <> j1:43 var
+R1541:1549 Coq.Init.Specif <> proj1_sig def
+R1551:1552 VST.msl.cjoins <> j2:44 var
+R1632:1638 VST.msl.sepalg <> join_eq meth
+R1632:1638 VST.msl.sepalg <> join_eq meth
+prf 1659:1680 <> constructive_joins_sym
+binder 1683:1683 <> A:45
+R1688:1695 VST.msl.sepalg <> Perm_alg class
+R1697:1697 VST.msl.cjoins <> A:45 var
+binder 1688:1697 <> H:47
+binder 1708:1708 <> a:48
+binder 1710:1710 <> b:49
+R1741:1743 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1719:1736 VST.msl.cjoins <> constructive_joins def
+R1740:1740 VST.msl.cjoins <> b:49 var
+R1738:1738 VST.msl.cjoins <> a:48 var
+R1744:1761 VST.msl.cjoins <> constructive_joins def
+R1765:1765 VST.msl.cjoins <> a:48 var
+R1763:1763 VST.msl.cjoins <> b:49 var
+R1790:1807 VST.msl.cjoins <> constructive_joins def
+R1844:1851 VST.msl.Axioms <> prop_ext prfax
+R1844:1851 VST.msl.Axioms <> prop_ext prfax
+def 1884:1911 <> same_constructive_silhouette
+binder 1914:1914 <> A:50
+R1924:1927 VST.msl.sepalg <> Join class
+R1929:1929 VST.msl.cjoins <> A:50 var
+binder 1918:1921 <> JOIN:51
+R1938:1938 VST.msl.cjoins <> A:50 var
+binder 1933:1933 <> a:52
+binder 1935:1935 <> b:53
+binder 1955:1955 <> c:54
+R1958:1958 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2007:2028 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2077:2077 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1981:1984 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1985:2002 VST.msl.cjoins <> constructive_joins def
+R2006:2006 VST.msl.cjoins <> b:53 var
+R2004:2004 VST.msl.cjoins <> c:54 var
+R1959:1976 VST.msl.cjoins <> constructive_joins def
+R1980:1980 VST.msl.cjoins <> a:52 var
+R1978:1978 VST.msl.cjoins <> c:54 var
+R2051:2054 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2055:2072 VST.msl.cjoins <> constructive_joins def
+R2076:2076 VST.msl.cjoins <> a:52 var
+R2074:2074 VST.msl.cjoins <> c:54 var
+R2029:2046 VST.msl.cjoins <> constructive_joins def
+R2050:2050 VST.msl.cjoins <> b:53 var
+R2048:2048 VST.msl.cjoins <> c:54 var
+def 2095:2121 <> sub_constructive_silhouette
+binder 2124:2124 <> A:55
+R2134:2137 VST.msl.sepalg <> Join class
+R2139:2139 VST.msl.cjoins <> A:55 var
+binder 2128:2131 <> JOIN:56
+R2149:2149 VST.msl.cjoins <> A:55 var
+binder 2144:2144 <> a:57
+binder 2146:2146 <> b:58
+binder 2166:2166 <> c:59
+R2191:2194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2195:2212 VST.msl.cjoins <> constructive_joins def
+R2216:2216 VST.msl.cjoins <> a:57 var
+R2214:2214 VST.msl.cjoins <> c:59 var
+R2169:2186 VST.msl.cjoins <> constructive_joins def
+R2190:2190 VST.msl.cjoins <> b:58 var
+R2188:2188 VST.msl.cjoins <> c:59 var
+prf 2228:2259 <> sub_constructive_silhouette_refl
+binder 2262:2262 <> A:60
+R2272:2275 VST.msl.sepalg <> Join class
+R2277:2277 VST.msl.cjoins <> A:60 var
+binder 2266:2269 <> JOIN:61
+binder 2289:2289 <> a:62
+R2292:2318 VST.msl.cjoins <> sub_constructive_silhouette def
+R2322:2322 VST.msl.cjoins <> a:62 var
+R2320:2320 VST.msl.cjoins <> a:62 var
+R2341:2367 VST.msl.cjoins <> sub_constructive_silhouette def
+prf 2395:2427 <> sub_constructive_silhouette_trans
+binder 2430:2430 <> A:63
+R2440:2443 VST.msl.sepalg <> Join class
+R2445:2445 VST.msl.cjoins <> A:63 var
+binder 2434:2437 <> JOIN:64
+binder 2457:2457 <> a:65
+binder 2459:2459 <> b:66
+binder 2461:2461 <> c:67
+R2499:2502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2534:2537 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2538:2564 VST.msl.cjoins <> sub_constructive_silhouette def
+R2568:2568 VST.msl.cjoins <> c:67 var
+R2566:2566 VST.msl.cjoins <> a:65 var
+R2503:2529 VST.msl.cjoins <> sub_constructive_silhouette def
+R2533:2533 VST.msl.cjoins <> c:67 var
+R2531:2531 VST.msl.cjoins <> b:66 var
+R2468:2494 VST.msl.cjoins <> sub_constructive_silhouette def
+R2498:2498 VST.msl.cjoins <> b:66 var
+R2496:2496 VST.msl.cjoins <> a:65 var
+R2587:2613 VST.msl.cjoins <> sub_constructive_silhouette def
+prf 2641:2673 <> same_constructive_silhouette_refl
+binder 2676:2676 <> A:68
+R2686:2689 VST.msl.sepalg <> Join class
+R2691:2691 VST.msl.cjoins <> A:68 var
+binder 2680:2683 <> JOIN:69
+binder 2703:2703 <> a:70
+R2706:2733 VST.msl.cjoins <> same_constructive_silhouette def
+R2737:2737 VST.msl.cjoins <> a:70 var
+R2735:2735 VST.msl.cjoins <> a:70 var
+R2756:2783 VST.msl.cjoins <> same_constructive_silhouette def
+prf 2811:2842 <> same_constructive_silhouette_sym
+binder 2845:2845 <> A:71
+R2855:2858 VST.msl.sepalg <> Join class
+R2860:2860 VST.msl.cjoins <> A:71 var
+binder 2849:2852 <> JOIN:72
+binder 2871:2871 <> a:73
+binder 2873:2873 <> b:74
+R2912:2915 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2916:2943 VST.msl.cjoins <> same_constructive_silhouette def
+R2947:2947 VST.msl.cjoins <> a:73 var
+R2945:2945 VST.msl.cjoins <> b:74 var
+R2880:2907 VST.msl.cjoins <> same_constructive_silhouette def
+R2911:2911 VST.msl.cjoins <> b:74 var
+R2909:2909 VST.msl.cjoins <> a:73 var
+R2966:2993 VST.msl.cjoins <> same_constructive_silhouette def
+prf 3043:3076 <> same_constructive_silhouette_trans
+binder 3079:3079 <> A:75
+R3089:3092 VST.msl.sepalg <> Join class
+R3094:3094 VST.msl.cjoins <> A:75 var
+binder 3083:3086 <> JOIN:76
+binder 3105:3105 <> a:77
+binder 3107:3107 <> b:78
+binder 3109:3109 <> c:79
+R3148:3151 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3184:3187 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3188:3215 VST.msl.cjoins <> same_constructive_silhouette def
+R3219:3219 VST.msl.cjoins <> c:79 var
+R3217:3217 VST.msl.cjoins <> a:77 var
+R3152:3179 VST.msl.cjoins <> same_constructive_silhouette def
+R3183:3183 VST.msl.cjoins <> c:79 var
+R3181:3181 VST.msl.cjoins <> b:78 var
+R3116:3143 VST.msl.cjoins <> same_constructive_silhouette def
+R3147:3147 VST.msl.cjoins <> b:78 var
+R3145:3145 VST.msl.cjoins <> a:77 var
+R3237:3264 VST.msl.cjoins <> same_constructive_silhouette def
+prf 3348:3380 <> same_constructive_silhouette_sub1
+binder 3382:3382 <> A:80
+R3392:3395 VST.msl.sepalg <> Join class
+R3397:3397 VST.msl.cjoins <> A:80 var
+binder 3386:3389 <> JOIN:81
+binder 3408:3408 <> a:82
+binder 3410:3410 <> b:83
+R3449:3452 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3453:3479 VST.msl.cjoins <> sub_constructive_silhouette def
+R3483:3483 VST.msl.cjoins <> b:83 var
+R3481:3481 VST.msl.cjoins <> a:82 var
+R3417:3444 VST.msl.cjoins <> same_constructive_silhouette def
+R3448:3448 VST.msl.cjoins <> b:83 var
+R3446:3446 VST.msl.cjoins <> a:82 var
+R3502:3529 VST.msl.cjoins <> same_constructive_silhouette def
+R3532:3558 VST.msl.cjoins <> sub_constructive_silhouette def
+prf 3608:3640 <> same_constructive_silhouette_sub2
+binder 3643:3643 <> A:84
+R3653:3656 VST.msl.sepalg <> Join class
+R3658:3658 VST.msl.cjoins <> A:84 var
+binder 3647:3650 <> JOIN:85
+binder 3669:3669 <> a:86
+binder 3671:3671 <> b:87
+R3711:3714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3715:3741 VST.msl.cjoins <> sub_constructive_silhouette def
+R3745:3745 VST.msl.cjoins <> a:86 var
+R3743:3743 VST.msl.cjoins <> b:87 var
+R3679:3706 VST.msl.cjoins <> same_constructive_silhouette def
+R3710:3710 VST.msl.cjoins <> b:87 var
+R3708:3708 VST.msl.cjoins <> a:86 var
+R3764:3791 VST.msl.cjoins <> same_constructive_silhouette def
+R3794:3820 VST.msl.cjoins <> sub_constructive_silhouette def
+prf 3871:3902 <> sub_same_constructive_silhouette
+binder 3905:3905 <> A:88
+R3915:3918 VST.msl.sepalg <> Join class
+R3920:3920 VST.msl.cjoins <> A:88 var
+binder 3909:3912 <> JOIN:89
+binder 3935:3935 <> a:90
+binder 3937:3937 <> b:91
+R3971:3974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4006:4009 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4010:4037 VST.msl.cjoins <> same_constructive_silhouette def
+R4041:4041 VST.msl.cjoins <> b:91 var
+R4039:4039 VST.msl.cjoins <> a:90 var
+R3975:4001 VST.msl.cjoins <> sub_constructive_silhouette def
+R4005:4005 VST.msl.cjoins <> a:90 var
+R4003:4003 VST.msl.cjoins <> b:91 var
+R3940:3966 VST.msl.cjoins <> sub_constructive_silhouette def
+R3970:3970 VST.msl.cjoins <> b:91 var
+R3968:3968 VST.msl.cjoins <> a:90 var
+R4060:4087 VST.msl.cjoins <> same_constructive_silhouette def
+R4090:4116 VST.msl.cjoins <> sub_constructive_silhouette def
+prf 4167:4199 <> same_constructive_silhouette_join
+binder 4202:4202 <> A:92
+R4211:4218 VST.msl.sepalg <> Perm_alg class
+R4220:4220 VST.msl.cjoins <> A:92 var
+binder 4207:4208 <> HA:94
+binder 4235:4237 <> phi:95
+binder 4239:4242 <> phi':96
+binder 4244:4247 <> phiy:97
+binder 4249:4252 <> phiz:98
+binder 4254:4258 <> phiz':99
+R4304:4313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4332:4341 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4362:4371 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4372:4399 VST.msl.cjoins <> same_constructive_silhouette def
+R4406:4410 VST.msl.cjoins <> phiz':99 var
+R4401:4404 VST.msl.cjoins <> phiz:98 var
+R4342:4345 VST.msl.sepalg <> join def
+R4357:4361 VST.msl.cjoins <> phiz':99 var
+R4352:4355 VST.msl.cjoins <> phiy:97 var
+R4347:4350 VST.msl.cjoins <> phi':96 var
+R4314:4317 VST.msl.sepalg <> join def
+R4328:4331 VST.msl.cjoins <> phiz:98 var
+R4323:4326 VST.msl.cjoins <> phiy:97 var
+R4319:4321 VST.msl.cjoins <> phi:95 var
+R4267:4294 VST.msl.cjoins <> same_constructive_silhouette def
+R4300:4303 VST.msl.cjoins <> phi':96 var
+R4296:4298 VST.msl.cjoins <> phi:95 var
+R4501:4510 VST.msl.sepalg <> join_assoc meth
+R4516:4524 VST.msl.sepalg <> join_comm meth
+R4501:4510 VST.msl.sepalg <> join_assoc meth
+R4516:4524 VST.msl.sepalg <> join_comm meth
+R4616:4633 VST.msl.cjoins <> constructive_joins def
+R4616:4633 VST.msl.cjoins <> constructive_joins def
+R4691:4712 VST.msl.cjoins <> constructive_joins_sym thm
+R4691:4712 VST.msl.cjoins <> constructive_joins_sym thm
+R4691:4712 VST.msl.cjoins <> constructive_joins_sym thm
+R4783:4792 VST.msl.sepalg <> join_assoc meth
+R4795:4803 VST.msl.sepalg <> join_comm meth
+R4783:4792 VST.msl.sepalg <> join_assoc meth
+R4795:4803 VST.msl.sepalg <> join_comm meth
+R4845:4851 VST.msl.sepalg <> join_eq meth
+R4857:4865 VST.msl.sepalg <> join_comm meth
+R4845:4851 VST.msl.sepalg <> join_eq meth
+R4857:4865 VST.msl.sepalg <> join_comm meth
+R4971:4980 VST.msl.sepalg <> join_assoc meth
+R4986:4994 VST.msl.sepalg <> join_comm meth
+R4971:4980 VST.msl.sepalg <> join_assoc meth
+R4986:4994 VST.msl.sepalg <> join_comm meth
+R5086:5103 VST.msl.cjoins <> constructive_joins def
+R5086:5103 VST.msl.cjoins <> constructive_joins def
+R5163:5184 VST.msl.cjoins <> constructive_joins_sym thm
+R5163:5184 VST.msl.cjoins <> constructive_joins_sym thm
+R5163:5184 VST.msl.cjoins <> constructive_joins_sym thm
+R5255:5264 VST.msl.sepalg <> join_assoc meth
+R5267:5275 VST.msl.sepalg <> join_comm meth
+R5255:5264 VST.msl.sepalg <> join_assoc meth
+R5267:5275 VST.msl.sepalg <> join_comm meth
+R5317:5323 VST.msl.sepalg <> join_eq meth
+R5329:5337 VST.msl.sepalg <> join_comm meth
+R5317:5323 VST.msl.sepalg <> join_eq meth
+R5329:5337 VST.msl.sepalg <> join_comm meth
+prf 5444:5476 <> constructive_join_sub_joins_trans
+binder 5479:5479 <> A:100
+R5487:5490 VST.msl.sepalg <> Join class
+R5492:5492 VST.msl.cjoins <> A:100 var
+binder 5483:5484 <> JA:101
+R5499:5506 VST.msl.sepalg <> Perm_alg class
+R5508:5508 VST.msl.cjoins <> A:100 var
+binder 5495:5496 <> PA:102
+binder 5520:5520 <> a:103
+binder 5522:5522 <> b:104
+binder 5524:5524 <> c:105
+R5555:5558 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5581:5584 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5585:5602 VST.msl.cjoins <> constructive_joins def
+R5606:5606 VST.msl.cjoins <> b:104 var
+R5604:5604 VST.msl.cjoins <> a:103 var
+R5559:5576 VST.msl.cjoins <> constructive_joins def
+R5580:5580 VST.msl.cjoins <> b:104 var
+R5578:5578 VST.msl.cjoins <> c:105 var
+R5530:5550 VST.msl.cjoins <> constructive_join_sub def
+R5554:5554 VST.msl.cjoins <> c:105 var
+R5552:5552 VST.msl.cjoins <> a:103 var
+R5680:5689 VST.msl.sepalg <> join_assoc meth
+R5692:5700 VST.msl.sepalg <> join_comm meth
+R5680:5689 VST.msl.sepalg <> join_assoc meth
+R5692:5700 VST.msl.sepalg <> join_comm meth
+prf 5757:5783 <> join_constructive_join_sub1
+binder 5786:5786 <> A:106
+R5794:5797 VST.msl.sepalg <> Join class
+R5799:5799 VST.msl.cjoins <> A:106 var
+binder 5790:5791 <> JA:107
+R5806:5813 VST.msl.sepalg <> Perm_alg class
+R5815:5815 VST.msl.cjoins <> A:106 var
+binder 5802:5803 <> PA:108
+binder 5827:5827 <> a:109
+binder 5829:5829 <> b:110
+binder 5831:5831 <> c:111
+R5847:5850 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5851:5871 VST.msl.cjoins <> constructive_join_sub def
+R5875:5875 VST.msl.cjoins <> c:111 var
+R5873:5873 VST.msl.cjoins <> a:109 var
+R5837:5840 VST.msl.sepalg <> join def
+R5846:5846 VST.msl.cjoins <> c:111 var
+R5844:5844 VST.msl.cjoins <> b:110 var
+R5842:5842 VST.msl.cjoins <> a:109 var
+prf 5921:5947 <> join_constructive_join_sub2
+binder 5950:5950 <> A:112
+R5958:5961 VST.msl.sepalg <> Join class
+R5963:5963 VST.msl.cjoins <> A:112 var
+binder 5954:5955 <> JA:113
+R5970:5977 VST.msl.sepalg <> Perm_alg class
+R5979:5979 VST.msl.cjoins <> A:112 var
+binder 5966:5967 <> PA:114
+binder 5991:5991 <> a:115
+binder 5993:5993 <> b:116
+binder 5995:5995 <> c:117
+R6011:6014 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6015:6035 VST.msl.cjoins <> constructive_join_sub def
+R6039:6039 VST.msl.cjoins <> c:117 var
+R6037:6037 VST.msl.cjoins <> b:116 var
+R6001:6004 VST.msl.sepalg <> join def
+R6010:6010 VST.msl.cjoins <> c:117 var
+R6008:6008 VST.msl.cjoins <> b:116 var
+R6006:6006 VST.msl.cjoins <> a:115 var
+prf 6085:6107 <> join_constructive_joins
+binder 6110:6110 <> A:118
+R6118:6121 VST.msl.sepalg <> Join class
+R6123:6123 VST.msl.cjoins <> A:118 var
+binder 6114:6115 <> JA:119
+R6130:6137 VST.msl.sepalg <> Perm_alg class
+R6139:6139 VST.msl.cjoins <> A:118 var
+binder 6126:6127 <> PA:120
+binder 6151:6151 <> a:121
+binder 6153:6153 <> b:122
+binder 6155:6155 <> c:123
+R6171:6174 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6175:6192 VST.msl.cjoins <> constructive_joins def
+R6196:6196 VST.msl.cjoins <> b:122 var
+R6194:6194 VST.msl.cjoins <> a:121 var
+R6161:6164 VST.msl.sepalg <> join def
+R6170:6170 VST.msl.cjoins <> c:123 var
+R6168:6168 VST.msl.cjoins <> b:122 var
+R6166:6166 VST.msl.cjoins <> a:121 var

@@ -1,0 +1,752 @@
+DIGEST 570a1907090c16c6a9f878d5c73b2a15
+FVST.veric.SeparationLogicSoundness
+R15:35 VST.sepcomp.semantics <> <> lib
+R54:73 VST.veric.juicy_base <> <> lib
+R91:109 VST.veric.juicy_mem <> <> lib
+R111:136 VST.veric.juicy_mem_lemmas <> <> lib
+R138:160 VST.veric.juicy_mem_ops <> <> lib
+R178:201 VST.veric.res_predicates <> <> lib
+R219:237 VST.veric.extend_tc <> <> lib
+R255:277 VST.veric.Clight_seplog <> <> lib
+R295:324 VST.veric.Clight_assert_lemmas <> <> lib
+R342:362 VST.veric.Clight_core <> <> lib
+R380:398 VST.sepcomp.extspec <> <> lib
+R416:438 VST.sepcomp.step_lemmas <> <> lib
+R456:478 VST.veric.juicy_extspec <> <> lib
+R496:514 VST.veric.tycontext <> <> lib
+R532:546 VST.veric.expr2 <> <> lib
+R564:578 VST.veric.semax <> <> lib
+R596:617 VST.veric.semax_lemmas <> <> lib
+R635:656 VST.veric.semax_conseq <> <> lib
+R674:696 VST.veric.Clight_lemmas <> <> lib
+R714:743 VST.veric.Clight_initial_world <> <> lib
+R761:780 VST.veric.semax_call <> <> lib
+R798:821 VST.veric.semax_straight <> <> lib
+R839:858 VST.veric.semax_loop <> <> lib
+R876:897 VST.veric.semax_switch <> <> lib
+R915:934 VST.veric.semax_prog <> <> lib
+R952:970 VST.veric.semax_ext <> <> lib
+R988:1012 VST.veric.SeparationLogic <> <> lib
+R1031:1049 VST.veric.ghost_PCM <> <> lib
+modtype 1065:1096 <> SEPARATION_HOARE_LOGIC_SOUNDNESS
+R1125:1157 VST.veric.SeparationLogic CLIGHT_SEPARATION_HOARE_LOGIC_DEF <> mod
+mod 1115:1122 <> SEPARATION_HOARE_LOGIC_SOUNDNESS.CSHL_Def
+R1181:1191 VST.veric.SeparationLogic DerivedDefs <> modtype
+R1193:1200 VST.veric.SeparationLogicSoundness SEPARATION_HOARE_LOGIC_SOUNDNESS.CSHL_Def <> modtype
+mod 1168:1176 <> SEPARATION_HOARE_LOGIC_SOUNDNESS.CSHL_Defs
+ax 1247:1262 SEPARATION_HOARE_LOGIC_SOUNDNESS semax_prog_sound
+R1283:1292 VST.veric.juicy_extspec <> OracleKind class
+binder 1276:1280 <> Espec:1
+R1299:1307 VST.veric.mpred <> compspecs class
+binder 1295:1296 <> CS:2
+binder 1310:1313 <> prog:3
+binder 1315:1315 <> z:4
+binder 1317:1321 <> Vspec:5
+binder 1323:1327 <> Gspec:6
+R1371:1376 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1378:1398 VST.veric.semax_prog <> semax_prog def
+R1422:1426 VST.veric.SeparationLogicSoundness <> Gspec:6 var
+R1416:1420 VST.veric.SeparationLogicSoundness <> Vspec:5 var
+R1414:1414 VST.veric.SeparationLogicSoundness <> z:4 var
+R1409:1412 VST.veric.SeparationLogicSoundness <> prog:3 var
+R1406:1407 VST.veric.SeparationLogicSoundness <> CS:2 var
+R1400:1404 VST.veric.SeparationLogicSoundness <> Espec:1 var
+R1333:1342 VST.veric.SeparationLogicSoundness SEPARATION_HOARE_LOGIC_SOUNDNESS semax_prog def
+R1366:1370 VST.veric.SeparationLogicSoundness <> Gspec:6 var
+R1360:1364 VST.veric.SeparationLogicSoundness <> Vspec:5 var
+R1358:1358 VST.veric.SeparationLogicSoundness <> z:4 var
+R1353:1356 VST.veric.SeparationLogicSoundness <> prog:3 var
+R1350:1351 VST.veric.SeparationLogicSoundness <> CS:2 var
+R1344:1348 VST.veric.SeparationLogicSoundness <> Espec:1 var
+ax 1436:1450 SEPARATION_HOARE_LOGIC_SOUNDNESS semax_prog_rule
+R1471:1480 VST.veric.juicy_extspec <> OracleKind class
+binder 1464:1468 <> Espec:8
+R1487:1495 VST.veric.mpred <> compspecs class
+binder 1483:1484 <> CS:9
+binder 1508:1508 <> V:10
+binder 1510:1510 <> G:11
+binder 1512:1515 <> prog:12
+binder 1517:1517 <> m:13
+binder 1519:1519 <> h:14
+binder 1521:1521 <> z:15
+R1565:1573 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1605:1613 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1641:1649 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1650:1651 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R1653:1655 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R1661:1663 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R2373:2374 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R1656:1660 compcert.common.Values <> block def
+binder 1652:1652 <> b:16
+R1664:1665 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R1667:1669 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R1677:1686 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R2371:2372 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R1670:1676 VST.veric.Clight_core <> CC_core def
+binder 1666:1666 <> q:17
+R1948:1957 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1687:1687 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1747:1758 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1947:1947 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1738:1740 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1688:1703 compcert.common.Globalenvs Genv find_symbol def
+R1723:1731 compcert.common.AST <> prog_main proj
+R1733:1736 VST.veric.SeparationLogicSoundness <> prog:12 var
+R1706:1714 compcert.cfrontend.Clight <> globalenv def
+R1716:1719 VST.veric.SeparationLogicSoundness <> prog:12 var
+R1741:1744 Coq.Init.Datatypes <> Some constr
+R1746:1746 VST.veric.SeparationLogicSoundness <> b:16 var
+binder 1766:1767 <> jm:18
+R1782:1785 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1786:1792 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1796:1817 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1793:1795 <> jm':19
+R1818:1839 VST.sepcomp.semantics <> initial_core proj
+R1944:1946 Coq.Init.Datatypes <> nil constr
+R1924:1927 compcert.common.Values <> Vptr constr
+R1931:1941 compcert.lib.Integers Ptrofs zero def
+R1929:1929 VST.veric.SeparationLogicSoundness <> b:16 var
+R1919:1921 VST.veric.SeparationLogicSoundness <> jm':19 var
+R1917:1917 VST.veric.SeparationLogicSoundness <> q:17 var
+R1914:1915 VST.veric.SeparationLogicSoundness <> jm:18 var
+R1889:1889 VST.veric.SeparationLogicSoundness <> h:14 var
+R1842:1855 VST.veric.juicy_extspec <> juicy_core_sem def
+R1858:1868 VST.veric.Clight_core <> cl_core_sem def
+R1871:1879 compcert.cfrontend.Clight <> globalenv def
+R1881:1884 VST.veric.SeparationLogicSoundness <> prog:12 var
+R1778:1780 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1770:1774 VST.veric.juicy_mem <> m_dry def
+R1776:1777 VST.veric.SeparationLogicSoundness <> jm:18 var
+R1781:1781 VST.veric.SeparationLogicSoundness <> m:13 var
+binder 1965:1965 <> n:20
+R1977:1978 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R1981:1994 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R2364:2370 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 1979:1980 <> jm:21
+R2007:2010 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2003:2005 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1995:1999 VST.veric.juicy_mem <> m_dry def
+R2001:2002 VST.veric.SeparationLogicSoundness <> jm:21 var
+R2006:2006 VST.veric.SeparationLogicSoundness <> m:13 var
+R2023:2037 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2019:2021 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2011:2015 VST.msl.ageable <> level meth
+R2017:2018 VST.veric.SeparationLogicSoundness <> jm:21 var
+R2022:2022 VST.veric.SeparationLogicSoundness <> n:20 var
+R2106:2120 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2071:2073 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2038:2046 Coq.Lists.List <> nth_error def
+R2049:2056 VST.veric.compcert_rmaps RML.R ghost_of def
+R2059:2063 VST.veric.juicy_mem <> m_phi def
+R2065:2066 VST.veric.SeparationLogicSoundness <> jm:21 var
+R2074:2077 Coq.Init.Datatypes <> Some constr
+R2080:2083 Coq.Init.Datatypes <> Some constr
+R2085:2085 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2097:2098 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2104:2104 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2086:2094 VST.veric.ghost_PCM <> ext_ghost def
+R2096:2096 VST.veric.SeparationLogicSoundness <> z:15 var
+R2099:2103 VST.veric.compcert_rmaps RML.R NoneP def
+R2170:2184 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2121:2126 VST.veric.semax <> jsafeN def
+R2168:2169 VST.veric.SeparationLogicSoundness <> jm:21 var
+R2166:2166 VST.veric.SeparationLogicSoundness <> q:17 var
+R2164:2164 VST.veric.SeparationLogicSoundness <> z:15 var
+R2162:2162 VST.veric.SeparationLogicSoundness <> n:20 var
+R2146:2154 compcert.cfrontend.Clight <> globalenv def
+R2156:2159 VST.veric.SeparationLogicSoundness <> prog:12 var
+R2130:2136 VST.veric.juicy_extspec <> OK_spec meth
+R2138:2142 VST.veric.SeparationLogicSoundness <> Espec:8 var
+R2204:2218 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2185:2192 VST.veric.initial_world <> no_locks def
+R2195:2199 VST.veric.juicy_mem <> m_phi def
+R2201:2202 VST.veric.SeparationLogicSoundness <> jm:21 var
+R2262:2276 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2219:2231 VST.veric.Clight_initial_world <> matchfunspecs def
+R2253:2257 VST.veric.juicy_mem <> m_phi def
+R2259:2260 VST.veric.SeparationLogicSoundness <> jm:21 var
+R2250:2250 VST.veric.SeparationLogicSoundness <> G:11 var
+R2234:2242 compcert.cfrontend.Clight <> globalenv def
+R2244:2247 VST.veric.SeparationLogicSoundness <> prog:12 var
+R2277:2284 VST.msl.predicates_hered <> app_pred def
+R2355:2359 VST.veric.juicy_mem <> m_phi def
+R2361:2362 VST.veric.SeparationLogicSoundness <> jm:21 var
+R2287:2295 VST.veric.Clight_seplog <> funassert def
+R2321:2333 VST.veric.tycontext <> empty_environ def
+R2336:2344 compcert.cfrontend.Clight <> globalenv def
+R2346:2349 VST.veric.SeparationLogicSoundness <> prog:12 var
+R2298:2313 VST.veric.tycontext <> nofunc_tycontext def
+R2317:2317 VST.veric.SeparationLogicSoundness <> G:11 var
+R2315:2315 VST.veric.SeparationLogicSoundness <> V:10 var
+R1632:1634 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1614:1626 compcert.common.Globalenvs Genv init_mem def
+R1628:1631 VST.veric.SeparationLogicSoundness <> prog:12 var
+R1635:1638 Coq.Init.Datatypes <> Some constr
+R1640:1640 VST.veric.SeparationLogicSoundness <> m:13 var
+R1575:1584 VST.veric.SeparationLogicSoundness SEPARATION_HOARE_LOGIC_SOUNDNESS semax_prog def
+R1604:1604 VST.veric.SeparationLogicSoundness <> G:11 var
+R1602:1602 VST.veric.SeparationLogicSoundness <> V:10 var
+R1600:1600 VST.veric.SeparationLogicSoundness <> z:15 var
+R1595:1598 VST.veric.SeparationLogicSoundness <> prog:12 var
+R1592:1593 VST.veric.SeparationLogicSoundness <> CS:9 var
+R1586:1590 VST.veric.SeparationLogicSoundness <> Espec:8 var
+R1529:1553 VST.veric.semax_prog <> postcondition_allows_exit def
+R1561:1564 compcert.exportclight.Clightdefs <> tint def
+R1555:1559 VST.veric.SeparationLogicSoundness <> Espec:8 var
+R2387:2418 VST.veric.SeparationLogicSoundness SEPARATION_HOARE_LOGIC_SOUNDNESS <> modtype
+modtype 2434:2455 <> MAIN_THEOREM_STATEMENT
+R2484:2516 VST.veric.SeparationLogic CLIGHT_SEPARATION_HOARE_LOGIC_DEF <> mod
+mod 2474:2481 <> MAIN_THEOREM_STATEMENT.CSHL_Def
+R2554:2590 VST.veric.SeparationLogic MINIMUM_CLIGHT_SEPARATION_HOARE_LOGIC <> mod
+R2616:2623 VST.veric.SeparationLogicSoundness MAIN_THEOREM_STATEMENT.CSHL_Def <> modtype
+mod 2535:2551 <> MAIN_THEOREM_STATEMENT.CSHL_MinimumLogic
+R2776:2814 VST.veric.SeparationLogic PRACTICAL_CLIGHT_SEPARATION_HOARE_LOGIC <> mod
+R2849:2865 VST.veric.SeparationLogicSoundness MAIN_THEOREM_STATEMENT.CSHL_MinimumLogic <> modtype
+mod 2755:2773 <> MAIN_THEOREM_STATEMENT.CSHL_PracticalLogic
+R2896:2927 VST.veric.SeparationLogicSoundness SEPARATION_HOARE_LOGIC_SOUNDNESS <> mod
+R2953:2960 VST.veric.SeparationLogicSoundness MAIN_THEOREM_STATEMENT.CSHL_Def <> modtype
+mod 2884:2893 <> MAIN_THEOREM_STATEMENT.CSHL_Sound
+R2968:2989 VST.veric.SeparationLogicSoundness MAIN_THEOREM_STATEMENT <> modtype
+R3012:3044 VST.veric.SeparationLogic CLIGHT_SEPARATION_HOARE_LOGIC_DEF <> mod
+mod 3000:3007 <> VericDef
+def 3059:3063 VericDef semax
+R3069:3073 VST.veric.semax <> semax def
+def 3088:3097 VericDef semax_func
+R3103:3112 VST.veric.semax_prog <> semax_func def
+def 3127:3140 VericDef semax_external
+R3150:3159 VST.veric.juicy_extspec <> OracleKind class
+binder 3143:3147 <> Espec:23
+binder 3170:3171 <> ef:24
+binder 3173:3173 <> A:25
+binder 3175:3175 <> P:26
+binder 3177:3177 <> Q:27
+binder 3191:3191 <> n:28
+R3194:3207 VST.veric.semax <> semax_external def
+R3232:3232 VST.veric.SeparationLogicSoundness <> n:28 var
+R3230:3230 VST.veric.SeparationLogicSoundness <> Q:27 var
+R3228:3228 VST.veric.SeparationLogicSoundness <> P:26 var
+R3226:3226 VST.veric.SeparationLogicSoundness <> A:25 var
+R3223:3224 VST.veric.SeparationLogicSoundness <> ef:24 var
+R3209:3213 VST.veric.SeparationLogicSoundness <> Espec:23 var
+R3288:3295 VST.veric.SeparationLogicSoundness VericDef <> mod
+R3335:3371 VST.veric.SeparationLogic MINIMUM_CLIGHT_SEPARATION_HOARE_LOGIC <> mod
+R3397:3404 VST.veric.SeparationLogicSoundness VericDef <> modtype
+mod 3306:3332 <> VericMinimumSeparationLogic
+R3427:3434 VST.veric.SeparationLogicSoundness VericDef <> modtype
+mod 3415:3422 <> VericMinimumSeparationLogic.CSHL_Def
+R3457:3467 VST.veric.SeparationLogic DerivedDefs <> modtype
+R3470:3477 VST.veric.SeparationLogicSoundness VericDef <> modtype
+mod 3444:3452 <> VericMinimumSeparationLogic.CSHL_Defs
+def 3495:3514 VericMinimumSeparationLogic semax_extract_exists
+R3520:3537 VST.veric.semax_lemmas <> extract_exists_pre thm
+def 3551:3560 VericMinimumSeparationLogic semax_body
+R3566:3575 VST.veric.semax_prog <> semax_body def
+def 3589:3598 VericMinimumSeparationLogic semax_prog
+R3604:3613 VST.veric.semax_prog <> semax_prog def
+def 3627:3640 VericMinimumSeparationLogic semax_func_nil
+R3646:3659 VST.veric.semax_prog <> semax_func_nil thm
+def 3673:3687 VericMinimumSeparationLogic semax_func_cons
+R3693:3707 VST.veric.semax_prog <> semax_func_cons thm
+def 3775:3787 VericMinimumSeparationLogic make_ext_rval
+R3792:3816 VST.veric.semax <> make_ext_rval def
+def 3830:3842 VericMinimumSeparationLogic tc_option_val
+R3847:3871 VST.veric.semax <> tc_option_val def
+def 3885:3903 VericMinimumSeparationLogic semax_func_cons_ext
+R3909:3927 VST.veric.semax_prog <> semax_func_cons_ext thm
+def 3941:3963 VericMinimumSeparationLogic semax_Delta_subsumption
+R3969:4004 VST.veric.semax_lemmas <> semax_Delta_subsumption thm
+prf 4014:4046 VericMinimumSeparationLogic semax_external_binaryintersection
+binder 4058:4062 <> Espec:29
+binder 4064:4065 <> ef:30
+binder 4067:4068 <> A1:31
+binder 4070:4071 <> P1:32
+binder 4073:4074 <> Q1:33
+binder 4076:4079 <> P1ne:34
+binder 4081:4084 <> Q1ne:35
+binder 4086:4087 <> A2:36
+binder 4089:4090 <> P2:37
+binder 4092:4093 <> Q2:38
+binder 4095:4098 <> P2ne:39
+binder 4100:4103 <> Q2ne:40
+binder 4105:4105 <> A:41
+binder 4107:4107 <> P:42
+binder 4109:4109 <> Q:43
+binder 4111:4114 <> P_ne:44
+binder 4116:4119 <> Q_ne:45
+binder 4121:4123 <> sig:46
+binder 4125:4126 <> cc:47
+R4147:4169 VST.veric.SeparationLogicSoundness VericMinimumSeparationLogic semax_external def
+R4194:4195 VST.veric.SeparationLogicSoundness <> Q1:33 var
+R4191:4192 VST.veric.SeparationLogicSoundness <> P1:32 var
+R4188:4189 VST.veric.SeparationLogicSoundness <> A1:31 var
+R4185:4186 VST.veric.SeparationLogicSoundness <> ef:30 var
+R4171:4175 VST.veric.SeparationLogicSoundness <> Espec:29 var
+binder 4140:4143 <> EXT1:48
+R4208:4230 VST.veric.SeparationLogicSoundness VericMinimumSeparationLogic semax_external def
+R4255:4256 VST.veric.SeparationLogicSoundness <> Q2:38 var
+R4252:4253 VST.veric.SeparationLogicSoundness <> P2:37 var
+R4249:4250 VST.veric.SeparationLogicSoundness <> A2:36 var
+R4246:4247 VST.veric.SeparationLogicSoundness <> ef:30 var
+R4232:4236 VST.veric.SeparationLogicSoundness <> Espec:29 var
+binder 4201:4204 <> EXT2:49
+R4386:4393 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4266:4284 VST.veric.seplog <> binary_intersection def
+R4349:4358 VST.veric.mpred <> mk_funspec constr
+R4381:4384 VST.veric.SeparationLogicSoundness <> Q2ne:40 var
+R4376:4379 VST.veric.SeparationLogicSoundness <> P2ne:39 var
+R4373:4374 VST.veric.SeparationLogicSoundness <> Q2:38 var
+R4370:4371 VST.veric.SeparationLogicSoundness <> P2:37 var
+R4367:4368 VST.veric.SeparationLogicSoundness <> A2:36 var
+R4364:4365 VST.veric.SeparationLogicSoundness <> cc:47 var
+R4360:4362 VST.veric.SeparationLogicSoundness <> sig:46 var
+R4287:4296 VST.veric.mpred <> mk_funspec constr
+R4319:4322 VST.veric.SeparationLogicSoundness <> Q1ne:35 var
+R4314:4317 VST.veric.SeparationLogicSoundness <> P1ne:34 var
+R4311:4312 VST.veric.SeparationLogicSoundness <> Q1:33 var
+R4308:4309 VST.veric.SeparationLogicSoundness <> P1:32 var
+R4305:4306 VST.veric.SeparationLogicSoundness <> A1:31 var
+R4302:4303 VST.veric.SeparationLogicSoundness <> cc:47 var
+R4298:4300 VST.veric.SeparationLogicSoundness <> sig:46 var
+R4394:4397 Coq.Init.Datatypes <> Some constr
+R4400:4409 VST.veric.mpred <> mk_funspec constr
+R4429:4432 VST.veric.SeparationLogicSoundness <> Q_ne:45 var
+R4424:4427 VST.veric.SeparationLogicSoundness <> P_ne:44 var
+R4422:4422 VST.veric.SeparationLogicSoundness <> Q:43 var
+R4420:4420 VST.veric.SeparationLogicSoundness <> P:42 var
+R4418:4418 VST.veric.SeparationLogicSoundness <> A:41 var
+R4415:4416 VST.veric.SeparationLogicSoundness <> cc:47 var
+R4411:4413 VST.veric.SeparationLogicSoundness <> sig:46 var
+binder 4262:4263 <> BI:50
+R4497:4499 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4481:4486 Coq.Lists.List <> length syndef
+R4489:4491 Coq.Init.Datatypes <> fst def
+R4493:4495 VST.veric.SeparationLogicSoundness <> sig:46 var
+R4500:4505 Coq.Lists.List <> length syndef
+R4508:4515 compcert.common.AST <> sig_args proj
+R4518:4523 compcert.common.AST <> ef_sig def
+R4525:4526 VST.veric.SeparationLogicSoundness <> ef:30 var
+binder 4476:4478 <> LEN:51
+R4535:4557 VST.veric.SeparationLogicSoundness VericMinimumSeparationLogic semax_external def
+R4580:4580 VST.veric.SeparationLogicSoundness <> Q:43 var
+R4578:4578 VST.veric.SeparationLogicSoundness <> P:42 var
+R4576:4576 VST.veric.SeparationLogicSoundness <> A:41 var
+R4573:4574 VST.veric.SeparationLogicSoundness <> ef:30 var
+R4559:4563 VST.veric.SeparationLogicSoundness <> Espec:29 var
+R4616:4648 VST.veric.semax_prog <> semax_external_binaryintersection thm
+R4616:4648 VST.veric.semax_prog <> semax_external_binaryintersection thm
+prf 4706:4731 VericMinimumSeparationLogic semax_external_funspec_sub
+binder 4742:4746 <> Espec:52
+binder 4748:4755 <> argtypes:53
+binder 4757:4761 <> rtype:54
+binder 4763:4764 <> cc:55
+binder 4766:4767 <> ef:56
+binder 4769:4770 <> A1:57
+binder 4772:4773 <> P1:58
+binder 4775:4776 <> Q1:59
+binder 4778:4781 <> P1ne:60
+binder 4783:4786 <> Q1ne:61
+binder 4788:4788 <> A:62
+binder 4790:4790 <> P:63
+binder 4792:4792 <> Q:64
+binder 4794:4796 <> Pne:65
+binder 4798:4800 <> Qne:66
+R4812:4822 VST.veric.SeparationLogic <> funspec_sub def
+R4898:4907 VST.veric.mpred <> mk_funspec constr
+R4940:4942 VST.veric.SeparationLogicSoundness <> Qne:66 var
+R4936:4938 VST.veric.SeparationLogicSoundness <> Pne:65 var
+R4934:4934 VST.veric.SeparationLogicSoundness <> Q:64 var
+R4932:4932 VST.veric.SeparationLogicSoundness <> P:63 var
+R4930:4930 VST.veric.SeparationLogicSoundness <> A:62 var
+R4927:4928 VST.veric.SeparationLogicSoundness <> cc:55 var
+R4909:4909 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4918:4919 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4925:4925 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4910:4917 VST.veric.SeparationLogicSoundness <> argtypes:53 var
+R4920:4924 VST.veric.SeparationLogicSoundness <> rtype:54 var
+R4825:4834 VST.veric.mpred <> mk_funspec constr
+R4871:4874 VST.veric.SeparationLogicSoundness <> Q1ne:61 var
+R4866:4869 VST.veric.SeparationLogicSoundness <> P1ne:60 var
+R4863:4864 VST.veric.SeparationLogicSoundness <> Q1:59 var
+R4860:4861 VST.veric.SeparationLogicSoundness <> P1:58 var
+R4857:4858 VST.veric.SeparationLogicSoundness <> A1:57 var
+R4854:4855 VST.veric.SeparationLogicSoundness <> cc:55 var
+R4836:4836 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4845:4846 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4852:4852 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4837:4844 VST.veric.SeparationLogicSoundness <> argtypes:53 var
+R4847:4851 VST.veric.SeparationLogicSoundness <> rtype:54 var
+binder 4806:4809 <> Hsub:67
+R4964:4976 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4955:4960 compcert.common.AST <> ef_sig def
+R4962:4963 VST.veric.SeparationLogicSoundness <> ef:56 var
+R4977:4987 compcert.common.AST <> mksignature constr
+R5061:5062 VST.veric.SeparationLogicSoundness <> cc:55 var
+R5038:5052 compcert.cfrontend.Ctypes <> rettype_of_type def
+R5054:5058 VST.veric.SeparationLogicSoundness <> rtype:54 var
+R4990:4992 Coq.Lists.List <> map def
+R5006:5013 VST.veric.SeparationLogicSoundness <> argtypes:53 var
+R4994:5004 compcert.cfrontend.Ctypes <> typ_of_type def
+binder 4949:4952 <> HSIG:68
+R5073:5095 VST.veric.SeparationLogicSoundness VericMinimumSeparationLogic semax_external def
+R5112:5113 VST.veric.SeparationLogicSoundness <> Q1:59 var
+R5109:5110 VST.veric.SeparationLogicSoundness <> P1:58 var
+R5106:5107 VST.veric.SeparationLogicSoundness <> A1:57 var
+R5103:5104 VST.veric.SeparationLogicSoundness <> ef:56 var
+R5097:5101 VST.veric.SeparationLogicSoundness <> Espec:52 var
+binder 5068:5069 <> SE:69
+R5120:5142 VST.veric.SeparationLogicSoundness VericMinimumSeparationLogic semax_external def
+R5157:5157 VST.veric.SeparationLogicSoundness <> Q:64 var
+R5155:5155 VST.veric.SeparationLogicSoundness <> P:63 var
+R5153:5153 VST.veric.SeparationLogicSoundness <> A:62 var
+R5150:5151 VST.veric.SeparationLogicSoundness <> ef:56 var
+R5144:5148 VST.veric.SeparationLogicSoundness <> Espec:52 var
+R5192:5217 VST.veric.semax <> semax_external_funspec_sub thm
+R5192:5217 VST.veric.semax <> semax_external_funspec_sub thm
+def 5267:5295 VericMinimumSeparationLogic semax_body_binaryintersection
+R5301:5329 VST.veric.semax_prog <> semax_body_binaryintersection thm
+def 5344:5358 VericMinimumSeparationLogic semax_func_mono
+R5363:5377 VST.veric.semax_prog <> semax_func_mono thm
+def 5391:5404 VericMinimumSeparationLogic semax_func_app
+R5409:5422 VST.veric.semax_prog <> semax_func_app thm
+def 5436:5457 VericMinimumSeparationLogic semax_func_subsumption
+R5462:5483 VST.veric.semax_prog <> semax_func_subsumption thm
+def 5497:5511 VericMinimumSeparationLogic semax_func_join
+R5517:5531 VST.veric.semax_prog <> semax_func_join thm
+def 5545:5561 VericMinimumSeparationLogic semax_func_firstn
+R5566:5582 VST.veric.semax_prog <> semax_func_firstn thm
+def 5596:5611 VericMinimumSeparationLogic semax_func_skipn
+R5616:5631 VST.veric.semax_prog <> semax_func_skipn thm
+def 5645:5666 VericMinimumSeparationLogic semax_body_subsumption
+R5670:5691 VST.veric.semax_prog <> semax_body_subsumption thm
+def 5705:5723 VericMinimumSeparationLogic semax_body_cenv_sub
+R5728:5746 VST.veric.semax_prog <> semax_body_cenv_sub thm
+def 5760:5781 VericMinimumSeparationLogic semax_body_funspec_sub
+R5786:5807 VST.veric.semax_prog <> semax_body_funspec_sub thm
+def 5822:5830 VericMinimumSeparationLogic semax_seq
+R5836:5844 VST.veric.semax_loop <> semax_seq thm
+def 5858:5868 VericMinimumSeparationLogic semax_break
+R5874:5884 VST.veric.semax_loop <> semax_break thm
+def 5898:5911 VericMinimumSeparationLogic semax_continue
+R5917:5930 VST.veric.semax_loop <> semax_continue thm
+def 5944:5953 VericMinimumSeparationLogic semax_loop
+R5959:5968 VST.veric.semax_loop <> semax_loop thm
+def 5982:5993 VericMinimumSeparationLogic semax_switch
+R5999:6010 VST.veric.semax_switch <> semax_switch thm
+def 6024:6035 VericMinimumSeparationLogic semax_Slabel
+R6041:6052 VST.veric.semax_lemmas <> semax_Slabel thm
+def 6175:6191 VericMinimumSeparationLogic semax_set_forward
+R6197:6213 VST.veric.semax_straight <> semax_set_forward thm
+def 6227:6242 VericMinimumSeparationLogic semax_ifthenelse
+R6248:6263 VST.veric.semax_loop <> semax_ifthenelse thm
+def 6277:6288 VericMinimumSeparationLogic semax_return
+R6294:6305 VST.veric.semax_call <> semax_return thm
+prf 6354:6363 VericMinimumSeparationLogic semax_call
+binder 6366:6367 <> CS:70
+binder 6369:6373 <> Espec:71
+binder 6386:6390 <> Delta:72
+R6396:6403 VST.veric.rmaps <> TypeTree ind
+binder 6393:6393 <> A:73
+binder 6420:6421 <> ts:74
+R6424:6449 VST.veric.rmaps <> dependent_type_functor_rec def
+R6465:6469 VST.veric.mpred <> mpred def
+R6455:6460 VST.veric.mpred <> ArgsTT def
+R6462:6462 VST.veric.SeparationLogicSoundness <> A:73 var
+R6451:6452 VST.veric.SeparationLogicSoundness <> ts:74 var
+binder 6409:6409 <> P:75
+binder 6486:6487 <> ts:76
+R6490:6515 VST.veric.rmaps <> dependent_type_functor_rec def
+R6533:6537 VST.veric.mpred <> mpred def
+R6521:6528 VST.veric.mpred <> AssertTT def
+R6530:6530 VST.veric.SeparationLogicSoundness <> A:73 var
+R6517:6518 VST.veric.SeparationLogicSoundness <> ts:76 var
+binder 6475:6475 <> Q:77
+R6548:6571 VST.veric.mpred <> args_super_non_expansive def
+R6573:6573 VST.veric.SeparationLogicSoundness <> P:75 var
+binder 6543:6545 <> NEP:78
+R6582:6600 VST.veric.mpred <> super_non_expansive def
+R6602:6602 VST.veric.SeparationLogicSoundness <> Q:77 var
+binder 6577:6579 <> NEQ:79
+R6612:6615 Coq.Init.Datatypes <> list ind
+binder 6608:6609 <> ts:80
+R6628:6653 VST.veric.rmaps <> dependent_type_functor_rec def
+R6660:6664 VST.veric.mpred <> mpred def
+R6658:6658 VST.veric.SeparationLogicSoundness <> A:73 var
+R6655:6656 VST.veric.SeparationLogicSoundness <> ts:80 var
+binder 6624:6624 <> x:81
+binder 6670:6670 <> F:82
+binder 6672:6674 <> ret:83
+binder 6676:6681 <> argsig:84
+binder 6683:6688 <> retsig:85
+binder 6690:6691 <> cc:86
+binder 6693:6693 <> a:87
+binder 6695:6696 <> bl:88
+R6806:6821 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6822:6822 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6858:6872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6902:6907 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6909:6913 VST.veric.semax <> semax def
+R7221:7237 VST.veric.SeparationLogic <> normal_ret_assert def
+R7253:7255 VST.msl.seplog <> exp meth
+R7612:7614 compcert.common.Values <> val ind
+binder 7606:7608 <> old:89
+R7636:7641 VST.msl.seplog <> sepcon meth
+R8392:8403 VST.veric.SeparationLogic <> maybe_retval def
+R8421:8423 VST.veric.SeparationLogicSoundness <> ret:83 var
+R8414:8419 VST.veric.SeparationLogicSoundness <> retsig:85 var
+R8406:8406 VST.veric.SeparationLogicSoundness <> Q:77 var
+R8411:8411 VST.veric.SeparationLogicSoundness <> x:81 var
+R8408:8409 VST.veric.SeparationLogicSoundness <> ts:80 var
+R8188:8195 VST.veric.SeparationLogic <> substopt def
+R8388:8388 VST.veric.SeparationLogicSoundness <> F:82 var
+R8359:8363 VST.veric.lift <> liftx def
+R8383:8385 VST.veric.SeparationLogicSoundness <> old:89 var
+R8366:8376 VST.veric.mpred <> LiftEnviron canonstruc
+R8378:8380 compcert.common.Values <> val ind
+R8332:8334 VST.veric.SeparationLogicSoundness <> ret:83 var
+R8219:8253 VST.msl.functors MixVariantFunctor _functor proj
+R8325:8329 VST.veric.mpred <> mpred def
+R8279:8323 VST.msl.functors MixVariantFunctorGenerator fidentity def
+R8006:8016 VST.veric.SeparationLogic <> LiftSepLog' inst
+R8160:8165 VST.veric.SeparationLogic <> Sveric inst
+R8153:8158 VST.veric.SeparationLogic <> Nveric inst
+R8040:8074 VST.msl.functors MixVariantFunctor _functor proj
+R8146:8150 VST.veric.mpred <> mpred def
+R8100:8144 VST.msl.functors MixVariantFunctorGenerator fidentity def
+R7831:7841 VST.veric.SeparationLogic <> LiftNatDed' inst
+R7978:7983 VST.veric.SeparationLogic <> Nveric inst
+R7865:7899 VST.msl.functors MixVariantFunctor _functor proj
+R7971:7975 VST.veric.mpred <> mpred def
+R7925:7969 VST.msl.functors MixVariantFunctorGenerator fidentity def
+R7673:7679 VST.veric.mpred <> environ ind
+R7701:7735 VST.msl.functors MixVariantFunctor _functor proj
+R7804:7808 VST.veric.mpred <> mpred def
+R7758:7802 VST.msl.functors MixVariantFunctorGenerator fidentity def
+R7582:7584 compcert.common.Values <> val ind
+R7433:7443 VST.veric.SeparationLogic <> LiftNatDed' inst
+R7574:7579 VST.veric.SeparationLogic <> Nveric inst
+R7464:7498 VST.msl.functors MixVariantFunctor _functor proj
+R7567:7571 VST.veric.mpred <> mpred def
+R7521:7565 VST.msl.functors MixVariantFunctorGenerator fidentity def
+R7284:7290 VST.veric.mpred <> environ ind
+R7309:7343 VST.msl.functors MixVariantFunctor _functor proj
+R7409:7413 VST.veric.mpred <> mpred def
+R7345:7389 VST.msl.functors MixVariantFunctorGenerator fidentity def
+R7195:7199 compcert.cfrontend.Clight <> Scall constr
+R7207:7208 VST.veric.SeparationLogicSoundness <> bl:88 var
+R7205:7205 VST.veric.SeparationLogicSoundness <> a:87 var
+R7201:7203 VST.veric.SeparationLogicSoundness <> ret:83 var
+binder 6942:6944 <> rho:90
+R6949:6956 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R7011:7029 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R7177:7177 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R6976:6979 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R6957:6963 VST.veric.SeparationLogic <> tc_expr def
+R6973:6975 VST.veric.SeparationLogicSoundness <> rho:90 var
+R6971:6971 VST.veric.SeparationLogicSoundness <> a:87 var
+R6965:6969 VST.veric.SeparationLogicSoundness <> Delta:72 var
+R6980:6990 VST.veric.SeparationLogic <> tc_exprlist def
+R7008:7010 VST.veric.SeparationLogicSoundness <> rho:90 var
+R7005:7006 VST.veric.SeparationLogicSoundness <> bl:88 var
+R6998:7003 VST.veric.SeparationLogicSoundness <> argsig:84 var
+R6992:6996 VST.veric.SeparationLogicSoundness <> Delta:72 var
+R7102:7116 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R7176:7176 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R7030:7037 VST.veric.SeparationLogic <> func_ptr def
+R7086:7094 VST.veric.expr <> eval_expr def
+R7098:7100 VST.veric.SeparationLogicSoundness <> rho:90 var
+R7096:7096 VST.veric.SeparationLogicSoundness <> a:87 var
+R7040:7049 VST.veric.mpred <> mk_funspec constr
+R7080:7082 VST.veric.SeparationLogicSoundness <> NEQ:79 var
+R7076:7078 VST.veric.SeparationLogicSoundness <> NEP:78 var
+R7074:7074 VST.veric.SeparationLogicSoundness <> Q:77 var
+R7072:7072 VST.veric.SeparationLogicSoundness <> P:75 var
+R7070:7070 VST.veric.SeparationLogicSoundness <> A:73 var
+R7067:7068 VST.veric.SeparationLogicSoundness <> cc:86 var
+R7051:7051 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7058:7058 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7065:7065 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7052:7057 VST.veric.SeparationLogicSoundness <> argsig:84 var
+R7059:7064 VST.veric.SeparationLogicSoundness <> retsig:85 var
+R7117:7119 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R7175:7175 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R7125:7127 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R7120:7120 VST.veric.SeparationLogicSoundness <> F:82 var
+R7122:7124 VST.veric.SeparationLogicSoundness <> rho:90 var
+R7128:7128 VST.veric.SeparationLogicSoundness <> P:75 var
+R7135:7135 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7145:7146 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7174:7174 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7136:7140 VST.veric.mpred <> ge_of def
+R7142:7144 VST.veric.SeparationLogicSoundness <> rho:90 var
+R7147:7159 VST.veric.expr <> eval_exprlist def
+R7171:7173 VST.veric.SeparationLogicSoundness <> rho:90 var
+R7168:7169 VST.veric.SeparationLogicSoundness <> bl:88 var
+R7161:7166 VST.veric.SeparationLogicSoundness <> argsig:84 var
+R7133:7133 VST.veric.SeparationLogicSoundness <> x:81 var
+R7130:7131 VST.veric.SeparationLogicSoundness <> ts:80 var
+R6924:6928 VST.veric.SeparationLogicSoundness <> Delta:72 var
+R6918:6922 VST.veric.SeparationLogicSoundness <> Espec:71 var
+R6915:6916 VST.veric.SeparationLogicSoundness <> CS:70 var
+R6873:6884 VST.veric.SeparationLogic <> tc_fn_return def
+R6896:6901 VST.veric.SeparationLogicSoundness <> retsig:85 var
+R6892:6894 VST.veric.SeparationLogicSoundness <> ret:83 var
+R6886:6890 VST.veric.SeparationLogicSoundness <> Delta:72 var
+R6844:6847 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6851:6853 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6848:6850 VST.veric.SeparationLogicSoundness <> ret:83 var
+R6854:6857 Coq.Init.Datatypes <> None constr
+R6829:6831 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6823:6828 VST.veric.SeparationLogicSoundness <> retsig:85 var
+R6832:6843 compcert.cfrontend.Ctypes <> Tvoid constr
+R6737:6750 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6710:6725 compcert.cfrontend.Cop <> classify_fun def
+R6728:6733 compcert.cfrontend.Clight <> typeof def
+R6735:6735 VST.veric.SeparationLogicSoundness <> a:87 var
+R6751:6764 compcert.cfrontend.Cop <> fun_case_f constr
+R6804:6805 VST.veric.SeparationLogicSoundness <> cc:86 var
+R6797:6802 VST.veric.SeparationLogicSoundness <> retsig:85 var
+R6767:6787 VST.veric.mpred <> typelist_of_type_list def
+R6789:6794 VST.veric.SeparationLogicSoundness <> argsig:84 var
+R8460:8472 VST.veric.semax_call <> semax_call_si thm
+R8460:8472 VST.veric.semax_call <> semax_call_si thm
+R8565:8573 VST.veric.semax_conseq <> semax_pre thm
+R8565:8573 VST.veric.semax_conseq <> semax_pre thm
+R8654:8679 VST.msl.predicates_hered <> now_later thm
+R8654:8679 VST.msl.predicates_hered <> now_later thm
+R8693:8702 VST.veric.SeparationLogic <> tc_expr_eq thm
+R8693:8702 VST.veric.SeparationLogic <> tc_expr_eq thm
+R8693:8702 VST.veric.SeparationLogic <> tc_expr_eq thm
+prf 8728:8738 VericMinimumSeparationLogic semax_store
+R8753:8761 VST.veric.mpred <> compspecs class
+binder 8748:8749 <> CS:91
+R8773:8782 VST.veric.juicy_extspec <> OracleKind class
+binder 8765:8769 <> Espec:92
+R8804:8812 VST.veric.seplog <> tycontext ind
+binder 8796:8800 <> Delta:93
+R8824:8827 compcert.cfrontend.Clight <> expr ind
+binder 8816:8817 <> e1:94
+binder 8819:8820 <> e2:95
+R8836:8840 VST.msl.shares <> share def
+binder 8831:8832 <> sh:96
+R8864:8867 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8868:8871 VST.msl.predicates_hered <> pred def
+R8873:8876 VST.veric.compcert_rmaps RML.R rmap defax
+R8857:8863 VST.veric.mpred <> environ ind
+binder 8853:8853 <> P:97
+R8904:8914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8915:8919 VST.veric.semax <> semax def
+R9243:9273 VST.veric.Clight_seplog <> normal_ret_assert def
+R9298:9304 VST.veric.mpred <> environ ind
+binder 9292:9294 <> rho:98
+R9502:9518 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R9323:9348 VST.veric.mapsto_memory_block <> mapsto def
+R9419:9427 VST.veric.val_lemmas <> force_val def
+R9449:9456 VST.veric.Clight_Cop2 <> sem_cast def
+R9483:9491 VST.veric.expr <> eval_expr def
+R9496:9498 VST.veric.SeparationLogicSoundness <> rho:98 var
+R9493:9494 VST.veric.SeparationLogicSoundness <> e2:95 var
+R9471:9476 compcert.cfrontend.Clight <> typeof def
+R9478:9479 VST.veric.SeparationLogicSoundness <> e1:94 var
+R9459:9464 compcert.cfrontend.Clight <> typeof def
+R9466:9467 VST.veric.SeparationLogicSoundness <> e2:95 var
+R9382:9392 VST.veric.expr <> eval_lvalue def
+R9397:9399 VST.veric.SeparationLogicSoundness <> rho:98 var
+R9394:9395 VST.veric.SeparationLogicSoundness <> e1:94 var
+R9354:9359 compcert.cfrontend.Clight <> typeof def
+R9361:9362 VST.veric.SeparationLogicSoundness <> e1:94 var
+R9350:9351 VST.veric.SeparationLogicSoundness <> sh:96 var
+R9519:9519 VST.veric.SeparationLogicSoundness <> P:97 var
+R9521:9523 VST.veric.SeparationLogicSoundness <> rho:98 var
+R9218:9224 compcert.cfrontend.Clight <> Sassign constr
+R9229:9230 VST.veric.SeparationLogicSoundness <> e2:95 var
+R9226:9227 VST.veric.SeparationLogicSoundness <> e1:94 var
+R8953:8959 VST.veric.mpred <> environ ind
+binder 8947:8949 <> rho:99
+R8975:8978 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R9208:9208 VST.msl.predicates_hered <> ::pred:'|>'_x not
+R9080:9099 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R9207:9207 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R9011:9029 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R8979:8997 VST.veric.extend_tc <> tc_lvalue def
+R9008:9010 VST.veric.SeparationLogicSoundness <> rho:99 var
+R9005:9006 VST.veric.SeparationLogicSoundness <> e1:94 var
+R8999:9003 VST.veric.SeparationLogicSoundness <> Delta:93 var
+R9030:9046 VST.veric.extend_tc <> tc_expr def
+R9077:9079 VST.veric.SeparationLogicSoundness <> rho:99 var
+R9055:9059 compcert.cfrontend.Clight <> Ecast constr
+R9065:9070 compcert.cfrontend.Clight <> typeof def
+R9072:9073 VST.veric.SeparationLogicSoundness <> e1:94 var
+R9061:9062 VST.veric.SeparationLogicSoundness <> e2:95 var
+R9048:9052 VST.veric.SeparationLogicSoundness <> Delta:93 var
+R9182:9201 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R9100:9126 VST.veric.mapsto_memory_block <> mapsto_ def
+R9163:9173 VST.veric.expr <> eval_lvalue def
+R9178:9180 VST.veric.SeparationLogicSoundness <> rho:99 var
+R9175:9176 VST.veric.SeparationLogicSoundness <> e1:94 var
+R9151:9156 compcert.cfrontend.Clight <> typeof def
+R9158:9159 VST.veric.SeparationLogicSoundness <> e1:94 var
+R9128:9129 VST.veric.SeparationLogicSoundness <> sh:96 var
+R9202:9202 VST.veric.SeparationLogicSoundness <> P:97 var
+R9204:9206 VST.veric.SeparationLogicSoundness <> rho:99 var
+R8927:8931 VST.veric.SeparationLogicSoundness <> Delta:93 var
+R8921:8925 VST.veric.SeparationLogicSoundness <> Espec:92 var
+R8887:8900 VST.veric.shares <> writable_share def
+R8902:8903 VST.veric.SeparationLogicSoundness <> sh:96 var
+R9555:9565 VST.veric.semax_straight <> semax_store thm
+R9555:9565 VST.veric.semax_straight <> semax_store thm
+def 9591:9612 VericMinimumSeparationLogic semax_store_union_hack
+R9618:9639 VST.veric.semax_straight <> semax_store_union_hack thm
+def 9699:9708 VericMinimumSeparationLogic semax_load
+R9714:9723 VST.veric.semax_straight <> semax_load thm
+def 9737:9751 VericMinimumSeparationLogic semax_cast_load
+R9757:9771 VST.veric.semax_straight <> semax_cast_load thm
+def 9785:9794 VericMinimumSeparationLogic semax_skip
+R9800:9809 VST.veric.semax_conseq <> semax_skip thm
+def 9823:9833 VericMinimumSeparationLogic semax_frame
+R9839:9849 VST.veric.semax_lemmas <> semax_frame thm
+def 9863:9874 VericMinimumSeparationLogic semax_conseq
+R9880:9891 VST.veric.semax_conseq <> semax_conseq thm
+def 9905:9921 VericMinimumSeparationLogic semax_ptr_compare
+R9927:9943 VST.veric.semax_straight <> semax_ptr_compare thm
+def 9957:9973 VericMinimumSeparationLogic semax_external_FF
+R9979:9995 VST.veric.semax_prog <> semax_external_FF thm
+def 10010:10023 VericMinimumSeparationLogic juicy_ext_spec
+R10028:10041 VST.veric.juicy_extspec <> juicy_ext_spec rec
+def 10056:10064 VericMinimumSeparationLogic semax_ext
+R10070:10078 VST.veric.semax_ext <> semax_ext thm
+def 10092:10105 VericMinimumSeparationLogic semax_ext_void
+R10111:10124 VST.veric.semax_ext <> semax_ext_void thm
+R10132:10158 VST.veric.SeparationLogicSoundness VericMinimumSeparationLogic <> mod
+R10182:10213 VST.veric.SeparationLogicSoundness SEPARATION_HOARE_LOGIC_SOUNDNESS <> mod
+R10239:10246 VST.veric.SeparationLogicSoundness VericDef <> modtype
+mod 10169:10178 <> VericSound
+R10269:10276 VST.veric.SeparationLogicSoundness VericDef <> modtype
+mod 10257:10264 <> VericSound.CSHL_Def
+R10299:10309 VST.veric.SeparationLogic DerivedDefs <> modtype
+R10312:10319 VST.veric.SeparationLogicSoundness VericDef <> modtype
+mod 10286:10294 <> VericSound.CSHL_Defs
+prf 10330:10345 VericSound semax_prog_sound
+binder 10359:10363 <> Espec:100
+binder 10366:10367 <> CS:101
+binder 10370:10373 <> prog:102
+binder 10375:10375 <> z:103
+binder 10377:10381 <> Vspec:104
+binder 10383:10387 <> Gspec:105
+R10441:10446 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10448:10468 VST.veric.semax_prog <> semax_prog def
+R10492:10496 VST.veric.SeparationLogicSoundness <> Gspec:105 var
+R10486:10490 VST.veric.SeparationLogicSoundness <> Vspec:104 var
+R10484:10484 VST.veric.SeparationLogicSoundness <> z:103 var
+R10479:10482 VST.veric.SeparationLogicSoundness <> prog:102 var
+R10476:10477 VST.veric.SeparationLogicSoundness <> CS:101 var
+R10470:10474 VST.veric.SeparationLogicSoundness <> Espec:100 var
+R10393:10412 VST.veric.SeparationLogicSoundness VericSound semax_prog def
+R10436:10440 VST.veric.SeparationLogicSoundness <> Gspec:105 var
+R10430:10434 VST.veric.SeparationLogicSoundness <> Vspec:104 var
+R10428:10428 VST.veric.SeparationLogicSoundness <> z:103 var
+R10423:10426 VST.veric.SeparationLogicSoundness <> prog:102 var
+R10420:10421 VST.veric.SeparationLogicSoundness <> CS:101 var
+R10414:10418 VST.veric.SeparationLogicSoundness <> Espec:100 var
+def 10542:10556 VericSound semax_prog_rule
+R10562:10576 VST.veric.semax_prog <> semax_prog_rule thm
+R10584:10593 VST.veric.SeparationLogicSoundness VericSound <> mod

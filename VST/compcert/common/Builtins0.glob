@@ -1,0 +1,1465 @@
+DIGEST 38177b521523095475068d607fd2949e
+Fcompcert.common.Builtins0
+R1105:1110 Coq.Strings.String <> <> lib
+R1112:1117 compcert.lib.Coqlib <> <> lib
+R1135:1137 compcert.common.AST <> <> lib
+R1139:1146 compcert.lib.Integers <> <> lib
+R1148:1153 compcert.lib.Floats <> <> lib
+R1155:1160 compcert.common.Values <> <> lib
+R1162:1168 compcert.common.Memdata <> <> lib
+def 1466:1484 <> val_opt_has_rettype
+R1491:1496 Coq.Init.Datatypes <> option ind
+R1498:1500 compcert.common.Values <> val ind
+binder 1487:1488 <> ov:1
+R1507:1513 compcert.common.AST <> rettype ind
+binder 1504:1504 <> t:2
+R1534:1535 compcert.common.Builtins0 <> ov:1 var
+R1542:1545 Coq.Init.Datatypes <> Some constr
+R1552:1566 compcert.common.Values Val has_rettype def
+R1570:1570 compcert.common.Builtins0 <> t:2 var
+R1574:1577 Coq.Init.Datatypes <> None constr
+R1582:1585 Coq.Init.Logic <> True ind
+def 1604:1617 <> val_opt_inject
+R1623:1628 compcert.common.Values <> meminj syndef
+binder 1620:1620 <> j:4
+R1640:1645 Coq.Init.Datatypes <> option ind
+R1647:1649 compcert.common.Values <> val ind
+binder 1632:1633 <> ov:5
+binder 1635:1637 <> ov':6
+R1674:1676 compcert.common.Builtins0 <> ov':6 var
+R1670:1671 compcert.common.Builtins0 <> ov:5 var
+R1687:1690 Coq.Init.Datatypes <> None constr
+R1698:1701 Coq.Init.Logic <> True ind
+R1707:1710 Coq.Init.Datatypes <> Some constr
+R1715:1718 Coq.Init.Datatypes <> Some constr
+R1726:1735 compcert.common.Values Val inject ind
+R1737:1737 compcert.common.Builtins0 <> j:4 var
+R1751:1754 Coq.Init.Datatypes <> None constr
+R1759:1763 Coq.Init.Logic <> False ind
+constr 2025:2033 <> mkbuiltin
+rec 1987:1997 <> builtin_sem
+proj 2039:2044 <> bs_sem
+proj 2075:2087 <> bs_well_typed
+proj 2146:2154 <> bs_inject
+R2006:2012 compcert.common.AST <> rettype ind
+binder 2000:2003 <> tret:9
+R2057:2060 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2061:2066 Coq.Init.Datatypes <> option ind
+R2068:2070 compcert.common.Values <> val ind
+R2049:2052 Coq.Init.Datatypes <> list ind
+R2054:2056 compcert.common.Values <> val ind
+binder 2097:2098 <> vl:12
+R2106:2124 compcert.common.Builtins0 <> val_opt_has_rettype def
+R2138:2141 compcert.common.Builtins0 <> tret:9 var
+R2127:2132 compcert.common.Builtins0 <> bs_sem:11 meth
+R2134:2135 compcert.common.Builtins0 <> vl:12 var
+binder 2164:2164 <> j:14
+binder 2166:2167 <> vl:15
+binder 2169:2171 <> vl':16
+R2202:2205 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2206:2219 compcert.common.Builtins0 <> val_opt_inject def
+R2236:2241 compcert.common.Builtins0 <> bs_sem:11 meth
+R2243:2245 compcert.common.Builtins0 <> vl':16 var
+R2224:2229 compcert.common.Builtins0 <> bs_sem:11 meth
+R2231:2232 compcert.common.Builtins0 <> vl:15 var
+R2221:2221 compcert.common.Builtins0 <> j:14 var
+R2178:2192 compcert.common.Values Val inject_list ind
+R2199:2201 compcert.common.Builtins0 <> vl':16 var
+R2196:2197 compcert.common.Builtins0 <> vl:15 var
+R2194:2194 compcert.common.Builtins0 <> j:14 var
+def 2690:2702 <> mkbuiltin_v1t
+R2717:2723 compcert.common.AST <> rettype ind
+binder 2711:2714 <> tret:18
+R2733:2736 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2737:2739 compcert.common.Values <> val ind
+R2730:2732 compcert.common.Values <> val ind
+binder 2727:2727 <> f:19
+binder 2759:2760 <> v1:20
+R2763:2777 compcert.common.Values Val has_rettype def
+R2786:2789 compcert.common.Builtins0 <> tret:18 var
+R2780:2780 compcert.common.Builtins0 <> f:19 var
+R2782:2783 compcert.common.Builtins0 <> v1:20 var
+binder 2748:2749 <> WT:21
+binder 2810:2810 <> j:22
+binder 2812:2813 <> v1:23
+binder 2815:2817 <> v1':24
+R2839:2842 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2843:2852 compcert.common.Values Val inject ind
+R2864:2864 compcert.common.Builtins0 <> f:19 var
+R2866:2868 compcert.common.Builtins0 <> v1':24 var
+R2857:2857 compcert.common.Builtins0 <> f:19 var
+R2859:2860 compcert.common.Builtins0 <> v1:23 var
+R2854:2854 compcert.common.Builtins0 <> j:22 var
+R2820:2829 compcert.common.Values Val inject ind
+R2836:2838 compcert.common.Builtins0 <> v1':24 var
+R2833:2834 compcert.common.Builtins0 <> v1:23 var
+R2831:2831 compcert.common.Builtins0 <> j:22 var
+binder 2798:2800 <> INJ:25
+R2877:2885 compcert.common.Builtins0 <> mkbuiltin constr
+binder 2897:2898 <> vl:26
+R2909:2910 compcert.common.Builtins0 <> vl:26 var
+R2919:2922 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2923:2925 Coq.Init.Datatypes <> nil constr
+R2930:2933 Coq.Init.Datatypes <> Some constr
+R2936:2936 compcert.common.Builtins0 <> f:19 var
+R2949:2952 Coq.Init.Datatypes <> None constr
+R2887:2890 compcert.common.Builtins0 <> tret:18 var
+def 3108:3120 <> mkbuiltin_v2t
+R3135:3141 compcert.common.AST <> rettype ind
+binder 3129:3132 <> tret:28
+R3151:3154 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3158:3161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3162:3164 compcert.common.Values <> val ind
+R3155:3157 compcert.common.Values <> val ind
+R3148:3150 compcert.common.Values <> val ind
+binder 3145:3145 <> f:29
+binder 3184:3185 <> v1:30
+binder 3187:3188 <> v2:31
+R3191:3205 compcert.common.Values Val has_rettype def
+R3217:3220 compcert.common.Builtins0 <> tret:28 var
+R3208:3208 compcert.common.Builtins0 <> f:29 var
+R3213:3214 compcert.common.Builtins0 <> v2:31 var
+R3210:3211 compcert.common.Builtins0 <> v1:30 var
+binder 3173:3174 <> WT:32
+binder 3241:3241 <> j:33
+binder 3243:3244 <> v1:34
+binder 3246:3248 <> v1':35
+binder 3250:3251 <> v2:36
+binder 3253:3255 <> v2':37
+R3288:3291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3311:3325 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3326:3335 compcert.common.Values Val inject ind
+R3350:3350 compcert.common.Builtins0 <> f:29 var
+R3356:3358 compcert.common.Builtins0 <> v2':37 var
+R3352:3354 compcert.common.Builtins0 <> v1':35 var
+R3340:3340 compcert.common.Builtins0 <> f:29 var
+R3345:3346 compcert.common.Builtins0 <> v2:36 var
+R3342:3343 compcert.common.Builtins0 <> v1:34 var
+R3337:3337 compcert.common.Builtins0 <> j:33 var
+R3292:3301 compcert.common.Values Val inject ind
+R3308:3310 compcert.common.Builtins0 <> v2':37 var
+R3305:3306 compcert.common.Builtins0 <> v2:36 var
+R3303:3303 compcert.common.Builtins0 <> j:33 var
+R3269:3278 compcert.common.Values Val inject ind
+R3285:3287 compcert.common.Builtins0 <> v1':35 var
+R3282:3283 compcert.common.Builtins0 <> v1:34 var
+R3280:3280 compcert.common.Builtins0 <> j:33 var
+binder 3229:3231 <> INJ:38
+R3367:3375 compcert.common.Builtins0 <> mkbuiltin constr
+binder 3387:3388 <> vl:39
+R3399:3400 compcert.common.Builtins0 <> vl:39 var
+R3409:3412 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3415:3418 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3419:3421 Coq.Init.Datatypes <> nil constr
+R3426:3429 Coq.Init.Datatypes <> Some constr
+R3432:3432 compcert.common.Builtins0 <> f:29 var
+R3448:3451 Coq.Init.Datatypes <> None constr
+R3377:3380 compcert.common.Builtins0 <> tret:28 var
+def 3639:3651 <> mkbuiltin_v3t
+R3666:3672 compcert.common.AST <> rettype ind
+binder 3660:3663 <> tret:41
+R3682:3685 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3689:3692 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3696:3699 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3700:3702 compcert.common.Values <> val ind
+R3693:3695 compcert.common.Values <> val ind
+R3686:3688 compcert.common.Values <> val ind
+R3679:3681 compcert.common.Values <> val ind
+binder 3676:3676 <> f:42
+binder 3722:3723 <> v1:43
+binder 3725:3726 <> v2:44
+binder 3728:3729 <> v3:45
+R3732:3746 compcert.common.Values Val has_rettype def
+R3761:3764 compcert.common.Builtins0 <> tret:41 var
+R3749:3749 compcert.common.Builtins0 <> f:42 var
+R3757:3758 compcert.common.Builtins0 <> v3:45 var
+R3754:3755 compcert.common.Builtins0 <> v2:44 var
+R3751:3752 compcert.common.Builtins0 <> v1:43 var
+binder 3711:3712 <> WT:46
+binder 3785:3785 <> j:47
+binder 3787:3788 <> v1:48
+binder 3790:3792 <> v1':49
+binder 3794:3795 <> v2:50
+binder 3797:3799 <> v2':51
+binder 3801:3802 <> v3:52
+binder 3804:3806 <> v3':53
+R3839:3842 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3862:3865 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3885:3899 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3900:3909 compcert.common.Values Val inject ind
+R3927:3927 compcert.common.Builtins0 <> f:42 var
+R3937:3939 compcert.common.Builtins0 <> v3':53 var
+R3933:3935 compcert.common.Builtins0 <> v2':51 var
+R3929:3931 compcert.common.Builtins0 <> v1':49 var
+R3914:3914 compcert.common.Builtins0 <> f:42 var
+R3922:3923 compcert.common.Builtins0 <> v3:52 var
+R3919:3920 compcert.common.Builtins0 <> v2:50 var
+R3916:3917 compcert.common.Builtins0 <> v1:48 var
+R3911:3911 compcert.common.Builtins0 <> j:47 var
+R3866:3875 compcert.common.Values Val inject ind
+R3882:3884 compcert.common.Builtins0 <> v3':53 var
+R3879:3880 compcert.common.Builtins0 <> v3:52 var
+R3877:3877 compcert.common.Builtins0 <> j:47 var
+R3843:3852 compcert.common.Values Val inject ind
+R3859:3861 compcert.common.Builtins0 <> v2':51 var
+R3856:3857 compcert.common.Builtins0 <> v2:50 var
+R3854:3854 compcert.common.Builtins0 <> j:47 var
+R3820:3829 compcert.common.Values Val inject ind
+R3836:3838 compcert.common.Builtins0 <> v1':49 var
+R3833:3834 compcert.common.Builtins0 <> v1:48 var
+R3831:3831 compcert.common.Builtins0 <> j:47 var
+binder 3773:3775 <> INJ:54
+R3948:3956 compcert.common.Builtins0 <> mkbuiltin constr
+binder 3968:3969 <> vl:55
+R3980:3981 compcert.common.Builtins0 <> vl:55 var
+R3990:3993 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3996:3999 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4002:4005 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4006:4008 Coq.Init.Datatypes <> nil constr
+R4013:4016 Coq.Init.Datatypes <> Some constr
+R4019:4019 compcert.common.Builtins0 <> f:42 var
+R4038:4041 Coq.Init.Datatypes <> None constr
+R3958:3961 compcert.common.Builtins0 <> tret:41 var
+def 4262:4274 <> mkbuiltin_v1p
+R4288:4294 compcert.common.AST <> rettype ind
+binder 4282:4285 <> tret:57
+R4304:4307 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4308:4313 Coq.Init.Datatypes <> option ind
+R4315:4317 compcert.common.Values <> val ind
+R4301:4303 compcert.common.Values <> val ind
+binder 4298:4298 <> f:58
+binder 4337:4338 <> v1:59
+R4341:4359 compcert.common.Builtins0 <> val_opt_has_rettype def
+R4368:4371 compcert.common.Builtins0 <> tret:57 var
+R4362:4362 compcert.common.Builtins0 <> f:58 var
+R4364:4365 compcert.common.Builtins0 <> v1:59 var
+binder 4326:4327 <> WT:60
+binder 4392:4392 <> j:61
+binder 4394:4395 <> v1:62
+binder 4397:4399 <> v1':63
+R4429:4432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4433:4446 compcert.common.Builtins0 <> val_opt_inject def
+R4458:4458 compcert.common.Builtins0 <> f:58 var
+R4460:4462 compcert.common.Builtins0 <> v1':63 var
+R4451:4451 compcert.common.Builtins0 <> f:58 var
+R4453:4454 compcert.common.Builtins0 <> v1:62 var
+R4448:4448 compcert.common.Builtins0 <> j:61 var
+R4410:4419 compcert.common.Values Val inject ind
+R4426:4428 compcert.common.Builtins0 <> v1':63 var
+R4423:4424 compcert.common.Builtins0 <> v1:62 var
+R4421:4421 compcert.common.Builtins0 <> j:61 var
+binder 4380:4382 <> INJ:64
+R4471:4479 compcert.common.Builtins0 <> mkbuiltin constr
+binder 4491:4492 <> vl:65
+R4503:4504 compcert.common.Builtins0 <> vl:65 var
+R4513:4516 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4517:4519 Coq.Init.Datatypes <> nil constr
+R4524:4524 compcert.common.Builtins0 <> f:58 var
+R4536:4539 Coq.Init.Datatypes <> None constr
+R4481:4484 compcert.common.Builtins0 <> tret:57 var
+def 4722:4734 <> mkbuiltin_v2p
+R4748:4754 compcert.common.AST <> rettype ind
+binder 4742:4745 <> tret:67
+R4764:4767 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4771:4774 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4775:4780 Coq.Init.Datatypes <> option ind
+R4782:4784 compcert.common.Values <> val ind
+R4768:4770 compcert.common.Values <> val ind
+R4761:4763 compcert.common.Values <> val ind
+binder 4758:4758 <> f:68
+binder 4804:4805 <> v1:69
+binder 4807:4808 <> v2:70
+R4811:4829 compcert.common.Builtins0 <> val_opt_has_rettype def
+R4841:4844 compcert.common.Builtins0 <> tret:67 var
+R4832:4832 compcert.common.Builtins0 <> f:68 var
+R4837:4838 compcert.common.Builtins0 <> v2:70 var
+R4834:4835 compcert.common.Builtins0 <> v1:69 var
+binder 4793:4794 <> WT:71
+binder 4865:4865 <> j:72
+binder 4867:4868 <> v1:73
+binder 4870:4872 <> v1':74
+binder 4874:4875 <> v2:75
+binder 4877:4879 <> v2':76
+R4909:4912 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4932:4943 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4944:4957 compcert.common.Builtins0 <> val_opt_inject def
+R4972:4972 compcert.common.Builtins0 <> f:68 var
+R4978:4980 compcert.common.Builtins0 <> v2':76 var
+R4974:4976 compcert.common.Builtins0 <> v1':74 var
+R4962:4962 compcert.common.Builtins0 <> f:68 var
+R4967:4968 compcert.common.Builtins0 <> v2:75 var
+R4964:4965 compcert.common.Builtins0 <> v1:73 var
+R4959:4959 compcert.common.Builtins0 <> j:72 var
+R4913:4922 compcert.common.Values Val inject ind
+R4929:4931 compcert.common.Builtins0 <> v2':76 var
+R4926:4927 compcert.common.Builtins0 <> v2:75 var
+R4924:4924 compcert.common.Builtins0 <> j:72 var
+R4890:4899 compcert.common.Values Val inject ind
+R4906:4908 compcert.common.Builtins0 <> v1':74 var
+R4903:4904 compcert.common.Builtins0 <> v1:73 var
+R4901:4901 compcert.common.Builtins0 <> j:72 var
+binder 4853:4855 <> INJ:77
+R4989:4997 compcert.common.Builtins0 <> mkbuiltin constr
+binder 5009:5010 <> vl:78
+R5021:5022 compcert.common.Builtins0 <> vl:78 var
+R5031:5034 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5037:5040 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5041:5043 Coq.Init.Datatypes <> nil constr
+R5048:5048 compcert.common.Builtins0 <> f:68 var
+R5063:5066 Coq.Init.Datatypes <> None constr
+R4999:5002 compcert.common.Builtins0 <> tret:67 var
+def 5578:5582 <> valty
+R5588:5590 compcert.common.AST <> typ ind
+binder 5585:5585 <> t:80
+R5611:5611 compcert.common.Builtins0 <> t:80 var
+R5622:5625 compcert.common.AST <> Tint constr
+R5630:5632 compcert.lib.Integers <> int syndef
+R5638:5642 compcert.common.AST <> Tlong constr
+R5647:5651 compcert.lib.Integers <> int64 syndef
+R5657:5662 compcert.common.AST <> Tfloat constr
+R5667:5671 compcert.lib.Floats <> float def
+R5677:5683 compcert.common.AST <> Tsingle constr
+R5688:5694 compcert.lib.Floats <> float32 def
+R5700:5705 compcert.common.AST <> Tany32 constr
+R5709:5714 compcert.common.AST <> Tany64 constr
+R5719:5727 Coq.Init.Datatypes <> Empty_set ind
+R5719:5727 Coq.Init.Datatypes <> Empty_set ind
+def 5873:5879 <> inj_num
+R5885:5887 compcert.common.AST <> typ ind
+binder 5882:5882 <> t:82
+R5899:5902 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5903:5905 compcert.common.Values <> val ind
+R5892:5896 compcert.common.Builtins0 <> valty def
+R5898:5898 compcert.common.Builtins0 <> t:82 var
+R5918:5918 compcert.common.Builtins0 <> t:82 var
+R5929:5932 compcert.common.AST <> Tint constr
+R5937:5940 compcert.common.Values <> Vint constr
+R5946:5950 compcert.common.AST <> Tlong constr
+R5955:5959 compcert.common.Values <> Vlong constr
+R5965:5970 compcert.common.AST <> Tfloat constr
+R5975:5980 compcert.common.Values <> Vfloat constr
+R5986:5992 compcert.common.AST <> Tsingle constr
+R5997:6003 compcert.common.Values <> Vsingle constr
+R6009:6014 compcert.common.AST <> Tany32 constr
+R6018:6023 compcert.common.AST <> Tany64 constr
+R6037:6042 compcert.common.Values <> Vundef constr
+R6037:6042 compcert.common.Values <> Vundef constr
+def 6063:6070 <> proj_num
+binder 6073:6073 <> A:84
+R6086:6088 compcert.common.AST <> typ ind
+binder 6083:6083 <> t:85
+R6096:6096 compcert.common.Builtins0 <> A:84 var
+binder 6092:6093 <> k0:86
+R6103:6105 compcert.common.Values <> val ind
+binder 6100:6100 <> v:87
+R6109:6109 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6122:6126 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6127:6127 compcert.common.Builtins0 <> A:84 var
+R6117:6120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6121:6121 compcert.common.Builtins0 <> A:84 var
+R6110:6114 compcert.common.Builtins0 <> valty def
+R6116:6116 compcert.common.Builtins0 <> t:85 var
+R6140:6140 compcert.common.Builtins0 <> t:85 var
+R6151:6154 compcert.common.AST <> Tint constr
+binder 6163:6164 <> k1:89
+R6175:6175 compcert.common.Builtins0 <> v:87 var
+R6182:6185 compcert.common.Values <> Vint constr
+R6192:6193 compcert.common.Builtins0 <> k1:89 var
+R6204:6205 compcert.common.Builtins0 <> k0:86 var
+R6215:6219 compcert.common.AST <> Tlong constr
+binder 6228:6229 <> k1:91
+R6240:6240 compcert.common.Builtins0 <> v:87 var
+R6247:6251 compcert.common.Values <> Vlong constr
+R6258:6259 compcert.common.Builtins0 <> k1:91 var
+R6270:6271 compcert.common.Builtins0 <> k0:86 var
+R6281:6286 compcert.common.AST <> Tfloat constr
+binder 6295:6296 <> k1:93
+R6307:6307 compcert.common.Builtins0 <> v:87 var
+R6314:6319 compcert.common.Values <> Vfloat constr
+R6326:6327 compcert.common.Builtins0 <> k1:93 var
+R6338:6339 compcert.common.Builtins0 <> k0:86 var
+R6349:6355 compcert.common.AST <> Tsingle constr
+binder 6364:6365 <> k1:95
+R6376:6376 compcert.common.Builtins0 <> v:87 var
+R6383:6389 compcert.common.Values <> Vsingle constr
+R6396:6397 compcert.common.Builtins0 <> k1:95 var
+R6408:6409 compcert.common.Builtins0 <> k0:86 var
+R6419:6424 compcert.common.AST <> Tany32 constr
+R6428:6433 compcert.common.AST <> Tany64 constr
+binder 6442:6443 <> k1:97
+R6448:6449 compcert.common.Builtins0 <> k0:86 var
+binder 6442:6443 <> k1:98
+R6448:6449 compcert.common.Builtins0 <> k0:86 var
+prf 6465:6474 <> inj_num_wt
+binder 6484:6484 <> t:99
+binder 6486:6486 <> x:100
+R6489:6500 compcert.common.Values Val has_type def
+R6516:6516 compcert.common.Builtins0 <> t:99 var
+R6503:6509 compcert.common.Builtins0 <> inj_num def
+R6513:6513 compcert.common.Builtins0 <> x:100 var
+R6511:6511 compcert.common.Builtins0 <> t:99 var
+R6554:6554 Coq.Init.Logic <> I constr
+R6554:6554 Coq.Init.Logic <> I constr
+R6554:6554 Coq.Init.Logic <> I constr
+R6554:6554 Coq.Init.Logic <> I constr
+R6554:6554 Coq.Init.Logic <> I constr
+R6554:6554 Coq.Init.Logic <> I constr
+R6554:6554 Coq.Init.Logic <> I constr
+prf 6569:6582 <> inj_num_inject
+binder 6592:6592 <> j:101
+binder 6594:6594 <> t:102
+binder 6596:6596 <> x:103
+R6599:6608 compcert.common.Values Val inject ind
+R6627:6633 compcert.common.Builtins0 <> inj_num def
+R6637:6637 compcert.common.Builtins0 <> x:103 var
+R6635:6635 compcert.common.Builtins0 <> t:102 var
+R6613:6619 compcert.common.Builtins0 <> inj_num def
+R6623:6623 compcert.common.Builtins0 <> x:103 var
+R6621:6621 compcert.common.Builtins0 <> t:102 var
+R6610:6610 compcert.common.Builtins0 <> j:101 var
+prf 6695:6708 <> inj_num_opt_wt
+binder 6718:6718 <> t:104
+binder 6720:6720 <> x:105
+R6723:6741 compcert.common.Builtins0 <> val_opt_has_rettype def
+R6770:6770 compcert.common.Builtins0 <> t:104 var
+R6744:6753 compcert.lib.Coqlib <> option_map def
+R6767:6767 compcert.common.Builtins0 <> x:105 var
+R6756:6762 compcert.common.Builtins0 <> inj_num def
+R6764:6764 compcert.common.Builtins0 <> t:104 var
+R6815:6824 compcert.common.Builtins0 <> inj_num_wt thm
+R6815:6824 compcert.common.Builtins0 <> inj_num_wt thm
+prf 6846:6863 <> inj_num_opt_inject
+binder 6873:6873 <> j:106
+binder 6875:6875 <> t:107
+binder 6877:6877 <> x:108
+R6882:6895 compcert.common.Builtins0 <> val_opt_inject def
+R6927:6936 compcert.lib.Coqlib <> option_map def
+R6950:6950 compcert.common.Builtins0 <> x:108 var
+R6939:6945 compcert.common.Builtins0 <> inj_num def
+R6947:6947 compcert.common.Builtins0 <> t:107 var
+R6900:6909 compcert.lib.Coqlib <> option_map def
+R6923:6923 compcert.common.Builtins0 <> x:108 var
+R6912:6918 compcert.common.Builtins0 <> inj_num def
+R6920:6920 compcert.common.Builtins0 <> t:107 var
+R6897:6897 compcert.common.Builtins0 <> j:106 var
+R6988:7001 compcert.common.Builtins0 <> inj_num_inject thm
+R6988:7001 compcert.common.Builtins0 <> inj_num_inject thm
+prf 7022:7032 <> proj_num_wt
+binder 7044:7047 <> tres:109
+binder 7049:7049 <> t:110
+binder 7051:7052 <> k1:111
+binder 7054:7054 <> v:112
+R7059:7059 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7094:7100 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7101:7112 compcert.common.Values Val has_type def
+R7139:7142 compcert.common.Builtins0 <> tres:109 var
+R7115:7122 compcert.common.Builtins0 <> proj_num def
+R7135:7136 compcert.common.Builtins0 <> k1:111 var
+R7133:7133 compcert.common.Builtins0 <> v:112 var
+R7126:7131 compcert.common.Values <> Vundef constr
+R7124:7124 compcert.common.Builtins0 <> t:110 var
+binder 7067:7067 <> x:113
+R7070:7081 compcert.common.Values Val has_type def
+R7090:7093 compcert.common.Builtins0 <> tres:109 var
+R7084:7085 compcert.common.Builtins0 <> k1:111 var
+R7087:7087 compcert.common.Builtins0 <> x:113 var
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+R7205:7205 Coq.Init.Logic <> I constr
+prf 7220:7234 <> proj_num_inject
+binder 7246:7246 <> j:114
+binder 7248:7248 <> t:115
+binder 7250:7251 <> k1:116
+binder 7253:7253 <> v:117
+binder 7255:7257 <> k1':118
+binder 7259:7260 <> v':119
+R7265:7265 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7303:7309 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7327:7333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7334:7343 compcert.common.Values Val inject ind
+R7373:7380 compcert.common.Builtins0 <> proj_num def
+R7394:7396 compcert.common.Builtins0 <> k1':118 var
+R7391:7392 compcert.common.Builtins0 <> v':119 var
+R7384:7389 compcert.common.Values <> Vundef constr
+R7382:7382 compcert.common.Builtins0 <> t:115 var
+R7348:7355 compcert.common.Builtins0 <> proj_num def
+R7368:7369 compcert.common.Builtins0 <> k1:116 var
+R7366:7366 compcert.common.Builtins0 <> v:117 var
+R7359:7364 compcert.common.Values <> Vundef constr
+R7357:7357 compcert.common.Builtins0 <> t:115 var
+R7345:7345 compcert.common.Builtins0 <> j:114 var
+R7310:7319 compcert.common.Values Val inject ind
+R7325:7326 compcert.common.Builtins0 <> v':119 var
+R7323:7323 compcert.common.Builtins0 <> v:117 var
+R7321:7321 compcert.common.Builtins0 <> j:114 var
+binder 7273:7273 <> x:120
+R7276:7285 compcert.common.Values Val inject ind
+R7297:7299 compcert.common.Builtins0 <> k1':118 var
+R7301:7301 compcert.common.Builtins0 <> x:120 var
+R7290:7291 compcert.common.Builtins0 <> k1:116 var
+R7293:7293 compcert.common.Builtins0 <> x:120 var
+R7287:7287 compcert.common.Builtins0 <> j:114 var
+prf 7462:7476 <> proj_num_opt_wt
+R7495:7497 compcert.common.AST <> typ ind
+binder 7489:7492 <> tres:121
+binder 7500:7500 <> t:122
+binder 7502:7503 <> k0:123
+binder 7505:7506 <> k1:124
+binder 7508:7508 <> v:125
+R7542:7547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7548:7548 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7590:7596 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7597:7615 compcert.common.Builtins0 <> val_opt_has_rettype def
+R7638:7641 compcert.common.Builtins0 <> tres:121 var
+R7618:7625 compcert.common.Builtins0 <> proj_num def
+R7634:7635 compcert.common.Builtins0 <> k1:124 var
+R7632:7632 compcert.common.Builtins0 <> v:125 var
+R7629:7630 compcert.common.Builtins0 <> k0:123 var
+R7627:7627 compcert.common.Builtins0 <> t:122 var
+binder 7556:7556 <> x:126
+R7559:7577 compcert.common.Builtins0 <> val_opt_has_rettype def
+R7586:7589 compcert.common.Builtins0 <> tres:121 var
+R7580:7581 compcert.common.Builtins0 <> k1:124 var
+R7583:7583 compcert.common.Builtins0 <> x:126 var
+R7522:7525 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7515:7517 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7513:7514 compcert.common.Builtins0 <> k0:123 var
+R7518:7521 Coq.Init.Datatypes <> None constr
+R7528:7530 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7526:7527 compcert.common.Builtins0 <> k0:123 var
+R7531:7534 Coq.Init.Datatypes <> Some constr
+R7536:7541 compcert.common.Values <> Vundef constr
+R7671:7689 compcert.common.Builtins0 <> val_opt_has_rettype def
+R7671:7689 compcert.common.Builtins0 <> val_opt_has_rettype def
+R7731:7731 Coq.Init.Logic <> I constr
+R7731:7731 Coq.Init.Logic <> I constr
+R7731:7731 Coq.Init.Logic <> I constr
+prf 7787:7805 <> proj_num_opt_inject
+binder 7817:7817 <> j:127
+binder 7819:7820 <> k0:128
+binder 7822:7822 <> t:129
+binder 7824:7825 <> k1:130
+binder 7827:7827 <> v:131
+binder 7829:7831 <> k1':132
+binder 7833:7834 <> v':133
+R7839:7839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7873:7879 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7880:7880 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7922:7928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7946:7952 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7953:7966 compcert.common.Builtins0 <> val_opt_inject def
+R7992:7999 compcert.common.Builtins0 <> proj_num def
+R8009:8011 compcert.common.Builtins0 <> k1':132 var
+R8006:8007 compcert.common.Builtins0 <> v':133 var
+R8003:8004 compcert.common.Builtins0 <> k0:128 var
+R8001:8001 compcert.common.Builtins0 <> t:129 var
+R7971:7978 compcert.common.Builtins0 <> proj_num def
+R7987:7988 compcert.common.Builtins0 <> k1:130 var
+R7985:7985 compcert.common.Builtins0 <> v:131 var
+R7982:7983 compcert.common.Builtins0 <> k0:128 var
+R7980:7980 compcert.common.Builtins0 <> t:129 var
+R7968:7968 compcert.common.Builtins0 <> j:127 var
+R7929:7938 compcert.common.Values Val inject ind
+R7944:7945 compcert.common.Builtins0 <> v':133 var
+R7942:7942 compcert.common.Builtins0 <> v:131 var
+R7940:7940 compcert.common.Builtins0 <> j:127 var
+binder 7888:7888 <> x:134
+R7891:7904 compcert.common.Builtins0 <> val_opt_inject def
+R7916:7918 compcert.common.Builtins0 <> k1':132 var
+R7920:7920 compcert.common.Builtins0 <> x:134 var
+R7909:7910 compcert.common.Builtins0 <> k1:130 var
+R7912:7912 compcert.common.Builtins0 <> x:134 var
+R7906:7906 compcert.common.Builtins0 <> j:127 var
+binder 7847:7848 <> ov:135
+R7851:7864 compcert.common.Builtins0 <> val_opt_inject def
+R7871:7872 compcert.common.Builtins0 <> ov:135 var
+R7868:7869 compcert.common.Builtins0 <> k0:128 var
+R7866:7866 compcert.common.Builtins0 <> j:127 var
+def 8301:8313 <> mkbuiltin_n1t
+R8328:8330 compcert.common.AST <> typ ind
+binder 8321:8325 <> targ1:136
+R8340:8342 compcert.common.AST <> typ ind
+binder 8334:8337 <> tres:137
+R8364:8367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8368:8372 compcert.common.Builtins0 <> valty def
+R8374:8377 compcert.common.Builtins0 <> tres:137 var
+R8353:8357 compcert.common.Builtins0 <> valty def
+R8359:8363 compcert.common.Builtins0 <> targ1:136 var
+binder 8350:8350 <> f:138
+R8385:8397 compcert.common.Builtins0 <> mkbuiltin_v1t def
+binder 8413:8414 <> v1:139
+R8419:8426 compcert.common.Builtins0 <> proj_num def
+binder 8449:8449 <> x:140
+R8454:8460 compcert.common.Builtins0 <> inj_num def
+R8468:8468 compcert.common.Builtins0 <> f:138 var
+R8470:8470 compcert.common.Builtins0 <> x:140 var
+R8462:8465 compcert.common.Builtins0 <> tres:137 var
+R8441:8442 compcert.common.Builtins0 <> v1:139 var
+R8434:8439 compcert.common.Values <> Vundef constr
+R8428:8432 compcert.common.Builtins0 <> targ1:136 var
+R8399:8402 compcert.common.Builtins0 <> tres:137 var
+R8514:8524 compcert.common.Builtins0 <> proj_num_wt thm
+R8527:8536 compcert.common.Builtins0 <> inj_num_wt thm
+R8514:8524 compcert.common.Builtins0 <> proj_num_wt thm
+R8527:8536 compcert.common.Builtins0 <> inj_num_wt thm
+R8574:8588 compcert.common.Builtins0 <> proj_num_inject thm
+R8591:8604 compcert.common.Builtins0 <> inj_num_inject thm
+R8574:8588 compcert.common.Builtins0 <> proj_num_inject thm
+R8591:8604 compcert.common.Builtins0 <> inj_num_inject thm
+def 8632:8644 <> mkbuiltin_n2t
+R8665:8667 compcert.common.AST <> typ ind
+binder 8652:8656 <> targ1:141
+binder 8658:8662 <> targ2:142
+R8677:8679 compcert.common.AST <> typ ind
+binder 8671:8674 <> tres:143
+R8701:8704 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8716:8719 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8720:8724 compcert.common.Builtins0 <> valty def
+R8726:8729 compcert.common.Builtins0 <> tres:143 var
+R8705:8709 compcert.common.Builtins0 <> valty def
+R8711:8715 compcert.common.Builtins0 <> targ2:142 var
+R8690:8694 compcert.common.Builtins0 <> valty def
+R8696:8700 compcert.common.Builtins0 <> targ1:141 var
+binder 8687:8687 <> f:144
+R8737:8749 compcert.common.Builtins0 <> mkbuiltin_v2t def
+binder 8765:8766 <> v1:145
+binder 8768:8769 <> v2:146
+R8781:8788 compcert.common.Builtins0 <> proj_num def
+binder 8811:8812 <> x1:147
+R8824:8831 compcert.common.Builtins0 <> proj_num def
+binder 8854:8855 <> x2:148
+R8860:8866 compcert.common.Builtins0 <> inj_num def
+R8874:8874 compcert.common.Builtins0 <> f:144 var
+R8879:8880 compcert.common.Builtins0 <> x2:148 var
+R8876:8877 compcert.common.Builtins0 <> x1:147 var
+R8868:8871 compcert.common.Builtins0 <> tres:143 var
+R8846:8847 compcert.common.Builtins0 <> v2:146 var
+R8839:8844 compcert.common.Values <> Vundef constr
+R8833:8837 compcert.common.Builtins0 <> targ2:142 var
+R8803:8804 compcert.common.Builtins0 <> v1:145 var
+R8796:8801 compcert.common.Values <> Vundef constr
+R8790:8794 compcert.common.Builtins0 <> targ1:141 var
+R8751:8754 compcert.common.Builtins0 <> tres:143 var
+R8925:8935 compcert.common.Builtins0 <> proj_num_wt thm
+R8938:8947 compcert.common.Builtins0 <> inj_num_wt thm
+R8925:8935 compcert.common.Builtins0 <> proj_num_wt thm
+R8938:8947 compcert.common.Builtins0 <> inj_num_wt thm
+R8985:8999 compcert.common.Builtins0 <> proj_num_inject thm
+R9002:9015 compcert.common.Builtins0 <> inj_num_inject thm
+R8985:8999 compcert.common.Builtins0 <> proj_num_inject thm
+R9002:9015 compcert.common.Builtins0 <> inj_num_inject thm
+def 9043:9055 <> mkbuiltin_n3t
+R9082:9084 compcert.common.AST <> typ ind
+binder 9063:9067 <> targ1:149
+binder 9069:9073 <> targ2:150
+binder 9075:9079 <> targ3:151
+R9094:9096 compcert.common.AST <> typ ind
+binder 9088:9091 <> tres:152
+R9118:9121 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9133:9136 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9148:9151 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9152:9156 compcert.common.Builtins0 <> valty def
+R9158:9161 compcert.common.Builtins0 <> tres:152 var
+R9137:9141 compcert.common.Builtins0 <> valty def
+R9143:9147 compcert.common.Builtins0 <> targ3:151 var
+R9122:9126 compcert.common.Builtins0 <> valty def
+R9128:9132 compcert.common.Builtins0 <> targ2:150 var
+R9107:9111 compcert.common.Builtins0 <> valty def
+R9113:9117 compcert.common.Builtins0 <> targ1:149 var
+binder 9104:9104 <> f:153
+R9169:9181 compcert.common.Builtins0 <> mkbuiltin_v3t def
+binder 9197:9198 <> v1:154
+binder 9200:9201 <> v2:155
+binder 9203:9204 <> v3:156
+R9216:9223 compcert.common.Builtins0 <> proj_num def
+binder 9246:9247 <> x1:157
+R9259:9266 compcert.common.Builtins0 <> proj_num def
+binder 9289:9290 <> x2:158
+R9302:9309 compcert.common.Builtins0 <> proj_num def
+binder 9332:9333 <> x3:159
+R9338:9344 compcert.common.Builtins0 <> inj_num def
+R9352:9352 compcert.common.Builtins0 <> f:153 var
+R9360:9361 compcert.common.Builtins0 <> x3:159 var
+R9357:9358 compcert.common.Builtins0 <> x2:158 var
+R9354:9355 compcert.common.Builtins0 <> x1:157 var
+R9346:9349 compcert.common.Builtins0 <> tres:152 var
+R9324:9325 compcert.common.Builtins0 <> v3:156 var
+R9317:9322 compcert.common.Values <> Vundef constr
+R9311:9315 compcert.common.Builtins0 <> targ3:151 var
+R9281:9282 compcert.common.Builtins0 <> v2:155 var
+R9274:9279 compcert.common.Values <> Vundef constr
+R9268:9272 compcert.common.Builtins0 <> targ2:150 var
+R9238:9239 compcert.common.Builtins0 <> v1:154 var
+R9231:9236 compcert.common.Values <> Vundef constr
+R9225:9229 compcert.common.Builtins0 <> targ1:149 var
+R9183:9186 compcert.common.Builtins0 <> tres:152 var
+R9407:9417 compcert.common.Builtins0 <> proj_num_wt thm
+R9420:9429 compcert.common.Builtins0 <> inj_num_wt thm
+R9407:9417 compcert.common.Builtins0 <> proj_num_wt thm
+R9420:9429 compcert.common.Builtins0 <> inj_num_wt thm
+R9467:9481 compcert.common.Builtins0 <> proj_num_inject thm
+R9484:9497 compcert.common.Builtins0 <> inj_num_inject thm
+R9467:9481 compcert.common.Builtins0 <> proj_num_inject thm
+R9484:9497 compcert.common.Builtins0 <> inj_num_inject thm
+def 9525:9537 <> mkbuiltin_n1p
+R9551:9553 compcert.common.AST <> typ ind
+binder 9544:9548 <> targ1:160
+R9563:9565 compcert.common.AST <> typ ind
+binder 9557:9560 <> tres:161
+R9587:9590 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9591:9596 Coq.Init.Datatypes <> option ind
+R9599:9603 compcert.common.Builtins0 <> valty def
+R9605:9608 compcert.common.Builtins0 <> tres:161 var
+R9576:9580 compcert.common.Builtins0 <> valty def
+R9582:9586 compcert.common.Builtins0 <> targ1:160 var
+binder 9573:9573 <> f:162
+R9617:9629 compcert.common.Builtins0 <> mkbuiltin_v1p def
+binder 9645:9646 <> v1:163
+R9651:9658 compcert.common.Builtins0 <> proj_num def
+binder 9679:9679 <> x:164
+R9684:9693 compcert.lib.Coqlib <> option_map def
+R9711:9711 compcert.common.Builtins0 <> f:162 var
+R9713:9713 compcert.common.Builtins0 <> x:164 var
+R9696:9702 compcert.common.Builtins0 <> inj_num def
+R9704:9707 compcert.common.Builtins0 <> tres:161 var
+R9671:9672 compcert.common.Builtins0 <> v1:163 var
+R9666:9669 Coq.Init.Datatypes <> None constr
+R9660:9664 compcert.common.Builtins0 <> targ1:160 var
+R9631:9634 compcert.common.Builtins0 <> tres:161 var
+R9757:9771 compcert.common.Builtins0 <> proj_num_opt_wt thm
+R9774:9787 compcert.common.Builtins0 <> inj_num_opt_wt thm
+R9757:9771 compcert.common.Builtins0 <> proj_num_opt_wt thm
+R9774:9787 compcert.common.Builtins0 <> inj_num_opt_wt thm
+R9820:9838 compcert.common.Builtins0 <> proj_num_opt_inject thm
+R9820:9838 compcert.common.Builtins0 <> proj_num_opt_inject thm
+R9880:9897 compcert.common.Builtins0 <> inj_num_opt_inject thm
+R9880:9897 compcert.common.Builtins0 <> inj_num_opt_inject thm
+def 9925:9937 <> mkbuiltin_n2p
+R9957:9959 compcert.common.AST <> typ ind
+binder 9944:9948 <> targ1:165
+binder 9950:9954 <> targ2:166
+R9969:9971 compcert.common.AST <> typ ind
+binder 9963:9966 <> tres:167
+R9993:9996 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10008:10011 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10012:10017 Coq.Init.Datatypes <> option ind
+R10020:10024 compcert.common.Builtins0 <> valty def
+R10026:10029 compcert.common.Builtins0 <> tres:167 var
+R9997:10001 compcert.common.Builtins0 <> valty def
+R10003:10007 compcert.common.Builtins0 <> targ2:166 var
+R9982:9986 compcert.common.Builtins0 <> valty def
+R9988:9992 compcert.common.Builtins0 <> targ1:165 var
+binder 9979:9979 <> f:168
+R10038:10050 compcert.common.Builtins0 <> mkbuiltin_v2p def
+binder 10066:10067 <> v1:169
+binder 10069:10070 <> v2:170
+R10081:10088 compcert.common.Builtins0 <> proj_num def
+binder 10109:10110 <> x1:171
+R10121:10128 compcert.common.Builtins0 <> proj_num def
+binder 10149:10150 <> x2:172
+R10155:10164 compcert.lib.Coqlib <> option_map def
+R10182:10182 compcert.common.Builtins0 <> f:168 var
+R10187:10188 compcert.common.Builtins0 <> x2:172 var
+R10184:10185 compcert.common.Builtins0 <> x1:171 var
+R10167:10173 compcert.common.Builtins0 <> inj_num def
+R10175:10178 compcert.common.Builtins0 <> tres:167 var
+R10141:10142 compcert.common.Builtins0 <> v2:170 var
+R10136:10139 Coq.Init.Datatypes <> None constr
+R10130:10134 compcert.common.Builtins0 <> targ2:166 var
+R10101:10102 compcert.common.Builtins0 <> v1:169 var
+R10096:10099 Coq.Init.Datatypes <> None constr
+R10090:10094 compcert.common.Builtins0 <> targ1:165 var
+R10052:10055 compcert.common.Builtins0 <> tres:167 var
+R10233:10247 compcert.common.Builtins0 <> proj_num_opt_wt thm
+R10250:10263 compcert.common.Builtins0 <> inj_num_opt_wt thm
+R10233:10247 compcert.common.Builtins0 <> proj_num_opt_wt thm
+R10250:10263 compcert.common.Builtins0 <> inj_num_opt_wt thm
+R10296:10314 compcert.common.Builtins0 <> proj_num_opt_inject thm
+R10296:10314 compcert.common.Builtins0 <> proj_num_opt_inject thm
+R10358:10376 compcert.common.Builtins0 <> proj_num_opt_inject thm
+R10358:10376 compcert.common.Builtins0 <> proj_num_opt_inject thm
+R10420:10437 compcert.common.Builtins0 <> inj_num_opt_inject thm
+R10420:10437 compcert.common.Builtins0 <> inj_num_opt_inject thm
+sec 10504:10509 <> LOOKUP
+binder 10522:10522 <> A:173
+R10541:10544 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10545:10553 compcert.common.AST <> signature rec
+R10540:10540 compcert.common.Builtins0 <> A:173 var
+binder 10532:10537 <> sig_of:174
+def 10567:10580 <> lookup_builtin
+R10589:10594 Coq.Strings.String <> string ind
+binder 10583:10586 <> name:175
+R10602:10610 compcert.common.AST <> signature rec
+binder 10598:10599 <> sg:176
+R10617:10620 Coq.Init.Datatypes <> list ind
+R10629:10631 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R10623:10628 Coq.Strings.String <> string ind
+R10632:10632 compcert.common.Builtins0 <> LOOKUP.A var
+binder 10614:10614 <> l:177
+R10638:10643 Coq.Init.Datatypes <> option ind
+R10645:10645 compcert.common.Builtins0 <> LOOKUP.A var
+R10658:10658 compcert.common.Builtins0 <> l:177 var
+R10669:10671 Coq.Init.Datatypes <> nil constr
+R10676:10679 Coq.Init.Datatypes <> None constr
+R10691:10694 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10685:10685 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10687:10688 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10690:10690 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10726:10729 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R10709:10718 Coq.Strings.String <> string_dec def
+R10720:10723 compcert.common.Builtins0 <> name:175 var
+R10730:10741 compcert.common.AST <> signature_eq def
+R10747:10752 compcert.common.Builtins0 <> LOOKUP.sig_of var
+R10743:10744 compcert.common.Builtins0 <> sg:176 var
+R10786:10799 compcert.common.Builtins0 <> lookup_builtin:178 def
+R10809:10809 compcert.common.Builtins0 <> l:177 var
+R10806:10807 compcert.common.Builtins0 <> sg:176 var
+R10801:10804 compcert.common.Builtins0 <> name:175 var
+R10768:10771 Coq.Init.Datatypes <> Some constr
+prf 10825:10842 <> lookup_builtin_sig
+binder 10852:10855 <> name:180
+binder 10857:10858 <> sg:181
+binder 10860:10860 <> b:182
+binder 10862:10862 <> l:183
+R10900:10903 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10912:10914 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10904:10909 compcert.common.Builtins0 <> LOOKUP.sig_of var
+R10911:10911 compcert.common.Builtins0 <> b:182 var
+R10915:10916 compcert.common.Builtins0 <> sg:181 var
+R10891:10893 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10867:10880 compcert.common.Builtins0 <> lookup_builtin def
+R10890:10890 compcert.common.Builtins0 <> l:183 var
+R10887:10888 compcert.common.Builtins0 <> sg:181 var
+R10882:10885 compcert.common.Builtins0 <> name:180 var
+R10894:10897 Coq.Init.Datatypes <> Some constr
+R10899:10899 compcert.common.Builtins0 <> b:182 var
+R11019:11022 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R11002:11011 Coq.Strings.String <> string_dec def
+R11023:11034 compcert.common.AST <> signature_eq def
+R11040:11045 compcert.common.Builtins0 <> LOOKUP.sig_of var
+R11019:11022 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R11002:11011 Coq.Strings.String <> string_dec def
+R11023:11034 compcert.common.AST <> signature_eq def
+R11040:11045 compcert.common.Builtins0 <> LOOKUP.sig_of var
+R11104:11109 compcert.common.Builtins0 LOOKUP <> sec
+ind 11176:11191 <> standard_builtin
+constr 11207:11215 <> BI_select
+constr 11230:11236 <> BI_fabs
+constr 11242:11249 <> BI_fsqrt
+constr 11255:11261 <> BI_negl
+constr 11267:11273 <> BI_addl
+constr 11279:11285 <> BI_subl
+constr 11291:11297 <> BI_mull
+constr 11303:11314 <> BI_i16_bswap
+constr 11320:11331 <> BI_i32_bswap
+constr 11337:11348 <> BI_i64_bswap
+constr 11354:11365 <> BI_i64_umulh
+constr 11371:11382 <> BI_i64_smulh
+constr 11388:11398 <> BI_i64_sdiv
+constr 11404:11414 <> BI_i64_udiv
+constr 11420:11430 <> BI_i64_smod
+constr 11436:11446 <> BI_i64_umod
+constr 11452:11461 <> BI_i64_shl
+constr 11467:11476 <> BI_i64_shr
+constr 11482:11491 <> BI_i64_sar
+constr 11497:11507 <> BI_i64_dtos
+constr 11513:11523 <> BI_i64_dtou
+constr 11529:11539 <> BI_i64_stod
+constr 11545:11555 <> BI_i64_utod
+constr 11561:11571 <> BI_i64_stof
+constr 11577:11587 <> BI_i64_utof
+R11221:11223 compcert.common.AST <> typ ind
+binder 11218:11218 <> t:186
+def 11634:11655 <> standard_builtin_table
+R11659:11662 Coq.Init.Datatypes <> list ind
+R11671:11673 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11665:11670 Coq.Strings.String <> string ind
+R11674:11689 compcert.common.Builtins0 <> standard_builtin ind
+R11732:11736 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11699:11699 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11715:11716 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11731:11731 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11717:11725 compcert.common.Builtins0 <> BI_select constr
+R11727:11730 compcert.common.AST <> Tint constr
+R11771:11775 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11737:11737 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11753:11754 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11770:11770 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11755:11763 compcert.common.Builtins0 <> BI_select constr
+R11765:11769 compcert.common.AST <> Tlong constr
+R11811:11815 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11776:11776 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11792:11793 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11810:11810 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11794:11802 compcert.common.Builtins0 <> BI_select constr
+R11804:11809 compcert.common.AST <> Tfloat constr
+R11852:11856 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11816:11816 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11832:11833 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11851:11851 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11834:11842 compcert.common.Builtins0 <> BI_select constr
+R11844:11850 compcert.common.AST <> Tsingle constr
+R11884:11888 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11857:11857 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11874:11875 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11883:11883 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11876:11882 compcert.common.Builtins0 <> BI_fabs constr
+R11918:11922 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11889:11889 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11907:11908 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11917:11917 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11909:11916 compcert.common.Builtins0 <> BI_fsqrt constr
+R11950:11954 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11923:11923 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11940:11941 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11949:11949 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11942:11948 compcert.common.Builtins0 <> BI_negl constr
+R11982:11986 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11955:11955 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11972:11973 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11981:11981 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11974:11980 compcert.common.Builtins0 <> BI_addl constr
+R12014:12018 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11987:11987 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12004:12005 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12013:12013 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12006:12012 compcert.common.Builtins0 <> BI_subl constr
+R12046:12050 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12019:12019 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12036:12037 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12045:12045 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12038:12044 compcert.common.Builtins0 <> BI_mull constr
+R12086:12090 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12051:12051 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12071:12072 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12085:12085 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12073:12084 compcert.common.Builtins0 <> BI_i16_bswap constr
+R12124:12128 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12091:12091 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12109:12110 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12123:12123 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12111:12122 compcert.common.Builtins0 <> BI_i32_bswap constr
+R12164:12168 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12129:12129 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12149:12150 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12163:12163 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12151:12162 compcert.common.Builtins0 <> BI_i32_bswap constr
+R12204:12208 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12169:12169 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12189:12190 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12203:12203 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12191:12202 compcert.common.Builtins0 <> BI_i64_bswap constr
+R12247:12251 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12209:12209 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12232:12233 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12246:12246 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12234:12245 compcert.common.Builtins0 <> BI_i64_umulh constr
+R12290:12294 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12252:12252 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12275:12276 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12289:12289 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12277:12288 compcert.common.Builtins0 <> BI_i64_smulh constr
+R12331:12335 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12295:12295 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12317:12318 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12330:12330 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12319:12329 compcert.common.Builtins0 <> BI_i64_sdiv constr
+R12372:12376 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12336:12336 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12358:12359 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12371:12371 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12360:12370 compcert.common.Builtins0 <> BI_i64_udiv constr
+R12413:12417 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12377:12377 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12399:12400 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12412:12412 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12401:12411 compcert.common.Builtins0 <> BI_i64_smod constr
+R12454:12458 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12418:12418 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12440:12441 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12453:12453 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12442:12452 compcert.common.Builtins0 <> BI_i64_umod constr
+R12493:12497 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12459:12459 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12480:12481 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12492:12492 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12482:12491 compcert.common.Builtins0 <> BI_i64_shl constr
+R12532:12536 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12498:12498 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12519:12520 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12531:12531 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12521:12530 compcert.common.Builtins0 <> BI_i64_shr constr
+R12571:12575 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12537:12537 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12558:12559 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12570:12570 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12560:12569 compcert.common.Builtins0 <> BI_i64_sar constr
+R12612:12616 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12576:12576 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12598:12599 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12611:12611 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12600:12610 compcert.common.Builtins0 <> BI_i64_dtos constr
+R12653:12657 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12617:12617 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12639:12640 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12652:12652 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12641:12651 compcert.common.Builtins0 <> BI_i64_dtou constr
+R12694:12698 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12658:12658 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12680:12681 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12693:12693 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12682:12692 compcert.common.Builtins0 <> BI_i64_stod constr
+R12735:12739 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12699:12699 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12721:12722 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12734:12734 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12723:12733 compcert.common.Builtins0 <> BI_i64_utod constr
+R12776:12780 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12740:12740 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12762:12763 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12775:12775 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12764:12774 compcert.common.Builtins0 <> BI_i64_stof constr
+R12817:12821 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12781:12781 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12803:12804 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12816:12816 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12805:12815 compcert.common.Builtins0 <> BI_i64_utof constr
+R12822:12824 Coq.Init.Datatypes <> nil constr
+def 12839:12858 <> standard_builtin_sig
+R12864:12879 compcert.common.Builtins0 <> standard_builtin ind
+binder 12861:12861 <> b:187
+R12884:12892 compcert.common.AST <> signature rec
+R12905:12905 compcert.common.Builtins0 <> b:187 var
+R12916:12924 compcert.common.Builtins0 <> BI_select constr
+R12937:12947 compcert.common.AST <> mksignature constr
+R12975:12984 compcert.common.AST <> cc_default def
+R12954:12957 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12950:12953 compcert.common.AST <> Tint constr
+R12959:12962 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12964:12967 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12968:12970 Coq.Init.Datatypes <> nil constr
+R12990:12996 compcert.common.Builtins0 <> BI_fabs constr
+R13000:13007 compcert.common.Builtins0 <> BI_fsqrt constr
+R13018:13028 compcert.common.AST <> mksignature constr
+R13053:13062 compcert.common.AST <> cc_default def
+R13046:13051 compcert.common.AST <> Tfloat constr
+R13037:13040 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13031:13036 compcert.common.AST <> Tfloat constr
+R13041:13043 Coq.Init.Datatypes <> nil constr
+R13018:13028 compcert.common.AST <> mksignature constr
+R13053:13062 compcert.common.AST <> cc_default def
+R13046:13051 compcert.common.AST <> Tfloat constr
+R13037:13040 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13031:13036 compcert.common.AST <> Tfloat constr
+R13041:13043 Coq.Init.Datatypes <> nil constr
+R13068:13074 compcert.common.Builtins0 <> BI_negl constr
+R13085:13095 compcert.common.AST <> mksignature constr
+R13118:13127 compcert.common.AST <> cc_default def
+R13112:13116 compcert.common.AST <> Tlong constr
+R13103:13106 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13098:13102 compcert.common.AST <> Tlong constr
+R13107:13109 Coq.Init.Datatypes <> nil constr
+R13133:13139 compcert.common.Builtins0 <> BI_addl constr
+R13143:13149 compcert.common.Builtins0 <> BI_subl constr
+R13153:13164 compcert.common.Builtins0 <> BI_i64_umulh constr
+R13167:13178 compcert.common.Builtins0 <> BI_i64_smulh constr
+R13185:13195 compcert.common.Builtins0 <> BI_i64_sdiv constr
+R13199:13209 compcert.common.Builtins0 <> BI_i64_udiv constr
+R13213:13223 compcert.common.Builtins0 <> BI_i64_smod constr
+R13227:13237 compcert.common.Builtins0 <> BI_i64_umod constr
+R13248:13258 compcert.common.AST <> mksignature constr
+R13290:13299 compcert.common.AST <> cc_default def
+R13284:13288 compcert.common.AST <> Tlong constr
+R13266:13269 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13261:13265 compcert.common.AST <> Tlong constr
+R13275:13278 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13270:13274 compcert.common.AST <> Tlong constr
+R13279:13281 Coq.Init.Datatypes <> nil constr
+R13248:13258 compcert.common.AST <> mksignature constr
+R13290:13299 compcert.common.AST <> cc_default def
+R13284:13288 compcert.common.AST <> Tlong constr
+R13266:13269 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13261:13265 compcert.common.AST <> Tlong constr
+R13275:13278 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13270:13274 compcert.common.AST <> Tlong constr
+R13279:13281 Coq.Init.Datatypes <> nil constr
+R13248:13258 compcert.common.AST <> mksignature constr
+R13290:13299 compcert.common.AST <> cc_default def
+R13284:13288 compcert.common.AST <> Tlong constr
+R13266:13269 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13261:13265 compcert.common.AST <> Tlong constr
+R13275:13278 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13270:13274 compcert.common.AST <> Tlong constr
+R13279:13281 Coq.Init.Datatypes <> nil constr
+R13248:13258 compcert.common.AST <> mksignature constr
+R13290:13299 compcert.common.AST <> cc_default def
+R13284:13288 compcert.common.AST <> Tlong constr
+R13266:13269 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13261:13265 compcert.common.AST <> Tlong constr
+R13275:13278 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13270:13274 compcert.common.AST <> Tlong constr
+R13279:13281 Coq.Init.Datatypes <> nil constr
+R13248:13258 compcert.common.AST <> mksignature constr
+R13290:13299 compcert.common.AST <> cc_default def
+R13284:13288 compcert.common.AST <> Tlong constr
+R13266:13269 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13261:13265 compcert.common.AST <> Tlong constr
+R13275:13278 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13270:13274 compcert.common.AST <> Tlong constr
+R13279:13281 Coq.Init.Datatypes <> nil constr
+R13248:13258 compcert.common.AST <> mksignature constr
+R13290:13299 compcert.common.AST <> cc_default def
+R13284:13288 compcert.common.AST <> Tlong constr
+R13266:13269 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13261:13265 compcert.common.AST <> Tlong constr
+R13275:13278 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13270:13274 compcert.common.AST <> Tlong constr
+R13279:13281 Coq.Init.Datatypes <> nil constr
+R13248:13258 compcert.common.AST <> mksignature constr
+R13290:13299 compcert.common.AST <> cc_default def
+R13284:13288 compcert.common.AST <> Tlong constr
+R13266:13269 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13261:13265 compcert.common.AST <> Tlong constr
+R13275:13278 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13270:13274 compcert.common.AST <> Tlong constr
+R13279:13281 Coq.Init.Datatypes <> nil constr
+R13248:13258 compcert.common.AST <> mksignature constr
+R13290:13299 compcert.common.AST <> cc_default def
+R13284:13288 compcert.common.AST <> Tlong constr
+R13266:13269 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13261:13265 compcert.common.AST <> Tlong constr
+R13275:13278 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13270:13274 compcert.common.AST <> Tlong constr
+R13279:13281 Coq.Init.Datatypes <> nil constr
+R13305:13311 compcert.common.Builtins0 <> BI_mull constr
+R13322:13332 compcert.common.AST <> mksignature constr
+R13362:13371 compcert.common.AST <> cc_default def
+R13356:13360 compcert.common.AST <> Tlong constr
+R13339:13342 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13335:13338 compcert.common.AST <> Tint constr
+R13347:13350 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13343:13346 compcert.common.AST <> Tint constr
+R13351:13353 Coq.Init.Datatypes <> nil constr
+R13377:13388 compcert.common.Builtins0 <> BI_i32_bswap constr
+R13399:13409 compcert.common.AST <> mksignature constr
+R13430:13439 compcert.common.AST <> cc_default def
+R13425:13428 compcert.common.AST <> Tint constr
+R13416:13419 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13412:13415 compcert.common.AST <> Tint constr
+R13420:13422 Coq.Init.Datatypes <> nil constr
+R13445:13456 compcert.common.Builtins0 <> BI_i64_bswap constr
+R13467:13477 compcert.common.AST <> mksignature constr
+R13500:13509 compcert.common.AST <> cc_default def
+R13494:13498 compcert.common.AST <> Tlong constr
+R13485:13488 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13480:13484 compcert.common.AST <> Tlong constr
+R13489:13491 Coq.Init.Datatypes <> nil constr
+R13515:13526 compcert.common.Builtins0 <> BI_i16_bswap constr
+R13537:13547 compcert.common.AST <> mksignature constr
+R13568:13577 compcert.common.AST <> cc_default def
+R13563:13566 compcert.common.AST <> Tint constr
+R13554:13557 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13550:13553 compcert.common.AST <> Tint constr
+R13558:13560 Coq.Init.Datatypes <> nil constr
+R13583:13592 compcert.common.Builtins0 <> BI_i64_shl constr
+R13597:13606 compcert.common.Builtins0 <> BI_i64_shr constr
+R13610:13619 compcert.common.Builtins0 <> BI_i64_sar constr
+R13630:13640 compcert.common.AST <> mksignature constr
+R13671:13680 compcert.common.AST <> cc_default def
+R13665:13669 compcert.common.AST <> Tlong constr
+R13648:13651 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13643:13647 compcert.common.AST <> Tlong constr
+R13656:13659 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13652:13655 compcert.common.AST <> Tint constr
+R13660:13662 Coq.Init.Datatypes <> nil constr
+R13630:13640 compcert.common.AST <> mksignature constr
+R13671:13680 compcert.common.AST <> cc_default def
+R13665:13669 compcert.common.AST <> Tlong constr
+R13648:13651 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13643:13647 compcert.common.AST <> Tlong constr
+R13656:13659 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13652:13655 compcert.common.AST <> Tint constr
+R13660:13662 Coq.Init.Datatypes <> nil constr
+R13630:13640 compcert.common.AST <> mksignature constr
+R13671:13680 compcert.common.AST <> cc_default def
+R13665:13669 compcert.common.AST <> Tlong constr
+R13648:13651 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13643:13647 compcert.common.AST <> Tlong constr
+R13656:13659 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13652:13655 compcert.common.AST <> Tint constr
+R13660:13662 Coq.Init.Datatypes <> nil constr
+R13686:13696 compcert.common.Builtins0 <> BI_i64_dtos constr
+R13700:13710 compcert.common.Builtins0 <> BI_i64_dtou constr
+R13721:13731 compcert.common.AST <> mksignature constr
+R13755:13764 compcert.common.AST <> cc_default def
+R13749:13753 compcert.common.AST <> Tlong constr
+R13740:13743 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13734:13739 compcert.common.AST <> Tfloat constr
+R13744:13746 Coq.Init.Datatypes <> nil constr
+R13721:13731 compcert.common.AST <> mksignature constr
+R13755:13764 compcert.common.AST <> cc_default def
+R13749:13753 compcert.common.AST <> Tlong constr
+R13740:13743 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13734:13739 compcert.common.AST <> Tfloat constr
+R13744:13746 Coq.Init.Datatypes <> nil constr
+R13770:13780 compcert.common.Builtins0 <> BI_i64_stod constr
+R13784:13794 compcert.common.Builtins0 <> BI_i64_utod constr
+R13805:13815 compcert.common.AST <> mksignature constr
+R13839:13848 compcert.common.AST <> cc_default def
+R13832:13837 compcert.common.AST <> Tfloat constr
+R13823:13826 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13818:13822 compcert.common.AST <> Tlong constr
+R13827:13829 Coq.Init.Datatypes <> nil constr
+R13805:13815 compcert.common.AST <> mksignature constr
+R13839:13848 compcert.common.AST <> cc_default def
+R13832:13837 compcert.common.AST <> Tfloat constr
+R13823:13826 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13818:13822 compcert.common.AST <> Tlong constr
+R13827:13829 Coq.Init.Datatypes <> nil constr
+R13854:13864 compcert.common.Builtins0 <> BI_i64_stof constr
+R13868:13878 compcert.common.Builtins0 <> BI_i64_utof constr
+R13889:13899 compcert.common.AST <> mksignature constr
+R13924:13933 compcert.common.AST <> cc_default def
+R13916:13922 compcert.common.AST <> Tsingle constr
+R13907:13910 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13902:13906 compcert.common.AST <> Tlong constr
+R13911:13913 Coq.Init.Datatypes <> nil constr
+R13889:13899 compcert.common.AST <> mksignature constr
+R13924:13933 compcert.common.AST <> cc_default def
+R13916:13922 compcert.common.AST <> Tsingle constr
+R13907:13910 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13902:13906 compcert.common.AST <> Tlong constr
+R13911:13913 Coq.Init.Datatypes <> nil constr
+def 13962:13981 <> standard_builtin_sem
+R13987:14002 compcert.common.Builtins0 <> standard_builtin ind
+binder 13984:13984 <> b:189
+R14007:14017 compcert.common.Builtins0 <> builtin_sem rec
+R14020:14026 compcert.common.AST <> sig_res proj
+R14029:14048 compcert.common.Builtins0 <> standard_builtin_sig def
+R14050:14050 compcert.common.Builtins0 <> b:189 var
+R14065:14065 compcert.common.Builtins0 <> b:189 var
+R14076:14084 compcert.common.Builtins0 <> BI_select constr
+R14097:14105 compcert.common.Builtins0 <> mkbuiltin constr
+binder 14122:14126 <> vargs:191
+R14137:14141 compcert.common.Builtins0 <> vargs:191 var
+R14166:14169 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14160:14163 compcert.common.Values <> Vint constr
+R14172:14175 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14178:14181 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14182:14184 Coq.Init.Datatypes <> nil constr
+R14189:14192 Coq.Init.Datatypes <> Some constr
+R14195:14207 compcert.common.Values Val normalize def
+R14213:14218 compcert.lib.Integers Int eq def
+R14222:14229 compcert.lib.Integers Int zero def
+R14268:14271 Coq.Init.Datatypes <> None constr
+R14294:14300 compcert.common.Builtins0 <> BI_fabs constr
+R14305:14317 compcert.common.Builtins0 <> mkbuiltin_n1t def
+R14333:14341 compcert.lib.Floats Float abs def
+R14326:14331 compcert.common.AST <> Tfloat constr
+R14319:14324 compcert.common.AST <> Tfloat constr
+R14347:14354 compcert.common.Builtins0 <> BI_fsqrt constr
+R14359:14371 compcert.common.Builtins0 <> mkbuiltin_n1t def
+R14387:14396 compcert.lib.Floats Float sqrt def
+R14380:14385 compcert.common.AST <> Tfloat constr
+R14373:14378 compcert.common.AST <> Tfloat constr
+R14402:14408 compcert.common.Builtins0 <> BI_negl constr
+R14413:14425 compcert.common.Builtins0 <> mkbuiltin_n1t def
+R14439:14447 compcert.lib.Integers Int64 neg def
+R14433:14437 compcert.common.AST <> Tlong constr
+R14427:14431 compcert.common.AST <> Tlong constr
+R14453:14459 compcert.common.Builtins0 <> BI_addl constr
+R14464:14476 compcert.common.Builtins0 <> mkbuiltin_v2t def
+R14484:14491 compcert.common.Values Val addl def
+R14478:14482 compcert.common.AST <> Tlong constr
+R14502:14508 compcert.common.Builtins0 <> BI_subl constr
+R14513:14525 compcert.common.Builtins0 <> mkbuiltin_v2t def
+R14533:14540 compcert.common.Values Val subl def
+R14527:14531 compcert.common.AST <> Tlong constr
+R14550:14556 compcert.common.Builtins0 <> BI_mull constr
+R14561:14573 compcert.common.Builtins0 <> mkbuiltin_v2t def
+R14581:14589 compcert.common.Values Val mull' def
+R14575:14579 compcert.common.AST <> Tlong constr
+R14599:14610 compcert.common.Builtins0 <> BI_i16_bswap constr
+R14619:14631 compcert.common.Builtins0 <> mkbuiltin_n1t def
+binder 14666:14666 <> n:193
+R14671:14678 compcert.lib.Integers Int repr def
+R14681:14690 compcert.common.Memdata <> decode_int def
+R14693:14700 Coq.Lists.List <> rev def
+R14703:14712 compcert.common.Memdata <> encode_int def
+R14721:14732 compcert.lib.Integers Int unsigned def
+R14734:14734 compcert.common.Builtins0 <> n:193 var
+R14638:14641 compcert.common.AST <> Tint constr
+R14633:14636 compcert.common.AST <> Tint constr
+R14745:14756 compcert.common.Builtins0 <> BI_i32_bswap constr
+R14765:14777 compcert.common.Builtins0 <> mkbuiltin_n1t def
+binder 14812:14812 <> n:194
+R14817:14824 compcert.lib.Integers Int repr def
+R14827:14836 compcert.common.Memdata <> decode_int def
+R14839:14846 Coq.Lists.List <> rev def
+R14849:14858 compcert.common.Memdata <> encode_int def
+R14867:14878 compcert.lib.Integers Int unsigned def
+R14880:14880 compcert.common.Builtins0 <> n:194 var
+R14784:14787 compcert.common.AST <> Tint constr
+R14779:14782 compcert.common.AST <> Tint constr
+R14891:14902 compcert.common.Builtins0 <> BI_i64_bswap constr
+R14911:14923 compcert.common.Builtins0 <> mkbuiltin_n1t def
+binder 14960:14960 <> n:195
+R14965:14974 compcert.lib.Integers Int64 repr def
+R14977:14986 compcert.common.Memdata <> decode_int def
+R14989:14996 Coq.Lists.List <> rev def
+R14999:15008 compcert.common.Memdata <> encode_int def
+R15017:15030 compcert.lib.Integers Int64 unsigned def
+R15032:15032 compcert.common.Builtins0 <> n:195 var
+R14931:14935 compcert.common.AST <> Tlong constr
+R14925:14929 compcert.common.AST <> Tlong constr
+R15043:15054 compcert.common.Builtins0 <> BI_i64_umulh constr
+R15059:15071 compcert.common.Builtins0 <> mkbuiltin_n2t def
+R15091:15101 compcert.lib.Integers Int64 mulhu def
+R15085:15089 compcert.common.AST <> Tlong constr
+R15079:15083 compcert.common.AST <> Tlong constr
+R15073:15077 compcert.common.AST <> Tlong constr
+R15107:15118 compcert.common.Builtins0 <> BI_i64_smulh constr
+R15123:15135 compcert.common.Builtins0 <> mkbuiltin_n2t def
+R15155:15165 compcert.lib.Integers Int64 mulhs def
+R15149:15153 compcert.common.AST <> Tlong constr
+R15143:15147 compcert.common.AST <> Tlong constr
+R15137:15141 compcert.common.AST <> Tlong constr
+R15171:15181 compcert.common.Builtins0 <> BI_i64_sdiv constr
+R15186:15198 compcert.common.Builtins0 <> mkbuiltin_v2p def
+R15206:15214 compcert.common.Values Val divls def
+R15200:15204 compcert.common.AST <> Tlong constr
+R15224:15234 compcert.common.Builtins0 <> BI_i64_udiv constr
+R15239:15251 compcert.common.Builtins0 <> mkbuiltin_v2p def
+R15259:15267 compcert.common.Values Val divlu def
+R15253:15257 compcert.common.AST <> Tlong constr
+R15277:15287 compcert.common.Builtins0 <> BI_i64_smod constr
+R15292:15304 compcert.common.Builtins0 <> mkbuiltin_v2p def
+R15312:15320 compcert.common.Values Val modls def
+R15306:15310 compcert.common.AST <> Tlong constr
+R15330:15340 compcert.common.Builtins0 <> BI_i64_umod constr
+R15345:15357 compcert.common.Builtins0 <> mkbuiltin_v2p def
+R15365:15373 compcert.common.Values Val modlu def
+R15359:15363 compcert.common.AST <> Tlong constr
+R15383:15392 compcert.common.Builtins0 <> BI_i64_shl constr
+R15397:15409 compcert.common.Builtins0 <> mkbuiltin_v2t def
+R15417:15424 compcert.common.Values Val shll def
+R15411:15415 compcert.common.AST <> Tlong constr
+R15434:15443 compcert.common.Builtins0 <> BI_i64_shr constr
+R15448:15460 compcert.common.Builtins0 <> mkbuiltin_v2t def
+R15468:15476 compcert.common.Values Val shrlu def
+R15462:15466 compcert.common.AST <> Tlong constr
+R15486:15495 compcert.common.Builtins0 <> BI_i64_sar constr
+R15500:15512 compcert.common.Builtins0 <> mkbuiltin_v2t def
+R15520:15527 compcert.common.Values Val shrl def
+R15514:15518 compcert.common.AST <> Tlong constr
+R15537:15547 compcert.common.Builtins0 <> BI_i64_dtos constr
+R15552:15564 compcert.common.Builtins0 <> mkbuiltin_n1p def
+R15579:15591 compcert.lib.Floats Float to_long def
+R15573:15577 compcert.common.AST <> Tlong constr
+R15566:15571 compcert.common.AST <> Tfloat constr
+R15597:15607 compcert.common.Builtins0 <> BI_i64_dtou constr
+R15612:15624 compcert.common.Builtins0 <> mkbuiltin_n1p def
+R15639:15652 compcert.lib.Floats Float to_longu def
+R15633:15637 compcert.common.AST <> Tlong constr
+R15626:15631 compcert.common.AST <> Tfloat constr
+R15658:15668 compcert.common.Builtins0 <> BI_i64_stod constr
+R15673:15685 compcert.common.Builtins0 <> mkbuiltin_n1t def
+R15700:15712 compcert.lib.Floats Float of_long def
+R15693:15698 compcert.common.AST <> Tfloat constr
+R15687:15691 compcert.common.AST <> Tlong constr
+R15718:15728 compcert.common.Builtins0 <> BI_i64_utod constr
+R15733:15745 compcert.common.Builtins0 <> mkbuiltin_n1t def
+R15760:15773 compcert.lib.Floats Float of_longu def
+R15753:15758 compcert.common.AST <> Tfloat constr
+R15747:15751 compcert.common.AST <> Tlong constr
+R15779:15789 compcert.common.Builtins0 <> BI_i64_stof constr
+R15794:15806 compcert.common.Builtins0 <> mkbuiltin_n1t def
+R15822:15836 compcert.lib.Floats Float32 of_long def
+R15814:15820 compcert.common.AST <> Tsingle constr
+R15808:15812 compcert.common.AST <> Tlong constr
+R15842:15852 compcert.common.Builtins0 <> BI_i64_utof constr
+R15857:15869 compcert.common.Builtins0 <> mkbuiltin_n1t def
+R15885:15900 compcert.lib.Floats Float32 of_longu def
+R15877:15883 compcert.common.AST <> Tsingle constr
+R15871:15875 compcert.common.AST <> Tlong constr
+R16039:16056 compcert.common.Values Val normalize_type thm
+R16039:16056 compcert.common.Values Val normalize_type thm
+R16165:16184 compcert.common.Values Val normalize_inject thm
+R16165:16184 compcert.common.Values Val normalize_inject thm
+R16197:16202 compcert.lib.Integers Int eq def
+R16206:16213 compcert.lib.Integers Int zero def
+R16197:16202 compcert.lib.Integers Int eq def
+R16206:16213 compcert.lib.Integers Int zero def
+R16254:16261 compcert.common.Values Val addl def
+R16264:16275 compcert.common.Values Val has_type def
+R16325:16335 compcert.x86_32.Archi <> ptr64 def
+R16325:16335 compcert.x86_32.Archi <> ptr64 def
+R16325:16335 compcert.x86_32.Archi <> ptr64 def
+R16374:16388 compcert.common.Values Val addl_inject thm
+R16374:16388 compcert.common.Values Val addl_inject thm
+R16431:16438 compcert.common.Values Val subl def
+R16441:16452 compcert.common.Values Val has_type def
+R16455:16458 Coq.Init.Datatypes <> negb def
+R16510:16520 compcert.x86_32.Archi <> ptr64 def
+R16539:16546 compcert.common.Values <> eq_block def
+R16510:16520 compcert.x86_32.Archi <> ptr64 def
+R16510:16520 compcert.x86_32.Archi <> ptr64 def
+R16539:16546 compcert.common.Values <> eq_block def
+R16592:16606 compcert.common.Values Val subl_inject thm
+R16592:16606 compcert.common.Values Val subl_inject thm
+R16646:16654 compcert.common.Values Val mull' def
+R16657:16668 compcert.common.Values Val has_type def
+R16868:16868 Coq.Init.Logic <> I constr
+R16857:16859 Coq.Init.Datatypes <> orb def
+R16868:16868 Coq.Init.Logic <> I constr
+R16868:16868 Coq.Init.Logic <> I constr
+R16943:16945 Coq.Init.Datatypes <> orb def
+R17037:17044 compcert.lib.Integers Int64 eq def
+R17053:17053 Coq.Init.Logic <> I constr
+R17037:17044 compcert.lib.Integers Int64 eq def
+R17053:17053 Coq.Init.Logic <> I constr
+R17053:17053 Coq.Init.Logic <> I constr
+R17128:17135 compcert.lib.Integers Int64 eq def
+R17128:17135 compcert.lib.Integers Int64 eq def
+R17238:17238 Coq.Init.Logic <> I constr
+R17227:17229 Coq.Init.Datatypes <> orb def
+R17238:17238 Coq.Init.Logic <> I constr
+R17238:17238 Coq.Init.Logic <> I constr
+R17313:17315 Coq.Init.Datatypes <> orb def
+R17407:17414 compcert.lib.Integers Int64 eq def
+R17423:17423 Coq.Init.Logic <> I constr
+R17407:17414 compcert.lib.Integers Int64 eq def
+R17423:17423 Coq.Init.Logic <> I constr
+R17423:17423 Coq.Init.Logic <> I constr
+R17498:17505 compcert.lib.Integers Int64 eq def
+R17498:17505 compcert.lib.Integers Int64 eq def
+R17597:17603 compcert.lib.Integers Int ltu def
+R17597:17603 compcert.lib.Integers Int ltu def
+R17679:17685 compcert.lib.Integers Int ltu def
+R17679:17685 compcert.lib.Integers Int ltu def
+R17777:17783 compcert.lib.Integers Int ltu def
+R17777:17783 compcert.lib.Integers Int ltu def
+R17859:17865 compcert.lib.Integers Int ltu def
+R17859:17865 compcert.lib.Integers Int ltu def
+R17957:17963 compcert.lib.Integers Int ltu def
+R17957:17963 compcert.lib.Integers Int ltu def
+R18039:18045 compcert.lib.Integers Int ltu def
+R18039:18045 compcert.lib.Integers Int ltu def

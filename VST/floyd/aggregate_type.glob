@@ -1,0 +1,489 @@
+DIGEST 12f41cec37eabc2a7ca6ef7f92753cbb
+FVST.floyd.aggregate_type
+R15:29 VST.floyd.base2 <> <> lib
+R47:69 VST.floyd.assert_lemmas <> <> lib
+R87:110 VST.floyd.type_induction <> <> lib
+R128:148 VST.floyd.jmeq_lemmas <> <> lib
+R166:184 VST.floyd.fieldlist <> <> lib
+R202:227 VST.floyd.compact_prod_sum <> <> lib
+R245:261 VST.floyd.sublist <> <> lib
+def 276:286 <> proj_struct
+R293:297 compcert.common.AST <> ident def
+binder 289:289 <> i:1
+R305:311 compcert.cfrontend.Ctypes <> members def
+binder 301:301 <> m:2
+R330:333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R323:325 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R318:322 compcert.common.AST <> ident def
+R326:329 compcert.cfrontend.Ctypes <> type ind
+binder 315:315 <> A:3
+R344:355 VST.floyd.compact_prod_sum <> compact_prod def
+R358:360 Coq.Lists.List <> map def
+R364:364 VST.floyd.aggregate_type <> m:2 var
+R362:362 VST.floyd.aggregate_type <> A:3 var
+binder 341:341 <> v:4
+R372:372 VST.floyd.aggregate_type <> A:3 var
+R374:374 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R376:377 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R392:392 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R375:375 VST.floyd.aggregate_type <> i:1 var
+R378:387 VST.floyd.fieldlist <> field_type def
+R391:391 VST.floyd.aggregate_type <> m:2 var
+R389:389 VST.floyd.aggregate_type <> i:1 var
+binder 369:369 <> d:5
+R396:396 VST.floyd.aggregate_type <> A:3 var
+R398:398 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R400:401 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R416:416 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R399:399 VST.floyd.aggregate_type <> i:1 var
+R402:411 VST.floyd.fieldlist <> field_type def
+R415:415 VST.floyd.aggregate_type <> m:2 var
+R413:413 VST.floyd.aggregate_type <> i:1 var
+R423:439 VST.floyd.compact_prod_sum <> proj_compact_prod def
+R467:476 VST.floyd.base <> member_dec def
+R465:465 VST.floyd.aggregate_type <> d:5 var
+R463:463 VST.floyd.aggregate_type <> v:4 var
+R461:461 VST.floyd.aggregate_type <> m:2 var
+R441:441 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R443:444 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R459:459 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R442:442 VST.floyd.aggregate_type <> i:1 var
+R445:454 VST.floyd.fieldlist <> field_type def
+R458:458 VST.floyd.aggregate_type <> m:2 var
+R456:456 VST.floyd.aggregate_type <> i:1 var
+def 491:500 <> proj_union
+R507:511 compcert.common.AST <> ident def
+binder 503:503 <> i:6
+R519:525 compcert.cfrontend.Ctypes <> members def
+binder 515:515 <> m:7
+R544:547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R537:539 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R532:536 compcert.common.AST <> ident def
+R540:543 compcert.cfrontend.Ctypes <> type ind
+binder 529:529 <> A:8
+R558:568 VST.floyd.compact_prod_sum <> compact_sum def
+R571:573 Coq.Lists.List <> map def
+R577:577 VST.floyd.aggregate_type <> m:7 var
+R575:575 VST.floyd.aggregate_type <> A:8 var
+binder 555:555 <> v:9
+R585:585 VST.floyd.aggregate_type <> A:8 var
+R587:587 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R589:590 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R605:605 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R588:588 VST.floyd.aggregate_type <> i:6 var
+R591:600 VST.floyd.fieldlist <> field_type def
+R604:604 VST.floyd.aggregate_type <> m:7 var
+R602:602 VST.floyd.aggregate_type <> i:6 var
+binder 582:582 <> d:10
+R609:609 VST.floyd.aggregate_type <> A:8 var
+R611:611 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R613:614 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R629:629 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R612:612 VST.floyd.aggregate_type <> i:6 var
+R615:624 VST.floyd.fieldlist <> field_type def
+R628:628 VST.floyd.aggregate_type <> m:7 var
+R626:626 VST.floyd.aggregate_type <> i:6 var
+R636:651 VST.floyd.compact_prod_sum <> proj_compact_sum def
+R679:688 VST.floyd.base <> member_dec def
+R677:677 VST.floyd.aggregate_type <> d:10 var
+R675:675 VST.floyd.aggregate_type <> v:9 var
+R673:673 VST.floyd.aggregate_type <> m:7 var
+R653:653 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R655:656 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R671:671 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R654:654 VST.floyd.aggregate_type <> i:6 var
+R657:666 VST.floyd.fieldlist <> field_type def
+R670:670 VST.floyd.aggregate_type <> m:7 var
+R668:668 VST.floyd.aggregate_type <> i:6 var
+def 703:719 <> members_union_inj
+R725:731 compcert.cfrontend.Ctypes <> members def
+binder 722:722 <> m:11
+binder 735:735 <> A:12
+R742:752 VST.floyd.compact_prod_sum <> compact_sum def
+R755:757 Coq.Lists.List <> map def
+R761:761 VST.floyd.aggregate_type <> m:11 var
+R759:759 VST.floyd.aggregate_type <> A:12 var
+binder 739:739 <> v:13
+R775:777 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R770:774 compcert.common.AST <> ident def
+R778:781 compcert.cfrontend.Ctypes <> type ind
+binder 766:767 <> it:14
+R795:809 VST.floyd.compact_prod_sum <> compact_sum_inj def
+R816:825 VST.floyd.base <> member_dec def
+R813:814 VST.floyd.aggregate_type <> it:14 var
+R811:811 VST.floyd.aggregate_type <> v:13 var
+def 840:850 <> upd_sublist
+binder 853:853 <> X:15
+R870:870 Coq.Numbers.BinNums <> Z ind
+binder 863:864 <> lo:16
+binder 866:867 <> hi:17
+R877:880 Coq.Init.Datatypes <> list ind
+R882:882 VST.floyd.aggregate_type <> X:15 var
+binder 874:874 <> l:18
+R890:893 Coq.Init.Datatypes <> list ind
+R895:895 VST.floyd.aggregate_type <> X:15 var
+binder 886:887 <> l0:19
+R900:903 Coq.Init.Datatypes <> list ind
+R905:905 VST.floyd.aggregate_type <> X:15 var
+R934:937 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R912:917 Coq.Lists.List <> firstn def
+R933:933 VST.floyd.aggregate_type <> l:18 var
+R920:927 Coq.ZArith.BinInt Z to_nat def
+R929:930 VST.floyd.aggregate_type <> lo:16 var
+R940:943 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R938:939 VST.floyd.aggregate_type <> l0:19 var
+R944:948 Coq.Lists.List <> skipn def
+R964:964 VST.floyd.aggregate_type <> l:18 var
+R951:958 Coq.ZArith.BinInt Z to_nat def
+R960:961 VST.floyd.aggregate_type <> hi:17 var
+def 1118:1127 <> upd_struct
+R1134:1138 compcert.common.AST <> ident def
+binder 1130:1130 <> i:20
+R1146:1152 compcert.cfrontend.Ctypes <> members def
+binder 1142:1142 <> m:21
+R1171:1174 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1164:1166 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1159:1163 compcert.common.AST <> ident def
+R1167:1170 compcert.cfrontend.Ctypes <> type ind
+binder 1156:1156 <> A:22
+R1185:1196 VST.floyd.compact_prod_sum <> compact_prod def
+R1199:1201 Coq.Lists.List <> map def
+R1205:1205 VST.floyd.aggregate_type <> m:21 var
+R1203:1203 VST.floyd.aggregate_type <> A:22 var
+binder 1182:1182 <> v:23
+R1214:1214 VST.floyd.aggregate_type <> A:22 var
+R1216:1216 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1218:1219 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1234:1234 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1217:1217 VST.floyd.aggregate_type <> i:20 var
+R1220:1229 VST.floyd.fieldlist <> field_type def
+R1233:1233 VST.floyd.aggregate_type <> m:21 var
+R1231:1231 VST.floyd.aggregate_type <> i:20 var
+binder 1210:1211 <> v0:24
+R1238:1249 VST.floyd.compact_prod_sum <> compact_prod def
+R1252:1254 Coq.Lists.List <> map def
+R1258:1258 VST.floyd.aggregate_type <> m:21 var
+R1256:1256 VST.floyd.aggregate_type <> A:22 var
+R1266:1281 VST.floyd.compact_prod_sum <> upd_compact_prod def
+R1310:1319 VST.floyd.base <> member_dec def
+R1307:1308 VST.floyd.aggregate_type <> v0:24 var
+R1287:1287 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1289:1290 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1305:1305 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1288:1288 VST.floyd.aggregate_type <> i:20 var
+R1291:1300 VST.floyd.fieldlist <> field_type def
+R1304:1304 VST.floyd.aggregate_type <> m:21 var
+R1302:1302 VST.floyd.aggregate_type <> i:20 var
+R1285:1285 VST.floyd.aggregate_type <> v:23 var
+def 1334:1342 <> upd_union
+R1349:1353 compcert.common.AST <> ident def
+binder 1345:1345 <> i:25
+R1361:1367 compcert.cfrontend.Ctypes <> members def
+binder 1357:1357 <> m:26
+R1386:1389 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1379:1381 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1374:1378 compcert.common.AST <> ident def
+R1382:1385 compcert.cfrontend.Ctypes <> type ind
+binder 1371:1371 <> A:27
+R1400:1410 VST.floyd.compact_prod_sum <> compact_sum def
+R1413:1415 Coq.Lists.List <> map def
+R1419:1419 VST.floyd.aggregate_type <> m:26 var
+R1417:1417 VST.floyd.aggregate_type <> A:27 var
+binder 1397:1397 <> v:28
+R1428:1428 VST.floyd.aggregate_type <> A:27 var
+R1430:1430 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1432:1433 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1448:1448 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1431:1431 VST.floyd.aggregate_type <> i:25 var
+R1434:1443 VST.floyd.fieldlist <> field_type def
+R1447:1447 VST.floyd.aggregate_type <> m:26 var
+R1445:1445 VST.floyd.aggregate_type <> i:25 var
+binder 1424:1425 <> v0:29
+R1452:1462 VST.floyd.compact_prod_sum <> compact_sum def
+R1465:1467 Coq.Lists.List <> map def
+R1471:1471 VST.floyd.aggregate_type <> m:26 var
+R1469:1469 VST.floyd.aggregate_type <> A:27 var
+R1479:1493 VST.floyd.compact_prod_sum <> upd_compact_sum def
+R1522:1531 VST.floyd.base <> member_dec def
+R1519:1520 VST.floyd.aggregate_type <> v0:29 var
+R1499:1499 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1501:1502 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1517:1517 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1500:1500 VST.floyd.aggregate_type <> i:25 var
+R1503:1512 VST.floyd.fieldlist <> field_type def
+R1516:1516 VST.floyd.aggregate_type <> m:26 var
+R1514:1514 VST.floyd.aggregate_type <> i:25 var
+R1497:1497 VST.floyd.aggregate_type <> v:28 var
+prf 1541:1556 <> proj_struct_JMeq
+R1570:1574 compcert.common.AST <> ident def
+binder 1567:1567 <> i:30
+R1582:1588 compcert.cfrontend.Ctypes <> members def
+binder 1578:1578 <> m:31
+R1611:1614 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1604:1606 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1599:1603 compcert.common.AST <> ident def
+R1607:1610 compcert.cfrontend.Ctypes <> type ind
+binder 1592:1593 <> A1:32
+binder 1595:1596 <> A2:33
+R1626:1637 VST.floyd.compact_prod_sum <> compact_prod def
+R1640:1642 Coq.Lists.List <> map def
+R1647:1647 VST.floyd.aggregate_type <> m:31 var
+R1644:1645 VST.floyd.aggregate_type <> A1:32 var
+binder 1622:1623 <> v1:34
+R1656:1667 VST.floyd.compact_prod_sum <> compact_prod def
+R1670:1672 Coq.Lists.List <> map def
+R1677:1677 VST.floyd.aggregate_type <> m:31 var
+R1674:1675 VST.floyd.aggregate_type <> A2:33 var
+binder 1652:1653 <> v2:35
+R1686:1687 VST.floyd.aggregate_type <> A1:32 var
+R1689:1689 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1691:1692 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1707:1707 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1690:1690 VST.floyd.aggregate_type <> i:30 var
+R1693:1702 VST.floyd.fieldlist <> field_type def
+R1706:1706 VST.floyd.aggregate_type <> m:31 var
+R1704:1704 VST.floyd.aggregate_type <> i:30 var
+binder 1682:1683 <> d1:36
+R1715:1716 VST.floyd.aggregate_type <> A2:33 var
+R1718:1718 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1720:1721 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1736:1736 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1719:1719 VST.floyd.aggregate_type <> i:30 var
+R1722:1731 VST.floyd.fieldlist <> field_type def
+R1735:1735 VST.floyd.aggregate_type <> m:31 var
+R1733:1733 VST.floyd.aggregate_type <> i:30 var
+binder 1711:1712 <> d2:37
+R1742:1742 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1829:1835 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1865:1870 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1885:1890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1901:1906 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1907:1910 VST.floyd.jmeq_lemmas <> JMeq def
+R1937:1947 VST.floyd.aggregate_type <> proj_struct def
+R1956:1957 VST.floyd.aggregate_type <> d2:37 var
+R1953:1954 VST.floyd.aggregate_type <> v2:35 var
+R1951:1951 VST.floyd.aggregate_type <> m:31 var
+R1949:1949 VST.floyd.aggregate_type <> i:30 var
+R1913:1923 VST.floyd.aggregate_type <> proj_struct def
+R1932:1933 VST.floyd.aggregate_type <> d1:36 var
+R1929:1930 VST.floyd.aggregate_type <> v1:34 var
+R1927:1927 VST.floyd.aggregate_type <> m:31 var
+R1925:1925 VST.floyd.aggregate_type <> i:30 var
+R1891:1894 VST.floyd.jmeq_lemmas <> JMeq def
+R1899:1900 VST.floyd.aggregate_type <> v2:35 var
+R1896:1897 VST.floyd.aggregate_type <> v1:34 var
+R1871:1880 VST.veric.mpred <> in_members def
+R1884:1884 VST.floyd.aggregate_type <> m:31 var
+R1882:1882 VST.floyd.aggregate_type <> i:30 var
+R1858:1860 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1836:1855 VST.veric.mpred <> members_no_replicate def
+R1857:1857 VST.floyd.aggregate_type <> m:31 var
+R1861:1864 Coq.Init.Datatypes <> true constr
+binder 1750:1750 <> i:38
+R1767:1770 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1772:1773 Coq.Init.Logic <> eq ind
+R1806:1807 VST.floyd.aggregate_type <> A2:33 var
+R1809:1809 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1811:1812 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1827:1827 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1810:1810 VST.floyd.aggregate_type <> i:38 var
+R1813:1822 VST.floyd.fieldlist <> field_type def
+R1826:1826 VST.floyd.aggregate_type <> m:31 var
+R1824:1824 VST.floyd.aggregate_type <> i:38 var
+R1781:1782 VST.floyd.aggregate_type <> A1:32 var
+R1784:1784 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1786:1787 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1802:1802 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1785:1785 VST.floyd.aggregate_type <> i:38 var
+R1788:1797 VST.floyd.fieldlist <> field_type def
+R1801:1801 VST.floyd.aggregate_type <> m:31 var
+R1799:1799 VST.floyd.aggregate_type <> i:38 var
+R1753:1762 VST.veric.mpred <> in_members def
+R1766:1766 VST.floyd.aggregate_type <> m:31 var
+R1764:1764 VST.floyd.aggregate_type <> i:38 var
+R1986:2007 VST.floyd.compact_prod_sum <> proj_compact_prod_JMeq thm
+R1986:2007 VST.floyd.compact_prod_sum <> proj_compact_prod_JMeq thm
+R2061:2073 VST.floyd.fieldlist <> In_field_type thm
+R2061:2073 VST.floyd.fieldlist <> In_field_type thm
+R2220:2222 Coq.Init.Datatypes <> fst def
+R2197:2207 Coq.Lists.List <> in_map thm
+R2220:2222 Coq.Init.Datatypes <> fst def
+R2197:2207 Coq.Lists.List <> in_map thm
+R2252:2272 VST.floyd.fieldlist <> in_members_field_type thm
+R2252:2272 VST.floyd.fieldlist <> in_members_field_type thm
+prf 2293:2314 <> members_union_inj_JMeq
+R2329:2335 compcert.cfrontend.Ctypes <> members def
+binder 2325:2325 <> m:39
+R2358:2361 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2351:2353 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2346:2350 compcert.common.AST <> ident def
+R2354:2357 compcert.cfrontend.Ctypes <> type ind
+binder 2339:2340 <> A1:40
+binder 2342:2343 <> A2:41
+R2373:2383 VST.floyd.compact_prod_sum <> compact_sum def
+R2386:2388 Coq.Lists.List <> map def
+R2393:2393 VST.floyd.aggregate_type <> m:39 var
+R2390:2391 VST.floyd.aggregate_type <> A1:40 var
+binder 2369:2370 <> v1:42
+R2402:2412 VST.floyd.compact_prod_sum <> compact_sum def
+R2415:2417 Coq.Lists.List <> map def
+R2422:2422 VST.floyd.aggregate_type <> m:39 var
+R2419:2420 VST.floyd.aggregate_type <> A2:41 var
+binder 2398:2399 <> v2:43
+R2429:2429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2516:2522 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2552:2557 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2568:2574 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2637:2637 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2582:2583 <> it:44
+R2609:2613 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2586:2602 VST.floyd.aggregate_type <> members_union_inj def
+R2607:2608 VST.floyd.aggregate_type <> it:44 var
+R2604:2605 VST.floyd.aggregate_type <> v1:42 var
+R2614:2630 VST.floyd.aggregate_type <> members_union_inj def
+R2635:2636 VST.floyd.aggregate_type <> it:44 var
+R2632:2633 VST.floyd.aggregate_type <> v2:43 var
+R2558:2561 VST.floyd.jmeq_lemmas <> JMeq def
+R2566:2567 VST.floyd.aggregate_type <> v2:43 var
+R2563:2564 VST.floyd.aggregate_type <> v1:42 var
+R2545:2547 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2523:2542 VST.veric.mpred <> members_no_replicate def
+R2544:2544 VST.floyd.aggregate_type <> m:39 var
+R2548:2551 Coq.Init.Datatypes <> true constr
+binder 2437:2437 <> i:45
+R2454:2457 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2459:2460 Coq.Init.Logic <> eq ind
+R2493:2494 VST.floyd.aggregate_type <> A2:41 var
+R2496:2496 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2498:2499 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2514:2514 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2497:2497 VST.floyd.aggregate_type <> i:45 var
+R2500:2509 VST.floyd.fieldlist <> field_type def
+R2513:2513 VST.floyd.aggregate_type <> m:39 var
+R2511:2511 VST.floyd.aggregate_type <> i:45 var
+R2468:2469 VST.floyd.aggregate_type <> A1:40 var
+R2471:2471 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2473:2474 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2489:2489 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2472:2472 VST.floyd.aggregate_type <> i:45 var
+R2475:2484 VST.floyd.fieldlist <> field_type def
+R2488:2488 VST.floyd.aggregate_type <> m:39 var
+R2486:2486 VST.floyd.aggregate_type <> i:45 var
+R2440:2449 VST.veric.mpred <> in_members def
+R2453:2453 VST.floyd.aggregate_type <> m:39 var
+R2451:2451 VST.floyd.aggregate_type <> i:45 var
+R2665:2684 VST.floyd.compact_prod_sum <> compact_sum_inj_JMeq thm
+R2665:2684 VST.floyd.compact_prod_sum <> compact_sum_inj_JMeq thm
+R2760:2762 Coq.Init.Datatypes <> fst def
+R2764:2764 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2766:2767 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2769:2769 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2760:2762 Coq.Init.Datatypes <> fst def
+R2764:2764 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2766:2767 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2769:2769 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2783:2788 VST.floyd.fieldlist <> in_map def
+R2783:2788 VST.floyd.fieldlist <> in_map def
+R2811:2823 VST.floyd.fieldlist <> In_field_type thm
+R2811:2823 VST.floyd.fieldlist <> In_field_type thm
+prf 2911:2925 <> proj_union_JMeq
+R2939:2943 compcert.common.AST <> ident def
+binder 2936:2936 <> i:46
+R2951:2957 compcert.cfrontend.Ctypes <> members def
+binder 2947:2947 <> m:47
+R2980:2983 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2973:2975 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2968:2972 compcert.common.AST <> ident def
+R2976:2979 compcert.cfrontend.Ctypes <> type ind
+binder 2961:2962 <> A1:48
+binder 2964:2965 <> A2:49
+R2995:3005 VST.floyd.compact_prod_sum <> compact_sum def
+R3008:3010 Coq.Lists.List <> map def
+R3015:3015 VST.floyd.aggregate_type <> m:47 var
+R3012:3013 VST.floyd.aggregate_type <> A1:48 var
+binder 2991:2992 <> v1:50
+R3024:3034 VST.floyd.compact_prod_sum <> compact_sum def
+R3037:3039 Coq.Lists.List <> map def
+R3044:3044 VST.floyd.aggregate_type <> m:47 var
+R3041:3042 VST.floyd.aggregate_type <> A2:49 var
+binder 3020:3021 <> v2:51
+R3053:3054 VST.floyd.aggregate_type <> A1:48 var
+R3056:3056 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3058:3059 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3074:3074 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3057:3057 VST.floyd.aggregate_type <> i:46 var
+R3060:3069 VST.floyd.fieldlist <> field_type def
+R3073:3073 VST.floyd.aggregate_type <> m:47 var
+R3071:3071 VST.floyd.aggregate_type <> i:46 var
+binder 3049:3050 <> d1:52
+R3082:3083 VST.floyd.aggregate_type <> A2:49 var
+R3085:3085 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3087:3088 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3103:3103 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3086:3086 VST.floyd.aggregate_type <> i:46 var
+R3089:3098 VST.floyd.fieldlist <> field_type def
+R3102:3102 VST.floyd.aggregate_type <> m:47 var
+R3100:3100 VST.floyd.aggregate_type <> i:46 var
+binder 3078:3079 <> d2:53
+R3109:3109 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3196:3202 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3232:3237 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3278:3283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3294:3299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3300:3303 VST.floyd.jmeq_lemmas <> JMeq def
+R3329:3338 VST.floyd.aggregate_type <> proj_union def
+R3347:3348 VST.floyd.aggregate_type <> d2:53 var
+R3344:3345 VST.floyd.aggregate_type <> v2:51 var
+R3342:3342 VST.floyd.aggregate_type <> m:47 var
+R3340:3340 VST.floyd.aggregate_type <> i:46 var
+R3306:3315 VST.floyd.aggregate_type <> proj_union def
+R3324:3325 VST.floyd.aggregate_type <> d1:52 var
+R3321:3322 VST.floyd.aggregate_type <> v1:50 var
+R3319:3319 VST.floyd.aggregate_type <> m:47 var
+R3317:3317 VST.floyd.aggregate_type <> i:46 var
+R3284:3287 VST.floyd.jmeq_lemmas <> JMeq def
+R3292:3293 VST.floyd.aggregate_type <> v2:51 var
+R3289:3290 VST.floyd.aggregate_type <> v1:50 var
+R3238:3254 VST.floyd.aggregate_type <> members_union_inj def
+R3259:3259 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3261:3262 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3277:3277 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3260:3260 VST.floyd.aggregate_type <> i:46 var
+R3263:3272 VST.floyd.fieldlist <> field_type def
+R3276:3276 VST.floyd.aggregate_type <> m:47 var
+R3274:3274 VST.floyd.aggregate_type <> i:46 var
+R3256:3257 VST.floyd.aggregate_type <> v1:50 var
+R3225:3227 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3203:3222 VST.veric.mpred <> members_no_replicate def
+R3224:3224 VST.floyd.aggregate_type <> m:47 var
+R3228:3231 Coq.Init.Datatypes <> true constr
+binder 3117:3117 <> i:54
+R3134:3137 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3139:3140 Coq.Init.Logic <> eq ind
+R3173:3174 VST.floyd.aggregate_type <> A2:49 var
+R3176:3176 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3178:3179 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3194:3194 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3177:3177 VST.floyd.aggregate_type <> i:54 var
+R3180:3189 VST.floyd.fieldlist <> field_type def
+R3193:3193 VST.floyd.aggregate_type <> m:47 var
+R3191:3191 VST.floyd.aggregate_type <> i:54 var
+R3148:3149 VST.floyd.aggregate_type <> A1:48 var
+R3151:3151 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3153:3154 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3169:3169 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3152:3152 VST.floyd.aggregate_type <> i:54 var
+R3155:3164 VST.floyd.fieldlist <> field_type def
+R3168:3168 VST.floyd.aggregate_type <> m:47 var
+R3166:3166 VST.floyd.aggregate_type <> i:54 var
+R3120:3129 VST.veric.mpred <> in_members def
+R3133:3133 VST.floyd.aggregate_type <> m:47 var
+R3131:3131 VST.floyd.aggregate_type <> i:54 var
+R3377:3397 VST.floyd.compact_prod_sum <> proj_compact_sum_JMeq thm
+R3377:3397 VST.floyd.compact_prod_sum <> proj_compact_sum_JMeq thm
+R3451:3463 VST.floyd.fieldlist <> In_field_type thm
+R3451:3463 VST.floyd.fieldlist <> In_field_type thm
+R3610:3612 Coq.Init.Datatypes <> fst def
+R3587:3597 Coq.Lists.List <> in_map thm
+R3610:3612 Coq.Init.Datatypes <> fst def
+R3587:3597 Coq.Lists.List <> in_map thm

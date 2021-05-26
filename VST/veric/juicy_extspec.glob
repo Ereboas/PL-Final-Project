@@ -1,0 +1,1722 @@
+DIGEST 64feb337f81f090c96a817ff325c629a
+FVST.veric.juicy_extspec
+R15:34 VST.veric.juicy_base <> <> lib
+R52:72 VST.sepcomp.semantics <> <> lib
+R90:108 VST.sepcomp.extspec <> <> lib
+R126:148 VST.sepcomp.step_lemmas <> <> lib
+R166:181 VST.veric.shares <> <> lib
+R199:220 VST.veric.juicy_safety <> <> lib
+R238:256 VST.veric.juicy_mem <> <> lib
+R331:349 VST.veric.ghost_PCM <> <> lib
+R424:436 VST.veric.own <> <> lib
+R476:503 VST.veric.age_to_resource_at <> <> lib
+rec 566:579 <> juicy_ext_spec
+proj 598:604 <> JE_spec
+proj 664:675 <> JE_pre_hered
+proj 769:781 <> JE_post_hered
+proj 872:884 <> JE_exit_hered
+binder 582:582 <> Z:1
+R608:629 VST.sepcomp.extspec <> external_specification rec
+R659:659 VST.veric.juicy_extspec <> Z:1 var
+R641:657 compcert.common.AST <> external_function ind
+R631:639 VST.veric.juicy_mem <> juicy_mem ind
+binder 685:685 <> e:4
+binder 687:687 <> t:5
+binder 689:692 <> ge_s:6
+binder 694:697 <> typs:7
+binder 699:702 <> args:8
+binder 704:704 <> z:9
+R707:716 VST.msl.predicates_hered <> hereditary def
+R723:734 VST.sepcomp.extspec <> ext_spec_pre proj
+R763:763 VST.veric.juicy_extspec <> z:9 var
+R758:761 VST.veric.juicy_extspec <> args:8 var
+R753:756 VST.veric.juicy_extspec <> typs:7 var
+R748:751 VST.veric.juicy_extspec <> ge_s:6 var
+R746:746 VST.veric.juicy_extspec <> t:5 var
+R744:744 VST.veric.juicy_extspec <> e:4 var
+R736:742 VST.veric.juicy_extspec <> JE_spec:3 meth
+R718:720 VST.msl.ageable <> age def
+binder 791:791 <> e:11
+binder 793:793 <> t:12
+binder 795:798 <> ge_s:13
+binder 800:803 <> tret:14
+binder 805:806 <> rv:15
+binder 808:808 <> z:16
+R811:820 VST.msl.predicates_hered <> hereditary def
+R827:839 VST.sepcomp.extspec <> ext_spec_post proj
+R866:866 VST.veric.juicy_extspec <> z:16 var
+R863:864 VST.veric.juicy_extspec <> rv:15 var
+R858:861 VST.veric.juicy_extspec <> tret:14 var
+R853:856 VST.veric.juicy_extspec <> ge_s:13 var
+R851:851 VST.veric.juicy_extspec <> t:12 var
+R849:849 VST.veric.juicy_extspec <> e:11 var
+R841:847 VST.veric.juicy_extspec <> JE_spec:3 meth
+R822:824 VST.msl.ageable <> age def
+binder 894:895 <> rv:18
+binder 897:897 <> z:19
+R900:909 VST.msl.predicates_hered <> hereditary def
+R916:928 VST.sepcomp.extspec <> ext_spec_exit proj
+R941:941 VST.veric.juicy_extspec <> z:19 var
+R938:939 VST.veric.juicy_extspec <> rv:18 var
+R930:936 VST.veric.juicy_extspec <> JE_spec:3 meth
+R911:913 VST.msl.ageable <> age def
+rec 954:963 <> OracleKind
+proj 972:976 <> OK_ty
+proj 988:994 <> OK_spec
+R997:1010 VST.veric.juicy_extspec <> juicy_ext_spec rec
+R1012:1016 VST.veric.juicy_extspec <> OK_ty:22 meth
+def 1058:1066 <> void_spec
+binder 1068:1068 <> T:24
+R1072:1093 VST.sepcomp.extspec <> external_specification rec
+R1123:1123 VST.veric.juicy_extspec <> T:24 var
+R1105:1121 compcert.common.AST <> external_function ind
+R1095:1103 VST.veric.juicy_mem <> juicy_mem ind
+R1132:1159 VST.sepcomp.extspec <> Build_external_specification constr
+binder 1315:1316 <> rv:25
+binder 1318:1318 <> m:26
+binder 1320:1320 <> z:27
+R1325:1329 Coq.Init.Logic <> False ind
+binder 1274:1275 <> ef:28
+binder 1277:1279 <> Hef:29
+binder 1281:1282 <> ge:30
+binder 1284:1285 <> ty:31
+binder 1287:1288 <> vl:32
+binder 1290:1290 <> m:33
+binder 1292:1292 <> z:34
+R1297:1301 Coq.Init.Logic <> False ind
+binder 1232:1233 <> ef:35
+binder 1235:1237 <> Hef:36
+binder 1239:1240 <> ge:37
+binder 1242:1244 <> tys:38
+binder 1246:1247 <> vl:39
+binder 1249:1249 <> m:40
+binder 1251:1251 <> z:41
+R1256:1260 Coq.Init.Logic <> False ind
+binder 1208:1209 <> ef:42
+R1214:1218 Coq.Init.Logic <> False ind
+R1195:1195 VST.veric.juicy_extspec <> T:24 var
+R1177:1193 compcert.common.AST <> external_function ind
+R1167:1175 VST.veric.juicy_mem <> juicy_mem ind
+def 1345:1356 <> ok_void_spec
+binder 1359:1359 <> T:43
+R1371:1380 VST.veric.juicy_extspec <> OracleKind class
+R1392:1407 VST.veric.juicy_extspec <> Build_OracleKind constr
+R1412:1431 VST.veric.juicy_extspec <> Build_juicy_ext_spec constr
+R1436:1444 VST.veric.juicy_extspec <> void_spec def
+R1392:1407 VST.veric.juicy_extspec <> Build_OracleKind constr
+R1412:1431 VST.veric.juicy_extspec <> Build_juicy_ext_spec constr
+R1436:1444 VST.veric.juicy_extspec <> void_spec def
+def 1598:1611 <> j_initial_core
+binder 1614:1614 <> C:44
+R1625:1637 VST.sepcomp.semantics <> CoreSemantics rec
+R1641:1643 compcert.common.Memory Mem mem def
+R1639:1639 VST.veric.juicy_extspec <> C:44 var
+binder 1618:1621 <> csem:45
+R1655:1657 Coq.Init.Datatypes <> nat ind
+binder 1652:1652 <> n:46
+R1664:1672 VST.veric.juicy_mem <> juicy_mem ind
+binder 1661:1661 <> m:47
+R1679:1679 VST.veric.juicy_extspec <> C:44 var
+binder 1676:1676 <> q:48
+R1687:1695 VST.veric.juicy_mem <> juicy_mem ind
+binder 1683:1684 <> m':49
+R1702:1704 compcert.common.Values <> val ind
+binder 1699:1699 <> v:50
+R1714:1717 Coq.Init.Datatypes <> list ind
+R1719:1721 compcert.common.Values <> val ind
+binder 1708:1711 <> args:51
+R1748:1753 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1744:1746 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1742:1743 VST.veric.juicy_extspec <> m':49 var
+R1747:1747 VST.veric.juicy_extspec <> m:47 var
+R1754:1775 VST.sepcomp.semantics <> initial_core proj
+R1809:1812 VST.veric.juicy_extspec <> args:51 var
+R1807:1807 VST.veric.juicy_extspec <> v:50 var
+R1797:1801 VST.veric.juicy_mem <> m_dry def
+R1803:1804 VST.veric.juicy_extspec <> m':49 var
+R1794:1794 VST.veric.juicy_extspec <> q:48 var
+R1785:1789 VST.veric.juicy_mem <> m_dry def
+R1791:1791 VST.veric.juicy_extspec <> m:47 var
+R1782:1782 VST.veric.juicy_extspec <> n:46 var
+R1777:1780 VST.veric.juicy_extspec <> csem:45 var
+def 1827:1839 <> j_at_external
+binder 1842:1842 <> C:52
+R1853:1865 VST.sepcomp.semantics <> CoreSemantics rec
+R1869:1871 compcert.common.Memory Mem mem def
+R1867:1867 VST.veric.juicy_extspec <> C:52 var
+binder 1846:1849 <> csem:53
+R1881:1881 VST.veric.juicy_extspec <> C:52 var
+binder 1878:1878 <> q:54
+R1889:1897 VST.veric.juicy_mem <> juicy_mem ind
+binder 1885:1886 <> jm:55
+R1902:1907 Coq.Init.Datatypes <> option ind
+R1927:1929 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1910:1926 compcert.common.AST <> external_function ind
+R1930:1933 Coq.Init.Datatypes <> list ind
+R1935:1937 compcert.common.Values <> val ind
+R1946:1966 VST.sepcomp.semantics <> at_external proj
+R1976:1980 VST.veric.juicy_mem <> m_dry def
+R1982:1983 VST.veric.juicy_extspec <> jm:55 var
+R1973:1973 VST.veric.juicy_extspec <> q:54 var
+R1968:1971 VST.veric.juicy_extspec <> csem:53 var
+def 1999:2014 <> j_after_external
+binder 2017:2017 <> C:56
+R2028:2040 VST.sepcomp.semantics <> CoreSemantics rec
+R2044:2046 compcert.common.Memory Mem mem def
+R2042:2042 VST.veric.juicy_extspec <> C:56 var
+binder 2021:2024 <> csem:57
+R2059:2064 Coq.Init.Datatypes <> option ind
+R2066:2068 compcert.common.Values <> val ind
+binder 2054:2056 <> ret:58
+R2075:2075 VST.veric.juicy_extspec <> C:56 var
+binder 2072:2072 <> q:59
+R2083:2091 VST.veric.juicy_mem <> juicy_mem ind
+binder 2079:2080 <> jm:60
+R2100:2123 VST.sepcomp.semantics <> after_external proj
+R2137:2141 VST.veric.juicy_mem <> m_dry def
+R2143:2144 VST.veric.juicy_extspec <> jm:60 var
+R2134:2134 VST.veric.juicy_extspec <> q:59 var
+R2130:2132 VST.veric.juicy_extspec <> ret:58 var
+R2125:2128 VST.veric.juicy_extspec <> csem:57 var
+def 2160:2164 <> jstep
+binder 2167:2167 <> C:61
+R2178:2190 VST.sepcomp.semantics <> CoreSemantics rec
+R2194:2196 compcert.common.Memory Mem mem def
+R2192:2192 VST.veric.juicy_extspec <> C:61 var
+binder 2171:2174 <> csem:62
+R2205:2205 VST.veric.juicy_extspec <> C:61 var
+binder 2202:2202 <> q:63
+R2213:2221 VST.veric.juicy_mem <> juicy_mem ind
+binder 2209:2210 <> jm:64
+R2229:2229 VST.veric.juicy_extspec <> C:61 var
+binder 2225:2226 <> q':65
+R2238:2246 VST.veric.juicy_mem <> juicy_mem ind
+binder 2233:2235 <> jm':66
+R2301:2306 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2260:2267 VST.sepcomp.semantics <> corestep proj
+R2291:2295 VST.veric.juicy_mem <> m_dry def
+R2297:2299 VST.veric.juicy_extspec <> jm':66 var
+R2287:2288 VST.veric.juicy_extspec <> q':65 var
+R2277:2281 VST.veric.juicy_mem <> m_dry def
+R2283:2284 VST.veric.juicy_extspec <> jm:64 var
+R2274:2274 VST.veric.juicy_extspec <> q:63 var
+R2269:2272 VST.veric.juicy_extspec <> csem:62 var
+R2367:2371 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2307:2320 VST.veric.juicy_mem <> resource_decay def
+R2357:2361 VST.veric.juicy_mem <> m_phi def
+R2363:2365 VST.veric.juicy_extspec <> jm':66 var
+R2346:2350 VST.veric.juicy_mem <> m_phi def
+R2352:2353 VST.veric.juicy_extspec <> jm:64 var
+R2323:2331 compcert.common.Memory Mem nextblock proj
+R2334:2338 VST.veric.juicy_mem <> m_dry def
+R2340:2341 VST.veric.juicy_extspec <> jm:64 var
+R2396:2400 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2380:2382 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2372:2376 VST.msl.ageable <> level meth
+R2378:2379 VST.veric.juicy_extspec <> jm:64 var
+R2383:2383 Coq.Init.Datatypes <> S constr
+R2386:2390 VST.msl.ageable <> level meth
+R2392:2394 VST.veric.juicy_extspec <> jm':66 var
+R2421:2423 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2401:2408 VST.veric.compcert_rmaps RML.R ghost_of def
+R2411:2415 VST.veric.juicy_mem <> m_phi def
+R2417:2419 VST.veric.juicy_extspec <> jm':66 var
+R2424:2435 VST.veric.own <> ghost_approx syndef
+R2437:2439 VST.veric.juicy_extspec <> jm':66 var
+R2437:2439 VST.veric.juicy_extspec <> jm':66 var
+R2442:2449 VST.veric.compcert_rmaps RML.R ghost_of def
+R2452:2456 VST.veric.juicy_mem <> m_phi def
+R2458:2459 VST.veric.juicy_extspec <> jm:64 var
+def 2476:2483 <> j_halted
+binder 2486:2486 <> C:67
+R2497:2509 VST.sepcomp.semantics <> CoreSemantics rec
+R2513:2515 compcert.common.Memory Mem mem def
+R2511:2511 VST.veric.juicy_extspec <> C:67 var
+binder 2490:2493 <> csem:68
+R2529:2529 VST.veric.juicy_extspec <> C:67 var
+binder 2526:2526 <> c:69
+R2536:2538 compcert.lib.Integers <> int syndef
+binder 2533:2533 <> i:70
+R2555:2560 VST.sepcomp.semantics <> halted proj
+R2569:2569 VST.veric.juicy_extspec <> i:70 var
+R2567:2567 VST.veric.juicy_extspec <> c:69 var
+R2562:2565 VST.veric.juicy_extspec <> csem:68 var
+prf 2579:2599 <> jstep_not_at_external
+binder 2602:2602 <> C:71
+R2613:2625 VST.sepcomp.semantics <> CoreSemantics rec
+R2629:2631 compcert.common.Memory Mem mem def
+R2627:2627 VST.veric.juicy_extspec <> C:71 var
+binder 2606:2609 <> csem:72
+binder 2644:2644 <> m:73
+binder 2646:2646 <> q:74
+binder 2648:2649 <> m':75
+binder 2651:2652 <> q':76
+R2675:2678 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2707:2709 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2679:2689 VST.sepcomp.semantics <> at_external proj
+R2699:2703 VST.veric.juicy_mem <> m_dry def
+R2705:2705 VST.veric.juicy_extspec <> m:73 var
+R2696:2696 VST.veric.juicy_extspec <> q:74 var
+R2691:2694 VST.veric.juicy_extspec <> csem:72 var
+R2710:2713 Coq.Init.Datatypes <> None constr
+R2655:2659 VST.veric.juicy_extspec <> jstep def
+R2673:2674 VST.veric.juicy_extspec <> m':75 var
+R2670:2671 VST.veric.juicy_extspec <> q':76 var
+R2668:2668 VST.veric.juicy_extspec <> m:73 var
+R2666:2666 VST.veric.juicy_extspec <> q:74 var
+R2661:2664 VST.veric.juicy_extspec <> csem:72 var
+R2773:2796 VST.sepcomp.semantics <> corestep_not_at_external proj
+R2773:2796 VST.sepcomp.semantics <> corestep_not_at_external proj
+prf 2818:2833 <> jstep_not_halted
+binder 2837:2837 <> C:77
+R2848:2860 VST.sepcomp.semantics <> CoreSemantics rec
+R2864:2866 compcert.common.Memory Mem mem def
+R2862:2862 VST.veric.juicy_extspec <> C:77 var
+binder 2841:2844 <> csem:78
+binder 2879:2879 <> m:79
+binder 2881:2881 <> q:80
+binder 2883:2884 <> m':81
+binder 2886:2887 <> q':82
+binder 2889:2889 <> i:83
+R2912:2915 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2916:2916 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2917:2924 VST.veric.juicy_extspec <> j_halted def
+R2933:2933 VST.veric.juicy_extspec <> i:83 var
+R2931:2931 VST.veric.juicy_extspec <> q:80 var
+R2926:2929 VST.veric.juicy_extspec <> csem:78 var
+R2892:2896 VST.veric.juicy_extspec <> jstep def
+R2910:2911 VST.veric.juicy_extspec <> m':81 var
+R2907:2908 VST.veric.juicy_extspec <> q':82 var
+R2905:2905 VST.veric.juicy_extspec <> m:79 var
+R2903:2903 VST.veric.juicy_extspec <> q:80 var
+R2898:2901 VST.veric.juicy_extspec <> csem:78 var
+R2991:3009 VST.sepcomp.semantics <> corestep_not_halted proj
+R2991:3009 VST.sepcomp.semantics <> corestep_not_halted proj
+def 3663:3676 <> juicy_core_sem
+binder 3681:3681 <> C:84
+R3692:3704 VST.sepcomp.semantics <> CoreSemantics rec
+R3708:3710 compcert.common.Memory Mem mem def
+R3706:3706 VST.veric.juicy_extspec <> C:84 var
+binder 3685:3688 <> csem:85
+R3719:3731 VST.sepcomp.semantics <> CoreSemantics rec
+R3735:3743 VST.veric.juicy_mem <> juicy_mem ind
+R3733:3733 VST.veric.juicy_extspec <> C:84 var
+R3751:3769 VST.sepcomp.semantics <> Build_CoreSemantics constr
+R3932:3952 VST.veric.juicy_extspec <> jstep_not_at_external thm
+R3954:3957 VST.veric.juicy_extspec <> csem:85 var
+R3904:3919 VST.veric.juicy_extspec <> jstep_not_halted thm
+R3921:3924 VST.veric.juicy_extspec <> csem:85 var
+R3887:3891 VST.veric.juicy_extspec <> jstep def
+R3893:3896 VST.veric.juicy_extspec <> csem:85 var
+R3867:3874 VST.veric.juicy_extspec <> j_halted def
+R3876:3879 VST.veric.juicy_extspec <> csem:85 var
+R3839:3854 VST.veric.juicy_extspec <> j_after_external def
+R3856:3859 VST.veric.juicy_extspec <> csem:85 var
+R3814:3826 VST.veric.juicy_extspec <> j_at_external def
+R3828:3831 VST.veric.juicy_extspec <> csem:85 var
+R3788:3801 VST.veric.juicy_extspec <> j_initial_core def
+R3803:3806 VST.veric.juicy_extspec <> csem:85 var
+R3773:3781 VST.veric.juicy_mem <> juicy_mem ind
+sec 4009:4016 <> upd_exit
+binder 4030:4030 <> Z:86
+var 4052:4055 upd_exit spec
+R4059:4072 VST.veric.juicy_extspec <> juicy_ext_spec rec
+R4074:4074 VST.veric.juicy_extspec <> upd_exit.Z var
+def 4091:4099 <> upd_exit'
+R4121:4124 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4126:4129 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4139:4142 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4130:4138 VST.veric.juicy_mem <> juicy_mem ind
+R4125:4125 VST.veric.juicy_extspec <> upd_exit.Z var
+R4111:4116 Coq.Init.Datatypes <> option ind
+R4118:4120 compcert.common.Values <> val ind
+binder 4102:4107 <> Q_exit:88
+R4157:4169 VST.sepcomp.extspec <> ext_spec_type proj
+R4157:4169 VST.sepcomp.extspec <> ext_spec_type proj
+R4198:4209 VST.sepcomp.extspec <> ext_spec_pre proj
+R4237:4249 VST.sepcomp.extspec <> ext_spec_post proj
+R4278:4290 VST.sepcomp.extspec <> ext_spec_exit proj
+R4295:4300 VST.veric.juicy_extspec <> Q_exit:88 var
+R4254:4266 VST.sepcomp.extspec <> ext_spec_post proj
+R4268:4271 VST.veric.juicy_extspec <> upd_exit.spec var
+R4214:4225 VST.sepcomp.extspec <> ext_spec_pre proj
+R4227:4230 VST.veric.juicy_extspec <> upd_exit.spec var
+R4174:4186 VST.sepcomp.extspec <> ext_spec_type proj
+R4188:4191 VST.veric.juicy_extspec <> upd_exit.spec var
+def 4320:4329 <> upd_exit''
+R4337:4353 compcert.common.AST <> external_function ind
+binder 4332:4333 <> ef:89
+R4361:4373 VST.sepcomp.extspec <> ext_spec_type proj
+R4380:4381 VST.veric.juicy_extspec <> ef:89 var
+R4375:4378 VST.veric.juicy_extspec <> upd_exit.spec var
+binder 4357:4357 <> x:90
+binder 4384:4385 <> ge:91
+R4394:4402 VST.veric.juicy_extspec <> upd_exit' def
+R4405:4417 VST.sepcomp.extspec <> ext_spec_post proj
+R4433:4439 compcert.common.AST <> sig_res proj
+R4442:4447 compcert.common.AST <> ef_sig def
+R4449:4450 VST.veric.juicy_extspec <> ef:89 var
+R4429:4430 VST.veric.juicy_extspec <> ge:91 var
+R4427:4427 VST.veric.juicy_extspec <> x:90 var
+R4424:4425 VST.veric.juicy_extspec <> ef:89 var
+R4419:4422 VST.veric.juicy_extspec <> upd_exit.spec var
+def 4478:4485 <> upd_exit
+R4493:4509 compcert.common.AST <> external_function ind
+binder 4488:4489 <> ef:92
+R4517:4529 VST.sepcomp.extspec <> ext_spec_type proj
+R4536:4537 VST.veric.juicy_extspec <> ef:92 var
+R4531:4534 VST.veric.juicy_extspec <> upd_exit.spec var
+binder 4513:4513 <> x:93
+binder 4540:4541 <> ge:94
+R4550:4569 VST.veric.juicy_extspec <> Build_juicy_ext_spec constr
+R4574:4583 VST.veric.juicy_extspec <> upd_exit'' def
+R4589:4590 VST.veric.juicy_extspec <> ge:94 var
+R4587:4587 VST.veric.juicy_extspec <> x:93 var
+R4634:4645 VST.veric.juicy_extspec <> JE_pre_hered proj
+R4634:4645 VST.veric.juicy_extspec <> JE_pre_hered proj
+R4694:4706 VST.veric.juicy_extspec <> JE_post_hered proj
+R4694:4706 VST.veric.juicy_extspec <> JE_post_hered proj
+R4755:4767 VST.veric.juicy_extspec <> JE_post_hered proj
+R4755:4767 VST.veric.juicy_extspec <> JE_post_hered proj
+R4786:4793 VST.veric.juicy_extspec upd_exit <> sec
+def 4861:4872 <> juicy_mem_op
+R4879:4882 VST.msl.predicates_hered <> pred def
+R4884:4887 VST.veric.compcert_rmaps RML.R rmap defax
+binder 4875:4875 <> P:95
+R4892:4895 VST.msl.predicates_hered <> pred def
+R4897:4905 VST.veric.juicy_mem <> juicy_mem ind
+binder 4916:4917 <> jm:96
+R4922:4922 VST.veric.juicy_extspec <> P:95 var
+R4925:4929 VST.veric.juicy_mem <> m_phi def
+R4931:4932 VST.veric.juicy_extspec <> jm:96 var
+R4979:4999 VST.veric.juicy_mem <> age1_juicy_mem_unpack thm
+R4979:4999 VST.veric.juicy_mem <> age1_juicy_mem_unpack thm
+R5030:5044 VST.msl.predicates_hered <> pred_hereditary def
+R5030:5044 VST.msl.predicates_hered <> pred_hereditary def
+prf 5067:5084 <> age_resource_decay
+binder 5097:5097 <> b:97
+binder 5099:5101 <> jm1:98
+binder 5103:5105 <> jm2:99
+binder 5107:5110 <> jm1':100
+binder 5112:5115 <> jm2':101
+R5150:5161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5174:5177 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5190:5201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5227:5238 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5239:5252 VST.veric.juicy_mem <> resource_decay def
+R5261:5264 VST.veric.juicy_extspec <> jm2':101 var
+R5256:5259 VST.veric.juicy_extspec <> jm1':100 var
+R5254:5254 VST.veric.juicy_extspec <> b:97 var
+R5211:5213 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5202:5206 VST.msl.ageable <> level meth
+R5208:5210 VST.veric.juicy_extspec <> jm1:98 var
+R5214:5214 Coq.Init.Datatypes <> S constr
+R5217:5221 VST.msl.ageable <> level meth
+R5223:5225 VST.veric.juicy_extspec <> jm2:99 var
+R5178:5180 VST.msl.ageable <> age def
+R5186:5189 VST.veric.juicy_extspec <> jm2':101 var
+R5182:5184 VST.veric.juicy_extspec <> jm2:99 var
+R5162:5164 VST.msl.ageable <> age def
+R5170:5173 VST.veric.juicy_extspec <> jm1':100 var
+R5166:5168 VST.veric.juicy_extspec <> jm1:98 var
+R5126:5139 VST.veric.juicy_mem <> resource_decay def
+R5147:5149 VST.veric.juicy_extspec <> jm2:99 var
+R5143:5145 VST.veric.juicy_extspec <> jm1:98 var
+R5141:5141 VST.veric.juicy_extspec <> b:97 var
+R5283:5296 VST.veric.juicy_mem <> resource_decay def
+R5389:5397 VST.msl.ageable <> age_level thm
+R5412:5420 VST.msl.ageable <> age_level thm
+R5389:5397 VST.msl.ageable <> age_level thm
+R5412:5420 VST.msl.ageable <> age_level thm
+R5507:5511 VST.msl.ageable <> level meth
+R5507:5511 VST.msl.ageable <> level meth
+R5642:5648 VST.veric.compcert_rmaps RML necR_NO thm
+R5642:5648 VST.veric.compcert_rmaps RML necR_NO thm
+R5642:5648 VST.veric.compcert_rmaps RML necR_NO thm
+R5642:5648 VST.veric.compcert_rmaps RML necR_NO thm
+R5746:5748 VST.msl.ageable <> age def
+R5769:5784 VST.veric.compcert_rmaps RML age1_resource_at thm
+R5799:5801 VST.veric.rmaps RMAPS :::x_'@'_x not
+R5827:5844 VST.veric.compcert_rmaps RML resource_at_approx thm
+R5769:5784 VST.veric.compcert_rmaps RML age1_resource_at thm
+R5799:5801 VST.veric.rmaps RMAPS :::x_'@'_x not
+R5769:5784 VST.veric.compcert_rmaps RML age1_resource_at thm
+R5799:5801 VST.veric.rmaps RMAPS :::x_'@'_x not
+R5769:5784 VST.veric.compcert_rmaps RML age1_resource_at thm
+R5799:5801 VST.veric.rmaps RMAPS :::x_'@'_x not
+R5827:5844 VST.veric.compcert_rmaps RML resource_at_approx thm
+R5861:5876 VST.veric.compcert_rmaps RML age1_resource_at thm
+R5891:5893 VST.veric.rmaps RMAPS :::x_'@'_x not
+R5919:5936 VST.veric.compcert_rmaps RML resource_at_approx thm
+R5861:5876 VST.veric.compcert_rmaps RML age1_resource_at thm
+R5891:5893 VST.veric.rmaps RMAPS :::x_'@'_x not
+R5861:5876 VST.veric.compcert_rmaps RML age1_resource_at thm
+R5891:5893 VST.veric.rmaps RMAPS :::x_'@'_x not
+R5861:5876 VST.veric.compcert_rmaps RML age1_resource_at thm
+R5891:5893 VST.veric.rmaps RMAPS :::x_'@'_x not
+R5919:5936 VST.veric.compcert_rmaps RML resource_at_approx thm
+R5971:5988 VST.veric.compcert_rmaps RML resource_fmap_fmap thm
+R5971:5988 VST.veric.compcert_rmaps RML resource_fmap_fmap thm
+R5971:5988 VST.veric.compcert_rmaps RML resource_fmap_fmap thm
+R6003:6020 VST.veric.compcert_rmaps RML resource_fmap_fmap thm
+R6003:6020 VST.veric.compcert_rmaps RML resource_fmap_fmap thm
+R6003:6020 VST.veric.compcert_rmaps RML resource_fmap_fmap thm
+R6049:6056 VST.veric.compcert_rmaps RML.R approx def
+R6063:6068 VST.veric.compcert_rmaps RML.R approx def
+R6049:6056 VST.veric.compcert_rmaps RML.R approx def
+R6063:6068 VST.veric.compcert_rmaps RML.R approx def
+R6063:6068 VST.veric.compcert_rmaps RML.R approx def
+R6063:6068 VST.veric.compcert_rmaps RML.R approx def
+R6063:6068 VST.veric.compcert_rmaps RML.R approx def
+R6085:6101 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R6113:6129 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R6085:6101 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R6085:6101 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R6085:6101 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R6113:6129 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R6113:6129 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R6113:6129 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R6155:6163 VST.msl.ageable <> age_level thm
+R6178:6186 VST.msl.ageable <> age_level thm
+R6155:6163 VST.msl.ageable <> age_level thm
+R6178:6186 VST.msl.ageable <> age_level thm
+R6210:6213 VST.veric.compcert_rmaps RML.R rmap defax
+R6238:6242 VST.msl.ageable <> level meth
+R6238:6242 VST.msl.ageable <> level meth
+R6264:6268 VST.msl.ageable <> level meth
+R6264:6268 VST.msl.ageable <> level meth
+R6292:6296 VST.msl.ageable <> level meth
+R6292:6296 VST.msl.ageable <> level meth
+R6318:6322 VST.msl.ageable <> level meth
+R6318:6322 VST.msl.ageable <> level meth
+R6372:6380 VST.msl.ageable <> age_level thm
+R6395:6403 VST.msl.ageable <> age_level thm
+R6372:6380 VST.msl.ageable <> age_level thm
+R6395:6403 VST.msl.ageable <> age_level thm
+R6427:6430 VST.veric.compcert_rmaps RML.R rmap defax
+R6454:6458 VST.msl.ageable <> level meth
+R6454:6458 VST.msl.ageable <> level meth
+R6480:6484 VST.msl.ageable <> level meth
+R6480:6484 VST.msl.ageable <> level meth
+R6508:6512 VST.msl.ageable <> level meth
+R6508:6512 VST.msl.ageable <> level meth
+R6534:6538 VST.msl.ageable <> level meth
+R6534:6538 VST.msl.ageable <> level meth
+R6587:6594 VST.veric.compcert_rmaps RML.R approx def
+R6601:6606 VST.veric.compcert_rmaps RML.R approx def
+R6587:6594 VST.veric.compcert_rmaps RML.R approx def
+R6601:6606 VST.veric.compcert_rmaps RML.R approx def
+R6601:6606 VST.veric.compcert_rmaps RML.R approx def
+R6601:6606 VST.veric.compcert_rmaps RML.R approx def
+R6601:6606 VST.veric.compcert_rmaps RML.R approx def
+R6623:6639 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R6651:6667 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R6623:6639 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R6623:6639 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R6623:6639 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R6651:6667 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R6651:6667 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R6651:6667 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R6693:6701 VST.msl.ageable <> age_level thm
+R6716:6724 VST.msl.ageable <> age_level thm
+R6693:6701 VST.msl.ageable <> age_level thm
+R6716:6724 VST.msl.ageable <> age_level thm
+R6748:6751 VST.veric.compcert_rmaps RML.R rmap defax
+R6776:6780 VST.msl.ageable <> level meth
+R6776:6780 VST.msl.ageable <> level meth
+R6802:6806 VST.msl.ageable <> level meth
+R6802:6806 VST.msl.ageable <> level meth
+R6830:6834 VST.msl.ageable <> level meth
+R6830:6834 VST.msl.ageable <> level meth
+R6856:6860 VST.msl.ageable <> level meth
+R6856:6860 VST.msl.ageable <> level meth
+R6910:6918 VST.msl.ageable <> age_level thm
+R6933:6941 VST.msl.ageable <> age_level thm
+R6910:6918 VST.msl.ageable <> age_level thm
+R6933:6941 VST.msl.ageable <> age_level thm
+R6965:6968 VST.veric.compcert_rmaps RML.R rmap defax
+R6992:6996 VST.msl.ageable <> level meth
+R6992:6996 VST.msl.ageable <> level meth
+R7018:7022 VST.msl.ageable <> level meth
+R7018:7022 VST.msl.ageable <> level meth
+R7046:7050 VST.msl.ageable <> level meth
+R7046:7050 VST.msl.ageable <> level meth
+R7072:7076 VST.msl.ageable <> level meth
+R7072:7076 VST.msl.ageable <> level meth
+R7224:7232 VST.msl.ageable <> age_level thm
+R7224:7232 VST.msl.ageable <> age_level thm
+R7254:7257 VST.veric.compcert_rmaps RML.R rmap defax
+R7280:7284 VST.msl.ageable <> level meth
+R7293:7301 VST.veric.compcert_rmaps RML.R ag_rmap prfax
+R7286:7291 VST.veric.compcert_rmaps RML.R rmap defax
+R7280:7284 VST.msl.ageable <> level meth
+R7293:7301 VST.veric.compcert_rmaps RML.R ag_rmap prfax
+R7286:7291 VST.veric.compcert_rmaps RML.R rmap defax
+R7330:7334 VST.msl.ageable <> level meth
+R7343:7351 VST.veric.compcert_rmaps RML.R ag_rmap prfax
+R7336:7341 VST.veric.compcert_rmaps RML.R rmap defax
+R7330:7334 VST.msl.ageable <> level meth
+R7343:7351 VST.veric.compcert_rmaps RML.R ag_rmap prfax
+R7336:7341 VST.veric.compcert_rmaps RML.R rmap defax
+R7431:7433 VST.veric.rmaps RMAPS :::x_'@'_x not
+R7431:7433 VST.veric.rmaps RMAPS :::x_'@'_x not
+R7472:7479 VST.veric.compcert_rmaps RML necR_YES thm
+R7508:7514 Coq.Relations.Relation_Operators <> rt_step constr
+R7498:7500 VST.veric.compcert_rmaps <> VAL constr
+R7472:7479 VST.veric.compcert_rmaps RML necR_YES thm
+R7508:7514 Coq.Relations.Relation_Operators <> rt_step constr
+R7498:7500 VST.veric.compcert_rmaps <> VAL constr
+R7571:7585 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R7571:7585 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R7571:7585 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R7600:7608 VST.msl.ageable <> age_level thm
+R7600:7608 VST.msl.ageable <> age_level thm
+R7631:7647 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R7631:7647 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R7631:7647 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R7631:7647 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R7706:7722 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R7706:7722 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R7706:7722 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R7706:7722 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R7788:7796 VST.msl.Axioms <> proof_irr thm
+R7788:7796 VST.msl.Axioms <> proof_irr thm
+R7835:7851 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R7858:7858 Coq.Init.Datatypes <> S constr
+R7835:7851 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R7858:7858 Coq.Init.Datatypes <> S constr
+R7835:7851 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R7858:7858 Coq.Init.Datatypes <> S constr
+R7898:7914 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R7921:7921 Coq.Init.Datatypes <> S constr
+R7898:7914 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R7921:7921 Coq.Init.Datatypes <> S constr
+R7898:7914 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R7921:7921 Coq.Init.Datatypes <> S constr
+R7960:7974 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R7960:7974 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R7960:7974 VST.veric.compcert_rmaps RML preds_fmap_fmap thm
+R7997:8012 VST.veric.compcert_rmaps RML preds_fmap_NoneP thm
+R7997:8012 VST.veric.compcert_rmaps RML preds_fmap_NoneP thm
+R7997:8012 VST.veric.compcert_rmaps RML preds_fmap_NoneP thm
+R8040:8047 VST.veric.compcert_rmaps RML age1_YES thm
+R8084:8086 VST.veric.compcert_rmaps <> VAL constr
+R8059:8076 VST.veric.shares <> writable0_readable thm
+R8040:8047 VST.veric.compcert_rmaps RML age1_YES thm
+R8084:8086 VST.veric.compcert_rmaps <> VAL constr
+R8059:8076 VST.veric.shares <> writable0_readable thm
+R8213:8220 VST.veric.compcert_rmaps RML age1_YES thm
+R8213:8220 VST.veric.compcert_rmaps RML age1_YES thm
+R8365:8380 VST.veric.compcert_rmaps RML age1_resource_at thm
+R8392:8394 VST.veric.compcert_rmaps RML.R YES constr
+R8425:8427 VST.veric.compcert_rmaps <> VAL constr
+R8406:8423 VST.veric.shares <> readable_share_top thm
+R8396:8404 VST.msl.shares Share top defax
+R8365:8380 VST.veric.compcert_rmaps RML age1_resource_at thm
+R8392:8394 VST.veric.compcert_rmaps RML.R YES constr
+R8425:8427 VST.veric.compcert_rmaps <> VAL constr
+R8406:8423 VST.veric.shares <> readable_share_top thm
+R8396:8404 VST.msl.shares Share top defax
+R8494:8511 VST.veric.compcert_rmaps RML resource_at_approx thm
+R8494:8511 VST.veric.compcert_rmaps RML resource_at_approx thm
+R8494:8511 VST.veric.compcert_rmaps RML resource_at_approx thm
+R8562:8565 VST.msl.ageable <> necR def
+R8562:8565 VST.msl.ageable <> necR def
+R8584:8594 VST.msl.ageable <> laterR_necR thm
+R8584:8594 VST.msl.ageable <> laterR_necR thm
+R8627:8633 VST.veric.compcert_rmaps RML necR_NO thm
+R8651:8664 VST.veric.shares <> bot_unreadable thm
+R8641:8649 VST.msl.shares Share bot defax
+R8627:8633 VST.veric.compcert_rmaps RML necR_NO thm
+R8651:8664 VST.veric.shares <> bot_unreadable thm
+R8641:8649 VST.msl.shares Share bot defax
+prf 8689:8698 <> necR_PURE'
+binder 8700:8703 <> phi0:102
+binder 8705:8707 <> phi:103
+binder 8709:8709 <> k:104
+binder 8711:8711 <> p:105
+binder 8713:8715 <> adr:106
+R8734:8739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8760:8835 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8836:8842 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8845:8846 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8843:8844 <> pp:107
+R8857:8859 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8851:8853 VST.veric.rmaps RMAPS :::x_'@'_x not
+R8847:8850 VST.veric.juicy_extspec <> phi0:102 var
+R8854:8856 VST.veric.juicy_extspec <> adr:106 var
+R8860:8863 VST.veric.compcert_rmaps RML.R PURE constr
+R8867:8868 VST.veric.juicy_extspec <> pp:107 var
+R8865:8865 VST.veric.juicy_extspec <> k:104 var
+R8749:8751 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8743:8745 VST.veric.rmaps RMAPS :::x_'@'_x not
+R8740:8742 VST.veric.juicy_extspec <> phi:103 var
+R8746:8748 VST.veric.juicy_extspec <> adr:106 var
+R8752:8755 VST.veric.compcert_rmaps RML.R PURE constr
+R8759:8759 VST.veric.juicy_extspec <> p:105 var
+R8757:8757 VST.veric.juicy_extspec <> k:104 var
+R8721:8724 VST.msl.ageable <> necR def
+R8731:8733 VST.veric.juicy_extspec <> phi:103 var
+R8726:8729 VST.veric.juicy_extspec <> phi0:102 var
+R8910:8912 VST.veric.rmaps RMAPS :::x_'@'_x not
+R8910:8912 VST.veric.rmaps RMAPS :::x_'@'_x not
+R8939:8945 VST.veric.compcert_rmaps RML necR_NO thm
+R8939:8945 VST.veric.compcert_rmaps RML necR_NO thm
+R9048:9055 VST.veric.compcert_rmaps RML necR_YES thm
+R9048:9055 VST.veric.compcert_rmaps RML necR_YES thm
+R9122:9131 VST.msl.ageable <> necR_level thm
+R9122:9131 VST.msl.ageable <> necR_level thm
+R9176:9184 VST.veric.compcert_rmaps RML necR_PURE thm
+R9176:9184 VST.veric.compcert_rmaps RML necR_PURE thm
+def 9280:9288 <> jm_update
+binder 9290:9290 <> m:108
+binder 9292:9293 <> m':109
+R9316:9319 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9306:9308 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9298:9302 VST.veric.juicy_mem <> m_dry def
+R9304:9305 VST.veric.juicy_extspec <> m':109 var
+R9309:9313 VST.veric.juicy_mem <> m_dry def
+R9315:9315 VST.veric.juicy_extspec <> m:108 var
+R9338:9343 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9328:9330 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9320:9324 VST.msl.ageable <> level meth
+R9326:9327 VST.veric.juicy_extspec <> m':109 var
+R9331:9335 VST.msl.ageable <> level meth
+R9337:9337 VST.veric.juicy_extspec <> m:108 var
+R9366:9368 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9344:9354 VST.veric.compcert_rmaps RML.R resource_at def
+R9357:9361 VST.veric.juicy_mem <> m_phi def
+R9363:9364 VST.veric.juicy_extspec <> m':109 var
+R9369:9379 VST.veric.compcert_rmaps RML.R resource_at def
+R9382:9386 VST.veric.juicy_mem <> m_phi def
+R9388:9388 VST.veric.juicy_extspec <> m:108 var
+prf 9399:9411 <> jm_update_age
+binder 9421:9422 <> m1:110
+binder 9424:9425 <> m2:111
+binder 9427:9429 <> m1':112
+R9447:9450 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9461:9466 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9467:9473 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9477:9478 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9474:9476 <> m2':113
+R9496:9499 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9479:9487 VST.veric.juicy_extspec <> jm_update def
+R9493:9495 VST.veric.juicy_extspec <> m2':113 var
+R9489:9491 VST.veric.juicy_extspec <> m1':112 var
+R9500:9502 VST.msl.ageable <> age def
+R9507:9509 VST.veric.juicy_extspec <> m2':113 var
+R9504:9505 VST.veric.juicy_extspec <> m2:111 var
+R9451:9453 VST.msl.ageable <> age def
+R9458:9460 VST.veric.juicy_extspec <> m1':112 var
+R9455:9456 VST.veric.juicy_extspec <> m1:110 var
+R9432:9440 VST.veric.juicy_extspec <> jm_update def
+R9445:9446 VST.veric.juicy_extspec <> m2:111 var
+R9442:9443 VST.veric.juicy_extspec <> m1:110 var
+R9564:9572 VST.msl.ageable <> age_level thm
+R9564:9572 VST.msl.ageable <> age_level thm
+R9597:9606 VST.msl.age_sepalg <> levelS_age thm
+R9612:9616 VST.msl.ageable <> level meth
+R9597:9606 VST.msl.age_sepalg <> levelS_age thm
+R9612:9616 VST.msl.ageable <> level meth
+R9704:9713 VST.veric.juicy_mem <> age_jm_dry thm
+R9726:9735 VST.veric.juicy_mem <> age_jm_dry thm
+R9704:9713 VST.veric.juicy_mem <> age_jm_dry thm
+R9704:9713 VST.veric.juicy_mem <> age_jm_dry thm
+R9726:9735 VST.veric.juicy_mem <> age_jm_dry thm
+R9726:9735 VST.veric.juicy_mem <> age_jm_dry thm
+R9783:9792 VST.veric.juicy_mem <> age_jm_phi thm
+R9809:9818 VST.veric.juicy_mem <> age_jm_phi thm
+R9783:9792 VST.veric.juicy_mem <> age_jm_phi thm
+R9809:9818 VST.veric.juicy_mem <> age_jm_phi thm
+R9843:9876 VST.veric.age_to_resource_at <> age_resource_at thm
+R9886:9919 VST.veric.age_to_resource_at <> age_resource_at thm
+R9843:9876 VST.veric.age_to_resource_at <> age_resource_at thm
+R9843:9876 VST.veric.age_to_resource_at <> age_resource_at thm
+R9886:9919 VST.veric.age_to_resource_at <> age_resource_at thm
+R9886:9919 VST.veric.age_to_resource_at <> age_resource_at thm
+R9945:9965 VST.veric.juicy_mem <> level_juice_level_phi thm
+R9945:9965 VST.veric.juicy_mem <> level_juice_level_phi thm
+R9945:9965 VST.veric.juicy_mem <> level_juice_level_phi thm
+R9945:9965 VST.veric.juicy_mem <> level_juice_level_phi thm
+R9945:9965 VST.veric.juicy_mem <> level_juice_level_phi thm
+def 9997:10003 <> has_ext
+binder 10006:10006 <> Z:114
+R10016:10016 VST.veric.juicy_extspec <> Z:114 var
+binder 10010:10012 <> ora:115
+R10021:10031 VST.veric.mpred <> mpred def
+R10037:10039 VST.veric.own <> own def
+R10084:10088 VST.veric.compcert_rmaps RML.R NoneP def
+R10055:10055 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10076:10077 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10082:10082 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10056:10059 Coq.Init.Datatypes <> Some constr
+R10061:10061 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10065:10066 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10075:10075 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10062:10064 VST.veric.shares <> Tsh def
+R10067:10070 Coq.Init.Datatypes <> Some constr
+R10072:10074 VST.veric.juicy_extspec <> ora:115 var
+R10078:10081 Coq.Init.Datatypes <> None constr
+R10042:10048 VST.veric.ghost_PCM <> ext_PCM def
+def 10103:10109 <> jm_bupd
+binder 10112:10112 <> Z:116
+R10122:10122 VST.veric.juicy_extspec <> Z:116 var
+binder 10116:10118 <> ora:117
+binder 10125:10125 <> P:118
+binder 10127:10127 <> m:119
+R10143:10147 VST.veric.compcert_rmaps RML.R ghost def
+binder 10139:10139 <> C:120
+R10256:10261 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10307:10312 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10313:10319 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10334:10335 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10325:10333 VST.veric.juicy_mem <> juicy_mem ind
+binder 10320:10321 <> m':121
+R10384:10391 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10336:10340 VST.msl.sepalg <> joins def
+R10366:10377 VST.veric.own <> ghost_approx syndef
+R10379:10379 VST.veric.juicy_extspec <> m:119 var
+R10379:10379 VST.veric.juicy_extspec <> m:119 var
+R10382:10382 VST.veric.juicy_extspec <> C:120 var
+R10343:10350 VST.veric.compcert_rmaps RML.R ghost_of def
+R10353:10357 VST.veric.juicy_mem <> m_phi def
+R10359:10360 VST.veric.juicy_extspec <> m':121 var
+R10406:10409 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10392:10400 VST.veric.juicy_extspec <> jm_update def
+R10404:10405 VST.veric.juicy_extspec <> m':121 var
+R10402:10402 VST.veric.juicy_extspec <> m:119 var
+R10410:10410 VST.veric.juicy_extspec <> P:118 var
+R10412:10413 VST.veric.juicy_extspec <> m':121 var
+R10262:10266 VST.msl.sepalg <> joins def
+R10290:10301 VST.veric.own <> ghost_approx syndef
+R10303:10303 VST.veric.juicy_extspec <> m:119 var
+R10303:10303 VST.veric.juicy_extspec <> m:119 var
+R10305:10305 VST.veric.juicy_extspec <> C:120 var
+R10269:10276 VST.veric.compcert_rmaps RML.R ghost_of def
+R10279:10283 VST.veric.juicy_mem <> m_phi def
+R10285:10285 VST.veric.juicy_extspec <> m:119 var
+R10211:10218 VST.msl.sepalg <> join_sub def
+R10255:10255 VST.veric.juicy_extspec <> C:120 var
+R10246:10249 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10221:10224 Coq.Init.Datatypes <> Some constr
+R10226:10226 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10238:10239 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10245:10245 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10227:10233 VST.veric.ghost_PCM <> ext_ref def
+R10235:10237 VST.veric.juicy_extspec <> ora:117 var
+R10240:10244 VST.veric.compcert_rmaps RML.R NoneP def
+R10250:10252 Coq.Init.Datatypes <> nil constr
+prf 10423:10435 <> jm_bupd_intro
+binder 10446:10446 <> Z:122
+R10456:10456 VST.veric.juicy_extspec <> Z:122 var
+binder 10450:10452 <> ora:123
+R10473:10476 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10464:10472 VST.veric.juicy_mem <> juicy_mem ind
+binder 10460:10460 <> P:124
+binder 10483:10483 <> m:125
+R10489:10492 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10493:10499 VST.veric.juicy_extspec <> jm_bupd def
+R10507:10507 VST.veric.juicy_extspec <> m:125 var
+R10505:10505 VST.veric.juicy_extspec <> P:124 var
+R10501:10503 VST.veric.juicy_extspec <> ora:123 var
+R10486:10486 VST.veric.juicy_extspec <> P:124 var
+R10488:10488 VST.veric.juicy_extspec <> m:125 var
+sec 10592:10603 <> juicy_safety
+binder 10617:10617 <> G:126
+binder 10619:10619 <> C:127
+binder 10621:10621 <> Z:128
+R10653:10656 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10657:10671 VST.sepcomp.extspec <> injective_PTree def
+R10673:10677 compcert.common.Values <> block def
+R10652:10652 VST.veric.juicy_extspec <> juicy_safety.G var
+binder 10641:10649 <> genv_symb:129
+R10699:10711 VST.sepcomp.semantics <> CoreSemantics rec
+R10715:10717 compcert.common.Memory Mem mem def
+R10713:10713 VST.veric.juicy_extspec <> juicy_safety.C var
+binder 10692:10696 <> Hcore:130
+var 10733:10737 juicy_safety Hspec
+R10741:10754 VST.veric.juicy_extspec <> juicy_ext_spec rec
+R10756:10756 VST.veric.juicy_extspec <> juicy_safety.Z var
+var 10771:10772 juicy_safety ge
+R10776:10776 VST.veric.juicy_extspec <> juicy_safety.G var
+def 10793:10796 <> Hrel
+binder 10798:10799 <> n':133
+binder 10801:10801 <> m:134
+binder 10803:10804 <> m':135
+R10826:10833 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10815:10817 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10813:10814 VST.veric.juicy_extspec <> n':133 var
+R10818:10822 VST.msl.ageable <> level meth
+R10824:10825 VST.veric.juicy_extspec <> m':135 var
+R10858:10865 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10843:10845 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R10835:10839 VST.msl.ageable <> level meth
+R10841:10842 VST.veric.juicy_extspec <> m':135 var
+R10846:10850 VST.msl.ageable <> level meth
+R10852:10852 VST.veric.juicy_extspec <> m:134 var
+R10866:10873 VST.veric.juicy_safety <> pures_eq def
+R10886:10890 VST.veric.juicy_mem <> m_phi def
+R10892:10893 VST.veric.juicy_extspec <> m':135 var
+R10876:10880 VST.veric.juicy_mem <> m_phi def
+R10882:10882 VST.veric.juicy_extspec <> m:134 var
+ind 10910:10916 <> jsafeN_
+constr 10965:10972 <> jsafeN_0
+constr 11009:11019 <> jsafeN_step
+constr 11150:11164 <> jsafeN_external
+constr 11798:11810 <> jsafeN_halted
+R10926:10929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10931:10934 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10936:10939 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10949:10952 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10940:10948 VST.veric.juicy_mem <> juicy_mem ind
+R10935:10935 VST.veric.juicy_extspec <> juicy_safety.C var
+R10930:10930 VST.veric.juicy_extspec <> juicy_safety.Z var
+R10923:10925 Coq.Init.Datatypes <> nat ind
+binder 10982:10982 <> z:138
+binder 10984:10984 <> c:139
+binder 10986:10986 <> m:140
+R10989:10995 VST.veric.juicy_extspec <> jsafeN_:136 ind
+R11003:11003 VST.veric.juicy_extspec <> m:140 var
+R11001:11001 VST.veric.juicy_extspec <> c:139 var
+R10999:10999 VST.veric.juicy_extspec <> z:138 var
+R10997:10997 Coq.Init.Datatypes <> O constr
+binder 11035:11035 <> n:141
+binder 11037:11037 <> z:142
+binder 11039:11039 <> c:143
+binder 11041:11041 <> m:144
+binder 11043:11044 <> c':145
+binder 11046:11047 <> m':146
+R11077:11086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11116:11125 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11126:11132 VST.veric.juicy_extspec <> jsafeN_:136 ind
+R11144:11144 VST.veric.juicy_extspec <> m:144 var
+R11142:11142 VST.veric.juicy_extspec <> c:143 var
+R11140:11140 VST.veric.juicy_extspec <> z:142 var
+R11135:11135 Coq.Init.Datatypes <> S constr
+R11137:11137 VST.veric.juicy_extspec <> n:141 var
+R11087:11093 VST.veric.juicy_extspec <> jm_bupd def
+R11114:11115 VST.veric.juicy_extspec <> m':146 var
+R11098:11104 VST.veric.juicy_extspec <> jsafeN_:136 ind
+R11110:11111 VST.veric.juicy_extspec <> c':145 var
+R11108:11108 VST.veric.juicy_extspec <> z:142 var
+R11106:11106 VST.veric.juicy_extspec <> n:141 var
+R11095:11095 VST.veric.juicy_extspec <> z:142 var
+R11056:11060 VST.veric.juicy_extspec <> jstep def
+R11075:11076 VST.veric.juicy_extspec <> m':146 var
+R11072:11073 VST.veric.juicy_extspec <> c':145 var
+R11070:11070 VST.veric.juicy_extspec <> m:144 var
+R11068:11068 VST.veric.juicy_extspec <> c:143 var
+R11062:11066 VST.veric.juicy_extspec <> juicy_safety.Hcore var
+binder 11180:11180 <> n:147
+binder 11182:11182 <> z:148
+binder 11184:11184 <> c:149
+binder 11186:11186 <> m:150
+binder 11188:11188 <> e:151
+binder 11190:11193 <> args:152
+binder 11195:11195 <> x:153
+R11243:11252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11321:11330 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11331:11331 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11763:11773 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11774:11780 VST.veric.juicy_extspec <> jsafeN_:136 ind
+R11792:11792 VST.veric.juicy_extspec <> m:150 var
+R11790:11790 VST.veric.juicy_extspec <> c:149 var
+R11788:11788 VST.veric.juicy_extspec <> z:148 var
+R11783:11783 Coq.Init.Datatypes <> S constr
+R11785:11785 VST.veric.juicy_extspec <> n:147 var
+binder 11339:11341 <> ret:154
+binder 11343:11344 <> m':155
+binder 11346:11347 <> z':156
+binder 11349:11350 <> n':157
+R11372:11388 compcert.common.Values Val has_type_list def
+R11396:11403 compcert.common.AST <> sig_args proj
+R11406:11411 compcert.common.AST <> ef_sig def
+R11413:11413 VST.veric.juicy_extspec <> e:151 var
+R11390:11393 VST.veric.juicy_extspec <> args:152 var
+binder 11362:11368 <> Hargsty:158
+R11437:11465 compcert.common.Builtins0 <> val_opt_has_rettype def
+R11473:11479 compcert.common.AST <> sig_res proj
+R11482:11487 compcert.common.AST <> ef_sig def
+R11489:11489 VST.veric.juicy_extspec <> e:151 var
+R11468:11470 VST.veric.juicy_extspec <> ret:154 var
+binder 11428:11433 <> Hretty:159
+R11517:11529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11542:11554 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11624:11636 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11637:11643 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11646:11658 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 11644:11645 <> c':160
+R11716:11730 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11706:11708 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11659:11682 VST.sepcomp.semantics <> after_external proj
+R11697:11701 VST.veric.juicy_mem <> m_dry def
+R11703:11704 VST.veric.juicy_extspec <> m':155 var
+R11694:11694 VST.veric.juicy_extspec <> c:149 var
+R11690:11692 VST.veric.juicy_extspec <> ret:154 var
+R11684:11688 VST.veric.juicy_extspec <> juicy_safety.Hcore var
+R11709:11712 Coq.Init.Datatypes <> Some constr
+R11714:11715 VST.veric.juicy_extspec <> c':160 var
+R11731:11737 VST.veric.juicy_extspec <> jm_bupd def
+R11761:11762 VST.veric.juicy_extspec <> m':155 var
+R11743:11749 VST.veric.juicy_extspec <> jsafeN_:136 ind
+R11757:11758 VST.veric.juicy_extspec <> c':160 var
+R11754:11755 VST.veric.juicy_extspec <> z':156 var
+R11751:11752 VST.veric.juicy_extspec <> n':157 var
+R11739:11740 VST.veric.juicy_extspec <> z':156 var
+R11555:11567 VST.sepcomp.extspec <> ext_spec_post proj
+R11622:11623 VST.veric.juicy_extspec <> m':155 var
+R11619:11620 VST.veric.juicy_extspec <> z':156 var
+R11615:11617 VST.veric.juicy_extspec <> ret:154 var
+R11595:11601 compcert.common.AST <> sig_res proj
+R11604:11609 compcert.common.AST <> ef_sig def
+R11611:11611 VST.veric.juicy_extspec <> e:151 var
+R11580:11588 VST.veric.juicy_extspec <> juicy_safety.genv_symb var
+R11590:11591 VST.veric.juicy_extspec <> juicy_safety.ge var
+R11577:11577 VST.veric.juicy_extspec <> x:153 var
+R11575:11575 VST.veric.juicy_extspec <> e:151 var
+R11569:11573 VST.veric.juicy_extspec <> juicy_safety.Hspec var
+R11530:11533 VST.veric.juicy_extspec <> Hrel def
+R11540:11541 VST.veric.juicy_extspec <> m':155 var
+R11538:11538 VST.veric.juicy_extspec <> m:150 var
+R11535:11536 VST.veric.juicy_extspec <> n':157 var
+R11507:11510 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R11505:11506 VST.veric.juicy_extspec <> n':157 var
+R11511:11511 VST.veric.juicy_extspec <> n:147 var
+R11253:11264 VST.sepcomp.extspec <> ext_spec_pre proj
+R11320:11320 VST.veric.juicy_extspec <> m:150 var
+R11318:11318 VST.veric.juicy_extspec <> z:148 var
+R11313:11316 VST.veric.juicy_extspec <> args:152 var
+R11292:11299 compcert.common.AST <> sig_args proj
+R11302:11307 compcert.common.AST <> ef_sig def
+R11309:11309 VST.veric.juicy_extspec <> e:151 var
+R11277:11285 VST.veric.juicy_extspec <> juicy_safety.genv_symb var
+R11287:11288 VST.veric.juicy_extspec <> juicy_safety.ge var
+R11274:11274 VST.veric.juicy_extspec <> x:153 var
+R11272:11272 VST.veric.juicy_extspec <> e:151 var
+R11266:11270 VST.veric.juicy_extspec <> juicy_safety.Hspec var
+R11227:11229 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11204:11216 VST.veric.juicy_extspec <> j_at_external def
+R11226:11226 VST.veric.juicy_extspec <> m:150 var
+R11224:11224 VST.veric.juicy_extspec <> c:149 var
+R11218:11222 VST.veric.juicy_extspec <> juicy_safety.Hcore var
+R11230:11233 Coq.Init.Datatypes <> Some constr
+R11235:11235 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11237:11237 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11242:11242 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11236:11236 VST.veric.juicy_extspec <> e:151 var
+R11238:11241 VST.veric.juicy_extspec <> args:152 var
+binder 11826:11826 <> n:161
+binder 11828:11828 <> z:162
+binder 11830:11830 <> c:163
+binder 11832:11832 <> m:164
+binder 11834:11834 <> i:165
+R11869:11878 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11918:11927 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11928:11934 VST.veric.juicy_extspec <> jsafeN_:136 ind
+R11942:11942 VST.veric.juicy_extspec <> m:164 var
+R11940:11940 VST.veric.juicy_extspec <> c:163 var
+R11938:11938 VST.veric.juicy_extspec <> z:162 var
+R11936:11936 VST.veric.juicy_extspec <> n:161 var
+R11879:11891 VST.sepcomp.extspec <> ext_spec_exit proj
+R11917:11917 VST.veric.juicy_extspec <> m:164 var
+R11915:11915 VST.veric.juicy_extspec <> z:162 var
+R11900:11903 Coq.Init.Datatypes <> Some constr
+R11906:11909 compcert.common.Values <> Vint constr
+R11911:11911 VST.veric.juicy_extspec <> i:165 var
+R11893:11897 VST.veric.juicy_extspec <> juicy_safety.Hspec var
+R11843:11858 VST.sepcomp.semantics <> halted proj
+R11868:11868 VST.veric.juicy_extspec <> i:165 var
+R11866:11866 VST.veric.juicy_extspec <> c:163 var
+R11860:11864 VST.veric.juicy_extspec <> juicy_safety.Hcore var
+prf 11954:11976 <> jsafe_corestep_backward
+binder 11990:11990 <> c:166
+binder 11992:11992 <> m:167
+binder 11994:11995 <> c':168
+binder 11997:11998 <> m':169
+binder 12000:12000 <> n:170
+binder 12002:12002 <> z:171
+R12030:12037 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12055:12058 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12059:12065 VST.veric.juicy_extspec <> jsafeN_ ind
+R12077:12077 VST.veric.juicy_extspec <> m:167 var
+R12075:12075 VST.veric.juicy_extspec <> c:166 var
+R12073:12073 VST.veric.juicy_extspec <> z:171 var
+R12068:12068 Coq.Init.Datatypes <> S constr
+R12070:12070 VST.veric.juicy_extspec <> n:170 var
+R12038:12044 VST.veric.juicy_extspec <> jsafeN_ ind
+R12053:12054 VST.veric.juicy_extspec <> m':169 var
+R12050:12051 VST.veric.juicy_extspec <> c':168 var
+R12048:12048 VST.veric.juicy_extspec <> z:171 var
+R12046:12046 VST.veric.juicy_extspec <> n:170 var
+R12009:12013 VST.veric.juicy_extspec <> jstep def
+R12028:12029 VST.veric.juicy_extspec <> m':169 var
+R12025:12026 VST.veric.juicy_extspec <> c':168 var
+R12023:12023 VST.veric.juicy_extspec <> m:167 var
+R12021:12021 VST.veric.juicy_extspec <> c:166 var
+R12015:12019 VST.veric.juicy_extspec <> juicy_safety.Hcore var
+R12108:12118 VST.veric.juicy_extspec <> jsafeN_step constr
+R12108:12118 VST.veric.juicy_extspec <> jsafeN_step constr
+prf 12186:12200 <> jsafe_downward1
+binder 12215:12215 <> n:172
+binder 12217:12217 <> c:173
+binder 12219:12219 <> m:174
+binder 12221:12221 <> z:175
+R12249:12252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12253:12259 VST.veric.juicy_extspec <> jsafeN_ ind
+R12267:12267 VST.veric.juicy_extspec <> m:174 var
+R12265:12265 VST.veric.juicy_extspec <> c:173 var
+R12263:12263 VST.veric.juicy_extspec <> z:175 var
+R12261:12261 VST.veric.juicy_extspec <> n:172 var
+R12230:12236 VST.veric.juicy_extspec <> jsafeN_ ind
+R12248:12248 VST.veric.juicy_extspec <> m:174 var
+R12246:12246 VST.veric.juicy_extspec <> c:173 var
+R12244:12244 VST.veric.juicy_extspec <> z:175 var
+R12239:12239 Coq.Init.Datatypes <> S constr
+R12241:12241 VST.veric.juicy_extspec <> n:172 var
+R12453:12467 VST.veric.juicy_extspec <> jsafeN_external constr
+R12453:12467 VST.veric.juicy_extspec <> jsafeN_external constr
+R12490:12502 VST.veric.juicy_extspec <> jsafeN_halted constr
+R12490:12502 VST.veric.juicy_extspec <> jsafeN_halted constr
+prf 12528:12541 <> jsafe_downward
+binder 12556:12556 <> n:176
+binder 12558:12559 <> n':177
+binder 12561:12561 <> c:178
+binder 12563:12563 <> m:179
+binder 12565:12565 <> z:180
+R12587:12596 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12612:12615 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12616:12622 VST.veric.juicy_extspec <> jsafeN_ ind
+R12631:12631 VST.veric.juicy_extspec <> m:179 var
+R12629:12629 VST.veric.juicy_extspec <> c:178 var
+R12627:12627 VST.veric.juicy_extspec <> z:180 var
+R12624:12625 VST.veric.juicy_extspec <> n':177 var
+R12597:12603 VST.veric.juicy_extspec <> jsafeN_ ind
+R12611:12611 VST.veric.juicy_extspec <> m:179 var
+R12609:12609 VST.veric.juicy_extspec <> c:178 var
+R12607:12607 VST.veric.juicy_extspec <> z:180 var
+R12605:12605 VST.veric.juicy_extspec <> n:176 var
+R12574:12581 Coq.Init.Peano <> le ind
+R12586:12586 VST.veric.juicy_extspec <> n:176 var
+R12583:12584 VST.veric.juicy_extspec <> n':177 var
+R12722:12736 VST.veric.juicy_extspec <> jsafe_downward1 thm
+R12722:12736 VST.veric.juicy_extspec <> jsafe_downward1 thm
+prf 13551:13567 <> jsafe_step'_back2
+binder 13589:13591 <> ora:181
+binder 13593:13594 <> st:182
+binder 13596:13596 <> m:183
+binder 13598:13600 <> st':184
+binder 13602:13603 <> m':185
+binder 13605:13605 <> n:186
+R13638:13647 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13672:13681 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13682:13688 VST.veric.juicy_extspec <> jsafeN_ ind
+R13699:13699 VST.veric.juicy_extspec <> m:183 var
+R13696:13697 VST.veric.juicy_extspec <> st:182 var
+R13692:13694 VST.veric.juicy_extspec <> ora:181 var
+R13690:13690 VST.veric.juicy_extspec <> n:186 var
+R13648:13654 VST.veric.juicy_extspec <> jsafeN_ ind
+R13670:13671 VST.veric.juicy_extspec <> m':185 var
+R13666:13668 VST.veric.juicy_extspec <> st':184 var
+R13662:13664 VST.veric.juicy_extspec <> ora:181 var
+R13658:13658 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R13657:13657 VST.veric.juicy_extspec <> n:186 var
+R13615:13619 VST.veric.juicy_extspec <> jstep def
+R13636:13637 VST.veric.juicy_extspec <> m':185 var
+R13632:13634 VST.veric.juicy_extspec <> st':184 var
+R13630:13630 VST.veric.juicy_extspec <> m:183 var
+R13627:13628 VST.veric.juicy_extspec <> st:182 var
+R13621:13625 VST.veric.juicy_extspec <> juicy_safety.Hcore var
+R13783:13783 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R13783:13783 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R13816:13838 VST.veric.juicy_extspec <> jsafe_corestep_backward thm
+R13816:13838 VST.veric.juicy_extspec <> jsafe_corestep_backward thm
+prf 13873:13896 <> jsafe_corestepN_backward
+binder 13910:13910 <> z:187
+binder 13912:13912 <> c:188
+binder 13914:13914 <> m:189
+binder 13916:13917 <> c':190
+binder 13919:13920 <> m':191
+binder 13922:13922 <> n:192
+binder 13924:13925 <> n0:193
+R13996:14005 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14030:14039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14040:14046 VST.veric.juicy_extspec <> jsafeN_ ind
+R14054:14054 VST.veric.juicy_extspec <> m:189 var
+R14052:14052 VST.veric.juicy_extspec <> c:188 var
+R14050:14050 VST.veric.juicy_extspec <> z:187 var
+R14048:14048 VST.veric.juicy_extspec <> n:192 var
+R14006:14012 VST.veric.juicy_extspec <> jsafeN_ ind
+R14028:14029 VST.veric.juicy_extspec <> m':191 var
+R14025:14026 VST.veric.juicy_extspec <> c':190 var
+R14023:14023 VST.veric.juicy_extspec <> z:187 var
+R14016:14018 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R14015:14015 VST.veric.juicy_extspec <> n:192 var
+R14019:14020 VST.veric.juicy_extspec <> n0:193 var
+R13934:13959 VST.sepcomp.semantics_lemmas <> corestepN def
+R13994:13995 VST.veric.juicy_extspec <> m':191 var
+R13991:13992 VST.veric.juicy_extspec <> c':190 var
+R13989:13989 VST.veric.juicy_extspec <> m:189 var
+R13987:13987 VST.veric.juicy_extspec <> c:188 var
+R13984:13985 VST.veric.juicy_extspec <> n0:193 var
+R13962:13975 VST.veric.juicy_extspec <> juicy_core_sem def
+R13977:13981 VST.veric.juicy_extspec <> juicy_safety.Hcore var
+R14194:14196 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14198:14200 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R14194:14196 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14198:14200 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R14306:14312 VST.veric.juicy_extspec <> jsafeN_ ind
+R14320:14322 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R14316:14318 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R14306:14312 VST.veric.juicy_extspec <> jsafeN_ ind
+R14320:14322 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R14316:14318 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R14348:14361 VST.veric.juicy_extspec <> jsafe_downward thm
+R14348:14361 VST.veric.juicy_extspec <> jsafe_downward thm
+R14413:14415 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R14413:14415 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R14450:14466 VST.veric.juicy_extspec <> jsafe_step'_back2 thm
+R14450:14466 VST.veric.juicy_extspec <> jsafe_step'_back2 thm
+prf 14493:14517 <> convergent_controls_jsafe
+binder 14532:14532 <> m:194
+binder 14534:14535 <> q1:195
+binder 14537:14538 <> q2:196
+R14547:14547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14599:14609 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14610:14610 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14752:14762 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14763:14763 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14817:14827 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14828:14828 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14912:14923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14972:14972 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 14931:14931 <> n:197
+binder 14933:14933 <> z:198
+R14952:14955 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14956:14962 VST.veric.juicy_extspec <> jsafeN_ ind
+R14971:14971 VST.veric.juicy_extspec <> m:194 var
+R14968:14969 VST.veric.juicy_extspec <> q2:196 var
+R14966:14966 VST.veric.juicy_extspec <> z:198 var
+R14964:14964 VST.veric.juicy_extspec <> n:197 var
+R14936:14942 VST.veric.juicy_extspec <> jsafeN_ ind
+R14951:14951 VST.veric.juicy_extspec <> m:194 var
+R14948:14949 VST.veric.juicy_extspec <> q1:195 var
+R14946:14946 VST.veric.juicy_extspec <> z:198 var
+R14944:14944 VST.veric.juicy_extspec <> n:197 var
+binder 14836:14837 <> q':199
+binder 14839:14840 <> m':200
+R14865:14889 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14890:14894 VST.veric.juicy_extspec <> jstep def
+R14910:14911 VST.veric.juicy_extspec <> m':200 var
+R14907:14908 VST.veric.juicy_extspec <> q':199 var
+R14905:14905 VST.veric.juicy_extspec <> m:194 var
+R14902:14903 VST.veric.juicy_extspec <> q2:196 var
+R14896:14900 VST.veric.juicy_extspec <> juicy_safety.Hcore var
+R14843:14847 VST.veric.juicy_extspec <> jstep def
+R14863:14864 VST.veric.juicy_extspec <> m':200 var
+R14860:14861 VST.veric.juicy_extspec <> q':199 var
+R14858:14858 VST.veric.juicy_extspec <> m:194 var
+R14855:14856 VST.veric.juicy_extspec <> q1:195 var
+R14849:14853 VST.veric.juicy_extspec <> juicy_safety.Hcore var
+R14789:14791 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14764:14779 VST.sepcomp.semantics <> halted proj
+R14787:14788 VST.veric.juicy_extspec <> q1:195 var
+R14781:14785 VST.veric.juicy_extspec <> juicy_safety.Hcore var
+R14792:14807 VST.sepcomp.semantics <> halted proj
+R14815:14816 VST.veric.juicy_extspec <> q2:196 var
+R14809:14813 VST.veric.juicy_extspec <> juicy_safety.Hcore var
+binder 14618:14620 <> ret:201
+binder 14622:14622 <> m:202
+binder 14624:14625 <> q':203
+R14677:14702 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14742:14744 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14703:14726 VST.sepcomp.semantics <> after_external proj
+R14741:14741 VST.veric.juicy_extspec <> m:202 var
+R14738:14739 VST.veric.juicy_extspec <> q2:196 var
+R14734:14736 VST.veric.juicy_extspec <> ret:201 var
+R14728:14732 VST.veric.juicy_extspec <> juicy_safety.Hcore var
+R14745:14748 Coq.Init.Datatypes <> Some constr
+R14750:14751 VST.veric.juicy_extspec <> q':203 var
+R14667:14669 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14628:14651 VST.sepcomp.semantics <> after_external proj
+R14666:14666 VST.veric.juicy_extspec <> m:202 var
+R14663:14664 VST.veric.juicy_extspec <> q1:195 var
+R14659:14661 VST.veric.juicy_extspec <> ret:201 var
+R14653:14657 VST.veric.juicy_extspec <> juicy_safety.Hcore var
+R14670:14673 Coq.Init.Datatypes <> Some constr
+R14675:14676 VST.veric.juicy_extspec <> q':203 var
+R14572:14574 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14548:14560 VST.veric.juicy_extspec <> j_at_external def
+R14571:14571 VST.veric.juicy_extspec <> m:194 var
+R14568:14569 VST.veric.juicy_extspec <> q1:195 var
+R14562:14566 VST.veric.juicy_extspec <> juicy_safety.Hcore var
+R14575:14587 VST.veric.juicy_extspec <> j_at_external def
+R14598:14598 VST.veric.juicy_extspec <> m:194 var
+R14595:14596 VST.veric.juicy_extspec <> q2:196 var
+R14589:14593 VST.veric.juicy_extspec <> juicy_safety.Hcore var
+R15089:15103 VST.veric.juicy_extspec <> jsafeN_external constr
+R15089:15103 VST.veric.juicy_extspec <> jsafeN_external constr
+R15312:15324 VST.veric.juicy_extspec <> jsafeN_halted constr
+R15312:15324 VST.veric.juicy_extspec <> jsafeN_halted constr
+prf 15376:15390 <> wlog_jsafeN_gt0
+binder 15405:15405 <> n:204
+binder 15407:15407 <> z:205
+binder 15409:15409 <> q:206
+binder 15411:15411 <> m:207
+R15418:15418 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15444:15452 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15453:15459 VST.veric.juicy_extspec <> jsafeN_ ind
+R15467:15467 VST.veric.juicy_extspec <> m:207 var
+R15465:15465 VST.veric.juicy_extspec <> q:206 var
+R15463:15463 VST.veric.juicy_extspec <> z:205 var
+R15461:15461 VST.veric.juicy_extspec <> n:204 var
+R15425:15428 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15429:15435 VST.veric.juicy_extspec <> jsafeN_ ind
+R15443:15443 VST.veric.juicy_extspec <> m:207 var
+R15441:15441 VST.veric.juicy_extspec <> q:206 var
+R15439:15439 VST.veric.juicy_extspec <> z:205 var
+R15437:15437 VST.veric.juicy_extspec <> n:204 var
+R15419:15420 Coq.Init.Peano <> lt def
+R15424:15424 VST.veric.juicy_extspec <> n:204 var
+prf 15548:15560 <> make_join_ext
+R15578:15578 VST.veric.juicy_extspec <> juicy_safety.Z var
+binder 15572:15574 <> ora:208
+binder 15581:15581 <> a:209
+binder 15583:15583 <> c:210
+binder 15585:15585 <> n:211
+R15635:15640 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15720:15725 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15726:15733 VST.msl.sepalg <> join_sub def
+R15771:15779 VST.veric.own <> make_join def
+R15783:15783 VST.veric.juicy_extspec <> c:210 var
+R15781:15781 VST.veric.juicy_extspec <> a:209 var
+R15761:15764 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15736:15739 Coq.Init.Datatypes <> Some constr
+R15741:15741 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15753:15754 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15760:15760 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15742:15748 VST.veric.ghost_PCM <> ext_ref def
+R15750:15752 VST.veric.juicy_extspec <> ora:208 var
+R15755:15759 VST.veric.compcert_rmaps RML.R NoneP def
+R15765:15767 Coq.Init.Datatypes <> nil constr
+R15641:15645 VST.msl.sepalg <> joins def
+R15685:15694 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R15718:15718 VST.veric.juicy_extspec <> c:210 var
+R15708:15713 VST.veric.compcert_rmaps RML.R approx def
+R15715:15715 VST.veric.juicy_extspec <> n:211 var
+R15697:15702 VST.veric.compcert_rmaps RML.R approx def
+R15704:15704 VST.veric.juicy_extspec <> n:211 var
+R15648:15657 VST.veric.compcert_rmaps RML.R ghost_fmap def
+R15681:15681 VST.veric.juicy_extspec <> a:209 var
+R15671:15676 VST.veric.compcert_rmaps RML.R approx def
+R15678:15678 VST.veric.juicy_extspec <> n:211 var
+R15660:15665 VST.veric.compcert_rmaps RML.R approx def
+R15667:15667 VST.veric.juicy_extspec <> n:211 var
+R15590:15597 VST.msl.sepalg <> join_sub def
+R15634:15634 VST.veric.juicy_extspec <> c:210 var
+R15625:15628 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15600:15603 Coq.Init.Datatypes <> Some constr
+R15605:15605 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15617:15618 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15624:15624 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15606:15612 VST.veric.ghost_PCM <> ext_ref def
+R15614:15616 VST.veric.juicy_extspec <> ora:208 var
+R15619:15623 VST.veric.compcert_rmaps RML.R NoneP def
+R15629:15631 Coq.Init.Datatypes <> nil constr
+R16199:16209 VST.msl.ghost <> valid meth
+R16223:16223 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16228:16229 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16234:16234 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16224:16227 Coq.Init.Datatypes <> None constr
+R16230:16233 Coq.Init.Datatypes <> None constr
+R16212:16218 VST.veric.ghost_PCM <> ext_PCM def
+R16220:16220 VST.veric.juicy_extspec <> juicy_safety.Z var
+R16199:16209 VST.msl.ghost <> valid meth
+R16223:16223 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16228:16229 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16234:16234 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16224:16227 Coq.Init.Datatypes <> None constr
+R16230:16233 Coq.Init.Datatypes <> None constr
+R16212:16218 VST.veric.ghost_PCM <> ext_PCM def
+R16220:16220 VST.veric.juicy_extspec <> juicy_safety.Z var
+R16372:16372 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16408:16409 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16411:16411 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16373:16378 Coq.Init.Specif <> existT constr
+R16395:16399 Coq.Init.Specif <> exist constr
+R16383:16389 VST.veric.ghost_PCM <> ext_PCM def
+R16391:16391 VST.veric.juicy_extspec <> juicy_safety.Z var
+R16584:16584 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16620:16621 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16623:16623 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16585:16590 Coq.Init.Specif <> existT constr
+R16607:16611 Coq.Init.Specif <> exist constr
+R16595:16601 VST.veric.ghost_PCM <> ext_PCM def
+R16603:16603 VST.veric.juicy_extspec <> juicy_safety.Z var
+R16839:16839 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16841:16842 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16844:16844 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16914:16918 VST.veric.compcert_rmaps RML.R NoneP def
+prf 16969:16976 <> age_safe
+binder 16988:16989 <> jm:212
+binder 16991:16993 <> jm0:213
+R17006:17011 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 17019:17021 <> ora:214
+binder 17023:17023 <> c:215
+R17058:17064 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17065:17071 VST.veric.juicy_extspec <> jsafeN_ ind
+R17090:17091 VST.veric.juicy_extspec <> jm:212 var
+R17088:17088 VST.veric.juicy_extspec <> c:215 var
+R17084:17086 VST.veric.juicy_extspec <> ora:214 var
+R17074:17078 VST.msl.ageable <> level meth
+R17080:17081 VST.veric.juicy_extspec <> jm:212 var
+R17029:17035 VST.veric.juicy_extspec <> jsafeN_ ind
+R17055:17057 VST.veric.juicy_extspec <> jm0:213 var
+R17053:17053 VST.veric.juicy_extspec <> c:215 var
+R17049:17051 VST.veric.juicy_extspec <> ora:214 var
+R17038:17042 VST.msl.ageable <> level meth
+R17044:17046 VST.veric.juicy_extspec <> jm0:213 var
+R16996:16998 VST.msl.ageable <> age def
+R17004:17005 VST.veric.juicy_extspec <> jm:212 var
+R17000:17002 VST.veric.juicy_extspec <> jm0:213 var
+R17141:17149 VST.msl.ageable <> age_level thm
+R17141:17149 VST.msl.ageable <> age_level thm
+R17141:17149 VST.msl.ageable <> age_level thm
+R17179:17183 VST.msl.ageable <> level meth
+R17179:17183 VST.msl.ageable <> level meth
+R17275:17275 Coq.Init.Datatypes <> S constr
+R17275:17275 Coq.Init.Datatypes <> S constr
+R17326:17334 VST.msl.ageable <> age_level thm
+R17326:17334 VST.msl.ageable <> age_level thm
+R17400:17402 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R17392:17396 VST.msl.ageable <> level meth
+R17400:17402 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R17392:17396 VST.msl.ageable <> level meth
+R17425:17431 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R17433:17434 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 17432:17432 <> i:216
+R17443:17445 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17435:17439 VST.msl.ageable <> level meth
+R17446:17446 Coq.Init.Datatypes <> S constr
+R17448:17448 VST.veric.juicy_extspec <> i:216 var
+R17425:17431 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R17433:17434 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 17432:17432 <> i:217
+R17443:17445 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17435:17439 VST.msl.ageable <> level meth
+R17446:17446 Coq.Init.Datatypes <> S constr
+R17448:17448 VST.veric.juicy_extspec <> i:217 var
+R17465:17469 VST.msl.ageable <> level meth
+R17465:17469 VST.msl.ageable <> level meth
+R17547:17556 VST.msl.age_sepalg <> levelS_age thm
+R17547:17556 VST.msl.age_sepalg <> levelS_age thm
+R17630:17639 VST.veric.juicy_mem <> age_jm_dry thm
+R17650:17659 VST.veric.juicy_mem <> age_jm_dry thm
+R17630:17639 VST.veric.juicy_mem <> age_jm_dry thm
+R17630:17639 VST.veric.juicy_mem <> age_jm_dry thm
+R17650:17659 VST.veric.juicy_mem <> age_jm_dry thm
+R17650:17659 VST.veric.juicy_mem <> age_jm_dry thm
+R17698:17707 VST.veric.juicy_mem <> age_jm_dry thm
+R17698:17707 VST.veric.juicy_mem <> age_jm_dry thm
+R17698:17707 VST.veric.juicy_mem <> age_jm_dry thm
+R17724:17741 VST.veric.juicy_extspec <> age_resource_decay thm
+R17771:17780 VST.veric.juicy_mem <> age_jm_phi thm
+R17724:17741 VST.veric.juicy_extspec <> age_resource_decay thm
+R17771:17780 VST.veric.juicy_mem <> age_jm_phi thm
+R17771:17780 VST.veric.juicy_mem <> age_jm_phi thm
+R17802:17822 VST.veric.juicy_mem <> age1_juicy_mem_unpack thm
+R17802:17822 VST.veric.juicy_mem <> age1_juicy_mem_unpack thm
+R17852:17872 VST.veric.juicy_mem <> age1_juicy_mem_unpack thm
+R17852:17872 VST.veric.juicy_mem <> age1_juicy_mem_unpack thm
+R17908:17916 VST.msl.ageable <> age_level thm
+R17908:17916 VST.msl.ageable <> age_level thm
+R17960:17972 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R17979:17988 VST.veric.juicy_mem <> age_jm_phi thm
+R17997:18009 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R18016:18025 VST.veric.juicy_mem <> age_jm_phi thm
+R17960:17972 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R17979:17988 VST.veric.juicy_mem <> age_jm_phi thm
+R17960:17972 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R17979:17988 VST.veric.juicy_mem <> age_jm_phi thm
+R17997:18009 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R18016:18025 VST.veric.juicy_mem <> age_jm_phi thm
+R17997:18009 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R18016:18025 VST.veric.juicy_mem <> age_jm_phi thm
+R18077:18097 VST.veric.juicy_mem <> level_juice_level_phi thm
+R18077:18097 VST.veric.juicy_mem <> level_juice_level_phi thm
+R18077:18097 VST.veric.juicy_mem <> level_juice_level_phi thm
+R18077:18097 VST.veric.juicy_mem <> level_juice_level_phi thm
+R18077:18097 VST.veric.juicy_mem <> level_juice_level_phi thm
+R18142:18154 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R18161:18170 VST.veric.juicy_mem <> age_jm_phi thm
+R18142:18154 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R18161:18170 VST.veric.juicy_mem <> age_jm_phi thm
+R18142:18154 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R18161:18170 VST.veric.juicy_mem <> age_jm_phi thm
+R18196:18213 VST.veric.own <> ghost_joins_approx thm
+R18196:18213 VST.veric.own <> ghost_joins_approx thm
+R18254:18262 VST.msl.ageable <> age_level thm
+R18269:18278 VST.veric.juicy_mem <> age_jm_phi thm
+R18254:18262 VST.msl.ageable <> age_level thm
+R18269:18278 VST.veric.juicy_mem <> age_jm_phi thm
+R18254:18262 VST.msl.ageable <> age_level thm
+R18269:18278 VST.veric.juicy_mem <> age_jm_phi thm
+R18302:18316 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R18302:18316 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R18302:18316 VST.veric.compcert_rmaps RML ghost_of_approx thm
+R18342:18350 VST.veric.own <> make_join def
+R18353:18377 VST.veric.compcert_rmaps R ghost_of def
+R18380:18384 VST.veric.juicy_mem <> m_phi def
+R18342:18350 VST.veric.own <> make_join def
+R18353:18377 VST.veric.compcert_rmaps R ghost_of def
+R18380:18384 VST.veric.juicy_mem <> m_phi def
+R18439:18451 VST.veric.juicy_extspec <> make_join_ext thm
+R18439:18451 VST.veric.juicy_extspec <> make_join_ext thm
+R18476:18488 VST.veric.juicy_extspec <> jm_update_age thm
+R18476:18488 VST.veric.juicy_extspec <> jm_update_age thm
+R18571:18583 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R18590:18599 VST.veric.juicy_mem <> age_jm_phi thm
+R18571:18583 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R18590:18599 VST.veric.juicy_mem <> age_jm_phi thm
+R18571:18583 VST.veric.compcert_rmaps RML age1_ghost_of thm
+R18590:18599 VST.veric.juicy_mem <> age_jm_phi thm
+R18624:18628 VST.msl.ageable <> level meth
+R18631:18635 VST.veric.juicy_mem <> m_phi def
+R18651:18655 VST.msl.ageable <> level meth
+R18658:18662 VST.veric.juicy_mem <> m_phi def
+R18624:18628 VST.msl.ageable <> level meth
+R18631:18635 VST.veric.juicy_mem <> m_phi def
+R18651:18655 VST.msl.ageable <> level meth
+R18658:18662 VST.veric.juicy_mem <> m_phi def
+R18726:18746 VST.veric.juicy_mem <> level_juice_level_phi thm
+R18726:18746 VST.veric.juicy_mem <> level_juice_level_phi thm
+R18726:18746 VST.veric.juicy_mem <> level_juice_level_phi thm
+R18726:18746 VST.veric.juicy_mem <> level_juice_level_phi thm
+R18726:18746 VST.veric.juicy_mem <> level_juice_level_phi thm
+R18845:18859 VST.veric.juicy_extspec <> jsafeN_external constr
+R18878:18889 VST.veric.juicy_extspec <> JE_pre_hered proj
+R18845:18859 VST.veric.juicy_extspec <> jsafeN_external constr
+R18878:18889 VST.veric.juicy_extspec <> JE_pre_hered proj
+R18915:18927 VST.veric.juicy_extspec <> j_at_external def
+R18953:18962 VST.veric.juicy_mem <> age_jm_dry thm
+R18953:18962 VST.veric.juicy_mem <> age_jm_dry thm
+R18953:18962 VST.veric.juicy_mem <> age_jm_dry thm
+R19072:19074 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R19056:19060 VST.msl.ageable <> level meth
+R19063:19067 VST.veric.juicy_mem <> m_phi def
+R19075:19079 VST.msl.ageable <> level meth
+R19082:19086 VST.veric.juicy_mem <> m_phi def
+R19072:19074 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R19056:19060 VST.msl.ageable <> level meth
+R19063:19067 VST.veric.juicy_mem <> m_phi def
+R19075:19079 VST.msl.ageable <> level meth
+R19082:19086 VST.veric.juicy_mem <> m_phi def
+R19117:19125 VST.msl.ageable <> age_level thm
+R19117:19125 VST.msl.ageable <> age_level thm
+R19157:19177 VST.veric.juicy_mem <> level_juice_level_phi thm
+R19157:19177 VST.veric.juicy_mem <> level_juice_level_phi thm
+R19157:19177 VST.veric.juicy_mem <> level_juice_level_phi thm
+R19157:19177 VST.veric.juicy_mem <> level_juice_level_phi thm
+R19157:19177 VST.veric.juicy_mem <> level_juice_level_phi thm
+R19301:19321 VST.veric.juicy_mem <> level_juice_level_phi thm
+R19301:19321 VST.veric.juicy_mem <> level_juice_level_phi thm
+R19301:19321 VST.veric.juicy_mem <> level_juice_level_phi thm
+R19301:19321 VST.veric.juicy_mem <> level_juice_level_phi thm
+R19301:19321 VST.veric.juicy_mem <> level_juice_level_phi thm
+R19397:19405 VST.veric.juicy_safety <> pures_sub def
+R19469:19471 VST.msl.ageable <> age def
+R19486:19490 VST.veric.juicy_mem <> m_phi def
+R19474:19478 VST.veric.juicy_mem <> m_phi def
+R19507:19516 VST.veric.juicy_mem <> age_jm_phi thm
+R19469:19471 VST.msl.ageable <> age def
+R19486:19490 VST.veric.juicy_mem <> m_phi def
+R19474:19478 VST.veric.juicy_mem <> m_phi def
+R19507:19516 VST.veric.juicy_mem <> age_jm_phi thm
+R19552:19554 VST.veric.rmaps RMAPS :::x_'@'_x not
+R19543:19547 VST.veric.juicy_mem <> m_phi def
+R19552:19554 VST.veric.rmaps RMAPS :::x_'@'_x not
+R19543:19547 VST.veric.juicy_mem <> m_phi def
+R19647:19650 VST.veric.compcert_rmaps RML.R PURE constr
+R19606:19621 VST.veric.compcert_rmaps RML age1_resource_at thm
+R19647:19650 VST.veric.compcert_rmaps RML.R PURE constr
+R19606:19621 VST.veric.compcert_rmaps RML age1_resource_at thm
+R19748:19757 VST.veric.compcert_rmaps RML.R preds_fmap def
+R19803:19819 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R19833:19837 VST.msl.ageable <> level meth
+R19822:19826 VST.msl.ageable <> level meth
+R19803:19819 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R19833:19837 VST.msl.ageable <> level meth
+R19822:19826 VST.msl.ageable <> level meth
+R19906:19922 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R19936:19940 VST.msl.ageable <> level meth
+R19925:19929 VST.msl.ageable <> level meth
+R19906:19922 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R19936:19940 VST.msl.ageable <> level meth
+R19925:19929 VST.msl.ageable <> level meth
+R20014:20034 VST.veric.juicy_mem <> level_juice_level_phi thm
+R20014:20034 VST.veric.juicy_mem <> level_juice_level_phi thm
+R20014:20034 VST.veric.juicy_mem <> level_juice_level_phi thm
+R20014:20034 VST.veric.juicy_mem <> level_juice_level_phi thm
+R20014:20034 VST.veric.juicy_mem <> level_juice_level_phi thm
+R20055:20062 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R20055:20062 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R20055:20062 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R20118:20135 VST.veric.compcert_rmaps RML resource_at_approx thm
+R20118:20135 VST.veric.compcert_rmaps RML resource_at_approx thm
+R20118:20135 VST.veric.compcert_rmaps RML resource_at_approx thm
+R20187:20189 VST.veric.rmaps RMAPS :::x_'@'_x not
+R20179:20183 VST.veric.juicy_mem <> m_phi def
+R20187:20189 VST.veric.rmaps RMAPS :::x_'@'_x not
+R20179:20183 VST.veric.juicy_mem <> m_phi def
+R20335:20344 VST.veric.juicy_mem <> age_jm_phi thm
+R20335:20344 VST.veric.juicy_mem <> age_jm_phi thm
+R20375:20378 VST.msl.ageable <> necR def
+R20393:20397 VST.veric.juicy_mem <> m_phi def
+R20381:20385 VST.veric.juicy_mem <> m_phi def
+R20414:20420 Coq.Relations.Relation_Operators <> rt_step constr
+R20375:20378 VST.msl.ageable <> necR def
+R20393:20397 VST.veric.juicy_mem <> m_phi def
+R20381:20385 VST.veric.juicy_mem <> m_phi def
+R20414:20420 Coq.Relations.Relation_Operators <> rt_step constr
+R20445:20454 VST.veric.juicy_extspec <> necR_PURE' thm
+R20445:20454 VST.veric.juicy_extspec <> necR_PURE' thm
+R20513:20520 VST.veric.juicy_extspec <> j_halted def
+R20539:20551 VST.veric.juicy_extspec <> jsafeN_halted constr
+R20539:20551 VST.veric.juicy_extspec <> jsafeN_halted constr
+R20572:20584 VST.veric.juicy_extspec <> JE_exit_hered proj
+R20572:20584 VST.veric.juicy_extspec <> JE_exit_hered proj
+R20604:20615 VST.veric.juicy_extspec juicy_safety <> sec
+prf 20625:20661 <> juicy_core_sem_preserves_corestep_fun
+binder 20666:20666 <> C:218
+R20677:20689 VST.sepcomp.semantics <> CoreSemantics rec
+R20693:20695 compcert.common.Memory Mem mem def
+R20691:20691 VST.veric.juicy_extspec <> C:218 var
+binder 20670:20673 <> csem:219
+R20719:20724 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20725:20736 VST.sepcomp.step_lemmas <> corestep_fun def
+R20739:20752 VST.veric.juicy_extspec <> juicy_core_sem def
+R20754:20757 VST.veric.juicy_extspec <> csem:219 var
+R20702:20713 VST.sepcomp.step_lemmas <> corestep_fun def
+R20715:20718 VST.veric.juicy_extspec <> csem:219 var
+R21014:21026 VST.veric.juicy_mem <> juicy_mem_ext thm
+R21014:21026 VST.veric.juicy_mem <> juicy_mem_ext thm
+R21058:21060 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21049:21053 VST.msl.ageable <> level meth
+R21061:21065 VST.msl.ageable <> level meth
+R21058:21060 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21049:21053 VST.msl.ageable <> level meth
+R21061:21065 VST.msl.ageable <> level meth
+R21104:21111 VST.veric.compcert_rmaps RML rmap_ext thm
+R21104:21111 VST.veric.compcert_rmaps RML rmap_ext thm
+R21133:21153 VST.veric.juicy_mem <> level_juice_level_phi thm
+R21133:21153 VST.veric.juicy_mem <> level_juice_level_phi thm
+R21133:21153 VST.veric.juicy_mem <> level_juice_level_phi thm
+R21133:21153 VST.veric.juicy_mem <> level_juice_level_phi thm
+R21133:21153 VST.veric.juicy_mem <> level_juice_level_phi thm
+R21226:21246 VST.veric.juicy_mem <> level_juice_level_phi thm
+R21226:21246 VST.veric.juicy_mem <> level_juice_level_phi thm
+R21226:21246 VST.veric.juicy_mem <> level_juice_level_phi thm
+R21782:21785 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21814:21816 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21845:21847 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21782:21785 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21782:21785 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21782:21785 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21782:21785 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21782:21785 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21782:21785 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21782:21785 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21782:21785 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21782:21785 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21782:21785 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21782:21785 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21782:21785 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21782:21785 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21782:21785 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21782:21785 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21782:21785 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21814:21816 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21814:21816 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21814:21816 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21814:21816 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21814:21816 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21814:21816 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21814:21816 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21814:21816 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21814:21816 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21814:21816 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21814:21816 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21814:21816 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21814:21816 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21814:21816 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21814:21816 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21814:21816 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21845:21847 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21845:21847 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21845:21847 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21845:21847 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21845:21847 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21845:21847 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21845:21847 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21845:21847 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21845:21847 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21845:21847 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21845:21847 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21845:21847 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21845:21847 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21845:21847 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21845:21847 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21845:21847 VST.veric.rmaps RMAPS :::x_'@'_x not
+R22296:22312 VST.msl.shares Share EqDec_share defax
+R22324:22332 VST.msl.shares Share bot defax
+R22314:22322 VST.msl.shares Share bot defax
+R22296:22312 VST.msl.shares Share EqDec_share defax
+R22324:22332 VST.msl.shares Share bot defax
+R22314:22322 VST.msl.shares Share bot defax
+R22507:22516 VST.veric.juicy_mem <> perm_of_sh def
+R22583:22598 VST.msl.shares Share nontrivial prfax
+R22583:22598 VST.msl.shares Share nontrivial prfax
+R22857:22873 VST.msl.shares Share EqDec_share defax
+R22885:22893 VST.msl.shares Share bot defax
+R22875:22883 VST.msl.shares Share bot defax
+R22857:22873 VST.msl.shares Share EqDec_share defax
+R22885:22893 VST.msl.shares Share bot defax
+R22875:22883 VST.msl.shares Share bot defax
+R22994:23003 VST.veric.juicy_mem <> perm_of_sh def
+R23070:23085 VST.msl.shares Share nontrivial prfax
+R23070:23085 VST.msl.shares Share nontrivial prfax
+R23430:23430 VST.veric.rmaps RMAPS :::x_'@'_x not
+R23430:23430 VST.veric.rmaps RMAPS :::x_'@'_x not
+R23470:23478 VST.msl.Axioms <> proof_irr thm
+R23470:23478 VST.msl.Axioms <> proof_irr thm
+R23834:23850 VST.msl.shares Share EqDec_share defax
+R23862:23870 VST.msl.shares Share bot defax
+R23852:23860 VST.msl.shares Share bot defax
+R23834:23850 VST.msl.shares Share EqDec_share defax
+R23862:23870 VST.msl.shares Share bot defax
+R23852:23860 VST.msl.shares Share bot defax
+R23943:23952 VST.veric.juicy_mem <> perm_of_sh def
+R24187:24203 VST.msl.shares Share EqDec_share defax
+R24215:24223 VST.msl.shares Share bot defax
+R24205:24213 VST.msl.shares Share bot defax
+R24187:24203 VST.msl.shares Share EqDec_share defax
+R24215:24223 VST.msl.shares Share bot defax
+R24205:24213 VST.msl.shares Share bot defax
+R24389:24398 VST.veric.juicy_mem <> perm_of_sh def
+R24465:24480 VST.msl.shares Share nontrivial prfax
+R24465:24480 VST.msl.shares Share nontrivial prfax
+R25017:25033 VST.msl.shares Share EqDec_share defax
+R25045:25053 VST.msl.shares Share bot defax
+R25035:25043 VST.msl.shares Share bot defax
+R25017:25033 VST.msl.shares Share EqDec_share defax
+R25045:25053 VST.msl.shares Share bot defax
+R25035:25043 VST.msl.shares Share bot defax
+R25154:25163 VST.veric.juicy_mem <> perm_of_sh def
+R25230:25245 VST.msl.shares Share nontrivial prfax
+R25230:25245 VST.msl.shares Share nontrivial prfax
+R25504:25520 VST.msl.shares Share EqDec_share defax
+R25532:25540 VST.msl.shares Share bot defax
+R25522:25530 VST.msl.shares Share bot defax
+R25504:25520 VST.msl.shares Share EqDec_share defax
+R25532:25540 VST.msl.shares Share bot defax
+R25522:25530 VST.msl.shares Share bot defax
+R25637:25646 VST.veric.juicy_mem <> perm_of_sh def

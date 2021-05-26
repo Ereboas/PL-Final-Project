@@ -1,0 +1,765 @@
+DIGEST 8a2bc7699b5d989e60021b1488eb2fcc
+FVST.veric.assert_lemmas
+R15:28 VST.veric.base <> <> lib
+R46:69 VST.veric.compcert_rmaps <> <> lib
+R87:110 VST.veric.res_predicates <> <> lib
+R128:152 compcert.cfrontend.Ctypes <> <> lib
+R170:184 VST.veric.mpred <> <> lib
+R202:217 VST.veric.seplog <> <> lib
+R236:252 VST.msl.normalize <> <> lib
+prf 286:301 <> mapsto_core_load
+binder 311:312 <> ch:1
+binder 314:314 <> v:2
+binder 316:317 <> sh:3
+binder 319:321 <> loc:4
+binder 323:323 <> m:5
+R369:372 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R373:381 VST.veric.res_predicates <> core_load def
+R392:392 VST.veric.assert_lemmas <> m:5 var
+R390:390 VST.veric.assert_lemmas <> v:2 var
+R386:388 VST.veric.assert_lemmas <> loc:4 var
+R383:384 VST.veric.assert_lemmas <> ch:1 var
+R356:358 VST.msl.predicates_sl <> ::pred:x_'*'_x not
+R330:343 VST.veric.res_predicates <> address_mapsto def
+R353:355 VST.veric.assert_lemmas <> loc:4 var
+R350:351 VST.veric.assert_lemmas <> sh:3 var
+R348:348 VST.veric.assert_lemmas <> v:2 var
+R345:346 VST.veric.assert_lemmas <> ch:1 var
+R359:360 VST.msl.predicates_hered <> TT def
+R368:368 VST.veric.assert_lemmas <> m:5 var
+R409:422 VST.veric.res_predicates <> address_mapsto def
+R425:433 VST.veric.res_predicates <> core_load def
+R544:547 VST.msl.predicates_hered <> allp def
+R550:552 VST.veric.res_predicates <> jam def
+R685:700 VST.veric.compcert_rmaps RML resource_at_join thm
+R685:700 VST.veric.compcert_rmaps RML resource_at_join thm
+R765:780 VST.veric.compcert_rmaps RML preds_fmap_NoneP thm
+R765:780 VST.veric.compcert_rmaps RML preds_fmap_NoneP thm
+R765:780 VST.veric.compcert_rmaps RML preds_fmap_NoneP thm
+R765:780 VST.veric.compcert_rmaps RML preds_fmap_NoneP thm
+prf 889:907 <> nth_error_in_bounds
+binder 918:918 <> A:6
+R925:928 Coq.Init.Datatypes <> list ind
+R930:930 VST.veric.assert_lemmas <> A:6 var
+binder 922:922 <> l:7
+binder 933:933 <> i:8
+R959:964 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R965:971 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R973:974 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 972:972 <> x:9
+R988:990 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R975:983 Coq.Lists.List <> nth_error def
+R987:987 VST.veric.assert_lemmas <> i:8 var
+R985:985 VST.veric.assert_lemmas <> l:7 var
+R991:995 Coq.Init.Specif <> value def
+R997:997 VST.veric.assert_lemmas <> x:9 var
+R938:941 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R943:945 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R937:937 Coq.Init.Datatypes <> O constr
+R942:942 VST.veric.assert_lemmas <> i:8 var
+R942:942 VST.veric.assert_lemmas <> i:8 var
+R946:951 Coq.Lists.List <> length syndef
+R953:953 VST.veric.assert_lemmas <> l:7 var
+prf 1145:1163 <> nth_eq_nth_error_eq
+binder 1174:1174 <> A:10
+R1181:1181 VST.veric.assert_lemmas <> A:10 var
+binder 1178:1178 <> d:11
+R1191:1194 Coq.Init.Datatypes <> list ind
+R1196:1196 VST.veric.assert_lemmas <> A:10 var
+binder 1185:1185 <> l:12
+binder 1187:1188 <> l':13
+binder 1199:1199 <> i:14
+R1227:1232 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1253:1258 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1281:1286 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1300:1302 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1287:1295 Coq.Lists.List <> nth_error def
+R1299:1299 VST.veric.assert_lemmas <> i:14 var
+R1297:1297 VST.veric.assert_lemmas <> l:12 var
+R1303:1311 Coq.Lists.List <> nth_error def
+R1316:1316 VST.veric.assert_lemmas <> i:14 var
+R1313:1314 VST.veric.assert_lemmas <> l':13 var
+R1268:1270 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1259:1261 Coq.Lists.List <> nth def
+R1267:1267 VST.veric.assert_lemmas <> d:11 var
+R1265:1265 VST.veric.assert_lemmas <> l:12 var
+R1263:1263 VST.veric.assert_lemmas <> i:14 var
+R1271:1273 Coq.Lists.List <> nth def
+R1280:1280 VST.veric.assert_lemmas <> d:11 var
+R1277:1278 VST.veric.assert_lemmas <> l':13 var
+R1275:1275 VST.veric.assert_lemmas <> i:14 var
+R1241:1243 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1233:1238 Coq.Lists.List <> length syndef
+R1240:1240 VST.veric.assert_lemmas <> l:12 var
+R1244:1249 Coq.Lists.List <> length syndef
+R1251:1252 VST.veric.assert_lemmas <> l':13 var
+R1206:1209 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R1211:1213 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R1205:1205 Coq.Init.Datatypes <> O constr
+R1210:1210 VST.veric.assert_lemmas <> i:14 var
+R1210:1210 VST.veric.assert_lemmas <> i:14 var
+R1214:1219 Coq.Lists.List <> length syndef
+R1221:1221 VST.veric.assert_lemmas <> l:12 var
+prf 1517:1529 <> core_load_fun
+binder 1539:1540 <> ch:15
+binder 1542:1542 <> m:16
+binder 1544:1546 <> loc:17
+binder 1548:1549 <> v1:18
+binder 1551:1552 <> v2:19
+R1579:1582 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1604:1607 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1610:1610 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1608:1609 VST.veric.assert_lemmas <> v1:18 var
+R1611:1612 VST.veric.assert_lemmas <> v2:19 var
+R1583:1591 VST.veric.res_predicates <> core_load def
+R1603:1603 VST.veric.assert_lemmas <> m:16 var
+R1600:1601 VST.veric.assert_lemmas <> v2:19 var
+R1596:1598 VST.veric.assert_lemmas <> loc:17 var
+R1593:1594 VST.veric.assert_lemmas <> ch:15 var
+R1558:1566 VST.veric.res_predicates <> core_load def
+R1578:1578 VST.veric.assert_lemmas <> m:16 var
+R1575:1576 VST.veric.assert_lemmas <> v1:18 var
+R1571:1573 VST.veric.assert_lemmas <> loc:17 var
+R1568:1569 VST.veric.assert_lemmas <> ch:15 var
+R1659:1667 VST.veric.res_predicates <> core_load def
+R1682:1685 VST.msl.predicates_hered <> allp def
+R1688:1690 VST.veric.res_predicates <> jam def
+binder 1796:1796 <> i:20
+R1813:1815 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1799:1807 Coq.Lists.List <> nth_error def
+R1812:1812 VST.veric.assert_lemmas <> i:20 var
+R1816:1824 Coq.Lists.List <> nth_error def
+R1830:1830 VST.veric.assert_lemmas <> i:20 var
+binder 1796:1796 <> i:21
+R1813:1815 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1799:1807 Coq.Lists.List <> nth_error def
+R1812:1812 VST.veric.assert_lemmas <> i:21 var
+R1816:1824 Coq.Lists.List <> nth_error def
+R1830:1830 VST.veric.assert_lemmas <> i:21 var
+R1854:1856 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1854:1856 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2007:2007 Coq.Init.Datatypes <> O constr
+R2007:2007 Coq.Init.Datatypes <> O constr
+R2007:2007 Coq.Init.Datatypes <> O constr
+R2007:2007 Coq.Init.Datatypes <> O constr
+R2007:2007 Coq.Init.Datatypes <> O constr
+R2049:2049 Coq.Init.Datatypes <> O constr
+R2049:2049 Coq.Init.Datatypes <> O constr
+R2104:2104 Coq.Init.Datatypes <> S constr
+R2104:2104 Coq.Init.Datatypes <> S constr
+R2166:2166 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2168:2169 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2186:2186 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2173:2175 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2176:2183 Coq.ZArith.BinInt <> Z_of_nat syndef
+R2166:2166 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2168:2169 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2186:2186 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2173:2175 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2176:2183 Coq.ZArith.BinInt <> Z_of_nat syndef
+R2205:2205 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2207:2208 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2225:2225 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2212:2214 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2215:2222 Coq.ZArith.BinInt <> Z_of_nat syndef
+R2205:2205 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2207:2208 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2225:2225 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2212:2214 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2215:2222 Coq.ZArith.BinInt <> Z_of_nat syndef
+R2411:2413 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2398:2400 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2401:2408 Coq.ZArith.BinInt <> Z_of_nat syndef
+R2425:2432 Coq.ZArith.BinInt <> Z_of_nat syndef
+R2411:2413 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R2398:2400 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2401:2408 Coq.ZArith.BinInt <> Z_of_nat syndef
+R2425:2432 Coq.ZArith.BinInt <> Z_of_nat syndef
+R2458:2468 VST.veric.coqlib4 <> nat_of_Z_eq thm
+R2458:2468 VST.veric.coqlib4 <> nat_of_Z_eq thm
+R2458:2468 VST.veric.coqlib4 <> nat_of_Z_eq thm
+R2534:2538 compcert.common.Memdata <> Undef constr
+R2503:2521 VST.veric.assert_lemmas <> nth_eq_nth_error_eq thm
+R2534:2538 compcert.common.Memdata <> Undef constr
+R2503:2521 VST.veric.assert_lemmas <> nth_eq_nth_error_eq thm
+R2585:2599 compcert.common.Memdata <> size_chunk_conv thm
+R2585:2599 compcert.common.Memdata <> size_chunk_conv thm
+R2585:2599 compcert.common.Memdata <> size_chunk_conv thm
+R2639:2642 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R2643:2648 Coq.Lists.List <> length syndef
+R2639:2642 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R2643:2648 Coq.Lists.List <> length syndef
+R2677:2680 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R2681:2686 Coq.Lists.List <> length syndef
+R2677:2680 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R2681:2686 Coq.Lists.List <> length syndef
+R2723:2738 VST.veric.coqlib4 <> nth_error_length thm
+R2723:2738 VST.veric.coqlib4 <> nth_error_length thm
+R2772:2787 VST.veric.coqlib4 <> nth_error_length thm
+R2772:2787 VST.veric.coqlib4 <> nth_error_length thm
+R2951:2959 VST.sepcomp.Address <> adr_range def
+R2976:2990 compcert.common.Memdata <> size_chunk_conv thm
+R2976:2990 compcert.common.Memdata <> size_chunk_conv thm
+R2976:2990 compcert.common.Memdata <> size_chunk_conv thm
+R3026:3027 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3046:3046 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3029:3032 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R3034:3036 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R3028:3028 Coq.Init.Datatypes <> O constr
+R3037:3042 Coq.Lists.List <> length syndef
+R3026:3027 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3046:3046 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3029:3032 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R3034:3036 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<'_x not
+R3028:3028 Coq.Init.Datatypes <> O constr
+R3037:3042 Coq.Lists.List <> length syndef
+R3103:3106 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R3117:3119 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R3107:3114 Coq.ZArith.BinInt <> Z_of_nat syndef
+R3107:3114 Coq.ZArith.BinInt <> Z_of_nat syndef
+R3120:3127 Coq.ZArith.BinInt <> Z_of_nat syndef
+R3130:3135 Coq.Lists.List <> length syndef
+R3103:3106 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R3117:3119 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R3107:3114 Coq.ZArith.BinInt <> Z_of_nat syndef
+R3107:3114 Coq.ZArith.BinInt <> Z_of_nat syndef
+R3120:3127 Coq.ZArith.BinInt <> Z_of_nat syndef
+R3130:3135 Coq.Lists.List <> length syndef
+prf 3178:3198 <> extensible_core_load'
+binder 3208:3209 <> ch:22
+binder 3211:3213 <> loc:23
+binder 3215:3215 <> v:24
+binder 3219:3219 <> w:25
+binder 3221:3222 <> w':26
+R3237:3240 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3261:3264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3265:3273 VST.veric.res_predicates <> core_load def
+R3284:3285 VST.veric.assert_lemmas <> w':26 var
+R3282:3282 VST.veric.assert_lemmas <> v:24 var
+R3278:3280 VST.veric.assert_lemmas <> loc:23 var
+R3275:3276 VST.veric.assert_lemmas <> ch:22 var
+R3241:3249 VST.veric.res_predicates <> core_load def
+R3260:3260 VST.veric.assert_lemmas <> w:25 var
+R3258:3258 VST.veric.assert_lemmas <> v:24 var
+R3254:3256 VST.veric.assert_lemmas <> loc:23 var
+R3251:3252 VST.veric.assert_lemmas <> ch:22 var
+R3225:3231 VST.msl.predicates_sl <> extendR def
+R3235:3236 VST.veric.assert_lemmas <> w':26 var
+R3233:3233 VST.veric.assert_lemmas <> w:25 var
+R3310:3318 VST.veric.res_predicates <> core_load def
+R3444:3447 VST.msl.predicates_hered <> allp def
+R3450:3452 VST.veric.res_predicates <> jam def
+R3500:3515 VST.veric.compcert_rmaps RML resource_at_join thm
+R3500:3515 VST.veric.compcert_rmaps RML resource_at_join thm
+prf 3945:3956 <> assert_truth
+binder 3968:3968 <> A:27
+R3973:3979 VST.msl.ageable <> ageable class
+R3981:3981 VST.veric.assert_lemmas <> A:27 var
+binder 3973:3981 <> H:28
+binder 3985:3985 <> P:29
+R3997:4000 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4012:4015 VST.msl.predicates_hered <> pred def
+R4017:4017 VST.veric.assert_lemmas <> A:27 var
+binder 4009:4009 <> Q:30
+R4022:4026 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R4021:4021 VST.veric.assert_lemmas <> Q:30 var
+R4027:4027 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R4032:4036 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R4028:4030 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R4031:4031 VST.veric.assert_lemmas <> P:29 var
+R4037:4037 VST.veric.assert_lemmas <> Q:30 var
+R3996:3996 VST.veric.assert_lemmas <> P:29 var
+prf 4396:4409 <> rmap_unage_age
+binder 4421:4421 <> r:31
+R4424:4426 VST.msl.ageable <> age def
+R4443:4443 VST.veric.assert_lemmas <> r:31 var
+R4429:4438 VST.veric.compcert_rmaps RML.R rmap_unage def
+R4440:4440 VST.veric.assert_lemmas <> r:31 var
+R4468:4470 VST.msl.ageable <> age def
+R4473:4482 VST.veric.compcert_rmaps RML.R rmap_unage def
+R4501:4508 VST.veric.compcert_rmaps RML.R unsquash defax
+R4501:4508 VST.veric.compcert_rmaps RML.R unsquash defax
+R4529:4535 VST.veric.compcert_rmaps RML.R ag_rmap prfax
+R4542:4550 VST.veric.compcert_rmaps RML.R ag_rmap prfax
+R4529:4535 VST.veric.compcert_rmaps RML.R ag_rmap prfax
+R4542:4550 VST.veric.compcert_rmaps RML.R ag_rmap prfax
+R4561:4572 VST.veric.compcert_rmaps RML.R rmap_age1_eq prfax
+R4561:4572 VST.veric.compcert_rmaps RML.R rmap_age1_eq prfax
+R4561:4572 VST.veric.compcert_rmaps RML.R rmap_age1_eq prfax
+R4583:4597 VST.veric.compcert_rmaps RML.R unsquash_squash prfax
+R4583:4597 VST.veric.compcert_rmaps RML.R unsquash_squash prfax
+R4583:4597 VST.veric.compcert_rmaps RML.R unsquash_squash prfax
+R4615:4626 VST.veric.compcert_rmaps RML unsquash_inj thm
+R4615:4626 VST.veric.compcert_rmaps RML unsquash_inj thm
+R4648:4662 VST.veric.compcert_rmaps RML.R unsquash_squash prfax
+R4648:4662 VST.veric.compcert_rmaps RML.R unsquash_squash prfax
+R4648:4662 VST.veric.compcert_rmaps RML.R unsquash_squash prfax
+R4686:4692 Coq.Logic.FunctionalExtensionality <> equal_f thm
+R4695:4708 VST.veric.compcert_rmaps RML.R rmap_fmap_comp prfax
+R4752:4757 VST.veric.compcert_rmaps RML.R approx def
+R4741:4746 VST.veric.compcert_rmaps RML.R approx def
+R4726:4731 VST.veric.compcert_rmaps RML.R approx def
+R4734:4734 Coq.Init.Datatypes <> S constr
+R4711:4716 VST.veric.compcert_rmaps RML.R approx def
+R4719:4719 Coq.Init.Datatypes <> S constr
+R4686:4692 Coq.Logic.FunctionalExtensionality <> equal_f thm
+R4695:4708 VST.veric.compcert_rmaps RML.R rmap_fmap_comp prfax
+R4752:4757 VST.veric.compcert_rmaps RML.R approx def
+R4741:4746 VST.veric.compcert_rmaps RML.R approx def
+R4726:4731 VST.veric.compcert_rmaps RML.R approx def
+R4734:4734 Coq.Init.Datatypes <> S constr
+R4711:4716 VST.veric.compcert_rmaps RML.R approx def
+R4719:4719 Coq.Init.Datatypes <> S constr
+R4782:4788 VST.msl.base <> compose def
+R4822:4838 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R4822:4838 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R4822:4838 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R4822:4838 VST.veric.compcert_rmaps RML approx_oo_approx' thm
+R4855:4871 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R4855:4871 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R4855:4871 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R4855:4871 VST.veric.compcert_rmaps RML approx'_oo_approx thm
+R4903:4917 VST.veric.compcert_rmaps RML.R unsquash_squash prfax
+R4903:4917 VST.veric.compcert_rmaps RML.R unsquash_squash prfax
+R4962:4976 VST.veric.compcert_rmaps RML.R squash_unsquash prfax
+R4962:4976 VST.veric.compcert_rmaps RML.R squash_unsquash prfax
+R4962:4976 VST.veric.compcert_rmaps RML.R squash_unsquash prfax
+prf 5009:5028 <> adr_range_split_lem1
+binder 5038:5038 <> n:32
+binder 5040:5040 <> m:33
+binder 5042:5042 <> r:34
+binder 5044:5046 <> loc:35
+binder 5048:5051 <> loc':36
+R5065:5068 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5075:5078 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5085:5088 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5109:5112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5113:5121 VST.sepcomp.Address <> adr_range def
+R5129:5132 VST.veric.assert_lemmas <> loc':36 var
+R5127:5127 VST.veric.assert_lemmas <> r:34 var
+R5123:5125 VST.veric.assert_lemmas <> loc:35 var
+R5089:5097 VST.sepcomp.Address <> adr_range def
+R5105:5108 VST.veric.assert_lemmas <> loc':36 var
+R5103:5103 VST.veric.assert_lemmas <> n:32 var
+R5099:5101 VST.veric.assert_lemmas <> loc:35 var
+R5080:5083 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R5079:5079 VST.veric.assert_lemmas <> m:33 var
+R5070:5073 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R5069:5069 VST.veric.assert_lemmas <> n:32 var
+R5057:5059 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5056:5056 VST.veric.assert_lemmas <> r:34 var
+R5061:5063 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5060:5060 VST.veric.assert_lemmas <> n:32 var
+R5064:5064 VST.veric.assert_lemmas <> m:33 var
+R5149:5157 VST.sepcomp.Address <> adr_range def
+prf 5252:5271 <> adr_range_split_lem2
+binder 5281:5281 <> n:37
+binder 5283:5283 <> m:38
+binder 5285:5285 <> r:39
+binder 5287:5289 <> loc:40
+binder 5291:5294 <> loc':41
+R5308:5311 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5318:5321 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5328:5331 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5371:5376 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5377:5385 VST.sepcomp.Address <> adr_range def
+R5393:5396 VST.veric.assert_lemmas <> loc':41 var
+R5391:5391 VST.veric.assert_lemmas <> r:39 var
+R5387:5389 VST.veric.assert_lemmas <> loc:40 var
+R5332:5340 VST.sepcomp.Address <> adr_range def
+R5367:5370 VST.veric.assert_lemmas <> loc':41 var
+R5365:5365 VST.veric.assert_lemmas <> m:38 var
+R5342:5342 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5350:5351 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5363:5363 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5343:5345 Coq.Init.Datatypes <> fst def
+R5347:5349 VST.veric.assert_lemmas <> loc:40 var
+R5359:5361 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5352:5354 Coq.Init.Datatypes <> snd def
+R5356:5358 VST.veric.assert_lemmas <> loc:40 var
+R5362:5362 VST.veric.assert_lemmas <> n:37 var
+R5323:5326 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R5322:5322 VST.veric.assert_lemmas <> m:38 var
+R5313:5316 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R5312:5312 VST.veric.assert_lemmas <> n:37 var
+R5300:5302 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5299:5299 VST.veric.assert_lemmas <> r:39 var
+R5304:5306 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5303:5303 VST.veric.assert_lemmas <> n:37 var
+R5307:5307 VST.veric.assert_lemmas <> m:38 var
+R5413:5421 VST.sepcomp.Address <> adr_range def
+prf 5516:5535 <> adr_range_split_lem3
+binder 5545:5545 <> n:42
+binder 5547:5547 <> m:43
+binder 5549:5549 <> r:44
+binder 5551:5553 <> loc:45
+binder 5555:5558 <> loc':46
+R5572:5575 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5582:5585 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5592:5597 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5619:5624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5665:5670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5671:5671 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5672:5680 VST.sepcomp.Address <> adr_range def
+R5688:5691 VST.veric.assert_lemmas <> loc':46 var
+R5686:5686 VST.veric.assert_lemmas <> r:44 var
+R5682:5684 VST.veric.assert_lemmas <> loc:45 var
+R5625:5625 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5626:5634 VST.sepcomp.Address <> adr_range def
+R5661:5664 VST.veric.assert_lemmas <> loc':46 var
+R5659:5659 VST.veric.assert_lemmas <> m:43 var
+R5636:5636 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5644:5645 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5657:5657 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5637:5639 Coq.Init.Datatypes <> fst def
+R5641:5643 VST.veric.assert_lemmas <> loc:45 var
+R5653:5655 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5646:5648 Coq.Init.Datatypes <> snd def
+R5650:5652 VST.veric.assert_lemmas <> loc:45 var
+R5656:5656 VST.veric.assert_lemmas <> n:42 var
+R5598:5598 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5599:5607 VST.sepcomp.Address <> adr_range def
+R5615:5618 VST.veric.assert_lemmas <> loc':46 var
+R5613:5613 VST.veric.assert_lemmas <> n:42 var
+R5609:5611 VST.veric.assert_lemmas <> loc:45 var
+R5587:5590 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R5586:5586 VST.veric.assert_lemmas <> m:43 var
+R5577:5580 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R5576:5576 VST.veric.assert_lemmas <> n:42 var
+R5564:5566 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5563:5563 VST.veric.assert_lemmas <> r:44 var
+R5568:5570 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5567:5567 VST.veric.assert_lemmas <> n:42 var
+R5571:5571 VST.veric.assert_lemmas <> m:43 var
+R5708:5716 VST.sepcomp.Address <> adr_range def
+R5794:5801 Coq.ZArith.ZArith_dec <> Z_lt_dec def
+R5808:5808 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5794:5801 Coq.ZArith.ZArith_dec <> Z_lt_dec def
+R5808:5808 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+prf 5882:5891 <> prop_imp_i
+binder 5894:5894 <> A:47
+R5902:5908 VST.msl.ageable <> ageable class
+R5910:5910 VST.veric.assert_lemmas <> A:47 var
+binder 5897:5899 <> agA:48
+binder 5924:5924 <> P:49
+binder 5933:5933 <> Q:50
+binder 5935:5935 <> w:51
+R5938:5938 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5956:5960 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5961:5961 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R5965:5969 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R5971:5973 VST.msl.predicates_hered <> ::pred:x_'-->'_x not
+R5962:5963 VST.msl.predicates_hered <> ::pred:'!!'_x not
+R5964:5964 VST.veric.assert_lemmas <> P:49 var
+R5970:5970 VST.veric.assert_lemmas <> Q:50 var
+R5973:5973 VST.veric.assert_lemmas <> w:51 var
+R5940:5943 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5944:5951 VST.msl.predicates_hered <> app_pred def
+R5955:5955 VST.veric.assert_lemmas <> w:51 var
+R5953:5953 VST.veric.assert_lemmas <> Q:50 var
+R5939:5939 VST.veric.assert_lemmas <> P:49 var
+R6029:6047 VST.msl.predicates_hered <> pred_nec_hereditary thm
+R6029:6047 VST.msl.predicates_hered <> pred_nec_hereditary thm
+prf 6069:6079 <> or_pred_ext
+binder 6082:6082 <> A:52
+R6093:6099 VST.msl.ageable <> ageable class
+R6101:6101 VST.veric.assert_lemmas <> A:52 var
+binder 6087:6089 <> agA:53
+binder 6112:6112 <> P:54
+binder 6114:6114 <> Q:55
+binder 6116:6117 <> P':56
+binder 6119:6120 <> Q':57
+R6156:6161 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R6130:6130 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R6140:6145 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R6155:6155 VST.msl.predicates_hered <> ::pred:x_'&&'_x not
+R6132:6137 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R6131:6131 VST.veric.assert_lemmas <> P:54 var
+R6138:6139 VST.veric.assert_lemmas <> P':56 var
+R6138:6139 VST.veric.assert_lemmas <> P':56 var
+R6131:6131 VST.veric.assert_lemmas <> P:54 var
+R6147:6152 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R6146:6146 VST.veric.assert_lemmas <> Q:55 var
+R6153:6154 VST.veric.assert_lemmas <> Q':57 var
+R6153:6154 VST.veric.assert_lemmas <> Q':57 var
+R6146:6146 VST.veric.assert_lemmas <> Q:55 var
+R6162:6162 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R6169:6176 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R6185:6185 VST.msl.predicates_hered <> ::pred:x_'<-->'_x not
+R6164:6167 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R6163:6163 VST.veric.assert_lemmas <> P:54 var
+R6168:6168 VST.veric.assert_lemmas <> Q:55 var
+R6179:6182 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R6177:6178 VST.veric.assert_lemmas <> P':56 var
+R6183:6184 VST.veric.assert_lemmas <> Q':57 var
+R6179:6182 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R6177:6178 VST.veric.assert_lemmas <> P':56 var
+R6183:6184 VST.veric.assert_lemmas <> Q':57 var
+R6164:6167 VST.msl.predicates_hered <> ::pred:x_'||'_x not
+R6163:6163 VST.veric.assert_lemmas <> P:54 var
+R6168:6168 VST.veric.assert_lemmas <> Q:55 var
+prf 6361:6382 <> corable_funspec_sub_si
+binder 6384:6384 <> f:58
+binder 6386:6386 <> g:59
+R6389:6395 VST.msl.corable <> corable def
+R6398:6411 VST.veric.seplog <> funspec_sub_si def
+R6415:6415 VST.veric.assert_lemmas <> g:59 var
+R6413:6413 VST.veric.assert_lemmas <> f:58 var
+R6474:6481 VST.msl.Axioms <> prop_ext prfax
+R6474:6481 VST.msl.Axioms <> prop_ext prfax
+R6535:6546 VST.msl.subtypes <> later_unfash thm
+R6535:6546 VST.msl.subtypes <> later_unfash thm
+R6535:6546 VST.msl.subtypes <> later_unfash thm
+R6582:6591 VST.msl.age_sepalg <> level_core thm
+R6582:6591 VST.msl.age_sepalg <> level_core thm
+R6582:6591 VST.msl.age_sepalg <> level_core thm
+R6627:6638 VST.msl.subtypes <> later_unfash thm
+R6627:6638 VST.msl.subtypes <> later_unfash thm
+R6627:6638 VST.msl.subtypes <> later_unfash thm
+R6677:6686 VST.msl.age_sepalg <> level_core thm
+R6677:6686 VST.msl.age_sepalg <> level_core thm
+R6677:6686 VST.msl.age_sepalg <> level_core thm
+prf 7034:7047 <> corable_pureat
+binder 7057:7058 <> pp:60
+binder 7060:7060 <> k:61
+binder 7062:7064 <> loc:62
+R7067:7073 VST.msl.corable <> corable def
+R7076:7081 VST.veric.res_predicates <> pureat def
+R7088:7090 VST.veric.assert_lemmas <> loc:62 var
+R7086:7086 VST.veric.assert_lemmas <> k:61 var
+R7083:7084 VST.veric.assert_lemmas <> pp:60 var
+R7127:7132 VST.veric.res_predicates <> pureat def
+R7155:7170 VST.veric.compcert_rmaps RML core_resource_at thm
+R7155:7170 VST.veric.compcert_rmaps RML core_resource_at thm
+R7155:7170 VST.veric.compcert_rmaps RML core_resource_at thm
+R7186:7188 VST.veric.rmaps RMAPS :::x_'@'_x not
+R7186:7188 VST.veric.rmaps RMAPS :::x_'@'_x not
+R7205:7211 VST.veric.compcert_rmaps RML core_NO thm
+R7220:7227 VST.msl.Axioms <> prop_ext prfax
+R7205:7211 VST.veric.compcert_rmaps RML core_NO thm
+R7205:7211 VST.veric.compcert_rmaps RML core_NO thm
+R7220:7227 VST.msl.Axioms <> prop_ext prfax
+R7265:7272 VST.veric.compcert_rmaps RML core_YES thm
+R7281:7288 VST.msl.Axioms <> prop_ext prfax
+R7265:7272 VST.veric.compcert_rmaps RML core_YES thm
+R7265:7272 VST.veric.compcert_rmaps RML core_YES thm
+R7281:7288 VST.msl.Axioms <> prop_ext prfax
+R7326:7334 VST.veric.compcert_rmaps RML core_PURE thm
+R7345:7354 VST.msl.age_sepalg <> level_core thm
+R7326:7334 VST.veric.compcert_rmaps RML core_PURE thm
+R7326:7334 VST.veric.compcert_rmaps RML core_PURE thm
+R7345:7354 VST.msl.age_sepalg <> level_core thm
+R7345:7354 VST.msl.age_sepalg <> level_core thm
+prf 7375:7389 <> corable_func_at
+binder 7399:7399 <> f:63
+binder 7401:7401 <> l:64
+R7404:7410 VST.msl.corable <> corable def
+R7413:7419 VST.veric.seplog <> func_at def
+R7423:7423 VST.veric.assert_lemmas <> l:64 var
+R7421:7421 VST.veric.assert_lemmas <> f:63 var
+R7453:7459 VST.veric.seplog <> func_at def
+R7598:7611 VST.veric.assert_lemmas <> corable_pureat thm
+R7598:7611 VST.veric.assert_lemmas <> corable_pureat thm
+prf 7626:7641 <> corable_func_at'
+binder 7651:7651 <> f:65
+binder 7653:7653 <> l:66
+R7656:7662 VST.msl.corable <> corable def
+R7665:7672 VST.veric.seplog <> func_at' def
+R7676:7676 VST.veric.assert_lemmas <> l:66 var
+R7674:7674 VST.veric.assert_lemmas <> f:65 var
+R7706:7713 VST.veric.seplog <> func_at' def
+R7758:7768 VST.msl.corable <> corable_exp thm
+R7758:7768 VST.msl.corable <> corable_exp thm
+R7786:7799 VST.veric.assert_lemmas <> corable_pureat thm
+R7786:7799 VST.veric.assert_lemmas <> corable_pureat thm
+prf 7814:7826 <> corable_sigcc
+binder 7836:7836 <> f:67
+binder 7838:7838 <> c:68
+binder 7840:7840 <> b:69
+R7843:7849 VST.msl.corable <> corable def
+R7852:7859 VST.veric.seplog <> sigcc_at def
+R7866:7869 Coq.Init.Datatypes <> pair constr
+R7873:7874 Coq.Numbers.BinNums <> Z0 constr
+R7871:7871 VST.veric.assert_lemmas <> b:69 var
+R7863:7863 VST.veric.assert_lemmas <> c:68 var
+R7861:7861 VST.veric.assert_lemmas <> f:67 var
+R7906:7913 VST.veric.seplog <> sigcc_at def
+R7924:7934 VST.msl.corable <> corable_exp thm
+R7924:7934 VST.msl.corable <> corable_exp thm
+R7952:7965 VST.veric.assert_lemmas <> corable_pureat thm
+R7952:7965 VST.veric.assert_lemmas <> corable_pureat thm
+prf 7980:7998 <> corable_func_ptr_si
+binder 8009:8009 <> f:70
+binder 8011:8011 <> v:71
+R8014:8020 VST.msl.corable <> corable def
+R8023:8033 VST.veric.seplog <> func_ptr_si def
+R8037:8037 VST.veric.assert_lemmas <> v:71 var
+R8035:8035 VST.veric.assert_lemmas <> f:70 var
+R8067:8077 VST.veric.seplog <> func_ptr_si def
+R8088:8098 VST.msl.corable <> corable_exp thm
+R8088:8098 VST.msl.corable <> corable_exp thm
+R8116:8127 VST.msl.corable <> corable_andp thm
+R8116:8127 VST.msl.corable <> corable_andp thm
+R8144:8154 VST.msl.corable <> corable_exp thm
+R8144:8154 VST.msl.corable <> corable_exp thm
+R8172:8183 VST.msl.corable <> corable_andp thm
+R8172:8183 VST.msl.corable <> corable_andp thm
+R8192:8213 VST.veric.assert_lemmas <> corable_funspec_sub_si thm
+R8192:8213 VST.veric.assert_lemmas <> corable_funspec_sub_si thm
+R8224:8238 VST.veric.assert_lemmas <> corable_func_at thm
+R8224:8238 VST.veric.assert_lemmas <> corable_func_at thm
+prf 8541:8556 <> corable_func_ptr
+binder 8567:8567 <> f:72
+binder 8569:8569 <> v:73
+R8572:8578 VST.msl.corable <> corable def
+R8581:8588 VST.veric.seplog <> func_ptr def
+R8592:8592 VST.veric.assert_lemmas <> v:73 var
+R8590:8590 VST.veric.assert_lemmas <> f:72 var
+R8622:8629 VST.veric.seplog <> func_ptr def
+R8640:8650 VST.msl.corable <> corable_exp thm
+R8640:8650 VST.msl.corable <> corable_exp thm
+R8668:8679 VST.msl.corable <> corable_andp thm
+R8668:8679 VST.msl.corable <> corable_andp thm
+R8696:8706 VST.msl.corable <> corable_exp thm
+R8696:8706 VST.msl.corable <> corable_exp thm
+R8724:8735 VST.msl.corable <> corable_andp thm
+R8724:8735 VST.msl.corable <> corable_andp thm
+R8744:8755 VST.msl.corable <> corable_prop thm
+R8744:8755 VST.msl.corable <> corable_prop thm
+R8766:8780 VST.veric.assert_lemmas <> corable_func_at thm
+R8766:8780 VST.veric.assert_lemmas <> corable_func_at thm
+prf 8881:8903 <> corable_funspecs_assert
+binder 8915:8916 <> FS:74
+binder 8918:8920 <> rho:75
+R8923:8929 VST.msl.corable <> corable def
+R8932:8946 VST.veric.seplog <> funspecs_assert def
+R8951:8953 VST.veric.assert_lemmas <> rho:75 var
+R8948:8949 VST.veric.assert_lemmas <> FS:74 var
+R8981:8995 VST.veric.seplog <> funspecs_assert def
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9047:9057 VST.msl.corable <> corable_exp thm
+R9076:9087 VST.msl.corable <> corable_allp thm
+R9106:9117 VST.msl.corable <> corable_prop thm
+R9129:9139 VST.msl.corable <> corable_imp thm
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9047:9057 VST.msl.corable <> corable_exp thm
+R9076:9087 VST.msl.corable <> corable_allp thm
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9047:9057 VST.msl.corable <> corable_exp thm
+R9076:9087 VST.msl.corable <> corable_allp thm
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9047:9057 VST.msl.corable <> corable_exp thm
+R9076:9087 VST.msl.corable <> corable_allp thm
+R9106:9117 VST.msl.corable <> corable_prop thm
+R9129:9139 VST.msl.corable <> corable_imp thm
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9047:9057 VST.msl.corable <> corable_exp thm
+R9076:9087 VST.msl.corable <> corable_allp thm
+R9106:9117 VST.msl.corable <> corable_prop thm
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9047:9057 VST.msl.corable <> corable_exp thm
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9047:9057 VST.msl.corable <> corable_exp thm
+R9076:9087 VST.msl.corable <> corable_allp thm
+R9106:9117 VST.msl.corable <> corable_prop thm
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9047:9057 VST.msl.corable <> corable_exp thm
+R9076:9087 VST.msl.corable <> corable_allp thm
+R9106:9117 VST.msl.corable <> corable_prop thm
+R9129:9139 VST.msl.corable <> corable_imp thm
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9047:9057 VST.msl.corable <> corable_exp thm
+R9076:9087 VST.msl.corable <> corable_allp thm
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9047:9057 VST.msl.corable <> corable_exp thm
+R9076:9087 VST.msl.corable <> corable_allp thm
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9047:9057 VST.msl.corable <> corable_exp thm
+R9076:9087 VST.msl.corable <> corable_allp thm
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9047:9057 VST.msl.corable <> corable_exp thm
+R9076:9087 VST.msl.corable <> corable_allp thm
+R9106:9117 VST.msl.corable <> corable_prop thm
+R9129:9139 VST.msl.corable <> corable_imp thm
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9047:9057 VST.msl.corable <> corable_exp thm
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9047:9057 VST.msl.corable <> corable_exp thm
+R9076:9087 VST.msl.corable <> corable_allp thm
+R9106:9117 VST.msl.corable <> corable_prop thm
+R9129:9139 VST.msl.corable <> corable_imp thm
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9047:9057 VST.msl.corable <> corable_exp thm
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9047:9057 VST.msl.corable <> corable_exp thm
+R9076:9087 VST.msl.corable <> corable_allp thm
+R9106:9117 VST.msl.corable <> corable_prop thm
+R9024:9035 VST.msl.corable <> corable_andp thm
+R9047:9057 VST.msl.corable <> corable_exp thm
+R9076:9087 VST.msl.corable <> corable_allp thm
+R9106:9117 VST.msl.corable <> corable_prop thm
+R9183:9197 VST.veric.assert_lemmas <> corable_func_at thm
+R9183:9197 VST.veric.assert_lemmas <> corable_func_at thm
+R9222:9235 VST.veric.assert_lemmas <> corable_pureat thm
+R9222:9235 VST.veric.assert_lemmas <> corable_pureat thm
+prf 9325:9335 <> corable_jam
+binder 9346:9346 <> B:76
+R9355:9358 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9354:9354 VST.veric.assert_lemmas <> B:76 var
+binder 9350:9351 <> S':77
+binder 9376:9376 <> l:78
+R9379:9379 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R9384:9386 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R9393:9393 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R9380:9381 VST.veric.assert_lemmas <> S':77 var
+R9383:9383 VST.veric.assert_lemmas <> l:78 var
+R9387:9388 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9389:9390 VST.veric.assert_lemmas <> S':77 var
+R9392:9392 VST.veric.assert_lemmas <> l:78 var
+binder 9366:9366 <> S:79
+R9403:9406 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9407:9410 VST.msl.predicates_hered <> pred def
+R9412:9415 VST.veric.compcert_rmaps RML.R rmap defax
+R9402:9402 VST.veric.assert_lemmas <> B:76 var
+binder 9397:9397 <> P:80
+binder 9399:9399 <> Q:81
+R9423:9423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9451:9459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9460:9460 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9488:9496 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 9504:9504 <> b:82
+R9507:9513 VST.msl.corable <> corable def
+R9516:9518 VST.veric.res_predicates <> jam def
+R9526:9526 VST.veric.assert_lemmas <> b:82 var
+R9524:9524 VST.veric.assert_lemmas <> Q:81 var
+R9522:9522 VST.veric.assert_lemmas <> P:80 var
+R9520:9520 VST.veric.assert_lemmas <> S:79 var
+binder 9468:9470 <> loc:83
+R9473:9479 VST.msl.corable <> corable def
+R9482:9482 VST.veric.assert_lemmas <> Q:81 var
+R9484:9486 VST.veric.assert_lemmas <> loc:83 var
+binder 9431:9433 <> loc:84
+R9436:9442 VST.msl.corable <> corable def
+R9445:9445 VST.veric.assert_lemmas <> P:80 var
+R9447:9449 VST.veric.assert_lemmas <> loc:84 var
+R9559:9561 VST.veric.res_predicates <> jam def
+prf 10075:10086 <> prop_derives
+binder 10089:10089 <> A:85
+R10095:10101 VST.msl.ageable <> ageable class
+R10103:10103 VST.veric.assert_lemmas <> A:85 var
+binder 10092:10092 <> H:86
+binder 10116:10116 <> P:87
+binder 10118:10118 <> Q:88
+R10128:10128 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10135:10139 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10146:10150 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R10140:10143 VST.msl.predicates_hered <> prop def
+R10145:10145 VST.veric.assert_lemmas <> P:87 var
+R10151:10154 VST.msl.predicates_hered <> prop def
+R10156:10156 VST.veric.assert_lemmas <> Q:88 var
+R10130:10133 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10134:10134 VST.veric.assert_lemmas <> Q:88 var
+R10129:10129 VST.veric.assert_lemmas <> P:87 var

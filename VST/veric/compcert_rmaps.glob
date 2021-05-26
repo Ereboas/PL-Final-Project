@@ -1,0 +1,1511 @@
+DIGEST 4659c307595d98dd60097c945db4a714
+FVST.veric.compcert_rmaps
+R15:34 VST.msl.msl_standard <> <> lib
+R52:65 VST.veric.base <> <> lib
+R83:107 compcert.cfrontend.Ctypes <> <> lib
+R125:140 VST.veric.shares <> <> lib
+R158:172 VST.veric.rmaps <> <> lib
+R190:211 VST.veric.rmaps_lemmas <> <> lib
+R229:244 VST.veric.Memory <> <> lib
+inst 292:301 <> EqDec_type
+R304:308 VST.msl.eq_dec <> EqDec class
+R310:313 compcert.cfrontend.Ctypes <> type ind
+R318:324 compcert.cfrontend.Ctypes <> type_eq thm
+def 339:344 <> funsig
+R367:369 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R350:353 Coq.Init.Datatypes <> list ind
+R361:361 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R356:360 compcert.common.AST <> ident def
+R362:365 compcert.cfrontend.Ctypes <> type ind
+R370:373 compcert.cfrontend.Ctypes <> type ind
+def 1191:1197 <> typesig
+R1212:1214 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1203:1206 Coq.Init.Datatypes <> list ind
+R1208:1211 compcert.cfrontend.Ctypes <> type ind
+R1215:1218 compcert.cfrontend.Ctypes <> type ind
+def 1273:1289 <> typesig_of_funsig
+R1294:1299 VST.veric.compcert_rmaps <> funsig def
+binder 1292:1292 <> f:1
+R1302:1308 VST.veric.compcert_rmaps <> typesig def
+R1313:1313 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1329:1330 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1336:1336 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1314:1316 Coq.Lists.List <> map def
+R1323:1325 Coq.Init.Datatypes <> fst def
+R1327:1327 VST.veric.compcert_rmaps <> f:1 var
+R1318:1320 Coq.Init.Datatypes <> snd def
+R1331:1333 Coq.Init.Datatypes <> snd def
+R1335:1335 VST.veric.compcert_rmaps <> f:1 var
+ind 1350:1353 <> kind
+constr 1365:1367 <> VAL
+constr 1423:1424 <> LK
+constr 1486:1488 <> FUN
+R1377:1380 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1381:1384 VST.veric.compcert_rmaps <> kind:2 ind
+R1371:1376 compcert.common.Memdata <> memval ind
+R1441:1441 Coq.Numbers.BinNums <> Z ind
+binder 1435:1435 <> n:4
+binder 1437:1437 <> i:5
+R1444:1447 VST.veric.compcert_rmaps <> kind:2 ind
+R1508:1511 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1530:1533 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1534:1537 VST.veric.compcert_rmaps <> kind:2 ind
+R1512:1529 compcert.common.AST <> calling_convention rec
+R1501:1507 VST.veric.compcert_rmaps <> typesig def
+def 1830:1834 <> isVAL
+R1840:1843 VST.veric.compcert_rmaps <> kind ind
+binder 1837:1837 <> k:6
+R1855:1855 VST.veric.compcert_rmaps <> k:6 var
+R1864:1866 VST.veric.compcert_rmaps <> VAL constr
+R1873:1876 Coq.Init.Logic <> True ind
+R1885:1889 Coq.Init.Logic <> False ind
+def 1907:1911 <> isFUN
+R1917:1920 VST.veric.compcert_rmaps <> kind ind
+binder 1914:1914 <> k:8
+R1932:1932 VST.veric.compcert_rmaps <> k:8 var
+R1941:1943 VST.veric.compcert_rmaps <> FUN constr
+R1952:1955 Coq.Init.Logic <> True ind
+R1964:1968 Coq.Init.Logic <> False ind
+prf 1982:1988 <> isVAL_i
+binder 1998:1998 <> v:10
+R2001:2005 VST.veric.compcert_rmaps <> isVAL def
+R2008:2010 VST.veric.compcert_rmaps <> VAL constr
+R2012:2012 VST.veric.compcert_rmaps <> v:10 var
+prf 2085:2093 <> isVAL_dec
+binder 2103:2103 <> k:11
+R2106:2106 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2114:2116 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2125:2125 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2107:2111 VST.veric.compcert_rmaps <> isVAL def
+R2113:2113 VST.veric.compcert_rmaps <> k:11 var
+R2117:2117 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2118:2122 VST.veric.compcert_rmaps <> isVAL def
+R2124:2124 VST.veric.compcert_rmaps <> k:11 var
+R2189:2195 VST.veric.rmaps ADR_VAL <> mod
+mod 2174:2184 <> CompCert_AV
+def 2210:2216 CompCert_AV address
+R2221:2227 VST.sepcomp.Address <> address def
+def 2241:2252 CompCert_AV some_address
+R2256:2262 VST.veric.compcert_rmaps CompCert_AV address def
+R2267:2267 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2270:2270 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2272:2272 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2268:2269 Coq.Numbers.BinNums <> xH constr
+def 2286:2289 CompCert_AV kind
+R2294:2297 VST.veric.compcert_rmaps <> kind ind
+R2305:2315 VST.veric.compcert_rmaps CompCert_AV <> mod
+prf 2325:2330 <> getVAL
+binder 2340:2340 <> k:12
+R2367:2371 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R2380:2380 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R2343:2343 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R2345:2347 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R2354:2356 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R2366:2366 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R2348:2353 compcert.common.Memdata <> memval ind
+binder 2344:2344 <> v:13
+R2358:2360 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2357:2357 VST.veric.compcert_rmaps <> k:12 var
+R2361:2363 VST.veric.compcert_rmaps <> VAL constr
+R2365:2365 VST.veric.compcert_rmaps <> v:13 var
+R2372:2372 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2373:2377 VST.veric.compcert_rmaps <> isVAL def
+R2379:2379 VST.veric.compcert_rmaps <> k:12 var
+prf 2470:2476 <> VAL_inj
+binder 2486:2486 <> v:14
+binder 2488:2489 <> v':15
+R2506:2509 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2511:2513 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2510:2510 VST.veric.compcert_rmaps <> v:14 var
+R2514:2515 VST.veric.compcert_rmaps <> v':15 var
+R2497:2499 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2492:2494 VST.veric.compcert_rmaps <> VAL constr
+R2496:2496 VST.veric.compcert_rmaps <> v:14 var
+R2500:2502 VST.veric.compcert_rmaps <> VAL constr
+R2504:2505 VST.veric.compcert_rmaps <> v':15 var
+inst 2561:2584 <> EqDec_calling_convention
+R2587:2591 VST.msl.eq_dec <> EqDec class
+R2593:2610 compcert.common.AST <> calling_convention rec
+inst 2802:2811 <> EqDec_kind
+R2814:2818 VST.msl.eq_dec <> EqDec class
+R2820:2823 VST.veric.compcert_rmaps <> kind ind
+R2867:2872 VST.msl.eq_dec <> eq_dec def
+R2885:2887 compcert.lib.Coqlib <> zeq def
+R2900:2911 compcert.common.AST <> signature_eq def
+R2867:2872 VST.msl.eq_dec <> eq_dec def
+R2867:2872 VST.msl.eq_dec <> eq_dec def
+R2867:2872 VST.msl.eq_dec <> eq_dec def
+R2867:2872 VST.msl.eq_dec <> eq_dec def
+R2867:2872 VST.msl.eq_dec <> eq_dec def
+R2885:2887 compcert.lib.Coqlib <> zeq def
+R2885:2887 compcert.lib.Coqlib <> zeq def
+R2932:2936 VST.veric.rmaps Rmaps <> modtype
+R2939:2949 VST.veric.compcert_rmaps CompCert_AV <> modtype
+mod 2927:2927 <> R
+R2967:2978 VST.veric.rmaps_lemmas Rmaps_Lemmas <> modtype
+R2980:2980 VST.veric.compcert_rmaps R <> modtype
+mod 2960:2962 <> RML
+def 3019:3027 <> mk_rshare
+R3040:3046 VST.msl.shares Share t defax
+binder 3037:3037 <> p:16
+R3070:3073 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3074:3079 VST.veric.shares <> rshare def
+R3049:3067 VST.veric.shares <> pure_readable_share def
+R3069:3069 VST.veric.compcert_rmaps <> p:16 var
+R3084:3088 Coq.Init.Specif <> exist constr
+R3090:3108 VST.veric.shares <> pure_readable_share def
+def 3122:3130 <> rshare_sh
+R3136:3141 VST.veric.shares <> rshare def
+binder 3133:3133 <> p:17
+R3146:3152 VST.msl.shares Share t defax
+R3157:3165 Coq.Init.Specif <> proj1_sig def
+R3167:3167 VST.veric.compcert_rmaps <> p:17 var
+prf 3263:3274 <> mk_rshare_sh
+R3287:3292 VST.veric.shares <> rshare def
+binder 3285:3285 <> p:18
+R3299:3317 VST.veric.shares <> pure_readable_share def
+R3320:3328 VST.veric.compcert_rmaps <> rshare_sh def
+R3330:3330 VST.veric.compcert_rmaps <> p:18 var
+binder 3296:3296 <> H:19
+R3362:3364 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3337:3345 VST.veric.compcert_rmaps <> mk_rshare def
+R3361:3361 VST.veric.compcert_rmaps <> H:19 var
+R3348:3356 VST.veric.compcert_rmaps <> rshare_sh def
+R3358:3358 VST.veric.compcert_rmaps <> p:18 var
+R3365:3365 VST.veric.compcert_rmaps <> p:18 var
+R3394:3402 VST.veric.compcert_rmaps <> mk_rshare def
+def 3471:3485 <> fixup_splitting
+R3499:3502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3503:3509 VST.msl.shares Share t defax
+R3492:3498 VST.sepcomp.Address <> address def
+binder 3490:3490 <> a:20
+R3523:3526 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3527:3532 Coq.Init.Datatypes <> option ind
+R3541:3543 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3535:3540 VST.veric.shares <> rshare def
+R3544:3547 VST.veric.compcert_rmaps <> kind ind
+R3516:3522 VST.sepcomp.Address <> address def
+binder 3513:3513 <> z:21
+R3560:3563 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3564:3569 Coq.Init.Datatypes <> option ind
+R3578:3580 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3572:3577 VST.veric.shares <> rshare def
+R3581:3584 VST.veric.compcert_rmaps <> kind ind
+R3553:3559 VST.sepcomp.Address <> address def
+binder 3596:3596 <> l:22
+R3612:3612 VST.veric.compcert_rmaps <> z:21 var
+R3614:3614 VST.veric.compcert_rmaps <> l:22 var
+R3627:3630 Coq.Init.Datatypes <> Some constr
+R3632:3632 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3635:3636 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3638:3638 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3656:3667 VST.veric.shares <> dec_readable thm
+R3670:3670 VST.veric.compcert_rmaps <> a:20 var
+R3672:3672 VST.veric.compcert_rmaps <> l:22 var
+R3689:3692 Coq.Init.Specif <> left constr
+R3699:3702 Coq.Init.Datatypes <> Some constr
+R3704:3704 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3720:3722 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3724:3724 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3705:3717 VST.veric.shares <> readable_part def
+R3735:3739 Coq.Init.Specif <> right constr
+R3746:3749 Coq.Init.Datatypes <> None constr
+R3768:3771 Coq.Init.Datatypes <> None constr
+R3776:3779 Coq.Init.Datatypes <> None constr
+def 3802:3809 <> share_of
+R3815:3820 Coq.Init.Datatypes <> option ind
+R3829:3831 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3823:3828 VST.veric.shares <> rshare def
+R3832:3835 VST.veric.compcert_rmaps <> kind ind
+binder 3812:3812 <> x:23
+R3841:3847 VST.msl.shares Share t defax
+R3860:3860 VST.veric.compcert_rmaps <> x:23 var
+R3867:3870 Coq.Init.Datatypes <> Some constr
+R3872:3872 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3874:3874 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3876:3876 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3881:3889 Coq.Init.Specif <> proj1_sig def
+R3895:3898 Coq.Init.Datatypes <> None constr
+R3903:3911 VST.msl.shares Share bot defax
+def 3930:3936 <> Join_pk
+R3942:3951 VST.msl.psepalg <> Join_lower inst
+R3954:3962 VST.msl.sepalg_generators <> Join_prod inst
+R3979:3988 VST.msl.sepalg_generators <> Join_equiv inst
+R3973:3976 VST.veric.compcert_rmaps <> kind ind
+R3964:3969 VST.veric.shares <> rshare def
+prf 4003:4015 <> share_of_Some
+R4034:4036 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4028:4033 VST.veric.shares <> rshare def
+R4037:4043 VST.veric.compcert_rmaps <> kind defax
+binder 4025:4025 <> p:25
+R4046:4059 VST.veric.shares <> readable_share def
+R4062:4069 VST.veric.compcert_rmaps <> share_of def
+R4072:4075 Coq.Init.Datatypes <> Some constr
+R4077:4077 VST.veric.compcert_rmaps <> p:25 var
+prf 4168:4182 <> join_sub_same_k
+R4201:4206 VST.veric.shares <> rshare def
+binder 4194:4194 <> a:26
+binder 4196:4197 <> a':27
+R4216:4222 VST.veric.compcert_rmaps <> kind defax
+binder 4210:4210 <> k:28
+binder 4212:4213 <> k':29
+R4279:4282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4284:4284 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4283:4283 VST.veric.compcert_rmaps <> k:28 var
+R4285:4286 VST.veric.compcert_rmaps <> k':29 var
+R4233:4240 VST.msl.sepalg <> join_sub def
+R4266:4269 Coq.Init.Datatypes <> Some constr
+R4271:4271 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4274:4274 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4277:4277 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4272:4273 VST.veric.compcert_rmaps <> a':27 var
+R4275:4276 VST.veric.compcert_rmaps <> k':29 var
+R4253:4256 Coq.Init.Datatypes <> Some constr
+R4258:4258 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4260:4260 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4262:4262 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4259:4259 VST.veric.compcert_rmaps <> a:26 var
+R4261:4261 VST.veric.compcert_rmaps <> k:28 var
+R4244:4250 VST.veric.compcert_rmaps <> Join_pk def
+prf 4384:4404 <> pure_readable_glb_Rsh
+binder 4415:4416 <> sh:30
+R4441:4444 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4467:4469 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4445:4453 VST.msl.shares Share glb defax
+R4465:4466 VST.veric.compcert_rmaps <> sh:30 var
+R4455:4463 VST.msl.shares Share Rsh def
+R4470:4471 VST.veric.compcert_rmaps <> sh:30 var
+R4419:4437 VST.veric.shares <> pure_readable_share def
+R4439:4440 VST.veric.compcert_rmaps <> sh:30 var
+R4513:4522 VST.veric.shares <> comp_parts thm
+R4524:4535 VST.veric.shares <> comp_Lsh_Rsh thm
+R4513:4522 VST.veric.shares <> comp_parts thm
+R4524:4535 VST.veric.shares <> comp_Lsh_Rsh thm
+R4513:4522 VST.veric.shares <> comp_parts thm
+R4524:4535 VST.veric.shares <> comp_Lsh_Rsh thm
+R4567:4583 VST.msl.shares Share lub_commute prfax
+R4586:4598 VST.msl.shares Share lub_bot prfax
+R4567:4583 VST.msl.shares Share lub_commute prfax
+R4567:4583 VST.msl.shares Share lub_commute prfax
+R4586:4598 VST.msl.shares Share lub_bot prfax
+R4586:4598 VST.msl.shares Share lub_bot prfax
+prf 4619:4630 <> join_glb_Rsh
+R4652:4658 VST.msl.shares Share t defax
+binder 4644:4644 <> a:31
+binder 4646:4646 <> b:32
+binder 4648:4648 <> c:33
+R4673:4678 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4679:4682 VST.msl.sepalg <> join def
+R4733:4741 VST.msl.shares Share glb defax
+R4753:4753 VST.veric.compcert_rmaps <> c:33 var
+R4743:4751 VST.msl.shares Share Rsh def
+R4709:4717 VST.msl.shares Share glb defax
+R4729:4729 VST.veric.compcert_rmaps <> b:32 var
+R4719:4727 VST.msl.shares Share Rsh def
+R4685:4693 VST.msl.shares Share glb defax
+R4705:4705 VST.veric.compcert_rmaps <> a:31 var
+R4695:4703 VST.msl.shares Share Rsh def
+R4663:4666 VST.msl.sepalg <> join def
+R4672:4672 VST.veric.compcert_rmaps <> c:33 var
+R4670:4670 VST.veric.compcert_rmaps <> b:32 var
+R4668:4668 VST.veric.compcert_rmaps <> a:31 var
+R4779:4793 VST.veric.shares <> join_comp_parts thm
+R4795:4806 VST.veric.shares <> comp_Lsh_Rsh thm
+R4779:4793 VST.veric.shares <> join_comp_parts thm
+R4795:4806 VST.veric.shares <> comp_Lsh_Rsh thm
+prf 4828:4850 <> pure_readable_share_glb
+binder 4862:4862 <> a:34
+R4886:4889 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4911:4913 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4890:4898 VST.msl.shares Share glb defax
+R4910:4910 VST.veric.compcert_rmaps <> a:34 var
+R4900:4908 VST.msl.shares Share Rsh def
+R4914:4914 VST.veric.compcert_rmaps <> a:34 var
+R4865:4883 VST.veric.shares <> pure_readable_share def
+R4885:4885 VST.veric.compcert_rmaps <> a:34 var
+R4955:4964 VST.veric.shares <> comp_parts thm
+R4966:4977 VST.veric.shares <> comp_Lsh_Rsh thm
+R4955:4964 VST.veric.shares <> comp_parts thm
+R4966:4977 VST.veric.shares <> comp_Lsh_Rsh thm
+R4955:4964 VST.veric.shares <> comp_parts thm
+R4966:4977 VST.veric.shares <> comp_Lsh_Rsh thm
+R5008:5024 VST.msl.shares Share lub_commute prfax
+R5027:5039 VST.msl.shares Share lub_bot prfax
+R5008:5024 VST.msl.shares Share lub_commute prfax
+R5008:5024 VST.msl.shares Share lub_commute prfax
+R5027:5039 VST.msl.shares Share lub_bot prfax
+R5027:5039 VST.msl.shares Share lub_bot prfax
+prf 5060:5081 <> glb_Rsh_bot_unreadable
+binder 5093:5093 <> a:35
+R5129:5132 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5133:5133 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5134:5147 VST.veric.shares <> readable_share def
+R5149:5149 VST.veric.compcert_rmaps <> a:35 var
+R5117:5119 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5096:5104 VST.msl.shares Share glb defax
+R5116:5116 VST.veric.compcert_rmaps <> a:35 var
+R5106:5114 VST.msl.shares Share Rsh def
+R5120:5128 VST.msl.shares Share bot defax
+R5175:5188 VST.veric.shares <> readable_share def
+R5226:5237 VST.msl.shares <> bot_identity thm
+R5226:5237 VST.msl.shares <> bot_identity thm
+prf 5252:5261 <> fixup_join
+binder 5272:5272 <> a:36
+R5289:5292 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5293:5299 VST.msl.shares Share t defax
+R5282:5288 VST.sepcomp.Address <> address def
+binder 5275:5276 <> ac:37
+binder 5278:5279 <> ad:38
+binder 5303:5303 <> z:39
+R5308:5308 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5350:5356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5357:5357 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5403:5410 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5508:5508 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 5418:5418 <> x:40
+R5426:5429 VST.msl.sepalg <> join def
+R5504:5504 VST.veric.compcert_rmaps <> a:36 var
+R5506:5506 VST.veric.compcert_rmaps <> x:40 var
+R5475:5489 VST.veric.compcert_rmaps <> fixup_splitting def
+R5496:5496 VST.veric.compcert_rmaps <> x:40 var
+R5494:5494 VST.veric.compcert_rmaps <> z:39 var
+R5491:5492 VST.veric.compcert_rmaps <> ad:38 var
+R5446:5460 VST.veric.compcert_rmaps <> fixup_splitting def
+R5467:5467 VST.veric.compcert_rmaps <> x:40 var
+R5465:5465 VST.veric.compcert_rmaps <> z:39 var
+R5462:5463 VST.veric.compcert_rmaps <> ac:37 var
+R5433:5439 VST.veric.compcert_rmaps <> Join_pk def
+binder 5365:5365 <> x:41
+R5368:5371 VST.msl.sepalg <> join def
+R5388:5395 VST.veric.compcert_rmaps <> share_of def
+R5398:5398 VST.veric.compcert_rmaps <> a:36 var
+R5400:5400 VST.veric.compcert_rmaps <> x:41 var
+R5381:5382 VST.veric.compcert_rmaps <> ad:38 var
+R5384:5384 VST.veric.compcert_rmaps <> x:41 var
+R5374:5375 VST.veric.compcert_rmaps <> ac:37 var
+R5377:5377 VST.veric.compcert_rmaps <> x:41 var
+binder 5316:5316 <> x:42
+R5320:5327 VST.msl.sepalg <> join_sub def
+R5346:5346 VST.veric.compcert_rmaps <> z:39 var
+R5348:5348 VST.veric.compcert_rmaps <> x:42 var
+R5340:5340 VST.veric.compcert_rmaps <> a:36 var
+R5342:5342 VST.veric.compcert_rmaps <> x:42 var
+R5331:5337 VST.veric.compcert_rmaps <> Join_pk def
+R5536:5536 Coq.Init.Logic <> I constr
+R5536:5536 Coq.Init.Logic <> I constr
+R5536:5536 Coq.Init.Logic <> I constr
+R5558:5572 VST.veric.compcert_rmaps <> fixup_splitting def
+R5633:5635 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5627:5630 Coq.Init.Datatypes <> Some constr
+R5636:5639 Coq.Init.Datatypes <> None constr
+R5633:5635 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5627:5630 Coq.Init.Datatypes <> Some constr
+R5636:5639 Coq.Init.Datatypes <> None constr
+R5669:5671 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5665:5668 Coq.Init.Datatypes <> None constr
+R5672:5675 Coq.Init.Datatypes <> Some constr
+R5669:5671 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5665:5668 Coq.Init.Datatypes <> None constr
+R5672:5675 Coq.Init.Datatypes <> Some constr
+R5703:5706 VST.msl.sepalg <> join def
+R5719:5722 Coq.Init.Datatypes <> None constr
+R5709:5712 Coq.Init.Datatypes <> Some constr
+R5703:5706 VST.msl.sepalg <> join def
+R5719:5722 Coq.Init.Datatypes <> None constr
+R5709:5712 Coq.Init.Datatypes <> Some constr
+R5748:5751 VST.msl.sepalg <> join def
+R5764:5767 Coq.Init.Datatypes <> None constr
+R5756:5759 Coq.Init.Datatypes <> Some constr
+R5748:5751 VST.msl.sepalg <> join def
+R5764:5767 Coq.Init.Datatypes <> None constr
+R5756:5759 Coq.Init.Datatypes <> Some constr
+R5793:5796 VST.msl.sepalg <> join def
+R5800:5803 Coq.Init.Datatypes <> None constr
+R5793:5796 VST.msl.sepalg <> join def
+R5800:5803 Coq.Init.Datatypes <> None constr
+R5855:5858 VST.msl.sepalg <> join def
+R5860:5863 Coq.Init.Datatypes <> None constr
+R5855:5858 VST.msl.sepalg <> join def
+R5860:5863 Coq.Init.Datatypes <> None constr
+R5927:5929 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5917:5920 Coq.Init.Datatypes <> Some constr
+R5922:5922 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5924:5924 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5926:5926 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5930:5933 Coq.Init.Datatypes <> Some constr
+R5934:5934 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5936:5936 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5938:5938 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5927:5929 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5917:5920 Coq.Init.Datatypes <> Some constr
+R5922:5922 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5924:5924 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5926:5926 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5930:5933 Coq.Init.Datatypes <> Some constr
+R5934:5934 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5936:5936 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5938:5938 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5989:5989 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5990:6003 VST.veric.shares <> readable_share def
+R5989:5989 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5990:6003 VST.veric.shares <> readable_share def
+R6013:6016 VST.msl.sepalg <> join def
+R6019:6027 VST.msl.shares Share glb defax
+R6029:6037 VST.msl.shares Share Rsh def
+R6013:6016 VST.msl.sepalg <> join def
+R6019:6027 VST.msl.shares Share glb defax
+R6029:6037 VST.msl.shares Share Rsh def
+R6197:6197 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6198:6211 VST.veric.shares <> readable_share def
+R6197:6197 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6198:6211 VST.veric.shares <> readable_share def
+R6221:6224 VST.msl.sepalg <> join def
+R6229:6237 VST.msl.shares Share glb defax
+R6239:6247 VST.msl.shares Share Rsh def
+R6221:6224 VST.msl.sepalg <> join def
+R6229:6237 VST.msl.shares Share glb defax
+R6239:6247 VST.msl.shares Share Rsh def
+R6405:6412 VST.msl.sepalg <> identity def
+R6405:6412 VST.msl.sepalg <> identity def
+R6422:6435 VST.veric.shares <> readable_share def
+R6422:6435 VST.veric.shares <> readable_share def
+R6497:6515 VST.veric.shares <> pure_readable_share def
+R6497:6515 VST.veric.shares <> pure_readable_share def
+R6545:6547 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6523:6531 VST.msl.shares Share glb defax
+R6533:6541 VST.msl.shares Share Rsh def
+R6545:6547 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6523:6531 VST.msl.shares Share glb defax
+R6533:6541 VST.msl.shares Share Rsh def
+R6599:6602 VST.msl.sepalg <> join def
+R6610:6618 VST.msl.shares Share bot defax
+R6599:6602 VST.msl.sepalg <> join def
+R6610:6618 VST.msl.shares Share bot defax
+R6927:6940 VST.veric.shares <> readable_share def
+R6942:6950 VST.msl.shares Share bot defax
+R6927:6940 VST.veric.shares <> readable_share def
+R6942:6950 VST.msl.shares Share bot defax
+R6995:7002 VST.msl.sepalg <> join_sub def
+R7004:7007 Coq.Init.Datatypes <> None constr
+R6995:7002 VST.msl.sepalg <> join_sub def
+R7004:7007 Coq.Init.Datatypes <> None constr
+R7033:7040 VST.msl.sepalg <> join_sub def
+R7056:7059 Coq.Init.Datatypes <> Some constr
+R7061:7061 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7063:7063 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7066:7066 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7043:7046 Coq.Init.Datatypes <> Some constr
+R7047:7047 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7049:7049 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7052:7052 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7033:7040 VST.msl.sepalg <> join_sub def
+R7056:7059 Coq.Init.Datatypes <> Some constr
+R7061:7061 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7063:7063 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7066:7066 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7043:7046 Coq.Init.Datatypes <> Some constr
+R7047:7047 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7049:7049 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7052:7052 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7220:7222 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7199:7207 VST.msl.shares Share glb defax
+R7209:7217 VST.msl.shares Share Rsh def
+R7223:7231 VST.msl.shares Share bot defax
+R7220:7222 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7199:7207 VST.msl.shares Share glb defax
+R7209:7217 VST.msl.shares Share Rsh def
+R7223:7231 VST.msl.shares Share bot defax
+R7311:7329 VST.veric.shares <> pure_readable_share def
+R7311:7329 VST.veric.shares <> pure_readable_share def
+R7351:7373 VST.veric.compcert_rmaps <> pure_readable_share_glb thm
+R7258:7279 VST.veric.compcert_rmaps <> glb_Rsh_bot_unreadable thm
+R7174:7186 VST.msl.shares Share glb_bot prfax
+R7126:7140 VST.veric.compcert_rmaps <> join_sub_same_k thm
+R6974:6987 VST.veric.shares <> bot_unreadable thm
+R6676:6693 VST.msl.shares <> identity_share_bot thm
+R6698:6711 VST.msl.sepalg <> split_identity thm
+R6719:6730 VST.msl.shares <> bot_identity thm
+R6810:6827 VST.msl.shares <> identity_share_bot thm
+R6832:6845 VST.msl.sepalg <> split_identity thm
+R6865:6876 VST.msl.shares <> bot_identity thm
+R6852:6860 VST.msl.sepalg <> join_comm meth
+R6565:6585 VST.veric.compcert_rmaps <> pure_readable_glb_Rsh thm
+R6459:6479 VST.veric.shares <> readable_not_identity thm
+R6281:6301 VST.veric.shares <> not_readable_Rsh_part thm
+R6328:6339 VST.msl.sepalg <> join_unit2_e thm
+R6358:6369 VST.msl.shares <> bot_identity thm
+R6073:6093 VST.veric.shares <> not_readable_Rsh_part thm
+R6120:6131 VST.msl.sepalg <> join_unit1_e thm
+R6150:6161 VST.msl.shares <> bot_identity thm
+R5967:5975 VST.msl.Extensionality <> exist_ext thm
+R5878:5887 VST.msl.sepalg <> join_unit1 thm
+R5898:5906 VST.msl.psepalg <> None_unit thm
+R5816:5825 VST.msl.sepalg <> join_unit2 thm
+R5836:5844 VST.msl.psepalg <> None_unit thm
+R7560:7571 VST.veric.shares <> dec_readable thm
+R7560:7571 VST.veric.shares <> dec_readable thm
+R7597:7608 VST.veric.shares <> dec_readable thm
+R7597:7608 VST.veric.shares <> dec_readable thm
+R7699:7713 VST.veric.compcert_rmaps <> join_sub_same_k thm
+R7699:7713 VST.veric.compcert_rmaps <> join_sub_same_k thm
+R7784:7795 VST.veric.compcert_rmaps <> join_glb_Rsh thm
+R7784:7795 VST.veric.compcert_rmaps <> join_glb_Rsh thm
+R7846:7857 VST.veric.compcert_rmaps <> join_glb_Rsh thm
+R7846:7857 VST.veric.compcert_rmaps <> join_glb_Rsh thm
+R7982:7993 VST.veric.compcert_rmaps <> join_glb_Rsh thm
+R7982:7993 VST.veric.compcert_rmaps <> join_glb_Rsh thm
+R8075:8086 VST.veric.shares <> dec_readable thm
+R8075:8086 VST.veric.shares <> dec_readable thm
+R8148:8161 VST.veric.shares <> readable_share def
+R8237:8248 VST.veric.shares <> dec_readable thm
+R8237:8248 VST.veric.shares <> dec_readable thm
+R5633:5635 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5627:5630 Coq.Init.Datatypes <> Some constr
+R5636:5639 Coq.Init.Datatypes <> None constr
+R5633:5635 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5627:5630 Coq.Init.Datatypes <> Some constr
+R5636:5639 Coq.Init.Datatypes <> None constr
+R5669:5671 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5665:5668 Coq.Init.Datatypes <> None constr
+R5672:5675 Coq.Init.Datatypes <> Some constr
+R5669:5671 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5665:5668 Coq.Init.Datatypes <> None constr
+R5672:5675 Coq.Init.Datatypes <> Some constr
+R5703:5706 VST.msl.sepalg <> join def
+R5719:5722 Coq.Init.Datatypes <> None constr
+R5709:5712 Coq.Init.Datatypes <> Some constr
+R5703:5706 VST.msl.sepalg <> join def
+R5719:5722 Coq.Init.Datatypes <> None constr
+R5709:5712 Coq.Init.Datatypes <> Some constr
+R5748:5751 VST.msl.sepalg <> join def
+R5764:5767 Coq.Init.Datatypes <> None constr
+R5756:5759 Coq.Init.Datatypes <> Some constr
+R5748:5751 VST.msl.sepalg <> join def
+R5764:5767 Coq.Init.Datatypes <> None constr
+R5756:5759 Coq.Init.Datatypes <> Some constr
+R5793:5796 VST.msl.sepalg <> join def
+R5800:5803 Coq.Init.Datatypes <> None constr
+R5793:5796 VST.msl.sepalg <> join def
+R5800:5803 Coq.Init.Datatypes <> None constr
+R5855:5858 VST.msl.sepalg <> join def
+R5860:5863 Coq.Init.Datatypes <> None constr
+R5855:5858 VST.msl.sepalg <> join def
+R5860:5863 Coq.Init.Datatypes <> None constr
+R5927:5929 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5917:5920 Coq.Init.Datatypes <> Some constr
+R5922:5922 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5924:5924 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5926:5926 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5930:5933 Coq.Init.Datatypes <> Some constr
+R5934:5934 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5936:5936 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5938:5938 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5927:5929 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5917:5920 Coq.Init.Datatypes <> Some constr
+R5922:5922 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5924:5924 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5926:5926 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5930:5933 Coq.Init.Datatypes <> Some constr
+R5934:5934 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5936:5936 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5938:5938 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5989:5989 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5990:6003 VST.veric.shares <> readable_share def
+R5989:5989 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5990:6003 VST.veric.shares <> readable_share def
+R6013:6016 VST.msl.sepalg <> join def
+R6019:6027 VST.msl.shares Share glb defax
+R6029:6037 VST.msl.shares Share Rsh def
+R6013:6016 VST.msl.sepalg <> join def
+R6019:6027 VST.msl.shares Share glb defax
+R6029:6037 VST.msl.shares Share Rsh def
+R6197:6197 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6198:6211 VST.veric.shares <> readable_share def
+R6197:6197 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6198:6211 VST.veric.shares <> readable_share def
+R6221:6224 VST.msl.sepalg <> join def
+R6229:6237 VST.msl.shares Share glb defax
+R6239:6247 VST.msl.shares Share Rsh def
+R6221:6224 VST.msl.sepalg <> join def
+R6229:6237 VST.msl.shares Share glb defax
+R6239:6247 VST.msl.shares Share Rsh def
+R6405:6412 VST.msl.sepalg <> identity def
+R6405:6412 VST.msl.sepalg <> identity def
+R6422:6435 VST.veric.shares <> readable_share def
+R6422:6435 VST.veric.shares <> readable_share def
+R6497:6515 VST.veric.shares <> pure_readable_share def
+R6497:6515 VST.veric.shares <> pure_readable_share def
+R6545:6547 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6523:6531 VST.msl.shares Share glb defax
+R6533:6541 VST.msl.shares Share Rsh def
+R6545:6547 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6523:6531 VST.msl.shares Share glb defax
+R6533:6541 VST.msl.shares Share Rsh def
+R6599:6602 VST.msl.sepalg <> join def
+R6610:6618 VST.msl.shares Share bot defax
+R6599:6602 VST.msl.sepalg <> join def
+R6610:6618 VST.msl.shares Share bot defax
+R6927:6940 VST.veric.shares <> readable_share def
+R6942:6950 VST.msl.shares Share bot defax
+R6927:6940 VST.veric.shares <> readable_share def
+R6942:6950 VST.msl.shares Share bot defax
+R6995:7002 VST.msl.sepalg <> join_sub def
+R7004:7007 Coq.Init.Datatypes <> None constr
+R6995:7002 VST.msl.sepalg <> join_sub def
+R7004:7007 Coq.Init.Datatypes <> None constr
+R7033:7040 VST.msl.sepalg <> join_sub def
+R7056:7059 Coq.Init.Datatypes <> Some constr
+R7061:7061 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7063:7063 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7066:7066 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7043:7046 Coq.Init.Datatypes <> Some constr
+R7047:7047 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7049:7049 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7052:7052 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7033:7040 VST.msl.sepalg <> join_sub def
+R7056:7059 Coq.Init.Datatypes <> Some constr
+R7061:7061 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7063:7063 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7066:7066 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7043:7046 Coq.Init.Datatypes <> Some constr
+R7047:7047 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7049:7049 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7052:7052 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7220:7222 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7199:7207 VST.msl.shares Share glb defax
+R7209:7217 VST.msl.shares Share Rsh def
+R7223:7231 VST.msl.shares Share bot defax
+R7220:7222 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7199:7207 VST.msl.shares Share glb defax
+R7209:7217 VST.msl.shares Share Rsh def
+R7223:7231 VST.msl.shares Share bot defax
+R7311:7329 VST.veric.shares <> pure_readable_share def
+R7311:7329 VST.veric.shares <> pure_readable_share def
+R7351:7373 VST.veric.compcert_rmaps <> pure_readable_share_glb thm
+R7258:7279 VST.veric.compcert_rmaps <> glb_Rsh_bot_unreadable thm
+R7174:7186 VST.msl.shares Share glb_bot prfax
+R7126:7140 VST.veric.compcert_rmaps <> join_sub_same_k thm
+R6974:6987 VST.veric.shares <> bot_unreadable thm
+R6676:6693 VST.msl.shares <> identity_share_bot thm
+R6698:6711 VST.msl.sepalg <> split_identity thm
+R6719:6730 VST.msl.shares <> bot_identity thm
+R6810:6827 VST.msl.shares <> identity_share_bot thm
+R6832:6845 VST.msl.sepalg <> split_identity thm
+R6865:6876 VST.msl.shares <> bot_identity thm
+R6852:6860 VST.msl.sepalg <> join_comm meth
+R6565:6585 VST.veric.compcert_rmaps <> pure_readable_glb_Rsh thm
+R6459:6479 VST.veric.shares <> readable_not_identity thm
+R6281:6301 VST.veric.shares <> not_readable_Rsh_part thm
+R6328:6339 VST.msl.sepalg <> join_unit2_e thm
+R6358:6369 VST.msl.shares <> bot_identity thm
+R6073:6093 VST.veric.shares <> not_readable_Rsh_part thm
+R6120:6131 VST.msl.sepalg <> join_unit1_e thm
+R6150:6161 VST.msl.shares <> bot_identity thm
+R5967:5975 VST.msl.Extensionality <> exist_ext thm
+R5878:5887 VST.msl.sepalg <> join_unit1 thm
+R5898:5906 VST.msl.psepalg <> None_unit thm
+R5816:5825 VST.msl.sepalg <> join_unit2 thm
+R5836:5844 VST.msl.psepalg <> None_unit thm
+prf 8402:8414 <> join_share_of
+binder 8424:8424 <> a:43
+binder 8426:8426 <> b:44
+binder 8428:8428 <> c:45
+R8457:8460 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8461:8464 VST.msl.sepalg <> join def
+R8493:8500 VST.veric.compcert_rmaps <> share_of def
+R8502:8502 VST.veric.compcert_rmaps <> c:45 var
+R8480:8487 VST.veric.compcert_rmaps <> share_of def
+R8489:8489 VST.veric.compcert_rmaps <> b:44 var
+R8467:8474 VST.veric.compcert_rmaps <> share_of def
+R8476:8476 VST.veric.compcert_rmaps <> a:43 var
+R8437:8440 VST.msl.sepalg <> join def
+R8456:8456 VST.veric.compcert_rmaps <> c:45 var
+R8454:8454 VST.veric.compcert_rmaps <> b:44 var
+R8452:8452 VST.veric.compcert_rmaps <> a:43 var
+R8444:8450 VST.veric.compcert_rmaps <> Join_pk def
+R8543:8552 VST.msl.sepalg <> join_unit1 thm
+R8543:8552 VST.msl.sepalg <> join_unit1 thm
+R8567:8576 VST.msl.sepalg <> join_unit2 thm
+R8567:8576 VST.msl.sepalg <> join_unit2 thm
+inst 8728:8741 <> Cross_rmap_aux
+R8744:8752 VST.msl.sepalg <> Cross_alg class
+R8765:8768 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8769:8774 Coq.Init.Datatypes <> option ind
+R8783:8785 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8777:8782 VST.veric.shares <> rshare def
+R8786:8792 VST.veric.compcert_rmaps <> kind defax
+R8755:8764 VST.veric.compcert_rmaps <> address defax
+R8877:8891 VST.msl.cross_split <> cross_split_fun inst
+R9021:9024 VST.msl.base <> :::x_'oo'_x not
+R9013:9020 VST.veric.compcert_rmaps <> share_of def
+R9005:9008 VST.msl.base <> :::x_'oo'_x not
+R8997:9004 VST.veric.compcert_rmaps <> share_of def
+R8989:8992 VST.msl.base <> :::x_'oo'_x not
+R8981:8988 VST.veric.compcert_rmaps <> share_of def
+R8973:8976 VST.msl.base <> :::x_'oo'_x not
+R8965:8972 VST.veric.compcert_rmaps <> share_of def
+R8957:8960 VST.msl.base <> :::x_'oo'_x not
+R8949:8956 VST.veric.compcert_rmaps <> share_of def
+R8911:8927 VST.msl.shares <> share_cross_split inst
+R8903:8909 VST.sepcomp.Address <> address def
+R8893:8899 VST.msl.shares Share t defax
+R8877:8891 VST.msl.cross_split <> cross_split_fun inst
+R9021:9024 VST.msl.base <> :::x_'oo'_x not
+R9013:9020 VST.veric.compcert_rmaps <> share_of def
+R9005:9008 VST.msl.base <> :::x_'oo'_x not
+R8997:9004 VST.veric.compcert_rmaps <> share_of def
+R8989:8992 VST.msl.base <> :::x_'oo'_x not
+R8981:8988 VST.veric.compcert_rmaps <> share_of def
+R8973:8976 VST.msl.base <> :::x_'oo'_x not
+R8965:8972 VST.veric.compcert_rmaps <> share_of def
+R8957:8960 VST.msl.base <> :::x_'oo'_x not
+R8949:8956 VST.veric.compcert_rmaps <> share_of def
+R8911:8927 VST.msl.shares <> share_cross_split inst
+R8903:8909 VST.sepcomp.Address <> address def
+R8893:8899 VST.msl.shares Share t defax
+R9104:9110 VST.msl.base <> compose def
+R9150:9159 VST.msl.sepalg <> join_unit1 thm
+R9150:9159 VST.msl.sepalg <> join_unit1 thm
+R9174:9183 VST.msl.sepalg <> join_unit2 thm
+R9174:9183 VST.msl.sepalg <> join_unit2 thm
+R9278:9284 VST.msl.base <> compose def
+R9326:9335 VST.msl.sepalg <> join_unit1 thm
+R9326:9335 VST.msl.sepalg <> join_unit1 thm
+R9350:9359 VST.msl.sepalg <> join_unit2 thm
+R9350:9359 VST.msl.sepalg <> join_unit2 thm
+R9426:9426 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9447:9461 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9482:9496 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9517:9531 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9552:9552 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9427:9441 VST.veric.compcert_rmaps <> fixup_splitting def
+R9462:9476 VST.veric.compcert_rmaps <> fixup_splitting def
+R9497:9511 VST.veric.compcert_rmaps <> fixup_splitting def
+R9532:9546 VST.veric.compcert_rmaps <> fixup_splitting def
+R9426:9426 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9447:9461 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9482:9496 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9517:9531 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9552:9552 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9427:9441 VST.veric.compcert_rmaps <> fixup_splitting def
+R9462:9476 VST.veric.compcert_rmaps <> fixup_splitting def
+R9497:9511 VST.veric.compcert_rmaps <> fixup_splitting def
+R9532:9546 VST.veric.compcert_rmaps <> fixup_splitting def
+R9610:9619 VST.veric.compcert_rmaps <> fixup_join thm
+R9610:9619 VST.veric.compcert_rmaps <> fixup_join thm
+R9610:9619 VST.veric.compcert_rmaps <> fixup_join thm
+R9610:9619 VST.veric.compcert_rmaps <> fixup_join thm
+R9610:9619 VST.veric.compcert_rmaps <> fixup_join thm
+R9683:9691 VST.msl.sepalg <> join_comm meth
+R9683:9691 VST.msl.sepalg <> join_comm meth
+R9751:9759 VST.msl.sepalg <> join_comm meth
+R9751:9759 VST.msl.sepalg <> join_comm meth
+inst 9787:9799 <> Trip_resource
+R9802:9809 VST.msl.sepalg <> Trip_alg class
+R9811:9818 VST.veric.compcert_rmaps <> resource ind
+R9947:9951 Coq.Init.Logic <> False ind
+R9947:9951 Coq.Init.Logic <> False ind
+R9947:9951 Coq.Init.Logic <> False ind
+R10032:10036 Coq.Init.Logic <> False ind
+R10032:10036 Coq.Init.Logic <> False ind
+R10032:10036 Coq.Init.Logic <> False ind
+R10109:10113 Coq.Init.Logic <> False ind
+R10109:10113 Coq.Init.Logic <> False ind
+R10109:10113 Coq.Init.Logic <> False ind
+R10195:10199 Coq.Init.Logic <> False ind
+R10195:10199 Coq.Init.Logic <> False ind
+R10195:10199 Coq.Init.Logic <> False ind
+R10281:10285 Coq.Init.Logic <> False ind
+R10281:10285 Coq.Init.Logic <> False ind
+R10281:10285 Coq.Init.Logic <> False ind
+R10307:10330 VST.msl.shares <> triple_join_exists_share thm
+R10307:10330 VST.msl.shares <> triple_join_exists_share thm
+R10420:10441 VST.veric.shares <> join_unreadable_shares thm
+R10420:10441 VST.veric.shares <> join_unreadable_shares thm
+R10461:10462 VST.veric.compcert_rmaps <> NO constr
+R10461:10462 VST.veric.compcert_rmaps <> NO constr
+R10563:10567 Coq.Init.Logic <> False ind
+R10563:10567 Coq.Init.Logic <> False ind
+R10563:10567 Coq.Init.Logic <> False ind
+R10649:10653 Coq.Init.Logic <> False ind
+R10649:10653 Coq.Init.Logic <> False ind
+R10649:10653 Coq.Init.Logic <> False ind
+R10675:10698 VST.msl.shares <> triple_join_exists_share thm
+R10675:10698 VST.msl.shares <> triple_join_exists_share thm
+R10790:10803 VST.veric.shares <> join_readable2 thm
+R10790:10803 VST.veric.shares <> join_readable2 thm
+R10820:10822 VST.veric.compcert_rmaps <> YES constr
+R10820:10822 VST.veric.compcert_rmaps <> YES constr
+R10931:10935 Coq.Init.Logic <> False ind
+R10931:10935 Coq.Init.Logic <> False ind
+R10931:10935 Coq.Init.Logic <> False ind
+R11008:11012 Coq.Init.Logic <> False ind
+R11008:11012 Coq.Init.Logic <> False ind
+R11008:11012 Coq.Init.Logic <> False ind
+R11094:11098 Coq.Init.Logic <> False ind
+R11094:11098 Coq.Init.Logic <> False ind
+R11094:11098 Coq.Init.Logic <> False ind
+R11180:11184 Coq.Init.Logic <> False ind
+R11180:11184 Coq.Init.Logic <> False ind
+R11180:11184 Coq.Init.Logic <> False ind
+R11206:11229 VST.msl.shares <> triple_join_exists_share thm
+R11206:11229 VST.msl.shares <> triple_join_exists_share thm
+R11321:11334 VST.veric.shares <> join_readable1 thm
+R11321:11334 VST.veric.shares <> join_readable1 thm
+R11352:11354 VST.veric.compcert_rmaps <> YES constr
+R11352:11354 VST.veric.compcert_rmaps <> YES constr
+R11465:11469 Coq.Init.Logic <> False ind
+R11465:11469 Coq.Init.Logic <> False ind
+R11465:11469 Coq.Init.Logic <> False ind
+R11551:11555 Coq.Init.Logic <> False ind
+R11551:11555 Coq.Init.Logic <> False ind
+R11551:11555 Coq.Init.Logic <> False ind
+R11577:11600 VST.msl.shares <> triple_join_exists_share thm
+R11577:11600 VST.msl.shares <> triple_join_exists_share thm
+R11692:11705 VST.veric.shares <> join_readable1 thm
+R11692:11705 VST.veric.shares <> join_readable1 thm
+R11723:11725 VST.veric.compcert_rmaps <> YES constr
+R11723:11725 VST.veric.compcert_rmaps <> YES constr
+R11851:11855 Coq.Init.Logic <> False ind
+R11851:11855 Coq.Init.Logic <> False ind
+R11851:11855 Coq.Init.Logic <> False ind
+R11936:11940 Coq.Init.Logic <> False ind
+R11936:11940 Coq.Init.Logic <> False ind
+R11936:11940 Coq.Init.Logic <> False ind
+R12013:12017 Coq.Init.Logic <> False ind
+R12013:12017 Coq.Init.Logic <> False ind
+R12013:12017 Coq.Init.Logic <> False ind
+R12099:12103 Coq.Init.Logic <> False ind
+R12099:12103 Coq.Init.Logic <> False ind
+R12099:12103 Coq.Init.Logic <> False ind
+R12185:12189 Coq.Init.Logic <> False ind
+R12185:12189 Coq.Init.Logic <> False ind
+R12185:12189 Coq.Init.Logic <> False ind
+R12211:12234 VST.msl.shares <> triple_join_exists_share thm
+R12211:12234 VST.msl.shares <> triple_join_exists_share thm
+R12326:12339 VST.veric.shares <> join_readable1 thm
+R12326:12339 VST.veric.shares <> join_readable1 thm
+R12357:12359 VST.veric.compcert_rmaps <> YES constr
+R12357:12359 VST.veric.compcert_rmaps <> YES constr
+R12470:12474 Coq.Init.Logic <> False ind
+R12470:12474 Coq.Init.Logic <> False ind
+R12470:12474 Coq.Init.Logic <> False ind
+R12556:12560 Coq.Init.Logic <> False ind
+R12556:12560 Coq.Init.Logic <> False ind
+R12556:12560 Coq.Init.Logic <> False ind
+R12582:12605 VST.msl.shares <> triple_join_exists_share thm
+R12582:12605 VST.msl.shares <> triple_join_exists_share thm
+R12697:12710 VST.veric.shares <> join_readable1 thm
+R12697:12710 VST.veric.shares <> join_readable1 thm
+R12728:12730 VST.veric.compcert_rmaps <> YES constr
+R12728:12730 VST.veric.compcert_rmaps <> YES constr
+R12865:12869 Coq.Init.Logic <> False ind
+R12865:12869 Coq.Init.Logic <> False ind
+R12865:12869 Coq.Init.Logic <> False ind
+R12942:12946 Coq.Init.Logic <> False ind
+R12942:12946 Coq.Init.Logic <> False ind
+R12942:12946 Coq.Init.Logic <> False ind
+R13028:13032 Coq.Init.Logic <> False ind
+R13028:13032 Coq.Init.Logic <> False ind
+R13028:13032 Coq.Init.Logic <> False ind
+R13114:13118 Coq.Init.Logic <> False ind
+R13114:13118 Coq.Init.Logic <> False ind
+R13114:13118 Coq.Init.Logic <> False ind
+R13140:13163 VST.msl.shares <> triple_join_exists_share thm
+R13140:13163 VST.msl.shares <> triple_join_exists_share thm
+R13255:13268 VST.veric.shares <> join_readable1 thm
+R13255:13268 VST.veric.shares <> join_readable1 thm
+R13286:13288 VST.veric.compcert_rmaps <> YES constr
+R13286:13288 VST.veric.compcert_rmaps <> YES constr
+R13399:13403 Coq.Init.Logic <> False ind
+R13399:13403 Coq.Init.Logic <> False ind
+R13399:13403 Coq.Init.Logic <> False ind
+R13485:13489 Coq.Init.Logic <> False ind
+R13485:13489 Coq.Init.Logic <> False ind
+R13485:13489 Coq.Init.Logic <> False ind
+R13511:13534 VST.msl.shares <> triple_join_exists_share thm
+R13511:13534 VST.msl.shares <> triple_join_exists_share thm
+R13626:13639 VST.veric.shares <> join_readable1 thm
+R13626:13639 VST.veric.shares <> join_readable1 thm
+R13657:13659 VST.veric.compcert_rmaps <> YES constr
+R13657:13659 VST.veric.compcert_rmaps <> YES constr
+prf 13782:13802 <> pure_readable_share_i
+binder 13814:13815 <> sh:46
+R13835:13839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13884:13884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13840:13858 VST.veric.shares <> pure_readable_share def
+R13861:13869 VST.msl.shares Share glb defax
+R13881:13882 VST.veric.compcert_rmaps <> sh:46 var
+R13871:13879 VST.msl.shares Share Rsh def
+R13818:13831 VST.veric.shares <> readable_share def
+R13833:13834 VST.veric.compcert_rmaps <> sh:46 var
+R13920:13934 VST.msl.shares Share glb_assoc prfax
+R13920:13934 VST.msl.shares Share glb_assoc prfax
+R13920:13934 VST.msl.shares Share glb_assoc prfax
+R13945:13955 VST.veric.shares <> glb_Lsh_Rsh thm
+R13945:13955 VST.veric.shares <> glb_Lsh_Rsh thm
+R13945:13955 VST.veric.shares <> glb_Lsh_Rsh thm
+R13966:13982 VST.msl.shares Share glb_commute prfax
+R13966:13982 VST.msl.shares Share glb_commute prfax
+R13966:13982 VST.msl.shares Share glb_commute prfax
+R13991:14003 VST.msl.shares Share glb_bot prfax
+R13991:14003 VST.msl.shares Share glb_bot prfax
+R14046:14054 VST.veric.shares <> glb_twice thm
+R14046:14054 VST.veric.shares <> glb_twice thm
+R14046:14054 VST.veric.shares <> glb_twice thm
+prf 20834:20850 <> pure_readable_Rsh
+R20853:20871 VST.veric.shares <> pure_readable_share def
+R20873:20881 VST.msl.shares Share Rsh def
+R20904:20914 VST.veric.shares <> glb_Lsh_Rsh thm
+R20904:20914 VST.veric.shares <> glb_Lsh_Rsh thm
+R20932:20945 VST.msl.shares Share glb_idem prfax
+R20932:20945 VST.msl.shares Share glb_idem prfax
+R20932:20945 VST.msl.shares Share glb_idem prfax
+R20965:20986 VST.msl.shares Share split_nontrivial prfax
+R21008:21016 VST.msl.shares Share top defax
+R20998:21006 VST.msl.shares Share Rsh def
+R20988:20996 VST.msl.shares Share Lsh def
+R20965:20986 VST.msl.shares Share split_nontrivial prfax
+R21008:21016 VST.msl.shares Share top defax
+R20998:21006 VST.msl.shares Share Rsh def
+R20988:20996 VST.msl.shares Share Lsh def
+R21036:21044 VST.msl.shares Share Lsh def
+R21047:21055 VST.msl.shares Share Rsh def
+R21068:21078 VST.msl.shares Share split defax
+R21080:21088 VST.msl.shares Share top defax
+R21068:21078 VST.msl.shares Share split defax
+R21080:21088 VST.msl.shares Share top defax
+R21104:21121 VST.msl.shares <> identity_share_bot thm
+R21104:21121 VST.msl.shares <> identity_share_bot thm
+R21158:21173 VST.msl.shares Share nontrivial prfax
+R21158:21173 VST.msl.shares Share nontrivial prfax
+def 21193:21202 <> rfullshare
+R21206:21211 VST.veric.shares <> rshare def
+R21216:21224 VST.veric.compcert_rmaps <> mk_rshare def
+R21228:21244 VST.veric.compcert_rmaps <> pure_readable_Rsh thm
+def 21267:21274 <> writable
+R21280:21286 VST.sepcomp.Address <> address def
+binder 21277:21277 <> l:47
+R21290:21293 VST.msl.predicates_hered <> pred def
+R21295:21298 VST.veric.compcert_rmaps <> rmap defax
+binder 21308:21310 <> phi:48
+R21326:21328 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21323:21325 VST.veric.compcert_rmaps <> phi:48 var
+R21329:21329 VST.veric.compcert_rmaps <> l:47 var
+R21342:21344 VST.veric.compcert_rmaps <> YES constr
+R21377:21380 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R21359:21373 VST.veric.shares <> writable0_share def
+R21381:21385 VST.veric.compcert_rmaps <> isVAL def
+R21400:21404 Coq.Init.Logic <> False ind
+R21462:21476 VST.veric.compcert_rmaps <> age1_res_option thm
+R21462:21476 VST.veric.compcert_rmaps <> age1_res_option thm
+R21509:21511 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21509:21511 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21564:21566 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21564:21566 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21622:21636 VST.veric.shares <> writable0_share def
+R21669:21680 VST.msl.shares <> leq_join_sub thm
+R21669:21680 VST.msl.shares <> leq_join_sub thm
+R21697:21708 VST.msl.shares <> leq_join_sub thm
+R21697:21708 VST.msl.shares <> leq_join_sub thm
+R21719:21733 VST.msl.shares Share ord_spec2 prfax
+R21719:21733 VST.msl.shares Share ord_spec2 prfax
+R21773:21788 VST.msl.shares Share glb_absorb prfax
+R21773:21788 VST.msl.shares Share glb_absorb prfax
+R21773:21788 VST.msl.shares Share glb_absorb prfax
+R21831:21846 VST.msl.shares Share glb_lower2 prfax
+R21831:21846 VST.msl.shares Share glb_lower2 prfax
+def 21874:21881 <> readable
+R21889:21895 VST.sepcomp.Address <> address def
+binder 21884:21886 <> loc:49
+R21900:21903 VST.msl.predicates_hered <> pred def
+R21905:21908 VST.veric.compcert_rmaps <> rmap defax
+binder 21920:21922 <> phi:50
+R21936:21938 VST.veric.rmaps RMAPS :::x_'@'_x not
+R21933:21935 VST.veric.compcert_rmaps <> phi:50 var
+R21939:21941 VST.veric.compcert_rmaps <> loc:49 var
+R21948:21950 VST.veric.compcert_rmaps <> YES constr
+R21963:21967 VST.veric.compcert_rmaps <> isVAL def
+R21978:21982 Coq.Init.Logic <> False ind
+R22038:22052 VST.veric.compcert_rmaps <> age1_res_option thm
+R22038:22052 VST.veric.compcert_rmaps <> age1_res_option thm
+R22087:22089 VST.veric.rmaps RMAPS :::x_'@'_x not
+R22087:22089 VST.veric.rmaps RMAPS :::x_'@'_x not
+R22144:22146 VST.veric.rmaps RMAPS :::x_'@'_x not
+R22144:22146 VST.veric.rmaps RMAPS :::x_'@'_x not
+prf 22181:22193 <> readable_join
+binder 22205:22208 <> phi1:51
+binder 22210:22213 <> phi2:52
+binder 22215:22218 <> phi3:53
+binder 22220:22222 <> loc:54
+R22244:22259 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22277:22280 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22281:22288 VST.veric.compcert_rmaps <> readable def
+R22294:22297 VST.veric.compcert_rmaps <> phi3:53 var
+R22290:22292 VST.veric.compcert_rmaps <> loc:54 var
+R22260:22267 VST.veric.compcert_rmaps <> readable def
+R22273:22276 VST.veric.compcert_rmaps <> phi1:51 var
+R22269:22271 VST.veric.compcert_rmaps <> loc:54 var
+R22225:22228 VST.msl.sepalg <> join def
+R22240:22243 VST.veric.compcert_rmaps <> phi3:53 var
+R22235:22238 VST.veric.compcert_rmaps <> phi2:52 var
+R22230:22233 VST.veric.compcert_rmaps <> phi1:51 var
+R22314:22321 VST.veric.compcert_rmaps <> readable def
+R22374:22389 VST.veric.compcert_rmaps <> resource_at_join thm
+R22374:22389 VST.veric.compcert_rmaps <> resource_at_join thm
+R22449:22451 VST.veric.rmaps RMAPS :::x_'@'_x not
+R22449:22451 VST.veric.rmaps RMAPS :::x_'@'_x not
+prf 22510:22531 <> readable_writable_join
+binder 22541:22544 <> phi1:55
+binder 22546:22549 <> phi2:56
+binder 22551:22551 <> l:57
+R22569:22572 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22588:22591 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22607:22610 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22611:22615 Coq.Init.Logic <> False ind
+R22592:22596 VST.msl.sepalg <> joins def
+R22603:22606 VST.veric.compcert_rmaps <> phi2:56 var
+R22598:22601 VST.veric.compcert_rmaps <> phi1:55 var
+R22573:22580 VST.veric.compcert_rmaps <> writable def
+R22584:22587 VST.veric.compcert_rmaps <> phi2:56 var
+R22582:22582 VST.veric.compcert_rmaps <> l:57 var
+R22554:22561 VST.veric.compcert_rmaps <> readable def
+R22565:22568 VST.veric.compcert_rmaps <> phi1:55 var
+R22563:22563 VST.veric.compcert_rmaps <> l:57 var
+R22640:22647 VST.veric.compcert_rmaps <> readable def
+R22650:22657 VST.veric.compcert_rmaps <> writable def
+R22717:22732 VST.veric.compcert_rmaps <> resource_at_join thm
+R22717:22732 VST.veric.compcert_rmaps <> resource_at_join thm
+R22784:22786 VST.veric.rmaps RMAPS :::x_'@'_x not
+R22784:22786 VST.veric.rmaps RMAPS :::x_'@'_x not
+R22832:22834 VST.veric.rmaps RMAPS :::x_'@'_x not
+R22832:22834 VST.veric.rmaps RMAPS :::x_'@'_x not
+R22903:22916 VST.veric.shares <> readable_share def
+R22919:22933 VST.veric.shares <> writable0_share def
+R22964:22973 VST.msl.sepalg <> join_assoc meth
+R22990:22998 VST.msl.sepalg <> join_comm meth
+R22976:22984 VST.msl.sepalg <> join_comm meth
+R22964:22973 VST.msl.sepalg <> join_assoc meth
+R22990:22998 VST.msl.sepalg <> join_comm meth
+R22976:22984 VST.msl.sepalg <> join_comm meth
+prf 23093:23110 <> writable0_join_sub
+binder 23122:23123 <> sh:58
+binder 23125:23127 <> sh':59
+R23145:23148 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23167:23170 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23171:23185 VST.veric.shares <> writable0_share def
+R23187:23189 VST.veric.compcert_rmaps <> sh':59 var
+R23149:23163 VST.veric.shares <> writable0_share def
+R23165:23166 VST.veric.compcert_rmaps <> sh:58 var
+R23130:23137 VST.msl.sepalg <> join_sub def
+R23142:23144 VST.veric.compcert_rmaps <> sh':59 var
+R23139:23140 VST.veric.compcert_rmaps <> sh:58 var
+R23251:23260 VST.msl.sepalg <> join_assoc meth
+R23251:23260 VST.msl.sepalg <> join_assoc meth
+prf 23310:23322 <> writable_join
+binder 23332:23334 <> loc:60
+binder 23336:23339 <> phi1:61
+binder 23341:23344 <> phi2:62
+R23365:23380 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23398:23401 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23402:23409 VST.veric.compcert_rmaps <> writable def
+R23415:23418 VST.veric.compcert_rmaps <> phi2:62 var
+R23411:23413 VST.veric.compcert_rmaps <> loc:60 var
+R23381:23388 VST.veric.compcert_rmaps <> writable def
+R23394:23397 VST.veric.compcert_rmaps <> phi1:61 var
+R23390:23392 VST.veric.compcert_rmaps <> loc:60 var
+R23347:23354 VST.msl.sepalg <> join_sub def
+R23361:23364 VST.veric.compcert_rmaps <> phi2:62 var
+R23356:23359 VST.veric.compcert_rmaps <> phi1:61 var
+R23435:23442 VST.veric.compcert_rmaps <> writable def
+R23489:23504 VST.veric.compcert_rmaps <> resource_at_join thm
+R23489:23504 VST.veric.compcert_rmaps <> resource_at_join thm
+R23554:23556 VST.veric.rmaps RMAPS :::x_'@'_x not
+R23554:23556 VST.veric.rmaps RMAPS :::x_'@'_x not
+R23637:23654 VST.veric.compcert_rmaps <> writable0_join_sub thm
+R23637:23654 VST.veric.compcert_rmaps <> writable0_join_sub thm
+R23637:23654 VST.veric.compcert_rmaps <> writable0_join_sub thm
+prf 23692:23708 <> writable_readable
+binder 23718:23720 <> loc:63
+binder 23722:23722 <> m:64
+R23739:23742 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23743:23750 VST.veric.compcert_rmaps <> readable def
+R23756:23756 VST.veric.compcert_rmaps <> m:64 var
+R23752:23754 VST.veric.compcert_rmaps <> loc:63 var
+R23725:23732 VST.veric.compcert_rmaps <> writable def
+R23738:23738 VST.veric.compcert_rmaps <> m:64 var
+R23734:23736 VST.veric.compcert_rmaps <> loc:63 var
+R23774:23781 VST.veric.compcert_rmaps <> writable def
+R23784:23791 VST.veric.compcert_rmaps <> readable def
+R23826:23828 VST.veric.rmaps RMAPS :::x_'@'_x not
+R23826:23828 VST.veric.rmaps RMAPS :::x_'@'_x not
+prf 23873:23882 <> writable_e
+binder 23892:23894 <> loc:65
+binder 23896:23896 <> m:66
+R23917:23924 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23925:23931 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23934:23935 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 23932:23933 <> sh:67
+R23936:23942 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23946:23947 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 23943:23945 <> rsh:68
+R23948:23954 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23956:23957 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 23955:23955 <> v:69
+R23958:23964 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23966:23973 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 23965:23965 <> p:70
+R24004:24007 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23981:23983 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23975:23977 VST.veric.rmaps RMAPS :::x_'@'_x not
+R23974:23974 VST.veric.compcert_rmaps <> m:66 var
+R23978:23980 VST.veric.compcert_rmaps <> loc:65 var
+R23984:23986 VST.veric.compcert_rmaps <> YES constr
+R24003:24003 VST.veric.compcert_rmaps <> p:70 var
+R23996:23998 VST.veric.compcert_rmaps <> VAL constr
+R24000:24000 VST.veric.compcert_rmaps <> v:69 var
+R23991:23993 VST.veric.compcert_rmaps <> rsh:68 var
+R23988:23989 VST.veric.compcert_rmaps <> sh:67 var
+R24008:24022 VST.veric.shares <> writable0_share def
+R24024:24025 VST.veric.compcert_rmaps <> sh:67 var
+R23903:23910 VST.veric.compcert_rmaps <> writable def
+R23916:23916 VST.veric.compcert_rmaps <> m:66 var
+R23912:23914 VST.veric.compcert_rmaps <> loc:65 var
+R24042:24049 VST.veric.compcert_rmaps <> writable def
+R24078:24078 VST.veric.rmaps RMAPS :::x_'@'_x not
+R24078:24078 VST.veric.rmaps RMAPS :::x_'@'_x not
+R24203:24212 VST.veric.compcert_rmaps <> writable_e thm
+R24203:24212 VST.veric.compcert_rmaps <> writable_e thm
+prf 24234:24243 <> readable_e
+binder 24253:24255 <> loc:71
+binder 24257:24257 <> m:72
+R24278:24284 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24285:24291 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R24294:24295 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 24292:24293 <> sh:73
+R24296:24302 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R24306:24307 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 24303:24305 <> rsh:74
+R24308:24314 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R24316:24317 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 24315:24315 <> v:75
+R24318:24324 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R24326:24327 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 24325:24325 <> p:76
+R24335:24337 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24329:24331 VST.veric.rmaps RMAPS :::x_'@'_x not
+R24328:24328 VST.veric.compcert_rmaps <> m:72 var
+R24332:24334 VST.veric.compcert_rmaps <> loc:71 var
+R24338:24340 VST.veric.compcert_rmaps <> YES constr
+R24357:24357 VST.veric.compcert_rmaps <> p:76 var
+R24350:24352 VST.veric.compcert_rmaps <> VAL constr
+R24354:24354 VST.veric.compcert_rmaps <> v:75 var
+R24345:24347 VST.veric.compcert_rmaps <> rsh:74 var
+R24342:24343 VST.veric.compcert_rmaps <> sh:73 var
+R24264:24271 VST.veric.compcert_rmaps <> readable def
+R24277:24277 VST.veric.compcert_rmaps <> m:72 var
+R24273:24275 VST.veric.compcert_rmaps <> loc:71 var
+R24374:24381 VST.veric.compcert_rmaps <> readable def
+R24410:24410 VST.veric.rmaps RMAPS :::x_'@'_x not
+R24410:24410 VST.veric.rmaps RMAPS :::x_'@'_x not
+R24516:24525 VST.veric.compcert_rmaps <> readable_e thm
+R24516:24525 VST.veric.compcert_rmaps <> readable_e thm
+def 24552:24565 <> bytes_writable
+R24573:24579 VST.sepcomp.Address <> address def
+binder 24568:24570 <> loc:77
+R24589:24589 Coq.Numbers.BinNums <> Z ind
+binder 24583:24586 <> size:78
+R24598:24601 VST.veric.compcert_rmaps <> rmap defax
+binder 24593:24595 <> phi:79
+binder 24623:24623 <> i:80
+R24626:24626 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24640:24644 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24645:24652 VST.veric.compcert_rmaps <> writable def
+R24670:24672 VST.veric.compcert_rmaps <> phi:79 var
+R24655:24661 VST.sepcomp.Address <> adr_add def
+R24667:24667 VST.veric.compcert_rmaps <> i:80 var
+R24663:24665 VST.veric.compcert_rmaps <> loc:77 var
+R24628:24631 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R24633:24635 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R24632:24632 VST.veric.compcert_rmaps <> i:80 var
+R24632:24632 VST.veric.compcert_rmaps <> i:80 var
+R24636:24639 VST.veric.compcert_rmaps <> size:78 var
+def 24687:24700 <> bytes_readable
+R24708:24714 VST.sepcomp.Address <> address def
+binder 24703:24705 <> loc:81
+R24724:24724 Coq.Numbers.BinNums <> Z ind
+binder 24718:24721 <> size:82
+R24733:24736 VST.veric.compcert_rmaps <> rmap defax
+binder 24728:24730 <> phi:83
+binder 24758:24758 <> i:84
+R24761:24761 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24775:24779 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24780:24787 VST.veric.compcert_rmaps <> readable def
+R24805:24807 VST.veric.compcert_rmaps <> phi:83 var
+R24790:24796 VST.sepcomp.Address <> adr_add def
+R24802:24802 VST.veric.compcert_rmaps <> i:84 var
+R24798:24800 VST.veric.compcert_rmaps <> loc:81 var
+R24763:24766 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R24768:24770 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R24767:24767 VST.veric.compcert_rmaps <> i:84 var
+R24767:24767 VST.veric.compcert_rmaps <> i:84 var
+R24771:24774 VST.veric.compcert_rmaps <> size:82 var
+prf 24817:24828 <> readable_dec
+R24836:24842 VST.sepcomp.Address <> address def
+binder 24831:24833 <> loc:85
+R24851:24854 VST.veric.compcert_rmaps <> rmap defax
+binder 24846:24848 <> phi:86
+R24859:24859 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R24876:24880 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R24898:24898 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R24860:24867 VST.veric.compcert_rmaps <> readable def
+R24873:24875 VST.veric.compcert_rmaps <> phi:86 var
+R24869:24871 VST.veric.compcert_rmaps <> loc:85 var
+R24881:24881 Coq.Init.Logic <> ::type_scope:'~'_x not
+R24882:24889 VST.veric.compcert_rmaps <> readable def
+R24895:24897 VST.veric.compcert_rmaps <> phi:86 var
+R24891:24893 VST.veric.compcert_rmaps <> loc:85 var
+R24923:24930 VST.veric.compcert_rmaps <> readable def
+R24949:24951 VST.veric.rmaps RMAPS :::x_'@'_x not
+R24949:24951 VST.veric.rmaps RMAPS :::x_'@'_x not
+R24978:24986 VST.veric.compcert_rmaps <> isVAL_dec thm
+R24978:24986 VST.veric.compcert_rmaps <> isVAL_dec thm
+prf 25001:25012 <> writable_dec
+binder 25022:25024 <> loc:87
+binder 25026:25028 <> phi:88
+R25031:25031 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R25048:25050 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R25068:25068 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R25032:25039 VST.veric.compcert_rmaps <> writable def
+R25045:25047 VST.veric.compcert_rmaps <> phi:88 var
+R25041:25043 VST.veric.compcert_rmaps <> loc:87 var
+R25051:25051 Coq.Init.Logic <> ::type_scope:'~'_x not
+R25052:25059 VST.veric.compcert_rmaps <> writable def
+R25065:25067 VST.veric.compcert_rmaps <> phi:88 var
+R25061:25063 VST.veric.compcert_rmaps <> loc:87 var
+R25093:25100 VST.veric.compcert_rmaps <> writable def
+R25123:25125 VST.veric.rmaps RMAPS :::x_'@'_x not
+R25123:25125 VST.veric.rmaps RMAPS :::x_'@'_x not
+R25148:25156 VST.veric.compcert_rmaps <> isVAL_dec thm
+R25148:25156 VST.veric.compcert_rmaps <> isVAL_dec thm
+R25172:25190 VST.veric.shares <> writable0_share_dec thm
+R25172:25190 VST.veric.shares <> writable0_share_dec thm
+prf 25311:25328 <> bytes_writable_dec
+binder 25341:25343 <> loc:89
+binder 25345:25345 <> n:90
+binder 25347:25347 <> m:91
+R25350:25350 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R25373:25375 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R25399:25399 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R25351:25364 VST.veric.compcert_rmaps <> bytes_writable def
+R25372:25372 VST.veric.compcert_rmaps <> m:91 var
+R25370:25370 VST.veric.compcert_rmaps <> n:90 var
+R25366:25368 VST.veric.compcert_rmaps <> loc:89 var
+R25376:25376 Coq.Init.Logic <> ::type_scope:'~'_x not
+R25377:25390 VST.veric.compcert_rmaps <> bytes_writable def
+R25398:25398 VST.veric.compcert_rmaps <> m:91 var
+R25396:25396 VST.veric.compcert_rmaps <> n:90 var
+R25392:25394 VST.veric.compcert_rmaps <> loc:89 var
+R25470:25478 Coq.ZArith.Zorder <> Zlt_neg_0 thm
+R25470:25478 Coq.ZArith.Zorder <> Zlt_neg_0 thm
+R25525:25551 Coq.ZArith.Znat <> Zpos_eq_Z_of_nat_o_nat_of_P syndef
+R25525:25551 Coq.ZArith.Znat <> Zpos_eq_Z_of_nat_o_nat_of_P syndef
+R25525:25551 Coq.ZArith.Znat <> Zpos_eq_Z_of_nat_o_nat_of_P syndef
+R25564:25571 Coq.PArith.BinPos <> nat_of_P syndef
+R25564:25571 Coq.PArith.BinPos <> nat_of_P syndef
+R25689:25693 Coq.ZArith.Znat <> inj_S syndef
+R25689:25693 Coq.ZArith.Znat <> inj_S syndef
+R25689:25693 Coq.ZArith.Znat <> inj_S syndef
+R25712:25712 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R25712:25712 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R25728:25739 VST.veric.compcert_rmaps <> writable_dec thm
+R25741:25741 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25743:25743 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25745:25745 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25728:25739 VST.veric.compcert_rmaps <> writable_dec thm
+R25741:25741 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25743:25743 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25745:25745 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25779:25785 VST.sepcomp.Address <> adr_add def
+R25805:25807 compcert.lib.Coqlib <> zeq def
+R25805:25807 compcert.lib.Coqlib <> zeq def
+R25832:25832 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R25832:25832 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R25867:25867 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R25880:25881 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R25885:25885 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R25878:25878 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R25883:25883 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R25867:25867 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R25880:25881 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R25885:25885 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R25878:25878 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R25883:25883 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R25960:25966 VST.sepcomp.Address <> adr_add def
+R25998:25998 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R25998:25998 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26080:26086 VST.sepcomp.Address <> adr_add def
+R26108:26108 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26106:26106 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26119:26120 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26124:26124 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26122:26122 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26108:26108 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26106:26106 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26119:26120 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26124:26124 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26122:26122 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+prf 26162:26179 <> bytes_readable_dec
+binder 26192:26194 <> loc:92
+binder 26196:26196 <> n:93
+binder 26198:26198 <> m:94
+R26201:26201 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R26224:26226 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R26250:26250 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R26202:26215 VST.veric.compcert_rmaps <> bytes_readable def
+R26223:26223 VST.veric.compcert_rmaps <> m:94 var
+R26221:26221 VST.veric.compcert_rmaps <> n:93 var
+R26217:26219 VST.veric.compcert_rmaps <> loc:92 var
+R26227:26227 Coq.Init.Logic <> ::type_scope:'~'_x not
+R26228:26241 VST.veric.compcert_rmaps <> bytes_readable def
+R26249:26249 VST.veric.compcert_rmaps <> m:94 var
+R26247:26247 VST.veric.compcert_rmaps <> n:93 var
+R26243:26245 VST.veric.compcert_rmaps <> loc:92 var
+R26321:26329 Coq.ZArith.Zorder <> Zlt_neg_0 thm
+R26321:26329 Coq.ZArith.Zorder <> Zlt_neg_0 thm
+R26376:26402 Coq.ZArith.Znat <> Zpos_eq_Z_of_nat_o_nat_of_P syndef
+R26376:26402 Coq.ZArith.Znat <> Zpos_eq_Z_of_nat_o_nat_of_P syndef
+R26376:26402 Coq.ZArith.Znat <> Zpos_eq_Z_of_nat_o_nat_of_P syndef
+R26415:26422 Coq.PArith.BinPos <> nat_of_P syndef
+R26415:26422 Coq.PArith.BinPos <> nat_of_P syndef
+R26540:26544 Coq.ZArith.Znat <> inj_S syndef
+R26540:26544 Coq.ZArith.Znat <> inj_S syndef
+R26540:26544 Coq.ZArith.Znat <> inj_S syndef
+R26563:26563 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26563:26563 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26579:26590 VST.veric.compcert_rmaps <> readable_dec thm
+R26592:26592 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26594:26594 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26596:26596 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26579:26590 VST.veric.compcert_rmaps <> readable_dec thm
+R26592:26592 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26594:26594 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26596:26596 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26630:26636 VST.sepcomp.Address <> adr_add def
+R26656:26658 compcert.lib.Coqlib <> zeq def
+R26656:26658 compcert.lib.Coqlib <> zeq def
+R26683:26683 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26683:26683 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26718:26718 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26731:26732 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26736:26736 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26729:26729 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26734:26734 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R26718:26718 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26731:26732 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26736:26736 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26729:26729 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26734:26734 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R26811:26817 VST.sepcomp.Address <> adr_add def
+R26849:26849 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26849:26849 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26931:26937 VST.sepcomp.Address <> adr_add def
+R26959:26959 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26957:26957 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26970:26971 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26975:26975 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26973:26973 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26959:26959 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26957:26957 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26970:26971 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26975:26975 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R26973:26973 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+prf 27013:27035 <> bytes_writable_readable
+binder 27047:27047 <> m:95
+binder 27049:27051 <> loc:96
+binder 27053:27053 <> n:97
+R27078:27081 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27082:27095 VST.veric.compcert_rmaps <> bytes_readable def
+R27103:27103 VST.veric.compcert_rmaps <> n:97 var
+R27099:27101 VST.veric.compcert_rmaps <> loc:96 var
+R27097:27097 VST.veric.compcert_rmaps <> m:95 var
+R27056:27069 VST.veric.compcert_rmaps <> bytes_writable def
+R27077:27077 VST.veric.compcert_rmaps <> n:97 var
+R27073:27075 VST.veric.compcert_rmaps <> loc:96 var
+R27071:27071 VST.veric.compcert_rmaps <> m:95 var
+R27120:27133 VST.veric.compcert_rmaps <> bytes_writable def
+R27136:27149 VST.veric.compcert_rmaps <> bytes_readable def
+R27166:27182 VST.veric.compcert_rmaps <> writable_readable thm
+R27166:27182 VST.veric.compcert_rmaps <> writable_readable thm
+prf 27248:27257 <> rmap_age_i
+R27275:27278 VST.veric.compcert_rmaps <> rmap defax
+binder 27268:27268 <> w:98
+binder 27270:27271 <> w':99
+R27307:27313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27314:27314 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27395:27403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27481:27488 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27489:27491 VST.msl.ageable <> age def
+R27495:27496 VST.veric.compcert_rmaps <> w':99 var
+R27493:27493 VST.veric.compcert_rmaps <> w:98 var
+R27467:27469 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27404:27413 VST.veric.compcert_rmaps <> ghost_fmap def
+R27456:27463 VST.veric.compcert_rmaps <> ghost_of def
+R27465:27465 VST.veric.compcert_rmaps <> w:98 var
+R27436:27441 VST.veric.compcert_rmaps <> approx def
+R27444:27448 VST.msl.ageable <> level meth
+R27450:27451 VST.veric.compcert_rmaps <> w':99 var
+R27416:27421 VST.veric.compcert_rmaps <> approx def
+R27424:27428 VST.msl.ageable <> level meth
+R27430:27431 VST.veric.compcert_rmaps <> w':99 var
+R27470:27477 VST.veric.compcert_rmaps <> ghost_of def
+R27479:27480 VST.veric.compcert_rmaps <> w':99 var
+binder 27322:27322 <> l:100
+R27386:27388 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27325:27337 VST.veric.compcert_rmaps <> resource_fmap def
+R27381:27383 VST.veric.rmaps RMAPS :::x_'@'_x not
+R27380:27380 VST.veric.compcert_rmaps <> w:98 var
+R27384:27384 VST.veric.compcert_rmaps <> l:100 var
+R27360:27365 VST.veric.compcert_rmaps <> approx def
+R27368:27372 VST.msl.ageable <> level meth
+R27374:27375 VST.veric.compcert_rmaps <> w':99 var
+R27340:27345 VST.veric.compcert_rmaps <> approx def
+R27348:27352 VST.msl.ageable <> level meth
+R27354:27355 VST.veric.compcert_rmaps <> w':99 var
+R27391:27393 VST.veric.rmaps RMAPS :::x_'@'_x not
+R27389:27390 VST.veric.compcert_rmaps <> w':99 var
+R27394:27394 VST.veric.compcert_rmaps <> l:100 var
+R27292:27294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27285:27289 VST.msl.ageable <> level meth
+R27291:27291 VST.veric.compcert_rmaps <> w:98 var
+R27295:27295 Coq.Init.Datatypes <> S constr
+R27298:27302 VST.msl.ageable <> level meth
+R27304:27305 VST.veric.compcert_rmaps <> w':99 var
+R27529:27539 VST.msl.ageable <> levelS_age1 thm
+R27529:27539 VST.msl.ageable <> levelS_age1 thm
+R27558:27558 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27558:27558 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27597:27599 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27590:27594 VST.msl.ageable <> level meth
+R27600:27604 VST.msl.ageable <> level meth
+R27622:27630 VST.msl.ageable <> age_level thm
+R27597:27599 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27590:27594 VST.msl.ageable <> level meth
+R27600:27604 VST.msl.ageable <> level meth
+R27622:27630 VST.msl.ageable <> age_level thm
+R27651:27658 VST.veric.compcert_rmaps <> rmap_ext thm
+R27651:27658 VST.veric.compcert_rmaps <> rmap_ext thm
+R27703:27718 VST.veric.compcert_rmaps <> age1_resource_at thm
+R27731:27731 VST.veric.rmaps RMAPS :::x_'@'_x not
+R27703:27718 VST.veric.compcert_rmaps <> age1_resource_at thm
+R27731:27731 VST.veric.rmaps RMAPS :::x_'@'_x not
+R27703:27718 VST.veric.compcert_rmaps <> age1_resource_at thm
+R27731:27731 VST.veric.rmaps RMAPS :::x_'@'_x not
+R27703:27718 VST.veric.compcert_rmaps <> age1_resource_at thm
+R27731:27731 VST.veric.rmaps RMAPS :::x_'@'_x not
+R27775:27792 VST.veric.compcert_rmaps <> resource_at_approx thm
+R27775:27792 VST.veric.compcert_rmaps <> resource_at_approx thm
+R27804:27816 VST.veric.compcert_rmaps <> age1_ghost_of thm
+R27804:27816 VST.veric.compcert_rmaps <> age1_ghost_of thm
+R27804:27816 VST.veric.compcert_rmaps <> age1_ghost_of thm
+R27804:27816 VST.veric.compcert_rmaps <> age1_ghost_of thm

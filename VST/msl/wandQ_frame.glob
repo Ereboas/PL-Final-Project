@@ -1,0 +1,333 @@
+DIGEST ec40092290dda6e7067ea935fc9ac59d
+FVST.msl.wandQ_frame
+R15:28 VST.msl.seplog <> <> lib
+R46:63 VST.msl.alg_seplog <> <> lib
+R81:101 VST.msl.log_normalize <> <> lib
+R119:136 VST.msl.wand_frame <> <> lib
+prf 170:187 <> wandQ_frame_refine
+binder 190:190 <> A:1
+R198:203 VST.msl.seplog <> NatDed class
+R205:205 VST.msl.wandQ_frame <> A:1 var
+binder 194:195 <> ND:2
+R213:218 VST.msl.seplog <> SepLog class
+R220:220 VST.msl.wandQ_frame <> A:1 var
+binder 209:210 <> SL:3
+binder 231:231 <> B:4
+binder 233:233 <> C:5
+R240:243 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R244:244 VST.msl.wandQ_frame <> A:1 var
+R239:239 VST.msl.wandQ_frame <> B:4 var
+binder 236:236 <> P:6
+R252:255 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R256:256 VST.msl.wandQ_frame <> B:4 var
+R251:251 VST.msl.wandQ_frame <> C:5 var
+binder 248:248 <> f:7
+R268:272 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R262:265 VST.msl.seplog <> allp meth
+R267:267 VST.msl.wandQ_frame <> P:6 var
+R273:276 VST.msl.seplog <> allp meth
+binder 283:283 <> c:8
+R288:288 VST.msl.wandQ_frame <> P:6 var
+R291:291 VST.msl.wandQ_frame <> f:7 var
+R293:293 VST.msl.wandQ_frame <> c:8 var
+R323:332 VST.msl.seplog <> allp_right meth
+R323:332 VST.msl.seplog <> allp_right meth
+R354:362 VST.msl.seplog <> allp_left meth
+R354:362 VST.msl.seplog <> allp_left meth
+prf 394:410 <> wandQ_frame_intro
+binder 413:413 <> A:9
+R421:426 VST.msl.seplog <> NatDed class
+R428:428 VST.msl.wandQ_frame <> A:9 var
+binder 417:418 <> ND:10
+R436:441 VST.msl.seplog <> SepLog class
+R443:443 VST.msl.wandQ_frame <> A:9 var
+binder 432:433 <> SL:11
+binder 454:454 <> B:12
+R461:464 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R465:465 VST.msl.wandQ_frame <> A:9 var
+R460:460 VST.msl.wandQ_frame <> B:12 var
+binder 457:457 <> P:13
+R472:472 VST.msl.wandQ_frame <> A:9 var
+binder 469:469 <> Q:14
+R479:483 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R478:478 VST.msl.wandQ_frame <> Q:14 var
+R484:487 VST.msl.seplog <> allp meth
+R491:494 VST.msl.seplog <> ::logic:x_'-*'_x not
+R490:490 VST.msl.wandQ_frame <> P:13 var
+R496:499 VST.msl.seplog <> ::logic:x_'*'_x not
+R510:510 VST.msl.seplog <> ::logic:x_'*'_x not
+R495:495 VST.msl.wandQ_frame <> P:13 var
+R509:509 VST.msl.wandQ_frame <> Q:14 var
+R546:555 VST.msl.seplog <> allp_right meth
+R546:555 VST.msl.seplog <> allp_right meth
+R576:591 VST.msl.wand_frame <> wand_frame_intro thm
+R576:591 VST.msl.wand_frame <> wand_frame_intro thm
+prf 606:623 <> wandQ_frame_intro'
+binder 626:626 <> A:15
+R634:639 VST.msl.seplog <> NatDed class
+R641:641 VST.msl.wandQ_frame <> A:15 var
+binder 630:631 <> ND:16
+R649:654 VST.msl.seplog <> SepLog class
+R656:656 VST.msl.wandQ_frame <> A:15 var
+binder 645:646 <> SL:17
+binder 667:667 <> B:18
+R674:677 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R678:678 VST.msl.wandQ_frame <> A:15 var
+R673:673 VST.msl.wandQ_frame <> B:18 var
+binder 670:670 <> P:19
+R685:685 VST.msl.wandQ_frame <> A:15 var
+binder 682:682 <> Q:20
+R693:696 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R697:697 VST.msl.wandQ_frame <> A:15 var
+R692:692 VST.msl.wandQ_frame <> B:18 var
+binder 689:689 <> R:21
+R703:703 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R732:738 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R740:744 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R739:739 VST.msl.wandQ_frame <> Q:20 var
+R745:748 VST.msl.seplog <> allp meth
+R752:755 VST.msl.seplog <> ::logic:x_'-*'_x not
+R751:751 VST.msl.wandQ_frame <> P:19 var
+R756:756 VST.msl.wandQ_frame <> R:21 var
+R714:714 VST.msl.wandQ_frame <> B:18 var
+binder 711:711 <> x:22
+R724:728 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R720:722 VST.msl.seplog <> ::logic:x_'*'_x not
+R717:717 VST.msl.wandQ_frame <> P:19 var
+R719:719 VST.msl.wandQ_frame <> x:22 var
+R723:723 VST.msl.wandQ_frame <> Q:20 var
+R729:729 VST.msl.wandQ_frame <> R:21 var
+R731:731 VST.msl.wandQ_frame <> x:22 var
+R792:801 VST.msl.seplog <> allp_right meth
+R792:801 VST.msl.seplog <> allp_right meth
+R822:838 VST.msl.wand_frame <> wand_frame_intro' thm
+R822:838 VST.msl.wand_frame <> wand_frame_intro' thm
+prf 864:879 <> wandQ_frame_elim
+binder 882:882 <> A:23
+R890:895 VST.msl.seplog <> NatDed class
+R897:897 VST.msl.wandQ_frame <> A:23 var
+binder 886:887 <> ND:24
+R905:910 VST.msl.seplog <> SepLog class
+R912:912 VST.msl.wandQ_frame <> A:23 var
+binder 901:902 <> SL:25
+binder 923:923 <> B:26
+R932:935 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R936:936 VST.msl.wandQ_frame <> A:23 var
+R931:931 VST.msl.wandQ_frame <> B:26 var
+binder 926:926 <> P:27
+binder 928:928 <> Q:28
+R943:943 VST.msl.wandQ_frame <> B:26 var
+binder 940:940 <> a:29
+R968:972 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R952:954 VST.msl.seplog <> ::logic:x_'*'_x not
+R949:949 VST.msl.wandQ_frame <> P:27 var
+R951:951 VST.msl.wandQ_frame <> a:29 var
+R955:958 VST.msl.seplog <> allp meth
+R962:965 VST.msl.seplog <> ::logic:x_'-*'_x not
+R961:961 VST.msl.wandQ_frame <> P:27 var
+R966:966 VST.msl.wandQ_frame <> Q:28 var
+R973:973 VST.msl.wandQ_frame <> Q:28 var
+R975:975 VST.msl.wandQ_frame <> a:29 var
+R1005:1015 VST.msl.seplog <> sepcon_comm meth
+R1005:1015 VST.msl.seplog <> sepcon_comm meth
+R1005:1015 VST.msl.seplog <> sepcon_comm meth
+R1026:1044 VST.msl.seplog <> wand_sepcon_adjoint meth
+R1026:1044 VST.msl.seplog <> wand_sepcon_adjoint meth
+R1056:1064 VST.msl.seplog <> allp_left meth
+R1056:1064 VST.msl.seplog <> allp_left meth
+prf 1097:1111 <> wandQ_frame_ver
+binder 1114:1114 <> A:30
+R1122:1127 VST.msl.seplog <> NatDed class
+R1129:1129 VST.msl.wandQ_frame <> A:30 var
+binder 1118:1119 <> ND:31
+R1137:1142 VST.msl.seplog <> SepLog class
+R1144:1144 VST.msl.wandQ_frame <> A:30 var
+binder 1133:1134 <> SL:32
+binder 1155:1155 <> B:33
+R1166:1169 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1170:1170 VST.msl.wandQ_frame <> A:30 var
+R1165:1165 VST.msl.wandQ_frame <> B:33 var
+binder 1158:1158 <> P:34
+binder 1160:1160 <> Q:35
+binder 1162:1162 <> R:36
+R1205:1209 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1189:1191 VST.msl.seplog <> ::logic:x_'*'_x not
+R1176:1179 VST.msl.seplog <> allp meth
+R1183:1186 VST.msl.seplog <> ::logic:x_'-*'_x not
+R1182:1182 VST.msl.wandQ_frame <> P:34 var
+R1187:1187 VST.msl.wandQ_frame <> Q:35 var
+R1192:1195 VST.msl.seplog <> allp meth
+R1199:1202 VST.msl.seplog <> ::logic:x_'-*'_x not
+R1198:1198 VST.msl.wandQ_frame <> Q:35 var
+R1203:1203 VST.msl.wandQ_frame <> R:36 var
+R1210:1213 VST.msl.seplog <> allp meth
+R1217:1220 VST.msl.seplog <> ::logic:x_'-*'_x not
+R1216:1216 VST.msl.wandQ_frame <> P:34 var
+R1221:1221 VST.msl.wandQ_frame <> R:36 var
+R1250:1259 VST.msl.seplog <> allp_right meth
+R1250:1259 VST.msl.seplog <> allp_right meth
+R1283:1301 VST.msl.seplog <> wand_sepcon_adjoint meth
+R1283:1301 VST.msl.seplog <> wand_sepcon_adjoint meth
+R1313:1321 VST.msl.seplog <> allp_left meth
+R1313:1321 VST.msl.seplog <> allp_left meth
+R1340:1358 VST.msl.seplog <> wand_sepcon_adjoint meth
+R1340:1358 VST.msl.seplog <> wand_sepcon_adjoint meth
+R1371:1381 VST.msl.seplog <> sepcon_comm meth
+R1371:1381 VST.msl.seplog <> sepcon_comm meth
+R1371:1381 VST.msl.seplog <> sepcon_comm meth
+R1395:1413 VST.msl.seplog <> wand_sepcon_adjoint meth
+R1395:1413 VST.msl.seplog <> wand_sepcon_adjoint meth
+R1425:1433 VST.msl.seplog <> allp_left meth
+R1425:1433 VST.msl.seplog <> allp_left meth
+R1452:1470 VST.msl.seplog <> wand_sepcon_adjoint meth
+R1452:1470 VST.msl.seplog <> wand_sepcon_adjoint meth
+R1483:1493 VST.msl.seplog <> sepcon_comm meth
+R1483:1493 VST.msl.seplog <> sepcon_comm meth
+R1483:1493 VST.msl.seplog <> sepcon_comm meth
+R1504:1517 VST.msl.wand_frame <> wand_frame_ver thm
+R1504:1517 VST.msl.wand_frame <> wand_frame_ver thm
+prf 1532:1546 <> wandQ_frame_hor
+binder 1549:1549 <> A:37
+R1557:1562 VST.msl.seplog <> NatDed class
+R1564:1564 VST.msl.wandQ_frame <> A:37 var
+binder 1553:1554 <> ND:38
+R1572:1577 VST.msl.seplog <> SepLog class
+R1579:1579 VST.msl.wandQ_frame <> A:37 var
+binder 1568:1569 <> SL:39
+binder 1590:1590 <> B:40
+R1607:1610 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1611:1611 VST.msl.wandQ_frame <> A:37 var
+R1606:1606 VST.msl.wandQ_frame <> B:40 var
+binder 1593:1594 <> P1:41
+binder 1596:1597 <> P2:42
+binder 1599:1600 <> Q1:43
+binder 1602:1603 <> Q2:44
+R1650:1654 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1632:1634 VST.msl.seplog <> ::logic:x_'*'_x not
+R1617:1620 VST.msl.seplog <> allp meth
+R1625:1628 VST.msl.seplog <> ::logic:x_'-*'_x not
+R1623:1624 VST.msl.wandQ_frame <> P1:41 var
+R1629:1630 VST.msl.wandQ_frame <> Q1:43 var
+R1635:1638 VST.msl.seplog <> allp meth
+R1643:1646 VST.msl.seplog <> ::logic:x_'-*'_x not
+R1641:1642 VST.msl.wandQ_frame <> P2:42 var
+R1647:1648 VST.msl.wandQ_frame <> Q2:44 var
+R1655:1658 VST.msl.seplog <> allp meth
+R1668:1671 VST.msl.seplog <> ::logic:x_'-*'_x not
+R1663:1665 VST.msl.seplog <> ::logic:x_'*'_x not
+R1661:1662 VST.msl.wandQ_frame <> P1:41 var
+R1666:1667 VST.msl.wandQ_frame <> P2:42 var
+R1674:1676 VST.msl.seplog <> ::logic:x_'*'_x not
+R1672:1673 VST.msl.wandQ_frame <> Q1:43 var
+R1677:1678 VST.msl.wandQ_frame <> Q2:44 var
+R1707:1716 VST.msl.seplog <> allp_right meth
+R1707:1716 VST.msl.seplog <> allp_right meth
+R1740:1758 VST.msl.seplog <> wand_sepcon_adjoint meth
+R1740:1758 VST.msl.seplog <> wand_sepcon_adjoint meth
+R1770:1778 VST.msl.seplog <> allp_left meth
+R1770:1778 VST.msl.seplog <> allp_left meth
+R1797:1815 VST.msl.seplog <> wand_sepcon_adjoint meth
+R1797:1815 VST.msl.seplog <> wand_sepcon_adjoint meth
+R1828:1838 VST.msl.seplog <> sepcon_comm meth
+R1828:1838 VST.msl.seplog <> sepcon_comm meth
+R1828:1838 VST.msl.seplog <> sepcon_comm meth
+R1852:1870 VST.msl.seplog <> wand_sepcon_adjoint meth
+R1852:1870 VST.msl.seplog <> wand_sepcon_adjoint meth
+R1882:1890 VST.msl.seplog <> allp_left meth
+R1882:1890 VST.msl.seplog <> allp_left meth
+R1909:1927 VST.msl.seplog <> wand_sepcon_adjoint meth
+R1909:1927 VST.msl.seplog <> wand_sepcon_adjoint meth
+R1940:1950 VST.msl.seplog <> sepcon_comm meth
+R1940:1950 VST.msl.seplog <> sepcon_comm meth
+R1940:1950 VST.msl.seplog <> sepcon_comm meth
+R1961:1974 VST.msl.wand_frame <> wand_frame_hor thm
+R1961:1974 VST.msl.wand_frame <> wand_frame_hor thm
+prf 1989:2005 <> wandQ_frame_frame
+binder 2008:2008 <> A:45
+R2016:2021 VST.msl.seplog <> NatDed class
+R2023:2023 VST.msl.wandQ_frame <> A:45 var
+binder 2012:2013 <> ND:46
+R2031:2036 VST.msl.seplog <> SepLog class
+R2038:2038 VST.msl.wandQ_frame <> A:45 var
+binder 2027:2028 <> SL:47
+binder 2049:2049 <> B:48
+R2060:2063 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2064:2064 VST.msl.wandQ_frame <> A:45 var
+R2059:2059 VST.msl.wandQ_frame <> B:48 var
+binder 2052:2052 <> P:49
+binder 2054:2054 <> Q:50
+binder 2056:2056 <> F:51
+R2083:2087 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2070:2073 VST.msl.seplog <> allp meth
+R2077:2080 VST.msl.seplog <> ::logic:x_'-*'_x not
+R2076:2076 VST.msl.wandQ_frame <> P:49 var
+R2081:2081 VST.msl.wandQ_frame <> Q:50 var
+R2088:2091 VST.msl.seplog <> allp meth
+R2099:2102 VST.msl.seplog <> ::logic:x_'-*'_x not
+R2095:2097 VST.msl.seplog <> ::logic:x_'*'_x not
+R2094:2094 VST.msl.wandQ_frame <> P:49 var
+R2098:2098 VST.msl.wandQ_frame <> F:51 var
+R2104:2106 VST.msl.seplog <> ::logic:x_'*'_x not
+R2103:2103 VST.msl.wandQ_frame <> Q:50 var
+R2107:2107 VST.msl.wandQ_frame <> F:51 var
+R2136:2145 VST.msl.seplog <> allp_right meth
+R2136:2145 VST.msl.seplog <> allp_right meth
+R2167:2175 VST.msl.seplog <> allp_left meth
+R2167:2175 VST.msl.seplog <> allp_left meth
+R2191:2206 VST.msl.wand_frame <> wand_frame_frame thm
+R2191:2206 VST.msl.wand_frame <> wand_frame_frame thm
+prf 2221:2235 <> sepcon_wandQ_eq
+binder 2238:2238 <> A:52
+R2246:2251 VST.msl.seplog <> NatDed class
+R2253:2253 VST.msl.wandQ_frame <> A:52 var
+binder 2242:2243 <> ND:53
+R2261:2266 VST.msl.seplog <> SepLog class
+R2268:2268 VST.msl.wandQ_frame <> A:52 var
+binder 2257:2258 <> SL:54
+binder 2279:2279 <> B:55
+R2286:2289 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2290:2290 VST.msl.wandQ_frame <> A:52 var
+R2285:2285 VST.msl.wandQ_frame <> B:55 var
+binder 2282:2282 <> P:56
+R2297:2297 VST.msl.wandQ_frame <> A:52 var
+binder 2294:2294 <> Q:57
+R2304:2304 VST.msl.wandQ_frame <> B:55 var
+binder 2301:2301 <> a:58
+R2342:2344 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2313:2316 VST.msl.seplog <> ::logic:x_'*'_x not
+R2341:2341 VST.msl.seplog <> ::logic:x_'*'_x not
+R2310:2310 VST.msl.wandQ_frame <> P:56 var
+R2312:2312 VST.msl.wandQ_frame <> a:58 var
+R2317:2320 VST.msl.seplog <> ::logic:'ALL'_x_'..'_x_','_x not
+R2325:2326 VST.msl.seplog <> ::logic:'ALL'_x_'..'_x_','_x not
+R2324:2324 VST.msl.wandQ_frame <> B:55 var
+binder 2321:2321 <> b:59
+R2330:2333 VST.msl.seplog <> ::logic:x_'-*'_x not
+R2327:2327 VST.msl.wandQ_frame <> P:56 var
+R2329:2329 VST.msl.wandQ_frame <> b:59 var
+R2337:2339 VST.msl.seplog <> ::logic:x_'*'_x not
+R2334:2334 VST.msl.wandQ_frame <> P:56 var
+R2336:2336 VST.msl.wandQ_frame <> b:59 var
+R2340:2340 VST.msl.wandQ_frame <> Q:57 var
+R2348:2350 VST.msl.seplog <> ::logic:x_'*'_x not
+R2345:2345 VST.msl.wandQ_frame <> P:56 var
+R2347:2347 VST.msl.wandQ_frame <> a:58 var
+R2351:2351 VST.msl.wandQ_frame <> Q:57 var
+R2379:2386 VST.msl.seplog <> pred_ext meth
+R2379:2386 VST.msl.seplog <> pred_ext meth
+R2401:2411 VST.msl.seplog <> sepcon_comm meth
+R2401:2411 VST.msl.seplog <> sepcon_comm meth
+R2401:2411 VST.msl.seplog <> sepcon_comm meth
+R2424:2442 VST.msl.seplog <> wand_sepcon_adjoint meth
+R2424:2442 VST.msl.seplog <> wand_sepcon_adjoint meth
+R2456:2464 VST.msl.seplog <> allp_left meth
+R2456:2464 VST.msl.seplog <> allp_left meth
+R2492:2505 VST.msl.seplog <> sepcon_derives meth
+R2492:2505 VST.msl.seplog <> sepcon_derives meth
+R2524:2533 VST.msl.seplog <> allp_right meth
+R2524:2533 VST.msl.seplog <> allp_right meth
+R2554:2572 VST.msl.seplog <> wand_sepcon_adjoint meth
+R2554:2572 VST.msl.seplog <> wand_sepcon_adjoint meth
+R2587:2597 VST.msl.seplog <> sepcon_comm meth
+R2587:2597 VST.msl.seplog <> sepcon_comm meth
+R2587:2597 VST.msl.seplog <> sepcon_comm meth

@@ -1,0 +1,1419 @@
+DIGEST 2b75c236a98272d06af48ee0a8461e2b
+FVST.veric.mpred
+R15:28 VST.veric.base <> <> lib
+R46:60 VST.veric.rmaps <> <> lib
+R78:102 compcert.cfrontend.Ctypes <> <> lib
+R120:143 VST.veric.compcert_rmaps <> <> lib
+R162:188 VST.veric.composite_compute <> <> lib
+R206:224 VST.veric.align_mem <> <> lib
+R242:261 VST.veric.val_lemmas <> <> lib
+def 297:311 <> strict_bool_val
+R317:319 compcert.common.Values <> val ind
+binder 314:314 <> v:1
+R326:329 compcert.cfrontend.Ctypes <> type ind
+binder 323:323 <> t:2
+R334:339 Coq.Init.Datatypes <> option ind
+R341:344 Coq.Init.Datatypes <> bool ind
+R361:361 VST.veric.mpred <> t:2 var
+R358:358 VST.veric.mpred <> v:1 var
+R373:376 compcert.common.Values <> Vint constr
+R381:384 compcert.cfrontend.Ctypes <> Tint constr
+R395:398 Coq.Init.Datatypes <> Some constr
+R401:404 Coq.Init.Datatypes <> negb def
+R407:412 compcert.lib.Integers Int eq def
+R416:423 compcert.lib.Integers Int zero def
+R432:436 compcert.common.Values <> Vlong constr
+R441:445 compcert.cfrontend.Ctypes <> Tlong constr
+R454:457 Coq.Init.Datatypes <> Some constr
+R460:463 Coq.Init.Datatypes <> negb def
+R466:473 compcert.lib.Integers Int64 eq def
+R477:486 compcert.lib.Integers Int64 zero def
+R496:499 compcert.common.Values <> Vint constr
+R506:513 compcert.cfrontend.Ctypes <> Tpointer constr
+R521:526 compcert.cfrontend.Ctypes <> Tarray constr
+R536:544 compcert.cfrontend.Ctypes <> Tfunction constr
+R572:582 compcert.x86_32.Archi <> ptr64 def
+R602:607 compcert.lib.Integers Int eq def
+R611:618 compcert.lib.Integers Int zero def
+R641:644 Coq.Init.Datatypes <> None constr
+R625:628 Coq.Init.Datatypes <> Some constr
+R630:634 Coq.Init.Datatypes <> false constr
+R589:592 Coq.Init.Datatypes <> None constr
+R572:582 compcert.x86_32.Archi <> ptr64 def
+R602:607 compcert.lib.Integers Int eq def
+R611:618 compcert.lib.Integers Int zero def
+R641:644 Coq.Init.Datatypes <> None constr
+R625:628 Coq.Init.Datatypes <> Some constr
+R630:634 Coq.Init.Datatypes <> false constr
+R589:592 Coq.Init.Datatypes <> None constr
+R572:582 compcert.x86_32.Archi <> ptr64 def
+R602:607 compcert.lib.Integers Int eq def
+R611:618 compcert.lib.Integers Int zero def
+R641:644 Coq.Init.Datatypes <> None constr
+R625:628 Coq.Init.Datatypes <> Some constr
+R630:634 Coq.Init.Datatypes <> false constr
+R589:592 Coq.Init.Datatypes <> None constr
+R651:655 compcert.common.Values <> Vlong constr
+R661:668 compcert.cfrontend.Ctypes <> Tpointer constr
+R676:681 compcert.cfrontend.Ctypes <> Tarray constr
+R691:699 compcert.cfrontend.Ctypes <> Tfunction constr
+R727:737 compcert.x86_32.Archi <> ptr64 def
+R800:803 Coq.Init.Datatypes <> None constr
+R747:754 compcert.lib.Integers Int64 eq def
+R758:767 compcert.lib.Integers Int64 zero def
+R790:793 Coq.Init.Datatypes <> None constr
+R774:777 Coq.Init.Datatypes <> Some constr
+R779:783 Coq.Init.Datatypes <> false constr
+R727:737 compcert.x86_32.Archi <> ptr64 def
+R800:803 Coq.Init.Datatypes <> None constr
+R747:754 compcert.lib.Integers Int64 eq def
+R758:767 compcert.lib.Integers Int64 zero def
+R790:793 Coq.Init.Datatypes <> None constr
+R774:777 Coq.Init.Datatypes <> Some constr
+R779:783 Coq.Init.Datatypes <> false constr
+R727:737 compcert.x86_32.Archi <> ptr64 def
+R800:803 Coq.Init.Datatypes <> None constr
+R747:754 compcert.lib.Integers Int64 eq def
+R758:767 compcert.lib.Integers Int64 zero def
+R790:793 Coq.Init.Datatypes <> None constr
+R774:777 Coq.Init.Datatypes <> Some constr
+R779:783 Coq.Init.Datatypes <> false constr
+R810:813 compcert.common.Values <> Vptr constr
+R823:830 compcert.cfrontend.Ctypes <> Tpointer constr
+R838:843 compcert.cfrontend.Ctypes <> Tarray constr
+R853:861 compcert.cfrontend.Ctypes <> Tfunction constr
+R874:877 Coq.Init.Datatypes <> Some constr
+R879:882 Coq.Init.Datatypes <> true constr
+R874:877 Coq.Init.Datatypes <> Some constr
+R879:882 Coq.Init.Datatypes <> true constr
+R874:877 Coq.Init.Datatypes <> Some constr
+R879:882 Coq.Init.Datatypes <> true constr
+R889:894 compcert.common.Values <> Vfloat constr
+R899:904 compcert.cfrontend.Ctypes <> Tfloat constr
+R906:908 compcert.cfrontend.Ctypes <> F64 constr
+R915:918 Coq.Init.Datatypes <> Some constr
+R921:924 Coq.Init.Datatypes <> negb def
+R926:934 compcert.lib.Floats Float cmp def
+R942:951 compcert.lib.Floats Float zero def
+R936:938 compcert.lib.Integers <> Ceq constr
+R960:966 compcert.common.Values <> Vsingle constr
+R971:976 compcert.cfrontend.Ctypes <> Tfloat constr
+R978:980 compcert.cfrontend.Ctypes <> F32 constr
+R987:990 Coq.Init.Datatypes <> Some constr
+R993:996 Coq.Init.Datatypes <> negb def
+R998:1008 compcert.lib.Floats Float32 cmp def
+R1016:1027 compcert.lib.Floats Float32 zero def
+R1010:1012 compcert.lib.Integers <> Ceq constr
+R1044:1047 Coq.Init.Datatypes <> None constr
+def 1069:1084 <> type_is_by_value
+R1089:1092 compcert.cfrontend.Ctypes <> type ind
+binder 1087:1087 <> t:5
+R1097:1100 Coq.Init.Datatypes <> bool ind
+R1113:1113 VST.veric.mpred <> t:5 var
+R1124:1127 compcert.cfrontend.Ctypes <> Tint constr
+R1139:1143 compcert.cfrontend.Ctypes <> Tlong constr
+R1153:1158 compcert.cfrontend.Ctypes <> Tfloat constr
+R1168:1175 compcert.cfrontend.Ctypes <> Tpointer constr
+R1184:1187 Coq.Init.Datatypes <> true constr
+R1184:1187 Coq.Init.Datatypes <> true constr
+R1184:1187 Coq.Init.Datatypes <> true constr
+R1184:1187 Coq.Init.Datatypes <> true constr
+R1198:1202 Coq.Init.Datatypes <> false constr
+def 1223:1242 <> type_is_by_reference
+binder 1244:1244 <> t:7
+R1248:1251 Coq.Init.Datatypes <> bool ind
+R1264:1264 VST.veric.mpred <> t:7 var
+R1275:1280 compcert.cfrontend.Ctypes <> Tarray constr
+R1292:1300 compcert.cfrontend.Ctypes <> Tfunction constr
+R1311:1314 Coq.Init.Datatypes <> true constr
+R1311:1314 Coq.Init.Datatypes <> true constr
+R1325:1329 Coq.Init.Datatypes <> false constr
+mod 1395:1397 <> Map
+sec 1408:1410 Map map
+var 1424:1424 Map.map B
+def 1447:1447 Map t
+R1460:1463 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1464:1469 Coq.Init.Datatypes <> option ind
+R1471:1471 VST.veric.mpred <> Map.map.B var
+R1452:1459 Coq.Numbers.BinNums <> positive ind
+def 1486:1488 Map get
+R1494:1494 VST.veric.mpred Map t def
+binder 1491:1491 <> h:10
+R1500:1507 Coq.Numbers.BinNums <> positive ind
+binder 1498:1498 <> a:11
+R1512:1517 Coq.Init.Datatypes <> option ind
+R1519:1519 VST.veric.mpred <> Map.map.B var
+R1524:1524 VST.veric.mpred <> h:10 var
+R1526:1526 VST.veric.mpred <> a:11 var
+def 1541:1543 Map set
+R1548:1555 Coq.Numbers.BinNums <> positive ind
+binder 1546:1546 <> a:12
+R1562:1562 VST.veric.mpred <> Map.map.B var
+binder 1559:1559 <> v:13
+R1569:1569 VST.veric.mpred Map t def
+binder 1566:1566 <> h:14
+R1574:1574 VST.veric.mpred Map t def
+binder 1585:1585 <> i:15
+R1593:1600 compcert.common.AST <> ident_eq def
+R1604:1604 VST.veric.mpred <> a:12 var
+R1602:1602 VST.veric.mpred <> i:15 var
+R1623:1623 VST.veric.mpred <> h:14 var
+R1625:1625 VST.veric.mpred <> i:15 var
+R1611:1614 Coq.Init.Datatypes <> Some constr
+R1616:1616 VST.veric.mpred <> v:13 var
+def 1640:1645 Map remove
+R1651:1658 Coq.Numbers.BinNums <> positive ind
+binder 1648:1648 <> a:16
+R1665:1665 VST.veric.mpred Map t def
+binder 1662:1662 <> h:17
+R1670:1670 VST.veric.mpred Map t def
+binder 1681:1681 <> i:18
+R1689:1696 compcert.common.AST <> ident_eq def
+R1700:1700 VST.veric.mpred <> a:16 var
+R1698:1698 VST.veric.mpred <> i:18 var
+R1717:1717 VST.veric.mpred <> h:17 var
+R1719:1719 VST.veric.mpred <> i:18 var
+R1707:1710 Coq.Init.Datatypes <> None constr
+def 1734:1738 Map empty
+R1742:1742 VST.veric.mpred Map t def
+R1756:1759 Coq.Init.Datatypes <> None constr
+prf 1789:1791 Map gss
+binder 1793:1793 <> h:19
+binder 1795:1795 <> x:20
+binder 1797:1797 <> v:21
+R1818:1820 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1801:1803 VST.veric.mpred Map get def
+R1817:1817 VST.veric.mpred <> x:20 var
+R1806:1808 VST.veric.mpred Map set def
+R1814:1814 VST.veric.mpred <> h:19 var
+R1812:1812 VST.veric.mpred <> v:21 var
+R1810:1810 VST.veric.mpred <> x:20 var
+R1821:1824 Coq.Init.Datatypes <> Some constr
+R1826:1826 VST.veric.mpred <> v:21 var
+R1836:1838 VST.veric.mpred Map get def
+R1841:1843 VST.veric.mpred Map set def
+prf 1877:1879 Map gso
+binder 1881:1881 <> h:22
+binder 1883:1883 <> x:23
+binder 1885:1885 <> y:24
+binder 1887:1887 <> v:25
+R1895:1898 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1916:1918 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1899:1901 VST.veric.mpred Map get def
+R1915:1915 VST.veric.mpred <> y:24 var
+R1904:1906 VST.veric.mpred Map set def
+R1912:1912 VST.veric.mpred <> h:22 var
+R1910:1910 VST.veric.mpred <> v:25 var
+R1908:1908 VST.veric.mpred <> x:23 var
+R1919:1921 VST.veric.mpred Map get def
+R1925:1925 VST.veric.mpred <> y:24 var
+R1923:1923 VST.veric.mpred <> h:22 var
+R1892:1893 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1891:1891 VST.veric.mpred <> x:23 var
+R1894:1894 VST.veric.mpred <> y:24 var
+R1935:1937 VST.veric.mpred Map get def
+R1940:1942 VST.veric.mpred Map set def
+prf 1984:1986 Map grs
+binder 1988:1988 <> h:26
+binder 1990:1990 <> x:27
+R2012:2014 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1994:1996 VST.veric.mpred Map get def
+R2011:2011 VST.veric.mpred <> x:27 var
+R1999:2004 VST.veric.mpred Map remove def
+R2008:2008 VST.veric.mpred <> h:26 var
+R2006:2006 VST.veric.mpred <> x:27 var
+R2015:2018 Coq.Init.Datatypes <> None constr
+R2028:2030 VST.veric.mpred Map get def
+R2033:2038 VST.veric.mpred Map remove def
+prf 2080:2082 Map gro
+binder 2084:2084 <> h:28
+binder 2086:2086 <> x:29
+binder 2088:2088 <> y:30
+R2096:2099 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2118:2120 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2100:2102 VST.veric.mpred Map get def
+R2117:2117 VST.veric.mpred <> y:30 var
+R2105:2110 VST.veric.mpred Map remove def
+R2114:2114 VST.veric.mpred <> h:28 var
+R2112:2112 VST.veric.mpred <> x:29 var
+R2121:2123 VST.veric.mpred Map get def
+R2127:2127 VST.veric.mpred <> y:30 var
+R2125:2125 VST.veric.mpred <> h:28 var
+R2093:2094 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2092:2092 VST.veric.mpred <> x:29 var
+R2095:2095 VST.veric.mpred <> y:30 var
+R2137:2139 VST.veric.mpred Map get def
+R2142:2147 VST.veric.mpred Map remove def
+prf 2189:2191 Map ext
+binder 2193:2193 <> h:31
+binder 2195:2196 <> h':32
+R2200:2200 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2229:2233 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2235:2235 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2234:2234 VST.veric.mpred <> h:31 var
+R2236:2237 VST.veric.mpred <> h':32 var
+binder 2208:2208 <> x:33
+R2218:2220 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2211:2213 VST.veric.mpred Map get def
+R2217:2217 VST.veric.mpred <> x:33 var
+R2215:2215 VST.veric.mpred <> h:31 var
+R2221:2223 VST.veric.mpred Map get def
+R2228:2228 VST.veric.mpred <> x:33 var
+R2225:2226 VST.veric.mpred <> h':32 var
+prf 2294:2301 Map override
+R2307:2314 Coq.Numbers.BinNums <> positive ind
+binder 2304:2304 <> a:34
+R2325:2325 VST.veric.mpred <> Map.map.B var
+binder 2318:2318 <> b:35
+binder 2320:2321 <> b':36
+binder 2328:2328 <> h:37
+R2352:2354 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2332:2334 VST.veric.mpred Map set def
+R2342:2344 VST.veric.mpred Map set def
+R2350:2350 VST.veric.mpred <> h:37 var
+R2348:2348 VST.veric.mpred <> b:35 var
+R2346:2346 VST.veric.mpred <> a:34 var
+R2338:2339 VST.veric.mpred <> b':36 var
+R2336:2336 VST.veric.mpred <> a:34 var
+R2355:2357 VST.veric.mpred Map set def
+R2364:2364 VST.veric.mpred <> h:37 var
+R2361:2362 VST.veric.mpred <> b':36 var
+R2359:2359 VST.veric.mpred <> a:34 var
+R2380:2382 VST.veric.mpred Map ext thm
+R2400:2402 VST.veric.mpred Map get def
+R2405:2407 VST.veric.mpred Map set def
+R2380:2382 VST.veric.mpred Map ext thm
+prf 2441:2446 Map gsspec
+R2466:2473 Coq.Numbers.BinNums <> positive ind
+binder 2461:2461 <> i:38
+binder 2463:2463 <> j:39
+R2480:2480 VST.veric.mpred <> Map.map.B var
+binder 2477:2477 <> x:40
+R2487:2487 VST.veric.mpred Map t def
+binder 2484:2484 <> m:41
+R2512:2514 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2495:2497 VST.veric.mpred Map get def
+R2511:2511 VST.veric.mpred <> i:38 var
+R2500:2502 VST.veric.mpred Map set def
+R2508:2508 VST.veric.mpred <> m:41 var
+R2506:2506 VST.veric.mpred <> x:40 var
+R2504:2504 VST.veric.mpred <> j:39 var
+R2518:2525 compcert.common.AST <> ident_eq def
+R2529:2529 VST.veric.mpred <> j:39 var
+R2527:2527 VST.veric.mpred <> i:38 var
+R2548:2550 VST.veric.mpred Map get def
+R2554:2554 VST.veric.mpred <> i:38 var
+R2552:2552 VST.veric.mpred <> m:41 var
+R2536:2539 Coq.Init.Datatypes <> Some constr
+R2541:2541 VST.veric.mpred <> x:40 var
+R2579:2581 VST.veric.mpred Map get def
+R2591:2593 VST.veric.mpred Map set def
+prf 2627:2639 Map override_same
+binder 2650:2651 <> id:42
+binder 2653:2653 <> t:43
+R2658:2658 VST.veric.mpred <> Map.map.B var
+binder 2656:2656 <> x:44
+R2679:2682 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2693:2695 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2683:2685 VST.veric.mpred Map set def
+R2692:2692 VST.veric.mpred <> t:43 var
+R2690:2690 VST.veric.mpred <> x:44 var
+R2687:2688 VST.veric.mpred <> id:42 var
+R2696:2696 VST.veric.mpred <> t:43 var
+R2670:2672 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2662:2664 VST.veric.mpred Map get def
+R2668:2669 VST.veric.mpred <> id:42 var
+R2666:2666 VST.veric.mpred <> t:43 var
+R2673:2676 Coq.Init.Datatypes <> Some constr
+R2678:2678 VST.veric.mpred <> x:44 var
+R2721:2723 VST.veric.mpred Map set def
+R2733:2735 VST.veric.mpred Map get def
+R2750:2752 VST.veric.mpred Map ext thm
+R2750:2752 VST.veric.mpred Map ext thm
+R2770:2772 VST.veric.mpred Map get def
+R2806:2808 VST.veric.mpred Map.map <> sec
+R2817:2819 VST.veric.mpred Map <> mod
+sec 2889:2895 <> FUNSPEC
+def 2910:2917 <> genviron
+R2922:2926 VST.veric.mpred <> t def
+R2928:2932 compcert.common.Values <> block def
+def 2947:2954 <> venviron
+R2959:2963 VST.veric.mpred <> t def
+R2971:2973 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2966:2970 compcert.common.Values <> block def
+R2974:2977 compcert.cfrontend.Ctypes <> type ind
+def 2993:3000 <> tenviron
+R3005:3009 VST.veric.mpred <> t def
+R3011:3013 compcert.common.Values <> val ind
+ind 3027:3033 <> environ
+constr 3046:3054 <> mkEnviron
+R3069:3076 VST.veric.mpred <> genviron def
+binder 3065:3066 <> ge:47
+R3084:3091 VST.veric.mpred <> venviron def
+binder 3080:3081 <> ve:48
+R3099:3106 VST.veric.mpred <> tenviron def
+binder 3095:3096 <> te:49
+R3110:3116 VST.veric.mpred <> environ:45 ind
+def 3131:3135 <> ge_of
+R3143:3149 VST.veric.mpred <> environ ind
+binder 3138:3140 <> rho:50
+R3154:3161 VST.veric.mpred <> genviron def
+R3174:3176 VST.veric.mpred <> rho:50 var
+R3183:3191 VST.veric.mpred <> mkEnviron constr
+def 3225:3229 <> ve_of
+R3237:3243 VST.veric.mpred <> environ ind
+binder 3232:3234 <> rho:52
+R3248:3255 VST.veric.mpred <> venviron def
+R3268:3270 VST.veric.mpred <> rho:52 var
+R3277:3285 VST.veric.mpred <> mkEnviron constr
+def 3319:3323 <> te_of
+R3331:3337 VST.veric.mpred <> environ ind
+binder 3326:3328 <> rho:54
+R3342:3349 VST.veric.mpred <> tenviron def
+R3362:3364 VST.veric.mpred <> rho:54 var
+R3371:3379 VST.veric.mpred <> mkEnviron constr
+def 3413:3423 <> any_environ
+R3427:3433 VST.veric.mpred <> environ ind
+R3440:3448 VST.veric.mpred <> mkEnviron constr
+R3482:3490 VST.veric.mpred <> empty def
+R3468:3476 VST.veric.mpred <> empty def
+R3460:3463 Coq.Init.Datatypes <> None constr
+def 3508:3512 <> mpred
+R3517:3520 VST.msl.predicates_hered <> pred def
+R3522:3525 VST.veric.compcert_rmaps RML.R rmap defax
+def 3540:3550 <> argsEnviron
+R3568:3571 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3580:3580 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3560:3567 VST.veric.mpred <> genviron def
+R3572:3575 Coq.Init.Datatypes <> list ind
+R3577:3579 compcert.common.Values <> val ind
+def 3595:3602 <> AssertTT
+R3608:3615 VST.veric.rmaps <> TypeTree ind
+binder 3605:3605 <> A:56
+R3619:3626 VST.veric.rmaps <> TypeTree ind
+R3633:3641 VST.veric.rmaps <> ArrowType constr
+R3646:3654 VST.veric.rmaps <> ArrowType constr
+R3676:3680 VST.veric.rmaps <> Mpred constr
+R3657:3665 VST.veric.rmaps <> ConstType constr
+R3667:3673 VST.veric.mpred <> environ ind
+R3643:3643 VST.veric.mpred <> A:56 var
+def 3696:3701 <> ArgsTT
+R3707:3714 VST.veric.rmaps <> TypeTree ind
+binder 3704:3704 <> A:57
+R3718:3725 VST.veric.rmaps <> TypeTree ind
+R3732:3740 VST.veric.rmaps <> ArrowType constr
+R3745:3753 VST.veric.rmaps <> ArrowType constr
+R3779:3783 VST.veric.rmaps <> Mpred constr
+R3756:3764 VST.veric.rmaps <> ConstType constr
+R3766:3776 VST.veric.mpred <> argsEnviron def
+R3742:3742 VST.veric.mpred <> A:57 var
+def 3799:3804 <> SpecTT
+R3810:3817 VST.veric.rmaps <> TypeTree ind
+binder 3807:3807 <> A:58
+R3821:3828 VST.veric.rmaps <> TypeTree ind
+R3835:3843 VST.veric.rmaps <> ArrowType constr
+R3848:3856 VST.veric.rmaps <> ArrowType constr
+R3876:3884 VST.veric.rmaps <> ArrowType constr
+R3906:3910 VST.veric.rmaps <> Mpred constr
+R3887:3895 VST.veric.rmaps <> ConstType constr
+R3897:3903 VST.veric.mpred <> environ ind
+R3859:3867 VST.veric.rmaps <> ConstType constr
+R3869:3872 Coq.Init.Datatypes <> bool ind
+R3845:3845 VST.veric.mpred <> A:58 var
+def 3927:3936 <> SpecArgsTT
+R3942:3949 VST.veric.rmaps <> TypeTree ind
+binder 3939:3939 <> A:59
+R3953:3960 VST.veric.rmaps <> TypeTree ind
+R3967:3975 VST.veric.rmaps <> ArrowType constr
+R3983:3988 VST.veric.rmaps <> PiType constr
+binder 4000:4000 <> b:60
+R4005:4013 VST.veric.rmaps <> ArrowType constr
+R4227:4231 VST.veric.rmaps <> Mpred constr
+R4016:4024 VST.veric.rmaps <> ConstType constr
+R4072:4072 VST.veric.mpred <> b:60 var
+R4181:4187 VST.veric.mpred <> environ ind
+R4122:4132 VST.veric.mpred <> argsEnviron def
+R3990:3993 Coq.Init.Datatypes <> bool ind
+R3977:3977 VST.veric.mpred <> A:59 var
+def 4248:4266 <> super_non_expansive
+R4272:4279 VST.veric.rmaps <> TypeTree ind
+binder 4269:4269 <> A:61
+binder 4295:4296 <> ts:62
+R4299:4324 VST.veric.rmaps <> dependent_type_functor_rec def
+R4342:4346 VST.veric.mpred <> mpred def
+R4330:4337 VST.veric.mpred <> AssertTT def
+R4339:4339 VST.veric.mpred <> A:61 var
+R4326:4327 VST.veric.mpred <> ts:62 var
+binder 4285:4285 <> P:63
+binder 4367:4367 <> n:64
+binder 4369:4370 <> ts:65
+R4380:4414 VST.msl.functors MixVariantFunctor _functor proj
+R4481:4485 VST.veric.mpred <> mpred def
+R4442:4473 VST.veric.rmaps <> dependent_type_functor_rec def
+R4478:4478 VST.veric.mpred <> A:61 var
+R4475:4476 VST.veric.mpred <> ts:65 var
+binder 4377:4377 <> x:66
+R4498:4504 VST.veric.mpred <> environ ind
+binder 4493:4495 <> rho:67
+R4531:4533 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4510:4515 VST.veric.compcert_rmaps RML.R approx def
+R4520:4520 VST.veric.mpred <> P:63 var
+R4527:4529 VST.veric.mpred <> rho:67 var
+R4525:4525 VST.veric.mpred <> x:66 var
+R4522:4523 VST.veric.mpred <> ts:65 var
+R4517:4517 VST.veric.mpred <> n:64 var
+R4534:4539 VST.veric.compcert_rmaps RML.R approx def
+R4544:4544 VST.veric.mpred <> P:63 var
+R4582:4584 VST.veric.mpred <> rho:67 var
+R4550:4553 VST.msl.functors MixVariantFunctor fmap proj
+R4579:4579 VST.veric.mpred <> x:66 var
+R4569:4574 VST.veric.compcert_rmaps RML.R approx def
+R4576:4576 VST.veric.mpred <> n:64 var
+R4558:4563 VST.veric.compcert_rmaps RML.R approx def
+R4565:4565 VST.veric.mpred <> n:64 var
+R4546:4547 VST.veric.mpred <> ts:65 var
+R4541:4541 VST.veric.mpred <> n:64 var
+def 4600:4623 <> args_super_non_expansive
+R4629:4636 VST.veric.rmaps <> TypeTree ind
+binder 4626:4626 <> A:68
+binder 4652:4653 <> ts:69
+R4656:4681 VST.veric.rmaps <> dependent_type_functor_rec def
+R4697:4701 VST.veric.mpred <> mpred def
+R4687:4692 VST.veric.mpred <> ArgsTT def
+R4694:4694 VST.veric.mpred <> A:68 var
+R4683:4684 VST.veric.mpred <> ts:69 var
+binder 4642:4642 <> P:70
+binder 4722:4722 <> n:71
+binder 4724:4725 <> ts:72
+R4735:4769 VST.msl.functors MixVariantFunctor _functor proj
+R4836:4840 VST.veric.mpred <> mpred def
+R4797:4828 VST.veric.rmaps <> dependent_type_functor_rec def
+R4833:4833 VST.veric.mpred <> A:68 var
+R4830:4831 VST.veric.mpred <> ts:72 var
+binder 4732:4732 <> x:73
+R4855:4865 VST.veric.mpred <> argsEnviron def
+binder 4848:4852 <> gargs:74
+R4872:4873 Coq.Init.Logic <> eq ind
+R4908:4913 VST.veric.compcert_rmaps RML.R approx def
+R4918:4918 VST.veric.mpred <> P:70 var
+R4956:4960 VST.veric.mpred <> gargs:74 var
+R4924:4927 VST.msl.functors MixVariantFunctor fmap proj
+R4953:4953 VST.veric.mpred <> x:73 var
+R4943:4948 VST.veric.compcert_rmaps RML.R approx def
+R4950:4950 VST.veric.mpred <> n:71 var
+R4932:4937 VST.veric.compcert_rmaps RML.R approx def
+R4939:4939 VST.veric.mpred <> n:71 var
+R4920:4921 VST.veric.mpred <> ts:72 var
+R4915:4915 VST.veric.mpred <> n:71 var
+R4882:4887 VST.veric.compcert_rmaps RML.R approx def
+R4892:4892 VST.veric.mpred <> P:70 var
+R4899:4903 VST.veric.mpred <> gargs:74 var
+R4897:4897 VST.veric.mpred <> x:73 var
+R4894:4895 VST.veric.mpred <> ts:72 var
+R4889:4889 VST.veric.mpred <> n:71 var
+R4875:4879 VST.veric.mpred <> mpred def
+def 4977:5001 <> const_super_non_expansive
+binder 5012:5012 <> T:75
+binder 5021:5021 <> P:76
+R5027:5045 VST.veric.mpred <> super_non_expansive def
+R5061:5061 VST.veric.mpred <> P:76 var
+R5048:5056 VST.veric.rmaps <> ConstType constr
+R5058:5058 VST.veric.mpred <> T:75 var
+R5087:5093 Coq.Init.Logic <> eq_refl constr
+def 5108:5137 <> args_const_super_non_expansive
+binder 5148:5148 <> T:77
+binder 5157:5157 <> P:78
+R5163:5186 VST.veric.mpred <> args_super_non_expansive def
+R5202:5202 VST.veric.mpred <> P:78 var
+R5189:5197 VST.veric.rmaps <> ConstType constr
+R5199:5199 VST.veric.mpred <> T:77 var
+R5228:5234 Coq.Init.Logic <> eq_refl constr
+ind 5527:5533 <> funspec
+constr 5541:5550 <> mk_funspec
+R5560:5563 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5582:5585 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5597:5604 VST.veric.rmaps <> TypeTree ind
+binder 5594:5594 <> A:81
+binder 5623:5624 <> ts:82
+R5627:5652 VST.veric.rmaps <> dependent_type_functor_rec def
+R5668:5672 VST.veric.mpred <> mpred def
+R5658:5663 VST.veric.mpred <> ArgsTT def
+R5665:5665 VST.veric.mpred <> A:81 var
+R5654:5655 VST.veric.mpred <> ts:82 var
+binder 5613:5613 <> P:83
+binder 5691:5692 <> ts:84
+R5695:5720 VST.veric.rmaps <> dependent_type_functor_rec def
+R5738:5742 VST.veric.mpred <> mpred def
+R5726:5733 VST.veric.mpred <> AssertTT def
+R5735:5735 VST.veric.mpred <> A:81 var
+R5722:5723 VST.veric.mpred <> ts:84 var
+binder 5681:5681 <> Q:85
+R5757:5780 VST.veric.mpred <> args_super_non_expansive def
+R5782:5782 VST.veric.mpred <> P:83 var
+binder 5751:5754 <> P_ne:86
+R5792:5810 VST.veric.mpred <> super_non_expansive def
+R5812:5812 VST.veric.mpred <> Q:85 var
+binder 5786:5789 <> Q_ne:87
+R5821:5827 VST.veric.mpred <> funspec:79 ind
+R5564:5581 compcert.common.AST <> calling_convention rec
+R5553:5559 VST.veric.compcert_rmaps <> typesig def
+def 5842:5849 <> varspecs
+R5861:5864 Coq.Init.Datatypes <> list ind
+R5872:5874 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5867:5871 compcert.common.AST <> ident def
+R5875:5878 compcert.cfrontend.Ctypes <> type ind
+def 5894:5901 <> funspecs
+R5906:5909 Coq.Init.Datatypes <> list ind
+R5917:5919 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5912:5916 compcert.common.AST <> ident def
+R5920:5926 VST.veric.mpred <> funspec ind
+R5935:5941 VST.veric.mpred FUNSPEC <> sec
+def 6004:6009 <> assert
+R6021:6024 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6025:6029 VST.veric.mpred <> mpred def
+R6014:6020 VST.veric.mpred <> environ ind
+def 6163:6172 <> argsassert
+R6188:6191 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6192:6196 VST.veric.mpred <> mpred def
+R6177:6187 VST.veric.mpred <> argsEnviron def
+def 6261:6266 <> packPQ
+R6272:6285 VST.veric.rmaps <> TypeTree ind
+binder 6269:6269 <> A:88
+binder 6301:6302 <> ts:89
+R6305:6330 VST.veric.rmaps <> dependent_type_functor_rec def
+R6346:6350 VST.veric.mpred <> mpred def
+R6336:6341 VST.veric.mpred <> ArgsTT def
+R6343:6343 VST.veric.mpred <> A:88 var
+R6332:6333 VST.veric.mpred <> ts:89 var
+binder 6291:6291 <> P:90
+binder 6366:6367 <> ts:91
+R6370:6395 VST.veric.rmaps <> dependent_type_functor_rec def
+R6413:6417 VST.veric.mpred <> mpred def
+R6401:6408 VST.veric.mpred <> AssertTT def
+R6410:6410 VST.veric.mpred <> A:88 var
+R6397:6398 VST.veric.mpred <> ts:91 var
+binder 6356:6356 <> Q:92
+binder 6430:6431 <> ts:93
+R6434:6459 VST.veric.rmaps <> dependent_type_functor_rec def
+R6479:6483 VST.veric.mpred <> mpred def
+R6465:6474 VST.veric.mpred <> SpecArgsTT def
+R6476:6476 VST.veric.mpred <> A:88 var
+R6461:6462 VST.veric.mpred <> ts:93 var
+def 6607:6615 <> int_range
+R6622:6628 compcert.cfrontend.Ctypes <> intsize ind
+binder 6618:6619 <> sz:94
+R6637:6646 compcert.cfrontend.Ctypes <> signedness ind
+binder 6632:6634 <> sgn:95
+R6653:6655 compcert.lib.Integers <> int syndef
+binder 6650:6650 <> i:96
+R6672:6674 VST.veric.mpred <> sgn:95 var
+R6668:6669 VST.veric.mpred <> sz:94 var
+R6684:6685 compcert.cfrontend.Ctypes <> I8 constr
+R6688:6693 compcert.cfrontend.Ctypes <> Signed constr
+R6702:6705 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6718:6720 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6706:6715 compcert.lib.Integers Int signed def
+R6717:6717 VST.veric.mpred <> i:96 var
+R6706:6715 compcert.lib.Integers Int signed def
+R6717:6717 VST.veric.mpred <> i:96 var
+R6728:6729 compcert.cfrontend.Ctypes <> I8 constr
+R6732:6739 compcert.cfrontend.Ctypes <> Unsigned constr
+R6745:6748 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6763:6765 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6749:6760 compcert.lib.Integers Int unsigned def
+R6762:6762 VST.veric.mpred <> i:96 var
+R6749:6760 compcert.lib.Integers Int unsigned def
+R6762:6762 VST.veric.mpred <> i:96 var
+R6773:6775 compcert.cfrontend.Ctypes <> I16 constr
+R6778:6783 compcert.cfrontend.Ctypes <> Signed constr
+R6794:6797 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6810:6812 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6798:6807 compcert.lib.Integers Int signed def
+R6809:6809 VST.veric.mpred <> i:96 var
+R6798:6807 compcert.lib.Integers Int signed def
+R6809:6809 VST.veric.mpred <> i:96 var
+R6822:6824 compcert.cfrontend.Ctypes <> I16 constr
+R6827:6834 compcert.cfrontend.Ctypes <> Unsigned constr
+R6840:6843 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6858:6860 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6844:6855 compcert.lib.Integers Int unsigned def
+R6857:6857 VST.veric.mpred <> i:96 var
+R6844:6855 compcert.lib.Integers Int unsigned def
+R6857:6857 VST.veric.mpred <> i:96 var
+R6870:6872 compcert.cfrontend.Ctypes <> I32 constr
+R6875:6880 compcert.cfrontend.Ctypes <> Signed constr
+R6896:6899 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6912:6914 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6900:6909 compcert.lib.Integers Int signed def
+R6911:6911 VST.veric.mpred <> i:96 var
+R6900:6909 compcert.lib.Integers Int signed def
+R6911:6911 VST.veric.mpred <> i:96 var
+R6929:6931 compcert.cfrontend.Ctypes <> I32 constr
+R6934:6941 compcert.cfrontend.Ctypes <> Unsigned constr
+R6947:6950 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6965:6967 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6951:6962 compcert.lib.Integers Int unsigned def
+R6964:6964 VST.veric.mpred <> i:96 var
+R6951:6962 compcert.lib.Integers Int unsigned def
+R6964:6964 VST.veric.mpred <> i:96 var
+R6982:6986 compcert.cfrontend.Ctypes <> IBool constr
+R6995:6998 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R7013:7015 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6999:7010 compcert.lib.Integers Int unsigned def
+R7012:7012 VST.veric.mpred <> i:96 var
+R6999:7010 compcert.lib.Integers Int unsigned def
+R7012:7012 VST.veric.mpred <> i:96 var
+def 7038:7047 <> in_members
+binder 7049:7049 <> i:99
+R7055:7061 compcert.cfrontend.Ctypes <> members def
+binder 7052:7052 <> m:100
+R7075:7076 Coq.Lists.List <> In def
+R7081:7083 Coq.Lists.List <> map def
+R7089:7089 VST.veric.mpred <> m:100 var
+R7085:7087 Coq.Init.Datatypes <> fst def
+R7078:7078 VST.veric.mpred <> i:99 var
+def 7105:7124 <> members_no_replicate
+R7130:7136 compcert.cfrontend.Ctypes <> members def
+binder 7127:7127 <> m:101
+R7141:7144 Coq.Init.Datatypes <> bool ind
+R7151:7170 VST.veric.base <> compute_list_norepet def
+R7173:7175 Coq.Lists.List <> map def
+R7181:7181 VST.veric.mpred <> m:101 var
+R7177:7179 Coq.Init.Datatypes <> fst def
+def 7197:7214 <> compute_in_members
+binder 7216:7217 <> id:102
+R7223:7229 compcert.cfrontend.Ctypes <> members def
+binder 7220:7220 <> m:103
+R7233:7236 Coq.Init.Datatypes <> bool ind
+R7243:7252 VST.veric.base <> id_in_list def
+R7258:7260 Coq.Lists.List <> map def
+R7266:7266 VST.veric.mpred <> m:103 var
+R7262:7264 Coq.Init.Datatypes <> fst def
+R7254:7255 VST.veric.mpred <> id:102 var
+prf 7277:7303 <> compute_in_members_true_iff
+binder 7313:7313 <> i:104
+binder 7315:7315 <> m:105
+R7347:7351 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7340:7342 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7318:7335 VST.veric.mpred <> compute_in_members def
+R7339:7339 VST.veric.mpred <> m:105 var
+R7337:7337 VST.veric.mpred <> i:104 var
+R7343:7346 Coq.Init.Datatypes <> true constr
+R7352:7361 VST.veric.mpred <> in_members def
+R7365:7365 VST.veric.mpred <> m:105 var
+R7363:7363 VST.veric.mpred <> i:104 var
+R7394:7411 VST.veric.mpred <> compute_in_members def
+R7426:7435 VST.veric.base <> id_in_list def
+R7440:7442 Coq.Lists.List <> map def
+R7444:7446 Coq.Init.Datatypes <> fst def
+R7469:7483 VST.veric.base <> id_in_list_true thm
+R7499:7514 VST.veric.base <> id_in_list_false thm
+R7426:7435 VST.veric.base <> id_in_list def
+R7440:7442 Coq.Lists.List <> map def
+R7444:7446 Coq.Init.Datatypes <> fst def
+R7469:7483 VST.veric.base <> id_in_list_true thm
+R7499:7514 VST.veric.base <> id_in_list_false thm
+R7535:7544 VST.veric.mpred <> in_members def
+R7569:7578 VST.veric.mpred <> in_members def
+prf 7622:7649 <> compute_in_members_false_iff
+binder 7659:7659 <> i:106
+binder 7661:7661 <> m:107
+R7696:7700 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7688:7690 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7666:7683 VST.veric.mpred <> compute_in_members def
+R7687:7687 VST.veric.mpred <> m:107 var
+R7685:7685 VST.veric.mpred <> i:106 var
+R7691:7695 Coq.Init.Datatypes <> false constr
+R7701:7702 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7703:7712 VST.veric.mpred <> in_members def
+R7716:7716 VST.veric.mpred <> m:107 var
+R7714:7714 VST.veric.mpred <> i:106 var
+R7749:7775 VST.veric.mpred <> compute_in_members_true_iff thm
+R7749:7775 VST.veric.mpred <> compute_in_members_true_iff thm
+R7819:7836 VST.veric.mpred <> compute_in_members def
+R7819:7836 VST.veric.mpred <> compute_in_members def
+R7937:7954 VST.veric.mpred <> compute_in_members def
+R7979:8005 VST.veric.mpred <> compute_in_members_true_iff thm
+R8025:8052 VST.veric.mpred <> compute_in_members_false_iff thm
+prf 8068:8081 <> in_members_dec
+binder 8091:8091 <> i:108
+binder 8093:8093 <> m:109
+R8096:8096 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8111:8115 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8132:8132 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8097:8106 VST.veric.mpred <> in_members def
+R8110:8110 VST.veric.mpred <> m:109 var
+R8108:8108 VST.veric.mpred <> i:108 var
+R8116:8117 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8118:8127 VST.veric.mpred <> in_members def
+R8131:8131 VST.veric.mpred <> m:109 var
+R8129:8129 VST.veric.mpred <> i:108 var
+prf 8213:8229 <> size_chunk_sizeof
+binder 8239:8241 <> env:110
+binder 8243:8243 <> t:111
+binder 8245:8246 <> ch:112
+R8276:8279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8292:8294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8280:8285 compcert.cfrontend.Ctypes <> sizeof def
+R8291:8291 VST.veric.mpred <> t:111 var
+R8287:8289 VST.veric.mpred <> env:110 var
+R8295:8312 compcert.common.Memdata <> size_chunk def
+R8314:8315 VST.veric.mpred <> ch:112 var
+R8262:8264 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8249:8259 compcert.cfrontend.Ctypes <> access_mode def
+R8261:8261 VST.veric.mpred <> t:111 var
+R8265:8272 compcert.cfrontend.Ctypes <> By_value constr
+R8274:8275 VST.veric.mpred <> ch:112 var
+def 8542:8566 <> composite_legal_fieldlist
+R8573:8581 compcert.cfrontend.Ctypes <> composite rec
+binder 8569:8570 <> co:113
+R8631:8633 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8595:8614 VST.veric.mpred <> members_no_replicate def
+R8617:8626 compcert.cfrontend.Ctypes <> co_members proj
+R8628:8629 VST.veric.mpred <> co:113 var
+R8634:8637 Coq.Init.Datatypes <> true constr
+def 8652:8680 <> composite_env_legal_fieldlist
+binder 8682:8684 <> env:114
+R8704:8711 Coq.Numbers.BinNums <> positive ind
+binder 8699:8700 <> id:115
+R8720:8728 compcert.cfrontend.Ctypes <> composite rec
+binder 8715:8716 <> co:116
+R8754:8757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8758:8782 VST.veric.mpred <> composite_legal_fieldlist def
+R8784:8785 VST.veric.mpred <> co:116 var
+R8744:8746 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8739:8741 compcert.lib.Maps <> :::x_'!'_x not
+R8742:8743 VST.veric.mpred <> id:115 var
+R8736:8738 VST.veric.mpred <> env:114 var
+R8747:8750 Coq.Init.Datatypes <> Some constr
+R8752:8753 VST.veric.mpred <> co:116 var
+constr 8808:8818 <> mkcompspecs
+rec 8795:8803 <> compspecs
+proj 8824:8830 <> cenv_cs
+proj 8851:8865 <> cenv_consistent
+proj 8904:8923 <> cenv_legal_fieldlist
+proj 8967:8979 <> cenv_legal_su
+proj 9032:9040 <> ha_env_cs
+proj 9056:9075 <> ha_env_cs_consistent
+proj 9131:9148 <> ha_env_cs_complete
+proj 9202:9210 <> la_env_cs
+proj 9242:9261 <> la_env_cs_consistent
+proj 9324:9341 <> la_env_cs_complete
+proj 9392:9406 <> la_env_cs_sound
+R8834:8846 compcert.cfrontend.Ctypes <> composite_env def
+R8868:8891 compcert.cfrontend.Ctypes <> composite_env_consistent def
+R8893:8899 VST.veric.mpred <> cenv_cs:118 meth
+R8926:8954 VST.veric.mpred <> composite_env_legal_fieldlist def
+R8956:8962 VST.veric.mpred <> cenv_cs:118 meth
+R8982:9019 VST.veric.composite_compute <> composite_env_complete_legal_cosu_type def
+R9021:9027 VST.veric.mpred <> cenv_cs:118 meth
+R9043:9049 compcert.lib.Maps PTree t def
+R9051:9051 Coq.Numbers.BinNums <> Z ind
+R9078:9108 VST.veric.align_mem <> hardware_alignof_env_consistent def
+R9118:9126 VST.veric.mpred <> ha_env_cs:122 meth
+R9110:9116 VST.veric.mpred <> cenv_cs:118 meth
+R9151:9179 VST.veric.align_mem <> hardware_alignof_env_complete def
+R9189:9197 VST.veric.mpred <> ha_env_cs:122 meth
+R9181:9187 VST.veric.mpred <> cenv_cs:118 meth
+R9213:9219 compcert.lib.Maps PTree t def
+R9221:9237 VST.veric.align_mem LegalAlignasFacts.LegalAlignas legal_alignas_obs def
+R9264:9291 VST.veric.align_mem LegalAlignasFacts.LegalAlignasDefs legal_alignas_env_consistent def
+R9311:9319 VST.veric.mpred <> la_env_cs:125 meth
+R9301:9309 VST.veric.mpred <> ha_env_cs:122 meth
+R9293:9299 VST.veric.mpred <> cenv_cs:118 meth
+R9344:9369 VST.veric.align_mem LegalAlignasFacts.LegalAlignasDefs legal_alignas_env_complete def
+R9379:9387 VST.veric.mpred <> la_env_cs:125 meth
+R9371:9377 VST.veric.mpred <> cenv_cs:118 meth
+R9409:9431 VST.veric.align_mem LegalAlignasFacts.LegalAlignasDefs legal_alignas_env_sound def
+R9451:9459 VST.veric.mpred <> la_env_cs:125 meth
+R9441:9449 VST.veric.mpred <> ha_env_cs:122 meth
+R9433:9439 VST.veric.mpred <> cenv_cs:118 meth
+R9533:9538 compcert.cfrontend.Ctypes <> sizeof def
+R9533:9538 compcert.cfrontend.Ctypes <> sizeof def
+R9563:9569 compcert.cfrontend.Ctypes <> alignof def
+R9563:9569 compcert.cfrontend.Ctypes <> alignof def
+R9595:9604 compcert.cfrontend.Ctypes <> sizeof_pos thm
+R9595:9604 compcert.cfrontend.Ctypes <> sizeof_pos thm
+R9627:9637 compcert.cfrontend.Ctypes <> alignof_pos thm
+R9627:9637 compcert.cfrontend.Ctypes <> alignof_pos thm
+R9659:9682 VST.veric.composite_compute <> complete_legal_cosu_type def
+R9659:9682 VST.veric.composite_compute <> complete_legal_cosu_type def
+def 9753:9796 <> Unnamed_thm
+R9770:9778 VST.veric.mpred <> compspecs class
+binder 9766:9767 <> cs:129
+binder 9781:9781 <> t:130
+R9792:9795 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R9784:9789 compcert.cfrontend.Ctypes <> sizeof def
+R9791:9791 VST.veric.mpred <> t:130 var
+R9820:9829 compcert.cfrontend.Ctypes <> sizeof_pos thm
+R9820:9829 compcert.cfrontend.Ctypes <> sizeof_pos thm
+def 10065:10085 <> typelist_of_type_list
+R10097:10100 Coq.Init.Datatypes <> list ind
+R10102:10105 compcert.cfrontend.Ctypes <> type ind
+binder 10088:10093 <> params:131
+R10110:10117 compcert.cfrontend.Ctypes <> typelist ind
+R10130:10135 VST.veric.mpred <> params:131 var
+R10146:10148 Coq.Init.Datatypes <> nil constr
+R10153:10156 compcert.cfrontend.Ctypes <> Tnil constr
+R10164:10167 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10175:10179 compcert.cfrontend.Ctypes <> Tcons constr
+R10185:10205 VST.veric.mpred <> typelist_of_type_list:132 def
+def 10231:10245 <> type_of_funspec
+R10252:10258 VST.veric.mpred <> funspec ind
+binder 10248:10249 <> fs:134
+R10263:10266 compcert.cfrontend.Ctypes <> type ind
+R10279:10280 VST.veric.mpred <> fs:134 var
+R10287:10296 VST.veric.mpred <> mk_funspec constr
+R10380:10388 compcert.cfrontend.Ctypes <> Tfunction constr
+R10426:10428 Coq.Init.Datatypes <> snd def
+R10391:10411 VST.veric.mpred <> typelist_of_type_list def
+R10414:10416 Coq.Init.Datatypes <> fst def
+def 10493:10505 <> typelist2list
+R10512:10519 compcert.cfrontend.Ctypes <> typelist ind
+binder 10508:10509 <> tl:136
+R10524:10527 Coq.Init.Datatypes <> list ind
+R10529:10532 compcert.cfrontend.Ctypes <> type ind
+R10544:10545 VST.veric.mpred <> tl:136 var
+R10552:10556 compcert.cfrontend.Ctypes <> Tcons constr
+R10566:10567 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10568:10580 VST.veric.mpred <> typelist2list:137 def
+R10586:10589 compcert.cfrontend.Ctypes <> Tnil constr
+R10594:10596 Coq.Init.Datatypes <> nil constr
+prf 10610:10613 <> TTL1
+binder 10615:10615 <> l:139
+R10651:10653 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10618:10638 VST.veric.mpred <> typelist_of_type_list def
+R10641:10643 Coq.Lists.List <> map def
+R10649:10649 VST.veric.mpred <> l:139 var
+R10645:10647 Coq.Init.Datatypes <> snd def
+R10654:10667 compcert.cfrontend.Ctypes <> type_of_params def
+R10669:10669 VST.veric.mpred <> l:139 var
+prf 10750:10753 <> TTL2
+binder 10755:10755 <> l:140
+R10758:10758 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10804:10807 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10759:10777 compcert.cfrontend.Ctypes <> typlist_of_typelist def
+R10780:10800 VST.veric.mpred <> typelist_of_type_list def
+R10802:10802 VST.veric.mpred <> l:140 var
+R10808:10810 Coq.Lists.List <> map def
+R10824:10824 VST.veric.mpred <> l:140 var
+R10812:10822 compcert.cfrontend.Ctypes <> typ_of_type def
+prf 11030:11033 <> TTL4
+binder 11035:11035 <> l:141
+R11047:11049 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11038:11040 Coq.Lists.List <> map def
+R11046:11046 VST.veric.mpred <> l:141 var
+R11042:11044 Coq.Init.Datatypes <> snd def
+R11050:11062 VST.veric.mpred <> typelist2list def
+R11065:11078 compcert.cfrontend.Ctypes <> type_of_params def
+R11080:11080 VST.veric.mpred <> l:141 var
+prf 11169:11172 <> TTL5
+binder 11175:11175 <> l:142
+R11218:11220 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11179:11191 VST.veric.mpred <> typelist2list def
+R11194:11214 VST.veric.mpred <> typelist_of_type_list def
+R11216:11216 VST.veric.mpred <> l:142 var
+R11221:11221 VST.veric.mpred <> l:142 var
+def 11295:11299 <> idset
+R11304:11310 compcert.lib.Maps PTree t def
+R11312:11315 Coq.Init.Datatypes <> unit ind
+def 11330:11335 <> idset0
+R11339:11343 VST.veric.mpred <> idset def
+R11348:11358 compcert.lib.Maps PTree empty def
+def 11374:11379 <> idset1
+R11386:11390 compcert.common.AST <> ident def
+binder 11382:11383 <> id:143
+R11395:11399 VST.veric.mpred <> idset def
+R11404:11412 compcert.lib.Maps PTree set def
+R11420:11425 VST.veric.mpred <> idset0 def
+R11417:11418 Coq.Init.Datatypes <> tt constr
+R11414:11415 VST.veric.mpred <> id:143 var
+def 11439:11450 <> insert_idset
+R11457:11461 compcert.common.AST <> ident def
+binder 11453:11454 <> id:144
+R11468:11472 VST.veric.mpred <> idset def
+binder 11465:11465 <> S:145
+R11477:11481 VST.veric.mpred <> idset def
+R11488:11496 compcert.lib.Maps PTree set def
+R11504:11504 VST.veric.mpred <> S:145 var
+R11501:11502 Coq.Init.Datatypes <> tt constr
+R11498:11499 VST.veric.mpred <> id:144 var
+def 11519:11525 <> eval_id
+R11532:11536 compcert.common.AST <> ident def
+binder 11528:11529 <> id:146
+R11545:11551 VST.veric.mpred <> environ ind
+binder 11540:11542 <> rho:147
+R11557:11565 VST.veric.val_lemmas <> force_val def
+R11568:11574 VST.veric.mpred <> get def
+R11588:11589 VST.veric.mpred <> id:146 var
+R11577:11581 VST.veric.mpred <> te_of def
+R11583:11585 VST.veric.mpred <> rho:147 var
+def 11605:11611 <> env_set
+R11619:11625 VST.veric.mpred <> environ ind
+binder 11614:11616 <> rho:148
+R11632:11636 compcert.common.AST <> ident def
+binder 11629:11629 <> x:149
+R11643:11645 compcert.common.Values <> val ind
+binder 11640:11640 <> v:150
+R11650:11656 VST.veric.mpred <> environ ind
+R11663:11671 VST.veric.mpred <> mkEnviron constr
+R11698:11704 VST.veric.mpred <> set def
+R11711:11715 VST.veric.mpred <> te_of def
+R11717:11719 VST.veric.mpred <> rho:148 var
+R11708:11708 VST.veric.mpred <> v:150 var
+R11706:11706 VST.veric.mpred <> x:149 var
+R11686:11690 VST.veric.mpred <> ve_of def
+R11692:11694 VST.veric.mpred <> rho:148 var
+R11674:11678 VST.veric.mpred <> ge_of def
+R11680:11682 VST.veric.mpred <> rho:148 var
+prf 11731:11742 <> eval_id_same
+binder 11752:11754 <> rho:151
+binder 11756:11757 <> id:152
+binder 11759:11759 <> v:153
+R11791:11793 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11762:11768 VST.veric.mpred <> eval_id def
+R11774:11780 VST.veric.mpred <> env_set def
+R11789:11789 VST.veric.mpred <> v:153 var
+R11786:11787 VST.veric.mpred <> id:152 var
+R11782:11784 VST.veric.mpred <> rho:151 var
+R11770:11771 VST.veric.mpred <> id:152 var
+R11794:11794 VST.veric.mpred <> v:153 var
+R11811:11817 VST.veric.mpred <> eval_id def
+R11842:11850 VST.veric.val_lemmas <> force_val def
+R11861:11867 VST.veric.mpred <> gss thm
+R11861:11867 VST.veric.mpred <> gss thm
+R11861:11867 VST.veric.mpred <> gss thm
+R11894:11905 VST.veric.mpred <> eval_id_same thm
+prf 11927:11939 <> eval_id_other
+binder 11949:11951 <> rho:154
+binder 11953:11954 <> id:155
+binder 11956:11958 <> id':156
+binder 11960:11960 <> v:157
+R11973:11976 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12007:12009 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11977:11983 VST.veric.mpred <> eval_id def
+R11990:11996 VST.veric.mpred <> env_set def
+R12005:12005 VST.veric.mpred <> v:157 var
+R12002:12003 VST.veric.mpred <> id:155 var
+R11998:12000 VST.veric.mpred <> rho:154 var
+R11985:11987 VST.veric.mpred <> id':156 var
+R12010:12016 VST.veric.mpred <> eval_id def
+R12022:12024 VST.veric.mpred <> rho:154 var
+R12018:12020 VST.veric.mpred <> id':156 var
+R11968:11969 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11966:11967 VST.veric.mpred <> id:155 var
+R11970:11972 VST.veric.mpred <> id':156 var
+R12042:12048 VST.veric.mpred <> eval_id def
+R12051:12059 VST.veric.val_lemmas <> force_val def
+R12085:12091 VST.veric.mpred <> gso thm
+R12085:12091 VST.veric.mpred <> gso thm
+R12085:12091 VST.veric.mpred <> gso thm
+R12085:12091 VST.veric.mpred <> gso thm
+R12118:12130 VST.veric.mpred <> eval_id_other thm
+def 12260:12268 <> ptree_set
+binder 12271:12271 <> A:158
+R12286:12293 Coq.Numbers.BinNums <> positive ind
+binder 12282:12282 <> i:159
+R12301:12301 VST.veric.mpred <> A:158 var
+binder 12297:12297 <> v:160
+R12309:12315 compcert.lib.Maps PTree t def
+R12317:12317 VST.veric.mpred <> A:158 var
+binder 12305:12305 <> m:161
+R12333:12339 compcert.lib.Maps PTree t def
+R12341:12341 VST.veric.mpred <> A:158 var
+R12356:12356 VST.veric.mpred <> m:161 var
+R12369:12378 compcert.lib.Maps PTree Leaf constr
+R12397:12397 VST.veric.mpred <> i:159 var
+R12414:12415 Coq.Numbers.BinNums <> xH constr
+R12420:12429 compcert.lib.Maps PTree Node constr
+R12451:12460 compcert.lib.Maps PTree Leaf constr
+R12443:12446 Coq.Init.Datatypes <> Some constr
+R12448:12448 VST.veric.mpred <> v:160 var
+R12431:12440 compcert.lib.Maps PTree Leaf constr
+R12472:12473 Coq.Numbers.BinNums <> xO constr
+R12481:12490 compcert.lib.Maps PTree Node constr
+R12525:12534 compcert.lib.Maps PTree Leaf constr
+R12520:12523 Coq.Init.Datatypes <> None constr
+R12493:12501 VST.veric.mpred <> ptree_set:162 def
+R12508:12517 compcert.lib.Maps PTree Leaf constr
+R12506:12506 VST.veric.mpred <> v:160 var
+R12546:12547 Coq.Numbers.BinNums <> xI constr
+R12555:12564 compcert.lib.Maps PTree Node constr
+R12583:12591 VST.veric.mpred <> ptree_set:162 def
+R12598:12607 compcert.lib.Maps PTree Leaf constr
+R12596:12596 VST.veric.mpred <> v:160 var
+R12577:12580 Coq.Init.Datatypes <> None constr
+R12566:12575 compcert.lib.Maps PTree Leaf constr
+R12628:12637 compcert.lib.Maps PTree Node constr
+R12662:12662 VST.veric.mpred <> i:159 var
+R12679:12680 Coq.Numbers.BinNums <> xH constr
+R12685:12694 compcert.lib.Maps PTree Node constr
+R12699:12702 Coq.Init.Datatypes <> Some constr
+R12704:12704 VST.veric.mpred <> v:160 var
+R12719:12720 Coq.Numbers.BinNums <> xO constr
+R12728:12737 compcert.lib.Maps PTree Node constr
+R12740:12748 VST.veric.mpred <> ptree_set:162 def
+R12753:12753 VST.veric.mpred <> v:160 var
+R12772:12773 Coq.Numbers.BinNums <> xI constr
+R12781:12790 compcert.lib.Maps PTree Node constr
+R12797:12805 VST.veric.mpred <> ptree_set:162 def
+R12810:12810 VST.veric.mpred <> v:160 var
+def 12837:12878 <> Unnamed_thm
+binder 12849:12849 <> A:166
+R12864:12866 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12853:12861 VST.veric.mpred <> ptree_set def
+R12863:12863 VST.veric.mpred <> A:166 var
+R12868:12876 compcert.lib.Maps PTree set def
+def 13131:13146 <> make_tycontext_s
+R13152:13159 VST.veric.mpred <> funspecs def
+binder 13149:13149 <> G:167
+R13172:13172 VST.veric.mpred <> G:167 var
+R13182:13184 Coq.Init.Datatypes <> nil constr
+R13190:13199 compcert.lib.Maps PTree Leaf constr
+R13201:13207 VST.veric.mpred <> funspec ind
+R13213:13214 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+binder 13225:13226 <> id:170
+binder 13228:13228 <> f:171
+R13239:13247 VST.veric.mpred <> ptree_set def
+R13255:13270 VST.veric.mpred <> make_tycontext_s:168 def
+R13252:13252 VST.veric.mpred <> f:171 var
+R13249:13250 VST.veric.mpred <> id:170 var
+def 13361:13365 <> lift0
+binder 13368:13368 <> B:172
+R13375:13375 VST.veric.mpred <> B:172 var
+binder 13372:13372 <> P:173
+R13387:13390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13391:13391 VST.veric.mpred <> B:172 var
+R13380:13386 VST.veric.mpred <> environ ind
+R13405:13405 VST.veric.mpred <> P:173 var
+def 13419:13423 <> lift1
+binder 13426:13427 <> A1:174
+binder 13429:13429 <> B:175
+R13438:13441 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13442:13442 VST.veric.mpred <> B:175 var
+R13436:13437 VST.veric.mpred <> A1:174 var
+binder 13433:13433 <> P:176
+R13457:13460 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13461:13462 VST.veric.mpred <> A1:174 var
+R13450:13456 VST.veric.mpred <> environ ind
+binder 13446:13447 <> f1:177
+R13474:13477 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13478:13478 VST.veric.mpred <> B:175 var
+R13467:13473 VST.veric.mpred <> environ ind
+binder 13487:13489 <> rho:178
+R13494:13494 VST.veric.mpred <> P:176 var
+R13497:13498 VST.veric.mpred <> f1:177 var
+R13500:13502 VST.veric.mpred <> rho:178 var
+def 13517:13521 <> lift2
+binder 13524:13525 <> A1:179
+binder 13527:13528 <> A2:180
+binder 13530:13530 <> B:181
+R13539:13542 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13545:13548 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13549:13549 VST.veric.mpred <> B:181 var
+R13543:13544 VST.veric.mpred <> A2:180 var
+R13537:13538 VST.veric.mpred <> A1:179 var
+binder 13534:13534 <> P:182
+R13564:13567 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13568:13569 VST.veric.mpred <> A1:179 var
+R13557:13563 VST.veric.mpred <> environ ind
+binder 13553:13554 <> f1:183
+R13584:13587 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13588:13589 VST.veric.mpred <> A2:180 var
+R13577:13583 VST.veric.mpred <> environ ind
+binder 13573:13574 <> f2:184
+R13603:13606 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13607:13607 VST.veric.mpred <> B:181 var
+R13596:13602 VST.veric.mpred <> environ ind
+binder 13616:13618 <> rho:185
+R13623:13623 VST.veric.mpred <> P:182 var
+R13635:13636 VST.veric.mpred <> f2:184 var
+R13638:13640 VST.veric.mpred <> rho:185 var
+R13626:13627 VST.veric.mpred <> f1:183 var
+R13629:13631 VST.veric.mpred <> rho:185 var
+def 13655:13659 <> lift3
+binder 13662:13663 <> A1:186
+binder 13665:13666 <> A2:187
+binder 13668:13669 <> A3:188
+binder 13671:13671 <> B:189
+R13680:13683 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13686:13689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13692:13695 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13696:13696 VST.veric.mpred <> B:189 var
+R13690:13691 VST.veric.mpred <> A3:188 var
+R13684:13685 VST.veric.mpred <> A2:187 var
+R13678:13679 VST.veric.mpred <> A1:186 var
+binder 13675:13675 <> P:190
+R13716:13719 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13720:13721 VST.veric.mpred <> A1:186 var
+R13709:13715 VST.veric.mpred <> environ ind
+binder 13705:13706 <> f1:191
+R13736:13739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13740:13741 VST.veric.mpred <> A2:187 var
+R13729:13735 VST.veric.mpred <> environ ind
+binder 13725:13726 <> f2:192
+R13756:13759 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13760:13761 VST.veric.mpred <> A3:188 var
+R13749:13755 VST.veric.mpred <> environ ind
+binder 13745:13746 <> f3:193
+R13774:13777 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13778:13778 VST.veric.mpred <> B:189 var
+R13767:13773 VST.veric.mpred <> environ ind
+binder 13792:13794 <> rho:194
+R13799:13799 VST.veric.mpred <> P:190 var
+R13820:13821 VST.veric.mpred <> f3:193 var
+R13823:13825 VST.veric.mpred <> rho:194 var
+R13811:13812 VST.veric.mpred <> f2:192 var
+R13814:13816 VST.veric.mpred <> rho:194 var
+R13802:13803 VST.veric.mpred <> f1:191 var
+R13805:13807 VST.veric.mpred <> rho:194 var
+def 13840:13844 <> lift4
+binder 13847:13848 <> A1:195
+binder 13850:13851 <> A2:196
+binder 13853:13854 <> A3:197
+binder 13856:13857 <> A4:198
+binder 13859:13859 <> B:199
+R13868:13871 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13874:13877 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13880:13883 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13886:13889 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13890:13890 VST.veric.mpred <> B:199 var
+R13884:13885 VST.veric.mpred <> A4:198 var
+R13878:13879 VST.veric.mpred <> A3:197 var
+R13872:13873 VST.veric.mpred <> A2:196 var
+R13866:13867 VST.veric.mpred <> A1:195 var
+binder 13863:13863 <> P:200
+R13910:13913 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13914:13915 VST.veric.mpred <> A1:195 var
+R13903:13909 VST.veric.mpred <> environ ind
+binder 13899:13900 <> f1:201
+R13930:13933 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13934:13935 VST.veric.mpred <> A2:196 var
+R13923:13929 VST.veric.mpred <> environ ind
+binder 13919:13920 <> f2:202
+R13950:13953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13954:13955 VST.veric.mpred <> A3:197 var
+R13943:13949 VST.veric.mpred <> environ ind
+binder 13939:13940 <> f3:203
+R13969:13972 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13973:13974 VST.veric.mpred <> A4:198 var
+R13962:13968 VST.veric.mpred <> environ ind
+binder 13958:13959 <> f4:204
+R13986:13989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13990:13990 VST.veric.mpred <> B:199 var
+R13979:13985 VST.veric.mpred <> environ ind
+binder 14004:14006 <> rho:205
+R14011:14011 VST.veric.mpred <> P:200 var
+R14041:14042 VST.veric.mpred <> f4:204 var
+R14044:14046 VST.veric.mpred <> rho:205 var
+R14032:14033 VST.veric.mpred <> f3:203 var
+R14035:14037 VST.veric.mpred <> rho:205 var
+R14023:14024 VST.veric.mpred <> f2:202 var
+R14026:14028 VST.veric.mpred <> rho:205 var
+R14014:14015 VST.veric.mpred <> f1:201 var
+R14017:14019 VST.veric.mpred <> rho:205 var
+def 14062:14067 <> alift0
+binder 14070:14070 <> B:206
+R14077:14077 VST.veric.mpred <> B:206 var
+binder 14074:14074 <> P:207
+R14093:14096 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14097:14097 VST.veric.mpred <> B:206 var
+R14082:14092 VST.veric.mpred <> argsEnviron def
+R14111:14111 VST.veric.mpred <> P:207 var
+def 14125:14130 <> alift1
+binder 14133:14134 <> A1:208
+binder 14136:14136 <> B:209
+R14145:14148 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14149:14149 VST.veric.mpred <> B:209 var
+R14143:14144 VST.veric.mpred <> A1:208 var
+binder 14140:14140 <> P:210
+R14168:14171 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14172:14173 VST.veric.mpred <> A1:208 var
+R14157:14167 VST.veric.mpred <> argsEnviron def
+binder 14153:14154 <> f1:211
+R14189:14192 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14193:14193 VST.veric.mpred <> B:209 var
+R14178:14188 VST.veric.mpred <> argsEnviron def
+binder 14202:14204 <> rho:212
+R14209:14209 VST.veric.mpred <> P:210 var
+R14212:14213 VST.veric.mpred <> f1:211 var
+R14215:14217 VST.veric.mpred <> rho:212 var
+def 14232:14237 <> alift2
+binder 14240:14241 <> A1:213
+binder 14243:14244 <> A2:214
+binder 14246:14246 <> B:215
+R14255:14258 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14261:14264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14265:14265 VST.veric.mpred <> B:215 var
+R14259:14260 VST.veric.mpred <> A2:214 var
+R14253:14254 VST.veric.mpred <> A1:213 var
+binder 14250:14250 <> P:216
+R14284:14287 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14288:14289 VST.veric.mpred <> A1:213 var
+R14273:14283 VST.veric.mpred <> argsEnviron def
+binder 14269:14270 <> f1:217
+R14308:14311 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14312:14313 VST.veric.mpred <> A2:214 var
+R14297:14307 VST.veric.mpred <> argsEnviron def
+binder 14293:14294 <> f2:218
+R14331:14334 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14335:14335 VST.veric.mpred <> B:215 var
+R14320:14330 VST.veric.mpred <> argsEnviron def
+binder 14344:14346 <> rho:219
+R14351:14351 VST.veric.mpred <> P:216 var
+R14363:14364 VST.veric.mpred <> f2:218 var
+R14366:14368 VST.veric.mpred <> rho:219 var
+R14354:14355 VST.veric.mpred <> f1:217 var
+R14357:14359 VST.veric.mpred <> rho:219 var
+def 14383:14388 <> alift3
+binder 14391:14392 <> A1:220
+binder 14394:14395 <> A2:221
+binder 14397:14398 <> A3:222
+binder 14400:14400 <> B:223
+R14409:14412 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14415:14418 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14421:14424 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14425:14425 VST.veric.mpred <> B:223 var
+R14419:14420 VST.veric.mpred <> A3:222 var
+R14413:14414 VST.veric.mpred <> A2:221 var
+R14407:14408 VST.veric.mpred <> A1:220 var
+binder 14404:14404 <> P:224
+R14449:14452 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14453:14454 VST.veric.mpred <> A1:220 var
+R14438:14448 VST.veric.mpred <> argsEnviron def
+binder 14434:14435 <> f1:225
+R14473:14476 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14477:14478 VST.veric.mpred <> A2:221 var
+R14462:14472 VST.veric.mpred <> argsEnviron def
+binder 14458:14459 <> f2:226
+R14497:14500 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14501:14502 VST.veric.mpred <> A3:222 var
+R14486:14496 VST.veric.mpred <> argsEnviron def
+binder 14482:14483 <> f3:227
+R14519:14522 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14523:14523 VST.veric.mpred <> B:223 var
+R14508:14518 VST.veric.mpred <> argsEnviron def
+binder 14537:14539 <> rho:228
+R14544:14544 VST.veric.mpred <> P:224 var
+R14565:14566 VST.veric.mpred <> f3:227 var
+R14568:14570 VST.veric.mpred <> rho:228 var
+R14556:14557 VST.veric.mpred <> f2:226 var
+R14559:14561 VST.veric.mpred <> rho:228 var
+R14547:14548 VST.veric.mpred <> f1:225 var
+R14550:14552 VST.veric.mpred <> rho:228 var
+def 14585:14590 <> alift4
+binder 14593:14594 <> A1:229
+binder 14596:14597 <> A2:230
+binder 14599:14600 <> A3:231
+binder 14602:14603 <> A4:232
+binder 14605:14605 <> B:233
+R14614:14617 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14620:14623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14626:14629 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14632:14635 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14636:14636 VST.veric.mpred <> B:233 var
+R14630:14631 VST.veric.mpred <> A4:232 var
+R14624:14625 VST.veric.mpred <> A3:231 var
+R14618:14619 VST.veric.mpred <> A2:230 var
+R14612:14613 VST.veric.mpred <> A1:229 var
+binder 14609:14609 <> P:234
+R14660:14663 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14664:14665 VST.veric.mpred <> A1:229 var
+R14649:14659 VST.veric.mpred <> argsEnviron def
+binder 14645:14646 <> f1:235
+R14684:14687 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14688:14689 VST.veric.mpred <> A2:230 var
+R14673:14683 VST.veric.mpred <> argsEnviron def
+binder 14669:14670 <> f2:236
+R14708:14711 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14712:14713 VST.veric.mpred <> A3:231 var
+R14697:14707 VST.veric.mpred <> argsEnviron def
+binder 14693:14694 <> f3:237
+R14731:14734 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14735:14736 VST.veric.mpred <> A4:232 var
+R14720:14730 VST.veric.mpred <> argsEnviron def
+binder 14716:14717 <> f4:238
+R14752:14755 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14756:14756 VST.veric.mpred <> B:233 var
+R14741:14751 VST.veric.mpred <> argsEnviron def
+binder 14770:14772 <> rho:239
+R14777:14777 VST.veric.mpred <> P:234 var
+R14807:14808 VST.veric.mpred <> f4:238 var
+R14810:14812 VST.veric.mpred <> rho:239 var
+R14798:14799 VST.veric.mpred <> f3:237 var
+R14801:14803 VST.veric.mpred <> rho:239 var
+R14789:14790 VST.veric.mpred <> f2:236 var
+R14792:14794 VST.veric.mpred <> rho:239 var
+R14780:14781 VST.veric.mpred <> f1:235 var
+R14783:14785 VST.veric.mpred <> rho:239 var
+R14858:14871 VST.veric.lift <> <> lib
+def 14971:14981 <> LiftEnviron
+R14986:14989 VST.veric.lift <> Tend def
+R14991:14997 VST.veric.mpred <> environ ind
+def 15173:15184 <> LiftAEnviron
+R15189:15192 VST.veric.lift <> Tend def
+R15194:15204 VST.veric.mpred <> argsEnviron def
+R15322:15326 VST.veric.lift <> liftx def
+R15328:15338 VST.veric.mpred <> LiftEnviron canonstruc
+R15340:15351 VST.veric.mpred <> LiftAEnviron canonstruc
+R15353:15358 VST.veric.lift <> Tarrow canonstruc
+R15360:15363 VST.veric.lift <> Tend def
+R15365:15370 VST.veric.lift <> lift_S proj
+R15372:15377 VST.veric.lift <> lift_T proj
+R15379:15387 VST.veric.lift <> lift_prod proj
+R15391:15399 VST.veric.lift <> lift_last proj
+R15401:15406 VST.veric.lift <> lifted proj
+R15408:15424 VST.veric.lift <> lift_uncurry_open proj
+R15426:15435 VST.veric.lift <> lift_curry proj
+R15437:15440 VST.veric.lift <> lift def
+R15442:15446 VST.veric.mpred <> lift0 def
+R15448:15452 VST.veric.mpred <> lift1 def
+R15454:15458 VST.veric.mpred <> lift2 def
+R15460:15464 VST.veric.mpred <> lift3 def
+R15466:15471 VST.veric.mpred <> alift0 def
+R15473:15478 VST.veric.mpred <> alift1 def
+R15480:15485 VST.veric.mpred <> alift2 def
+R15487:15492 VST.veric.mpred <> alift3 def
+prf 15518:15539 <> approx_hered_derives_e
+binder 15541:15541 <> n:240
+binder 15543:15543 <> P:241
+binder 15545:15545 <> Q:242
+R15576:15579 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15580:15603 VST.msl.predicates_hered <> derives def
+R15619:15624 VST.veric.compcert_rmaps RML.R approx def
+R15628:15628 VST.veric.mpred <> Q:242 var
+R15626:15626 VST.veric.mpred <> n:240 var
+R15606:15611 VST.veric.compcert_rmaps RML.R approx def
+R15615:15615 VST.veric.mpred <> P:241 var
+R15613:15613 VST.veric.mpred <> n:240 var
+R15548:15571 VST.msl.predicates_hered <> derives def
+R15575:15575 VST.veric.mpred <> Q:242 var
+R15573:15573 VST.veric.mpred <> P:241 var
+R15654:15659 VST.veric.compcert_rmaps RML.R approx def
+prf 15717:15732 <> approx_derives_e
+binder 15734:15734 <> n:243
+binder 15736:15736 <> P:244
+binder 15738:15738 <> Q:245
+R15748:15751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15762:15766 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R15752:15757 VST.veric.compcert_rmaps RML.R approx def
+R15761:15761 VST.veric.mpred <> P:244 var
+R15759:15759 VST.veric.mpred <> n:243 var
+R15767:15772 VST.veric.compcert_rmaps RML.R approx def
+R15776:15776 VST.veric.mpred <> Q:245 var
+R15774:15774 VST.veric.mpred <> n:243 var
+R15742:15746 VST.msl.predicates_hered <> ::pred_derives:x_'|--'_x not
+R15741:15741 VST.veric.mpred <> P:244 var
+R15747:15747 VST.veric.mpred <> Q:245 var
+R15800:15821 VST.veric.mpred <> approx_hered_derives_e thm
+R15800:15821 VST.veric.mpred <> approx_hered_derives_e thm
+prf 15846:15866 <> hered_derives_derives
+binder 15868:15868 <> P:246
+binder 15870:15870 <> Q:247
+R15901:15904 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15905:15911 VST.msl.predicates_hered <> derives def
+R15915:15915 VST.veric.mpred <> Q:247 var
+R15913:15913 VST.veric.mpred <> P:246 var
+R15873:15896 VST.msl.predicates_hered <> derives def
+R15900:15900 VST.veric.mpred <> Q:247 var
+R15898:15898 VST.veric.mpred <> P:246 var

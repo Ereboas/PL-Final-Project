@@ -1,0 +1,1227 @@
+DIGEST e26ed3d3dac37d5dfc42491ba42ac702
+FVST.floyd.mapsto_memory_block
+R15:29 VST.floyd.base2 <> <> lib
+R47:69 VST.floyd.client_lemmas <> <> lib
+R87:114 VST.floyd.nested_pred_lemmas <> <> lib
+prf 312:328 <> local_facts_isptr
+binder 338:338 <> P:1
+binder 340:340 <> Q:2
+R346:348 compcert.common.Values <> val ind
+binder 343:343 <> p:3
+R364:367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R368:368 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R381:385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R389:391 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R386:386 VST.floyd.mapsto_memory_block <> P:1 var
+R388:388 VST.floyd.mapsto_memory_block <> p:3 var
+R404:407 VST.msl.seplog <> ::logic:x_'&&'_x not
+R392:395 VST.msl.seplog <> ::logic:'!!'_x not
+R403:403 VST.msl.seplog <> ::logic:'!!'_x not
+R396:400 VST.veric.val_lemmas <> isptr def
+R402:402 VST.floyd.mapsto_memory_block <> p:3 var
+R408:408 VST.floyd.mapsto_memory_block <> P:1 var
+R410:410 VST.floyd.mapsto_memory_block <> p:3 var
+R370:373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R374:378 VST.veric.val_lemmas <> isptr def
+R380:380 VST.floyd.mapsto_memory_block <> p:3 var
+R369:369 VST.floyd.mapsto_memory_block <> Q:2 var
+R355:359 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R352:352 VST.floyd.mapsto_memory_block <> P:1 var
+R354:354 VST.floyd.mapsto_memory_block <> p:3 var
+R360:362 VST.msl.seplog <> ::logic:'!!'_x not
+R363:363 VST.floyd.mapsto_memory_block <> Q:2 var
+R440:448 VST.msl.log_normalize <> andp_comm thm
+R457:464 VST.msl.log_normalize <> add_andp thm
+R440:448 VST.msl.log_normalize <> andp_comm thm
+R440:448 VST.msl.log_normalize <> andp_comm thm
+R457:464 VST.msl.log_normalize <> add_andp thm
+R476:488 VST.msl.seplog <> derives_trans meth
+R476:488 VST.msl.seplog <> derives_trans meth
+R516:527 VST.msl.log_normalize <> prop_derives thm
+R516:527 VST.msl.log_normalize <> prop_derives thm
+prf 548:570 <> local_facts_offset_zero
+binder 580:580 <> P:4
+R583:583 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R612:617 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R652:652 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 625:625 <> p:5
+R631:633 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R628:628 VST.floyd.mapsto_memory_block <> P:4 var
+R630:630 VST.floyd.mapsto_memory_block <> p:5 var
+R634:634 VST.floyd.mapsto_memory_block <> P:4 var
+R637:646 VST.veric.val_lemmas <> offset_val def
+R650:650 VST.floyd.mapsto_memory_block <> p:5 var
+binder 591:591 <> p:6
+R597:601 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R594:594 VST.floyd.mapsto_memory_block <> P:4 var
+R596:596 VST.floyd.mapsto_memory_block <> p:6 var
+R602:604 VST.msl.seplog <> ::logic:'!!'_x not
+R605:609 VST.veric.val_lemmas <> isptr def
+R611:611 VST.floyd.mapsto_memory_block <> p:6 var
+R708:713 compcert.common.Values <> Vundef constr
+R708:713 compcert.common.Values <> Vundef constr
+R749:756 VST.msl.seplog <> pred_ext meth
+R749:756 VST.msl.seplog <> pred_ext meth
+R749:756 VST.msl.seplog <> pred_ext meth
+R749:756 VST.msl.seplog <> pred_ext meth
+R749:756 VST.msl.seplog <> pred_ext meth
+R749:756 VST.msl.seplog <> pred_ext meth
+R749:756 VST.msl.seplog <> pred_ext meth
+R793:805 VST.msl.seplog <> derives_trans meth
+R793:805 VST.msl.seplog <> derives_trans meth
+R793:805 VST.msl.seplog <> derives_trans meth
+R793:805 VST.msl.seplog <> derives_trans meth
+R793:805 VST.msl.seplog <> derives_trans meth
+R793:805 VST.msl.seplog <> derives_trans meth
+R793:805 VST.msl.seplog <> derives_trans meth
+R793:805 VST.msl.seplog <> derives_trans meth
+R793:805 VST.msl.seplog <> derives_trans meth
+prf 972:989 <> mapsto_local_facts
+binder 1001:1002 <> sh:7
+binder 1004:1004 <> t:8
+binder 1006:1007 <> v1:9
+binder 1009:1010 <> v2:10
+R1031:1035 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1014:1019 VST.veric.SeparationLogic <> mapsto def
+R1029:1030 VST.floyd.mapsto_memory_block <> v2:10 var
+R1026:1027 VST.floyd.mapsto_memory_block <> v1:9 var
+R1024:1024 VST.floyd.mapsto_memory_block <> t:8 var
+R1021:1022 VST.floyd.mapsto_memory_block <> sh:7 var
+R1036:1039 VST.msl.seplog <> ::logic:'!!'_x not
+R1064:1064 VST.msl.seplog <> ::logic:'!!'_x not
+R1048:1051 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1040:1044 VST.veric.val_lemmas <> isptr def
+R1046:1047 VST.floyd.mapsto_memory_block <> v1:9 var
+R1052:1058 VST.veric.Cop2 <> tc_val' def
+R1062:1063 VST.floyd.mapsto_memory_block <> v2:10 var
+R1060:1060 VST.floyd.mapsto_memory_block <> t:8 var
+R1094:1101 VST.msl.log_normalize <> prop_and thm
+R1094:1101 VST.msl.log_normalize <> prop_and thm
+R1094:1101 VST.msl.log_normalize <> prop_and thm
+R1112:1121 VST.msl.seplog <> andp_right meth
+R1112:1121 VST.msl.seplog <> andp_right meth
+R1135:1140 VST.veric.SeparationLogic <> mapsto def
+R1157:1167 compcert.cfrontend.Ctypes <> access_mode def
+R1183:1189 VST.msl.log_normalize <> FF_left thm
+R1157:1167 compcert.cfrontend.Ctypes <> access_mode def
+R1183:1189 VST.msl.log_normalize <> FF_left thm
+R1183:1189 VST.msl.log_normalize <> FF_left thm
+R1183:1189 VST.msl.log_normalize <> FF_left thm
+R1183:1189 VST.msl.log_normalize <> FF_left thm
+R1206:1221 compcert.cfrontend.Ctypes <> type_is_volatile def
+R1237:1243 VST.msl.log_normalize <> FF_left thm
+R1206:1221 compcert.cfrontend.Ctypes <> type_is_volatile def
+R1237:1243 VST.msl.log_normalize <> FF_left thm
+R1237:1243 VST.msl.log_normalize <> FF_left thm
+R1273:1279 VST.msl.log_normalize <> FF_left thm
+R1273:1279 VST.msl.log_normalize <> FF_left thm
+R1273:1279 VST.msl.log_normalize <> FF_left thm
+R1273:1279 VST.msl.log_normalize <> FF_left thm
+R1273:1279 VST.msl.log_normalize <> FF_left thm
+R1273:1279 VST.msl.log_normalize <> FF_left thm
+R1273:1279 VST.msl.log_normalize <> FF_left thm
+R1292:1301 VST.msl.seplog <> prop_right meth
+R1323:1338 Coq.Init.Logic <> I constr
+R1292:1301 VST.msl.seplog <> prop_right meth
+R1351:1364 VST.veric.SeparationLogic <> mapsto_tc_val' thm
+R1351:1364 VST.veric.SeparationLogic <> mapsto_tc_val' thm
+prf 1379:1397 <> mapsto__local_facts
+binder 1409:1410 <> sh:11
+binder 1412:1412 <> t:12
+binder 1414:1415 <> v1:13
+R1433:1437 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1418:1424 VST.veric.SeparationLogic <> mapsto_ def
+R1431:1432 VST.floyd.mapsto_memory_block <> v1:13 var
+R1429:1429 VST.floyd.mapsto_memory_block <> t:12 var
+R1426:1427 VST.floyd.mapsto_memory_block <> sh:11 var
+R1438:1440 VST.msl.seplog <> ::logic:'!!'_x not
+R1441:1445 VST.veric.val_lemmas <> isptr def
+R1447:1448 VST.floyd.mapsto_memory_block <> v1:13 var
+R1477:1489 VST.msl.seplog <> derives_trans meth
+R1499:1516 VST.floyd.mapsto_memory_block <> mapsto_local_facts thm
+R1477:1489 VST.msl.seplog <> derives_trans meth
+R1499:1516 VST.floyd.mapsto_memory_block <> mapsto_local_facts thm
+R1530:1541 VST.msl.log_normalize <> prop_derives thm
+R1530:1541 VST.msl.log_normalize <> prop_derives thm
+prf 1633:1650 <> mapsto_offset_zero
+binder 1662:1663 <> sh:14
+binder 1665:1665 <> t:15
+binder 1667:1668 <> v1:16
+binder 1670:1671 <> v2:17
+R1691:1693 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1674:1679 VST.veric.SeparationLogic <> mapsto def
+R1689:1690 VST.floyd.mapsto_memory_block <> v2:17 var
+R1686:1687 VST.floyd.mapsto_memory_block <> v1:16 var
+R1684:1684 VST.floyd.mapsto_memory_block <> t:15 var
+R1681:1682 VST.floyd.mapsto_memory_block <> sh:14 var
+R1694:1699 VST.veric.SeparationLogic <> mapsto def
+R1724:1725 VST.floyd.mapsto_memory_block <> v2:17 var
+R1707:1716 VST.veric.val_lemmas <> offset_val def
+R1720:1721 VST.floyd.mapsto_memory_block <> v1:16 var
+R1704:1704 VST.floyd.mapsto_memory_block <> t:15 var
+R1701:1702 VST.floyd.mapsto_memory_block <> sh:14 var
+R1755:1760 VST.veric.SeparationLogic <> mapsto def
+R1768:1777 VST.veric.val_lemmas <> offset_val def
+binder 1800:1801 <> v0:18
+R1806:1811 VST.veric.SeparationLogic <> mapsto def
+R1818:1819 VST.floyd.mapsto_memory_block <> v0:18 var
+R1826:1835 VST.veric.val_lemmas <> offset_val def
+R1755:1760 VST.veric.SeparationLogic <> mapsto def
+R1768:1777 VST.veric.val_lemmas <> offset_val def
+binder 1800:1801 <> v0:19
+R1806:1811 VST.veric.SeparationLogic <> mapsto def
+R1818:1819 VST.floyd.mapsto_memory_block <> v0:19 var
+R1826:1835 VST.veric.val_lemmas <> offset_val def
+R1858:1880 VST.floyd.mapsto_memory_block <> local_facts_offset_zero thm
+R1858:1880 VST.floyd.mapsto_memory_block <> local_facts_offset_zero thm
+R1858:1880 VST.floyd.mapsto_memory_block <> local_facts_offset_zero thm
+R1858:1880 VST.floyd.mapsto_memory_block <> local_facts_offset_zero thm
+R1917:1929 VST.msl.seplog <> derives_trans meth
+R1941:1958 VST.floyd.mapsto_memory_block <> mapsto_local_facts thm
+R1917:1929 VST.msl.seplog <> derives_trans meth
+R1941:1958 VST.floyd.mapsto_memory_block <> mapsto_local_facts thm
+prf 1990:2008 <> mapsto__offset_zero
+binder 2020:2021 <> sh:20
+binder 2023:2023 <> t:21
+binder 2025:2026 <> v1:22
+R2044:2046 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2029:2035 VST.veric.SeparationLogic <> mapsto_ def
+R2042:2043 VST.floyd.mapsto_memory_block <> v1:22 var
+R2040:2040 VST.floyd.mapsto_memory_block <> t:21 var
+R2037:2038 VST.floyd.mapsto_memory_block <> sh:20 var
+R2047:2053 VST.veric.SeparationLogic <> mapsto_ def
+R2061:2070 VST.veric.val_lemmas <> offset_val def
+R2074:2075 VST.floyd.mapsto_memory_block <> v1:22 var
+R2058:2058 VST.floyd.mapsto_memory_block <> t:21 var
+R2055:2056 VST.floyd.mapsto_memory_block <> sh:20 var
+R2095:2101 VST.veric.SeparationLogic <> mapsto_ def
+R2122:2139 VST.floyd.mapsto_memory_block <> mapsto_offset_zero thm
+R2122:2139 VST.floyd.mapsto_memory_block <> mapsto_offset_zero thm
+prf 2154:2165 <> mapsto_isptr
+binder 2175:2176 <> sh:23
+binder 2178:2178 <> t:24
+binder 2180:2181 <> v1:25
+binder 2183:2184 <> v2:26
+R2204:2206 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2187:2192 VST.veric.SeparationLogic <> mapsto def
+R2202:2203 VST.floyd.mapsto_memory_block <> v2:26 var
+R2199:2200 VST.floyd.mapsto_memory_block <> v1:25 var
+R2197:2197 VST.floyd.mapsto_memory_block <> t:24 var
+R2194:2195 VST.floyd.mapsto_memory_block <> sh:23 var
+R2220:2223 VST.msl.seplog <> ::logic:x_'&&'_x not
+R2207:2210 VST.msl.seplog <> ::logic:'!!'_x not
+R2219:2219 VST.msl.seplog <> ::logic:'!!'_x not
+R2211:2215 VST.veric.val_lemmas <> isptr def
+R2217:2218 VST.floyd.mapsto_memory_block <> v1:25 var
+R2224:2229 VST.veric.SeparationLogic <> mapsto def
+R2239:2240 VST.floyd.mapsto_memory_block <> v2:26 var
+R2236:2237 VST.floyd.mapsto_memory_block <> v1:25 var
+R2234:2234 VST.floyd.mapsto_memory_block <> t:24 var
+R2231:2232 VST.floyd.mapsto_memory_block <> sh:23 var
+R2270:2275 VST.veric.SeparationLogic <> mapsto def
+binder 2300:2301 <> v1:27
+R2306:2311 VST.veric.SeparationLogic <> mapsto def
+R2318:2319 VST.floyd.mapsto_memory_block <> v1:27 var
+R2270:2275 VST.veric.SeparationLogic <> mapsto def
+binder 2300:2301 <> v1:28
+R2306:2311 VST.veric.SeparationLogic <> mapsto def
+R2318:2319 VST.floyd.mapsto_memory_block <> v1:28 var
+binder 2300:2301 <> v1:29
+R2306:2311 VST.veric.SeparationLogic <> mapsto def
+R2318:2319 VST.floyd.mapsto_memory_block <> v1:29 var
+R2339:2355 VST.floyd.mapsto_memory_block <> local_facts_isptr thm
+R2339:2355 VST.floyd.mapsto_memory_block <> local_facts_isptr thm
+R2368:2385 VST.floyd.mapsto_memory_block <> mapsto_local_facts thm
+R2368:2385 VST.floyd.mapsto_memory_block <> mapsto_local_facts thm
+prf 2411:2423 <> mapsto__isptr
+binder 2433:2434 <> sh:30
+binder 2436:2436 <> t:31
+binder 2438:2439 <> v1:32
+R2457:2459 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2442:2448 VST.veric.SeparationLogic <> mapsto_ def
+R2455:2456 VST.floyd.mapsto_memory_block <> v1:32 var
+R2453:2453 VST.floyd.mapsto_memory_block <> t:31 var
+R2450:2451 VST.floyd.mapsto_memory_block <> sh:30 var
+R2473:2476 VST.msl.seplog <> ::logic:x_'&&'_x not
+R2460:2463 VST.msl.seplog <> ::logic:'!!'_x not
+R2472:2472 VST.msl.seplog <> ::logic:'!!'_x not
+R2464:2468 VST.veric.val_lemmas <> isptr def
+R2470:2471 VST.floyd.mapsto_memory_block <> v1:32 var
+R2477:2483 VST.veric.SeparationLogic <> mapsto_ def
+R2490:2491 VST.floyd.mapsto_memory_block <> v1:32 var
+R2488:2488 VST.floyd.mapsto_memory_block <> t:31 var
+R2485:2486 VST.floyd.mapsto_memory_block <> sh:30 var
+R2520:2536 VST.floyd.mapsto_memory_block <> local_facts_isptr thm
+R2520:2536 VST.floyd.mapsto_memory_block <> local_facts_isptr thm
+R2549:2566 VST.floyd.mapsto_memory_block <> mapsto_local_facts thm
+R2549:2566 VST.floyd.mapsto_memory_block <> mapsto_local_facts thm
+R2716:2737 VST.veric.SeparationLogic <> memory_block_zero_Vptr thm
+def 2758:2773 <> size_compatible'
+R2779:2779 Coq.Numbers.BinNums <> Z ind
+binder 2776:2776 <> n:33
+R2786:2788 compcert.common.Values <> val ind
+binder 2783:2783 <> p:34
+R2800:2800 VST.floyd.mapsto_memory_block <> p:34 var
+R2809:2814 compcert.common.Values <> Vundef constr
+R2819:2822 Coq.Init.Logic <> True ind
+R2826:2829 compcert.common.Values <> Vint constr
+R2836:2839 Coq.Init.Logic <> True ind
+R2843:2847 compcert.common.Values <> Vlong constr
+R2854:2857 Coq.Init.Logic <> True ind
+R2861:2866 compcert.common.Values <> Vfloat constr
+R2873:2876 Coq.Init.Logic <> True ind
+R2880:2886 compcert.common.Values <> Vsingle constr
+R2893:2896 Coq.Init.Logic <> True ind
+R2900:2903 compcert.common.Values <> Vptr constr
+R2941:2943 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2937:2939 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2916:2930 compcert.lib.Integers Ptrofs unsigned def
+R2940:2940 VST.floyd.mapsto_memory_block <> n:33 var
+R2944:2957 compcert.lib.Integers Ptrofs modulus def
+prf 2971:2994 <> memory_block_local_facts
+binder 3004:3005 <> sh:36
+binder 3007:3007 <> n:37
+binder 3009:3009 <> p:38
+R3034:3038 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R3015:3026 VST.veric.SeparationLogic <> memory_block def
+R3033:3033 VST.floyd.mapsto_memory_block <> p:38 var
+R3031:3031 VST.floyd.mapsto_memory_block <> n:37 var
+R3028:3029 VST.floyd.mapsto_memory_block <> sh:36 var
+R3039:3042 VST.msl.seplog <> ::logic:'!!'_x not
+R3074:3074 VST.msl.seplog <> ::logic:'!!'_x not
+R3050:3053 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3043:3047 VST.veric.val_lemmas <> isptr def
+R3049:3049 VST.floyd.mapsto_memory_block <> p:38 var
+R3054:3069 VST.floyd.mapsto_memory_block <> size_compatible' def
+R3073:3073 VST.floyd.mapsto_memory_block <> p:38 var
+R3071:3071 VST.floyd.mapsto_memory_block <> n:37 var
+R3104:3115 VST.veric.SeparationLogic <> memory_block def
+R3156:3165 VST.msl.seplog <> prop_right meth
+R3156:3165 VST.msl.seplog <> prop_right meth
+prf 3249:3272 <> memory_block_offset_zero
+binder 3284:3285 <> sh:39
+binder 3287:3287 <> n:40
+binder 3289:3289 <> v:41
+R3311:3313 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3292:3303 VST.veric.SeparationLogic <> memory_block def
+R3310:3310 VST.floyd.mapsto_memory_block <> v:41 var
+R3308:3308 VST.floyd.mapsto_memory_block <> n:40 var
+R3305:3306 VST.floyd.mapsto_memory_block <> sh:39 var
+R3314:3325 VST.veric.SeparationLogic <> memory_block def
+R3333:3342 VST.veric.val_lemmas <> offset_val def
+R3346:3346 VST.floyd.mapsto_memory_block <> v:41 var
+R3330:3330 VST.floyd.mapsto_memory_block <> n:40 var
+R3327:3328 VST.floyd.mapsto_memory_block <> sh:39 var
+R3380:3402 VST.floyd.mapsto_memory_block <> local_facts_offset_zero thm
+R3380:3402 VST.floyd.mapsto_memory_block <> local_facts_offset_zero thm
+R3380:3402 VST.floyd.mapsto_memory_block <> local_facts_offset_zero thm
+R3380:3402 VST.floyd.mapsto_memory_block <> local_facts_offset_zero thm
+R3436:3448 VST.msl.seplog <> derives_trans meth
+R3458:3481 VST.floyd.mapsto_memory_block <> memory_block_local_facts thm
+R3436:3448 VST.msl.seplog <> derives_trans meth
+R3458:3481 VST.floyd.mapsto_memory_block <> memory_block_local_facts thm
+prf 3511:3528 <> memory_block_isptr
+binder 3538:3539 <> sh:42
+binder 3541:3541 <> n:43
+binder 3543:3543 <> p:44
+R3565:3567 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3546:3557 VST.veric.SeparationLogic <> memory_block def
+R3564:3564 VST.floyd.mapsto_memory_block <> p:44 var
+R3562:3562 VST.floyd.mapsto_memory_block <> n:43 var
+R3559:3560 VST.floyd.mapsto_memory_block <> sh:42 var
+R3579:3582 VST.msl.seplog <> ::logic:x_'&&'_x not
+R3568:3570 VST.msl.seplog <> ::logic:'!!'_x not
+R3578:3578 VST.msl.seplog <> ::logic:'!!'_x not
+R3571:3575 VST.veric.val_lemmas <> isptr def
+R3577:3577 VST.floyd.mapsto_memory_block <> p:44 var
+R3583:3594 VST.veric.SeparationLogic <> memory_block def
+R3601:3601 VST.floyd.mapsto_memory_block <> p:44 var
+R3599:3599 VST.floyd.mapsto_memory_block <> n:43 var
+R3596:3597 VST.floyd.mapsto_memory_block <> sh:42 var
+R3630:3646 VST.floyd.mapsto_memory_block <> local_facts_isptr thm
+R3630:3646 VST.floyd.mapsto_memory_block <> local_facts_isptr thm
+R3659:3682 VST.floyd.mapsto_memory_block <> memory_block_local_facts thm
+R3659:3682 VST.floyd.mapsto_memory_block <> memory_block_local_facts thm
+prf 3712:3728 <> memory_block_zero
+binder 3738:3739 <> sh:45
+binder 3741:3741 <> p:46
+R3763:3765 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3744:3755 VST.veric.SeparationLogic <> memory_block def
+R3762:3762 VST.floyd.mapsto_memory_block <> p:46 var
+R3757:3758 VST.floyd.mapsto_memory_block <> sh:45 var
+R3776:3779 VST.msl.seplog <> ::logic:x_'&&'_x not
+R3766:3768 VST.msl.seplog <> ::logic:'!!'_x not
+R3769:3773 VST.veric.val_lemmas <> isptr def
+R3775:3775 VST.floyd.mapsto_memory_block <> p:46 var
+R3780:3782 VST.msl.seplog <> emp meth
+R3812:3829 VST.floyd.mapsto_memory_block <> memory_block_isptr thm
+R3812:3829 VST.floyd.mapsto_memory_block <> memory_block_isptr thm
+R3812:3829 VST.floyd.mapsto_memory_block <> memory_block_isptr thm
+R3860:3881 VST.veric.SeparationLogic <> memory_block_zero_Vptr thm
+R3903:3904 VST.msl.seplog <> ::logic:'!!'_x not
+R3905:3909 Coq.Init.Logic <> False ind
+R3917:3918 VST.msl.seplog <> FF meth
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3860:3881 VST.veric.SeparationLogic <> memory_block_zero_Vptr thm
+R3860:3881 VST.veric.SeparationLogic <> memory_block_zero_Vptr thm
+R3860:3881 VST.veric.SeparationLogic <> memory_block_zero_Vptr thm
+R3860:3881 VST.veric.SeparationLogic <> memory_block_zero_Vptr thm
+R3860:3881 VST.veric.SeparationLogic <> memory_block_zero_Vptr thm
+R3860:3881 VST.veric.SeparationLogic <> memory_block_zero_Vptr thm
+R3860:3881 VST.veric.SeparationLogic <> memory_block_zero_Vptr thm
+R3903:3904 VST.msl.seplog <> ::logic:'!!'_x not
+R3905:3909 Coq.Init.Logic <> False ind
+R3917:3918 VST.msl.seplog <> FF meth
+R3917:3918 VST.msl.seplog <> FF meth
+R3903:3904 VST.msl.seplog <> ::logic:'!!'_x not
+R3905:3909 Coq.Init.Logic <> False ind
+R3917:3918 VST.msl.seplog <> FF meth
+R3917:3918 VST.msl.seplog <> FF meth
+R3903:3904 VST.msl.seplog <> ::logic:'!!'_x not
+R3905:3909 Coq.Init.Logic <> False ind
+R3917:3918 VST.msl.seplog <> FF meth
+R3917:3918 VST.msl.seplog <> FF meth
+R3903:3904 VST.msl.seplog <> ::logic:'!!'_x not
+R3905:3909 Coq.Init.Logic <> False ind
+R3917:3918 VST.msl.seplog <> FF meth
+R3917:3918 VST.msl.seplog <> FF meth
+R3903:3904 VST.msl.seplog <> ::logic:'!!'_x not
+R3905:3909 Coq.Init.Logic <> False ind
+R3917:3918 VST.msl.seplog <> FF meth
+R3917:3918 VST.msl.seplog <> FF meth
+R3903:3904 VST.msl.seplog <> ::logic:'!!'_x not
+R3905:3909 Coq.Init.Logic <> False ind
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+R3938:3944 VST.msl.log_normalize <> FF_andp thm
+prf 3967:3986 <> access_mode_by_value
+binder 3996:3996 <> t:47
+R4024:4027 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4028:4034 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4037:4038 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4035:4036 <> ch:48
+R4052:4054 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4039:4049 compcert.cfrontend.Ctypes <> access_mode def
+R4051:4051 VST.floyd.mapsto_memory_block <> t:47 var
+R4055:4062 compcert.cfrontend.Ctypes <> By_value constr
+R4064:4065 VST.floyd.mapsto_memory_block <> ch:48 var
+R4017:4019 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3999:4014 VST.veric.mpred <> type_is_by_value def
+R4016:4016 VST.floyd.mapsto_memory_block <> t:47 var
+R4020:4023 Coq.Init.Datatypes <> true constr
+binder 4102:4104 <> ch':49
+R4107:4113 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4116:4117 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4114:4115 <> ch:50
+R4130:4132 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4118:4125 compcert.cfrontend.Ctypes <> By_value constr
+R4127:4129 VST.floyd.mapsto_memory_block <> ch':49 var
+R4133:4140 compcert.cfrontend.Ctypes <> By_value constr
+R4142:4143 VST.floyd.mapsto_memory_block <> ch:50 var
+binder 4102:4104 <> ch':51
+R4107:4113 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4116:4117 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4114:4115 <> ch:52
+R4130:4132 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4118:4125 compcert.cfrontend.Ctypes <> By_value constr
+R4127:4129 VST.floyd.mapsto_memory_block <> ch':51 var
+R4133:4140 compcert.cfrontend.Ctypes <> By_value constr
+R4142:4143 VST.floyd.mapsto_memory_block <> ch:52 var
+prf 4313:4327 <> mapsto_by_value
+binder 4337:4338 <> sh:53
+binder 4340:4340 <> t:54
+binder 4342:4342 <> p:55
+binder 4344:4344 <> v:56
+R4362:4364 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4347:4352 VST.veric.SeparationLogic <> mapsto def
+R4361:4361 VST.floyd.mapsto_memory_block <> v:56 var
+R4359:4359 VST.floyd.mapsto_memory_block <> p:55 var
+R4357:4357 VST.floyd.mapsto_memory_block <> t:54 var
+R4354:4355 VST.floyd.mapsto_memory_block <> sh:53 var
+R4395:4398 VST.msl.seplog <> ::logic:x_'&&'_x not
+R4365:4368 VST.msl.seplog <> ::logic:'!!'_x not
+R4394:4394 VST.msl.seplog <> ::logic:'!!'_x not
+R4387:4389 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4369:4384 VST.veric.mpred <> type_is_by_value def
+R4386:4386 VST.floyd.mapsto_memory_block <> t:54 var
+R4390:4393 Coq.Init.Datatypes <> true constr
+R4399:4404 VST.veric.SeparationLogic <> mapsto def
+R4413:4413 VST.floyd.mapsto_memory_block <> v:56 var
+R4411:4411 VST.floyd.mapsto_memory_block <> p:55 var
+R4409:4409 VST.floyd.mapsto_memory_block <> t:54 var
+R4406:4407 VST.floyd.mapsto_memory_block <> sh:53 var
+R4441:4448 VST.msl.seplog <> pred_ext meth
+R4441:4448 VST.msl.seplog <> pred_ext meth
+R4470:4479 VST.msl.seplog <> andp_right meth
+R4470:4479 VST.msl.seplog <> andp_right meth
+R4502:4507 VST.veric.SeparationLogic <> mapsto def
+R4553:4562 VST.msl.seplog <> prop_right meth
+R4553:4562 VST.msl.seplog <> prop_right meth
+R4553:4562 VST.msl.seplog <> prop_right meth
+R4553:4562 VST.msl.seplog <> prop_right meth
+R4553:4562 VST.msl.seplog <> prop_right meth
+sec 4695:4703 <> COMPSPECS
+R4720:4728 VST.veric.mpred <> compspecs class
+binder 4716:4717 <> cs:57
+prf 4739:4758 <> memory_block_mapsto_
+binder 4770:4771 <> sh:58
+binder 4773:4773 <> t:59
+binder 4775:4775 <> p:60
+R4806:4812 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4839:4845 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4865:4871 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4892:4898 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4927:4929 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4899:4910 VST.veric.SeparationLogic <> memory_block def
+R4926:4926 VST.floyd.mapsto_memory_block <> p:60 var
+R4916:4921 VST.veric.expr <> sizeof def
+R4923:4923 VST.floyd.mapsto_memory_block <> t:59 var
+R4912:4913 VST.floyd.mapsto_memory_block <> sh:58 var
+R4930:4936 VST.veric.SeparationLogic <> mapsto_ def
+R4943:4943 VST.floyd.mapsto_memory_block <> p:60 var
+R4941:4941 VST.floyd.mapsto_memory_block <> t:59 var
+R4938:4939 VST.floyd.mapsto_memory_block <> sh:58 var
+R4872:4887 VST.veric.SeparationLogic <> align_compatible def
+R4891:4891 VST.floyd.mapsto_memory_block <> p:60 var
+R4889:4889 VST.floyd.mapsto_memory_block <> t:59 var
+R4846:4860 VST.veric.SeparationLogic <> size_compatible def
+R4864:4864 VST.floyd.mapsto_memory_block <> p:60 var
+R4862:4862 VST.floyd.mapsto_memory_block <> t:59 var
+R4831:4833 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4813:4828 compcert.cfrontend.Ctypes <> type_is_volatile def
+R4830:4830 VST.floyd.mapsto_memory_block <> t:59 var
+R4834:4838 Coq.Init.Datatypes <> false constr
+R4799:4801 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4781:4796 VST.veric.mpred <> type_is_by_value def
+R4798:4798 VST.floyd.mapsto_memory_block <> t:59 var
+R4802:4805 Coq.Init.Datatypes <> true constr
+R4980:4983 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4973:4977 VST.veric.val_lemmas <> isptr def
+R4984:4984 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4985:4989 VST.veric.val_lemmas <> isptr def
+R4980:4983 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4973:4977 VST.veric.val_lemmas <> isptr def
+R4984:4984 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4985:4989 VST.veric.val_lemmas <> isptr def
+R5105:5124 VST.floyd.mapsto_memory_block <> access_mode_by_value thm
+R5105:5124 VST.floyd.mapsto_memory_block <> access_mode_by_value thm
+R5153:5163 VST.veric.expr <> sizeof def
+R5166:5178 compcert.cfrontend.Ctypes <> sizeof def
+R5195:5211 VST.veric.mpred <> size_chunk_sizeof thm
+R5195:5211 VST.veric.mpred <> size_chunk_sizeof thm
+R5195:5211 VST.veric.mpred <> size_chunk_sizeof thm
+R5246:5285 VST.veric.mapsto_memory_block <> mapsto__memory_block thm
+R5246:5285 VST.veric.mapsto_memory_block <> mapsto__memory_block thm
+R5246:5285 VST.veric.mapsto_memory_block <> mapsto__memory_block thm
+R5246:5285 VST.veric.mapsto_memory_block <> mapsto__memory_block thm
+R5246:5285 VST.veric.mapsto_memory_block <> mapsto__memory_block thm
+R5246:5285 VST.veric.mapsto_memory_block <> mapsto__memory_block thm
+R5246:5285 VST.veric.mapsto_memory_block <> mapsto__memory_block thm
+R5321:5353 VST.veric.align_mem <> align_compatible_rec_by_value_inv thm
+R5321:5353 VST.veric.align_mem <> align_compatible_rec_by_value_inv thm
+R5399:5406 VST.msl.seplog <> pred_ext meth
+R5399:5406 VST.msl.seplog <> pred_ext meth
+prf 5456:5486 <> nonreadable_memory_block_mapsto
+binder 5496:5497 <> sh:61
+binder 5499:5499 <> p:62
+binder 5501:5501 <> t:63
+binder 5503:5503 <> v:64
+R5527:5532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5558:5563 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5590:5595 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5615:5620 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5641:5646 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5658:5663 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5692:5694 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5664:5675 VST.veric.SeparationLogic <> memory_block def
+R5691:5691 VST.floyd.mapsto_memory_block <> p:62 var
+R5681:5686 VST.veric.expr <> sizeof def
+R5688:5688 VST.floyd.mapsto_memory_block <> t:63 var
+R5677:5678 VST.floyd.mapsto_memory_block <> sh:61 var
+R5695:5700 VST.veric.SeparationLogic <> mapsto def
+R5709:5709 VST.floyd.mapsto_memory_block <> v:64 var
+R5707:5707 VST.floyd.mapsto_memory_block <> p:62 var
+R5705:5705 VST.floyd.mapsto_memory_block <> t:63 var
+R5702:5703 VST.floyd.mapsto_memory_block <> sh:61 var
+R5647:5653 VST.veric.Cop2 <> tc_val' def
+R5657:5657 VST.floyd.mapsto_memory_block <> v:64 var
+R5655:5655 VST.floyd.mapsto_memory_block <> t:63 var
+R5621:5636 VST.veric.SeparationLogic <> align_compatible def
+R5640:5640 VST.floyd.mapsto_memory_block <> p:62 var
+R5638:5638 VST.floyd.mapsto_memory_block <> t:63 var
+R5596:5610 VST.veric.SeparationLogic <> size_compatible def
+R5614:5614 VST.floyd.mapsto_memory_block <> p:62 var
+R5612:5612 VST.floyd.mapsto_memory_block <> t:63 var
+R5582:5584 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5564:5579 compcert.cfrontend.Ctypes <> type_is_volatile def
+R5581:5581 VST.floyd.mapsto_memory_block <> t:63 var
+R5585:5589 Coq.Init.Datatypes <> false constr
+R5551:5553 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5533:5548 VST.veric.mpred <> type_is_by_value def
+R5550:5550 VST.floyd.mapsto_memory_block <> t:63 var
+R5554:5557 Coq.Init.Datatypes <> true constr
+R5508:5509 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5510:5523 VST.veric.shares <> readable_share def
+R5525:5526 VST.floyd.mapsto_memory_block <> sh:61 var
+R5737:5756 VST.floyd.mapsto_memory_block <> access_mode_by_value thm
+R5737:5756 VST.floyd.mapsto_memory_block <> access_mode_by_value thm
+R5805:5808 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5798:5802 VST.veric.val_lemmas <> isptr def
+R5809:5809 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5810:5814 VST.veric.val_lemmas <> isptr def
+R5805:5808 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5798:5802 VST.veric.val_lemmas <> isptr def
+R5809:5809 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5810:5814 VST.veric.val_lemmas <> isptr def
+R5927:5937 VST.veric.expr <> sizeof def
+R5958:5974 VST.veric.mpred <> size_chunk_sizeof thm
+R5958:5974 VST.veric.mpred <> size_chunk_sizeof thm
+R5958:5974 VST.veric.mpred <> size_chunk_sizeof thm
+R6007:6057 VST.veric.mapsto_memory_block <> nonreadable_memory_block_mapsto thm
+R6007:6057 VST.veric.mapsto_memory_block <> nonreadable_memory_block_mapsto thm
+R6077:6109 VST.veric.align_mem <> align_compatible_rec_by_value_inv thm
+R6077:6109 VST.veric.align_mem <> align_compatible_rec_by_value_inv thm
+R6155:6162 VST.msl.seplog <> pred_ext meth
+R6155:6162 VST.msl.seplog <> pred_ext meth
+prf 6212:6239 <> memory_block_size_compatible
+binder 6251:6252 <> sh:65
+binder 6254:6254 <> t:66
+binder 6256:6256 <> p:67
+R6289:6294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6261:6272 VST.veric.SeparationLogic <> memory_block def
+R6288:6288 VST.floyd.mapsto_memory_block <> p:67 var
+R6278:6283 VST.veric.expr <> sizeof def
+R6285:6285 VST.floyd.mapsto_memory_block <> t:66 var
+R6274:6275 VST.floyd.mapsto_memory_block <> sh:65 var
+R6319:6322 VST.msl.seplog <> ::logic:x_'&&'_x not
+R6295:6298 VST.msl.seplog <> ::logic:'!!'_x not
+R6318:6318 VST.msl.seplog <> ::logic:'!!'_x not
+R6299:6313 VST.veric.SeparationLogic <> size_compatible def
+R6317:6317 VST.floyd.mapsto_memory_block <> p:67 var
+R6315:6315 VST.floyd.mapsto_memory_block <> t:66 var
+R6323:6334 VST.veric.SeparationLogic <> memory_block def
+R6350:6350 VST.floyd.mapsto_memory_block <> p:67 var
+R6340:6345 VST.veric.expr <> sizeof def
+R6347:6347 VST.floyd.mapsto_memory_block <> t:66 var
+R6336:6337 VST.floyd.mapsto_memory_block <> sh:65 var
+R6379:6390 VST.veric.SeparationLogic <> memory_block def
+R6393:6407 VST.veric.SeparationLogic <> size_compatible def
+R6418:6425 VST.msl.seplog <> pred_ext meth
+R6418:6425 VST.msl.seplog <> pred_ext meth
+R6471:6482 VST.veric.SeparationLogic <> memory_block def
+R6490:6498 VST.floyd.mapsto_memory_block COMPSPECS <> sec
+R6765:6769 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R6751:6756 VST.veric.SeparationLogic <> mapsto def
+R6770:6775 VST.veric.SeparationLogic <> mapsto def
+R6806:6824 VST.veric.SeparationLogic <> mapsto_mapsto_int32 thm
+R6833:6848 Coq.Init.Logic <> I constr
+R6892:6896 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R6878:6883 VST.veric.SeparationLogic <> mapsto def
+R6897:6903 VST.veric.SeparationLogic <> mapsto_ def
+R6932:6951 VST.veric.SeparationLogic <> mapsto_mapsto__int32 thm
+R6960:6975 Coq.Init.Logic <> I constr
+R7019:7023 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R7005:7010 VST.veric.SeparationLogic <> mapsto def
+R7024:7030 VST.veric.SeparationLogic <> mapsto_ def
+R7053:7066 VST.veric.SeparationLogic <> mapsto_mapsto_ thm
+R7109:7113 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R7095:7100 VST.veric.SeparationLogic <> mapsto def
+R7114:7120 VST.veric.SeparationLogic <> mapsto_ def
+R7142:7161 VST.veric.SeparationLogic <> mapsto_mapsto__int32 thm
+R7205:7209 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R7191:7196 VST.veric.SeparationLogic <> mapsto def
+R7210:7215 VST.veric.SeparationLogic <> mapsto def
+R7239:7257 VST.veric.SeparationLogic <> mapsto_mapsto_int32 thm
+R7307:7309 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7287:7304 VST.veric.align_mem LegalAlignasFacts.LegalAlignas legal_alignas_type def
+R7310:7313 Coq.Init.Datatypes <> true constr
+prf 7348:7363 <> mapsto_force_ptr
+binder 7373:7374 <> sh:68
+binder 7376:7376 <> t:69
+binder 7378:7378 <> v:70
+binder 7380:7381 <> v':71
+R7414:7416 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7386:7391 VST.veric.SeparationLogic <> mapsto def
+R7412:7413 VST.floyd.mapsto_memory_block <> v':71 var
+R7399:7407 VST.veric.val_lemmas <> force_ptr def
+R7409:7409 VST.floyd.mapsto_memory_block <> v:70 var
+R7396:7396 VST.floyd.mapsto_memory_block <> t:69 var
+R7393:7394 VST.floyd.mapsto_memory_block <> sh:68 var
+R7417:7422 VST.veric.SeparationLogic <> mapsto def
+R7431:7432 VST.floyd.mapsto_memory_block <> v':71 var
+R7429:7429 VST.floyd.mapsto_memory_block <> v:70 var
+R7427:7427 VST.floyd.mapsto_memory_block <> t:69 var
+R7424:7425 VST.floyd.mapsto_memory_block <> sh:68 var
+R7494:7509 VST.floyd.mapsto_memory_block <> mapsto_force_ptr thm
+def 7742:7750 <> at_offset
+R7759:7762 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7763:7767 VST.veric.mpred <> mpred def
+R7756:7758 compcert.common.Values <> val ind
+binder 7753:7753 <> P:72
+R7774:7774 Coq.Numbers.BinNums <> Z ind
+binder 7771:7771 <> z:73
+R7781:7784 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7785:7789 VST.veric.mpred <> mpred def
+R7778:7780 compcert.common.Values <> val ind
+binder 7799:7799 <> v:74
+R7804:7804 VST.floyd.mapsto_memory_block <> P:72 var
+R7807:7816 VST.veric.val_lemmas <> offset_val def
+R7820:7820 VST.floyd.mapsto_memory_block <> v:74 var
+R7818:7818 VST.floyd.mapsto_memory_block <> z:73 var
+R7835:7843 VST.floyd.mapsto_memory_block <> at_offset def
+prf 7873:7884 <> at_offset_eq
+binder 7894:7894 <> P:75
+binder 7896:7896 <> z:76
+binder 7898:7898 <> v:77
+R7918:7920 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7903:7911 VST.floyd.mapsto_memory_block <> at_offset def
+R7917:7917 VST.floyd.mapsto_memory_block <> v:77 var
+R7915:7915 VST.floyd.mapsto_memory_block <> z:76 var
+R7913:7913 VST.floyd.mapsto_memory_block <> P:75 var
+R7921:7921 VST.floyd.mapsto_memory_block <> P:75 var
+R7924:7933 VST.veric.val_lemmas <> offset_val def
+R7937:7937 VST.floyd.mapsto_memory_block <> v:77 var
+R7935:7935 VST.floyd.mapsto_memory_block <> z:76 var
+prf 7974:7992 <> lifted_at_offset_eq
+R8009:8012 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8013:8017 VST.veric.mpred <> mpred def
+R8006:8008 compcert.common.Values <> val ind
+binder 8003:8003 <> P:78
+binder 8020:8020 <> z:79
+binder 8022:8022 <> v:80
+R8045:8047 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8027:8028 VST.veric.lift LiftNotation :::'`('_x_')' not
+R8042:8044 VST.veric.lift LiftNotation :::'`('_x_')' not
+R8029:8037 VST.floyd.mapsto_memory_block <> at_offset def
+R8041:8041 VST.floyd.mapsto_memory_block <> z:79 var
+R8039:8039 VST.floyd.mapsto_memory_block <> P:78 var
+R8044:8044 VST.floyd.mapsto_memory_block <> v:80 var
+R8048:8048 VST.veric.lift LiftNotation :::'`'_x not
+R8050:8069 VST.veric.lift LiftNotation :::'`'_x not
+R8049:8049 VST.floyd.mapsto_memory_block <> P:78 var
+R8052:8053 VST.veric.lift LiftNotation :::'`('_x_')' not
+R8066:8068 VST.veric.lift LiftNotation :::'`('_x_')' not
+R8054:8063 VST.veric.val_lemmas <> offset_val def
+R8065:8065 VST.floyd.mapsto_memory_block <> z:79 var
+R8068:8068 VST.floyd.mapsto_memory_block <> v:80 var
+R8098:8102 VST.veric.lift <> liftx def
+R8105:8108 VST.veric.lift <> lift def
+R8156:8167 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R8156:8167 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+prf 8182:8194 <> at_offset_eq2
+binder 8204:8206 <> pos:81
+binder 8208:8211 <> pos':82
+binder 8213:8213 <> P:83
+binder 8225:8225 <> p:84
+R8254:8256 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8228:8236 VST.floyd.mapsto_memory_block <> at_offset def
+R8253:8253 VST.floyd.mapsto_memory_block <> p:84 var
+R8244:8246 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R8241:8243 VST.floyd.mapsto_memory_block <> pos:81 var
+R8247:8250 VST.floyd.mapsto_memory_block <> pos':82 var
+R8238:8238 VST.floyd.mapsto_memory_block <> P:83 var
+R8257:8265 VST.floyd.mapsto_memory_block <> at_offset def
+R8275:8284 VST.veric.val_lemmas <> offset_val def
+R8290:8290 VST.floyd.mapsto_memory_block <> p:84 var
+R8286:8288 VST.floyd.mapsto_memory_block <> pos:81 var
+R8269:8272 VST.floyd.mapsto_memory_block <> pos':82 var
+R8267:8267 VST.floyd.mapsto_memory_block <> P:83 var
+R8321:8332 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R8321:8332 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R8321:8332 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R8345:8356 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R8345:8356 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R8345:8356 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R8368:8377 VST.veric.val_lemmas <> offset_val def
+R8410:8426 VST.floyd.functional_base <> ptrofs_add_assoc1 thm
+R8410:8426 VST.floyd.functional_base <> ptrofs_add_assoc1 thm
+R8410:8426 VST.floyd.functional_base <> ptrofs_add_assoc1 thm
+prf 8456:8468 <> at_offset_eq3
+binder 8478:8478 <> P:85
+binder 8480:8480 <> z:86
+binder 8482:8482 <> b:87
+binder 8484:8486 <> ofs:88
+R8531:8533 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8491:8499 VST.floyd.mapsto_memory_block <> at_offset def
+R8506:8509 compcert.common.Values <> Vptr constr
+R8514:8524 compcert.lib.Integers Ptrofs repr def
+R8526:8528 VST.floyd.mapsto_memory_block <> ofs:88 var
+R8511:8511 VST.floyd.mapsto_memory_block <> b:87 var
+R8503:8503 VST.floyd.mapsto_memory_block <> z:86 var
+R8501:8501 VST.floyd.mapsto_memory_block <> P:85 var
+R8534:8534 VST.floyd.mapsto_memory_block <> P:85 var
+R8537:8540 compcert.common.Values <> Vptr constr
+R8545:8555 compcert.lib.Integers Ptrofs repr def
+R8561:8563 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R8558:8560 VST.floyd.mapsto_memory_block <> ofs:88 var
+R8564:8564 VST.floyd.mapsto_memory_block <> z:86 var
+R8542:8542 VST.floyd.mapsto_memory_block <> b:87 var
+R8597:8608 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R8597:8608 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R8597:8608 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R8620:8629 VST.veric.val_lemmas <> offset_val def
+prf 8680:8696 <> at_offset_derives
+binder 8706:8706 <> P:89
+binder 8708:8708 <> Q:90
+binder 8710:8710 <> p:91
+R8714:8714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8736:8740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8748:8750 <> pos:92
+R8770:8774 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R8753:8761 VST.floyd.mapsto_memory_block <> at_offset def
+R8769:8769 VST.floyd.mapsto_memory_block <> p:91 var
+R8765:8767 VST.floyd.mapsto_memory_block <> pos:92 var
+R8763:8763 VST.floyd.mapsto_memory_block <> P:89 var
+R8775:8783 VST.floyd.mapsto_memory_block <> at_offset def
+R8791:8791 VST.floyd.mapsto_memory_block <> p:91 var
+R8787:8789 VST.floyd.mapsto_memory_block <> pos:92 var
+R8785:8785 VST.floyd.mapsto_memory_block <> Q:90 var
+binder 8722:8722 <> p:93
+R8728:8732 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R8725:8725 VST.floyd.mapsto_memory_block <> P:89 var
+R8727:8727 VST.floyd.mapsto_memory_block <> p:93 var
+R8733:8733 VST.floyd.mapsto_memory_block <> Q:90 var
+R8735:8735 VST.floyd.mapsto_memory_block <> p:93 var
+R8822:8833 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R8822:8833 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R8822:8833 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R8822:8833 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R8822:8833 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+def 9089:9094 <> spacer
+R9101:9105 VST.msl.shares <> share def
+binder 9097:9098 <> sh:94
+R9113:9113 Coq.Numbers.BinNums <> Z ind
+binder 9109:9110 <> be:95
+R9121:9121 Coq.Numbers.BinNums <> Z ind
+binder 9117:9118 <> ed:96
+R9129:9132 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9133:9137 VST.veric.mpred <> mpred def
+R9126:9128 compcert.common.Values <> val ind
+R9147:9154 Coq.ZArith.BinInt Z eq_dec def
+R9159:9161 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R9157:9158 VST.floyd.mapsto_memory_block <> ed:96 var
+R9162:9163 VST.floyd.mapsto_memory_block <> be:95 var
+R9199:9207 VST.floyd.mapsto_memory_block <> at_offset def
+R9237:9238 VST.floyd.mapsto_memory_block <> be:95 var
+R9210:9221 VST.veric.SeparationLogic <> memory_block def
+R9229:9231 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R9227:9228 VST.floyd.mapsto_memory_block <> ed:96 var
+R9232:9233 VST.floyd.mapsto_memory_block <> be:95 var
+R9223:9224 VST.floyd.mapsto_memory_block <> sh:94 var
+R9184:9186 VST.msl.seplog <> emp meth
+def 9291:9300 <> withspacer
+binder 9302:9303 <> sh:97
+R9310:9310 Coq.Numbers.BinNums <> Z ind
+binder 9306:9307 <> be:98
+R9318:9318 Coq.Numbers.BinNums <> Z ind
+binder 9314:9315 <> ed:99
+binder 9321:9321 <> P:100
+R9327:9329 compcert.common.Values <> val ind
+binder 9324:9324 <> p:101
+R9333:9337 VST.veric.mpred <> mpred def
+R9348:9355 Coq.ZArith.BinInt Z eq_dec def
+R9360:9362 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R9358:9359 VST.floyd.mapsto_memory_block <> ed:99 var
+R9363:9364 VST.floyd.mapsto_memory_block <> be:98 var
+R9392:9394 VST.msl.seplog <> ::logic:x_'*'_x not
+R9389:9389 VST.floyd.mapsto_memory_block <> P:100 var
+R9391:9391 VST.floyd.mapsto_memory_block <> p:101 var
+R9395:9400 VST.floyd.mapsto_memory_block <> spacer def
+R9411:9411 VST.floyd.mapsto_memory_block <> p:101 var
+R9408:9409 VST.floyd.mapsto_memory_block <> ed:99 var
+R9405:9406 VST.floyd.mapsto_memory_block <> be:98 var
+R9402:9403 VST.floyd.mapsto_memory_block <> sh:97 var
+R9377:9377 VST.floyd.mapsto_memory_block <> P:100 var
+R9379:9379 VST.floyd.mapsto_memory_block <> p:101 var
+prf 9421:9437 <> withspacer_spacer
+binder 9447:9448 <> sh:102
+binder 9450:9451 <> be:103
+binder 9453:9454 <> ed:104
+binder 9456:9456 <> P:105
+binder 9458:9458 <> p:106
+R9487:9489 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9464:9473 VST.floyd.mapsto_memory_block <> withspacer def
+R9486:9486 VST.floyd.mapsto_memory_block <> p:106 var
+R9484:9484 VST.floyd.mapsto_memory_block <> P:105 var
+R9481:9482 VST.floyd.mapsto_memory_block <> ed:104 var
+R9478:9479 VST.floyd.mapsto_memory_block <> be:103 var
+R9475:9476 VST.floyd.mapsto_memory_block <> sh:102 var
+R9507:9509 VST.msl.seplog <> ::logic:x_'*'_x not
+R9490:9495 VST.floyd.mapsto_memory_block <> spacer def
+R9506:9506 VST.floyd.mapsto_memory_block <> p:106 var
+R9503:9504 VST.floyd.mapsto_memory_block <> ed:104 var
+R9500:9501 VST.floyd.mapsto_memory_block <> be:103 var
+R9497:9498 VST.floyd.mapsto_memory_block <> sh:102 var
+R9510:9510 VST.floyd.mapsto_memory_block <> P:105 var
+R9512:9512 VST.floyd.mapsto_memory_block <> p:106 var
+R9541:9550 VST.floyd.mapsto_memory_block <> withspacer def
+R9553:9558 VST.floyd.mapsto_memory_block <> spacer def
+R9603:9613 VST.msl.seplog <> sepcon_comm meth
+R9603:9613 VST.msl.seplog <> sepcon_comm meth
+prf 9628:9645 <> withspacer_ramif_Q
+binder 9655:9656 <> sh:107
+binder 9658:9659 <> be:108
+binder 9661:9662 <> ed:109
+binder 9664:9664 <> P:110
+binder 9666:9666 <> p:111
+R9694:9698 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R9671:9680 VST.floyd.mapsto_memory_block <> withspacer def
+R9693:9693 VST.floyd.mapsto_memory_block <> p:111 var
+R9691:9691 VST.floyd.mapsto_memory_block <> P:110 var
+R9688:9689 VST.floyd.mapsto_memory_block <> ed:109 var
+R9685:9686 VST.floyd.mapsto_memory_block <> be:108 var
+R9682:9683 VST.floyd.mapsto_memory_block <> sh:107 var
+R9702:9708 VST.msl.seplog <> ::logic:x_'*'_x not
+R9699:9699 VST.floyd.mapsto_memory_block <> P:110 var
+R9701:9701 VST.floyd.mapsto_memory_block <> p:111 var
+R9709:9712 VST.msl.seplog <> allp meth
+R9715:9715 VST.msl.seplog <> ::logic:x_'-*'_x not
+R9728:9733 VST.msl.seplog <> ::logic:x_'-*'_x not
+R9766:9766 VST.msl.seplog <> ::logic:x_'-*'_x not
+binder 9720:9720 <> Q:112
+R9725:9725 VST.floyd.mapsto_memory_block <> Q:112 var
+R9727:9727 VST.floyd.mapsto_memory_block <> p:111 var
+binder 9738:9738 <> Q:113
+R9743:9752 VST.floyd.mapsto_memory_block <> withspacer def
+R9765:9765 VST.floyd.mapsto_memory_block <> p:111 var
+R9763:9763 VST.floyd.mapsto_memory_block <> Q:113 var
+R9760:9761 VST.floyd.mapsto_memory_block <> ed:109 var
+R9757:9758 VST.floyd.mapsto_memory_block <> be:108 var
+R9754:9755 VST.floyd.mapsto_memory_block <> sh:107 var
+R9815:9820 VST.floyd.mapsto_memory_block <> spacer def
+R9795:9807 VST.msl.ramification_lemmas RAMIF_Q solve thm
+R9815:9820 VST.floyd.mapsto_memory_block <> spacer def
+R9795:9807 VST.msl.ramification_lemmas RAMIF_Q solve thm
+R9847:9863 VST.floyd.mapsto_memory_block <> withspacer_spacer thm
+R9847:9863 VST.floyd.mapsto_memory_block <> withspacer_spacer thm
+R9847:9863 VST.floyd.mapsto_memory_block <> withspacer_spacer thm
+R9902:9918 VST.floyd.mapsto_memory_block <> withspacer_spacer thm
+R9902:9918 VST.floyd.mapsto_memory_block <> withspacer_spacer thm
+R9902:9918 VST.floyd.mapsto_memory_block <> withspacer_spacer thm
+prf 9945:9962 <> spacer_offset_zero
+binder 9974:9975 <> sh:114
+binder 9977:9978 <> be:115
+binder 9980:9981 <> ed:116
+binder 9983:9983 <> v:117
+R10003:10005 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9986:9991 VST.floyd.mapsto_memory_block <> spacer def
+R10002:10002 VST.floyd.mapsto_memory_block <> v:117 var
+R9999:10000 VST.floyd.mapsto_memory_block <> ed:116 var
+R9996:9997 VST.floyd.mapsto_memory_block <> be:115 var
+R9993:9994 VST.floyd.mapsto_memory_block <> sh:114 var
+R10006:10011 VST.floyd.mapsto_memory_block <> spacer def
+R10023:10032 VST.veric.val_lemmas <> offset_val def
+R10036:10036 VST.floyd.mapsto_memory_block <> v:117 var
+R10019:10020 VST.floyd.mapsto_memory_block <> ed:116 var
+R10016:10017 VST.floyd.mapsto_memory_block <> be:115 var
+R10013:10014 VST.floyd.mapsto_memory_block <> sh:114 var
+R10066:10071 VST.floyd.mapsto_memory_block <> spacer def
+R10086:10093 Coq.ZArith.BinInt Z eq_dec def
+R10098:10100 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10086:10093 Coq.ZArith.BinInt Z eq_dec def
+R10098:10100 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10133:10144 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R10161:10177 VST.floyd.functional_base <> offset_offset_val thm
+R10193:10206 compcert.lib.Integers Int add_zero_l thm
+R10133:10144 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R10133:10144 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R10133:10144 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R10133:10144 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R10133:10144 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R10161:10177 VST.floyd.functional_base <> offset_offset_val thm
+R10161:10177 VST.floyd.functional_base <> offset_offset_val thm
+R10193:10206 compcert.lib.Integers Int add_zero_l thm
+prf 10227:10240 <> withspacer_add
+binder 10252:10253 <> sh:118
+binder 10255:10257 <> pos:119
+binder 10259:10260 <> be:120
+binder 10262:10263 <> ed:121
+binder 10265:10265 <> P:122
+binder 10267:10267 <> p:123
+R10342:10346 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10272:10281 VST.floyd.mapsto_memory_block <> withspacer def
+R10341:10341 VST.floyd.mapsto_memory_block <> p:123 var
+binder 10313:10314 <> p0:124
+R10319:10319 VST.floyd.mapsto_memory_block <> P:122 var
+R10322:10331 VST.veric.val_lemmas <> offset_val def
+R10337:10337 VST.floyd.mapsto_memory_block <> p:123 var
+R10333:10335 VST.floyd.mapsto_memory_block <> pos:119 var
+R10301:10303 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R10298:10300 VST.floyd.mapsto_memory_block <> pos:119 var
+R10304:10305 VST.floyd.mapsto_memory_block <> ed:121 var
+R10290:10292 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R10287:10289 VST.floyd.mapsto_memory_block <> pos:119 var
+R10293:10294 VST.floyd.mapsto_memory_block <> be:120 var
+R10283:10284 VST.floyd.mapsto_memory_block <> sh:118 var
+R10347:10356 VST.floyd.mapsto_memory_block <> withspacer def
+R10370:10379 VST.veric.val_lemmas <> offset_val def
+R10385:10385 VST.floyd.mapsto_memory_block <> p:123 var
+R10381:10383 VST.floyd.mapsto_memory_block <> pos:119 var
+R10367:10367 VST.floyd.mapsto_memory_block <> P:122 var
+R10364:10365 VST.floyd.mapsto_memory_block <> ed:121 var
+R10361:10362 VST.floyd.mapsto_memory_block <> be:120 var
+R10358:10359 VST.floyd.mapsto_memory_block <> sh:118 var
+R10417:10433 VST.floyd.mapsto_memory_block <> withspacer_spacer thm
+R10417:10433 VST.floyd.mapsto_memory_block <> withspacer_spacer thm
+R10417:10433 VST.floyd.mapsto_memory_block <> withspacer_spacer thm
+R10417:10433 VST.floyd.mapsto_memory_block <> withspacer_spacer thm
+R10417:10433 VST.floyd.mapsto_memory_block <> withspacer_spacer thm
+R10445:10450 VST.floyd.mapsto_memory_block <> spacer def
+R10481:10484 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10493:10493 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10476:10478 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R10488:10490 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R10504:10506 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10481:10484 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10493:10493 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10476:10478 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R10488:10490 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R10504:10506 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R10556:10567 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R10556:10567 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R10556:10567 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R10556:10567 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R10556:10567 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R10581:10590 VST.veric.val_lemmas <> offset_val def
+R10596:10598 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R10622:10631 VST.veric.val_lemmas <> offset_val def
+R10637:10646 VST.veric.val_lemmas <> offset_val def
+R10581:10590 VST.veric.val_lemmas <> offset_val def
+R10596:10598 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R10622:10631 VST.veric.val_lemmas <> offset_val def
+R10637:10646 VST.veric.val_lemmas <> offset_val def
+R10720:10736 VST.floyd.functional_base <> ptrofs_add_assoc1 thm
+R10720:10736 VST.floyd.functional_base <> ptrofs_add_assoc1 thm
+R10720:10736 VST.floyd.functional_base <> ptrofs_add_assoc1 thm
+prf 10766:10790 <> offset_val_preserve_isptr
+binder 10800:10800 <> p:125
+binder 10802:10804 <> pos:126
+R10836:10840 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R10807:10810 VST.msl.seplog <> ::logic:'!!'_x not
+R10835:10835 VST.msl.seplog <> ::logic:'!!'_x not
+R10811:10815 VST.veric.val_lemmas <> isptr def
+R10818:10827 VST.veric.val_lemmas <> offset_val def
+R10833:10833 VST.floyd.mapsto_memory_block <> p:125 var
+R10829:10831 VST.floyd.mapsto_memory_block <> pos:126 var
+R10841:10844 VST.msl.seplog <> ::logic:'!!'_x not
+R10852:10852 VST.msl.seplog <> ::logic:'!!'_x not
+R10845:10849 VST.veric.val_lemmas <> isptr def
+R10851:10851 VST.floyd.mapsto_memory_block <> p:125 var
+R10899:10910 VST.msl.seplog <> derives_refl meth
+R10899:10910 VST.msl.seplog <> derives_refl meth
+R10899:10910 VST.msl.seplog <> derives_refl meth
+R10899:10910 VST.msl.seplog <> derives_refl meth
+R10899:10910 VST.msl.seplog <> derives_refl meth
+R10899:10910 VST.msl.seplog <> derives_refl meth
+R10899:10910 VST.msl.seplog <> derives_refl meth
+prf 10925:10954 <> at_offset_preserve_local_facts
+binder 10964:10964 <> P:127
+binder 10966:10968 <> pos:128
+R10971:10971 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11001:11006 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11050:11050 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 11014:11014 <> p:129
+R11034:11038 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R11017:11025 VST.floyd.mapsto_memory_block <> at_offset def
+R11033:11033 VST.floyd.mapsto_memory_block <> p:129 var
+R11029:11031 VST.floyd.mapsto_memory_block <> pos:128 var
+R11027:11027 VST.floyd.mapsto_memory_block <> P:127 var
+R11039:11041 VST.msl.seplog <> ::logic:'!!'_x not
+R11049:11049 VST.msl.seplog <> ::logic:'!!'_x not
+R11042:11046 VST.veric.val_lemmas <> isptr def
+R11048:11048 VST.floyd.mapsto_memory_block <> p:129 var
+binder 10979:10979 <> p:130
+R10985:10989 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R10982:10982 VST.floyd.mapsto_memory_block <> P:127 var
+R10984:10984 VST.floyd.mapsto_memory_block <> p:130 var
+R10990:10992 VST.msl.seplog <> ::logic:'!!'_x not
+R11000:11000 VST.msl.seplog <> ::logic:'!!'_x not
+R10993:10997 VST.veric.val_lemmas <> isptr def
+R10999:10999 VST.floyd.mapsto_memory_block <> p:130 var
+R11080:11091 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R11080:11091 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R11080:11091 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R11111:11120 VST.veric.val_lemmas <> offset_val def
+R11111:11120 VST.veric.val_lemmas <> offset_val def
+R11140:11152 VST.msl.seplog <> derives_trans meth
+R11140:11152 VST.msl.seplog <> derives_trans meth
+R11176:11200 VST.floyd.mapsto_memory_block <> offset_val_preserve_isptr thm
+R11176:11200 VST.floyd.mapsto_memory_block <> offset_val_preserve_isptr thm
+prf 11215:11245 <> withspacer_preserve_local_facts
+binder 11255:11256 <> sh:131
+binder 11258:11259 <> be:132
+binder 11261:11262 <> ed:133
+binder 11264:11264 <> P:134
+R11267:11267 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11298:11303 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11354:11354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 11311:11311 <> p:135
+R11337:11341 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R11314:11323 VST.floyd.mapsto_memory_block <> withspacer def
+R11336:11336 VST.floyd.mapsto_memory_block <> p:135 var
+R11334:11334 VST.floyd.mapsto_memory_block <> P:134 var
+R11331:11332 VST.floyd.mapsto_memory_block <> ed:133 var
+R11328:11329 VST.floyd.mapsto_memory_block <> be:132 var
+R11325:11326 VST.floyd.mapsto_memory_block <> sh:131 var
+R11342:11345 VST.msl.seplog <> ::logic:'!!'_x not
+R11353:11353 VST.msl.seplog <> ::logic:'!!'_x not
+R11346:11350 VST.veric.val_lemmas <> isptr def
+R11352:11352 VST.floyd.mapsto_memory_block <> p:135 var
+binder 11275:11275 <> p:136
+R11281:11285 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R11278:11278 VST.floyd.mapsto_memory_block <> P:134 var
+R11280:11280 VST.floyd.mapsto_memory_block <> p:136 var
+R11286:11289 VST.msl.seplog <> ::logic:'!!'_x not
+R11297:11297 VST.msl.seplog <> ::logic:'!!'_x not
+R11290:11294 VST.veric.val_lemmas <> isptr def
+R11296:11296 VST.floyd.mapsto_memory_block <> p:136 var
+R11384:11400 VST.floyd.mapsto_memory_block <> withspacer_spacer thm
+R11384:11400 VST.floyd.mapsto_memory_block <> withspacer_spacer thm
+R11384:11400 VST.floyd.mapsto_memory_block <> withspacer_spacer thm
+R11420:11430 VST.msl.seplog <> sepcon_comm meth
+R11420:11430 VST.msl.seplog <> sepcon_comm meth
+R11420:11430 VST.msl.seplog <> sepcon_comm meth
+R11442:11474 VST.msl.log_normalize <> derives_left_sepcon_right_corable thm
+R11477:11478 VST.msl.seplog <> ::logic:'!!'_x not
+R11479:11483 VST.veric.val_lemmas <> isptr def
+R11505:11516 VST.msl.seplog <> corable_prop meth
+R11442:11474 VST.msl.log_normalize <> derives_left_sepcon_right_corable thm
+R11477:11478 VST.msl.seplog <> ::logic:'!!'_x not
+R11479:11483 VST.veric.val_lemmas <> isptr def
+R11505:11516 VST.msl.seplog <> corable_prop meth
+R11550:11561 VST.veric.SeparationLogic <> memory_block def
+prf 11571:11589 <> spacer_memory_block
+binder 11601:11602 <> sh:137
+binder 11604:11605 <> be:138
+binder 11607:11608 <> ed:139
+binder 11610:11610 <> v:140
+R11620:11624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11642:11644 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11625:11630 VST.floyd.mapsto_memory_block <> spacer def
+R11641:11641 VST.floyd.mapsto_memory_block <> v:140 var
+R11638:11639 VST.floyd.mapsto_memory_block <> ed:139 var
+R11635:11636 VST.floyd.mapsto_memory_block <> be:138 var
+R11632:11633 VST.floyd.mapsto_memory_block <> sh:137 var
+R11645:11656 VST.veric.SeparationLogic <> memory_block def
+R11672:11681 VST.veric.val_lemmas <> offset_val def
+R11686:11686 VST.floyd.mapsto_memory_block <> v:140 var
+R11683:11684 VST.floyd.mapsto_memory_block <> be:138 var
+R11664:11666 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R11662:11663 VST.floyd.mapsto_memory_block <> ed:139 var
+R11667:11668 VST.floyd.mapsto_memory_block <> be:138 var
+R11658:11659 VST.floyd.mapsto_memory_block <> sh:137 var
+R11613:11617 VST.veric.val_lemmas <> isptr def
+R11619:11619 VST.floyd.mapsto_memory_block <> v:140 var
+R11737:11742 VST.floyd.mapsto_memory_block <> spacer def
+R11757:11764 Coq.ZArith.BinInt Z eq_dec def
+R11769:11771 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R11830:11851 VST.veric.SeparationLogic <> memory_block_zero_Vptr thm
+R11757:11764 Coq.ZArith.BinInt Z eq_dec def
+R11769:11771 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R11830:11851 VST.veric.SeparationLogic <> memory_block_zero_Vptr thm
+R11830:11851 VST.veric.SeparationLogic <> memory_block_zero_Vptr thm
+R11871:11882 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R11871:11882 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+R11871:11882 VST.floyd.mapsto_memory_block <> at_offset_eq thm
+prf 11918:11943 <> spacer_sepcon_memory_block
+binder 11953:11954 <> sh:141
+binder 11956:11958 <> ofs:142
+binder 11960:11961 <> lo:143
+binder 11963:11964 <> hi:144
+binder 11966:11966 <> b:145
+binder 11968:11968 <> i:146
+R11980:11985 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11994:11999 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12025:12030 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12076:12081 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12173:12175 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12124:12126 VST.msl.seplog <> ::logic:x_'*'_x not
+R12082:12087 VST.floyd.mapsto_memory_block <> spacer def
+R12115:12118 compcert.common.Values <> Vptr constr
+R12122:12122 VST.floyd.mapsto_memory_block <> i:146 var
+R12120:12120 VST.floyd.mapsto_memory_block <> b:145 var
+R12107:12109 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R12104:12106 VST.floyd.mapsto_memory_block <> ofs:142 var
+R12110:12111 VST.floyd.mapsto_memory_block <> hi:144 var
+R12096:12098 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R12093:12095 VST.floyd.mapsto_memory_block <> ofs:142 var
+R12099:12100 VST.floyd.mapsto_memory_block <> lo:143 var
+R12089:12090 VST.floyd.mapsto_memory_block <> sh:141 var
+R12127:12138 VST.veric.SeparationLogic <> memory_block def
+R12147:12156 VST.veric.val_lemmas <> offset_val def
+R12163:12166 compcert.common.Values <> Vptr constr
+R12170:12170 VST.floyd.mapsto_memory_block <> i:146 var
+R12168:12168 VST.floyd.mapsto_memory_block <> b:145 var
+R12158:12160 VST.floyd.mapsto_memory_block <> ofs:142 var
+R12143:12144 VST.floyd.mapsto_memory_block <> lo:143 var
+R12140:12141 VST.floyd.mapsto_memory_block <> sh:141 var
+R12176:12187 VST.veric.SeparationLogic <> memory_block def
+R12196:12205 VST.veric.val_lemmas <> offset_val def
+R12212:12215 compcert.common.Values <> Vptr constr
+R12219:12219 VST.floyd.mapsto_memory_block <> i:146 var
+R12217:12217 VST.floyd.mapsto_memory_block <> b:145 var
+R12207:12209 VST.floyd.mapsto_memory_block <> ofs:142 var
+R12192:12193 VST.floyd.mapsto_memory_block <> hi:144 var
+R12189:12190 VST.floyd.mapsto_memory_block <> sh:141 var
+R12059:12061 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R12054:12056 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R12048:12050 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R12031:12045 compcert.lib.Integers Ptrofs unsigned def
+R12047:12047 VST.floyd.mapsto_memory_block <> i:146 var
+R12051:12053 VST.floyd.mapsto_memory_block <> ofs:142 var
+R12057:12058 VST.floyd.mapsto_memory_block <> hi:144 var
+R12062:12075 compcert.lib.Integers Ptrofs modulus def
+R12002:12005 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R12008:12010 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R12000:12001 VST.floyd.mapsto_memory_block <> lo:143 var
+R12006:12007 VST.floyd.mapsto_memory_block <> hi:144 var
+R12006:12007 VST.floyd.mapsto_memory_block <> hi:144 var
+R12011:12024 compcert.lib.Integers Ptrofs modulus def
+R11987:11990 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R11991:11993 VST.floyd.mapsto_memory_block <> ofs:142 var
+R11974:11977 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R11978:11979 VST.floyd.mapsto_memory_block <> lo:143 var
+R12251:12269 VST.floyd.mapsto_memory_block <> spacer_memory_block thm
+R12251:12269 VST.floyd.mapsto_memory_block <> spacer_memory_block thm
+R12251:12269 VST.floyd.mapsto_memory_block <> spacer_memory_block thm
+R12333:12347 VST.floyd.coqlib3 <> ptrofs_add_repr thm
+R12333:12347 VST.floyd.coqlib3 <> ptrofs_add_repr thm
+R12333:12347 VST.floyd.coqlib3 <> ptrofs_add_repr thm
+R12333:12347 VST.floyd.coqlib3 <> ptrofs_add_repr thm
+R12333:12347 VST.floyd.coqlib3 <> ptrofs_add_repr thm
+R12360:12370 VST.msl.seplog <> sepcon_comm meth
+R12373:12383 Coq.ZArith.BinInt Z add_assoc thm
+R12389:12406 VST.veric.SeparationLogic <> memory_block_split thm
+R12360:12370 VST.msl.seplog <> sepcon_comm meth
+R12360:12370 VST.msl.seplog <> sepcon_comm meth
+R12373:12383 Coq.ZArith.BinInt Z add_assoc thm
+R12373:12383 Coq.ZArith.BinInt Z add_assoc thm
+R12389:12406 VST.veric.SeparationLogic <> memory_block_split thm
+R12389:12406 VST.veric.SeparationLogic <> memory_block_split thm
+R12453:12465 VST.floyd.mapsto_memory_block <> at_offset_eq3 thm
+R12496:12512 VST.floyd.mapsto_memory_block <> withspacer_spacer thm
+R12543:12561 VST.floyd.mapsto_memory_block <> spacer_memory_block thm
+R12606:12617 VST.veric.SeparationLogic <> memory_block def

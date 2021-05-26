@@ -1,0 +1,172 @@
+DIGEST a16acbe60ec0a4b6172a64938a35a433
+FVST.msl.eq_dec
+R211:222 VST.msl.base <> <> lib
+ind 266:270 <> EqDec
+constr 295:300 <> eq_dec
+rec 266:270 <> EqDec
+proj 295:300 <> eq_dec
+binder 273:273 <> A:1
+R318:318 VST.msl.eq_dec <> A:1 var
+binder 311:311 <> a:3
+binder 313:314 <> a':4
+R321:321 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R328:332 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R340:340 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R323:325 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R322:322 VST.msl.eq_dec <> a:3 var
+R326:327 VST.msl.eq_dec <> a':4 var
+R334:337 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R333:333 VST.msl.eq_dec <> a:3 var
+R338:339 VST.msl.eq_dec <> a':4 var
+inst 353:361 <> EqDec_nat
+R365:369 VST.msl.eq_dec <> EqDec class
+R371:373 Coq.Init.Datatypes <> nat ind
+R378:397 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+def 481:483 <> upd
+binder 486:486 <> A:6
+R491:495 VST.msl.eq_dec <> EqDec class
+R497:497 VST.msl.eq_dec <> A:6 var
+binder 491:497 <> H:7
+binder 501:501 <> B:8
+R517:520 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R521:521 VST.msl.eq_dec <> B:8 var
+R516:516 VST.msl.eq_dec <> A:6 var
+binder 512:512 <> f:9
+R529:529 VST.msl.eq_dec <> A:6 var
+binder 525:525 <> a:10
+R537:537 VST.msl.eq_dec <> B:8 var
+binder 533:533 <> b:11
+R543:546 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R547:547 VST.msl.eq_dec <> B:8 var
+R542:542 VST.msl.eq_dec <> A:6 var
+binder 558:559 <> a':12
+R567:572 VST.msl.eq_dec <> eq_dec def
+R576:577 VST.msl.eq_dec <> a':12 var
+R574:574 VST.msl.eq_dec <> a:10 var
+R591:591 VST.msl.eq_dec <> f:9 var
+R593:594 VST.msl.eq_dec <> a':12 var
+R584:584 VST.msl.eq_dec <> b:11 var
+R607:609 VST.msl.eq_dec <> upd def
+R607:609 VST.msl.eq_dec <> upd def
+prf 635:640 <> upd_eq
+binder 643:643 <> A:13
+R648:652 VST.msl.eq_dec <> EqDec class
+R654:654 VST.msl.eq_dec <> A:13 var
+binder 648:654 <> H:14
+binder 666:666 <> B:15
+R674:677 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R678:678 VST.msl.eq_dec <> B:15 var
+R673:673 VST.msl.eq_dec <> A:13 var
+binder 669:669 <> f:16
+binder 681:681 <> a:17
+binder 683:683 <> b:18
+R699:701 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R688:690 VST.msl.eq_dec <> upd def
+R698:698 VST.msl.eq_dec <> a:17 var
+R696:696 VST.msl.eq_dec <> b:18 var
+R694:694 VST.msl.eq_dec <> a:17 var
+R692:692 VST.msl.eq_dec <> f:16 var
+R702:702 VST.msl.eq_dec <> b:18 var
+R741:743 VST.msl.eq_dec <> upd def
+R754:759 VST.msl.eq_dec <> eq_dec def
+R754:759 VST.msl.eq_dec <> eq_dec def
+R809:814 VST.msl.eq_dec <> upd_eq thm
+R809:814 VST.msl.eq_dec <> upd_eq thm
+prf 838:844 <> upd_eq'
+binder 847:847 <> A:19
+R852:856 VST.msl.eq_dec <> EqDec class
+R858:858 VST.msl.eq_dec <> A:19 var
+binder 852:858 <> H:20
+binder 870:870 <> B:21
+R878:881 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R882:882 VST.msl.eq_dec <> B:21 var
+R877:877 VST.msl.eq_dec <> A:19 var
+binder 873:873 <> f:22
+binder 885:885 <> a:23
+binder 887:887 <> b:24
+binder 889:890 <> a':25
+R901:906 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R919:921 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R907:909 VST.msl.eq_dec <> upd def
+R917:918 VST.msl.eq_dec <> a':25 var
+R915:915 VST.msl.eq_dec <> b:24 var
+R913:913 VST.msl.eq_dec <> a:23 var
+R911:911 VST.msl.eq_dec <> f:22 var
+R922:922 VST.msl.eq_dec <> b:24 var
+R896:898 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R895:895 VST.msl.eq_dec <> a:23 var
+R899:900 VST.msl.eq_dec <> a':25 var
+R958:963 VST.msl.eq_dec <> upd_eq thm
+R958:963 VST.msl.eq_dec <> upd_eq thm
+R981:987 VST.msl.eq_dec <> upd_eq' thm
+R981:987 VST.msl.eq_dec <> upd_eq' thm
+prf 1015:1021 <> upd_neq
+binder 1024:1024 <> A:26
+R1029:1033 VST.msl.eq_dec <> EqDec class
+R1035:1035 VST.msl.eq_dec <> A:26 var
+binder 1029:1035 <> H:27
+binder 1047:1047 <> B:28
+R1055:1058 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1059:1059 VST.msl.eq_dec <> B:28 var
+R1054:1054 VST.msl.eq_dec <> A:26 var
+binder 1050:1050 <> f:29
+binder 1062:1062 <> a:30
+binder 1064:1064 <> b:31
+binder 1066:1067 <> a':32
+R1079:1084 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1097:1099 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1085:1087 VST.msl.eq_dec <> upd def
+R1095:1096 VST.msl.eq_dec <> a':32 var
+R1093:1093 VST.msl.eq_dec <> b:31 var
+R1091:1091 VST.msl.eq_dec <> a:30 var
+R1089:1089 VST.msl.eq_dec <> f:29 var
+R1100:1100 VST.msl.eq_dec <> f:29 var
+R1102:1103 VST.msl.eq_dec <> a':32 var
+R1073:1076 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1072:1072 VST.msl.eq_dec <> a:30 var
+R1077:1078 VST.msl.eq_dec <> a':32 var
+R1142:1144 VST.msl.eq_dec <> upd def
+R1155:1160 VST.msl.eq_dec <> eq_dec def
+R1155:1160 VST.msl.eq_dec <> eq_dec def
+R1225:1231 VST.msl.eq_dec <> upd_neq thm
+R1225:1231 VST.msl.eq_dec <> upd_neq thm
+inst 1262:1271 <> nat_eq_dec
+R1274:1278 VST.msl.eq_dec <> EqDec class
+R1280:1282 Coq.Init.Datatypes <> nat ind
+R1319:1342 Coq.Arith.Compare_dec <> lt_eq_lt_dec def
+R1401:1412 Coq.Arith.Lt <> lt_irrefl syndef
+R1319:1342 Coq.Arith.Compare_dec <> lt_eq_lt_dec def
+R1401:1412 Coq.Arith.Lt <> lt_irrefl syndef
+R1401:1412 Coq.Arith.Lt <> lt_irrefl syndef
+inst 1441:1450 <> EqDec_prod
+binder 1453:1453 <> A:33
+R1467:1471 VST.msl.eq_dec <> EqDec class
+R1473:1473 VST.msl.eq_dec <> A:33 var
+binder 1463:1464 <> EA:34
+binder 1477:1477 <> B:35
+R1491:1495 VST.msl.eq_dec <> EqDec class
+R1497:1497 VST.msl.eq_dec <> B:35 var
+binder 1487:1488 <> EB:36
+R1502:1506 VST.msl.eq_dec <> EqDec class
+R1510:1510 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1509:1509 VST.msl.eq_dec <> A:33 var
+R1511:1511 VST.msl.eq_dec <> B:35 var
+R1555:1560 VST.msl.eq_dec <> eq_dec def
+inst 1582:1591 <> EqDec_list
+binder 1594:1594 <> A:37
+R1608:1612 VST.msl.eq_dec <> EqDec class
+R1614:1614 VST.msl.eq_dec <> A:37 var
+binder 1604:1605 <> EA:38
+R1619:1623 VST.msl.eq_dec <> EqDec class
+R1626:1629 Coq.Init.Datatypes <> list ind
+R1631:1631 VST.msl.eq_dec <> A:37 var
+R1654:1664 Coq.Lists.List <> list_eq_dec thm
+R1654:1664 Coq.Lists.List <> list_eq_dec thm
+inst 1704:1715 <> EqDec_option
+binder 1718:1718 <> A:39
+R1732:1736 VST.msl.eq_dec <> EqDec class
+R1738:1738 VST.msl.eq_dec <> A:39 var
+binder 1728:1729 <> EA:40
+R1743:1747 VST.msl.eq_dec <> EqDec class
+R1750:1755 Coq.Init.Datatypes <> option ind
+R1757:1757 VST.msl.eq_dec <> A:39 var

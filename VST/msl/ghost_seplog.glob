@@ -1,0 +1,518 @@
+DIGEST 6807975164e53b0127e7a06f379e6cc8
+FVST.msl.ghost_seplog
+R15:36 VST.msl.Extensionality <> <> lib
+R54:67 VST.msl.seplog <> <> lib
+R85:98 VST.msl.sepalg <> <> lib
+R116:128 VST.msl.ghost <> <> lib
+constr 220:224 <> mkBSL
+rec 163:172 <> BupdSepLog
+proj 230:233 <> bupd
+proj 246:248 <> own
+proj 291:300 <> bupd_intro
+proj 329:337 <> bupd_mono
+proj 384:393 <> bupd_trans
+proj 434:445 <> bupd_frame_r
+proj 491:499 <> own_alloc
+proj 580:585 <> own_op
+proj 691:701 <> own_valid_2
+proj 793:805 <> own_update_ND
+proj 923:933 <> own_dealloc
+binder 175:175 <> A:1
+binder 177:177 <> N:2
+binder 179:179 <> D:3
+R193:198 VST.msl.seplog <> NatDed class
+R200:200 VST.msl.ghost_seplog <> A:1 var
+binder 189:190 <> ND:4
+R207:212 VST.msl.seplog <> SepLog class
+R214:214 VST.msl.ghost_seplog <> A:1 var
+binder 203:204 <> SL:5
+R237:240 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R241:241 VST.msl.ghost_seplog <> A:1 var
+R236:236 VST.msl.ghost_seplog <> A:1 var
+R263:267 VST.msl.ghost <> Ghost class
+binder 259:260 <> RA:8
+R272:275 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R277:280 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R282:285 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R286:286 VST.msl.ghost_seplog <> A:1 var
+R281:281 VST.msl.ghost_seplog <> D:3 var
+R276:276 VST.msl.ghost <> G meth
+R271:271 VST.msl.ghost_seplog <> N:2 var
+binder 310:310 <> P:10
+R314:318 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R313:313 VST.msl.ghost_seplog <> P:10 var
+R319:322 VST.msl.ghost_seplog <> bupd:7 meth
+R324:324 VST.msl.ghost_seplog <> P:10 var
+binder 347:347 <> P:12
+binder 349:349 <> Q:13
+R359:362 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R369:373 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R363:366 VST.msl.ghost_seplog <> bupd:7 meth
+R368:368 VST.msl.ghost_seplog <> P:12 var
+R374:377 VST.msl.ghost_seplog <> bupd:7 meth
+R379:379 VST.msl.ghost_seplog <> Q:13 var
+R353:357 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R352:352 VST.msl.ghost_seplog <> P:12 var
+R358:358 VST.msl.ghost_seplog <> Q:13 var
+binder 403:403 <> P:15
+R419:423 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R406:409 VST.msl.ghost_seplog <> bupd:7 meth
+R412:415 VST.msl.ghost_seplog <> bupd:7 meth
+R417:417 VST.msl.ghost_seplog <> P:15 var
+R424:427 VST.msl.ghost_seplog <> bupd:7 meth
+R429:429 VST.msl.ghost_seplog <> P:15 var
+binder 455:455 <> P:17
+binder 457:457 <> Q:18
+R470:474 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R466:468 VST.msl.seplog <> ::logic:x_'*'_x not
+R460:463 VST.msl.ghost_seplog <> bupd:7 meth
+R465:465 VST.msl.ghost_seplog <> P:17 var
+R469:469 VST.msl.ghost_seplog <> Q:18 var
+R475:478 VST.msl.ghost_seplog <> bupd:7 meth
+R482:484 VST.msl.seplog <> ::logic:x_'*'_x not
+R481:481 VST.msl.ghost_seplog <> P:17 var
+R485:485 VST.msl.ghost_seplog <> Q:18 var
+R514:518 VST.msl.ghost <> Ghost class
+binder 510:511 <> RA:20
+binder 521:521 <> a:21
+binder 523:524 <> pp:22
+R534:541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R545:549 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R542:544 VST.msl.seplog <> emp meth
+R550:553 VST.msl.ghost_seplog <> bupd:7 meth
+R556:558 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R563:564 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R562:562 VST.msl.ghost_seplog <> N:2 var
+binder 559:559 <> g:23
+R565:567 VST.msl.ghost_seplog <> own:9 meth
+R573:574 VST.msl.ghost_seplog <> pp:22 var
+R571:571 VST.msl.ghost_seplog <> a:21 var
+R569:569 VST.msl.ghost_seplog <> g:23 var
+R527:531 VST.msl.ghost <> valid meth
+R533:533 VST.msl.ghost_seplog <> a:21 var
+R600:604 VST.msl.ghost <> Ghost class
+binder 596:597 <> RA:25
+binder 607:607 <> g:26
+R620:620 VST.msl.ghost <> G meth
+binder 610:611 <> a1:27
+binder 613:614 <> a2:28
+binder 616:617 <> a3:29
+binder 623:624 <> pp:30
+R640:647 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R659:661 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R648:650 VST.msl.ghost_seplog <> own:9 meth
+R657:658 VST.msl.ghost_seplog <> pp:30 var
+R654:655 VST.msl.ghost_seplog <> a3:29 var
+R652:652 VST.msl.ghost_seplog <> g:26 var
+R673:675 VST.msl.seplog <> ::logic:x_'*'_x not
+R662:664 VST.msl.ghost_seplog <> own:9 meth
+R671:672 VST.msl.ghost_seplog <> pp:30 var
+R668:669 VST.msl.ghost_seplog <> a1:27 var
+R666:666 VST.msl.ghost_seplog <> g:26 var
+R676:678 VST.msl.ghost_seplog <> own:9 meth
+R685:686 VST.msl.ghost_seplog <> pp:30 var
+R682:683 VST.msl.ghost_seplog <> a2:28 var
+R680:680 VST.msl.ghost_seplog <> g:26 var
+R627:630 VST.msl.sepalg <> join def
+R638:639 VST.msl.ghost_seplog <> a3:29 var
+R635:636 VST.msl.ghost_seplog <> a2:28 var
+R632:633 VST.msl.ghost_seplog <> a1:27 var
+R716:720 VST.msl.ghost <> Ghost class
+binder 712:713 <> RA:32
+binder 723:723 <> g:33
+R733:733 VST.msl.ghost <> G meth
+binder 726:727 <> a1:34
+binder 729:730 <> a2:35
+binder 736:737 <> pp:36
+R769:773 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R755:757 VST.msl.seplog <> ::logic:x_'*'_x not
+R744:746 VST.msl.ghost_seplog <> own:9 meth
+R753:754 VST.msl.ghost_seplog <> pp:36 var
+R750:751 VST.msl.ghost_seplog <> a1:34 var
+R748:748 VST.msl.ghost_seplog <> g:33 var
+R758:760 VST.msl.ghost_seplog <> own:9 meth
+R767:768 VST.msl.ghost_seplog <> pp:36 var
+R764:765 VST.msl.ghost_seplog <> a2:35 var
+R762:762 VST.msl.ghost_seplog <> g:33 var
+R774:775 VST.msl.seplog <> ::logic:'!!'_x not
+R776:782 VST.msl.ghost <> valid_2 def
+R787:788 VST.msl.ghost_seplog <> a2:35 var
+R784:785 VST.msl.ghost_seplog <> a1:34 var
+R820:824 VST.msl.ghost <> Ghost class
+binder 816:817 <> RA:38
+binder 827:827 <> g:39
+R833:833 VST.msl.ghost <> G meth
+binder 830:830 <> a:40
+binder 836:836 <> B:41
+binder 838:839 <> pp:42
+R858:865 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R876:880 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R866:868 VST.msl.ghost_seplog <> own:9 meth
+R874:875 VST.msl.ghost_seplog <> pp:42 var
+R872:872 VST.msl.ghost_seplog <> a:40 var
+R870:870 VST.msl.ghost_seplog <> g:39 var
+R881:884 VST.msl.ghost_seplog <> bupd:7 meth
+R887:889 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R895:896 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+binder 890:890 <> b:43
+R904:907 VST.msl.seplog <> ::logic:x_'&&'_x not
+R897:899 VST.msl.seplog <> ::logic:'!!'_x not
+R903:903 VST.msl.seplog <> ::logic:'!!'_x not
+R900:900 VST.msl.ghost_seplog <> B:41 var
+R902:902 VST.msl.ghost_seplog <> b:43 var
+R908:910 VST.msl.ghost_seplog <> own:9 meth
+R916:917 VST.msl.ghost_seplog <> pp:42 var
+R914:914 VST.msl.ghost_seplog <> b:43 var
+R912:912 VST.msl.ghost_seplog <> g:39 var
+R842:853 VST.msl.ghost <> fp_update_ND def
+R857:857 VST.msl.ghost_seplog <> B:41 var
+R855:855 VST.msl.ghost_seplog <> a:40 var
+R948:952 VST.msl.ghost <> Ghost class
+binder 944:945 <> RA:45
+binder 955:955 <> g:46
+R961:961 VST.msl.ghost <> G meth
+binder 958:958 <> a:47
+binder 964:965 <> pp:48
+R982:986 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R972:974 VST.msl.ghost_seplog <> own:9 meth
+R980:981 VST.msl.ghost_seplog <> pp:48 var
+R978:978 VST.msl.ghost_seplog <> a:47 var
+R976:976 VST.msl.ghost_seplog <> g:46 var
+R987:990 VST.msl.ghost_seplog <> bupd:7 meth
+R992:994 VST.msl.seplog <> emp meth
+R1024:1027 VST.msl.ghost_seplog <> bupd meth
+not 1011:1011 <> ::logic:'|==>'_x
+prf 1061:1070 <> bupd_orp_r
+R1082:1091 VST.msl.ghost_seplog <> BupdSepLog class
+binder 1082:1091 <> H:55
+R1100:1100 VST.msl.ghost_seplog <> A:50 var
+binder 1095:1095 <> P:56
+binder 1097:1097 <> Q:57
+R1104:1104 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1118:1123 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1105:1105 VST.msl.seplog <> ::logic:x_'||'_x not
+R1112:1116 VST.msl.seplog <> ::logic:x_'||'_x not
+R1106:1110 VST.msl.ghost_seplog <> ::logic:'|==>'_x not
+R1111:1111 VST.msl.ghost_seplog <> P:56 var
+R1117:1117 VST.msl.ghost_seplog <> Q:57 var
+R1124:1128 VST.msl.ghost_seplog <> ::logic:'|==>'_x not
+R1130:1133 VST.msl.seplog <> ::logic:x_'||'_x not
+R1129:1129 VST.msl.ghost_seplog <> P:56 var
+R1134:1134 VST.msl.ghost_seplog <> Q:57 var
+R1162:1169 VST.msl.seplog <> orp_left meth
+R1162:1169 VST.msl.seplog <> orp_left meth
+R1182:1190 VST.msl.ghost_seplog <> bupd_mono meth
+R1182:1190 VST.msl.ghost_seplog <> bupd_mono meth
+R1203:1212 VST.msl.seplog <> orp_right1 meth
+R1215:1226 VST.msl.seplog <> derives_refl meth
+R1203:1212 VST.msl.seplog <> orp_right1 meth
+R1215:1226 VST.msl.seplog <> derives_refl meth
+R1240:1252 VST.msl.seplog <> derives_trans meth
+R1264:1273 VST.msl.ghost_seplog <> bupd_intro meth
+R1240:1252 VST.msl.seplog <> derives_trans meth
+R1264:1273 VST.msl.ghost_seplog <> bupd_intro meth
+R1287:1296 VST.msl.seplog <> orp_right2 meth
+R1299:1310 VST.msl.seplog <> derives_refl meth
+R1287:1296 VST.msl.seplog <> orp_right2 meth
+R1299:1310 VST.msl.seplog <> derives_refl meth
+prf 1325:1334 <> bupd_orp_l
+R1346:1355 VST.msl.ghost_seplog <> BupdSepLog class
+binder 1346:1355 <> H:63
+R1364:1364 VST.msl.ghost_seplog <> A:58 var
+binder 1359:1359 <> P:64
+binder 1361:1361 <> Q:65
+R1368:1368 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1380:1385 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1370:1373 VST.msl.seplog <> ::logic:x_'||'_x not
+R1369:1369 VST.msl.ghost_seplog <> P:64 var
+R1374:1378 VST.msl.ghost_seplog <> ::logic:'|==>'_x not
+R1379:1379 VST.msl.ghost_seplog <> Q:65 var
+R1386:1390 VST.msl.ghost_seplog <> ::logic:'|==>'_x not
+R1392:1395 VST.msl.seplog <> ::logic:x_'||'_x not
+R1391:1391 VST.msl.ghost_seplog <> P:64 var
+R1396:1396 VST.msl.ghost_seplog <> Q:65 var
+R1424:1431 VST.msl.seplog <> orp_comm thm
+R1435:1442 VST.msl.seplog <> orp_comm thm
+R1456:1465 VST.msl.ghost_seplog <> bupd_orp_r thm
+R1424:1431 VST.msl.seplog <> orp_comm thm
+R1424:1431 VST.msl.seplog <> orp_comm thm
+R1435:1442 VST.msl.seplog <> orp_comm thm
+R1435:1442 VST.msl.seplog <> orp_comm thm
+R1456:1465 VST.msl.ghost_seplog <> bupd_orp_r thm
+prf 1480:1487 <> bupd_orp
+R1499:1508 VST.msl.ghost_seplog <> BupdSepLog class
+binder 1499:1508 <> H:71
+R1517:1517 VST.msl.ghost_seplog <> A:66 var
+binder 1512:1512 <> P:72
+binder 1514:1514 <> Q:73
+R1521:1521 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1540:1545 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1522:1522 VST.msl.seplog <> ::logic:x_'||'_x not
+R1529:1533 VST.msl.seplog <> ::logic:x_'||'_x not
+R1523:1527 VST.msl.ghost_seplog <> ::logic:'|==>'_x not
+R1528:1528 VST.msl.ghost_seplog <> P:72 var
+R1534:1538 VST.msl.ghost_seplog <> ::logic:'|==>'_x not
+R1539:1539 VST.msl.ghost_seplog <> Q:73 var
+R1546:1550 VST.msl.ghost_seplog <> ::logic:'|==>'_x not
+R1552:1555 VST.msl.seplog <> ::logic:x_'||'_x not
+R1551:1551 VST.msl.ghost_seplog <> P:72 var
+R1556:1556 VST.msl.ghost_seplog <> Q:73 var
+R1585:1597 VST.msl.seplog <> derives_trans meth
+R1600:1609 VST.msl.ghost_seplog <> bupd_trans meth
+R1585:1597 VST.msl.seplog <> derives_trans meth
+R1600:1609 VST.msl.ghost_seplog <> bupd_trans meth
+R1621:1633 VST.msl.seplog <> derives_trans meth
+R1643:1652 VST.msl.ghost_seplog <> bupd_orp_l thm
+R1621:1633 VST.msl.seplog <> derives_trans meth
+R1643:1652 VST.msl.ghost_seplog <> bupd_orp_l thm
+R1665:1673 VST.msl.ghost_seplog <> bupd_mono meth
+R1676:1685 VST.msl.ghost_seplog <> bupd_orp_r thm
+R1665:1673 VST.msl.ghost_seplog <> bupd_mono meth
+R1676:1685 VST.msl.ghost_seplog <> bupd_orp_r thm
+prf 1700:1711 <> bupd_frame_l
+R1723:1732 VST.msl.ghost_seplog <> BupdSepLog class
+binder 1723:1732 <> H:79
+R1741:1741 VST.msl.ghost_seplog <> A:74 var
+binder 1736:1736 <> P:80
+binder 1738:1738 <> Q:81
+R1745:1745 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1756:1761 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1747:1749 VST.msl.seplog <> ::logic:x_'*'_x not
+R1746:1746 VST.msl.ghost_seplog <> P:80 var
+R1750:1754 VST.msl.ghost_seplog <> ::logic:'|==>'_x not
+R1755:1755 VST.msl.ghost_seplog <> Q:81 var
+R1762:1766 VST.msl.ghost_seplog <> ::logic:'|==>'_x not
+R1768:1770 VST.msl.seplog <> ::logic:x_'*'_x not
+R1767:1767 VST.msl.ghost_seplog <> P:80 var
+R1771:1771 VST.msl.ghost_seplog <> Q:81 var
+R1799:1809 VST.msl.seplog <> sepcon_comm meth
+R1813:1823 VST.msl.seplog <> sepcon_comm meth
+R1837:1848 VST.msl.ghost_seplog <> bupd_frame_r meth
+R1799:1809 VST.msl.seplog <> sepcon_comm meth
+R1799:1809 VST.msl.seplog <> sepcon_comm meth
+R1813:1823 VST.msl.seplog <> sepcon_comm meth
+R1813:1823 VST.msl.seplog <> sepcon_comm meth
+R1837:1848 VST.msl.ghost_seplog <> bupd_frame_r meth
+prf 1863:1873 <> bupd_sepcon
+R1885:1894 VST.msl.ghost_seplog <> BupdSepLog class
+binder 1885:1894 <> H:87
+R1903:1903 VST.msl.ghost_seplog <> A:82 var
+binder 1898:1898 <> P:88
+binder 1900:1900 <> Q:89
+R1907:1907 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1925:1930 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1908:1908 VST.msl.seplog <> ::logic:x_'*'_x not
+R1915:1918 VST.msl.seplog <> ::logic:x_'*'_x not
+R1909:1913 VST.msl.ghost_seplog <> ::logic:'|==>'_x not
+R1914:1914 VST.msl.ghost_seplog <> P:88 var
+R1919:1923 VST.msl.ghost_seplog <> ::logic:'|==>'_x not
+R1924:1924 VST.msl.ghost_seplog <> Q:89 var
+R1931:1935 VST.msl.ghost_seplog <> ::logic:'|==>'_x not
+R1937:1939 VST.msl.seplog <> ::logic:x_'*'_x not
+R1936:1936 VST.msl.ghost_seplog <> P:88 var
+R1940:1940 VST.msl.ghost_seplog <> Q:89 var
+R1969:1981 VST.msl.seplog <> derives_trans meth
+R1984:1993 VST.msl.ghost_seplog <> bupd_trans meth
+R1969:1981 VST.msl.seplog <> derives_trans meth
+R1984:1993 VST.msl.ghost_seplog <> bupd_trans meth
+R2005:2017 VST.msl.seplog <> derives_trans meth
+R2027:2038 VST.msl.ghost_seplog <> bupd_frame_l thm
+R2005:2017 VST.msl.seplog <> derives_trans meth
+R2027:2038 VST.msl.ghost_seplog <> bupd_frame_l thm
+R2051:2059 VST.msl.ghost_seplog <> bupd_mono meth
+R2062:2073 VST.msl.ghost_seplog <> bupd_frame_r meth
+R2051:2059 VST.msl.ghost_seplog <> bupd_mono meth
+R2062:2073 VST.msl.ghost_seplog <> bupd_frame_r meth
+ind 2092:2100 <> Singleton
+constr 2131:2141 <> Singleton_I
+binder 2103:2103 <> A:90
+R2111:2111 VST.msl.ghost_seplog <> A:90 var
+binder 2107:2107 <> x:91
+R2117:2120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2145:2153 VST.msl.ghost_seplog <> Singleton:92 ind
+R2157:2157 VST.msl.ghost_seplog <> x:91 var
+R2155:2155 VST.msl.ghost_seplog <> x:91 var
+prf 2167:2176 <> own_update
+R2194:2203 VST.msl.ghost_seplog <> BupdSepLog class
+binder 2188:2191 <> BUPD:99
+R2211:2215 VST.msl.ghost <> Ghost class
+binder 2207:2208 <> RA:100
+binder 2218:2218 <> g:101
+R2224:2224 VST.msl.ghost <> G meth
+binder 2221:2221 <> a:102
+binder 2227:2227 <> b:103
+binder 2229:2230 <> pp:104
+R2246:2253 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2264:2268 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2254:2256 VST.msl.ghost_seplog <> own meth
+R2262:2263 VST.msl.ghost_seplog <> pp:104 var
+R2260:2260 VST.msl.ghost_seplog <> a:102 var
+R2258:2258 VST.msl.ghost_seplog <> g:101 var
+R2269:2274 VST.msl.ghost_seplog <> ::logic:'|==>'_x not
+R2285:2285 VST.msl.ghost_seplog <> ::logic:'|==>'_x not
+R2275:2277 VST.msl.ghost_seplog <> own meth
+R2283:2284 VST.msl.ghost_seplog <> pp:104 var
+R2281:2281 VST.msl.ghost_seplog <> b:103 var
+R2279:2279 VST.msl.ghost_seplog <> g:101 var
+R2233:2241 VST.msl.ghost <> fp_update def
+R2245:2245 VST.msl.ghost_seplog <> b:103 var
+R2243:2243 VST.msl.ghost_seplog <> a:102 var
+R2314:2326 VST.msl.seplog <> derives_trans meth
+R2361:2369 VST.msl.ghost_seplog <> Singleton ind
+R2336:2348 VST.msl.ghost_seplog <> own_update_ND meth
+R2314:2326 VST.msl.seplog <> derives_trans meth
+R2361:2369 VST.msl.ghost_seplog <> Singleton ind
+R2336:2348 VST.msl.ghost_seplog <> own_update_ND meth
+R2462:2470 VST.msl.ghost_seplog <> bupd_mono meth
+R2462:2470 VST.msl.ghost_seplog <> bupd_mono meth
+R2483:2490 VST.msl.seplog <> exp_left meth
+R2483:2490 VST.msl.seplog <> exp_left meth
+R2512:2527 VST.msl.seplog <> imp_andp_adjoint meth
+R2536:2544 VST.msl.seplog <> prop_left meth
+R2512:2527 VST.msl.seplog <> imp_andp_adjoint meth
+R2512:2527 VST.msl.seplog <> imp_andp_adjoint meth
+R2536:2544 VST.msl.seplog <> prop_left meth
+R2594:2609 VST.msl.seplog <> imp_andp_adjoint meth
+R2618:2627 VST.msl.seplog <> andp_left2 meth
+R2630:2641 VST.msl.seplog <> derives_refl meth
+R2594:2609 VST.msl.seplog <> imp_andp_adjoint meth
+R2594:2609 VST.msl.seplog <> imp_andp_adjoint meth
+R2618:2627 VST.msl.seplog <> andp_left2 meth
+R2630:2641 VST.msl.seplog <> derives_refl meth
+prf 2656:2664 <> own_valid
+R2676:2685 VST.msl.ghost_seplog <> BupdSepLog class
+binder 2676:2685 <> H:110
+R2693:2697 VST.msl.ghost <> Ghost class
+binder 2689:2690 <> RA:111
+binder 2700:2700 <> g:112
+R2706:2706 VST.msl.ghost <> G meth
+binder 2703:2703 <> a:113
+binder 2709:2710 <> pp:114
+R2725:2729 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2715:2717 VST.msl.ghost_seplog <> own meth
+R2723:2724 VST.msl.ghost_seplog <> pp:114 var
+R2721:2721 VST.msl.ghost_seplog <> a:113 var
+R2719:2719 VST.msl.ghost_seplog <> g:112 var
+R2730:2731 VST.msl.seplog <> ::logic:'!!'_x not
+R2732:2736 VST.msl.ghost <> valid meth
+R2738:2738 VST.msl.ghost_seplog <> a:113 var
+R2785:2793 VST.msl.sepalg <> core_unit meth
+R2769:2774 VST.msl.ghost_seplog <> own_op meth
+R2769:2774 VST.msl.ghost_seplog <> own_op meth
+R2785:2793 VST.msl.sepalg <> core_unit meth
+R2769:2774 VST.msl.ghost_seplog <> own_op meth
+R2805:2817 VST.msl.seplog <> derives_trans meth
+R2827:2837 VST.msl.ghost_seplog <> own_valid_2 meth
+R2805:2817 VST.msl.seplog <> derives_trans meth
+R2827:2837 VST.msl.ghost_seplog <> own_valid_2 meth
+R2850:2858 VST.msl.seplog <> prop_left meth
+R2888:2897 VST.msl.seplog <> prop_right meth
+R2850:2858 VST.msl.seplog <> prop_left meth
+R2888:2897 VST.msl.seplog <> prop_right meth
+R2908:2920 VST.msl.sepalg <> core_identity thm
+R2908:2920 VST.msl.sepalg <> core_identity thm
+prf 2953:2960 <> own_core
+R2972:2981 VST.msl.ghost_seplog <> BupdSepLog class
+binder 2972:2981 <> H:120
+R2989:2993 VST.msl.ghost <> Ghost class
+binder 2985:2986 <> RA:121
+binder 2996:2996 <> g:122
+R3002:3002 VST.msl.ghost <> G meth
+binder 2999:2999 <> a:123
+binder 3005:3006 <> pp:124
+R3021:3025 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R3011:3013 VST.msl.ghost_seplog <> own meth
+R3019:3020 VST.msl.ghost_seplog <> pp:124 var
+R3017:3017 VST.msl.ghost_seplog <> a:123 var
+R3015:3015 VST.msl.ghost_seplog <> g:122 var
+R3026:3030 VST.msl.ghost_seplog <> ::logic:'|==>'_x not
+R3031:3033 VST.msl.ghost_seplog <> own meth
+R3046:3047 VST.msl.ghost_seplog <> pp:124 var
+R3038:3041 VST.msl.sepalg <> core meth
+R3043:3043 VST.msl.ghost_seplog <> a:123 var
+R3035:3035 VST.msl.ghost_seplog <> g:122 var
+R3073:3082 VST.msl.ghost_seplog <> own_update thm
+R3073:3082 VST.msl.ghost_seplog <> own_update thm
+R3141:3149 VST.msl.sepalg <> join_core meth
+R3159:3167 VST.msl.sepalg <> join_core meth
+R3170:3178 VST.msl.sepalg <> join_comm meth
+R3191:3199 VST.msl.sepalg <> core_unit meth
+R3141:3149 VST.msl.sepalg <> join_core meth
+R3141:3149 VST.msl.sepalg <> join_core meth
+R3159:3167 VST.msl.sepalg <> join_core meth
+R3170:3178 VST.msl.sepalg <> join_comm meth
+R3159:3167 VST.msl.sepalg <> join_core meth
+R3170:3178 VST.msl.sepalg <> join_comm meth
+R3191:3199 VST.msl.sepalg <> core_unit meth
+R3213:3222 VST.msl.ghost <> join_valid meth
+R3213:3222 VST.msl.ghost <> join_valid meth
+inst 3247:3260 <> LiftBupdSepLog
+binder 3263:3263 <> A:125
+binder 3265:3265 <> B:126
+binder 3267:3267 <> N:127
+binder 3269:3269 <> D:128
+R3283:3288 VST.msl.seplog <> NatDed class
+R3290:3290 VST.msl.ghost_seplog <> B:126 var
+binder 3279:3280 <> NB:129
+R3297:3302 VST.msl.seplog <> SepLog class
+R3304:3304 VST.msl.ghost_seplog <> B:126 var
+binder 3293:3294 <> SB:130
+R3313:3322 VST.msl.ghost_seplog <> BupdSepLog class
+R3328:3328 VST.msl.ghost_seplog <> D:128 var
+R3326:3326 VST.msl.ghost_seplog <> N:127 var
+R3324:3324 VST.msl.ghost_seplog <> B:126 var
+binder 3307:3310 <> BSLB:131
+R3335:3344 VST.msl.ghost_seplog <> BupdSepLog class
+R3357:3357 VST.msl.ghost_seplog <> D:128 var
+R3355:3355 VST.msl.ghost_seplog <> N:127 var
+R3348:3351 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3352:3352 VST.msl.ghost_seplog <> B:126 var
+R3347:3347 VST.msl.ghost_seplog <> A:125 var
+R3368:3372 VST.msl.ghost_seplog <> mkBSL constr
+binder 3415:3416 <> RA:132
+binder 3418:3418 <> g:133
+binder 3420:3420 <> a:134
+binder 3422:3423 <> pp:135
+binder 3425:3427 <> rho:136
+R3432:3434 VST.msl.ghost_seplog <> own meth
+R3440:3441 VST.msl.ghost_seplog <> pp:135 var
+R3438:3438 VST.msl.ghost_seplog <> a:134 var
+R3436:3436 VST.msl.ghost_seplog <> g:133 var
+binder 3389:3389 <> P:137
+binder 3391:3393 <> rho:138
+R3398:3402 VST.msl.ghost_seplog <> ::logic:'|==>'_x not
+R3403:3403 VST.msl.ghost_seplog <> P:137 var
+R3405:3407 VST.msl.ghost_seplog <> rho:138 var
+R3368:3372 VST.msl.ghost_seplog <> mkBSL constr
+binder 3415:3416 <> RA:139
+binder 3418:3418 <> g:140
+binder 3420:3420 <> a:141
+binder 3422:3423 <> pp:142
+binder 3425:3427 <> rho:143
+R3432:3434 VST.msl.ghost_seplog <> own meth
+R3440:3441 VST.msl.ghost_seplog <> pp:142 var
+R3438:3438 VST.msl.ghost_seplog <> a:141 var
+R3436:3436 VST.msl.ghost_seplog <> g:140 var
+binder 3389:3389 <> P:144
+binder 3391:3393 <> rho:145
+R3398:3402 VST.msl.ghost_seplog <> ::logic:'|==>'_x not
+R3403:3403 VST.msl.ghost_seplog <> P:144 var
+R3405:3407 VST.msl.ghost_seplog <> rho:145 var
+R3477:3486 VST.msl.ghost_seplog <> bupd_intro meth
+R3477:3486 VST.msl.ghost_seplog <> bupd_intro meth
+R3496:3504 VST.msl.ghost_seplog <> bupd_mono meth
+R3496:3504 VST.msl.ghost_seplog <> bupd_mono meth
+R3520:3529 VST.msl.ghost_seplog <> bupd_trans meth
+R3520:3529 VST.msl.ghost_seplog <> bupd_trans meth
+R3539:3550 VST.msl.ghost_seplog <> bupd_frame_r meth
+R3539:3550 VST.msl.ghost_seplog <> bupd_frame_r meth
+R3560:3568 VST.msl.ghost_seplog <> own_alloc meth
+R3560:3568 VST.msl.ghost_seplog <> own_alloc meth
+R3604:3609 VST.msl.ghost_seplog <> own_op meth
+R3604:3609 VST.msl.ghost_seplog <> own_op meth
+R3625:3635 VST.msl.ghost_seplog <> own_valid_2 meth
+R3625:3635 VST.msl.ghost_seplog <> own_valid_2 meth
+R3645:3657 VST.msl.ghost_seplog <> own_update_ND meth
+R3645:3657 VST.msl.ghost_seplog <> own_update_ND meth
+R3673:3683 VST.msl.ghost_seplog <> own_dealloc meth
+R3673:3683 VST.msl.ghost_seplog <> own_dealloc meth

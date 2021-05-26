@@ -1,0 +1,2375 @@
+DIGEST 4da0cf06ff868e16b27bd7c97305cd1f
+FVST.msl.ramification_lemmas
+R1636:1647 VST.msl.base <> <> lib
+R1665:1679 VST.msl.Coqlib2 <> <> lib
+R1697:1714 VST.msl.simple_CCC <> <> lib
+R1732:1745 VST.msl.seplog <> <> lib
+R1763:1783 VST.msl.log_normalize <> <> lib
+prf 1818:1835 <> modus_ponens_wand'
+binder 1838:1838 <> A:1
+R1845:1850 VST.msl.seplog <> NatDed class
+R1852:1852 VST.msl.ramification_lemmas <> A:1 var
+binder 1841:1842 <> ND:2
+R1859:1864 VST.msl.seplog <> SepLog class
+R1866:1866 VST.msl.ramification_lemmas <> A:1 var
+binder 1855:1856 <> SL:3
+R1907:1907 VST.msl.ramification_lemmas <> A:1 var
+binder 1899:1899 <> P:4
+binder 1901:1902 <> P':5
+binder 1904:1904 <> Q:6
+R1918:1922 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1923:1929 VST.msl.seplog <> derives meth
+R1954:1954 VST.msl.ramification_lemmas <> Q:6 var
+R1932:1937 VST.msl.seplog <> sepcon meth
+R1942:1945 VST.msl.seplog <> wand meth
+R1950:1950 VST.msl.ramification_lemmas <> Q:6 var
+R1947:1948 VST.msl.ramification_lemmas <> P':5 var
+R1939:1939 VST.msl.ramification_lemmas <> P:4 var
+R1911:1915 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1910:1910 VST.msl.ramification_lemmas <> P:4 var
+R1916:1917 VST.msl.ramification_lemmas <> P':5 var
+R1982:1994 VST.msl.seplog <> derives_trans meth
+R2004:2017 VST.msl.seplog <> sepcon_derives meth
+R2030:2041 VST.msl.seplog <> derives_refl meth
+R2052:2068 VST.msl.log_normalize <> modus_ponens_wand thm
+R1982:1994 VST.msl.seplog <> derives_trans meth
+R2004:2017 VST.msl.seplog <> sepcon_derives meth
+R2030:2041 VST.msl.seplog <> derives_refl meth
+R2052:2068 VST.msl.log_normalize <> modus_ponens_wand thm
+mod 2094:2104 <> RAMIF_PLAIN
+sec 2115:2125 RAMIF_PLAIN RAMIF_PLAIN
+binder 2138:2138 <> A:7
+R2163:2168 VST.msl.seplog <> NatDed class
+R2170:2170 VST.msl.ramification_lemmas <> RAMIF_PLAIN.RAMIF_PLAIN.A var
+binder 2158:2159 <> ND:8
+R2188:2193 VST.msl.seplog <> SepLog class
+R2195:2195 VST.msl.ramification_lemmas <> RAMIF_PLAIN.RAMIF_PLAIN.A var
+binder 2183:2184 <> SL:9
+prf 2206:2210 RAMIF_PLAIN solve
+binder 2220:2220 <> g:10
+binder 2222:2222 <> l:11
+binder 2224:2225 <> g':12
+binder 2227:2228 <> l':13
+binder 2230:2230 <> F:14
+R2244:2247 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2261:2264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2266:2270 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2265:2265 VST.msl.ramification_lemmas <> g:10 var
+R2272:2275 VST.msl.seplog <> ::logic:x_'*'_x not
+R2284:2284 VST.msl.seplog <> ::logic:x_'*'_x not
+R2271:2271 VST.msl.ramification_lemmas <> l:11 var
+R2278:2281 VST.msl.seplog <> ::logic:x_'-*'_x not
+R2276:2277 VST.msl.ramification_lemmas <> l':13 var
+R2282:2283 VST.msl.ramification_lemmas <> g':12 var
+R2254:2258 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2249:2251 VST.msl.seplog <> ::logic:x_'*'_x not
+R2248:2248 VST.msl.ramification_lemmas <> F:14 var
+R2252:2253 VST.msl.ramification_lemmas <> l':13 var
+R2259:2260 VST.msl.ramification_lemmas <> g':12 var
+R2234:2238 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2233:2233 VST.msl.ramification_lemmas <> g:10 var
+R2240:2242 VST.msl.seplog <> ::logic:x_'*'_x not
+R2239:2239 VST.msl.ramification_lemmas <> l:11 var
+R2243:2243 VST.msl.ramification_lemmas <> F:14 var
+R2333:2335 VST.msl.seplog <> ::logic:x_'*'_x not
+R2312:2324 VST.msl.seplog <> derives_trans meth
+R2333:2335 VST.msl.seplog <> ::logic:x_'*'_x not
+R2312:2324 VST.msl.seplog <> derives_trans meth
+R2354:2367 VST.msl.seplog <> sepcon_derives meth
+R2354:2367 VST.msl.seplog <> sepcon_derives meth
+R2384:2402 VST.msl.seplog <> wand_sepcon_adjoint meth
+R2384:2402 VST.msl.seplog <> wand_sepcon_adjoint meth
+prf 2425:2439 RAMIF_PLAIN weak_ramif_spec
+binder 2449:2449 <> g:15
+binder 2451:2451 <> l:16
+binder 2453:2454 <> g':17
+binder 2456:2457 <> l':18
+R2480:2483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2485:2489 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2484:2484 VST.msl.ramification_lemmas <> g:15 var
+R2491:2493 VST.msl.seplog <> ::logic:x_'*'_x not
+R2490:2490 VST.msl.ramification_lemmas <> l:16 var
+R2494:2495 VST.msl.seplog <> TT meth
+R2461:2465 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2460:2460 VST.msl.ramification_lemmas <> g:15 var
+R2467:2470 VST.msl.seplog <> ::logic:x_'*'_x not
+R2479:2479 VST.msl.seplog <> ::logic:x_'*'_x not
+R2466:2466 VST.msl.ramification_lemmas <> l:16 var
+R2473:2476 VST.msl.seplog <> ::logic:x_'-*'_x not
+R2471:2472 VST.msl.ramification_lemmas <> l':18 var
+R2477:2478 VST.msl.ramification_lemmas <> g':17 var
+R2524:2536 VST.msl.seplog <> derives_trans meth
+R2524:2536 VST.msl.seplog <> derives_trans meth
+R2560:2573 VST.msl.seplog <> sepcon_derives meth
+R2560:2573 VST.msl.seplog <> sepcon_derives meth
+R2590:2597 VST.msl.log_normalize <> TT_right thm
+R2590:2597 VST.msl.log_normalize <> TT_right thm
+prf 2612:2616 RAMIF_PLAIN trans
+binder 2626:2626 <> g:19
+binder 2628:2628 <> m:20
+binder 2630:2630 <> l:21
+binder 2632:2633 <> g':22
+binder 2635:2636 <> m':23
+binder 2638:2639 <> l':24
+R2668:2677 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2698:2707 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2709:2713 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2708:2708 VST.msl.ramification_lemmas <> g:19 var
+R2715:2718 VST.msl.seplog <> ::logic:x_'*'_x not
+R2727:2727 VST.msl.seplog <> ::logic:x_'*'_x not
+R2714:2714 VST.msl.ramification_lemmas <> l:21 var
+R2721:2724 VST.msl.seplog <> ::logic:x_'-*'_x not
+R2719:2720 VST.msl.ramification_lemmas <> l':24 var
+R2725:2726 VST.msl.ramification_lemmas <> g':22 var
+R2679:2683 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2678:2678 VST.msl.ramification_lemmas <> m:20 var
+R2685:2688 VST.msl.seplog <> ::logic:x_'*'_x not
+R2697:2697 VST.msl.seplog <> ::logic:x_'*'_x not
+R2684:2684 VST.msl.ramification_lemmas <> l:21 var
+R2691:2694 VST.msl.seplog <> ::logic:x_'-*'_x not
+R2689:2690 VST.msl.ramification_lemmas <> l':24 var
+R2695:2696 VST.msl.ramification_lemmas <> m':23 var
+R2649:2653 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R2648:2648 VST.msl.ramification_lemmas <> g:19 var
+R2655:2658 VST.msl.seplog <> ::logic:x_'*'_x not
+R2667:2667 VST.msl.seplog <> ::logic:x_'*'_x not
+R2654:2654 VST.msl.ramification_lemmas <> m:20 var
+R2661:2664 VST.msl.seplog <> ::logic:x_'-*'_x not
+R2659:2660 VST.msl.ramification_lemmas <> m':23 var
+R2665:2666 VST.msl.ramification_lemmas <> g':22 var
+R2767:2767 VST.msl.seplog <> ::logic:x_'*'_x not
+R2776:2780 VST.msl.seplog <> ::logic:x_'*'_x not
+R2789:2789 VST.msl.seplog <> ::logic:x_'*'_x not
+R2770:2773 VST.msl.seplog <> ::logic:x_'-*'_x not
+R2783:2786 VST.msl.seplog <> ::logic:x_'-*'_x not
+R2755:2759 VST.msl.ramification_lemmas RAMIF_PLAIN solve thm
+R2767:2767 VST.msl.seplog <> ::logic:x_'*'_x not
+R2776:2780 VST.msl.seplog <> ::logic:x_'*'_x not
+R2789:2789 VST.msl.seplog <> ::logic:x_'*'_x not
+R2770:2773 VST.msl.seplog <> ::logic:x_'-*'_x not
+R2783:2786 VST.msl.seplog <> ::logic:x_'-*'_x not
+R2755:2759 VST.msl.ramification_lemmas RAMIF_PLAIN solve thm
+R2804:2816 VST.msl.seplog <> derives_trans meth
+R2804:2816 VST.msl.seplog <> derives_trans meth
+R2843:2855 VST.msl.seplog <> derives_trans meth
+R2865:2878 VST.msl.seplog <> sepcon_derives meth
+R2899:2910 VST.msl.seplog <> derives_refl meth
+R2843:2855 VST.msl.seplog <> derives_trans meth
+R2865:2878 VST.msl.seplog <> sepcon_derives meth
+R2899:2910 VST.msl.seplog <> derives_refl meth
+R2929:2940 VST.msl.seplog <> sepcon_assoc meth
+R2929:2940 VST.msl.seplog <> sepcon_assoc meth
+R2929:2940 VST.msl.seplog <> sepcon_assoc meth
+R2962:2972 VST.msl.seplog <> sepcon_comm meth
+R2984:2995 VST.msl.seplog <> sepcon_assoc meth
+R2962:2972 VST.msl.seplog <> sepcon_comm meth
+R2962:2972 VST.msl.seplog <> sepcon_comm meth
+R2984:2995 VST.msl.seplog <> sepcon_assoc meth
+R2984:2995 VST.msl.seplog <> sepcon_assoc meth
+R3009:3021 VST.msl.seplog <> derives_trans meth
+R3033:3049 VST.msl.log_normalize <> modus_ponens_wand thm
+R3009:3021 VST.msl.seplog <> derives_trans meth
+R3033:3049 VST.msl.log_normalize <> modus_ponens_wand thm
+R3063:3076 VST.msl.seplog <> sepcon_derives meth
+R3088:3099 VST.msl.seplog <> derives_refl meth
+R3063:3076 VST.msl.seplog <> sepcon_derives meth
+R3088:3099 VST.msl.seplog <> derives_refl meth
+R3113:3129 VST.msl.log_normalize <> modus_ponens_wand thm
+R3113:3129 VST.msl.log_normalize <> modus_ponens_wand thm
+prf 3144:3149 RAMIF_PLAIN trans'
+R3177:3177 VST.msl.ramification_lemmas <> RAMIF_PLAIN.RAMIF_PLAIN.A var
+binder 3163:3163 <> m:25
+binder 3165:3165 <> l:26
+binder 3167:3168 <> g':27
+binder 3170:3171 <> m':28
+binder 3173:3174 <> l':29
+R3208:3218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3233:3237 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R3220:3223 VST.msl.seplog <> ::logic:x_'*'_x not
+R3232:3232 VST.msl.seplog <> ::logic:x_'*'_x not
+R3219:3219 VST.msl.ramification_lemmas <> m:25 var
+R3226:3229 VST.msl.seplog <> ::logic:x_'-*'_x not
+R3224:3225 VST.msl.ramification_lemmas <> m':28 var
+R3230:3231 VST.msl.ramification_lemmas <> g':27 var
+R3239:3242 VST.msl.seplog <> ::logic:x_'*'_x not
+R3251:3251 VST.msl.seplog <> ::logic:x_'*'_x not
+R3238:3238 VST.msl.ramification_lemmas <> l:26 var
+R3245:3248 VST.msl.seplog <> ::logic:x_'-*'_x not
+R3243:3244 VST.msl.ramification_lemmas <> l':29 var
+R3249:3250 VST.msl.ramification_lemmas <> g':27 var
+R3189:3193 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R3188:3188 VST.msl.ramification_lemmas <> m:25 var
+R3195:3198 VST.msl.seplog <> ::logic:x_'*'_x not
+R3207:3207 VST.msl.seplog <> ::logic:x_'*'_x not
+R3194:3194 VST.msl.ramification_lemmas <> l:26 var
+R3201:3204 VST.msl.seplog <> ::logic:x_'-*'_x not
+R3199:3200 VST.msl.ramification_lemmas <> l':29 var
+R3205:3206 VST.msl.ramification_lemmas <> m':28 var
+R3278:3282 VST.msl.ramification_lemmas RAMIF_PLAIN trans thm
+R3278:3282 VST.msl.ramification_lemmas RAMIF_PLAIN trans thm
+R3291:3302 VST.msl.seplog <> derives_refl meth
+R3291:3302 VST.msl.seplog <> derives_refl meth
+prf 3323:3329 RAMIF_PLAIN trans''
+R3355:3355 VST.msl.ramification_lemmas <> RAMIF_PLAIN.RAMIF_PLAIN.A var
+binder 3343:3343 <> p:30
+binder 3345:3346 <> g':31
+binder 3348:3349 <> m':32
+binder 3351:3352 <> l':33
+R3380:3390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3405:3410 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R3419:3419 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R3392:3395 VST.msl.seplog <> ::logic:x_'*'_x not
+R3404:3404 VST.msl.seplog <> ::logic:x_'*'_x not
+R3391:3391 VST.msl.ramification_lemmas <> p:30 var
+R3398:3401 VST.msl.seplog <> ::logic:x_'-*'_x not
+R3396:3397 VST.msl.ramification_lemmas <> m':32 var
+R3402:3403 VST.msl.ramification_lemmas <> g':31 var
+R3413:3416 VST.msl.seplog <> ::logic:x_'-*'_x not
+R3411:3412 VST.msl.ramification_lemmas <> l':33 var
+R3417:3418 VST.msl.ramification_lemmas <> g':31 var
+R3367:3371 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R3366:3366 VST.msl.ramification_lemmas <> p:30 var
+R3374:3377 VST.msl.seplog <> ::logic:x_'-*'_x not
+R3372:3373 VST.msl.ramification_lemmas <> l':33 var
+R3378:3379 VST.msl.ramification_lemmas <> m':32 var
+R3452:3470 VST.msl.seplog <> wand_sepcon_adjoint meth
+R3452:3470 VST.msl.seplog <> wand_sepcon_adjoint meth
+R3452:3470 VST.msl.seplog <> wand_sepcon_adjoint meth
+R3482:3494 VST.msl.seplog <> derives_trans meth
+R3482:3494 VST.msl.seplog <> derives_trans meth
+R3533:3551 VST.msl.seplog <> wand_sepcon_adjoint meth
+R3533:3551 VST.msl.seplog <> wand_sepcon_adjoint meth
+R3533:3551 VST.msl.seplog <> wand_sepcon_adjoint meth
+R3567:3585 VST.msl.seplog <> wand_sepcon_adjoint meth
+R3567:3585 VST.msl.seplog <> wand_sepcon_adjoint meth
+R3567:3585 VST.msl.seplog <> wand_sepcon_adjoint meth
+R3610:3627 VST.msl.ramification_lemmas <> modus_ponens_wand' thm
+R3610:3627 VST.msl.ramification_lemmas <> modus_ponens_wand' thm
+R3636:3652 VST.msl.log_normalize <> modus_ponens_wand thm
+R3636:3652 VST.msl.log_normalize <> modus_ponens_wand thm
+prf 3667:3671 RAMIF_PLAIN split
+binder 3681:3682 <> g1:34
+binder 3684:3685 <> g2:35
+binder 3687:3688 <> l1:36
+binder 3690:3691 <> l2:37
+binder 3693:3695 <> g1':38
+binder 3697:3699 <> g2':39
+binder 3701:3703 <> l1':40
+binder 3705:3707 <> l2':41
+R3736:3741 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3766:3771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3779:3783 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R3774:3776 VST.msl.seplog <> ::logic:x_'*'_x not
+R3772:3773 VST.msl.ramification_lemmas <> g1:34 var
+R3777:3778 VST.msl.ramification_lemmas <> g2:35 var
+R3784:3784 VST.msl.seplog <> ::logic:x_'*'_x not
+R3792:3796 VST.msl.seplog <> ::logic:x_'*'_x not
+R3819:3819 VST.msl.seplog <> ::logic:x_'*'_x not
+R3787:3789 VST.msl.seplog <> ::logic:x_'*'_x not
+R3785:3786 VST.msl.ramification_lemmas <> l1:36 var
+R3790:3791 VST.msl.ramification_lemmas <> l2:37 var
+R3806:3809 VST.msl.seplog <> ::logic:x_'-*'_x not
+R3800:3802 VST.msl.seplog <> ::logic:x_'*'_x not
+R3797:3799 VST.msl.ramification_lemmas <> l1':40 var
+R3803:3805 VST.msl.ramification_lemmas <> l2':41 var
+R3813:3815 VST.msl.seplog <> ::logic:x_'*'_x not
+R3810:3812 VST.msl.ramification_lemmas <> g1':38 var
+R3816:3818 VST.msl.ramification_lemmas <> g2':39 var
+R3744:3748 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R3742:3743 VST.msl.ramification_lemmas <> g2:35 var
+R3751:3754 VST.msl.seplog <> ::logic:x_'*'_x not
+R3765:3765 VST.msl.seplog <> ::logic:x_'*'_x not
+R3749:3750 VST.msl.ramification_lemmas <> l2:37 var
+R3758:3761 VST.msl.seplog <> ::logic:x_'-*'_x not
+R3755:3757 VST.msl.ramification_lemmas <> l2':41 var
+R3762:3764 VST.msl.ramification_lemmas <> g2':39 var
+R3714:3718 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R3712:3713 VST.msl.ramification_lemmas <> g1:34 var
+R3721:3724 VST.msl.seplog <> ::logic:x_'*'_x not
+R3735:3735 VST.msl.seplog <> ::logic:x_'*'_x not
+R3719:3720 VST.msl.ramification_lemmas <> l1:36 var
+R3728:3731 VST.msl.seplog <> ::logic:x_'-*'_x not
+R3725:3727 VST.msl.ramification_lemmas <> l1':40 var
+R3732:3734 VST.msl.ramification_lemmas <> g1':38 var
+R3859:3859 VST.msl.seplog <> ::logic:x_'*'_x not
+R3870:3874 VST.msl.seplog <> ::logic:x_'*'_x not
+R3885:3885 VST.msl.seplog <> ::logic:x_'*'_x not
+R3863:3866 VST.msl.seplog <> ::logic:x_'-*'_x not
+R3878:3881 VST.msl.seplog <> ::logic:x_'-*'_x not
+R3847:3851 VST.msl.ramification_lemmas RAMIF_PLAIN solve thm
+R3859:3859 VST.msl.seplog <> ::logic:x_'*'_x not
+R3870:3874 VST.msl.seplog <> ::logic:x_'*'_x not
+R3885:3885 VST.msl.seplog <> ::logic:x_'*'_x not
+R3863:3866 VST.msl.seplog <> ::logic:x_'-*'_x not
+R3878:3881 VST.msl.seplog <> ::logic:x_'-*'_x not
+R3847:3851 VST.msl.ramification_lemmas RAMIF_PLAIN solve thm
+R3902:3913 VST.msl.seplog <> sepcon_assoc meth
+R3924:3935 VST.msl.seplog <> sepcon_assoc meth
+R3943:3953 VST.msl.seplog <> sepcon_comm meth
+R3961:3972 VST.msl.seplog <> sepcon_assoc meth
+R3985:3996 VST.msl.seplog <> sepcon_assoc meth
+R3902:3913 VST.msl.seplog <> sepcon_assoc meth
+R3902:3913 VST.msl.seplog <> sepcon_assoc meth
+R3924:3935 VST.msl.seplog <> sepcon_assoc meth
+R3924:3935 VST.msl.seplog <> sepcon_assoc meth
+R3943:3953 VST.msl.seplog <> sepcon_comm meth
+R3943:3953 VST.msl.seplog <> sepcon_comm meth
+R3961:3972 VST.msl.seplog <> sepcon_assoc meth
+R3961:3972 VST.msl.seplog <> sepcon_assoc meth
+R3985:3996 VST.msl.seplog <> sepcon_assoc meth
+R3985:3996 VST.msl.seplog <> sepcon_assoc meth
+R4013:4026 VST.msl.seplog <> sepcon_derives meth
+R4013:4026 VST.msl.seplog <> sepcon_derives meth
+R4046:4058 VST.msl.seplog <> derives_trans meth
+R4068:4081 VST.msl.seplog <> sepcon_derives meth
+R4091:4106 VST.msl.log_normalize <> wand_sepcon_wand thm
+R4116:4127 VST.msl.seplog <> derives_refl meth
+R4046:4058 VST.msl.seplog <> derives_trans meth
+R4068:4081 VST.msl.seplog <> sepcon_derives meth
+R4091:4106 VST.msl.log_normalize <> wand_sepcon_wand thm
+R4116:4127 VST.msl.seplog <> derives_refl meth
+R4146:4156 VST.msl.seplog <> sepcon_comm meth
+R4165:4181 VST.msl.log_normalize <> modus_ponens_wand thm
+R4146:4156 VST.msl.seplog <> sepcon_comm meth
+R4146:4156 VST.msl.seplog <> sepcon_comm meth
+R4165:4181 VST.msl.log_normalize <> modus_ponens_wand thm
+prf 4322:4326 RAMIF_PLAIN frame
+binder 4336:4336 <> g:42
+binder 4338:4338 <> l:43
+binder 4340:4341 <> g':44
+binder 4343:4344 <> l':45
+binder 4346:4346 <> F:46
+R4369:4372 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4378:4382 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R4374:4376 VST.msl.seplog <> ::logic:x_'*'_x not
+R4373:4373 VST.msl.ramification_lemmas <> g:42 var
+R4377:4377 VST.msl.ramification_lemmas <> F:46 var
+R4384:4387 VST.msl.seplog <> ::logic:x_'*'_x not
+R4400:4400 VST.msl.seplog <> ::logic:x_'*'_x not
+R4383:4383 VST.msl.ramification_lemmas <> l:43 var
+R4390:4393 VST.msl.seplog <> ::logic:x_'-*'_x not
+R4388:4389 VST.msl.ramification_lemmas <> l':45 var
+R4396:4398 VST.msl.seplog <> ::logic:x_'*'_x not
+R4394:4395 VST.msl.ramification_lemmas <> g':44 var
+R4399:4399 VST.msl.ramification_lemmas <> F:46 var
+R4350:4354 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R4349:4349 VST.msl.ramification_lemmas <> g:42 var
+R4356:4359 VST.msl.seplog <> ::logic:x_'*'_x not
+R4368:4368 VST.msl.seplog <> ::logic:x_'*'_x not
+R4355:4355 VST.msl.ramification_lemmas <> l:43 var
+R4362:4365 VST.msl.seplog <> ::logic:x_'-*'_x not
+R4360:4361 VST.msl.ramification_lemmas <> l':45 var
+R4366:4367 VST.msl.ramification_lemmas <> g':44 var
+R4440:4440 VST.msl.seplog <> ::logic:x_'*'_x not
+R4449:4452 VST.msl.seplog <> ::logic:x_'*'_x not
+R4443:4446 VST.msl.seplog <> ::logic:x_'-*'_x not
+R4428:4432 VST.msl.ramification_lemmas RAMIF_PLAIN solve thm
+R4440:4440 VST.msl.seplog <> ::logic:x_'*'_x not
+R4449:4452 VST.msl.seplog <> ::logic:x_'*'_x not
+R4443:4446 VST.msl.seplog <> ::logic:x_'-*'_x not
+R4428:4432 VST.msl.ramification_lemmas RAMIF_PLAIN solve thm
+R4472:4483 VST.msl.seplog <> sepcon_assoc meth
+R4472:4483 VST.msl.seplog <> sepcon_assoc meth
+R4472:4483 VST.msl.seplog <> sepcon_assoc meth
+R4496:4509 VST.msl.seplog <> sepcon_derives meth
+R4496:4509 VST.msl.seplog <> sepcon_derives meth
+R4531:4541 VST.msl.seplog <> sepcon_comm meth
+R4553:4564 VST.msl.seplog <> sepcon_assoc meth
+R4531:4541 VST.msl.seplog <> sepcon_comm meth
+R4531:4541 VST.msl.seplog <> sepcon_comm meth
+R4553:4564 VST.msl.seplog <> sepcon_assoc meth
+R4553:4564 VST.msl.seplog <> sepcon_assoc meth
+R4577:4590 VST.msl.seplog <> sepcon_derives meth
+R4600:4616 VST.msl.log_normalize <> modus_ponens_wand thm
+R4577:4590 VST.msl.seplog <> sepcon_derives meth
+R4600:4616 VST.msl.log_normalize <> modus_ponens_wand thm
+prf 4639:4648 RAMIF_PLAIN frame_post
+binder 4658:4658 <> g:47
+binder 4660:4660 <> l:48
+binder 4662:4663 <> g':49
+binder 4665:4666 <> l':50
+binder 4668:4668 <> F:51
+R4691:4694 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4696:4700 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R4695:4695 VST.msl.ramification_lemmas <> g:47 var
+R4702:4705 VST.msl.seplog <> ::logic:x_'*'_x not
+R4722:4722 VST.msl.seplog <> ::logic:x_'*'_x not
+R4701:4701 VST.msl.ramification_lemmas <> l:48 var
+R4712:4715 VST.msl.seplog <> ::logic:x_'-*'_x not
+R4708:4710 VST.msl.seplog <> ::logic:x_'*'_x not
+R4706:4707 VST.msl.ramification_lemmas <> l':50 var
+R4711:4711 VST.msl.ramification_lemmas <> F:51 var
+R4718:4720 VST.msl.seplog <> ::logic:x_'*'_x not
+R4716:4717 VST.msl.ramification_lemmas <> g':49 var
+R4721:4721 VST.msl.ramification_lemmas <> F:51 var
+R4672:4676 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R4671:4671 VST.msl.ramification_lemmas <> g:47 var
+R4678:4681 VST.msl.seplog <> ::logic:x_'*'_x not
+R4690:4690 VST.msl.seplog <> ::logic:x_'*'_x not
+R4677:4677 VST.msl.ramification_lemmas <> l:48 var
+R4684:4687 VST.msl.seplog <> ::logic:x_'-*'_x not
+R4682:4683 VST.msl.ramification_lemmas <> l':50 var
+R4688:4689 VST.msl.ramification_lemmas <> g':49 var
+R4764:4767 VST.msl.seplog <> ::logic:x_'-*'_x not
+R4750:4754 VST.msl.ramification_lemmas RAMIF_PLAIN solve thm
+R4764:4767 VST.msl.seplog <> ::logic:x_'-*'_x not
+R4750:4754 VST.msl.ramification_lemmas RAMIF_PLAIN solve thm
+R4798:4809 VST.msl.seplog <> sepcon_assoc meth
+R4798:4809 VST.msl.seplog <> sepcon_assoc meth
+R4798:4809 VST.msl.seplog <> sepcon_assoc meth
+R4822:4835 VST.msl.seplog <> sepcon_derives meth
+R4847:4857 VST.msl.seplog <> sepcon_comm meth
+R4866:4882 VST.msl.log_normalize <> modus_ponens_wand thm
+R4822:4835 VST.msl.seplog <> sepcon_derives meth
+R4847:4857 VST.msl.seplog <> sepcon_comm meth
+R4847:4857 VST.msl.seplog <> sepcon_comm meth
+R4866:4882 VST.msl.log_normalize <> modus_ponens_wand thm
+prf 4905:4913 RAMIF_PLAIN frame_pre
+binder 4923:4923 <> g:52
+binder 4925:4925 <> l:53
+binder 4927:4928 <> g':54
+binder 4930:4931 <> l':55
+binder 4933:4933 <> F:56
+R4956:4959 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4965:4969 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R4961:4963 VST.msl.seplog <> ::logic:x_'*'_x not
+R4960:4960 VST.msl.ramification_lemmas <> g:52 var
+R4964:4964 VST.msl.ramification_lemmas <> F:56 var
+R4970:4970 VST.msl.seplog <> ::logic:x_'*'_x not
+R4976:4980 VST.msl.seplog <> ::logic:x_'*'_x not
+R4989:4989 VST.msl.seplog <> ::logic:x_'*'_x not
+R4972:4974 VST.msl.seplog <> ::logic:x_'*'_x not
+R4971:4971 VST.msl.ramification_lemmas <> l:53 var
+R4975:4975 VST.msl.ramification_lemmas <> F:56 var
+R4983:4986 VST.msl.seplog <> ::logic:x_'-*'_x not
+R4981:4982 VST.msl.ramification_lemmas <> l':55 var
+R4987:4988 VST.msl.ramification_lemmas <> g':54 var
+R4937:4941 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R4936:4936 VST.msl.ramification_lemmas <> g:52 var
+R4943:4946 VST.msl.seplog <> ::logic:x_'*'_x not
+R4955:4955 VST.msl.seplog <> ::logic:x_'*'_x not
+R4942:4942 VST.msl.ramification_lemmas <> l:53 var
+R4949:4952 VST.msl.seplog <> ::logic:x_'-*'_x not
+R4947:4948 VST.msl.ramification_lemmas <> l':55 var
+R4953:4954 VST.msl.ramification_lemmas <> g':54 var
+R5031:5034 VST.msl.seplog <> ::logic:x_'-*'_x not
+R5017:5021 VST.msl.ramification_lemmas RAMIF_PLAIN solve thm
+R5031:5034 VST.msl.seplog <> ::logic:x_'-*'_x not
+R5017:5021 VST.msl.ramification_lemmas RAMIF_PLAIN solve thm
+R5053:5063 VST.msl.seplog <> sepcon_comm meth
+R5071:5082 VST.msl.seplog <> sepcon_assoc meth
+R5086:5096 VST.msl.seplog <> sepcon_comm meth
+R5053:5063 VST.msl.seplog <> sepcon_comm meth
+R5053:5063 VST.msl.seplog <> sepcon_comm meth
+R5071:5082 VST.msl.seplog <> sepcon_assoc meth
+R5071:5082 VST.msl.seplog <> sepcon_assoc meth
+R5086:5096 VST.msl.seplog <> sepcon_comm meth
+R5086:5096 VST.msl.seplog <> sepcon_comm meth
+R5112:5125 VST.msl.seplog <> sepcon_derives meth
+R5112:5125 VST.msl.seplog <> sepcon_derives meth
+R5146:5156 VST.msl.seplog <> sepcon_comm meth
+R5165:5181 VST.msl.log_normalize <> modus_ponens_wand thm
+R5146:5156 VST.msl.seplog <> sepcon_comm meth
+R5146:5156 VST.msl.seplog <> sepcon_comm meth
+R5165:5181 VST.msl.log_normalize <> modus_ponens_wand thm
+prf 5196:5204 RAMIF_PLAIN exp_right
+binder 5215:5215 <> T:57
+R5222:5222 VST.msl.ramification_lemmas <> T:57 var
+binder 5219:5219 <> a:58
+binder 5225:5225 <> g:59
+binder 5227:5227 <> l:60
+binder 5229:5230 <> g':61
+binder 5232:5233 <> l':62
+R5260:5265 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5267:5271 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R5266:5266 VST.msl.ramification_lemmas <> g:59 var
+R5273:5276 VST.msl.seplog <> ::logic:x_'*'_x not
+R5289:5289 VST.msl.seplog <> ::logic:x_'*'_x not
+R5272:5272 VST.msl.ramification_lemmas <> l:60 var
+R5279:5282 VST.msl.seplog <> ::logic:x_'-*'_x not
+R5277:5278 VST.msl.ramification_lemmas <> l':62 var
+R5283:5285 VST.msl.seplog <> exp meth
+R5287:5288 VST.msl.ramification_lemmas <> g':61 var
+R5239:5243 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R5238:5238 VST.msl.ramification_lemmas <> g:59 var
+R5245:5248 VST.msl.seplog <> ::logic:x_'*'_x not
+R5259:5259 VST.msl.seplog <> ::logic:x_'*'_x not
+R5244:5244 VST.msl.ramification_lemmas <> l:60 var
+R5251:5254 VST.msl.seplog <> ::logic:x_'-*'_x not
+R5249:5250 VST.msl.ramification_lemmas <> l':62 var
+R5255:5256 VST.msl.ramification_lemmas <> g':61 var
+R5258:5258 VST.msl.ramification_lemmas <> a:58 var
+R5331:5334 VST.msl.seplog <> ::logic:x_'-*'_x not
+R5317:5321 VST.msl.ramification_lemmas RAMIF_PLAIN solve thm
+R5331:5334 VST.msl.seplog <> ::logic:x_'-*'_x not
+R5317:5321 VST.msl.ramification_lemmas RAMIF_PLAIN solve thm
+R5356:5374 VST.msl.seplog <> wand_sepcon_adjoint meth
+R5356:5374 VST.msl.seplog <> wand_sepcon_adjoint meth
+R5385:5396 VST.msl.log_normalize <> wand_derives thm
+R5385:5396 VST.msl.log_normalize <> wand_derives thm
+R5414:5422 VST.msl.seplog <> exp_right meth
+R5414:5422 VST.msl.seplog <> exp_right meth
+R5444:5454 VST.msl.ramification_lemmas RAMIF_PLAIN.RAMIF_PLAIN <> sec
+R5461:5471 VST.msl.ramification_lemmas RAMIF_PLAIN <> mod
+mod 5482:5488 <> RAMIF_Q
+sec 5499:5505 RAMIF_Q RAMIF_Q
+binder 5518:5518 <> A:63
+R5543:5548 VST.msl.seplog <> NatDed class
+R5550:5550 VST.msl.ramification_lemmas <> RAMIF_Q.RAMIF_Q.A var
+binder 5538:5539 <> ND:64
+R5568:5573 VST.msl.seplog <> SepLog class
+R5575:5575 VST.msl.ramification_lemmas <> RAMIF_Q.RAMIF_Q.A var
+binder 5563:5564 <> SL:65
+prf 5586:5591 RAMIF_Q reduce
+binder 5602:5602 <> B:66
+binder 5605:5605 <> g:67
+binder 5607:5607 <> l:68
+R5618:5621 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5622:5622 VST.msl.ramification_lemmas <> RAMIF_Q.RAMIF_Q.A var
+R5617:5617 VST.msl.ramification_lemmas <> B:66 var
+binder 5610:5611 <> g':69
+binder 5613:5614 <> l':70
+R5655:5660 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5662:5666 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R5661:5661 VST.msl.ramification_lemmas <> g:67 var
+R5668:5671 VST.msl.seplog <> ::logic:x_'*'_x not
+R5688:5688 VST.msl.seplog <> ::logic:x_'*'_x not
+R5667:5667 VST.msl.ramification_lemmas <> l:68 var
+R5678:5681 VST.msl.seplog <> ::logic:x_'-*'_x not
+R5672:5674 VST.msl.seplog <> exp meth
+R5676:5677 VST.msl.ramification_lemmas <> l':70 var
+R5682:5684 VST.msl.seplog <> exp meth
+R5686:5687 VST.msl.ramification_lemmas <> g':69 var
+R5629:5633 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R5628:5628 VST.msl.ramification_lemmas <> g:67 var
+R5635:5638 VST.msl.seplog <> ::logic:x_'*'_x not
+R5654:5654 VST.msl.seplog <> ::logic:x_'*'_x not
+R5634:5634 VST.msl.ramification_lemmas <> l:68 var
+R5639:5642 VST.msl.seplog <> allp meth
+R5647:5650 VST.msl.seplog <> ::logic:x_'-*'_x not
+R5645:5646 VST.msl.ramification_lemmas <> l':70 var
+R5651:5652 VST.msl.ramification_lemmas <> g':69 var
+R5717:5729 VST.msl.seplog <> derives_trans meth
+R5717:5729 VST.msl.seplog <> derives_trans meth
+R5753:5766 VST.msl.seplog <> sepcon_derives meth
+R5753:5766 VST.msl.seplog <> sepcon_derives meth
+R5787:5805 VST.msl.seplog <> wand_sepcon_adjoint meth
+R5787:5805 VST.msl.seplog <> wand_sepcon_adjoint meth
+R5818:5828 VST.msl.log_normalize <> exp_sepcon2 thm
+R5818:5828 VST.msl.log_normalize <> exp_sepcon2 thm
+R5818:5828 VST.msl.log_normalize <> exp_sepcon2 thm
+R5839:5846 VST.msl.seplog <> exp_left meth
+R5865:5873 VST.msl.seplog <> exp_right meth
+R5839:5846 VST.msl.seplog <> exp_left meth
+R5865:5873 VST.msl.seplog <> exp_right meth
+R5887:5905 VST.msl.seplog <> wand_sepcon_adjoint meth
+R5887:5905 VST.msl.seplog <> wand_sepcon_adjoint meth
+R5917:5925 VST.msl.seplog <> allp_left meth
+R5917:5925 VST.msl.seplog <> allp_left meth
+R5941:5952 VST.msl.seplog <> derives_refl meth
+R5941:5952 VST.msl.seplog <> derives_refl meth
+prf 5967:5971 RAMIF_Q solve
+binder 5982:5982 <> B:71
+binder 5985:5985 <> g:72
+binder 5987:5987 <> l:73
+binder 5989:5990 <> g':74
+binder 5992:5993 <> l':75
+binder 5995:5995 <> F:76
+R6011:6016 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6017:6017 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6048:6054 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6056:6060 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R6055:6055 VST.msl.ramification_lemmas <> g:72 var
+R6062:6065 VST.msl.seplog <> ::logic:x_'*'_x not
+R6081:6081 VST.msl.seplog <> ::logic:x_'*'_x not
+R6061:6061 VST.msl.ramification_lemmas <> l:73 var
+R6066:6069 VST.msl.seplog <> allp meth
+R6074:6077 VST.msl.seplog <> ::logic:x_'-*'_x not
+R6072:6073 VST.msl.ramification_lemmas <> l':75 var
+R6078:6079 VST.msl.ramification_lemmas <> g':74 var
+R6028:6028 VST.msl.ramification_lemmas <> B:71 var
+binder 6025:6025 <> x:77
+R6039:6043 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R6032:6034 VST.msl.seplog <> ::logic:x_'*'_x not
+R6031:6031 VST.msl.ramification_lemmas <> F:76 var
+R6035:6036 VST.msl.ramification_lemmas <> l':75 var
+R6038:6038 VST.msl.ramification_lemmas <> x:77 var
+R6044:6045 VST.msl.ramification_lemmas <> g':74 var
+R6047:6047 VST.msl.ramification_lemmas <> x:77 var
+R6001:6005 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R6000:6000 VST.msl.ramification_lemmas <> g:72 var
+R6007:6009 VST.msl.seplog <> ::logic:x_'*'_x not
+R6006:6006 VST.msl.ramification_lemmas <> l:73 var
+R6010:6010 VST.msl.ramification_lemmas <> F:76 var
+R6130:6132 VST.msl.seplog <> ::logic:x_'*'_x not
+R6109:6121 VST.msl.seplog <> derives_trans meth
+R6130:6132 VST.msl.seplog <> ::logic:x_'*'_x not
+R6109:6121 VST.msl.seplog <> derives_trans meth
+R6151:6164 VST.msl.seplog <> sepcon_derives meth
+R6151:6164 VST.msl.seplog <> sepcon_derives meth
+R6181:6190 VST.msl.seplog <> allp_right meth
+R6181:6190 VST.msl.seplog <> allp_right meth
+R6219:6237 VST.msl.seplog <> wand_sepcon_adjoint meth
+R6219:6237 VST.msl.seplog <> wand_sepcon_adjoint meth
+prf 6264:6278 RAMIF_Q weak_ramif_spec
+binder 6289:6289 <> B:78
+binder 6292:6292 <> g:79
+binder 6294:6294 <> l:80
+R6305:6308 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6309:6309 VST.msl.ramification_lemmas <> RAMIF_Q.RAMIF_Q.A var
+R6304:6304 VST.msl.ramification_lemmas <> B:78 var
+binder 6297:6298 <> g':81
+binder 6300:6301 <> l':82
+R6340:6343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6345:6349 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R6344:6344 VST.msl.ramification_lemmas <> g:79 var
+R6351:6353 VST.msl.seplog <> ::logic:x_'*'_x not
+R6350:6350 VST.msl.ramification_lemmas <> l:80 var
+R6354:6355 VST.msl.seplog <> TT meth
+R6316:6320 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R6315:6315 VST.msl.ramification_lemmas <> g:79 var
+R6322:6324 VST.msl.seplog <> ::logic:x_'*'_x not
+R6321:6321 VST.msl.ramification_lemmas <> l:80 var
+R6325:6328 VST.msl.seplog <> allp meth
+R6333:6336 VST.msl.seplog <> ::logic:x_'-*'_x not
+R6331:6332 VST.msl.ramification_lemmas <> l':82 var
+R6337:6338 VST.msl.ramification_lemmas <> g':81 var
+R6384:6396 VST.msl.seplog <> derives_trans meth
+R6384:6396 VST.msl.seplog <> derives_trans meth
+R6420:6433 VST.msl.seplog <> sepcon_derives meth
+R6420:6433 VST.msl.seplog <> sepcon_derives meth
+R6450:6457 VST.msl.log_normalize <> TT_right thm
+R6450:6457 VST.msl.log_normalize <> TT_right thm
+prf 6472:6481 RAMIF_Q plain_spec
+binder 6492:6492 <> B:83
+binder 6495:6495 <> g:84
+binder 6497:6497 <> l:85
+binder 6499:6500 <> g':86
+binder 6502:6503 <> l':87
+R6509:6509 VST.msl.ramification_lemmas <> B:83 var
+binder 6506:6506 <> x:88
+R6542:6547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6549:6553 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R6548:6548 VST.msl.ramification_lemmas <> g:84 var
+R6555:6559 VST.msl.seplog <> ::logic:x_'*'_x not
+R6572:6572 VST.msl.seplog <> ::logic:x_'*'_x not
+R6554:6554 VST.msl.ramification_lemmas <> l:85 var
+R6564:6567 VST.msl.seplog <> ::logic:x_'-*'_x not
+R6560:6561 VST.msl.ramification_lemmas <> l':87 var
+R6563:6563 VST.msl.ramification_lemmas <> x:88 var
+R6568:6569 VST.msl.ramification_lemmas <> g':86 var
+R6571:6571 VST.msl.ramification_lemmas <> x:88 var
+R6516:6520 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R6515:6515 VST.msl.ramification_lemmas <> g:84 var
+R6522:6525 VST.msl.seplog <> ::logic:x_'*'_x not
+R6541:6541 VST.msl.seplog <> ::logic:x_'*'_x not
+R6521:6521 VST.msl.ramification_lemmas <> l:85 var
+R6526:6529 VST.msl.seplog <> allp meth
+R6534:6537 VST.msl.seplog <> ::logic:x_'-*'_x not
+R6532:6533 VST.msl.ramification_lemmas <> l':87 var
+R6538:6539 VST.msl.ramification_lemmas <> g':86 var
+R6601:6613 VST.msl.seplog <> derives_trans meth
+R6601:6613 VST.msl.seplog <> derives_trans meth
+R6637:6650 VST.msl.seplog <> sepcon_derives meth
+R6637:6650 VST.msl.seplog <> sepcon_derives meth
+R6672:6680 VST.msl.seplog <> allp_left meth
+R6672:6680 VST.msl.seplog <> allp_left meth
+R6694:6705 VST.msl.seplog <> derives_refl meth
+R6694:6705 VST.msl.seplog <> derives_refl meth
+prf 6720:6724 RAMIF_Q trans
+binder 6735:6735 <> B:89
+binder 6737:6738 <> BG:90
+binder 6740:6741 <> BL:91
+binder 6744:6744 <> g:92
+binder 6746:6746 <> m:93
+binder 6748:6748 <> l:94
+binder 6750:6751 <> g':95
+binder 6753:6755 <> mG':96
+binder 6757:6759 <> mL':97
+binder 6761:6762 <> l':98
+R6770:6773 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6774:6775 VST.msl.ramification_lemmas <> BG:90 var
+R6769:6769 VST.msl.ramification_lemmas <> B:89 var
+binder 6765:6766 <> fG:99
+R6784:6787 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6788:6789 VST.msl.ramification_lemmas <> BL:91 var
+R6783:6783 VST.msl.ramification_lemmas <> B:89 var
+binder 6779:6780 <> fL:100
+R6795:6795 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6831:6837 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6864:6869 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6896:6901 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6903:6907 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R6902:6902 VST.msl.ramification_lemmas <> g:92 var
+R6909:6911 VST.msl.seplog <> ::logic:x_'*'_x not
+R6908:6908 VST.msl.ramification_lemmas <> l:94 var
+R6912:6915 VST.msl.seplog <> allp meth
+R6938:6941 VST.msl.seplog <> ::logic:x_'-*'_x not
+R6918:6931 Coq.Program.Basics <> compose def
+R6936:6937 VST.msl.ramification_lemmas <> fL:100 var
+R6933:6934 VST.msl.ramification_lemmas <> l':98 var
+R6942:6955 Coq.Program.Basics <> compose def
+R6960:6961 VST.msl.ramification_lemmas <> fG:99 var
+R6957:6958 VST.msl.ramification_lemmas <> g':95 var
+R6871:6875 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R6870:6870 VST.msl.ramification_lemmas <> m:93 var
+R6877:6879 VST.msl.seplog <> ::logic:x_'*'_x not
+R6876:6876 VST.msl.ramification_lemmas <> l:94 var
+R6880:6883 VST.msl.seplog <> allp meth
+R6888:6891 VST.msl.seplog <> ::logic:x_'-*'_x not
+R6886:6887 VST.msl.ramification_lemmas <> l':98 var
+R6892:6894 VST.msl.ramification_lemmas <> mL':97 var
+R6839:6843 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R6838:6838 VST.msl.ramification_lemmas <> g:92 var
+R6845:6847 VST.msl.seplog <> ::logic:x_'*'_x not
+R6844:6844 VST.msl.ramification_lemmas <> m:93 var
+R6848:6851 VST.msl.seplog <> allp meth
+R6857:6860 VST.msl.seplog <> ::logic:x_'-*'_x not
+R6854:6856 VST.msl.ramification_lemmas <> mG':96 var
+R6861:6862 VST.msl.ramification_lemmas <> g':95 var
+binder 6803:6803 <> b:101
+R6816:6820 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R6806:6808 VST.msl.ramification_lemmas <> mL':97 var
+R6811:6812 VST.msl.ramification_lemmas <> fL:100 var
+R6814:6814 VST.msl.ramification_lemmas <> b:101 var
+R6821:6823 VST.msl.ramification_lemmas <> mG':96 var
+R6826:6827 VST.msl.ramification_lemmas <> fG:99 var
+R6829:6829 VST.msl.ramification_lemmas <> b:101 var
+R7018:7020 VST.msl.seplog <> ::logic:x_'*'_x not
+R7002:7005 VST.msl.seplog <> allp meth
+R7010:7013 VST.msl.seplog <> ::logic:x_'-*'_x not
+R7021:7024 VST.msl.seplog <> allp meth
+R7030:7033 VST.msl.seplog <> ::logic:x_'-*'_x not
+R6990:6994 VST.msl.ramification_lemmas RAMIF_Q solve thm
+R7018:7020 VST.msl.seplog <> ::logic:x_'*'_x not
+R7002:7005 VST.msl.seplog <> allp meth
+R7010:7013 VST.msl.seplog <> ::logic:x_'-*'_x not
+R7021:7024 VST.msl.seplog <> allp meth
+R7030:7033 VST.msl.seplog <> ::logic:x_'-*'_x not
+R6990:6994 VST.msl.ramification_lemmas RAMIF_Q solve thm
+R7057:7069 VST.msl.seplog <> derives_trans meth
+R7057:7069 VST.msl.seplog <> derives_trans meth
+R7097:7109 VST.msl.seplog <> derives_trans meth
+R7119:7132 VST.msl.seplog <> sepcon_derives meth
+R7153:7164 VST.msl.seplog <> derives_refl meth
+R7097:7109 VST.msl.seplog <> derives_trans meth
+R7119:7132 VST.msl.seplog <> sepcon_derives meth
+R7153:7164 VST.msl.seplog <> derives_refl meth
+R7183:7194 VST.msl.seplog <> sepcon_assoc meth
+R7183:7194 VST.msl.seplog <> sepcon_assoc meth
+R7183:7194 VST.msl.seplog <> sepcon_assoc meth
+R7228:7239 VST.msl.seplog <> sepcon_assoc meth
+R7228:7239 VST.msl.seplog <> sepcon_assoc meth
+R7228:7239 VST.msl.seplog <> sepcon_assoc meth
+R7252:7270 VST.msl.seplog <> wand_sepcon_adjoint meth
+R7252:7270 VST.msl.seplog <> wand_sepcon_adjoint meth
+R7284:7292 VST.msl.seplog <> allp_left meth
+R7284:7292 VST.msl.seplog <> allp_left meth
+R7315:7333 VST.msl.seplog <> wand_sepcon_adjoint meth
+R7315:7333 VST.msl.seplog <> wand_sepcon_adjoint meth
+R7348:7358 VST.msl.seplog <> sepcon_comm meth
+R7361:7372 VST.msl.seplog <> sepcon_assoc meth
+R7375:7385 VST.msl.seplog <> sepcon_comm meth
+R7348:7358 VST.msl.seplog <> sepcon_comm meth
+R7348:7358 VST.msl.seplog <> sepcon_comm meth
+R7361:7372 VST.msl.seplog <> sepcon_assoc meth
+R7361:7372 VST.msl.seplog <> sepcon_assoc meth
+R7375:7385 VST.msl.seplog <> sepcon_comm meth
+R7375:7385 VST.msl.seplog <> sepcon_comm meth
+R7398:7416 VST.msl.seplog <> wand_sepcon_adjoint meth
+R7398:7416 VST.msl.seplog <> wand_sepcon_adjoint meth
+R7429:7441 VST.msl.seplog <> derives_trans meth
+R7429:7441 VST.msl.seplog <> derives_trans meth
+R7475:7487 VST.msl.seplog <> derives_trans meth
+R7475:7487 VST.msl.seplog <> derives_trans meth
+R7522:7538 VST.msl.log_normalize <> modus_ponens_wand thm
+R7522:7538 VST.msl.log_normalize <> modus_ponens_wand thm
+R7553:7571 VST.msl.seplog <> wand_sepcon_adjoint meth
+R7553:7571 VST.msl.seplog <> wand_sepcon_adjoint meth
+R7588:7598 VST.msl.seplog <> sepcon_comm meth
+R7588:7598 VST.msl.seplog <> sepcon_comm meth
+R7588:7598 VST.msl.seplog <> sepcon_comm meth
+R7613:7631 VST.msl.seplog <> wand_sepcon_adjoint meth
+R7613:7631 VST.msl.seplog <> wand_sepcon_adjoint meth
+R7647:7655 VST.msl.seplog <> allp_left meth
+R7647:7655 VST.msl.seplog <> allp_left meth
+R7680:7691 VST.msl.seplog <> derives_refl meth
+R7680:7691 VST.msl.seplog <> derives_refl meth
+prf 7706:7717 RAMIF_Q simple_trans
+binder 7728:7728 <> B:102
+binder 7731:7731 <> g:103
+binder 7733:7733 <> m:104
+binder 7735:7735 <> l:105
+R7749:7752 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7753:7753 VST.msl.ramification_lemmas <> RAMIF_Q.RAMIF_Q.A var
+R7748:7748 VST.msl.ramification_lemmas <> B:102 var
+binder 7738:7739 <> g':106
+binder 7741:7742 <> m':107
+binder 7744:7745 <> l':108
+R7784:7789 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7815:7820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7822:7826 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R7821:7821 VST.msl.ramification_lemmas <> g:103 var
+R7828:7830 VST.msl.seplog <> ::logic:x_'*'_x not
+R7827:7827 VST.msl.ramification_lemmas <> l:105 var
+R7831:7834 VST.msl.seplog <> allp meth
+R7839:7842 VST.msl.seplog <> ::logic:x_'-*'_x not
+R7837:7838 VST.msl.ramification_lemmas <> l':108 var
+R7843:7844 VST.msl.ramification_lemmas <> g':106 var
+R7791:7795 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R7790:7790 VST.msl.ramification_lemmas <> m:104 var
+R7797:7799 VST.msl.seplog <> ::logic:x_'*'_x not
+R7796:7796 VST.msl.ramification_lemmas <> l:105 var
+R7800:7803 VST.msl.seplog <> allp meth
+R7808:7811 VST.msl.seplog <> ::logic:x_'-*'_x not
+R7806:7807 VST.msl.ramification_lemmas <> l':108 var
+R7812:7813 VST.msl.ramification_lemmas <> m':107 var
+R7760:7764 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R7759:7759 VST.msl.ramification_lemmas <> g:103 var
+R7766:7768 VST.msl.seplog <> ::logic:x_'*'_x not
+R7765:7765 VST.msl.ramification_lemmas <> m:104 var
+R7769:7772 VST.msl.seplog <> allp meth
+R7777:7780 VST.msl.seplog <> ::logic:x_'-*'_x not
+R7775:7776 VST.msl.ramification_lemmas <> m':107 var
+R7781:7782 VST.msl.ramification_lemmas <> g':106 var
+R7916:7917 VST.msl.base <> id def
+R7929:7930 VST.msl.base <> id def
+R7874:7878 VST.msl.ramification_lemmas RAMIF_Q trans thm
+R7916:7917 VST.msl.base <> id def
+R7929:7930 VST.msl.base <> id def
+R7874:7878 VST.msl.ramification_lemmas RAMIF_Q trans thm
+prf 7955:7961 RAMIF_Q trans''
+R7978:7989 VST.msl.seplog <> ClassicalSep class
+R7991:7991 VST.msl.ramification_lemmas <> RAMIF_Q.RAMIF_Q.A var
+binder 7974:7975 <> CS:109
+binder 8000:8000 <> B:110
+binder 8002:8002 <> C:111
+R8016:8017 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8018:8018 VST.msl.ramification_lemmas <> C:111 var
+R8015:8015 VST.msl.ramification_lemmas <> B:110 var
+binder 8012:8012 <> f:112
+binder 8021:8021 <> p:113
+binder 8023:8023 <> l:114
+binder 8025:8025 <> m:115
+binder 8027:8028 <> g1:116
+binder 8030:8031 <> g2:117
+R8051:8059 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8084:8092 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8111:8115 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R8094:8096 VST.msl.seplog <> ::logic:x_'*'_x not
+R8093:8093 VST.msl.ramification_lemmas <> p:113 var
+R8097:8100 VST.msl.seplog <> allp meth
+R8104:8107 VST.msl.seplog <> ::logic:x_'-*'_x not
+R8103:8103 VST.msl.ramification_lemmas <> m:115 var
+R8108:8109 VST.msl.ramification_lemmas <> g1:116 var
+R8116:8119 VST.msl.seplog <> allp meth
+R8123:8126 VST.msl.seplog <> ::logic:x_'-*'_x not
+R8122:8122 VST.msl.ramification_lemmas <> l:114 var
+R8127:8128 VST.msl.ramification_lemmas <> g2:117 var
+R8061:8065 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R8060:8060 VST.msl.ramification_lemmas <> p:113 var
+R8066:8069 VST.msl.seplog <> allp meth
+R8073:8076 VST.msl.seplog <> ::logic:x_'-*'_x not
+R8072:8072 VST.msl.ramification_lemmas <> l:114 var
+R8078:8081 VST.msl.base <> :::x_'oo'_x not
+R8077:8077 VST.msl.ramification_lemmas <> m:115 var
+R8082:8082 VST.msl.ramification_lemmas <> f:112 var
+R8041:8043 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8039:8040 VST.msl.ramification_lemmas <> g2:117 var
+R8046:8049 VST.msl.base <> :::x_'oo'_x not
+R8044:8045 VST.msl.ramification_lemmas <> g1:116 var
+R8050:8050 VST.msl.ramification_lemmas <> f:112 var
+R8172:8181 VST.msl.seplog <> allp_right meth
+R8172:8181 VST.msl.seplog <> allp_right meth
+R8214:8232 VST.msl.seplog <> wand_sepcon_adjoint meth
+R8214:8232 VST.msl.seplog <> wand_sepcon_adjoint meth
+R8214:8232 VST.msl.seplog <> wand_sepcon_adjoint meth
+R8246:8257 VST.msl.seplog <> sepcon_assoc meth
+R8246:8257 VST.msl.seplog <> sepcon_assoc meth
+R8246:8257 VST.msl.seplog <> sepcon_assoc meth
+R8270:8282 VST.msl.seplog <> derives_trans meth
+R8292:8305 VST.msl.seplog <> sepcon_derives meth
+R8326:8337 VST.msl.seplog <> derives_refl meth
+R8270:8282 VST.msl.seplog <> derives_trans meth
+R8292:8305 VST.msl.seplog <> sepcon_derives meth
+R8326:8337 VST.msl.seplog <> derives_refl meth
+R8360:8378 VST.msl.seplog <> wand_sepcon_adjoint meth
+R8360:8378 VST.msl.seplog <> wand_sepcon_adjoint meth
+R8360:8378 VST.msl.seplog <> wand_sepcon_adjoint meth
+R8389:8397 VST.msl.seplog <> allp_left meth
+R8389:8397 VST.msl.seplog <> allp_left meth
+R8421:8439 VST.msl.seplog <> wand_sepcon_adjoint meth
+R8421:8439 VST.msl.seplog <> wand_sepcon_adjoint meth
+R8421:8439 VST.msl.seplog <> wand_sepcon_adjoint meth
+R8467:8478 VST.msl.seplog <> sepcon_assoc meth
+R8467:8478 VST.msl.seplog <> sepcon_assoc meth
+R8467:8478 VST.msl.seplog <> sepcon_assoc meth
+R8467:8478 VST.msl.seplog <> sepcon_assoc meth
+R8511:8523 VST.msl.seplog <> derives_trans meth
+R8533:8546 VST.msl.seplog <> sepcon_derives meth
+R8559:8570 VST.msl.seplog <> derives_refl meth
+R8511:8523 VST.msl.seplog <> derives_trans meth
+R8533:8546 VST.msl.seplog <> sepcon_derives meth
+R8559:8570 VST.msl.seplog <> derives_refl meth
+R8587:8603 VST.msl.log_normalize <> modus_ponens_wand thm
+R8587:8603 VST.msl.log_normalize <> modus_ponens_wand thm
+R8617:8627 VST.msl.seplog <> sepcon_comm meth
+R8617:8627 VST.msl.seplog <> sepcon_comm meth
+R8617:8627 VST.msl.seplog <> sepcon_comm meth
+R8644:8662 VST.msl.seplog <> wand_sepcon_adjoint meth
+R8644:8662 VST.msl.seplog <> wand_sepcon_adjoint meth
+R8644:8662 VST.msl.seplog <> wand_sepcon_adjoint meth
+R8674:8682 VST.msl.seplog <> allp_left meth
+R8674:8682 VST.msl.seplog <> allp_left meth
+R8702:8713 VST.msl.seplog <> derives_refl meth
+R8702:8713 VST.msl.seplog <> derives_refl meth
+prf 8728:8732 RAMIF_Q split
+binder 8743:8743 <> B:118
+binder 8746:8747 <> g1:119
+binder 8749:8750 <> g2:120
+binder 8752:8753 <> l1:121
+binder 8755:8756 <> l2:122
+R8777:8780 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8781:8781 VST.msl.ramification_lemmas <> RAMIF_Q.RAMIF_Q.A var
+R8776:8776 VST.msl.ramification_lemmas <> B:118 var
+binder 8759:8761 <> g1':123
+binder 8763:8765 <> g2':124
+binder 8767:8769 <> l1':125
+binder 8771:8773 <> l2':126
+R8816:8821 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8851:8856 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8864:8868 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R8859:8861 VST.msl.seplog <> ::logic:x_'*'_x not
+R8857:8858 VST.msl.ramification_lemmas <> g1:119 var
+R8862:8863 VST.msl.ramification_lemmas <> g2:120 var
+R8869:8869 VST.msl.seplog <> ::logic:x_'*'_x not
+R8877:8880 VST.msl.seplog <> ::logic:x_'*'_x not
+R8872:8874 VST.msl.seplog <> ::logic:x_'*'_x not
+R8870:8871 VST.msl.ramification_lemmas <> l1:121 var
+R8875:8876 VST.msl.ramification_lemmas <> l2:122 var
+R8881:8884 VST.msl.seplog <> allp meth
+R8896:8899 VST.msl.seplog <> ::logic:x_'-*'_x not
+R8890:8892 VST.msl.seplog <> ::logic:x_'*'_x not
+R8887:8889 VST.msl.ramification_lemmas <> l1':125 var
+R8893:8895 VST.msl.ramification_lemmas <> l2':126 var
+R8903:8905 VST.msl.seplog <> ::logic:x_'*'_x not
+R8900:8902 VST.msl.ramification_lemmas <> g1':123 var
+R8906:8908 VST.msl.ramification_lemmas <> g2':124 var
+R8824:8828 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R8822:8823 VST.msl.ramification_lemmas <> g2:120 var
+R8831:8833 VST.msl.seplog <> ::logic:x_'*'_x not
+R8829:8830 VST.msl.ramification_lemmas <> l2:122 var
+R8834:8837 VST.msl.seplog <> allp meth
+R8843:8846 VST.msl.seplog <> ::logic:x_'-*'_x not
+R8840:8842 VST.msl.ramification_lemmas <> l2':126 var
+R8847:8849 VST.msl.ramification_lemmas <> g2':124 var
+R8789:8793 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R8787:8788 VST.msl.ramification_lemmas <> g1:119 var
+R8796:8798 VST.msl.seplog <> ::logic:x_'*'_x not
+R8794:8795 VST.msl.ramification_lemmas <> l1:121 var
+R8799:8802 VST.msl.seplog <> allp meth
+R8808:8811 VST.msl.seplog <> ::logic:x_'-*'_x not
+R8805:8807 VST.msl.ramification_lemmas <> l1':125 var
+R8812:8814 VST.msl.ramification_lemmas <> g1':123 var
+R8966:8968 VST.msl.seplog <> ::logic:x_'*'_x not
+R8949:8952 VST.msl.seplog <> allp meth
+R8958:8961 VST.msl.seplog <> ::logic:x_'-*'_x not
+R8969:8972 VST.msl.seplog <> allp meth
+R8978:8981 VST.msl.seplog <> ::logic:x_'-*'_x not
+R8937:8941 VST.msl.ramification_lemmas RAMIF_Q solve thm
+R8966:8968 VST.msl.seplog <> ::logic:x_'*'_x not
+R8949:8952 VST.msl.seplog <> allp meth
+R8958:8961 VST.msl.seplog <> ::logic:x_'-*'_x not
+R8969:8972 VST.msl.seplog <> allp meth
+R8978:8981 VST.msl.seplog <> ::logic:x_'-*'_x not
+R8937:8941 VST.msl.ramification_lemmas RAMIF_Q solve thm
+R9002:9013 VST.msl.seplog <> sepcon_assoc meth
+R9024:9035 VST.msl.seplog <> sepcon_assoc meth
+R9043:9053 VST.msl.seplog <> sepcon_comm meth
+R9061:9072 VST.msl.seplog <> sepcon_assoc meth
+R9085:9096 VST.msl.seplog <> sepcon_assoc meth
+R9002:9013 VST.msl.seplog <> sepcon_assoc meth
+R9002:9013 VST.msl.seplog <> sepcon_assoc meth
+R9024:9035 VST.msl.seplog <> sepcon_assoc meth
+R9024:9035 VST.msl.seplog <> sepcon_assoc meth
+R9043:9053 VST.msl.seplog <> sepcon_comm meth
+R9043:9053 VST.msl.seplog <> sepcon_comm meth
+R9061:9072 VST.msl.seplog <> sepcon_assoc meth
+R9061:9072 VST.msl.seplog <> sepcon_assoc meth
+R9085:9096 VST.msl.seplog <> sepcon_assoc meth
+R9085:9096 VST.msl.seplog <> sepcon_assoc meth
+R9113:9126 VST.msl.seplog <> sepcon_derives meth
+R9113:9126 VST.msl.seplog <> sepcon_derives meth
+R9161:9161 VST.msl.seplog <> ::logic:x_'*'_x not
+R9165:9167 VST.msl.seplog <> ::logic:x_'*'_x not
+R9171:9173 VST.msl.seplog <> ::logic:x_'*'_x not
+R9187:9189 VST.msl.seplog <> ::logic:x_'*'_x not
+R9161:9161 VST.msl.seplog <> ::logic:x_'*'_x not
+R9165:9167 VST.msl.seplog <> ::logic:x_'*'_x not
+R9171:9173 VST.msl.seplog <> ::logic:x_'*'_x not
+R9187:9189 VST.msl.seplog <> ::logic:x_'*'_x not
+R9214:9225 VST.msl.seplog <> sepcon_assoc meth
+R9240:9251 VST.msl.seplog <> sepcon_assoc meth
+R9268:9278 VST.msl.seplog <> sepcon_comm meth
+R9296:9307 VST.msl.seplog <> sepcon_assoc meth
+R9322:9333 VST.msl.seplog <> sepcon_assoc meth
+R9214:9225 VST.msl.seplog <> sepcon_assoc meth
+R9214:9225 VST.msl.seplog <> sepcon_assoc meth
+R9240:9251 VST.msl.seplog <> sepcon_assoc meth
+R9240:9251 VST.msl.seplog <> sepcon_assoc meth
+R9268:9278 VST.msl.seplog <> sepcon_comm meth
+R9268:9278 VST.msl.seplog <> sepcon_comm meth
+R9296:9307 VST.msl.seplog <> sepcon_assoc meth
+R9296:9307 VST.msl.seplog <> sepcon_assoc meth
+R9322:9333 VST.msl.seplog <> sepcon_assoc meth
+R9322:9333 VST.msl.seplog <> sepcon_assoc meth
+R9359:9372 VST.msl.seplog <> sepcon_derives meth
+R9359:9372 VST.msl.seplog <> sepcon_derives meth
+R9387:9405 VST.msl.seplog <> wand_sepcon_adjoint meth
+R9387:9405 VST.msl.seplog <> wand_sepcon_adjoint meth
+R9421:9429 VST.msl.seplog <> allp_left meth
+R9443:9454 VST.msl.seplog <> derives_refl meth
+R9421:9429 VST.msl.seplog <> allp_left meth
+R9443:9454 VST.msl.seplog <> derives_refl meth
+R9469:9487 VST.msl.seplog <> wand_sepcon_adjoint meth
+R9469:9487 VST.msl.seplog <> wand_sepcon_adjoint meth
+R9503:9511 VST.msl.seplog <> allp_left meth
+R9503:9511 VST.msl.seplog <> allp_left meth
+R9531:9542 VST.msl.seplog <> derives_refl meth
+R9531:9542 VST.msl.seplog <> derives_refl meth
+prf 9683:9687 RAMIF_Q frame
+binder 9698:9698 <> B:127
+binder 9701:9701 <> g:128
+binder 9703:9703 <> l:129
+R9714:9717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9718:9718 VST.msl.ramification_lemmas <> RAMIF_Q.RAMIF_Q.A var
+R9713:9713 VST.msl.ramification_lemmas <> B:127 var
+binder 9706:9707 <> g':130
+binder 9709:9710 <> l':131
+binder 9721:9721 <> F:132
+R9751:9756 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9762:9766 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R9758:9760 VST.msl.seplog <> ::logic:x_'*'_x not
+R9757:9757 VST.msl.ramification_lemmas <> g:128 var
+R9761:9761 VST.msl.ramification_lemmas <> F:132 var
+R9768:9770 VST.msl.seplog <> ::logic:x_'*'_x not
+R9767:9767 VST.msl.ramification_lemmas <> l:129 var
+R9771:9774 VST.msl.seplog <> allp meth
+R9779:9782 VST.msl.seplog <> ::logic:x_'-*'_x not
+R9777:9778 VST.msl.ramification_lemmas <> l':131 var
+R9785:9787 VST.msl.seplog <> ::logic:x_'*'_x not
+R9783:9784 VST.msl.ramification_lemmas <> g':130 var
+R9788:9799 Coq.Program.Basics <> const def
+R9801:9801 VST.msl.ramification_lemmas <> F:132 var
+R9727:9731 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R9726:9726 VST.msl.ramification_lemmas <> g:128 var
+R9733:9735 VST.msl.seplog <> ::logic:x_'*'_x not
+R9732:9732 VST.msl.ramification_lemmas <> l:129 var
+R9736:9739 VST.msl.seplog <> allp meth
+R9744:9747 VST.msl.seplog <> ::logic:x_'-*'_x not
+R9742:9743 VST.msl.ramification_lemmas <> l':131 var
+R9748:9749 VST.msl.ramification_lemmas <> g':130 var
+R9857:9859 VST.msl.seplog <> ::logic:x_'*'_x not
+R9842:9845 VST.msl.seplog <> allp meth
+R9850:9853 VST.msl.seplog <> ::logic:x_'-*'_x not
+R9830:9834 VST.msl.ramification_lemmas RAMIF_Q solve thm
+R9857:9859 VST.msl.seplog <> ::logic:x_'*'_x not
+R9842:9845 VST.msl.seplog <> allp meth
+R9850:9853 VST.msl.seplog <> ::logic:x_'-*'_x not
+R9830:9834 VST.msl.ramification_lemmas RAMIF_Q solve thm
+R9879:9890 VST.msl.seplog <> sepcon_assoc meth
+R9879:9890 VST.msl.seplog <> sepcon_assoc meth
+R9879:9890 VST.msl.seplog <> sepcon_assoc meth
+R9903:9916 VST.msl.seplog <> sepcon_derives meth
+R9903:9916 VST.msl.seplog <> sepcon_derives meth
+R9946:9957 Coq.Program.Basics <> const def
+R9980:9990 VST.msl.seplog <> sepcon_comm meth
+R10006:10017 VST.msl.seplog <> sepcon_assoc meth
+R9980:9990 VST.msl.seplog <> sepcon_comm meth
+R9980:9990 VST.msl.seplog <> sepcon_comm meth
+R10006:10017 VST.msl.seplog <> sepcon_assoc meth
+R10006:10017 VST.msl.seplog <> sepcon_assoc meth
+R10030:10043 VST.msl.seplog <> sepcon_derives meth
+R10030:10043 VST.msl.seplog <> sepcon_derives meth
+R10068:10078 VST.msl.seplog <> sepcon_comm meth
+R10087:10105 VST.msl.seplog <> wand_sepcon_adjoint meth
+R10068:10078 VST.msl.seplog <> sepcon_comm meth
+R10068:10078 VST.msl.seplog <> sepcon_comm meth
+R10087:10105 VST.msl.seplog <> wand_sepcon_adjoint meth
+R10119:10127 VST.msl.seplog <> allp_left meth
+R10119:10127 VST.msl.seplog <> allp_left meth
+prf 10153:10162 RAMIF_Q frame_post
+binder 10173:10173 <> B:133
+binder 10176:10176 <> g:134
+binder 10178:10178 <> l:135
+R10191:10194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10195:10195 VST.msl.ramification_lemmas <> RAMIF_Q.RAMIF_Q.A var
+R10190:10190 VST.msl.ramification_lemmas <> B:133 var
+binder 10181:10182 <> g':136
+binder 10184:10185 <> l':137
+binder 10187:10187 <> F:138
+R10226:10231 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10233:10237 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R10232:10232 VST.msl.ramification_lemmas <> g:134 var
+R10239:10241 VST.msl.seplog <> ::logic:x_'*'_x not
+R10238:10238 VST.msl.ramification_lemmas <> l:135 var
+R10242:10245 VST.msl.seplog <> allp meth
+R10254:10257 VST.msl.seplog <> ::logic:x_'-*'_x not
+R10250:10252 VST.msl.seplog <> ::logic:x_'*'_x not
+R10248:10249 VST.msl.ramification_lemmas <> l':137 var
+R10253:10253 VST.msl.ramification_lemmas <> F:138 var
+R10260:10262 VST.msl.seplog <> ::logic:x_'*'_x not
+R10258:10259 VST.msl.ramification_lemmas <> g':136 var
+R10263:10263 VST.msl.ramification_lemmas <> F:138 var
+R10202:10206 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R10201:10201 VST.msl.ramification_lemmas <> g:134 var
+R10208:10210 VST.msl.seplog <> ::logic:x_'*'_x not
+R10207:10207 VST.msl.ramification_lemmas <> l:135 var
+R10211:10214 VST.msl.seplog <> allp meth
+R10219:10222 VST.msl.seplog <> ::logic:x_'-*'_x not
+R10217:10218 VST.msl.ramification_lemmas <> l':137 var
+R10223:10224 VST.msl.ramification_lemmas <> g':136 var
+R10304:10307 VST.msl.seplog <> allp meth
+R10312:10315 VST.msl.seplog <> ::logic:x_'-*'_x not
+R10292:10296 VST.msl.ramification_lemmas RAMIF_Q solve thm
+R10304:10307 VST.msl.seplog <> allp meth
+R10312:10315 VST.msl.seplog <> ::logic:x_'-*'_x not
+R10292:10296 VST.msl.ramification_lemmas RAMIF_Q solve thm
+R10368:10379 VST.msl.seplog <> sepcon_assoc meth
+R10368:10379 VST.msl.seplog <> sepcon_assoc meth
+R10368:10379 VST.msl.seplog <> sepcon_assoc meth
+R10392:10405 VST.msl.seplog <> sepcon_derives meth
+R10417:10427 VST.msl.seplog <> sepcon_comm meth
+R10392:10405 VST.msl.seplog <> sepcon_derives meth
+R10417:10427 VST.msl.seplog <> sepcon_comm meth
+R10417:10427 VST.msl.seplog <> sepcon_comm meth
+R10450:10460 VST.msl.seplog <> sepcon_comm meth
+R10469:10487 VST.msl.seplog <> wand_sepcon_adjoint meth
+R10450:10460 VST.msl.seplog <> sepcon_comm meth
+R10450:10460 VST.msl.seplog <> sepcon_comm meth
+R10469:10487 VST.msl.seplog <> wand_sepcon_adjoint meth
+R10501:10509 VST.msl.seplog <> allp_left meth
+R10501:10509 VST.msl.seplog <> allp_left meth
+prf 10535:10543 RAMIF_Q frame_pre
+binder 10554:10554 <> B:139
+binder 10557:10557 <> g:140
+binder 10559:10559 <> l:141
+R10570:10573 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10574:10574 VST.msl.ramification_lemmas <> RAMIF_Q.RAMIF_Q.A var
+R10569:10569 VST.msl.ramification_lemmas <> B:139 var
+binder 10562:10563 <> g':142
+binder 10565:10566 <> l':143
+binder 10577:10577 <> F:144
+R10607:10612 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10618:10622 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R10614:10616 VST.msl.seplog <> ::logic:x_'*'_x not
+R10613:10613 VST.msl.ramification_lemmas <> g:140 var
+R10617:10617 VST.msl.ramification_lemmas <> F:144 var
+R10623:10623 VST.msl.seplog <> ::logic:x_'*'_x not
+R10629:10632 VST.msl.seplog <> ::logic:x_'*'_x not
+R10625:10627 VST.msl.seplog <> ::logic:x_'*'_x not
+R10624:10624 VST.msl.ramification_lemmas <> l:141 var
+R10628:10628 VST.msl.ramification_lemmas <> F:144 var
+R10633:10636 VST.msl.seplog <> allp meth
+R10641:10644 VST.msl.seplog <> ::logic:x_'-*'_x not
+R10639:10640 VST.msl.ramification_lemmas <> l':143 var
+R10645:10646 VST.msl.ramification_lemmas <> g':142 var
+R10583:10587 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R10582:10582 VST.msl.ramification_lemmas <> g:140 var
+R10589:10591 VST.msl.seplog <> ::logic:x_'*'_x not
+R10588:10588 VST.msl.ramification_lemmas <> l:141 var
+R10592:10595 VST.msl.seplog <> allp meth
+R10600:10603 VST.msl.seplog <> ::logic:x_'-*'_x not
+R10598:10599 VST.msl.ramification_lemmas <> l':143 var
+R10604:10605 VST.msl.ramification_lemmas <> g':142 var
+R10687:10690 VST.msl.seplog <> allp meth
+R10695:10698 VST.msl.seplog <> ::logic:x_'-*'_x not
+R10675:10679 VST.msl.ramification_lemmas RAMIF_Q solve thm
+R10687:10690 VST.msl.seplog <> allp meth
+R10695:10698 VST.msl.seplog <> ::logic:x_'-*'_x not
+R10675:10679 VST.msl.ramification_lemmas RAMIF_Q solve thm
+R10718:10728 VST.msl.seplog <> sepcon_comm meth
+R10736:10747 VST.msl.seplog <> sepcon_assoc meth
+R10751:10761 VST.msl.seplog <> sepcon_comm meth
+R10718:10728 VST.msl.seplog <> sepcon_comm meth
+R10718:10728 VST.msl.seplog <> sepcon_comm meth
+R10736:10747 VST.msl.seplog <> sepcon_assoc meth
+R10736:10747 VST.msl.seplog <> sepcon_assoc meth
+R10751:10761 VST.msl.seplog <> sepcon_comm meth
+R10751:10761 VST.msl.seplog <> sepcon_comm meth
+R10777:10790 VST.msl.seplog <> sepcon_derives meth
+R10777:10790 VST.msl.seplog <> sepcon_derives meth
+R10823:10841 VST.msl.seplog <> wand_sepcon_adjoint meth
+R10823:10841 VST.msl.seplog <> wand_sepcon_adjoint meth
+R10855:10863 VST.msl.seplog <> allp_left meth
+R10877:10888 VST.msl.seplog <> derives_refl meth
+R10855:10863 VST.msl.seplog <> allp_left meth
+R10877:10888 VST.msl.seplog <> derives_refl meth
+prf 10903:10911 RAMIF_Q exp_right
+binder 10922:10922 <> T:145
+binder 10924:10924 <> B:146
+R10932:10935 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10936:10936 VST.msl.ramification_lemmas <> T:145 var
+R10931:10931 VST.msl.ramification_lemmas <> B:146 var
+binder 10928:10928 <> a:147
+binder 10939:10939 <> g:148
+binder 10941:10941 <> l:149
+R10949:10952 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10954:10957 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10958:10958 VST.msl.ramification_lemmas <> RAMIF_Q.RAMIF_Q.A var
+R10953:10953 VST.msl.ramification_lemmas <> B:146 var
+R10948:10948 VST.msl.ramification_lemmas <> T:145 var
+binder 10944:10945 <> g':150
+R10967:10970 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10971:10971 VST.msl.ramification_lemmas <> RAMIF_Q.RAMIF_Q.A var
+R10966:10966 VST.msl.ramification_lemmas <> B:146 var
+binder 10962:10963 <> l':151
+R11021:11026 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11028:11032 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R11027:11027 VST.msl.ramification_lemmas <> g:148 var
+R11034:11036 VST.msl.seplog <> ::logic:x_'*'_x not
+R11033:11033 VST.msl.ramification_lemmas <> l:149 var
+R11037:11040 VST.msl.seplog <> allp meth
+R11045:11048 VST.msl.seplog <> ::logic:x_'-*'_x not
+R11043:11044 VST.msl.ramification_lemmas <> l':151 var
+R11049:11051 VST.msl.seplog <> exp meth
+R11053:11054 VST.msl.ramification_lemmas <> g':150 var
+R10978:10982 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R10977:10977 VST.msl.ramification_lemmas <> g:148 var
+R10984:10986 VST.msl.seplog <> ::logic:x_'*'_x not
+R10983:10983 VST.msl.ramification_lemmas <> l:149 var
+R10987:10990 VST.msl.seplog <> allp meth
+R10995:10999 VST.msl.seplog <> ::logic:x_'-*'_x not
+R11019:11019 VST.msl.seplog <> ::logic:x_'-*'_x not
+R10993:10994 VST.msl.ramification_lemmas <> l':151 var
+binder 11004:11004 <> b:152
+R11009:11010 VST.msl.ramification_lemmas <> g':150 var
+R11018:11018 VST.msl.ramification_lemmas <> b:152 var
+R11013:11013 VST.msl.ramification_lemmas <> a:147 var
+R11015:11015 VST.msl.ramification_lemmas <> b:152 var
+R11095:11098 VST.msl.seplog <> allp meth
+R11103:11107 VST.msl.seplog <> ::logic:x_'-*'_x not
+R11127:11127 VST.msl.seplog <> ::logic:x_'-*'_x not
+binder 11112:11112 <> b:153
+R11126:11126 VST.msl.ramification_lemmas <> b:153 var
+R11123:11123 VST.msl.ramification_lemmas <> b:153 var
+R11083:11087 VST.msl.ramification_lemmas RAMIF_Q solve thm
+R11095:11098 VST.msl.seplog <> allp meth
+R11103:11107 VST.msl.seplog <> ::logic:x_'-*'_x not
+R11127:11127 VST.msl.seplog <> ::logic:x_'-*'_x not
+binder 11112:11112 <> b:154
+R11126:11126 VST.msl.ramification_lemmas <> b:154 var
+R11123:11123 VST.msl.ramification_lemmas <> b:154 var
+R11083:11087 VST.msl.ramification_lemmas RAMIF_Q solve thm
+R11156:11174 VST.msl.seplog <> wand_sepcon_adjoint meth
+R11156:11174 VST.msl.seplog <> wand_sepcon_adjoint meth
+R11186:11194 VST.msl.seplog <> allp_left meth
+R11186:11194 VST.msl.seplog <> allp_left meth
+R11219:11230 VST.msl.log_normalize <> wand_derives thm
+R11219:11230 VST.msl.log_normalize <> wand_derives thm
+R11248:11256 VST.msl.seplog <> exp_right meth
+R11248:11256 VST.msl.seplog <> exp_right meth
+R11282:11288 VST.msl.ramification_lemmas RAMIF_Q.RAMIF_Q <> sec
+R11336:11342 VST.msl.seplog <> derives meth
+R11358:11360 VST.msl.seplog <> ::logic:x_'*'_x not
+R11362:11365 VST.msl.seplog <> allp meth
+R11336:11342 VST.msl.seplog <> derives meth
+R11358:11360 VST.msl.seplog <> ::logic:x_'*'_x not
+R11362:11365 VST.msl.seplog <> allp meth
+R11429:11432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11481:11484 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11566:11568 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11571:11574 VST.msl.seplog <> ::logic:x_'-*'_x not
+R11680:11682 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11669:11672 VST.msl.seplog <> ::logic:x_'-*'_x not
+R11673:11675 VST.msl.seplog <> exp meth
+R11680:11682 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11669:11672 VST.msl.seplog <> ::logic:x_'-*'_x not
+R11673:11675 VST.msl.seplog <> exp meth
+R11771:11773 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11764:11767 VST.msl.seplog <> ::logic:x_'-*'_x not
+R11771:11773 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11764:11767 VST.msl.seplog <> ::logic:x_'-*'_x not
+R11912:11914 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11886:11889 VST.msl.seplog <> ::logic:x_'-*'_x not
+R11890:11892 VST.msl.seplog <> exp meth
+binder 11899:11899 <> a:155
+R11908:11908 VST.msl.ramification_lemmas <> a:155 var
+R11912:11914 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11886:11889 VST.msl.seplog <> ::logic:x_'-*'_x not
+R11890:11892 VST.msl.seplog <> exp meth
+binder 11899:11899 <> a:156
+R11908:11908 VST.msl.ramification_lemmas <> a:156 var
+R12056:12058 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12047:12050 VST.msl.seplog <> ::logic:x_'-*'_x not
+R12056:12058 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12047:12050 VST.msl.seplog <> ::logic:x_'-*'_x not
+R12004:12006 VST.msl.seplog <> exp meth
+R12276:12282 VST.msl.ramification_lemmas RAMIF_Q <> mod
+mod 12293:12300 <> RAMIF_Q'
+sec 12311:12318 RAMIF_Q' RAMIF_Q'
+binder 12331:12331 <> A:157
+R12356:12361 VST.msl.seplog <> NatDed class
+R12363:12363 VST.msl.ramification_lemmas <> RAMIF_Q'.RAMIF_Q'.A var
+binder 12351:12352 <> ND:158
+R12381:12386 VST.msl.seplog <> SepLog class
+R12388:12388 VST.msl.ramification_lemmas <> RAMIF_Q'.RAMIF_Q'.A var
+binder 12376:12377 <> SL:159
+R12407:12419 VST.msl.seplog <> CorableSepLog class
+R12421:12421 VST.msl.ramification_lemmas <> RAMIF_Q'.RAMIF_Q'.A var
+binder 12401:12404 <> CoSL:160
+prf 12432:12437 RAMIF_Q' reduce
+binder 12448:12448 <> B:161
+binder 12451:12451 <> g:162
+binder 12453:12453 <> l:163
+binder 12455:12455 <> p:164
+R12466:12469 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12470:12470 VST.msl.ramification_lemmas <> RAMIF_Q'.RAMIF_Q'.A var
+R12465:12465 VST.msl.ramification_lemmas <> B:161 var
+binder 12458:12459 <> g':165
+binder 12461:12462 <> l':166
+R12485:12490 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12526:12531 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12533:12537 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R12532:12532 VST.msl.ramification_lemmas <> g:162 var
+R12539:12542 VST.msl.seplog <> ::logic:x_'*'_x not
+R12573:12573 VST.msl.seplog <> ::logic:x_'*'_x not
+R12538:12538 VST.msl.ramification_lemmas <> l:163 var
+R12556:12559 VST.msl.seplog <> ::logic:x_'-*'_x not
+R12543:12545 VST.msl.seplog <> exp meth
+R12549:12552 VST.msl.seplog <> ::logic:x_'&&'_x not
+R12548:12548 VST.msl.ramification_lemmas <> p:164 var
+R12553:12554 VST.msl.ramification_lemmas <> l':166 var
+R12560:12562 VST.msl.seplog <> exp meth
+R12566:12569 VST.msl.seplog <> ::logic:x_'&&'_x not
+R12565:12565 VST.msl.ramification_lemmas <> p:164 var
+R12570:12571 VST.msl.ramification_lemmas <> g':165 var
+R12492:12496 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R12491:12491 VST.msl.ramification_lemmas <> g:162 var
+R12498:12501 VST.msl.seplog <> ::logic:x_'*'_x not
+R12525:12525 VST.msl.seplog <> ::logic:x_'*'_x not
+R12497:12497 VST.msl.ramification_lemmas <> l:163 var
+R12502:12505 VST.msl.seplog <> allp meth
+R12509:12514 VST.msl.seplog <> ::logic:x_'-->'_x not
+R12523:12523 VST.msl.seplog <> ::logic:x_'-->'_x not
+R12508:12508 VST.msl.ramification_lemmas <> p:164 var
+R12517:12520 VST.msl.seplog <> ::logic:x_'-*'_x not
+R12515:12516 VST.msl.ramification_lemmas <> l':166 var
+R12521:12522 VST.msl.ramification_lemmas <> g':165 var
+R12476:12482 VST.msl.seplog <> corable meth
+R12484:12484 VST.msl.ramification_lemmas <> p:164 var
+R12602:12614 VST.msl.seplog <> derives_trans meth
+R12602:12614 VST.msl.seplog <> derives_trans meth
+R12639:12652 VST.msl.seplog <> sepcon_derives meth
+R12639:12652 VST.msl.seplog <> sepcon_derives meth
+R12673:12691 VST.msl.seplog <> wand_sepcon_adjoint meth
+R12673:12691 VST.msl.seplog <> wand_sepcon_adjoint meth
+R12704:12714 VST.msl.log_normalize <> exp_sepcon2 thm
+R12704:12714 VST.msl.log_normalize <> exp_sepcon2 thm
+R12704:12714 VST.msl.log_normalize <> exp_sepcon2 thm
+R12725:12732 VST.msl.seplog <> exp_left meth
+R12751:12759 VST.msl.seplog <> exp_right meth
+R12725:12732 VST.msl.seplog <> exp_left meth
+R12751:12759 VST.msl.seplog <> exp_right meth
+R12773:12791 VST.msl.seplog <> wand_sepcon_adjoint meth
+R12773:12791 VST.msl.seplog <> wand_sepcon_adjoint meth
+R12803:12811 VST.msl.seplog <> allp_left meth
+R12803:12811 VST.msl.seplog <> allp_left meth
+R12836:12854 VST.msl.seplog <> wand_sepcon_adjoint meth
+R12836:12854 VST.msl.seplog <> wand_sepcon_adjoint meth
+R12867:12886 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R12867:12886 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R12867:12886 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R12905:12914 VST.msl.seplog <> andp_right meth
+R12924:12933 VST.msl.seplog <> andp_left1 meth
+R12905:12914 VST.msl.seplog <> andp_right meth
+R12924:12933 VST.msl.seplog <> andp_left1 meth
+R12958:12977 VST.msl.seplog <> corable_andp_sepcon1 meth
+R12958:12977 VST.msl.seplog <> corable_andp_sepcon1 meth
+R12958:12977 VST.msl.seplog <> corable_andp_sepcon1 meth
+R12996:13014 VST.msl.seplog <> wand_sepcon_adjoint meth
+R12996:13014 VST.msl.seplog <> wand_sepcon_adjoint meth
+R13025:13036 VST.msl.log_normalize <> modus_ponens thm
+R13025:13036 VST.msl.log_normalize <> modus_ponens thm
+prf 13051:13055 RAMIF_Q' solve
+binder 13066:13066 <> B:167
+binder 13069:13069 <> g:168
+binder 13071:13071 <> l:169
+binder 13073:13073 <> p:170
+binder 13075:13076 <> g':171
+binder 13078:13079 <> l':172
+binder 13081:13081 <> F:173
+R13095:13100 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13112:13117 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13118:13118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13160:13166 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13168:13172 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R13167:13167 VST.msl.ramification_lemmas <> g:168 var
+R13174:13177 VST.msl.seplog <> ::logic:x_'*'_x not
+R13201:13201 VST.msl.seplog <> ::logic:x_'*'_x not
+R13173:13173 VST.msl.ramification_lemmas <> l:169 var
+R13178:13181 VST.msl.seplog <> allp meth
+R13185:13190 VST.msl.seplog <> ::logic:x_'-->'_x not
+R13199:13199 VST.msl.seplog <> ::logic:x_'-->'_x not
+R13184:13184 VST.msl.ramification_lemmas <> p:170 var
+R13193:13196 VST.msl.seplog <> ::logic:x_'-*'_x not
+R13191:13192 VST.msl.ramification_lemmas <> l':172 var
+R13197:13198 VST.msl.ramification_lemmas <> g':171 var
+R13129:13129 VST.msl.ramification_lemmas <> B:167 var
+binder 13126:13126 <> x:174
+R13151:13155 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R13132:13132 VST.msl.seplog <> ::logic:x_'&&'_x not
+R13136:13141 VST.msl.seplog <> ::logic:x_'&&'_x not
+R13150:13150 VST.msl.seplog <> ::logic:x_'&&'_x not
+R13133:13133 VST.msl.ramification_lemmas <> p:170 var
+R13135:13135 VST.msl.ramification_lemmas <> x:174 var
+R13143:13145 VST.msl.seplog <> ::logic:x_'*'_x not
+R13142:13142 VST.msl.ramification_lemmas <> F:173 var
+R13146:13147 VST.msl.ramification_lemmas <> l':172 var
+R13149:13149 VST.msl.ramification_lemmas <> x:174 var
+R13156:13157 VST.msl.ramification_lemmas <> g':171 var
+R13159:13159 VST.msl.ramification_lemmas <> x:174 var
+R13102:13106 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R13101:13101 VST.msl.ramification_lemmas <> g:168 var
+R13108:13110 VST.msl.seplog <> ::logic:x_'*'_x not
+R13107:13107 VST.msl.ramification_lemmas <> l:169 var
+R13111:13111 VST.msl.ramification_lemmas <> F:173 var
+R13086:13092 VST.msl.seplog <> corable meth
+R13094:13094 VST.msl.ramification_lemmas <> p:170 var
+R13250:13252 VST.msl.seplog <> ::logic:x_'*'_x not
+R13229:13241 VST.msl.seplog <> derives_trans meth
+R13250:13252 VST.msl.seplog <> ::logic:x_'*'_x not
+R13229:13241 VST.msl.seplog <> derives_trans meth
+R13271:13284 VST.msl.seplog <> sepcon_derives meth
+R13271:13284 VST.msl.seplog <> sepcon_derives meth
+R13301:13310 VST.msl.seplog <> allp_right meth
+R13301:13310 VST.msl.seplog <> allp_right meth
+R13339:13354 VST.msl.seplog <> imp_andp_adjoint meth
+R13339:13354 VST.msl.seplog <> imp_andp_adjoint meth
+R13365:13383 VST.msl.seplog <> wand_sepcon_adjoint meth
+R13365:13383 VST.msl.seplog <> wand_sepcon_adjoint meth
+R13396:13415 VST.msl.log_normalize <> corable_andp_sepcon2 thm
+R13396:13415 VST.msl.log_normalize <> corable_andp_sepcon2 thm
+R13396:13415 VST.msl.log_normalize <> corable_andp_sepcon2 thm
+prf 13446:13460 RAMIF_Q' weak_ramif_spec
+binder 13471:13471 <> B:175
+binder 13474:13474 <> g:176
+binder 13476:13476 <> l:177
+binder 13478:13478 <> p:178
+R13489:13492 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13493:13493 VST.msl.ramification_lemmas <> RAMIF_Q'.RAMIF_Q'.A var
+R13488:13488 VST.msl.ramification_lemmas <> B:175 var
+binder 13481:13482 <> g':179
+binder 13484:13485 <> l':180
+R13530:13533 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13535:13539 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R13534:13534 VST.msl.ramification_lemmas <> g:176 var
+R13541:13543 VST.msl.seplog <> ::logic:x_'*'_x not
+R13540:13540 VST.msl.ramification_lemmas <> l:177 var
+R13544:13545 VST.msl.seplog <> TT meth
+R13500:13504 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R13499:13499 VST.msl.ramification_lemmas <> g:176 var
+R13506:13508 VST.msl.seplog <> ::logic:x_'*'_x not
+R13505:13505 VST.msl.ramification_lemmas <> l:177 var
+R13509:13512 VST.msl.seplog <> allp meth
+R13523:13526 VST.msl.seplog <> ::logic:x_'-*'_x not
+R13516:13520 VST.msl.seplog <> ::logic:x_'-->'_x not
+R13515:13515 VST.msl.ramification_lemmas <> p:178 var
+R13521:13522 VST.msl.ramification_lemmas <> l':180 var
+R13527:13528 VST.msl.ramification_lemmas <> g':179 var
+R13574:13586 VST.msl.seplog <> derives_trans meth
+R13574:13586 VST.msl.seplog <> derives_trans meth
+R13610:13623 VST.msl.seplog <> sepcon_derives meth
+R13610:13623 VST.msl.seplog <> sepcon_derives meth
+R13640:13647 VST.msl.log_normalize <> TT_right thm
+R13640:13647 VST.msl.log_normalize <> TT_right thm
+prf 13662:13671 RAMIF_Q' plain_spec
+binder 13682:13682 <> B:181
+binder 13685:13685 <> g:182
+binder 13687:13687 <> l:183
+binder 13689:13689 <> p:184
+binder 13691:13692 <> g':185
+binder 13694:13695 <> l':186
+R13701:13701 VST.msl.ramification_lemmas <> B:181 var
+binder 13698:13698 <> x:187
+R13716:13721 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13731:13736 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13770:13775 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13777:13781 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R13776:13776 VST.msl.ramification_lemmas <> g:182 var
+R13783:13786 VST.msl.seplog <> ::logic:x_'*'_x not
+R13799:13799 VST.msl.seplog <> ::logic:x_'*'_x not
+R13782:13782 VST.msl.ramification_lemmas <> l:183 var
+R13791:13794 VST.msl.seplog <> ::logic:x_'-*'_x not
+R13787:13788 VST.msl.ramification_lemmas <> l':186 var
+R13790:13790 VST.msl.ramification_lemmas <> x:187 var
+R13795:13796 VST.msl.ramification_lemmas <> g':185 var
+R13798:13798 VST.msl.ramification_lemmas <> x:187 var
+R13738:13742 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R13737:13737 VST.msl.ramification_lemmas <> g:182 var
+R13744:13746 VST.msl.seplog <> ::logic:x_'*'_x not
+R13743:13743 VST.msl.ramification_lemmas <> l:183 var
+R13747:13750 VST.msl.seplog <> allp meth
+R13754:13759 VST.msl.seplog <> ::logic:x_'-->'_x not
+R13768:13768 VST.msl.seplog <> ::logic:x_'-->'_x not
+R13753:13753 VST.msl.ramification_lemmas <> p:184 var
+R13762:13765 VST.msl.seplog <> ::logic:x_'-*'_x not
+R13760:13761 VST.msl.ramification_lemmas <> l':186 var
+R13766:13767 VST.msl.ramification_lemmas <> g':185 var
+R13723:13727 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R13722:13722 VST.msl.ramification_lemmas <> g:182 var
+R13728:13728 VST.msl.ramification_lemmas <> p:184 var
+R13730:13730 VST.msl.ramification_lemmas <> x:187 var
+R13707:13713 VST.msl.seplog <> corable meth
+R13715:13715 VST.msl.ramification_lemmas <> p:184 var
+R13830:13837 VST.msl.log_normalize <> add_andp thm
+R13830:13837 VST.msl.log_normalize <> add_andp thm
+R13830:13837 VST.msl.log_normalize <> add_andp thm
+R13859:13866 VST.msl.log_normalize <> add_andp thm
+R13859:13866 VST.msl.log_normalize <> add_andp thm
+R13859:13866 VST.msl.log_normalize <> add_andp thm
+R13887:13896 VST.msl.log_normalize <> andp_assoc thm
+R13905:13914 VST.msl.seplog <> andp_left2 meth
+R13887:13896 VST.msl.log_normalize <> andp_assoc thm
+R13887:13896 VST.msl.log_normalize <> andp_assoc thm
+R13905:13914 VST.msl.seplog <> andp_left2 meth
+R13930:13949 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R13930:13949 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R13930:13949 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R13968:13981 VST.msl.seplog <> sepcon_derives meth
+R13968:13981 VST.msl.seplog <> sepcon_derives meth
+R14004:14012 VST.msl.log_normalize <> andp_comm thm
+R14021:14036 VST.msl.seplog <> imp_andp_adjoint meth
+R14004:14012 VST.msl.log_normalize <> andp_comm thm
+R14004:14012 VST.msl.log_normalize <> andp_comm thm
+R14021:14036 VST.msl.seplog <> imp_andp_adjoint meth
+R14048:14056 VST.msl.seplog <> allp_left meth
+R14070:14081 VST.msl.seplog <> derives_refl meth
+R14048:14056 VST.msl.seplog <> allp_left meth
+R14070:14081 VST.msl.seplog <> derives_refl meth
+prf 14096:14100 RAMIF_Q' trans
+binder 14111:14111 <> B:188
+binder 14113:14114 <> BG:189
+binder 14116:14117 <> BL:190
+binder 14120:14120 <> g:191
+binder 14122:14122 <> m:192
+binder 14124:14124 <> l:193
+binder 14126:14126 <> p:194
+binder 14128:14129 <> pG:195
+binder 14131:14132 <> pL:196
+binder 14134:14135 <> g':197
+binder 14137:14139 <> mG':198
+binder 14141:14143 <> mL':199
+binder 14145:14146 <> l':200
+R14154:14157 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14158:14159 VST.msl.ramification_lemmas <> BG:189 var
+R14153:14153 VST.msl.ramification_lemmas <> B:188 var
+binder 14149:14150 <> fG:201
+R14168:14171 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14172:14173 VST.msl.ramification_lemmas <> BL:190 var
+R14167:14167 VST.msl.ramification_lemmas <> B:188 var
+binder 14163:14164 <> fL:202
+R14188:14193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14204:14209 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14220:14225 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14261:14266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14302:14307 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14308:14308 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14336:14342 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14343:14343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14399:14405 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14407:14411 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R14406:14406 VST.msl.ramification_lemmas <> g:191 var
+R14413:14415 VST.msl.seplog <> ::logic:x_'*'_x not
+R14412:14412 VST.msl.ramification_lemmas <> l:193 var
+R14416:14419 VST.msl.seplog <> allp meth
+R14423:14428 VST.msl.seplog <> ::logic:x_'-->'_x not
+R14473:14473 VST.msl.seplog <> ::logic:x_'-->'_x not
+R14422:14422 VST.msl.ramification_lemmas <> p:194 var
+R14449:14452 VST.msl.seplog <> ::logic:x_'-*'_x not
+R14429:14442 Coq.Program.Basics <> compose def
+R14447:14448 VST.msl.ramification_lemmas <> fL:202 var
+R14444:14445 VST.msl.ramification_lemmas <> l':200 var
+R14453:14466 Coq.Program.Basics <> compose def
+R14471:14472 VST.msl.ramification_lemmas <> fG:201 var
+R14468:14469 VST.msl.ramification_lemmas <> g':197 var
+binder 14351:14351 <> b:203
+R14371:14375 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R14357:14360 VST.msl.seplog <> ::logic:x_'&&'_x not
+R14354:14354 VST.msl.ramification_lemmas <> p:194 var
+R14356:14356 VST.msl.ramification_lemmas <> b:203 var
+R14361:14363 VST.msl.ramification_lemmas <> mL':199 var
+R14366:14367 VST.msl.ramification_lemmas <> fL:202 var
+R14369:14369 VST.msl.ramification_lemmas <> b:203 var
+R14385:14388 VST.msl.seplog <> ::logic:x_'&&'_x not
+R14376:14377 VST.msl.ramification_lemmas <> pG:195 var
+R14380:14381 VST.msl.ramification_lemmas <> fG:201 var
+R14383:14383 VST.msl.ramification_lemmas <> b:203 var
+R14389:14391 VST.msl.ramification_lemmas <> mG':198 var
+R14394:14395 VST.msl.ramification_lemmas <> fG:201 var
+R14397:14397 VST.msl.ramification_lemmas <> b:203 var
+binder 14316:14316 <> b:204
+R14322:14326 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R14319:14319 VST.msl.ramification_lemmas <> p:194 var
+R14321:14321 VST.msl.ramification_lemmas <> b:204 var
+R14327:14328 VST.msl.ramification_lemmas <> pL:196 var
+R14331:14332 VST.msl.ramification_lemmas <> fL:202 var
+R14334:14334 VST.msl.ramification_lemmas <> b:204 var
+R14268:14272 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R14267:14267 VST.msl.ramification_lemmas <> m:192 var
+R14274:14276 VST.msl.seplog <> ::logic:x_'*'_x not
+R14273:14273 VST.msl.ramification_lemmas <> l:193 var
+R14277:14280 VST.msl.seplog <> allp meth
+R14285:14290 VST.msl.seplog <> ::logic:x_'-->'_x not
+R14300:14300 VST.msl.seplog <> ::logic:x_'-->'_x not
+R14283:14284 VST.msl.ramification_lemmas <> pL:196 var
+R14293:14296 VST.msl.seplog <> ::logic:x_'-*'_x not
+R14291:14292 VST.msl.ramification_lemmas <> l':200 var
+R14297:14299 VST.msl.ramification_lemmas <> mL':199 var
+R14227:14231 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R14226:14226 VST.msl.ramification_lemmas <> g:191 var
+R14233:14235 VST.msl.seplog <> ::logic:x_'*'_x not
+R14232:14232 VST.msl.ramification_lemmas <> m:192 var
+R14236:14239 VST.msl.seplog <> allp meth
+R14244:14249 VST.msl.seplog <> ::logic:x_'-->'_x not
+R14259:14259 VST.msl.seplog <> ::logic:x_'-->'_x not
+R14242:14243 VST.msl.ramification_lemmas <> pG:195 var
+R14253:14256 VST.msl.seplog <> ::logic:x_'-*'_x not
+R14250:14252 VST.msl.ramification_lemmas <> mG':198 var
+R14257:14258 VST.msl.ramification_lemmas <> g':197 var
+R14210:14216 VST.msl.seplog <> corable meth
+R14218:14219 VST.msl.ramification_lemmas <> pG:195 var
+R14194:14200 VST.msl.seplog <> corable meth
+R14202:14203 VST.msl.ramification_lemmas <> pL:196 var
+R14179:14185 VST.msl.seplog <> corable meth
+R14187:14187 VST.msl.ramification_lemmas <> p:194 var
+R14539:14541 VST.msl.seplog <> ::logic:x_'*'_x not
+R14514:14517 VST.msl.seplog <> allp meth
+R14522:14527 VST.msl.seplog <> ::logic:x_'-->'_x not
+R14537:14537 VST.msl.seplog <> ::logic:x_'-->'_x not
+R14530:14533 VST.msl.seplog <> ::logic:x_'-*'_x not
+R14542:14545 VST.msl.seplog <> allp meth
+R14550:14555 VST.msl.seplog <> ::logic:x_'-->'_x not
+R14565:14565 VST.msl.seplog <> ::logic:x_'-->'_x not
+R14559:14562 VST.msl.seplog <> ::logic:x_'-*'_x not
+R14502:14506 VST.msl.ramification_lemmas RAMIF_Q' solve thm
+R14539:14541 VST.msl.seplog <> ::logic:x_'*'_x not
+R14514:14517 VST.msl.seplog <> allp meth
+R14522:14527 VST.msl.seplog <> ::logic:x_'-->'_x not
+R14537:14537 VST.msl.seplog <> ::logic:x_'-->'_x not
+R14530:14533 VST.msl.seplog <> ::logic:x_'-*'_x not
+R14542:14545 VST.msl.seplog <> allp meth
+R14550:14555 VST.msl.seplog <> ::logic:x_'-->'_x not
+R14565:14565 VST.msl.seplog <> ::logic:x_'-->'_x not
+R14559:14562 VST.msl.seplog <> ::logic:x_'-*'_x not
+R14502:14506 VST.msl.ramification_lemmas RAMIF_Q' solve thm
+R14588:14601 Coq.Program.Basics <> compose def
+R14625:14637 VST.msl.seplog <> derives_trans meth
+R14625:14637 VST.msl.seplog <> derives_trans meth
+R14665:14677 VST.msl.seplog <> derives_trans meth
+R14687:14700 VST.msl.seplog <> sepcon_derives meth
+R14721:14732 VST.msl.seplog <> derives_refl meth
+R14665:14677 VST.msl.seplog <> derives_trans meth
+R14687:14700 VST.msl.seplog <> sepcon_derives meth
+R14721:14732 VST.msl.seplog <> derives_refl meth
+R14751:14762 VST.msl.seplog <> sepcon_assoc meth
+R14751:14762 VST.msl.seplog <> sepcon_assoc meth
+R14751:14762 VST.msl.seplog <> sepcon_assoc meth
+R14795:14808 Coq.Program.Basics <> compose def
+R14827:14846 VST.msl.seplog <> corable_andp_sepcon1 meth
+R14827:14846 VST.msl.seplog <> corable_andp_sepcon1 meth
+R14827:14846 VST.msl.seplog <> corable_andp_sepcon1 meth
+R14827:14846 VST.msl.seplog <> corable_andp_sepcon1 meth
+R14827:14846 VST.msl.seplog <> corable_andp_sepcon1 meth
+R14869:14880 VST.msl.seplog <> sepcon_assoc meth
+R14869:14880 VST.msl.seplog <> sepcon_assoc meth
+R14869:14880 VST.msl.seplog <> sepcon_assoc meth
+R14893:14911 VST.msl.seplog <> wand_sepcon_adjoint meth
+R14893:14911 VST.msl.seplog <> wand_sepcon_adjoint meth
+R14926:14934 VST.msl.log_normalize <> andp_comm thm
+R14943:14958 VST.msl.seplog <> imp_andp_adjoint meth
+R14926:14934 VST.msl.log_normalize <> andp_comm thm
+R14926:14934 VST.msl.log_normalize <> andp_comm thm
+R14943:14958 VST.msl.seplog <> imp_andp_adjoint meth
+R14972:14980 VST.msl.seplog <> allp_left meth
+R14999:15014 VST.msl.seplog <> imp_andp_adjoint meth
+R14972:14980 VST.msl.seplog <> allp_left meth
+R14999:15014 VST.msl.seplog <> imp_andp_adjoint meth
+R15027:15045 VST.msl.seplog <> wand_sepcon_adjoint meth
+R15027:15045 VST.msl.seplog <> wand_sepcon_adjoint meth
+R15060:15070 VST.msl.seplog <> sepcon_comm meth
+R15073:15084 VST.msl.seplog <> sepcon_assoc meth
+R15087:15097 VST.msl.seplog <> sepcon_comm meth
+R15060:15070 VST.msl.seplog <> sepcon_comm meth
+R15060:15070 VST.msl.seplog <> sepcon_comm meth
+R15073:15084 VST.msl.seplog <> sepcon_assoc meth
+R15073:15084 VST.msl.seplog <> sepcon_assoc meth
+R15087:15097 VST.msl.seplog <> sepcon_comm meth
+R15087:15097 VST.msl.seplog <> sepcon_comm meth
+R15110:15128 VST.msl.seplog <> wand_sepcon_adjoint meth
+R15110:15128 VST.msl.seplog <> wand_sepcon_adjoint meth
+R15170:15173 VST.msl.seplog <> ::logic:x_'&&'_x not
+R15141:15153 VST.msl.seplog <> derives_trans meth
+R15170:15173 VST.msl.seplog <> ::logic:x_'&&'_x not
+R15141:15153 VST.msl.seplog <> derives_trans meth
+R15222:15225 VST.msl.seplog <> ::logic:x_'&&'_x not
+R15199:15211 VST.msl.seplog <> derives_trans meth
+R15222:15225 VST.msl.seplog <> ::logic:x_'&&'_x not
+R15199:15211 VST.msl.seplog <> derives_trans meth
+R15267:15286 VST.msl.log_normalize <> corable_sepcon_andp2 thm
+R15267:15286 VST.msl.log_normalize <> corable_sepcon_andp2 thm
+R15267:15286 VST.msl.log_normalize <> corable_sepcon_andp2 thm
+R15309:15318 VST.msl.seplog <> andp_right meth
+R15328:15337 VST.msl.seplog <> andp_left1 meth
+R15309:15318 VST.msl.seplog <> andp_right meth
+R15328:15337 VST.msl.seplog <> andp_left1 meth
+R15366:15385 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R15366:15385 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R15366:15385 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R15410:15420 VST.msl.seplog <> sepcon_comm meth
+R15410:15420 VST.msl.seplog <> sepcon_comm meth
+R15410:15420 VST.msl.seplog <> sepcon_comm meth
+R15435:15453 VST.msl.seplog <> wand_sepcon_adjoint meth
+R15435:15453 VST.msl.seplog <> wand_sepcon_adjoint meth
+R15476:15488 VST.msl.seplog <> derives_trans meth
+R15500:15511 VST.msl.log_normalize <> modus_ponens thm
+R15476:15488 VST.msl.seplog <> derives_trans meth
+R15500:15511 VST.msl.log_normalize <> modus_ponens thm
+R15527:15538 VST.msl.log_normalize <> andp_derives thm
+R15559:15570 VST.msl.seplog <> derives_refl meth
+R15527:15538 VST.msl.log_normalize <> andp_derives thm
+R15559:15570 VST.msl.seplog <> derives_refl meth
+R15586:15604 VST.msl.seplog <> wand_sepcon_adjoint meth
+R15586:15604 VST.msl.seplog <> wand_sepcon_adjoint meth
+R15621:15631 VST.msl.seplog <> sepcon_comm meth
+R15621:15631 VST.msl.seplog <> sepcon_comm meth
+R15621:15631 VST.msl.seplog <> sepcon_comm meth
+R15646:15664 VST.msl.seplog <> wand_sepcon_adjoint meth
+R15646:15664 VST.msl.seplog <> wand_sepcon_adjoint meth
+R15680:15688 VST.msl.seplog <> allp_left meth
+R15680:15688 VST.msl.seplog <> allp_left meth
+R15720:15738 VST.msl.seplog <> wand_sepcon_adjoint meth
+R15720:15738 VST.msl.seplog <> wand_sepcon_adjoint meth
+R15755:15774 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R15780:15799 VST.msl.seplog <> corable_andp_sepcon1 meth
+R15755:15774 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R15755:15774 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R15780:15799 VST.msl.seplog <> corable_andp_sepcon1 meth
+R15780:15799 VST.msl.seplog <> corable_andp_sepcon1 meth
+R15822:15840 VST.msl.seplog <> wand_sepcon_adjoint meth
+R15822:15840 VST.msl.seplog <> wand_sepcon_adjoint meth
+R15855:15866 VST.msl.log_normalize <> modus_ponens thm
+R15855:15866 VST.msl.log_normalize <> modus_ponens thm
+prf 15881:15885 RAMIF_Q' split
+binder 15896:15896 <> B:205
+binder 15899:15900 <> g1:206
+binder 15902:15903 <> g2:207
+binder 15905:15906 <> l1:208
+binder 15908:15909 <> l2:209
+R15932:15935 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15936:15936 VST.msl.ramification_lemmas <> RAMIF_Q'.RAMIF_Q'.A var
+R15931:15931 VST.msl.ramification_lemmas <> B:205 var
+binder 15912:15912 <> p:210
+binder 15914:15916 <> g1':211
+binder 15918:15920 <> g2':212
+binder 15922:15924 <> l1':213
+binder 15926:15928 <> l2':214
+R15942:15942 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15969:15975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16013:16018 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16056:16061 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16069:16073 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R16064:16066 VST.msl.seplog <> ::logic:x_'*'_x not
+R16062:16063 VST.msl.ramification_lemmas <> g1:206 var
+R16067:16068 VST.msl.ramification_lemmas <> g2:207 var
+R16074:16074 VST.msl.seplog <> ::logic:x_'*'_x not
+R16082:16085 VST.msl.seplog <> ::logic:x_'*'_x not
+R16077:16079 VST.msl.seplog <> ::logic:x_'*'_x not
+R16075:16076 VST.msl.ramification_lemmas <> l1:208 var
+R16080:16081 VST.msl.ramification_lemmas <> l2:209 var
+R16086:16089 VST.msl.seplog <> allp meth
+R16093:16098 VST.msl.seplog <> ::logic:x_'-->'_x not
+R16121:16121 VST.msl.seplog <> ::logic:x_'-->'_x not
+R16092:16092 VST.msl.ramification_lemmas <> p:210 var
+R16108:16111 VST.msl.seplog <> ::logic:x_'-*'_x not
+R16102:16104 VST.msl.seplog <> ::logic:x_'*'_x not
+R16099:16101 VST.msl.ramification_lemmas <> l1':213 var
+R16105:16107 VST.msl.ramification_lemmas <> l2':214 var
+R16115:16117 VST.msl.seplog <> ::logic:x_'*'_x not
+R16112:16114 VST.msl.ramification_lemmas <> g1':211 var
+R16118:16120 VST.msl.ramification_lemmas <> g2':212 var
+R16021:16025 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R16019:16020 VST.msl.ramification_lemmas <> g2:207 var
+R16028:16030 VST.msl.seplog <> ::logic:x_'*'_x not
+R16026:16027 VST.msl.ramification_lemmas <> l2:209 var
+R16031:16034 VST.msl.seplog <> allp meth
+R16038:16043 VST.msl.seplog <> ::logic:x_'-->'_x not
+R16054:16054 VST.msl.seplog <> ::logic:x_'-->'_x not
+R16037:16037 VST.msl.ramification_lemmas <> p:210 var
+R16047:16050 VST.msl.seplog <> ::logic:x_'-*'_x not
+R16044:16046 VST.msl.ramification_lemmas <> l2':214 var
+R16051:16053 VST.msl.ramification_lemmas <> g2':212 var
+R15978:15982 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R15976:15977 VST.msl.ramification_lemmas <> g1:206 var
+R15985:15987 VST.msl.seplog <> ::logic:x_'*'_x not
+R15983:15984 VST.msl.ramification_lemmas <> l1:208 var
+R15988:15991 VST.msl.seplog <> allp meth
+R15995:16000 VST.msl.seplog <> ::logic:x_'-->'_x not
+R16011:16011 VST.msl.seplog <> ::logic:x_'-->'_x not
+R15994:15994 VST.msl.ramification_lemmas <> p:210 var
+R16004:16007 VST.msl.seplog <> ::logic:x_'-*'_x not
+R16001:16003 VST.msl.ramification_lemmas <> l1':213 var
+R16008:16010 VST.msl.ramification_lemmas <> g1':211 var
+R15953:15953 VST.msl.ramification_lemmas <> B:205 var
+binder 15950:15950 <> x:215
+R15956:15962 VST.msl.seplog <> corable meth
+R15965:15965 VST.msl.ramification_lemmas <> p:210 var
+R15967:15967 VST.msl.ramification_lemmas <> x:215 var
+R16187:16189 VST.msl.seplog <> ::logic:x_'*'_x not
+R16162:16165 VST.msl.seplog <> allp meth
+R16169:16174 VST.msl.seplog <> ::logic:x_'-->'_x not
+R16185:16185 VST.msl.seplog <> ::logic:x_'-->'_x not
+R16178:16181 VST.msl.seplog <> ::logic:x_'-*'_x not
+R16190:16193 VST.msl.seplog <> allp meth
+R16197:16202 VST.msl.seplog <> ::logic:x_'-->'_x not
+R16213:16213 VST.msl.seplog <> ::logic:x_'-->'_x not
+R16206:16209 VST.msl.seplog <> ::logic:x_'-*'_x not
+R16150:16154 VST.msl.ramification_lemmas RAMIF_Q' solve thm
+R16187:16189 VST.msl.seplog <> ::logic:x_'*'_x not
+R16162:16165 VST.msl.seplog <> allp meth
+R16169:16174 VST.msl.seplog <> ::logic:x_'-->'_x not
+R16185:16185 VST.msl.seplog <> ::logic:x_'-->'_x not
+R16178:16181 VST.msl.seplog <> ::logic:x_'-*'_x not
+R16190:16193 VST.msl.seplog <> allp meth
+R16197:16202 VST.msl.seplog <> ::logic:x_'-->'_x not
+R16213:16213 VST.msl.seplog <> ::logic:x_'-->'_x not
+R16206:16209 VST.msl.seplog <> ::logic:x_'-*'_x not
+R16150:16154 VST.msl.ramification_lemmas RAMIF_Q' solve thm
+R16241:16252 VST.msl.seplog <> sepcon_assoc meth
+R16263:16274 VST.msl.seplog <> sepcon_assoc meth
+R16282:16292 VST.msl.seplog <> sepcon_comm meth
+R16300:16311 VST.msl.seplog <> sepcon_assoc meth
+R16324:16335 VST.msl.seplog <> sepcon_assoc meth
+R16241:16252 VST.msl.seplog <> sepcon_assoc meth
+R16241:16252 VST.msl.seplog <> sepcon_assoc meth
+R16263:16274 VST.msl.seplog <> sepcon_assoc meth
+R16263:16274 VST.msl.seplog <> sepcon_assoc meth
+R16282:16292 VST.msl.seplog <> sepcon_comm meth
+R16282:16292 VST.msl.seplog <> sepcon_comm meth
+R16300:16311 VST.msl.seplog <> sepcon_assoc meth
+R16300:16311 VST.msl.seplog <> sepcon_assoc meth
+R16324:16335 VST.msl.seplog <> sepcon_assoc meth
+R16324:16335 VST.msl.seplog <> sepcon_assoc meth
+R16352:16365 VST.msl.seplog <> sepcon_derives meth
+R16352:16365 VST.msl.seplog <> sepcon_derives meth
+R16400:16400 VST.msl.seplog <> ::logic:x_'*'_x not
+R16404:16406 VST.msl.seplog <> ::logic:x_'*'_x not
+R16410:16412 VST.msl.seplog <> ::logic:x_'*'_x not
+R16426:16428 VST.msl.seplog <> ::logic:x_'*'_x not
+R16400:16400 VST.msl.seplog <> ::logic:x_'*'_x not
+R16404:16406 VST.msl.seplog <> ::logic:x_'*'_x not
+R16410:16412 VST.msl.seplog <> ::logic:x_'*'_x not
+R16426:16428 VST.msl.seplog <> ::logic:x_'*'_x not
+R16453:16464 VST.msl.seplog <> sepcon_assoc meth
+R16479:16490 VST.msl.seplog <> sepcon_assoc meth
+R16507:16517 VST.msl.seplog <> sepcon_comm meth
+R16535:16546 VST.msl.seplog <> sepcon_assoc meth
+R16561:16572 VST.msl.seplog <> sepcon_assoc meth
+R16453:16464 VST.msl.seplog <> sepcon_assoc meth
+R16453:16464 VST.msl.seplog <> sepcon_assoc meth
+R16479:16490 VST.msl.seplog <> sepcon_assoc meth
+R16479:16490 VST.msl.seplog <> sepcon_assoc meth
+R16507:16517 VST.msl.seplog <> sepcon_comm meth
+R16507:16517 VST.msl.seplog <> sepcon_comm meth
+R16535:16546 VST.msl.seplog <> sepcon_assoc meth
+R16535:16546 VST.msl.seplog <> sepcon_assoc meth
+R16561:16572 VST.msl.seplog <> sepcon_assoc meth
+R16561:16572 VST.msl.seplog <> sepcon_assoc meth
+R16604:16611 VST.msl.log_normalize <> andp_dup thm
+R16621:16630 VST.msl.log_normalize <> andp_assoc thm
+R16604:16611 VST.msl.log_normalize <> andp_dup thm
+R16604:16611 VST.msl.log_normalize <> andp_dup thm
+R16621:16630 VST.msl.log_normalize <> andp_assoc thm
+R16621:16630 VST.msl.log_normalize <> andp_assoc thm
+R16648:16667 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R16673:16692 VST.msl.seplog <> corable_andp_sepcon1 meth
+R16648:16667 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R16648:16667 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R16673:16692 VST.msl.seplog <> corable_andp_sepcon1 meth
+R16673:16692 VST.msl.seplog <> corable_andp_sepcon1 meth
+R16719:16738 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R16719:16738 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R16719:16738 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R16719:16738 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R16719:16738 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R16759:16772 VST.msl.seplog <> sepcon_derives meth
+R16759:16772 VST.msl.seplog <> sepcon_derives meth
+R16787:16805 VST.msl.seplog <> wand_sepcon_adjoint meth
+R16787:16805 VST.msl.seplog <> wand_sepcon_adjoint meth
+R16821:16829 VST.msl.seplog <> allp_left meth
+R16821:16829 VST.msl.seplog <> allp_left meth
+R16849:16867 VST.msl.seplog <> wand_sepcon_adjoint meth
+R16849:16867 VST.msl.seplog <> wand_sepcon_adjoint meth
+R16884:16903 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R16909:16928 VST.msl.seplog <> corable_andp_sepcon1 meth
+R16884:16903 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R16884:16903 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R16909:16928 VST.msl.seplog <> corable_andp_sepcon1 meth
+R16909:16928 VST.msl.seplog <> corable_andp_sepcon1 meth
+R16953:16965 VST.msl.seplog <> derives_trans meth
+R16975:16988 VST.msl.seplog <> sepcon_derives meth
+R17013:17024 VST.msl.log_normalize <> modus_ponens thm
+R17034:17045 VST.msl.seplog <> derives_refl meth
+R16953:16965 VST.msl.seplog <> derives_trans meth
+R16975:16988 VST.msl.seplog <> sepcon_derives meth
+R17013:17024 VST.msl.log_normalize <> modus_ponens thm
+R17034:17045 VST.msl.seplog <> derives_refl meth
+R17065:17083 VST.msl.seplog <> wand_sepcon_adjoint meth
+R17092:17103 VST.msl.seplog <> derives_refl meth
+R17065:17083 VST.msl.seplog <> wand_sepcon_adjoint meth
+R17092:17103 VST.msl.seplog <> derives_refl meth
+R17118:17136 VST.msl.seplog <> wand_sepcon_adjoint meth
+R17118:17136 VST.msl.seplog <> wand_sepcon_adjoint meth
+R17152:17160 VST.msl.seplog <> allp_left meth
+R17152:17160 VST.msl.seplog <> allp_left meth
+R17180:17198 VST.msl.seplog <> wand_sepcon_adjoint meth
+R17180:17198 VST.msl.seplog <> wand_sepcon_adjoint meth
+R17215:17234 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R17240:17259 VST.msl.seplog <> corable_andp_sepcon1 meth
+R17215:17234 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R17215:17234 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R17240:17259 VST.msl.seplog <> corable_andp_sepcon1 meth
+R17240:17259 VST.msl.seplog <> corable_andp_sepcon1 meth
+R17284:17296 VST.msl.seplog <> derives_trans meth
+R17306:17319 VST.msl.seplog <> sepcon_derives meth
+R17344:17355 VST.msl.log_normalize <> modus_ponens thm
+R17365:17376 VST.msl.seplog <> derives_refl meth
+R17284:17296 VST.msl.seplog <> derives_trans meth
+R17306:17319 VST.msl.seplog <> sepcon_derives meth
+R17344:17355 VST.msl.log_normalize <> modus_ponens thm
+R17365:17376 VST.msl.seplog <> derives_refl meth
+R17396:17414 VST.msl.seplog <> wand_sepcon_adjoint meth
+R17423:17434 VST.msl.seplog <> derives_refl meth
+R17396:17414 VST.msl.seplog <> wand_sepcon_adjoint meth
+R17423:17434 VST.msl.seplog <> derives_refl meth
+prf 17575:17579 RAMIF_Q' frame
+binder 17590:17590 <> B:216
+binder 17593:17593 <> g:217
+binder 17595:17595 <> l:218
+binder 17597:17597 <> p:219
+binder 17599:17600 <> g':220
+binder 17602:17603 <> l':221
+binder 17605:17605 <> F:222
+R17610:17610 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17637:17643 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17677:17682 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17688:17692 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R17684:17686 VST.msl.seplog <> ::logic:x_'*'_x not
+R17683:17683 VST.msl.ramification_lemmas <> g:217 var
+R17687:17687 VST.msl.ramification_lemmas <> F:222 var
+R17694:17696 VST.msl.seplog <> ::logic:x_'*'_x not
+R17693:17693 VST.msl.ramification_lemmas <> l:218 var
+R17697:17700 VST.msl.seplog <> allp meth
+R17704:17709 VST.msl.seplog <> ::logic:x_'-->'_x not
+R17735:17735 VST.msl.seplog <> ::logic:x_'-->'_x not
+R17703:17703 VST.msl.ramification_lemmas <> p:219 var
+R17712:17715 VST.msl.seplog <> ::logic:x_'-*'_x not
+R17710:17711 VST.msl.ramification_lemmas <> l':221 var
+R17718:17720 VST.msl.seplog <> ::logic:x_'*'_x not
+R17716:17717 VST.msl.ramification_lemmas <> g':220 var
+R17721:17732 Coq.Program.Basics <> const def
+R17734:17734 VST.msl.ramification_lemmas <> F:222 var
+R17645:17649 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R17644:17644 VST.msl.ramification_lemmas <> g:217 var
+R17651:17653 VST.msl.seplog <> ::logic:x_'*'_x not
+R17650:17650 VST.msl.ramification_lemmas <> l:218 var
+R17654:17657 VST.msl.seplog <> allp meth
+R17661:17666 VST.msl.seplog <> ::logic:x_'-->'_x not
+R17675:17675 VST.msl.seplog <> ::logic:x_'-->'_x not
+R17660:17660 VST.msl.ramification_lemmas <> p:219 var
+R17669:17672 VST.msl.seplog <> ::logic:x_'-*'_x not
+R17667:17668 VST.msl.ramification_lemmas <> l':221 var
+R17673:17674 VST.msl.ramification_lemmas <> g':220 var
+R17621:17621 VST.msl.ramification_lemmas <> B:216 var
+binder 17618:17618 <> x:223
+R17624:17630 VST.msl.seplog <> corable meth
+R17633:17633 VST.msl.ramification_lemmas <> p:219 var
+R17635:17635 VST.msl.ramification_lemmas <> x:223 var
+R17799:17801 VST.msl.seplog <> ::logic:x_'*'_x not
+R17776:17779 VST.msl.seplog <> allp meth
+R17783:17788 VST.msl.seplog <> ::logic:x_'-->'_x not
+R17797:17797 VST.msl.seplog <> ::logic:x_'-->'_x not
+R17791:17794 VST.msl.seplog <> ::logic:x_'-*'_x not
+R17764:17768 VST.msl.ramification_lemmas RAMIF_Q' solve thm
+R17799:17801 VST.msl.seplog <> ::logic:x_'*'_x not
+R17776:17779 VST.msl.seplog <> allp meth
+R17783:17788 VST.msl.seplog <> ::logic:x_'-->'_x not
+R17797:17797 VST.msl.seplog <> ::logic:x_'-->'_x not
+R17791:17794 VST.msl.seplog <> ::logic:x_'-*'_x not
+R17764:17768 VST.msl.ramification_lemmas RAMIF_Q' solve thm
+R17831:17842 VST.msl.seplog <> sepcon_assoc meth
+R17831:17842 VST.msl.seplog <> sepcon_assoc meth
+R17831:17842 VST.msl.seplog <> sepcon_assoc meth
+R17855:17868 VST.msl.seplog <> sepcon_derives meth
+R17855:17868 VST.msl.seplog <> sepcon_derives meth
+R17898:17909 Coq.Program.Basics <> const def
+R17935:17954 VST.msl.seplog <> corable_andp_sepcon1 meth
+R17935:17954 VST.msl.seplog <> corable_andp_sepcon1 meth
+R17935:17954 VST.msl.seplog <> corable_andp_sepcon1 meth
+R17935:17954 VST.msl.seplog <> corable_andp_sepcon1 meth
+R17935:17954 VST.msl.seplog <> corable_andp_sepcon1 meth
+R17978:17988 VST.msl.seplog <> sepcon_comm meth
+R18004:18015 VST.msl.seplog <> sepcon_assoc meth
+R17978:17988 VST.msl.seplog <> sepcon_comm meth
+R17978:17988 VST.msl.seplog <> sepcon_comm meth
+R18004:18015 VST.msl.seplog <> sepcon_assoc meth
+R18004:18015 VST.msl.seplog <> sepcon_assoc meth
+R18028:18041 VST.msl.seplog <> sepcon_derives meth
+R18028:18041 VST.msl.seplog <> sepcon_derives meth
+R18066:18076 VST.msl.seplog <> sepcon_comm meth
+R18085:18103 VST.msl.seplog <> wand_sepcon_adjoint meth
+R18066:18076 VST.msl.seplog <> sepcon_comm meth
+R18066:18076 VST.msl.seplog <> sepcon_comm meth
+R18085:18103 VST.msl.seplog <> wand_sepcon_adjoint meth
+R18118:18126 VST.msl.log_normalize <> andp_comm thm
+R18135:18150 VST.msl.seplog <> imp_andp_adjoint meth
+R18160:18168 VST.msl.seplog <> allp_left meth
+R18182:18197 VST.msl.seplog <> imp_andp_adjoint meth
+R18118:18126 VST.msl.log_normalize <> andp_comm thm
+R18118:18126 VST.msl.log_normalize <> andp_comm thm
+R18135:18150 VST.msl.seplog <> imp_andp_adjoint meth
+R18160:18168 VST.msl.seplog <> allp_left meth
+R18182:18197 VST.msl.seplog <> imp_andp_adjoint meth
+R18212:18220 VST.msl.log_normalize <> andp_comm thm
+R18229:18240 VST.msl.log_normalize <> modus_ponens thm
+R18212:18220 VST.msl.log_normalize <> andp_comm thm
+R18212:18220 VST.msl.log_normalize <> andp_comm thm
+R18229:18240 VST.msl.log_normalize <> modus_ponens thm
+prf 18255:18264 RAMIF_Q' frame_post
+binder 18275:18275 <> B:224
+binder 18278:18278 <> g:225
+binder 18280:18280 <> l:226
+R18295:18298 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18299:18299 VST.msl.ramification_lemmas <> RAMIF_Q'.RAMIF_Q'.A var
+R18294:18294 VST.msl.ramification_lemmas <> B:224 var
+binder 18283:18283 <> p:227
+binder 18285:18286 <> g':228
+binder 18288:18289 <> l':229
+binder 18291:18291 <> F:230
+R18305:18305 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18332:18338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18372:18377 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18379:18383 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R18378:18378 VST.msl.ramification_lemmas <> g:225 var
+R18385:18387 VST.msl.seplog <> ::logic:x_'*'_x not
+R18384:18384 VST.msl.ramification_lemmas <> l:226 var
+R18388:18391 VST.msl.seplog <> allp meth
+R18395:18400 VST.msl.seplog <> ::logic:x_'-->'_x not
+R18417:18417 VST.msl.seplog <> ::logic:x_'-->'_x not
+R18394:18394 VST.msl.ramification_lemmas <> p:227 var
+R18407:18410 VST.msl.seplog <> ::logic:x_'-*'_x not
+R18403:18405 VST.msl.seplog <> ::logic:x_'*'_x not
+R18401:18402 VST.msl.ramification_lemmas <> l':229 var
+R18406:18406 VST.msl.ramification_lemmas <> F:230 var
+R18413:18415 VST.msl.seplog <> ::logic:x_'*'_x not
+R18411:18412 VST.msl.ramification_lemmas <> g':228 var
+R18416:18416 VST.msl.ramification_lemmas <> F:230 var
+R18340:18344 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R18339:18339 VST.msl.ramification_lemmas <> g:225 var
+R18346:18348 VST.msl.seplog <> ::logic:x_'*'_x not
+R18345:18345 VST.msl.ramification_lemmas <> l:226 var
+R18349:18352 VST.msl.seplog <> allp meth
+R18356:18361 VST.msl.seplog <> ::logic:x_'-->'_x not
+R18370:18370 VST.msl.seplog <> ::logic:x_'-->'_x not
+R18355:18355 VST.msl.ramification_lemmas <> p:227 var
+R18364:18367 VST.msl.seplog <> ::logic:x_'-*'_x not
+R18362:18363 VST.msl.ramification_lemmas <> l':229 var
+R18368:18369 VST.msl.ramification_lemmas <> g':228 var
+R18316:18316 VST.msl.ramification_lemmas <> B:224 var
+binder 18313:18313 <> x:231
+R18319:18325 VST.msl.seplog <> corable meth
+R18328:18328 VST.msl.ramification_lemmas <> p:227 var
+R18330:18330 VST.msl.ramification_lemmas <> x:231 var
+R18458:18461 VST.msl.seplog <> allp meth
+R18465:18470 VST.msl.seplog <> ::logic:x_'-->'_x not
+R18479:18479 VST.msl.seplog <> ::logic:x_'-->'_x not
+R18473:18476 VST.msl.seplog <> ::logic:x_'-*'_x not
+R18446:18450 VST.msl.ramification_lemmas RAMIF_Q' solve thm
+R18458:18461 VST.msl.seplog <> allp meth
+R18465:18470 VST.msl.seplog <> ::logic:x_'-->'_x not
+R18479:18479 VST.msl.seplog <> ::logic:x_'-->'_x not
+R18473:18476 VST.msl.seplog <> ::logic:x_'-*'_x not
+R18446:18450 VST.msl.ramification_lemmas RAMIF_Q' solve thm
+R18541:18560 VST.msl.seplog <> corable_andp_sepcon1 meth
+R18541:18560 VST.msl.seplog <> corable_andp_sepcon1 meth
+R18541:18560 VST.msl.seplog <> corable_andp_sepcon1 meth
+R18541:18560 VST.msl.seplog <> corable_andp_sepcon1 meth
+R18586:18597 VST.msl.seplog <> sepcon_assoc meth
+R18586:18597 VST.msl.seplog <> sepcon_assoc meth
+R18586:18597 VST.msl.seplog <> sepcon_assoc meth
+R18610:18623 VST.msl.seplog <> sepcon_derives meth
+R18635:18645 VST.msl.seplog <> sepcon_comm meth
+R18610:18623 VST.msl.seplog <> sepcon_derives meth
+R18635:18645 VST.msl.seplog <> sepcon_comm meth
+R18635:18645 VST.msl.seplog <> sepcon_comm meth
+R18668:18678 VST.msl.seplog <> sepcon_comm meth
+R18687:18705 VST.msl.seplog <> wand_sepcon_adjoint meth
+R18668:18678 VST.msl.seplog <> sepcon_comm meth
+R18668:18678 VST.msl.seplog <> sepcon_comm meth
+R18687:18705 VST.msl.seplog <> wand_sepcon_adjoint meth
+R18720:18728 VST.msl.log_normalize <> andp_comm thm
+R18737:18752 VST.msl.seplog <> imp_andp_adjoint meth
+R18762:18770 VST.msl.seplog <> allp_left meth
+R18784:18799 VST.msl.seplog <> imp_andp_adjoint meth
+R18720:18728 VST.msl.log_normalize <> andp_comm thm
+R18720:18728 VST.msl.log_normalize <> andp_comm thm
+R18737:18752 VST.msl.seplog <> imp_andp_adjoint meth
+R18762:18770 VST.msl.seplog <> allp_left meth
+R18784:18799 VST.msl.seplog <> imp_andp_adjoint meth
+R18814:18822 VST.msl.log_normalize <> andp_comm thm
+R18831:18842 VST.msl.log_normalize <> modus_ponens thm
+R18814:18822 VST.msl.log_normalize <> andp_comm thm
+R18814:18822 VST.msl.log_normalize <> andp_comm thm
+R18831:18842 VST.msl.log_normalize <> modus_ponens thm
+prf 18857:18865 RAMIF_Q' frame_pre
+binder 18876:18876 <> B:232
+binder 18879:18879 <> g:233
+binder 18881:18881 <> l:234
+R18894:18897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18898:18898 VST.msl.ramification_lemmas <> RAMIF_Q'.RAMIF_Q'.A var
+R18893:18893 VST.msl.ramification_lemmas <> B:232 var
+binder 18884:18884 <> p:235
+binder 18886:18887 <> g':236
+binder 18889:18890 <> l':237
+binder 18901:18901 <> F:238
+R18906:18906 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18933:18939 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18973:18978 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18984:18988 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R18980:18982 VST.msl.seplog <> ::logic:x_'*'_x not
+R18979:18979 VST.msl.ramification_lemmas <> g:233 var
+R18983:18983 VST.msl.ramification_lemmas <> F:238 var
+R18989:18989 VST.msl.seplog <> ::logic:x_'*'_x not
+R18995:18998 VST.msl.seplog <> ::logic:x_'*'_x not
+R18991:18993 VST.msl.seplog <> ::logic:x_'*'_x not
+R18990:18990 VST.msl.ramification_lemmas <> l:234 var
+R18994:18994 VST.msl.ramification_lemmas <> F:238 var
+R18999:19002 VST.msl.seplog <> allp meth
+R19006:19011 VST.msl.seplog <> ::logic:x_'-->'_x not
+R19020:19020 VST.msl.seplog <> ::logic:x_'-->'_x not
+R19005:19005 VST.msl.ramification_lemmas <> p:235 var
+R19014:19017 VST.msl.seplog <> ::logic:x_'-*'_x not
+R19012:19013 VST.msl.ramification_lemmas <> l':237 var
+R19018:19019 VST.msl.ramification_lemmas <> g':236 var
+R18941:18945 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R18940:18940 VST.msl.ramification_lemmas <> g:233 var
+R18947:18949 VST.msl.seplog <> ::logic:x_'*'_x not
+R18946:18946 VST.msl.ramification_lemmas <> l:234 var
+R18950:18953 VST.msl.seplog <> allp meth
+R18957:18962 VST.msl.seplog <> ::logic:x_'-->'_x not
+R18971:18971 VST.msl.seplog <> ::logic:x_'-->'_x not
+R18956:18956 VST.msl.ramification_lemmas <> p:235 var
+R18965:18968 VST.msl.seplog <> ::logic:x_'-*'_x not
+R18963:18964 VST.msl.ramification_lemmas <> l':237 var
+R18969:18970 VST.msl.ramification_lemmas <> g':236 var
+R18917:18917 VST.msl.ramification_lemmas <> B:232 var
+binder 18914:18914 <> x:239
+R18920:18926 VST.msl.seplog <> corable meth
+R18929:18929 VST.msl.ramification_lemmas <> p:235 var
+R18931:18931 VST.msl.ramification_lemmas <> x:239 var
+R19061:19064 VST.msl.seplog <> allp meth
+R19068:19073 VST.msl.seplog <> ::logic:x_'-->'_x not
+R19082:19082 VST.msl.seplog <> ::logic:x_'-->'_x not
+R19076:19079 VST.msl.seplog <> ::logic:x_'-*'_x not
+R19049:19053 VST.msl.ramification_lemmas RAMIF_Q' solve thm
+R19061:19064 VST.msl.seplog <> allp meth
+R19068:19073 VST.msl.seplog <> ::logic:x_'-->'_x not
+R19082:19082 VST.msl.seplog <> ::logic:x_'-->'_x not
+R19076:19079 VST.msl.seplog <> ::logic:x_'-*'_x not
+R19049:19053 VST.msl.ramification_lemmas RAMIF_Q' solve thm
+R19110:19120 VST.msl.seplog <> sepcon_comm meth
+R19128:19139 VST.msl.seplog <> sepcon_assoc meth
+R19143:19153 VST.msl.seplog <> sepcon_comm meth
+R19110:19120 VST.msl.seplog <> sepcon_comm meth
+R19110:19120 VST.msl.seplog <> sepcon_comm meth
+R19128:19139 VST.msl.seplog <> sepcon_assoc meth
+R19128:19139 VST.msl.seplog <> sepcon_assoc meth
+R19143:19153 VST.msl.seplog <> sepcon_comm meth
+R19143:19153 VST.msl.seplog <> sepcon_comm meth
+R19169:19182 VST.msl.seplog <> sepcon_derives meth
+R19169:19182 VST.msl.seplog <> sepcon_derives meth
+R19228:19247 VST.msl.seplog <> corable_andp_sepcon1 meth
+R19228:19247 VST.msl.seplog <> corable_andp_sepcon1 meth
+R19228:19247 VST.msl.seplog <> corable_andp_sepcon1 meth
+R19228:19247 VST.msl.seplog <> corable_andp_sepcon1 meth
+R19268:19286 VST.msl.seplog <> wand_sepcon_adjoint meth
+R19268:19286 VST.msl.seplog <> wand_sepcon_adjoint meth
+R19301:19309 VST.msl.log_normalize <> andp_comm thm
+R19318:19333 VST.msl.seplog <> imp_andp_adjoint meth
+R19343:19351 VST.msl.seplog <> allp_left meth
+R19365:19380 VST.msl.seplog <> imp_andp_adjoint meth
+R19301:19309 VST.msl.log_normalize <> andp_comm thm
+R19301:19309 VST.msl.log_normalize <> andp_comm thm
+R19318:19333 VST.msl.seplog <> imp_andp_adjoint meth
+R19343:19351 VST.msl.seplog <> allp_left meth
+R19365:19380 VST.msl.seplog <> imp_andp_adjoint meth
+R19395:19403 VST.msl.log_normalize <> andp_comm thm
+R19412:19423 VST.msl.log_normalize <> modus_ponens thm
+R19395:19403 VST.msl.log_normalize <> andp_comm thm
+R19395:19403 VST.msl.log_normalize <> andp_comm thm
+R19412:19423 VST.msl.log_normalize <> modus_ponens thm
+prf 19438:19446 RAMIF_Q' exp_right
+binder 19457:19457 <> T:240
+binder 19459:19459 <> B:241
+R19467:19470 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19471:19471 VST.msl.ramification_lemmas <> T:240 var
+R19466:19466 VST.msl.ramification_lemmas <> B:241 var
+binder 19463:19463 <> a:242
+binder 19474:19474 <> p:243
+binder 19476:19476 <> g:244
+binder 19478:19478 <> l:245
+R19486:19489 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19491:19494 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19495:19495 VST.msl.ramification_lemmas <> RAMIF_Q'.RAMIF_Q'.A var
+R19490:19490 VST.msl.ramification_lemmas <> B:241 var
+R19485:19485 VST.msl.ramification_lemmas <> T:240 var
+binder 19481:19482 <> g':246
+R19504:19507 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19508:19508 VST.msl.ramification_lemmas <> RAMIF_Q'.RAMIF_Q'.A var
+R19503:19503 VST.msl.ramification_lemmas <> B:241 var
+binder 19499:19500 <> l':247
+R19523:19528 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19581:19586 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19588:19592 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R19587:19587 VST.msl.ramification_lemmas <> g:244 var
+R19594:19596 VST.msl.seplog <> ::logic:x_'*'_x not
+R19593:19593 VST.msl.ramification_lemmas <> l:245 var
+R19597:19600 VST.msl.seplog <> allp meth
+R19604:19609 VST.msl.seplog <> ::logic:x_'-->'_x not
+R19622:19622 VST.msl.seplog <> ::logic:x_'-->'_x not
+R19603:19603 VST.msl.ramification_lemmas <> p:243 var
+R19612:19615 VST.msl.seplog <> ::logic:x_'-*'_x not
+R19610:19611 VST.msl.ramification_lemmas <> l':247 var
+R19616:19618 VST.msl.seplog <> exp meth
+R19620:19621 VST.msl.ramification_lemmas <> g':246 var
+R19530:19534 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R19529:19529 VST.msl.ramification_lemmas <> g:244 var
+R19536:19538 VST.msl.seplog <> ::logic:x_'*'_x not
+R19535:19535 VST.msl.ramification_lemmas <> l:245 var
+R19539:19542 VST.msl.seplog <> allp meth
+R19546:19551 VST.msl.seplog <> ::logic:x_'-->'_x not
+R19579:19579 VST.msl.seplog <> ::logic:x_'-->'_x not
+R19545:19545 VST.msl.ramification_lemmas <> p:243 var
+R19554:19558 VST.msl.seplog <> ::logic:x_'-*'_x not
+R19578:19578 VST.msl.seplog <> ::logic:x_'-*'_x not
+R19552:19553 VST.msl.ramification_lemmas <> l':247 var
+binder 19563:19563 <> b:248
+R19568:19569 VST.msl.ramification_lemmas <> g':246 var
+R19577:19577 VST.msl.ramification_lemmas <> b:248 var
+R19572:19572 VST.msl.ramification_lemmas <> a:242 var
+R19574:19574 VST.msl.ramification_lemmas <> b:248 var
+R19514:19520 VST.msl.seplog <> corable meth
+R19522:19522 VST.msl.ramification_lemmas <> p:243 var
+R19663:19666 VST.msl.seplog <> allp meth
+R19670:19675 VST.msl.seplog <> ::logic:x_'-->'_x not
+R19703:19703 VST.msl.seplog <> ::logic:x_'-->'_x not
+R19678:19682 VST.msl.seplog <> ::logic:x_'-*'_x not
+R19702:19702 VST.msl.seplog <> ::logic:x_'-*'_x not
+binder 19687:19687 <> b:249
+R19701:19701 VST.msl.ramification_lemmas <> b:249 var
+R19698:19698 VST.msl.ramification_lemmas <> b:249 var
+R19651:19655 VST.msl.ramification_lemmas RAMIF_Q' solve thm
+R19663:19666 VST.msl.seplog <> allp meth
+R19670:19675 VST.msl.seplog <> ::logic:x_'-->'_x not
+R19703:19703 VST.msl.seplog <> ::logic:x_'-->'_x not
+R19678:19682 VST.msl.seplog <> ::logic:x_'-*'_x not
+R19702:19702 VST.msl.seplog <> ::logic:x_'-*'_x not
+binder 19687:19687 <> b:250
+R19701:19701 VST.msl.ramification_lemmas <> b:250 var
+R19698:19698 VST.msl.ramification_lemmas <> b:250 var
+R19651:19655 VST.msl.ramification_lemmas RAMIF_Q' solve thm
+R19737:19756 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R19737:19756 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R19737:19756 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R19775:19793 VST.msl.seplog <> wand_sepcon_adjoint meth
+R19775:19793 VST.msl.seplog <> wand_sepcon_adjoint meth
+R19805:19813 VST.msl.seplog <> allp_left meth
+R19805:19813 VST.msl.seplog <> allp_left meth
+R19838:19856 VST.msl.seplog <> wand_sepcon_adjoint meth
+R19838:19856 VST.msl.seplog <> wand_sepcon_adjoint meth
+R19869:19888 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R19869:19888 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R19869:19888 VST.msl.log_normalize <> corable_sepcon_andp1 thm
+R19912:19931 VST.msl.seplog <> corable_andp_sepcon1 meth
+R19912:19931 VST.msl.seplog <> corable_andp_sepcon1 meth
+R19912:19931 VST.msl.seplog <> corable_andp_sepcon1 meth
+R19951:19963 VST.msl.seplog <> derives_trans meth
+R19973:19986 VST.msl.seplog <> sepcon_derives meth
+R19996:20007 VST.msl.log_normalize <> modus_ponens thm
+R20017:20028 VST.msl.seplog <> derives_refl meth
+R19951:19963 VST.msl.seplog <> derives_trans meth
+R19973:19986 VST.msl.seplog <> sepcon_derives meth
+R19996:20007 VST.msl.log_normalize <> modus_ponens thm
+R20017:20028 VST.msl.seplog <> derives_refl meth
+R20043:20061 VST.msl.seplog <> wand_sepcon_adjoint meth
+R20043:20061 VST.msl.seplog <> wand_sepcon_adjoint meth
+R20072:20083 VST.msl.log_normalize <> wand_derives thm
+R20072:20083 VST.msl.log_normalize <> wand_derives thm
+R20101:20109 VST.msl.seplog <> exp_right meth
+R20101:20109 VST.msl.seplog <> exp_right meth
+R20135:20142 VST.msl.ramification_lemmas RAMIF_Q'.RAMIF_Q' <> sec
+R20190:20196 VST.msl.seplog <> derives meth
+R20212:20214 VST.msl.seplog <> ::logic:x_'*'_x not
+R20216:20219 VST.msl.seplog <> allp meth
+R20190:20196 VST.msl.seplog <> derives meth
+R20212:20214 VST.msl.seplog <> ::logic:x_'*'_x not
+R20216:20219 VST.msl.seplog <> allp meth
+R20280:20283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20332:20335 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20384:20387 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20469:20471 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20473:20478 VST.msl.seplog <> ::logic:x_'-->'_x not
+R20487:20487 VST.msl.seplog <> ::logic:x_'-->'_x not
+R20481:20484 VST.msl.seplog <> ::logic:x_'-*'_x not
+R20595:20597 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20574:20579 VST.msl.seplog <> ::logic:x_'-->'_x not
+R20594:20594 VST.msl.seplog <> ::logic:x_'-->'_x not
+R20583:20586 VST.msl.seplog <> ::logic:x_'-*'_x not
+R20587:20589 VST.msl.seplog <> exp meth
+R20595:20597 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20574:20579 VST.msl.seplog <> ::logic:x_'-->'_x not
+R20594:20594 VST.msl.seplog <> ::logic:x_'-->'_x not
+R20583:20586 VST.msl.seplog <> ::logic:x_'-*'_x not
+R20587:20589 VST.msl.seplog <> exp meth
+R20714:20716 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20697:20702 VST.msl.seplog <> ::logic:x_'-->'_x not
+R20713:20713 VST.msl.seplog <> ::logic:x_'-->'_x not
+R20706:20709 VST.msl.seplog <> ::logic:x_'-*'_x not
+R20714:20716 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20697:20702 VST.msl.seplog <> ::logic:x_'-->'_x not
+R20713:20713 VST.msl.seplog <> ::logic:x_'-->'_x not
+R20706:20709 VST.msl.seplog <> ::logic:x_'-*'_x not
+R20885:20887 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20847:20852 VST.msl.seplog <> ::logic:x_'-->'_x not
+R20884:20884 VST.msl.seplog <> ::logic:x_'-->'_x not
+R20858:20861 VST.msl.seplog <> ::logic:x_'-*'_x not
+R20862:20864 VST.msl.seplog <> exp meth
+binder 20871:20871 <> a:251
+R20880:20880 VST.msl.ramification_lemmas <> a:251 var
+R20885:20887 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20847:20852 VST.msl.seplog <> ::logic:x_'-->'_x not
+R20884:20884 VST.msl.seplog <> ::logic:x_'-->'_x not
+R20858:20861 VST.msl.seplog <> ::logic:x_'-*'_x not
+R20862:20864 VST.msl.seplog <> exp meth
+binder 20871:20871 <> a:252
+R20880:20880 VST.msl.ramification_lemmas <> a:252 var
+R21091:21093 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21070:21075 VST.msl.seplog <> ::logic:x_'-->'_x not
+R21090:21090 VST.msl.seplog <> ::logic:x_'-->'_x not
+R21081:21084 VST.msl.seplog <> ::logic:x_'-*'_x not
+R21091:21093 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21070:21075 VST.msl.seplog <> ::logic:x_'-->'_x not
+R21090:21090 VST.msl.seplog <> ::logic:x_'-->'_x not
+R21081:21084 VST.msl.seplog <> ::logic:x_'-*'_x not
+R21028:21030 VST.msl.seplog <> exp meth
+R21366:21373 VST.msl.ramification_lemmas RAMIF_Q' <> mod

@@ -1,0 +1,243 @@
+DIGEST 2c93d1a02cccda32ea085e0c5e1bfabe
+FVST.floyd.base2
+R15:28 VST.floyd.base <> <> lib
+R46:71 VST.floyd.typecheck_lemmas <> <> lib
+R89:113 VST.floyd.functional_base <> <> lib
+R131:154 VST.floyd.seplog_tactics <> <> lib
+R172:196 VST.floyd.const_only_eval <> <> lib
+R214:243 VST.floyd.computable_functions <> <> lib
+def 256:264 <> delete_id
+binder 267:267 <> A:1
+binder 276:276 <> i:2
+R283:286 Coq.Init.Datatypes <> list ind
+R294:294 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R289:293 compcert.common.AST <> ident def
+R295:295 VST.floyd.base2 <> A:1 var
+binder 279:280 <> al:3
+R301:306 Coq.Init.Datatypes <> option ind
+R310:312 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R309:309 VST.floyd.base2 <> A:1 var
+R313:316 Coq.Init.Datatypes <> list ind
+R324:324 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R319:323 compcert.common.AST <> ident def
+R325:325 VST.floyd.base2 <> A:1 var
+R339:340 VST.floyd.base2 <> al:3 var
+R355:356 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R350:350 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R352:352 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R354:354 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R366:373 compcert.common.AST <> ident_eq def
+R375:375 VST.floyd.base2 <> i:2 var
+R423:431 VST.floyd.base2 <> delete_id:4 def
+R433:433 VST.floyd.base2 <> i:2 var
+R469:472 Coq.Init.Datatypes <> None constr
+R477:480 Coq.Init.Datatypes <> None constr
+R508:511 Coq.Init.Datatypes <> Some constr
+R513:513 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R515:515 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R518:518 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R523:526 Coq.Init.Datatypes <> Some constr
+R528:528 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R530:531 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R541:541 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R537:538 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R532:532 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R534:534 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R536:536 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R384:387 Coq.Init.Datatypes <> Some constr
+R389:389 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R391:391 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R394:394 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R575:577 Coq.Init.Datatypes <> nil constr
+R582:585 Coq.Init.Datatypes <> None constr
+ind 604:613 <> Impossible
+def 639:650 <> cc_of_fundef
+R657:669 compcert.cfrontend.Clight <> fundef def
+binder 653:654 <> fd:8
+R674:691 compcert.common.AST <> calling_convention rec
+R703:704 VST.floyd.base2 <> fd:8 var
+R714:721 compcert.cfrontend.Ctypes <> Internal constr
+R728:738 compcert.cfrontend.Clight <> fn_callconv proj
+R745:752 compcert.cfrontend.Ctypes <> External constr
+def 785:800 <> funsig_of_fundef
+R807:819 compcert.cfrontend.Clight <> fundef def
+binder 803:804 <> fd:10
+R824:829 VST.veric.SeparationLogic <> funsig def
+R841:842 VST.floyd.base2 <> fd:10 var
+R852:859 compcert.cfrontend.Ctypes <> Internal constr
+R864:872 compcert.cfrontend.Clight <> fn_return proj
+R864:872 compcert.cfrontend.Clight <> fn_return proj
+R888:896 compcert.cfrontend.Clight <> fn_params proj
+R921:921 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R931:932 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R942:942 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R947:954 compcert.cfrontend.Ctypes <> External constr
+R968:968 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R980:981 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R984:984 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R969:975 VST.veric.SeparationLogic <> arglist def
+def 1004:1018 <> vacuous_funspec
+R1025:1037 compcert.cfrontend.Clight <> fundef def
+binder 1021:1022 <> fd:12
+R1041:1047 VST.veric.mpred <> funspec ind
+R1055:1064 VST.veric.mpred <> mk_funspec constr
+R1244:1268 VST.veric.mpred <> const_super_non_expansive def
+R1207:1236 VST.veric.mpred <> args_const_super_non_expansive def
+R1202:1203 VST.msl.seplog <> FF meth
+R1186:1187 VST.msl.seplog <> FF meth
+R1146:1160 VST.veric.rmaps <> ConstType constr
+R1162:1171 VST.floyd.base2 <> Impossible ind
+R1124:1135 VST.floyd.base2 <> cc_of_fundef def
+R1137:1138 VST.floyd.base2 <> fd:12 var
+R1067:1098 VST.veric.compcert_rmaps <> typesig_of_funsig def
+R1101:1116 VST.floyd.base2 <> funsig_of_fundef def
+R1118:1119 VST.floyd.base2 <> fd:12 var
+def 1287:1307 <> augment_funspecs_new'
+R1315:1318 Coq.Init.Datatypes <> list ind
+R1326:1328 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1321:1325 compcert.common.AST <> ident def
+R1329:1341 compcert.cfrontend.Clight <> fundef def
+binder 1310:1312 <> fds:13
+R1349:1355 compcert.lib.Maps PTree t def
+R1357:1363 VST.veric.mpred <> funspec ind
+binder 1346:1346 <> G:14
+R1368:1373 Coq.Init.Datatypes <> option ind
+R1375:1382 VST.veric.mpred <> funspecs def
+R1394:1396 VST.floyd.base2 <> fds:13 var
+R1412:1413 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1406:1406 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1408:1408 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1411:1411 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1428:1436 compcert.lib.Maps PTree get def
+R1440:1440 VST.floyd.base2 <> G:14 var
+R1472:1475 Coq.Init.Datatypes <> Some constr
+R1518:1538 VST.floyd.base2 <> augment_funspecs_new':15 def
+R1546:1557 compcert.lib.Maps PTree remove def
+R1561:1561 VST.floyd.base2 <> G:14 var
+R1602:1605 Coq.Init.Datatypes <> Some constr
+R1613:1616 Coq.Init.Datatypes <> Some constr
+R1624:1625 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1619:1619 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1621:1621 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1623:1623 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1663:1666 Coq.Init.Datatypes <> None constr
+R1671:1674 Coq.Init.Datatypes <> None constr
+R1735:1738 Coq.Init.Datatypes <> None constr
+R1779:1799 VST.floyd.base2 <> augment_funspecs_new':15 def
+R1806:1806 VST.floyd.base2 <> G:14 var
+R1846:1849 Coq.Init.Datatypes <> Some constr
+R1857:1860 Coq.Init.Datatypes <> Some constr
+R1886:1887 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1863:1863 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1865:1866 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1885:1885 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1867:1881 VST.floyd.base2 <> vacuous_funspec def
+R1925:1928 Coq.Init.Datatypes <> None constr
+R1933:1936 Coq.Init.Datatypes <> None constr
+R2003:2005 Coq.Init.Datatypes <> nil constr
+R2016:2029 compcert.lib.Maps PTree elements def
+R2031:2031 VST.floyd.base2 <> G:14 var
+R2038:2040 Coq.Init.Datatypes <> nil constr
+R2045:2048 Coq.Init.Datatypes <> Some constr
+R2050:2052 Coq.Init.Datatypes <> nil constr
+R2057:2058 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2064:2067 Coq.Init.Datatypes <> None constr
+def 2091:2110 <> augment_funspecs_new
+binder 2112:2115 <> prog:17
+R2120:2127 VST.veric.mpred <> funspecs def
+binder 2118:2118 <> G:18
+R2132:2139 VST.veric.mpred <> funspecs def
+R2156:2164 Coq.Lists.List <> fold_left def
+R2213:2223 compcert.lib.Maps PTree empty def
+R2210:2210 VST.floyd.base2 <> G:18 var
+binder 2171:2171 <> t:19
+binder 2173:2174 <> ia:20
+R2179:2187 compcert.lib.Maps PTree set def
+R2207:2207 VST.floyd.base2 <> t:19 var
+R2199:2201 Coq.Init.Datatypes <> snd def
+R2203:2204 VST.floyd.base2 <> ia:20 var
+R2190:2192 Coq.Init.Datatypes <> fst def
+R2194:2195 VST.floyd.base2 <> ia:20 var
+binder 2149:2150 <> Gt:21
+R2238:2258 VST.floyd.base2 <> augment_funspecs_new' def
+R2278:2279 VST.floyd.base2 <> Gt:21 var
+R2261:2270 VST.veric.SeparationLogic <> prog_funct def
+R2272:2275 VST.floyd.base2 <> prog:17 var
+R2289:2292 Coq.Init.Datatypes <> Some constr
+R2306:2309 Coq.Init.Datatypes <> None constr
+R2314:2316 Coq.Init.Datatypes <> nil constr
+def 2334:2350 <> augment_funspecs'
+R2358:2361 Coq.Init.Datatypes <> list ind
+R2369:2371 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2364:2368 compcert.common.AST <> ident def
+R2372:2384 compcert.cfrontend.Clight <> fundef def
+binder 2353:2355 <> fds:22
+R2391:2398 VST.veric.mpred <> funspecs def
+binder 2389:2389 <> G:23
+R2403:2408 Coq.Init.Datatypes <> option ind
+R2410:2417 VST.veric.mpred <> funspecs def
+R2429:2431 VST.floyd.base2 <> fds:22 var
+R2447:2448 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2441:2441 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2443:2443 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2446:2446 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2463:2471 VST.floyd.base2 <> delete_id def
+R2475:2475 VST.floyd.base2 <> G:23 var
+R2507:2510 Coq.Init.Datatypes <> Some constr
+R2512:2512 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2514:2515 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2518:2518 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2559:2575 VST.floyd.base2 <> augment_funspecs':24 def
+R2623:2626 Coq.Init.Datatypes <> Some constr
+R2634:2637 Coq.Init.Datatypes <> Some constr
+R2645:2646 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2640:2640 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2642:2642 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2644:2644 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2684:2687 Coq.Init.Datatypes <> None constr
+R2692:2695 Coq.Init.Datatypes <> None constr
+R2756:2759 Coq.Init.Datatypes <> None constr
+R2800:2816 VST.floyd.base2 <> augment_funspecs':24 def
+R2823:2823 VST.floyd.base2 <> G:23 var
+R2863:2866 Coq.Init.Datatypes <> Some constr
+R2874:2877 Coq.Init.Datatypes <> Some constr
+R2903:2904 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2880:2880 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2882:2883 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2902:2902 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2884:2898 VST.floyd.base2 <> vacuous_funspec def
+R2942:2945 Coq.Init.Datatypes <> None constr
+R2950:2953 Coq.Init.Datatypes <> None constr
+R3020:3022 Coq.Init.Datatypes <> nil constr
+R3033:3033 VST.floyd.base2 <> G:23 var
+R3040:3042 Coq.Init.Datatypes <> nil constr
+R3047:3050 Coq.Init.Datatypes <> Some constr
+R3052:3054 Coq.Init.Datatypes <> nil constr
+R3059:3060 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3066:3069 Coq.Init.Datatypes <> None constr
+def 3093:3108 <> augment_funspecs
+binder 3110:3113 <> prog:27
+binder 3115:3115 <> G:28
+R3119:3126 VST.veric.mpred <> funspecs def
+R3138:3154 VST.floyd.base2 <> augment_funspecs' def
+R3174:3174 VST.floyd.base2 <> G:28 var
+R3157:3166 VST.veric.SeparationLogic <> prog_funct def
+R3168:3171 VST.floyd.base2 <> prog:27 var
+R3184:3187 Coq.Init.Datatypes <> Some constr
+R3201:3204 Coq.Init.Datatypes <> None constr
+R3209:3211 Coq.Init.Datatypes <> nil constr
+prf 3226:3243 <> decidable_eq_ident
+R3246:3265 Coq.Lists.ListDec <> decidable_eq def
+R3267:3271 compcert.common.AST <> ident def
+R3308:3315 compcert.common.AST <> ident_eq def
+R3308:3315 compcert.common.AST <> ident_eq def
+prf 3341:3363 <> augment_funspecs_new_eq
+binder 3373:3376 <> prog:29
+binder 3378:3378 <> G:30
+R3410:3412 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3383:3402 VST.floyd.base2 <> augment_funspecs_new def
+R3409:3409 VST.floyd.base2 <> G:30 var
+R3404:3407 VST.floyd.base2 <> prog:29 var
+R3413:3428 VST.floyd.base2 <> augment_funspecs def
+R3435:3435 VST.floyd.base2 <> G:30 var
+R3430:3433 VST.floyd.base2 <> prog:29 var

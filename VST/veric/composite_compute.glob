@@ -1,0 +1,1505 @@
+DIGEST df4b843031a94875ebcce0982cf00c12
+FVST.veric.composite_compute
+R15:37 Coq.Sorting.Permutation <> <> lib
+R55:73 Coq.Sorting.Sorting <> <> lib
+R91:111 Coq.Structures.Orders <> <> lib
+R129:142 VST.veric.base <> <> lib
+R161:185 compcert.cfrontend.Ctypes <> <> lib
+prf 281:298 <> list_norepet_NoDup
+binder 309:309 <> A:1
+R322:325 Coq.Init.Datatypes <> list ind
+R327:327 VST.veric.composite_compute <> A:1 var
+binder 319:319 <> l:2
+R345:349 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R331:342 compcert.lib.Coqlib <> list_norepet ind
+R344:344 VST.veric.composite_compute <> l:2 var
+R350:354 Coq.Lists.List <> NoDup ind
+R356:356 VST.veric.composite_compute <> l:2 var
+prf 432:452 <> PTree_In_fst_elements
+binder 455:455 <> A:3
+R476:482 compcert.lib.Maps PTree t def
+R484:484 VST.veric.composite_compute <> A:3 var
+binder 473:473 <> T:4
+binder 487:487 <> i:5
+R525:529 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R492:493 Coq.Lists.List <> In def
+R498:500 Coq.Lists.List <> map def
+R507:520 compcert.lib.Maps PTree elements def
+R522:522 VST.veric.composite_compute <> T:4 var
+R502:504 Coq.Init.Datatypes <> fst def
+R495:495 VST.veric.composite_compute <> i:5 var
+R530:536 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R538:539 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 537:537 <> a:6
+R553:555 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R540:548 compcert.lib.Maps PTree get def
+R552:552 VST.veric.composite_compute <> T:4 var
+R550:550 VST.veric.composite_compute <> i:5 var
+R556:559 Coq.Init.Datatypes <> Some constr
+R561:561 VST.veric.composite_compute <> a:6 var
+R608:622 compcert.lib.Coqlib <> list_in_map_inv thm
+R608:622 compcert.lib.Coqlib <> list_in_map_inv thm
+R700:722 compcert.lib.Maps PTree elements_complete thm
+R700:722 compcert.lib.Maps PTree elements_complete thm
+R777:798 compcert.lib.Maps PTree elements_correct thm
+R777:798 compcert.lib.Maps PTree elements_correct thm
+R817:822 Coq.Lists.List <> in_map thm
+R824:826 Coq.Init.Datatypes <> fst def
+R817:822 Coq.Lists.List <> in_map thm
+R824:826 Coq.Init.Datatypes <> fst def
+prf 857:864 <> PTree_gs
+binder 867:867 <> A:7
+R888:894 compcert.lib.Maps PTree t def
+R896:896 VST.veric.composite_compute <> A:7 var
+binder 885:885 <> T:8
+binder 899:899 <> i:9
+binder 901:901 <> j:10
+binder 903:903 <> x:11
+R908:908 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R940:946 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R947:953 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R955:956 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 954:954 <> a:12
+R986:988 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R957:965 compcert.lib.Maps PTree get def
+R970:978 compcert.lib.Maps PTree set def
+R984:984 VST.veric.composite_compute <> T:8 var
+R982:982 VST.veric.composite_compute <> x:11 var
+R980:980 VST.veric.composite_compute <> j:10 var
+R967:967 VST.veric.composite_compute <> i:9 var
+R989:992 Coq.Init.Datatypes <> Some constr
+R994:994 VST.veric.composite_compute <> a:12 var
+R909:915 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R917:918 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 916:916 <> a:13
+R932:933 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R919:927 compcert.lib.Maps PTree get def
+R931:931 VST.veric.composite_compute <> T:8 var
+R929:929 VST.veric.composite_compute <> i:9 var
+R934:937 Coq.Init.Datatypes <> Some constr
+R939:939 VST.veric.composite_compute <> a:13 var
+R1040:1049 Coq.PArith.BinPos Pos eq_dec thm
+R1040:1049 Coq.PArith.BinPos Pos eq_dec thm
+R1080:1088 compcert.lib.Maps PTree gss thm
+R1080:1088 compcert.lib.Maps PTree gss thm
+R1080:1088 compcert.lib.Maps PTree gss thm
+R1110:1118 compcert.lib.Maps PTree gso thm
+R1110:1118 compcert.lib.Maps PTree gso thm
+R1110:1118 compcert.lib.Maps PTree gso thm
+R1110:1118 compcert.lib.Maps PTree gso thm
+prf 1140:1153 <> PTree_gs_equiv
+binder 1156:1156 <> A:14
+R1177:1183 compcert.lib.Maps PTree t def
+R1185:1185 VST.veric.composite_compute <> A:14 var
+binder 1174:1174 <> T:15
+binder 1188:1188 <> i:16
+binder 1190:1190 <> j:17
+binder 1192:1192 <> x:18
+R1239:1245 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1197:1197 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1229:1233 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1198:1204 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1206:1207 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1205:1205 <> a:19
+R1221:1222 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1208:1216 compcert.lib.Maps PTree get def
+R1220:1220 VST.veric.composite_compute <> T:15 var
+R1218:1218 VST.veric.composite_compute <> i:16 var
+R1223:1226 Coq.Init.Datatypes <> Some constr
+R1228:1228 VST.veric.composite_compute <> a:19 var
+R1235:1237 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1234:1234 VST.veric.composite_compute <> i:16 var
+R1238:1238 VST.veric.composite_compute <> j:17 var
+R1246:1252 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1254:1255 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1253:1253 <> a:20
+R1285:1287 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1256:1264 compcert.lib.Maps PTree get def
+R1269:1277 compcert.lib.Maps PTree set def
+R1283:1283 VST.veric.composite_compute <> T:15 var
+R1281:1281 VST.veric.composite_compute <> x:18 var
+R1279:1279 VST.veric.composite_compute <> j:17 var
+R1266:1266 VST.veric.composite_compute <> i:16 var
+R1288:1291 Coq.Init.Datatypes <> Some constr
+R1293:1293 VST.veric.composite_compute <> a:20 var
+R1353:1360 VST.veric.composite_compute <> PTree_gs thm
+R1353:1360 VST.veric.composite_compute <> PTree_gs thm
+R1391:1399 compcert.lib.Maps PTree gss thm
+R1391:1399 compcert.lib.Maps PTree gss thm
+R1391:1399 compcert.lib.Maps PTree gss thm
+R1423:1432 Coq.PArith.BinPos Pos eq_dec thm
+R1423:1432 Coq.PArith.BinPos Pos eq_dec thm
+R1458:1466 compcert.lib.Maps PTree gso thm
+R1458:1466 compcert.lib.Maps PTree gso thm
+R1458:1466 compcert.lib.Maps PTree gso thm
+prf 1504:1528 <> PTree_set_In_fst_elements
+binder 1531:1531 <> A:21
+R1552:1558 compcert.lib.Maps PTree t def
+R1560:1560 VST.veric.composite_compute <> A:21 var
+binder 1549:1549 <> T:22
+binder 1563:1563 <> i:23
+binder 1565:1566 <> i':24
+binder 1568:1569 <> a':25
+R1607:1612 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1613:1614 Coq.Lists.List <> In def
+R1619:1621 Coq.Lists.List <> map def
+R1628:1641 compcert.lib.Maps PTree elements def
+R1644:1652 compcert.lib.Maps PTree set def
+R1660:1660 VST.veric.composite_compute <> T:22 var
+R1657:1658 VST.veric.composite_compute <> a':25 var
+R1654:1655 VST.veric.composite_compute <> i':24 var
+R1623:1625 Coq.Init.Datatypes <> fst def
+R1616:1616 VST.veric.composite_compute <> i:23 var
+R1574:1575 Coq.Lists.List <> In def
+R1580:1582 Coq.Lists.List <> map def
+R1589:1602 compcert.lib.Maps PTree elements def
+R1604:1604 VST.veric.composite_compute <> T:22 var
+R1584:1586 Coq.Init.Datatypes <> fst def
+R1577:1577 VST.veric.composite_compute <> i:23 var
+R1693:1713 VST.veric.composite_compute <> PTree_In_fst_elements thm
+R1693:1713 VST.veric.composite_compute <> PTree_In_fst_elements thm
+R1693:1713 VST.veric.composite_compute <> PTree_In_fst_elements thm
+R1734:1741 VST.veric.composite_compute <> PTree_gs thm
+R1734:1741 VST.veric.composite_compute <> PTree_gs thm
+def 1767:1787 <> relative_defined_type
+binder 1790:1790 <> A:26
+R1803:1806 Coq.Init.Datatypes <> list ind
+R1814:1816 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1809:1813 compcert.common.AST <> ident def
+R1817:1817 VST.veric.composite_compute <> A:26 var
+binder 1800:1800 <> l:27
+R1825:1828 compcert.cfrontend.Ctypes <> type ind
+binder 1822:1822 <> t:28
+R1848:1848 VST.veric.composite_compute <> t:28 var
+R1859:1864 compcert.cfrontend.Ctypes <> Tarray constr
+R1876:1896 VST.veric.composite_compute <> relative_defined_type:29 def
+R1898:1898 VST.veric.composite_compute <> l:27 var
+R1907:1913 compcert.cfrontend.Ctypes <> Tstruct constr
+R1923:1924 Coq.Lists.List <> In def
+R1930:1932 Coq.Lists.List <> map def
+R1938:1938 VST.veric.composite_compute <> l:27 var
+R1934:1936 Coq.Init.Datatypes <> fst def
+R1945:1950 compcert.cfrontend.Ctypes <> Tunion constr
+R1960:1961 Coq.Lists.List <> In def
+R1967:1969 Coq.Lists.List <> map def
+R1975:1975 VST.veric.composite_compute <> l:27 var
+R1971:1973 Coq.Init.Datatypes <> fst def
+R1987:1990 Coq.Init.Logic <> True ind
+prf 2006:2031 <> relative_defined_type_mono
+binder 2042:2042 <> A:31
+binder 2044:2044 <> B:32
+R2058:2061 Coq.Init.Datatypes <> list ind
+R2069:2071 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2064:2068 compcert.common.AST <> ident def
+R2072:2072 VST.veric.composite_compute <> A:31 var
+binder 2054:2055 <> l1:33
+R2081:2084 Coq.Init.Datatypes <> list ind
+R2092:2094 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2087:2091 compcert.common.AST <> ident def
+R2095:2095 VST.veric.composite_compute <> B:32 var
+binder 2077:2078 <> l2:34
+R2103:2106 compcert.cfrontend.Ctypes <> type ind
+binder 2100:2100 <> t:35
+R2112:2112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2161:2167 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2194:2199 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2200:2220 VST.veric.composite_compute <> relative_defined_type def
+R2225:2225 VST.veric.composite_compute <> t:35 var
+R2222:2223 VST.veric.composite_compute <> l2:34 var
+R2168:2188 VST.veric.composite_compute <> relative_defined_type def
+R2193:2193 VST.veric.composite_compute <> t:35 var
+R2190:2191 VST.veric.composite_compute <> l1:33 var
+binder 2120:2120 <> i:36
+R2140:2143 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2144:2145 Coq.Lists.List <> In def
+R2150:2152 Coq.Lists.List <> map def
+R2158:2159 VST.veric.composite_compute <> l2:34 var
+R2154:2156 Coq.Init.Datatypes <> fst def
+R2147:2147 VST.veric.composite_compute <> i:36 var
+R2123:2124 Coq.Lists.List <> In def
+R2129:2131 Coq.Lists.List <> map def
+R2137:2138 VST.veric.composite_compute <> l1:33 var
+R2133:2135 Coq.Init.Datatypes <> fst def
+R2126:2126 VST.veric.composite_compute <> i:36 var
+prf 2342:2368 <> relative_defined_type_equiv
+binder 2379:2379 <> A:37
+binder 2381:2381 <> B:38
+R2395:2398 Coq.Init.Datatypes <> list ind
+R2406:2408 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2401:2405 compcert.common.AST <> ident def
+R2409:2409 VST.veric.composite_compute <> A:37 var
+binder 2391:2392 <> l1:39
+R2418:2421 Coq.Init.Datatypes <> list ind
+R2429:2431 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2424:2428 compcert.common.AST <> ident def
+R2432:2432 VST.veric.composite_compute <> B:38 var
+binder 2414:2415 <> l2:40
+R2440:2443 compcert.cfrontend.Ctypes <> type ind
+binder 2437:2437 <> t:41
+R2449:2449 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2499:2506 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2564:2564 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2533:2537 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2507:2527 VST.veric.composite_compute <> relative_defined_type def
+R2532:2532 VST.veric.composite_compute <> t:41 var
+R2529:2530 VST.veric.composite_compute <> l1:39 var
+R2538:2558 VST.veric.composite_compute <> relative_defined_type def
+R2563:2563 VST.veric.composite_compute <> t:41 var
+R2560:2561 VST.veric.composite_compute <> l2:40 var
+binder 2457:2457 <> i:42
+R2477:2481 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2460:2461 Coq.Lists.List <> In def
+R2466:2468 Coq.Lists.List <> map def
+R2474:2475 VST.veric.composite_compute <> l1:39 var
+R2470:2472 Coq.Init.Datatypes <> fst def
+R2463:2463 VST.veric.composite_compute <> i:42 var
+R2482:2483 Coq.Lists.List <> In def
+R2488:2490 Coq.Lists.List <> map def
+R2496:2497 VST.veric.composite_compute <> l2:40 var
+R2492:2494 Coq.Init.Datatypes <> fst def
+R2485:2485 VST.veric.composite_compute <> i:42 var
+R2599:2624 VST.veric.composite_compute <> relative_defined_type_mono thm
+R2599:2624 VST.veric.composite_compute <> relative_defined_type_mono thm
+R2599:2624 VST.veric.composite_compute <> relative_defined_type_mono thm
+ind 2657:2673 <> ordered_composite
+constr 2717:2737 <> ordered_composite_nil
+constr 2764:2785 <> ordered_composite_cons
+R2703:2706 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2676:2679 Coq.Init.Datatypes <> list ind
+R2690:2692 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2682:2689 Coq.Numbers.BinNums <> positive ind
+R2693:2701 compcert.cfrontend.Ctypes <> composite rec
+R2740:2756 VST.veric.composite_compute <> ordered_composite:43 ind
+R2758:2760 Coq.Init.Datatypes <> nil constr
+binder 2795:2795 <> i:45
+binder 2797:2798 <> co:46
+binder 2800:2800 <> l:47
+R2865:2872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2892:2899 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2900:2916 VST.veric.composite_compute <> ordered_composite:43 ind
+R2926:2929 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2919:2919 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2921:2922 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2925:2925 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2920:2920 VST.veric.composite_compute <> i:45 var
+R2923:2924 VST.veric.composite_compute <> co:46 var
+R2930:2930 VST.veric.composite_compute <> l:47 var
+R2873:2889 VST.veric.composite_compute <> ordered_composite:43 ind
+R2891:2891 VST.veric.composite_compute <> l:47 var
+R2807:2812 Coq.Lists.List <> Forall ind
+R2841:2843 Coq.Lists.List <> map def
+R2850:2859 compcert.cfrontend.Ctypes <> co_members proj
+R2861:2862 VST.veric.composite_compute <> co:46 var
+R2845:2847 Coq.Init.Datatypes <> snd def
+R2815:2835 VST.veric.composite_compute <> relative_defined_type def
+R2837:2837 VST.veric.composite_compute <> l:47 var
+mod 2942:2958 <> composite_reorder
+R3057:3067 Coq.Structures.Orders TotalLeBool <> mod
+mod 3035:3052 <> composite_reorder.CompositeRankOrder
+def 3083:3083 composite_reorder.CompositeRankOrder t
+R3097:3099 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3089:3096 Coq.Numbers.BinNums <> positive ind
+R3100:3108 compcert.cfrontend.Ctypes <> composite rec
+def 3130:3132 composite_reorder.CompositeRankOrder leb
+R3140:3140 VST.veric.composite_compute composite_reorder.CompositeRankOrder t def
+binder 3135:3135 <> x:48
+binder 3137:3137 <> y:49
+R3146:3152 Coq.Arith.PeanoNat Nat leb def
+R3173:3179 compcert.cfrontend.Ctypes <> co_rank proj
+R3182:3184 Coq.Init.Datatypes <> snd def
+R3186:3186 VST.veric.composite_compute <> x:48 var
+R3155:3161 compcert.cfrontend.Ctypes <> co_rank proj
+R3164:3166 Coq.Init.Datatypes <> snd def
+R3168:3168 VST.veric.composite_compute <> y:49 var
+prf 3202:3210 composite_reorder.CompositeRankOrder leb_total
+binder 3221:3222 <> a1:50
+binder 3224:3225 <> a2:51
+R3244:3247 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3237:3239 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3228:3230 VST.veric.composite_compute composite_reorder.CompositeRankOrder leb def
+R3235:3236 VST.veric.composite_compute <> a2:51 var
+R3232:3233 VST.veric.composite_compute <> a1:50 var
+R3240:3243 Coq.Init.Datatypes <> true constr
+R3257:3259 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3248:3250 VST.veric.composite_compute composite_reorder.CompositeRankOrder leb def
+R3255:3256 VST.veric.composite_compute <> a1:50 var
+R3252:3253 VST.veric.composite_compute <> a2:51 var
+R3260:3263 Coq.Init.Datatypes <> true constr
+R3298:3300 VST.veric.composite_compute composite_reorder.CompositeRankOrder leb def
+R3316:3325 Coq.Arith.PeanoNat Nat leb_le thm
+R3316:3325 Coq.Arith.PeanoNat Nat leb_le thm
+R3316:3325 Coq.Arith.PeanoNat Nat leb_le thm
+R3316:3325 Coq.Arith.PeanoNat Nat leb_le thm
+R3316:3325 Coq.Arith.PeanoNat Nat leb_le thm
+prf 3355:3363 composite_reorder.CompositeRankOrder leb_trans
+R3366:3375 Coq.Classes.RelationClasses <> Transitive class
+binder 3382:3382 <> x:52
+binder 3384:3384 <> y:53
+R3389:3395 Coq.Init.Datatypes <> is_true def
+R3398:3400 VST.veric.composite_compute composite_reorder.CompositeRankOrder leb def
+R3404:3404 VST.veric.composite_compute <> y:53 var
+R3402:3402 VST.veric.composite_compute <> x:52 var
+R3442:3444 VST.veric.composite_compute composite_reorder.CompositeRankOrder leb def
+R3447:3453 Coq.Init.Datatypes <> is_true def
+R3474:3483 Coq.Arith.PeanoNat Nat leb_le thm
+R3474:3483 Coq.Arith.PeanoNat Nat leb_le thm
+R3474:3483 Coq.Arith.PeanoNat Nat leb_le thm
+R3474:3483 Coq.Arith.PeanoNat Nat leb_le thm
+R3512:3529 VST.veric.composite_compute composite_reorder.CompositeRankOrder <> mod
+R3561:3564 Coq.Sorting.Mergesort Sort <> modtype
+R3566:3583 VST.veric.composite_compute composite_reorder.CompositeRankOrder <> modtype
+mod 3540:3556 <> composite_reorder.CompositeRankSort
+sec 3595:3611 composite_reorder composite_reorder
+R3630:3642 compcert.cfrontend.Ctypes <> composite_env def
+binder 3624:3627 <> cenv:54
+R3671:3694 compcert.cfrontend.Ctypes <> composite_env_consistent def
+R3696:3699 VST.veric.composite_compute <> cenv:54 var
+binder 3654:3668 <> cenv_consistent:55
+def 3715:3740 composite_reorder rebuild_composite_elements
+R3745:3766 VST.veric.composite_compute composite_reorder sort def
+R3769:3782 compcert.lib.Maps PTree elements def
+R3784:3787 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv var
+ind 3802:3821 composite_reorder ordered_and_complete
+constr 3865:3888 composite_reorder ordered_and_complete_nil
+constr 3918:3942 composite_reorder ordered_and_complete_cons
+R3851:3854 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3824:3827 Coq.Init.Datatypes <> list ind
+R3838:3840 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3830:3837 Coq.Numbers.BinNums <> positive ind
+R3841:3849 compcert.cfrontend.Ctypes <> composite rec
+R3891:3910 VST.veric.composite_compute <> ordered_and_complete:56 ind
+R3912:3914 Coq.Init.Datatypes <> nil constr
+binder 3952:3952 <> i:58
+binder 3954:3955 <> co:59
+binder 3957:3957 <> l:60
+R3964:3964 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4076:4084 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4107:4114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4115:4134 VST.veric.composite_compute <> ordered_and_complete:56 ind
+R4144:4147 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4137:4137 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4139:4140 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4143:4143 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4138:4138 VST.veric.composite_compute <> i:58 var
+R4141:4142 VST.veric.composite_compute <> co:59 var
+R4148:4148 VST.veric.composite_compute <> l:60 var
+R4085:4104 VST.veric.composite_compute <> ordered_and_complete:56 ind
+R4106:4106 VST.veric.composite_compute <> l:60 var
+binder 3972:3973 <> i':61
+binder 3975:3977 <> co':62
+R4008:4019 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4050:4061 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4062:4063 Coq.Lists.List <> In def
+R4075:4075 VST.veric.composite_compute <> l:60 var
+R4065:4065 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4068:4069 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4073:4073 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4066:4067 VST.veric.composite_compute <> i':61 var
+R4070:4072 VST.veric.composite_compute <> co':62 var
+R4032:4034 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R4021:4027 compcert.cfrontend.Ctypes <> co_rank proj
+R4029:4031 VST.veric.composite_compute <> co':62 var
+R4035:4041 compcert.cfrontend.Ctypes <> co_rank proj
+R4043:4044 VST.veric.composite_compute <> co:59 var
+R3997:3999 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3992:3994 compcert.lib.Maps <> :::x_'!'_x not
+R3995:3996 VST.veric.composite_compute <> i':61 var
+R3988:3991 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv var
+R4000:4003 Coq.Init.Datatypes <> Some constr
+R4005:4007 VST.veric.composite_compute <> co':62 var
+prf 4161:4175 composite_reorder RCT_Permutation
+R4178:4188 Coq.Sorting.Permutation <> Permutation ind
+R4218:4231 compcert.lib.Maps PTree elements def
+R4233:4236 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv var
+R4190:4215 VST.veric.composite_compute composite_reorder rebuild_composite_elements def
+R4267:4297 VST.veric.composite_compute composite_reorder Permuted_sort thm
+R4267:4297 VST.veric.composite_compute composite_reorder Permuted_sort thm
+prf 4312:4335 composite_reorder RCT_ordered_and_complete
+R4338:4357 VST.veric.composite_compute composite_reorder ordered_and_complete ind
+R4359:4384 VST.veric.composite_compute composite_reorder rebuild_composite_elements def
+R4407:4421 VST.veric.composite_compute composite_reorder RCT_Permutation thm
+R4407:4421 VST.veric.composite_compute composite_reorder RCT_Permutation thm
+binder 4441:4441 <> i:63
+binder 4443:4444 <> co:64
+R4465:4468 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4469:4470 Coq.Lists.List <> In def
+R4480:4505 VST.veric.composite_compute composite_reorder rebuild_composite_elements def
+R4472:4472 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4474:4475 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4478:4478 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4473:4473 VST.veric.composite_compute <> i:63 var
+R4476:4477 VST.veric.composite_compute <> co:64 var
+R4455:4457 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4451:4453 compcert.lib.Maps <> :::x_'!'_x not
+R4454:4454 VST.veric.composite_compute <> i:63 var
+R4447:4450 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv var
+R4458:4461 Coq.Init.Datatypes <> Some constr
+R4463:4464 VST.veric.composite_compute <> co:64 var
+binder 4441:4441 <> i:65
+binder 4443:4444 <> co:66
+R4465:4468 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4469:4470 Coq.Lists.List <> In def
+R4480:4505 VST.veric.composite_compute composite_reorder rebuild_composite_elements def
+R4472:4472 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4474:4475 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4478:4478 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4473:4473 VST.veric.composite_compute <> i:65 var
+R4476:4477 VST.veric.composite_compute <> co:66 var
+R4455:4457 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4451:4453 compcert.lib.Maps <> :::x_'!'_x not
+R4454:4454 VST.veric.composite_compute <> i:65 var
+R4447:4450 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv var
+R4458:4461 Coq.Init.Datatypes <> Some constr
+R4463:4464 VST.veric.composite_compute <> co:66 var
+R4536:4549 Coq.Sorting.Permutation <> Permutation_in thm
+R4536:4549 Coq.Sorting.Permutation <> Permutation_in thm
+R4574:4588 VST.veric.composite_compute composite_reorder RCT_Permutation thm
+R4574:4588 VST.veric.composite_compute composite_reorder RCT_Permutation thm
+R4603:4624 compcert.lib.Maps PTree elements_correct thm
+R4603:4624 compcert.lib.Maps PTree elements_correct thm
+R4662:4698 VST.veric.composite_compute composite_reorder StronglySorted_sort thm
+R4722:4749 VST.veric.composite_compute composite_reorder leb_trans thm
+R4701:4714 compcert.lib.Maps PTree elements def
+R4716:4719 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv var
+R4662:4698 VST.veric.composite_compute composite_reorder StronglySorted_sort thm
+R4722:4749 VST.veric.composite_compute composite_reorder leb_trans thm
+R4701:4714 compcert.lib.Maps PTree elements def
+R4716:4719 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv var
+R4765:4773 Coq.Lists.List <> app_nil_l thm
+R4775:4800 VST.veric.composite_compute composite_reorder rebuild_composite_elements def
+R4765:4773 Coq.Lists.List <> app_nil_l thm
+R4775:4800 VST.veric.composite_compute composite_reorder rebuild_composite_elements def
+R4812:4837 VST.veric.composite_compute composite_reorder rebuild_composite_elements def
+R4858:4879 VST.veric.composite_compute composite_reorder sort def
+R4882:4895 compcert.lib.Maps PTree elements def
+R4897:4900 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv var
+R4858:4879 VST.veric.composite_compute composite_reorder sort def
+R4882:4895 compcert.lib.Maps PTree elements def
+R4897:4900 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv var
+R4948:4950 Coq.Init.Datatypes <> nil constr
+R4961:4963 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4953:4960 Coq.Numbers.BinNums <> positive ind
+R4964:4972 compcert.cfrontend.Ctypes <> composite rec
+R4948:4950 Coq.Init.Datatypes <> nil constr
+R4961:4963 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4953:4960 Coq.Numbers.BinNums <> positive ind
+R4964:4972 compcert.cfrontend.Ctypes <> composite rec
+R5055:5058 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R5060:5063 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5064:5066 Coq.Init.Datatypes <> nil constr
+R5055:5058 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R5060:5063 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5064:5066 Coq.Init.Datatypes <> nil constr
+R5086:5094 Coq.Lists.List <> app_assoc thm
+R5086:5094 Coq.Lists.List <> app_assoc thm
+R5086:5094 Coq.Lists.List <> app_assoc thm
+R5412:5424 Coq.Lists.List <> Forall_forall thm
+R5412:5424 Coq.Lists.List <> Forall_forall thm
+R5412:5424 Coq.Lists.List <> Forall_forall thm
+R5456:5456 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5458:5459 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5462:5462 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5456:5456 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5458:5459 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5462:5462 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5482:5487 compcert.lib.Coqlib <> in_app thm
+R5482:5487 compcert.lib.Coqlib <> in_app thm
+R5482:5487 compcert.lib.Coqlib <> in_app thm
+R5520:5528 Coq.Init.Logic <> or_intror constr
+R5531:5539 Coq.Init.Logic <> or_introl constr
+R5541:5547 Coq.Init.Logic <> eq_refl constr
+R5520:5528 Coq.Init.Logic <> or_intror constr
+R5531:5539 Coq.Init.Logic <> or_introl constr
+R5541:5547 Coq.Init.Logic <> eq_refl constr
+R5568:5574 Coq.Init.Datatypes <> is_true def
+R5599:5608 Coq.Arith.PeanoNat Nat leb_le thm
+R5599:5608 Coq.Arith.PeanoNat Nat leb_le thm
+R5599:5608 Coq.Arith.PeanoNat Nat leb_le thm
+prf 5683:5693 composite_reorder RCT_ordered
+R5696:5712 VST.veric.composite_compute <> ordered_composite ind
+R5714:5739 VST.veric.composite_compute composite_reorder rebuild_composite_elements def
+R5762:5785 VST.veric.composite_compute composite_reorder RCT_ordered_and_complete thm
+R5762:5785 VST.veric.composite_compute composite_reorder RCT_ordered_and_complete thm
+binder 5805:5805 <> i:67
+binder 5807:5808 <> co:68
+R5848:5851 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5896:5899 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5889:5891 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5852:5867 compcert.cfrontend.Ctypes <> complete_members def
+R5875:5884 compcert.cfrontend.Ctypes <> co_members proj
+R5886:5887 VST.veric.composite_compute <> co:68 var
+R5869:5872 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv var
+R5892:5895 Coq.Init.Datatypes <> true constr
+R5910:5912 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5900:5906 compcert.cfrontend.Ctypes <> co_rank proj
+R5908:5909 VST.veric.composite_compute <> co:68 var
+R5913:5924 compcert.cfrontend.Ctypes <> rank_members def
+R5932:5941 compcert.cfrontend.Ctypes <> co_members proj
+R5943:5944 VST.veric.composite_compute <> co:68 var
+R5926:5929 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv var
+R5811:5812 Coq.Lists.List <> In def
+R5822:5847 VST.veric.composite_compute composite_reorder rebuild_composite_elements def
+R5814:5814 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5816:5817 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5820:5820 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5815:5815 VST.veric.composite_compute <> i:67 var
+R5818:5819 VST.veric.composite_compute <> co:68 var
+binder 5805:5805 <> i:69
+binder 5807:5808 <> co:70
+R5848:5851 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5896:5899 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5889:5891 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5852:5867 compcert.cfrontend.Ctypes <> complete_members def
+R5875:5884 compcert.cfrontend.Ctypes <> co_members proj
+R5886:5887 VST.veric.composite_compute <> co:70 var
+R5869:5872 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv var
+R5892:5895 Coq.Init.Datatypes <> true constr
+R5910:5912 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5900:5906 compcert.cfrontend.Ctypes <> co_rank proj
+R5908:5909 VST.veric.composite_compute <> co:70 var
+R5913:5924 compcert.cfrontend.Ctypes <> rank_members def
+R5932:5941 compcert.cfrontend.Ctypes <> co_members proj
+R5943:5944 VST.veric.composite_compute <> co:70 var
+R5926:5929 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv var
+R5811:5812 Coq.Lists.List <> In def
+R5822:5847 VST.veric.composite_compute composite_reorder rebuild_composite_elements def
+R5814:5814 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5816:5817 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5820:5820 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5815:5815 VST.veric.composite_compute <> i:69 var
+R5818:5819 VST.veric.composite_compute <> co:70 var
+R5976:5989 Coq.Sorting.Permutation <> Permutation_in thm
+R6007:6021 VST.veric.composite_compute composite_reorder RCT_Permutation thm
+R5976:5989 Coq.Sorting.Permutation <> Permutation_in thm
+R6007:6021 VST.veric.composite_compute composite_reorder RCT_Permutation thm
+R6035:6057 compcert.lib.Maps PTree elements_complete thm
+R6035:6057 compcert.lib.Maps PTree elements_complete thm
+R6095:6116 compcert.cfrontend.Ctypes <> co_consistent_complete proj
+R6095:6116 compcert.cfrontend.Ctypes <> co_consistent_complete proj
+R6132:6146 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv_consistent var
+R6132:6146 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv_consistent var
+R6168:6185 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R6168:6185 compcert.cfrontend.Ctypes <> co_consistent_rank proj
+R6201:6215 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv_consistent var
+R6201:6215 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv_consistent var
+binder 6305:6305 <> i:71
+binder 6307:6308 <> co:72
+binder 6310:6311 <> HH:73
+R6325:6333 Coq.Init.Logic <> or_intror constr
+R6335:6336 VST.veric.composite_compute <> HH:73 var
+R6321:6322 VST.veric.composite_compute <> co:72 var
+R6319:6319 VST.veric.composite_compute <> i:71 var
+binder 6305:6305 <> i:74
+binder 6307:6308 <> co:75
+binder 6310:6311 <> HH:76
+R6325:6333 Coq.Init.Logic <> or_intror constr
+R6335:6336 VST.veric.composite_compute <> HH:76 var
+R6321:6322 VST.veric.composite_compute <> co:75 var
+R6319:6319 VST.veric.composite_compute <> i:74 var
+R6426:6434 Coq.Init.Logic <> or_introl constr
+R6436:6442 Coq.Init.Logic <> eq_refl constr
+R6426:6434 Coq.Init.Logic <> or_introl constr
+R6436:6442 Coq.Init.Logic <> eq_refl constr
+R6492:6495 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R6459:6470 compcert.cfrontend.Ctypes <> rank_members def
+R6478:6487 compcert.cfrontend.Ctypes <> co_members proj
+R6472:6475 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv var
+R6496:6502 compcert.cfrontend.Ctypes <> co_rank proj
+R6492:6495 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R6459:6470 compcert.cfrontend.Ctypes <> rank_members def
+R6478:6487 compcert.cfrontend.Ctypes <> co_members proj
+R6472:6475 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv var
+R6496:6502 compcert.cfrontend.Ctypes <> co_rank proj
+R6561:6570 compcert.cfrontend.Ctypes <> co_members proj
+R6561:6570 compcert.cfrontend.Ctypes <> co_members proj
+R6640:6652 Coq.Bool.Bool <> andb_true_iff thm
+R6640:6652 Coq.Bool.Bool <> andb_true_iff thm
+R6640:6652 Coq.Bool.Bool <> andb_true_iff thm
+R6704:6716 Coq.Arith.Max <> max_lub_r def
+R6704:6716 Coq.Arith.Max <> max_lub_r def
+R6740:6752 Coq.Arith.Max <> max_lub_l def
+R6740:6752 Coq.Arith.Max <> max_lub_l def
+R7034:7036 compcert.lib.Maps <> :::x_'!'_x not
+R7030:7033 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv var
+R7034:7036 compcert.lib.Maps <> :::x_'!'_x not
+R7030:7033 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv var
+R7132:7137 Coq.Lists.List <> in_map thm
+R7139:7141 Coq.Init.Datatypes <> fst def
+R7132:7137 Coq.Lists.List <> in_map thm
+R7139:7141 Coq.Init.Datatypes <> fst def
+R7228:7230 compcert.lib.Maps <> :::x_'!'_x not
+R7224:7227 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv var
+R7228:7230 compcert.lib.Maps <> :::x_'!'_x not
+R7224:7227 VST.veric.composite_compute <> composite_reorder.composite_reorder.cenv var
+R7326:7331 Coq.Lists.List <> in_map thm
+R7333:7335 Coq.Init.Datatypes <> fst def
+R7326:7331 Coq.Lists.List <> in_map thm
+R7333:7335 Coq.Init.Datatypes <> fst def
+R7360:7376 VST.veric.composite_compute composite_reorder.composite_reorder <> sec
+R7384:7400 VST.veric.composite_compute composite_reorder <> mod
+mod 7411:7419 <> type_func
+sec 7430:7438 type_func type_func
+binder 7451:7451 <> A:77
+R7484:7487 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7488:7488 VST.veric.composite_compute <> A:77 var
+R7480:7483 compcert.cfrontend.Ctypes <> type ind
+binder 7469:7477 <> f_default:78
+R7510:7513 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7518:7521 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7523:7526 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7531:7534 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7535:7535 VST.veric.composite_compute <> A:77 var
+R7527:7530 compcert.cfrontend.Ctypes <> attr rec
+R7522:7522 Coq.Numbers.BinNums <> Z ind
+R7514:7517 compcert.cfrontend.Ctypes <> type ind
+R7509:7509 VST.veric.composite_compute <> A:77 var
+binder 7500:7506 <> f_array:79
+R7558:7561 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7567:7570 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7575:7578 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7579:7579 VST.veric.composite_compute <> A:77 var
+R7571:7574 compcert.cfrontend.Ctypes <> attr rec
+R7562:7566 compcert.common.AST <> ident def
+R7557:7557 VST.veric.composite_compute <> A:77 var
+binder 7547:7554 <> f_struct:80
+R7601:7604 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7610:7613 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7618:7621 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7622:7622 VST.veric.composite_compute <> A:77 var
+R7614:7617 compcert.cfrontend.Ctypes <> attr rec
+R7605:7609 compcert.common.AST <> ident def
+R7600:7600 VST.veric.composite_compute <> A:77 var
+binder 7591:7597 <> f_union:81
+R7659:7662 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7686:7689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7690:7690 VST.veric.composite_compute <> A:77 var
+R7663:7666 Coq.Init.Datatypes <> list ind
+R7681:7683 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7674:7676 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7669:7673 compcert.common.AST <> ident def
+R7677:7680 compcert.cfrontend.Ctypes <> type ind
+R7684:7684 VST.veric.composite_compute <> A:77 var
+R7644:7658 compcert.cfrontend.Ctypes <> struct_or_union ind
+binder 7634:7641 <> f_member:82
+def 7704:7704 type_func F
+R7712:7718 compcert.lib.Maps PTree t def
+R7720:7720 VST.veric.composite_compute <> type_func.type_func.A var
+binder 7707:7709 <> env:83
+R7727:7730 compcert.cfrontend.Ctypes <> type ind
+binder 7724:7724 <> t:84
+R7734:7734 VST.veric.composite_compute <> type_func.type_func.A var
+R7747:7747 VST.veric.composite_compute <> t:84 var
+R7758:7763 compcert.cfrontend.Ctypes <> Tarray constr
+R7774:7780 VST.veric.composite_compute <> type_func.type_func.f_array var
+R7792:7792 VST.veric.composite_compute <> t:84 var
+R7783:7783 VST.veric.composite_compute <> F:85 def
+R7789:7789 VST.veric.composite_compute <> t:84 var
+R7785:7787 VST.veric.composite_compute <> env:83 var
+R7802:7808 compcert.cfrontend.Ctypes <> Tstruct constr
+R7833:7835 compcert.lib.Maps <> :::x_'!'_x not
+R7830:7832 VST.veric.composite_compute <> env:83 var
+R7852:7855 Coq.Init.Datatypes <> Some constr
+R7862:7869 VST.veric.composite_compute <> type_func.type_func.f_struct var
+R7886:7889 Coq.Init.Datatypes <> None constr
+R7894:7902 VST.veric.composite_compute <> type_func.type_func.f_default var
+R7904:7904 VST.veric.composite_compute <> t:84 var
+R7920:7925 compcert.cfrontend.Ctypes <> Tunion constr
+R7950:7952 compcert.lib.Maps <> :::x_'!'_x not
+R7947:7949 VST.veric.composite_compute <> env:83 var
+R7969:7972 Coq.Init.Datatypes <> Some constr
+R7979:7985 VST.veric.composite_compute <> type_func.type_func.f_union var
+R8002:8005 Coq.Init.Datatypes <> None constr
+R8010:8018 VST.veric.composite_compute <> type_func.type_func.f_default var
+R8020:8020 VST.veric.composite_compute <> t:84 var
+R8041:8049 VST.veric.composite_compute <> type_func.type_func.f_default var
+R8051:8051 VST.veric.composite_compute <> t:84 var
+def 8072:8079 type_func Complete
+R8088:8100 compcert.cfrontend.Ctypes <> composite_env def
+binder 8082:8085 <> cenv:87
+R8109:8115 compcert.lib.Maps PTree t def
+R8117:8117 VST.veric.composite_compute <> type_func.type_func.A var
+binder 8104:8106 <> env:88
+binder 8138:8138 <> i:89
+R8145:8145 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8183:8193 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8228:8228 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8146:8152 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8155:8156 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8153:8154 <> co:90
+R8173:8175 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8157:8165 compcert.lib.Maps PTree get def
+R8169:8172 VST.veric.composite_compute <> cenv:87 var
+R8167:8167 VST.veric.composite_compute <> i:89 var
+R8176:8179 Coq.Init.Datatypes <> Some constr
+R8181:8182 VST.veric.composite_compute <> co:90 var
+R8194:8200 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8202:8203 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8201:8201 <> a:91
+R8219:8221 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8204:8212 compcert.lib.Maps PTree get def
+R8216:8218 VST.veric.composite_compute <> env:88 var
+R8214:8214 VST.veric.composite_compute <> i:89 var
+R8222:8225 Coq.Init.Datatypes <> Some constr
+R8227:8227 VST.veric.composite_compute <> a:91 var
+def 8243:8252 type_func Consistent
+R8261:8273 compcert.cfrontend.Ctypes <> composite_env def
+binder 8255:8258 <> cenv:92
+R8282:8288 compcert.lib.Maps PTree t def
+R8290:8290 VST.veric.composite_compute <> type_func.type_func.A var
+binder 8277:8279 <> env:93
+binder 8311:8311 <> i:94
+binder 8313:8314 <> co:95
+binder 8316:8316 <> a:96
+R8349:8356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8381:8388 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8390:8392 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8389:8389 VST.veric.composite_compute <> a:96 var
+R8393:8400 VST.veric.composite_compute <> type_func.type_func.f_member var
+R8414:8416 Coq.Lists.List <> map def
+R8617:8626 compcert.cfrontend.Ctypes <> co_members proj
+R8628:8629 VST.veric.composite_compute <> co:95 var
+R8466:8468 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8458:8465 Coq.Numbers.BinNums <> positive ind
+R8469:8472 compcert.cfrontend.Ctypes <> type ind
+binder 8453:8455 <> it0:97
+R8526:8528 VST.veric.composite_compute <> it0:97 var
+binder 8515:8516 <> i0:98
+binder 8519:8520 <> t0:99
+R8566:8566 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8569:8570 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8573:8574 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8583:8583 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8567:8568 VST.veric.composite_compute <> i0:98 var
+R8571:8572 VST.veric.composite_compute <> t0:99 var
+R8575:8575 VST.veric.composite_compute type_func F def
+R8581:8582 VST.veric.composite_compute <> t0:99 var
+R8577:8579 VST.veric.composite_compute <> env:93 var
+R8403:8407 compcert.cfrontend.Ctypes <> co_su proj
+R8409:8410 VST.veric.composite_compute <> co:95 var
+R8372:8374 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8357:8365 compcert.lib.Maps PTree get def
+R8369:8371 VST.veric.composite_compute <> env:93 var
+R8367:8367 VST.veric.composite_compute <> i:94 var
+R8375:8378 Coq.Init.Datatypes <> Some constr
+R8380:8380 VST.veric.composite_compute <> a:96 var
+R8339:8341 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8323:8331 compcert.lib.Maps PTree get def
+R8335:8338 VST.veric.composite_compute <> cenv:92 var
+R8333:8333 VST.veric.composite_compute <> i:94 var
+R8342:8345 Coq.Init.Datatypes <> Some constr
+R8347:8348 VST.veric.composite_compute <> co:95 var
+def 8646:8652 type_func env_rec
+R8658:8665 Coq.Numbers.BinNums <> positive ind
+binder 8655:8655 <> i:100
+R8673:8681 compcert.cfrontend.Ctypes <> composite rec
+binder 8669:8670 <> co:101
+R8690:8696 compcert.lib.Maps PTree t def
+R8698:8698 VST.veric.composite_compute <> type_func.type_func.A var
+binder 8685:8687 <> env:102
+R8702:8708 compcert.lib.Maps PTree t def
+R8710:8710 VST.veric.composite_compute <> type_func.type_func.A var
+R8717:8725 compcert.lib.Maps PTree set def
+R8946:8948 VST.veric.composite_compute <> env:102 var
+R8734:8741 VST.veric.composite_compute <> type_func.type_func.f_member var
+R8755:8757 Coq.Lists.List <> map def
+R8925:8934 compcert.cfrontend.Ctypes <> co_members proj
+R8936:8937 VST.veric.composite_compute <> co:101 var
+R8807:8809 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8799:8806 Coq.Numbers.BinNums <> positive ind
+R8810:8813 compcert.cfrontend.Ctypes <> type ind
+binder 8794:8796 <> it0:103
+R8867:8869 VST.veric.composite_compute <> it0:103 var
+binder 8856:8857 <> i0:104
+binder 8860:8861 <> t0:105
+R8874:8874 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8877:8878 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8881:8882 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8891:8891 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8875:8876 VST.veric.composite_compute <> i0:104 var
+R8879:8880 VST.veric.composite_compute <> t0:105 var
+R8883:8883 VST.veric.composite_compute type_func F def
+R8889:8890 VST.veric.composite_compute <> t0:105 var
+R8885:8887 VST.veric.composite_compute <> env:102 var
+R8744:8748 compcert.cfrontend.Ctypes <> co_su proj
+R8750:8751 VST.veric.composite_compute <> co:101 var
+R8727:8727 VST.veric.composite_compute <> i:100 var
+def 8963:8965 type_func Env
+R8971:8974 Coq.Init.Datatypes <> list ind
+R8985:8987 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8977:8984 Coq.Numbers.BinNums <> positive ind
+R8988:8996 compcert.cfrontend.Ctypes <> composite rec
+binder 8968:8968 <> l:106
+R9001:9007 compcert.lib.Maps PTree t def
+R9009:9009 VST.veric.composite_compute <> type_func.type_func.A var
+R9016:9025 Coq.Lists.List <> fold_right def
+R9132:9132 VST.veric.composite_compute <> l:106 var
+R9113:9123 compcert.lib.Maps PTree empty def
+R9125:9125 VST.veric.composite_compute <> type_func.type_func.A var
+R9049:9051 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R9041:9048 Coq.Numbers.BinNums <> positive ind
+R9052:9060 compcert.cfrontend.Ctypes <> composite rec
+binder 9037:9038 <> ic:107
+R9088:9089 VST.veric.composite_compute <> ic:107 var
+binder 9078:9078 <> i:108
+binder 9081:9082 <> co:109
+R9094:9100 VST.veric.composite_compute type_func env_rec def
+R9104:9105 VST.veric.composite_compute <> co:109 var
+R9102:9102 VST.veric.composite_compute <> i:108 var
+prf 9142:9152 type_func F_PTree_set
+binder 9162:9162 <> t:110
+binder 9164:9166 <> env:111
+binder 9168:9168 <> i:112
+binder 9170:9170 <> a:113
+R9212:9217 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9262:9267 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9275:9277 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9268:9268 VST.veric.composite_compute type_func F def
+R9274:9274 VST.veric.composite_compute <> t:110 var
+R9270:9272 VST.veric.composite_compute <> env:111 var
+R9278:9278 VST.veric.composite_compute type_func F def
+R9300:9300 VST.veric.composite_compute <> t:110 var
+R9281:9289 compcert.lib.Maps PTree set def
+R9295:9297 VST.veric.composite_compute <> env:111 var
+R9293:9293 VST.veric.composite_compute <> a:113 var
+R9291:9291 VST.veric.composite_compute <> i:112 var
+R9218:9238 VST.veric.composite_compute <> relative_defined_type def
+R9261:9261 VST.veric.composite_compute <> t:110 var
+R9241:9254 compcert.lib.Maps PTree elements def
+R9256:9258 VST.veric.composite_compute <> env:111 var
+R9175:9176 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9177:9178 Coq.Lists.List <> In def
+R9183:9185 Coq.Lists.List <> map def
+R9192:9205 compcert.lib.Maps PTree elements def
+R9207:9209 VST.veric.composite_compute <> env:111 var
+R9187:9189 Coq.Init.Datatypes <> fst def
+R9180:9180 VST.veric.composite_compute <> i:112 var
+R9429:9437 compcert.lib.Maps PTree gso thm
+R9429:9437 compcert.lib.Maps PTree gso thm
+R9429:9437 compcert.lib.Maps PTree gso thm
+R9429:9437 compcert.lib.Maps PTree gso thm
+R9505:9513 compcert.lib.Maps PTree gso thm
+R9505:9513 compcert.lib.Maps PTree gso thm
+R9505:9513 compcert.lib.Maps PTree gso thm
+R9505:9513 compcert.lib.Maps PTree gso thm
+prf 9559:9589 type_func relative_defined_type_PTree_set
+binder 9599:9599 <> t:114
+R9607:9613 compcert.lib.Maps PTree t def
+R9615:9615 VST.veric.composite_compute <> type_func.type_func.A var
+binder 9602:9604 <> env:115
+binder 9618:9618 <> i:116
+binder 9620:9620 <> a:117
+R9669:9674 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9675:9695 VST.veric.composite_compute <> relative_defined_type def
+R9734:9734 VST.veric.composite_compute <> t:114 var
+R9698:9711 compcert.lib.Maps PTree elements def
+R9714:9722 compcert.lib.Maps PTree set def
+R9728:9730 VST.veric.composite_compute <> env:115 var
+R9726:9726 VST.veric.composite_compute <> a:117 var
+R9724:9724 VST.veric.composite_compute <> i:116 var
+R9625:9645 VST.veric.composite_compute <> relative_defined_type def
+R9668:9668 VST.veric.composite_compute <> t:114 var
+R9648:9661 compcert.lib.Maps PTree elements def
+R9663:9665 VST.veric.composite_compute <> env:115 var
+R9772:9797 VST.veric.composite_compute <> relative_defined_type_mono thm
+R9772:9797 VST.veric.composite_compute <> relative_defined_type_mono thm
+R9816:9840 VST.veric.composite_compute <> PTree_set_In_fst_elements thm
+R9816:9840 VST.veric.composite_compute <> PTree_set_In_fst_elements thm
+sec 9863:9888 type_func.type_func Consistency_Induction_Step
+R9907:9919 compcert.cfrontend.Ctypes <> composite_env def
+binder 9901:9904 <> cenv:118
+R9936:9942 compcert.lib.Maps PTree t def
+R9944:9944 VST.veric.composite_compute <> type_func.type_func.A var
+binder 9931:9933 <> env:119
+R9959:9962 Coq.Init.Datatypes <> list ind
+R9973:9975 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R9965:9972 Coq.Numbers.BinNums <> positive ind
+R9976:9984 compcert.cfrontend.Ctypes <> composite rec
+binder 9956:9956 <> l:120
+R10001:10008 Coq.Numbers.BinNums <> positive ind
+binder 9997:9998 <> i0:121
+R10025:10033 compcert.cfrontend.Ctypes <> composite rec
+binder 10020:10022 <> co0:122
+var 10049:10059 type_func.type_func.Consistency_Induction_Step NOT_IN_LIST
+R10062:10063 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10064:10065 Coq.Lists.List <> In def
+R10071:10073 Coq.Lists.List <> map def
+R10079:10079 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.l var
+R10075:10077 Coq.Init.Datatypes <> fst def
+R10067:10068 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.i0 var
+var 10095:10102 type_func.type_func.Consistency_Induction_Step RDT_list
+R10105:10110 Coq.Lists.List <> Forall ind
+R10139:10141 Coq.Lists.List <> map def
+R10148:10157 compcert.cfrontend.Ctypes <> co_members proj
+R10159:10161 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.co0 var
+R10143:10145 Coq.Init.Datatypes <> snd def
+R10113:10133 VST.veric.composite_compute <> relative_defined_type def
+R10135:10135 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.l var
+var 10178:10182 type_func.type_func.Consistency_Induction_Step CENV0
+R10202:10204 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10185:10193 compcert.lib.Maps PTree get def
+R10198:10201 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.cenv var
+R10195:10196 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.i0 var
+R10205:10208 Coq.Init.Datatypes <> Some constr
+R10210:10212 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.co0 var
+var 10227:10237 type_func.type_func.Consistency_Induction_Step IH_In_equiv
+binder 10247:10247 <> i:126
+R10266:10270 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10250:10251 Coq.Lists.List <> In def
+R10256:10258 Coq.Lists.List <> map def
+R10264:10264 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.l var
+R10260:10262 Coq.Init.Datatypes <> fst def
+R10253:10253 VST.veric.composite_compute <> i:126 var
+R10271:10272 Coq.Lists.List <> In def
+R10277:10279 Coq.Lists.List <> map def
+R10286:10299 compcert.lib.Maps PTree elements def
+R10301:10303 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.env var
+R10281:10283 Coq.Init.Datatypes <> fst def
+R10274:10274 VST.veric.composite_compute <> i:126 var
+var 10320:10325 type_func.type_func.Consistency_Induction_Step IH_RDT
+binder 10337:10337 <> i:128
+binder 10339:10340 <> co:129
+binder 10342:10342 <> a:130
+R10375:10382 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10407:10414 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10415:10420 Coq.Lists.List <> Forall ind
+R10468:10470 Coq.Lists.List <> map def
+R10477:10486 compcert.cfrontend.Ctypes <> co_members proj
+R10488:10489 VST.veric.composite_compute <> co:129 var
+R10472:10474 Coq.Init.Datatypes <> snd def
+R10423:10443 VST.veric.composite_compute <> relative_defined_type def
+R10446:10459 compcert.lib.Maps PTree elements def
+R10461:10463 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.env var
+R10398:10400 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10383:10391 compcert.lib.Maps PTree get def
+R10395:10397 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.env var
+R10393:10393 VST.veric.composite_compute <> i:128 var
+R10401:10404 Coq.Init.Datatypes <> Some constr
+R10406:10406 VST.veric.composite_compute <> a:130 var
+R10365:10367 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10349:10357 compcert.lib.Maps PTree get def
+R10361:10364 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.cenv var
+R10359:10359 VST.veric.composite_compute <> i:128 var
+R10368:10371 Coq.Init.Datatypes <> Some constr
+R10373:10374 VST.veric.composite_compute <> co:129 var
+var 10506:10512 type_func.type_func.Consistency_Induction_Step IH_main
+R10517:10526 VST.veric.composite_compute type_func Consistent def
+R10533:10535 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.env var
+R10528:10531 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.cenv var
+prf 10545:10550 type_func NOT_IN
+R10553:10554 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10555:10556 Coq.Lists.List <> In def
+R10562:10564 Coq.Lists.List <> map def
+R10571:10584 compcert.lib.Maps PTree elements def
+R10586:10588 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.env var
+R10566:10568 Coq.Init.Datatypes <> fst def
+R10558:10559 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.i0 var
+R10623:10633 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.IH_In_equiv var
+R10623:10633 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.IH_In_equiv var
+R10623:10633 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.IH_In_equiv var
+prf 10654:10662 type_func RDT_PTree
+R10665:10670 Coq.Lists.List <> Forall ind
+R10718:10720 Coq.Lists.List <> map def
+R10727:10736 compcert.cfrontend.Ctypes <> co_members proj
+R10738:10740 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.co0 var
+R10722:10724 Coq.Init.Datatypes <> snd def
+R10673:10693 VST.veric.composite_compute <> relative_defined_type def
+R10696:10709 compcert.lib.Maps PTree elements def
+R10711:10713 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.env var
+R10787:10797 Coq.Lists.List <> Forall_impl thm
+R10787:10797 Coq.Lists.List <> Forall_impl thm
+R10820:10845 VST.veric.composite_compute <> relative_defined_type_mono thm
+R10820:10845 VST.veric.composite_compute <> relative_defined_type_mono thm
+prf 10874:10891 type_func establish_In_equiv
+binder 10903:10903 <> i:133
+R10937:10941 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10906:10907 Coq.Lists.List <> In def
+R10912:10914 Coq.Lists.List <> map def
+R10930:10933 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10921:10921 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10924:10925 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10929:10929 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10922:10923 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.i0 var
+R10926:10928 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.co0 var
+R10934:10934 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.l var
+R10916:10918 Coq.Init.Datatypes <> fst def
+R10909:10909 VST.veric.composite_compute <> i:133 var
+R10942:10943 Coq.Lists.List <> In def
+R10948:10950 Coq.Lists.List <> map def
+R10957:10970 compcert.lib.Maps PTree elements def
+R10973:10979 VST.veric.composite_compute type_func env_rec def
+R10988:10990 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.env var
+R10984:10986 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.co0 var
+R10981:10982 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.i0 var
+R10952:10954 Coq.Init.Datatypes <> fst def
+R10945:10945 VST.veric.composite_compute <> i:133 var
+R11027:11037 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.IH_In_equiv var
+R11027:11037 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.IH_In_equiv var
+R11053:11073 VST.veric.composite_compute <> PTree_In_fst_elements thm
+R11053:11073 VST.veric.composite_compute <> PTree_In_fst_elements thm
+R11053:11073 VST.veric.composite_compute <> PTree_In_fst_elements thm
+R11105:11111 VST.veric.composite_compute type_func env_rec def
+R11127:11140 VST.veric.composite_compute <> PTree_gs_equiv thm
+R11127:11140 VST.veric.composite_compute <> PTree_gs_equiv thm
+R11127:11140 VST.veric.composite_compute <> PTree_gs_equiv thm
+R11171:11175 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11167:11169 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11165:11166 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.i0 var
+R11177:11179 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11180:11181 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.i0 var
+R11171:11175 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R11167:11169 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11165:11166 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.i0 var
+R11177:11179 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11180:11181 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.i0 var
+prf 11237:11249 type_func establish_RDT
+binder 11261:11261 <> i:134
+binder 11263:11264 <> co:135
+binder 11266:11266 <> a:136
+R11299:11306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11348:11355 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11356:11361 Coq.Lists.List <> Forall ind
+R11426:11428 Coq.Lists.List <> map def
+R11435:11444 compcert.cfrontend.Ctypes <> co_members proj
+R11446:11447 VST.veric.composite_compute <> co:135 var
+R11430:11432 Coq.Init.Datatypes <> snd def
+R11364:11384 VST.veric.composite_compute <> relative_defined_type def
+R11387:11400 compcert.lib.Maps PTree elements def
+R11403:11409 VST.veric.composite_compute type_func env_rec def
+R11418:11420 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.env var
+R11414:11416 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.co0 var
+R11411:11412 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.i0 var
+R11339:11341 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11307:11315 compcert.lib.Maps PTree get def
+R11320:11326 VST.veric.composite_compute type_func env_rec def
+R11335:11337 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.env var
+R11331:11333 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.co0 var
+R11328:11329 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.i0 var
+R11317:11317 VST.veric.composite_compute <> i:134 var
+R11342:11345 Coq.Init.Datatypes <> Some constr
+R11347:11347 VST.veric.composite_compute <> a:136 var
+R11289:11291 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11273:11281 compcert.lib.Maps PTree get def
+R11285:11288 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.cenv var
+R11283:11283 VST.veric.composite_compute <> i:134 var
+R11292:11295 Coq.Init.Datatypes <> Some constr
+R11297:11298 VST.veric.composite_compute <> co:135 var
+R11472:11480 VST.veric.composite_compute type_func RDT_PTree thm
+R11472:11480 VST.veric.composite_compute type_func RDT_PTree thm
+R11531:11537 VST.veric.composite_compute type_func env_rec def
+R11559:11568 Coq.PArith.BinPos Pos eq_dec thm
+R11572:11573 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.i0 var
+R11559:11568 Coq.PArith.BinPos Pos eq_dec thm
+R11572:11573 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.i0 var
+R11667:11675 compcert.lib.Maps PTree gss thm
+R11667:11675 compcert.lib.Maps PTree gss thm
+R11667:11675 compcert.lib.Maps PTree gss thm
+R11752:11762 Coq.Lists.List <> Forall_impl thm
+R11752:11762 Coq.Lists.List <> Forall_impl thm
+R11785:11815 VST.veric.composite_compute type_func relative_defined_type_PTree_set thm
+R11785:11815 VST.veric.composite_compute type_func relative_defined_type_PTree_set thm
+R11830:11838 compcert.lib.Maps PTree gso thm
+R11830:11838 compcert.lib.Maps PTree gso thm
+R11830:11838 compcert.lib.Maps PTree gso thm
+R11872:11877 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.IH_RDT var
+R11872:11877 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.IH_RDT var
+R11925:11935 Coq.Lists.List <> Forall_impl thm
+R11925:11935 Coq.Lists.List <> Forall_impl thm
+R11958:11988 VST.veric.composite_compute type_func relative_defined_type_PTree_set thm
+R11958:11988 VST.veric.composite_compute type_func relative_defined_type_PTree_set thm
+prf 12003:12016 type_func establish_main
+R12021:12030 VST.veric.composite_compute type_func Consistent def
+R12038:12044 VST.veric.composite_compute type_func env_rec def
+R12053:12055 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.env var
+R12049:12051 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.co0 var
+R12046:12047 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.i0 var
+R12032:12035 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.cenv var
+R12079:12084 VST.veric.composite_compute type_func NOT_IN thm
+R12079:12084 VST.veric.composite_compute type_func NOT_IN thm
+R12110:12118 VST.veric.composite_compute type_func RDT_PTree thm
+R12110:12118 VST.veric.composite_compute type_func RDT_PTree thm
+R12169:12175 VST.veric.composite_compute type_func env_rec def
+R12197:12206 Coq.PArith.BinPos Pos eq_dec thm
+R12210:12211 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.i0 var
+R12197:12206 Coq.PArith.BinPos Pos eq_dec thm
+R12210:12211 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.i0 var
+R12305:12313 compcert.lib.Maps PTree gss thm
+R12305:12313 compcert.lib.Maps PTree gss thm
+R12305:12313 compcert.lib.Maps PTree gss thm
+R12391:12400 Coq.Lists.List <> map_ext_in thm
+R12391:12400 Coq.Lists.List <> map_ext_in thm
+R12449:12459 VST.veric.composite_compute type_func F_PTree_set thm
+R12449:12459 VST.veric.composite_compute type_func F_PTree_set thm
+R12480:12492 Coq.Lists.List <> Forall_forall thm
+R12480:12492 Coq.Lists.List <> Forall_forall thm
+R12480:12492 Coq.Lists.List <> Forall_forall thm
+R12536:12541 Coq.Lists.List <> in_map thm
+R12543:12545 Coq.Init.Datatypes <> snd def
+R12536:12541 Coq.Lists.List <> in_map thm
+R12543:12545 Coq.Init.Datatypes <> snd def
+R12572:12580 compcert.lib.Maps PTree gso thm
+R12572:12580 compcert.lib.Maps PTree gso thm
+R12572:12580 compcert.lib.Maps PTree gso thm
+R12614:12620 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.IH_main var
+R12614:12620 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.IH_main var
+R12675:12684 Coq.Lists.List <> map_ext_in thm
+R12675:12684 Coq.Lists.List <> map_ext_in thm
+R12733:12743 VST.veric.composite_compute type_func F_PTree_set thm
+R12733:12743 VST.veric.composite_compute type_func F_PTree_set thm
+R12768:12773 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.IH_RDT var
+R12768:12773 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.IH_RDT var
+R12804:12816 Coq.Lists.List <> Forall_forall thm
+R12835:12840 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.IH_RDT var
+R12804:12816 Coq.Lists.List <> Forall_forall thm
+R12804:12816 Coq.Lists.List <> Forall_forall thm
+R12835:12840 VST.veric.composite_compute <> type_func.type_func.Consistency_Induction_Step.IH_RDT var
+R12854:12859 Coq.Lists.List <> in_map thm
+R12861:12863 Coq.Init.Datatypes <> snd def
+R12854:12859 Coq.Lists.List <> in_map thm
+R12861:12863 Coq.Init.Datatypes <> snd def
+R12888:12913 VST.veric.composite_compute type_func.type_func.Consistency_Induction_Step <> sec
+prf 12923:12933 type_func Consistency
+binder 12943:12946 <> cenv:137
+binder 12948:12948 <> l:138
+R12988:12993 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13013:13018 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13019:13028 VST.veric.composite_compute type_func Consistent def
+R13036:13038 VST.veric.composite_compute type_func Env def
+R13040:13040 VST.veric.composite_compute <> l:138 var
+R13030:13033 VST.veric.composite_compute <> cenv:137 var
+R12994:13010 VST.veric.composite_compute <> ordered_composite ind
+R13012:13012 VST.veric.composite_compute <> l:138 var
+R12953:12963 Coq.Sorting.Permutation <> Permutation ind
+R12968:12981 compcert.lib.Maps PTree elements def
+R12983:12986 VST.veric.composite_compute <> cenv:137 var
+R12965:12965 VST.veric.composite_compute <> l:138 var
+binder 13078:13078 <> i:139
+binder 13080:13081 <> co:140
+R13096:13099 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13116:13118 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13100:13108 compcert.lib.Maps PTree get def
+R13110:13110 VST.veric.composite_compute <> i:139 var
+R13119:13122 Coq.Init.Datatypes <> Some constr
+R13124:13125 VST.veric.composite_compute <> co:140 var
+R13084:13085 Coq.Lists.List <> In def
+R13087:13087 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13089:13090 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13093:13093 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13088:13088 VST.veric.composite_compute <> i:139 var
+R13091:13092 VST.veric.composite_compute <> co:140 var
+binder 13078:13078 <> i:141
+binder 13080:13081 <> co:142
+R13096:13099 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13116:13118 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13100:13108 compcert.lib.Maps PTree get def
+R13110:13110 VST.veric.composite_compute <> i:141 var
+R13119:13122 Coq.Init.Datatypes <> Some constr
+R13124:13125 VST.veric.composite_compute <> co:142 var
+R13084:13085 Coq.Lists.List <> In def
+R13087:13087 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13089:13090 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13093:13093 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13088:13088 VST.veric.composite_compute <> i:141 var
+R13091:13092 VST.veric.composite_compute <> co:142 var
+R13155:13177 compcert.lib.Maps PTree elements_complete thm
+R13155:13177 compcert.lib.Maps PTree elements_complete thm
+R13191:13204 Coq.Sorting.Permutation <> Permutation_in thm
+R13191:13204 Coq.Sorting.Permutation <> Permutation_in thm
+R13228:13232 Coq.Lists.List <> NoDup ind
+R13235:13237 Coq.Lists.List <> map def
+R13239:13241 Coq.Init.Datatypes <> fst def
+R13228:13232 Coq.Lists.List <> NoDup ind
+R13235:13237 Coq.Lists.List <> map def
+R13239:13241 Coq.Init.Datatypes <> fst def
+R13263:13279 Coq.Sorting.Permutation <> Permutation_NoDup thm
+R13299:13313 Coq.Sorting.Permutation <> Permutation_map thm
+R13263:13279 Coq.Sorting.Permutation <> Permutation_NoDup thm
+R13299:13313 Coq.Sorting.Permutation <> Permutation_map thm
+R13347:13364 VST.veric.composite_compute <> list_norepet_NoDup thm
+R13347:13364 VST.veric.composite_compute <> list_norepet_NoDup thm
+R13347:13364 VST.veric.composite_compute <> list_norepet_NoDup thm
+R13377:13403 compcert.lib.Maps PTree elements_keys_norepet thm
+R13377:13403 compcert.lib.Maps PTree elements_keys_norepet thm
+R13436:13436 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13507:13515 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 13444:13444 <> i:143
+R13463:13467 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13447:13448 Coq.Lists.List <> In def
+R13453:13455 Coq.Lists.List <> map def
+R13457:13459 Coq.Init.Datatypes <> fst def
+R13450:13450 VST.veric.composite_compute <> i:143 var
+R13468:13469 Coq.Lists.List <> In def
+R13474:13476 Coq.Lists.List <> map def
+R13483:13496 compcert.lib.Maps PTree elements def
+R13499:13501 VST.veric.composite_compute type_func Env def
+R13478:13480 Coq.Init.Datatypes <> fst def
+R13471:13471 VST.veric.composite_compute <> i:143 var
+R13516:13516 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13693:13701 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 13524:13524 <> i:144
+binder 13526:13527 <> co:145
+binder 13529:13529 <> a:146
+R13564:13573 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13602:13611 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13612:13617 Coq.Lists.List <> Forall ind
+R13669:13671 Coq.Lists.List <> map def
+R13678:13687 compcert.cfrontend.Ctypes <> co_members proj
+R13689:13690 VST.veric.composite_compute <> co:145 var
+R13673:13675 Coq.Init.Datatypes <> snd def
+R13620:13640 VST.veric.composite_compute <> relative_defined_type def
+R13643:13656 compcert.lib.Maps PTree elements def
+R13659:13661 VST.veric.composite_compute type_func Env def
+R13593:13595 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13574:13582 compcert.lib.Maps PTree get def
+R13587:13589 VST.veric.composite_compute type_func Env def
+R13584:13584 VST.veric.composite_compute <> i:144 var
+R13596:13599 Coq.Init.Datatypes <> Some constr
+R13601:13601 VST.veric.composite_compute <> a:146 var
+R13554:13556 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13538:13546 compcert.lib.Maps PTree get def
+R13548:13548 VST.veric.composite_compute <> i:144 var
+R13557:13560 Coq.Init.Datatypes <> Some constr
+R13562:13563 VST.veric.composite_compute <> co:145 var
+R13702:13711 VST.veric.composite_compute type_func Consistent def
+R13719:13721 VST.veric.composite_compute type_func Env def
+R13436:13436 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13507:13515 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 13444:13444 <> i:147
+R13463:13467 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13447:13448 Coq.Lists.List <> In def
+R13453:13455 Coq.Lists.List <> map def
+R13457:13459 Coq.Init.Datatypes <> fst def
+R13450:13450 VST.veric.composite_compute <> i:147 var
+R13468:13469 Coq.Lists.List <> In def
+R13474:13476 Coq.Lists.List <> map def
+R13483:13496 compcert.lib.Maps PTree elements def
+R13499:13501 VST.veric.composite_compute type_func Env def
+R13478:13480 Coq.Init.Datatypes <> fst def
+R13471:13471 VST.veric.composite_compute <> i:147 var
+R13516:13516 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13693:13701 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 13524:13524 <> i:148
+binder 13526:13527 <> co:149
+binder 13529:13529 <> a:150
+R13564:13573 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13602:13611 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13612:13617 Coq.Lists.List <> Forall ind
+R13669:13671 Coq.Lists.List <> map def
+R13678:13687 compcert.cfrontend.Ctypes <> co_members proj
+R13689:13690 VST.veric.composite_compute <> co:149 var
+R13673:13675 Coq.Init.Datatypes <> snd def
+R13620:13640 VST.veric.composite_compute <> relative_defined_type def
+R13643:13656 compcert.lib.Maps PTree elements def
+R13659:13661 VST.veric.composite_compute type_func Env def
+R13593:13595 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13574:13582 compcert.lib.Maps PTree get def
+R13587:13589 VST.veric.composite_compute type_func Env def
+R13584:13584 VST.veric.composite_compute <> i:148 var
+R13596:13599 Coq.Init.Datatypes <> Some constr
+R13601:13601 VST.veric.composite_compute <> a:150 var
+R13554:13556 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13538:13546 compcert.lib.Maps PTree get def
+R13548:13548 VST.veric.composite_compute <> i:148 var
+R13557:13560 Coq.Init.Datatypes <> Some constr
+R13562:13563 VST.veric.composite_compute <> co:149 var
+R13702:13711 VST.veric.composite_compute type_func Consistent def
+R13719:13721 VST.veric.composite_compute type_func Env def
+R13840:13842 VST.veric.composite_compute type_func Env def
+R13878:13889 compcert.lib.Maps PTree gempty thm
+R13878:13889 compcert.lib.Maps PTree gempty thm
+R13878:13889 compcert.lib.Maps PTree gempty thm
+R13919:13921 VST.veric.composite_compute type_func Env def
+R13957:13968 compcert.lib.Maps PTree gempty thm
+R13957:13968 compcert.lib.Maps PTree gempty thm
+R13957:13968 compcert.lib.Maps PTree gempty thm
+R14093:14095 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14076:14084 compcert.lib.Maps PTree get def
+R14096:14099 Coq.Init.Datatypes <> Some constr
+R14093:14095 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14076:14084 compcert.lib.Maps PTree get def
+R14096:14099 Coq.Init.Datatypes <> Some constr
+R14366:14383 VST.veric.composite_compute type_func establish_In_equiv thm
+R14366:14383 VST.veric.composite_compute type_func establish_In_equiv thm
+R14405:14417 VST.veric.composite_compute type_func establish_RDT thm
+R14405:14417 VST.veric.composite_compute type_func establish_RDT thm
+R14440:14453 VST.veric.composite_compute type_func establish_main thm
+R14440:14453 VST.veric.composite_compute type_func establish_main thm
+prf 14475:14486 type_func Completeness
+binder 14496:14499 <> cenv:151
+binder 14501:14501 <> l:152
+R14541:14546 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14547:14554 VST.veric.composite_compute type_func Complete def
+R14562:14564 VST.veric.composite_compute type_func Env def
+R14566:14566 VST.veric.composite_compute <> l:152 var
+R14556:14559 VST.veric.composite_compute <> cenv:151 var
+R14506:14516 Coq.Sorting.Permutation <> Permutation ind
+R14521:14534 compcert.lib.Maps PTree elements def
+R14536:14539 VST.veric.composite_compute <> cenv:151 var
+R14518:14518 VST.veric.composite_compute <> l:152 var
+R14610:14630 VST.veric.composite_compute <> PTree_In_fst_elements thm
+R14610:14630 VST.veric.composite_compute <> PTree_In_fst_elements thm
+R14610:14630 VST.veric.composite_compute <> PTree_In_fst_elements thm
+R14610:14630 VST.veric.composite_compute <> PTree_In_fst_elements thm
+R14610:14630 VST.veric.composite_compute <> PTree_In_fst_elements thm
+R14646:14672 compcert.lib.Maps PTree elements_keys_norepet thm
+R14646:14672 compcert.lib.Maps PTree elements_keys_norepet thm
+R14690:14707 VST.veric.composite_compute <> list_norepet_NoDup thm
+R14690:14707 VST.veric.composite_compute <> list_norepet_NoDup thm
+R14690:14707 VST.veric.composite_compute <> list_norepet_NoDup thm
+R14872:14878 VST.veric.composite_compute type_func env_rec def
+R14893:14913 VST.veric.composite_compute <> PTree_In_fst_elements thm
+R14919:14932 VST.veric.composite_compute <> PTree_gs_equiv thm
+R14938:14958 VST.veric.composite_compute <> PTree_In_fst_elements thm
+R14893:14913 VST.veric.composite_compute <> PTree_In_fst_elements thm
+R14893:14913 VST.veric.composite_compute <> PTree_In_fst_elements thm
+R14919:14932 VST.veric.composite_compute <> PTree_gs_equiv thm
+R14919:14932 VST.veric.composite_compute <> PTree_gs_equiv thm
+R14938:14958 VST.veric.composite_compute <> PTree_In_fst_elements thm
+R14938:14958 VST.veric.composite_compute <> PTree_In_fst_elements thm
+R14979:14983 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14974:14976 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14986:14988 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14979:14983 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14974:14976 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14986:14988 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15045:15053 VST.veric.composite_compute type_func.type_func <> sec
+R15061:15069 VST.veric.composite_compute type_func <> mod
+prf 15083:15110 <> composite_reorder_consistent
+binder 15113:15113 <> A:153
+binder 15132:15135 <> cenv:154
+binder 15137:15145 <> f_default:155
+binder 15147:15153 <> f_array:156
+binder 15155:15162 <> f_struct:157
+binder 15164:15170 <> f_union:158
+binder 15172:15180 <> f_members:159
+R15216:15223 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15224:15243 VST.veric.composite_compute <> Consistent def
+R15297:15309 VST.veric.composite_compute <> Env def
+R15359:15402 VST.veric.composite_compute <> rebuild_composite_elements def
+R15404:15407 VST.veric.composite_compute <> cenv:154 var
+R15348:15356 VST.veric.composite_compute <> f_members:159 var
+R15340:15346 VST.veric.composite_compute <> f_union:158 var
+R15331:15338 VST.veric.composite_compute <> f_struct:157 var
+R15323:15329 VST.veric.composite_compute <> f_array:156 var
+R15313:15321 VST.veric.composite_compute <> f_default:155 var
+R15311:15311 VST.veric.composite_compute <> A:153 var
+R15290:15293 VST.veric.composite_compute <> cenv:154 var
+R15280:15288 VST.veric.composite_compute <> f_members:159 var
+R15272:15278 VST.veric.composite_compute <> f_union:158 var
+R15263:15270 VST.veric.composite_compute <> f_struct:157 var
+R15255:15261 VST.veric.composite_compute <> f_array:156 var
+R15245:15253 VST.veric.composite_compute <> f_default:155 var
+R15187:15210 compcert.cfrontend.Ctypes <> composite_env_consistent def
+R15212:15215 VST.veric.composite_compute <> cenv:154 var
+R15437:15457 VST.veric.composite_compute <> Consistency thm
+R15437:15457 VST.veric.composite_compute <> Consistency thm
+R15470:15502 VST.veric.composite_compute <> RCT_Permutation thm
+R15470:15502 VST.veric.composite_compute <> RCT_Permutation thm
+R15515:15543 VST.veric.composite_compute <> RCT_ordered thm
+R15515:15543 VST.veric.composite_compute <> RCT_ordered thm
+prf 15568:15593 <> composite_reorder_complete
+binder 15596:15596 <> A:160
+binder 15615:15618 <> cenv:161
+binder 15620:15628 <> f_default:162
+binder 15630:15636 <> f_array:163
+binder 15638:15645 <> f_struct:164
+binder 15647:15653 <> f_union:165
+binder 15655:15663 <> f_members:166
+R15670:15687 VST.veric.composite_compute <> Complete def
+R15696:15708 VST.veric.composite_compute <> Env def
+R15758:15801 VST.veric.composite_compute <> rebuild_composite_elements def
+R15803:15806 VST.veric.composite_compute <> cenv:161 var
+R15747:15755 VST.veric.composite_compute <> f_members:166 var
+R15739:15745 VST.veric.composite_compute <> f_union:165 var
+R15730:15737 VST.veric.composite_compute <> f_struct:164 var
+R15722:15728 VST.veric.composite_compute <> f_array:163 var
+R15712:15720 VST.veric.composite_compute <> f_default:162 var
+R15710:15710 VST.veric.composite_compute <> A:160 var
+R15689:15692 VST.veric.composite_compute <> cenv:161 var
+R15836:15857 VST.veric.composite_compute <> Completeness thm
+R15836:15857 VST.veric.composite_compute <> Completeness thm
+R15868:15900 VST.veric.composite_compute <> RCT_Permutation thm
+R15868:15900 VST.veric.composite_compute <> RCT_Permutation thm
+sec 15917:15920 <> cuof
+R15939:15951 compcert.cfrontend.Ctypes <> composite_env def
+binder 15933:15936 <> cenv:167
+def 15965:15988 <> complete_legal_cosu_type
+binder 15990:15990 <> t:168
+R16003:16003 VST.veric.composite_compute <> t:168 var
+R16014:16019 compcert.cfrontend.Ctypes <> Tarray constr
+R16031:16054 VST.veric.composite_compute <> complete_legal_cosu_type:169 def
+R16063:16069 compcert.cfrontend.Ctypes <> Tstruct constr
+R16089:16091 compcert.lib.Maps <> :::x_'!'_x not
+R16085:16088 VST.veric.composite_compute <> cuof.cenv var
+R16122:16125 Coq.Init.Datatypes <> Some constr
+R16139:16143 compcert.cfrontend.Ctypes <> co_su proj
+R16188:16193 compcert.cfrontend.Ctypes <> Struct constr
+R16198:16201 Coq.Init.Datatypes <> true constr
+R16238:16242 compcert.cfrontend.Ctypes <> Union constr
+R16247:16251 Coq.Init.Datatypes <> false constr
+R16317:16321 Coq.Init.Datatypes <> false constr
+R16351:16356 compcert.cfrontend.Ctypes <> Tunion constr
+R16376:16378 compcert.lib.Maps <> :::x_'!'_x not
+R16372:16375 VST.veric.composite_compute <> cuof.cenv var
+R16408:16411 Coq.Init.Datatypes <> Some constr
+R16425:16429 compcert.cfrontend.Ctypes <> co_su proj
+R16473:16478 compcert.cfrontend.Ctypes <> Struct constr
+R16483:16487 Coq.Init.Datatypes <> false constr
+R16523:16527 compcert.cfrontend.Ctypes <> Union constr
+R16532:16535 Coq.Init.Datatypes <> true constr
+R16599:16603 Coq.Init.Datatypes <> false constr
+R16632:16640 compcert.cfrontend.Ctypes <> Tfunction constr
+R16652:16656 compcert.cfrontend.Ctypes <> Tvoid constr
+R16661:16665 Coq.Init.Datatypes <> false constr
+R16661:16665 Coq.Init.Datatypes <> false constr
+R16676:16679 Coq.Init.Datatypes <> true constr
+def 16698:16731 <> composite_complete_legal_cosu_type
+R16737:16743 compcert.cfrontend.Ctypes <> members def
+binder 16734:16734 <> m:171
+R16747:16750 Coq.Init.Datatypes <> bool ind
+R16763:16763 VST.veric.composite_compute <> m:171 var
+R16774:16776 Coq.Init.Datatypes <> nil constr
+R16781:16784 Coq.Init.Datatypes <> true constr
+R16796:16799 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16790:16790 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16792:16793 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16795:16795 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16832:16835 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R16806:16829 VST.veric.composite_compute <> complete_legal_cosu_type def
+R16836:16869 VST.veric.composite_compute <> composite_complete_legal_cosu_type:172 def
+def 16893:16930 <> composite_env_complete_legal_cosu_type
+R16956:16963 Coq.Numbers.BinNums <> positive ind
+binder 16951:16952 <> id:174
+R16972:16980 compcert.cfrontend.Ctypes <> composite rec
+binder 16967:16968 <> co:175
+R17007:17010 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17061:17063 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17011:17044 VST.veric.composite_compute <> composite_complete_legal_cosu_type def
+R17047:17056 compcert.cfrontend.Ctypes <> co_members proj
+R17058:17059 VST.veric.composite_compute <> co:175 var
+R17064:17067 Coq.Init.Datatypes <> true constr
+R16997:16999 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16992:16994 compcert.lib.Maps <> :::x_'!'_x not
+R16995:16996 VST.veric.composite_compute <> id:174 var
+R16988:16991 VST.veric.composite_compute <> cuof.cenv var
+R17000:17003 Coq.Init.Datatypes <> Some constr
+R17005:17006 VST.veric.composite_compute <> co:175 var
+R17077:17080 VST.veric.composite_compute cuof <> sec
+prf 17090:17127 <> complete_legal_cosu_type_complete_type
+R17143:17155 compcert.cfrontend.Ctypes <> composite_env def
+binder 17137:17140 <> cenv:176
+binder 17167:17167 <> t:177
+R17212:17219 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17240:17242 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17220:17232 compcert.cfrontend.Ctypes <> complete_type def
+R17239:17239 VST.veric.composite_compute <> t:177 var
+R17234:17237 VST.veric.composite_compute <> cenv:176 var
+R17243:17246 Coq.Init.Datatypes <> true constr
+R17205:17207 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17174:17197 VST.veric.composite_compute <> complete_legal_cosu_type def
+R17204:17204 VST.veric.composite_compute <> t:177 var
+R17199:17202 VST.veric.composite_compute <> cenv:176 var
+R17208:17211 Coq.Init.Datatypes <> true constr
+R17321:17323 compcert.lib.Maps <> :::x_'!'_x not
+R17321:17323 compcert.lib.Maps <> :::x_'!'_x not
+R17368:17370 compcert.lib.Maps <> :::x_'!'_x not
+R17368:17370 compcert.lib.Maps <> :::x_'!'_x not

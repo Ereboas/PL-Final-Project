@@ -1,0 +1,101 @@
+DIGEST e721269acbca10e9c7af54d5b4ea71aa
+Fcompcert.x86.Builtins1
+R1098:1103 Coq.Strings.String <> <> lib
+R1105:1110 compcert.lib.Coqlib <> <> lib
+R1128:1130 compcert.common.AST <> <> lib
+R1132:1139 compcert.lib.Integers <> <> lib
+R1141:1146 compcert.lib.Floats <> <> lib
+R1148:1153 compcert.common.Values <> <> lib
+R1171:1179 compcert.common.Builtins0 <> <> lib
+ind 1193:1208 <> platform_builtin
+constr 1224:1230 <> BI_fmin
+constr 1236:1242 <> BI_fmax
+def 1289:1310 <> platform_builtin_table
+R1314:1317 Coq.Init.Datatypes <> list ind
+R1326:1328 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1320:1325 Coq.Strings.String <> string ind
+R1329:1344 compcert.x86.Builtins1 <> platform_builtin ind
+R1382:1387 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1355:1355 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1372:1373 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1381:1381 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1374:1380 compcert.x86.Builtins1 <> BI_fmin constr
+R1415:1420 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1388:1388 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1405:1406 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1414:1414 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1407:1413 compcert.x86.Builtins1 <> BI_fmax constr
+R1421:1423 Coq.Init.Datatypes <> nil constr
+def 1438:1457 <> platform_builtin_sig
+R1463:1478 compcert.x86.Builtins1 <> platform_builtin ind
+binder 1460:1460 <> b:3
+R1483:1491 compcert.common.AST <> signature rec
+R1504:1504 compcert.x86.Builtins1 <> b:3 var
+R1515:1521 compcert.x86.Builtins1 <> BI_fmin constr
+R1525:1531 compcert.x86.Builtins1 <> BI_fmax constr
+R1542:1552 compcert.common.AST <> mksignature constr
+R1587:1596 compcert.common.AST <> cc_default def
+R1580:1585 compcert.common.AST <> Tfloat constr
+R1561:1564 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1555:1560 compcert.common.AST <> Tfloat constr
+R1571:1574 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1565:1570 compcert.common.AST <> Tfloat constr
+R1575:1577 Coq.Init.Datatypes <> nil constr
+R1542:1552 compcert.common.AST <> mksignature constr
+R1587:1596 compcert.common.AST <> cc_default def
+R1580:1585 compcert.common.AST <> Tfloat constr
+R1561:1564 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1555:1560 compcert.common.AST <> Tfloat constr
+R1571:1574 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1565:1570 compcert.common.AST <> Tfloat constr
+R1575:1577 Coq.Init.Datatypes <> nil constr
+def 1617:1636 <> platform_builtin_sem
+R1642:1657 compcert.x86.Builtins1 <> platform_builtin ind
+binder 1639:1639 <> b:5
+R1662:1672 compcert.common.Builtins0 <> builtin_sem rec
+R1675:1681 compcert.common.AST <> sig_res proj
+R1684:1703 compcert.x86.Builtins1 <> platform_builtin_sig def
+R1705:1705 compcert.x86.Builtins1 <> b:5 var
+R1720:1720 compcert.x86.Builtins1 <> b:5 var
+R1731:1737 compcert.x86.Builtins1 <> BI_fmin constr
+R1748:1760 compcert.common.Builtins0 <> mkbuiltin_n2t def
+binder 1796:1797 <> f1:7
+binder 1799:1800 <> f2:8
+R1811:1823 compcert.lib.Floats Float compare def
+R1828:1829 compcert.x86.Builtins1 <> f2:8 var
+R1825:1826 compcert.x86.Builtins1 <> f1:7 var
+R1860:1863 Coq.Init.Datatypes <> Some constr
+R1865:1866 Coq.Init.Datatypes <> Eq constr
+R1870:1873 Coq.Init.Datatypes <> Some constr
+R1875:1876 Coq.Init.Datatypes <> Lt constr
+R1881:1882 compcert.x86.Builtins1 <> f1:7 var
+R1881:1882 compcert.x86.Builtins1 <> f1:7 var
+R1908:1911 Coq.Init.Datatypes <> Some constr
+R1913:1914 Coq.Init.Datatypes <> Gt constr
+R1918:1921 Coq.Init.Datatypes <> None constr
+R1926:1927 compcert.x86.Builtins1 <> f2:8 var
+R1926:1927 compcert.x86.Builtins1 <> f2:8 var
+R1776:1781 compcert.common.AST <> Tfloat constr
+R1769:1774 compcert.common.AST <> Tfloat constr
+R1762:1767 compcert.common.AST <> Tfloat constr
+R1960:1966 compcert.x86.Builtins1 <> BI_fmax constr
+R1977:1989 compcert.common.Builtins0 <> mkbuiltin_n2t def
+binder 2025:2026 <> f1:9
+binder 2028:2029 <> f2:10
+R2040:2052 compcert.lib.Floats Float compare def
+R2057:2058 compcert.x86.Builtins1 <> f2:10 var
+R2054:2055 compcert.x86.Builtins1 <> f1:9 var
+R2089:2092 Coq.Init.Datatypes <> Some constr
+R2094:2095 Coq.Init.Datatypes <> Eq constr
+R2099:2102 Coq.Init.Datatypes <> Some constr
+R2104:2105 Coq.Init.Datatypes <> Gt constr
+R2110:2111 compcert.x86.Builtins1 <> f1:9 var
+R2110:2111 compcert.x86.Builtins1 <> f1:9 var
+R2137:2140 Coq.Init.Datatypes <> Some constr
+R2142:2143 Coq.Init.Datatypes <> Lt constr
+R2147:2150 Coq.Init.Datatypes <> None constr
+R2155:2156 compcert.x86.Builtins1 <> f2:10 var
+R2155:2156 compcert.x86.Builtins1 <> f2:10 var
+R2005:2010 compcert.common.AST <> Tfloat constr
+R1998:2003 compcert.common.AST <> Tfloat constr
+R1991:1996 compcert.common.AST <> Tfloat constr

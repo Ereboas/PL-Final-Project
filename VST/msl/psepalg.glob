@@ -1,0 +1,1337 @@
+DIGEST 8e98b9ba5b22d36585e75313f7f84662
+FVST.msl.psepalg
+R102:113 VST.msl.base <> <> lib
+R131:144 VST.msl.eq_dec <> <> lib
+R162:175 VST.msl.sepalg <> <> lib
+R193:217 VST.msl.sepalg_generators <> <> lib
+prf 277:286 <> pjoin_unit
+binder 289:289 <> A:1
+R297:300 VST.msl.sepalg <> Join class
+R302:302 VST.msl.psepalg <> A:1 var
+binder 293:294 <> JA:2
+R311:317 VST.msl.sepalg <> Pos_alg class
+R319:319 VST.msl.psepalg <> A:1 var
+binder 305:308 <> PosA:3
+R337:337 VST.msl.psepalg <> A:1 var
+binder 331:331 <> a:4
+binder 333:333 <> b:5
+R353:356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R357:361 Coq.Init.Logic <> False ind
+R343:346 VST.msl.sepalg <> join def
+R352:352 VST.msl.psepalg <> b:5 var
+R350:350 VST.msl.psepalg <> b:5 var
+R348:348 VST.msl.psepalg <> a:4 var
+R377:384 VST.msl.sepalg <> no_units def
+R377:384 VST.msl.sepalg <> no_units def
+def 435:440 <> cjoins
+binder 443:443 <> A:6
+R451:454 VST.msl.sepalg <> Join class
+R456:456 VST.msl.psepalg <> A:6 var
+binder 447:448 <> JA:7
+R466:466 VST.msl.psepalg <> A:6 var
+binder 460:460 <> a:8
+binder 462:462 <> b:9
+R479:479 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R481:483 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R485:487 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R498:498 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R484:484 VST.msl.psepalg <> A:6 var
+binder 480:480 <> c:10
+R488:491 VST.msl.sepalg <> join def
+R497:497 VST.msl.psepalg <> c:10 var
+R495:495 VST.msl.psepalg <> b:9 var
+R493:493 VST.msl.psepalg <> a:8 var
+def 544:552 <> cjoin_sub
+binder 555:555 <> A:11
+R563:566 VST.msl.sepalg <> Join class
+R568:568 VST.msl.psepalg <> A:11 var
+binder 559:560 <> JA:12
+R578:578 VST.msl.psepalg <> A:11 var
+binder 572:572 <> a:13
+binder 574:574 <> c:14
+R591:591 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R593:595 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R597:599 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R610:610 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R596:596 VST.msl.psepalg <> A:11 var
+binder 592:592 <> b:15
+R600:603 VST.msl.sepalg <> join def
+R609:609 VST.msl.psepalg <> c:14 var
+R607:607 VST.msl.psepalg <> b:15 var
+R605:605 VST.msl.psepalg <> a:13 var
+prf 651:660 <> joins_comm
+binder 663:663 <> A:16
+R671:674 VST.msl.sepalg <> Join class
+R676:676 VST.msl.psepalg <> A:16 var
+binder 667:668 <> JA:17
+R683:690 VST.msl.sepalg <> Perm_alg class
+R692:692 VST.msl.psepalg <> A:16 var
+binder 679:680 <> PA:18
+binder 704:704 <> a:19
+binder 706:706 <> b:20
+R720:723 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R724:728 VST.msl.sepalg <> joins def
+R732:732 VST.msl.psepalg <> a:19 var
+R730:730 VST.msl.psepalg <> b:20 var
+R711:715 VST.msl.sepalg <> joins def
+R719:719 VST.msl.psepalg <> b:20 var
+R717:717 VST.msl.psepalg <> a:19 var
+R748:756 VST.msl.sepalg <> joins_sym thm
+R748:756 VST.msl.sepalg <> joins_sym thm
+prf 840:853 <> pfull_pmaximal
+binder 856:856 <> A:21
+R864:867 VST.msl.sepalg <> Join class
+R869:869 VST.msl.psepalg <> A:21 var
+binder 860:861 <> JA:22
+R877:884 VST.msl.sepalg <> Perm_alg class
+R886:886 VST.msl.psepalg <> A:21 var
+binder 873:874 <> PA:23
+R897:903 VST.msl.sepalg <> Pos_alg class
+R905:905 VST.msl.psepalg <> A:21 var
+binder 890:894 <> Pos_A:24
+R914:916 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R910:913 VST.msl.sepalg <> full def
+R917:923 VST.msl.sepalg <> maximal def
+R971:978 VST.msl.Axioms <> prop_ext prfax
+R971:978 VST.msl.Axioms <> prop_ext prfax
+R1034:1037 VST.msl.sepalg <> full def
+R1143:1151 VST.msl.sepalg <> join_comm meth
+R1143:1151 VST.msl.sepalg <> join_comm meth
+R1169:1176 VST.msl.sepalg <> no_units def
+R1169:1176 VST.msl.sepalg <> no_units def
+prf 1212:1221 <> psub_joins
+binder 1224:1224 <> A:25
+R1233:1236 VST.msl.sepalg <> Join class
+R1238:1238 VST.msl.psepalg <> A:25 var
+binder 1229:1230 <> JA:26
+R1246:1253 VST.msl.sepalg <> Perm_alg class
+R1255:1255 VST.msl.psepalg <> A:25 var
+binder 1242:1243 <> PA:27
+R1266:1272 VST.msl.sepalg <> Pos_alg class
+R1274:1274 VST.msl.psepalg <> A:25 var
+binder 1259:1263 <> Pos_A:28
+R1281:1288 VST.msl.sepalg <> Disj_alg class
+R1290:1290 VST.msl.psepalg <> A:25 var
+binder 1277:1278 <> DA:29
+binder 1302:1302 <> a:30
+binder 1304:1304 <> b:31
+R1321:1324 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1334:1337 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1338:1342 Coq.Init.Logic <> False ind
+R1325:1329 VST.msl.sepalg <> joins def
+R1333:1333 VST.msl.psepalg <> b:31 var
+R1331:1331 VST.msl.psepalg <> a:30 var
+R1309:1316 VST.msl.sepalg <> join_sub def
+R1320:1320 VST.msl.psepalg <> b:31 var
+R1318:1318 VST.msl.psepalg <> a:30 var
+R1403:1412 VST.msl.sepalg <> join_assoc meth
+R1429:1437 VST.msl.sepalg <> join_comm meth
+R1415:1423 VST.msl.sepalg <> join_comm meth
+R1403:1412 VST.msl.sepalg <> join_assoc meth
+R1429:1437 VST.msl.sepalg <> join_comm meth
+R1415:1423 VST.msl.sepalg <> join_comm meth
+R1469:1477 VST.msl.sepalg <> join_self def
+R1469:1477 VST.msl.sepalg <> join_self def
+R1469:1477 VST.msl.sepalg <> join_self def
+R1507:1514 VST.msl.sepalg <> no_units def
+R1507:1514 VST.msl.sepalg <> no_units def
+sec 1539:1546 <> DISCRETE
+inst 1744:1756 <> Join_discrete
+binder 1759:1759 <> A:32
+R1770:1773 VST.msl.sepalg <> Join class
+R1775:1775 VST.msl.psepalg <> A:32 var
+binder 1784:1785 <> a1:33
+binder 1787:1788 <> a2:34
+binder 1790:1791 <> a3:35
+R1800:1804 Coq.Init.Logic <> False ind
+inst 1819:1831 <> Perm_discrete
+binder 1834:1834 <> A:36
+R1847:1854 VST.msl.sepalg <> Perm_alg class
+R1859:1871 VST.msl.psepalg <> Join_discrete inst
+R1873:1873 VST.msl.psepalg <> A:36 var
+R1856:1856 VST.msl.psepalg <> A:36 var
+inst 1935:1946 <> psa_discrete
+binder 1949:1949 <> A:37
+R1962:1968 VST.msl.sepalg <> Pos_alg class
+R1974:1986 VST.msl.psepalg <> Join_discrete inst
+R1988:1988 VST.msl.psepalg <> A:37 var
+R1970:1970 VST.msl.psepalg <> A:37 var
+R2039:2046 VST.msl.psepalg DISCRETE <> sec
+sec 2175:2182 <> PSA_LIFT
+var 2196:2196 PSA_LIFT A
+var 2217:2219 PSA_LIFT J_A
+R2222:2225 VST.msl.sepalg <> Join class
+R2227:2227 VST.msl.psepalg <> PSA_LIFT.A var
+var 2241:2244 PSA_LIFT PA_A
+R2248:2255 VST.msl.sepalg <> Perm_alg class
+R2257:2257 VST.msl.psepalg <> PSA_LIFT.A var
+def 2276:2281 <> lifted
+R2293:2295 Coq.Init.Specif <> sig ind
+R2297:2303 VST.msl.sepalg <> nonunit def
+def 2322:2331 <> lifted_obj
+R2338:2343 VST.msl.psepalg <> lifted def
+binder 2334:2335 <> la:41
+R2348:2348 VST.msl.psepalg <> PSA_LIFT.A var
+R2353:2361 Coq.Init.Specif <> proj1_sig def
+R2363:2364 VST.msl.psepalg <> la:41 var
+R2471:2504 VST.msl.psepalg <> lifted_obj def
+def 2520:2528 <> mk_lifted
+R2535:2535 VST.msl.psepalg <> PSA_LIFT.A var
+binder 2531:2531 <> a:42
+R2544:2550 VST.msl.sepalg <> nonunit def
+R2552:2552 VST.msl.psepalg <> a:42 var
+binder 2539:2540 <> pf:43
+R2557:2562 VST.msl.psepalg <> lifted def
+R2571:2575 Coq.Init.Specif <> exist constr
+R2587:2588 VST.msl.psepalg <> pf:43 var
+R2585:2585 VST.msl.psepalg <> a:42 var
+R2577:2583 VST.msl.sepalg <> nonunit def
+inst 2603:2611 <> Join_lift
+R2614:2617 VST.msl.sepalg <> Join class
+R2619:2624 VST.msl.psepalg <> lifted def
+R2644:2649 VST.msl.psepalg <> lifted def
+binder 2633:2634 <> a1:44
+binder 2636:2637 <> a2:45
+binder 2639:2640 <> a3:46
+R2655:2658 VST.msl.sepalg <> join def
+R2672:2673 VST.msl.psepalg <> a3:46 var
+R2669:2670 VST.msl.psepalg <> a2:45 var
+R2666:2667 VST.msl.psepalg <> a1:44 var
+R2662:2664 VST.msl.psepalg <> PSA_LIFT.J_A var
+R2660:2660 VST.msl.psepalg <> PSA_LIFT.A var
+inst 2690:2698 <> Perm_lift
+R2701:2708 VST.msl.sepalg <> Perm_alg class
+R2710:2715 VST.msl.psepalg <> lifted def
+R2835:2841 VST.msl.sepalg <> join_eq meth
+R2835:2841 VST.msl.sepalg <> join_eq meth
+R2894:2902 VST.msl.Extensionality <> exist_ext thm
+R2894:2902 VST.msl.Extensionality <> exist_ext thm
+R3036:3045 VST.msl.sepalg <> join_assoc meth
+R3036:3045 VST.msl.sepalg <> join_assoc meth
+R3079:3085 VST.msl.sepalg <> nonunit def
+R3079:3085 VST.msl.sepalg <> nonunit def
+R3102:3108 VST.msl.sepalg <> nonunit def
+R3111:3118 VST.msl.sepalg <> unit_for def
+R3147:3156 VST.msl.sepalg <> join_assoc meth
+R3147:3156 VST.msl.sepalg <> join_assoc meth
+R3195:3209 VST.msl.sepalg <> join_positivity meth
+R3227:3235 VST.msl.sepalg <> join_comm meth
+R3212:3220 VST.msl.sepalg <> join_comm meth
+R3195:3209 VST.msl.sepalg <> join_positivity meth
+R3227:3235 VST.msl.sepalg <> join_comm meth
+R3212:3220 VST.msl.sepalg <> join_comm meth
+R3331:3336 VST.msl.psepalg <> lifted def
+R3351:3355 Coq.Init.Specif <> exist constr
+R3351:3355 Coq.Init.Specif <> exist constr
+R3458:3466 VST.msl.sepalg <> join_comm meth
+R3568:3582 VST.msl.sepalg <> join_positivity meth
+R3568:3582 VST.msl.sepalg <> join_positivity meth
+R3626:3634 VST.msl.Axioms <> proof_irr thm
+R3626:3634 VST.msl.Axioms <> proof_irr thm
+inst 3656:3663 <> Pos_lift
+R3666:3672 VST.msl.sepalg <> Pos_alg class
+R3674:3679 VST.msl.psepalg <> lifted def
+inst 3808:3816 <> Canc_lift
+R3823:3830 VST.msl.sepalg <> Canc_alg class
+R3832:3832 VST.msl.psepalg <> PSA_LIFT.A var
+binder 3819:3820 <> CA:47
+R3836:3843 VST.msl.sepalg <> Canc_alg class
+R3845:3850 VST.msl.psepalg <> lifted def
+R3943:3951 VST.msl.sepalg <> join_canc def
+R3943:3951 VST.msl.sepalg <> join_canc def
+R4012:4020 VST.msl.Axioms <> proof_irr thm
+R4012:4020 VST.msl.Axioms <> proof_irr thm
+inst 4042:4050 <> Disj_lift
+R4057:4064 VST.msl.sepalg <> Disj_alg class
+R4066:4066 VST.msl.psepalg <> PSA_LIFT.A var
+binder 4053:4054 <> DA:48
+R4070:4077 VST.msl.sepalg <> Disj_alg class
+R4079:4084 VST.msl.psepalg <> lifted def
+R4161:4169 VST.msl.sepalg <> join_self def
+R4161:4169 VST.msl.sepalg <> join_self def
+R4280:4288 VST.msl.Axioms <> proof_irr thm
+R4280:4288 VST.msl.Axioms <> proof_irr thm
+prf 4345:4353 <> lifted_eq
+binder 4364:4364 <> a:49
+binder 4366:4366 <> b:50
+R4401:4409 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4411:4413 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4410:4410 VST.msl.psepalg <> a:49 var
+R4414:4414 VST.msl.psepalg <> b:50 var
+R4386:4388 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4374:4383 VST.msl.psepalg <> lifted_obj def
+R4385:4385 VST.msl.psepalg <> a:49 var
+R4389:4398 VST.msl.psepalg <> lifted_obj def
+R4400:4400 VST.msl.psepalg <> b:50 var
+R4507:4515 VST.msl.Axioms <> proof_irr thm
+R4507:4515 VST.msl.Axioms <> proof_irr thm
+prf 4534:4548 <> mk_lifted_refl1
+R4561:4561 VST.msl.psepalg <> PSA_LIFT.A var
+binder 4559:4559 <> a:51
+R4575:4581 VST.msl.sepalg <> nonunit def
+R4583:4583 VST.msl.psepalg <> a:51 var
+binder 4566:4568 <> pf1:52
+binder 4570:4572 <> pf2:53
+R4604:4606 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4591:4599 VST.msl.psepalg <> mk_lifted def
+R4601:4603 VST.msl.psepalg <> pf1:52 var
+R4607:4615 VST.msl.psepalg <> mk_lifted def
+R4617:4619 VST.msl.psepalg <> pf2:53 var
+R4652:4660 VST.msl.Axioms <> proof_irr thm
+R4652:4660 VST.msl.Axioms <> proof_irr thm
+R4652:4660 VST.msl.Axioms <> proof_irr thm
+prf 4694:4706 <> lifted_pjoins
+R4723:4728 VST.msl.psepalg <> lifted def
+binder 4717:4717 <> a:54
+binder 4719:4719 <> b:55
+R4744:4746 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4735:4739 VST.msl.sepalg <> joins def
+R4743:4743 VST.msl.psepalg <> b:55 var
+R4741:4741 VST.msl.psepalg <> a:54 var
+R4748:4752 VST.msl.sepalg <> joins def
+R4762:4762 VST.msl.psepalg <> b:55 var
+R4760:4760 VST.msl.psepalg <> a:54 var
+R4756:4758 VST.msl.psepalg <> PSA_LIFT.J_A var
+R4754:4754 VST.msl.psepalg <> PSA_LIFT.A var
+R4792:4799 VST.msl.Axioms <> prop_ext prfax
+R4792:4799 VST.msl.Axioms <> prop_ext prfax
+R4880:4886 VST.msl.sepalg <> nonunit def
+R4880:4886 VST.msl.sepalg <> nonunit def
+R4975:4982 VST.msl.sepalg <> unit_for def
+R5001:5010 VST.msl.sepalg <> join_assoc meth
+R5001:5010 VST.msl.sepalg <> join_assoc meth
+R5046:5055 VST.msl.sepalg <> join_assoc meth
+R5061:5069 VST.msl.sepalg <> join_comm meth
+R5046:5055 VST.msl.sepalg <> join_assoc meth
+R5061:5069 VST.msl.sepalg <> join_comm meth
+R5106:5112 VST.msl.sepalg <> join_eq meth
+R5118:5126 VST.msl.sepalg <> join_comm meth
+R5106:5112 VST.msl.sepalg <> join_eq meth
+R5118:5126 VST.msl.sepalg <> join_comm meth
+R5200:5214 VST.msl.sepalg <> join_positivity meth
+R5220:5228 VST.msl.sepalg <> join_comm meth
+R5200:5214 VST.msl.sepalg <> join_positivity meth
+R5220:5228 VST.msl.sepalg <> join_comm meth
+R5324:5328 Coq.Init.Specif <> exist constr
+R5324:5328 Coq.Init.Specif <> exist constr
+prf 5366:5376 <> lifted_psub
+R5393:5398 VST.msl.psepalg <> lifted def
+binder 5387:5387 <> a:56
+binder 5389:5389 <> b:57
+R5418:5421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5423:5430 VST.msl.sepalg <> join_sub def
+R5440:5440 VST.msl.psepalg <> b:57 var
+R5438:5438 VST.msl.psepalg <> a:56 var
+R5434:5436 VST.msl.psepalg <> PSA_LIFT.J_A var
+R5432:5432 VST.msl.psepalg <> PSA_LIFT.A var
+R5406:5413 VST.msl.sepalg <> join_sub def
+R5417:5417 VST.msl.psepalg <> b:57 var
+R5415:5415 VST.msl.psepalg <> a:56 var
+prf 5544:5554 <> lifted_full
+R5561:5568 VST.msl.sepalg <> Canc_alg class
+R5570:5570 VST.msl.psepalg <> PSA_LIFT.A var
+binder 5557:5558 <> CA:58
+R5586:5591 VST.msl.psepalg <> lifted def
+binder 5582:5582 <> a:59
+R5611:5614 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5615:5618 VST.msl.sepalg <> full def
+R5620:5620 VST.msl.psepalg <> a:59 var
+R5599:5602 VST.msl.sepalg <> full def
+R5610:5610 VST.msl.psepalg <> a:59 var
+R5606:5608 VST.msl.psepalg <> PSA_LIFT.J_A var
+R5604:5604 VST.msl.psepalg <> PSA_LIFT.A var
+R5838:5841 VST.msl.sepalg <> full def
+R6018:6026 VST.msl.Axioms <> proof_irr thm
+R6018:6026 VST.msl.Axioms <> proof_irr thm
+R6041:6048 VST.msl.psepalg PSA_LIFT <> sec
+R6242:6250 VST.msl.psepalg <> mk_lifted def
+R6242:6250 VST.msl.psepalg <> mk_lifted def
+sec 6550:6557 <> SA_LOWER
+var 6571:6571 SA_LOWER A
+var 6592:6595 SA_LOWER Pj_A
+R6598:6601 VST.msl.sepalg <> Join class
+R6603:6603 VST.msl.psepalg <> SA_LOWER.A var
+var 6617:6620 SA_LOWER PA_A
+R6624:6631 VST.msl.sepalg <> Perm_alg class
+R6633:6633 VST.msl.psepalg <> SA_LOWER.A var
+ind 6651:6660 <> lower_join
+constr 6711:6721 <> lower_None1
+constr 6758:6768 <> lower_None2
+constr 6805:6814 <> lower_Some
+R6671:6674 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6683:6686 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6695:6698 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6687:6692 Coq.Init.Datatypes <> option ind
+R6694:6694 VST.msl.psepalg <> SA_LOWER.A var
+R6675:6680 Coq.Init.Datatypes <> option ind
+R6682:6682 VST.msl.psepalg <> SA_LOWER.A var
+R6663:6668 Coq.Init.Datatypes <> option ind
+R6670:6670 VST.msl.psepalg <> SA_LOWER.A var
+binder 6731:6731 <> a:65
+R6734:6743 VST.msl.psepalg <> lower_join:63 ind
+R6752:6752 VST.msl.psepalg <> a:65 var
+R6750:6750 VST.msl.psepalg <> a:65 var
+R6745:6748 Coq.Init.Datatypes <> None constr
+binder 6778:6778 <> a:66
+R6781:6790 VST.msl.psepalg <> lower_join:63 ind
+R6799:6799 VST.msl.psepalg <> a:66 var
+R6794:6797 Coq.Init.Datatypes <> None constr
+R6792:6792 VST.msl.psepalg <> a:66 var
+binder 6824:6825 <> a1:67
+binder 6827:6828 <> a2:68
+binder 6830:6831 <> a3:69
+R6848:6860 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6861:6870 VST.msl.psepalg <> lower_join:63 ind
+R6893:6896 Coq.Init.Datatypes <> Some constr
+R6898:6899 VST.msl.psepalg <> a3:69 var
+R6883:6886 Coq.Init.Datatypes <> Some constr
+R6888:6889 VST.msl.psepalg <> a2:68 var
+R6873:6876 Coq.Init.Datatypes <> Some constr
+R6878:6879 VST.msl.psepalg <> a1:67 var
+R6835:6838 VST.msl.sepalg <> join def
+R6846:6847 VST.msl.psepalg <> a3:69 var
+R6843:6844 VST.msl.psepalg <> a2:68 var
+R6840:6841 VST.msl.psepalg <> a1:67 var
+inst 6915:6924 <> Join_lower
+R6927:6930 VST.msl.sepalg <> Join class
+R6933:6938 Coq.Init.Datatypes <> option ind
+R6940:6940 VST.msl.psepalg <> SA_LOWER.A var
+R6946:6955 VST.msl.psepalg <> lower_join ind
+inst 6970:6979 <> Perm_lower
+R6983:6990 VST.msl.sepalg <> Perm_alg class
+R7003:7012 VST.msl.psepalg <> Join_lower inst
+R6993:6998 Coq.Init.Datatypes <> option ind
+R7000:7000 VST.msl.psepalg <> SA_LOWER.A var
+R7102:7108 VST.msl.sepalg <> join_eq meth
+R7102:7108 VST.msl.sepalg <> join_eq meth
+R7353:7356 Coq.Init.Datatypes <> Some constr
+R7353:7356 Coq.Init.Datatypes <> Some constr
+R7434:7437 Coq.Init.Datatypes <> Some constr
+R7434:7437 Coq.Init.Datatypes <> Some constr
+R7498:7501 VST.msl.sepalg <> join def
+R7498:7501 VST.msl.sepalg <> join def
+R7542:7545 VST.msl.sepalg <> join def
+R7542:7545 VST.msl.sepalg <> join def
+R7590:7599 VST.msl.sepalg <> join_assoc meth
+R7630:7633 Coq.Init.Datatypes <> Some constr
+R7590:7599 VST.msl.sepalg <> join_assoc meth
+R7630:7633 Coq.Init.Datatypes <> Some constr
+R7738:7752 VST.msl.sepalg <> join_positivity meth
+R7738:7752 VST.msl.sepalg <> join_positivity meth
+inst 7779:7787 <> Sep_lower
+R7791:7797 VST.msl.sepalg <> Sep_alg class
+R7801:7810 VST.msl.psepalg <> Join_lower inst
+R7848:7851 Coq.Init.Datatypes <> None constr
+R7827:7831 VST.msl.sepalg <> mkSep constr
+R7848:7851 Coq.Init.Datatypes <> None constr
+R7827:7831 VST.msl.sepalg <> mkSep constr
+inst 7914:7923 <> Sing_lower
+R7927:7934 VST.msl.sepalg <> Sing_alg class
+R7938:7947 VST.msl.psepalg <> Join_lower inst
+R7973:7978 VST.msl.sepalg <> mkSing constr
+R7980:7983 Coq.Init.Datatypes <> None constr
+R7973:7978 VST.msl.sepalg <> mkSing constr
+R7980:7983 Coq.Init.Datatypes <> None constr
+inst 8032:8041 <> Canc_lower
+R8051:8057 VST.msl.sepalg <> Pos_alg class
+R8059:8059 VST.msl.psepalg <> SA_LOWER.A var
+binder 8044:8048 <> psa_A:70
+R8066:8073 VST.msl.sepalg <> Canc_alg class
+R8075:8075 VST.msl.psepalg <> SA_LOWER.A var
+binder 8062:8063 <> CA:71
+R8080:8087 VST.msl.sepalg <> Canc_alg class
+R8091:8100 VST.msl.psepalg <> Join_lower inst
+R8157:8164 VST.msl.sepalg <> no_units def
+R8157:8164 VST.msl.sepalg <> no_units def
+R8198:8205 VST.msl.sepalg <> no_units def
+R8198:8205 VST.msl.sepalg <> no_units def
+R8248:8256 VST.msl.sepalg <> join_canc def
+R8248:8256 VST.msl.sepalg <> join_canc def
+inst 8285:8294 <> Disj_lower
+R8304:8310 VST.msl.sepalg <> Pos_alg class
+R8312:8312 VST.msl.psepalg <> SA_LOWER.A var
+binder 8297:8301 <> psa_A:72
+R8319:8326 VST.msl.sepalg <> Disj_alg class
+R8328:8328 VST.msl.psepalg <> SA_LOWER.A var
+binder 8315:8316 <> DA:73
+R8333:8340 VST.msl.sepalg <> Disj_alg class
+R8344:8353 VST.msl.psepalg <> Join_lower inst
+R8421:8428 VST.msl.sepalg <> no_units def
+R8421:8428 VST.msl.sepalg <> no_units def
+R8450:8462 VST.msl.sepalg <> identity_unit thm
+R8473:8481 VST.msl.sepalg <> join_self def
+R8450:8462 VST.msl.sepalg <> identity_unit thm
+R8473:8481 VST.msl.sepalg <> join_self def
+R8515:8521 Coq.Init.Logic <> f_equal thm
+R8524:8532 VST.msl.sepalg <> join_self def
+R8515:8521 Coq.Init.Logic <> f_equal thm
+R8524:8532 VST.msl.sepalg <> join_self def
+R8554:8561 VST.msl.psepalg SA_LOWER <> sec
+R8574:8583 VST.msl.psepalg <> Perm_lower inst
+R8574:8583 VST.msl.psepalg <> Perm_lower inst
+R8611:8619 VST.msl.psepalg <> Sep_lower inst
+R8611:8619 VST.msl.psepalg <> Sep_lower inst
+R8641:8650 VST.msl.psepalg <> Sing_lower inst
+R8641:8650 VST.msl.psepalg <> Sing_lower inst
+R8672:8681 VST.msl.psepalg <> Canc_lower inst
+R8672:8681 VST.msl.psepalg <> Canc_lower inst
+R8726:8735 VST.msl.psepalg <> Disj_lower inst
+R8726:8735 VST.msl.psepalg <> Disj_lower inst
+prf 9031:9039 <> None_unit
+binder 9042:9042 <> A:74
+R9051:9054 VST.msl.sepalg <> Join class
+R9056:9056 VST.msl.psepalg <> A:74 var
+binder 9045:9048 <> JOIN:75
+R9077:9082 Coq.Init.Datatypes <> option ind
+R9084:9084 VST.msl.psepalg <> A:74 var
+binder 9074:9074 <> x:76
+R9088:9095 VST.msl.sepalg <> unit_for def
+R9131:9131 VST.msl.psepalg <> x:76 var
+R9126:9129 Coq.Init.Datatypes <> None constr
+R9110:9119 VST.msl.psepalg <> Join_lower inst
+R9098:9103 Coq.Init.Datatypes <> option ind
+R9105:9105 VST.msl.psepalg <> A:74 var
+prf 9219:9231 <> None_identity
+binder 9234:9234 <> A:77
+R9242:9245 VST.msl.sepalg <> Join class
+R9247:9247 VST.msl.psepalg <> A:77 var
+binder 9238:9239 <> JA:78
+R9256:9262 VST.msl.sepalg <> Pos_alg class
+R9264:9264 VST.msl.psepalg <> A:77 var
+binder 9250:9253 <> psaA:79
+R9275:9282 VST.msl.sepalg <> identity def
+R9310:9313 Coq.Init.Datatypes <> None constr
+R9296:9305 VST.msl.psepalg <> Join_lower inst
+R9285:9290 Coq.Init.Datatypes <> option ind
+R9292:9292 VST.msl.psepalg <> A:77 var
+prf 9408:9416 <> lower_inv
+binder 9427:9427 <> A:80
+R9434:9437 VST.msl.sepalg <> Join class
+R9439:9439 VST.msl.psepalg <> A:80 var
+binder 9430:9431 <> JA:81
+R9447:9454 VST.msl.sepalg <> Perm_alg class
+R9456:9456 VST.msl.psepalg <> A:80 var
+binder 9443:9444 <> PA:82
+R9467:9473 VST.msl.sepalg <> Pos_alg class
+R9475:9475 VST.msl.psepalg <> A:80 var
+binder 9460:9464 <> psa_A:83
+R9487:9492 Coq.Init.Datatypes <> option ind
+R9494:9494 VST.msl.psepalg <> A:80 var
+binder 9479:9479 <> a:84
+binder 9481:9481 <> b:85
+binder 9483:9483 <> c:86
+R9512:9519 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9561:9569 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R9665:9665 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R9520:9520 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R9538:9542 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R9560:9560 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R9529:9532 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9522:9524 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9521:9521 VST.msl.psepalg <> a:84 var
+R9525:9528 Coq.Init.Datatypes <> None constr
+R9534:9536 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9533:9533 VST.msl.psepalg <> b:85 var
+R9537:9537 VST.msl.psepalg <> c:86 var
+R9548:9551 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9544:9546 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9543:9543 VST.msl.psepalg <> a:84 var
+R9547:9547 VST.msl.psepalg <> c:86 var
+R9553:9555 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9552:9552 VST.msl.psepalg <> b:85 var
+R9556:9559 Coq.Init.Datatypes <> None constr
+R9570:9570 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R9573:9575 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R9577:9579 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R9664:9664 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R9576:9576 VST.msl.psepalg <> A:80 var
+binder 9571:9572 <> a':87
+R9580:9580 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R9583:9585 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R9587:9589 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R9663:9663 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R9586:9586 VST.msl.psepalg <> A:80 var
+binder 9581:9582 <> b':88
+R9590:9590 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R9593:9595 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R9597:9599 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R9662:9662 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R9596:9596 VST.msl.psepalg <> A:80 var
+binder 9591:9592 <> c':89
+R9611:9614 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9601:9603 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9600:9600 VST.msl.psepalg <> a:84 var
+R9604:9607 Coq.Init.Datatypes <> Some constr
+R9609:9610 VST.msl.psepalg <> a':87 var
+R9626:9629 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9616:9618 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9615:9615 VST.msl.psepalg <> b:85 var
+R9619:9622 Coq.Init.Datatypes <> Some constr
+R9624:9625 VST.msl.psepalg <> b':88 var
+R9641:9648 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9631:9633 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9630:9630 VST.msl.psepalg <> c:86 var
+R9634:9637 Coq.Init.Datatypes <> Some constr
+R9639:9640 VST.msl.psepalg <> c':89 var
+R9649:9652 VST.msl.sepalg <> join def
+R9660:9661 VST.msl.psepalg <> c':89 var
+R9657:9658 VST.msl.psepalg <> b':88 var
+R9654:9655 VST.msl.psepalg <> a':87 var
+R9502:9505 VST.msl.sepalg <> join def
+R9511:9511 VST.msl.psepalg <> c:86 var
+R9509:9509 VST.msl.psepalg <> b:85 var
+R9507:9507 VST.msl.psepalg <> a:84 var
+R9745:9749 Coq.Init.Logic <> False ind
+R9745:9749 Coq.Init.Logic <> False ind
+R9745:9749 Coq.Init.Logic <> False ind
+R9745:9749 Coq.Init.Logic <> False ind
+R9745:9749 Coq.Init.Logic <> False ind
+R9745:9749 Coq.Init.Logic <> False ind
+R9745:9749 Coq.Init.Logic <> False ind
+sec 10103:10110 <> SA_SMASH
+var 10124:10124 SA_SMASH T
+var 10145:10147 SA_SMASH J_T
+R10150:10153 VST.msl.sepalg <> Join class
+R10155:10155 VST.msl.psepalg <> SA_SMASH.T var
+var 10169:10172 SA_SMASH PA_T
+R10176:10183 VST.msl.sepalg <> Perm_alg class
+R10185:10185 VST.msl.psepalg <> SA_SMASH.T var
+def 10203:10209 <> smashed
+R10221:10226 Coq.Init.Datatypes <> option ind
+R10229:10234 VST.msl.psepalg <> lifted def
+R10236:10238 VST.msl.psepalg <> SA_SMASH.J_T var
+def 10255:10264 <> Perm_smash
+R10269:10276 VST.msl.sepalg <> Perm_alg class
+R10278:10284 VST.msl.psepalg <> smashed def
+R10290:10299 VST.msl.psepalg <> Perm_lower inst
+R10302:10307 VST.msl.psepalg <> lifted def
+R10309:10311 VST.msl.psepalg <> SA_SMASH.J_T var
+def 10329:10337 <> Sep_smash
+R10341:10347 VST.msl.sepalg <> Sep_alg class
+R10349:10355 VST.msl.psepalg <> smashed def
+R10360:10368 VST.msl.psepalg <> Sep_lower inst
+R10371:10376 VST.msl.psepalg <> lifted def
+R10378:10380 VST.msl.psepalg <> SA_SMASH.J_T var
+prf 10393:10401 <> smash_inv
+R10419:10425 VST.msl.psepalg <> smashed def
+binder 10411:10411 <> a:93
+binder 10413:10413 <> b:94
+binder 10415:10415 <> c:95
+R10442:10449 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10491:10499 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R10661:10661 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R10450:10450 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R10468:10472 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R10490:10490 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R10459:10462 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10452:10454 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10451:10451 VST.msl.psepalg <> a:93 var
+R10455:10458 Coq.Init.Datatypes <> None constr
+R10464:10466 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10463:10463 VST.msl.psepalg <> b:94 var
+R10467:10467 VST.msl.psepalg <> c:95 var
+R10478:10481 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10474:10476 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10473:10473 VST.msl.psepalg <> a:93 var
+R10477:10477 VST.msl.psepalg <> c:95 var
+R10483:10485 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10482:10482 VST.msl.psepalg <> b:94 var
+R10486:10489 Coq.Init.Datatypes <> None constr
+R10500:10500 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10503:10505 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10516:10518 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10660:10660 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10506:10511 VST.msl.psepalg <> lifted def
+R10513:10515 VST.msl.psepalg <> SA_SMASH.J_T var
+binder 10501:10502 <> a':96
+R10519:10519 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10522:10524 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10535:10537 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10659:10659 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R10525:10530 VST.msl.psepalg <> lifted def
+R10532:10534 VST.msl.psepalg <> SA_SMASH.J_T var
+binder 10520:10521 <> b':97
+R10538:10538 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R10541:10543 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R10554:10556 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R10658:10658 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R10544:10549 VST.msl.psepalg <> lifted def
+R10551:10553 VST.msl.psepalg <> SA_SMASH.J_T var
+binder 10539:10540 <> c':98
+R10568:10571 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10558:10560 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10557:10557 VST.msl.psepalg <> a:93 var
+R10561:10564 Coq.Init.Datatypes <> Some constr
+R10566:10567 VST.msl.psepalg <> a':96 var
+R10583:10586 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10573:10575 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10572:10572 VST.msl.psepalg <> b:94 var
+R10576:10579 Coq.Init.Datatypes <> Some constr
+R10581:10582 VST.msl.psepalg <> b':97 var
+R10598:10605 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10588:10590 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10587:10587 VST.msl.psepalg <> c:95 var
+R10591:10594 Coq.Init.Datatypes <> Some constr
+R10596:10597 VST.msl.psepalg <> c':98 var
+R10606:10609 VST.msl.sepalg <> join def
+R10644:10653 VST.msl.psepalg <> lifted_obj def
+R10655:10656 VST.msl.psepalg <> c':98 var
+R10628:10637 VST.msl.psepalg <> lifted_obj def
+R10639:10640 VST.msl.psepalg <> b':97 var
+R10612:10621 VST.msl.psepalg <> lifted_obj def
+R10623:10624 VST.msl.psepalg <> a':96 var
+R10432:10435 VST.msl.sepalg <> join def
+R10441:10441 VST.msl.psepalg <> c:95 var
+R10439:10439 VST.msl.psepalg <> b:94 var
+R10437:10437 VST.msl.psepalg <> a:93 var
+R10695:10703 VST.msl.psepalg <> lower_inv thm
+R10695:10703 VST.msl.psepalg <> lower_inv thm
+R10737:10744 VST.msl.psepalg SA_SMASH <> sec
+R10758:10764 VST.msl.psepalg <> smashed def
+R10758:10764 VST.msl.psepalg <> smashed def
+prf 10912:10939 <> smashed_lifted_None_identity
+binder 10942:10942 <> A:99
+R10946:10953 VST.msl.sepalg <> Perm_alg class
+R10955:10955 VST.msl.psepalg <> A:99 var
+binder 10946:10955 <> H:101
+R10962:10969 VST.msl.sepalg <> identity def
+R10985:10988 Coq.Init.Datatypes <> None constr
+R10972:10978 VST.msl.psepalg <> smashed def
+R10980:10980 VST.msl.psepalg <> A:99 var
+R11012:11024 VST.msl.psepalg <> None_identity thm
+R11012:11024 VST.msl.psepalg <> None_identity thm
+inst 11206:11216 <> Perm_option
+binder 11219:11219 <> T:102
+R11233:11240 VST.msl.sepalg <> Perm_alg class
+R11255:11264 VST.msl.psepalg <> Join_lower inst
+R11270:11282 VST.msl.psepalg <> Join_discrete inst
+R11284:11284 VST.msl.psepalg <> T:102 var
+R11266:11266 VST.msl.psepalg <> T:102 var
+R11243:11248 Coq.Init.Datatypes <> option ind
+R11250:11250 VST.msl.psepalg <> T:102 var
+R11296:11305 VST.msl.psepalg <> Perm_lower inst
+R11330:11342 VST.msl.psepalg <> Perm_discrete inst
+R11312:11324 VST.msl.psepalg <> Join_discrete inst
+inst 11358:11367 <> Sep_option
+binder 11370:11370 <> T:103
+R11382:11388 VST.msl.sepalg <> Sep_alg class
+R11403:11412 VST.msl.psepalg <> Join_lower inst
+R11418:11430 VST.msl.psepalg <> Join_discrete inst
+R11432:11432 VST.msl.psepalg <> T:103 var
+R11414:11414 VST.msl.psepalg <> T:103 var
+R11391:11396 Coq.Init.Datatypes <> option ind
+R11398:11398 VST.msl.psepalg <> T:103 var
+R11444:11452 VST.msl.psepalg <> Sep_lower inst
+R11459:11471 VST.msl.psepalg <> Join_discrete inst
+inst 11631:11638 <> Pos_prod
+binder 11649:11649 <> A:104
+R11664:11667 VST.msl.sepalg <> Join class
+R11669:11669 VST.msl.psepalg <> A:104 var
+binder 11659:11661 <> J_A:105
+R11680:11686 VST.msl.sepalg <> Pos_alg class
+R11688:11688 VST.msl.psepalg <> A:104 var
+binder 11673:11677 <> Pos_A:106
+binder 11700:11700 <> B:107
+R11715:11718 VST.msl.sepalg <> Join class
+R11720:11720 VST.msl.psepalg <> B:107 var
+binder 11710:11712 <> J_B:108
+R11729:11736 VST.msl.sepalg <> Perm_alg class
+R11738:11738 VST.msl.psepalg <> B:107 var
+binder 11723:11726 <> PA_B:109
+R11751:11757 VST.msl.sepalg <> Pos_alg class
+R11761:11761 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11760:11760 VST.msl.psepalg <> A:104 var
+R11762:11762 VST.msl.psepalg <> B:107 var
+R11839:11846 VST.msl.sepalg <> no_units def
+R11839:11846 VST.msl.sepalg <> no_units def
+sec 12158:12173 <> FinitePartialMap
+var 12187:12187 FinitePartialMap A
+var 12206:12210 FinitePartialMap dec_A
+R12214:12218 VST.msl.eq_dec <> EqDec class
+R12220:12220 VST.msl.psepalg <> FinitePartialMap.A var
+var 12235:12235 FinitePartialMap B
+var 12254:12257 FinitePartialMap PJ_B
+R12260:12263 VST.msl.sepalg <> Join class
+R12265:12265 VST.msl.psepalg <> FinitePartialMap.B var
+var 12279:12284 FinitePartialMap Perm_B
+R12288:12295 VST.msl.sepalg <> Perm_alg class
+R12297:12297 VST.msl.psepalg <> FinitePartialMap.B var
+var 12311:12315 FinitePartialMap Pos_B
+R12319:12325 VST.msl.sepalg <> Pos_alg class
+R12327:12327 VST.msl.psepalg <> FinitePartialMap.B var
+var 12337:12339 FinitePartialMap Rng
+R12344:12349 Coq.Init.Datatypes <> option ind
+R12351:12351 VST.msl.psepalg <> FinitePartialMap.B var
+var 12360:12367 FinitePartialMap Join_Rng
+R12372:12381 VST.msl.psepalg <> Join_lower inst
+R12383:12386 VST.msl.psepalg <> FinitePartialMap.PJ_B var
+var 12395:12401 FinitePartialMap Sep_Rng
+R12406:12414 VST.msl.psepalg <> Sep_lower inst
+R12416:12416 VST.msl.psepalg <> FinitePartialMap.B var
+var 12425:12432 FinitePartialMap Perm_Rng
+R12437:12446 VST.msl.psepalg <> Perm_lower inst
+R12448:12448 VST.msl.psepalg <> FinitePartialMap.B var
+def 12466:12471 <> finMap
+R12477:12480 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12481:12483 VST.msl.psepalg <> FinitePartialMap.Rng var
+R12476:12476 VST.msl.psepalg <> FinitePartialMap.A var
+binder 12474:12474 <> f:116
+R12500:12506 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12508:12509 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12507:12507 <> l:117
+R12519:12519 VST.msl.psepalg <> FinitePartialMap.A var
+binder 12517:12517 <> a:118
+R12529:12532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12536:12538 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12533:12533 VST.msl.psepalg <> f:116 var
+R12535:12535 VST.msl.psepalg <> a:118 var
+R12539:12542 Coq.Init.Datatypes <> None constr
+R12522:12522 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12523:12524 Coq.Lists.List <> In def
+R12528:12528 VST.msl.psepalg <> l:117 var
+R12526:12526 VST.msl.psepalg <> a:118 var
+prf 12554:12564 <> finMap_unit
+binder 12575:12575 <> x:119
+binder 12577:12577 <> e:120
+R12592:12595 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12635:12638 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12639:12644 VST.msl.psepalg <> finMap def
+R12646:12646 VST.msl.psepalg <> e:120 var
+R12597:12604 VST.msl.sepalg <> unit_for def
+R12634:12634 VST.msl.psepalg <> x:119 var
+R12632:12632 VST.msl.psepalg <> e:120 var
+R12609:12616 VST.msl.sepalg_generators <> Join_fun inst
+R12622:12629 VST.msl.psepalg <> FinitePartialMap.Join_Rng var
+R12618:12618 VST.msl.psepalg <> FinitePartialMap.A var
+R12584:12589 VST.msl.psepalg <> finMap def
+R12591:12591 VST.msl.psepalg <> x:119 var
+prf 12847:12857 <> finMap_join
+binder 12868:12868 <> x:121
+binder 12870:12870 <> y:122
+binder 12872:12872 <> z:123
+R12916:12919 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12928:12931 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12940:12943 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12944:12949 VST.msl.psepalg <> finMap def
+R12951:12951 VST.msl.psepalg <> z:123 var
+R12932:12937 VST.msl.psepalg <> finMap def
+R12939:12939 VST.msl.psepalg <> y:122 var
+R12920:12925 VST.msl.psepalg <> finMap def
+R12927:12927 VST.msl.psepalg <> x:121 var
+R12880:12883 VST.msl.sepalg <> join def
+R12915:12915 VST.msl.psepalg <> z:123 var
+R12913:12913 VST.msl.psepalg <> y:122 var
+R12911:12911 VST.msl.psepalg <> x:121 var
+R12888:12895 VST.msl.sepalg_generators <> Join_fun inst
+R12901:12908 VST.msl.psepalg <> FinitePartialMap.Join_Rng var
+R12897:12897 VST.msl.psepalg <> FinitePartialMap.A var
+R13045:13048 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R13045:13048 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R13213:13221 Coq.Lists.List <> in_or_app thm
+R13213:13221 Coq.Lists.List <> in_or_app thm
+R13263:13271 Coq.Lists.List <> in_or_app thm
+R13263:13271 Coq.Lists.List <> in_or_app thm
+def 13301:13303 <> fpm
+R13308:13310 Coq.Init.Specif <> sig ind
+R13312:13317 VST.msl.psepalg <> finMap def
+inst 13331:13338 <> Join_fpm
+R13342:13345 VST.msl.sepalg <> Join class
+R13347:13349 VST.msl.psepalg <> fpm def
+R13360:13368 VST.msl.sepalg_generators <> Join_prop inst
+R13420:13425 VST.msl.psepalg <> finMap def
+R13388:13395 VST.msl.sepalg_generators <> Join_fun inst
+R13410:13417 VST.msl.psepalg <> FinitePartialMap.Join_Rng var
+R13400:13405 Coq.Init.Datatypes <> option ind
+R13407:13407 VST.msl.psepalg <> FinitePartialMap.B var
+R13397:13397 VST.msl.psepalg <> FinitePartialMap.A var
+R13372:13375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13376:13381 Coq.Init.Datatypes <> option ind
+R13383:13383 VST.msl.psepalg <> FinitePartialMap.B var
+R13371:13371 VST.msl.psepalg <> FinitePartialMap.A var
+def 13442:13444 <> PAF
+R13449:13456 VST.msl.sepalg <> Perm_alg class
+R13471:13478 VST.msl.sepalg_generators <> Join_fun inst
+R13486:13493 VST.msl.psepalg <> FinitePartialMap.Join_Rng var
+R13482:13484 VST.msl.psepalg <> FinitePartialMap.Rng var
+R13480:13480 VST.msl.psepalg <> FinitePartialMap.A var
+R13460:13463 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13464:13466 VST.msl.psepalg <> FinitePartialMap.Rng var
+R13459:13459 VST.msl.psepalg <> FinitePartialMap.A var
+R13502:13509 VST.msl.sepalg_generators <> Perm_fun inst
+R13517:13524 VST.msl.psepalg <> FinitePartialMap.Perm_Rng var
+inst 13539:13546 <> Perm_fpm
+R13551:13558 VST.msl.sepalg <> Perm_alg class
+R13564:13571 VST.msl.psepalg <> Join_fpm inst
+R13560:13562 VST.msl.psepalg <> fpm def
+R13580:13588 VST.msl.sepalg_generators <> Perm_prop inst
+R13612:13622 VST.msl.psepalg <> finMap_join thm
+R13605:13610 VST.msl.psepalg <> finMap def
+R13592:13595 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13596:13598 VST.msl.psepalg <> FinitePartialMap.Rng var
+R13591:13591 VST.msl.psepalg <> FinitePartialMap.A var
+prf 13634:13644 <> finMap_core
+binder 13647:13647 <> x:124
+R13658:13670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13671:13676 VST.msl.psepalg <> finMap def
+R13680:13683 VST.msl.sepalg <> core meth
+R13724:13724 VST.msl.psepalg <> x:124 var
+R13690:13696 VST.msl.sepalg_generators <> Sep_fun inst
+R13711:13718 VST.msl.psepalg <> FinitePartialMap.Join_Rng var
+R13701:13706 Coq.Init.Datatypes <> option ind
+R13708:13708 VST.msl.psepalg <> FinitePartialMap.B var
+R13698:13698 VST.msl.psepalg <> FinitePartialMap.A var
+R13650:13655 VST.msl.psepalg <> finMap def
+R13657:13657 VST.msl.psepalg <> x:124 var
+R13752:13754 Coq.Init.Datatypes <> nil constr
+R13752:13754 Coq.Init.Datatypes <> nil constr
+def 13797:13805 <> empty_fpm
+R13809:13811 VST.msl.psepalg <> fpm def
+R13826:13830 Coq.Init.Specif <> exist constr
+R13862:13865 Coq.Init.Datatypes <> None constr
+binder 13837:13837 <> x:125
+R13842:13847 VST.msl.psepalg <> finMap def
+R13849:13849 VST.msl.psepalg <> x:125 var
+R13826:13830 Coq.Init.Specif <> exist constr
+R13862:13865 Coq.Init.Datatypes <> None constr
+binder 13837:13837 <> x:126
+R13842:13847 VST.msl.psepalg <> finMap def
+R13849:13849 VST.msl.psepalg <> x:126 var
+R13883:13885 Coq.Init.Datatypes <> nil constr
+R13883:13885 Coq.Init.Datatypes <> nil constr
+inst 13917:13923 <> Sep_fpm
+R13928:13934 VST.msl.sepalg <> Sep_alg class
+R13940:13947 VST.msl.psepalg <> Join_fpm inst
+R13936:13938 VST.msl.psepalg <> fpm def
+R13999:14007 VST.msl.psepalg <> empty_fpm def
+R13970:13974 VST.msl.sepalg <> mkSep constr
+R13999:14007 VST.msl.psepalg <> empty_fpm def
+R13970:13974 VST.msl.sepalg <> mkSep constr
+inst 14083:14090 <> Sing_fpm
+R14095:14102 VST.msl.sepalg <> Sing_alg class
+R14104:14106 VST.msl.psepalg <> fpm def
+R14155:14163 VST.msl.psepalg <> empty_fpm def
+R14130:14135 VST.msl.sepalg <> mkSing constr
+R14155:14163 VST.msl.psepalg <> empty_fpm def
+R14130:14135 VST.msl.sepalg <> mkSing constr
+inst 14215:14222 <> Canc_fpm
+R14231:14238 VST.msl.sepalg <> Canc_alg class
+R14240:14240 VST.msl.psepalg <> FinitePartialMap.B var
+binder 14225:14228 <> CA_B:127
+R14244:14251 VST.msl.sepalg <> Canc_alg class
+R14253:14255 VST.msl.psepalg <> fpm def
+R14292:14300 VST.msl.sepalg <> join_canc def
+R14292:14300 VST.msl.sepalg <> join_canc def
+inst 14328:14335 <> Disj_fpm
+R14344:14351 VST.msl.sepalg <> Disj_alg class
+R14353:14353 VST.msl.psepalg <> FinitePartialMap.B var
+binder 14338:14341 <> DA_B:128
+R14357:14364 VST.msl.sepalg <> Disj_alg class
+R14366:14368 VST.msl.psepalg <> fpm def
+R14401:14409 VST.msl.sepalg <> join_self def
+R14401:14409 VST.msl.sepalg <> join_self def
+def 14440:14449 <> lookup_fpm
+R14454:14456 VST.msl.psepalg <> fpm def
+binder 14452:14452 <> f:129
+R14462:14465 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14466:14468 VST.msl.psepalg <> FinitePartialMap.Rng var
+R14461:14461 VST.msl.psepalg <> FinitePartialMap.A var
+R14473:14481 Coq.Init.Specif <> proj1_sig def
+R14483:14483 VST.msl.psepalg <> f:129 var
+def 14500:14509 <> insert_fpm
+R14514:14514 VST.msl.psepalg <> FinitePartialMap.A var
+binder 14512:14512 <> a:130
+R14521:14521 VST.msl.psepalg <> FinitePartialMap.B var
+binder 14518:14518 <> b:131
+R14527:14529 VST.msl.psepalg <> fpm def
+binder 14525:14525 <> f:132
+R14534:14536 VST.msl.psepalg <> fpm def
+binder 14584:14584 <> x:133
+R14592:14597 VST.msl.eq_dec <> eq_dec def
+R14601:14601 VST.msl.psepalg <> x:133 var
+R14622:14622 VST.msl.psepalg <> x:133 var
+R14608:14611 Coq.Init.Datatypes <> Some constr
+binder 14584:14584 <> x:134
+R14592:14597 VST.msl.eq_dec <> eq_dec def
+R14601:14601 VST.msl.psepalg <> x:134 var
+R14622:14622 VST.msl.psepalg <> x:134 var
+R14608:14611 Coq.Init.Datatypes <> Some constr
+R14638:14642 Coq.Init.Specif <> exist constr
+R14638:14642 Coq.Init.Specif <> exist constr
+R14693:14696 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14693:14696 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14745:14750 VST.msl.eq_dec <> eq_dec def
+R14745:14750 VST.msl.eq_dec <> eq_dec def
+def 14823:14833 <> insert'_fpm
+R14838:14838 VST.msl.psepalg <> FinitePartialMap.A var
+binder 14836:14836 <> a:135
+R14844:14849 Coq.Init.Datatypes <> option ind
+R14851:14851 VST.msl.psepalg <> FinitePartialMap.B var
+binder 14841:14841 <> b:136
+R14858:14860 VST.msl.psepalg <> fpm def
+binder 14855:14855 <> f:137
+R14865:14867 VST.msl.psepalg <> fpm def
+binder 14915:14915 <> x:138
+R14923:14928 VST.msl.eq_dec <> eq_dec def
+R14932:14932 VST.msl.psepalg <> x:138 var
+R14948:14948 VST.msl.psepalg <> x:138 var
+binder 14915:14915 <> x:139
+R14923:14928 VST.msl.eq_dec <> eq_dec def
+R14932:14932 VST.msl.psepalg <> x:139 var
+R14948:14948 VST.msl.psepalg <> x:139 var
+R14964:14968 Coq.Init.Specif <> exist constr
+R14964:14968 Coq.Init.Specif <> exist constr
+R15019:15022 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15019:15022 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15071:15076 VST.msl.eq_dec <> eq_dec def
+R15071:15076 VST.msl.eq_dec <> eq_dec def
+def 15148:15157 <> remove_fpm
+R15162:15162 VST.msl.psepalg <> FinitePartialMap.A var
+binder 15160:15160 <> a:140
+R15168:15170 VST.msl.psepalg <> fpm def
+binder 15166:15166 <> f:141
+R15175:15177 VST.msl.psepalg <> fpm def
+binder 15225:15225 <> x:142
+R15233:15238 VST.msl.eq_dec <> eq_dec def
+R15242:15242 VST.msl.psepalg <> x:142 var
+R15261:15261 VST.msl.psepalg <> x:142 var
+R15249:15252 Coq.Init.Datatypes <> None constr
+binder 15225:15225 <> x:143
+R15233:15238 VST.msl.eq_dec <> eq_dec def
+R15242:15242 VST.msl.psepalg <> x:143 var
+R15261:15261 VST.msl.psepalg <> x:143 var
+R15249:15252 Coq.Init.Datatypes <> None constr
+R15277:15281 Coq.Init.Specif <> exist constr
+R15277:15281 Coq.Init.Specif <> exist constr
+R15370:15375 VST.msl.eq_dec <> eq_dec def
+R15370:15375 VST.msl.eq_dec <> eq_dec def
+prf 15410:15416 <> fpm_gss
+binder 15427:15427 <> i:144
+binder 15429:15429 <> v:145
+binder 15431:15433 <> rho:146
+R15478:15480 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15445:15454 VST.msl.psepalg <> lookup_fpm def
+R15477:15477 VST.msl.psepalg <> i:144 var
+R15457:15466 VST.msl.psepalg <> insert_fpm def
+R15472:15474 VST.msl.psepalg <> rho:146 var
+R15470:15470 VST.msl.psepalg <> v:145 var
+R15468:15468 VST.msl.psepalg <> i:144 var
+R15481:15484 Coq.Init.Datatypes <> Some constr
+R15486:15486 VST.msl.psepalg <> v:145 var
+R15509:15518 VST.msl.psepalg <> lookup_fpm def
+R15521:15530 VST.msl.psepalg <> insert_fpm def
+R15576:15581 VST.msl.eq_dec <> eq_dec def
+R15576:15581 VST.msl.eq_dec <> eq_dec def
+prf 15634:15640 <> fpm_gso
+binder 15650:15650 <> i:147
+binder 15652:15652 <> j:148
+binder 15654:15654 <> v:149
+binder 15656:15658 <> rho:150
+R15675:15678 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15712:15745 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15679:15688 VST.msl.psepalg <> lookup_fpm def
+R15711:15711 VST.msl.psepalg <> i:147 var
+R15691:15700 VST.msl.psepalg <> insert_fpm def
+R15706:15708 VST.msl.psepalg <> rho:150 var
+R15704:15704 VST.msl.psepalg <> v:149 var
+R15702:15702 VST.msl.psepalg <> j:148 var
+R15746:15755 VST.msl.psepalg <> lookup_fpm def
+R15761:15761 VST.msl.psepalg <> i:147 var
+R15757:15759 VST.msl.psepalg <> rho:150 var
+R15670:15673 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R15669:15669 VST.msl.psepalg <> i:147 var
+R15674:15674 VST.msl.psepalg <> j:148 var
+R15784:15793 VST.msl.psepalg <> lookup_fpm def
+R15796:15805 VST.msl.psepalg <> insert_fpm def
+R15859:15864 VST.msl.eq_dec <> eq_dec def
+R15859:15864 VST.msl.eq_dec <> eq_dec def
+prf 15917:15930 <> empty_fpm_join
+binder 15941:15941 <> x:151
+R15949:15952 VST.msl.sepalg <> join def
+R15977:15977 VST.msl.psepalg <> x:151 var
+R15975:15975 VST.msl.psepalg <> x:151 var
+R15965:15973 VST.msl.psepalg <> empty_fpm def
+R15956:15963 VST.msl.psepalg <> Join_fpm inst
+prf 16051:16065 <> insert_fpm_join
+binder 16076:16076 <> i:152
+binder 16078:16078 <> v:153
+R16087:16089 VST.msl.psepalg <> fpm def
+binder 16081:16081 <> x:154
+binder 16083:16083 <> y:155
+binder 16085:16085 <> z:156
+R16118:16125 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16148:16155 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16157:16160 VST.msl.sepalg <> join def
+R16195:16204 VST.msl.psepalg <> insert_fpm def
+R16210:16210 VST.msl.psepalg <> z:156 var
+R16208:16208 VST.msl.psepalg <> v:153 var
+R16206:16206 VST.msl.psepalg <> i:152 var
+R16192:16192 VST.msl.psepalg <> y:155 var
+R16174:16183 VST.msl.psepalg <> insert_fpm def
+R16189:16189 VST.msl.psepalg <> x:154 var
+R16187:16187 VST.msl.psepalg <> v:153 var
+R16185:16185 VST.msl.psepalg <> i:152 var
+R16164:16171 VST.msl.psepalg <> Join_fpm inst
+R16127:16130 VST.msl.sepalg <> join def
+R16147:16147 VST.msl.psepalg <> z:156 var
+R16145:16145 VST.msl.psepalg <> y:155 var
+R16143:16143 VST.msl.psepalg <> x:154 var
+R16134:16141 VST.msl.psepalg <> Join_fpm inst
+R16111:16113 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16097:16106 VST.msl.psepalg <> lookup_fpm def
+R16110:16110 VST.msl.psepalg <> i:152 var
+R16108:16108 VST.msl.psepalg <> y:155 var
+R16114:16117 Coq.Init.Datatypes <> None constr
+R16262:16265 VST.msl.sepalg <> join def
+R16357:16366 VST.msl.psepalg <> lookup_fpm def
+R16369:16378 VST.msl.psepalg <> insert_fpm def
+R16334:16343 VST.msl.psepalg <> lookup_fpm def
+R16294:16303 VST.msl.psepalg <> lookup_fpm def
+R16306:16315 VST.msl.psepalg <> insert_fpm def
+R16270:16279 VST.msl.psepalg <> Join_lower inst
+R16281:16284 VST.msl.psepalg <> FinitePartialMap.PJ_B var
+R16262:16265 VST.msl.sepalg <> join def
+R16357:16366 VST.msl.psepalg <> lookup_fpm def
+R16369:16378 VST.msl.psepalg <> insert_fpm def
+R16334:16343 VST.msl.psepalg <> lookup_fpm def
+R16294:16303 VST.msl.psepalg <> lookup_fpm def
+R16306:16315 VST.msl.psepalg <> insert_fpm def
+R16270:16279 VST.msl.psepalg <> Join_lower inst
+R16281:16284 VST.msl.psepalg <> FinitePartialMap.PJ_B var
+R16406:16411 VST.msl.eq_dec <> eq_dec def
+R16406:16411 VST.msl.eq_dec <> eq_dec def
+R16445:16451 VST.msl.psepalg <> fpm_gss thm
+R16445:16451 VST.msl.psepalg <> fpm_gss thm
+R16445:16451 VST.msl.psepalg <> fpm_gss thm
+R16445:16451 VST.msl.psepalg <> fpm_gss thm
+R16445:16451 VST.msl.psepalg <> fpm_gss thm
+R16505:16511 VST.msl.psepalg <> fpm_gso thm
+R16505:16511 VST.msl.psepalg <> fpm_gso thm
+R16505:16511 VST.msl.psepalg <> fpm_gso thm
+R16505:16511 VST.msl.psepalg <> fpm_gso thm
+R16505:16511 VST.msl.psepalg <> fpm_gso thm
+R16505:16511 VST.msl.psepalg <> fpm_gso thm
+R16505:16511 VST.msl.psepalg <> fpm_gso thm
+R16532:16547 VST.msl.psepalg FinitePartialMap <> sec
+prf 16557:16567 <> fpm_bij_aux
+binder 16577:16577 <> A:157
+binder 16579:16579 <> B:158
+binder 16581:16582 <> B':159
+R16589:16592 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16593:16594 VST.msl.psepalg <> B':159 var
+R16588:16588 VST.msl.psepalg <> B:158 var
+binder 16585:16585 <> f:160
+R16604:16607 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16608:16613 Coq.Init.Datatypes <> option ind
+R16615:16615 VST.msl.psepalg <> B:158 var
+R16603:16603 VST.msl.psepalg <> A:157 var
+binder 16598:16600 <> rho:161
+R16642:16653 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16655:16660 VST.msl.psepalg <> finMap def
+binder 16672:16672 <> i:162
+R16683:16685 VST.msl.psepalg <> rho:161 var
+R16687:16687 VST.msl.psepalg <> i:162 var
+R16694:16697 Coq.Init.Datatypes <> None constr
+R16702:16705 Coq.Init.Datatypes <> None constr
+R16709:16712 Coq.Init.Datatypes <> Some constr
+R16719:16722 Coq.Init.Datatypes <> Some constr
+R16725:16725 VST.msl.psepalg <> f:160 var
+R16664:16665 VST.msl.psepalg <> B':159 var
+R16662:16662 VST.msl.psepalg <> A:157 var
+R16628:16633 VST.msl.psepalg <> finMap def
+R16639:16641 VST.msl.psepalg <> rho:161 var
+R16637:16637 VST.msl.psepalg <> B:158 var
+R16635:16635 VST.msl.psepalg <> A:157 var
+def 16832:16838 <> fpm_bij
+binder 16841:16841 <> A:163
+binder 16843:16843 <> B:164
+binder 16845:16846 <> B':165
+R16861:16869 VST.msl.base <> bijection rec
+R16873:16874 VST.msl.psepalg <> B':165 var
+R16871:16871 VST.msl.psepalg <> B:164 var
+binder 16856:16858 <> bij:166
+R16879:16887 VST.msl.base <> bijection rec
+R16900:16902 VST.msl.psepalg <> fpm def
+R16906:16907 VST.msl.psepalg <> B':165 var
+R16904:16904 VST.msl.psepalg <> A:163 var
+R16890:16892 VST.msl.psepalg <> fpm def
+R16896:16896 VST.msl.psepalg <> B:164 var
+R16894:16894 VST.msl.psepalg <> A:163 var
+R16949:16951 VST.msl.psepalg <> fpm def
+R16962:16970 VST.msl.base <> Bijection constr
+R17077:17079 Coq.Init.Specif <> sig ind
+R17083:17088 VST.msl.psepalg <> finMap def
+binder 17074:17074 <> x:167
+R17099:17103 Coq.Init.Specif <> exist constr
+R17122:17132 VST.msl.psepalg <> fpm_bij_aux thm
+R17137:17145 Coq.Init.Specif <> proj2_sig def
+R17147:17147 VST.msl.psepalg <> x:167 var
+R17107:17112 VST.msl.psepalg <> finMap def
+R16989:16991 Coq.Init.Specif <> sig ind
+R16995:17000 VST.msl.psepalg <> finMap def
+binder 16986:16986 <> x:168
+R17010:17014 Coq.Init.Specif <> exist constr
+R17034:17044 VST.msl.psepalg <> fpm_bij_aux thm
+R17049:17057 Coq.Init.Specif <> proj2_sig def
+R17059:17059 VST.msl.psepalg <> x:168 var
+R17018:17023 VST.msl.psepalg <> finMap def
+R16962:16970 VST.msl.base <> Bijection constr
+R17077:17079 Coq.Init.Specif <> sig ind
+R17083:17088 VST.msl.psepalg <> finMap def
+binder 17074:17074 <> x:169
+R17099:17103 Coq.Init.Specif <> exist constr
+R17122:17132 VST.msl.psepalg <> fpm_bij_aux thm
+R17137:17145 Coq.Init.Specif <> proj2_sig def
+R17147:17147 VST.msl.psepalg <> x:169 var
+R17107:17112 VST.msl.psepalg <> finMap def
+R16989:16991 Coq.Init.Specif <> sig ind
+R16995:17000 VST.msl.psepalg <> finMap def
+binder 16986:16986 <> x:170
+R17010:17014 Coq.Init.Specif <> exist constr
+R17034:17044 VST.msl.psepalg <> fpm_bij_aux thm
+R17049:17057 Coq.Init.Specif <> proj2_sig def
+R17059:17059 VST.msl.psepalg <> x:170 var
+R17018:17023 VST.msl.psepalg <> finMap def
+R17189:17197 VST.msl.Extensionality <> exist_ext thm
+R17189:17197 VST.msl.Extensionality <> exist_ext thm
+R17295:17303 VST.msl.Extensionality <> exist_ext thm
+R17295:17303 VST.msl.Extensionality <> exist_ext thm
+prf 17382:17395 <> lift_prod_aux1
+binder 17398:17398 <> A:171
+R17405:17408 VST.msl.sepalg <> Join class
+R17410:17410 VST.msl.psepalg <> A:171 var
+binder 17401:17402 <> JA:172
+binder 17413:17413 <> B:173
+binder 17426:17426 <> x:174
+R17483:17486 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17487:17493 VST.msl.sepalg <> nonunit def
+R17496:17498 Coq.Init.Datatypes <> fst def
+R17500:17500 VST.msl.psepalg <> x:174 var
+R17432:17438 VST.msl.sepalg <> nonunit def
+R17482:17482 VST.msl.psepalg <> x:174 var
+R17449:17457 VST.msl.sepalg_generators <> Join_prod inst
+R17467:17476 VST.msl.sepalg_generators <> Join_equiv inst
+R17478:17478 VST.msl.psepalg <> B:173 var
+R17464:17464 VST.msl.psepalg <> B:173 var
+R17461:17462 VST.msl.psepalg <> JA:172 var
+R17459:17459 VST.msl.psepalg <> A:171 var
+R17442:17444 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17441:17441 VST.msl.psepalg <> A:171 var
+R17445:17445 VST.msl.psepalg <> B:173 var
+R17566:17566 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17568:17568 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17570:17570 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17566:17566 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17568:17568 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17570:17570 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 17620:17629 <> lift_prod1
+binder 17633:17633 <> A:175
+R17640:17643 VST.msl.sepalg <> Join class
+R17645:17645 VST.msl.psepalg <> A:175 var
+binder 17636:17637 <> JA:176
+binder 17648:17648 <> B:177
+R17653:17653 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17702:17707 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17723:17723 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17719:17721 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17709:17714 VST.msl.psepalg <> lifted def
+R17716:17716 VST.msl.psepalg <> A:175 var
+R17722:17722 VST.msl.psepalg <> B:177 var
+R17655:17660 VST.msl.psepalg <> lifted def
+R17671:17679 VST.msl.sepalg_generators <> Join_prod inst
+R17688:17697 VST.msl.sepalg_generators <> Join_equiv inst
+R17699:17699 VST.msl.psepalg <> B:177 var
+R17685:17685 VST.msl.psepalg <> B:177 var
+R17681:17681 VST.msl.psepalg <> A:175 var
+R17664:17666 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17663:17663 VST.msl.psepalg <> A:175 var
+R17667:17667 VST.msl.psepalg <> B:177 var
+R17782:17790 VST.msl.psepalg <> mk_lifted def
+R17795:17808 VST.msl.psepalg <> lift_prod_aux1 thm
+R17782:17790 VST.msl.psepalg <> mk_lifted def
+R17795:17808 VST.msl.psepalg <> lift_prod_aux1 thm
+prf 17832:17845 <> lift_prod_aux2
+binder 17848:17848 <> A:178
+R17855:17858 VST.msl.sepalg <> Join class
+R17860:17860 VST.msl.psepalg <> A:178 var
+binder 17851:17852 <> JA:179
+binder 17863:17863 <> B:180
+binder 17877:17877 <> x:181
+R17899:17902 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17904:17910 VST.msl.sepalg <> nonunit def
+R17954:17954 VST.msl.psepalg <> x:181 var
+R17921:17929 VST.msl.sepalg_generators <> Join_prod inst
+R17939:17948 VST.msl.sepalg_generators <> Join_equiv inst
+R17950:17950 VST.msl.psepalg <> B:180 var
+R17936:17936 VST.msl.psepalg <> B:180 var
+R17933:17934 VST.msl.psepalg <> JA:179 var
+R17931:17931 VST.msl.psepalg <> A:178 var
+R17914:17916 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17913:17913 VST.msl.psepalg <> A:178 var
+R17917:17917 VST.msl.psepalg <> B:180 var
+R17884:17890 VST.msl.sepalg <> nonunit def
+R17893:17895 Coq.Init.Datatypes <> fst def
+R17897:17897 VST.msl.psepalg <> x:181 var
+def 18062:18071 <> lift_prod2
+binder 18075:18075 <> A:182
+R18082:18085 VST.msl.sepalg <> Join class
+R18087:18087 VST.msl.psepalg <> A:182 var
+binder 18078:18079 <> JA:183
+binder 18090:18090 <> B:184
+R18094:18094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18110:18115 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18164:18164 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18117:18122 VST.msl.psepalg <> lifted def
+R18133:18141 VST.msl.sepalg_generators <> Join_prod inst
+R18150:18159 VST.msl.sepalg_generators <> Join_equiv inst
+R18161:18161 VST.msl.psepalg <> B:184 var
+R18147:18147 VST.msl.psepalg <> B:184 var
+R18143:18143 VST.msl.psepalg <> A:182 var
+R18126:18128 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18125:18125 VST.msl.psepalg <> A:182 var
+R18129:18129 VST.msl.psepalg <> B:184 var
+R18106:18108 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18096:18101 VST.msl.psepalg <> lifted def
+R18103:18103 VST.msl.psepalg <> A:182 var
+R18109:18109 VST.msl.psepalg <> B:184 var
+R18194:18202 VST.msl.psepalg <> mk_lifted def
+R18208:18221 VST.msl.psepalg <> lift_prod_aux2 thm
+R18229:18229 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18231:18231 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18233:18233 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18194:18202 VST.msl.psepalg <> mk_lifted def
+R18208:18221 VST.msl.psepalg <> lift_prod_aux2 thm
+R18229:18229 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18231:18231 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18233:18233 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 18262:18274 <> lift_prod_bij
+binder 18284:18284 <> A:185
+R18291:18294 VST.msl.sepalg <> Join class
+R18296:18296 VST.msl.psepalg <> A:185 var
+binder 18287:18288 <> JA:186
+binder 18299:18299 <> B:187
+R18307:18315 VST.msl.base <> bijection rec
+R18381:18383 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18371:18376 VST.msl.psepalg <> lifted def
+R18378:18378 VST.msl.psepalg <> A:185 var
+R18384:18384 VST.msl.psepalg <> B:187 var
+R18320:18325 VST.msl.psepalg <> lifted def
+R18336:18344 VST.msl.sepalg_generators <> Join_prod inst
+R18353:18362 VST.msl.sepalg_generators <> Join_equiv inst
+R18364:18364 VST.msl.psepalg <> B:187 var
+R18350:18350 VST.msl.psepalg <> B:187 var
+R18346:18346 VST.msl.psepalg <> A:185 var
+R18329:18331 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R18328:18328 VST.msl.psepalg <> A:185 var
+R18332:18332 VST.msl.psepalg <> B:187 var
+R18414:18422 VST.msl.base <> Bijection constr
+R18439:18448 VST.msl.psepalg <> lift_prod2 def
+R18428:18437 VST.msl.psepalg <> lift_prod1 def
+R18414:18422 VST.msl.base <> Bijection constr
+R18439:18448 VST.msl.psepalg <> lift_prod2 def
+R18428:18437 VST.msl.psepalg <> lift_prod1 def
+R18507:18515 VST.msl.psepalg <> mk_lifted def
+R18544:18552 VST.msl.Axioms <> proof_irr thm
+R18544:18552 VST.msl.Axioms <> proof_irr thm
+R18610:18618 VST.msl.psepalg <> mk_lifted def
+R18636:18644 VST.msl.Axioms <> proof_irr thm
+R18636:18644 VST.msl.Axioms <> proof_irr thm

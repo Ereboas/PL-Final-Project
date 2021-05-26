@@ -1,0 +1,95 @@
+DIGEST b86de615b67bd5543f7a48ec01b6230b
+FVST.floyd.proj_reptype_lemmas
+R15:29 VST.floyd.base2 <> <> lib
+R47:69 VST.floyd.client_lemmas <> <> lib
+R87:115 VST.floyd.nested_field_lemmas <> <> lib
+R133:156 VST.floyd.type_induction <> <> lib
+R174:197 VST.floyd.reptype_lemmas <> <> lib
+R215:238 VST.floyd.aggregate_type <> <> lib
+R256:272 VST.floyd.sublist <> <> lib
+sec 284:295 <> PROJ_REPTYPE
+R312:320 VST.veric.mpred <> compspecs class
+binder 308:309 <> cs:1
+def 336:354 <> proj_gfield_reptype
+R360:363 compcert.cfrontend.Ctypes <> type ind
+binder 357:357 <> t:2
+R371:376 VST.floyd.nested_field_lemmas <> gfield ind
+binder 367:368 <> gf:3
+R383:389 VST.floyd.reptype_lemmas <> reptype def
+R391:391 VST.floyd.proj_reptype_lemmas <> t:2 var
+binder 380:380 <> v:4
+R395:401 VST.floyd.reptype_lemmas <> reptype def
+R404:414 VST.floyd.nested_field_lemmas <> gfield_type def
+R418:419 VST.floyd.proj_reptype_lemmas <> gf:3 var
+R416:416 VST.floyd.proj_reptype_lemmas <> t:2 var
+R436:437 VST.floyd.proj_reptype_lemmas <> gf:3 var
+R433:433 VST.floyd.proj_reptype_lemmas <> t:2 var
+R456:459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R460:466 VST.floyd.reptype_lemmas <> reptype def
+R469:479 VST.floyd.nested_field_lemmas <> gfield_type def
+R483:484 VST.floyd.proj_reptype_lemmas <> gf:5 var
+R481:481 VST.floyd.proj_reptype_lemmas <> t:6 var
+R447:453 VST.floyd.reptype_lemmas <> REPTYPE syndef
+R455:455 VST.floyd.proj_reptype_lemmas <> t:6 var
+R499:504 compcert.cfrontend.Ctypes <> Tarray constr
+R515:524 VST.floyd.nested_field_lemmas <> ArraySubsc constr
+binder 535:535 <> v:7
+R541:544 VST.floyd.sublist <> Znth def
+R566:566 VST.floyd.proj_reptype_lemmas <> v:7 var
+R549:559 VST.floyd.reptype_lemmas <> default_val def
+R572:578 compcert.cfrontend.Ctypes <> Tstruct constr
+R586:596 VST.floyd.nested_field_lemmas <> StructField constr
+binder 607:607 <> v:8
+R612:622 VST.floyd.aggregate_type <> proj_struct def
+R654:664 VST.floyd.reptype_lemmas <> default_val def
+R651:651 VST.floyd.proj_reptype_lemmas <> v:8 var
+R627:636 compcert.cfrontend.Ctypes <> co_members proj
+R639:644 VST.floyd.base <> get_co def
+R673:678 compcert.cfrontend.Ctypes <> Tunion constr
+R686:695 VST.floyd.nested_field_lemmas <> UnionField constr
+binder 706:706 <> v:9
+R711:720 VST.floyd.aggregate_type <> proj_union def
+R752:762 VST.floyd.reptype_lemmas <> default_val def
+R749:749 VST.floyd.proj_reptype_lemmas <> v:9 var
+R725:734 compcert.cfrontend.Ctypes <> co_members proj
+R737:742 VST.floyd.base <> get_co def
+R788:798 VST.floyd.reptype_lemmas <> default_val def
+R809:822 VST.floyd.reptype_lemmas <> unfold_reptype def
+R824:824 VST.floyd.proj_reptype_lemmas <> v:4 var
+def 838:849 <> proj_reptype
+R855:858 compcert.cfrontend.Ctypes <> type ind
+binder 852:852 <> t:10
+R867:870 Coq.Init.Datatypes <> list ind
+R872:877 VST.floyd.nested_field_lemmas <> gfield ind
+binder 862:864 <> gfs:11
+R884:890 VST.floyd.reptype_lemmas <> reptype def
+R892:892 VST.floyd.proj_reptype_lemmas <> t:10 var
+binder 881:881 <> v:12
+R897:903 VST.floyd.reptype_lemmas <> reptype def
+R906:922 VST.floyd.nested_field_lemmas <> nested_field_type def
+R926:928 VST.floyd.proj_reptype_lemmas <> gfs:11 var
+R924:924 VST.floyd.proj_reptype_lemmas <> t:10 var
+R955:957 VST.floyd.proj_reptype_lemmas <> gfs:11 var
+R978:984 VST.floyd.reptype_lemmas <> reptype def
+R993:996 VST.floyd.proj_reptype_lemmas <> gfs':14 var
+R1025:1027 Coq.Init.Datatypes <> nil constr
+R1032:1032 VST.floyd.proj_reptype_lemmas <> t:10 var
+R1058:1061 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1070:1080 VST.floyd.nested_field_lemmas <> gfield_type def
+R1083:1099 VST.floyd.nested_field_lemmas <> nested_field_type def
+R1101:1101 VST.floyd.proj_reptype_lemmas <> t:10 var
+R1148:1150 Coq.Init.Datatypes <> nil constr
+R1155:1155 VST.floyd.proj_reptype_lemmas <> v:12 var
+R1163:1166 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1175:1193 VST.floyd.proj_reptype_lemmas <> proj_gfield_reptype def
+R1201:1212 VST.floyd.proj_reptype_lemmas <> proj_reptype:13 def
+R1221:1221 VST.floyd.proj_reptype_lemmas <> v:12 var
+R1214:1214 VST.floyd.proj_reptype_lemmas <> t:10 var
+binder 940:942 <> res:16
+R1235:1243 Coq.Init.Logic <> eq_rect_r def
+R1258:1278 VST.floyd.nested_field_lemmas <> nested_field_type_ind thm
+R1282:1284 VST.floyd.proj_reptype_lemmas <> gfs:11 var
+R1280:1280 VST.floyd.proj_reptype_lemmas <> t:10 var
+R1253:1255 VST.floyd.proj_reptype_lemmas <> res:16 var
+R1245:1251 VST.floyd.reptype_lemmas <> reptype def
+R1293:1304 VST.floyd.proj_reptype_lemmas PROJ_REPTYPE <> sec

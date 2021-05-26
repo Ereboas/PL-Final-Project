@@ -1,0 +1,1037 @@
+DIGEST bda8571c4d43dc263055c54dcf3cd89b
+FVST.veric.juicy_mem_ops
+R15:34 VST.veric.juicy_base <> <> lib
+R67:85 VST.veric.juicy_mem <> <> lib
+R103:128 VST.veric.juicy_mem_lemmas <> <> lib
+R146:161 VST.veric.shares <> <> lib
+modtype 177:189 <> JUICY_MEM_OPS
+ax 202:216 JUICY_MEM_OPS juicy_mem_store
+R231:234 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R247:250 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R256:259 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R261:264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R268:271 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R272:277 Coq.Init.Datatypes <> option ind
+R279:287 VST.veric.juicy_mem <> juicy_mem ind
+R265:267 compcert.common.Values <> val ind
+R260:260 Coq.Numbers.BinNums <> Z ind
+R251:255 compcert.common.Values <> block def
+R235:246 compcert.common.AST <> memory_chunk ind
+R222:230 VST.veric.juicy_mem <> juicy_mem ind
+ax 301:320 JUICY_MEM_OPS juicy_mem_storebytes
+R335:338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R344:347 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R349:352 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R364:367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R368:373 Coq.Init.Datatypes <> option ind
+R375:383 VST.veric.juicy_mem <> juicy_mem ind
+R353:356 Coq.Init.Datatypes <> list ind
+R358:363 compcert.common.Memdata <> memval ind
+R348:348 Coq.Numbers.BinNums <> Z ind
+R339:343 compcert.common.Values <> block def
+R326:334 VST.veric.juicy_mem <> juicy_mem ind
+ax 397:411 JUICY_MEM_OPS juicy_mem_alloc
+R426:429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R431:434 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R436:439 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R449:451 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R440:448 VST.veric.juicy_mem <> juicy_mem ind
+R452:456 compcert.common.Values <> block def
+R435:435 Coq.Numbers.BinNums <> Z ind
+R430:430 Coq.Numbers.BinNums <> Z ind
+R417:425 VST.veric.juicy_mem <> juicy_mem ind
+ax 747:770 JUICY_MEM_OPS juicy_mem_store_succeeds
+binder 780:780 <> j:4
+binder 782:783 <> j':5
+binder 785:786 <> ch:6
+binder 788:788 <> b:7
+binder 790:792 <> ofs:8
+binder 794:794 <> v:9
+R837:842 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R843:849 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R852:853 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 850:851 <> m':10
+R890:893 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R880:882 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R854:858 compcert.common.Memory Mem store def
+R879:879 VST.veric.juicy_mem_ops <> v:9 var
+R875:877 VST.veric.juicy_mem_ops <> ofs:8 var
+R873:873 VST.veric.juicy_mem_ops <> b:7 var
+R864:868 VST.veric.juicy_mem <> m_dry def
+R870:870 VST.veric.juicy_mem_ops <> j:4 var
+R860:861 VST.veric.juicy_mem_ops <> ch:6 var
+R883:886 Coq.Init.Datatypes <> Some constr
+R888:889 VST.veric.juicy_mem_ops <> m':10 var
+R896:898 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R894:895 VST.veric.juicy_mem_ops <> m':10 var
+R899:903 VST.veric.juicy_mem <> m_dry def
+R905:906 VST.veric.juicy_mem_ops <> j':5 var
+R827:829 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R799:813 VST.veric.juicy_mem_ops JUICY_MEM_OPS juicy_mem_store defax
+R826:826 VST.veric.juicy_mem_ops <> v:9 var
+R822:824 VST.veric.juicy_mem_ops <> ofs:8 var
+R820:820 VST.veric.juicy_mem_ops <> b:7 var
+R817:818 VST.veric.juicy_mem_ops <> ch:6 var
+R815:815 VST.veric.juicy_mem_ops <> j:4 var
+R830:833 Coq.Init.Datatypes <> Some constr
+R835:836 VST.veric.juicy_mem_ops <> j':5 var
+ax 915:938 JUICY_MEM_OPS juicy_mem_alloc_succeeds
+binder 948:948 <> j:12
+binder 950:951 <> j':13
+binder 953:953 <> b:14
+binder 955:956 <> lo:15
+binder 958:959 <> hi:16
+R997:1000 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1014:1016 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1001:1001 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1010:1011 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1013:1013 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1002:1006 VST.veric.juicy_mem <> m_dry def
+R1008:1009 VST.veric.juicy_mem_ops <> j':13 var
+R1012:1012 VST.veric.juicy_mem_ops <> b:14 var
+R1017:1021 compcert.common.Memory Mem alloc def
+R1036:1037 VST.veric.juicy_mem_ops <> hi:16 var
+R1033:1034 VST.veric.juicy_mem_ops <> lo:15 var
+R1024:1028 VST.veric.juicy_mem <> m_dry def
+R1030:1030 VST.veric.juicy_mem_ops <> j:12 var
+R987:989 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R964:978 VST.veric.juicy_mem_ops JUICY_MEM_OPS juicy_mem_alloc defax
+R985:986 VST.veric.juicy_mem_ops <> hi:16 var
+R982:983 VST.veric.juicy_mem_ops <> lo:15 var
+R980:980 VST.veric.juicy_mem_ops <> j:12 var
+R990:990 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R993:994 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R996:996 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R991:992 VST.veric.juicy_mem_ops <> j':13 var
+R995:995 VST.veric.juicy_mem_ops <> b:14 var
+R1045:1057 VST.veric.juicy_mem_ops JUICY_MEM_OPS <> modtype
+R1128:1140 VST.veric.juicy_mem_ops JUICY_MEM_OPS <> mod
+mod 1113:1123 <> JuicyMemOps
+def 1162:1176 JuicyMemOps juicy_mem_store
+binder 1178:1178 <> j:18
+binder 1180:1181 <> ch:19
+binder 1183:1183 <> b:20
+binder 1185:1187 <> ofs:21
+binder 1189:1189 <> v:22
+R1192:1197 Coq.Init.Datatypes <> option ind
+R1199:1207 VST.veric.juicy_mem <> juicy_mem ind
+R1217:1232 compcert.common.Memory Mem valid_access_dec thm
+R1253:1260 compcert.common.Memtype <> Writable constr
+R1249:1251 VST.veric.juicy_mem_ops <> ofs:21 var
+R1247:1247 VST.veric.juicy_mem_ops <> b:20 var
+R1244:1245 VST.veric.juicy_mem_ops <> ch:19 var
+R1235:1239 VST.veric.juicy_mem <> m_dry def
+R1241:1241 VST.veric.juicy_mem_ops <> j:18 var
+R1320:1323 Coq.Init.Datatypes <> None constr
+R1271:1274 Coq.Init.Datatypes <> Some constr
+R1277:1291 VST.veric.juicy_mem <> store_juicy_mem def
+R1306:1306 VST.veric.juicy_mem_ops <> v:22 var
+R1302:1304 VST.veric.juicy_mem_ops <> ofs:21 var
+R1300:1300 VST.veric.juicy_mem_ops <> b:20 var
+R1297:1298 VST.veric.juicy_mem_ops <> ch:19 var
+R1293:1293 VST.veric.juicy_mem_ops <> j:18 var
+R1358:1366 Coq.Init.Specif <> proj1_sig def
+R1369:1386 compcert.common.Memory Mem valid_access_store thm
+R1389:1393 VST.veric.juicy_mem <> m_dry def
+R1358:1366 Coq.Init.Specif <> proj1_sig def
+R1369:1386 compcert.common.Memory Mem valid_access_store thm
+R1389:1393 VST.veric.juicy_mem <> m_dry def
+R1447:1455 Coq.Init.Specif <> proj2_sig def
+R1458:1475 compcert.common.Memory Mem valid_access_store thm
+R1478:1482 VST.veric.juicy_mem <> m_dry def
+R1447:1455 Coq.Init.Specif <> proj2_sig def
+R1458:1475 compcert.common.Memory Mem valid_access_store thm
+R1478:1482 VST.veric.juicy_mem <> m_dry def
+prf 1519:1542 JuicyMemOps juicy_mem_store_succeeds
+binder 1552:1552 <> j:23
+binder 1554:1555 <> j':24
+binder 1557:1558 <> ch:25
+binder 1560:1560 <> b:26
+binder 1562:1564 <> ofs:27
+binder 1566:1566 <> v:28
+R1609:1614 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1615:1621 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1624:1625 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1622:1623 <> m':29
+R1662:1665 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1652:1654 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1626:1630 compcert.common.Memory Mem store def
+R1651:1651 VST.veric.juicy_mem_ops <> v:28 var
+R1647:1649 VST.veric.juicy_mem_ops <> ofs:27 var
+R1645:1645 VST.veric.juicy_mem_ops <> b:26 var
+R1636:1640 VST.veric.juicy_mem <> m_dry def
+R1642:1642 VST.veric.juicy_mem_ops <> j:23 var
+R1632:1633 VST.veric.juicy_mem_ops <> ch:25 var
+R1655:1658 Coq.Init.Datatypes <> Some constr
+R1660:1661 VST.veric.juicy_mem_ops <> m':29 var
+R1668:1670 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1666:1667 VST.veric.juicy_mem_ops <> m':29 var
+R1671:1675 VST.veric.juicy_mem <> m_dry def
+R1677:1678 VST.veric.juicy_mem_ops <> j':24 var
+R1599:1601 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1571:1585 VST.veric.juicy_mem_ops JuicyMemOps juicy_mem_store def
+R1598:1598 VST.veric.juicy_mem_ops <> v:28 var
+R1594:1596 VST.veric.juicy_mem_ops <> ofs:27 var
+R1592:1592 VST.veric.juicy_mem_ops <> b:26 var
+R1589:1590 VST.veric.juicy_mem_ops <> ch:25 var
+R1587:1587 VST.veric.juicy_mem_ops <> j:23 var
+R1602:1605 Coq.Init.Datatypes <> Some constr
+R1607:1608 VST.veric.juicy_mem_ops <> j':24 var
+R1720:1734 VST.veric.juicy_mem_ops JuicyMemOps juicy_mem_store def
+R1752:1767 compcert.common.Memory Mem valid_access_dec thm
+R1788:1795 compcert.common.Memtype <> Writable constr
+R1770:1774 VST.veric.juicy_mem <> m_dry def
+R1752:1767 compcert.common.Memory Mem valid_access_dec thm
+R1788:1795 compcert.common.Memtype <> Writable constr
+R1770:1774 VST.veric.juicy_mem <> m_dry def
+R1820:1824 VST.veric.juicy_mem <> m_dry def
+R1820:1824 VST.veric.juicy_mem <> m_dry def
+R1871:1898 VST.veric.juicy_mem_ops JuicyMemOps juicy_mem_store_obligation_1 thm
+R1911:1928 compcert.common.Memory Mem valid_access_store thm
+R1931:1935 VST.veric.juicy_mem <> m_dry def
+R1911:1928 compcert.common.Memory Mem valid_access_store thm
+R1931:1935 VST.veric.juicy_mem <> m_dry def
+def 2001:2020 JuicyMemOps juicy_mem_storebytes
+binder 2022:2022 <> j:30
+binder 2024:2024 <> b:31
+binder 2026:2028 <> ofs:32
+binder 2030:2034 <> bytes:33
+R2037:2042 Coq.Init.Datatypes <> option ind
+R2044:2052 VST.veric.juicy_mem <> juicy_mem ind
+R2062:2075 compcert.common.Memory Mem range_perm_dec thm
+R2129:2136 compcert.common.Memtype <> Writable constr
+R2125:2127 compcert.common.Memtype <> Cur constr
+R2097:2099 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2094:2096 VST.veric.juicy_mem_ops <> ofs:32 var
+R2100:2107 Coq.ZArith.BinInt <> Z_of_nat syndef
+R2110:2115 Coq.Lists.List <> length syndef
+R2117:2121 VST.veric.juicy_mem_ops <> bytes:33 var
+R2089:2091 VST.veric.juicy_mem_ops <> ofs:32 var
+R2087:2087 VST.veric.juicy_mem_ops <> b:31 var
+R2078:2082 VST.veric.juicy_mem <> m_dry def
+R2084:2084 VST.veric.juicy_mem_ops <> j:30 var
+R2202:2205 Coq.Init.Datatypes <> None constr
+R2147:2150 Coq.Init.Datatypes <> Some constr
+R2153:2172 VST.veric.juicy_mem <> storebytes_juicy_mem def
+R2184:2188 VST.veric.juicy_mem_ops <> bytes:33 var
+R2180:2182 VST.veric.juicy_mem_ops <> ofs:32 var
+R2178:2178 VST.veric.juicy_mem_ops <> b:31 var
+R2174:2174 VST.veric.juicy_mem_ops <> j:30 var
+R2232:2240 Coq.Init.Specif <> proj1_sig def
+R2243:2263 compcert.common.Memory Mem range_perm_storebytes thm
+R2266:2270 VST.veric.juicy_mem <> m_dry def
+R2232:2240 Coq.Init.Specif <> proj1_sig def
+R2243:2263 compcert.common.Memory Mem range_perm_storebytes thm
+R2266:2270 VST.veric.juicy_mem <> m_dry def
+R2325:2333 Coq.Init.Specif <> proj2_sig def
+R2336:2356 compcert.common.Memory Mem range_perm_storebytes thm
+R2359:2363 VST.veric.juicy_mem <> m_dry def
+R2325:2333 Coq.Init.Specif <> proj2_sig def
+R2336:2356 compcert.common.Memory Mem range_perm_storebytes thm
+R2359:2363 VST.veric.juicy_mem <> m_dry def
+prf 2397:2425 JuicyMemOps juicy_mem_storebytes_succeeds
+binder 2435:2435 <> j:34
+binder 2437:2438 <> j':35
+binder 2440:2440 <> b:36
+binder 2442:2444 <> ofs:37
+binder 2446:2450 <> bytes:38
+R2499:2504 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2505:2511 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2514:2515 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2512:2513 <> m':39
+R2558:2561 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2548:2550 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2516:2525 compcert.common.Memory Mem storebytes def
+R2543:2547 VST.veric.juicy_mem_ops <> bytes:38 var
+R2539:2541 VST.veric.juicy_mem_ops <> ofs:37 var
+R2537:2537 VST.veric.juicy_mem_ops <> b:36 var
+R2528:2532 VST.veric.juicy_mem <> m_dry def
+R2534:2534 VST.veric.juicy_mem_ops <> j:34 var
+R2551:2554 Coq.Init.Datatypes <> Some constr
+R2556:2557 VST.veric.juicy_mem_ops <> m':39 var
+R2564:2566 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2562:2563 VST.veric.juicy_mem_ops <> m':39 var
+R2567:2571 VST.veric.juicy_mem <> m_dry def
+R2573:2574 VST.veric.juicy_mem_ops <> j':35 var
+R2489:2491 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2455:2474 VST.veric.juicy_mem_ops JuicyMemOps juicy_mem_storebytes def
+R2484:2488 VST.veric.juicy_mem_ops <> bytes:38 var
+R2480:2482 VST.veric.juicy_mem_ops <> ofs:37 var
+R2478:2478 VST.veric.juicy_mem_ops <> b:36 var
+R2476:2476 VST.veric.juicy_mem_ops <> j:34 var
+R2492:2495 Coq.Init.Datatypes <> Some constr
+R2497:2498 VST.veric.juicy_mem_ops <> j':35 var
+R2620:2639 VST.veric.juicy_mem_ops JuicyMemOps juicy_mem_storebytes def
+R2657:2670 compcert.common.Memory Mem range_perm_dec thm
+R2724:2731 compcert.common.Memtype <> Writable constr
+R2720:2722 compcert.common.Memtype <> Cur constr
+R2692:2694 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2695:2702 Coq.ZArith.BinInt <> Z_of_nat syndef
+R2705:2710 Coq.Lists.List <> length syndef
+R2673:2677 VST.veric.juicy_mem <> m_dry def
+R2657:2670 compcert.common.Memory Mem range_perm_dec thm
+R2724:2731 compcert.common.Memtype <> Writable constr
+R2720:2722 compcert.common.Memtype <> Cur constr
+R2692:2694 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2695:2702 Coq.ZArith.BinInt <> Z_of_nat syndef
+R2705:2710 Coq.Lists.List <> length syndef
+R2673:2677 VST.veric.juicy_mem <> m_dry def
+R2743:2747 VST.veric.juicy_mem <> m_dry def
+R2743:2747 VST.veric.juicy_mem <> m_dry def
+R2794:2826 VST.veric.juicy_mem_ops JuicyMemOps juicy_mem_storebytes_obligation_1 thm
+R2839:2859 compcert.common.Memory Mem range_perm_storebytes thm
+R2862:2866 VST.veric.juicy_mem <> m_dry def
+R2839:2859 compcert.common.Memory Mem range_perm_storebytes thm
+R2862:2866 VST.veric.juicy_mem <> m_dry def
+prf 2920:2932 JuicyMemOps pshare_sh_bot
+binder 2942:2942 <> p:40
+R2968:2971 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2972:2976 Coq.Init.Logic <> False ind
+R2956:2958 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2945:2953 VST.msl.pshares <> pshare_sh def
+R2955:2955 VST.veric.juicy_mem_ops <> p:40 var
+R2959:2967 VST.msl.shares Share bot defax
+R3033:3051 VST.msl.sepalg <> nonunit_nonidentity thm
+R3033:3051 VST.msl.sepalg <> nonunit_nonidentity thm
+R3074:3085 VST.msl.shares <> bot_identity thm
+R3074:3085 VST.msl.shares <> bot_identity thm
+prf 3100:3119 JuicyMemOps juicy_mem_alloc_aux1
+binder 3131:3132 <> jm:41
+binder 3134:3135 <> lo:42
+binder 3137:3138 <> hi:43
+binder 3140:3141 <> m':44
+binder 3143:3143 <> b:45
+R3177:3188 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3196:3198 <> ofs:46
+R3219:3221 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3209:3211 VST.veric.rmaps RMAPS :::x_'@'_x not
+R3201:3205 VST.veric.juicy_mem <> m_phi def
+R3207:3208 VST.veric.juicy_mem_ops <> jm:41 var
+R3212:3212 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3214:3214 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3218:3218 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3213:3213 VST.veric.juicy_mem_ops <> b:45 var
+R3215:3217 VST.veric.juicy_mem_ops <> ofs:46 var
+R3222:3223 VST.veric.compcert_rmaps RML.R NO constr
+R3235:3248 VST.veric.shares <> bot_unreadable thm
+R3225:3233 VST.msl.shares Share bot defax
+R3168:3170 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3146:3150 compcert.common.Memory Mem alloc def
+R3166:3167 VST.veric.juicy_mem_ops <> hi:43 var
+R3163:3164 VST.veric.juicy_mem_ops <> lo:42 var
+R3153:3157 VST.veric.juicy_mem <> m_dry def
+R3159:3160 VST.veric.juicy_mem_ops <> jm:41 var
+R3171:3171 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3174:3174 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3176:3176 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3172:3173 VST.veric.juicy_mem_ops <> m':44 var
+R3175:3175 VST.veric.juicy_mem_ops <> b:45 var
+R3280:3299 VST.veric.juicy_mem <> juicy_mem_max_access thm
+R3304:3304 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3306:3306 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3310:3310 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3280:3299 VST.veric.juicy_mem <> juicy_mem_max_access thm
+R3304:3304 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3306:3306 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3310:3310 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3322:3334 VST.veric.juicy_mem <> max_access_at def
+R3370:3381 compcert.common.Memory Mem alloc_result thm
+R3370:3381 compcert.common.Memory Mem alloc_result thm
+prf 3506:3532 JuicyMemOps after_alloc_contents_cohere
+binder 3543:3544 <> jm:47
+binder 3546:3547 <> lo:48
+binder 3549:3550 <> hi:49
+binder 3552:3553 <> m':50
+binder 3555:3555 <> b:51
+R3584:3586 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3562:3566 compcert.common.Memory Mem alloc def
+R3582:3583 VST.veric.juicy_mem_ops <> hi:49 var
+R3579:3580 VST.veric.juicy_mem_ops <> lo:48 var
+R3569:3573 VST.veric.juicy_mem <> m_dry def
+R3575:3576 VST.veric.juicy_mem_ops <> jm:47 var
+R3587:3587 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3590:3591 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3593:3593 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3588:3589 VST.veric.juicy_mem_ops <> m':50 var
+R3592:3592 VST.veric.juicy_mem_ops <> b:51 var
+binder 3558:3558 <> H:52
+R3599:3613 VST.veric.juicy_mem <> contents_cohere def
+R3623:3633 VST.veric.juicy_mem <> after_alloc def
+R3655:3674 VST.veric.juicy_mem_ops JuicyMemOps juicy_mem_alloc_aux1 thm
+R3690:3690 VST.veric.juicy_mem_ops <> H:52 var
+R3688:3688 VST.veric.juicy_mem_ops <> b:51 var
+R3685:3686 VST.veric.juicy_mem_ops <> m':50 var
+R3682:3683 VST.veric.juicy_mem_ops <> hi:49 var
+R3679:3680 VST.veric.juicy_mem_ops <> lo:48 var
+R3676:3677 VST.veric.juicy_mem_ops <> jm:47 var
+R3644:3648 VST.veric.juicy_mem <> m_phi def
+R3650:3651 VST.veric.juicy_mem_ops <> jm:47 var
+R3641:3641 VST.veric.juicy_mem_ops <> b:51 var
+R3638:3639 VST.veric.juicy_mem_ops <> hi:49 var
+R3635:3636 VST.veric.juicy_mem_ops <> lo:48 var
+R3615:3616 VST.veric.juicy_mem_ops <> m':50 var
+R3717:3727 VST.veric.juicy_mem <> after_alloc def
+R3751:3771 VST.veric.juicy_mem <> resource_at_make_rmap thm
+R3751:3771 VST.veric.juicy_mem <> resource_at_make_rmap thm
+R3751:3771 VST.veric.juicy_mem <> resource_at_make_rmap thm
+R3787:3798 VST.veric.juicy_mem <> after_alloc' def
+R3851:3870 VST.veric.juicy_mem <> alloc_dry_updated_on thm
+R3851:3870 VST.veric.juicy_mem <> alloc_dry_updated_on thm
+R3906:3927 VST.veric.juicy_mem <> alloc_dry_unchanged_on thm
+R3906:3927 VST.veric.juicy_mem <> alloc_dry_unchanged_on thm
+R3960:3975 VST.veric.juicy_mem <> juicy_mem_access thm
+R3960:3975 VST.veric.juicy_mem <> juicy_mem_access thm
+R4045:4055 VST.veric.juicy_mem <> perm_of_res def
+R4058:4067 VST.veric.juicy_mem <> perm_of_sh def
+R4125:4131 VST.msl.Coqlib2 <> if_true thm
+R4125:4131 VST.msl.Coqlib2 <> if_true thm
+R4125:4131 VST.msl.Coqlib2 <> if_true thm
+R4164:4181 VST.veric.juicy_mem <> juicy_mem_contents thm
+R4164:4181 VST.veric.juicy_mem <> juicy_mem_contents thm
+prf 4247:4271 JuicyMemOps after_alloc_access_cohere
+binder 4282:4283 <> jm:53
+binder 4285:4286 <> lo:54
+binder 4288:4289 <> hi:55
+binder 4291:4292 <> m':56
+binder 4294:4294 <> b:57
+R4323:4325 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4301:4305 compcert.common.Memory Mem alloc def
+R4321:4322 VST.veric.juicy_mem_ops <> hi:55 var
+R4318:4319 VST.veric.juicy_mem_ops <> lo:54 var
+R4308:4312 VST.veric.juicy_mem <> m_dry def
+R4314:4315 VST.veric.juicy_mem_ops <> jm:53 var
+R4326:4326 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4329:4330 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4332:4332 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4327:4328 VST.veric.juicy_mem_ops <> m':56 var
+R4331:4331 VST.veric.juicy_mem_ops <> b:57 var
+binder 4297:4297 <> H:58
+R4337:4349 VST.veric.juicy_mem <> access_cohere def
+R4357:4367 VST.veric.juicy_mem <> after_alloc def
+R4389:4408 VST.veric.juicy_mem_ops JuicyMemOps juicy_mem_alloc_aux1 thm
+R4424:4424 VST.veric.juicy_mem_ops <> H:58 var
+R4422:4422 VST.veric.juicy_mem_ops <> b:57 var
+R4419:4420 VST.veric.juicy_mem_ops <> m':56 var
+R4416:4417 VST.veric.juicy_mem_ops <> hi:55 var
+R4413:4414 VST.veric.juicy_mem_ops <> lo:54 var
+R4410:4411 VST.veric.juicy_mem_ops <> jm:53 var
+R4378:4382 VST.veric.juicy_mem <> m_phi def
+R4384:4385 VST.veric.juicy_mem_ops <> jm:53 var
+R4375:4375 VST.veric.juicy_mem_ops <> b:57 var
+R4372:4373 VST.veric.juicy_mem_ops <> hi:55 var
+R4369:4370 VST.veric.juicy_mem_ops <> lo:54 var
+R4351:4352 VST.veric.juicy_mem_ops <> m':56 var
+R4464:4474 VST.veric.juicy_mem <> after_alloc def
+R4485:4505 VST.veric.juicy_mem <> resource_at_make_rmap thm
+R4485:4505 VST.veric.juicy_mem <> resource_at_make_rmap thm
+R4485:4505 VST.veric.juicy_mem <> resource_at_make_rmap thm
+R4515:4526 VST.veric.juicy_mem <> after_alloc' def
+R4546:4556 VST.veric.juicy_mem <> perm_of_res def
+R4576:4591 VST.veric.juicy_mem <> perm_of_freeable thm
+R4576:4591 VST.veric.juicy_mem <> perm_of_freeable thm
+R4576:4591 VST.veric.juicy_mem <> perm_of_freeable thm
+R4601:4620 VST.veric.juicy_mem <> alloc_dry_updated_on thm
+R4601:4620 VST.veric.juicy_mem <> alloc_dry_updated_on thm
+R4656:4677 VST.veric.juicy_mem <> alloc_dry_unchanged_on thm
+R4656:4677 VST.veric.juicy_mem <> alloc_dry_unchanged_on thm
+R4710:4725 VST.veric.juicy_mem <> juicy_mem_access thm
+R4710:4725 VST.veric.juicy_mem <> juicy_mem_access thm
+prf 4760:4788 JuicyMemOps after_alloc_max_access_cohere
+binder 4799:4800 <> jm:59
+binder 4802:4803 <> lo:60
+binder 4805:4806 <> hi:61
+binder 4808:4809 <> m':62
+binder 4811:4811 <> b:63
+R4840:4842 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4818:4822 compcert.common.Memory Mem alloc def
+R4838:4839 VST.veric.juicy_mem_ops <> hi:61 var
+R4835:4836 VST.veric.juicy_mem_ops <> lo:60 var
+R4825:4829 VST.veric.juicy_mem <> m_dry def
+R4831:4832 VST.veric.juicy_mem_ops <> jm:59 var
+R4843:4843 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4846:4847 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4849:4849 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4844:4845 VST.veric.juicy_mem_ops <> m':62 var
+R4848:4848 VST.veric.juicy_mem_ops <> b:63 var
+binder 4814:4814 <> H:64
+R4854:4870 VST.veric.juicy_mem <> max_access_cohere def
+R4878:4888 VST.veric.juicy_mem <> after_alloc def
+R4910:4929 VST.veric.juicy_mem_ops JuicyMemOps juicy_mem_alloc_aux1 thm
+R4945:4945 VST.veric.juicy_mem_ops <> H:64 var
+R4943:4943 VST.veric.juicy_mem_ops <> b:63 var
+R4940:4941 VST.veric.juicy_mem_ops <> m':62 var
+R4937:4938 VST.veric.juicy_mem_ops <> hi:61 var
+R4934:4935 VST.veric.juicy_mem_ops <> lo:60 var
+R4931:4932 VST.veric.juicy_mem_ops <> jm:59 var
+R4899:4903 VST.veric.juicy_mem <> m_phi def
+R4905:4906 VST.veric.juicy_mem_ops <> jm:59 var
+R4896:4896 VST.veric.juicy_mem_ops <> b:63 var
+R4893:4894 VST.veric.juicy_mem_ops <> hi:61 var
+R4890:4891 VST.veric.juicy_mem_ops <> lo:60 var
+R4872:4873 VST.veric.juicy_mem_ops <> m':62 var
+R4977:4977 Coq.Init.Logic <> I constr
+R4977:4977 Coq.Init.Logic <> I constr
+R5000:5010 VST.veric.juicy_mem <> after_alloc def
+R5021:5041 VST.veric.juicy_mem <> resource_at_make_rmap thm
+R5021:5041 VST.veric.juicy_mem <> resource_at_make_rmap thm
+R5021:5041 VST.veric.juicy_mem <> resource_at_make_rmap thm
+R5051:5062 VST.veric.juicy_mem <> after_alloc' def
+R5091:5106 VST.veric.juicy_mem <> perm_of_freeable thm
+R5091:5106 VST.veric.juicy_mem <> perm_of_freeable thm
+R5091:5106 VST.veric.juicy_mem <> perm_of_freeable thm
+R5155:5167 VST.veric.juicy_mem <> max_access_at def
+R5180:5196 VST.veric.Memory <> alloc_access_same thm
+R5180:5196 VST.veric.Memory <> alloc_access_same thm
+R5180:5196 VST.veric.Memory <> alloc_access_same thm
+R5250:5269 VST.veric.juicy_mem <> juicy_mem_max_access thm
+R5250:5269 VST.veric.juicy_mem <> juicy_mem_max_access thm
+R5292:5309 VST.veric.juicy_mem_lemmas <> perm_order''_trans thm
+R5292:5309 VST.veric.juicy_mem_lemmas <> perm_order''_trans thm
+R5330:5342 VST.veric.juicy_mem <> max_access_at def
+R5391:5408 VST.veric.Memory <> alloc_access_other thm
+R5391:5408 VST.veric.Memory <> alloc_access_other thm
+R5391:5408 VST.veric.Memory <> alloc_access_other thm
+R5391:5408 VST.veric.Memory <> alloc_access_other thm
+R5446:5454 VST.veric.Memory <> access_at def
+R5467:5469 compcert.common.Memtype <> Max constr
+R5459:5459 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5462:5463 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5465:5465 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5481:5489 compcert.common.Memtype <> perm_refl constr
+R5446:5454 VST.veric.Memory <> access_at def
+R5467:5469 compcert.common.Memtype <> Max constr
+R5459:5459 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5462:5463 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5465:5465 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5481:5489 compcert.common.Memtype <> perm_refl constr
+R5520:5527 compcert.common.Values <> eq_block def
+R5520:5527 compcert.common.Values <> eq_block def
+R5555:5556 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5581:5581 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5559:5562 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5564:5566 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5569:5572 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5580:5580 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5575:5577 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5555:5556 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5581:5581 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5559:5562 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5564:5566 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5569:5572 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5580:5580 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5575:5577 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+prf 5665:5688 JuicyMemOps after_alloc_alloc_cohere
+binder 5699:5700 <> jm:65
+binder 5702:5703 <> lo:66
+binder 5705:5706 <> hi:67
+binder 5708:5709 <> m':68
+binder 5711:5711 <> b:69
+R5740:5742 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5718:5722 compcert.common.Memory Mem alloc def
+R5738:5739 VST.veric.juicy_mem_ops <> hi:67 var
+R5735:5736 VST.veric.juicy_mem_ops <> lo:66 var
+R5725:5729 VST.veric.juicy_mem <> m_dry def
+R5731:5732 VST.veric.juicy_mem_ops <> jm:65 var
+R5743:5743 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5746:5747 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5749:5749 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5744:5745 VST.veric.juicy_mem_ops <> m':68 var
+R5748:5748 VST.veric.juicy_mem_ops <> b:69 var
+binder 5714:5714 <> H:70
+R5754:5765 VST.veric.juicy_mem <> alloc_cohere def
+R5773:5783 VST.veric.juicy_mem <> after_alloc def
+R5805:5824 VST.veric.juicy_mem_ops JuicyMemOps juicy_mem_alloc_aux1 thm
+R5840:5840 VST.veric.juicy_mem_ops <> H:70 var
+R5838:5838 VST.veric.juicy_mem_ops <> b:69 var
+R5835:5836 VST.veric.juicy_mem_ops <> m':68 var
+R5832:5833 VST.veric.juicy_mem_ops <> hi:67 var
+R5829:5830 VST.veric.juicy_mem_ops <> lo:66 var
+R5826:5827 VST.veric.juicy_mem_ops <> jm:65 var
+R5794:5798 VST.veric.juicy_mem <> m_phi def
+R5800:5801 VST.veric.juicy_mem_ops <> jm:65 var
+R5791:5791 VST.veric.juicy_mem_ops <> b:69 var
+R5788:5789 VST.veric.juicy_mem_ops <> hi:67 var
+R5785:5786 VST.veric.juicy_mem_ops <> lo:66 var
+R5767:5768 VST.veric.juicy_mem_ops <> m':68 var
+R5880:5890 VST.veric.juicy_mem <> after_alloc def
+R5901:5921 VST.veric.juicy_mem <> resource_at_make_rmap thm
+R5901:5921 VST.veric.juicy_mem <> resource_at_make_rmap thm
+R5901:5921 VST.veric.juicy_mem <> resource_at_make_rmap thm
+R5931:5942 VST.veric.juicy_mem <> after_alloc' def
+R5953:5960 VST.msl.Coqlib2 <> if_false thm
+R5953:5960 VST.msl.Coqlib2 <> if_false thm
+R5953:5960 VST.msl.Coqlib2 <> if_false thm
+R5953:5960 VST.msl.Coqlib2 <> if_false thm
+R5970:5991 VST.veric.juicy_mem <> juicy_mem_alloc_cohere thm
+R5970:5991 VST.veric.juicy_mem <> juicy_mem_alloc_cohere thm
+R6011:6025 compcert.common.Memory Mem nextblock_alloc thm
+R6011:6025 compcert.common.Memory Mem nextblock_alloc thm
+R6011:6025 compcert.common.Memory Mem nextblock_alloc thm
+R6131:6142 compcert.common.Memory Mem alloc_result thm
+R6131:6142 compcert.common.Memory Mem alloc_result thm
+R6170:6184 compcert.common.Memory Mem nextblock_alloc thm
+R6170:6184 compcert.common.Memory Mem nextblock_alloc thm
+def 6279:6293 JuicyMemOps juicy_mem_alloc
+R6300:6308 VST.veric.juicy_mem <> juicy_mem ind
+binder 6296:6297 <> jm:71
+R6319:6319 Coq.Numbers.BinNums <> Z ind
+binder 6312:6313 <> lo:72
+binder 6315:6316 <> hi:73
+R6333:6335 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6324:6332 VST.veric.juicy_mem <> juicy_mem ind
+R6336:6340 compcert.common.Values <> block def
+R6354:6354 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6841:6853 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6882:6882 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6355:6364 VST.veric.juicy_mem <> mkJuicyMem constr
+R6794:6817 VST.veric.juicy_mem_ops JuicyMemOps after_alloc_alloc_cohere thm
+R6830:6836 Coq.Init.Logic <> eq_refl constr
+R6719:6747 VST.veric.juicy_mem_ops JuicyMemOps after_alloc_max_access_cohere thm
+R6760:6766 Coq.Init.Logic <> eq_refl constr
+R6648:6672 VST.veric.juicy_mem_ops JuicyMemOps after_alloc_access_cohere thm
+R6685:6691 Coq.Init.Logic <> eq_refl constr
+R6575:6601 VST.veric.juicy_mem_ops JuicyMemOps after_alloc_contents_cohere thm
+R6614:6620 Coq.Init.Logic <> eq_refl constr
+R6419:6429 VST.veric.juicy_mem <> after_alloc def
+R6508:6527 VST.veric.juicy_mem_ops JuicyMemOps juicy_mem_alloc_aux1 thm
+R6540:6546 Coq.Init.Logic <> eq_refl constr
+R6469:6473 VST.veric.juicy_mem <> m_phi def
+R6475:6476 VST.veric.juicy_mem_ops <> jm:71 var
+R6438:6440 Coq.Init.Datatypes <> snd def
+R6443:6447 compcert.common.Memory Mem alloc def
+R6463:6464 VST.veric.juicy_mem_ops <> hi:73 var
+R6460:6461 VST.veric.juicy_mem_ops <> lo:72 var
+R6450:6454 VST.veric.juicy_mem <> m_dry def
+R6456:6457 VST.veric.juicy_mem_ops <> jm:71 var
+R6434:6435 VST.veric.juicy_mem_ops <> hi:73 var
+R6431:6432 VST.veric.juicy_mem_ops <> lo:72 var
+R6367:6369 Coq.Init.Datatypes <> fst def
+R6372:6376 compcert.common.Memory Mem alloc def
+R6392:6393 VST.veric.juicy_mem_ops <> hi:73 var
+R6389:6390 VST.veric.juicy_mem_ops <> lo:72 var
+R6379:6383 VST.veric.juicy_mem <> m_dry def
+R6385:6386 VST.veric.juicy_mem_ops <> jm:71 var
+R6854:6856 Coq.Init.Datatypes <> snd def
+R6859:6863 compcert.common.Memory Mem alloc def
+R6879:6880 VST.veric.juicy_mem_ops <> hi:73 var
+R6876:6877 VST.veric.juicy_mem_ops <> lo:72 var
+R6866:6870 VST.veric.juicy_mem <> m_dry def
+R6872:6873 VST.veric.juicy_mem_ops <> jm:71 var
+prf 6892:6909 JuicyMemOps juicy_mem_alloc_at
+binder 6921:6922 <> jm:74
+binder 6924:6925 <> lo:75
+binder 6927:6928 <> hi:76
+binder 6930:6932 <> jm':77
+binder 6934:6934 <> b:78
+R6976:6984 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 6992:6994 <> loc:79
+R7012:7021 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7006:7008 VST.veric.rmaps RMAPS :::x_'@'_x not
+R6997:7001 VST.veric.juicy_mem <> m_phi def
+R7003:7005 VST.veric.juicy_mem_ops <> jm':77 var
+R7009:7011 VST.veric.juicy_mem_ops <> loc:79 var
+R7025:7037 VST.sepcomp.Address <> adr_range_dec thm
+R7057:7059 VST.veric.juicy_mem_ops <> loc:79 var
+R7050:7052 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R7048:7049 VST.veric.juicy_mem_ops <> hi:76 var
+R7053:7054 VST.veric.juicy_mem_ops <> lo:75 var
+R7039:7039 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7041:7042 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7045:7045 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7040:7040 VST.veric.juicy_mem_ops <> b:78 var
+R7043:7044 VST.veric.juicy_mem_ops <> lo:75 var
+R7144:7146 VST.veric.rmaps RMAPS :::x_'@'_x not
+R7136:7140 VST.veric.juicy_mem <> m_phi def
+R7142:7143 VST.veric.juicy_mem_ops <> jm:74 var
+R7147:7149 VST.veric.juicy_mem_ops <> loc:79 var
+R7073:7075 VST.veric.compcert_rmaps RML.R YES constr
+R7118:7122 VST.veric.compcert_rmaps RML.R NoneP def
+R7107:7109 VST.veric.compcert_rmaps <> VAL constr
+R7111:7115 compcert.common.Memdata <> Undef constr
+R7087:7104 VST.veric.shares <> readable_share_top thm
+R7077:7085 VST.msl.shares Share top defax
+R6966:6968 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6942:6956 VST.veric.juicy_mem_ops JuicyMemOps juicy_mem_alloc def
+R6964:6965 VST.veric.juicy_mem_ops <> hi:76 var
+R6961:6962 VST.veric.juicy_mem_ops <> lo:75 var
+R6958:6959 VST.veric.juicy_mem_ops <> jm:74 var
+R6969:6969 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6973:6973 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6975:6975 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6970:6972 VST.veric.juicy_mem_ops <> jm':77 var
+R6974:6974 VST.veric.juicy_mem_ops <> b:78 var
+R7191:7201 VST.veric.juicy_mem <> after_alloc def
+R7212:7232 VST.veric.juicy_mem <> resource_at_make_rmap thm
+R7212:7232 VST.veric.juicy_mem <> resource_at_make_rmap thm
+R7212:7232 VST.veric.juicy_mem <> resource_at_make_rmap thm
+R7243:7254 VST.veric.juicy_mem <> after_alloc' def
+prf 7275:7295 JuicyMemOps juicy_mem_alloc_level
+binder 7306:7307 <> jm:80
+binder 7309:7310 <> lo:81
+binder 7312:7313 <> hi:82
+binder 7315:7317 <> jm':83
+binder 7319:7319 <> b:84
+R7360:7363 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7372:7374 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7364:7368 VST.msl.ageable <> level meth
+R7370:7371 VST.veric.juicy_mem_ops <> jm:80 var
+R7375:7379 VST.msl.ageable <> level meth
+R7381:7383 VST.veric.juicy_mem_ops <> jm':83 var
+R7349:7351 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7325:7339 VST.veric.juicy_mem_ops JuicyMemOps juicy_mem_alloc def
+R7347:7348 VST.veric.juicy_mem_ops <> hi:82 var
+R7344:7345 VST.veric.juicy_mem_ops <> lo:81 var
+R7341:7342 VST.veric.juicy_mem_ops <> jm:80 var
+R7352:7352 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7356:7357 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7359:7359 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7353:7355 VST.veric.juicy_mem_ops <> jm':83 var
+R7358:7358 VST.veric.juicy_mem_ops <> b:84 var
+R7401:7415 VST.veric.juicy_mem_ops JuicyMemOps juicy_mem_alloc def
+R7442:7452 VST.veric.juicy_mem <> after_alloc def
+R7470:7484 VST.veric.juicy_mem <> level_make_rmap thm
+R7470:7484 VST.veric.juicy_mem <> level_make_rmap thm
+R7470:7484 VST.veric.juicy_mem <> level_make_rmap thm
+prf 7505:7528 JuicyMemOps juicy_mem_alloc_succeeds
+binder 7538:7538 <> j:85
+binder 7540:7541 <> j':86
+binder 7543:7543 <> b:87
+binder 7545:7546 <> lo:88
+binder 7548:7549 <> hi:89
+R7587:7590 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7604:7606 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7591:7591 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7600:7601 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7603:7603 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7592:7596 VST.veric.juicy_mem <> m_dry def
+R7598:7599 VST.veric.juicy_mem_ops <> j':86 var
+R7602:7602 VST.veric.juicy_mem_ops <> b:87 var
+R7607:7611 compcert.common.Memory Mem alloc def
+R7626:7627 VST.veric.juicy_mem_ops <> hi:89 var
+R7623:7624 VST.veric.juicy_mem_ops <> lo:88 var
+R7614:7618 VST.veric.juicy_mem <> m_dry def
+R7620:7620 VST.veric.juicy_mem_ops <> j:85 var
+R7577:7579 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7554:7568 VST.veric.juicy_mem_ops JuicyMemOps juicy_mem_alloc def
+R7575:7576 VST.veric.juicy_mem_ops <> hi:89 var
+R7572:7573 VST.veric.juicy_mem_ops <> lo:88 var
+R7570:7570 VST.veric.juicy_mem_ops <> j:85 var
+R7580:7580 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7583:7584 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7586:7586 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7581:7582 VST.veric.juicy_mem_ops <> j':86 var
+R7585:7585 VST.veric.juicy_mem_ops <> b:87 var
+R7670:7684 VST.veric.juicy_mem_ops JuicyMemOps juicy_mem_alloc def
+R8932:8942 VST.veric.juicy_mem_ops JuicyMemOps <> mod
+R9069:9079 VST.veric.juicy_mem_ops JuicyMemOps <> modtype
+mod 9062:9064 <> Abs
+R9097:9111 VST.veric.local <> <> lib
+ind 9125:9134 <> AbsPrimcom
+constr 9170:9185 <> AbsPrimcom_store
+constr 9280:9295 <> AbsPrimcom_alloc
+R9156:9159 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9138:9145 Coq.Relations.Relation_Definitions <> relation def
+R9147:9155 VST.veric.juicy_mem <> juicy_mem ind
+binder 9196:9197 <> ch:92
+binder 9199:9199 <> b:93
+binder 9201:9203 <> ofs:94
+binder 9205:9205 <> v:95
+R9210:9219 VST.veric.juicy_mem_ops <> AbsPrimcom:90 ind
+binder 9226:9226 <> j:96
+binder 9228:9229 <> j':97
+R9266:9268 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9234:9252 VST.veric.juicy_mem_ops <> juicy_mem_store def
+R9265:9265 VST.veric.juicy_mem_ops <> v:95 var
+R9261:9263 VST.veric.juicy_mem_ops <> ofs:94 var
+R9259:9259 VST.veric.juicy_mem_ops <> b:93 var
+R9256:9257 VST.veric.juicy_mem_ops <> ch:92 var
+R9254:9254 VST.veric.juicy_mem_ops <> j:96 var
+R9269:9272 Coq.Init.Datatypes <> Some constr
+R9274:9275 VST.veric.juicy_mem_ops <> j':97 var
+binder 9306:9307 <> lo:98
+binder 9309:9310 <> hi:99
+R9315:9324 VST.veric.juicy_mem_ops <> AbsPrimcom:90 ind
+binder 9331:9331 <> j:100
+binder 9333:9334 <> j':101
+R9372:9374 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9339:9341 Coq.Init.Datatypes <> fst def
+R9344:9362 VST.veric.juicy_mem_ops <> juicy_mem_alloc def
+R9369:9370 VST.veric.juicy_mem_ops <> hi:99 var
+R9366:9367 VST.veric.juicy_mem_ops <> lo:98 var
+R9364:9364 VST.veric.juicy_mem_ops <> j:100 var
+R9375:9376 VST.veric.juicy_mem_ops <> j':101 var
+ind 9499:9509 <> AbsPrimexpr
+R9532:9535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9513:9517 VST.veric.local <> pfunc def
+R9529:9531 VST.veric.local <> val ind
+R9519:9527 VST.veric.juicy_mem <> juicy_mem ind
+inst 9555:9562 <> abstract
+R9566:9581 VST.veric.local <> GenericSemantics class
+R9604:9614 VST.veric.juicy_mem_ops <> AbsPrimexpr ind
+R9593:9602 VST.veric.juicy_mem_ops <> AbsPrimcom ind
+R9583:9591 VST.veric.juicy_mem <> juicy_mem ind
+ind 9634:9644 <> ConcPrimcom
+constr 9674:9690 <> ConcPrimcom_store
+constr 9772:9788 <> ConcPrimcom_alloc
+constr 9861:9876 <> ConcPrimcom_free
+R9660:9663 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9648:9655 Coq.Relations.Relation_Definitions <> relation def
+R9657:9659 compcert.common.Memory Mem mem def
+binder 9701:9702 <> ch:106
+binder 9704:9704 <> b:107
+binder 9706:9708 <> ofs:108
+binder 9710:9710 <> v:109
+R9715:9725 VST.veric.juicy_mem_ops <> ConcPrimcom:104 ind
+binder 9732:9732 <> m:110
+binder 9734:9735 <> m':111
+R9758:9760 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9740:9744 compcert.common.Memory Mem store def
+R9757:9757 VST.veric.juicy_mem_ops <> v:109 var
+R9753:9755 VST.veric.juicy_mem_ops <> ofs:108 var
+R9751:9751 VST.veric.juicy_mem_ops <> b:107 var
+R9749:9749 VST.veric.juicy_mem_ops <> m:110 var
+R9746:9747 VST.veric.juicy_mem_ops <> ch:106 var
+R9761:9764 Coq.Init.Datatypes <> Some constr
+R9766:9767 VST.veric.juicy_mem_ops <> m':111 var
+binder 9799:9800 <> lo:112
+binder 9802:9803 <> hi:113
+R9808:9818 VST.veric.juicy_mem_ops <> ConcPrimcom:104 ind
+binder 9825:9825 <> m:114
+binder 9827:9828 <> m':115
+R9852:9854 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9833:9835 Coq.Init.Datatypes <> fst def
+R9838:9842 compcert.common.Memory Mem alloc def
+R9849:9850 VST.veric.juicy_mem_ops <> hi:113 var
+R9846:9847 VST.veric.juicy_mem_ops <> lo:112 var
+R9844:9844 VST.veric.juicy_mem_ops <> m:114 var
+R9855:9856 VST.veric.juicy_mem_ops <> m':115 var
+binder 9887:9887 <> b:116
+binder 9889:9891 <> ofs:117
+binder 9893:9893 <> n:118
+R9898:9908 VST.veric.juicy_mem_ops <> ConcPrimcom:104 ind
+binder 9915:9915 <> m:119
+binder 9917:9918 <> m':120
+R9937:9939 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9923:9926 compcert.common.Memory Mem free def
+R9936:9936 VST.veric.juicy_mem_ops <> n:118 var
+R9932:9934 VST.veric.juicy_mem_ops <> ofs:117 var
+R9930:9930 VST.veric.juicy_mem_ops <> b:116 var
+R9928:9928 VST.veric.juicy_mem_ops <> m:119 var
+R9940:9943 Coq.Init.Datatypes <> Some constr
+R9945:9946 VST.veric.juicy_mem_ops <> m':120 var
+ind 9961:9972 <> ConcPrimexpr
+R9989:9992 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9976:9980 VST.veric.local <> pfunc def
+R9986:9988 VST.veric.local <> val ind
+R9982:9984 compcert.common.Memory Mem mem def
+inst 10012:10019 <> concrete
+R10023:10038 VST.veric.local <> GenericSemantics class
+R10056:10067 VST.veric.juicy_mem_ops <> ConcPrimexpr ind
+R10044:10054 VST.veric.juicy_mem_ops <> ConcPrimcom ind
+R10040:10042 compcert.common.Memory Mem mem def
+ind 10087:10088 <> VU
+constr 10140:10147 <> VU_store
+constr 10282:10289 <> VU_alloc
+R10110:10113 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10126:10129 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10114:10121 Coq.Relations.Relation_Definitions <> relation def
+R10123:10125 compcert.common.Memory Mem mem def
+R10092:10099 Coq.Relations.Relation_Definitions <> relation def
+R10101:10109 VST.veric.juicy_mem <> juicy_mem ind
+binder 10158:10159 <> ch:125
+binder 10161:10161 <> b:126
+binder 10163:10165 <> ofs:127
+binder 10167:10167 <> v:128
+R10172:10173 VST.veric.juicy_mem_ops <> VU:123 ind
+binder 10242:10242 <> m:129
+binder 10244:10245 <> m':130
+R10268:10270 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10250:10254 compcert.common.Memory Mem store def
+R10267:10267 VST.veric.juicy_mem_ops <> v:128 var
+R10263:10265 VST.veric.juicy_mem_ops <> ofs:127 var
+R10261:10261 VST.veric.juicy_mem_ops <> b:126 var
+R10259:10259 VST.veric.juicy_mem_ops <> m:129 var
+R10256:10257 VST.veric.juicy_mem_ops <> ch:125 var
+R10271:10274 Coq.Init.Datatypes <> Some constr
+R10276:10277 VST.veric.juicy_mem_ops <> m':130 var
+binder 10180:10180 <> j:131
+binder 10182:10183 <> j':132
+R10220:10222 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10188:10206 VST.veric.juicy_mem_ops <> juicy_mem_store def
+R10219:10219 VST.veric.juicy_mem_ops <> v:128 var
+R10215:10217 VST.veric.juicy_mem_ops <> ofs:127 var
+R10213:10213 VST.veric.juicy_mem_ops <> b:126 var
+R10210:10211 VST.veric.juicy_mem_ops <> ch:125 var
+R10208:10208 VST.veric.juicy_mem_ops <> j:131 var
+R10223:10226 Coq.Init.Datatypes <> Some constr
+R10228:10229 VST.veric.juicy_mem_ops <> j':132 var
+binder 10300:10301 <> lo:133
+binder 10303:10304 <> hi:134
+R10309:10310 VST.veric.juicy_mem_ops <> VU:123 ind
+binder 10375:10375 <> m:135
+binder 10377:10378 <> m':136
+R10402:10404 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10383:10385 Coq.Init.Datatypes <> fst def
+R10388:10392 compcert.common.Memory Mem alloc def
+R10399:10400 VST.veric.juicy_mem_ops <> hi:134 var
+R10396:10397 VST.veric.juicy_mem_ops <> lo:133 var
+R10394:10394 VST.veric.juicy_mem_ops <> m:135 var
+R10405:10406 VST.veric.juicy_mem_ops <> m':136 var
+binder 10317:10317 <> j:137
+binder 10319:10320 <> j':138
+R10358:10360 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10325:10327 Coq.Init.Datatypes <> fst def
+R10330:10348 VST.veric.juicy_mem_ops <> juicy_mem_alloc def
+R10355:10356 VST.veric.juicy_mem_ops <> hi:134 var
+R10352:10353 VST.veric.juicy_mem_ops <> lo:133 var
+R10350:10350 VST.veric.juicy_mem_ops <> j:137 var
+R10361:10362 VST.veric.juicy_mem_ops <> j':138 var
+ind 10555:10556 <> GF
+R10579:10582 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10596:10599 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10583:10587 VST.veric.local <> pfunc def
+R10593:10595 VST.veric.local <> val ind
+R10589:10591 compcert.common.Memory Mem mem def
+R10560:10564 VST.veric.local <> pfunc def
+R10576:10578 VST.veric.local <> val ind
+R10566:10574 VST.veric.juicy_mem <> juicy_mem ind
+prf 10616:10630 <> PrimexprErasure
+binder 10641:10641 <> g:141
+binder 10643:10643 <> f:142
+R10652:10655 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10656:10660 Coq.Init.Logic <> False ind
+R10646:10647 VST.veric.juicy_mem_ops <> GF ind
+R10651:10651 VST.veric.juicy_mem_ops <> f:142 var
+R10649:10649 VST.veric.juicy_mem_ops <> g:141 var
+prf 10695:10708 <> PrimexprSafety
+binder 10719:10719 <> g:143
+binder 10721:10721 <> f:144
+R10730:10733 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10734:10738 Coq.Init.Logic <> False ind
+R10724:10725 VST.veric.juicy_mem_ops <> GF ind
+R10729:10729 VST.veric.juicy_mem_ops <> f:144 var
+R10727:10727 VST.veric.juicy_mem_ops <> g:143 var
+prf 10773:10786 <> PrimcomErasure
+binder 10797:10797 <> v:145
+binder 10799:10799 <> u:146
+binder 10801:10801 <> j:147
+binder 10803:10804 <> j':148
+binder 10806:10806 <> m:149
+binder 10808:10809 <> m':150
+R10820:10823 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10835:10838 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10845:10848 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10855:10858 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10867:10869 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10859:10863 VST.veric.juicy_mem <> m_dry def
+R10865:10866 VST.veric.juicy_mem_ops <> j':148 var
+R10870:10871 VST.veric.juicy_mem_ops <> m':150 var
+R10849:10849 VST.veric.juicy_mem_ops <> u:146 var
+R10853:10854 VST.veric.juicy_mem_ops <> m':150 var
+R10851:10851 VST.veric.juicy_mem_ops <> m:149 var
+R10839:10839 VST.veric.juicy_mem_ops <> v:145 var
+R10843:10844 VST.veric.juicy_mem_ops <> j':148 var
+R10841:10841 VST.veric.juicy_mem_ops <> j:147 var
+R10831:10833 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10824:10828 VST.veric.juicy_mem <> m_dry def
+R10830:10830 VST.veric.juicy_mem_ops <> j:147 var
+R10834:10834 VST.veric.juicy_mem_ops <> m:149 var
+R10814:10815 VST.veric.juicy_mem_ops <> VU ind
+R10819:10819 VST.veric.juicy_mem_ops <> u:146 var
+R10817:10817 VST.veric.juicy_mem_ops <> v:145 var
+R10914:10949 VST.veric.juicy_mem_ops <> juicy_mem_store_succeeds thm
+R10914:10949 VST.veric.juicy_mem_ops <> juicy_mem_store_succeeds thm
+R11045:11080 VST.veric.juicy_mem_ops <> juicy_mem_alloc_succeeds thm
+R11045:11080 VST.veric.juicy_mem_ops <> juicy_mem_alloc_succeeds thm
+R11111:11113 Coq.Init.Datatypes <> snd def
+R11116:11142 VST.veric.juicy_mem_ops <> juicy_mem_alloc def
+R11111:11113 Coq.Init.Datatypes <> snd def
+R11116:11142 VST.veric.juicy_mem_ops <> juicy_mem_alloc def
+R11171:11197 VST.veric.juicy_mem_ops <> juicy_mem_alloc def
+R11171:11197 VST.veric.juicy_mem_ops <> juicy_mem_alloc def
+R11270:11274 compcert.common.Memory Mem alloc def
+R11277:11281 VST.veric.juicy_mem <> m_dry def
+R11270:11274 compcert.common.Memory Mem alloc def
+R11277:11281 VST.veric.juicy_mem <> m_dry def
+prf 11460:11472 <> PrimcomSafety
+binder 11483:11483 <> v:151
+binder 11485:11485 <> u:152
+binder 11487:11487 <> j:153
+binder 11489:11490 <> j':154
+binder 11492:11492 <> m:155
+R11503:11506 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11518:11521 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11528:11531 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11532:11538 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R11541:11542 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 11539:11540 <> m':156
+R11543:11543 VST.veric.juicy_mem_ops <> u:152 var
+R11547:11548 VST.veric.juicy_mem_ops <> m':156 var
+R11545:11545 VST.veric.juicy_mem_ops <> m:155 var
+R11522:11522 VST.veric.juicy_mem_ops <> v:151 var
+R11526:11527 VST.veric.juicy_mem_ops <> j':154 var
+R11524:11524 VST.veric.juicy_mem_ops <> j:153 var
+R11514:11516 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11507:11511 VST.veric.juicy_mem <> m_dry def
+R11513:11513 VST.veric.juicy_mem_ops <> j:153 var
+R11517:11517 VST.veric.juicy_mem_ops <> m:155 var
+R11497:11498 VST.veric.juicy_mem_ops <> VU ind
+R11502:11502 VST.veric.juicy_mem_ops <> u:152 var
+R11500:11500 VST.veric.juicy_mem_ops <> v:151 var
+R11591:11626 VST.veric.juicy_mem_ops <> juicy_mem_store_succeeds thm
+R11591:11626 VST.veric.juicy_mem_ops <> juicy_mem_store_succeeds thm
+R11707:11742 VST.veric.juicy_mem_ops <> juicy_mem_alloc_succeeds thm
+R11707:11742 VST.veric.juicy_mem_ops <> juicy_mem_alloc_succeeds thm
+R11773:11775 Coq.Init.Datatypes <> snd def
+R11778:11804 VST.veric.juicy_mem_ops <> juicy_mem_alloc def
+R11773:11775 Coq.Init.Datatypes <> snd def
+R11778:11804 VST.veric.juicy_mem_ops <> juicy_mem_alloc def
+R11833:11859 VST.veric.juicy_mem_ops <> juicy_mem_alloc def
+R11833:11859 VST.veric.juicy_mem_ops <> juicy_mem_alloc def
+R11932:11936 compcert.common.Memory Mem alloc def
+R11939:11943 VST.veric.juicy_mem <> m_dry def
+R11932:11936 compcert.common.Memory Mem alloc def
+R11939:11943 VST.veric.juicy_mem <> m_dry def
+inst 12183:12190 <> stratsem
+R12195:12213 VST.veric.local <> StratifiedSemantics class
+R12326:12327 VST.veric.juicy_mem_ops <> GF ind
+R12321:12322 VST.veric.juicy_mem_ops <> VU ind
+R12313:12317 VST.veric.juicy_mem <> m_dry def
+R12302:12309 VST.veric.juicy_mem_ops <> concrete inst
+R12291:12298 VST.veric.juicy_mem_ops <> abstract inst
+R12276:12287 VST.veric.juicy_mem_ops <> ConcPrimexpr ind
+R12262:12272 VST.veric.juicy_mem_ops <> ConcPrimcom ind
+R12256:12258 compcert.common.Memory Mem mem def
+R12242:12252 VST.veric.juicy_mem_ops <> AbsPrimexpr ind
+R12229:12238 VST.veric.juicy_mem_ops <> AbsPrimcom ind
+R12217:12225 VST.veric.juicy_mem <> juicy_mem ind
+R12426:12439 VST.veric.juicy_mem_ops <> PrimcomErasure thm
+R12426:12439 VST.veric.juicy_mem_ops <> PrimcomErasure thm
+R12448:12460 VST.veric.juicy_mem_ops <> PrimcomSafety thm
+R12448:12460 VST.veric.juicy_mem_ops <> PrimcomSafety thm
+R12494:12508 VST.veric.juicy_mem_ops <> PrimexprErasure thm
+R12480:12484 Coq.Init.Logic <> False ind
+R12494:12508 VST.veric.juicy_mem_ops <> PrimexprErasure thm
+R12549:12562 VST.veric.juicy_mem_ops <> PrimexprSafety thm
+R12535:12539 Coq.Init.Logic <> False ind
+R12549:12562 VST.veric.juicy_mem_ops <> PrimexprSafety thm
+R12622:12645 VST.veric.compcert_rmaps <> <> lib
+ind 12659:12670 <> RmapPrimexpr
+R12688:12691 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12674:12678 VST.veric.local <> pfunc def
+R12685:12687 VST.veric.local <> val ind
+R12680:12683 VST.veric.compcert_rmaps RML.R rmap defax
+ind 12712:12713 <> HG
+R12731:12734 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12754:12757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12735:12739 VST.veric.local <> pfunc def
+R12751:12753 VST.veric.local <> val ind
+R12741:12749 VST.veric.juicy_mem <> juicy_mem ind
+R12717:12721 VST.veric.local <> pfunc def
+R12728:12730 VST.veric.local <> val ind
+R12723:12726 VST.veric.compcert_rmaps RML.R rmap defax
+inst 12777:12787 <> stratsemsep
+R12791:12823 VST.veric.local <> StratifiedSemanticsWithSeparation class
+R12844:12845 VST.veric.juicy_mem_ops <> HG ind
+R12831:12842 VST.veric.juicy_mem_ops <> RmapPrimexpr ind
+R12825:12829 VST.veric.juicy_mem <> m_phi def

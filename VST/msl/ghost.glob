@@ -1,0 +1,99 @@
+DIGEST 1e95dabe3c21c39b9f6cd96e20652f18
+FVST.msl.ghost
+R15:28 VST.msl.sepalg <> <> lib
+rec 38:42 <> Ghost
+proj 49:49 <> G
+proj 59:63 <> valid
+proj 80:85 <> Join_G
+proj 98:102 <> Sep_G
+proj 118:123 <> Perm_G
+proj 142:151 <> join_valid
+R68:71 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R67:67 VST.msl.ghost <> G:2 meth
+R90:93 VST.msl.sepalg <> Join class
+R95:95 VST.msl.ghost <> G:2 meth
+R107:113 VST.msl.sepalg <> Sep_alg class
+R115:115 VST.msl.ghost <> G:2 meth
+R128:135 VST.msl.sepalg <> Perm_alg class
+R137:137 VST.msl.ghost <> G:2 meth
+binder 162:162 <> a:7
+binder 164:164 <> b:8
+binder 166:166 <> c:9
+R179:182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R190:193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R194:198 VST.msl.ghost <> valid:3 meth
+R200:200 VST.msl.ghost <> a:7 var
+R183:187 VST.msl.ghost <> valid:3 meth
+R189:189 VST.msl.ghost <> c:9 var
+R169:172 VST.msl.sepalg <> join def
+R178:178 VST.msl.ghost <> c:9 var
+R176:176 VST.msl.ghost <> b:8 var
+R174:174 VST.msl.ghost <> a:7 var
+sec 214:219 <> Update
+R236:240 VST.msl.ghost <> Ghost class
+binder 232:233 <> RA:11
+prf 251:260 <> core_valid
+binder 270:270 <> a:12
+R280:283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R284:288 VST.msl.ghost <> valid meth
+R291:294 VST.msl.sepalg <> core meth
+R296:296 VST.msl.ghost <> a:12 var
+R273:277 VST.msl.ghost <> valid meth
+R279:279 VST.msl.ghost <> a:12 var
+R324:333 VST.msl.ghost <> join_valid meth
+R324:333 VST.msl.ghost <> join_valid meth
+R351:359 VST.msl.sepalg <> core_unit meth
+R351:359 VST.msl.sepalg <> core_unit meth
+def 379:385 <> valid_2
+binder 387:387 <> a:13
+binder 389:389 <> b:14
+R394:400 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R402:403 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 401:401 <> c:15
+R414:417 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R404:407 VST.msl.sepalg <> join def
+R413:413 VST.msl.ghost <> c:15 var
+R411:411 VST.msl.ghost <> b:14 var
+R409:409 VST.msl.ghost <> a:13 var
+R418:422 VST.msl.ghost <> valid meth
+R424:424 VST.msl.ghost <> c:15 var
+def 439:450 <> fp_update_ND
+binder 452:452 <> a:16
+binder 454:454 <> B:17
+binder 466:466 <> c:18
+R480:483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R484:490 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R492:493 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 491:491 <> b:19
+R497:500 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R494:494 VST.msl.ghost <> B:17 var
+R496:496 VST.msl.ghost <> b:19 var
+R501:507 VST.msl.ghost <> valid_2 def
+R511:511 VST.msl.ghost <> c:18 var
+R509:509 VST.msl.ghost <> b:19 var
+R469:475 VST.msl.ghost <> valid_2 def
+R479:479 VST.msl.ghost <> c:18 var
+R477:477 VST.msl.ghost <> a:16 var
+def 526:534 <> fp_update
+binder 536:536 <> a:20
+binder 538:538 <> b:21
+binder 550:550 <> c:22
+R564:567 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R568:574 VST.msl.ghost <> valid_2 def
+R578:578 VST.msl.ghost <> c:22 var
+R576:576 VST.msl.ghost <> b:21 var
+R553:559 VST.msl.ghost <> valid_2 def
+R563:563 VST.msl.ghost <> c:22 var
+R561:561 VST.msl.ghost <> a:20 var
+prf 588:602 <> fp_update_equiv
+binder 612:612 <> a:23
+binder 614:614 <> b:24
+R630:634 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R617:625 VST.msl.ghost <> fp_update def
+R629:629 VST.msl.ghost <> b:24 var
+R627:627 VST.msl.ghost <> a:23 var
+R635:646 VST.msl.ghost <> fp_update_ND def
+R651:652 Coq.Init.Logic <> eq ind
+R654:654 VST.msl.ghost <> b:24 var
+R648:648 VST.msl.ghost <> a:23 var
+R798:803 VST.msl.ghost Update <> sec

@@ -1,0 +1,793 @@
+DIGEST 19fd0b3702b3b1d22e6cc28ccbed95aa
+FVST.floyd.subsume_funspec
+R15:29 VST.floyd.base2 <> <> lib
+R47:69 VST.floyd.client_lemmas <> <> lib
+R87:109 VST.floyd.closed_lemmas <> <> lib
+R127:155 VST.floyd.mapsto_memory_block <> <> lib
+R173:200 VST.floyd.local2ptree_denote <> <> lib
+R218:243 VST.floyd.local2ptree_eval <> <> lib
+def 1126:1138 <> NDfunspec_sub
+R1149:1155 VST.veric.mpred <> funspec ind
+binder 1141:1142 <> f1:1
+binder 1144:1145 <> f2:2
+R1175:1191 VST.veric.seplog <> rettype_tycontext def
+R1194:1196 Coq.Init.Datatypes <> snd def
+R1199:1216 VST.veric.seplog <> typesig_of_funspec def
+R1218:1219 VST.floyd.subsume_funspec <> f2:2 var
+binder 1165:1170 <> Delta2:3
+R1232:1233 VST.floyd.subsume_funspec <> f1:1 var
+R1242:1251 VST.veric.mpred <> mk_funspec constr
+R1265:1279 VST.veric.rmaps <> ConstType constr
+R1308:1309 VST.floyd.subsume_funspec <> f2:2 var
+R1322:1331 VST.veric.mpred <> mk_funspec constr
+R1345:1359 VST.veric.rmaps <> ConstType constr
+R1386:1386 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1411:1423 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1400:1403 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1393:1393 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1407:1407 Coq.Init.Logic <> ::type_scope:x_'='_x not
+binder 1431:1432 <> x2:6
+R1441:1451 VST.veric.mpred <> argsEnviron def
+binder 1435:1439 <> gargs:7
+R1464:1464 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1524:1539 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1889:1889 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1505:1508 VST.msl.seplog <> ::logic:x_'&&'_x not
+R1465:1468 VST.msl.seplog <> ::logic:'!!'_x not
+R1504:1504 VST.msl.seplog <> ::logic:'!!'_x not
+R1469:1480 VST.veric.SeparationLogic <> argsHaveTyps def
+R1493:1495 Coq.Init.Datatypes <> fst def
+R1482:1484 Coq.Init.Datatypes <> snd def
+R1486:1490 VST.floyd.subsume_funspec <> gargs:7 var
+R1519:1523 VST.floyd.subsume_funspec <> gargs:7 var
+R1516:1517 VST.floyd.subsume_funspec <> x2:6 var
+R1512:1514 Coq.Init.Datatypes <> nil constr
+R1540:1542 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R1547:1548 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+binder 1543:1544 <> x1:8
+R1549:1551 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R1555:1584 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+binder 1552:1552 <> F:9
+R1585:1585 VST.msl.seplog <> ::logic:x_'&&'_x not
+R1607:1643 VST.msl.seplog <> ::logic:x_'&&'_x not
+R1888:1888 VST.msl.seplog <> ::logic:x_'&&'_x not
+R1587:1590 VST.msl.seplog <> ::logic:x_'*'_x not
+R1606:1606 VST.msl.seplog <> ::logic:x_'*'_x not
+R1586:1586 VST.floyd.subsume_funspec <> F:9 var
+R1601:1605 VST.floyd.subsume_funspec <> gargs:7 var
+R1598:1599 VST.floyd.subsume_funspec <> x1:8 var
+R1594:1596 Coq.Init.Datatypes <> nil constr
+R1644:1647 VST.msl.seplog <> ::logic:'!!'_x not
+R1887:1887 VST.msl.seplog <> ::logic:'!!'_x not
+binder 1655:1658 <> rho':10
+R1704:1704 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1824:1871 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1886:1886 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R1705:1705 VST.msl.seplog <> ::logic:x_'&&'_x not
+R1748:1802 VST.msl.seplog <> ::logic:x_'&&'_x not
+R1823:1823 VST.msl.seplog <> ::logic:x_'&&'_x not
+R1706:1709 VST.msl.seplog <> ::logic:'!!'_x not
+R1747:1747 VST.msl.seplog <> ::logic:'!!'_x not
+R1720:1722 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1710:1714 VST.veric.mpred <> ve_of def
+R1716:1719 VST.floyd.subsume_funspec <> rho':10 var
+R1723:1731 VST.veric.mpred Map empty def
+R1739:1741 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1734:1738 compcert.common.Values <> block def
+R1742:1745 compcert.cfrontend.Ctypes <> type ind
+R1804:1807 VST.msl.seplog <> ::logic:x_'*'_x not
+R1822:1822 VST.msl.seplog <> ::logic:x_'*'_x not
+R1803:1803 VST.floyd.subsume_funspec <> F:9 var
+R1818:1821 VST.floyd.subsume_funspec <> rho':10 var
+R1815:1816 VST.floyd.subsume_funspec <> x1:8 var
+R1811:1813 Coq.Init.Datatypes <> nil constr
+R1882:1885 VST.floyd.subsume_funspec <> rho':10 var
+R1879:1880 VST.floyd.subsume_funspec <> x2:6 var
+R1875:1877 Coq.Init.Datatypes <> nil constr
+R1900:1904 Coq.Init.Logic <> False ind
+R1918:1922 Coq.Init.Logic <> False ind
+def 1941:1952 <> is_NDfunspec
+R1959:1965 VST.veric.mpred <> funspec ind
+binder 1955:1956 <> fs:11
+R1978:1979 VST.floyd.subsume_funspec <> fs:11 var
+R1989:1998 VST.veric.mpred <> mk_funspec constr
+R2005:2019 VST.veric.rmaps <> ConstType constr
+binder 2047:2048 <> ts:13
+R2063:2066 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2055:2057 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2053:2054 VST.floyd.subsume_funspec <> ts:13 var
+R2060:2062 Coq.Init.Datatypes <> nil constr
+R2071:2073 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2069:2070 VST.floyd.subsume_funspec <> ts:13 var
+R2076:2078 Coq.Init.Datatypes <> nil constr
+R2089:2093 Coq.Init.Logic <> False ind
+prf 2108:2124 <> NDsubsume_subsume
+binder 2136:2137 <> f1:14
+binder 2139:2140 <> f2:15
+R2162:2168 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2188:2194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2195:2205 VST.veric.SeparationLogic <> funspec_sub def
+R2210:2211 VST.floyd.subsume_funspec <> f2:15 var
+R2207:2208 VST.floyd.subsume_funspec <> f1:14 var
+R2169:2181 VST.floyd.subsume_funspec <> NDfunspec_sub def
+R2186:2187 VST.floyd.subsume_funspec <> f2:15 var
+R2183:2184 VST.floyd.subsume_funspec <> f1:14 var
+R2147:2158 VST.floyd.subsume_funspec <> is_NDfunspec def
+R2160:2161 VST.floyd.subsume_funspec <> f2:15 var
+R2246:2246 Coq.Init.Logic <> I constr
+R2246:2246 Coq.Init.Logic <> I constr
+R2523:2535 VST.msl.seplog <> derives_trans meth
+R2523:2535 VST.msl.seplog <> derives_trans meth
+R2569:2577 VST.msl.seplog <> exp_right meth
+R2581:2583 Coq.Init.Datatypes <> nil constr
+R2569:2577 VST.msl.seplog <> exp_right meth
+R2581:2583 Coq.Init.Datatypes <> nil constr
+R2606:2616 VST.msl.log_normalize <> exp_derives thm
+R2606:2616 VST.msl.log_normalize <> exp_derives thm
+R2636:2646 VST.msl.log_normalize <> exp_derives thm
+R2636:2646 VST.msl.log_normalize <> exp_derives thm
+R2665:2676 VST.msl.log_normalize <> andp_derives thm
+R2665:2676 VST.msl.log_normalize <> andp_derives thm
+R2701:2712 VST.msl.log_normalize <> prop_derives thm
+R2701:2712 VST.msl.log_normalize <> prop_derives thm
+R2743:2755 VST.msl.seplog <> derives_trans meth
+R2743:2755 VST.msl.seplog <> derives_trans meth
+R2787:2798 VST.msl.log_normalize <> andp_derives thm
+R2820:2831 VST.msl.seplog <> derives_refl meth
+R2787:2798 VST.msl.log_normalize <> andp_derives thm
+ind 2850:2859 <> empty_type
+def 2885:2905 <> withtype_of_NDfunspec
+binder 2907:2908 <> fs:18
+R2919:2920 VST.floyd.subsume_funspec <> fs:18 var
+R2929:2938 VST.veric.mpred <> mk_funspec constr
+R2945:2959 VST.veric.rmaps <> ConstType constr
+R2984:2993 VST.floyd.subsume_funspec <> empty_type ind
+def 3014:3032 <> withtype_of_funspec
+binder 3034:3035 <> fs:20
+R3046:3047 VST.floyd.subsume_funspec <> fs:20 var
+R3056:3065 VST.veric.mpred <> mk_funspec constr
+prf 3098:3110 <> sepcon_ENTAIL
+binder 3121:3125 <> Delta:22
+binder 3127:3127 <> P:23
+binder 3129:3129 <> Q:24
+binder 3131:3132 <> P':25
+binder 3134:3135 <> Q':26
+R3162:3167 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3190:3195 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3196:3202 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R3208:3209 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R3215:3219 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R3203:3207 VST.floyd.subsume_funspec <> Delta:22 var
+R3211:3213 VST.msl.seplog <> ::logic:x_'*'_x not
+R3210:3210 VST.floyd.subsume_funspec <> P:23 var
+R3214:3214 VST.floyd.subsume_funspec <> Q:24 var
+R3222:3224 VST.msl.seplog <> ::logic:x_'*'_x not
+R3220:3221 VST.floyd.subsume_funspec <> P':25 var
+R3225:3226 VST.floyd.subsume_funspec <> Q':26 var
+R3168:3174 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R3180:3181 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R3183:3187 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R3175:3179 VST.floyd.subsume_funspec <> Delta:22 var
+R3182:3182 VST.floyd.subsume_funspec <> Q:24 var
+R3188:3189 VST.floyd.subsume_funspec <> Q':26 var
+R3140:3146 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R3152:3153 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R3155:3159 VST.floyd.canon <> :::'ENTAIL'_x_','_x_'|--'_x not
+R3147:3151 VST.floyd.subsume_funspec <> Delta:22 var
+R3154:3154 VST.floyd.subsume_funspec <> P:23 var
+R3160:3161 VST.floyd.subsume_funspec <> P':25 var
+R3315:3319 VST.veric.SeparationLogic <> local def
+R3322:3326 VST.veric.mpred <> lift1 def
+R3353:3366 VST.msl.log_normalize <> prop_true_andp thm
+R3353:3366 VST.msl.log_normalize <> prop_true_andp thm
+R3353:3366 VST.msl.log_normalize <> prop_true_andp thm
+R3391:3404 VST.msl.seplog <> sepcon_derives meth
+R3391:3404 VST.msl.seplog <> sepcon_derives meth
+prf 3425:3442 <> NDfunspec_sub_refl
+binder 3454:3457 <> fsig:27
+binder 3459:3460 <> cc:28
+binder 3462:3462 <> A:29
+binder 3464:3464 <> P:30
+binder 3466:3466 <> Q:31
+R3473:3485 VST.floyd.subsume_funspec <> NDfunspec_sub def
+R3517:3528 VST.veric.SeparationLogic <> NDmk_funspec def
+R3542:3542 VST.floyd.subsume_funspec <> Q:31 var
+R3540:3540 VST.floyd.subsume_funspec <> P:30 var
+R3538:3538 VST.floyd.subsume_funspec <> A:29 var
+R3535:3536 VST.floyd.subsume_funspec <> cc:28 var
+R3530:3533 VST.floyd.subsume_funspec <> fsig:27 var
+R3488:3499 VST.veric.SeparationLogic <> NDmk_funspec def
+R3513:3513 VST.floyd.subsume_funspec <> Q:31 var
+R3511:3511 VST.floyd.subsume_funspec <> P:30 var
+R3509:3509 VST.floyd.subsume_funspec <> A:29 var
+R3506:3507 VST.floyd.subsume_funspec <> cc:28 var
+R3501:3504 VST.floyd.subsume_funspec <> fsig:27 var
+R3607:3609 VST.msl.seplog <> emp meth
+R3607:3609 VST.msl.seplog <> emp meth
+R3634:3643 VST.msl.log_normalize <> emp_sepcon thm
+R3634:3643 VST.msl.log_normalize <> emp_sepcon thm
+R3634:3643 VST.msl.log_normalize <> emp_sepcon thm
+R3634:3643 VST.msl.log_normalize <> emp_sepcon thm
+R3652:3661 VST.msl.seplog <> andp_right meth
+R3652:3661 VST.msl.seplog <> andp_right meth
+R3670:3679 VST.msl.seplog <> andp_left2 meth
+R3670:3679 VST.msl.seplog <> andp_left2 meth
+R3694:3703 VST.msl.seplog <> prop_right meth
+R3694:3703 VST.msl.seplog <> prop_right meth
+R3727:3736 VST.msl.log_normalize <> emp_sepcon thm
+R3727:3736 VST.msl.log_normalize <> emp_sepcon thm
+R3727:3736 VST.msl.log_normalize <> emp_sepcon thm
+R3745:3754 VST.msl.seplog <> andp_left2 meth
+R3745:3754 VST.msl.seplog <> andp_left2 meth
+prf 3775:3793 <> NDfunspec_sub_trans
+binder 3805:3809 <> fsig1:32
+binder 3811:3813 <> cc1:33
+binder 3815:3816 <> A1:34
+binder 3818:3819 <> P1:35
+binder 3821:3822 <> Q1:36
+binder 3824:3828 <> fsig2:37
+binder 3830:3832 <> cc2:38
+binder 3834:3835 <> A2:39
+binder 3837:3838 <> P2:40
+binder 3840:3841 <> Q2:41
+binder 3843:3847 <> fsig3:42
+binder 3849:3851 <> cc3:43
+binder 3853:3854 <> A3:44
+binder 3856:3857 <> P3:45
+binder 3859:3860 <> Q3:46
+R3948:3954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4036:4042 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4043:4055 VST.floyd.subsume_funspec <> NDfunspec_sub def
+R4092:4103 VST.veric.SeparationLogic <> NDmk_funspec def
+R4121:4122 VST.floyd.subsume_funspec <> Q3:46 var
+R4118:4119 VST.floyd.subsume_funspec <> P3:45 var
+R4115:4116 VST.floyd.subsume_funspec <> A3:44 var
+R4111:4113 VST.floyd.subsume_funspec <> cc3:43 var
+R4105:4109 VST.floyd.subsume_funspec <> fsig3:42 var
+R4058:4069 VST.veric.SeparationLogic <> NDmk_funspec def
+R4087:4088 VST.floyd.subsume_funspec <> Q1:36 var
+R4084:4085 VST.floyd.subsume_funspec <> P1:35 var
+R4081:4082 VST.floyd.subsume_funspec <> A1:34 var
+R4077:4079 VST.floyd.subsume_funspec <> cc1:33 var
+R4071:4075 VST.floyd.subsume_funspec <> fsig1:32 var
+R3955:3967 VST.floyd.subsume_funspec <> NDfunspec_sub def
+R4004:4015 VST.veric.SeparationLogic <> NDmk_funspec def
+R4033:4034 VST.floyd.subsume_funspec <> Q3:46 var
+R4030:4031 VST.floyd.subsume_funspec <> P3:45 var
+R4027:4028 VST.floyd.subsume_funspec <> A3:44 var
+R4023:4025 VST.floyd.subsume_funspec <> cc3:43 var
+R4017:4021 VST.floyd.subsume_funspec <> fsig3:42 var
+R3970:3981 VST.veric.SeparationLogic <> NDmk_funspec def
+R3999:4000 VST.floyd.subsume_funspec <> Q2:41 var
+R3996:3997 VST.floyd.subsume_funspec <> P2:40 var
+R3993:3994 VST.floyd.subsume_funspec <> A2:39 var
+R3989:3991 VST.floyd.subsume_funspec <> cc2:38 var
+R3983:3987 VST.floyd.subsume_funspec <> fsig2:37 var
+R3867:3879 VST.floyd.subsume_funspec <> NDfunspec_sub def
+R3916:3927 VST.veric.SeparationLogic <> NDmk_funspec def
+R3945:3946 VST.floyd.subsume_funspec <> Q2:41 var
+R3942:3943 VST.floyd.subsume_funspec <> P2:40 var
+R3939:3940 VST.floyd.subsume_funspec <> A2:39 var
+R3935:3937 VST.floyd.subsume_funspec <> cc2:38 var
+R3929:3933 VST.floyd.subsume_funspec <> fsig2:37 var
+R3882:3893 VST.veric.SeparationLogic <> NDmk_funspec def
+R3911:3912 VST.floyd.subsume_funspec <> Q1:36 var
+R3908:3909 VST.floyd.subsume_funspec <> P1:35 var
+R3905:3906 VST.floyd.subsume_funspec <> A1:34 var
+R3901:3903 VST.floyd.subsume_funspec <> cc1:33 var
+R3895:3899 VST.floyd.subsume_funspec <> fsig1:32 var
+R4307:4319 VST.msl.seplog <> derives_trans meth
+R4307:4319 VST.msl.seplog <> derives_trans meth
+R4328:4337 VST.msl.seplog <> andp_right meth
+R4328:4337 VST.msl.seplog <> andp_right meth
+R4346:4355 VST.msl.seplog <> andp_left1 meth
+R4346:4355 VST.msl.seplog <> andp_left1 meth
+R4364:4375 VST.msl.seplog <> derives_refl meth
+R4364:4375 VST.msl.seplog <> derives_refl meth
+R4510:4522 VST.msl.seplog <> derives_trans meth
+R4510:4522 VST.msl.seplog <> derives_trans meth
+R4556:4569 VST.msl.seplog <> sepcon_derives meth
+R4556:4569 VST.msl.seplog <> sepcon_derives meth
+R4601:4612 VST.msl.seplog <> derives_refl meth
+R4601:4612 VST.msl.seplog <> derives_refl meth
+R4621:4630 VST.msl.seplog <> andp_right meth
+R4621:4630 VST.msl.seplog <> andp_right meth
+R4639:4648 VST.msl.seplog <> prop_right meth
+R4639:4648 VST.msl.seplog <> prop_right meth
+R4667:4678 VST.msl.seplog <> derives_refl meth
+R4667:4678 VST.msl.seplog <> derives_refl meth
+R4689:4701 VST.msl.seplog <> derives_trans meth
+R4689:4701 VST.msl.seplog <> derives_trans meth
+R4710:4723 VST.msl.seplog <> sepcon_derives meth
+R4710:4723 VST.msl.seplog <> sepcon_derives meth
+R4732:4743 VST.msl.seplog <> derives_refl meth
+R4732:4743 VST.msl.seplog <> derives_refl meth
+R4800:4800 VST.msl.seplog <> ::logic:x_'*'_x not
+R4800:4800 VST.msl.seplog <> ::logic:x_'*'_x not
+R4814:4825 VST.msl.seplog <> sepcon_assoc meth
+R4814:4825 VST.msl.seplog <> sepcon_assoc meth
+R4814:4825 VST.msl.seplog <> sepcon_assoc meth
+R4834:4843 VST.msl.seplog <> andp_right meth
+R4834:4843 VST.msl.seplog <> andp_right meth
+R4861:4870 VST.msl.seplog <> prop_right meth
+R4861:4870 VST.msl.seplog <> prop_right meth
+R4891:4903 VST.msl.seplog <> derives_trans meth
+R4891:4903 VST.msl.seplog <> derives_trans meth
+R4948:4959 VST.msl.seplog <> sepcon_assoc meth
+R4948:4959 VST.msl.seplog <> sepcon_assoc meth
+R4948:4959 VST.msl.seplog <> sepcon_assoc meth
+R4968:4981 VST.msl.seplog <> sepcon_derives meth
+R4968:4981 VST.msl.seplog <> sepcon_derives meth
+R5000:5012 VST.msl.seplog <> derives_trans meth
+R5000:5012 VST.msl.seplog <> derives_trans meth
+prf 5059:5069 <> later_exp''
+binder 5072:5072 <> A:47
+R5086:5091 VST.msl.seplog <> NatDed class
+R5093:5093 VST.floyd.subsume_funspec <> A:47 var
+binder 5082:5083 <> ND:48
+R5103:5107 VST.msl.seplog <> Indir class
+R5109:5109 VST.floyd.subsume_funspec <> A:47 var
+binder 5096:5100 <> Indir:49
+binder 5126:5126 <> T:50
+R5143:5143 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5161:5172 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5185:5188 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5189:5189 VST.floyd.subsume_funspec <> A:47 var
+R5184:5184 VST.floyd.subsume_funspec <> T:50 var
+binder 5180:5180 <> F:51
+R5217:5219 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5199:5202 VST.msl.seplog <> ::logic:'|>'_x not
+R5216:5216 VST.msl.seplog <> ::logic:'|>'_x not
+R5203:5205 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R5211:5212 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+binder 5206:5206 <> x:52
+R5213:5213 VST.floyd.subsume_funspec <> F:51 var
+R5215:5215 VST.floyd.subsume_funspec <> x:52 var
+R5220:5222 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R5228:5229 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R5227:5227 VST.floyd.subsume_funspec <> T:50 var
+binder 5223:5223 <> x:53
+R5230:5232 VST.msl.seplog <> ::logic:'|>'_x not
+R5233:5233 VST.floyd.subsume_funspec <> F:51 var
+R5235:5235 VST.floyd.subsume_funspec <> x:53 var
+R5144:5150 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5155:5156 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5154:5154 VST.floyd.subsume_funspec <> T:50 var
+binder 5151:5151 <> x:54
+R5157:5160 Coq.Init.Logic <> True ind
+R5280:5289 VST.msl.seplog <> later_exp' meth
+R5280:5289 VST.msl.seplog <> later_exp' meth
+prf 5310:5327 <> semax_call_subsume
+R5345:5351 VST.veric.mpred <> funspec ind
+binder 5340:5342 <> fs1:55
+binder 5354:5354 <> A:56
+binder 5356:5356 <> P:57
+binder 5358:5358 <> Q:58
+binder 5360:5362 <> NEP:59
+binder 5364:5366 <> NEQ:60
+binder 5368:5373 <> argsig:61
+binder 5375:5380 <> retsig:62
+binder 5382:5383 <> cc:63
+R5452:5459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5472:5480 VST.veric.mpred <> compspecs class
+binder 5468:5469 <> CS:64
+R5491:5500 VST.veric.juicy_extspec <> OracleKind class
+binder 5484:5488 <> Espec:65
+binder 5503:5507 <> Delta:66
+binder 5510:5511 <> ts:67
+binder 5513:5513 <> x:68
+R5526:5529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5530:5534 VST.veric.mpred <> mpred def
+R5519:5525 VST.veric.mpred <> environ ind
+binder 5516:5516 <> F:69
+binder 5537:5539 <> ret:70
+binder 5542:5542 <> a:71
+binder 5544:5545 <> bl:72
+R5655:5669 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5670:5670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5699:5716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5746:5751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5753:5757 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R6010:6026 VST.veric.SeparationLogic <> normal_ret_assert def
+R6039:6041 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R6049:6050 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R6046:6048 compcert.common.Values <> val ind
+binder 6042:6044 <> old:73
+R6072:6074 VST.msl.seplog <> ::logic:x_'*'_x not
+R6051:6058 VST.veric.SeparationLogic <> substopt def
+R6071:6071 VST.floyd.subsume_funspec <> F:69 var
+R6065:6065 VST.veric.lift LiftNotation :::'`'_x not
+R6066:6068 VST.floyd.subsume_funspec <> old:73 var
+R6060:6062 VST.floyd.subsume_funspec <> ret:70 var
+R6075:6086 VST.veric.SeparationLogic <> maybe_retval def
+R6104:6106 VST.floyd.subsume_funspec <> ret:70 var
+R6097:6102 VST.floyd.subsume_funspec <> retsig:62 var
+R6089:6089 VST.floyd.subsume_funspec <> Q:58 var
+R6094:6094 VST.floyd.subsume_funspec <> x:68 var
+R6091:6092 VST.floyd.subsume_funspec <> ts:67 var
+R5984:5988 compcert.cfrontend.Clight <> Scall constr
+R5996:5997 VST.floyd.subsume_funspec <> bl:72 var
+R5994:5994 VST.floyd.subsume_funspec <> a:71 var
+R5990:5992 VST.floyd.subsume_funspec <> ret:70 var
+R5785:5792 VST.msl.seplog <> ::logic:x_'&&'_x not
+R5843:5859 VST.msl.seplog <> ::logic:x_'&&'_x not
+R5971:5971 VST.msl.seplog <> ::logic:x_'&&'_x not
+R5793:5793 VST.msl.seplog <> ::logic:x_'&&'_x not
+R5809:5814 VST.msl.seplog <> ::logic:x_'&&'_x not
+R5842:5842 VST.msl.seplog <> ::logic:x_'&&'_x not
+R5794:5800 VST.veric.SeparationLogic <> tc_expr def
+R5808:5808 VST.floyd.subsume_funspec <> a:71 var
+R5802:5806 VST.floyd.subsume_funspec <> Delta:66 var
+R5815:5825 VST.veric.SeparationLogic <> tc_exprlist def
+R5840:5841 VST.floyd.subsume_funspec <> bl:72 var
+R5833:5838 VST.floyd.subsume_funspec <> argsig:61 var
+R5827:5831 VST.floyd.subsume_funspec <> Delta:66 var
+R5889:5902 VST.msl.seplog <> ::logic:x_'&&'_x not
+R5860:5861 VST.veric.lift LiftNotation :::'`('_x_')' not
+R5874:5888 VST.veric.lift LiftNotation :::'`('_x_')' not
+R5862:5869 VST.veric.SeparationLogic <> func_ptr def
+R5871:5873 VST.floyd.subsume_funspec <> fs1:55 var
+R5877:5885 VST.veric.expr <> eval_expr def
+R5887:5887 VST.floyd.subsume_funspec <> a:71 var
+R5903:5905 VST.msl.seplog <> ::logic:'|>'_x not
+R5970:5970 VST.msl.seplog <> ::logic:'|>'_x not
+R5907:5910 VST.msl.seplog <> ::logic:x_'*'_x not
+R5969:5969 VST.msl.seplog <> ::logic:x_'*'_x not
+R5906:5906 VST.floyd.subsume_funspec <> F:69 var
+binder 5915:5917 <> rho:74
+R5922:5922 VST.floyd.subsume_funspec <> P:57 var
+R5929:5929 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5939:5940 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5968:5968 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5930:5934 VST.veric.mpred <> ge_of def
+R5936:5938 VST.floyd.subsume_funspec <> rho:74 var
+R5941:5953 VST.veric.expr <> eval_exprlist def
+R5965:5967 VST.floyd.subsume_funspec <> rho:74 var
+R5962:5963 VST.floyd.subsume_funspec <> bl:72 var
+R5955:5960 VST.floyd.subsume_funspec <> argsig:61 var
+R5927:5927 VST.floyd.subsume_funspec <> x:68 var
+R5924:5925 VST.floyd.subsume_funspec <> ts:67 var
+R5768:5772 VST.floyd.subsume_funspec <> Delta:66 var
+R5762:5766 VST.floyd.subsume_funspec <> Espec:65 var
+R5759:5760 VST.floyd.subsume_funspec <> CS:64 var
+R5717:5728 VST.veric.SeparationLogic <> tc_fn_return def
+R5740:5745 VST.floyd.subsume_funspec <> retsig:62 var
+R5736:5738 VST.floyd.subsume_funspec <> ret:70 var
+R5730:5734 VST.floyd.subsume_funspec <> Delta:66 var
+R5685:5688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5692:5694 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5689:5691 VST.floyd.subsume_funspec <> ret:70 var
+R5695:5698 Coq.Init.Datatypes <> None constr
+R5677:5679 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5671:5676 VST.floyd.subsume_funspec <> retsig:62 var
+R5680:5684 compcert.cfrontend.Ctypes <> Tvoid constr
+R5586:5599 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5559:5574 compcert.cfrontend.Cop <> classify_fun def
+R5577:5582 compcert.cfrontend.Clight <> typeof def
+R5584:5584 VST.floyd.subsume_funspec <> a:71 var
+R5600:5613 compcert.cfrontend.Cop <> fun_case_f constr
+R5653:5654 VST.floyd.subsume_funspec <> cc:63 var
+R5646:5651 VST.floyd.subsume_funspec <> retsig:62 var
+R5616:5636 VST.veric.mpred <> typelist_of_type_list def
+R5638:5643 VST.floyd.subsume_funspec <> argsig:61 var
+R5390:5400 VST.veric.SeparationLogic <> funspec_sub def
+R5407:5416 VST.veric.mpred <> mk_funspec constr
+R5448:5450 VST.floyd.subsume_funspec <> NEQ:60 var
+R5444:5446 VST.floyd.subsume_funspec <> NEP:59 var
+R5442:5442 VST.floyd.subsume_funspec <> Q:58 var
+R5440:5440 VST.floyd.subsume_funspec <> P:57 var
+R5438:5438 VST.floyd.subsume_funspec <> A:56 var
+R5435:5436 VST.floyd.subsume_funspec <> cc:63 var
+R5419:5419 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5426:5426 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5433:5433 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5420:5425 VST.floyd.subsume_funspec <> argsig:61 var
+R5427:5432 VST.floyd.subsume_funspec <> retsig:62 var
+R5402:5404 VST.floyd.subsume_funspec <> fs1:55 var
+R6133:6141 VST.floyd.canon <> semax_pre thm
+R6133:6141 VST.floyd.canon <> semax_pre thm
+R6153:6162 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic semax_call prfax
+R6153:6162 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic semax_call prfax
+R6228:6237 VST.msl.seplog <> andp_left2 meth
+R6228:6237 VST.msl.seplog <> andp_left2 meth
+R6246:6257 VST.msl.log_normalize <> andp_derives thm
+R6246:6257 VST.msl.log_normalize <> andp_derives thm
+R6275:6286 VST.msl.log_normalize <> andp_derives thm
+R6275:6286 VST.msl.log_normalize <> andp_derives thm
+R6305:6309 VST.veric.lift <> liftx def
+R6312:6315 VST.veric.lift <> lift def
+R6358:6367 VST.veric.mpred <> mk_funspec constr
+R6369:6369 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6376:6377 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6384:6384 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6358:6367 VST.veric.mpred <> mk_funspec constr
+R6369:6369 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6376:6377 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6384:6384 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6421:6429 VST.veric.expr <> eval_expr def
+R6421:6429 VST.veric.expr <> eval_expr def
+R6451:6458 VST.veric.SeparationLogic <> func_ptr def
+R6467:6479 VST.veric.SeparationLogic <> func_ptr_mono thm
+R6467:6479 VST.veric.SeparationLogic <> func_ptr_mono thm
+R6497:6508 VST.msl.seplog <> derives_refl meth
+R6497:6508 VST.msl.seplog <> derives_refl meth
+prf 6523:6543 <> semax_call_subsume_si
+R6561:6567 VST.veric.mpred <> funspec ind
+binder 6556:6558 <> fs1:75
+binder 6570:6570 <> A:76
+binder 6572:6572 <> P:77
+binder 6574:6574 <> Q:78
+binder 6576:6578 <> NEP:79
+binder 6580:6582 <> NEQ:80
+binder 6584:6589 <> argsig:81
+binder 6591:6596 <> retsig:82
+binder 6598:6599 <> cc:83
+R6617:6625 VST.veric.mpred <> compspecs class
+binder 6613:6614 <> CS:84
+R6636:6645 VST.veric.juicy_extspec <> OracleKind class
+binder 6629:6633 <> Espec:85
+binder 6648:6652 <> Delta:86
+binder 6655:6656 <> ts:87
+binder 6658:6658 <> x:88
+R6671:6674 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6675:6679 VST.veric.mpred <> mpred def
+R6664:6670 VST.veric.mpred <> environ ind
+binder 6661:6661 <> F:89
+binder 6682:6684 <> ret:90
+binder 6687:6687 <> a:91
+binder 6689:6690 <> bl:92
+R6800:6815 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6816:6816 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6845:6862 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6892:6897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6899:6903 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R7240:7256 VST.veric.SeparationLogic <> normal_ret_assert def
+R7269:7271 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R7279:7280 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R7276:7278 compcert.common.Values <> val ind
+binder 7272:7274 <> old:93
+R7302:7304 VST.msl.seplog <> ::logic:x_'*'_x not
+R7281:7288 VST.veric.SeparationLogic <> substopt def
+R7301:7301 VST.floyd.subsume_funspec <> F:89 var
+R7295:7295 VST.veric.lift LiftNotation :::'`'_x not
+R7296:7298 VST.floyd.subsume_funspec <> old:93 var
+R7290:7292 VST.floyd.subsume_funspec <> ret:90 var
+R7305:7316 VST.veric.SeparationLogic <> maybe_retval def
+R7334:7336 VST.floyd.subsume_funspec <> ret:90 var
+R7327:7332 VST.floyd.subsume_funspec <> retsig:82 var
+R7319:7319 VST.floyd.subsume_funspec <> Q:78 var
+R7324:7324 VST.floyd.subsume_funspec <> x:88 var
+R7321:7322 VST.floyd.subsume_funspec <> ts:87 var
+R7214:7218 compcert.cfrontend.Clight <> Scall constr
+R7226:7227 VST.floyd.subsume_funspec <> bl:92 var
+R7224:7224 VST.floyd.subsume_funspec <> a:91 var
+R7220:7222 VST.floyd.subsume_funspec <> ret:90 var
+R6931:6938 VST.msl.seplog <> ::logic:x_'&&'_x not
+R6989:7017 VST.msl.seplog <> ::logic:x_'&&'_x not
+R7201:7201 VST.msl.seplog <> ::logic:x_'&&'_x not
+R6939:6939 VST.msl.seplog <> ::logic:x_'&&'_x not
+R6955:6960 VST.msl.seplog <> ::logic:x_'&&'_x not
+R6988:6988 VST.msl.seplog <> ::logic:x_'&&'_x not
+R6940:6946 VST.veric.SeparationLogic <> tc_expr def
+R6954:6954 VST.floyd.subsume_funspec <> a:91 var
+R6948:6952 VST.floyd.subsume_funspec <> Delta:86 var
+R6961:6971 VST.veric.SeparationLogic <> tc_exprlist def
+R6986:6987 VST.floyd.subsume_funspec <> bl:92 var
+R6979:6984 VST.floyd.subsume_funspec <> argsig:81 var
+R6973:6977 VST.floyd.subsume_funspec <> Delta:86 var
+R7119:7132 VST.msl.seplog <> ::logic:x_'&&'_x not
+R7047:7050 VST.msl.seplog <> ::logic:x_'&&'_x not
+R7018:7019 VST.veric.lift LiftNotation :::'`('_x_')' not
+R7032:7046 VST.veric.lift LiftNotation :::'`('_x_')' not
+R7020:7027 VST.veric.SeparationLogic <> func_ptr def
+R7029:7031 VST.floyd.subsume_funspec <> fs1:75 var
+R7035:7043 VST.veric.expr <> eval_expr def
+R7045:7045 VST.floyd.subsume_funspec <> a:91 var
+R7051:7052 VST.veric.lift LiftNotation :::'`('_x_')' not
+R7118:7118 VST.veric.lift LiftNotation :::'`('_x_')' not
+R7053:7066 VST.veric.SeparationLogic <> funspec_sub_si def
+R7073:7082 VST.veric.mpred <> mk_funspec constr
+R7114:7116 VST.floyd.subsume_funspec <> NEQ:80 var
+R7110:7112 VST.floyd.subsume_funspec <> NEP:79 var
+R7108:7108 VST.floyd.subsume_funspec <> Q:78 var
+R7106:7106 VST.floyd.subsume_funspec <> P:77 var
+R7104:7104 VST.floyd.subsume_funspec <> A:76 var
+R7101:7102 VST.floyd.subsume_funspec <> cc:83 var
+R7085:7085 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7092:7092 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7099:7099 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7086:7091 VST.floyd.subsume_funspec <> argsig:81 var
+R7093:7098 VST.floyd.subsume_funspec <> retsig:82 var
+R7068:7070 VST.floyd.subsume_funspec <> fs1:75 var
+R7133:7135 VST.msl.seplog <> ::logic:'|>'_x not
+R7200:7200 VST.msl.seplog <> ::logic:'|>'_x not
+R7137:7140 VST.msl.seplog <> ::logic:x_'*'_x not
+R7199:7199 VST.msl.seplog <> ::logic:x_'*'_x not
+R7136:7136 VST.floyd.subsume_funspec <> F:89 var
+binder 7145:7147 <> rho:94
+R7152:7152 VST.floyd.subsume_funspec <> P:77 var
+R7159:7159 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7169:7170 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7198:7198 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7160:7164 VST.veric.mpred <> ge_of def
+R7166:7168 VST.floyd.subsume_funspec <> rho:94 var
+R7171:7183 VST.veric.expr <> eval_exprlist def
+R7195:7197 VST.floyd.subsume_funspec <> rho:94 var
+R7192:7193 VST.floyd.subsume_funspec <> bl:92 var
+R7185:7190 VST.floyd.subsume_funspec <> argsig:81 var
+R7157:7157 VST.floyd.subsume_funspec <> x:88 var
+R7154:7155 VST.floyd.subsume_funspec <> ts:87 var
+R6914:6918 VST.floyd.subsume_funspec <> Delta:86 var
+R6908:6912 VST.floyd.subsume_funspec <> Espec:85 var
+R6905:6906 VST.floyd.subsume_funspec <> CS:84 var
+R6863:6874 VST.veric.SeparationLogic <> tc_fn_return def
+R6886:6891 VST.floyd.subsume_funspec <> retsig:82 var
+R6882:6884 VST.floyd.subsume_funspec <> ret:90 var
+R6876:6880 VST.floyd.subsume_funspec <> Delta:86 var
+R6831:6834 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6838:6840 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6835:6837 VST.floyd.subsume_funspec <> ret:90 var
+R6841:6844 Coq.Init.Datatypes <> None constr
+R6823:6825 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6817:6822 VST.floyd.subsume_funspec <> retsig:82 var
+R6826:6830 compcert.cfrontend.Ctypes <> Tvoid constr
+R6731:6744 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6704:6719 compcert.cfrontend.Cop <> classify_fun def
+R6722:6727 compcert.cfrontend.Clight <> typeof def
+R6729:6729 VST.floyd.subsume_funspec <> a:91 var
+R6745:6758 compcert.cfrontend.Cop <> fun_case_f constr
+R6798:6799 VST.floyd.subsume_funspec <> cc:83 var
+R6791:6796 VST.floyd.subsume_funspec <> retsig:82 var
+R6761:6781 VST.veric.mpred <> typelist_of_type_list def
+R6783:6788 VST.floyd.subsume_funspec <> argsig:81 var
+R7363:7371 VST.floyd.canon <> semax_pre thm
+R7363:7371 VST.floyd.canon <> semax_pre thm
+R7383:7392 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic semax_call prfax
+R7383:7392 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic semax_call prfax
+R7458:7467 VST.msl.seplog <> andp_left2 meth
+R7458:7467 VST.msl.seplog <> andp_left2 meth
+R7476:7487 VST.msl.log_normalize <> andp_derives thm
+R7476:7487 VST.msl.log_normalize <> andp_derives thm
+R7505:7516 VST.msl.log_normalize <> andp_derives thm
+R7505:7516 VST.msl.log_normalize <> andp_derives thm
+R7535:7539 VST.veric.lift <> liftx def
+R7542:7545 VST.veric.lift <> lift def
+R7582:7590 VST.msl.log_normalize <> andp_comm thm
+R7582:7590 VST.msl.log_normalize <> andp_comm thm
+R7582:7590 VST.msl.log_normalize <> andp_comm thm
+R7599:7614 VST.veric.seplog <> func_ptr_si_mono thm
+R7599:7614 VST.veric.seplog <> func_ptr_si_mono thm
+R7623:7634 VST.msl.seplog <> derives_refl meth
+R7623:7634 VST.msl.seplog <> derives_refl meth
+prf 7649:7668 <> semax_call_NDsubsume
+R7687:7693 VST.veric.mpred <> funspec ind
+binder 7682:7684 <> fs1:95
+binder 7696:7696 <> A:96
+binder 7698:7698 <> P:97
+binder 7700:7700 <> Q:98
+binder 7702:7707 <> argsig:99
+binder 7709:7714 <> retsig:100
+binder 7716:7717 <> cc:101
+R7791:7800 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7813:7821 VST.veric.mpred <> compspecs class
+binder 7809:7810 <> CS:102
+R7832:7841 VST.veric.juicy_extspec <> OracleKind class
+binder 7825:7829 <> Espec:103
+binder 7857:7861 <> Delta:104
+binder 7864:7864 <> x:105
+R7877:7880 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7881:7885 VST.veric.mpred <> mpred def
+R7870:7876 VST.veric.mpred <> environ ind
+binder 7867:7867 <> F:106
+binder 7888:7890 <> ret:107
+binder 7892:7892 <> a:108
+binder 7894:7895 <> bl:109
+R8005:8019 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8020:8020 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8049:8063 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8093:8098 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8100:8104 VST.floyd.SeparationLogicAsLogicSoundness MainTheorem.CSHL_PracticalLogic.CSHL_MinimumLogic.CSHL_Def semax defax
+R8354:8370 VST.veric.SeparationLogic <> normal_ret_assert def
+R8383:8385 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R8393:8394 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R8390:8392 compcert.common.Values <> val ind
+binder 8386:8388 <> old:110
+R8416:8418 VST.msl.seplog <> ::logic:x_'*'_x not
+R8395:8402 VST.veric.SeparationLogic <> substopt def
+R8415:8415 VST.floyd.subsume_funspec <> F:106 var
+R8409:8409 VST.veric.lift LiftNotation :::'`'_x not
+R8410:8412 VST.floyd.subsume_funspec <> old:110 var
+R8404:8406 VST.floyd.subsume_funspec <> ret:107 var
+R8419:8430 VST.veric.SeparationLogic <> maybe_retval def
+R8445:8447 VST.floyd.subsume_funspec <> ret:107 var
+R8438:8443 VST.floyd.subsume_funspec <> retsig:100 var
+R8433:8433 VST.floyd.subsume_funspec <> Q:98 var
+R8435:8435 VST.floyd.subsume_funspec <> x:105 var
+R8328:8332 compcert.cfrontend.Clight <> Scall constr
+R8340:8341 VST.floyd.subsume_funspec <> bl:109 var
+R8338:8338 VST.floyd.subsume_funspec <> a:108 var
+R8334:8336 VST.floyd.subsume_funspec <> ret:107 var
+R8132:8139 VST.msl.seplog <> ::logic:x_'&&'_x not
+R8190:8206 VST.msl.seplog <> ::logic:x_'&&'_x not
+R8315:8315 VST.msl.seplog <> ::logic:x_'&&'_x not
+R8140:8140 VST.msl.seplog <> ::logic:x_'&&'_x not
+R8156:8161 VST.msl.seplog <> ::logic:x_'&&'_x not
+R8189:8189 VST.msl.seplog <> ::logic:x_'&&'_x not
+R8141:8147 VST.veric.SeparationLogic <> tc_expr def
+R8155:8155 VST.floyd.subsume_funspec <> a:108 var
+R8149:8153 VST.floyd.subsume_funspec <> Delta:104 var
+R8162:8172 VST.veric.SeparationLogic <> tc_exprlist def
+R8187:8188 VST.floyd.subsume_funspec <> bl:109 var
+R8180:8185 VST.floyd.subsume_funspec <> argsig:99 var
+R8174:8178 VST.floyd.subsume_funspec <> Delta:104 var
+R8236:8249 VST.msl.seplog <> ::logic:x_'&&'_x not
+R8207:8208 VST.veric.lift LiftNotation :::'`('_x_')' not
+R8221:8235 VST.veric.lift LiftNotation :::'`('_x_')' not
+R8209:8216 VST.veric.SeparationLogic <> func_ptr def
+R8218:8220 VST.floyd.subsume_funspec <> fs1:95 var
+R8224:8232 VST.veric.expr <> eval_expr def
+R8234:8234 VST.floyd.subsume_funspec <> a:108 var
+R8250:8252 VST.msl.seplog <> ::logic:'|>'_x not
+R8314:8314 VST.msl.seplog <> ::logic:'|>'_x not
+R8254:8257 VST.msl.seplog <> ::logic:x_'*'_x not
+R8313:8313 VST.msl.seplog <> ::logic:x_'*'_x not
+R8253:8253 VST.floyd.subsume_funspec <> F:106 var
+binder 8262:8264 <> rho:111
+R8269:8269 VST.floyd.subsume_funspec <> P:97 var
+R8273:8273 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8283:8284 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8312:8312 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8274:8278 VST.veric.mpred <> ge_of def
+R8280:8282 VST.floyd.subsume_funspec <> rho:111 var
+R8285:8297 VST.veric.expr <> eval_exprlist def
+R8309:8311 VST.floyd.subsume_funspec <> rho:111 var
+R8306:8307 VST.floyd.subsume_funspec <> bl:109 var
+R8299:8304 VST.floyd.subsume_funspec <> argsig:99 var
+R8271:8271 VST.floyd.subsume_funspec <> x:105 var
+R8115:8119 VST.floyd.subsume_funspec <> Delta:104 var
+R8109:8113 VST.floyd.subsume_funspec <> Espec:103 var
+R8106:8107 VST.floyd.subsume_funspec <> CS:102 var
+R8064:8075 VST.veric.SeparationLogic <> tc_fn_return def
+R8087:8092 VST.floyd.subsume_funspec <> retsig:100 var
+R8083:8085 VST.floyd.subsume_funspec <> ret:107 var
+R8077:8081 VST.floyd.subsume_funspec <> Delta:104 var
+R8035:8038 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8042:8044 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8039:8041 VST.floyd.subsume_funspec <> ret:107 var
+R8045:8048 Coq.Init.Datatypes <> None constr
+R8027:8029 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8021:8026 VST.floyd.subsume_funspec <> retsig:100 var
+R8030:8034 compcert.cfrontend.Ctypes <> Tvoid constr
+R7936:7949 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7909:7924 compcert.cfrontend.Cop <> classify_fun def
+R7927:7932 compcert.cfrontend.Clight <> typeof def
+R7934:7934 VST.floyd.subsume_funspec <> a:108 var
+R7950:7963 compcert.cfrontend.Cop <> fun_case_f constr
+R8003:8004 VST.floyd.subsume_funspec <> cc:101 var
+R7996:8001 VST.floyd.subsume_funspec <> retsig:100 var
+R7966:7986 VST.veric.mpred <> typelist_of_type_list def
+R7988:7993 VST.floyd.subsume_funspec <> argsig:99 var
+R7724:7736 VST.floyd.subsume_funspec <> NDfunspec_sub def
+R7752:7763 VST.veric.SeparationLogic <> NDmk_funspec def
+R7789:7789 VST.floyd.subsume_funspec <> Q:98 var
+R7787:7787 VST.floyd.subsume_funspec <> P:97 var
+R7785:7785 VST.floyd.subsume_funspec <> A:96 var
+R7782:7783 VST.floyd.subsume_funspec <> cc:101 var
+R7766:7766 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7773:7773 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7780:7780 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7767:7772 VST.floyd.subsume_funspec <> argsig:99 var
+R7774:7779 VST.floyd.subsume_funspec <> retsig:100 var
+R7738:7740 VST.floyd.subsume_funspec <> fs1:95 var
+R8474:8491 VST.floyd.subsume_funspec <> semax_call_subsume thm
+R8584:8608 VST.veric.mpred <> const_super_non_expansive def
+R8547:8576 VST.veric.mpred <> args_const_super_non_expansive def
+R8498:8512 VST.veric.rmaps <> ConstType constr
+R8474:8491 VST.floyd.subsume_funspec <> semax_call_subsume thm
+R8584:8608 VST.veric.mpred <> const_super_non_expansive def
+R8547:8576 VST.veric.mpred <> args_const_super_non_expansive def
+R8498:8512 VST.veric.rmaps <> ConstType constr
+R8661:8677 VST.floyd.subsume_funspec <> NDsubsume_subsume thm
+R8661:8677 VST.floyd.subsume_funspec <> NDsubsume_subsume thm
+R8708:8710 Coq.Init.Datatypes <> nil constr
+R8708:8710 Coq.Init.Datatypes <> nil constr

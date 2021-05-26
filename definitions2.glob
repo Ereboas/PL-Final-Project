@@ -1,0 +1,2535 @@
+DIGEST be3ed1cc951121346a5bdeccd767db43
+FRBTree.definitions2
+R15:33 VST.floyd.proofauto <> <> lib
+R51:64 Coq.Lists.List <> <> lib
+R82:98 Coq.ZArith.ZArith <> <> lib
+R116:133 RBTree.rbt_insert2 <> <> lib
+R151:177 RBTree.dependency.RTClosure <> <> lib
+R195:205 RBTree.Tacs <> <> lib
+R223:241 RBTree.AuxiliaryTac <> <> lib
+R259:277 Coq.Logic.Classical <> <> lib
+def 334:336 <> Key
+R347:347 Coq.Numbers.BinNums <> Z ind
+def 361:365 <> Value
+R376:376 Coq.Numbers.BinNums <> Z ind
+ind 389:393 <> color
+constr 398:400 <> Red
+constr 404:408 <> Black
+rec 419:422 <> Node
+proj 433:445 <> color_of_node
+proj 459:469 <> key_of_node
+proj 481:493 <> value_of_node
+R449:453 RBTree.definitions2 <> color ind
+R473:475 RBTree.definitions2 <> Key def
+R497:501 RBTree.definitions2 <> Value def
+ind 517:520 <> tree
+constr 534:534 <> E
+constr 545:545 <> T
+R538:541 RBTree.definitions2 <> tree:7 ind
+R553:556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R561:564 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R569:572 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R573:576 RBTree.definitions2 <> tree:7 ind
+R565:568 RBTree.definitions2 <> tree:7 ind
+R557:560 RBTree.definitions2 <> Node rec
+R549:552 RBTree.definitions2 <> tree:7 ind
+ind 590:600 <> LeftOrRight
+constr 607:607 <> L
+constr 624:624 <> R
+R610:620 RBTree.definitions2 <> LeftOrRight:9 ind
+R627:637 RBTree.definitions2 <> LeftOrRight:9 ind
+def 698:706 <> half_tree
+R736:738 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R729:731 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R718:728 RBTree.definitions2 <> LeftOrRight ind
+R732:735 RBTree.definitions2 <> Node rec
+R739:742 RBTree.definitions2 <> tree ind
+def 763:774 <> partial_tree
+R785:788 Coq.Init.Datatypes <> list ind
+R790:798 RBTree.definitions2 <> half_tree def
+def 811:822 <> insert_split
+R828:830 RBTree.definitions2 <> Key def
+binder 825:825 <> x:11
+R838:841 RBTree.definitions2 <> tree ind
+binder 834:834 <> s:12
+R848:859 RBTree.definitions2 <> partial_tree def
+binder 845:845 <> b:13
+R875:877 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R863:874 RBTree.definitions2 <> partial_tree def
+R878:881 RBTree.definitions2 <> tree ind
+R894:894 RBTree.definitions2 <> s:12 var
+R905:905 RBTree.definitions2 <> E constr
+R910:910 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R912:913 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R915:915 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R911:911 RBTree.definitions2 <> b:13 var
+R914:914 RBTree.definitions2 <> E constr
+R921:921 RBTree.definitions2 <> T constr
+R940:943 Coq.ZArith.BinInt <> ::Z_scope:x_'<?'_x not
+R939:939 RBTree.definitions2 <> x:11 var
+R944:954 RBTree.definitions2 <> key_of_node proj
+R1014:1017 Coq.ZArith.BinInt <> ::Z_scope:x_'>?'_x not
+R1013:1013 RBTree.definitions2 <> x:11 var
+R1018:1028 RBTree.definitions2 <> key_of_node proj
+R1111:1111 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1113:1114 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1116:1116 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1112:1112 RBTree.definitions2 <> b:13 var
+R1115:1115 RBTree.definitions2 <> s:12 var
+R1046:1057 RBTree.definitions2 <> insert_split:14 def
+R1073:1076 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1064:1064 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1066:1067 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1069:1070 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1072:1072 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1065:1065 RBTree.definitions2 <> L constr
+R1077:1077 RBTree.definitions2 <> b:13 var
+R1059:1059 RBTree.definitions2 <> x:11 var
+R967:978 RBTree.definitions2 <> insert_split:14 def
+R994:997 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R985:985 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R987:988 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R990:991 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R993:993 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R986:986 RBTree.definitions2 <> R constr
+R998:998 RBTree.definitions2 <> b:13 var
+R980:980 RBTree.definitions2 <> x:11 var
+def 1649:1659 <> insert_root
+R1665:1667 RBTree.definitions2 <> Key def
+binder 1662:1662 <> x:16
+R1674:1678 RBTree.definitions2 <> Value def
+binder 1671:1671 <> v:17
+R1685:1688 RBTree.definitions2 <> tree ind
+binder 1682:1682 <> s:18
+R1693:1696 RBTree.definitions2 <> tree ind
+R1709:1709 RBTree.definitions2 <> s:18 var
+R1720:1720 RBTree.definitions2 <> E constr
+R1725:1725 RBTree.definitions2 <> T constr
+R1750:1750 RBTree.definitions2 <> E constr
+R1730:1739 RBTree.definitions2 <> Build_Node constr
+R1747:1747 RBTree.definitions2 <> v:17 var
+R1745:1745 RBTree.definitions2 <> x:16 var
+R1741:1743 RBTree.definitions2 <> Red constr
+R1727:1727 RBTree.definitions2 <> E constr
+R1894:1894 RBTree.definitions2 <> T constr
+R1906:1906 RBTree.definitions2 <> T constr
+R1911:1920 RBTree.definitions2 <> Build_Node constr
+R1942:1942 RBTree.definitions2 <> v:17 var
+R1940:1940 RBTree.definitions2 <> x:16 var
+R1923:1935 RBTree.definitions2 <> color_of_node proj
+def 2041:2048 <> l_rotate
+binder 2050:2050 <> x:20
+binder 2052:2052 <> a:21
+binder 2054:2055 <> yz:22
+R2068:2069 RBTree.definitions2 <> yz:22 var
+R2080:2080 RBTree.definitions2 <> E constr
+R2085:2085 RBTree.definitions2 <> E constr
+R2091:2091 RBTree.definitions2 <> T constr
+R2103:2103 RBTree.definitions2 <> T constr
+R2106:2106 RBTree.definitions2 <> T constr
+R2110:2110 RBTree.definitions2 <> a:21 var
+R2108:2108 RBTree.definitions2 <> x:20 var
+def 2138:2145 <> r_rotate
+binder 2147:2148 <> xy:24
+binder 2150:2150 <> b:25
+binder 2152:2152 <> z:26
+R2165:2166 RBTree.definitions2 <> xy:24 var
+R2177:2177 RBTree.definitions2 <> E constr
+R2182:2182 RBTree.definitions2 <> E constr
+R2188:2188 RBTree.definitions2 <> T constr
+R2200:2200 RBTree.definitions2 <> T constr
+R2207:2207 RBTree.definitions2 <> T constr
+R2213:2213 RBTree.definitions2 <> z:26 var
+R2211:2211 RBTree.definitions2 <> b:25 var
+def 2445:2451 <> RedNode
+binder 2453:2453 <> n:28
+R2456:2459 RBTree.definitions2 <> Node rec
+R2491:2500 RBTree.definitions2 <> Build_Node constr
+R2523:2535 RBTree.definitions2 <> value_of_node proj
+R2537:2537 RBTree.definitions2 <> n:28 var
+R2507:2517 RBTree.definitions2 <> key_of_node proj
+R2519:2519 RBTree.definitions2 <> n:28 var
+R2502:2504 RBTree.definitions2 <> Red constr
+def 2553:2561 <> BlackNode
+binder 2563:2563 <> n:29
+R2566:2569 RBTree.definitions2 <> Node rec
+R2603:2612 RBTree.definitions2 <> Build_Node constr
+R2637:2649 RBTree.definitions2 <> value_of_node proj
+R2651:2651 RBTree.definitions2 <> n:29 var
+R2621:2631 RBTree.definitions2 <> key_of_node proj
+R2633:2633 RBTree.definitions2 <> n:29 var
+R2614:2618 RBTree.definitions2 <> Black constr
+def 2667:2675 <> makeBlack
+binder 2677:2677 <> t:30
+R2730:2730 RBTree.definitions2 <> t:30 var
+R2742:2742 RBTree.definitions2 <> E constr
+R2747:2747 RBTree.definitions2 <> E constr
+R2753:2753 RBTree.definitions2 <> T constr
+R2764:2764 RBTree.definitions2 <> T constr
+R2769:2777 RBTree.definitions2 <> BlackNode def
+def 2803:2810 <> Red_tree
+binder 2812:2812 <> s:32
+R2844:2844 RBTree.definitions2 <> s:32 var
+R2855:2855 RBTree.definitions2 <> T constr
+R2860:2869 RBTree.definitions2 <> Build_Node constr
+R2871:2873 RBTree.definitions2 <> Red constr
+R2885:2888 Coq.Init.Logic <> True ind
+R2924:2928 Coq.Init.Logic <> False ind
+def 2988:2997 <> Black_tree
+binder 2999:2999 <> s:34
+R3012:3012 RBTree.definitions2 <> s:34 var
+R3023:3023 RBTree.definitions2 <> T constr
+R3028:3037 RBTree.definitions2 <> Build_Node constr
+R3039:3043 RBTree.definitions2 <> Black constr
+R3055:3058 Coq.Init.Logic <> True ind
+R3069:3073 Coq.Init.Logic <> False ind
+def 3092:3099 <> balance'
+R3106:3117 RBTree.definitions2 <> partial_tree def
+binder 3103:3103 <> l:36
+R3124:3127 RBTree.definitions2 <> tree ind
+binder 3121:3121 <> s:37
+R3144:3146 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3132:3143 RBTree.definitions2 <> partial_tree def
+R3147:3150 RBTree.definitions2 <> tree ind
+R3277:3277 RBTree.definitions2 <> l:36 var
+R3320:3322 Coq.Init.Datatypes <> nil constr
+R3327:3327 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3331:3333 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3335:3335 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3328:3330 Coq.Init.Datatypes <> nil constr
+R3334:3334 RBTree.definitions2 <> s:37 var
+R3482:3483 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3484:3486 Coq.Init.Datatypes <> nil constr
+R3491:3491 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3493:3495 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3497:3497 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3492:3492 RBTree.definitions2 <> l:36 var
+R3496:3496 RBTree.definitions2 <> s:37 var
+R3578:3581 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3560:3560 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3564:3565 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3568:3569 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3577:3577 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3598:3601 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3582:3582 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3586:3587 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3590:3591 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3597:3597 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3681:3693 RBTree.definitions2 <> color_of_node proj
+R3709:3713 RBTree.definitions2 <> Black constr
+R3718:3718 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3720:3721 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3723:3723 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3719:3719 RBTree.definitions2 <> l:36 var
+R3722:3722 RBTree.definitions2 <> s:37 var
+R3731:3733 RBTree.definitions2 <> Red constr
+R3879:3879 RBTree.definitions2 <> R constr
+R3981:3981 RBTree.definitions2 <> T constr
+R3986:3995 RBTree.definitions2 <> Build_Node constr
+R3997:3999 RBTree.definitions2 <> Red constr
+R4206:4206 RBTree.definitions2 <> R constr
+R4320:4327 RBTree.definitions2 <> balance':38 def
+R4333:4333 RBTree.definitions2 <> T constr
+R4378:4386 RBTree.definitions2 <> makeBlack def
+R4365:4371 RBTree.definitions2 <> RedNode def
+R4336:4336 RBTree.definitions2 <> T constr
+R4341:4349 RBTree.definitions2 <> BlackNode def
+R4338:4338 RBTree.definitions2 <> s:37 var
+R4408:4408 RBTree.definitions2 <> L constr
+R4451:4458 RBTree.definitions2 <> balance':38 def
+R4464:4464 RBTree.definitions2 <> T constr
+R4498:4498 RBTree.definitions2 <> T constr
+R4503:4511 RBTree.definitions2 <> BlackNode def
+R4500:4500 RBTree.definitions2 <> s:37 var
+R4485:4491 RBTree.definitions2 <> RedNode def
+R4467:4475 RBTree.definitions2 <> makeBlack def
+R4650:4650 RBTree.definitions2 <> R constr
+R4765:4765 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4768:4769 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4826:4826 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4770:4777 RBTree.definitions2 <> r_rotate def
+R4809:4815 RBTree.definitions2 <> RedNode def
+R4780:4780 RBTree.definitions2 <> T constr
+R4785:4793 RBTree.definitions2 <> BlackNode def
+R4782:4782 RBTree.definitions2 <> s:37 var
+R4841:4841 RBTree.definitions2 <> L constr
+R4963:4963 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4966:4967 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5050:5051 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4968:4975 RBTree.definitions2 <> l_rotate def
+R5016:5023 RBTree.definitions2 <> r_rotate def
+R5026:5034 RBTree.definitions2 <> makeBlack def
+R5036:5036 RBTree.definitions2 <> s:37 var
+R4984:4990 RBTree.definitions2 <> RedNode def
+R5087:5087 RBTree.definitions2 <> L constr
+R5189:5189 RBTree.definitions2 <> T constr
+R5194:5203 RBTree.definitions2 <> Build_Node constr
+R5205:5207 RBTree.definitions2 <> Red constr
+R5412:5412 RBTree.definitions2 <> R constr
+R5454:5461 RBTree.definitions2 <> balance':38 def
+R5467:5467 RBTree.definitions2 <> T constr
+R5512:5520 RBTree.definitions2 <> makeBlack def
+R5499:5505 RBTree.definitions2 <> RedNode def
+R5470:5470 RBTree.definitions2 <> T constr
+R5495:5495 RBTree.definitions2 <> s:37 var
+R5481:5489 RBTree.definitions2 <> BlackNode def
+R5542:5542 RBTree.definitions2 <> L constr
+R5584:5591 RBTree.definitions2 <> balance':38 def
+R5597:5597 RBTree.definitions2 <> T constr
+R5631:5631 RBTree.definitions2 <> T constr
+R5656:5656 RBTree.definitions2 <> s:37 var
+R5642:5650 RBTree.definitions2 <> BlackNode def
+R5618:5624 RBTree.definitions2 <> RedNode def
+R5600:5608 RBTree.definitions2 <> makeBlack def
+R5782:5782 RBTree.definitions2 <> R constr
+R5886:5886 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5889:5890 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5954:5954 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5891:5898 RBTree.definitions2 <> r_rotate def
+R5937:5943 RBTree.definitions2 <> RedNode def
+R5901:5908 RBTree.definitions2 <> l_rotate def
+R5922:5930 RBTree.definitions2 <> makeBlack def
+R5932:5932 RBTree.definitions2 <> s:37 var
+R5968:5968 RBTree.definitions2 <> L constr
+R6045:6045 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6048:6049 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6106:6106 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6050:6057 RBTree.definitions2 <> l_rotate def
+R6079:6079 RBTree.definitions2 <> T constr
+R6104:6104 RBTree.definitions2 <> s:37 var
+R6090:6098 RBTree.definitions2 <> BlackNode def
+R6066:6072 RBTree.definitions2 <> RedNode def
+def 6169:6181 <> complete_tree
+R6188:6199 RBTree.definitions2 <> partial_tree def
+binder 6185:6185 <> l:47
+R6207:6210 RBTree.definitions2 <> tree ind
+binder 6203:6203 <> b:48
+R6215:6218 RBTree.definitions2 <> tree ind
+R6245:6245 RBTree.definitions2 <> l:47 var
+R6254:6256 Coq.Init.Datatypes <> nil constr
+R6261:6261 RBTree.definitions2 <> b:48 var
+R6283:6286 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6265:6265 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6269:6270 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6273:6274 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6282:6282 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6358:6358 RBTree.definitions2 <> R constr
+R6363:6375 RBTree.definitions2 <> complete_tree:49 def
+R6381:6381 RBTree.definitions2 <> T constr
+R6383:6383 RBTree.definitions2 <> b:48 var
+R6401:6401 RBTree.definitions2 <> L constr
+R6406:6418 RBTree.definitions2 <> complete_tree:49 def
+R6424:6424 RBTree.definitions2 <> T constr
+R6437:6437 RBTree.definitions2 <> b:48 var
+ind 6462:6467 <> insert
+constr 6495:6510 <> insert_intro_Red
+constr 6902:6919 <> insert_intro_Black
+binder 6469:6469 <> k:52
+binder 6471:6471 <> v:53
+binder 6473:6473 <> t:54
+R6481:6484 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6477:6480 RBTree.definitions2 <> tree ind
+binder 6521:6521 <> l:57
+binder 6523:6523 <> s:58
+binder 6525:6525 <> h:59
+binder 6527:6527 <> b:60
+R6563:6641 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6670:6747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6787:6854 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6855:6860 RBTree.definitions2 <> insert:55 ind
+R6869:6877 RBTree.definitions2 <> makeBlack def
+R6880:6892 RBTree.definitions2 <> complete_tree def
+R6896:6896 RBTree.definitions2 <> b:60 var
+R6894:6894 RBTree.definitions2 <> h:59 var
+R6866:6866 RBTree.definitions2 <> t:54 var
+R6864:6864 RBTree.definitions2 <> v:53 var
+R6862:6862 RBTree.definitions2 <> k:52 var
+R6754:6756 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6748:6748 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6750:6751 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6753:6753 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6749:6749 RBTree.definitions2 <> h:59 var
+R6752:6752 RBTree.definitions2 <> b:60 var
+R6757:6764 RBTree.definitions2 <> balance' def
+R6769:6779 RBTree.definitions2 <> insert_root def
+R6785:6785 RBTree.definitions2 <> s:58 var
+R6783:6783 RBTree.definitions2 <> v:53 var
+R6781:6781 RBTree.definitions2 <> k:52 var
+R6766:6766 RBTree.definitions2 <> l:57 var
+R6642:6649 RBTree.definitions2 <> Red_tree def
+R6652:6662 RBTree.definitions2 <> insert_root def
+R6668:6668 RBTree.definitions2 <> s:58 var
+R6666:6666 RBTree.definitions2 <> v:53 var
+R6664:6664 RBTree.definitions2 <> k:52 var
+R6540:6542 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6534:6534 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6536:6537 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6539:6539 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6535:6535 RBTree.definitions2 <> l:57 var
+R6538:6538 RBTree.definitions2 <> s:58 var
+R6543:6554 RBTree.definitions2 <> insert_split def
+R6560:6562 Coq.Init.Datatypes <> nil constr
+R6558:6558 RBTree.definitions2 <> t:54 var
+R6556:6556 RBTree.definitions2 <> k:52 var
+binder 6930:6930 <> l:61
+binder 6932:6932 <> s:62
+R6968:6975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7006:7013 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7014:7019 RBTree.definitions2 <> insert:55 ind
+R7028:7036 RBTree.definitions2 <> makeBlack def
+R7039:7051 RBTree.definitions2 <> complete_tree def
+R7056:7066 RBTree.definitions2 <> insert_root def
+R7072:7072 RBTree.definitions2 <> s:62 var
+R7070:7070 RBTree.definitions2 <> v:53 var
+R7068:7068 RBTree.definitions2 <> k:52 var
+R7053:7053 RBTree.definitions2 <> l:61 var
+R7025:7025 RBTree.definitions2 <> t:54 var
+R7023:7023 RBTree.definitions2 <> v:53 var
+R7021:7021 RBTree.definitions2 <> k:52 var
+R6976:6985 RBTree.definitions2 <> Black_tree def
+R6988:6998 RBTree.definitions2 <> insert_root def
+R7004:7004 RBTree.definitions2 <> s:62 var
+R7002:7002 RBTree.definitions2 <> v:53 var
+R7000:7000 RBTree.definitions2 <> k:52 var
+R6945:6947 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6939:6939 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6941:6942 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6944:6944 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6940:6940 RBTree.definitions2 <> l:61 var
+R6943:6943 RBTree.definitions2 <> s:62 var
+R6948:6959 RBTree.definitions2 <> insert_split def
+R6965:6967 Coq.Init.Datatypes <> nil constr
+R6963:6963 RBTree.definitions2 <> t:54 var
+R6961:6961 RBTree.definitions2 <> k:52 var
+inst 7089:7097 <> CompSpecs
+R7101:7109 VST.veric.mpred <> compspecs class
+R7127:7130 RBTree.rbt_insert2 <> prog def
+def 7153:7157 <> Vprog
+R7161:7168 VST.veric.mpred <> varspecs def
+R7183:7186 RBTree.rbt_insert2 <> prog def
+def 7210:7222 <> t_struct_tree
+R7226:7229 compcert.cfrontend.Ctypes <> type ind
+R7234:7240 compcert.cfrontend.Ctypes <> Tstruct constr
+R7248:7253 compcert.cfrontend.Ctypes <> noattr def
+R7242:7246 RBTree.rbt_insert2 <> _tree def
+def 7268:7276 <> RED_COLOR
+R7280:7280 Coq.Numbers.BinNums <> Z ind
+def 7317:7327 <> BLACK_COLOR
+R7331:7331 Coq.Numbers.BinNums <> Z ind
+def 7367:7371 <> Col2Z
+R7378:7382 RBTree.definitions2 <> color ind
+binder 7374:7374 <> c:63
+R7387:7387 Coq.Numbers.BinNums <> Z ind
+R7400:7400 RBTree.definitions2 <> c:63 var
+R7411:7413 RBTree.definitions2 <> Red constr
+R7420:7428 RBTree.definitions2 <> RED_COLOR def
+R7434:7438 RBTree.definitions2 <> Black constr
+R7443:7453 RBTree.definitions2 <> BLACK_COLOR def
+prf 7535:7541 <> T_neq_E
+binder 7553:7554 <> t1:65
+binder 7556:7557 <> t2:66
+binder 7559:7559 <> n:67
+R7571:7574 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7562:7562 RBTree.definitions2 <> T constr
+R7569:7570 RBTree.definitions2 <> t2:66 var
+R7567:7567 RBTree.definitions2 <> n:67 var
+R7564:7565 RBTree.definitions2 <> t1:65 var
+R7575:7575 RBTree.definitions2 <> E constr
+R7607:7613 Coq.Logic.Classical_Prop <> classic prfax
+R7625:7627 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7616:7616 RBTree.definitions2 <> T constr
+R7628:7628 RBTree.definitions2 <> E constr
+R7607:7613 Coq.Logic.Classical_Prop <> classic prfax
+R7625:7627 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7616:7616 RBTree.definitions2 <> T constr
+R7628:7628 RBTree.definitions2 <> E constr
+prf 7670:7686 <> insert_root_neq_E
+binder 7698:7698 <> k:68
+binder 7700:7700 <> v:69
+binder 7702:7702 <> s:70
+R7726:7729 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7709:7719 RBTree.definitions2 <> insert_root def
+R7725:7725 RBTree.definitions2 <> s:70 var
+R7723:7723 RBTree.definitions2 <> v:69 var
+R7721:7721 RBTree.definitions2 <> k:68 var
+R7730:7730 RBTree.definitions2 <> E constr
+R7768:7774 RBTree.definitions2 <> T_neq_E thm
+R7768:7774 RBTree.definitions2 <> T_neq_E thm
+R7768:7774 RBTree.definitions2 <> T_neq_E thm
+def 7924:7933 <> rbtree_rep
+R7940:7943 RBTree.definitions2 <> tree ind
+binder 7936:7936 <> t:71
+R7957:7959 compcert.common.Values <> val ind
+binder 7947:7947 <> p:72
+binder 7949:7953 <> p_par:73
+R7964:7968 VST.veric.mpred <> mpred def
+R8135:8135 RBTree.definitions2 <> t:71 var
+R8146:8146 RBTree.definitions2 <> T constr
+R8290:8297 VST.msl.seplog <> ::logic:x_'&&'_x not
+R8201:8204 VST.msl.seplog <> ::logic:'!!'_x not
+R8289:8289 VST.msl.seplog <> ::logic:'!!'_x not
+R8254:8264 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8219:8222 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R8236:8239 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R8205:8218 compcert.lib.Integers Int min_signed def
+R8223:8233 RBTree.definitions2 <> key_of_node proj
+R8223:8233 RBTree.definitions2 <> key_of_node proj
+R8240:8253 compcert.lib.Integers Int max_signed def
+R8265:8282 VST.veric.val_lemmas <> is_pointer_or_null def
+R8284:8288 RBTree.definitions2 <> p_par:73 var
+R8298:8300 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R8312:8313 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R8309:8311 compcert.common.Values <> val ind
+binder 8301:8305 <> p_lch:76
+R8314:8316 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R8328:8334 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R8325:8327 compcert.common.Values <> val ind
+binder 8317:8321 <> p_rch:77
+R8685:8687 VST.msl.seplog <> ::logic:x_'*'_x not
+R8633:8662 VST.msl.seplog <> ::logic:x_'*'_x not
+R8335:8341 VST.floyd.field_at <> data_at def
+R8632:8632 RBTree.definitions2 <> p:72 var
+R8454:8455 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8497:8507 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8630:8630 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8456:8459 compcert.common.Values <> Vint constr
+R8462:8469 compcert.lib.Integers Int repr def
+R8472:8476 RBTree.definitions2 <> Col2Z def
+R8479:8491 RBTree.definitions2 <> color_of_node proj
+R8508:8509 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8541:8553 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8629:8629 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8510:8513 compcert.common.Values <> Vint constr
+R8516:8523 compcert.lib.Integers Int repr def
+R8526:8536 RBTree.definitions2 <> key_of_node proj
+R8554:8554 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8588:8604 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8628:8628 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8555:8558 compcert.common.Values <> Vint constr
+R8561:8568 compcert.lib.Integers Int repr def
+R8571:8583 RBTree.definitions2 <> value_of_node proj
+R8605:8605 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8611:8612 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8627:8627 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8606:8610 RBTree.definitions2 <> p_lch:76 var
+R8613:8613 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8619:8620 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8626:8626 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8614:8618 RBTree.definitions2 <> p_rch:77 var
+R8621:8625 RBTree.definitions2 <> p_par:73 var
+R8347:8359 RBTree.definitions2 <> t_struct_tree def
+R8343:8345 VST.veric.shares <> Tsh def
+R8663:8672 RBTree.definitions2 <> rbtree_rep:74 def
+R8684:8684 RBTree.definitions2 <> p:72 var
+R8678:8682 RBTree.definitions2 <> p_lch:76 var
+R8688:8697 RBTree.definitions2 <> rbtree_rep:74 def
+R8709:8709 RBTree.definitions2 <> p:72 var
+R8703:8707 RBTree.definitions2 <> p_rch:77 var
+R8715:8715 RBTree.definitions2 <> E constr
+R8764:8767 VST.msl.seplog <> ::logic:x_'&&'_x not
+R8720:8723 VST.msl.seplog <> ::logic:'!!'_x not
+R8763:8763 VST.msl.seplog <> ::logic:'!!'_x not
+R8735:8738 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8725:8727 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8724:8724 RBTree.definitions2 <> p:72 var
+R8728:8734 VST.veric.base <> nullval def
+R8739:8756 VST.veric.val_lemmas <> is_pointer_or_null def
+R8758:8762 RBTree.definitions2 <> p_par:73 var
+R8768:8770 VST.msl.seplog <> emp meth
+prf 8787:8808 <> rbtree_rep_local_facts
+binder 8820:8820 <> t:78
+binder 8822:8822 <> p:79
+binder 8824:8828 <> p_par:80
+R8855:8864 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R8835:8844 RBTree.definitions2 <> rbtree_rep def
+R8850:8854 RBTree.definitions2 <> p_par:80 var
+R8848:8848 RBTree.definitions2 <> p:79 var
+R8846:8846 RBTree.definitions2 <> t:78 var
+R8865:8869 VST.msl.seplog <> ::logic:'!!'_x not
+R8968:8969 VST.msl.seplog <> ::logic:'!!'_x not
+R8890:8907 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8870:8887 VST.veric.val_lemmas <> is_pointer_or_null def
+R8889:8889 RBTree.definitions2 <> p:79 var
+R8932:8945 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8967:8967 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8908:8925 VST.veric.val_lemmas <> is_pointer_or_null def
+R8927:8931 RBTree.definitions2 <> p_par:80 var
+R8957:8961 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8947:8949 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8946:8946 RBTree.definitions2 <> p:79 var
+R8950:8956 VST.veric.base <> nullval def
+R8963:8965 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8962:8962 RBTree.definitions2 <> t:78 var
+R8966:8966 RBTree.definitions2 <> E constr
+R9032:9041 RBTree.definitions2 <> rbtree_rep def
+R9032:9041 RBTree.definitions2 <> rbtree_rep def
+R9130:9153 VST.floyd.nested_field_lemmas <> field_compatible_nullval thm
+R9130:9153 VST.floyd.nested_field_lemmas <> field_compatible_nullval thm
+prf 9244:9267 <> rbtree_rep_valid_pointer
+binder 9279:9279 <> t:81
+binder 9281:9281 <> p:82
+binder 9283:9287 <> p_par:83
+R9314:9318 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R9294:9303 RBTree.definitions2 <> rbtree_rep def
+R9309:9313 RBTree.definitions2 <> p_par:83 var
+R9307:9307 RBTree.definitions2 <> p:82 var
+R9305:9305 RBTree.definitions2 <> t:81 var
+R9319:9331 VST.veric.expr <> valid_pointer def
+R9333:9333 RBTree.definitions2 <> p:82 var
+R9363:9372 RBTree.definitions2 <> rbtree_rep def
+prf 9473:9483 <> rbtree_rep'
+R9499:9501 compcert.common.Values <> val ind
+binder 9496:9496 <> p:84
+R9510:9512 compcert.common.Values <> val ind
+binder 9505:9507 <> p_l:85
+R9521:9523 compcert.common.Values <> val ind
+binder 9516:9518 <> p_r:86
+R9534:9536 compcert.common.Values <> val ind
+binder 9527:9531 <> p_par:87
+R9545:9548 RBTree.definitions2 <> tree ind
+binder 9540:9542 <> lch:88
+R9557:9560 RBTree.definitions2 <> tree ind
+binder 9552:9554 <> rch:89
+R9567:9570 RBTree.definitions2 <> Node rec
+binder 9564:9564 <> n:90
+R9602:9609 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9659:9669 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9914:9927 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R9891:9893 VST.msl.seplog <> ::logic:x_'*'_x not
+R9861:9870 VST.msl.seplog <> ::logic:x_'*'_x not
+R9670:9676 VST.floyd.field_at <> data_at def
+R9860:9860 RBTree.definitions2 <> p:84 var
+R9705:9705 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9747:9757 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9858:9858 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9706:9709 compcert.common.Values <> Vint constr
+R9712:9719 compcert.lib.Integers Int repr def
+R9722:9726 RBTree.definitions2 <> Col2Z def
+R9729:9741 RBTree.definitions2 <> color_of_node proj
+R9743:9743 RBTree.definitions2 <> n:90 var
+R9758:9758 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9790:9800 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9857:9857 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9759:9762 compcert.common.Values <> Vint constr
+R9765:9772 compcert.lib.Integers Int repr def
+R9775:9785 RBTree.definitions2 <> key_of_node proj
+R9787:9787 RBTree.definitions2 <> n:90 var
+R9801:9801 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9835:9836 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9856:9856 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9802:9805 compcert.common.Values <> Vint constr
+R9808:9815 compcert.lib.Integers Int repr def
+R9818:9830 RBTree.definitions2 <> value_of_node proj
+R9832:9832 RBTree.definitions2 <> n:90 var
+R9837:9837 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9841:9842 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9855:9855 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9838:9840 RBTree.definitions2 <> p_l:85 var
+R9843:9843 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9847:9848 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9854:9854 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9844:9846 RBTree.definitions2 <> p_r:86 var
+R9849:9853 RBTree.definitions2 <> p_par:87 var
+R9682:9694 RBTree.definitions2 <> t_struct_tree def
+R9678:9680 VST.veric.shares <> Tsh def
+R9871:9880 RBTree.definitions2 <> rbtree_rep def
+R9890:9890 RBTree.definitions2 <> p:84 var
+R9886:9888 RBTree.definitions2 <> p_l:85 var
+R9882:9884 RBTree.definitions2 <> lch:88 var
+R9894:9903 RBTree.definitions2 <> rbtree_rep def
+R9913:9913 RBTree.definitions2 <> p:84 var
+R9909:9911 RBTree.definitions2 <> p_r:86 var
+R9905:9907 RBTree.definitions2 <> rch:89 var
+R9928:9937 RBTree.definitions2 <> rbtree_rep def
+R9955:9959 RBTree.definitions2 <> p_par:87 var
+R9953:9953 RBTree.definitions2 <> p:84 var
+R9940:9940 RBTree.definitions2 <> T constr
+R9948:9950 RBTree.definitions2 <> rch:89 var
+R9946:9946 RBTree.definitions2 <> n:90 var
+R9942:9944 RBTree.definitions2 <> lch:88 var
+R9624:9627 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R9641:9644 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R9610:9623 compcert.lib.Integers Int min_signed def
+R9628:9638 RBTree.definitions2 <> key_of_node proj
+R9640:9640 RBTree.definitions2 <> n:90 var
+R9628:9638 RBTree.definitions2 <> key_of_node proj
+R9640:9640 RBTree.definitions2 <> n:90 var
+R9645:9658 compcert.lib.Integers Int max_signed def
+R9578:9595 VST.veric.val_lemmas <> is_pointer_or_null def
+R9597:9601 RBTree.definitions2 <> p_par:87 var
+R9988:9997 RBTree.definitions2 <> rbtree_rep def
+prf 10041:10058 <> rbtree_rep_nullval
+binder 10068:10068 <> t:91
+binder 10070:10074 <> p_par:92
+R10105:10109 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R10079:10088 RBTree.definitions2 <> rbtree_rep def
+R10100:10104 RBTree.definitions2 <> p_par:92 var
+R10092:10098 VST.veric.base <> nullval def
+R10090:10090 RBTree.definitions2 <> t:91 var
+R10110:10113 VST.msl.seplog <> ::logic:'!!'_x not
+R10119:10119 VST.msl.seplog <> ::logic:'!!'_x not
+R10115:10117 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10114:10114 RBTree.definitions2 <> t:91 var
+R10118:10118 RBTree.definitions2 <> E constr
+R10176:10185 RBTree.definitions2 <> rbtree_rep def
+R10351:10366 VST.floyd.nested_field_lemmas <> field_compatible def
+R10386:10389 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10372:10382 VST.floyd.nested_field_lemmas <> StructField constr
+R10351:10366 VST.floyd.nested_field_lemmas <> field_compatible def
+R10386:10389 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10372:10382 VST.floyd.nested_field_lemmas <> StructField constr
+R10480:10500 VST.floyd.nested_field_lemmas <> field_compatible_cons thm
+def 10689:10699 <> treebox_rep
+R10706:10709 RBTree.definitions2 <> tree ind
+binder 10702:10702 <> t:93
+R10723:10725 compcert.common.Values <> val ind
+binder 10713:10713 <> b:94
+binder 10715:10719 <> p_par:95
+R10757:10759 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R10767:10768 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R10764:10766 compcert.common.Values <> val ind
+binder 10760:10760 <> p:96
+R10805:10807 VST.msl.seplog <> ::logic:x_'*'_x not
+R10769:10775 VST.floyd.field_at <> data_at def
+R10804:10804 RBTree.definitions2 <> b:94 var
+R10802:10802 RBTree.definitions2 <> p:96 var
+R10782:10785 compcert.exportclight.Clightdefs <> tptr def
+R10787:10799 RBTree.definitions2 <> t_struct_tree def
+R10777:10779 VST.veric.shares <> Tsh def
+R10808:10817 RBTree.definitions2 <> rbtree_rep def
+R10823:10827 RBTree.definitions2 <> p_par:95 var
+R10821:10821 RBTree.definitions2 <> p:96 var
+R10819:10819 RBTree.definitions2 <> t:93 var
+prf 11044:11066 <> treebox_rep_local_facts
+binder 11078:11078 <> t:97
+binder 11080:11080 <> b:98
+binder 11082:11086 <> p_par:99
+R11114:11122 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R11093:11103 RBTree.definitions2 <> treebox_rep def
+R11109:11113 RBTree.definitions2 <> p_par:99 var
+R11107:11107 RBTree.definitions2 <> b:98 var
+R11105:11105 RBTree.definitions2 <> t:97 var
+R11123:11127 VST.msl.seplog <> ::logic:'!!'_x not
+R11187:11188 VST.msl.seplog <> ::logic:'!!'_x not
+R11148:11162 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11128:11145 VST.veric.val_lemmas <> is_pointer_or_null def
+R11147:11147 RBTree.definitions2 <> b:98 var
+R11163:11180 VST.veric.val_lemmas <> is_pointer_or_null def
+R11182:11186 RBTree.definitions2 <> p_par:99 var
+R11251:11261 RBTree.definitions2 <> treebox_rep def
+R11251:11261 RBTree.definitions2 <> treebox_rep def
+prf 11354:11378 <> treebox_rep_valid_pointer
+binder 11390:11390 <> t:100
+binder 11392:11392 <> b:101
+binder 11394:11398 <> p_par:102
+R11426:11430 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R11405:11415 RBTree.definitions2 <> treebox_rep def
+R11421:11425 RBTree.definitions2 <> p_par:102 var
+R11419:11419 RBTree.definitions2 <> b:101 var
+R11417:11417 RBTree.definitions2 <> t:100 var
+R11431:11443 VST.veric.expr <> valid_pointer def
+R11445:11445 RBTree.definitions2 <> b:101 var
+R11474:11484 RBTree.definitions2 <> treebox_rep def
+prf 11586:11598 <> treebox_rep_l
+R11618:11620 compcert.common.Values <> val ind
+binder 11611:11615 <> p_par:103
+R11632:11634 compcert.common.Values <> val ind
+binder 11624:11629 <> p_gpar:104
+R11645:11647 compcert.common.Values <> val ind
+binder 11638:11642 <> p_sib:105
+R11655:11658 RBTree.definitions2 <> tree ind
+binder 11651:11652 <> ts:106
+R11665:11668 RBTree.definitions2 <> tree ind
+binder 11662:11662 <> t:107
+R11675:11678 RBTree.definitions2 <> Node rec
+binder 11672:11672 <> n:108
+R11689:11691 compcert.common.Values <> val ind
+binder 11682:11686 <> b_par:109
+R11724:11731 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11781:11791 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12394:12401 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R12359:12368 VST.msl.seplog <> ::logic:x_'*'_x not
+R12273:12282 VST.msl.seplog <> ::logic:x_'*'_x not
+R12205:12214 VST.msl.seplog <> ::logic:x_'*'_x not
+R12137:12146 VST.msl.seplog <> ::logic:x_'*'_x not
+R12038:12047 VST.msl.seplog <> ::logic:x_'*'_x not
+R11943:11952 VST.msl.seplog <> ::logic:x_'*'_x not
+R11836:11845 VST.msl.seplog <> ::logic:x_'*'_x not
+R11792:11798 VST.floyd.field_at <> data_at def
+R11831:11835 RBTree.definitions2 <> b_par:109 var
+R11825:11829 RBTree.definitions2 <> p_par:103 var
+R11805:11808 compcert.exportclight.Clightdefs <> tptr def
+R11810:11822 RBTree.definitions2 <> t_struct_tree def
+R11800:11802 VST.veric.shares <> Tsh def
+R11846:11853 VST.floyd.field_at <> field_at def
+R11938:11942 RBTree.definitions2 <> p_par:103 var
+R11895:11898 compcert.common.Values <> Vint constr
+R11901:11908 compcert.lib.Integers Int repr def
+R11911:11915 RBTree.definitions2 <> Col2Z def
+R11918:11930 RBTree.definitions2 <> color_of_node proj
+R11932:11932 RBTree.definitions2 <> n:108 var
+R11873:11873 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11892:11892 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11874:11884 VST.floyd.nested_field_lemmas <> StructField constr
+R11886:11891 RBTree.rbt_insert2 <> _color def
+R11859:11871 RBTree.definitions2 <> t_struct_tree def
+R11855:11857 VST.veric.shares <> Tsh def
+R11953:11960 VST.floyd.field_at <> field_at def
+R12033:12037 RBTree.definitions2 <> p_par:103 var
+R12000:12003 compcert.common.Values <> Vint constr
+R12006:12013 compcert.lib.Integers Int repr def
+R12016:12026 RBTree.definitions2 <> key_of_node proj
+R12028:12028 RBTree.definitions2 <> n:108 var
+R11980:11980 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11997:11997 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R11981:11991 VST.floyd.nested_field_lemmas <> StructField constr
+R11993:11996 RBTree.rbt_insert2 <> _key def
+R11966:11978 RBTree.definitions2 <> t_struct_tree def
+R11962:11964 VST.veric.shares <> Tsh def
+R12048:12055 VST.floyd.field_at <> field_at def
+R12132:12136 RBTree.definitions2 <> p_par:103 var
+R12097:12100 compcert.common.Values <> Vint constr
+R12103:12110 compcert.lib.Integers Int repr def
+R12113:12125 RBTree.definitions2 <> value_of_node proj
+R12127:12127 RBTree.definitions2 <> n:108 var
+R12075:12075 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12094:12094 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12076:12086 VST.floyd.nested_field_lemmas <> StructField constr
+R12088:12093 RBTree.rbt_insert2 <> _value def
+R12061:12073 RBTree.definitions2 <> t_struct_tree def
+R12057:12059 VST.veric.shares <> Tsh def
+R12147:12154 VST.floyd.field_at <> field_at def
+R12200:12204 RBTree.definitions2 <> p_par:103 var
+R12194:12198 RBTree.definitions2 <> p_sib:105 var
+R12174:12174 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12192:12192 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12175:12185 VST.floyd.nested_field_lemmas <> StructField constr
+R12187:12191 RBTree.rbt_insert2 <> _left def
+R12160:12172 RBTree.definitions2 <> t_struct_tree def
+R12156:12158 VST.veric.shares <> Tsh def
+R12215:12222 VST.floyd.field_at <> field_at def
+R12268:12272 RBTree.definitions2 <> p_par:103 var
+R12261:12266 RBTree.definitions2 <> p_gpar:104 var
+R12242:12242 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12259:12259 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12243:12253 VST.floyd.nested_field_lemmas <> StructField constr
+R12255:12258 RBTree.rbt_insert2 <> _par def
+R12228:12240 RBTree.definitions2 <> t_struct_tree def
+R12224:12226 VST.veric.shares <> Tsh def
+R12283:12293 RBTree.definitions2 <> treebox_rep def
+R12354:12358 RBTree.definitions2 <> p_par:103 var
+R12298:12310 VST.floyd.nested_field_lemmas <> field_address def
+R12347:12351 RBTree.definitions2 <> p_par:103 var
+R12326:12326 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12345:12345 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12327:12337 VST.floyd.nested_field_lemmas <> StructField constr
+R12339:12344 RBTree.rbt_insert2 <> _right def
+R12312:12324 RBTree.definitions2 <> t_struct_tree def
+R12295:12295 RBTree.definitions2 <> t:107 var
+R12369:12378 RBTree.definitions2 <> rbtree_rep def
+R12389:12393 RBTree.definitions2 <> p_par:103 var
+R12383:12387 RBTree.definitions2 <> p_sib:105 var
+R12380:12381 RBTree.definitions2 <> ts:106 var
+R12402:12412 RBTree.definitions2 <> treebox_rep def
+R12431:12436 RBTree.definitions2 <> p_gpar:104 var
+R12425:12429 RBTree.definitions2 <> b_par:109 var
+R12415:12415 RBTree.definitions2 <> T constr
+R12422:12422 RBTree.definitions2 <> t:107 var
+R12420:12420 RBTree.definitions2 <> n:108 var
+R12417:12418 RBTree.definitions2 <> ts:106 var
+R11746:11749 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R11763:11766 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R11732:11745 compcert.lib.Integers Int min_signed def
+R11750:11760 RBTree.definitions2 <> key_of_node proj
+R11762:11762 RBTree.definitions2 <> n:108 var
+R11750:11760 RBTree.definitions2 <> key_of_node proj
+R11762:11762 RBTree.definitions2 <> n:108 var
+R11767:11780 compcert.lib.Integers Int max_signed def
+R11699:11716 VST.veric.val_lemmas <> is_pointer_or_null def
+R11718:11723 RBTree.definitions2 <> p_gpar:104 var
+R12465:12475 RBTree.definitions2 <> treebox_rep def
+R12513:12522 RBTree.definitions2 <> rbtree_rep def
+R12572:12578 VST.floyd.field_at <> data_at def
+R12582:12594 RBTree.definitions2 <> t_struct_tree def
+R12572:12578 VST.floyd.field_at <> data_at def
+R12582:12594 RBTree.definitions2 <> t_struct_tree def
+prf 12629:12641 <> treebox_rep_r
+R12661:12663 compcert.common.Values <> val ind
+binder 12654:12658 <> p_par:110
+R12675:12677 compcert.common.Values <> val ind
+binder 12667:12672 <> p_gpar:111
+R12688:12690 compcert.common.Values <> val ind
+binder 12681:12685 <> p_sib:112
+R12697:12700 RBTree.definitions2 <> tree ind
+binder 12694:12694 <> t:113
+R12708:12711 RBTree.definitions2 <> tree ind
+binder 12704:12705 <> ts:114
+R12718:12721 RBTree.definitions2 <> Node rec
+binder 12715:12715 <> n:115
+R12732:12734 compcert.common.Values <> val ind
+binder 12725:12729 <> b_par:116
+R12767:12774 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12824:12834 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13437:13444 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R13402:13411 VST.msl.seplog <> ::logic:x_'*'_x not
+R13317:13326 VST.msl.seplog <> ::logic:x_'*'_x not
+R13249:13258 VST.msl.seplog <> ::logic:x_'*'_x not
+R13180:13189 VST.msl.seplog <> ::logic:x_'*'_x not
+R13081:13090 VST.msl.seplog <> ::logic:x_'*'_x not
+R12986:12995 VST.msl.seplog <> ::logic:x_'*'_x not
+R12879:12888 VST.msl.seplog <> ::logic:x_'*'_x not
+R12835:12841 VST.floyd.field_at <> data_at def
+R12874:12878 RBTree.definitions2 <> b_par:116 var
+R12868:12872 RBTree.definitions2 <> p_par:110 var
+R12848:12851 compcert.exportclight.Clightdefs <> tptr def
+R12853:12865 RBTree.definitions2 <> t_struct_tree def
+R12843:12845 VST.veric.shares <> Tsh def
+R12889:12896 VST.floyd.field_at <> field_at def
+R12981:12985 RBTree.definitions2 <> p_par:110 var
+R12938:12941 compcert.common.Values <> Vint constr
+R12944:12951 compcert.lib.Integers Int repr def
+R12954:12958 RBTree.definitions2 <> Col2Z def
+R12961:12973 RBTree.definitions2 <> color_of_node proj
+R12975:12975 RBTree.definitions2 <> n:115 var
+R12916:12916 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12935:12935 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R12917:12927 VST.floyd.nested_field_lemmas <> StructField constr
+R12929:12934 RBTree.rbt_insert2 <> _color def
+R12902:12914 RBTree.definitions2 <> t_struct_tree def
+R12898:12900 VST.veric.shares <> Tsh def
+R12996:13003 VST.floyd.field_at <> field_at def
+R13076:13080 RBTree.definitions2 <> p_par:110 var
+R13043:13046 compcert.common.Values <> Vint constr
+R13049:13056 compcert.lib.Integers Int repr def
+R13059:13069 RBTree.definitions2 <> key_of_node proj
+R13071:13071 RBTree.definitions2 <> n:115 var
+R13023:13023 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13040:13040 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13024:13034 VST.floyd.nested_field_lemmas <> StructField constr
+R13036:13039 RBTree.rbt_insert2 <> _key def
+R13009:13021 RBTree.definitions2 <> t_struct_tree def
+R13005:13007 VST.veric.shares <> Tsh def
+R13091:13098 VST.floyd.field_at <> field_at def
+R13175:13179 RBTree.definitions2 <> p_par:110 var
+R13140:13143 compcert.common.Values <> Vint constr
+R13146:13153 compcert.lib.Integers Int repr def
+R13156:13168 RBTree.definitions2 <> value_of_node proj
+R13170:13170 RBTree.definitions2 <> n:115 var
+R13118:13118 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13137:13137 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13119:13129 VST.floyd.nested_field_lemmas <> StructField constr
+R13131:13136 RBTree.rbt_insert2 <> _value def
+R13104:13116 RBTree.definitions2 <> t_struct_tree def
+R13100:13102 VST.veric.shares <> Tsh def
+R13190:13197 VST.floyd.field_at <> field_at def
+R13244:13248 RBTree.definitions2 <> p_par:110 var
+R13238:13242 RBTree.definitions2 <> p_sib:112 var
+R13217:13217 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13236:13236 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13218:13228 VST.floyd.nested_field_lemmas <> StructField constr
+R13230:13235 RBTree.rbt_insert2 <> _right def
+R13203:13215 RBTree.definitions2 <> t_struct_tree def
+R13199:13201 VST.veric.shares <> Tsh def
+R13259:13266 VST.floyd.field_at <> field_at def
+R13312:13316 RBTree.definitions2 <> p_par:110 var
+R13305:13310 RBTree.definitions2 <> p_gpar:111 var
+R13286:13286 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13303:13303 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13287:13297 VST.floyd.nested_field_lemmas <> StructField constr
+R13299:13302 RBTree.rbt_insert2 <> _par def
+R13272:13284 RBTree.definitions2 <> t_struct_tree def
+R13268:13270 VST.veric.shares <> Tsh def
+R13327:13337 RBTree.definitions2 <> treebox_rep def
+R13397:13401 RBTree.definitions2 <> p_par:110 var
+R13342:13354 VST.floyd.nested_field_lemmas <> field_address def
+R13390:13394 RBTree.definitions2 <> p_par:110 var
+R13370:13370 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13388:13388 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R13371:13381 VST.floyd.nested_field_lemmas <> StructField constr
+R13383:13387 RBTree.rbt_insert2 <> _left def
+R13356:13368 RBTree.definitions2 <> t_struct_tree def
+R13339:13339 RBTree.definitions2 <> t:113 var
+R13412:13421 RBTree.definitions2 <> rbtree_rep def
+R13432:13436 RBTree.definitions2 <> p_par:110 var
+R13426:13430 RBTree.definitions2 <> p_sib:112 var
+R13423:13424 RBTree.definitions2 <> ts:114 var
+R13445:13455 RBTree.definitions2 <> treebox_rep def
+R13474:13479 RBTree.definitions2 <> p_gpar:111 var
+R13468:13472 RBTree.definitions2 <> b_par:116 var
+R13458:13458 RBTree.definitions2 <> T constr
+R13464:13465 RBTree.definitions2 <> ts:114 var
+R13462:13462 RBTree.definitions2 <> n:115 var
+R13460:13460 RBTree.definitions2 <> t:113 var
+R12789:12792 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R12806:12809 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R12775:12788 compcert.lib.Integers Int min_signed def
+R12793:12803 RBTree.definitions2 <> key_of_node proj
+R12805:12805 RBTree.definitions2 <> n:115 var
+R12793:12803 RBTree.definitions2 <> key_of_node proj
+R12805:12805 RBTree.definitions2 <> n:115 var
+R12810:12823 compcert.lib.Integers Int max_signed def
+R12742:12759 VST.veric.val_lemmas <> is_pointer_or_null def
+R12761:12766 RBTree.definitions2 <> p_gpar:111 var
+R13508:13518 RBTree.definitions2 <> treebox_rep def
+R13556:13565 RBTree.definitions2 <> rbtree_rep def
+R13615:13621 VST.floyd.field_at <> data_at def
+R13625:13637 RBTree.definitions2 <> t_struct_tree def
+R13615:13621 VST.floyd.field_at <> data_at def
+R13625:13637 RBTree.definitions2 <> t_struct_tree def
+prf 13672:13685 <> treebox_rep_lr
+R13701:13703 compcert.common.Values <> val ind
+binder 13698:13698 <> p:117
+R13712:13714 compcert.common.Values <> val ind
+binder 13707:13709 <> p_l:118
+R13723:13725 compcert.common.Values <> val ind
+binder 13718:13720 <> p_r:119
+R13736:13738 compcert.common.Values <> val ind
+binder 13729:13733 <> p_par:120
+R13747:13750 RBTree.definitions2 <> tree ind
+binder 13742:13744 <> t_l:121
+R13759:13762 RBTree.definitions2 <> tree ind
+binder 13754:13756 <> t_r:122
+R13769:13772 RBTree.definitions2 <> Node rec
+binder 13766:13766 <> n:123
+R13779:13781 compcert.common.Values <> val ind
+binder 13776:13776 <> b:124
+R13813:13820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13870:13879 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14243:14249 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R14220:14222 VST.msl.seplog <> ::logic:x_'*'_x not
+R14191:14199 VST.msl.seplog <> ::logic:x_'*'_x not
+R13916:13924 VST.msl.seplog <> ::logic:x_'*'_x not
+R13880:13886 VST.floyd.field_at <> data_at def
+R13915:13915 RBTree.definitions2 <> b:124 var
+R13913:13913 RBTree.definitions2 <> p:117 var
+R13893:13896 compcert.exportclight.Clightdefs <> tptr def
+R13898:13910 RBTree.definitions2 <> t_struct_tree def
+R13888:13890 VST.veric.shares <> Tsh def
+R13925:13931 VST.floyd.field_at <> data_at def
+R14190:14190 RBTree.definitions2 <> p:117 var
+R13951:13951 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13993:14027 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14188:14188 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13952:13955 compcert.common.Values <> Vint constr
+R13958:13965 compcert.lib.Integers Int repr def
+R13968:13972 RBTree.definitions2 <> Col2Z def
+R13975:13987 RBTree.definitions2 <> color_of_node proj
+R13989:13989 RBTree.definitions2 <> n:123 var
+R14028:14028 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14060:14095 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14187:14187 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14029:14032 compcert.common.Values <> Vint constr
+R14035:14042 compcert.lib.Integers Int repr def
+R14045:14055 RBTree.definitions2 <> key_of_node proj
+R14057:14057 RBTree.definitions2 <> n:123 var
+R14096:14096 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14130:14166 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14186:14186 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14097:14100 compcert.common.Values <> Vint constr
+R14103:14110 compcert.lib.Integers Int repr def
+R14113:14125 RBTree.definitions2 <> value_of_node proj
+R14127:14127 RBTree.definitions2 <> n:123 var
+R14167:14167 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14171:14172 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14185:14185 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14168:14170 RBTree.definitions2 <> p_l:118 var
+R14173:14173 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14177:14178 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14184:14184 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14174:14176 RBTree.definitions2 <> p_r:119 var
+R14179:14183 RBTree.definitions2 <> p_par:120 var
+R13937:13949 RBTree.definitions2 <> t_struct_tree def
+R13933:13935 VST.veric.shares <> Tsh def
+R14200:14209 RBTree.definitions2 <> rbtree_rep def
+R14219:14219 RBTree.definitions2 <> p:117 var
+R14215:14217 RBTree.definitions2 <> p_l:118 var
+R14211:14213 RBTree.definitions2 <> t_l:121 var
+R14223:14232 RBTree.definitions2 <> rbtree_rep def
+R14242:14242 RBTree.definitions2 <> p:117 var
+R14238:14240 RBTree.definitions2 <> p_r:119 var
+R14234:14236 RBTree.definitions2 <> t_r:122 var
+R14250:14260 RBTree.definitions2 <> treebox_rep def
+R14278:14282 RBTree.definitions2 <> p_par:120 var
+R14276:14276 RBTree.definitions2 <> b:124 var
+R14263:14263 RBTree.definitions2 <> T constr
+R14271:14273 RBTree.definitions2 <> t_r:122 var
+R14269:14269 RBTree.definitions2 <> n:123 var
+R14265:14267 RBTree.definitions2 <> t_l:121 var
+R13835:13838 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R13852:13855 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R13821:13834 compcert.lib.Integers Int min_signed def
+R13839:13849 RBTree.definitions2 <> key_of_node proj
+R13851:13851 RBTree.definitions2 <> n:123 var
+R13839:13849 RBTree.definitions2 <> key_of_node proj
+R13851:13851 RBTree.definitions2 <> n:123 var
+R13856:13869 compcert.lib.Integers Int max_signed def
+R13789:13806 VST.veric.val_lemmas <> is_pointer_or_null def
+R13808:13812 RBTree.definitions2 <> p_par:120 var
+R14311:14321 RBTree.definitions2 <> treebox_rep def
+R14333:14342 RBTree.definitions2 <> rbtree_rep def
+def 14551:14566 <> partial_tree_rep
+R14573:14584 RBTree.definitions2 <> partial_tree def
+binder 14569:14569 <> t:125
+R14611:14613 compcert.common.Values <> val ind
+binder 14588:14593 <> p_root:126
+binder 14595:14595 <> p:127
+binder 14597:14601 <> p_par:128
+binder 14603:14607 <> p_top:129
+R14618:14622 VST.veric.mpred <> mpred def
+R14708:14708 RBTree.definitions2 <> t:125 var
+R14783:14784 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R14821:14824 VST.msl.seplog <> ::logic:x_'&&'_x not
+R14789:14792 VST.msl.seplog <> ::logic:'!!'_x not
+R14820:14820 VST.msl.seplog <> ::logic:'!!'_x not
+R14803:14806 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14794:14796 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14793:14793 RBTree.definitions2 <> p:127 var
+R14797:14802 RBTree.definitions2 <> p_root:126 var
+R14812:14814 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14807:14811 RBTree.definitions2 <> p_par:128 var
+R14815:14819 RBTree.definitions2 <> p_top:129 var
+R14825:14827 VST.msl.seplog <> emp meth
+R14917:14920 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14906:14906 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14908:14909 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14911:14912 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14916:14916 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14907:14907 RBTree.definitions2 <> L constr
+R14930:14932 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R14944:14945 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R14941:14943 compcert.common.Values <> val ind
+binder 14933:14938 <> p_gpar:132
+R14946:14948 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R14960:14969 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R14957:14959 compcert.common.Values <> val ind
+binder 14949:14953 <> p_sib:133
+R15117:15127 VST.msl.seplog <> ::logic:x_'*'_x not
+R15062:15072 VST.msl.seplog <> ::logic:x_'*'_x not
+R15024:15035 VST.msl.seplog <> ::logic:x_'&&'_x not
+R14970:14973 VST.msl.seplog <> ::logic:'!!'_x not
+R15023:15023 VST.msl.seplog <> ::logic:'!!'_x not
+R14988:14991 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R15005:15008 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R14974:14987 compcert.lib.Integers Int min_signed def
+R14992:15002 RBTree.definitions2 <> key_of_node proj
+R14992:15002 RBTree.definitions2 <> key_of_node proj
+R15009:15022 compcert.lib.Integers Int max_signed def
+R15036:15045 RBTree.definitions2 <> rbtree_rep def
+R15057:15061 RBTree.definitions2 <> p_par:128 var
+R15051:15055 RBTree.definitions2 <> p_sib:133 var
+R15073:15088 RBTree.definitions2 <> partial_tree_rep:130 def
+R15112:15116 RBTree.definitions2 <> p_top:129 var
+R15105:15110 RBTree.definitions2 <> p_gpar:132 var
+R15099:15103 RBTree.definitions2 <> p_par:128 var
+R15092:15097 RBTree.definitions2 <> p_root:126 var
+R15128:15134 VST.floyd.field_at <> data_at def
+R15322:15326 RBTree.definitions2 <> p_par:128 var
+R15162:15162 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15204:15215 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15320:15320 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15163:15166 compcert.common.Values <> Vint constr
+R15169:15176 compcert.lib.Integers Int repr def
+R15179:15183 RBTree.definitions2 <> Col2Z def
+R15186:15198 RBTree.definitions2 <> color_of_node proj
+R15216:15216 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15248:15261 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15319:15319 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15217:15220 compcert.common.Values <> Vint constr
+R15223:15230 compcert.lib.Integers Int repr def
+R15233:15243 RBTree.definitions2 <> key_of_node proj
+R15262:15262 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15296:15297 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15318:15318 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15263:15266 compcert.common.Values <> Vint constr
+R15269:15276 compcert.lib.Integers Int repr def
+R15279:15291 RBTree.definitions2 <> value_of_node proj
+R15298:15298 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15304:15305 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15317:15317 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15299:15303 RBTree.definitions2 <> p_sib:133 var
+R15306:15306 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15308:15309 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15316:15316 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15307:15307 RBTree.definitions2 <> p:127 var
+R15310:15315 RBTree.definitions2 <> p_gpar:132 var
+R15140:15152 RBTree.definitions2 <> t_struct_tree def
+R15136:15138 VST.veric.shares <> Tsh def
+R15343:15346 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15332:15332 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15334:15335 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15337:15338 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15342:15342 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15333:15333 RBTree.definitions2 <> R constr
+R15356:15358 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R15370:15371 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R15367:15369 compcert.common.Values <> val ind
+binder 15359:15364 <> p_gpar:134
+R15372:15374 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R15386:15396 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R15383:15385 compcert.common.Values <> val ind
+binder 15375:15379 <> p_sib:135
+R15544:15554 VST.msl.seplog <> ::logic:x_'*'_x not
+R15489:15499 VST.msl.seplog <> ::logic:x_'*'_x not
+R15451:15462 VST.msl.seplog <> ::logic:x_'&&'_x not
+R15397:15400 VST.msl.seplog <> ::logic:'!!'_x not
+R15450:15450 VST.msl.seplog <> ::logic:'!!'_x not
+R15415:15418 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R15432:15435 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R15401:15414 compcert.lib.Integers Int min_signed def
+R15419:15429 RBTree.definitions2 <> key_of_node proj
+R15419:15429 RBTree.definitions2 <> key_of_node proj
+R15436:15449 compcert.lib.Integers Int max_signed def
+R15463:15472 RBTree.definitions2 <> rbtree_rep def
+R15484:15488 RBTree.definitions2 <> p_par:128 var
+R15478:15482 RBTree.definitions2 <> p_sib:135 var
+R15500:15515 RBTree.definitions2 <> partial_tree_rep:130 def
+R15539:15543 RBTree.definitions2 <> p_top:129 var
+R15532:15537 RBTree.definitions2 <> p_gpar:134 var
+R15526:15530 RBTree.definitions2 <> p_par:128 var
+R15519:15524 RBTree.definitions2 <> p_root:126 var
+R15555:15561 VST.floyd.field_at <> data_at def
+R15750:15754 RBTree.definitions2 <> p_par:128 var
+R15589:15589 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15631:15643 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15748:15748 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15590:15593 compcert.common.Values <> Vint constr
+R15596:15603 compcert.lib.Integers Int repr def
+R15606:15610 RBTree.definitions2 <> Col2Z def
+R15613:15625 RBTree.definitions2 <> color_of_node proj
+R15644:15644 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15676:15689 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15747:15747 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15645:15648 compcert.common.Values <> Vint constr
+R15651:15658 compcert.lib.Integers Int repr def
+R15661:15671 RBTree.definitions2 <> key_of_node proj
+R15690:15690 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15724:15725 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15746:15746 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15691:15694 compcert.common.Values <> Vint constr
+R15697:15704 compcert.lib.Integers Int repr def
+R15707:15719 RBTree.definitions2 <> value_of_node proj
+R15726:15726 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15728:15729 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15745:15745 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15727:15727 RBTree.definitions2 <> p:127 var
+R15730:15730 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15736:15737 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15744:15744 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15731:15735 RBTree.definitions2 <> p_sib:135 var
+R15738:15743 RBTree.definitions2 <> p_gpar:134 var
+R15567:15579 RBTree.definitions2 <> t_struct_tree def
+R15563:15565 VST.veric.shares <> Tsh def
+prf 15770:15797 <> partial_tree_rep_local_facts
+binder 15809:15809 <> t:136
+binder 15811:15816 <> p_root:137
+binder 15818:15818 <> p:138
+binder 15820:15824 <> p_par:139
+R15872:15880 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R15831:15846 RBTree.definitions2 <> partial_tree_rep def
+R15865:15871 VST.veric.base <> nullval def
+R15859:15863 RBTree.definitions2 <> p_par:139 var
+R15857:15857 RBTree.definitions2 <> p:138 var
+R15850:15855 RBTree.definitions2 <> p_root:137 var
+R15848:15848 RBTree.definitions2 <> t:136 var
+R15881:15885 VST.msl.seplog <> ::logic:'!!'_x not
+R15910:15911 VST.msl.seplog <> ::logic:'!!'_x not
+R15886:15903 VST.veric.val_lemmas <> is_pointer_or_null def
+R15905:15909 RBTree.definitions2 <> p_par:139 var
+R15966:15981 RBTree.definitions2 <> partial_tree_rep def
+R16077:16092 RBTree.definitions2 <> partial_tree_rep def
+R16077:16092 RBTree.definitions2 <> partial_tree_rep def
+def 16268:16291 <> partial_tree_rep_topdown
+R16302:16313 RBTree.definitions2 <> partial_tree def
+binder 16294:16298 <> rev_t:140
+R16340:16342 compcert.common.Values <> val ind
+binder 16317:16322 <> p_root:141
+binder 16324:16324 <> p:142
+binder 16326:16330 <> p_par:143
+binder 16332:16336 <> p_top:144
+R16347:16351 VST.veric.mpred <> mpred def
+R16362:16366 RBTree.definitions2 <> rev_t:140 var
+R16375:16377 Coq.Init.Datatypes <> nil constr
+R16414:16417 VST.msl.seplog <> ::logic:x_'&&'_x not
+R16382:16385 VST.msl.seplog <> ::logic:'!!'_x not
+R16413:16413 VST.msl.seplog <> ::logic:'!!'_x not
+R16396:16399 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16387:16389 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16386:16386 RBTree.definitions2 <> p:142 var
+R16390:16395 RBTree.definitions2 <> p_root:141 var
+R16405:16407 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16400:16404 RBTree.definitions2 <> p_par:143 var
+R16408:16412 RBTree.definitions2 <> p_top:144 var
+R16418:16420 VST.msl.seplog <> emp meth
+R16462:16465 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16424:16424 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16427:16428 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16437:16438 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16461:16461 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16476:16478 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R16503:16504 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R16500:16502 compcert.common.Values <> val ind
+binder 16479:16497 <> p_ans_another_child:147
+R16505:16507 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R16519:16526 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+binder 16508:16518 <> p_ans_child:148
+R17075:17083 VST.msl.seplog <> ::logic:x_'*'_x not
+R16980:17016 VST.msl.seplog <> ::logic:x_'*'_x not
+R16874:16882 VST.msl.seplog <> ::logic:x_'*'_x not
+R16772:16780 VST.msl.seplog <> ::logic:x_'*'_x not
+R16658:16666 VST.msl.seplog <> ::logic:x_'*'_x not
+R16588:16597 VST.msl.seplog <> ::logic:x_'&&'_x not
+R16527:16530 VST.msl.seplog <> ::logic:'!!'_x not
+R16587:16587 VST.msl.seplog <> ::logic:'!!'_x not
+R16545:16548 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R16569:16572 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R16531:16544 compcert.lib.Integers Int min_signed def
+R16549:16559 RBTree.definitions2 <> key_of_node proj
+R16549:16559 RBTree.definitions2 <> key_of_node proj
+R16573:16586 compcert.lib.Integers Int max_signed def
+R16598:16607 RBTree.definitions2 <> rbtree_rep def
+R16652:16657 RBTree.definitions2 <> p_root:141 var
+R16632:16650 RBTree.definitions2 <> p_ans_another_child:147 var
+R16667:16674 VST.floyd.field_at <> field_at def
+R16766:16771 RBTree.definitions2 <> p_root:141 var
+R16716:16719 compcert.common.Values <> Vint constr
+R16722:16729 compcert.lib.Integers Int repr def
+R16732:16736 RBTree.definitions2 <> Col2Z def
+R16739:16751 RBTree.definitions2 <> color_of_node proj
+R16694:16694 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16713:16713 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16695:16705 VST.floyd.nested_field_lemmas <> StructField constr
+R16707:16712 RBTree.rbt_insert2 <> _color def
+R16680:16692 RBTree.definitions2 <> t_struct_tree def
+R16676:16678 VST.veric.shares <> Tsh def
+R16781:16788 VST.floyd.field_at <> field_at def
+R16868:16873 RBTree.definitions2 <> p_root:141 var
+R16828:16831 compcert.common.Values <> Vint constr
+R16834:16841 compcert.lib.Integers Int repr def
+R16844:16854 RBTree.definitions2 <> key_of_node proj
+R16808:16808 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16825:16825 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16809:16819 VST.floyd.nested_field_lemmas <> StructField constr
+R16821:16824 RBTree.rbt_insert2 <> _key def
+R16794:16806 RBTree.definitions2 <> t_struct_tree def
+R16790:16792 VST.veric.shares <> Tsh def
+R16883:16890 VST.floyd.field_at <> field_at def
+R16974:16979 RBTree.definitions2 <> p_root:141 var
+R16932:16935 compcert.common.Values <> Vint constr
+R16938:16945 compcert.lib.Integers Int repr def
+R16948:16960 RBTree.definitions2 <> value_of_node proj
+R16910:16910 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16929:16929 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R16911:16921 VST.floyd.nested_field_lemmas <> StructField constr
+R16923:16928 RBTree.rbt_insert2 <> _value def
+R16896:16908 RBTree.definitions2 <> t_struct_tree def
+R16892:16894 VST.veric.shares <> Tsh def
+R17017:17024 VST.floyd.field_at <> field_at def
+R17069:17074 RBTree.definitions2 <> p_root:141 var
+R17063:17067 RBTree.definitions2 <> p_top:144 var
+R17044:17044 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17061:17061 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17045:17055 VST.floyd.nested_field_lemmas <> StructField constr
+R17057:17060 RBTree.rbt_insert2 <> _par def
+R17030:17042 RBTree.definitions2 <> t_struct_tree def
+R17026:17028 VST.veric.shares <> Tsh def
+R17106:17106 RBTree.definitions2 <> L constr
+R17266:17281 VST.msl.seplog <> ::logic:x_'*'_x not
+R17184:17199 VST.msl.seplog <> ::logic:x_'*'_x not
+R17111:17118 VST.floyd.field_at <> field_at def
+R17178:17183 RBTree.definitions2 <> p_root:141 var
+R17158:17176 RBTree.definitions2 <> p_ans_another_child:147 var
+R17138:17138 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17156:17156 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17139:17149 VST.floyd.nested_field_lemmas <> StructField constr
+R17151:17155 RBTree.rbt_insert2 <> _left def
+R17124:17136 RBTree.definitions2 <> t_struct_tree def
+R17120:17122 VST.veric.shares <> Tsh def
+R17200:17207 VST.floyd.field_at <> field_at def
+R17260:17265 RBTree.definitions2 <> p_root:141 var
+R17248:17258 RBTree.definitions2 <> p_ans_child:148 var
+R17227:17227 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17246:17246 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17228:17238 VST.floyd.nested_field_lemmas <> StructField constr
+R17240:17245 RBTree.rbt_insert2 <> _right def
+R17213:17225 RBTree.definitions2 <> t_struct_tree def
+R17209:17211 VST.veric.shares <> Tsh def
+R17282:17305 RBTree.definitions2 <> partial_tree_rep_topdown:145 def
+R17329:17334 RBTree.definitions2 <> p_root:141 var
+R17323:17327 RBTree.definitions2 <> p_par:143 var
+R17321:17321 RBTree.definitions2 <> p:142 var
+R17309:17319 RBTree.definitions2 <> p_ans_child:148 var
+R17344:17344 RBTree.definitions2 <> R constr
+R17504:17519 VST.msl.seplog <> ::logic:x_'*'_x not
+R17423:17438 VST.msl.seplog <> ::logic:x_'*'_x not
+R17349:17356 VST.floyd.field_at <> field_at def
+R17417:17422 RBTree.definitions2 <> p_root:141 var
+R17397:17415 RBTree.definitions2 <> p_ans_another_child:147 var
+R17376:17376 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17395:17395 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17377:17387 VST.floyd.nested_field_lemmas <> StructField constr
+R17389:17394 RBTree.rbt_insert2 <> _right def
+R17362:17374 RBTree.definitions2 <> t_struct_tree def
+R17358:17360 VST.veric.shares <> Tsh def
+R17439:17446 VST.floyd.field_at <> field_at def
+R17498:17503 RBTree.definitions2 <> p_root:141 var
+R17486:17496 RBTree.definitions2 <> p_ans_child:148 var
+R17466:17466 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17484:17484 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17467:17477 VST.floyd.nested_field_lemmas <> StructField constr
+R17479:17483 RBTree.rbt_insert2 <> _left def
+R17452:17464 RBTree.definitions2 <> t_struct_tree def
+R17448:17450 VST.veric.shares <> Tsh def
+R17520:17543 RBTree.definitions2 <> partial_tree_rep_topdown:145 def
+R17567:17572 RBTree.definitions2 <> p_root:141 var
+R17561:17565 RBTree.definitions2 <> p_par:143 var
+R17559:17559 RBTree.definitions2 <> p:142 var
+R17547:17557 RBTree.definitions2 <> p_ans_child:148 var
+prf 17616:17643 <> partial_tree_rep_topdown_sgt
+R17656:17667 RBTree.definitions2 <> partial_tree def
+binder 17648:17652 <> rev_t:150
+R17694:17696 compcert.common.Values <> val ind
+binder 17671:17676 <> p_root:151
+binder 17678:17678 <> p:152
+binder 17680:17684 <> p_par:153
+binder 17686:17690 <> p_top:154
+R17704:17714 RBTree.definitions2 <> LeftOrRight ind
+binder 17700:17701 <> lr:155
+R17722:17725 RBTree.definitions2 <> Node rec
+binder 17718:17719 <> nd:156
+R17733:17736 RBTree.definitions2 <> tree ind
+binder 17729:17730 <> tr:157
+R17812:17817 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17741:17764 RBTree.definitions2 <> partial_tree_rep_topdown def
+R17807:17811 RBTree.definitions2 <> p_top:154 var
+R17801:17805 RBTree.definitions2 <> p_par:153 var
+R17799:17799 RBTree.definitions2 <> p:152 var
+R17792:17797 RBTree.definitions2 <> p_root:151 var
+R17772:17775 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17767:17771 RBTree.definitions2 <> rev_t:150 var
+R17776:17776 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17789:17789 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R17777:17777 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17780:17781 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17784:17785 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17788:17788 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17778:17779 RBTree.definitions2 <> lr:155 var
+R17782:17783 RBTree.definitions2 <> nd:156 var
+R17786:17787 RBTree.definitions2 <> tr:157 var
+R17818:17820 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R17832:17833 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R17829:17831 compcert.common.Values <> val ind
+binder 17821:17826 <> p_gpar:158
+R17834:17836 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R17847:17852 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R17844:17846 compcert.common.Values <> val ind
+binder 17837:17841 <> p_sib:159
+R18364:18370 VST.msl.seplog <> ::logic:x_'*'_x not
+R18332:18338 VST.msl.seplog <> ::logic:x_'*'_x not
+R18267:18273 VST.msl.seplog <> ::logic:x_'*'_x not
+R18170:18176 VST.msl.seplog <> ::logic:x_'*'_x not
+R18077:18083 VST.msl.seplog <> ::logic:x_'*'_x not
+R17972:17978 VST.msl.seplog <> ::logic:x_'*'_x not
+R17908:17915 VST.msl.seplog <> ::logic:x_'&&'_x not
+R17853:17856 VST.msl.seplog <> ::logic:'!!'_x not
+R17907:17907 VST.msl.seplog <> ::logic:'!!'_x not
+R17871:17874 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R17889:17892 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R17857:17870 compcert.lib.Integers Int min_signed def
+R17875:17885 RBTree.definitions2 <> key_of_node proj
+R17887:17888 RBTree.definitions2 <> nd:156 var
+R17875:17885 RBTree.definitions2 <> key_of_node proj
+R17887:17888 RBTree.definitions2 <> nd:156 var
+R17893:17906 compcert.lib.Integers Int max_signed def
+R17916:17939 RBTree.definitions2 <> partial_tree_rep_topdown def
+R17967:17971 RBTree.definitions2 <> p_top:154 var
+R17960:17965 RBTree.definitions2 <> p_gpar:158 var
+R17954:17958 RBTree.definitions2 <> p_par:153 var
+R17947:17952 RBTree.definitions2 <> p_root:151 var
+R17941:17945 RBTree.definitions2 <> rev_t:150 var
+R17979:17986 VST.floyd.field_at <> field_at def
+R18072:18076 RBTree.definitions2 <> p_par:153 var
+R18028:18031 compcert.common.Values <> Vint constr
+R18034:18041 compcert.lib.Integers Int repr def
+R18044:18048 RBTree.definitions2 <> Col2Z def
+R18051:18063 RBTree.definitions2 <> color_of_node proj
+R18065:18066 RBTree.definitions2 <> nd:156 var
+R18006:18006 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R18025:18025 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R18007:18017 VST.floyd.nested_field_lemmas <> StructField constr
+R18019:18024 RBTree.rbt_insert2 <> _color def
+R17992:18004 RBTree.definitions2 <> t_struct_tree def
+R17988:17990 VST.veric.shares <> Tsh def
+R18084:18091 VST.floyd.field_at <> field_at def
+R18165:18169 RBTree.definitions2 <> p_par:153 var
+R18131:18134 compcert.common.Values <> Vint constr
+R18137:18144 compcert.lib.Integers Int repr def
+R18147:18157 RBTree.definitions2 <> key_of_node proj
+R18159:18160 RBTree.definitions2 <> nd:156 var
+R18111:18111 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R18128:18128 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R18112:18122 VST.floyd.nested_field_lemmas <> StructField constr
+R18124:18127 RBTree.rbt_insert2 <> _key def
+R18097:18109 RBTree.definitions2 <> t_struct_tree def
+R18093:18095 VST.veric.shares <> Tsh def
+R18177:18184 VST.floyd.field_at <> field_at def
+R18262:18266 RBTree.definitions2 <> p_par:153 var
+R18226:18229 compcert.common.Values <> Vint constr
+R18232:18239 compcert.lib.Integers Int repr def
+R18242:18254 RBTree.definitions2 <> value_of_node proj
+R18256:18257 RBTree.definitions2 <> nd:156 var
+R18204:18204 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R18223:18223 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R18205:18215 VST.floyd.nested_field_lemmas <> StructField constr
+R18217:18222 RBTree.rbt_insert2 <> _value def
+R18190:18202 RBTree.definitions2 <> t_struct_tree def
+R18186:18188 VST.veric.shares <> Tsh def
+R18274:18281 VST.floyd.field_at <> field_at def
+R18327:18331 RBTree.definitions2 <> p_par:153 var
+R18320:18325 RBTree.definitions2 <> p_gpar:158 var
+R18301:18301 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R18318:18318 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R18302:18312 VST.floyd.nested_field_lemmas <> StructField constr
+R18314:18317 RBTree.rbt_insert2 <> _par def
+R18287:18299 RBTree.definitions2 <> t_struct_tree def
+R18283:18285 VST.veric.shares <> Tsh def
+R18339:18348 RBTree.definitions2 <> rbtree_rep def
+R18359:18363 RBTree.definitions2 <> p_par:153 var
+R18353:18357 RBTree.definitions2 <> p_sib:159 var
+R18350:18351 RBTree.definitions2 <> tr:157 var
+R18377:18378 RBTree.definitions2 <> lr:155 var
+R18391:18391 RBTree.definitions2 <> L constr
+R18451:18464 VST.msl.seplog <> ::logic:x_'*'_x not
+R18396:18403 VST.floyd.field_at <> field_at def
+R18446:18450 RBTree.definitions2 <> p_par:153 var
+R18444:18444 RBTree.definitions2 <> p:152 var
+R18423:18423 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R18442:18442 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R18424:18434 VST.floyd.nested_field_lemmas <> StructField constr
+R18436:18441 RBTree.rbt_insert2 <> _right def
+R18409:18421 RBTree.definitions2 <> t_struct_tree def
+R18405:18407 VST.veric.shares <> Tsh def
+R18465:18472 VST.floyd.field_at <> field_at def
+R18518:18522 RBTree.definitions2 <> p_par:153 var
+R18512:18516 RBTree.definitions2 <> p_sib:159 var
+R18492:18492 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R18510:18510 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R18493:18503 VST.floyd.nested_field_lemmas <> StructField constr
+R18505:18509 RBTree.rbt_insert2 <> _left def
+R18478:18490 RBTree.definitions2 <> t_struct_tree def
+R18474:18476 VST.veric.shares <> Tsh def
+R18530:18530 RBTree.definitions2 <> R constr
+R18589:18602 VST.msl.seplog <> ::logic:x_'*'_x not
+R18535:18542 VST.floyd.field_at <> field_at def
+R18584:18588 RBTree.definitions2 <> p_par:153 var
+R18582:18582 RBTree.definitions2 <> p:152 var
+R18562:18562 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R18580:18580 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R18563:18573 VST.floyd.nested_field_lemmas <> StructField constr
+R18575:18579 RBTree.rbt_insert2 <> _left def
+R18548:18560 RBTree.definitions2 <> t_struct_tree def
+R18544:18546 VST.veric.shares <> Tsh def
+R18603:18610 VST.floyd.field_at <> field_at def
+R18657:18661 RBTree.definitions2 <> p_par:153 var
+R18651:18655 RBTree.definitions2 <> p_sib:159 var
+R18630:18630 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R18649:18649 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R18631:18641 VST.floyd.nested_field_lemmas <> StructField constr
+R18643:18648 RBTree.rbt_insert2 <> _right def
+R18616:18628 RBTree.definitions2 <> t_struct_tree def
+R18612:18614 VST.veric.shares <> Tsh def
+R18769:18776 VST.msl.seplog <> pred_ext meth
+R18769:18776 VST.msl.seplog <> pred_ext meth
+R19000:19007 VST.msl.seplog <> pred_ext meth
+R19000:19007 VST.msl.seplog <> pred_ext meth
+prf 19387:19403 <> partial_tree_rep'
+R19410:19421 RBTree.definitions2 <> partial_tree def
+binder 19406:19406 <> t:161
+R19448:19450 compcert.common.Values <> val ind
+binder 19425:19430 <> p_root:162
+binder 19432:19432 <> p:163
+binder 19434:19438 <> p_par:164
+binder 19440:19444 <> p_top:165
+R19495:19500 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19456:19471 RBTree.definitions2 <> partial_tree_rep def
+R19490:19494 RBTree.definitions2 <> p_top:165 var
+R19484:19488 RBTree.definitions2 <> p_par:164 var
+R19482:19482 RBTree.definitions2 <> p:163 var
+R19475:19480 RBTree.definitions2 <> p_root:162 var
+R19473:19473 RBTree.definitions2 <> t:161 var
+R19501:19524 RBTree.definitions2 <> partial_tree_rep_topdown def
+R19549:19553 RBTree.definitions2 <> p_top:165 var
+R19543:19547 RBTree.definitions2 <> p_par:164 var
+R19541:19541 RBTree.definitions2 <> p:163 var
+R19534:19539 RBTree.definitions2 <> p_root:162 var
+R19527:19529 Coq.Lists.List <> rev def
+R19531:19531 RBTree.definitions2 <> t:161 var
+R19681:19708 RBTree.definitions2 <> partial_tree_rep_topdown_sgt thm
+R19681:19708 RBTree.definitions2 <> partial_tree_rep_topdown_sgt thm
+R19681:19708 RBTree.definitions2 <> partial_tree_rep_topdown_sgt thm
+R19722:19737 RBTree.definitions2 <> partial_tree_rep def
+R19750:19757 VST.msl.seplog <> pred_ext meth
+R19887:19893 VST.floyd.field_at <> data_at def
+R19897:19909 RBTree.definitions2 <> t_struct_tree def
+R19750:19757 VST.msl.seplog <> pred_ext meth
+R19887:19893 VST.floyd.field_at <> data_at def
+R19897:19909 RBTree.definitions2 <> t_struct_tree def
+R19887:19893 VST.floyd.field_at <> data_at def
+R19897:19909 RBTree.definitions2 <> t_struct_tree def
+R19887:19893 VST.floyd.field_at <> data_at def
+R19897:19909 RBTree.definitions2 <> t_struct_tree def
+R19887:19893 VST.floyd.field_at <> data_at def
+R19897:19909 RBTree.definitions2 <> t_struct_tree def
+def 20045:20063 <> partial_treebox_rep
+R20070:20081 RBTree.definitions2 <> partial_tree def
+binder 20066:20066 <> t:166
+R20106:20108 compcert.common.Values <> val ind
+binder 20085:20088 <> root:167
+binder 20090:20090 <> b:168
+binder 20092:20096 <> p_par:169
+binder 20098:20102 <> p_top:170
+R20113:20117 VST.veric.mpred <> mpred def
+R20130:20130 RBTree.definitions2 <> t:166 var
+R20141:20142 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R20204:20207 VST.msl.seplog <> ::logic:x_'&&'_x not
+R20147:20150 VST.msl.seplog <> ::logic:'!!'_x not
+R20203:20203 VST.msl.seplog <> ::logic:'!!'_x not
+R20164:20167 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R20156:20158 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20151:20155 RBTree.definitions2 <> p_par:169 var
+R20159:20163 RBTree.definitions2 <> p_top:170 var
+R20176:20179 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R20172:20174 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20168:20171 RBTree.definitions2 <> root:167 var
+R20175:20175 RBTree.definitions2 <> b:168 var
+R20180:20197 VST.veric.val_lemmas <> is_pointer_or_null def
+R20199:20202 RBTree.definitions2 <> root:167 var
+R20208:20210 VST.msl.seplog <> emp meth
+R20228:20231 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20217:20217 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20219:20220 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20222:20223 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20227:20227 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20218:20218 RBTree.definitions2 <> L constr
+R20241:20243 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R20255:20256 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R20252:20254 compcert.common.Values <> val ind
+binder 20244:20249 <> p_gpar:173
+R20257:20259 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R20271:20272 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R20268:20270 compcert.common.Values <> val ind
+binder 20260:20264 <> p_sib:174
+R20273:20275 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R20287:20294 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R20284:20286 compcert.common.Values <> val ind
+binder 20276:20280 <> b_par:175
+R20980:20988 VST.msl.seplog <> ::logic:x_'*'_x not
+R20927:20935 VST.msl.seplog <> ::logic:x_'*'_x not
+R20860:20868 VST.msl.seplog <> ::logic:x_'*'_x not
+R20793:20801 VST.msl.seplog <> ::logic:x_'*'_x not
+R20695:20703 VST.msl.seplog <> ::logic:x_'*'_x not
+R20601:20609 VST.msl.seplog <> ::logic:x_'*'_x not
+R20495:20503 VST.msl.seplog <> ::logic:x_'*'_x not
+R20422:20468 VST.msl.seplog <> ::logic:x_'&&'_x not
+R20349:20358 VST.msl.seplog <> ::logic:x_'&&'_x not
+R20295:20298 VST.msl.seplog <> ::logic:'!!'_x not
+R20348:20348 VST.msl.seplog <> ::logic:'!!'_x not
+R20313:20316 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R20330:20333 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R20299:20312 compcert.lib.Integers Int min_signed def
+R20317:20327 RBTree.definitions2 <> key_of_node proj
+R20317:20327 RBTree.definitions2 <> key_of_node proj
+R20334:20347 compcert.lib.Integers Int max_signed def
+R20359:20362 VST.msl.seplog <> ::logic:'!!'_x not
+R20421:20421 VST.msl.seplog <> ::logic:'!!'_x not
+R20364:20366 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20363:20363 RBTree.definitions2 <> b:168 var
+R20367:20379 VST.floyd.nested_field_lemmas <> field_address def
+R20416:20420 RBTree.definitions2 <> p_par:169 var
+R20395:20395 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R20414:20414 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R20396:20406 VST.floyd.nested_field_lemmas <> StructField constr
+R20408:20413 RBTree.rbt_insert2 <> _right def
+R20381:20393 RBTree.definitions2 <> t_struct_tree def
+R20469:20478 RBTree.definitions2 <> rbtree_rep def
+R20490:20494 RBTree.definitions2 <> p_par:169 var
+R20484:20488 RBTree.definitions2 <> p_sib:174 var
+R20504:20511 VST.floyd.field_at <> field_at def
+R20596:20600 RBTree.definitions2 <> p_par:169 var
+R20553:20556 compcert.common.Values <> Vint constr
+R20559:20566 compcert.lib.Integers Int repr def
+R20569:20573 RBTree.definitions2 <> Col2Z def
+R20576:20588 RBTree.definitions2 <> color_of_node proj
+R20531:20531 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R20550:20550 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R20532:20542 VST.floyd.nested_field_lemmas <> StructField constr
+R20544:20549 RBTree.rbt_insert2 <> _color def
+R20517:20529 RBTree.definitions2 <> t_struct_tree def
+R20513:20515 VST.veric.shares <> Tsh def
+R20610:20617 VST.floyd.field_at <> field_at def
+R20690:20694 RBTree.definitions2 <> p_par:169 var
+R20657:20660 compcert.common.Values <> Vint constr
+R20663:20670 compcert.lib.Integers Int repr def
+R20673:20683 RBTree.definitions2 <> key_of_node proj
+R20637:20637 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R20654:20654 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R20638:20648 VST.floyd.nested_field_lemmas <> StructField constr
+R20650:20653 RBTree.rbt_insert2 <> _key def
+R20623:20635 RBTree.definitions2 <> t_struct_tree def
+R20619:20621 VST.veric.shares <> Tsh def
+R20704:20711 VST.floyd.field_at <> field_at def
+R20788:20792 RBTree.definitions2 <> p_par:169 var
+R20753:20756 compcert.common.Values <> Vint constr
+R20759:20766 compcert.lib.Integers Int repr def
+R20769:20781 RBTree.definitions2 <> value_of_node proj
+R20731:20731 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R20750:20750 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R20732:20742 VST.floyd.nested_field_lemmas <> StructField constr
+R20744:20749 RBTree.rbt_insert2 <> _value def
+R20717:20729 RBTree.definitions2 <> t_struct_tree def
+R20713:20715 VST.veric.shares <> Tsh def
+R20802:20809 VST.floyd.field_at <> field_at def
+R20855:20859 RBTree.definitions2 <> p_par:169 var
+R20849:20853 RBTree.definitions2 <> p_sib:174 var
+R20829:20829 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R20847:20847 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R20830:20840 VST.floyd.nested_field_lemmas <> StructField constr
+R20842:20846 RBTree.rbt_insert2 <> _left def
+R20815:20827 RBTree.definitions2 <> t_struct_tree def
+R20811:20813 VST.veric.shares <> Tsh def
+R20869:20876 VST.floyd.field_at <> field_at def
+R20922:20926 RBTree.definitions2 <> p_par:169 var
+R20915:20920 RBTree.definitions2 <> p_gpar:173 var
+R20896:20896 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R20913:20913 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R20897:20907 VST.floyd.nested_field_lemmas <> StructField constr
+R20909:20912 RBTree.rbt_insert2 <> _par def
+R20882:20894 RBTree.definitions2 <> t_struct_tree def
+R20878:20880 VST.veric.shares <> Tsh def
+R20936:20942 VST.floyd.field_at <> data_at def
+R20975:20979 RBTree.definitions2 <> b_par:175 var
+R20969:20973 RBTree.definitions2 <> p_par:169 var
+R20949:20952 compcert.exportclight.Clightdefs <> tptr def
+R20954:20966 RBTree.definitions2 <> t_struct_tree def
+R20944:20946 VST.veric.shares <> Tsh def
+R20989:21007 RBTree.definitions2 <> partial_treebox_rep:171 def
+R21029:21033 RBTree.definitions2 <> p_top:170 var
+R21022:21027 RBTree.definitions2 <> p_gpar:173 var
+R21016:21020 RBTree.definitions2 <> b_par:175 var
+R21011:21014 RBTree.definitions2 <> root:167 var
+R21050:21053 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R21039:21039 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21041:21042 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21044:21045 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21049:21049 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21040:21040 RBTree.definitions2 <> R constr
+R21063:21065 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R21077:21078 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R21074:21076 compcert.common.Values <> val ind
+binder 21066:21071 <> p_gpar:176
+R21079:21081 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R21093:21094 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R21090:21092 compcert.common.Values <> val ind
+binder 21082:21086 <> p_sib:177
+R21095:21097 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R21109:21116 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R21106:21108 compcert.common.Values <> val ind
+binder 21098:21102 <> b_par:178
+R21765:21773 VST.msl.seplog <> ::logic:x_'*'_x not
+R21712:21720 VST.msl.seplog <> ::logic:x_'*'_x not
+R21645:21653 VST.msl.seplog <> ::logic:x_'*'_x not
+R21577:21585 VST.msl.seplog <> ::logic:x_'*'_x not
+R21479:21487 VST.msl.seplog <> ::logic:x_'*'_x not
+R21385:21393 VST.msl.seplog <> ::logic:x_'*'_x not
+R21279:21287 VST.msl.seplog <> ::logic:x_'*'_x not
+R21243:21252 VST.msl.seplog <> ::logic:x_'&&'_x not
+R21171:21180 VST.msl.seplog <> ::logic:x_'&&'_x not
+R21117:21120 VST.msl.seplog <> ::logic:'!!'_x not
+R21170:21170 VST.msl.seplog <> ::logic:'!!'_x not
+R21135:21138 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R21152:21155 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R21121:21134 compcert.lib.Integers Int min_signed def
+R21139:21149 RBTree.definitions2 <> key_of_node proj
+R21139:21149 RBTree.definitions2 <> key_of_node proj
+R21156:21169 compcert.lib.Integers Int max_signed def
+R21181:21184 VST.msl.seplog <> ::logic:'!!'_x not
+R21242:21242 VST.msl.seplog <> ::logic:'!!'_x not
+R21186:21188 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21185:21185 RBTree.definitions2 <> b:168 var
+R21189:21201 VST.floyd.nested_field_lemmas <> field_address def
+R21237:21241 RBTree.definitions2 <> p_par:169 var
+R21217:21217 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R21235:21235 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R21218:21228 VST.floyd.nested_field_lemmas <> StructField constr
+R21230:21234 RBTree.rbt_insert2 <> _left def
+R21203:21215 RBTree.definitions2 <> t_struct_tree def
+R21253:21262 RBTree.definitions2 <> rbtree_rep def
+R21274:21278 RBTree.definitions2 <> p_par:169 var
+R21268:21272 RBTree.definitions2 <> p_sib:177 var
+R21288:21295 VST.floyd.field_at <> field_at def
+R21380:21384 RBTree.definitions2 <> p_par:169 var
+R21337:21340 compcert.common.Values <> Vint constr
+R21343:21350 compcert.lib.Integers Int repr def
+R21353:21357 RBTree.definitions2 <> Col2Z def
+R21360:21372 RBTree.definitions2 <> color_of_node proj
+R21315:21315 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R21334:21334 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R21316:21326 VST.floyd.nested_field_lemmas <> StructField constr
+R21328:21333 RBTree.rbt_insert2 <> _color def
+R21301:21313 RBTree.definitions2 <> t_struct_tree def
+R21297:21299 VST.veric.shares <> Tsh def
+R21394:21401 VST.floyd.field_at <> field_at def
+R21474:21478 RBTree.definitions2 <> p_par:169 var
+R21441:21444 compcert.common.Values <> Vint constr
+R21447:21454 compcert.lib.Integers Int repr def
+R21457:21467 RBTree.definitions2 <> key_of_node proj
+R21421:21421 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R21438:21438 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R21422:21432 VST.floyd.nested_field_lemmas <> StructField constr
+R21434:21437 RBTree.rbt_insert2 <> _key def
+R21407:21419 RBTree.definitions2 <> t_struct_tree def
+R21403:21405 VST.veric.shares <> Tsh def
+R21488:21495 VST.floyd.field_at <> field_at def
+R21572:21576 RBTree.definitions2 <> p_par:169 var
+R21537:21540 compcert.common.Values <> Vint constr
+R21543:21550 compcert.lib.Integers Int repr def
+R21553:21565 RBTree.definitions2 <> value_of_node proj
+R21515:21515 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R21534:21534 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R21516:21526 VST.floyd.nested_field_lemmas <> StructField constr
+R21528:21533 RBTree.rbt_insert2 <> _value def
+R21501:21513 RBTree.definitions2 <> t_struct_tree def
+R21497:21499 VST.veric.shares <> Tsh def
+R21586:21593 VST.floyd.field_at <> field_at def
+R21640:21644 RBTree.definitions2 <> p_par:169 var
+R21634:21638 RBTree.definitions2 <> p_sib:177 var
+R21613:21613 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R21632:21632 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R21614:21624 VST.floyd.nested_field_lemmas <> StructField constr
+R21626:21631 RBTree.rbt_insert2 <> _right def
+R21599:21611 RBTree.definitions2 <> t_struct_tree def
+R21595:21597 VST.veric.shares <> Tsh def
+R21654:21661 VST.floyd.field_at <> field_at def
+R21707:21711 RBTree.definitions2 <> p_par:169 var
+R21700:21705 RBTree.definitions2 <> p_gpar:176 var
+R21681:21681 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R21698:21698 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R21682:21692 VST.floyd.nested_field_lemmas <> StructField constr
+R21694:21697 RBTree.rbt_insert2 <> _par def
+R21667:21679 RBTree.definitions2 <> t_struct_tree def
+R21663:21665 VST.veric.shares <> Tsh def
+R21721:21727 VST.floyd.field_at <> data_at def
+R21760:21764 RBTree.definitions2 <> b_par:178 var
+R21754:21758 RBTree.definitions2 <> p_par:169 var
+R21734:21737 compcert.exportclight.Clightdefs <> tptr def
+R21739:21751 RBTree.definitions2 <> t_struct_tree def
+R21729:21731 VST.veric.shares <> Tsh def
+R21774:21792 RBTree.definitions2 <> partial_treebox_rep:171 def
+R21814:21818 RBTree.definitions2 <> p_top:170 var
+R21807:21812 RBTree.definitions2 <> p_gpar:176 var
+R21801:21805 RBTree.definitions2 <> b_par:178 var
+R21796:21799 RBTree.definitions2 <> root:167 var
+prf 21901:21931 <> partial_treebox_rep_local_facts
+binder 21943:21943 <> t:179
+binder 21945:21948 <> root:180
+binder 21950:21950 <> b:181
+binder 21952:21956 <> p_par:182
+R22005:22013 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R21963:21981 RBTree.definitions2 <> partial_treebox_rep def
+R21998:22004 VST.veric.base <> nullval def
+R21992:21996 RBTree.definitions2 <> p_par:182 var
+R21990:21990 RBTree.definitions2 <> b:181 var
+R21985:21988 RBTree.definitions2 <> root:180 var
+R21983:21983 RBTree.definitions2 <> t:179 var
+R22014:22018 VST.msl.seplog <> ::logic:'!!'_x not
+R22112:22113 VST.msl.seplog <> ::logic:'!!'_x not
+R22043:22055 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22019:22036 VST.veric.val_lemmas <> is_pointer_or_null def
+R22038:22042 RBTree.definitions2 <> p_par:182 var
+R22079:22091 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22056:22073 VST.veric.val_lemmas <> is_pointer_or_null def
+R22075:22078 RBTree.definitions2 <> root:180 var
+R22092:22109 VST.veric.val_lemmas <> is_pointer_or_null def
+R22111:22111 RBTree.definitions2 <> b:181 var
+R22181:22199 RBTree.definitions2 <> partial_treebox_rep def
+R22295:22313 RBTree.definitions2 <> partial_treebox_rep def
+R22295:22313 RBTree.definitions2 <> partial_treebox_rep def
+prf 22494:22528 <> partial_treebox_rep_local_facts_top
+binder 22540:22540 <> t:183
+binder 22542:22545 <> root:184
+binder 22547:22547 <> b:185
+binder 22549:22553 <> p_par:186
+binder 22555:22559 <> p_top:187
+R22606:22614 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R22566:22584 RBTree.definitions2 <> partial_treebox_rep def
+R22601:22605 RBTree.definitions2 <> p_top:187 var
+R22595:22599 RBTree.definitions2 <> p_par:186 var
+R22593:22593 RBTree.definitions2 <> b:185 var
+R22588:22591 RBTree.definitions2 <> root:184 var
+R22586:22586 RBTree.definitions2 <> t:183 var
+R22615:22619 VST.msl.seplog <> ::logic:'!!'_x not
+R22676:22677 VST.msl.seplog <> ::logic:'!!'_x not
+R22643:22655 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22620:22637 VST.veric.val_lemmas <> is_pointer_or_null def
+R22639:22642 RBTree.definitions2 <> root:184 var
+R22656:22673 VST.veric.val_lemmas <> is_pointer_or_null def
+R22675:22675 RBTree.definitions2 <> b:185 var
+R22751:22769 RBTree.definitions2 <> partial_treebox_rep def
+R22865:22883 RBTree.definitions2 <> partial_treebox_rep def
+R22865:22883 RBTree.definitions2 <> partial_treebox_rep def
+prf 23087:23106 <> partial_treebox_rep'
+R23113:23124 RBTree.definitions2 <> partial_tree def
+binder 23109:23109 <> t:188
+R23149:23151 compcert.common.Values <> val ind
+binder 23128:23131 <> root:189
+binder 23133:23133 <> b:190
+binder 23135:23139 <> p_par:191
+binder 23141:23145 <> p_top:192
+R23195:23315 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23155:23173 RBTree.definitions2 <> partial_treebox_rep def
+R23190:23194 RBTree.definitions2 <> p_top:192 var
+R23184:23188 RBTree.definitions2 <> p_par:191 var
+R23182:23182 RBTree.definitions2 <> b:190 var
+R23177:23180 RBTree.definitions2 <> root:189 var
+R23175:23175 RBTree.definitions2 <> t:188 var
+R23322:23322 RBTree.definitions2 <> t:188 var
+R23401:23403 Coq.Init.Datatypes <> nil constr
+R23465:23468 VST.msl.seplog <> ::logic:x_'&&'_x not
+R23408:23411 VST.msl.seplog <> ::logic:'!!'_x not
+R23464:23464 VST.msl.seplog <> ::logic:'!!'_x not
+R23425:23428 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23417:23419 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23412:23416 RBTree.definitions2 <> p_par:191 var
+R23420:23424 RBTree.definitions2 <> p_top:192 var
+R23437:23440 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23433:23435 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23429:23432 RBTree.definitions2 <> root:189 var
+R23436:23436 RBTree.definitions2 <> b:190 var
+R23441:23458 VST.veric.val_lemmas <> is_pointer_or_null def
+R23460:23463 RBTree.definitions2 <> root:189 var
+R23469:23471 VST.msl.seplog <> emp meth
+R23488:23491 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23477:23477 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23480:23481 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23483:23484 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23487:23487 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23503:23505 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R23517:23518 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R23514:23516 compcert.common.Values <> val ind
+binder 23506:23511 <> p_gpar:194
+R23519:23521 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R23533:23534 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R23530:23532 compcert.common.Values <> val ind
+binder 23522:23526 <> p_sib:195
+R23535:23537 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R23549:23560 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R23546:23548 compcert.common.Values <> val ind
+binder 23538:23542 <> b_par:196
+R24274:24286 VST.msl.seplog <> ::logic:x_'*'_x not
+R24188:24228 VST.msl.seplog <> ::logic:x_'*'_x not
+R24094:24143 VST.msl.seplog <> ::logic:x_'*'_x not
+R23995:24035 VST.msl.seplog <> ::logic:x_'*'_x not
+R23893:23905 VST.msl.seplog <> ::logic:x_'*'_x not
+R23795:23807 VST.msl.seplog <> ::logic:x_'*'_x not
+R23654:23697 VST.msl.seplog <> ::logic:x_'*'_x not
+R23615:23628 VST.msl.seplog <> ::logic:x_'&&'_x not
+R23561:23564 VST.msl.seplog <> ::logic:'!!'_x not
+R23614:23614 VST.msl.seplog <> ::logic:'!!'_x not
+R23579:23582 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R23596:23599 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R23565:23578 compcert.lib.Integers Int min_signed def
+R23583:23593 RBTree.definitions2 <> key_of_node proj
+R23583:23593 RBTree.definitions2 <> key_of_node proj
+R23600:23613 compcert.lib.Integers Int max_signed def
+R23629:23638 RBTree.definitions2 <> rbtree_rep def
+R23649:23653 RBTree.definitions2 <> p_par:191 var
+R23643:23647 RBTree.definitions2 <> p_sib:195 var
+R23698:23705 VST.floyd.field_at <> field_at def
+R23790:23794 RBTree.definitions2 <> p_par:191 var
+R23747:23750 compcert.common.Values <> Vint constr
+R23753:23760 compcert.lib.Integers Int repr def
+R23763:23767 RBTree.definitions2 <> Col2Z def
+R23770:23782 RBTree.definitions2 <> color_of_node proj
+R23725:23725 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R23744:23744 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R23726:23736 VST.floyd.nested_field_lemmas <> StructField constr
+R23738:23743 RBTree.rbt_insert2 <> _color def
+R23711:23723 RBTree.definitions2 <> t_struct_tree def
+R23707:23709 VST.veric.shares <> Tsh def
+R23808:23815 VST.floyd.field_at <> field_at def
+R23888:23892 RBTree.definitions2 <> p_par:191 var
+R23855:23858 compcert.common.Values <> Vint constr
+R23861:23868 compcert.lib.Integers Int repr def
+R23871:23881 RBTree.definitions2 <> key_of_node proj
+R23835:23835 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R23852:23852 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R23836:23846 VST.floyd.nested_field_lemmas <> StructField constr
+R23848:23851 RBTree.rbt_insert2 <> _key def
+R23821:23833 RBTree.definitions2 <> t_struct_tree def
+R23817:23819 VST.veric.shares <> Tsh def
+R23906:23913 VST.floyd.field_at <> field_at def
+R23990:23994 RBTree.definitions2 <> p_par:191 var
+R23955:23958 compcert.common.Values <> Vint constr
+R23961:23968 compcert.lib.Integers Int repr def
+R23971:23983 RBTree.definitions2 <> value_of_node proj
+R23933:23933 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R23952:23952 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R23934:23944 VST.floyd.nested_field_lemmas <> StructField constr
+R23946:23951 RBTree.rbt_insert2 <> _value def
+R23919:23931 RBTree.definitions2 <> t_struct_tree def
+R23915:23917 VST.veric.shares <> Tsh def
+R24036:24043 VST.floyd.field_at <> field_at def
+R24089:24093 RBTree.definitions2 <> p_par:191 var
+R24082:24087 RBTree.definitions2 <> p_gpar:194 var
+R24063:24063 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R24080:24080 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R24064:24074 VST.floyd.nested_field_lemmas <> StructField constr
+R24076:24079 RBTree.rbt_insert2 <> _par def
+R24049:24061 RBTree.definitions2 <> t_struct_tree def
+R24045:24047 VST.veric.shares <> Tsh def
+R24144:24150 VST.floyd.field_at <> data_at def
+R24183:24187 RBTree.definitions2 <> b_par:196 var
+R24177:24181 RBTree.definitions2 <> p_par:191 var
+R24157:24160 compcert.exportclight.Clightdefs <> tptr def
+R24162:24174 RBTree.definitions2 <> t_struct_tree def
+R24152:24154 VST.veric.shares <> Tsh def
+R24229:24247 RBTree.definitions2 <> partial_treebox_rep def
+R24269:24273 RBTree.definitions2 <> p_top:192 var
+R24262:24267 RBTree.definitions2 <> p_gpar:194 var
+R24256:24260 RBTree.definitions2 <> b_par:196 var
+R24251:24254 RBTree.definitions2 <> root:189 var
+R24313:24313 RBTree.definitions2 <> L constr
+R24381:24401 VST.msl.seplog <> ::logic:x_'&&'_x not
+R24318:24321 VST.msl.seplog <> ::logic:'!!'_x not
+R24380:24380 VST.msl.seplog <> ::logic:'!!'_x not
+R24323:24325 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24322:24322 RBTree.definitions2 <> b:190 var
+R24326:24338 VST.floyd.nested_field_lemmas <> field_address def
+R24375:24379 RBTree.definitions2 <> p_par:191 var
+R24354:24354 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R24373:24373 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R24355:24365 VST.floyd.nested_field_lemmas <> StructField constr
+R24367:24372 RBTree.rbt_insert2 <> _right def
+R24340:24352 RBTree.definitions2 <> t_struct_tree def
+R24402:24409 VST.floyd.field_at <> field_at def
+R24455:24459 RBTree.definitions2 <> p_par:191 var
+R24449:24453 RBTree.definitions2 <> p_sib:195 var
+R24429:24429 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R24447:24447 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R24430:24440 VST.floyd.nested_field_lemmas <> StructField constr
+R24442:24446 RBTree.rbt_insert2 <> _left def
+R24415:24427 RBTree.definitions2 <> t_struct_tree def
+R24411:24413 VST.veric.shares <> Tsh def
+R24473:24473 RBTree.definitions2 <> R constr
+R24540:24560 VST.msl.seplog <> ::logic:x_'&&'_x not
+R24478:24481 VST.msl.seplog <> ::logic:'!!'_x not
+R24539:24539 VST.msl.seplog <> ::logic:'!!'_x not
+R24483:24485 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24482:24482 RBTree.definitions2 <> b:190 var
+R24486:24498 VST.floyd.nested_field_lemmas <> field_address def
+R24534:24538 RBTree.definitions2 <> p_par:191 var
+R24514:24514 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R24532:24532 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R24515:24525 VST.floyd.nested_field_lemmas <> StructField constr
+R24527:24531 RBTree.rbt_insert2 <> _left def
+R24500:24512 RBTree.definitions2 <> t_struct_tree def
+R24561:24568 VST.floyd.field_at <> field_at def
+R24615:24619 RBTree.definitions2 <> p_par:191 var
+R24609:24613 RBTree.definitions2 <> p_sib:195 var
+R24588:24588 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R24607:24607 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R24589:24599 VST.floyd.nested_field_lemmas <> StructField constr
+R24601:24606 RBTree.rbt_insert2 <> _right def
+R24574:24586 RBTree.definitions2 <> t_struct_tree def
+R24570:24572 VST.veric.shares <> Tsh def
+R24691:24709 RBTree.definitions2 <> partial_treebox_rep def
+R24691:24709 RBTree.definitions2 <> partial_treebox_rep def
+R24739:24746 VST.msl.seplog <> pred_ext meth
+R24739:24746 VST.msl.seplog <> pred_ext meth
+R24739:24746 VST.msl.seplog <> pred_ext meth
+def 24849:24875 <> partial_treebox_rep_topdown
+R24886:24897 RBTree.definitions2 <> partial_tree def
+binder 24878:24882 <> rev_t:198
+R24922:24924 compcert.common.Values <> val ind
+binder 24901:24904 <> root:199
+binder 24906:24906 <> b:200
+binder 24908:24912 <> p_par:201
+binder 24914:24918 <> p_top:202
+R24928:24932 VST.veric.mpred <> mpred def
+R24943:24947 RBTree.definitions2 <> rev_t:198 var
+R24956:24958 Coq.Init.Datatypes <> nil constr
+R25020:25023 VST.msl.seplog <> ::logic:x_'&&'_x not
+R24963:24966 VST.msl.seplog <> ::logic:'!!'_x not
+R25019:25019 VST.msl.seplog <> ::logic:'!!'_x not
+R24980:24983 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R24972:24974 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24967:24971 RBTree.definitions2 <> p_par:201 var
+R24975:24979 RBTree.definitions2 <> p_top:202 var
+R24992:24995 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R24988:24990 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24984:24987 RBTree.definitions2 <> root:199 var
+R24991:24991 RBTree.definitions2 <> b:200 var
+R24996:25013 VST.veric.val_lemmas <> is_pointer_or_null def
+R25015:25018 RBTree.definitions2 <> root:199 var
+R25024:25026 VST.msl.seplog <> emp meth
+R25068:25071 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25030:25030 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25033:25034 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25043:25044 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25067:25067 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25082:25084 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R25109:25110 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R25106:25108 compcert.common.Values <> val ind
+binder 25085:25103 <> p_ans_another_child:205
+R25111:25113 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R25124:25131 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R25121:25123 compcert.common.Values <> val ind
+binder 25114:25118 <> p_ans:206
+R25727:25735 VST.msl.seplog <> ::logic:x_'*'_x not
+R25675:25683 VST.msl.seplog <> ::logic:x_'*'_x not
+R25581:25617 VST.msl.seplog <> ::logic:x_'*'_x not
+R25476:25484 VST.msl.seplog <> ::logic:x_'*'_x not
+R25375:25383 VST.msl.seplog <> ::logic:x_'*'_x not
+R25262:25270 VST.msl.seplog <> ::logic:x_'*'_x not
+R25193:25202 VST.msl.seplog <> ::logic:x_'&&'_x not
+R25132:25135 VST.msl.seplog <> ::logic:'!!'_x not
+R25192:25192 VST.msl.seplog <> ::logic:'!!'_x not
+R25150:25153 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R25174:25177 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R25136:25149 compcert.lib.Integers Int min_signed def
+R25154:25164 RBTree.definitions2 <> key_of_node proj
+R25154:25164 RBTree.definitions2 <> key_of_node proj
+R25178:25191 compcert.lib.Integers Int max_signed def
+R25203:25212 RBTree.definitions2 <> rbtree_rep def
+R25257:25261 RBTree.definitions2 <> p_ans:206 var
+R25237:25255 RBTree.definitions2 <> p_ans_another_child:205 var
+R25271:25278 VST.floyd.field_at <> field_at def
+R25370:25374 RBTree.definitions2 <> p_ans:206 var
+R25320:25323 compcert.common.Values <> Vint constr
+R25326:25333 compcert.lib.Integers Int repr def
+R25336:25340 RBTree.definitions2 <> Col2Z def
+R25343:25355 RBTree.definitions2 <> color_of_node proj
+R25298:25298 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R25317:25317 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R25299:25309 VST.floyd.nested_field_lemmas <> StructField constr
+R25311:25316 RBTree.rbt_insert2 <> _color def
+R25284:25296 RBTree.definitions2 <> t_struct_tree def
+R25280:25282 VST.veric.shares <> Tsh def
+R25384:25391 VST.floyd.field_at <> field_at def
+R25471:25475 RBTree.definitions2 <> p_ans:206 var
+R25431:25434 compcert.common.Values <> Vint constr
+R25437:25444 compcert.lib.Integers Int repr def
+R25447:25457 RBTree.definitions2 <> key_of_node proj
+R25411:25411 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R25428:25428 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R25412:25422 VST.floyd.nested_field_lemmas <> StructField constr
+R25424:25427 RBTree.rbt_insert2 <> _key def
+R25397:25409 RBTree.definitions2 <> t_struct_tree def
+R25393:25395 VST.veric.shares <> Tsh def
+R25485:25492 VST.floyd.field_at <> field_at def
+R25576:25580 RBTree.definitions2 <> p_ans:206 var
+R25534:25537 compcert.common.Values <> Vint constr
+R25540:25547 compcert.lib.Integers Int repr def
+R25550:25562 RBTree.definitions2 <> value_of_node proj
+R25512:25512 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R25531:25531 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R25513:25523 VST.floyd.nested_field_lemmas <> StructField constr
+R25525:25530 RBTree.rbt_insert2 <> _value def
+R25498:25510 RBTree.definitions2 <> t_struct_tree def
+R25494:25496 VST.veric.shares <> Tsh def
+R25618:25625 VST.floyd.field_at <> field_at def
+R25670:25674 RBTree.definitions2 <> p_ans:206 var
+R25664:25668 RBTree.definitions2 <> p_top:202 var
+R25645:25645 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R25662:25662 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R25646:25656 VST.floyd.nested_field_lemmas <> StructField constr
+R25658:25661 RBTree.rbt_insert2 <> _par def
+R25631:25643 RBTree.definitions2 <> t_struct_tree def
+R25627:25629 VST.veric.shares <> Tsh def
+R25684:25690 VST.floyd.field_at <> data_at def
+R25723:25726 RBTree.definitions2 <> root:199 var
+R25717:25721 RBTree.definitions2 <> p_ans:206 var
+R25697:25700 compcert.exportclight.Clightdefs <> tptr def
+R25702:25714 RBTree.definitions2 <> t_struct_tree def
+R25692:25694 VST.veric.shares <> Tsh def
+R25758:25758 RBTree.definitions2 <> L constr
+R25835:25850 VST.msl.seplog <> ::logic:x_'*'_x not
+R25763:25770 VST.floyd.field_at <> field_at def
+R25830:25834 RBTree.definitions2 <> p_ans:206 var
+R25810:25828 RBTree.definitions2 <> p_ans_another_child:205 var
+R25790:25790 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R25808:25808 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R25791:25801 VST.floyd.nested_field_lemmas <> StructField constr
+R25803:25807 RBTree.rbt_insert2 <> _left def
+R25776:25788 RBTree.definitions2 <> t_struct_tree def
+R25772:25774 VST.veric.shares <> Tsh def
+R25851:25877 RBTree.definitions2 <> partial_treebox_rep_topdown:203 def
+R25946:25950 RBTree.definitions2 <> p_ans:206 var
+R25940:25944 RBTree.definitions2 <> p_par:201 var
+R25938:25938 RBTree.definitions2 <> b:200 var
+R25882:25894 VST.floyd.nested_field_lemmas <> field_address def
+R25931:25935 RBTree.definitions2 <> p_ans:206 var
+R25910:25910 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R25929:25929 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R25911:25921 VST.floyd.nested_field_lemmas <> StructField constr
+R25923:25928 RBTree.rbt_insert2 <> _right def
+R25896:25908 RBTree.definitions2 <> t_struct_tree def
+R25960:25960 RBTree.definitions2 <> R constr
+R26038:26053 VST.msl.seplog <> ::logic:x_'*'_x not
+R25965:25972 VST.floyd.field_at <> field_at def
+R26033:26037 RBTree.definitions2 <> p_ans:206 var
+R26013:26031 RBTree.definitions2 <> p_ans_another_child:205 var
+R25992:25992 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R26011:26011 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R25993:26003 VST.floyd.nested_field_lemmas <> StructField constr
+R26005:26010 RBTree.rbt_insert2 <> _right def
+R25978:25990 RBTree.definitions2 <> t_struct_tree def
+R25974:25976 VST.veric.shares <> Tsh def
+R26054:26080 RBTree.definitions2 <> partial_treebox_rep_topdown:203 def
+R26148:26152 RBTree.definitions2 <> p_ans:206 var
+R26142:26146 RBTree.definitions2 <> p_par:201 var
+R26140:26140 RBTree.definitions2 <> b:200 var
+R26085:26097 VST.floyd.nested_field_lemmas <> field_address def
+R26133:26137 RBTree.definitions2 <> p_ans:206 var
+R26113:26113 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R26131:26131 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R26114:26124 VST.floyd.nested_field_lemmas <> StructField constr
+R26126:26130 RBTree.rbt_insert2 <> _left def
+R26099:26111 RBTree.definitions2 <> t_struct_tree def
+prf 26196:26226 <> partial_treebox_rep_topdown_sgt
+R26239:26250 RBTree.definitions2 <> partial_tree def
+binder 26231:26235 <> rev_t:208
+R26275:26277 compcert.common.Values <> val ind
+binder 26254:26257 <> root:209
+binder 26259:26259 <> b:210
+binder 26261:26265 <> p_par:211
+binder 26267:26271 <> p_top:212
+R26285:26295 RBTree.definitions2 <> LeftOrRight ind
+binder 26281:26282 <> lr:213
+R26303:26306 RBTree.definitions2 <> Node rec
+binder 26299:26300 <> nd:214
+R26314:26317 RBTree.definitions2 <> tree ind
+binder 26310:26311 <> tr:215
+R26394:26399 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26322:26348 RBTree.definitions2 <> partial_treebox_rep_topdown def
+R26389:26393 RBTree.definitions2 <> p_top:212 var
+R26383:26387 RBTree.definitions2 <> p_par:211 var
+R26381:26381 RBTree.definitions2 <> b:210 var
+R26376:26379 RBTree.definitions2 <> root:209 var
+R26356:26359 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R26351:26355 RBTree.definitions2 <> rev_t:208 var
+R26360:26360 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R26373:26373 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R26361:26361 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26364:26365 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26368:26369 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26372:26372 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26362:26363 RBTree.definitions2 <> lr:213 var
+R26366:26367 RBTree.definitions2 <> nd:214 var
+R26370:26371 RBTree.definitions2 <> tr:215 var
+R26400:26402 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R26414:26415 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R26411:26413 compcert.common.Values <> val ind
+binder 26403:26408 <> p_gpar:216
+R26416:26418 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R26429:26430 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R26426:26428 compcert.common.Values <> val ind
+binder 26419:26423 <> p_sib:217
+R26431:26433 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R26444:26450 VST.msl.seplog <> ::logic:'EX'_x_'..'_x_','_x not
+R26441:26443 compcert.common.Values <> val ind
+binder 26434:26438 <> b_par:218
+R27014:27020 VST.msl.seplog <> ::logic:x_'*'_x not
+R26982:26988 VST.msl.seplog <> ::logic:x_'*'_x not
+R26917:26923 VST.msl.seplog <> ::logic:x_'*'_x not
+R26820:26826 VST.msl.seplog <> ::logic:x_'*'_x not
+R26727:26733 VST.msl.seplog <> ::logic:x_'*'_x not
+R26622:26628 VST.msl.seplog <> ::logic:x_'*'_x not
+R26571:26577 VST.msl.seplog <> ::logic:x_'*'_x not
+R26506:26513 VST.msl.seplog <> ::logic:x_'&&'_x not
+R26451:26454 VST.msl.seplog <> ::logic:'!!'_x not
+R26505:26505 VST.msl.seplog <> ::logic:'!!'_x not
+R26469:26472 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R26487:26490 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R26455:26468 compcert.lib.Integers Int min_signed def
+R26473:26483 RBTree.definitions2 <> key_of_node proj
+R26485:26486 RBTree.definitions2 <> nd:214 var
+R26473:26483 RBTree.definitions2 <> key_of_node proj
+R26485:26486 RBTree.definitions2 <> nd:214 var
+R26491:26504 compcert.lib.Integers Int max_signed def
+R26514:26540 RBTree.definitions2 <> partial_treebox_rep_topdown def
+R26566:26570 RBTree.definitions2 <> p_top:212 var
+R26559:26564 RBTree.definitions2 <> p_gpar:216 var
+R26553:26557 RBTree.definitions2 <> b_par:218 var
+R26548:26551 RBTree.definitions2 <> root:209 var
+R26542:26546 RBTree.definitions2 <> rev_t:208 var
+R26578:26584 VST.floyd.field_at <> data_at def
+R26617:26621 RBTree.definitions2 <> b_par:218 var
+R26611:26615 RBTree.definitions2 <> p_par:211 var
+R26591:26594 compcert.exportclight.Clightdefs <> tptr def
+R26596:26608 RBTree.definitions2 <> t_struct_tree def
+R26586:26588 VST.veric.shares <> Tsh def
+R26629:26636 VST.floyd.field_at <> field_at def
+R26722:26726 RBTree.definitions2 <> p_par:211 var
+R26678:26681 compcert.common.Values <> Vint constr
+R26684:26691 compcert.lib.Integers Int repr def
+R26694:26698 RBTree.definitions2 <> Col2Z def
+R26701:26713 RBTree.definitions2 <> color_of_node proj
+R26715:26716 RBTree.definitions2 <> nd:214 var
+R26656:26656 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R26675:26675 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R26657:26667 VST.floyd.nested_field_lemmas <> StructField constr
+R26669:26674 RBTree.rbt_insert2 <> _color def
+R26642:26654 RBTree.definitions2 <> t_struct_tree def
+R26638:26640 VST.veric.shares <> Tsh def
+R26734:26741 VST.floyd.field_at <> field_at def
+R26815:26819 RBTree.definitions2 <> p_par:211 var
+R26781:26784 compcert.common.Values <> Vint constr
+R26787:26794 compcert.lib.Integers Int repr def
+R26797:26807 RBTree.definitions2 <> key_of_node proj
+R26809:26810 RBTree.definitions2 <> nd:214 var
+R26761:26761 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R26778:26778 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R26762:26772 VST.floyd.nested_field_lemmas <> StructField constr
+R26774:26777 RBTree.rbt_insert2 <> _key def
+R26747:26759 RBTree.definitions2 <> t_struct_tree def
+R26743:26745 VST.veric.shares <> Tsh def
+R26827:26834 VST.floyd.field_at <> field_at def
+R26912:26916 RBTree.definitions2 <> p_par:211 var
+R26876:26879 compcert.common.Values <> Vint constr
+R26882:26889 compcert.lib.Integers Int repr def
+R26892:26904 RBTree.definitions2 <> value_of_node proj
+R26906:26907 RBTree.definitions2 <> nd:214 var
+R26854:26854 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R26873:26873 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R26855:26865 VST.floyd.nested_field_lemmas <> StructField constr
+R26867:26872 RBTree.rbt_insert2 <> _value def
+R26840:26852 RBTree.definitions2 <> t_struct_tree def
+R26836:26838 VST.veric.shares <> Tsh def
+R26924:26931 VST.floyd.field_at <> field_at def
+R26977:26981 RBTree.definitions2 <> p_par:211 var
+R26970:26975 RBTree.definitions2 <> p_gpar:216 var
+R26951:26951 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R26968:26968 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R26952:26962 VST.floyd.nested_field_lemmas <> StructField constr
+R26964:26967 RBTree.rbt_insert2 <> _par def
+R26937:26949 RBTree.definitions2 <> t_struct_tree def
+R26933:26935 VST.veric.shares <> Tsh def
+R26989:26998 RBTree.definitions2 <> rbtree_rep def
+R27009:27013 RBTree.definitions2 <> p_par:211 var
+R27003:27007 RBTree.definitions2 <> p_sib:217 var
+R27000:27001 RBTree.definitions2 <> tr:215 var
+R27027:27028 RBTree.definitions2 <> lr:213 var
+R27041:27041 RBTree.definitions2 <> L constr
+R27109:27123 VST.msl.seplog <> ::logic:x_'&&'_x not
+R27046:27049 VST.msl.seplog <> ::logic:'!!'_x not
+R27108:27108 VST.msl.seplog <> ::logic:'!!'_x not
+R27051:27053 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27050:27050 RBTree.definitions2 <> b:210 var
+R27054:27066 VST.floyd.nested_field_lemmas <> field_address def
+R27103:27107 RBTree.definitions2 <> p_par:211 var
+R27082:27082 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R27101:27101 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R27083:27093 VST.floyd.nested_field_lemmas <> StructField constr
+R27095:27100 RBTree.rbt_insert2 <> _right def
+R27068:27080 RBTree.definitions2 <> t_struct_tree def
+R27124:27131 VST.floyd.field_at <> field_at def
+R27177:27181 RBTree.definitions2 <> p_par:211 var
+R27171:27175 RBTree.definitions2 <> p_sib:217 var
+R27151:27151 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R27169:27169 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R27152:27162 VST.floyd.nested_field_lemmas <> StructField constr
+R27164:27168 RBTree.rbt_insert2 <> _left def
+R27137:27149 RBTree.definitions2 <> t_struct_tree def
+R27133:27135 VST.veric.shares <> Tsh def
+R27189:27189 RBTree.definitions2 <> R constr
+R27256:27270 VST.msl.seplog <> ::logic:x_'&&'_x not
+R27194:27197 VST.msl.seplog <> ::logic:'!!'_x not
+R27255:27255 VST.msl.seplog <> ::logic:'!!'_x not
+R27199:27201 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27198:27198 RBTree.definitions2 <> b:210 var
+R27202:27214 VST.floyd.nested_field_lemmas <> field_address def
+R27250:27254 RBTree.definitions2 <> p_par:211 var
+R27230:27230 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R27248:27248 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R27231:27241 VST.floyd.nested_field_lemmas <> StructField constr
+R27243:27247 RBTree.rbt_insert2 <> _left def
+R27216:27228 RBTree.definitions2 <> t_struct_tree def
+R27271:27278 VST.floyd.field_at <> field_at def
+R27325:27329 RBTree.definitions2 <> p_par:211 var
+R27319:27323 RBTree.definitions2 <> p_sib:217 var
+R27298:27298 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R27317:27317 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R27299:27309 VST.floyd.nested_field_lemmas <> StructField constr
+R27311:27316 RBTree.rbt_insert2 <> _right def
+R27284:27296 RBTree.definitions2 <> t_struct_tree def
+R27280:27282 VST.veric.shares <> Tsh def
+R27435:27442 VST.msl.seplog <> pred_ext meth
+R27435:27442 VST.msl.seplog <> pred_ext meth
+R27678:27685 VST.msl.seplog <> pred_ext meth
+R27678:27685 VST.msl.seplog <> pred_ext meth
+prf 28081:28101 <> partial_treebox_rep''
+R28108:28119 RBTree.definitions2 <> partial_tree def
+binder 28104:28104 <> t:220
+R28144:28146 compcert.common.Values <> val ind
+binder 28123:28126 <> root:221
+binder 28128:28128 <> b:222
+binder 28130:28134 <> p_par:223
+binder 28136:28140 <> p_top:224
+R28192:28197 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28152:28170 RBTree.definitions2 <> partial_treebox_rep def
+R28187:28191 RBTree.definitions2 <> p_top:224 var
+R28181:28185 RBTree.definitions2 <> p_par:223 var
+R28179:28179 RBTree.definitions2 <> b:222 var
+R28174:28177 RBTree.definitions2 <> root:221 var
+R28172:28172 RBTree.definitions2 <> t:220 var
+R28198:28224 RBTree.definitions2 <> partial_treebox_rep_topdown def
+R28247:28251 RBTree.definitions2 <> p_top:224 var
+R28241:28245 RBTree.definitions2 <> p_par:223 var
+R28239:28239 RBTree.definitions2 <> b:222 var
+R28234:28237 RBTree.definitions2 <> root:221 var
+R28227:28229 Coq.Lists.List <> rev def
+R28231:28231 RBTree.definitions2 <> t:220 var
+R28376:28406 RBTree.definitions2 <> partial_treebox_rep_topdown_sgt thm
+R28376:28406 RBTree.definitions2 <> partial_treebox_rep_topdown_sgt thm
+R28376:28406 RBTree.definitions2 <> partial_treebox_rep_topdown_sgt thm
+R28420:28438 RBTree.definitions2 <> partial_treebox_rep def
+R28451:28458 VST.msl.seplog <> pred_ext meth
+R28451:28458 VST.msl.seplog <> pred_ext meth
+prf 28659:28667 <> complete'
+binder 28679:28679 <> t:225
+binder 28681:28681 <> b:226
+binder 28683:28687 <> p_par:227
+binder 28689:28690 <> pt:228
+binder 28692:28695 <> root:229
+R28769:28777 VST.msl.seplog <> ::logic_derives:x_'|--'_x not
+R28723:28725 VST.msl.seplog <> ::logic:x_'*'_x not
+R28702:28712 RBTree.definitions2 <> treebox_rep def
+R28718:28722 RBTree.definitions2 <> p_par:227 var
+R28716:28716 RBTree.definitions2 <> b:226 var
+R28714:28714 RBTree.definitions2 <> t:225 var
+R28726:28744 RBTree.definitions2 <> partial_treebox_rep def
+R28762:28768 VST.veric.base <> nullval def
+R28756:28760 RBTree.definitions2 <> p_par:227 var
+R28754:28754 RBTree.definitions2 <> b:226 var
+R28749:28752 RBTree.definitions2 <> root:229 var
+R28746:28747 RBTree.definitions2 <> pt:228 var
+R28778:28788 RBTree.definitions2 <> treebox_rep def
+R28816:28822 VST.veric.base <> nullval def
+R28811:28814 RBTree.definitions2 <> root:229 var
+R28791:28803 RBTree.definitions2 <> complete_tree def
+R28808:28808 RBTree.definitions2 <> t:225 var
+R28805:28806 RBTree.definitions2 <> pt:228 var
+R28956:28975 RBTree.definitions2 <> partial_treebox_rep' thm
+R28956:28975 RBTree.definitions2 <> partial_treebox_rep' thm
+R28956:28975 RBTree.definitions2 <> partial_treebox_rep' thm
+R29020:29032 RBTree.definitions2 <> complete_tree def
+R29086:29098 RBTree.definitions2 <> treebox_rep_l thm
+R29086:29098 RBTree.definitions2 <> treebox_rep_l thm
+R29232:29244 RBTree.definitions2 <> treebox_rep_r thm
+R29232:29244 RBTree.definitions2 <> treebox_rep_r thm
+prf 29356:29381 <> complete_tree_with_T_neq_E
+R29398:29409 RBTree.definitions2 <> partial_tree def
+binder 29394:29394 <> l:230
+R29417:29420 RBTree.definitions2 <> tree ind
+binder 29413:29413 <> b:231
+R29434:29437 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29455:29458 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29438:29450 RBTree.definitions2 <> complete_tree def
+R29454:29454 RBTree.definitions2 <> b:231 var
+R29452:29452 RBTree.definitions2 <> l:230 var
+R29459:29459 RBTree.definitions2 <> E constr
+R29429:29432 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29428:29428 RBTree.definitions2 <> b:231 var
+R29433:29433 RBTree.definitions2 <> E constr
+R29567:29579 RBTree.definitions2 <> complete_tree def
+R29612:29612 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29621:29625 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29613:29613 RBTree.definitions2 <> T constr
+R29626:29626 RBTree.definitions2 <> E constr
+R29638:29644 RBTree.definitions2 <> T_neq_E thm
+R29612:29612 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29621:29625 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29613:29613 RBTree.definitions2 <> T constr
+R29626:29626 RBTree.definitions2 <> E constr
+R29638:29644 RBTree.definitions2 <> T_neq_E thm
+R29681:29681 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29690:29694 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29682:29682 RBTree.definitions2 <> T constr
+R29695:29695 RBTree.definitions2 <> E constr
+R29707:29713 RBTree.definitions2 <> T_neq_E thm
+R29681:29681 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29690:29694 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29682:29682 RBTree.definitions2 <> T constr
+R29695:29695 RBTree.definitions2 <> E constr
+R29707:29713 RBTree.definitions2 <> T_neq_E thm
+prf 29749:29777 <> complete_tree_with_Part_neq_E
+R29794:29805 RBTree.definitions2 <> partial_tree def
+binder 29790:29790 <> l:232
+R29813:29816 RBTree.definitions2 <> tree ind
+binder 29809:29809 <> b:233
+R29831:29834 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29852:29855 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29835:29847 RBTree.definitions2 <> complete_tree def
+R29851:29851 RBTree.definitions2 <> b:233 var
+R29849:29849 RBTree.definitions2 <> l:232 var
+R29856:29856 RBTree.definitions2 <> E constr
+R29825:29828 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29824:29824 RBTree.definitions2 <> l:232 var
+R29829:29830 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R29943:29955 RBTree.definitions2 <> complete_tree def
+R29988:29988 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29997:30001 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29989:29989 RBTree.definitions2 <> T constr
+R30002:30002 RBTree.definitions2 <> E constr
+R30014:30020 RBTree.definitions2 <> T_neq_E thm
+R29988:29988 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29997:30001 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29989:29989 RBTree.definitions2 <> T constr
+R30002:30002 RBTree.definitions2 <> E constr
+R30014:30020 RBTree.definitions2 <> T_neq_E thm
+R30035:30060 RBTree.definitions2 <> complete_tree_with_T_neq_E thm
+R30035:30060 RBTree.definitions2 <> complete_tree_with_T_neq_E thm
+R30080:30080 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R30089:30093 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R30081:30081 RBTree.definitions2 <> T constr
+R30094:30094 RBTree.definitions2 <> E constr
+R30106:30112 RBTree.definitions2 <> T_neq_E thm
+R30080:30080 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R30089:30093 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R30081:30081 RBTree.definitions2 <> T constr
+R30094:30094 RBTree.definitions2 <> E constr
+R30106:30112 RBTree.definitions2 <> T_neq_E thm
+R30127:30152 RBTree.definitions2 <> complete_tree_with_T_neq_E thm
+R30127:30152 RBTree.definitions2 <> complete_tree_with_T_neq_E thm
+prf 30171:30188 <> complete_tree_elim
+binder 30200:30200 <> l:234
+binder 30202:30202 <> b:235
+R30230:30233 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30239:30242 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30235:30237 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30234:30234 RBTree.definitions2 <> b:235 var
+R30238:30238 RBTree.definitions2 <> E constr
+R30244:30246 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30243:30243 RBTree.definitions2 <> l:234 var
+R30247:30248 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R30226:30228 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30209:30221 RBTree.definitions2 <> complete_tree def
+R30225:30225 RBTree.definitions2 <> b:235 var
+R30223:30223 RBTree.definitions2 <> l:234 var
+R30229:30229 RBTree.definitions2 <> E constr
+R30292:30298 Coq.Logic.Classical_Prop <> classic prfax
+R30302:30304 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30305:30305 RBTree.definitions2 <> E constr
+R30292:30298 Coq.Logic.Classical_Prop <> classic prfax
+R30302:30304 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30305:30305 RBTree.definitions2 <> E constr
+R30352:30377 RBTree.definitions2 <> complete_tree_with_T_neq_E thm
+R30352:30377 RBTree.definitions2 <> complete_tree_with_T_neq_E thm
+R30410:30416 Coq.Logic.Classical_Prop <> classic prfax
+R30420:30422 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30423:30424 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R30410:30416 Coq.Logic.Classical_Prop <> classic prfax
+R30420:30422 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30423:30424 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R30471:30499 RBTree.definitions2 <> complete_tree_with_Part_neq_E thm
+R30471:30499 RBTree.definitions2 <> complete_tree_with_Part_neq_E thm

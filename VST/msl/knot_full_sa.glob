@@ -1,0 +1,1019 @@
+DIGEST a205592d7fca1ac75f4e555ef79eb136
+FVST.msl.knot_full_sa
+R102:113 VST.msl.base <> <> lib
+R160:174 VST.msl.ageable <> <> lib
+R192:207 VST.msl.functors <> <> lib
+R225:238 VST.msl.sepalg <> <> lib
+R256:278 VST.msl.sepalg_functors <> <> lib
+R296:320 VST.msl.sepalg_generators <> <> lib
+R338:355 VST.msl.age_sepalg <> <> lib
+R373:397 VST.msl.knot_full_variant <> <> lib
+modtype 413:433 <> KNOT_FULL_BASIC_INPUT
+ax 448:448 KNOT_FULL_BASIC_INPUT F
+R451:475 VST.msl.functors MixVariantFunctor functor rec
+R482:502 VST.msl.knot_full_sa KNOT_FULL_BASIC_INPUT <> modtype
+modtype 518:535 <> KNOT_FULL_SA_INPUT
+R559:579 VST.msl.knot_full_sa KNOT_FULL_BASIC_INPUT <> mod
+mod 555:556 <> KNOT_FULL_SA_INPUT.KI
+ax 636:641 KNOT_FULL_SA_INPUT Join_F
+binder 651:651 <> A:2
+R654:657 VST.msl.sepalg <> Join class
+R660:660 VST.msl.knot_full_sa KNOT_FULL_SA_INPUT F defax
+R662:662 VST.msl.knot_full_sa <> A:2 var
+ax 704:708 KNOT_FULL_SA_INPUT paf_F
+R712:720 VST.msl.sepalg_functors <> pafunctor rec
+R724:729 VST.msl.knot_full_sa KNOT_FULL_SA_INPUT Join_F defax
+R722:722 VST.msl.knot_full_sa KNOT_FULL_SA_INPUT F defax
+ax 744:749 KNOT_FULL_SA_INPUT Perm_F
+binder 759:759 <> A:5
+R762:769 VST.msl.sepalg <> Perm_alg class
+R772:772 VST.msl.knot_full_sa KNOT_FULL_SA_INPUT F defax
+R774:774 VST.msl.knot_full_sa <> A:5 var
+ax 790:794 KNOT_FULL_SA_INPUT Sep_F
+binder 804:804 <> A:7
+R807:813 VST.msl.sepalg <> Sep_alg class
+R816:816 VST.msl.knot_full_sa KNOT_FULL_SA_INPUT F defax
+R818:818 VST.msl.knot_full_sa <> A:7 var
+R826:843 VST.msl.knot_full_sa KNOT_FULL_SA_INPUT <> modtype
+modtype 859:868 <> KNOT_BASIC
+R891:911 VST.msl.knot_full_sa KNOT_FULL_BASIC_INPUT <> mod
+mod 888:889 <> KNOT_BASIC.KI
+ax 967:970 KNOT_BASIC knot
+ax 991:1002 KNOT_BASIC ageable_knot
+R1006:1012 VST.msl.ageable <> ageable class
+R1014:1017 VST.msl.knot_full_sa KNOT_BASIC knot defax
+ax 1067:1075 KNOT_BASIC predicate
+ax 1096:1101 KNOT_BASIC squash
+R1105:1105 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1123:1127 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1128:1131 VST.msl.knot_full_sa KNOT_BASIC knot defax
+R1109:1111 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1106:1108 Coq.Init.Datatypes <> nat ind
+R1112:1112 VST.msl.knot_full_sa KNOT_BASIC F defax
+R1114:1122 VST.msl.knot_full_sa KNOT_BASIC predicate defax
+ax 1146:1153 KNOT_BASIC unsquash
+R1161:1165 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1183:1183 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1169:1171 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1166:1168 Coq.Init.Datatypes <> nat ind
+R1172:1172 VST.msl.knot_full_sa KNOT_BASIC F defax
+R1174:1182 VST.msl.knot_full_sa KNOT_BASIC predicate defax
+R1157:1160 VST.msl.knot_full_sa KNOT_BASIC knot defax
+ax 1198:1203 KNOT_BASIC approx
+R1210:1213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1223:1226 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1227:1235 VST.msl.knot_full_sa KNOT_BASIC predicate defax
+R1214:1222 VST.msl.knot_full_sa KNOT_BASIC predicate defax
+R1207:1209 Coq.Init.Datatypes <> nat ind
+ax 1247:1261 KNOT_BASIC squash_unsquash
+R1274:1277 VST.msl.knot_full_sa KNOT_BASIC knot defax
+binder 1272:1272 <> k:15
+R1299:1301 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1280:1285 VST.msl.knot_full_sa KNOT_BASIC squash defax
+R1288:1295 VST.msl.knot_full_sa KNOT_BASIC unsquash defax
+R1297:1297 VST.msl.knot_full_sa <> k:15 var
+R1302:1302 VST.msl.knot_full_sa <> k:15 var
+ax 1314:1328 KNOT_BASIC unsquash_squash
+R1342:1344 Coq.Init.Datatypes <> nat ind
+binder 1340:1340 <> n:17
+R1350:1350 VST.msl.knot_full_sa KNOT_BASIC F defax
+R1352:1360 VST.msl.knot_full_sa KNOT_BASIC predicate defax
+binder 1348:1348 <> f:18
+R1391:1393 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1368:1375 VST.msl.knot_full_sa KNOT_BASIC unsquash defax
+R1378:1383 VST.msl.knot_full_sa KNOT_BASIC squash defax
+R1385:1385 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1387:1387 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1389:1389 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1386:1386 VST.msl.knot_full_sa <> n:17 var
+R1388:1388 VST.msl.knot_full_sa <> f:18 var
+R1394:1394 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1396:1397 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1428:1428 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1395:1395 VST.msl.knot_full_sa <> n:17 var
+R1398:1401 VST.msl.functors MixVariantFunctor fmap proj
+R1427:1427 VST.msl.knot_full_sa <> f:18 var
+R1417:1422 VST.msl.knot_full_sa KNOT_BASIC approx defax
+R1424:1424 VST.msl.knot_full_sa <> n:17 var
+R1406:1411 VST.msl.knot_full_sa KNOT_BASIC approx defax
+R1413:1413 VST.msl.knot_full_sa <> n:17 var
+R1403:1403 VST.msl.knot_full_sa KNOT_BASIC F defax
+ax 1440:1448 KNOT_BASIC knot_age1
+R1461:1464 VST.msl.knot_full_sa KNOT_BASIC knot defax
+binder 1459:1459 <> k:20
+R1477:1483 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1471:1474 VST.msl.ageable <> age1 meth
+R1476:1476 VST.msl.knot_full_sa <> k:20 var
+R1490:1497 VST.msl.knot_full_sa KNOT_BASIC unsquash defax
+R1499:1499 VST.msl.knot_full_sa <> k:20 var
+R1512:1512 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1514:1514 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1516:1516 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1513:1513 Coq.Init.Datatypes <> O constr
+R1521:1524 Coq.Init.Datatypes <> None constr
+R1532:1532 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1536:1536 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1538:1538 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1533:1533 Coq.Init.Datatypes <> S constr
+R1543:1546 Coq.Init.Datatypes <> Some constr
+R1549:1554 VST.msl.knot_full_sa KNOT_BASIC squash defax
+R1556:1556 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1558:1558 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1560:1560 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+ax 1581:1590 KNOT_BASIC knot_level
+R1603:1606 VST.msl.knot_full_sa KNOT_BASIC knot defax
+binder 1601:1601 <> k:22
+R1620:1622 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1613:1617 VST.msl.ageable <> level meth
+R1619:1619 VST.msl.knot_full_sa <> k:22 var
+R1623:1625 Coq.Init.Datatypes <> fst def
+R1628:1635 VST.msl.knot_full_sa KNOT_BASIC unsquash defax
+R1637:1637 VST.msl.knot_full_sa <> k:22 var
+R1646:1655 VST.msl.knot_full_sa KNOT_BASIC <> modtype
+modtype 1671:1687 <> KNOT_BASIC_LEMMAS
+R1711:1720 VST.msl.knot_full_sa KNOT_BASIC <> mod
+mod 1708:1708 <> KNOT_BASIC_LEMMAS.K
+ax 1787:1798 KNOT_BASIC_LEMMAS unsquash_inj
+binder 1809:1810 <> k1:24
+binder 1812:1813 <> k2:25
+R1845:1852 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1855:1857 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1853:1854 VST.msl.knot_full_sa <> k1:24 var
+R1858:1859 VST.msl.knot_full_sa <> k2:25 var
+R1831:1833 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1820:1827 VST.msl.knot_full_sa KNOT_BASIC_LEMMAS unsquash defax
+R1829:1830 VST.msl.knot_full_sa <> k1:24 var
+R1834:1841 VST.msl.knot_full_sa KNOT_BASIC_LEMMAS unsquash defax
+R1843:1844 VST.msl.knot_full_sa <> k2:25 var
+ax 1871:1885 KNOT_BASIC_LEMMAS unsquash_approx
+binder 1896:1896 <> k:27
+binder 1898:1898 <> n:28
+binder 1900:1901 <> Fp:29
+R1928:1935 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1938:1940 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1936:1937 VST.msl.knot_full_sa <> Fp:29 var
+R1941:1944 VST.msl.functors MixVariantFunctor fmap proj
+R1970:1971 VST.msl.knot_full_sa <> Fp:29 var
+R1960:1965 VST.msl.knot_full_sa KNOT_BASIC_LEMMAS approx defax
+R1967:1967 VST.msl.knot_full_sa <> n:28 var
+R1949:1954 VST.msl.knot_full_sa KNOT_BASIC_LEMMAS approx defax
+R1956:1956 VST.msl.knot_full_sa <> n:28 var
+R1946:1946 VST.msl.knot_full_sa KNOT_BASIC_LEMMAS F defax
+R1918:1920 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1908:1915 VST.msl.knot_full_sa KNOT_BASIC_LEMMAS unsquash defax
+R1917:1917 VST.msl.knot_full_sa <> k:27 var
+R1921:1921 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1923:1924 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1927:1927 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1922:1922 VST.msl.knot_full_sa <> n:28 var
+R1925:1926 VST.msl.knot_full_sa <> Fp:29 var
+R1986:2000 VST.msl.knot_full_sa KNOT_BASIC_LEMMAS unsquash_approx prfax
+R1986:2000 VST.msl.knot_full_sa KNOT_BASIC_LEMMAS unsquash_approx prfax
+ax 2023:2036 KNOT_BASIC_LEMMAS approx_approx1
+binder 2047:2047 <> m:31
+binder 2049:2049 <> n:32
+R2064:2066 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2056:2061 VST.msl.knot_full_sa KNOT_BASIC_LEMMAS approx defax
+R2063:2063 VST.msl.knot_full_sa <> n:32 var
+R2075:2078 VST.msl.base <> :::x_'oo'_x not
+R2067:2072 VST.msl.knot_full_sa KNOT_BASIC_LEMMAS approx defax
+R2074:2074 VST.msl.knot_full_sa <> n:32 var
+R2079:2084 VST.msl.knot_full_sa KNOT_BASIC_LEMMAS approx defax
+R2088:2088 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2087:2087 VST.msl.knot_full_sa <> m:31 var
+R2089:2089 VST.msl.knot_full_sa <> n:32 var
+ax 2102:2115 KNOT_BASIC_LEMMAS approx_approx2
+binder 2126:2126 <> m:34
+binder 2128:2128 <> n:35
+R2143:2145 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2135:2140 VST.msl.knot_full_sa KNOT_BASIC_LEMMAS approx defax
+R2142:2142 VST.msl.knot_full_sa <> n:35 var
+R2158:2161 VST.msl.base <> :::x_'oo'_x not
+R2146:2151 VST.msl.knot_full_sa KNOT_BASIC_LEMMAS approx defax
+R2155:2155 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2154:2154 VST.msl.knot_full_sa <> m:34 var
+R2156:2156 VST.msl.knot_full_sa <> n:35 var
+R2162:2167 VST.msl.knot_full_sa KNOT_BASIC_LEMMAS approx defax
+R2169:2169 VST.msl.knot_full_sa <> n:35 var
+R2177:2193 VST.msl.knot_full_sa KNOT_BASIC_LEMMAS <> modtype
+modtype 2209:2220 <> KNOT_FULL_SA
+R2244:2264 VST.msl.knot_full_sa KNOT_FULL_BASIC_INPUT <> mod
+mod 2240:2241 <> KNOT_FULL_SA.KI
+R2290:2307 VST.msl.knot_full_sa KNOT_FULL_SA_INPUT <> mod
+R2327:2328 VST.msl.knot_full_sa KNOT_FULL_SA.KI <> modtype
+mod 2284:2287 <> KNOT_FULL_SA.KSAI
+R2351:2360 VST.msl.knot_full_sa KNOT_BASIC <> mod
+R2380:2381 VST.msl.knot_full_sa KNOT_FULL_SA.KI <> modtype
+mod 2348:2348 <> KNOT_FULL_SA.K
+R2405:2421 VST.msl.knot_full_sa KNOT_BASIC_LEMMAS <> mod
+R2440:2440 VST.msl.knot_full_sa KNOT_FULL_SA.K <> modtype
+mod 2401:2402 <> KNOT_FULL_SA.KL
+ax 2510:2518 KNOT_FULL_SA Join_knot
+R2521:2524 VST.msl.sepalg <> Join class
+R2526:2529 VST.msl.knot_full_sa KNOT_FULL_SA knot defax
+ax 2574:2582 KNOT_FULL_SA Perm_knot
+R2586:2593 VST.msl.sepalg <> Perm_alg class
+R2595:2598 VST.msl.knot_full_sa KNOT_FULL_SA knot defax
+ax 2643:2650 KNOT_FULL_SA Sep_knot
+R2654:2660 VST.msl.sepalg <> Sep_alg class
+R2662:2665 VST.msl.knot_full_sa KNOT_FULL_SA knot defax
+inst 2708:2717 KNOT_FULL_SA Join_nat_F
+R2720:2723 VST.msl.sepalg <> Join class
+R2729:2731 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2726:2728 Coq.Init.Datatypes <> nat ind
+R2732:2732 VST.msl.knot_full_sa KNOT_FULL_SA F defax
+R2734:2742 VST.msl.knot_full_sa KNOT_FULL_SA predicate defax
+R2755:2763 VST.msl.sepalg_generators <> Join_prod inst
+R2788:2788 VST.msl.knot_full_sa KNOT_FULL_SA F defax
+R2790:2798 VST.msl.knot_full_sa KNOT_FULL_SA predicate defax
+R2771:2780 VST.msl.sepalg_generators <> Join_equiv inst
+R2782:2784 Coq.Init.Datatypes <> nat ind
+R2765:2767 Coq.Init.Datatypes <> nat ind
+inst 2815:2824 KNOT_FULL_SA Perm_nat_F
+R2828:2835 VST.msl.sepalg <> Perm_alg class
+R2841:2843 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2838:2840 Coq.Init.Datatypes <> nat ind
+R2844:2844 VST.msl.knot_full_sa KNOT_FULL_SA F defax
+R2846:2854 VST.msl.knot_full_sa KNOT_FULL_SA predicate defax
+R2865:2873 VST.msl.sepalg_generators <> Perm_prod inst
+R2901:2906 VST.msl.knot_full_sa KNOT_FULL_SA Perm_F defax
+R2886:2895 VST.msl.sepalg_generators <> Perm_equiv inst
+R2875:2877 Coq.Init.Datatypes <> nat ind
+inst 2923:2931 KNOT_FULL_SA Sep_nat_F
+R2935:2941 VST.msl.sepalg <> Sep_alg class
+R2947:2949 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2944:2946 Coq.Init.Datatypes <> nat ind
+R2950:2950 VST.msl.knot_full_sa KNOT_FULL_SA F defax
+R2952:2960 VST.msl.knot_full_sa KNOT_FULL_SA predicate defax
+R2971:2978 VST.msl.sepalg_generators <> Sep_prod inst
+R3005:3009 VST.msl.knot_full_sa KNOT_FULL_SA Sep_F defax
+R3011:3019 VST.msl.knot_full_sa KNOT_FULL_SA predicate defax
+R2991:2999 VST.msl.sepalg_generators <> Sep_equiv inst
+R2980:2982 Coq.Init.Datatypes <> nat ind
+ax 3032:3044 KNOT_FULL_SA join_unsquash
+R3066:3069 VST.msl.knot_full_sa KNOT_FULL_SA knot defax
+binder 3055:3056 <> x1:40
+binder 3058:3059 <> x2:41
+binder 3061:3062 <> x3:42
+R3089:3091 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3076:3079 VST.msl.sepalg <> join def
+R3087:3088 VST.msl.knot_full_sa <> x3:42 var
+R3084:3085 VST.msl.knot_full_sa <> x2:41 var
+R3081:3082 VST.msl.knot_full_sa <> x1:40 var
+R3092:3095 VST.msl.sepalg <> join def
+R3126:3133 VST.msl.knot_full_sa KNOT_FULL_SA unsquash defax
+R3135:3136 VST.msl.knot_full_sa <> x3:42 var
+R3112:3119 VST.msl.knot_full_sa KNOT_FULL_SA unsquash defax
+R3121:3122 VST.msl.knot_full_sa <> x2:41 var
+R3098:3105 VST.msl.knot_full_sa KNOT_FULL_SA unsquash defax
+R3107:3108 VST.msl.knot_full_sa <> x1:40 var
+ax 3148:3160 KNOT_FULL_SA core_unsquash
+binder 3171:3171 <> x:44
+R3180:3182 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3174:3177 VST.msl.sepalg <> core meth
+R3179:3179 VST.msl.knot_full_sa <> x:44 var
+R3183:3188 VST.msl.knot_full_sa KNOT_FULL_SA squash defax
+R3191:3194 VST.msl.sepalg <> core meth
+R3197:3204 VST.msl.knot_full_sa KNOT_FULL_SA unsquash defax
+R3206:3206 VST.msl.knot_full_sa <> x:44 var
+ax 3220:3227 KNOT_FULL_SA asa_knot
+R3231:3237 VST.msl.age_sepalg <> Age_alg class
+R3239:3242 VST.msl.knot_full_sa KNOT_FULL_SA knot defax
+R3250:3261 VST.msl.knot_full_sa KNOT_FULL_SA <> modtype
+R3293:3310 VST.msl.knot_full_sa KNOT_FULL_SA_INPUT <> mod
+R3320:3329 VST.msl.knot_full_sa KNOT_BASIC <> mod
+R3347:3354 VST.msl.knot_full_sa KSAI'.KI <> modtype
+R3365:3381 VST.msl.knot_full_sa KNOT_BASIC_LEMMAS <> mod
+R3398:3399 VST.msl.knot_full_sa K' <> modtype
+R3405:3416 VST.msl.knot_full_sa KNOT_FULL_SA <> mod
+R3436:3443 VST.msl.knot_full_sa KSAI'.KI <> modtype
+R3480:3484 VST.msl.knot_full_sa KSAI' <> modtype
+R3516:3517 VST.msl.knot_full_sa K' <> modtype
+R3552:3554 VST.msl.knot_full_sa KL' <> modtype
+mod 3272:3281 <> KnotFullSa
+R3573:3580 VST.msl.knot_full_sa KSAI'.KI <> modtype
+mod 3567:3568 <> KnotFullSa.KI
+R3600:3604 VST.msl.knot_full_sa KSAI' <> modtype
+mod 3592:3595 <> KnotFullSa.KSAI
+R3621:3622 VST.msl.knot_full_sa K' <> modtype
+mod 3616:3616 <> KnotFullSa.K
+R3640:3642 VST.msl.knot_full_sa KL' <> modtype
+mod 3634:3635 <> KnotFullSa.KL
+inst 3773:3782 KnotFullSa Join_nat_F
+R3785:3788 VST.msl.sepalg <> Join class
+R3794:3796 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3791:3793 Coq.Init.Datatypes <> nat ind
+R3797:3797 VST.msl.knot_full_sa KnotFullSa F defax
+R3799:3807 VST.msl.knot_full_sa KnotFullSa predicate defax
+R3820:3828 VST.msl.sepalg_generators <> Join_prod inst
+R3853:3853 VST.msl.knot_full_sa KnotFullSa F defax
+R3855:3863 VST.msl.knot_full_sa KnotFullSa predicate defax
+R3836:3845 VST.msl.sepalg_generators <> Join_equiv inst
+R3847:3849 Coq.Init.Datatypes <> nat ind
+R3830:3832 Coq.Init.Datatypes <> nat ind
+inst 3880:3889 KnotFullSa Perm_nat_F
+R3893:3900 VST.msl.sepalg <> Perm_alg class
+R3906:3908 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3903:3905 Coq.Init.Datatypes <> nat ind
+R3909:3909 VST.msl.knot_full_sa KnotFullSa F defax
+R3911:3919 VST.msl.knot_full_sa KnotFullSa predicate defax
+R3932:3940 VST.msl.sepalg_generators <> Perm_prod inst
+R3968:3973 VST.msl.knot_full_sa KnotFullSa Perm_F defax
+R3953:3962 VST.msl.sepalg_generators <> Perm_equiv inst
+R3942:3944 Coq.Init.Datatypes <> nat ind
+inst 3990:3998 KnotFullSa Sep_nat_F
+R4001:4007 VST.msl.sepalg <> Sep_alg class
+R4013:4015 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4010:4012 Coq.Init.Datatypes <> nat ind
+R4016:4016 VST.msl.knot_full_sa KnotFullSa F defax
+R4018:4026 VST.msl.knot_full_sa KnotFullSa predicate defax
+R4039:4046 VST.msl.sepalg_generators <> Sep_prod inst
+R4073:4077 VST.msl.knot_full_sa KnotFullSa Sep_F defax
+R4079:4087 VST.msl.knot_full_sa KnotFullSa predicate defax
+R4059:4067 VST.msl.sepalg_generators <> Sep_equiv inst
+R4048:4050 Coq.Init.Datatypes <> nat ind
+prf 4100:4123 KnotFullSa unsquash_squash_join_hom
+R4127:4134 VST.msl.sepalg_generators <> join_hom def
+R4145:4148 VST.msl.base <> :::x_'oo'_x not
+R4137:4144 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R4149:4154 VST.msl.knot_full_sa KnotFullSa squash defax
+R4178:4184 VST.msl.base <> compose def
+R4243:4257 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R4243:4257 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R4243:4257 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R4243:4257 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R4243:4257 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R4243:4257 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R4243:4257 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R4332:4343 VST.msl.sepalg_functors <> paf_join_hom proj
+R4345:4349 VST.msl.knot_full_sa KnotFullSa paf_F defax
+R4332:4343 VST.msl.sepalg_functors <> paf_join_hom proj
+R4345:4349 VST.msl.knot_full_sa KnotFullSa paf_F defax
+inst 4378:4386 KnotFullSa Join_knot
+R4390:4393 VST.msl.sepalg <> Join class
+R4395:4398 VST.msl.knot_full_sa KnotFullSa knot defax
+R4414:4426 VST.msl.sepalg_generators <> Join_preimage inst
+R4464:4471 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R4453:4462 VST.msl.knot_full_sa KnotFullSa Join_nat_F inst
+R4437:4439 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4434:4436 Coq.Init.Datatypes <> nat ind
+R4440:4440 VST.msl.knot_full_sa KnotFullSa F defax
+R4442:4450 VST.msl.knot_full_sa KnotFullSa predicate defax
+R4428:4431 VST.msl.knot_full_sa KnotFullSa knot defax
+prf 4483:4495 KnotFullSa join_unsquash
+binder 4506:4507 <> x1:47
+binder 4509:4510 <> x2:48
+binder 4512:4513 <> x3:49
+R4533:4539 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4520:4523 VST.msl.sepalg <> join def
+R4531:4532 VST.msl.knot_full_sa <> x3:49 var
+R4528:4529 VST.msl.knot_full_sa <> x2:48 var
+R4525:4526 VST.msl.knot_full_sa <> x1:47 var
+R4540:4543 VST.msl.sepalg <> join def
+R4574:4581 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R4583:4584 VST.msl.knot_full_sa <> x3:49 var
+R4560:4567 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R4569:4570 VST.msl.knot_full_sa <> x2:48 var
+R4546:4553 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R4555:4556 VST.msl.knot_full_sa <> x1:47 var
+inst 4631:4639 KnotFullSa Perm_knot
+R4643:4650 VST.msl.sepalg <> Perm_alg class
+R4652:4655 VST.msl.knot_full_sa KnotFullSa knot defax
+R4664:4676 VST.msl.sepalg_generators <> Perm_preimage inst
+R4718:4741 VST.msl.knot_full_sa KnotFullSa unsquash_squash_join_hom thm
+R4702:4716 VST.msl.knot_full_sa KnotFullSa squash_unsquash prfax
+R4695:4700 VST.msl.knot_full_sa KnotFullSa squash defax
+R4686:4693 VST.msl.knot_full_sa KnotFullSa unsquash defax
+inst 4756:4763 KnotFullSa Sep_knot
+R4766:4772 VST.msl.sepalg <> Sep_alg class
+R4774:4777 VST.msl.knot_full_sa KnotFullSa knot defax
+R4786:4797 VST.msl.sepalg_generators <> Sep_preimage inst
+R4838:4861 VST.msl.knot_full_sa KnotFullSa unsquash_squash_join_hom thm
+R4822:4836 VST.msl.knot_full_sa KnotFullSa squash_unsquash prfax
+R4815:4820 VST.msl.knot_full_sa KnotFullSa squash defax
+R4806:4813 VST.msl.knot_full_sa KnotFullSa unsquash defax
+prf 4873:4885 KnotFullSa core_unsquash
+binder 4896:4896 <> x:50
+R4905:4907 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4899:4902 VST.msl.sepalg <> core meth
+R4904:4904 VST.msl.knot_full_sa <> x:50 var
+R4908:4913 VST.msl.knot_full_sa KnotFullSa squash defax
+R4916:4919 VST.msl.sepalg <> core meth
+R4922:4929 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R4931:4931 VST.msl.knot_full_sa <> x:50 var
+prf 4971:4979 KnotFullSa age_join1
+R5005:5011 VST.msl.knot_full_sa K' knot defax
+binder 4994:4994 <> x:51
+binder 4996:4996 <> y:52
+binder 4998:4998 <> z:53
+binder 5000:5001 <> x':54
+R5030:5039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5048:5057 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5058:5064 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5077:5086 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5070:5076 VST.msl.knot_full_sa K' knot defax
+binder 5065:5066 <> y':55
+R5087:5093 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5106:5107 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5099:5105 VST.msl.knot_full_sa K' knot defax
+binder 5094:5095 <> z':56
+R5121:5124 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5108:5111 VST.msl.sepalg <> join def
+R5119:5120 VST.msl.knot_full_sa <> z':56 var
+R5116:5117 VST.msl.knot_full_sa <> y':55 var
+R5113:5114 VST.msl.knot_full_sa <> x':54 var
+R5133:5136 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5125:5127 VST.msl.ageable <> age def
+R5131:5132 VST.msl.knot_full_sa <> y':55 var
+R5129:5129 VST.msl.knot_full_sa <> y:52 var
+R5137:5139 VST.msl.ageable <> age def
+R5143:5144 VST.msl.knot_full_sa <> z':56 var
+R5141:5141 VST.msl.knot_full_sa <> z:53 var
+R5040:5042 VST.msl.ageable <> age def
+R5046:5047 VST.msl.knot_full_sa <> x':54 var
+R5044:5044 VST.msl.knot_full_sa <> x:51 var
+R5020:5023 VST.msl.sepalg <> join def
+R5029:5029 VST.msl.knot_full_sa <> z:53 var
+R5027:5027 VST.msl.knot_full_sa <> y:52 var
+R5025:5025 VST.msl.knot_full_sa <> x:51 var
+R5179:5181 VST.msl.ageable <> age def
+R5213:5221 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R5213:5221 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R5213:5221 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R5249:5257 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R5249:5257 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R5249:5257 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R5249:5257 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R5249:5257 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R5249:5257 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R5293:5300 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R5293:5300 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R5329:5336 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R5329:5336 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R5367:5374 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R5367:5374 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R5522:5527 VST.msl.knot_full_sa KnotFullSa squash defax
+R5529:5529 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5531:5531 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5534:5534 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5522:5527 VST.msl.knot_full_sa KnotFullSa squash defax
+R5529:5529 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5531:5531 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5534:5534 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5550:5555 VST.msl.knot_full_sa KnotFullSa squash defax
+R5557:5557 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5559:5559 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5562:5562 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5550:5555 VST.msl.knot_full_sa KnotFullSa squash defax
+R5557:5557 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5559:5559 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5562:5562 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5635:5649 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R5635:5649 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R5635:5649 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R5635:5649 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R5635:5649 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R5635:5649 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R5635:5649 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R5635:5649 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R5691:5702 VST.msl.sepalg_functors <> paf_join_hom proj
+R5704:5708 VST.msl.knot_full_sa KnotFullSa paf_F defax
+R5691:5702 VST.msl.sepalg_functors <> paf_join_hom proj
+R5704:5708 VST.msl.knot_full_sa KnotFullSa paf_F defax
+prf 5734:5742 KnotFullSa age_join2
+R5768:5774 VST.msl.knot_full_sa K' knot defax
+binder 5757:5757 <> x:57
+binder 5759:5759 <> y:58
+binder 5761:5761 <> z:59
+binder 5763:5764 <> z':60
+R5793:5802 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5811:5820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5821:5827 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5840:5849 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5833:5839 VST.msl.knot_full_sa K' knot defax
+binder 5828:5829 <> x':61
+R5850:5856 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5869:5870 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5862:5868 VST.msl.knot_full_sa K' knot defax
+binder 5857:5858 <> y':62
+R5884:5887 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5871:5874 VST.msl.sepalg <> join def
+R5882:5883 VST.msl.knot_full_sa <> z':60 var
+R5879:5880 VST.msl.knot_full_sa <> y':62 var
+R5876:5877 VST.msl.knot_full_sa <> x':61 var
+R5896:5899 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5888:5890 VST.msl.ageable <> age def
+R5894:5895 VST.msl.knot_full_sa <> x':61 var
+R5892:5892 VST.msl.knot_full_sa <> x:57 var
+R5900:5902 VST.msl.ageable <> age def
+R5906:5907 VST.msl.knot_full_sa <> y':62 var
+R5904:5904 VST.msl.knot_full_sa <> y:58 var
+R5803:5805 VST.msl.ageable <> age def
+R5809:5810 VST.msl.knot_full_sa <> z':60 var
+R5807:5807 VST.msl.knot_full_sa <> z:59 var
+R5783:5786 VST.msl.sepalg <> join def
+R5792:5792 VST.msl.knot_full_sa <> z:59 var
+R5790:5790 VST.msl.knot_full_sa <> y:58 var
+R5788:5788 VST.msl.knot_full_sa <> x:57 var
+R5942:5944 VST.msl.ageable <> age def
+R5976:5984 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R5976:5984 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R5976:5984 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R6012:6020 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R6012:6020 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R6012:6020 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R6012:6020 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R6012:6020 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R6012:6020 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R6056:6063 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R6056:6063 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R6092:6099 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R6092:6099 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R6130:6137 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R6130:6137 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R6264:6269 VST.msl.knot_full_sa KnotFullSa squash defax
+R6271:6271 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6274:6274 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6276:6276 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6264:6269 VST.msl.knot_full_sa KnotFullSa squash defax
+R6271:6271 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6274:6274 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6276:6276 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6292:6297 VST.msl.knot_full_sa KnotFullSa squash defax
+R6299:6299 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6302:6302 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6305:6305 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6292:6297 VST.msl.knot_full_sa KnotFullSa squash defax
+R6299:6299 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6302:6302 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6305:6305 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6361:6375 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R6361:6375 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R6361:6375 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R6361:6375 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R6361:6375 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R6361:6375 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R6361:6375 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R6361:6375 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R6417:6428 VST.msl.sepalg_functors <> paf_join_hom proj
+R6430:6434 VST.msl.knot_full_sa KnotFullSa paf_F defax
+R6417:6428 VST.msl.sepalg_functors <> paf_join_hom proj
+R6430:6434 VST.msl.knot_full_sa KnotFullSa paf_F defax
+prf 6460:6470 KnotFullSa unage_join1
+binder 6481:6481 <> x:63
+binder 6483:6484 <> x':64
+binder 6486:6487 <> y':65
+binder 6489:6490 <> z':66
+R6506:6509 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6518:6525 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6526:6532 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6534:6535 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 6533:6533 <> y:67
+R6536:6542 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6544:6545 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 6543:6543 <> z:68
+R6556:6559 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6546:6549 VST.msl.sepalg <> join def
+R6555:6555 VST.msl.knot_full_sa <> z:68 var
+R6553:6553 VST.msl.knot_full_sa <> y:67 var
+R6551:6551 VST.msl.knot_full_sa <> x:63 var
+R6568:6571 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6560:6562 VST.msl.ageable <> age def
+R6566:6567 VST.msl.knot_full_sa <> y':65 var
+R6564:6564 VST.msl.knot_full_sa <> y:67 var
+R6572:6574 VST.msl.ageable <> age def
+R6578:6579 VST.msl.knot_full_sa <> z':66 var
+R6576:6576 VST.msl.knot_full_sa <> z:68 var
+R6510:6512 VST.msl.ageable <> age def
+R6516:6517 VST.msl.knot_full_sa <> x':64 var
+R6514:6514 VST.msl.knot_full_sa <> x:63 var
+R6493:6496 VST.msl.sepalg <> join def
+R6504:6505 VST.msl.knot_full_sa <> z':66 var
+R6501:6502 VST.msl.knot_full_sa <> y':65 var
+R6498:6499 VST.msl.knot_full_sa <> x':64 var
+R6614:6617 VST.msl.sepalg <> join def
+R6620:6628 VST.msl.knot_full_sa KnotFullSa Join_knot inst
+R6631:6643 VST.msl.sepalg_generators <> Join_preimage inst
+R6646:6648 VST.msl.ageable <> age def
+R6691:6699 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R6716:6723 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R6691:6699 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R6691:6699 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R6716:6723 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R6799:6813 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R6799:6813 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R6799:6813 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R6861:6868 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R6861:6868 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R6907:6914 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R6907:6914 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R7036:7060 VST.msl.sepalg_functors <> paf_preserves_unmap_right proj
+R7080:7085 VST.msl.knot_full_sa KnotFullSa approx defax
+R7069:7074 VST.msl.knot_full_sa KnotFullSa approx defax
+R7062:7066 VST.msl.knot_full_sa KnotFullSa paf_F defax
+R7036:7060 VST.msl.sepalg_functors <> paf_preserves_unmap_right proj
+R7080:7085 VST.msl.knot_full_sa KnotFullSa approx defax
+R7069:7074 VST.msl.knot_full_sa KnotFullSa approx defax
+R7062:7066 VST.msl.knot_full_sa KnotFullSa paf_F defax
+R7143:7157 VST.msl.knot_full_sa KnotFullSa unsquash_approx prfax
+R7143:7157 VST.msl.knot_full_sa KnotFullSa unsquash_approx prfax
+R7143:7157 VST.msl.knot_full_sa KnotFullSa unsquash_approx prfax
+R7181:7186 VST.msl.knot_full_sa KnotFullSa squash defax
+R7188:7188 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7192:7192 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7194:7194 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7189:7189 Coq.Init.Datatypes <> S constr
+R7181:7186 VST.msl.knot_full_sa KnotFullSa squash defax
+R7188:7188 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7192:7192 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7194:7194 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7189:7189 Coq.Init.Datatypes <> S constr
+R7210:7215 VST.msl.knot_full_sa KnotFullSa squash defax
+R7217:7217 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7221:7221 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7223:7223 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7218:7218 Coq.Init.Datatypes <> S constr
+R7210:7215 VST.msl.knot_full_sa KnotFullSa squash defax
+R7217:7217 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7221:7221 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7223:7223 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7218:7218 Coq.Init.Datatypes <> S constr
+R7258:7272 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R7258:7272 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R7258:7272 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R7258:7272 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R7258:7272 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R7258:7272 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R7315:7326 VST.msl.sepalg_functors <> paf_join_hom proj
+R7350:7355 VST.msl.knot_full_sa KnotFullSa approx defax
+R7358:7358 Coq.Init.Datatypes <> S constr
+R7335:7340 VST.msl.knot_full_sa KnotFullSa approx defax
+R7343:7343 Coq.Init.Datatypes <> S constr
+R7328:7332 VST.msl.knot_full_sa KnotFullSa paf_F defax
+R7315:7326 VST.msl.sepalg_functors <> paf_join_hom proj
+R7350:7355 VST.msl.knot_full_sa KnotFullSa approx defax
+R7358:7358 Coq.Init.Datatypes <> S constr
+R7335:7340 VST.msl.knot_full_sa KnotFullSa approx defax
+R7343:7343 Coq.Init.Datatypes <> S constr
+R7328:7332 VST.msl.knot_full_sa KnotFullSa paf_F defax
+R7391:7405 VST.msl.knot_full_sa KnotFullSa unsquash_approx prfax
+R7391:7405 VST.msl.knot_full_sa KnotFullSa unsquash_approx prfax
+R7391:7405 VST.msl.knot_full_sa KnotFullSa unsquash_approx prfax
+R7447:7455 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R7447:7455 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R7447:7455 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R7470:7484 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R7470:7484 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R7470:7484 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R7517:7522 VST.msl.knot_full_sa KnotFullSa squash defax
+R7524:7524 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7526:7527 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7566:7566 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7528:7531 VST.msl.functors MixVariantFunctor fmap proj
+R7551:7556 VST.msl.knot_full_sa KnotFullSa approx defax
+R7559:7559 Coq.Init.Datatypes <> S constr
+R7536:7541 VST.msl.knot_full_sa KnotFullSa approx defax
+R7544:7544 Coq.Init.Datatypes <> S constr
+R7533:7533 VST.msl.knot_full_sa KnotFullSa F defax
+R7517:7522 VST.msl.knot_full_sa KnotFullSa squash defax
+R7524:7524 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7526:7527 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7566:7566 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7528:7531 VST.msl.functors MixVariantFunctor fmap proj
+R7551:7556 VST.msl.knot_full_sa KnotFullSa approx defax
+R7559:7559 Coq.Init.Datatypes <> S constr
+R7536:7541 VST.msl.knot_full_sa KnotFullSa approx defax
+R7544:7544 Coq.Init.Datatypes <> S constr
+R7533:7533 VST.msl.knot_full_sa KnotFullSa F defax
+R7586:7597 VST.msl.knot_full_sa KnotFullSa unsquash_inj prfax
+R7586:7597 VST.msl.knot_full_sa KnotFullSa unsquash_inj prfax
+R7612:7626 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R7612:7626 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R7612:7626 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R7642:7662 Coq.Init.Datatypes <> injective_projections thm
+R7642:7662 Coq.Init.Datatypes <> injective_projections thm
+R7691:7705 VST.msl.knot_full_sa KnotFullSa unsquash_approx prfax
+R7691:7705 VST.msl.knot_full_sa KnotFullSa unsquash_approx prfax
+R7691:7705 VST.msl.knot_full_sa KnotFullSa unsquash_approx prfax
+R7742:7749 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R7742:7749 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R7742:7749 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R7773:7776 VST.msl.base <> :::x_'oo'_x not
+R7765:7770 VST.msl.knot_full_sa KnotFullSa approx defax
+R7777:7782 VST.msl.knot_full_sa KnotFullSa approx defax
+R7785:7785 Coq.Init.Datatypes <> S constr
+R7797:7802 VST.msl.knot_full_sa KnotFullSa approx defax
+R7834:7837 VST.msl.base <> :::x_'oo'_x not
+R7822:7827 VST.msl.knot_full_sa KnotFullSa approx defax
+R7830:7830 Coq.Init.Datatypes <> S constr
+R7838:7843 VST.msl.knot_full_sa KnotFullSa approx defax
+R7854:7859 VST.msl.knot_full_sa KnotFullSa approx defax
+R7773:7776 VST.msl.base <> :::x_'oo'_x not
+R7765:7770 VST.msl.knot_full_sa KnotFullSa approx defax
+R7777:7782 VST.msl.knot_full_sa KnotFullSa approx defax
+R7785:7785 Coq.Init.Datatypes <> S constr
+R7797:7802 VST.msl.knot_full_sa KnotFullSa approx defax
+R7834:7837 VST.msl.base <> :::x_'oo'_x not
+R7822:7827 VST.msl.knot_full_sa KnotFullSa approx defax
+R7830:7830 Coq.Init.Datatypes <> S constr
+R7838:7843 VST.msl.knot_full_sa KnotFullSa approx defax
+R7854:7859 VST.msl.knot_full_sa KnotFullSa approx defax
+R7909:7909 Coq.Init.Datatypes <> S constr
+R7921:7923 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R7909:7909 Coq.Init.Datatypes <> S constr
+R7921:7923 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R7959:7972 VST.msl.knot_full_sa KnotFullSa approx_approx2 prfax
+R7959:7972 VST.msl.knot_full_sa KnotFullSa approx_approx2 prfax
+R7959:7972 VST.msl.knot_full_sa KnotFullSa approx_approx2 prfax
+R8028:8028 Coq.Init.Datatypes <> S constr
+R8040:8042 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R8028:8028 Coq.Init.Datatypes <> S constr
+R8040:8042 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R8078:8091 VST.msl.knot_full_sa KnotFullSa approx_approx1 prfax
+R8078:8091 VST.msl.knot_full_sa KnotFullSa approx_approx1 prfax
+R8078:8091 VST.msl.knot_full_sa KnotFullSa approx_approx1 prfax
+R8125:8133 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R8125:8133 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R8125:8133 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R8148:8162 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R8148:8162 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R8148:8162 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R8196:8201 VST.msl.knot_full_sa KnotFullSa squash defax
+R8203:8203 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8205:8205 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8244:8244 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8206:8209 VST.msl.functors MixVariantFunctor fmap proj
+R8229:8234 VST.msl.knot_full_sa KnotFullSa approx defax
+R8237:8237 Coq.Init.Datatypes <> S constr
+R8214:8219 VST.msl.knot_full_sa KnotFullSa approx defax
+R8222:8222 Coq.Init.Datatypes <> S constr
+R8211:8211 VST.msl.knot_full_sa KnotFullSa F defax
+R8196:8201 VST.msl.knot_full_sa KnotFullSa squash defax
+R8203:8203 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8205:8205 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8244:8244 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8206:8209 VST.msl.functors MixVariantFunctor fmap proj
+R8229:8234 VST.msl.knot_full_sa KnotFullSa approx defax
+R8237:8237 Coq.Init.Datatypes <> S constr
+R8214:8219 VST.msl.knot_full_sa KnotFullSa approx defax
+R8222:8222 Coq.Init.Datatypes <> S constr
+R8211:8211 VST.msl.knot_full_sa KnotFullSa F defax
+R8264:8275 VST.msl.knot_full_sa KnotFullSa unsquash_inj prfax
+R8264:8275 VST.msl.knot_full_sa KnotFullSa unsquash_inj prfax
+R8290:8304 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R8290:8304 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R8290:8304 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R8321:8341 Coq.Init.Datatypes <> injective_projections thm
+R8321:8341 Coq.Init.Datatypes <> injective_projections thm
+R8388:8395 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R8388:8395 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R8388:8395 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R8419:8422 VST.msl.base <> :::x_'oo'_x not
+R8411:8416 VST.msl.knot_full_sa KnotFullSa approx defax
+R8423:8428 VST.msl.knot_full_sa KnotFullSa approx defax
+R8431:8431 Coq.Init.Datatypes <> S constr
+R8443:8448 VST.msl.knot_full_sa KnotFullSa approx defax
+R8480:8483 VST.msl.base <> :::x_'oo'_x not
+R8468:8473 VST.msl.knot_full_sa KnotFullSa approx defax
+R8476:8476 Coq.Init.Datatypes <> S constr
+R8484:8489 VST.msl.knot_full_sa KnotFullSa approx defax
+R8500:8505 VST.msl.knot_full_sa KnotFullSa approx defax
+R8419:8422 VST.msl.base <> :::x_'oo'_x not
+R8411:8416 VST.msl.knot_full_sa KnotFullSa approx defax
+R8423:8428 VST.msl.knot_full_sa KnotFullSa approx defax
+R8431:8431 Coq.Init.Datatypes <> S constr
+R8443:8448 VST.msl.knot_full_sa KnotFullSa approx defax
+R8480:8483 VST.msl.base <> :::x_'oo'_x not
+R8468:8473 VST.msl.knot_full_sa KnotFullSa approx defax
+R8476:8476 Coq.Init.Datatypes <> S constr
+R8484:8489 VST.msl.knot_full_sa KnotFullSa approx defax
+R8500:8505 VST.msl.knot_full_sa KnotFullSa approx defax
+R8555:8555 Coq.Init.Datatypes <> S constr
+R8567:8569 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R8555:8555 Coq.Init.Datatypes <> S constr
+R8567:8569 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R8605:8618 VST.msl.knot_full_sa KnotFullSa approx_approx2 prfax
+R8605:8618 VST.msl.knot_full_sa KnotFullSa approx_approx2 prfax
+R8605:8618 VST.msl.knot_full_sa KnotFullSa approx_approx2 prfax
+R8674:8674 Coq.Init.Datatypes <> S constr
+R8686:8688 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R8674:8674 Coq.Init.Datatypes <> S constr
+R8686:8688 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R8724:8737 VST.msl.knot_full_sa KnotFullSa approx_approx1 prfax
+R8724:8737 VST.msl.knot_full_sa KnotFullSa approx_approx1 prfax
+R8724:8737 VST.msl.knot_full_sa KnotFullSa approx_approx1 prfax
+prf 8774:8784 KnotFullSa unage_join2
+binder 8799:8799 <> z:69
+binder 8801:8802 <> x':70
+binder 8804:8805 <> y':71
+binder 8807:8808 <> z':72
+R8824:8827 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8836:8845 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8846:8852 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8854:8855 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8853:8853 <> x:73
+R8856:8862 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8864:8865 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8863:8863 <> y:74
+R8876:8879 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8866:8869 VST.msl.sepalg <> join def
+R8875:8875 VST.msl.knot_full_sa <> z:69 var
+R8873:8873 VST.msl.knot_full_sa <> y:74 var
+R8871:8871 VST.msl.knot_full_sa <> x:73 var
+R8888:8891 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8880:8882 VST.msl.ageable <> age def
+R8886:8887 VST.msl.knot_full_sa <> x':70 var
+R8884:8884 VST.msl.knot_full_sa <> x:73 var
+R8892:8894 VST.msl.ageable <> age def
+R8898:8899 VST.msl.knot_full_sa <> y':71 var
+R8896:8896 VST.msl.knot_full_sa <> y:74 var
+R8828:8830 VST.msl.ageable <> age def
+R8834:8835 VST.msl.knot_full_sa <> z':72 var
+R8832:8832 VST.msl.knot_full_sa <> z:69 var
+R8811:8814 VST.msl.sepalg <> join def
+R8822:8823 VST.msl.knot_full_sa <> z':72 var
+R8819:8820 VST.msl.knot_full_sa <> y':71 var
+R8816:8817 VST.msl.knot_full_sa <> x':70 var
+R8935:8947 VST.msl.knot_full_sa KnotFullSa join_unsquash thm
+R8935:8947 VST.msl.knot_full_sa KnotFullSa join_unsquash thm
+R8935:8947 VST.msl.knot_full_sa KnotFullSa join_unsquash thm
+R8983:8986 VST.msl.sepalg <> join def
+R8989:8997 VST.msl.knot_full_sa KnotFullSa Join_knot inst
+R9000:9012 VST.msl.sepalg_generators <> Join_preimage inst
+R9015:9017 VST.msl.ageable <> age def
+R9056:9064 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R9056:9064 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R9056:9064 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R9056:9064 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R9082:9089 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R9125:9132 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R9171:9178 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R9217:9224 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R9082:9089 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R9125:9132 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R9171:9178 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R9217:9224 VST.msl.knot_full_sa KnotFullSa unsquash defax
+R9354:9368 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R9354:9368 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R9354:9368 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R9426:9449 VST.msl.sepalg_functors <> paf_preserves_unmap_left proj
+R9475:9480 VST.msl.knot_full_sa KnotFullSa approx defax
+R9464:9469 VST.msl.knot_full_sa KnotFullSa approx defax
+R9451:9455 VST.msl.knot_full_sa KnotFullSa paf_F defax
+R9426:9449 VST.msl.sepalg_functors <> paf_preserves_unmap_left proj
+R9475:9480 VST.msl.knot_full_sa KnotFullSa approx defax
+R9464:9469 VST.msl.knot_full_sa KnotFullSa approx defax
+R9451:9455 VST.msl.knot_full_sa KnotFullSa paf_F defax
+R9546:9560 VST.msl.knot_full_sa KnotFullSa unsquash_approx prfax
+R9546:9560 VST.msl.knot_full_sa KnotFullSa unsquash_approx prfax
+R9546:9560 VST.msl.knot_full_sa KnotFullSa unsquash_approx prfax
+R9585:9590 VST.msl.knot_full_sa KnotFullSa squash defax
+R9592:9592 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9596:9597 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9600:9600 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9593:9593 Coq.Init.Datatypes <> S constr
+R9585:9590 VST.msl.knot_full_sa KnotFullSa squash defax
+R9592:9592 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9596:9597 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9600:9600 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9593:9593 Coq.Init.Datatypes <> S constr
+R9616:9621 VST.msl.knot_full_sa KnotFullSa squash defax
+R9623:9623 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9627:9628 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9631:9631 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9624:9624 Coq.Init.Datatypes <> S constr
+R9616:9621 VST.msl.knot_full_sa KnotFullSa squash defax
+R9623:9623 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9627:9628 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9631:9631 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9624:9624 Coq.Init.Datatypes <> S constr
+R9653:9656 VST.msl.sepalg <> join def
+R9659:9668 VST.msl.knot_full_sa KnotFullSa Join_nat_F inst
+R9671:9679 VST.msl.sepalg_generators <> Join_prod inst
+R9772:9786 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R9772:9786 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R9772:9786 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R9772:9786 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R9772:9786 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R9772:9786 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R9825:9839 VST.msl.knot_full_sa KnotFullSa unsquash_approx prfax
+R9825:9839 VST.msl.knot_full_sa KnotFullSa unsquash_approx prfax
+R9825:9839 VST.msl.knot_full_sa KnotFullSa unsquash_approx prfax
+R9856:9867 VST.msl.sepalg_functors <> paf_join_hom proj
+R9869:9873 VST.msl.knot_full_sa KnotFullSa paf_F defax
+R9856:9867 VST.msl.sepalg_functors <> paf_join_hom proj
+R9869:9873 VST.msl.knot_full_sa KnotFullSa paf_F defax
+R9902:9910 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R9921:9935 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R9902:9910 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R9902:9910 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R9902:9910 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R9902:9910 VST.msl.knot_full_sa KnotFullSa knot_age1 prfax
+R9921:9935 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R9921:9935 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R9921:9935 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R9921:9935 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R9962:9973 VST.msl.knot_full_sa KnotFullSa unsquash_inj prfax
+R9962:9973 VST.msl.knot_full_sa KnotFullSa unsquash_inj prfax
+R9988:10002 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R9988:10002 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R9988:10002 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R10019:10039 Coq.Init.Datatypes <> injective_projections thm
+R10019:10039 Coq.Init.Datatypes <> injective_projections thm
+R10067:10074 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R10067:10074 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R10067:10074 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R10098:10101 VST.msl.base <> :::x_'oo'_x not
+R10090:10095 VST.msl.knot_full_sa KnotFullSa approx defax
+R10102:10107 VST.msl.knot_full_sa KnotFullSa approx defax
+R10110:10110 Coq.Init.Datatypes <> S constr
+R10122:10127 VST.msl.knot_full_sa KnotFullSa approx defax
+R10159:10162 VST.msl.base <> :::x_'oo'_x not
+R10147:10152 VST.msl.knot_full_sa KnotFullSa approx defax
+R10155:10155 Coq.Init.Datatypes <> S constr
+R10163:10168 VST.msl.knot_full_sa KnotFullSa approx defax
+R10179:10184 VST.msl.knot_full_sa KnotFullSa approx defax
+R10098:10101 VST.msl.base <> :::x_'oo'_x not
+R10090:10095 VST.msl.knot_full_sa KnotFullSa approx defax
+R10102:10107 VST.msl.knot_full_sa KnotFullSa approx defax
+R10110:10110 Coq.Init.Datatypes <> S constr
+R10122:10127 VST.msl.knot_full_sa KnotFullSa approx defax
+R10159:10162 VST.msl.base <> :::x_'oo'_x not
+R10147:10152 VST.msl.knot_full_sa KnotFullSa approx defax
+R10155:10155 Coq.Init.Datatypes <> S constr
+R10163:10168 VST.msl.knot_full_sa KnotFullSa approx defax
+R10179:10184 VST.msl.knot_full_sa KnotFullSa approx defax
+R10234:10234 Coq.Init.Datatypes <> S constr
+R10246:10248 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R10234:10234 Coq.Init.Datatypes <> S constr
+R10246:10248 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R10284:10297 VST.msl.knot_full_sa KnotFullSa approx_approx2 prfax
+R10284:10297 VST.msl.knot_full_sa KnotFullSa approx_approx2 prfax
+R10284:10297 VST.msl.knot_full_sa KnotFullSa approx_approx2 prfax
+R10353:10353 Coq.Init.Datatypes <> S constr
+R10365:10367 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R10353:10353 Coq.Init.Datatypes <> S constr
+R10365:10367 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R10403:10416 VST.msl.knot_full_sa KnotFullSa approx_approx1 prfax
+R10403:10416 VST.msl.knot_full_sa KnotFullSa approx_approx1 prfax
+R10403:10416 VST.msl.knot_full_sa KnotFullSa approx_approx1 prfax
+R10448:10459 VST.msl.knot_full_sa KnotFullSa unsquash_inj prfax
+R10448:10459 VST.msl.knot_full_sa KnotFullSa unsquash_inj prfax
+R10474:10488 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R10474:10488 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R10474:10488 VST.msl.knot_full_sa KnotFullSa unsquash_squash prfax
+R10505:10525 Coq.Init.Datatypes <> injective_projections thm
+R10505:10525 Coq.Init.Datatypes <> injective_projections thm
+R10553:10560 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R10553:10560 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R10553:10560 VST.msl.functors MixVariantFunctorLemmas fmap_app thm
+R10576:10590 VST.msl.knot_full_sa KnotFullSa unsquash_approx prfax
+R10576:10590 VST.msl.knot_full_sa KnotFullSa unsquash_approx prfax
+R10576:10590 VST.msl.knot_full_sa KnotFullSa unsquash_approx prfax
+R10631:10634 VST.msl.base <> :::x_'oo'_x not
+R10623:10628 VST.msl.knot_full_sa KnotFullSa approx defax
+R10635:10640 VST.msl.knot_full_sa KnotFullSa approx defax
+R10643:10643 Coq.Init.Datatypes <> S constr
+R10655:10660 VST.msl.knot_full_sa KnotFullSa approx defax
+R10692:10695 VST.msl.base <> :::x_'oo'_x not
+R10680:10685 VST.msl.knot_full_sa KnotFullSa approx defax
+R10688:10688 Coq.Init.Datatypes <> S constr
+R10696:10701 VST.msl.knot_full_sa KnotFullSa approx defax
+R10712:10717 VST.msl.knot_full_sa KnotFullSa approx defax
+R10631:10634 VST.msl.base <> :::x_'oo'_x not
+R10623:10628 VST.msl.knot_full_sa KnotFullSa approx defax
+R10635:10640 VST.msl.knot_full_sa KnotFullSa approx defax
+R10643:10643 Coq.Init.Datatypes <> S constr
+R10655:10660 VST.msl.knot_full_sa KnotFullSa approx defax
+R10692:10695 VST.msl.base <> :::x_'oo'_x not
+R10680:10685 VST.msl.knot_full_sa KnotFullSa approx defax
+R10688:10688 Coq.Init.Datatypes <> S constr
+R10696:10701 VST.msl.knot_full_sa KnotFullSa approx defax
+R10712:10717 VST.msl.knot_full_sa KnotFullSa approx defax
+R10767:10767 Coq.Init.Datatypes <> S constr
+R10779:10781 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R10767:10767 Coq.Init.Datatypes <> S constr
+R10779:10781 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R10817:10830 VST.msl.knot_full_sa KnotFullSa approx_approx2 prfax
+R10817:10830 VST.msl.knot_full_sa KnotFullSa approx_approx2 prfax
+R10817:10830 VST.msl.knot_full_sa KnotFullSa approx_approx2 prfax
+R10886:10886 Coq.Init.Datatypes <> S constr
+R10898:10900 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R10886:10886 Coq.Init.Datatypes <> S constr
+R10898:10900 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R10936:10949 VST.msl.knot_full_sa KnotFullSa approx_approx1 prfax
+R10936:10949 VST.msl.knot_full_sa KnotFullSa approx_approx1 prfax
+R10936:10949 VST.msl.knot_full_sa KnotFullSa approx_approx1 prfax
+prf 10988:10995 KnotFullSa asa_knot
+R11000:11006 VST.msl.age_sepalg <> Age_alg class
+R11015:11028 VST.msl.knot_full_sa KnotFullSa ageable_knot defax
+R11008:11011 VST.msl.knot_full_sa KnotFullSa knot defax
+R11067:11075 VST.msl.knot_full_sa KnotFullSa age_join1 thm
+R11067:11075 VST.msl.knot_full_sa KnotFullSa age_join1 thm
+R11088:11096 VST.msl.knot_full_sa KnotFullSa age_join2 thm
+R11088:11096 VST.msl.knot_full_sa KnotFullSa age_join2 thm
+R11109:11119 VST.msl.knot_full_sa KnotFullSa unage_join1 thm
+R11109:11119 VST.msl.knot_full_sa KnotFullSa unage_join1 thm
+R11132:11142 VST.msl.knot_full_sa KnotFullSa unage_join2 thm
+R11132:11142 VST.msl.knot_full_sa KnotFullSa unage_join2 thm
+R11157:11166 VST.msl.knot_full_sa KnotFullSa <> mod

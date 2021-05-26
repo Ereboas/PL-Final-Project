@@ -1,0 +1,864 @@
+DIGEST 4d783c6c5598354b729df4953c640720
+FVST.veric.Memory
+R15:29 Coq.Arith.EqNat <> <> lib
+R47:69 Coq.Relations.Relations <> <> lib
+R87:89 Coq.micromega.Lia <> <> lib
+R211:229 compcert.lib.Axioms <> <> lib
+R247:265 compcert.lib.Coqlib <> <> lib
+R283:303 compcert.lib.Integers <> <> lib
+R321:339 compcert.lib.Floats <> <> lib
+R357:373 compcert.lib.Maps <> <> lib
+R391:409 compcert.common.AST <> <> lib
+R427:448 compcert.common.Values <> <> lib
+R466:488 compcert.common.Memdata <> <> lib
+R506:528 compcert.common.Memtype <> <> lib
+R546:567 compcert.common.Memory <> <> lib
+R585:603 VST.sepcomp.Address <> <> lib
+prf 613:621 <> range_dec
+R638:638 Coq.Numbers.BinNums <> Z ind
+binder 631:631 <> a:1
+binder 633:633 <> b:2
+binder 635:635 <> c:3
+R641:641 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R652:654 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R668:668 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R643:646 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R648:650 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R642:642 VST.veric.Memory <> a:1 var
+R647:647 VST.veric.Memory <> b:2 var
+R647:647 VST.veric.Memory <> b:2 var
+R651:651 VST.veric.Memory <> c:3 var
+R655:656 Coq.Init.Logic <> ::type_scope:'~'_x not
+R667:667 Coq.Init.Logic <> ::type_scope:'~'_x not
+R658:661 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R663:665 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R657:657 VST.veric.Memory <> a:1 var
+R662:662 VST.veric.Memory <> b:2 var
+R662:662 VST.veric.Memory <> b:2 var
+R666:666 VST.veric.Memory <> c:3 var
+R696:698 compcert.lib.Coqlib <> zle def
+R696:698 compcert.lib.Coqlib <> zle def
+R716:718 compcert.lib.Coqlib <> zlt def
+R716:718 compcert.lib.Coqlib <> zlt def
+R793:806 VST.msl.eq_dec <> <> lib
+inst 819:829 <> EqDec_ident
+R832:836 VST.msl.eq_dec <> EqDec class
+R838:842 compcert.common.AST <> ident def
+R847:854 compcert.common.AST <> ident_eq def
+inst 867:876 <> EqDec_byte
+R879:883 VST.msl.eq_dec <> EqDec class
+R885:888 compcert.lib.Integers <> byte syndef
+R893:903 compcert.lib.Integers Byte eq_dec thm
+inst 1045:1053 <> EqDec_int
+R1056:1060 VST.msl.eq_dec <> EqDec class
+R1062:1064 compcert.lib.Integers <> int syndef
+R1069:1078 compcert.lib.Integers Int eq_dec thm
+inst 1090:1100 <> EqDec_int64
+R1103:1107 VST.msl.eq_dec <> EqDec class
+R1109:1113 compcert.lib.Integers <> int64 syndef
+R1118:1129 compcert.lib.Integers Int64 eq_dec thm
+inst 1141:1151 <> EqDec_float
+R1154:1158 VST.msl.eq_dec <> EqDec class
+R1160:1164 compcert.lib.Floats <> float def
+R1169:1180 compcert.lib.Floats Float eq_dec def
+inst 1192:1204 <> EqDec_float32
+R1207:1211 VST.msl.eq_dec <> EqDec class
+R1213:1219 compcert.lib.Floats <> float32 def
+R1224:1237 compcert.lib.Floats Float32 eq_dec def
+inst 1250:1258 <> EqDex_ptr
+R1262:1266 VST.msl.eq_dec <> EqDec class
+R1268:1273 compcert.lib.Integers <> ptrofs syndef
+R1278:1290 compcert.lib.Integers Ptrofs eq_dec thm
+inst 1311:1322 <> EqDec_memval
+R1325:1329 VST.msl.eq_dec <> EqDec class
+R1331:1336 compcert.common.Memdata <> memval ind
+R1382:1387 VST.msl.eq_dec <> eq_dec def
+R1382:1387 VST.msl.eq_dec <> eq_dec def
+R1382:1387 VST.msl.eq_dec <> eq_dec def
+R1382:1387 VST.msl.eq_dec <> eq_dec def
+R1382:1387 VST.msl.eq_dec <> eq_dec def
+R1382:1387 VST.msl.eq_dec <> eq_dec def
+R1382:1387 VST.msl.eq_dec <> eq_dec def
+inst 1409:1417 <> EqDec_val
+R1420:1424 VST.msl.eq_dec <> EqDec class
+R1426:1428 compcert.common.Values <> val ind
+R1466:1471 VST.msl.eq_dec <> eq_dec def
+R1466:1471 VST.msl.eq_dec <> eq_dec def
+R1466:1471 VST.msl.eq_dec <> eq_dec def
+R1466:1471 VST.msl.eq_dec <> eq_dec def
+R1466:1471 VST.msl.eq_dec <> eq_dec def
+R1466:1471 VST.msl.eq_dec <> eq_dec def
+R1466:1471 VST.msl.eq_dec <> eq_dec def
+inst 1493:1506 <> EqDec_quantity
+R1509:1513 VST.msl.eq_dec <> EqDec class
+R1515:1522 compcert.common.Memdata <> quantity ind
+def 1575:1583 <> access_at
+R1589:1591 compcert.common.Memory <> mem syndef
+binder 1586:1586 <> m:4
+R1600:1606 VST.sepcomp.Address <> address def
+binder 1595:1597 <> loc:5
+R1613:1621 compcert.common.Memtype <> perm_kind ind
+binder 1610:1610 <> k:6
+R1625:1630 Coq.Init.Datatypes <> option ind
+R1632:1641 compcert.common.Memtype <> permission ind
+R1649:1656 compcert.lib.Maps PMap get def
+R1697:1697 VST.veric.Memory <> k:6 var
+R1688:1690 Coq.Init.Datatypes <> snd def
+R1692:1694 VST.veric.Memory <> loc:5 var
+R1669:1682 compcert.common.Memory Mem mem_access proj
+R1684:1684 VST.veric.Memory <> m:4 var
+R1659:1661 Coq.Init.Datatypes <> fst def
+R1663:1665 VST.veric.Memory <> loc:5 var
+prf 1707:1717 <> perm_access
+binder 1727:1727 <> m:7
+binder 1729:1729 <> b:8
+binder 1731:1733 <> ofs:9
+binder 1735:1735 <> k:10
+binder 1737:1737 <> p:11
+R1764:1769 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1819:1819 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1744:1751 compcert.common.Memory Mem perm def
+R1763:1763 VST.veric.Memory <> p:11 var
+R1761:1761 VST.veric.Memory <> k:10 var
+R1757:1759 VST.veric.Memory <> ofs:9 var
+R1755:1755 VST.veric.Memory <> b:8 var
+R1753:1753 VST.veric.Memory <> m:7 var
+R1770:1785 compcert.common.Memory Mem perm_order'' def
+R1812:1815 Coq.Init.Datatypes <> Some constr
+R1817:1817 VST.veric.Memory <> p:11 var
+R1788:1796 VST.veric.Memory <> access_at def
+R1808:1808 VST.veric.Memory <> k:10 var
+R1800:1800 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1802:1802 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1806:1806 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1801:1801 VST.veric.Memory <> b:8 var
+R1803:1805 VST.veric.Memory <> ofs:9 var
+R1798:1798 VST.veric.Memory <> m:7 var
+prf 1854:1864 <> access_perm
+binder 1874:1874 <> m:12
+binder 1876:1876 <> b:13
+binder 1878:1880 <> ofs:14
+binder 1882:1882 <> k:15
+binder 1884:1884 <> p:16
+R1920:1925 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1926:1933 compcert.common.Memory Mem perm def
+R1945:1945 VST.veric.Memory <> p:16 var
+R1943:1943 VST.veric.Memory <> k:15 var
+R1939:1941 VST.veric.Memory <> ofs:14 var
+R1937:1937 VST.veric.Memory <> b:13 var
+R1935:1935 VST.veric.Memory <> m:12 var
+R1911:1913 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1889:1897 VST.veric.Memory <> access_at def
+R1910:1910 VST.veric.Memory <> k:15 var
+R1901:1901 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1903:1904 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1908:1908 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1902:1902 VST.veric.Memory <> b:13 var
+R1905:1907 VST.veric.Memory <> ofs:14 var
+R1899:1899 VST.veric.Memory <> m:12 var
+R1914:1917 Coq.Init.Datatypes <> Some constr
+R1919:1919 VST.veric.Memory <> p:16 var
+R1970:1977 compcert.common.Memory Mem perm def
+R1980:1994 compcert.common.Memory Mem perm_order' def
+R2004:2012 VST.veric.Memory <> access_at def
+prf 2074:2087 <> access_cur_max
+binder 2097:2097 <> m:17
+binder 2099:2099 <> a:18
+R2113:2128 compcert.common.Memory Mem perm_order'' def
+R2152:2160 VST.veric.Memory <> access_at def
+R2166:2168 compcert.common.Memtype <> Cur constr
+R2164:2164 VST.veric.Memory <> a:18 var
+R2162:2162 VST.veric.Memory <> m:17 var
+R2131:2139 VST.veric.Memory <> access_at def
+R2145:2147 compcert.common.Memtype <> Max constr
+R2143:2143 VST.veric.Memory <> a:18 var
+R2141:2141 VST.veric.Memory <> m:17 var
+R2212:2220 VST.veric.Memory <> access_at def
+R2230:2232 compcert.common.Memtype <> Cur constr
+R2224:2224 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2226:2226 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2228:2228 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2212:2220 VST.veric.Memory <> access_at def
+R2230:2232 compcert.common.Memtype <> Cur constr
+R2224:2224 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2226:2226 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2228:2228 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2255:2265 VST.veric.Memory <> perm_access thm
+R2255:2265 VST.veric.Memory <> perm_access thm
+R2255:2265 VST.veric.Memory <> perm_access thm
+R2276:2291 compcert.common.Memory Mem perm_cur_max thm
+R2276:2291 compcert.common.Memory Mem perm_cur_max thm
+R2310:2320 VST.veric.Memory <> perm_access thm
+R2310:2320 VST.veric.Memory <> perm_access thm
+R2310:2320 VST.veric.Memory <> perm_access thm
+R2359:2367 VST.veric.Memory <> access_at def
+R2378:2380 compcert.common.Memtype <> Max constr
+R2371:2371 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2373:2374 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2376:2376 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2359:2367 VST.veric.Memory <> access_at def
+R2378:2380 compcert.common.Memtype <> Max constr
+R2371:2371 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2373:2374 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2376:2376 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+prf 2409:2424 <> invalid_noaccess
+binder 2434:2434 <> m:19
+binder 2436:2436 <> b:20
+binder 2438:2440 <> ofs:21
+binder 2442:2442 <> k:22
+R2470:2473 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2496:2498 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2474:2482 VST.veric.Memory <> access_at def
+R2495:2495 VST.veric.Memory <> k:22 var
+R2486:2486 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2488:2489 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2493:2493 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2487:2487 VST.veric.Memory <> b:20 var
+R2490:2492 VST.veric.Memory <> ofs:21 var
+R2484:2484 VST.veric.Memory <> m:19 var
+R2499:2502 Coq.Init.Datatypes <> None constr
+R2450:2450 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2451:2465 compcert.common.Memory Mem valid_block def
+R2469:2469 VST.veric.Memory <> b:20 var
+R2467:2467 VST.veric.Memory <> m:19 var
+R2526:2547 compcert.common.Memory Mem nextblock_noaccess proj
+R2526:2547 compcert.common.Memory Mem nextblock_noaccess proj
+prf 2574:2585 <> access_empty
+binder 2595:2595 <> a:23
+binder 2597:2597 <> k:24
+R2623:2625 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2600:2608 VST.veric.Memory <> access_at def
+R2622:2622 VST.veric.Memory <> k:24 var
+R2620:2620 VST.veric.Memory <> a:23 var
+R2610:2618 compcert.common.Memory Mem empty def
+R2626:2629 Coq.Init.Datatypes <> None constr
+R2656:2664 VST.veric.Memory <> access_at def
+R2667:2675 compcert.common.Memory Mem empty def
+R2693:2699 compcert.lib.Maps PMap gi thm
+R2693:2699 compcert.lib.Maps PMap gi thm
+R2693:2699 compcert.lib.Maps PMap gi thm
+R2733:2741 compcert.common.Memory Mem alloc def
+prf 2753:2770 <> alloc_access_other
+binder 2782:2783 <> m1:25
+binder 2785:2786 <> lo:26
+binder 2788:2789 <> hi:27
+binder 2791:2792 <> m2:28
+binder 2794:2794 <> b:29
+R2825:2830 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2838:2839 <> b':30
+binder 2841:2843 <> ofs:31
+binder 2845:2845 <> k:32
+R2882:2887 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2912:2914 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2888:2896 VST.veric.Memory <> access_at def
+R2911:2911 VST.veric.Memory <> k:32 var
+R2901:2901 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2904:2905 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2909:2909 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2902:2903 VST.veric.Memory <> b':30 var
+R2906:2908 VST.veric.Memory <> ofs:31 var
+R2898:2899 VST.veric.Memory <> m1:25 var
+R2915:2923 VST.veric.Memory <> access_at def
+R2938:2938 VST.veric.Memory <> k:32 var
+R2928:2928 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2931:2932 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2936:2936 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2929:2930 VST.veric.Memory <> b':30 var
+R2933:2935 VST.veric.Memory <> ofs:31 var
+R2925:2926 VST.veric.Memory <> m2:28 var
+R2855:2859 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2881:2881 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2852:2853 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2850:2851 VST.veric.Memory <> b':30 var
+R2854:2854 VST.veric.Memory <> b:29 var
+R2868:2871 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2863:2865 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2860:2862 VST.veric.Memory <> ofs:31 var
+R2866:2867 VST.veric.Memory <> lo:26 var
+R2875:2878 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R2872:2874 VST.veric.Memory <> ofs:31 var
+R2879:2880 VST.veric.Memory <> hi:27 var
+R2815:2817 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2797:2805 compcert.common.Memory Mem alloc def
+R2813:2814 VST.veric.Memory <> hi:27 var
+R2810:2811 VST.veric.Memory <> lo:26 var
+R2807:2808 VST.veric.Memory <> m1:25 var
+R2818:2818 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2821:2822 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2824:2824 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2819:2820 VST.veric.Memory <> m2:28 var
+R2823:2823 VST.veric.Memory <> b:29 var
+R2969:2990 compcert.common.Memory Mem nextblock_noaccess proj
+R2969:2990 compcert.common.Memory Mem nextblock_noaccess proj
+R3017:3032 compcert.common.Memory Mem alloc_result thm
+R3017:3032 compcert.common.Memory Mem alloc_result thm
+R3055:3063 VST.veric.Memory <> access_at def
+R3112:3119 compcert.common.Values <> eq_block def
+R3125:3137 compcert.common.Memory Mem nextblock proj
+R3112:3119 compcert.common.Values <> eq_block def
+R3125:3137 compcert.common.Memory Mem nextblock proj
+R3195:3202 compcert.lib.Maps PMap gss thm
+R3195:3202 compcert.lib.Maps PMap gss thm
+R3195:3202 compcert.lib.Maps PMap gss thm
+R3215:3217 compcert.lib.Coqlib <> zle def
+R3229:3231 compcert.lib.Coqlib <> zlt def
+R3274:3283 compcert.lib.Coqlib <> Plt_strict thm
+R3215:3217 compcert.lib.Coqlib <> zle def
+R3229:3231 compcert.lib.Coqlib <> zlt def
+R3229:3231 compcert.lib.Coqlib <> zlt def
+R3274:3283 compcert.lib.Coqlib <> Plt_strict thm
+R3274:3283 compcert.lib.Coqlib <> Plt_strict thm
+R3274:3283 compcert.lib.Coqlib <> Plt_strict thm
+R3294:3301 compcert.lib.Maps PMap gso thm
+R3294:3301 compcert.lib.Maps PMap gso thm
+R3294:3301 compcert.lib.Maps PMap gso thm
+prf 3332:3348 <> alloc_access_same
+binder 3360:3361 <> m1:33
+binder 3363:3364 <> lo:34
+binder 3366:3367 <> hi:35
+binder 3369:3370 <> m2:36
+binder 3372:3372 <> b:37
+R3403:3408 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3416:3418 <> ofs:38
+binder 3420:3420 <> k:39
+R3439:3442 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3465:3467 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3443:3451 VST.veric.Memory <> access_at def
+R3464:3464 VST.veric.Memory <> k:39 var
+R3456:3456 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3458:3458 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3462:3462 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3457:3457 VST.veric.Memory <> b:37 var
+R3459:3461 VST.veric.Memory <> ofs:38 var
+R3453:3454 VST.veric.Memory <> m2:36 var
+R3468:3471 Coq.Init.Datatypes <> Some constr
+R3473:3480 compcert.common.Memtype <> Freeable constr
+R3427:3430 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R3434:3436 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R3425:3426 VST.veric.Memory <> lo:34 var
+R3431:3433 VST.veric.Memory <> ofs:38 var
+R3431:3433 VST.veric.Memory <> ofs:38 var
+R3437:3438 VST.veric.Memory <> hi:35 var
+R3393:3395 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3375:3383 compcert.common.Memory Mem alloc def
+R3391:3392 VST.veric.Memory <> hi:35 var
+R3388:3389 VST.veric.Memory <> lo:34 var
+R3385:3386 VST.veric.Memory <> m1:33 var
+R3396:3396 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3399:3400 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3402:3402 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3397:3398 VST.veric.Memory <> m2:36 var
+R3401:3401 VST.veric.Memory <> b:37 var
+R3536:3544 VST.veric.Memory <> access_at def
+R3563:3570 compcert.lib.Maps PMap gss thm
+R3563:3570 compcert.lib.Maps PMap gss thm
+R3563:3570 compcert.lib.Maps PMap gss thm
+R3583:3585 compcert.lib.Coqlib <> zle def
+R3597:3599 compcert.lib.Coqlib <> zlt def
+R3583:3585 compcert.lib.Coqlib <> zle def
+R3597:3599 compcert.lib.Coqlib <> zlt def
+R3597:3599 compcert.lib.Coqlib <> zlt def
+R3645:3653 compcert.common.Memory Mem alloc def
+R3668:3675 compcert.common.Memory Mem free def
+prf 3685:3695 <> access_free
+binder 3707:3708 <> m1:40
+binder 3710:3710 <> b:41
+binder 3712:3713 <> lo:42
+binder 3715:3716 <> hi:43
+R3721:3721 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3792:3798 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3799:3800 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3803:3804 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3808:3810 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3840:3841 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3805:3807 compcert.common.Memory <> mem syndef
+binder 3801:3802 <> m2:44
+R3830:3832 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3811:3818 compcert.common.Memory Mem free def
+R3828:3829 VST.veric.Memory <> hi:43 var
+R3825:3826 VST.veric.Memory <> lo:42 var
+R3823:3823 VST.veric.Memory <> b:41 var
+R3820:3821 VST.veric.Memory <> m1:40 var
+R3833:3836 Coq.Init.Datatypes <> Some constr
+R3838:3839 VST.veric.Memory <> m2:44 var
+binder 3729:3731 <> ofs:45
+R3748:3751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3776:3778 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3752:3760 VST.veric.Memory <> access_at def
+R3773:3775 compcert.common.Memtype <> Cur constr
+R3765:3765 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3767:3767 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3771:3771 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3766:3766 VST.veric.Memory <> b:41 var
+R3768:3770 VST.veric.Memory <> ofs:45 var
+R3762:3763 VST.veric.Memory <> m1:40 var
+R3779:3782 Coq.Init.Datatypes <> Some constr
+R3784:3791 compcert.common.Memtype <> Freeable constr
+R3736:3739 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R3743:3745 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R3734:3735 VST.veric.Memory <> lo:42 var
+R3740:3742 VST.veric.Memory <> ofs:45 var
+R3740:3742 VST.veric.Memory <> ofs:45 var
+R3746:3747 VST.veric.Memory <> hi:43 var
+R3868:3875 compcert.common.Memory Mem free def
+R3889:3906 compcert.common.Memory Mem range_perm_dec thm
+R3923:3930 compcert.common.Memtype <> Freeable constr
+R3919:3921 compcert.common.Memtype <> Cur constr
+R3889:3906 compcert.common.Memory Mem range_perm_dec thm
+R3923:3930 compcert.common.Memtype <> Freeable constr
+R3919:3921 compcert.common.Memtype <> Cur constr
+R3990:3997 compcert.common.Memory Mem perm def
+R4007:4015 VST.veric.Memory <> access_at def
+prf 4080:4090 <> free_access
+binder 4102:4103 <> m1:46
+binder 4105:4105 <> b:47
+binder 4107:4108 <> lo:48
+binder 4110:4111 <> hi:49
+binder 4113:4114 <> m2:50
+R4146:4152 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4264:4264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 4160:4162 <> ofs:51
+R4179:4188 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4229:4232 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4213:4215 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4189:4197 VST.veric.Memory <> access_at def
+R4210:4212 compcert.common.Memtype <> Cur constr
+R4202:4202 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4204:4204 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4208:4208 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4203:4203 VST.veric.Memory <> b:47 var
+R4205:4207 VST.veric.Memory <> ofs:51 var
+R4199:4200 VST.veric.Memory <> m1:46 var
+R4216:4219 Coq.Init.Datatypes <> Some constr
+R4221:4228 compcert.common.Memtype <> Freeable constr
+R4257:4259 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4233:4241 VST.veric.Memory <> access_at def
+R4254:4256 compcert.common.Memtype <> Max constr
+R4246:4246 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4248:4248 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4252:4252 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4247:4247 VST.veric.Memory <> b:47 var
+R4249:4251 VST.veric.Memory <> ofs:51 var
+R4243:4244 VST.veric.Memory <> m2:50 var
+R4260:4263 Coq.Init.Datatypes <> None constr
+R4167:4170 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R4174:4176 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R4165:4166 VST.veric.Memory <> lo:48 var
+R4171:4173 VST.veric.Memory <> ofs:51 var
+R4171:4173 VST.veric.Memory <> ofs:51 var
+R4177:4178 VST.veric.Memory <> hi:49 var
+R4136:4138 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4117:4124 compcert.common.Memory Mem free def
+R4134:4135 VST.veric.Memory <> hi:49 var
+R4131:4132 VST.veric.Memory <> lo:48 var
+R4129:4129 VST.veric.Memory <> b:47 var
+R4126:4127 VST.veric.Memory <> m1:46 var
+R4139:4142 Coq.Init.Datatypes <> Some constr
+R4144:4145 VST.veric.Memory <> m2:50 var
+R4291:4298 compcert.common.Memory Mem free def
+R4317:4334 compcert.common.Memory Mem range_perm_dec thm
+R4351:4358 compcert.common.Memtype <> Freeable constr
+R4347:4349 compcert.common.Memtype <> Cur constr
+R4317:4334 compcert.common.Memory Mem range_perm_dec thm
+R4351:4358 compcert.common.Memtype <> Freeable constr
+R4347:4349 compcert.common.Memtype <> Cur constr
+R4432:4440 VST.veric.Memory <> access_at def
+R4461:4461 compcert.lib.Maps <> :::x_'!!'_x not
+R4479:4483 compcert.lib.Maps <> :::x_'!!'_x not
+R4485:4492 compcert.lib.Maps <> :::x_'!!'_x not
+R4462:4475 compcert.common.Memory Mem mem_access proj
+R4490:4492 compcert.common.Memtype <> Cur constr
+R4461:4461 compcert.lib.Maps <> :::x_'!!'_x not
+R4479:4483 compcert.lib.Maps <> :::x_'!!'_x not
+R4485:4492 compcert.lib.Maps <> :::x_'!!'_x not
+R4462:4475 compcert.common.Memory Mem mem_access proj
+R4490:4492 compcert.common.Memtype <> Cur constr
+R4525:4525 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4526:4533 compcert.common.Memtype <> Freeable constr
+R4525:4525 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4526:4533 compcert.common.Memtype <> Freeable constr
+R4611:4618 compcert.lib.Maps PMap gss thm
+R4611:4618 compcert.lib.Maps PMap gss thm
+R4611:4618 compcert.lib.Maps PMap gss thm
+R4632:4634 compcert.lib.Coqlib <> zle def
+R4646:4648 compcert.lib.Coqlib <> zlt def
+R4632:4634 compcert.lib.Coqlib <> zle def
+R4646:4648 compcert.lib.Coqlib <> zlt def
+R4646:4648 compcert.lib.Coqlib <> zlt def
+prf 4693:4709 <> free_access_other
+binder 4721:4722 <> m1:52
+binder 4724:4725 <> bf:53
+binder 4727:4728 <> lo:54
+binder 4730:4731 <> hi:55
+binder 4733:4734 <> m2:56
+R4767:4772 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 4780:4780 <> b:57
+binder 4782:4784 <> ofs:58
+binder 4786:4786 <> k:59
+R4823:4828 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4851:4853 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4829:4837 VST.veric.Memory <> access_at def
+R4850:4850 VST.veric.Memory <> k:59 var
+R4842:4842 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4844:4844 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4848:4848 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4843:4843 VST.veric.Memory <> b:57 var
+R4845:4847 VST.veric.Memory <> ofs:58 var
+R4839:4840 VST.veric.Memory <> m1:52 var
+R4854:4862 VST.veric.Memory <> access_at def
+R4875:4875 VST.veric.Memory <> k:59 var
+R4867:4867 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4869:4869 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4873:4873 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4868:4868 VST.veric.Memory <> b:57 var
+R4870:4872 VST.veric.Memory <> ofs:58 var
+R4864:4865 VST.veric.Memory <> m2:56 var
+R4798:4801 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4792:4795 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4791:4791 VST.veric.Memory <> b:57 var
+R4796:4797 VST.veric.Memory <> bf:53 var
+R4810:4813 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4805:4807 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R4802:4804 VST.veric.Memory <> ofs:58 var
+R4808:4809 VST.veric.Memory <> lo:54 var
+R4816:4819 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4814:4815 VST.veric.Memory <> hi:55 var
+R4820:4822 VST.veric.Memory <> ofs:58 var
+R4757:4759 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4737:4744 compcert.common.Memory Mem free def
+R4755:4756 VST.veric.Memory <> hi:55 var
+R4752:4753 VST.veric.Memory <> lo:54 var
+R4749:4750 VST.veric.Memory <> bf:53 var
+R4746:4747 VST.veric.Memory <> m1:52 var
+R4760:4763 Coq.Init.Datatypes <> Some constr
+R4765:4766 VST.veric.Memory <> m2:56 var
+R4902:4909 compcert.common.Memory Mem free def
+R4928:4945 compcert.common.Memory Mem range_perm_dec thm
+R4963:4970 compcert.common.Memtype <> Freeable constr
+R4959:4961 compcert.common.Memtype <> Cur constr
+R4928:4945 compcert.common.Memory Mem range_perm_dec thm
+R4963:4970 compcert.common.Memtype <> Freeable constr
+R4959:4961 compcert.common.Memtype <> Cur constr
+R5011:5019 VST.veric.Memory <> access_at def
+R5040:5047 compcert.common.Values <> eq_block def
+R5040:5047 compcert.common.Values <> eq_block def
+R5075:5082 compcert.lib.Maps PMap gss thm
+R5075:5082 compcert.lib.Maps PMap gss thm
+R5075:5082 compcert.lib.Maps PMap gss thm
+R5133:5135 compcert.lib.Coqlib <> zle def
+R5147:5149 compcert.lib.Coqlib <> zlt def
+R5133:5135 compcert.lib.Coqlib <> zle def
+R5147:5149 compcert.lib.Coqlib <> zlt def
+R5147:5149 compcert.lib.Coqlib <> zlt def
+R5191:5198 compcert.lib.Maps PMap gso thm
+R5191:5198 compcert.lib.Maps PMap gso thm
+R5191:5198 compcert.lib.Maps PMap gso thm
+R5235:5242 compcert.common.Memory Mem free def
+prf 5252:5264 <> access_drop_1
+binder 5276:5276 <> m:60
+binder 5278:5278 <> b:61
+binder 5280:5281 <> lo:62
+binder 5283:5284 <> hi:63
+binder 5286:5286 <> p:64
+binder 5288:5289 <> m':65
+R5327:5333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5458:5458 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 5341:5343 <> ofs:66
+R5360:5368 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 5376:5376 <> k:67
+R5422:5425 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5406:5408 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5384:5392 VST.veric.Memory <> access_at def
+R5405:5405 VST.veric.Memory <> k:67 var
+R5396:5396 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5398:5399 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5403:5403 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5397:5397 VST.veric.Memory <> b:61 var
+R5400:5402 VST.veric.Memory <> ofs:66 var
+R5394:5394 VST.veric.Memory <> m:60 var
+R5409:5412 Coq.Init.Datatypes <> Some constr
+R5414:5421 compcert.common.Memtype <> Freeable constr
+R5449:5451 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5426:5434 VST.veric.Memory <> access_at def
+R5448:5448 VST.veric.Memory <> k:67 var
+R5439:5439 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5441:5442 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5446:5446 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5440:5440 VST.veric.Memory <> b:61 var
+R5443:5445 VST.veric.Memory <> ofs:66 var
+R5436:5437 VST.veric.Memory <> m':65 var
+R5452:5455 Coq.Init.Datatypes <> Some constr
+R5457:5457 VST.veric.Memory <> p:64 var
+R5348:5351 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5355:5357 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R5346:5347 VST.veric.Memory <> lo:62 var
+R5352:5354 VST.veric.Memory <> ofs:66 var
+R5352:5354 VST.veric.Memory <> ofs:66 var
+R5358:5359 VST.veric.Memory <> hi:63 var
+R5317:5319 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5292:5304 compcert.common.Memory Mem drop_perm def
+R5316:5316 VST.veric.Memory <> p:64 var
+R5313:5314 VST.veric.Memory <> hi:63 var
+R5310:5311 VST.veric.Memory <> lo:62 var
+R5308:5308 VST.veric.Memory <> b:61 var
+R5306:5306 VST.veric.Memory <> m:60 var
+R5320:5323 Coq.Init.Datatypes <> Some constr
+R5325:5326 VST.veric.Memory <> m':65 var
+R5485:5497 compcert.common.Memory Mem drop_perm def
+R5516:5533 compcert.common.Memory Mem range_perm_dec thm
+R5549:5556 compcert.common.Memtype <> Freeable constr
+R5545:5547 compcert.common.Memtype <> Cur constr
+R5516:5533 compcert.common.Memory Mem range_perm_dec thm
+R5549:5556 compcert.common.Memtype <> Freeable constr
+R5545:5547 compcert.common.Memtype <> Cur constr
+R5597:5605 VST.veric.Memory <> access_at def
+R5624:5631 compcert.lib.Maps PMap gss thm
+R5624:5631 compcert.lib.Maps PMap gss thm
+R5624:5631 compcert.lib.Maps PMap gss thm
+R5645:5647 compcert.lib.Coqlib <> zle def
+R5659:5661 compcert.lib.Coqlib <> zlt def
+R5645:5647 compcert.lib.Coqlib <> zle def
+R5659:5661 compcert.lib.Coqlib <> zlt def
+R5659:5661 compcert.lib.Coqlib <> zlt def
+R5751:5751 compcert.lib.Maps <> :::x_'!!'_x not
+R5768:5772 compcert.lib.Maps <> :::x_'!!'_x not
+R5774:5781 compcert.lib.Maps <> :::x_'!!'_x not
+R5752:5765 compcert.common.Memory Mem mem_access proj
+R5779:5781 compcert.common.Memtype <> Cur constr
+R5751:5751 compcert.lib.Maps <> :::x_'!!'_x not
+R5768:5772 compcert.lib.Maps <> :::x_'!!'_x not
+R5774:5781 compcert.lib.Maps <> :::x_'!!'_x not
+R5752:5765 compcert.common.Memory Mem mem_access proj
+R5779:5781 compcert.common.Memtype <> Cur constr
+R5821:5821 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5822:5829 compcert.common.Memtype <> Freeable constr
+R5821:5821 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5822:5829 compcert.common.Memtype <> Freeable constr
+R5883:5896 compcert.common.Memory Mem access_max proj
+R5883:5896 compcert.common.Memory Mem access_max proj
+R5958:5958 compcert.lib.Maps <> :::x_'!!'_x not
+R5975:5979 compcert.lib.Maps <> :::x_'!!'_x not
+R5981:5988 compcert.lib.Maps <> :::x_'!!'_x not
+R5959:5972 compcert.common.Memory Mem mem_access proj
+R5986:5988 compcert.common.Memtype <> Max constr
+R5958:5958 compcert.lib.Maps <> :::x_'!!'_x not
+R5975:5979 compcert.lib.Maps <> :::x_'!!'_x not
+R5981:5988 compcert.lib.Maps <> :::x_'!!'_x not
+R5959:5972 compcert.common.Memory Mem mem_access proj
+R5986:5988 compcert.common.Memtype <> Max constr
+prf 6017:6029 <> access_drop_2
+binder 6041:6041 <> m:68
+binder 6043:6043 <> b:69
+binder 6045:6046 <> lo:70
+binder 6048:6049 <> hi:71
+binder 6051:6051 <> p:72
+R6056:6056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6126:6132 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6133:6134 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R6137:6139 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R6175:6176 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 6135:6136 <> m':73
+R6165:6167 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6140:6152 compcert.common.Memory Mem drop_perm def
+R6164:6164 VST.veric.Memory <> p:72 var
+R6161:6162 VST.veric.Memory <> hi:71 var
+R6158:6159 VST.veric.Memory <> lo:70 var
+R6156:6156 VST.veric.Memory <> b:69 var
+R6154:6154 VST.veric.Memory <> m:68 var
+R6168:6171 Coq.Init.Datatypes <> Some constr
+R6173:6174 VST.veric.Memory <> m':73 var
+binder 6064:6066 <> ofs:74
+R6083:6086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6110:6112 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6087:6095 VST.veric.Memory <> access_at def
+R6107:6109 compcert.common.Memtype <> Cur constr
+R6099:6099 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6101:6101 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6105:6105 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6100:6100 VST.veric.Memory <> b:69 var
+R6102:6104 VST.veric.Memory <> ofs:74 var
+R6097:6097 VST.veric.Memory <> m:68 var
+R6113:6116 Coq.Init.Datatypes <> Some constr
+R6118:6125 compcert.common.Memtype <> Freeable constr
+R6071:6074 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6078:6080 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R6069:6070 VST.veric.Memory <> lo:70 var
+R6075:6077 VST.veric.Memory <> ofs:74 var
+R6075:6077 VST.veric.Memory <> ofs:74 var
+R6081:6082 VST.veric.Memory <> hi:71 var
+R6203:6215 compcert.common.Memory Mem drop_perm def
+R6229:6246 compcert.common.Memory Mem range_perm_dec thm
+R6262:6269 compcert.common.Memtype <> Freeable constr
+R6258:6260 compcert.common.Memtype <> Cur constr
+R6229:6246 compcert.common.Memory Mem range_perm_dec thm
+R6262:6269 compcert.common.Memtype <> Freeable constr
+R6258:6260 compcert.common.Memtype <> Cur constr
+R6342:6350 VST.veric.Memory <> access_at def
+prf 6412:6424 <> access_drop_3
+binder 6436:6436 <> m:75
+binder 6438:6438 <> b:76
+binder 6440:6441 <> lo:77
+binder 6443:6444 <> hi:78
+binder 6446:6446 <> p:79
+binder 6448:6449 <> m':80
+R6487:6492 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 6500:6501 <> b':81
+binder 6503:6505 <> ofs:82
+binder 6507:6507 <> k:83
+R6542:6549 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6573:6575 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6550:6558 VST.veric.Memory <> access_at def
+R6572:6572 VST.veric.Memory <> k:83 var
+R6562:6562 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6565:6566 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6570:6570 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6563:6564 VST.veric.Memory <> b':81 var
+R6567:6569 VST.veric.Memory <> ofs:82 var
+R6560:6560 VST.veric.Memory <> m:75 var
+R6576:6584 VST.veric.Memory <> access_at def
+R6598:6598 VST.veric.Memory <> k:83 var
+R6589:6589 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6592:6592 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6596:6596 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6590:6591 VST.veric.Memory <> b':81 var
+R6593:6595 VST.veric.Memory <> ofs:82 var
+R6586:6587 VST.veric.Memory <> m':80 var
+R6517:6520 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6512:6515 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6510:6511 VST.veric.Memory <> b':81 var
+R6516:6516 VST.veric.Memory <> b:76 var
+R6529:6532 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6524:6526 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R6521:6523 VST.veric.Memory <> ofs:82 var
+R6527:6528 VST.veric.Memory <> lo:77 var
+R6535:6538 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6533:6534 VST.veric.Memory <> hi:78 var
+R6539:6541 VST.veric.Memory <> ofs:82 var
+R6477:6479 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6452:6464 compcert.common.Memory Mem drop_perm def
+R6476:6476 VST.veric.Memory <> p:79 var
+R6473:6474 VST.veric.Memory <> hi:78 var
+R6470:6471 VST.veric.Memory <> lo:77 var
+R6468:6468 VST.veric.Memory <> b:76 var
+R6466:6466 VST.veric.Memory <> m:75 var
+R6480:6483 Coq.Init.Datatypes <> Some constr
+R6485:6486 VST.veric.Memory <> m':80 var
+R6625:6637 compcert.common.Memory Mem drop_perm def
+R6656:6673 compcert.common.Memory Mem range_perm_dec thm
+R6689:6696 compcert.common.Memtype <> Freeable constr
+R6685:6687 compcert.common.Memtype <> Cur constr
+R6656:6673 compcert.common.Memory Mem range_perm_dec thm
+R6689:6696 compcert.common.Memtype <> Freeable constr
+R6685:6687 compcert.common.Memtype <> Cur constr
+R6737:6745 VST.veric.Memory <> access_at def
+R6766:6773 compcert.common.Values <> eq_block def
+R6766:6773 compcert.common.Values <> eq_block def
+R6798:6805 compcert.lib.Maps PMap gss thm
+R6798:6805 compcert.lib.Maps PMap gss thm
+R6798:6805 compcert.lib.Maps PMap gss thm
+R6857:6859 compcert.lib.Coqlib <> zle def
+R6871:6873 compcert.lib.Coqlib <> zlt def
+R6857:6859 compcert.lib.Coqlib <> zle def
+R6871:6873 compcert.lib.Coqlib <> zlt def
+R6871:6873 compcert.lib.Coqlib <> zlt def
+R6915:6922 compcert.lib.Maps PMap gso thm
+R6915:6922 compcert.lib.Maps PMap gso thm
+R6915:6922 compcert.lib.Maps PMap gso thm
+prf 6952:6968 <> storebytes_access
+binder 6979:6980 <> m1:84
+binder 6982:6982 <> b:85
+binder 6984:6986 <> ofs:86
+binder 6988:6992 <> bytes:87
+binder 6994:6995 <> m2:88
+R7034:7036 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7005:7018 compcert.common.Memory Mem storebytes def
+R7029:7033 VST.veric.Memory <> bytes:87 var
+R7025:7027 VST.veric.Memory <> ofs:86 var
+R7023:7023 VST.veric.Memory <> b:85 var
+R7020:7021 VST.veric.Memory <> m1:84 var
+R7037:7040 Coq.Init.Datatypes <> Some constr
+R7042:7043 VST.veric.Memory <> m2:88 var
+binder 6998:7002 <> STORE:89
+R7061:7063 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7049:7057 VST.veric.Memory <> access_at def
+R7059:7060 VST.veric.Memory <> m1:84 var
+R7064:7072 VST.veric.Memory <> access_at def
+R7074:7075 VST.veric.Memory <> m2:88 var
+R7099:7112 compcert.lib.Axioms <> extensionality thm
+R7099:7112 compcert.lib.Axioms <> extensionality thm
+R7136:7149 compcert.lib.Axioms <> extensionality thm
+R7136:7149 compcert.lib.Axioms <> extensionality thm
+R7167:7187 compcert.common.Memory Mem storebytes_access thm
+R7167:7187 compcert.common.Memory Mem storebytes_access thm
+R7206:7214 VST.veric.Memory <> access_at def
+prf 7244:7255 <> store_access
+binder 7266:7270 <> chunk:90
+binder 7272:7273 <> m1:91
+binder 7275:7275 <> b:92
+binder 7277:7279 <> ofs:93
+binder 7281:7281 <> v:94
+binder 7283:7284 <> m2:95
+R7320:7322 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7294:7302 compcert.common.Memory Mem store def
+R7319:7319 VST.veric.Memory <> v:94 var
+R7315:7317 VST.veric.Memory <> ofs:93 var
+R7313:7313 VST.veric.Memory <> b:92 var
+R7310:7311 VST.veric.Memory <> m1:91 var
+R7304:7308 VST.veric.Memory <> chunk:90 var
+R7323:7326 Coq.Init.Datatypes <> Some constr
+R7328:7329 VST.veric.Memory <> m2:95 var
+binder 7287:7291 <> STORE:96
+R7347:7349 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7335:7343 VST.veric.Memory <> access_at def
+R7345:7346 VST.veric.Memory <> m1:91 var
+R7350:7358 VST.veric.Memory <> access_at def
+R7360:7361 VST.veric.Memory <> m2:95 var
+R7385:7398 compcert.lib.Axioms <> extensionality thm
+R7385:7398 compcert.lib.Axioms <> extensionality thm
+R7423:7436 compcert.lib.Axioms <> extensionality thm
+R7423:7436 compcert.lib.Axioms <> extensionality thm
+R7455:7463 VST.veric.Memory <> access_at def
+R7472:7487 compcert.common.Memory Mem store_access thm
+R7472:7487 compcert.common.Memory Mem store_access thm
+prf 7532:7553 <> perm_order'_dec_fiddle
+binder 7565:7565 <> y:97
+binder 7567:7567 <> x:98
+R7580:7588 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7634:7636 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7589:7600 compcert.lib.Coqlib <> proj_sumbool def
+R7603:7621 compcert.common.Memory Mem perm_order'_dec thm
+R7625:7632 compcert.common.Memtype <> Nonempty constr
+R7623:7623 VST.veric.Memory <> y:97 var
+R7637:7640 Coq.Init.Datatypes <> true constr
+R7571:7573 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7570:7570 VST.veric.Memory <> y:97 var
+R7574:7577 Coq.Init.Datatypes <> Some constr
+R7579:7579 VST.veric.Memory <> x:98 var
+R7679:7696 compcert.common.Memory Mem perm_order_dec thm
+prf 7736:7758 <> access_at_valid_pointer
+binder 7770:7770 <> m:99
+binder 7772:7772 <> b:100
+binder 7774:7776 <> ofs:101
+binder 7778:7778 <> p:102
+R7813:7819 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7845:7847 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7820:7836 compcert.common.Memory Mem valid_pointer def
+R7842:7844 VST.veric.Memory <> ofs:101 var
+R7840:7840 VST.veric.Memory <> b:100 var
+R7838:7838 VST.veric.Memory <> m:99 var
+R7848:7851 Coq.Init.Datatypes <> true constr
+R7804:7806 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7781:7789 VST.veric.Memory <> access_at def
+R7801:7803 compcert.common.Memtype <> Cur constr
+R7793:7793 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7795:7795 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7799:7799 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7794:7794 VST.veric.Memory <> b:100 var
+R7796:7798 VST.veric.Memory <> ofs:101 var
+R7791:7791 VST.veric.Memory <> m:99 var
+R7807:7810 Coq.Init.Datatypes <> Some constr
+R7812:7812 VST.veric.Memory <> p:102 var
+R7876:7884 VST.veric.Memory <> access_at def
+R7887:7903 compcert.common.Memory Mem valid_pointer def
+R7929:7950 VST.veric.Memory <> perm_order'_dec_fiddle thm
+R7929:7950 VST.veric.Memory <> perm_order'_dec_fiddle thm

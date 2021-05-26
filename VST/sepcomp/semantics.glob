@@ -1,0 +1,259 @@
+DIGEST 2234d66beb3289115c4954c75f0cf313
+FVST.sepcomp.semantics
+R15:33 compcert.lib.Coqlib <> <> lib
+R51:67 compcert.lib.Maps <> <> lib
+R85:105 compcert.lib.Integers <> <> lib
+R123:141 compcert.lib.Axioms <> <> lib
+R160:181 compcert.common.Values <> <> lib
+R199:220 compcert.common.Memory <> <> lib
+R238:259 compcert.common.Events <> <> lib
+R277:295 compcert.common.AST <> <> lib
+R313:338 compcert.common.Globalenvs <> <> lib
+R357:378 VST.sepcomp.mem_lemmas <> <> lib
+rec 1721:1733 <> CoreSemantics
+proj 1762:1773 <> initial_core
+proj 1827:1837 <> at_external
+proj 1893:1906 <> after_external
+proj 1947:1952 <> halted
+proj 1977:1984 <> corestep
+proj 2017:2035 <> corestep_not_halted
+proj 2103:2126 <> corestep_not_at_external
+binder 1736:1736 <> C:1
+binder 1738:1738 <> M:2
+R1780:1783 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1785:1788 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1790:1793 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1795:1798 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1802:1805 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1814:1817 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1806:1809 Coq.Init.Datatypes <> list ind
+R1811:1813 compcert.common.Values <> val ind
+R1799:1801 compcert.common.Values <> val ind
+R1794:1794 VST.sepcomp.semantics <> M:2 var
+R1789:1789 VST.sepcomp.semantics <> C:1 var
+R1784:1784 VST.sepcomp.semantics <> M:2 var
+R1777:1779 Coq.Init.Datatypes <> nat ind
+R1842:1845 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1847:1850 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1851:1856 Coq.Init.Datatypes <> option ind
+R1876:1878 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1859:1875 compcert.common.AST <> external_function ind
+R1879:1882 Coq.Init.Datatypes <> list ind
+R1884:1886 compcert.common.Values <> val ind
+R1846:1846 VST.sepcomp.semantics <> M:2 var
+R1841:1841 VST.sepcomp.semantics <> C:1 var
+R1920:1923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1925:1928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1930:1933 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1934:1939 Coq.Init.Datatypes <> option ind
+R1941:1941 VST.sepcomp.semantics <> C:1 var
+R1929:1929 VST.sepcomp.semantics <> M:2 var
+R1924:1924 VST.sepcomp.semantics <> C:1 var
+R1910:1915 Coq.Init.Datatypes <> option ind
+R1917:1919 compcert.common.Values <> val ind
+R1957:1960 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1964:1967 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1961:1963 compcert.lib.Integers <> int syndef
+R1956:1956 VST.sepcomp.semantics <> C:1 var
+R1989:1992 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1994:1997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1999:2002 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2004:2007 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2003:2003 VST.sepcomp.semantics <> M:2 var
+R1998:1998 VST.sepcomp.semantics <> C:1 var
+R1993:1993 VST.sepcomp.semantics <> M:2 var
+R1988:1988 VST.sepcomp.semantics <> C:1 var
+binder 2051:2051 <> m:9
+binder 2053:2053 <> q:10
+binder 2055:2056 <> m':11
+binder 2058:2059 <> q':12
+binder 2061:2061 <> i:13
+R2082:2085 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2086:2087 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2088:2093 VST.sepcomp.semantics <> halted:7 meth
+R2097:2097 VST.sepcomp.semantics <> i:13 var
+R2095:2095 VST.sepcomp.semantics <> q:10 var
+R2064:2071 VST.sepcomp.semantics <> corestep:8 meth
+R2080:2081 VST.sepcomp.semantics <> m':11 var
+R2077:2078 VST.sepcomp.semantics <> q':12 var
+R2075:2075 VST.sepcomp.semantics <> m:9 var
+R2073:2073 VST.sepcomp.semantics <> q:10 var
+binder 2142:2142 <> m:15
+binder 2144:2144 <> q:16
+binder 2146:2147 <> m':17
+binder 2149:2150 <> q':18
+R2171:2174 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2190:2192 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2175:2185 VST.sepcomp.semantics <> at_external:5 meth
+R2189:2189 VST.sepcomp.semantics <> m:15 var
+R2187:2187 VST.sepcomp.semantics <> q:16 var
+R2193:2196 Coq.Init.Datatypes <> None constr
+R2153:2160 VST.sepcomp.semantics <> corestep:8 meth
+R2169:2170 VST.sepcomp.semantics <> m':17 var
+R2166:2167 VST.sepcomp.semantics <> q':18 var
+R2164:2164 VST.sepcomp.semantics <> m:15 var
+R2162:2162 VST.sepcomp.semantics <> q:16 var
+R2212:2224 VST.sepcomp.semantics <> CoreSemantics rec
+R2212:2224 VST.sepcomp.semantics <> CoreSemantics rec
+ind 2256:2263 <> mem_step
+constr 2284:2302 <> mem_step_storebytes
+constr 2392:2405 <> mem_step_alloc
+constr 2481:2497 <> mem_step_freelist
+constr 2646:2659 <> mem_step_trans
+binder 2265:2265 <> m:20
+binder 2267:2268 <> m':21
+binder 2312:2312 <> b:24
+binder 2314:2316 <> ofs:25
+binder 2318:2322 <> bytes:26
+R2370:2373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2374:2381 VST.sepcomp.semantics <> mem_step:22 ind
+R2385:2386 VST.sepcomp.semantics <> m':21 var
+R2383:2383 VST.sepcomp.semantics <> m:20 var
+R2360:2362 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2332:2345 compcert.common.Memory Mem storebytes def
+R2355:2359 VST.sepcomp.semantics <> bytes:26 var
+R2351:2353 VST.sepcomp.semantics <> ofs:25 var
+R2349:2349 VST.sepcomp.semantics <> b:24 var
+R2347:2347 VST.sepcomp.semantics <> m:20 var
+R2363:2366 Coq.Init.Datatypes <> Some constr
+R2368:2369 VST.sepcomp.semantics <> m':21 var
+binder 2415:2416 <> lo:27
+binder 2418:2419 <> hi:28
+binder 2421:2422 <> b':29
+R2459:2462 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2463:2470 VST.sepcomp.semantics <> mem_step:22 ind
+R2474:2475 VST.sepcomp.semantics <> m':21 var
+R2472:2472 VST.sepcomp.semantics <> m:20 var
+R2449:2451 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2432:2440 compcert.common.Memory Mem alloc def
+R2447:2448 VST.sepcomp.semantics <> hi:28 var
+R2444:2445 VST.sepcomp.semantics <> lo:27 var
+R2442:2442 VST.sepcomp.semantics <> m:20 var
+R2452:2452 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2455:2455 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2458:2458 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2453:2454 VST.sepcomp.semantics <> m':21 var
+R2456:2457 VST.sepcomp.semantics <> b':29 var
+binder 2507:2507 <> l:30
+R2544:2547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2548:2555 VST.sepcomp.semantics <> mem_step:22 ind
+R2559:2560 VST.sepcomp.semantics <> m':21 var
+R2557:2557 VST.sepcomp.semantics <> m:20 var
+R2534:2536 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2517:2529 compcert.common.Memory Mem free_list def
+R2533:2533 VST.sepcomp.semantics <> l:30 var
+R2531:2531 VST.sepcomp.semantics <> m:20 var
+R2537:2540 Coq.Init.Datatypes <> Some constr
+R2542:2543 VST.sepcomp.semantics <> m':21 var
+binder 2669:2671 <> m'':31
+R2695:2698 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2714:2717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2718:2725 VST.sepcomp.semantics <> mem_step:22 ind
+R2729:2730 VST.sepcomp.semantics <> m':21 var
+R2727:2727 VST.sepcomp.semantics <> m:20 var
+R2699:2706 VST.sepcomp.semantics <> mem_step:22 ind
+R2712:2713 VST.sepcomp.semantics <> m':21 var
+R2708:2710 VST.sepcomp.semantics <> m'':31 var
+R2681:2688 VST.sepcomp.semantics <> mem_step:22 ind
+R2692:2694 VST.sepcomp.semantics <> m'':31 var
+R2690:2690 VST.sepcomp.semantics <> m:20 var
+R2761:2768 compcert.lib.Maps PMap get def
+not 2749:2749 <> :::x_'#'_x
+rec 2796:2806 <> perm_lesseq
+proj 2826:2836 <> perm_le_Cur
+proj 2939:2949 <> perm_le_Max
+proj 3052:3063 <> perm_le_cont
+proj 3204:3213 <> perm_le_nb
+R2815:2817 compcert.common.Memory <> mem syndef
+binder 2809:2809 <> m:32
+binder 2811:2812 <> m':33
+binder 2850:2850 <> b:35
+binder 2852:2854 <> ofs:36
+R2857:2872 compcert.common.Memory Mem perm_order'' def
+R2907:2907 VST.sepcomp.semantics <> :::x_'#'_x not
+R2924:2925 VST.sepcomp.semantics <> :::x_'#'_x not
+R2927:2934 VST.sepcomp.semantics <> :::x_'#'_x not
+R2926:2926 VST.sepcomp.semantics <> b:35 var
+R2908:2921 compcert.common.Memory Mem mem_access proj
+R2923:2923 VST.sepcomp.semantics <> m:32 var
+R2932:2934 compcert.common.Memtype <> Cur constr
+R2928:2930 VST.sepcomp.semantics <> ofs:36 var
+R2875:2875 VST.sepcomp.semantics <> :::x_'#'_x not
+R2893:2894 VST.sepcomp.semantics <> :::x_'#'_x not
+R2896:2903 VST.sepcomp.semantics <> :::x_'#'_x not
+R2895:2895 VST.sepcomp.semantics <> b:35 var
+R2876:2889 compcert.common.Memory Mem mem_access proj
+R2891:2892 VST.sepcomp.semantics <> m':33 var
+R2901:2903 compcert.common.Memtype <> Cur constr
+R2897:2899 VST.sepcomp.semantics <> ofs:36 var
+binder 2963:2963 <> b:38
+binder 2965:2967 <> ofs:39
+R2970:2985 compcert.common.Memory Mem perm_order'' def
+R3020:3020 VST.sepcomp.semantics <> :::x_'#'_x not
+R3037:3038 VST.sepcomp.semantics <> :::x_'#'_x not
+R3040:3047 VST.sepcomp.semantics <> :::x_'#'_x not
+R3039:3039 VST.sepcomp.semantics <> b:38 var
+R3021:3034 compcert.common.Memory Mem mem_access proj
+R3036:3036 VST.sepcomp.semantics <> m:32 var
+R3045:3047 compcert.common.Memtype <> Max constr
+R3041:3043 VST.sepcomp.semantics <> ofs:39 var
+R2988:2988 VST.sepcomp.semantics <> :::x_'#'_x not
+R3006:3007 VST.sepcomp.semantics <> :::x_'#'_x not
+R3009:3016 VST.sepcomp.semantics <> :::x_'#'_x not
+R3008:3008 VST.sepcomp.semantics <> b:38 var
+R2989:3002 compcert.common.Memory Mem mem_access proj
+R3004:3005 VST.sepcomp.semantics <> m':33 var
+R3014:3016 compcert.common.Memtype <> Max constr
+R3010:3012 VST.sepcomp.semantics <> ofs:39 var
+binder 3077:3077 <> b:41
+binder 3079:3081 <> ofs:42
+R3113:3121 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3161:3162 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3122:3129 compcert.lib.Maps ZMap get def
+R3135:3135 compcert.lib.Maps <> :::x_'!!'_x not
+R3155:3159 compcert.lib.Maps <> :::x_'!!'_x not
+R3160:3160 VST.sepcomp.semantics <> b:41 var
+R3136:3151 compcert.common.Memory Mem mem_contents proj
+R3153:3154 VST.sepcomp.semantics <> m':33 var
+R3131:3133 VST.sepcomp.semantics <> ofs:42 var
+R3163:3170 compcert.lib.Maps ZMap get def
+R3176:3176 compcert.lib.Maps <> :::x_'!!'_x not
+R3195:3199 compcert.lib.Maps <> :::x_'!!'_x not
+R3200:3200 VST.sepcomp.semantics <> b:41 var
+R3177:3192 compcert.common.Memory Mem mem_contents proj
+R3194:3194 VST.sepcomp.semantics <> m:32 var
+R3172:3174 VST.sepcomp.semantics <> ofs:42 var
+R3084:3091 compcert.common.Memory Mem perm def
+R3105:3112 compcert.common.Memtype <> Readable constr
+R3101:3103 compcert.common.Memtype <> Cur constr
+R3097:3099 VST.sepcomp.semantics <> ofs:42 var
+R3095:3095 VST.sepcomp.semantics <> b:41 var
+R3093:3093 VST.sepcomp.semantics <> m:32 var
+R3231:3233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3216:3228 compcert.common.Memory Mem nextblock proj
+R3230:3230 VST.sepcomp.semantics <> m:32 var
+R3234:3246 compcert.common.Memory Mem nextblock proj
+R3248:3249 VST.sepcomp.semantics <> m':33 var
+rec 3479:3484 <> MemSem
+proj 3497:3500 <> csem
+proj 3531:3542 <> corestep_mem
+binder 3487:3487 <> C:45
+R3506:3518 VST.sepcomp.semantics <> CoreSemantics rec
+R3522:3524 compcert.common.Memory <> mem syndef
+R3520:3520 VST.sepcomp.semantics <> C:45 var
+binder 3553:3553 <> c:48
+binder 3555:3555 <> m:49
+binder 3557:3558 <> c':50
+binder 3560:3561 <> m':51
+R3568:3575 VST.sepcomp.semantics <> corestep proj
+R3589:3590 VST.sepcomp.semantics <> m':51 var
+R3586:3587 VST.sepcomp.semantics <> c':50 var
+R3584:3584 VST.sepcomp.semantics <> m:49 var
+R3582:3582 VST.sepcomp.semantics <> c:48 var
+R3577:3580 VST.sepcomp.semantics <> csem:47 meth
+binder 3564:3565 <> CS:52
+R3594:3601 VST.sepcomp.semantics <> mem_step ind
+R3605:3606 VST.sepcomp.semantics <> m':51 var
+R3603:3603 VST.sepcomp.semantics <> m:49 var
+R3855:3860 VST.sepcomp.semantics <> MemSem rec
+R3855:3860 VST.sepcomp.semantics <> MemSem rec

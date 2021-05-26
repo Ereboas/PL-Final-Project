@@ -1,0 +1,2213 @@
+DIGEST 2ca9a818dd4822da0bba6e9232534722
+FVST.veric.local
+R15:28 VST.veric.base <> <> lib
+R46:65 VST.msl.msl_standard <> <> lib
+R83:105 Coq.Relations.Relations <> <> lib
+def 120:136 <> deterministic_rel
+binder 139:139 <> T:1
+R146:153 Coq.Relations.Relation_Definitions <> relation def
+R155:155 VST.veric.local <> T:1 var
+binder 143:143 <> R:2
+binder 170:170 <> s:3
+binder 172:173 <> s':4
+binder 175:177 <> s'':5
+R197:200 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R203:203 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R201:202 VST.veric.local <> s':4 var
+R204:206 VST.veric.local <> s'':5 var
+R186:189 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R180:180 VST.veric.local <> R:2 var
+R184:185 VST.veric.local <> s':4 var
+R182:182 VST.veric.local <> s:3 var
+R190:190 VST.veric.local <> R:2 var
+R194:196 VST.veric.local <> s'':5 var
+R192:192 VST.veric.local <> s:3 var
+def 221:225 <> pfunc
+binder 227:227 <> T:6
+binder 229:229 <> R:7
+R235:238 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R239:244 Coq.Init.Datatypes <> option ind
+R246:246 VST.veric.local <> R:7 var
+R234:234 VST.veric.local <> T:6 var
+def 261:267 <> address
+R272:274 Coq.Init.Datatypes <> nat ind
+ind 288:290 <> val
+constr 304:307 <> Vint
+constr 324:327 <> Vptr
+constr 348:353 <> Vundef
+R314:317 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R318:320 VST.veric.local <> val:8 ind
+R311:313 Coq.Init.Datatypes <> nat ind
+R338:341 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R342:344 VST.veric.local <> val:8 ind
+R331:337 VST.veric.local <> address def
+constr 562:573 <> mkGenericSem
+rec 399:414 <> GenericSemantics
+binder 419:419 <> W:10
+R459:462 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R449:456 Coq.Relations.Relation_Definitions <> relation def
+R458:458 VST.veric.local <> W:10 var
+binder 445:445 <> V:11
+R512:515 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R501:505 VST.veric.local <> pfunc def
+R509:511 VST.veric.local <> val ind
+R507:507 VST.veric.local <> W:10 var
+binder 497:497 <> G:12
+sec 589:599 <> Expressions
+var 615:615 Expressions W
+var 628:628 Expressions G
+R643:646 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R632:636 VST.veric.local <> pfunc def
+R640:642 VST.veric.local <> val ind
+R638:638 VST.veric.local <> W:14 var
+ind 693:696 <> unop
+constr 701:704 <> UNeg
+ind 718:722 <> binop
+constr 727:730 <> BAdd
+ind 744:747 <> expr
+constr 761:764 <> EVal
+constr 793:797 <> EUnop
+constr 839:844 <> EBinop
+constr 891:895 <> EPrim
+R780:782 VST.veric.local <> val ind
+binder 776:776 <> v:22
+R786:789 VST.veric.local <> expr:20 ind
+R814:817 VST.veric.local <> unop ind
+binder 809:810 <> op:23
+R825:828 VST.veric.local <> expr:20 ind
+binder 821:821 <> e:24
+R832:835 VST.veric.local <> expr:20 ind
+R861:865 VST.veric.local <> binop ind
+binder 856:857 <> op:25
+R877:880 VST.veric.local <> expr:20 ind
+binder 869:870 <> e1:26
+binder 872:873 <> e2:27
+R884:887 VST.veric.local <> expr:20 ind
+R911:915 VST.veric.local <> pfunc def
+R919:921 VST.veric.local <> val ind
+R917:917 VST.veric.local <> Expressions.W var
+binder 907:907 <> f:28
+R925:928 VST.veric.local <> expr:20 ind
+def 943:949 <> is_true
+R956:958 VST.veric.local <> val ind
+binder 952:952 <> v:29
+R966:972 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R974:975 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 973:973 <> n:30
+R976:976 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1001:1005 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R987:990 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R978:980 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R977:977 VST.veric.local <> v:29 var
+R981:984 VST.veric.local <> Vint constr
+R986:986 VST.veric.local <> n:30 var
+R992:994 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R991:991 VST.veric.local <> v:29 var
+R995:998 VST.veric.local <> Vptr constr
+R1000:1000 VST.veric.local <> n:30 var
+R1007:1010 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1006:1006 VST.veric.local <> n:30 var
+R1011:1011 Coq.Init.Datatypes <> O constr
+prf 1021:1031 <> is_true_dec
+binder 1042:1042 <> v:31
+R1045:1045 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1055:1059 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1071:1071 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1046:1052 VST.veric.local <> is_true def
+R1054:1054 VST.veric.local <> v:31 var
+R1060:1061 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1062:1068 VST.veric.local <> is_true def
+R1070:1070 VST.veric.local <> v:31 var
+R1088:1094 VST.veric.local <> is_true def
+R1127:1136 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R1140:1140 Coq.Init.Datatypes <> O constr
+R1127:1136 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R1140:1140 Coq.Init.Datatypes <> O constr
+R1222:1226 Coq.Init.Logic <> False ind
+R1282:1291 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R1282:1291 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R1392:1396 Coq.Init.Logic <> False ind
+def 1520:1529 <> unopDenote
+R1537:1540 VST.veric.local <> unop ind
+binder 1532:1533 <> op:32
+R1548:1550 VST.veric.local <> val ind
+binder 1544:1544 <> v:33
+R1555:1557 VST.veric.local <> val ind
+R1574:1584 VST.veric.local <> is_true_dec thm
+R1586:1586 VST.veric.local <> v:33 var
+R1570:1571 VST.veric.local <> op:32 var
+R1599:1602 VST.veric.local <> UNeg constr
+R1605:1608 Coq.Init.Specif <> left constr
+R1615:1618 VST.veric.local <> Vint constr
+R1628:1631 VST.veric.local <> UNeg constr
+R1634:1638 Coq.Init.Specif <> right constr
+R1645:1648 VST.veric.local <> Vint constr
+def 1671:1681 <> binopDenote
+R1689:1693 VST.veric.local <> binop ind
+binder 1684:1685 <> op:35
+R1705:1707 VST.veric.local <> val ind
+binder 1697:1698 <> v1:36
+binder 1700:1701 <> v2:37
+R1729:1730 VST.veric.local <> v2:37 var
+R1725:1726 VST.veric.local <> v1:36 var
+R1721:1722 VST.veric.local <> op:35 var
+R1743:1746 VST.veric.local <> BAdd constr
+R1750:1753 VST.veric.local <> Vint constr
+R1760:1763 VST.veric.local <> Vint constr
+R1771:1774 VST.veric.local <> Vint constr
+R1778:1778 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1792:1795 VST.veric.local <> BAdd constr
+R1799:1802 VST.veric.local <> Vptr constr
+R1809:1812 VST.veric.local <> Vint constr
+R1820:1823 VST.veric.local <> Vptr constr
+R1827:1827 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1852:1857 VST.veric.local <> Vundef constr
+def 1876:1890 <> expr_wellformed
+R1897:1900 VST.veric.local <> expr ind
+binder 1893:1893 <> e:41
+R1921:1921 VST.veric.local <> e:41 var
+R1934:1937 VST.veric.local <> EVal constr
+R1944:1947 Coq.Init.Logic <> True ind
+R1955:1959 VST.veric.local <> EUnop constr
+R1968:1982 VST.veric.local <> expr_wellformed:42 def
+R1984:1984 VST.veric.local <> e:41 var
+R1992:1997 VST.veric.local <> EBinop constr
+R2028:2031 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2010:2024 VST.veric.local <> expr_wellformed:42 def
+R2032:2046 VST.veric.local <> expr_wellformed:42 def
+R2057:2061 VST.veric.local <> EPrim constr
+R2068:2068 VST.veric.local <> Expressions.G var
+def 2089:2097 <> exprEval'
+R2104:2107 VST.veric.local <> expr ind
+binder 2100:2100 <> e:44
+R2113:2116 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2117:2122 Coq.Init.Datatypes <> option ind
+R2124:2126 VST.veric.local <> val ind
+R2112:2112 VST.veric.local <> Expressions.W var
+binder 2135:2135 <> w:46
+R2148:2148 VST.veric.local <> e:44 var
+R2161:2164 VST.veric.local <> EVal constr
+R2171:2174 Coq.Init.Datatypes <> Some constr
+R2184:2188 VST.veric.local <> EUnop constr
+R2214:2222 VST.veric.local <> exprEval':45 def
+R2227:2227 VST.veric.local <> w:46 var
+binder 2209:2209 <> v:48
+R2246:2246 VST.veric.local <> v:48 var
+R2265:2268 Coq.Init.Datatypes <> Some constr
+R2276:2279 Coq.Init.Datatypes <> Some constr
+R2282:2291 VST.veric.local <> unopDenote def
+R2312:2315 Coq.Init.Datatypes <> None constr
+R2320:2323 Coq.Init.Datatypes <> None constr
+R2343:2348 VST.veric.local <> EBinop constr
+R2378:2386 VST.veric.local <> exprEval':45 def
+R2391:2391 VST.veric.local <> w:46 var
+binder 2372:2373 <> v1:50
+R2412:2420 VST.veric.local <> exprEval':45 def
+R2425:2425 VST.veric.local <> w:46 var
+binder 2406:2407 <> v2:51
+R2448:2449 VST.veric.local <> v2:51 var
+R2444:2445 VST.veric.local <> v1:50 var
+R2468:2471 Coq.Init.Datatypes <> Some constr
+R2478:2481 Coq.Init.Datatypes <> Some constr
+R2490:2493 Coq.Init.Datatypes <> Some constr
+R2496:2506 VST.veric.local <> binopDenote def
+R2540:2543 Coq.Init.Datatypes <> None constr
+R2563:2567 VST.veric.local <> EPrim constr
+R2576:2576 VST.veric.local <> w:46 var
+def 2597:2604 <> exprEval
+R2611:2614 VST.veric.local <> expr ind
+binder 2607:2607 <> e:54
+R2622:2622 VST.veric.local <> Expressions.W var
+binder 2618:2618 <> w:55
+R2630:2632 VST.veric.local <> val ind
+binder 2626:2626 <> v:56
+R2657:2660 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2640:2654 VST.veric.local <> expr_wellformed def
+R2656:2656 VST.veric.local <> e:54 var
+R2674:2676 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2661:2669 VST.veric.local <> exprEval' def
+R2673:2673 VST.veric.local <> w:55 var
+R2671:2671 VST.veric.local <> e:54 var
+R2677:2680 Coq.Init.Datatypes <> Some constr
+R2682:2682 VST.veric.local <> v:56 var
+def 2695:2703 <> pure_expr
+R2710:2713 VST.veric.local <> expr ind
+binder 2706:2706 <> e:57
+R2727:2727 VST.veric.local <> e:57 var
+R2740:2743 VST.veric.local <> EVal constr
+R2750:2753 Coq.Init.Logic <> True ind
+R2761:2765 VST.veric.local <> EUnop constr
+R2776:2784 VST.veric.local <> pure_expr:58 def
+R2795:2800 VST.veric.local <> EBinop constr
+R2826:2829 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2814:2822 VST.veric.local <> pure_expr:58 def
+R2830:2838 VST.veric.local <> pure_expr:58 def
+R2849:2853 VST.veric.local <> EPrim constr
+R2860:2864 Coq.Init.Logic <> False ind
+prf 2880:2892 <> pure_exprEval
+binder 2903:2903 <> e:60
+binder 2905:2905 <> w:61
+binder 2907:2908 <> w':62
+binder 2910:2911 <> b1:63
+binder 2913:2914 <> b2:64
+R2930:2935 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2951:2956 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2973:2978 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2981:2981 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2979:2980 VST.veric.local <> b1:63 var
+R2982:2983 VST.veric.local <> b2:64 var
+R2957:2964 VST.veric.local <> exprEval def
+R2971:2972 VST.veric.local <> b2:64 var
+R2968:2969 VST.veric.local <> w':62 var
+R2966:2966 VST.veric.local <> e:60 var
+R2936:2943 VST.veric.local <> exprEval def
+R2949:2950 VST.veric.local <> b1:63 var
+R2947:2947 VST.veric.local <> w:61 var
+R2945:2945 VST.veric.local <> e:60 var
+R2919:2927 VST.veric.local <> pure_expr def
+R2929:2929 VST.veric.local <> e:60 var
+R3100:3108 VST.veric.local <> exprEval' def
+R3100:3108 VST.veric.local <> exprEval' def
+R3159:3167 VST.veric.local <> exprEval' def
+R3159:3167 VST.veric.local <> exprEval' def
+R3310:3318 VST.veric.local <> exprEval' def
+R3310:3318 VST.veric.local <> exprEval' def
+R3370:3378 VST.veric.local <> exprEval' def
+R3370:3378 VST.veric.local <> exprEval' def
+R3430:3438 VST.veric.local <> exprEval' def
+R3430:3438 VST.veric.local <> exprEval' def
+R3491:3499 VST.veric.local <> exprEval' def
+R3491:3499 VST.veric.local <> exprEval' def
+prf 3796:3809 <> pure_expr_safe
+binder 3820:3820 <> e:65
+binder 3822:3822 <> w:66
+R3838:3843 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3844:3850 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3852:3853 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3851:3851 <> b:67
+R3854:3861 VST.veric.local <> exprEval def
+R3867:3867 VST.veric.local <> b:67 var
+R3865:3865 VST.veric.local <> w:66 var
+R3863:3863 VST.veric.local <> e:65 var
+R3827:3835 VST.veric.local <> pure_expr def
+R3837:3837 VST.veric.local <> e:65 var
+R3981:3990 VST.veric.local <> unopDenote def
+R3981:3990 VST.veric.local <> unopDenote def
+R4140:4150 VST.veric.local <> binopDenote def
+R4140:4150 VST.veric.local <> binopDenote def
+prf 4246:4258 <> pure_expr_dec
+binder 4269:4269 <> e:68
+R4272:4272 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4284:4288 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4302:4302 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4273:4281 VST.veric.local <> pure_expr def
+R4283:4283 VST.veric.local <> e:68 var
+R4289:4290 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4291:4299 VST.veric.local <> pure_expr def
+R4301:4301 VST.veric.local <> e:68 var
+R4609:4619 VST.veric.local Expressions <> sec
+R4632:4640 VST.veric.local <> exprEval' def
+R4632:4640 VST.veric.local <> exprEval' def
+R4661:4668 VST.veric.local <> exprEval def
+R4661:4668 VST.veric.local <> exprEval def
+R4693:4697 VST.veric.local <> EUnop constr
+R4693:4697 VST.veric.local <> EUnop constr
+R4718:4722 VST.veric.local <> EUnop constr
+R4718:4722 VST.veric.local <> EUnop constr
+R4743:4748 VST.veric.local <> EBinop constr
+R4743:4748 VST.veric.local <> EBinop constr
+R4771:4775 VST.veric.local <> EPrim constr
+R4771:4775 VST.veric.local <> EPrim constr
+sec 4793:4809 <> ExpressionErasure
+var 4825:4825 ExpressionErasure W
+var 4827:4828 ExpressionErasure S'
+var 4841:4841 ExpressionErasure G
+var 4869:4869 ExpressionErasure F
+var 4898:4899 ExpressionErasure GF
+var 4944:4954 ExpressionErasure world_erase
+var 4971:4986 ExpressionErasure primexpr_erasure
+var 5133:5147 ExpressionErasure primexpr_safety
+R4856:4859 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4845:4849 VST.veric.local <> pfunc def
+R4853:4855 VST.veric.local <> val ind
+R4851:4851 VST.veric.local <> W:70 var
+R4885:4888 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4873:4877 VST.veric.local <> pfunc def
+R4882:4884 VST.veric.local <> val ind
+R4879:4880 VST.veric.local <> S':69 var
+R4914:4917 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4930:4933 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4918:4922 VST.veric.local <> pfunc def
+R4927:4929 VST.veric.local <> val ind
+R4924:4925 VST.veric.local <> S':69 var
+R4903:4907 VST.veric.local <> pfunc def
+R4911:4913 VST.veric.local <> val ind
+R4909:4909 VST.veric.local <> W:70 var
+R4959:4962 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4963:4964 VST.veric.local <> S':69 var
+R4958:4958 VST.veric.local <> W:70 var
+binder 4997:4997 <> g:75
+binder 4999:4999 <> f:76
+binder 5001:5002 <> b1:77
+binder 5004:5005 <> b2:78
+binder 5007:5007 <> w:79
+binder 5009:5009 <> s:80
+R5018:5019 VST.veric.local <> GF:73 var
+R5023:5023 VST.veric.local <> f:76 var
+R5021:5021 VST.veric.local <> g:75 var
+binder 5012:5014 <> Hgf:81
+R5048:5055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5081:5088 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5114:5121 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5124:5124 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5122:5123 VST.veric.local <> b1:77 var
+R5125:5126 VST.veric.local <> b2:78 var
+R5089:5096 VST.veric.local <> exprEval def
+R5112:5113 VST.veric.local <> b2:78 var
+R5110:5110 VST.veric.local <> s:80 var
+R5101:5105 VST.veric.local <> EPrim constr
+R5107:5107 VST.veric.local <> f:76 var
+R5098:5098 VST.veric.local <> F:72 var
+R5056:5063 VST.veric.local <> exprEval def
+R5079:5080 VST.veric.local <> b1:77 var
+R5077:5077 VST.veric.local <> w:79 var
+R5068:5072 VST.veric.local <> EPrim constr
+R5074:5074 VST.veric.local <> g:75 var
+R5065:5065 VST.veric.local <> G:71 var
+R5044:5046 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5031:5041 VST.veric.local <> world_erase:74 var
+R5043:5043 VST.veric.local <> w:79 var
+R5047:5047 VST.veric.local <> s:80 var
+binder 5158:5158 <> g:83
+binder 5160:5160 <> f:84
+binder 5162:5163 <> b1:85
+binder 5165:5165 <> w:86
+binder 5167:5167 <> s:87
+R5180:5187 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5205:5212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5238:5245 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5246:5252 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5255:5256 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5253:5254 <> b2:88
+R5257:5264 VST.veric.local <> exprEval def
+R5280:5281 VST.veric.local <> b2:88 var
+R5278:5278 VST.veric.local <> s:87 var
+R5269:5273 VST.veric.local <> EPrim constr
+R5275:5275 VST.veric.local <> f:84 var
+R5266:5266 VST.veric.local <> F:72 var
+R5213:5220 VST.veric.local <> exprEval def
+R5236:5237 VST.veric.local <> b1:85 var
+R5234:5234 VST.veric.local <> w:86 var
+R5225:5229 VST.veric.local <> EPrim constr
+R5231:5231 VST.veric.local <> g:83 var
+R5222:5222 VST.veric.local <> G:71 var
+R5201:5203 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5188:5198 VST.veric.local <> world_erase:74 var
+R5200:5200 VST.veric.local <> w:86 var
+R5204:5204 VST.veric.local <> s:87 var
+R5174:5175 VST.veric.local <> GF:73 var
+R5179:5179 VST.veric.local <> f:84 var
+R5177:5177 VST.veric.local <> g:83 var
+ind 5296:5305 <> expr_erase
+constr 5340:5349 <> erase_EVal
+constr 5403:5413 <> erase_EUnop
+constr 5502:5513 <> erase_EBinop
+constr 5650:5660 <> erase_EPrim
+R5315:5318 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5326:5329 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5319:5322 VST.veric.local <> expr ind
+R5324:5325 VST.veric.local <> ExpressionErasure.S' var
+R5309:5312 VST.veric.local <> expr ind
+R5314:5314 VST.veric.local <> ExpressionErasure.W var
+binder 5360:5360 <> v:92
+R5368:5377 VST.veric.local <> expr_erase:90 ind
+R5391:5394 VST.veric.local <> EVal constr
+R5398:5398 VST.veric.local <> v:92 var
+R5380:5383 VST.veric.local <> EVal constr
+R5387:5387 VST.veric.local <> v:92 var
+binder 5424:5425 <> op:93
+binder 5427:5427 <> e:94
+binder 5429:5430 <> e':95
+R5453:5461 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5462:5471 VST.veric.local <> expr_erase:90 ind
+R5487:5491 VST.veric.local <> EUnop constr
+R5496:5497 VST.veric.local <> e':95 var
+R5493:5494 VST.veric.local <> op:93 var
+R5474:5478 VST.veric.local <> EUnop constr
+R5483:5483 VST.veric.local <> e:94 var
+R5480:5481 VST.veric.local <> op:93 var
+R5438:5447 VST.veric.local <> expr_erase:90 ind
+R5451:5452 VST.veric.local <> e':95 var
+R5449:5449 VST.veric.local <> e:94 var
+binder 5524:5525 <> op:96
+binder 5527:5528 <> e1:97
+binder 5530:5531 <> e2:98
+binder 5533:5535 <> e1':99
+binder 5537:5539 <> e2':100
+R5564:5572 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5590:5598 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5599:5608 VST.veric.local <> expr_erase:90 ind
+R5629:5634 VST.veric.local <> EBinop constr
+R5643:5645 VST.veric.local <> e2':100 var
+R5639:5641 VST.veric.local <> e1':99 var
+R5636:5637 VST.veric.local <> op:96 var
+R5611:5616 VST.veric.local <> EBinop constr
+R5624:5625 VST.veric.local <> e2:98 var
+R5621:5622 VST.veric.local <> e1:97 var
+R5618:5619 VST.veric.local <> op:96 var
+R5573:5582 VST.veric.local <> expr_erase:90 ind
+R5587:5589 VST.veric.local <> e2':100 var
+R5584:5585 VST.veric.local <> e2:98 var
+R5547:5556 VST.veric.local <> expr_erase:90 ind
+R5561:5563 VST.veric.local <> e1':99 var
+R5558:5559 VST.veric.local <> e1:97 var
+binder 5671:5671 <> g:101
+binder 5673:5673 <> f:102
+R5687:5695 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5696:5705 VST.veric.local <> expr_erase:90 ind
+R5718:5722 VST.veric.local <> EPrim constr
+R5724:5724 VST.veric.local <> f:102 var
+R5708:5712 VST.veric.local <> EPrim constr
+R5714:5714 VST.veric.local <> g:101 var
+R5681:5682 VST.veric.local <> ExpressionErasure.GF var
+R5686:5686 VST.veric.local <> f:102 var
+R5684:5684 VST.veric.local <> g:101 var
+prf 5735:5754 <> expr_erase_pure_expr
+binder 5765:5765 <> e:103
+binder 5767:5768 <> e':104
+R5788:5793 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5807:5812 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5813:5821 VST.veric.local <> pure_expr def
+R5825:5826 VST.veric.local <> e':104 var
+R5794:5802 VST.veric.local <> pure_expr def
+R5806:5806 VST.veric.local <> e:103 var
+R5773:5782 VST.veric.local <> expr_erase ind
+R5786:5787 VST.veric.local <> e':104 var
+R5784:5784 VST.veric.local <> e:103 var
+prf 5903:5914 <> expr_erasure
+binder 5925:5925 <> e:105
+binder 5927:5928 <> e':106
+binder 5930:5930 <> w:107
+binder 5932:5933 <> b1:108
+binder 5935:5936 <> b2:109
+R5956:5961 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5979:5984 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6017:6022 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6025:6025 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6023:6024 VST.veric.local <> b1:108 var
+R6026:6027 VST.veric.local <> b2:109 var
+R5985:5992 VST.veric.local <> exprEval def
+R6015:6016 VST.veric.local <> b2:109 var
+R6000:6010 VST.veric.local <> ExpressionErasure.world_erase var
+R6012:6012 VST.veric.local <> w:107 var
+R5996:5997 VST.veric.local <> e':106 var
+R5994:5994 VST.veric.local <> ExpressionErasure.F var
+R5962:5969 VST.veric.local <> exprEval def
+R5977:5978 VST.veric.local <> b1:108 var
+R5975:5975 VST.veric.local <> w:107 var
+R5973:5973 VST.veric.local <> e:105 var
+R5971:5971 VST.veric.local <> ExpressionErasure.G var
+R5941:5950 VST.veric.local <> expr_erase ind
+R5954:5955 VST.veric.local <> e':106 var
+R5952:5952 VST.veric.local <> e:105 var
+R6163:6171 VST.veric.local <> exprEval' def
+R6163:6171 VST.veric.local <> exprEval' def
+R6222:6230 VST.veric.local <> exprEval' def
+R6236:6246 VST.veric.local <> ExpressionErasure.world_erase var
+R6222:6230 VST.veric.local <> exprEval' def
+R6236:6246 VST.veric.local <> ExpressionErasure.world_erase var
+R6440:6448 VST.veric.local <> exprEval' def
+R6440:6448 VST.veric.local <> exprEval' def
+R6474:6482 VST.veric.local <> exprEval' def
+R6474:6482 VST.veric.local <> exprEval' def
+R6550:6558 VST.veric.local <> exprEval' def
+R6565:6575 VST.veric.local <> ExpressionErasure.world_erase var
+R6550:6558 VST.veric.local <> exprEval' def
+R6565:6575 VST.veric.local <> ExpressionErasure.world_erase var
+R6599:6607 VST.veric.local <> exprEval' def
+R6614:6624 VST.veric.local <> ExpressionErasure.world_erase var
+R6599:6607 VST.veric.local <> exprEval' def
+R6614:6624 VST.veric.local <> ExpressionErasure.world_erase var
+R6962:6977 VST.veric.local <> ExpressionErasure.primexpr_erasure var
+R6962:6977 VST.veric.local <> ExpressionErasure.primexpr_erasure var
+prf 6999:7009 <> expr_safety
+binder 7020:7020 <> e:110
+binder 7022:7023 <> e':111
+binder 7025:7025 <> w:112
+binder 7027:7028 <> b1:113
+R7048:7053 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7071:7076 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7077:7083 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7086:7087 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7084:7085 <> b2:114
+R7088:7095 VST.veric.local <> exprEval def
+R7118:7119 VST.veric.local <> b2:114 var
+R7103:7113 VST.veric.local <> ExpressionErasure.world_erase var
+R7115:7115 VST.veric.local <> w:112 var
+R7099:7100 VST.veric.local <> e':111 var
+R7097:7097 VST.veric.local <> ExpressionErasure.F var
+R7054:7061 VST.veric.local <> exprEval def
+R7069:7070 VST.veric.local <> b1:113 var
+R7067:7067 VST.veric.local <> w:112 var
+R7065:7065 VST.veric.local <> e:110 var
+R7063:7063 VST.veric.local <> ExpressionErasure.G var
+R7033:7042 VST.veric.local <> expr_erase ind
+R7046:7047 VST.veric.local <> e':111 var
+R7044:7044 VST.veric.local <> e:110 var
+R7224:7232 VST.veric.local <> exprEval' def
+R7224:7232 VST.veric.local <> exprEval' def
+R7274:7281 VST.veric.local <> exprEval def
+R7283:7283 VST.veric.local <> ExpressionErasure.G var
+R7274:7281 VST.veric.local <> exprEval def
+R7283:7283 VST.veric.local <> ExpressionErasure.G var
+R7358:7367 VST.veric.local <> unopDenote def
+R7358:7367 VST.veric.local <> unopDenote def
+R7471:7479 VST.veric.local <> exprEval' def
+R7497:7505 VST.veric.local <> exprEval' def
+R7471:7479 VST.veric.local <> exprEval' def
+R7497:7505 VST.veric.local <> exprEval' def
+R7497:7505 VST.veric.local <> exprEval' def
+R7686:7696 VST.veric.local <> binopDenote def
+R7686:7696 VST.veric.local <> binopDenote def
+R7893:7907 VST.veric.local <> ExpressionErasure.primexpr_safety var
+R7893:7907 VST.veric.local <> ExpressionErasure.primexpr_safety var
+R7926:7942 VST.veric.local ExpressionErasure <> sec
+R7955:7964 VST.veric.local <> expr_erase ind
+R7955:7964 VST.veric.local <> expr_erase ind
+sec 8070:8096 <> GenericSemanticsElaboration
+binder 8108:8108 <> W:115
+binder 8110:8110 <> V:116
+binder 8112:8112 <> G:117
+R8122:8137 VST.veric.local <> GenericSemantics class
+R8143:8143 VST.veric.local <> G:117 var
+R8141:8141 VST.veric.local <> V:116 var
+R8139:8139 VST.veric.local <> W:115 var
+binder 8117:8118 <> GS:118
+ind 8158:8161 <> stmt
+constr 8175:8182 <> Sprimcom
+constr 8216:8220 <> Sskip
+constr 8224:8227 <> Sseq
+constr 8259:8263 <> Sifte
+constr 8307:8312 <> Swhile
+R8196:8203 Coq.Relations.Relation_Definitions <> relation def
+R8205:8205 VST.veric.local <> GenericSemanticsElaboration.W var
+binder 8193:8193 <> u:121
+R8209:8212 VST.veric.local <> stmt:119 ind
+R8245:8248 VST.veric.local <> stmt:119 ind
+binder 8238:8239 <> s1:122
+binder 8241:8242 <> s2:123
+R8252:8255 VST.veric.local <> stmt:119 ind
+R8277:8280 VST.veric.local <> expr ind
+R8282:8282 VST.veric.local <> GenericSemanticsElaboration.W var
+binder 8274:8274 <> e:124
+R8293:8296 VST.veric.local <> stmt:119 ind
+binder 8286:8287 <> s1:125
+binder 8289:8290 <> s2:126
+R8300:8303 VST.veric.local <> stmt:119 ind
+R8326:8329 VST.veric.local <> expr ind
+R8331:8331 VST.veric.local <> GenericSemanticsElaboration.W var
+binder 8323:8323 <> e:127
+R8338:8341 VST.veric.local <> stmt:119 ind
+binder 8335:8335 <> s:128
+R8345:8348 VST.veric.local <> stmt:119 ind
+ind 8362:8364 <> ctl
+constr 8376:8380 <> Kstop
+constr 8384:8387 <> Kseq
+R8401:8404 VST.veric.local <> stmt ind
+binder 8398:8398 <> s:131
+R8411:8413 VST.veric.local <> ctl:129 ind
+binder 8408:8408 <> k:132
+R8417:8419 VST.veric.local <> ctl:129 ind
+ind 8433:8436 <> step
+constr 8474:8486 <> step_Sprimcom
+constr 8586:8595 <> step_Sskip
+constr 8650:8658 <> step_Sseq
+constr 8754:8768 <> step_Sifte_true
+constr 8926:8941 <> step_Sifte_false
+constr 9100:9110 <> step_Swhile
+R8441:8444 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8448:8451 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8453:8456 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8460:8463 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8457:8459 VST.veric.local <> ctl ind
+R8452:8452 VST.veric.local <> GenericSemanticsElaboration.W var
+R8445:8447 VST.veric.local <> ctl ind
+R8440:8440 VST.veric.local <> GenericSemanticsElaboration.W var
+binder 8496:8496 <> v:135
+R8505:8505 VST.veric.local <> GenericSemanticsElaboration.W var
+binder 8499:8499 <> w:136
+binder 8501:8502 <> w':137
+R8512:8514 VST.veric.local <> ctl ind
+binder 8509:8509 <> k:138
+R8526:8534 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8541:8549 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8550:8553 VST.veric.local <> step:133 ind
+R8582:8582 VST.veric.local <> k:138 var
+R8579:8580 VST.veric.local <> w':137 var
+R8558:8561 VST.veric.local <> Kseq constr
+R8576:8576 VST.veric.local <> k:138 var
+R8564:8571 VST.veric.local <> Sprimcom constr
+R8573:8573 VST.veric.local <> v:135 var
+R8555:8555 VST.veric.local <> w:136 var
+R8535:8535 VST.veric.local <> v:135 var
+R8539:8540 VST.veric.local <> w':137 var
+R8537:8537 VST.veric.local <> w:136 var
+R8523:8523 VST.veric.local <> GenericSemanticsElaboration.V var
+R8525:8525 VST.veric.local <> v:135 var
+binder 8605:8605 <> w:139
+R8611:8613 VST.veric.local <> ctl ind
+binder 8608:8608 <> k:140
+R8622:8625 VST.veric.local <> step:133 ind
+R8646:8646 VST.veric.local <> k:140 var
+R8644:8644 VST.veric.local <> w:139 var
+R8630:8633 VST.veric.local <> Kseq constr
+R8641:8641 VST.veric.local <> k:140 var
+R8635:8639 VST.veric.local <> Sskip constr
+R8627:8627 VST.veric.local <> w:139 var
+R8676:8679 VST.veric.local <> stmt ind
+binder 8669:8670 <> s1:141
+binder 8672:8673 <> s2:142
+binder 8682:8682 <> w:143
+R8688:8690 VST.veric.local <> ctl ind
+binder 8685:8685 <> k:144
+R8699:8702 VST.veric.local <> step:133 ind
+R8731:8734 VST.veric.local <> Kseq constr
+R8740:8743 VST.veric.local <> Kseq constr
+R8748:8748 VST.veric.local <> k:144 var
+R8745:8746 VST.veric.local <> s2:142 var
+R8736:8737 VST.veric.local <> s1:141 var
+R8728:8728 VST.veric.local <> w:143 var
+R8707:8710 VST.veric.local <> Kseq constr
+R8725:8725 VST.veric.local <> k:144 var
+R8713:8716 VST.veric.local <> Sseq constr
+R8721:8722 VST.veric.local <> s2:142 var
+R8718:8719 VST.veric.local <> s1:141 var
+R8704:8704 VST.veric.local <> w:143 var
+R8782:8785 VST.veric.local <> expr ind
+R8787:8787 VST.veric.local <> GenericSemanticsElaboration.W var
+binder 8779:8779 <> e:145
+R8794:8796 VST.veric.local <> val ind
+binder 8791:8791 <> v:146
+R8807:8810 VST.veric.local <> stmt ind
+binder 8800:8801 <> s1:147
+binder 8803:8804 <> s2:148
+R8817:8817 VST.veric.local <> GenericSemanticsElaboration.W var
+binder 8814:8814 <> w:149
+R8824:8826 VST.veric.local <> ctl ind
+binder 8821:8821 <> k:150
+R8851:8859 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8869:8877 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8878:8881 VST.veric.local <> step:133 ind
+R8913:8916 VST.veric.local <> Kseq constr
+R8921:8921 VST.veric.local <> k:150 var
+R8918:8919 VST.veric.local <> s1:147 var
+R8910:8910 VST.veric.local <> w:149 var
+R8886:8889 VST.veric.local <> Kseq constr
+R8907:8907 VST.veric.local <> k:150 var
+R8892:8896 VST.veric.local <> Sifte constr
+R8903:8904 VST.veric.local <> s2:148 var
+R8900:8901 VST.veric.local <> s1:147 var
+R8898:8898 VST.veric.local <> e:145 var
+R8883:8883 VST.veric.local <> w:149 var
+R8860:8866 VST.veric.local <> is_true def
+R8868:8868 VST.veric.local <> v:146 var
+R8835:8842 VST.veric.local <> exprEval def
+R8850:8850 VST.veric.local <> v:146 var
+R8848:8848 VST.veric.local <> w:149 var
+R8846:8846 VST.veric.local <> e:145 var
+R8844:8844 VST.veric.local <> GenericSemanticsElaboration.G var
+R8955:8958 VST.veric.local <> expr ind
+R8960:8960 VST.veric.local <> GenericSemanticsElaboration.W var
+binder 8952:8952 <> e:151
+R8967:8969 VST.veric.local <> val ind
+binder 8964:8964 <> v:152
+R8980:8983 VST.veric.local <> stmt ind
+binder 8973:8974 <> s1:153
+binder 8976:8977 <> s2:154
+R8990:8990 VST.veric.local <> GenericSemanticsElaboration.W var
+binder 8987:8987 <> w:155
+R8997:8999 VST.veric.local <> ctl ind
+binder 8994:8994 <> k:156
+R9024:9032 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9043:9051 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9052:9055 VST.veric.local <> step:133 ind
+R9087:9090 VST.veric.local <> Kseq constr
+R9095:9095 VST.veric.local <> k:156 var
+R9092:9093 VST.veric.local <> s2:154 var
+R9084:9084 VST.veric.local <> w:155 var
+R9060:9063 VST.veric.local <> Kseq constr
+R9081:9081 VST.veric.local <> k:156 var
+R9066:9070 VST.veric.local <> Sifte constr
+R9077:9078 VST.veric.local <> s2:154 var
+R9074:9075 VST.veric.local <> s1:153 var
+R9072:9072 VST.veric.local <> e:151 var
+R9057:9057 VST.veric.local <> w:155 var
+R9033:9033 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9034:9040 VST.veric.local <> is_true def
+R9042:9042 VST.veric.local <> v:152 var
+R9008:9015 VST.veric.local <> exprEval def
+R9023:9023 VST.veric.local <> v:152 var
+R9021:9021 VST.veric.local <> w:155 var
+R9019:9019 VST.veric.local <> e:151 var
+R9017:9017 VST.veric.local <> GenericSemanticsElaboration.G var
+R9124:9127 VST.veric.local <> stmt ind
+binder 9121:9121 <> s:157
+binder 9130:9130 <> e:158
+binder 9132:9132 <> w:159
+R9138:9140 VST.veric.local <> ctl ind
+binder 9135:9135 <> k:160
+R9149:9152 VST.veric.local <> step:133 ind
+R9191:9194 VST.veric.local <> Kseq constr
+R9234:9234 VST.veric.local <> k:160 var
+R9197:9201 VST.veric.local <> Sifte constr
+R9227:9231 VST.veric.local <> Sskip constr
+R9206:9209 VST.veric.local <> Sseq constr
+R9214:9219 VST.veric.local <> Swhile constr
+R9223:9223 VST.veric.local <> s:157 var
+R9221:9221 VST.veric.local <> e:158 var
+R9211:9211 VST.veric.local <> s:157 var
+R9203:9203 VST.veric.local <> e:158 var
+R9188:9188 VST.veric.local <> w:159 var
+R9157:9160 VST.veric.local <> Kseq constr
+R9175:9175 VST.veric.local <> k:160 var
+R9163:9168 VST.veric.local <> Swhile constr
+R9172:9172 VST.veric.local <> s:157 var
+R9170:9170 VST.veric.local <> e:158 var
+R9154:9154 VST.veric.local <> w:159 var
+ind 9299:9307 <> step_star
+constr 9345:9354 <> step_star0
+constr 9389:9398 <> step_starN
+R9312:9315 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9319:9322 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9324:9327 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9331:9334 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9328:9330 VST.veric.local <> ctl ind
+R9323:9323 VST.veric.local <> GenericSemanticsElaboration.W var
+R9316:9318 VST.veric.local <> ctl ind
+R9311:9311 VST.veric.local <> GenericSemanticsElaboration.W var
+binder 9364:9364 <> w:163
+binder 9366:9366 <> k:164
+R9369:9377 VST.veric.local <> step_star:161 ind
+R9385:9385 VST.veric.local <> k:164 var
+R9383:9383 VST.veric.local <> w:163 var
+R9381:9381 VST.veric.local <> k:164 var
+R9379:9379 VST.veric.local <> w:163 var
+binder 9408:9408 <> w:165
+binder 9410:9410 <> k:166
+binder 9412:9414 <> w'':167
+binder 9416:9418 <> k'':168
+binder 9420:9421 <> w':169
+binder 9423:9424 <> k':170
+R9443:9446 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9470:9478 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9479:9487 VST.veric.local <> step_star:161 ind
+R9496:9497 VST.veric.local <> k':170 var
+R9493:9494 VST.veric.local <> w':169 var
+R9491:9491 VST.veric.local <> k:166 var
+R9489:9489 VST.veric.local <> w:165 var
+R9447:9455 VST.veric.local <> step_star:161 ind
+R9468:9469 VST.veric.local <> k':170 var
+R9465:9466 VST.veric.local <> w':169 var
+R9461:9463 VST.veric.local <> k'':168 var
+R9457:9459 VST.veric.local <> w'':167 var
+R9427:9430 VST.veric.local <> step ind
+R9440:9442 VST.veric.local <> k'':168 var
+R9436:9438 VST.veric.local <> w'':167 var
+R9434:9434 VST.veric.local <> k:166 var
+R9432:9432 VST.veric.local <> w:165 var
+ind 9511:9515 <> stepN
+constr 9560:9566 <> stepN_0
+constr 9599:9605 <> stepN_S
+R9522:9525 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9527:9530 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9534:9537 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9539:9542 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9546:9549 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9543:9545 VST.veric.local <> ctl ind
+R9538:9538 VST.veric.local <> GenericSemanticsElaboration.W var
+R9531:9533 VST.veric.local <> ctl ind
+R9526:9526 VST.veric.local <> GenericSemanticsElaboration.W var
+R9519:9521 Coq.Init.Datatypes <> nat ind
+binder 9576:9576 <> w:173
+binder 9578:9578 <> k:174
+R9581:9585 VST.veric.local <> stepN:171 ind
+R9595:9595 VST.veric.local <> k:174 var
+R9593:9593 VST.veric.local <> w:173 var
+R9591:9591 VST.veric.local <> k:174 var
+R9589:9589 VST.veric.local <> w:173 var
+R9587:9587 Coq.Init.Datatypes <> O constr
+binder 9615:9615 <> n:175
+binder 9617:9617 <> w:176
+binder 9619:9619 <> k:177
+binder 9621:9622 <> w':178
+binder 9624:9625 <> k':179
+binder 9627:9629 <> w'':180
+binder 9631:9633 <> k'':181
+R9655:9663 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9685:9693 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9694:9698 VST.veric.local <> stepN:171 ind
+R9714:9716 VST.veric.local <> k'':181 var
+R9710:9712 VST.veric.local <> w'':180 var
+R9708:9708 VST.veric.local <> k:177 var
+R9706:9706 VST.veric.local <> w:176 var
+R9701:9701 Coq.Init.Datatypes <> S constr
+R9703:9703 VST.veric.local <> n:175 var
+R9664:9668 VST.veric.local <> stepN:171 ind
+R9682:9684 VST.veric.local <> k'':181 var
+R9678:9680 VST.veric.local <> w'':180 var
+R9675:9676 VST.veric.local <> k':179 var
+R9672:9673 VST.veric.local <> w':178 var
+R9670:9670 VST.veric.local <> n:175 var
+R9641:9644 VST.veric.local <> step ind
+R9653:9654 VST.veric.local <> k':179 var
+R9650:9651 VST.veric.local <> w':178 var
+R9648:9648 VST.veric.local <> k:177 var
+R9646:9646 VST.veric.local <> w:176 var
+ind 9730:9739 <> immed_safe
+constr 9765:9775 <> immed_safe0
+constr 9814:9824 <> immed_safe1
+R9744:9747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9751:9754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9748:9750 VST.veric.local <> ctl ind
+R9743:9743 VST.veric.local <> GenericSemanticsElaboration.W var
+binder 9785:9785 <> w:184
+R9793:9802 VST.veric.local <> immed_safe:182 ind
+R9806:9810 VST.veric.local <> Kstop constr
+R9804:9804 VST.veric.local <> w:184 var
+binder 9834:9834 <> w:185
+binder 9836:9836 <> k:186
+binder 9838:9839 <> w':187
+binder 9841:9842 <> k':188
+R9864:9872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9873:9882 VST.veric.local <> immed_safe:182 ind
+R9886:9886 VST.veric.local <> k:186 var
+R9884:9884 VST.veric.local <> w:185 var
+R9850:9853 VST.veric.local <> step ind
+R9862:9863 VST.veric.local <> k':188 var
+R9859:9860 VST.veric.local <> w':187 var
+R9857:9857 VST.veric.local <> k:186 var
+R9855:9855 VST.veric.local <> w:185 var
+def 9901:9904 <> safe
+binder 9906:9906 <> w:189
+binder 9908:9908 <> k:190
+binder 9920:9922 <> w'':191
+binder 9924:9926 <> k'':192
+R9950:9953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9954:9963 VST.veric.local <> immed_safe ind
+R9969:9971 VST.veric.local <> k'':192 var
+R9965:9967 VST.veric.local <> w'':191 var
+R9929:9937 VST.veric.local <> step_star ind
+R9947:9949 VST.veric.local <> k'':192 var
+R9943:9945 VST.veric.local <> w'':191 var
+R9941:9941 VST.veric.local <> k:190 var
+R9939:9939 VST.veric.local <> w:189 var
+prf 9999:10012 <> step_step_star
+binder 10023:10023 <> w:193
+binder 10025:10025 <> k:194
+binder 10027:10028 <> w':195
+binder 10030:10031 <> k':196
+R10050:10055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10056:10064 VST.veric.local <> step_star ind
+R10073:10074 VST.veric.local <> k':196 var
+R10070:10071 VST.veric.local <> w':195 var
+R10068:10068 VST.veric.local <> k:194 var
+R10066:10066 VST.veric.local <> w:193 var
+R10036:10039 VST.veric.local <> step ind
+R10048:10049 VST.veric.local <> k':196 var
+R10045:10046 VST.veric.local <> w':195 var
+R10043:10043 VST.veric.local <> k:194 var
+R10041:10041 VST.veric.local <> w:193 var
+prf 10132:10146 <> step_star_trans
+binder 10157:10157 <> w:197
+binder 10159:10159 <> k:198
+binder 10161:10163 <> w'':199
+binder 10165:10167 <> k'':200
+binder 10169:10170 <> w':201
+binder 10172:10173 <> k':202
+R10199:10204 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10228:10233 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10234:10242 VST.veric.local <> step_star ind
+R10251:10252 VST.veric.local <> k':202 var
+R10248:10249 VST.veric.local <> w':201 var
+R10246:10246 VST.veric.local <> k:198 var
+R10244:10244 VST.veric.local <> w:197 var
+R10205:10213 VST.veric.local <> step_star ind
+R10226:10227 VST.veric.local <> k':202 var
+R10223:10224 VST.veric.local <> w':201 var
+R10219:10221 VST.veric.local <> k'':200 var
+R10215:10217 VST.veric.local <> w'':199 var
+R10178:10186 VST.veric.local <> step_star ind
+R10196:10198 VST.veric.local <> k'':200 var
+R10192:10194 VST.veric.local <> w'':199 var
+R10190:10190 VST.veric.local <> k:198 var
+R10188:10188 VST.veric.local <> w:197 var
+prf 10358:10372 <> step_star_stepN
+binder 10383:10383 <> w:203
+binder 10385:10385 <> k:204
+binder 10387:10389 <> w'':205
+binder 10391:10393 <> k'':206
+R10419:10423 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10398:10406 VST.veric.local <> step_star ind
+R10416:10418 VST.veric.local <> k'':206 var
+R10412:10414 VST.veric.local <> w'':205 var
+R10410:10410 VST.veric.local <> k:204 var
+R10408:10408 VST.veric.local <> w:203 var
+R10424:10430 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10432:10433 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 10431:10431 <> n:207
+R10434:10438 VST.veric.local <> stepN ind
+R10450:10452 VST.veric.local <> k'':206 var
+R10446:10448 VST.veric.local <> w'':205 var
+R10444:10444 VST.veric.local <> k:204 var
+R10442:10442 VST.veric.local <> w:203 var
+R10440:10440 VST.veric.local <> n:207 var
+R10506:10514 VST.veric.local <> step_star ind
+R10506:10514 VST.veric.local <> step_star ind
+R10612:10612 Coq.Init.Datatypes <> S constr
+R10612:10612 Coq.Init.Datatypes <> S constr
+prf 10720:10736 <> step_nprimcom_det
+binder 10747:10747 <> w:208
+binder 10749:10749 <> k:209
+binder 10751:10752 <> w':210
+binder 10754:10755 <> k':211
+binder 10757:10759 <> w'':212
+binder 10761:10763 <> k'':213
+R10768:10768 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10807:10813 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10828:10833 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10850:10855 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10862:10865 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10858:10858 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10856:10857 VST.veric.local <> w':210 var
+R10859:10861 VST.veric.local <> w'':212 var
+R10868:10868 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10866:10867 VST.veric.local <> k':211 var
+R10869:10871 VST.veric.local <> k'':213 var
+R10834:10837 VST.veric.local <> step ind
+R10847:10849 VST.veric.local <> k'':213 var
+R10843:10845 VST.veric.local <> w'':212 var
+R10841:10841 VST.veric.local <> k:209 var
+R10839:10839 VST.veric.local <> w:208 var
+R10814:10817 VST.veric.local <> step ind
+R10826:10827 VST.veric.local <> k':211 var
+R10823:10824 VST.veric.local <> w':210 var
+R10821:10821 VST.veric.local <> k:209 var
+R10819:10819 VST.veric.local <> w:208 var
+binder 10776:10776 <> u:214
+binder 10778:10779 <> k':215
+R10783:10786 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R10782:10782 VST.veric.local <> k:209 var
+R10787:10790 VST.veric.local <> Kseq constr
+R10805:10806 VST.veric.local <> k':215 var
+R10793:10800 VST.veric.local <> Sprimcom constr
+R10802:10802 VST.veric.local <> u:214 var
+R10943:10947 Coq.Init.Logic <> False ind
+R10943:10947 Coq.Init.Logic <> False ind
+R10943:10947 Coq.Init.Logic <> False ind
+R10943:10947 Coq.Init.Logic <> False ind
+R10943:10947 Coq.Init.Logic <> False ind
+prf 11076:11084 <> step_safe
+binder 11095:11095 <> w:216
+binder 11097:11097 <> k:217
+binder 11099:11100 <> w':218
+binder 11102:11103 <> k':219
+R11114:11117 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11132:11135 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11136:11139 VST.veric.local <> safe def
+R11144:11145 VST.veric.local <> k':219 var
+R11141:11142 VST.veric.local <> w':218 var
+R11118:11121 VST.veric.local <> step ind
+R11130:11131 VST.veric.local <> k':219 var
+R11127:11128 VST.veric.local <> w':218 var
+R11125:11125 VST.veric.local <> k:217 var
+R11123:11123 VST.veric.local <> w:216 var
+R11106:11109 VST.veric.local <> safe def
+R11113:11113 VST.veric.local <> k:217 var
+R11111:11111 VST.veric.local <> w:216 var
+R11162:11165 VST.veric.local <> safe def
+R11234:11243 VST.veric.local <> step_starN constr
+R11234:11243 VST.veric.local <> step_starN constr
+def 11270:11279 <> config_det
+binder 11281:11281 <> w:220
+binder 11283:11283 <> k:221
+binder 11295:11296 <> w':222
+binder 11298:11299 <> k':223
+binder 11301:11303 <> w'':224
+binder 11305:11307 <> k'':225
+R11326:11329 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11346:11349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11356:11359 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11352:11352 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11350:11351 VST.veric.local <> w':222 var
+R11353:11355 VST.veric.local <> w'':224 var
+R11362:11362 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11360:11361 VST.veric.local <> k':223 var
+R11363:11365 VST.veric.local <> k'':225 var
+R11330:11333 VST.veric.local <> step ind
+R11343:11345 VST.veric.local <> k'':225 var
+R11339:11341 VST.veric.local <> w'':224 var
+R11337:11337 VST.veric.local <> k:221 var
+R11335:11335 VST.veric.local <> w:220 var
+R11312:11315 VST.veric.local <> step ind
+R11324:11325 VST.veric.local <> k':223 var
+R11321:11322 VST.veric.local <> w':222 var
+R11319:11319 VST.veric.local <> k:221 var
+R11317:11317 VST.veric.local <> w:220 var
+prf 11375:11384 <> step_safe'
+binder 11395:11395 <> w:226
+binder 11397:11397 <> k:227
+binder 11399:11400 <> w':228
+binder 11402:11403 <> k':229
+R11418:11421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11436:11439 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11454:11457 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11458:11461 VST.veric.local <> safe def
+R11465:11465 VST.veric.local <> k:227 var
+R11463:11463 VST.veric.local <> w:226 var
+R11440:11449 VST.veric.local <> config_det def
+R11453:11453 VST.veric.local <> k:227 var
+R11451:11451 VST.veric.local <> w:226 var
+R11422:11425 VST.veric.local <> step ind
+R11434:11435 VST.veric.local <> k':229 var
+R11431:11432 VST.veric.local <> w':228 var
+R11429:11429 VST.veric.local <> k:227 var
+R11427:11427 VST.veric.local <> w:226 var
+R11408:11411 VST.veric.local <> safe def
+R11416:11417 VST.veric.local <> k':229 var
+R11413:11414 VST.veric.local <> w':228 var
+R11482:11485 VST.veric.local <> safe def
+R11488:11497 VST.veric.local <> config_det def
+R11523:11533 VST.veric.local <> immed_safe1 constr
+R11523:11533 VST.veric.local <> immed_safe1 constr
+prf 11615:11628 <> safe_seq_assoc
+binder 11638:11638 <> w:230
+binder 11640:11640 <> k:231
+binder 11642:11643 <> c1:232
+binder 11645:11646 <> c2:233
+R11679:11682 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11683:11686 VST.veric.local <> safe def
+R11691:11694 VST.veric.local <> Kseq constr
+R11709:11709 VST.veric.local <> k:231 var
+R11697:11700 VST.veric.local <> Sseq constr
+R11705:11706 VST.veric.local <> c2:233 var
+R11702:11703 VST.veric.local <> c1:232 var
+R11688:11688 VST.veric.local <> w:230 var
+R11651:11654 VST.veric.local <> safe def
+R11659:11662 VST.veric.local <> Kseq constr
+R11668:11671 VST.veric.local <> Kseq constr
+R11676:11676 VST.veric.local <> k:231 var
+R11673:11674 VST.veric.local <> c2:233 var
+R11664:11665 VST.veric.local <> c1:232 var
+R11656:11656 VST.veric.local <> w:230 var
+R11727:11730 VST.veric.local <> safe def
+R11751:11754 VST.veric.local <> Kseq constr
+R11757:11760 VST.veric.local <> Sseq constr
+R11751:11754 VST.veric.local <> Kseq constr
+R11757:11760 VST.veric.local <> Sseq constr
+prf 11842:11856 <> step_compatible
+binder 11867:11867 <> c:234
+binder 11869:11869 <> w:235
+binder 11871:11872 <> w':236
+binder 11874:11874 <> k:237
+R11909:11912 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11913:11916 VST.veric.local <> step ind
+R11934:11934 VST.veric.local <> k:237 var
+R11931:11932 VST.veric.local <> w':236 var
+R11921:11924 VST.veric.local <> Kseq constr
+R11928:11928 VST.veric.local <> k:237 var
+R11926:11926 VST.veric.local <> c:234 var
+R11918:11918 VST.veric.local <> w:235 var
+R11879:11882 VST.veric.local <> step ind
+R11904:11908 VST.veric.local <> Kstop constr
+R11901:11902 VST.veric.local <> w':236 var
+R11887:11890 VST.veric.local <> Kseq constr
+R11894:11898 VST.veric.local <> Kstop constr
+R11892:11892 VST.veric.local <> c:234 var
+R11884:11884 VST.veric.local <> w:235 var
+R11989:12015 VST.veric.local GenericSemanticsElaboration <> sec
+constr 12868:12888 <> mkStratifiedSemantics
+rec 12160:12178 <> StratifiedSemantics
+proj 12994:13009 <> ss_VU_wellformed
+proj 13058:13073 <> ss_GF_wellformed
+proj 13171:13188 <> ss_primcom_erasure
+proj 13309:13325 <> ss_primcom_safety
+proj 13467:13485 <> ss_primexpr_erasure
+proj 13631:13648 <> ss_primexpr_saftey
+binder 12181:12181 <> W:238
+binder 12183:12183 <> V:239
+binder 12185:12185 <> G:240
+binder 12187:12188 <> S':241
+binder 12190:12190 <> U:242
+binder 12192:12192 <> F:243
+R12229:12244 VST.veric.local <> GenericSemantics class
+R12250:12250 VST.veric.local <> G:240 var
+R12248:12248 VST.veric.local <> V:239 var
+R12246:12246 VST.veric.local <> W:238 var
+binder 12223:12225 <> WVG:244
+R12344:12359 VST.veric.local <> GenericSemantics class
+R12366:12366 VST.veric.local <> F:243 var
+R12364:12364 VST.veric.local <> U:242 var
+R12361:12362 VST.veric.local <> S':241 var
+binder 12337:12340 <> S'UF:245
+R12468:12471 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12472:12473 VST.veric.local <> S':241 var
+R12467:12467 VST.veric.local <> W:238 var
+binder 12453:12463 <> world_erase:246
+R12597:12600 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12612:12615 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12601:12608 Coq.Relations.Relation_Definitions <> relation def
+R12610:12611 VST.veric.local <> S':241 var
+R12587:12594 Coq.Relations.Relation_Definitions <> relation def
+R12596:12596 VST.veric.local <> W:238 var
+binder 12582:12583 <> VU:247
+R12734:12737 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12750:12753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12738:12742 VST.veric.local <> pfunc def
+R12747:12749 VST.veric.local <> val ind
+R12744:12745 VST.veric.local <> S':241 var
+R12723:12727 VST.veric.local <> pfunc def
+R12731:12733 VST.veric.local <> val ind
+R12729:12729 VST.veric.local <> W:238 var
+binder 12718:12719 <> GF:248
+binder 13020:13020 <> v:250
+binder 13022:13022 <> u:251
+R13035:13042 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13046:13049 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13043:13043 VST.veric.local <> V:239 var
+R13045:13045 VST.veric.local <> v:250 var
+R13050:13050 VST.veric.local <> U:242 var
+R13052:13052 VST.veric.local <> u:251 var
+R13029:13030 VST.veric.local <> VU:247 var
+R13034:13034 VST.veric.local <> u:251 var
+R13032:13032 VST.veric.local <> v:250 var
+binder 13084:13084 <> g:253
+binder 13086:13086 <> f:254
+R13099:13106 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13110:13113 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13107:13107 VST.veric.local <> G:240 var
+R13109:13109 VST.veric.local <> g:253 var
+R13114:13114 VST.veric.local <> F:243 var
+R13116:13116 VST.veric.local <> f:254 var
+R13093:13094 VST.veric.local <> GF:248 var
+R13098:13098 VST.veric.local <> f:254 var
+R13096:13096 VST.veric.local <> g:253 var
+binder 13199:13199 <> v:256
+binder 13201:13201 <> u:257
+binder 13203:13203 <> w:258
+binder 13205:13206 <> w':259
+binder 13208:13208 <> s:260
+binder 13210:13211 <> s':261
+R13224:13231 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13249:13256 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13263:13270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13277:13284 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13299:13301 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13285:13295 VST.veric.local <> world_erase:246 var
+R13297:13298 VST.veric.local <> w':259 var
+R13302:13303 VST.veric.local <> s':261 var
+R13271:13271 VST.veric.local <> u:257 var
+R13275:13276 VST.veric.local <> s':261 var
+R13273:13273 VST.veric.local <> s:260 var
+R13257:13257 VST.veric.local <> v:256 var
+R13261:13262 VST.veric.local <> w':259 var
+R13259:13259 VST.veric.local <> w:258 var
+R13245:13247 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13232:13242 VST.veric.local <> world_erase:246 var
+R13244:13244 VST.veric.local <> w:258 var
+R13248:13248 VST.veric.local <> s:260 var
+R13218:13219 VST.veric.local <> VU:247 var
+R13223:13223 VST.veric.local <> u:257 var
+R13221:13221 VST.veric.local <> v:256 var
+binder 13336:13336 <> v:263
+binder 13338:13338 <> u:264
+binder 13340:13340 <> w:265
+binder 13342:13343 <> w':266
+binder 13345:13345 <> s:267
+R13358:13365 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13383:13390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13397:13404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13405:13411 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13414:13415 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 13412:13413 <> s':268
+R13416:13416 VST.veric.local <> u:264 var
+R13420:13421 VST.veric.local <> s':268 var
+R13418:13418 VST.veric.local <> s:267 var
+R13391:13391 VST.veric.local <> v:263 var
+R13395:13396 VST.veric.local <> w':266 var
+R13393:13393 VST.veric.local <> w:265 var
+R13379:13381 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13366:13376 VST.veric.local <> world_erase:246 var
+R13378:13378 VST.veric.local <> w:265 var
+R13382:13382 VST.veric.local <> s:267 var
+R13352:13353 VST.veric.local <> VU:247 var
+R13357:13357 VST.veric.local <> u:264 var
+R13355:13355 VST.veric.local <> v:263 var
+binder 13496:13496 <> g:270
+binder 13498:13498 <> f:271
+binder 13500:13501 <> b1:272
+binder 13503:13504 <> b2:273
+binder 13506:13506 <> w:274
+binder 13508:13508 <> s:275
+R13517:13518 VST.veric.local <> GF:248 var
+R13522:13522 VST.veric.local <> f:271 var
+R13520:13520 VST.veric.local <> g:270 var
+binder 13511:13513 <> Hgf:276
+R13547:13554 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13580:13587 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13613:13620 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13623:13623 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13621:13622 VST.veric.local <> b1:272 var
+R13624:13625 VST.veric.local <> b2:273 var
+R13588:13595 VST.veric.local <> exprEval def
+R13611:13612 VST.veric.local <> b2:273 var
+R13609:13609 VST.veric.local <> s:275 var
+R13600:13604 VST.veric.local <> EPrim constr
+R13606:13606 VST.veric.local <> f:271 var
+R13597:13597 VST.veric.local <> F:243 var
+R13555:13562 VST.veric.local <> exprEval def
+R13578:13579 VST.veric.local <> b1:272 var
+R13576:13576 VST.veric.local <> w:274 var
+R13567:13571 VST.veric.local <> EPrim constr
+R13573:13573 VST.veric.local <> g:270 var
+R13564:13564 VST.veric.local <> G:240 var
+R13543:13545 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13530:13540 VST.veric.local <> world_erase:246 var
+R13542:13542 VST.veric.local <> w:274 var
+R13546:13546 VST.veric.local <> s:275 var
+binder 13659:13659 <> g:278
+binder 13661:13661 <> f:279
+binder 13663:13664 <> b1:280
+binder 13666:13666 <> w:281
+binder 13668:13668 <> s:282
+R13681:13688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13706:13713 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13739:13746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13747:13753 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13756:13757 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 13754:13755 <> b2:283
+R13758:13765 VST.veric.local <> exprEval def
+R13781:13782 VST.veric.local <> b2:283 var
+R13779:13779 VST.veric.local <> s:282 var
+R13770:13774 VST.veric.local <> EPrim constr
+R13776:13776 VST.veric.local <> f:279 var
+R13767:13767 VST.veric.local <> F:243 var
+R13714:13721 VST.veric.local <> exprEval def
+R13737:13738 VST.veric.local <> b1:280 var
+R13735:13735 VST.veric.local <> w:281 var
+R13726:13730 VST.veric.local <> EPrim constr
+R13732:13732 VST.veric.local <> g:278 var
+R13723:13723 VST.veric.local <> G:240 var
+R13702:13704 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13689:13699 VST.veric.local <> world_erase:246 var
+R13701:13701 VST.veric.local <> w:281 var
+R13705:13705 VST.veric.local <> s:282 var
+R13675:13676 VST.veric.local <> GF:248 var
+R13680:13680 VST.veric.local <> f:279 var
+R13678:13678 VST.veric.local <> g:278 var
+sec 13796:13820 <> UnpackStratifiedSemantics
+binder 13832:13832 <> W:285
+binder 13834:13834 <> V:286
+binder 13836:13836 <> G:287
+binder 13838:13839 <> S':288
+binder 13841:13841 <> U:289
+binder 13843:13843 <> F:290
+binder 13845:13855 <> world_erase:291
+binder 13857:13858 <> VU:292
+binder 13860:13861 <> GF:293
+R13879:13897 VST.veric.local <> StratifiedSemantics class
+R13927:13928 VST.veric.local <> GF:293 var
+R13924:13925 VST.veric.local <> VU:292 var
+R13912:13922 VST.veric.local <> world_erase:291 var
+R13910:13910 VST.veric.local <> F:290 var
+R13908:13908 VST.veric.local <> U:289 var
+R13905:13906 VST.veric.local <> S':288 var
+R13903:13903 VST.veric.local <> G:287 var
+R13901:13901 VST.veric.local <> V:286 var
+R13899:13899 VST.veric.local <> W:285 var
+binder 13874:13875 <> SS:296
+prf 13939:13951 <> VU_wellformed
+binder 13962:13962 <> v:297
+binder 13964:13964 <> u:298
+R13977:13984 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13988:13991 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13985:13985 VST.veric.local <> UnpackStratifiedSemantics.V var
+R13987:13987 VST.veric.local <> v:297 var
+R13992:13992 VST.veric.local <> UnpackStratifiedSemantics.U var
+R13994:13994 VST.veric.local <> u:298 var
+R13971:13972 VST.veric.local <> UnpackStratifiedSemantics.VU var
+R13976:13976 VST.veric.local <> u:298 var
+R13974:13974 VST.veric.local <> v:297 var
+prf 14036:14048 <> GF_wellformed
+binder 14059:14059 <> g:299
+binder 14061:14061 <> f:300
+R14074:14081 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14085:14088 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14082:14082 VST.veric.local <> UnpackStratifiedSemantics.G var
+R14084:14084 VST.veric.local <> g:299 var
+R14089:14089 VST.veric.local <> UnpackStratifiedSemantics.F var
+R14091:14091 VST.veric.local <> f:300 var
+R14068:14069 VST.veric.local <> UnpackStratifiedSemantics.GF var
+R14073:14073 VST.veric.local <> f:300 var
+R14071:14071 VST.veric.local <> g:299 var
+prf 14133:14147 <> primcom_erasure
+binder 14158:14158 <> v:301
+binder 14160:14160 <> u:302
+binder 14162:14162 <> w:303
+binder 14164:14165 <> w':304
+binder 14167:14167 <> s:305
+binder 14169:14170 <> s':306
+R14183:14190 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14208:14215 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14222:14229 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14236:14243 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14258:14260 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14244:14254 VST.veric.local <> UnpackStratifiedSemantics.world_erase var
+R14256:14257 VST.veric.local <> w':304 var
+R14261:14262 VST.veric.local <> s':306 var
+R14230:14230 VST.veric.local <> u:302 var
+R14234:14235 VST.veric.local <> s':306 var
+R14232:14232 VST.veric.local <> s:305 var
+R14216:14216 VST.veric.local <> v:301 var
+R14220:14221 VST.veric.local <> w':304 var
+R14218:14218 VST.veric.local <> w:303 var
+R14204:14206 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14191:14201 VST.veric.local <> UnpackStratifiedSemantics.world_erase var
+R14203:14203 VST.veric.local <> w:303 var
+R14207:14207 VST.veric.local <> s:305 var
+R14177:14178 VST.veric.local <> UnpackStratifiedSemantics.VU var
+R14182:14182 VST.veric.local <> u:302 var
+R14180:14180 VST.veric.local <> v:301 var
+prf 14304:14317 <> primcom_safety
+binder 14328:14328 <> v:307
+binder 14330:14330 <> u:308
+binder 14332:14332 <> w:309
+binder 14334:14335 <> w':310
+binder 14337:14337 <> s:311
+R14350:14357 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14375:14382 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14389:14396 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14397:14403 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14406:14407 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 14404:14405 <> s':312
+R14408:14408 VST.veric.local <> u:308 var
+R14412:14413 VST.veric.local <> s':312 var
+R14410:14410 VST.veric.local <> s:311 var
+R14383:14383 VST.veric.local <> v:307 var
+R14387:14388 VST.veric.local <> w':310 var
+R14385:14385 VST.veric.local <> w:309 var
+R14371:14373 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14358:14368 VST.veric.local <> UnpackStratifiedSemantics.world_erase var
+R14370:14370 VST.veric.local <> w:309 var
+R14374:14374 VST.veric.local <> s:311 var
+R14344:14345 VST.veric.local <> UnpackStratifiedSemantics.VU var
+R14349:14349 VST.veric.local <> u:308 var
+R14347:14347 VST.veric.local <> v:307 var
+prf 14455:14470 <> primexpr_erasure
+binder 14481:14481 <> g:313
+binder 14483:14483 <> f:314
+binder 14485:14486 <> b1:315
+binder 14488:14489 <> b2:316
+binder 14491:14491 <> w:317
+binder 14493:14493 <> s:318
+R14506:14513 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14531:14538 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14564:14571 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14597:14604 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14607:14607 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14605:14606 VST.veric.local <> b1:315 var
+R14608:14609 VST.veric.local <> b2:316 var
+R14572:14579 VST.veric.local <> exprEval def
+R14595:14596 VST.veric.local <> b2:316 var
+R14593:14593 VST.veric.local <> s:318 var
+R14584:14588 VST.veric.local <> EPrim constr
+R14590:14590 VST.veric.local <> f:314 var
+R14581:14581 VST.veric.local <> UnpackStratifiedSemantics.F var
+R14539:14546 VST.veric.local <> exprEval def
+R14562:14563 VST.veric.local <> b1:315 var
+R14560:14560 VST.veric.local <> w:317 var
+R14551:14555 VST.veric.local <> EPrim constr
+R14557:14557 VST.veric.local <> g:313 var
+R14548:14548 VST.veric.local <> UnpackStratifiedSemantics.G var
+R14527:14529 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14514:14524 VST.veric.local <> UnpackStratifiedSemantics.world_erase var
+R14526:14526 VST.veric.local <> w:317 var
+R14530:14530 VST.veric.local <> s:318 var
+R14500:14501 VST.veric.local <> UnpackStratifiedSemantics.GF var
+R14505:14505 VST.veric.local <> f:314 var
+R14503:14503 VST.veric.local <> g:313 var
+prf 14651:14665 <> primexpr_safety
+binder 14676:14676 <> g:319
+binder 14678:14678 <> f:320
+binder 14680:14681 <> b1:321
+binder 14683:14683 <> w:322
+binder 14685:14685 <> s:323
+R14698:14705 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14723:14730 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14756:14763 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14764:14770 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14773:14774 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 14771:14772 <> b2:324
+R14775:14782 VST.veric.local <> exprEval def
+R14798:14799 VST.veric.local <> b2:324 var
+R14796:14796 VST.veric.local <> s:323 var
+R14787:14791 VST.veric.local <> EPrim constr
+R14793:14793 VST.veric.local <> f:320 var
+R14784:14784 VST.veric.local <> UnpackStratifiedSemantics.F var
+R14731:14738 VST.veric.local <> exprEval def
+R14754:14755 VST.veric.local <> b1:321 var
+R14752:14752 VST.veric.local <> w:322 var
+R14743:14747 VST.veric.local <> EPrim constr
+R14749:14749 VST.veric.local <> g:319 var
+R14740:14740 VST.veric.local <> UnpackStratifiedSemantics.G var
+R14719:14721 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14706:14716 VST.veric.local <> UnpackStratifiedSemantics.world_erase var
+R14718:14718 VST.veric.local <> w:322 var
+R14722:14722 VST.veric.local <> s:323 var
+R14692:14693 VST.veric.local <> UnpackStratifiedSemantics.GF var
+R14697:14697 VST.veric.local <> f:320 var
+R14695:14695 VST.veric.local <> g:319 var
+R14838:14862 VST.veric.local UnpackStratifiedSemantics <> sec
+sec 14967:14984 <> ErasureCorollaries
+binder 14998:14998 <> W:325
+binder 15000:15000 <> V:326
+binder 15002:15002 <> G:327
+binder 15004:15005 <> S':328
+binder 15007:15007 <> U:329
+binder 15009:15009 <> F:330
+binder 15011:15021 <> world_erase:331
+binder 15023:15024 <> VU:332
+binder 15026:15027 <> GF:333
+R15039:15057 VST.veric.local <> StratifiedSemantics class
+R15087:15088 VST.veric.local <> GF:333 var
+R15084:15085 VST.veric.local <> VU:332 var
+R15072:15082 VST.veric.local <> world_erase:331 var
+R15070:15070 VST.veric.local <> F:330 var
+R15068:15068 VST.veric.local <> U:329 var
+R15065:15066 VST.veric.local <> S':328 var
+R15063:15063 VST.veric.local <> G:327 var
+R15061:15061 VST.veric.local <> V:326 var
+R15059:15059 VST.veric.local <> W:325 var
+binder 15034:15035 <> SS:336
+ind 15124:15133 <> stmt_erase
+constr 15170:15183 <> erase_SPrimcom
+constr 15257:15267 <> erase_SSkip
+constr 15295:15304 <> erase_SSeq
+constr 15427:15437 <> erase_SIfte
+constr 15599:15610 <> erase_SWhile
+R15144:15147 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15156:15159 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15149:15152 VST.veric.local <> stmt ind
+R15154:15155 VST.veric.local <> ErasureCorollaries.S' var
+R15138:15141 VST.veric.local <> stmt ind
+R15143:15143 VST.veric.local <> ErasureCorollaries.W var
+binder 15193:15193 <> v:339
+binder 15195:15195 <> u:340
+R15209:15217 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15218:15227 VST.veric.local <> stmt_erase:337 ind
+R15243:15250 VST.veric.local <> Sprimcom constr
+R15252:15252 VST.veric.local <> u:340 var
+R15230:15237 VST.veric.local <> Sprimcom constr
+R15239:15239 VST.veric.local <> v:339 var
+R15203:15204 VST.veric.local <> ErasureCorollaries.VU var
+R15208:15208 VST.veric.local <> u:340 var
+R15206:15206 VST.veric.local <> v:339 var
+R15270:15279 VST.veric.local <> stmt_erase:337 ind
+R15287:15291 VST.veric.local <> Sskip constr
+R15281:15285 VST.veric.local <> Sskip constr
+binder 15314:15315 <> c1:341
+binder 15317:15319 <> c1':342
+binder 15321:15322 <> c2:343
+binder 15324:15326 <> c2':344
+R15351:15359 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15377:15385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15386:15395 VST.veric.local <> stmt_erase:337 ind
+R15411:15414 VST.veric.local <> Sseq constr
+R15420:15422 VST.veric.local <> c2':344 var
+R15416:15418 VST.veric.local <> c1':342 var
+R15398:15401 VST.veric.local <> Sseq constr
+R15406:15407 VST.veric.local <> c2:343 var
+R15403:15404 VST.veric.local <> c1:341 var
+R15360:15369 VST.veric.local <> stmt_erase:337 ind
+R15374:15376 VST.veric.local <> c2':344 var
+R15371:15372 VST.veric.local <> c2:343 var
+R15334:15343 VST.veric.local <> stmt_erase:337 ind
+R15348:15350 VST.veric.local <> c1':342 var
+R15345:15346 VST.veric.local <> c1:341 var
+binder 15447:15447 <> e:345
+binder 15449:15450 <> e':346
+binder 15452:15453 <> c1:347
+binder 15455:15456 <> c2:348
+binder 15458:15460 <> c1':349
+binder 15462:15464 <> c2':350
+R15490:15498 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15516:15524 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15542:15550 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15551:15560 VST.veric.local <> stmt_erase:337 ind
+R15579:15583 VST.veric.local <> Sifte constr
+R15592:15594 VST.veric.local <> c2':350 var
+R15588:15590 VST.veric.local <> c1':349 var
+R15585:15586 VST.veric.local <> e':346 var
+R15563:15567 VST.veric.local <> Sifte constr
+R15574:15575 VST.veric.local <> c2:348 var
+R15571:15572 VST.veric.local <> c1:347 var
+R15569:15569 VST.veric.local <> e:345 var
+R15525:15534 VST.veric.local <> stmt_erase:337 ind
+R15539:15541 VST.veric.local <> c2':350 var
+R15536:15537 VST.veric.local <> c2:348 var
+R15499:15508 VST.veric.local <> stmt_erase:337 ind
+R15513:15515 VST.veric.local <> c1':349 var
+R15510:15511 VST.veric.local <> c1:347 var
+R15472:15481 VST.veric.local <> expr_erase ind
+R15488:15489 VST.veric.local <> e':346 var
+R15486:15486 VST.veric.local <> e:345 var
+R15483:15484 VST.veric.local <> ErasureCorollaries.GF var
+binder 15620:15620 <> e:351
+binder 15622:15623 <> e':352
+binder 15625:15625 <> c:353
+binder 15627:15628 <> c':354
+R15654:15662 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15678:15686 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15687:15696 VST.veric.local <> stmt_erase:337 ind
+R15712:15717 VST.veric.local <> Swhile constr
+R15722:15723 VST.veric.local <> c':354 var
+R15719:15720 VST.veric.local <> e':352 var
+R15699:15704 VST.veric.local <> Swhile constr
+R15708:15708 VST.veric.local <> c:353 var
+R15706:15706 VST.veric.local <> e:351 var
+R15663:15672 VST.veric.local <> stmt_erase:337 ind
+R15676:15677 VST.veric.local <> c':354 var
+R15674:15674 VST.veric.local <> c:353 var
+R15636:15645 VST.veric.local <> expr_erase ind
+R15652:15653 VST.veric.local <> e':352 var
+R15650:15650 VST.veric.local <> e:351 var
+R15647:15648 VST.veric.local <> ErasureCorollaries.GF var
+ind 15738:15746 <> ctl_erase
+constr 15781:15791 <> erase_KStop
+constr 15818:15827 <> erase_KSeq
+R15756:15759 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15767:15770 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15761:15763 VST.veric.local <> ctl ind
+R15765:15766 VST.veric.local <> ErasureCorollaries.S' var
+R15751:15753 VST.veric.local <> ctl ind
+R15755:15755 VST.veric.local <> ErasureCorollaries.W var
+R15794:15802 VST.veric.local <> ctl_erase:355 ind
+R15810:15814 VST.veric.local <> Kstop constr
+R15804:15808 VST.veric.local <> Kstop constr
+binder 15837:15837 <> c:357
+binder 15839:15840 <> c':358
+binder 15842:15842 <> k:359
+binder 15844:15845 <> k':360
+R15868:15876 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15891:15899 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15900:15908 VST.veric.local <> ctl_erase:355 ind
+R15922:15925 VST.veric.local <> Kseq constr
+R15930:15931 VST.veric.local <> k':360 var
+R15927:15928 VST.veric.local <> c':358 var
+R15911:15914 VST.veric.local <> Kseq constr
+R15918:15918 VST.veric.local <> k:359 var
+R15916:15916 VST.veric.local <> c:357 var
+R15877:15885 VST.veric.local <> ctl_erase:355 ind
+R15889:15890 VST.veric.local <> k':360 var
+R15887:15887 VST.veric.local <> k:359 var
+R15853:15862 VST.veric.local <> stmt_erase ind
+R15866:15867 VST.veric.local <> c':358 var
+R15864:15864 VST.veric.local <> c:357 var
+prf 16000:16022 <> stratified_expr_erasure
+binder 16033:16033 <> e:361
+binder 16035:16036 <> e':362
+binder 16038:16038 <> w:363
+binder 16040:16041 <> b1:364
+binder 16043:16044 <> b2:365
+R16067:16072 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16090:16095 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16128:16133 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16136:16136 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16134:16135 VST.veric.local <> b1:364 var
+R16137:16138 VST.veric.local <> b2:365 var
+R16096:16103 VST.veric.local <> exprEval def
+R16126:16127 VST.veric.local <> b2:365 var
+R16111:16121 VST.veric.local <> ErasureCorollaries.world_erase var
+R16123:16123 VST.veric.local <> w:363 var
+R16107:16108 VST.veric.local <> e':362 var
+R16105:16105 VST.veric.local <> ErasureCorollaries.F var
+R16073:16080 VST.veric.local <> exprEval def
+R16088:16089 VST.veric.local <> b1:364 var
+R16086:16086 VST.veric.local <> w:363 var
+R16084:16084 VST.veric.local <> e:361 var
+R16082:16082 VST.veric.local <> ErasureCorollaries.G var
+R16049:16058 VST.veric.local <> expr_erase ind
+R16065:16066 VST.veric.local <> e':362 var
+R16063:16063 VST.veric.local <> e:361 var
+R16060:16061 VST.veric.local <> ErasureCorollaries.GF var
+R16167:16182 VST.veric.local <> primexpr_erasure thm
+R16167:16182 VST.veric.local <> primexpr_erasure thm
+R16200:16211 VST.veric.local <> expr_erasure thm
+R16200:16211 VST.veric.local <> expr_erasure thm
+prf 16233:16254 <> stratified_expr_safety
+binder 16265:16265 <> e:366
+binder 16267:16268 <> e':367
+binder 16270:16270 <> w:368
+binder 16272:16273 <> b1:369
+R16296:16301 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16319:16324 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16325:16331 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R16334:16335 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 16332:16333 <> b2:370
+R16336:16343 VST.veric.local <> exprEval def
+R16366:16367 VST.veric.local <> b2:370 var
+R16351:16361 VST.veric.local <> ErasureCorollaries.world_erase var
+R16363:16363 VST.veric.local <> w:368 var
+R16347:16348 VST.veric.local <> e':367 var
+R16345:16345 VST.veric.local <> ErasureCorollaries.F var
+R16302:16309 VST.veric.local <> exprEval def
+R16317:16318 VST.veric.local <> b1:369 var
+R16315:16315 VST.veric.local <> w:368 var
+R16313:16313 VST.veric.local <> e:366 var
+R16311:16311 VST.veric.local <> ErasureCorollaries.G var
+R16278:16287 VST.veric.local <> expr_erase ind
+R16294:16295 VST.veric.local <> e':367 var
+R16292:16292 VST.veric.local <> e:366 var
+R16289:16290 VST.veric.local <> ErasureCorollaries.GF var
+R16396:16410 VST.veric.local <> primexpr_safety thm
+R16396:16410 VST.veric.local <> primexpr_safety thm
+R16427:16437 VST.veric.local <> expr_safety thm
+R16427:16437 VST.veric.local <> expr_safety thm
+prf 16459:16470 <> step_erasure
+R16488:16488 VST.veric.local <> ErasureCorollaries.W var
+binder 16482:16482 <> w:371
+binder 16484:16485 <> w':372
+R16498:16499 VST.veric.local <> ErasureCorollaries.S' var
+binder 16492:16492 <> s:373
+binder 16494:16495 <> s':374
+binder 16502:16504 <> k_w:375
+binder 16506:16509 <> k_w':376
+binder 16511:16513 <> k_s:377
+binder 16515:16518 <> k_s':378
+R16540:16545 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16563:16568 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16594:16599 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16625:16630 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16650:16653 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16645:16647 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16631:16641 VST.veric.local <> ErasureCorollaries.world_erase var
+R16643:16644 VST.veric.local <> w':372 var
+R16648:16649 VST.veric.local <> s':374 var
+R16654:16662 VST.veric.local <> ctl_erase ind
+R16669:16672 VST.veric.local <> k_s':378 var
+R16664:16667 VST.veric.local <> k_w':376 var
+R16601:16604 VST.veric.local <> step ind
+R16621:16624 VST.veric.local <> k_s':378 var
+R16618:16619 VST.veric.local <> s':374 var
+R16614:16616 VST.veric.local <> k_s:377 var
+R16612:16612 VST.veric.local <> s:373 var
+R16610:16610 VST.veric.local <> ErasureCorollaries.F var
+R16608:16608 VST.veric.local <> ErasureCorollaries.U var
+R16570:16573 VST.veric.local <> step ind
+R16590:16593 VST.veric.local <> k_w':376 var
+R16587:16588 VST.veric.local <> w':372 var
+R16583:16585 VST.veric.local <> k_w:375 var
+R16581:16581 VST.veric.local <> w:371 var
+R16579:16579 VST.veric.local <> ErasureCorollaries.G var
+R16577:16577 VST.veric.local <> ErasureCorollaries.V var
+R16546:16554 VST.veric.local <> ctl_erase ind
+R16560:16562 VST.veric.local <> k_s:377 var
+R16556:16558 VST.veric.local <> k_w:375 var
+R16536:16538 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16523:16533 VST.veric.local <> ErasureCorollaries.world_erase var
+R16535:16535 VST.veric.local <> w:371 var
+R16539:16539 VST.veric.local <> s:373 var
+R16750:16764 VST.veric.local <> primcom_erasure thm
+R16750:16764 VST.veric.local <> primcom_erasure thm
+R16841:16843 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16859:16881 VST.veric.local <> stratified_expr_erasure thm
+R16841:16843 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16859:16881 VST.veric.local <> stratified_expr_erasure thm
+R16923:16925 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16941:16963 VST.veric.local <> stratified_expr_erasure thm
+R16923:16925 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16941:16963 VST.veric.local <> stratified_expr_erasure thm
+prf 17008:17018 <> step_safety
+binder 17029:17029 <> w:379
+binder 17031:17032 <> w':380
+binder 17034:17034 <> s:381
+binder 17036:17038 <> k_w:382
+binder 17040:17043 <> k_w':383
+binder 17045:17047 <> k_s:384
+R17069:17074 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17092:17097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17123:17128 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17129:17135 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R17138:17139 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 17136:17137 <> s':385
+R17140:17146 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R17151:17152 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 17147:17150 <> k_s':386
+R17154:17157 VST.veric.local <> step ind
+R17174:17177 VST.veric.local <> k_s':386 var
+R17171:17172 VST.veric.local <> s':385 var
+R17167:17169 VST.veric.local <> k_s:384 var
+R17165:17165 VST.veric.local <> s:381 var
+R17163:17163 VST.veric.local <> ErasureCorollaries.F var
+R17161:17161 VST.veric.local <> ErasureCorollaries.U var
+R17099:17102 VST.veric.local <> step ind
+R17119:17122 VST.veric.local <> k_w':383 var
+R17116:17117 VST.veric.local <> w':380 var
+R17112:17114 VST.veric.local <> k_w:382 var
+R17110:17110 VST.veric.local <> w:379 var
+R17108:17108 VST.veric.local <> ErasureCorollaries.G var
+R17106:17106 VST.veric.local <> ErasureCorollaries.V var
+R17075:17083 VST.veric.local <> ctl_erase ind
+R17089:17091 VST.veric.local <> k_s:384 var
+R17085:17087 VST.veric.local <> k_w:382 var
+R17065:17067 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17052:17062 VST.veric.local <> ErasureCorollaries.world_erase var
+R17064:17064 VST.veric.local <> w:379 var
+R17068:17068 VST.veric.local <> s:381 var
+R17242:17255 VST.veric.local <> primcom_safety thm
+R17271:17280 Coq.Init.Logic <> refl_equal syndef
+R17242:17255 VST.veric.local <> primcom_safety thm
+R17271:17280 Coq.Init.Logic <> refl_equal syndef
+R17300:17312 VST.veric.local <> VU_wellformed thm
+R17300:17312 VST.veric.local <> VU_wellformed thm
+R17452:17459 VST.veric.local <> exprEval def
+R17467:17477 VST.veric.local <> ErasureCorollaries.world_erase var
+R17461:17461 VST.veric.local <> ErasureCorollaries.F var
+R17452:17459 VST.veric.local <> exprEval def
+R17467:17477 VST.veric.local <> ErasureCorollaries.world_erase var
+R17461:17461 VST.veric.local <> ErasureCorollaries.F var
+R17499:17520 VST.veric.local <> stratified_expr_safety thm
+R17499:17520 VST.veric.local <> stratified_expr_safety thm
+R17552:17574 VST.veric.local <> stratified_expr_erasure thm
+R17552:17574 VST.veric.local <> stratified_expr_erasure thm
+R17689:17696 VST.veric.local <> exprEval def
+R17704:17714 VST.veric.local <> ErasureCorollaries.world_erase var
+R17698:17698 VST.veric.local <> ErasureCorollaries.F var
+R17689:17696 VST.veric.local <> exprEval def
+R17704:17714 VST.veric.local <> ErasureCorollaries.world_erase var
+R17698:17698 VST.veric.local <> ErasureCorollaries.F var
+R17736:17757 VST.veric.local <> stratified_expr_safety thm
+R17736:17757 VST.veric.local <> stratified_expr_safety thm
+R17789:17811 VST.veric.local <> stratified_expr_erasure thm
+R17789:17811 VST.veric.local <> stratified_expr_erasure thm
+R17868:17878 VST.veric.local <> ErasureCorollaries.world_erase var
+R17893:17896 VST.veric.local <> Kseq constr
+R17868:17878 VST.veric.local <> ErasureCorollaries.world_erase var
+R17893:17896 VST.veric.local <> Kseq constr
+prf 17978:17994 <> step_star_erasure
+binder 18005:18005 <> w:387
+binder 18007:18008 <> w':388
+binder 18010:18010 <> s:389
+binder 18012:18014 <> k_w:390
+binder 18016:18019 <> k_w':391
+binder 18021:18023 <> k_s:392
+R18045:18050 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18068:18073 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18104:18109 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18110:18116 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R18119:18120 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 18117:18118 <> s':393
+R18121:18127 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R18132:18141 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 18128:18131 <> k_s':394
+R18172:18183 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R18143:18151 VST.veric.local <> step_star ind
+R18168:18171 VST.veric.local <> k_s':394 var
+R18165:18166 VST.veric.local <> s':393 var
+R18161:18163 VST.veric.local <> k_s:392 var
+R18159:18159 VST.veric.local <> s:389 var
+R18157:18157 VST.veric.local <> ErasureCorollaries.F var
+R18155:18155 VST.veric.local <> ErasureCorollaries.U var
+R18203:18206 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R18198:18200 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18184:18194 VST.veric.local <> ErasureCorollaries.world_erase var
+R18196:18197 VST.veric.local <> w':388 var
+R18201:18202 VST.veric.local <> s':393 var
+R18207:18215 VST.veric.local <> ctl_erase ind
+R18222:18225 VST.veric.local <> k_s':394 var
+R18217:18220 VST.veric.local <> k_w':391 var
+R18075:18083 VST.veric.local <> step_star ind
+R18100:18103 VST.veric.local <> k_w':391 var
+R18097:18098 VST.veric.local <> w':388 var
+R18093:18095 VST.veric.local <> k_w:390 var
+R18091:18091 VST.veric.local <> w:387 var
+R18089:18089 VST.veric.local <> ErasureCorollaries.G var
+R18087:18087 VST.veric.local <> ErasureCorollaries.V var
+R18051:18059 VST.veric.local <> ctl_erase ind
+R18065:18067 VST.veric.local <> k_s:392 var
+R18061:18063 VST.veric.local <> k_w:390 var
+R18041:18043 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18028:18038 VST.veric.local <> ErasureCorollaries.world_erase var
+R18040:18040 VST.veric.local <> w:387 var
+R18044:18044 VST.veric.local <> s:389 var
+R18345:18355 VST.veric.local <> step_safety thm
+R18345:18355 VST.veric.local <> step_safety thm
+R18407:18418 VST.veric.local <> step_erasure thm
+R18407:18418 VST.veric.local <> step_erasure thm
+R18530:18538 VST.veric.local <> step_star ind
+R18544:18544 VST.veric.local <> ErasureCorollaries.F var
+R18542:18542 VST.veric.local <> ErasureCorollaries.U var
+R18574:18583 VST.veric.local <> step_starN constr
+R18530:18538 VST.veric.local <> step_star ind
+R18544:18544 VST.veric.local <> ErasureCorollaries.F var
+R18542:18542 VST.veric.local <> ErasureCorollaries.U var
+R18574:18583 VST.veric.local <> step_starN constr
+R18642:18659 VST.veric.local ErasureCorollaries <> sec
+rec 18755:18787 <> StratifiedSemanticsWithSeparation
+proj 19354:19370 <> sss_HG_wellformed
+proj 19422:19441 <> sss_primexpr_erasure
+proj 19581:19599 <> sss_primexpr_safety
+binder 18792:18792 <> W:395
+binder 18794:18794 <> V:396
+binder 18796:18796 <> G:397
+binder 18798:18799 <> S':398
+binder 18801:18801 <> U:399
+binder 18803:18803 <> F:400
+binder 18805:18815 <> world_erase:401
+binder 18817:18818 <> VU:402
+binder 18820:18821 <> GF:403
+R18828:18846 VST.veric.local <> StratifiedSemantics class
+R18876:18877 VST.veric.local <> GF:403 var
+R18873:18874 VST.veric.local <> VU:402 var
+R18861:18871 VST.veric.local <> world_erase:401 var
+R18859:18859 VST.veric.local <> F:400 var
+R18857:18857 VST.veric.local <> U:399 var
+R18854:18855 VST.veric.local <> S':398 var
+R18852:18852 VST.veric.local <> G:397 var
+R18850:18850 VST.veric.local <> V:396 var
+R18848:18848 VST.veric.local <> W:395 var
+binder 18828:18877 <> H:406
+binder 18883:18883 <> A:407
+R18893:18896 VST.msl.sepalg <> Join class
+R18898:18898 VST.veric.local <> A:407 var
+binder 18889:18890 <> JA:408
+R18905:18912 VST.msl.sepalg <> Perm_alg class
+R18914:18914 VST.veric.local <> A:407 var
+binder 18901:18902 <> PA:409
+R18921:18927 VST.msl.sepalg <> Sep_alg class
+R18929:18929 VST.veric.local <> A:407 var
+binder 18917:18918 <> SA:410
+R18999:19002 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19003:19003 VST.veric.local <> A:407 var
+R18998:18998 VST.veric.local <> W:395 var
+binder 18990:18994 <> projA:411
+R19084:19087 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19073:19077 VST.veric.local <> pfunc def
+R19081:19083 VST.veric.local <> val ind
+R19079:19079 VST.veric.local <> A:407 var
+binder 19069:19069 <> H:412
+R19254:19257 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19269:19272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19258:19262 VST.veric.local <> pfunc def
+R19266:19268 VST.veric.local <> val ind
+R19264:19264 VST.veric.local <> W:395 var
+R19243:19247 VST.veric.local <> pfunc def
+R19251:19253 VST.veric.local <> val ind
+R19249:19249 VST.veric.local <> A:407 var
+binder 19238:19239 <> HG:413
+binder 19381:19381 <> h:415
+binder 19383:19383 <> g:416
+R19397:19405 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19409:19412 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R19406:19406 VST.veric.local <> H:412 var
+R19408:19408 VST.veric.local <> h:415 var
+R19413:19413 VST.veric.local <> G:397 var
+R19415:19415 VST.veric.local <> g:416 var
+R19391:19392 VST.veric.local <> HG:413 var
+R19396:19396 VST.veric.local <> g:416 var
+R19394:19394 VST.veric.local <> h:415 var
+binder 19452:19452 <> w:418
+binder 19454:19454 <> a:419
+binder 19456:19456 <> g:420
+binder 19458:19458 <> h:421
+binder 19460:19461 <> b1:422
+binder 19463:19464 <> b2:423
+R19477:19484 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19496:19503 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19529:19536 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19562:19569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19572:19572 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19570:19571 VST.veric.local <> b1:422 var
+R19573:19574 VST.veric.local <> b2:423 var
+R19537:19544 VST.veric.local <> exprEval def
+R19560:19561 VST.veric.local <> b2:423 var
+R19558:19558 VST.veric.local <> w:418 var
+R19549:19553 VST.veric.local <> EPrim constr
+R19555:19555 VST.veric.local <> g:420 var
+R19546:19546 VST.veric.local <> G:397 var
+R19504:19511 VST.veric.local <> exprEval def
+R19527:19528 VST.veric.local <> b1:422 var
+R19525:19525 VST.veric.local <> a:419 var
+R19516:19520 VST.veric.local <> EPrim constr
+R19522:19522 VST.veric.local <> h:421 var
+R19513:19513 VST.veric.local <> H:412 var
+R19492:19494 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19485:19489 VST.veric.local <> projA:411 var
+R19491:19491 VST.veric.local <> w:418 var
+R19495:19495 VST.veric.local <> a:419 var
+R19471:19472 VST.veric.local <> HG:413 var
+R19476:19476 VST.veric.local <> g:420 var
+R19474:19474 VST.veric.local <> h:421 var
+binder 19610:19610 <> w:425
+binder 19612:19612 <> a:426
+binder 19614:19614 <> g:427
+binder 19616:19616 <> h:428
+binder 19618:19619 <> b1:429
+R19632:19639 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19651:19658 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19684:19691 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19692:19698 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R19701:19702 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 19699:19700 <> b2:430
+R19703:19710 VST.veric.local <> exprEval def
+R19726:19727 VST.veric.local <> b2:430 var
+R19724:19724 VST.veric.local <> w:425 var
+R19715:19719 VST.veric.local <> EPrim constr
+R19721:19721 VST.veric.local <> g:427 var
+R19712:19712 VST.veric.local <> G:397 var
+R19659:19666 VST.veric.local <> exprEval def
+R19682:19683 VST.veric.local <> b1:429 var
+R19680:19680 VST.veric.local <> a:426 var
+R19671:19675 VST.veric.local <> EPrim constr
+R19677:19677 VST.veric.local <> h:428 var
+R19668:19668 VST.veric.local <> H:412 var
+R19647:19649 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19640:19644 VST.veric.local <> projA:411 var
+R19646:19646 VST.veric.local <> w:425 var
+R19650:19650 VST.veric.local <> a:426 var
+R19626:19627 VST.veric.local <> HG:413 var
+R19631:19631 VST.veric.local <> g:427 var
+R19629:19629 VST.veric.local <> h:428 var
+sec 19741:19779 <> UnpackStratifiedSemanticsWithSeparation
+binder 19791:19791 <> W:432
+binder 19793:19793 <> V:433
+binder 19795:19795 <> G:434
+binder 19797:19798 <> S':435
+binder 19800:19800 <> U:436
+binder 19802:19802 <> F:437
+binder 19804:19814 <> world_erase:438
+binder 19816:19817 <> VU:439
+binder 19819:19820 <> GF:440
+binder 19822:19822 <> A:441
+binder 19824:19828 <> projA:442
+binder 19830:19830 <> H:443
+binder 19832:19833 <> HG:444
+R19844:19876 VST.veric.local <> StratifiedSemanticsWithSeparation class
+R19919:19920 VST.veric.local <> HG:444 var
+R19917:19917 VST.veric.local <> H:443 var
+R19911:19915 VST.veric.local <> projA:442 var
+R19909:19909 VST.veric.local <> A:441 var
+R19906:19907 VST.veric.local <> GF:440 var
+R19903:19904 VST.veric.local <> VU:439 var
+R19891:19901 VST.veric.local <> world_erase:438 var
+R19889:19889 VST.veric.local <> F:437 var
+R19887:19887 VST.veric.local <> U:436 var
+R19884:19885 VST.veric.local <> S':435 var
+R19882:19882 VST.veric.local <> G:434 var
+R19880:19880 VST.veric.local <> V:433 var
+R19878:19878 VST.veric.local <> W:432 var
+binder 19838:19840 <> SSS:451
+prf 19931:19943 <> HG_wellformed
+binder 19954:19954 <> h:452
+binder 19956:19956 <> g:453
+R19970:19978 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19982:19985 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R19979:19979 VST.veric.local <> UnpackStratifiedSemanticsWithSeparation.H var
+R19981:19981 VST.veric.local <> h:452 var
+R19986:19986 VST.veric.local <> UnpackStratifiedSemanticsWithSeparation.G var
+R19988:19988 VST.veric.local <> g:453 var
+R19964:19965 VST.veric.local <> UnpackStratifiedSemanticsWithSeparation.HG var
+R19969:19969 VST.veric.local <> g:453 var
+R19967:19967 VST.veric.local <> h:452 var
+prf 20031:20050 <> sep_primexpr_erasure
+binder 20061:20061 <> w:454
+binder 20063:20063 <> a:455
+binder 20065:20065 <> g:456
+binder 20067:20067 <> h:457
+binder 20069:20070 <> b1:458
+binder 20072:20073 <> b2:459
+R20084:20089 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20101:20106 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20132:20137 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20163:20168 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20171:20171 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20169:20170 VST.veric.local <> b1:458 var
+R20172:20173 VST.veric.local <> b2:459 var
+R20138:20145 VST.veric.local <> exprEval def
+R20161:20162 VST.veric.local <> b2:459 var
+R20159:20159 VST.veric.local <> w:454 var
+R20150:20154 VST.veric.local <> EPrim constr
+R20156:20156 VST.veric.local <> g:456 var
+R20147:20147 VST.veric.local <> UnpackStratifiedSemanticsWithSeparation.G var
+R20107:20114 VST.veric.local <> exprEval def
+R20130:20131 VST.veric.local <> b1:458 var
+R20128:20128 VST.veric.local <> a:455 var
+R20119:20123 VST.veric.local <> EPrim constr
+R20125:20125 VST.veric.local <> h:457 var
+R20116:20116 VST.veric.local <> UnpackStratifiedSemanticsWithSeparation.H var
+R20097:20099 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20090:20094 VST.veric.local <> UnpackStratifiedSemanticsWithSeparation.projA var
+R20096:20096 VST.veric.local <> w:454 var
+R20100:20100 VST.veric.local <> a:455 var
+R20078:20079 VST.veric.local <> UnpackStratifiedSemanticsWithSeparation.HG var
+R20083:20083 VST.veric.local <> g:456 var
+R20081:20081 VST.veric.local <> h:457 var
+prf 20216:20234 <> sep_primexpr_safety
+binder 20245:20245 <> w:460
+binder 20247:20247 <> a:461
+binder 20249:20249 <> g:462
+binder 20251:20251 <> h:463
+binder 20253:20254 <> b1:464
+R20265:20270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20282:20287 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20313:20318 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20319:20325 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R20328:20329 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 20326:20327 <> b2:465
+R20330:20337 VST.veric.local <> exprEval def
+R20353:20354 VST.veric.local <> b2:465 var
+R20351:20351 VST.veric.local <> w:460 var
+R20342:20346 VST.veric.local <> EPrim constr
+R20348:20348 VST.veric.local <> g:462 var
+R20339:20339 VST.veric.local <> UnpackStratifiedSemanticsWithSeparation.G var
+R20288:20295 VST.veric.local <> exprEval def
+R20311:20312 VST.veric.local <> b1:464 var
+R20309:20309 VST.veric.local <> a:461 var
+R20300:20304 VST.veric.local <> EPrim constr
+R20306:20306 VST.veric.local <> h:463 var
+R20297:20297 VST.veric.local <> UnpackStratifiedSemanticsWithSeparation.H var
+R20278:20280 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20271:20275 VST.veric.local <> UnpackStratifiedSemanticsWithSeparation.projA var
+R20277:20277 VST.veric.local <> w:460 var
+R20281:20281 VST.veric.local <> a:461 var
+R20259:20260 VST.veric.local <> UnpackStratifiedSemanticsWithSeparation.HG var
+R20264:20264 VST.veric.local <> g:462 var
+R20262:20262 VST.veric.local <> h:463 var
+R20394:20432 VST.veric.local UnpackStratifiedSemanticsWithSeparation <> sec
+sec 20445:20465 <> SepErasureCorollaries
+binder 20477:20477 <> W:466
+binder 20479:20479 <> V:467
+binder 20481:20481 <> G:468
+binder 20483:20484 <> S':469
+binder 20486:20486 <> U:470
+binder 20488:20488 <> F:471
+binder 20490:20500 <> world_erase:472
+binder 20502:20503 <> VU:473
+binder 20505:20506 <> GF:474
+binder 20508:20508 <> A:475
+binder 20510:20514 <> projA:476
+binder 20516:20516 <> H:477
+binder 20518:20519 <> HG:478
+R20530:20562 VST.veric.local <> StratifiedSemanticsWithSeparation class
+R20605:20606 VST.veric.local <> HG:478 var
+R20603:20603 VST.veric.local <> H:477 var
+R20597:20601 VST.veric.local <> projA:476 var
+R20595:20595 VST.veric.local <> A:475 var
+R20592:20593 VST.veric.local <> GF:474 var
+R20589:20590 VST.veric.local <> VU:473 var
+R20577:20587 VST.veric.local <> world_erase:472 var
+R20575:20575 VST.veric.local <> F:471 var
+R20573:20573 VST.veric.local <> U:470 var
+R20570:20571 VST.veric.local <> S':469 var
+R20568:20568 VST.veric.local <> G:468 var
+R20566:20566 VST.veric.local <> V:467 var
+R20564:20564 VST.veric.local <> W:466 var
+binder 20524:20526 <> SSS:485
+prf 20617:20632 <> sep_expr_erasure
+binder 20643:20643 <> e:486
+binder 20645:20646 <> e':487
+binder 20648:20648 <> w:488
+binder 20650:20651 <> b1:489
+binder 20653:20654 <> b2:490
+R20677:20682 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20708:20713 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20732:20737 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20740:20740 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20738:20739 VST.veric.local <> b1:489 var
+R20741:20742 VST.veric.local <> b2:490 var
+R20714:20721 VST.veric.local <> exprEval def
+R20730:20731 VST.veric.local <> b2:490 var
+R20728:20728 VST.veric.local <> w:488 var
+R20725:20726 VST.veric.local <> e':487 var
+R20723:20723 VST.veric.local <> SepErasureCorollaries.G var
+R20683:20690 VST.veric.local <> exprEval def
+R20706:20707 VST.veric.local <> b1:489 var
+R20697:20701 VST.veric.local <> SepErasureCorollaries.projA var
+R20703:20703 VST.veric.local <> w:488 var
+R20694:20694 VST.veric.local <> e:486 var
+R20692:20692 VST.veric.local <> SepErasureCorollaries.H var
+R20659:20668 VST.veric.local <> expr_erase ind
+R20675:20676 VST.veric.local <> e':487 var
+R20673:20673 VST.veric.local <> e:486 var
+R20670:20671 VST.veric.local <> SepErasureCorollaries.HG var
+R20879:20887 VST.veric.local <> exprEval' def
+R20892:20896 VST.veric.local <> SepErasureCorollaries.projA var
+R20879:20887 VST.veric.local <> exprEval' def
+R20892:20896 VST.veric.local <> SepErasureCorollaries.projA var
+R20946:20954 VST.veric.local <> exprEval' def
+R20946:20954 VST.veric.local <> exprEval' def
+R21150:21158 VST.veric.local <> exprEval' def
+R21164:21168 VST.veric.local <> SepErasureCorollaries.projA var
+R21150:21158 VST.veric.local <> exprEval' def
+R21164:21168 VST.veric.local <> SepErasureCorollaries.projA var
+R21192:21200 VST.veric.local <> exprEval' def
+R21206:21210 VST.veric.local <> SepErasureCorollaries.projA var
+R21192:21200 VST.veric.local <> exprEval' def
+R21206:21210 VST.veric.local <> SepErasureCorollaries.projA var
+R21276:21284 VST.veric.local <> exprEval' def
+R21276:21284 VST.veric.local <> exprEval' def
+R21311:21319 VST.veric.local <> exprEval' def
+R21311:21319 VST.veric.local <> exprEval' def
+R21655:21674 VST.veric.local <> sep_primexpr_erasure thm
+R21655:21674 VST.veric.local <> sep_primexpr_erasure thm
+prf 21696:21710 <> sep_expr_safety
+binder 21721:21721 <> e:491
+binder 21723:21724 <> e':492
+binder 21726:21726 <> w:493
+binder 21728:21729 <> b1:494
+R21752:21757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21783:21788 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21789:21795 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R21798:21799 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 21796:21797 <> b2:495
+R21800:21807 VST.veric.local <> exprEval def
+R21816:21817 VST.veric.local <> b2:495 var
+R21814:21814 VST.veric.local <> w:493 var
+R21811:21812 VST.veric.local <> e':492 var
+R21809:21809 VST.veric.local <> SepErasureCorollaries.G var
+R21758:21765 VST.veric.local <> exprEval def
+R21781:21782 VST.veric.local <> b1:494 var
+R21772:21776 VST.veric.local <> SepErasureCorollaries.projA var
+R21778:21778 VST.veric.local <> w:493 var
+R21769:21769 VST.veric.local <> e:491 var
+R21767:21767 VST.veric.local <> SepErasureCorollaries.H var
+R21734:21743 VST.veric.local <> expr_erase ind
+R21750:21751 VST.veric.local <> e':492 var
+R21748:21748 VST.veric.local <> e:491 var
+R21745:21746 VST.veric.local <> SepErasureCorollaries.HG var
+R21923:21931 VST.veric.local <> exprEval' def
+R21936:21940 VST.veric.local <> SepErasureCorollaries.projA var
+R21923:21931 VST.veric.local <> exprEval' def
+R21936:21940 VST.veric.local <> SepErasureCorollaries.projA var
+R21981:21988 VST.veric.local <> exprEval def
+R21995:21999 VST.veric.local <> SepErasureCorollaries.projA var
+R21990:21990 VST.veric.local <> SepErasureCorollaries.H var
+R21981:21988 VST.veric.local <> exprEval def
+R21995:21999 VST.veric.local <> SepErasureCorollaries.projA var
+R21990:21990 VST.veric.local <> SepErasureCorollaries.H var
+R22073:22082 VST.veric.local <> unopDenote def
+R22073:22082 VST.veric.local <> unopDenote def
+R22186:22194 VST.veric.local <> exprEval' def
+R22200:22204 VST.veric.local <> SepErasureCorollaries.projA var
+R22220:22228 VST.veric.local <> exprEval' def
+R22234:22238 VST.veric.local <> SepErasureCorollaries.projA var
+R22186:22194 VST.veric.local <> exprEval' def
+R22200:22204 VST.veric.local <> SepErasureCorollaries.projA var
+R22220:22228 VST.veric.local <> exprEval' def
+R22234:22238 VST.veric.local <> SepErasureCorollaries.projA var
+R22220:22228 VST.veric.local <> exprEval' def
+R22234:22238 VST.veric.local <> SepErasureCorollaries.projA var
+R22417:22427 VST.veric.local <> binopDenote def
+R22417:22427 VST.veric.local <> binopDenote def
+R22624:22642 VST.veric.local <> sep_primexpr_safety thm
+R22624:22642 VST.veric.local <> sep_primexpr_safety thm
+R22661:22681 VST.veric.local SepErasureCorollaries <> sec
